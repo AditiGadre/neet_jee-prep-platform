@@ -1,0 +1,5987 @@
+[
+  {
+    "question_id": "bot_04_q1",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A plant tissue with maximum refractive index",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is rigid with lignified wall",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is living with pectin deposition in cell wall",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Possess large intercellular space that helps in  buoyancy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is fundamental tissue with chlorophyll",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q2",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. anatomical features of monocot root.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pericycle produces lateral roots and part of  vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Exodermis is present in older roots",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conjunctive parenchyma does not produce  cambium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Well developed pith is present",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q3",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In the life cycle of a plant, the secondary tissues are made by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intercalary meristem and vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Apical meristem and cork cambium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cork-cambium and vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Primary meristems and interfascicular  cambium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q4",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Casparian strips are present in the endodermis of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monocot stem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dicot root",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dicot stem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q5",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Stem of Zea mays plant lacks",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sieve tube",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phloem parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phloem fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Companion cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q6",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct one w.r.t. bundle sheath in a dicot leaf",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sclerenchymatous",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Collenchymatous",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parenchymatous",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lignified",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q7",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The spring wood present in an annual ring",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is dark coloured",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Has high density than autumn wood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Has abundant fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Has low density than autumn wood",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q8",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Bulliform cells are associated with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Epidermis of dorsiventral leaves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adaxial epidermis of isobilateral leaves",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Abaxial epidermis of monocot leaves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mesophylls of dicot leaves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q9",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct w.r.t. vascular bundles of monocot stem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence  of  collenchymatous  or parenchymatous bundle sheath",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of phloem parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vessels are arranged in V-shaped manner",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Schizogenous water cavity is present",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q10",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In monocotyledonous stem",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypodermis is parenchymatous",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Each vascular bundle is surrounded by  collenchymatous bundle sheath",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Peripheral vascular bundles are generally  larger than centrally located ones",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Water containing cavities are present within  the vascular bundles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q11",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Primary meristem",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Originates from permanent tissue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Possess non-vacuolated cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Develops from secondary permanent tissue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Represents primordial meristem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q12",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A tree can be killed by removing its bark, as this also removes the _______.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phelloderm only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phellem only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Primary xylem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secondary phloem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q13",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is not true w.r.t. phloem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Companion cell and Sieve tube are  ontogenetically similar in angiosperms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Included phloem is produced from vascular  cambium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Primary phloem is obliterated during primary  growth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phloem lies always external to xylem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q14",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following tissue is not related to shoot apex?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dermatogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Periblem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plerome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Calyptrogen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q15",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose odd w.r.t. collenchyma",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Living mechanical tissue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Intercellular space is absent in angular type",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thickening of wall is due to deposition of  lignin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Found in hypodermis of dicot stem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q16",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statements from the given below  (i) Endodermis with casparian strips are found in dicot stem  (ii) Endodermis is a part of stele  (iii) Amphivasal vascular bundles are found in  some monocots  (iv) Bulliform cells are found in upper epidermis in  isobilateral leaf",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(i) and (ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(ii) and (iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(i), (ii) and (iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only (iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q17",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Periderm includes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only cork cambium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cork cambium and cork only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cork and secondary cortex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cork, Cork cambium and secondary cortex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q18",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is secondary in origin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phellogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Interfascicular cambium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wound meristem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q19",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Meristems are not characterised by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High surface area / volume ratio",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vacuolated cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of proplastids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellulosic cell wall",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q20",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Dicot roots do not have cambium in vascular bundles, but during secondary growth cambium is derived from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pericycle cells only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pericycle and conjunctive tissue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conjuctive tissue only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pericycle and cortex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q21",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not a feature of monocot stem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Schizolysigenous water cavity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endarch xylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Undifferentiated ground tissue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bulliform cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q22",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During secondary growth in dicot root, first vascular cambium strip is formed from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pericycle lying above primary phloem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pericycle lying above protoxylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conjunctive tissue lying below primary phloem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conjunctive tissue lying above primary  phloem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q23",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. the anatomy of monocot stem",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parenchymatous ground tissue is extended  from hypodermis to centre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypodermis is made of thick walled living  mechanical tissue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vascular bundles are conjoint, collateral and  closed with endarch xylem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pith is absent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q24",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Plant tissue as air tight dam is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Epidermis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypodermis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Endodermis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pericycle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q25",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Whole cork cambium originates from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Endodermis in dicot stem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypodermis in monocot stem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pericycle in dicot root",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q26",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out w.r.t. vesselless families of angiosperms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trapaceae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tetracentraceae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trochodendraceae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Winteraceae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q27",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Periderm includes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phellem, phellogen and secondary xylem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cork, bark and vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phellogen, cork and secondary cortex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Medulla, phellogen and phelloderm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q28",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Soft wood differs from hard wood in having",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High content of tracheids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Low content of vessels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High content of vessels",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Low content of tracheids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q29",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements  (a) Epidermis is formed from dermatogen  (b) Periblem forms endodermis and pericycle  (c) Vascular bundle, pericycle and pith are  formed from plerome  Find correct statements for histogen theory",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only (b) is correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both (a) and (c) are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both (b) and (c) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q30",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Conjoint, collateral and close vascular bundles are found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Roots of wheat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stem of sunflower",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Leaf of gram",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stem of mango",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q31",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Vascular bundles in dicot leaves are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conjoint, collateral and open",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Radial, exarch and closed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conjoint, bicollateral and open",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conjoint, collateral and closed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q32",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Meristematic tissues are characterized by all except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The nucleus is bigger in size",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Colourful plastids are present",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ergastic substance is almost absent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Retention of power of division",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q33",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The korper - kappe theory was proposed by ______ for ______",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Schuepp, root apex organisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Clowes, quiescent centre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hanstein, histogen region",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hofmeister, shoot apex organisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q34",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The conjunctive parenchyma cells are lying",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Just below each phloem strand",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Just below each xylem strand",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Between endodermis and pericycle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Between phelloderm and periderm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q35",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The cells of quiescent centre have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High number of mitochondria and very small  dictyosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fewer mitochondria and very small  dictyosomes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low RNA and high DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High DNA and high RNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q36",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Intercalary meristems are intercalated in between the permanent tissues. They may be present either at the node as in all except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Grasses",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bamboos",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mints",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pinus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q37",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In parenchyma, all cells are isodiametric and",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thin-walled",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thick-walled",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lignified-walled",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Devoid of intercellular spaces",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q38",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The protoxylem vessels, generally have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Scalariform and reticulate thickenings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Annular and spiral thickenings",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Spiral and pitted thickenings",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No thickening",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q39",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The centrifugal xylem is the characteristics of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Exarch condition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endarch condition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mesarch condition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polyarch condition",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q40",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The root apex of monocot differs from stem apex in having",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dermatogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calyptrogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Periblem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Histogen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q41",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Branch of botany dealing with internal organisation of plants is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plant histology",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plant anatomy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plant cytology",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q42",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following shows heteroxylous wood?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trochodendron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tetracentron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Taxus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Shorea",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q43",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In which character an isobilateral leaf differs from the dorsiventral leaf?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Scattered vascular bundles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Undifferentiated mesophylls",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Absence of stomata with guard cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conjoint, collateral and closed vascular  bundle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q44",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The large thin walled epidermal cells called motor cells are present in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amphistomatic leaf",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypostomatic leaf",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Astomatic leaf",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Epistomatic leaf",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q45",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The age of trees growing in deciduous forest can be determined with the help of counting annual rings, this area of science is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dendrology",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dendrochronology",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dendrography",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plant gerontology",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q46",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Bladder like in-growth in duramen is exhibited by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thylosoids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tylosoids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tyloses",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Callose pad",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q47",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not the characteristic of cells which are formed as a result of tangential and periclinal divisions of phellogen cells towards the outer face?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thermal insulation quality",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Light weight and inflammable",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Impervious to water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Having high amount of suberin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q48",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect w.r.t. meristematic tissue?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prominent nucleus with dense cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isodiametric with intercellular spaces",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metabolically  active  with  high karyocytoplasmic ratio",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absence of ergastic substances",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q49",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which type of thickenings are generally present in the first formed tracheids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Spiral and sclariform",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Annular and pitted",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pitted and reticulate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Spiral and annular",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q50",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Anatomically the wood of angiosperms is different from that of gymnosperms in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Absence of secondary xylem as wood",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of secondary phloem for food  conduction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of companion cells controlling  osmotic balance of ontogenically related cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absence of partly primary and partly  secondary origin of cambium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q51",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Secondary growth in dicot roots is not characterised by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Partly primary and partly secondary origin of  cambium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Purely secondary origin of cambium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wavy ring of cambium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dedifferentiation of conjuctive parenchyma  cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q52",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A xerophytic plant having multilayered upper epidermis of leaf and sunken stomata is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Capparis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nerium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Casuarina",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Agropyron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q53",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Tissue which provides mechanical strength and flexibility to young dicot stem is present in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pith",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endodermis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hypodermis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cortex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q54",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The ground tissue system is constituted by all of these, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Medullary rays",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pericycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mesophyll",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Xylem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q55",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In dicot root, lateral roots and vascular cambium arise from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cortex & endodermis respectively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cortex & pericycle respectively",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cortex & conjunctive tissue respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pericycle & conjunctive tissue respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q56",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Plant tissue enriched with starch granules in dicot stem is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Present outside pericycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Collenchymatous",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parenchymatous with intercellular spaces",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pecto-cellulosic thick walled",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q57",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Conjoint, collateral, closed vascular bundles without phloem parenchyma are found in plants which have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Differentiated ground tissue in stem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dedifferentiated pericyclic structure in mature  root",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sclerenchymatous hypodermis in stem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Developed pith in stem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q58",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The tissue belonging to bark but not to periderm is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary phloem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phellem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secondary cortex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q59",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct w.r.t. lenticels?  a. Phellogen forms parenchymatous cells on outer side  b. It is a lens shaped opening  c. Helps in exchange of gases  d. Present mostly in woody trees",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "c & d correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, c & d correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q60",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the incorrect match w.r.t. wood characters given in A, B, C column  A B C  Large no. of xylary elements  Wide cavities  Spring wood  Early wood",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Narrow cavities  Autumn wood  Few xylary elements  Late wood",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Filled with resins and  gums  Dead elements  Dark brown in colour  Heart wood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conducts water and minerals  Living elements  Light in colour  Sap  wood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q61",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a redifferentiated structure?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phellogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Duramen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phelloderm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q62",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In a leaf, oval cells with large intercellular spaces and radially arranged columnar cells without intercellular spaces are placed respectively towards",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adaxial and abaxial epidermis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Abaxial and adaxial epidermis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Abaxial and lower epidermis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lower and abaxial epidermis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q63",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Grittiness of fruits is because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Brachysclereids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Osteosclereids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Asterosclereids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Macrosclereids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q64",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. Aerenchyma (i) Pericycle  b. Bordered pits (ii) Sieve tube  c. Perivascular fibres (iii) Fundamental tissue  d. Callose plug (iv) Tracheids",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(ii), c(iii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q65",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. late wood",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It forms a narrow strip in annual rings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Has smaller and narrower vessels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Darker in colour",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fibres are less",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q66",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not the component of secondary phloem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protophloem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bast fibres",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Companion cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phloem parenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q67",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Monocot root differs from dicot root in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Having differentiated ground tissue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of centripetal xylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pericyclic origin of lateral roots",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of large and well developed pith",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q68",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The bark being used as substitute of paper is _______ and obtained from ________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Scaly bark, Acacia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ring bark, Psidium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ring bark, Betula",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Scaly bark, Betula",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q69",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Protoxylem lies towards periphery and metaxylem lies towards the centre. Such arrangement of ________ xylem is present in ________ .",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Secondary, root",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Primary, stem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary, stem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Primary, root",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q70",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Internal structure of monocot stem is different from the dicot stem in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Absence of conjoint vascular bundles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of collenchymatous hypodermis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of undifferentiated ground tissue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absence of xylem parenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q71",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A complete and continuous wavy cambium ring in dicot root is formed due to the activity of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conjunctive tissue only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conjunctive tissue and pericycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pericycle only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pericycle and endodermis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q72",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. monocot root",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The xylem bundles are usually more than six",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pith is very large",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary growth does not take place",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Endodermis possess thick walled passage  cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q73",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Dimorphic mesophyll cells are not differentiated in the leaf of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "China rose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sunflower",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Banana",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q74",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Secondary permanent tissue is produced from precursor cells or tissues after",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Differentiation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dedifferentiation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Redifferentiation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Accretion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q75",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following are elongated single- celled water conducting dead structures with bordered pits?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tracheids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vessels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sclerenchyma fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sclereids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q76",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Lenticels are present in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Outer primary protective tissue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Outer layer of secondary protective tissue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Middle layer of secondary protective tissue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inner layer of secondary protective tissue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q77",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Cells having cellulose, hemicellulose and pectin deposits on wall and shows its presence commonly in petiole of leaf and growing green stems belong to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sclerenchyma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Collenchyma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aerenchyma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Parenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q78",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the group of tissues which are formed by de-differentiation in a dicotyledonous plant",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Secondary xylem, cork cambium and root  cambium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Interfascicular cambium, intrafascicular  cambium and cork cambium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Root cambium, cork cambium and inter  fascicular cambium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cork cambium, vascular cambium ring of  stem and phellem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q79",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Elongated or tube like cells with thick and lignified walls and tapering ends is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tracheids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vessel",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sieve tube",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Collenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q80",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "As compared to monocot root, the dicot root has/shows",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Large and well developed pith",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Primary growth only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sclerenchymatous pericycle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fewer xylem bundles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q81",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following wood is darker and has high density?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Spring wood",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Late wood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Early wood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q82",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one out w.r.t. stem hairs called trichomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Can be soft or stiff",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Usually multicellular",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May be secretory",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Always unbranched",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q83",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Stems of Zea mays and sunflower are similar to each other in having",
+    "question_diagram": "/images/last_leap/p203_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Phloem parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endarch primary xylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conspicuous undifferentiated ground tissue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ring arrangement of vascular bundles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q84",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the given figure represents internal structural details of a monocot root?",
+    "question_diagram": "/images/last_leap/p203_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q85",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The most abundant and common tissue in plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Has non-vacuolated cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is living and has cellulosic wall",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stores ergastic substances always",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot take part in photosynthesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q86",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Secondary meristems are found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All angiosperms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gymnosperms and all monocots",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dicots and gymnosperms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All spermatophytes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q87",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Monocot stems do not have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protophloem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phloem parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Companion cell in phloem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sieve tube and metaphloem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q88",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of these is responsible for lateral translocation in plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Medullary rays",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vessels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Companion cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Xylem parenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q89",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct option w.r.t. sclereids",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Physiologically active",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pits are present",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Derived from meristems directly",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Little amount of protoplasm is present",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q90",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not a feature of barley stem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of collateral, conjoint vascular  bundles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Schizogenous water cavity is present",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of most advanced type of stele",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Undifferentiated ground tissue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q91",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Isobilateral leaf is characterized by all the given characteristics, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vascular bundles are always closed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Xylem is towards adaxial surface of leaf",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mesophyll cells are not differentiated",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Parenchymatous extensions of bundle sheath",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q92",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Collenchyma is characterised by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Absence of protoplast at maturity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Supporting young stem and leaf petiole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lignocellulosic thickenings on secondary walls",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Common presence of intercellular spaces",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q93",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Epidermal hairs on stems known as trichomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "May sometimes be secretory in function",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Have vascular supply",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May be soft or stiff but unbranched always",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Are endogenous in origin like lateral roots",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q94",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Steler tissue system in shoot is derived from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dermatogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Periblem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plerome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tunica",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q95",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. bast fibres  (a) Generally absent in primary phloem  (b) Elongated, branched with blunt ends  (c) Parenchymatous in nature  (d) Becomes dead at maturity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & b",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q96",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Monocot root is anatomically similar to the dicot root in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Possessing radial vascular bundles with  exarch xylem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of well developed central pith",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Having diarch to hexarch vascular bundles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absence of passage cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q97",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Phellogen is a kind of secondary meristem",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cutting phelloderm outside and phellem inside",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Usually developing in the cortex region of  dicot stem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Forming non-suberised cells outside",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Made of narrow, thick walled, suberised cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q98",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "As a tree grows older, thickness of _______ increases",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Duramen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alburnum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sap wood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Early wood",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q99",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Bark refers to all the tissues",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "External to vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "External to cork cambium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Formed earlier in the season",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Impregnated with suberin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q100",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not a feature of heart wood?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Central in position",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of tracheal plugs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Actively conducting",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dead with deposition of extractives",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q101",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Cambium ring in dicot root is formed from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All cells of pericycle and conjunctive tissue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pericycle lying opposite to protoxylem and  conjunctive tissue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cells of medullary parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cortical cells and conjunctive tissue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q102",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following tissue the cells are much thickened at the corners due to a deposition of cellulose, hemicellulose and pectin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Collenchyma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sclerenchyma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Prosenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q103",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect option w.r.t. internal structure of monocot stem",
+    "question_diagram": "/images/last_leap/p204_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Absence of pith",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parenchymatous hypodermis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Endodermis is absent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Scattered vascular bundles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q104",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark a, b, c and d  d  b  c  a",
+    "question_diagram": "/images/last_leap/p204_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Metaxylem, protoxylem, cortex, trichome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endodermis, cortex, protoxylem, root hair",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Endodermis, cortex, metaxylem, root hair",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pericycle, cortex, metaxylem, trichome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q105",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following character is concerned with the meristematic cells?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Few ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Small nucleus and dense cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High metabolic activity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Loosely arranged cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q106",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Sieve tube elements are long, tube-like structures, arranged longitudinally and are associated with the companion cells. A mature sieve element",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Has a small vacuole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lacks nucleus and cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Possesses a large vacuole and small nucleus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Possesses a peripheral cytoplasm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q107",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is concerned with the anatomy of dicot root?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of small or inconspicuous medulla",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Absence of parenchymatous pericycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Absence of suberin at the tangential as well  as radial walls of endodermal cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of sclerenchymatous conjunctive  tissue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q108",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During the secondary growth in dicot stem, the cambial ring becomes active and begins to cut off new cells both towards the inner and the outer sides. The cells cut off",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Towards pith, mature into secondary phloem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Towards periphery, mature into secondary  xylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Towards pericycle, mature into secondary  xylem as well as secondary phloem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mature into secondary vascular tissues",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q109",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Phellem as well as phelloderm both",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Make up the phellogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Are secondary permanent tissues",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Are formed during steler secondary growth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Are made by vascular cambium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q110",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The part of grass consumed by a grazing animal can be regenerated by the activity of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lateral primary meristem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lateral secondary meristem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intercalary meristem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Apical meristem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q111",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Bark includes a variety of tissue types like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phellem, secondary xylem and secondary  phloem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Periderm and all kinds of secondary tissues",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phellogen, secondary phloem, phellem and  secondary cortex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phelloderm, secondary phloem and primary  xylem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q112",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Stem of barley differs from stem of sunflower in presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conjoint, collateral bundles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endarch, eustelic bundles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Scattered, closed bundles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Well differentiated ground tissue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q113",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement (w.r.t. lateral meristem)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Secondary meristem producing primary  permanent tissues",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Intercalary meristem producing secondary  permanent tissues",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cylindrical meristem producing the secondary  tissues",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Promeristem producing secondary permanent  tissues",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q114",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Match the column I with column II  Column I Column II  a. Xylem parenchyma (i) Absent in most of the monocots  b. Sclereids (ii) Long cylindrical  tube-like structure  c. Phloem parenchyma (iii) Food and tannins  d. Vessel (iv) Fruit walls of nuts",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q115",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following occurs first during secondary growth in dicot root?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary meristem becomes active present  below phloem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cambium strips are formed from conjunctive  tissue lying just below each phloem strand",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cambium strips develop from pericycle  opposite to protoxylem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A wavy ring of cambium develops",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q116",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "a. Annual rings are bands of secondary phloem and medullary rays.  b. Wood of Cycas has vessels.  c. Conjoint vascular bundles are found in leaves of sunflower and maize.  Which of above statement(s) is/are correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only a is correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only c is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q117",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Annual rings are formed by the activity of cork  cambium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fibres are abundant in secondary xylem and  protophloem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Primary xylem does not show distinction into  protoxylem and metaxylem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "At certain regions, the cork cambium cuts off  parenchymatous cells on the outer side instead of phellem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q118",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mechanical support to the growing parts of the plant such as young stem and petiole of leaf is provided by a living tissue called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Collenchyma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aerenchyma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chlorenchyma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sclerenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q119",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct statement for intercalary meristems?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They lie at tip of root apex",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They lie at base of stem always",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They are short lived and consumed during  primary growth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They are long lived and cause increase in  length",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q120",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Girdling experiment cannot be performed in sugarcane plant because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Its stem is thin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Its vascular bundles are arranged in scattered  manner",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Its stem surface is coated with wax",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phloem is surrounded on all sides by xylem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q121",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Dicot root is different from monocot root in having",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fewer xylem bundles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polyarch condition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Large and well developed pith",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pericycle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q122",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During secondary growth in dicot root, first vascular cambium strip is formed from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conjunctive tissue lying above primary  phloem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pericycle lying above protoxylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pericycle lying above primary phloem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conjunctive tissue lying below primary phloem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q123",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the odd one out w.r.t. tissues",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A group of cells having a common origin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They usually perform a common function",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Complex tissues are made of more than one  type of cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They are not capable of division",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q124",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following component of phloem is mainly responsible for storage of food material and other substances like resins, latex and mucilage?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sieve tube",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Companion cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bast fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phloem parenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q125",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Complimentary cells are characteristically present in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tyloses",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lenticels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydathodes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stomata",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q126",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of these is regarded as reserve meristem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Promeristem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Quiescent centre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Calyptrogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Primary meristem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q127",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Instead of closed vascular bundles in dicot roots, secondary growth occurs by the formation of cambium ring which develops from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conjunctive tissue and pericycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Passage cell and pericycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pericycle only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conjunctive tissue and pith",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q128",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out w.r.t. dedifferentiated meristems",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Interfascicular cambium in dicot stem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cambium ring in dicot root",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phellogen in dicot root",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Procambium in plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q129",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following tissues get gradually crushed due to the continued formation and accumulation of secondary xylem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary xylem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Primary phloem and secondary xylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pith and primary xylem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Primary phloem and secondary phloem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q130",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Living mechanical tissue with thickening at the cells corners possess deposition of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lignin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cellulose and pectin only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cellulose, hemicellulose and pectin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellulose only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q131",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is absent in monocot root?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phloem parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pith",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sieve tube",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Centripetal xylem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q132",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement for trichomes is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Usually unicellular",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Epidermal hairs of stems and roots",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Always non-secretory",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Help in preventing water loss due to  transpiration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q133",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Xylem fibres have obliterated central lumens",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phloem parenchyma is absent in monocot  stem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The first formed secondary phloem consists of  protophloem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adaxially arranged mesophyll cells are  elongated and vertically or parallely placed to each other in dicots",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q134",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the mismatched pair:  Tissue Feature",
+    "question_diagram": "/images/last_leap/p207_img2.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Thick walled, elongated and  pointed  cells present in hypodermis of dicot stem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Forms  the  major component within plant organs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Commonly found in pulp of fruits like guava, pear and sapota",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Provide  mechanical support to growing parts of plant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q135",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "When protoxylem lies towards the centre (pith) and the metaxylem lies towards the periphery of the organ, the primary xylem is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Endarch; present in stem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endarch; present in roots",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Exarch; present in stem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Exarch; present in roots",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q136",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement w.r.t. guard cells in stomata",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In grasses these are dumb-bell shaped",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They possess chloroplasts",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Regulate opening and closing of stomata",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Outer walls are thick and inner walls are thin  in dicots",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q137",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair of characters (A & B) is correct for the internal structure of monocot stem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A \u2013 It has sclerenchymatous hypodermis  and sclerenchymatous bundle sheath  B \u2013 It  has  large,  conspicuous parenchymatous ground tissue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A \u2013 Radial and tangential walls of the  endodermis have a deposition of waxy material suberin  B \u2013 Pith is large and well developed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A \u2013 Conjunctive tissue, lie between xylem  and phloem  B \u2013 Vascular bundles are arranged in rings",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A \u2013 Phloem parenchyma is present, and  water containing cavities are present outside the vascular bundles  B \u2013 Vascular bundles are surrounded by a  layer of thin walled bundle sheath cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q138",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In grasses, certain adaxial epidermal cells along the veins modify themselves into large, empty and colourless cells, known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mesophyll",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bundle sheath cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bulliform cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Casparian strips",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q139",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the following diagrams in correct order according to the events occurring during secondary growth in dicot stem.  a. b.  c. d.",
+    "question_diagram": "/images/last_leap/p208_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "b, d, c, a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, a, d, c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d, a, b, c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d, b, a, c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q140",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "All are the features of heart wood, except  A. Forms greater part of secondary xylem in old trees.  B. Light in colour.  C. Constitutes peripheral region of secondary  xylem.  D. It is hard and durable due to deposition of  organic compounds, essential oils etc.  E. It is physiologically active and is comprised of living elements.  F. Involved in the conduction of water and minerals from root to leaf.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A, D & F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B, C, E & F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "D, E & F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B, D & E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q141",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During secondary growth in dicot root",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vascular cambium arises completely from  conjunctive parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Growth rings are distinct with spring wood  alternating with autumn wood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phellogen arises from the epidermis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vascular cambium in complete and  continuous but wavy ring",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q142",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following are formed through dedifferentiation?  a. Secondary xylem  b. Cork cambium  c. Intrafascicular cambium  d. Interfascicular cambium  e. Intercalary meristem",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d & e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q143",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Well developed pith is present in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dicot stem, monocot root",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monocot stem, dicot root",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dicot root, dicot stem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monocot root, monocot stem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q144",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following function is performed by pericycle of dicot root?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lateral root formation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lateral meristem formation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Part of vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q145",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Heart wood is differentiated from sap wood in being",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Peripheral in position",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Resistant to the attack of microorganisms and  insects",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lighter in colour and lignified",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hard, durable and help in conduction of water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q146",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Exchange of gases between the outer atmosphere and the internal tissue of the woody stem is possible by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hydathodes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lens shaped openings",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stomata",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gas vacuoles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q147",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The permanent tissue that forms the major component within the organs",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Provides mechanical support to the growing  parts of plant.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is thin-walled and performs the function of  photosynthesis, storage and secretion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is made up of four different kinds of elements.",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is usually dead without protoplast and has  thick lignified cell wall.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q148",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In leaves, the ground tissue consists of thin-walled chloroplast containing cells, called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trichomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conjuctive parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cortex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mesophyll",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q149",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following structures labelled as A, B, C and D represents complete and continuous wavy ring of vascular cambium?  A  B C D",
+    "question_diagram": "/images/last_leap/p209_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q150",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which among the following cannot be a feature of given diagram?",
+    "question_diagram": "/images/last_leap/p209_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "It is a long cylindrical tube like structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Having lignified walls",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Having large central cavity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Having protoplasm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q151",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Secondary medullary rays are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Narrow band of parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arranged transversely",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dead and lignified",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Formed by primary cambium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q152",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "An annual ring consists of two kinds of wood that appear as alternate concentric rings. The two types of wood are formed at _______ time and by the activity of _______.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Same, Vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Different, Cork cambium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Same, Cork cambium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Different, Vascular cambium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q153",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect option. w.r.t simple permanent tissue  Tissue  Feature  Parenchyma Collenchyma Sclerenchyma",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protoplast + + \u2013  Food  can be + can be + \u2013 assimilation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Occurrence M, D. M. D, M  Wall Thin Thick  Thick",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q154",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct w.r.t. lenticels?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Show exudation of droplets from bark surface",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Loss of solution having \uf079S as more negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence  of  closely  arranged parenchymatous cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Restricted to tip of leaves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q155",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Vascular bundles of leaf are similar to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vascular bundles of monocot stem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vascular bundles of dicot stem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vascular bundles of monocot root",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vascular bundles of dicot root",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q156",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Grafting cannot be done in monocots because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vascular bundles are scattered",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cambium is absent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parenchyma is least developed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vascular bundles are arranged in ring",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q157",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Pericycle is related to all the given activities, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Origin of lateral roots in both dicots and  monocots",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Origin of cork cambium in dicot root",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Origin of part of cambium in dicot root",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Origin of cork cambium in monocot root",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q158",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statements w.r.t. meristematic tissues  A. The meristem that occurs at the tip of roots and shoots contributes to the formation of the primary plant body.  B. The lateral meristems are responsible for producing the secondary tissues.  C. Some cells \u2018left behind\u2019 from lateral meristem, constitute the axillary bud.  D. The cells which are structurally and functionally specialised and lose the ability to divide are called meristems.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A & C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A & B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B & C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C & D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_q159",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Trichome is related with all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Unicellular elongation of epidermis in roots",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Epidermal hairs on stem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Branched or unbranched and secretory",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Prevent water loss due to transpiration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q1",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Pericycle is always made up of both  parenchyma and sclerenchyma.\nReason (R): The pericycle is heterogenous as well as  homogenous in monocot.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q2",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Parenchymatous cushions like structure of  ovary bear ovules.\nReason (R): The whole ovary matures into seeds.  \u0002\u0003\u0002\u0003\u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q3",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The secondary xylem is derived from  procambium during secondary growth.\nReason (R): The amount of secondary xylem is almost  equal to the amount of secondary phloem.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q4",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Amount of secondary xylem produced is more  than the secondary phloem in dicot stem.\nReason (R): Cambium is generally more active on the  inner side than on the outer.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q5",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Phellogen is secondary meristem that form  cork on outer side and secondary cortex on inner side.\nReason (R): Phellogen is formed every year from  hypodermis and pericycle in dicot root and dicot stem respectively.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q6",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Phelloderm and phellem are secondary  permanent tissues.\nReason (R): They are formed through redifferentiation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q7",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In dicot stem, the amount of heart wood  remains constant throughout the life span of plant.\nReason (R): The activity of cambium ring stops after  certain time.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q8",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Vascular cambium is completely secondary in  origin in dicot root.\nReason (R): It is formed by redifferentiation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q9",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Meristematic zone of root has thin cells,  dense cytoplasm and vacuolated condition.\nReason (R): This zone shows maximum growth.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q10",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Spring wood is darker in colour and has lower  density.\nReason (R): Cambium is less active in spring season.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q11",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Secondary growth is absent in monocots.\nReason (R): Monocots lack vascular cambium.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_04_secB_q12",
+    "subject": "Botany",
+    "chapter": "Anatomy of Flowering Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Rolling of leaves in monocots occurs during  summer.\nReason (R): Loss of water occurs from stomata during  summer.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-I"
+  }
+]

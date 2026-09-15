@@ -1,0 +1,1134 @@
+[
+  {
+    "question_id": "chem_q1",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "If the uncertainty in position, momentum, energy, time, angular momentum and angular displacement are \uf044x, \uf044P, \uf044E, \uf044t, \uf044\uf066\uf020and \uf044\uf071\uf020respectively. Which of the following is correct about Heisenberg\u2019s uncertainty principle?  h ( E)( t) 4 \uf044 \uf044 \uf0b3 \uf070",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "h ( x)( P) 4 \uf044 \uf044 \uf0b3 \uf070",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "h ( )( ) 4 \uf044\uf066\uf044\uf071\uf0b3 \uf070",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q2",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "If \u2018x\u2019 is the radius of first Bohr\u2019s orbit of the hydrogen atom. Then the ratio of radius of 2nd, 4th  and 6th orbit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 4 : 9",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 : 2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 : 4 : 8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q3",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "If the velocity of an electron in a Bohr\u2019s orbit (n) of hydrogen is given by \u2018V\u2019, then the value of n is equal to  2 2 e k V \uf070",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2 2 e k Vh \uf070",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 e k 2Vh \uf070",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 Vhk  2 e \uf070",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q4",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "For energy of the orbitals in same subshell, which is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E2s (H) > E2s (Li) > E2s (Na) > E2s (K)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E2s (K) > E2s (Na) > E2s (Li) > E2s (H)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E2s (H) = E2s (Li) = E2s (Na) = E2s (K)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E2s (K) > E2s (Li) > E2s (Na) > E2s (H)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q5",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "Radius of the second orbit of an element is 0.070 nm. The energy associated for this orbit will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2952 J/atom",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "52 \u00d7 10\u201315 J/atom",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4.9 \u00d7 10\u201318 J/atom",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5.45 \u00d7 10\u201319 J/atom",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q6",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "Splitting of spectral line in the magnetic field is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stark effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zeeman effect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Photoelectric effect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q7",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "Choose the orbital having two nodal planes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "py",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "px",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "dyz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "pz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q8",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "Total number of electrons that can be accommodated in the sub-shell (l = 2) are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "14",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q9",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "If the ionization energy of hydrogen atom is 160 eV, Find the shell having energy \u2013 40 eV.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n = 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n = 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "n = 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n = 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q10",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The number of maxima in radial probability  distribution curve of 2s orbital are two",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "At the node, the value of the radial function  changes from positive to negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 3 z d  has 3 angular nodes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_q11",
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "question_text": "Electronic configuration of Palladium (Z = 46) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Kr] 4d8 5s2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Kr] 4d9 5s1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Kr] 4d10 5s0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Kr] 4d9 5s2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q271",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Select the character which is specific to members of chrysophyta",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mostly marine habitat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mixotrophic mode of nutrition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Indestructible siliceous wall",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q272",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Septate mycelium, fragmentation as common mode of reproduction, with generally absence of asexual spores are features of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Deuteromycetes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Basidiomycetes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ascomycetes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phycomycetes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q273",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Match the following  Column I Column II  a. Ustilago nuda tritici (i) Brown leaf spot of rice  b. Albugo candida (ii) Ergot of rye  c. Claviceps (iii) Loose smut of  wheat  d. Helminthosporium (iv) White rust of  crucifers",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(ii), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(i), c(ii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q274",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Examine the figure given below and select the right option giving all the three parts (A, B and C) correctly identified  B  C  A",
+    "question_diagram": "/images/last_leap/page_143_diag_1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A \u2013 Dikaryotic mycelium  B \u2013 Hymenium  C \u2013 Pileus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A \u2013 Trama  B \u2013 Stipe  C \u2013 Sub-hymenium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A \u2013 Basidiocarp  B \u2013 Asci  C \u2013 Stipe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A \u2013 Rhizomorph  B \u2013 Pileus  C \u2013 Stipe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q275",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Albugo, morels, Alternaria and Vibrio are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Autotrophic organisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heterotrophic organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Saprophytic fungi",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Parasitic fungi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q276",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Cell type \u2013 Eukaryotic  Cell wall \u2013 Present in some members  Mode of nutrition \u2013 Autotrophic and heterotrophic  According to five kingdom classification, these characters belong to kingdom(s)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monera and Protista",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monera",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protista",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Protista and Animalia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q277",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Vast majority of bacteria are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Photosynthetic autotrophic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heterotrophic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chemosynthetic autotrophic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Photolithotrophic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q278",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Halophilic and thermoacidophilic archaebacteria are similar in the presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyclosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Branched chain lipids in cell wall",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Linear ssDNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non-cellulosic cell wall",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q279",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Which of the following organisms are helpful in making curd form milk, production of streptomycin and nitrogen fixation in legumes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mycoplasma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eubacteria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Archaebacteria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cyanobacteria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q280",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Consider the following statements w.r.t. Mycoplasma  a. They lack cell wall.  b. They are the largest living cell.  c. They can survive without oxygen  d. They are pathogenic to animals only.  The correct statements are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q294",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Type of DNA and RNA found in Mycoplasma are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Double stranded and single stranded",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Single stranded and double stranded",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Linear and circular",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Single stranded and circular",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q295",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Albugo candida and Mucor are similar in having",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hemicellulosic cell wall",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peptidoglycan in cell wall",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gametangial contact",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aseptate and coenocytic mycelium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q296",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Select the correct option w.r.t. Aspergillus",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is called weed of laboratory and produce  conidiospores",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is also called bread mould forming trisporic  acid during sexual reproduction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is a member of club fungi used to produce  antibiotics",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The asci are arranged in fruiting bodies called  basidiocarp",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q297",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Archaebacteria can survive in extreme climatic conditions due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cell wall structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of peptidoglycan in cell wall",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "D - Amino acids in cell wall",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of introns in DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q298",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Select the odd one out w.r.t. chrysophytes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Includes diatoms and golden algae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They are microscopic planktons",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Most of them are photosynthetic or predators",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They are fresh water as well as marine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q299",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Sexual spores in fungi are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ascospores and conidia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oospores and zoospores",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ascospores and oospores",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Basidiospores and sporangiospores",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q300",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Which  of  these  eubacteria  is  not  a chemoautotroph?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chlorobium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitrosomonas",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ferrobacillus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thiobacillus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q301",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Match the following correctly  Column I Column II  a. Saxitoxin (i) Euglena  b. Acrasin (ii) Gonyaulax  c. Kieselguhr (iii) Dictyostelium  d. Astaxanthin (iv) Cymbella",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q302",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Which of these is not related to organisms which are characterised by absorptive mode of nutrition and have loose tissue organisation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Extracellular digestion of food",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Formation of fruit body in some organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Karyogamy always immediately after  plasmogamy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absence of NAM in cell wall",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q303",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Identify the following diagram and choose correct option",
+    "question_diagram": "/images/last_leap/page_145_diag_1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Basidiospores are formed in subhymenium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plasmogamy occurs through somatogamy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Haplophase is predominant in life cycle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rhizoids are present",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q304",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Nutritionally, majority of the bacteria are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Photoautotrophs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chemoautotrophs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heterotrophs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Photoorganotrophs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_q305",
+    "subject": "Botany",
+    "chapter": "Biological Classification",
+    "question_text": "Select the correct match (column-I with column-II)  Column - I Column - II  a. Indestructible cell wall (i) Physarum  b. Red tide (ii) Euglenoids  c. Pellicle (iii) Gonyaulax  d. Plasmodium (iv) Chrysophytes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(iii), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-I"
+  }
+]

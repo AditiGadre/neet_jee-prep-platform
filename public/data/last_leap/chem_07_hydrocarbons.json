@@ -1,0 +1,6773 @@
+[
+  {
+    "question_id": "chem_07_q1",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "O",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q2",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "H O/Zn But-2-yne Product \uf0be\uf0be\uf0be\uf0be\uf0be\uf0ae",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q3",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction is not correct?  COCH3  Anhyd.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+CH COCl 3 AlCl3  O    C    C(CH ) 3 3  Anhyd.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+(CH ) C    COCl 3 3 AlCl3  (major)  C(CH ) 3 3  Anhyd.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ CH CH(CH )CH Cl 3 3 2 AlCl3  CH(CH ) 3 2  +",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ CH = CH \u2014 CH 2 3 H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q4",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "HO HO  Which of the following reaction or reagent can be used as best reagent for above transformation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Clemmensen reduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Wolff-Kishner reduction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Red P/HI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q5",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following, E1 elimination is most favourable?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br  Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these  Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q6",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "\uf0be\uf0be\uf0be\uf0be\uf0ae  Na dry ether 2 5 C H Cl  product.  The product/s formed in the reaction is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethane, ethene and butane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethene and butane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only butane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only ethane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q7",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Increasing rate of dehydrohalogenation follows the order",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RF < RCl < RBr < RI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RI < RBr < RCl < RF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RCl < RF < RBr < RI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RF < RI < RCl < RBr",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q8",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH \u2013 CH3 Ph OH  A (Major)  The compound \u2018A\u2019 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH = CH2 Ph",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH = CH2 Ph  CH3  Ph",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3  Ph",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(i) NaNH (ii) CH CHO \uf0be\uf0be\uf0be\uf0be\uf0be\uf0ae (A). Identify A.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q9",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH3 \u2013 C \uf0ba CH  2  3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH C  C \u2013 CHCH 3 3 \uf0ba  OH  OH  CHCH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C = C H  H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2OH \u2013 C \uf0ba CH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HC  C \u2013 CH \u2013 CHCH \uf0ba 3 2  OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q10",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction used for ascending homologous series is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decarboxylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cracking",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pyrolysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Wurtz reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q11",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct chain propagation step  \uf0b7 \uf0b7 \uf02b \uf0ae \uf02b",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2 2 CH Cl CH Cl HCl  \uf0b7 \uf0b7 \uf02b \uf0ae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 3 CH Cl CH Cl  \uf0b7 \uf0b7 \uf02b \uf0ae \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 CH Cl Cl CH Cl HCl  \uf0b7 \uf0b7 \uf02b \uf0ae \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 3 CH Cl Cl CHCl H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q12",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The number of moles of HI required for the following conversion is  O  R\u2013CH3 HI/P  R\u2013C\u2013OH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q13",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Decarboxylation of CH CH CH  COONa (aq) 2  3 \u2013  \u2013   CH3 by electrolysis and with soda lime respectively gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2,3-dimethyl butane and propane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isopentane and butane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3,4-dimethyl hexane and butane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Butane and 3,4-dimethyl hexane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q14",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "+ Cl2 water \uf0be\uf0be\uf0aeA.  Identify A.  Cl",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH Cl  Cl  OH  HO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OH Cl  Cl  Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q15",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Product of ozonolysis of ortho-xylene is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glyoxal, methylglyoxal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1,2-dimethyl glyoxal, glyoxal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glyoxal only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Methyl glyoxal, glyoxal, 1,2-dimethyl glyoxal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q16",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "AlCl3 +  (CH ) \u2013 CH CH Cl 3 2 2 A  Product A is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isopropyl benzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isobutyl benzene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3\u00b0 butyl benzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n-butyl benzene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q17",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Br  The compound A will be  OH  ONa",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH  Br  O  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Br  OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q18",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Addition of Br2 to 1,3-butadiene gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1,2-addition product only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1,4-addition product only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both 1,2- and 1,4-addition products",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No reaction  CH OH 2 H  P (Major)  . Then, P will be",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q19",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH \u2013 CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q20",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "An alkane of formula C6H14 form only two monobromo alkane, the alkane is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hexane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2-methyl pentane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2, 3-dimethyl butane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2, 2-dimethyl butane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q21",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "From the following reaction  OH  \uf028\uf029 \uf028\uf029 \uf028\uf029 \uf028 \uf029 2 4 i H SO , ii NBS iii alc.KOH P Major \uf044 \uf0be\uf0be\uf0be\uf0be\uf0be\uf0be\uf0be\uf0ae  The compound P will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q22",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Rate of electrophilic substitution (chlorination) of benzene and hexadeuterobenzene are r1 and r2 respectively, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "r1 > r2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r1 < r2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r1 = r2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unpredicted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q23",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "A compound of formula C4H8 does not decolourise bromine water then the compound is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "But-1-ene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "But-2-ene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyclobutane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2-methyl propene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q24",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "An organic compound on ozonolysis gives 1 mole acetaldehyde and 1 mole acetone then the compound will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pentene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyclopentene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pent-2-ene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2-methyl-but-2-en",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q25",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The treatment of RMgBr with R\uf0a2C \uf0ba CH produces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R\uf0a2H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R\uf0a2 \u2013 C \uf0ba CR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R\uf0a2 \u2013 R\uf0a2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q26",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Cyclohexene on ozonolysis yields",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2CHO (2 moles)  \uf02d \uf03d  (2 moles)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 |  CH C O  CH  O  3  ||  CH CH CHO CH C CH \uf02b \uf02d \uf02d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 3 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OHC \u2013 (CH2)4 \u2013 CHO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q27",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of reactivity of halogens when reacts with alkane",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Br2 > Cl2 > F2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F2 > Cl2 > Br2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Br2 > F2 > Cl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl2 > Br2 > F2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q28",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "When 2-butyne is treated with dil. H2SO4 and HgSO4, the product formed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2-butanol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2-butanone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Butanol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Butene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q29",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "When mixture of two alkyl halide reacts with sodium metal in dry ether, mixture of 2-methyl propane, ethane and 2, 3-dimethyl butane was obtained. The alkyl halides are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2-chloropropane and chloroethane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chloromethane and chloroethane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2-chloropropane and methyl chloride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1-chloropropane and chloromethane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q30",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "A hydrocarbon on reductive ozonolysis gives formaldehyde, glyoxal and acetaldehyde. Then the hydrocarbon is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH = CH \u2013 CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH = C = CH \u2013 CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2 = CH \u2013 CH2 \u2013 CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3CH2 \u2013 CH = C = CH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q31",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Propene when treated with chlorine at about 500\u00b0C forms  \uf02d \uf02d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2 = CH \u2013 CH2Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 3 | ClCH CH CH  Cl  Cl  |",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 2 ClCH CH CH Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH CH CH \uf02d \uf02d  3 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q32",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Propane on heterolytic cleavage produces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH and CH CH 3 3 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH CH  and  CH 3 2 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH and CH CH 3 3 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH and CH CH 3 3 2  (CH ) CO 3 3 \u2013  A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q33",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH \u2013CH \u2013CH\u2013CH 3 2 3  Alc. KOH  B Cl  A and B respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3\u2013CH2\u2013CH=CH2, CH3\u2013CH=CH\u2013CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3\u2013CH=CH\u2013CH3, CH2\u2013CH2\u2013CH=CH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3CH2\u2013CH=CH2, CH3\u2013CH2\u2013CH=CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3\u2013CH=CH\u2013CH3, CH3\u2013CH=CH\u2013CH3  CH3  \uf028 \uf029 \uf028 \uf029 3  HNO conc H SO conc \uf0be\uf0be\uf0be\uf0be\uf0be\uf0be\uf0aeA (major)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q34",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "2 4  CH3  The product \u2018A\u2019 in this reaction  CH3  CH3  NO2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3  CH3 NO2  CH3  CH3  NO2  NO2 O N 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3 NO2  CH3 NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q35",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "An alkyne on oxidation with KMnO4 gives  CH COOH + CO 2 2  The alkyne should be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH C  2 CH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C CH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C C   CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH2 C   CCH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q36",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The total number of structural isomeric dihalo derivatives possible in n-pentane are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q37",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "A chiral centre is generated when 2-methyl - 2 - butene is treated with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dil. H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B2H6 / H2O2 / OH\u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(ACO)2Hg / NaBH4 \u2013 H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HCl  CH \u2014 CH 2 3  \uf044 \uf0be\uf0be\uf0ae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q38",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "+ Reagent + catalyst   In the above reaction, reagent / catalyst will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2 \u2014 Cl / Anhyd.AlCl3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH2 = CH2, Conc. H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3CH2 \u2014 OH, BF3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q39",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of given four alkenes for hydrogenation reaction will be  CH    CH     CH 3 2 II  CH     CH 2 2 I  CH  3  C CH2  CH     CH     CH     CH 3 3 IV  CH  3  III",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "III > IV > II > I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I > II > IV > III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I > II > III > IV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II > I > III > IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q40",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Acetylene when treated separately with Ni(CN)2 in THF and passed in red hot iron tube gives two product A and B. The correct information about products A and B is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Both A and B are aromatic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A is anti-aromatic and B is aromatic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A is non-aromatic and B is anti-aromatic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A is non-aromatic and B is aromatic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q41",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is most reactive towards electrophilic substitution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Toluene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isopropyl benzene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neo-butyl benzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "o-nitrotoluene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q42",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "+ CH Cl 3 AlCl3 A  K Cr O /H 2 2 7 B,  then B is  CH OH 2  CH Cl 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "COOH  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q43",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "What is the product formed when acetylene reacts with two moles of hypochlorus acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl2CHCHO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ClCH2COOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ClCH2CHO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3COCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q44",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Toluene reacts with excess of Cl2 in the presence of sunlight to give a product which on hydrolysis give  CH3  CH OH 2  Cl",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "COOH  CHO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q45",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The order of % P character in Alkane, Alkene and Alkyne",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alkane > Alkene > Alkyne",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alkyne > Alkene > Alkane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alkane > Alkyne > Alkene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alkyne > Alkane > Alkene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q46",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "+ CH C CH CH 3 2 3 \u2013 \u2013 \u2013 | CH3  AlCl3  | Cl  The major product of this reaction  CH3 CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C\u2014CH \u2013CH 2 3  CH3 |  CH3 |",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "| C \u2014 C\u2014CH3  |  H  H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH \u2014CH\u2014CH2 2 CH3 CH3  CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q47",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which compound in the following will give only one monochlorination product in presence of light?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(CH3)4C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(CH3)3CH  CH2CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)2CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OH  Cl /FeCl 2 3 Major product",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q48",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "NO2  Major product of the reaction is  OH  Cl",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NO2  OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2 Cl  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NO2 Cl  OH  Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q49",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "H  H  H  NO2  D  D  D  D  D  conc. HNO3 conc. H SO 2 4  D  D  D  D  D  D  NO2  T  T  T  T  T  conc. HNO3 conc. H SO 2 4  T  T  T  T  T  T  Correct statement about the above reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rate of reaction is maximum for",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rate of reaction is maximum for",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rate of reaction is maximum for",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rate of reaction is equal in  ,  ,",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q50",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Br / 2 \uf044 CH CH3 2  The major product   is  CH CH3 2 Br",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "CH CH2 2 Br",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Br  CH CH 2 3 Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH\u2013CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q51",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The electrophiles in nitration and sulphonation of benzene are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NO+, SO2  +",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2  +, SO3  \u2013  + SO2  +",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2  +, SO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q52",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Bond angle in benzene will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "3",
+        "text": "NO2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "90\u00ba",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "72\u00ba",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "120\u00ba",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "180\u00ba",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q53",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "2-Methyl pentane reacts with 1 equivalent of Cl2 then major product formed would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2-chloro-4-methyl pentane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3-chloro-2-methyl pentane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1-chloro-2-methyl pentane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1-chloro-4-methyl pentane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q54",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH \u2013CH \u2013CH\u2013CH 3 2 3 F  What is \u2018A\u2019?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3\u2013CH = CH\u2013CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3\u2013CH2\u2013CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH \u2013C = CH 3 2 CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3\u2013C \uf0ba C\u2013CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q55",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH \u2013CH\u2013CH2 3 3 \u2013CH  CH \u2013CH \u2013CH 2 2 3 2 3 \u2013CH \u2013CH  CH3  I II  CH3  CH \u2013C\u2013CH 3 3 CH3 III  The correct decreasing order of melting point of above alkanes is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I > II > III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II > I > III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "III > I > II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "III > II > I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q56",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alkyl benzene having highest electron density?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q57",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The correct increasing order of bond energy of given bonds undergoing homolytic fission is  H  a b  C\u2013H H  H d  c  H  H",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b < c < d < a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "d < a < b < c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a < b < c < d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "c < b < d < a  Na B  CH X 3 C  Na/Liq NH3 D 2 mole 2 mole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q58",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "A  A is(Only alkyne which on hydration produces aldehyde)  The isomer of D is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q59",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alkene does not give positive test of unsaturation with Baeyer\u2019s reagent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Propene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2, 3-Dimethyl but-2-ene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2-Methyl-but-2-ene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "But-2-ene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q60",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has highest degree of unsaturation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3\u2013C \uf0ba C\u2013CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C  C \uf0ba",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH2 = CH\u2013CH = CH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q61",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "In the pyrolysis of alkanes which bonds break?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C\u2013C bond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C\u2013H bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C = C bond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C \uf0ba C bond  Zn-Hg/HCl  x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q62",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH \u2013C\u2013CH3 3 O  NH .NH , KOH 2 2 glycol  y  x and y respectively are  H",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH \u2013C\u2013CH3 3 ,   CH3CH2CH3  OH  H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH2CH3, CH \u2013C\u2013CH3 3  OH  OH  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH \u2013C\u2013CH3 3 3 3 , CH \u2013C\u2013CH ,  H  H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3CH2CH3, CH3CH2CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q63",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alkanes gives alcohol on oxidation with KMnO4?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2, 2-Dimethyl propane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Propane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2-Methyl propane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q64",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Among isomeric alkanes, boiling point  decreases with increase in branching",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Melting point of alkanes depends on symmetry",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Melting point of octane is lower than that of  nonane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Each carbon atom in alkane is sp3 hybridised",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q65",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Alkane which undergoes sulphonation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Butane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hexane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q66",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "AlCl + HCl 3 \uf044 x  Cl2 y (Major) 1 eq.  The product \u2018y\u2019 is  CH Cl 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "CH Cl 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q67",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "+ CH CH CH Cl 3 2 2 Anhyd. AlCl3 A  What is product \u2018A\u2019?  CH(CH ) 3 2  CH CH CH 2 2 3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C(CH ) 3 3  CH CH 2 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q68",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Benzene hexachloride is used as a powerful insecticide under the name of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lindane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gammexane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "666",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q69",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alkyne is more reactive towards electrophilic  addition than alkene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Addition to HBr in unsymmetrical alkene takes  place according to anti-Markownikoff\u2019s rule  \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 3 HCH C CH    is  more  stable  than  \uf02b  3 2 3 HCH C CH CH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q70",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alkane cannot be prepared by Wurtz\u2019s reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3CH2CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3CH2CH2CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q71",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The most appropriate method for the preparation of both symmetrical and unsymmetrical alkanes is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Frankland reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Corey-house synthesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wurtz\u2019s reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these  Cl (1 mole) 2 A  low temperatutre",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q72",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH =CH\u2013CH=CH2 2  Cl (1 mole) 2  B high temperatutre  A and B respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH \u2013CH\u2013CH=CH ,  2 2 CH \u2013CH=CH\u2013CH 2 2 Cl Cl Cl Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH \u2013CH=CH\u2013CH ,  2 2 CH \u2013CH\u2013CH=CH 2 2 Cl Cl Cl Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH \u2013CH\u2013CH=CH ,  2 2 CH \u2013CH\u2013CH=CH 2 2 Cl Cl Cl Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH \u2013CH=CH\u2013CH ,  2 2 CH \u2013CH=CH\u2013CH 2 2 Cl Cl Cl Cl  Alkaline A  KMnO (1%) 4  CH \u2013C\u2013H 3 CH \u2013C\u2013H 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q73",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "OsO4  B H O 2 2  The product A and B respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Meso form, meso form",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Racemic mixture, racemic mixture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Meso form, racemic mixture",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Racemic mixture, meso form",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q74",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "An hydrocarbon on ozonolysis followed by reductive hydrolysis gives 1 molecule of each acetone, CO2 and acetaldehyde. The structure of hydrocarbon is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2=C=CH\u2013CH=CH\u2013CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH \u2013C=C=CH\u2013CH 3 3 CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH CH=C=CH\u2013CH 3 2 CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH C\u2013CH=C=CH 3\u2013 2 CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q75",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Reduction of butyne-2 produces different products  Li-liq.NH3  A  as given CH \u2013C  C\u2013 3 \uf0ba CH3  Lindlar catalyst  B  The product A and B are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "cis and trans butene-2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "trans and cis butene-2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both are cis 2-butene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both are trans 2-butene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q76",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Gases produced at cathode and anode on Kolbe\u2019s electrolysis of HCOONa will be respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C2H6 and CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2 and H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO2 and H2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C2H6 and H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q77",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Reductive ozonolysis of an alkene produces acetaldehyde and formaldehyde, its oxidative ozonolysis will produce",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3COOH and HCOOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3COOH, CO2 and H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HCOOH, CO2 and H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3COOH, HCOOH, CO2 and H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q78",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Best yield of propane can be obtained from CH3Cl and C2H5Cl using the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wurtz reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Frankland reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ullmann reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Corey-House synthesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q79",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The major product on monochlorination of 2-methyl butane will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1-chloro-2-methyl butane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2-chloro-2-methyl butane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2-chloro-3-methyl butane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1-chloro-3-methyl butane  CH CH 2 3  Cl /h 2 \uf06e  Cl /Fe 2 (X)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q80",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "(Y)  (X) and (Y) in this reaction are respectively  CH CH 2 3  CH CH Cl 2 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "and  Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q81",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction Cl\u2013CH2CH2CH2CH2\u2013Cl  Na Ether is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wurtz reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fittig reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Freund\u2019s reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Wurtz-Fittig reaction  H H C 3  C  Br /CCl 2 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q82",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "(A). C  H CH3  Product (A) in this reaction will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Meso compound",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dextrorotatory mixture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Laevo-rotatory mixture",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Racemic mixture  OCH3  Br  NaNH ) A (  2\uf0be \uf0be \uf0be \uf0ae \uf0be",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q83",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": ") product Major ( NH . Liq  3  The product (A) is  OCH3  OCH3  NH2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NH2  OCH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mixture of",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q84",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH3  \uf02b  D )i(  2 \uf0be \uf0be \uf0ae \uf0be  C=CH2  ? O H )ii (  CH3  What is the product formed in this reaction?  | OH  | OD",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "CH3  C\u2013CH3  C\u2013CH3  CH3  CH3  C\u2013CH D 2 | OD  C\u2013CH D 2 | OH  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q85",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH OH 2   ? C 160 SO H . Conc 4 2 \uf0b0 \uf0be \uf0be \uf0be \uf0be \uf0be \uf0ae \uf0be  The major product of above reaction may be  CH2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q86",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction sequence  CH MgBr 3 CH + (A) 4 (i) CO2  CH \u2013 C  C \u2013 H 3 \uf0ba  (ii) H O/H 2 \uf0c5(B)  (B) will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3 \u2013 C \uf0ba C \u2013 CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3 \u2013 C \uf0ba C \u2013 MgBr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3 \u2013 C \uf0ba C \u2013 COOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3 \u2013 CH = CH \u2013 COOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q87",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Primary amine does not undergo E-2 elimination, because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It has maximum basic nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alkene obtained will be less stable",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u2013 2 NH is poor leaving group",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrogen has Lewis basic character  | CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q88",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "\uf0c5 CH CH CH N CH CH 3 2 2 2 3 \u2013 \u2013  \u2013 When is heated  OH  | CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Propene is the major product",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethene and C3H7N(CH3)2 are the products",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethene and propene are obtained with ethene  as the major product",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Equimolar amounts of ethene and propene are  obtained",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q89",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the following in increasing order of heat of hydrogenation  |  |  |  |  (III)  (IV)  (I)  (II)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I < III < IV < II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I < IV < II < III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "III < IV < II < I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "III < II < I < IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q90",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "A hydrocarbon with molecular formula C5H12 on monochlorination can give four optically active product, the structure of the hydrocarbon is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3\u2013(CH2)3\u2013CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(CH3)3C\u2013CH3  | CH CH CH CH 3 2 3 \u2013 \u2013 \u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All structure will give optically active product on  monochlorination",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q91",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The product of acid catalyzed rearrangement in the following reaction is  || CH2  +  H  CH3 CH3  CH3  | CH3  |",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H C 3 CH3  |  CH3 CH3  | CH CH 2 3  | CH3  CH3 H C 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "|  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q92",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alkanes give only one monochloro substitution product in chlorination?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2-Methyl butane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2, 2-Dimethyl propane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pentane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hexane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q93",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the end product in the following reaction  \uf02b \uf0be \uf0be \uf0be \uf0be \uf0ae \uf0be \uf0ba \uf02d  2 2 CH C CH A  Hg / O H 3  \uf02b  H",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3\u2013CH2\u2013CHO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3COCH3  | H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3\u2013CH=CHOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH \u2013C=CH 2 2 | OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q94",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alkene is most reactive towards electrophilic addition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Buta-1, 3-diene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Propene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2-butene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q95",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "C\u2014H bond length is minimum in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethyne",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Methane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q96",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Compound having carbon of maximum p character",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Methane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethyne",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbon dioxide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q97",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following represents the given mode of hybridisation sp \u2013 sp3 \u2013 sp2 \u2013 sp2 starting from first carbon atom?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CHO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q98",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "During nitration of an organic compound with HNO3 and H2SO4, HNO3 acts as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Base",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neutral",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Salt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q99",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Monochloro derivative of which carbon are formed  1 2 3 4  in maximum % CH \u2014CH\u2014CH \u2014CH 3 2 3  CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1st",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2nd",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3rd",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4th",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q100",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Among the paraffins it is generally found that with an increase in the molecular weight",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The freezing point decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The boiling point decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The boiling point increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The vapour density decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q101",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Alkene of highest heat of hydrogenation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2 = CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q102",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which process is not governed by peroxide effect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3\u2014CH = CH\u2014CH3 + HBr",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3\u2014CH = CH2 + HCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3\u2014CH3 + Br2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these  CH \u2013 CH 2 3  Br / 2 \uf044  1 equivalent (P)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q103",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Product (P) in the above reaction is  C H 2 5  C H 2 5",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br  Br  Br  CH \u2013 CH3  CH CH Br 2 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q104",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Friedel Craft alkylation reaction is most easily shown by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "COOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q105",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The treatment of methanol with ethylmagnesium iodide liberates a gas at STP. The gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH \u2013 CH \u2013 OH 3  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q106",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The major product of the reaction  HBr P  H CO 3 CH=CH \u2013 CH2 NO2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H CO 3 CH \u2013   \u2013 CH2 CH2 NO2 Br",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H CO 3 CH \u2013   \u2013 CH 2 2 CH NO2 Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H C \u2013 O 3 CH =   \u2013 CH2 CH Br",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H C \u2013 O 3 NO2  Br (h ) 2 \uf06e 1 eqv.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q107",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH CH 2 3  Br / AlCl 2 3 1 eqv.  Product   and   are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH \u2013 CH Br 2 2 , CH(Br)CH3  Br",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH \u2013 CH3 , CH \u2013 CH Br 2 2  Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH \u2013 CH3 , CH CH 2 3  Br  Br",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH \u2013 CH3   in both cases  F  3 3 CH O /CH OH (A) \uf02d \uf0be\uf0be\uf0be\uf0be\uf0be\uf0be\uf0be\uf0ae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q108",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH3 CH3  Identify the compound (A) in the reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q109",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compounds can form only two chloro derivatives upon monochlorinations?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)2 \u2013 CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(CH3)4C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q110",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": ";  B  Cl  CH = CH \u2013 CH \u2013 CH 2 2 3  A and B are  \uf02b\u2013  3 3 KOC(CH )",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alc. KOH,   \uf02b\u2013  3 3 KOC(CH ) , alc. KOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na in NH3, alc. KOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alc. KOH in both will give major product",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q111",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "A + H O 2 B C (i) O3 (ii) Zn/CH COOH 3  (i) NH \u2013 NH 2 2 (ii) OH  Reacts with Na  \u2013  CH CH CH 3 2 3  A can be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaC2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al4C3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg2C3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NiC2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q112",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is most reactive towards electrophilic substitution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Toluene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethyl benzene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Benzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3\u00b0 butyl benzene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q113",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "When cyclohexane is poured in water it floats because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is in boat form",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Water is more denser than cyclohexane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is in chair form",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is in crown form",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q114",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which species as given below will undergo electrophilic attack most readily on the ring?  OH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "\u2013  O  Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q115",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Dehalogenation of meso-2,3-dibromobutane with Zn in ether gives",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q116",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The correct statement about bromination of benzene is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It form \uf070 \u2013 complex",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It form \uf073 \u2013 complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It neither form \uf070 \u2013 complex nor \uf073 \u2013 complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2 Pd, BaSO4 A  Cl H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q117",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "H C \u2013 C  C \u2013 CH \u2013 C = C 3 \uf0ba  Na, NH ( ) 3 \u2113  CH3 H  B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\u2018A\u2019 is optically active while \u2018B\u2019 is optically  inactive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2018A\u2019 is optically inactive while \u2018B\u2019 is optically  active",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both \u2018A\u2019 and \u2018B\u2019 are optically active",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both \u2018A\u2019 and \u2018B\u2019 are optically inactive",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q118",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "To prepare a pure sample of n-hexane using Na metal as one reactant, the other reactant or reactants will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethyl chloride and n-butyl chloride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methyl bromide and n-pentyl bromide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethyl bromide and n-butyl bromide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n-propyl bromide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q119",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Acetylene may be obtained by the electrolysis of aqueous solution of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sodium formate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sodium fumerate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sodium acetate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sodium succinate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q120",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following groups activate the benzene ring when directly attached?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\u2013NO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2013COOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u2013OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both \u2013OH and \u2013COOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q121",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH \u2013 C \u2013 CH = CH 3 2  Ph  C H 2 5",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH \u2013 C \u2013 CH \u2013 CH 3 3  Br C H 6 5  C H 6 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH \u2013 C \u2013 CH \u2013 CH 3 3  Br C H 2 5  C H 6 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C H \u2013 C \u2013 CH \u2013 CH 2 5 3  CH3 Br  C H 6 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C H \u2013 C \u2013 CH \u2013 CH 2 5 3  Br CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q122",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Zn dust CH \u2013 CH \u2013 CH 2 2 2  +  ZnBr2  Br Br  The above reaction is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\uf061-elimination",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\uf061, \uf062-elimination",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\uf061, \uf067-elimination",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Condensation reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q123",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound is heterocyclic aromatic compound?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N  N  H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q124",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the end product  2CH CH A Cu Cl 2 2 NH Cl 4 B H /PdSO 2 4 1 mole  Br2 Ionising solvent and high temperature  C  major  The product C of reaction is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q125",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The addition of HI in the presence of organic peroxide does not follow anti-markovnikov\u2019s rule because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HI bond is too strong to be broken  homolytically",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Iodine free radical formed but readily combine  with each other to form I2 molecule rather than to attack the double bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Iodine combines with H to give back HI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HI is a reducing agent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q126",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "+ CH CH CH Cl             product 3 2 2 AlCl3  \uf044  Major product of the above reaction is  CH CH CH 2 2 3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3  CH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3  Cl  CH CH CH 2 2 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2CH CH 2 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q127",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "During the preparation of ethene by Kolbe\u2019s electrolytic method using inert electrodes the pH of the resulting solution",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases progressively as the reaction  proceeds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases progressively as the reaction  proceeds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains constant through out the reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May decrease if the concentration of the  electrolyte is not very high",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q128",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Electrophilic as well as nucleophilic addition reactions are shown by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alkane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alkene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alkyne",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q129",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The compound CH3CH2C \uf0ba\uf0baCH can be distinguished from alkane and alkene using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bromine in CCl4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ammonical Cu2Cl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ammonical AgNO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q130",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "HX 2 CH CH \u2014 CN product \uf03d\uf03d \uf0be\uf0be\uf0be\uf0ae .  The major product of the reaction is  \uf03d\uf03d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 CH CH \u2014 CN  | X",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "X \u2014 CH2 \u2014 CH2 \u2014 CN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "and",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "in equal ratio",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH2 \uf03d\uf03dCH \u2014 X  HBr  A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q131",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH = CH \u2013 CH \u2013 C  CH 2 2 \uf0ba  H2 1 mole B  A and B respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH \u2013 CH \u2013 CH \u2013 C  CH 3 2 \uf0ba   and  Br  CH2 = CH \u2013 CH2 \u2013 CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH2 = CH \u2013 CH2 \u2013 CH = CH \u2013 Br and  CH3 \u2013 CH2 \u2013 CH2 \u2013 C \uf0ba CH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH \u2013 CH \u2013 CH \u2013 C  CH 2 2 2 \uf0ba   and  Br  CH3 \u2013 CH2 \u2013 CH2 \u2013 C \uf0ba CH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH \u2013 CH \u2013 CH \u2013 C = CH 3 2 2 2   and  Br  CH2 = CH \u2013 CH2 \u2013 CH = CH2  \uf02d \uf0ba \uf02d \uf02d \uf0be\uf0be\uf0be\uf0be\uf0be\uf0be\uf0ae \uf0be\uf0be\uf0be\uf0be\uf0be\uf0ae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q132",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "2 2 4 2 H O/dil.H SO Zn Hg/HCl 3 2 Hg CH CH C CH A B \uf02b  The product B is  O  || CH \u2014 CH \u2014 C\u2014 CH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3 \u2014 CH2 \u2014 CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q133",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of nitration of following compound  D  H  T  D D  H H  T T  D D  H H  T T  D  H  T  I II III",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I > II > III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I < II < III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I = II = III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II > I > III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q134",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Of the five isomeric hexanes, the isomer which can give two monochlorinated compounds is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n-hexane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2,3-dimethylbutane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2,2-dimethylbutane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2-methyl pentane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q135",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compounds does not form benzoic acid by the oxidation with KMnO4?  CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH \u2013 CH 2 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH \u2013 CH \u2013 CH3 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3  CH \u2013 C \u2013 CH3 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q136",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "How many moles of H2 would be required to produce saturated hydrocarbon from given compound?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q137",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following, dipole moment is not zero?  CH3 H  H Cl  C  C",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C  C  H CH3  H Cl  Cl  Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl Cl  Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q138",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Alkanes can be obtained by the hydrolysis of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaC2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg2C3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Be2C3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Al4C3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q139",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The end product in the given reaction  h (i) Mg/ether 2 (ii) D O Br A B. \uf06e \uf02b \uf0be\uf0be\uf0be\uf0ae \uf0be\uf0be\uf0be\uf0be\uf0be\uf0ae  B is  2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "D  D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q140",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Mesitylene is a polymerisation product of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acetylene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Propyne",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethylene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vinylacetylene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q141",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Ethane gives_____different substitution product on reaction with chlorine",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q142",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alkane is liquid at room temperature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Propane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Butane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nonane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q143",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following polysubstitution may takes place?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acylation of benzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methylation of benzene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitration of benzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sulphonation of benzene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q144",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "1-butene and 2-butene can be differentiated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hydrogenation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidation by acidic KMnO4 (Hot)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Baeyer\u2019s reagent test",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q145",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of reactivity towards nitration reaction  CH3  I. II.  NO2  Cl  III.  IV.  NO2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I > II > III > IV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II > I > III > IV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "II > I > IV > III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "III > IV > I > II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q146",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Br /CCl 2 4 (x) NaNH2 (y)  Compounds x and y are respectively  , C \uf0ba CH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH \u2013 CH2  Br Br",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH = CH\u2013 Br   , C \uf0ba CH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C = CH2  , CH3  Br",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": ", C \uf0ba CH CH  2 \u2013 CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q147",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "An alkene \u2018A\u2019 contains three C \u2013 C \uf073 bond, eight C \u2013 H \uf073 bond and one C \u2013 C \uf070 bond. \u2018A\u2019 on ozonolysis gives two moles of an aldehyde of molar mass 44 u. IUPAC name of \u2018A\u2019 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Propene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "But-2-ene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2-methyl-but-2-ene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pent-3-ene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q148",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the alkyne in the following sequence of reactions  H2  HgSO4 CH  CH \uf0ba Ozonolysis  Alkyne  Controlled A B only  H SO 2 4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H3C \u2013 C \uf0ba C \u2013 CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3C \u2013 CH2 \u2013 C \uf0ba CH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HC \uf0ba C \u2013 CH2 \u2013 C \uf0ba CH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2C = CH \u2013 C \uf0ba CH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q149",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Addition of water to CH3 \u2013 C \uf0ba CH is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrophilic addition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleophilic addition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electrophilic substitution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isomerisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q150",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The reagent which is most appropriate for the following conversion,  Br  Br H H  is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alcoholic KOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alc. KOH followed by NaNH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aq. KOH followed by NaNH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q151",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "1 - Bromo - 3-chlorocyclobutane will react with two moles of Na in ether producing",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q152",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "3  2  Product is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glyoxal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methylglyoxal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dimethylglyoxal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acetone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q153",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Benzene can be converted to BHC when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl2 is bubbled through benzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Benzene and Cl2 mixture is kept in dark",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl2 is shaken with benzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl2 and benzene is exposed to light",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q154",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following on dehalogenation will give trans alkene?  Br",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3 CH3  CH3  H  Br  Br  H  CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H  CH3  Br  Br  CH3 CH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3  Br  Br  H  H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3  CH3  Br  Br  Mg  dry ether Product (Final)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q155",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Br  What is product?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH CH    CH 3 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Br MgBr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q156",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH    OH 2 Conc.  H PO 3 4, \uf044 Major Product. (A)  What is A?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q157",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "COO  Na  What is P?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q158",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "C    C    C    C Li/NH (liq.) 3 Product.  The product is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q159",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Conc. Pt/H2 H SO 2 4, \uf044 (A) (B) 2  The compound \u2018A\u2019 and \u2018B\u2019 respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": ",",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": ",",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": ", CH CH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q160",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH    CH    CH  +  HCl 3 2 Peroxide Major Product.  The intermediate of reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH    CH    CH 3 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH CH    CH 3 2 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH    CH    CH 3 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH    CH    CH 3 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q161",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will give acetone?  (a) CH    C    CH 3 Hg , H SO 2     2 4 H O 2  (b) CH    C    CH 3 B H /THF 2 6  OH , H O  2 2  KMnO4 Cold & dil.  (c)  Hot  (d)  KMnO , OH 4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a), (b) & (d)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a) & (d)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a), (b) & (c)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(a) & (c)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q162",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Br  Br  Na  Dry ether Product  (Major)  Br  Br  The major product is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q163",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Mg2C3 and CaC2 react with H2O to produce respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Propyne and ethane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Propane and ethane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Propyne and ethyne",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethene and ethyne",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q164",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "CH \u2013 CH \u2013 CH \u2013 CH 3 3  Br  (Y) as a major product, is  CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH \u2013 CH \u2013 CH \u2013 CH 3 3  OH  CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH \u2013 C = CH \u2013 CH 3 3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH \u2013 CH \u2013 CH = CH 3 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3 \u2013 CH = CH \u2013 CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q165",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Elimination reaction by alc. KOH will be fastest in  Cl",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl  Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q166",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Tertiary butyl bromide undergoes elimination reaction through",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E1 mechanism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E2 mechanism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E1cB mechanism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q167",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Fehling\u2019s solution test is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Benzaldehyde",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acetone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Acetaldehyde",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q168",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Major product of the reaction is  ? Anhy. AlCl3  dark, cold + 6Cl2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C6H5Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H6Cl6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6Cl6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C6Cl12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q169",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Product of reaction will be  ? CH N 2 2 N gas, h 2 \uf06e CH \u2013 CH = CH \u2013 CH 3  3 (cis form)  CH3  CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C \u2013 C  CH3  CH3  CH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C \u2013 C  H  H  CH3  H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C \u2013 C  CH3  H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mixture of",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q170",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "When trans-1-bromo-2-phenyl cyclohexane react with alcoholic KOH, it mainly gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1-Phenylcyclohexene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3-Phenylcyclohexene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2-Phenylcyclohexene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phenol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q171",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of melting point is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n-pentane > Neopentane > Isopentane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Neopentane > n-pentane > Isopentane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neopentane > Isopentane > n-pentane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isopentane > Neopentane > n-pentane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q172",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "\u2013CCl3 is deactivating if attached to the benzene ring. The most appropriate factor for this is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Resonance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electromeric effect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hyperconjugation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reverse hyperconjugation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q173",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "The cyclic compound having minimum angle strain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C3H6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C4H8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C5H10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C6H12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_q174",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following does not decolourise Baeyer\u2019s reagent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3 \u2013 C \uf0ba\uf020C \u2013 CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH2 = CH \u2013 CH \uf03d\uf020CH \u2013 CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2C = C = CH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Aniline does not undergo Friedal Craft\u2019s  reaction.\nReason (R): \u2013NH2 group is strongly deactivating.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Acetylene on reaction with sodium gives  hydrogen.\nReason (R): sp hybridised carbon atoms of acetylene are  less electronegative than sp2 hybridised carbon atoms.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Monochlorination of isopentane generates two  chiral carbon atoms.\nReason (R): 1\u00b0, 2\u00b0 as well as 3\u00b0 carbon free radicals are  formed during the reaction.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Alkynes give some nucleophilic addition  reactions but alkenes do not.\nReason (R): The carbanion formed in reaction of alkynes is  more stable than carbanion formed in alkenes.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Acetylene may undergo dimerisation or  trimerisation in the presence of Cu2Cl2 and NH4Cl.\nReason (R): Propyne on heating in presence of Cu-tube  forms mesitylene.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): NBS gives benzylic substitution on reaction  with toluene.\nReason (R): But-2-yne has acidic hydrogen.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Lower the heat of hydrogenation of an alkene,  the more stable it is.\nReason (R): Diels-Alder reaction may take place between  buta-1, 3-diene and ethylene.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Hydration of ethene and ethyne proceeds via  same mechanism.\nReason (R): Ethyne is more reactive than ethene towards  chlorination reaction.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Buta-1, 3-diene is more stable than but-2-ene.\nReason (R): Buta-1, 3-diene is resonance stabilised  molecule.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q10",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Wurtz reaction is not given by t-butyl chloride.\nReason (R): t-butyl chloride cannot form a free radical.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q11",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): But-1-yne and But-2-yne can be distinguished  by ammonical silver nitrate solution.\nReason (R): But-2-yne will react but but-1-yne does not.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q12",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Alkenes are more reactive than alkynes  towards electrophilic addition reactions.\nReason (R): Alkenes form more stable carbocation than  alkyne in electrophilic addition reaction.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q13",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): During pyrolysis of alkanes, C \u2014 C bond is  broken in preference to C \u2014 H bonds.\nReason (R): Bond energy of C \u2014 C bond is lower than that  of C \u2014 H bonds.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q14",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Cis-2-butene has higher boiling point than the  trans isomer.\nReason (R): Cis-isomer is more closely packed in the  crystal lattice structure.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q15",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Tert-butyl benzene on nitration gives ortho and  para nitro-t-butyl benzene.\nReason (R): Tert-butyl group is ortho, para directing group.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q16",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Neopentane forms only one monochlorinated  product upon free radical chlorination.\nReason (R): Neopentane has four identical methyl groups  attached to a quaternary carbon.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q17",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Both alkanes and alkenes can be prepared by  Kolbe\u2019s electrolysis method.\nReason (R): But-1-yne  is more acidic than but-2-yne.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q18",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Alkenes show nucleophilic addition reactions.\nReason (R): Alkenes are the rich source of \uf070-electrons  which attract nucleophile.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q19",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): 1,1-dichloro ethane on reaction with sodium in  presence of dry ether gives but-2-ene.\nReason (R): Wurtz reaction is more efficient in the  preparation of alkenes.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_07_secB_q20",
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Hydroxylation of cis-but-2-ene with osmium  tetroxide and NaOH gives meso compound.\nReason (R): Hydroxylation of alkene with osmium oxide and  NaOH is syn in nature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-I"
+  }
+]

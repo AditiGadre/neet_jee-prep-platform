@@ -1,0 +1,4737 @@
+[
+  {
+    "question_id": "chem_05_q1",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound is a tribasic acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H3PO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3PO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H3PO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H4P2O7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q2",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct increasing order of enthalpy of vaporisation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NH3, PH3, AsH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AsH3, PH3, NH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH3, AsH3, PH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PH3, AsH3, NH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q3",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the strongest acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HClO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HClO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HClO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HClO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q4",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cannot be hydrolysed?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NF3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PCl3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SbCl3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NCl3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q5",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ICl is more reactive than I2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All hydrolysis of XeF6 are redox reactions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HCl reacts with finely powdered iron and ferric  chloride is formed  2 1 a a K K \uf03e\uf03e  for H2SO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q6",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "HClO > HBrO > HIO \u2013 Acidic  strength",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HClO > HClO2 > HClO3 > HClO4\u2013 Oxidising  power",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl2 > F2 > Br2 > I2 \u2013 Enthalpy of  dissociation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O > H2Te > H2Se > H2S \u2013 Boiling  point",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q7",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation of I\u2013 with MnO4  \u2013 in acidic medium gives product  \u2013",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "I2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "IO4",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "IO3  \u2013",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "IO\u2013",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q8",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H3PO4 is tribasic and reducing",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3PO3 is dibasic and reducing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H3PO3 is dibasic and non-reducing",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H3PO4 is dibasic and non-reducing",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q9",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Thermal stability of hydrides of 15th group follows the order",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NH3 > PH3 > AsH3 > SbH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PH3 < AsH3 < SbH3 < NH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH3 < AsH3 < PH3 < SbH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH3 < PH3 < AsH3 < SbH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q10",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cannot be hydrolysed?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PCl3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SiCl4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NF3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q11",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Sulphuric acid is used",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In lead storage batteries",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In making fertilizers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "As a dehydrating agent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q12",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is responsible for turning moist starch iodide paper blue when it is brought in contact with O3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Liberation of iodine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Liberation of O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Formation of alkali",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q13",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct acidic nature order is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HClO2 < HClO3 < HClO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3PO4 < H3PO3 < H3PO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH4 < NH3 < H2O < HF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q14",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "SO2 acts as an oxidant when reacts with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acidic K2Cr2O7",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acidic KMnO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q15",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Colour of iodine solution is discharged by shaking it with an aqueous solution of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K2S",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2S2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2SO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q16",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The halogen which gives O2 with hot conc. NaOH is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Br2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q17",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SbH3 > AsH3 > PH3 (Boiling point)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BiH3 > SbH3 > AsH3 > PH3  (Reducing) character",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PH3 > AsH3 > SbH3 > NH3 > BiH3 (Volatility)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH3 > PH3 > AsH3 > SbH3 (HEH angle (\u00b0))",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q18",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "XeF4 + H2O \uf0be\uf0be\uf0aeA [Complete hydrolysis]  Hybridisation and shape of xenon product A is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp3d, T-shaped",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp3d, see-saw",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3d2, square pyramidal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3, pyramidal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q19",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Total number of P \u2013 O \u2013 P bonds and \uf073 bonds in P4O10 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6, 14",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8, 14",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6, 16",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4, 16",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q20",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H3PO2 is tribasic and non-reducing",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3PO3 can form two type of salts",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In solid state, PCl5 exists as an ionic solid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q21",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following oxide of nitrogen is coloured?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N2O5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N2O4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q22",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound does not have d\uf070-p\uf070 bonding?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H3PO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HClO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2CO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q23",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The oxide of nitrogen formed when Zn reacts with hot and conc. HNO3 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2O5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q24",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2 diffuses faster than O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solid PCl5 exist as tetrahedral cation and  octahedral anion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NO2 has the tendency to dimerise",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HNO3 exists as non-planar molecule in  gaseous state",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q25",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The incorrect statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(CH3)3N is pyramidal but (SiH3)3N is planar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both N2O and N2O5 are neutral oxides",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "White phosphorus consists of discrete  tetrahedral molecule, P4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fluorine does not show disproportionation  reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q26",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is mixed anhydride?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N2O5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q27",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which  of  the  following  has  maximum electronegative nature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F\u2013",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Br+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q28",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "BF3 is Lewis acid while NH3 is Lewis base. If they combine, the hybrid state of B and N atom in adduct is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N is sp3, tetrahedral, B is sp3 tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N is sp2, planar, B is sp3 tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N is sp3, tetrahedral, B is sp2 planar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N is sp2, pyramidal, B is sp3 tetrahedral",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q29",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of boiling points of noble gases is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "He < Ne < Ar < Kr < Xe",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "He > Ne > Ar > Kr > Xe",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "He < Ne < Kr < Ar < Xe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "He < Ne < Ar < Xe < Kr",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q30",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Z F Xe K 675 / Ni  2 \uf0be \uf0be \uf0be \uf0ae \uf0be \uf02b  ) excess in e X (  Number of lone pairs on the central element of \u2018Z\u2019 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q31",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "During etching of glass by hydrofluoric acid, which chemical compound is formed?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2SiF6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2SiO6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2F2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q32",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "NO2 is released on heating",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pb(NO3)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaNO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaNO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q33",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct statement about the oxoacids of halogens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All of them are good reducing agents",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All of them are monobasic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They may be monobasic and polybasic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They have general formula HXO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q34",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following properties, white phosphorus resembles red phosphorus?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reaction with caustic alkali",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Burning in air",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dissolution in CS2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chemiluminescence",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q35",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is formed when phosphoric acid is heated to 600\u00b0C?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HPO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H4P2O7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PH3 and P2O5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P2O5 and H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q36",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Among chalcogen, the highest tendency to form X\u2013(g) ion is exhibited by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxygen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sulphur",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tellurium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Selenium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q37",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "When droplets of concentrated H2SO4 fall on cotton fabric, the spots blacken with the appearance of hole. This is because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2SO4 burns the cotton",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Causes cotton to form respective sulphates",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Removes water from the fabric",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heats up the cotton",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q38",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The halogen having five vacant orbitals in the outermost shell belongs to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3rd period",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4th period",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2nd period",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5th period",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q39",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which halogen acid has highest percentage ionic character?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HBr",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q40",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct structure of S2Cl2?  Cl  Cl",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "S\u2013S",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "S = S  Cl 104\u00b0  Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl\u2013S\u2013S\u2013Cl  180\u00b0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl = S = S = Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q41",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The number of P\u2013O\u2013H links in orthophosphoric acid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q42",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hydride is best reducing hydride?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SbH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BiH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q43",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "A white precipitate is obtained on hydrolysis of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PCl5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NCl3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BiCl3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "AsCl3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q44",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "In the solid state, SO3 exist as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyclic tetramer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyclic trimer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Discrete molecule",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dimer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q45",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "XeF6 on partial hydrolysis gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "XeOF2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "XeOF4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "XeO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XeF2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q46",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Cyclo S6 exist in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Boat form",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chair form",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Puckered ring structure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Octahedral arrangement",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q47",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The starting material for the preparation of cross-linked silicones is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R2SiCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R3SiCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RSiCl3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SiR4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q48",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which among the following oxides is basic in nature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P4O6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "As4O6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sb4O6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bi2O3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q49",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following halogen does not disproportionate with hot and concentrated NaOH solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q50",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct sequence of increasing electron affinity among oxygen family elements?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Te < Se < O < S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O < Te < Se < S",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Se < Te < O < S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O < Se < Te < S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q51",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Correct statement about NCl3 is that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Its hydrolysis produces HNO3 and HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Its hydrolysis produces NH3 and HCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Its hydrolysis produces NH3 and HOCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It can\u2019t be hydrolysed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q52",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The basicity of hypophosphorus acid and hybridisation of \u2018P\u2019-atom in it, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3, sp3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3, sp2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2, sp2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1, sp3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q53",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of acidity of some hydrides is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NH3 < PH3 < H2O < H2S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PH3 < NH3 < H2S < H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PH3 < NH3 < H2O < H2 S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH3 < PH3 < H2S < H2O  CN CH 2 3 \uf0be \uf0be \uf0be \uf0ae \uf0be \uf02b  + SF4 + NaCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q54",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "' X ' NaF SCl  K 350  The product \u2018X\u2019 will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SCl4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S2Cl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S2Cl4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q55",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction which produces a green coloured product is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 2 2 7 (NH ) Cr O \uf044 \uf0be\uf0be\uf0ae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 3 NH NO \uf044 \uf0be\uf0be\uf0ae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 AgNO \uf044 \uf0be\uf0be\uf0ae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 Pb(NO ) \uf044 \uf0be\uf0be\uf0ae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q56",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "BiCl3 hydrolysis to give a white cloudy precipitate of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BiCl3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HBiO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BiOCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q57",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Hypophosphorus acid is also known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phosphonic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phosphinic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diphosphoric acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diphosphonic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q58",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Chlorine on reaction with cold water gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chlorous acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chloric acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hypochlorous acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Perchloric acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q59",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound of Xe is isostructural with ICl4  \u2013 and BrO3  \u2013 respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "XeF4, XeO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "XeO3, XeF4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "XeO3, XeF2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XeF4, XeF2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q60",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following are not correctly arranged as per the property given in front of it?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2Te > H2Se ....... acidic character",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br2 > F2 ...... enthalpy of dissociation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH3 >PH3 ......... basic nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "TlCl3 > InCl3 ..... stability",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q61",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Most acidic oxide among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2O5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P2O5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N2O4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "As2O3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q62",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "What is the crystalline form of PBr5?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[PBr4]+[PBr6]\u2013",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[PBr3]+[Br2]\u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[PBr4]+[Br]\u2013",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[PBr3]+[PBr7]\u2013",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q63",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The number of d\uf070-p\uf070 bonds in SO3 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q64",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Very pure nitrogen gas is prepared by heating",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NH4NO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(NH4)2Cr2O7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ba(N3)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2H4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q65",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a mixed anhydride?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl2O5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N2O5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl2O7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q66",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Incorrect statement about P4O10 molecule is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It has six P\u2013O\u2013P bonds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is hydrolysed to H3PO4 and H4P2O7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It does not contain P\u2013P bond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q67",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following have non-linear shape?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "XeF2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KrF2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I3  \u2013",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OF2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q68",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is not a pseudo halide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CNO\u2013",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RCOO\u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OCN\u2013",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 N\uf02d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q69",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The number of \uf073 and \uf070 bonds in P4O6 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12\uf073, 3\uf070",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12\uf073, 0\uf070",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12\uf073, 5\uf070",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15\uf073, 12\uf070",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q70",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Most polar among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HBr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HI",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q71",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Ammonia on reaction with hypochlorite ion produces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N2H4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q72",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction would result in the liberation of Cl2 gas?  (i) 4 MnO Cl H \uf02d \uf02d \uf02b \uf02b \uf02b \uf0be\uf0be\uf0ae  (ii) 2 Cl I \uf02d\uf02b \uf0be\uf0be\uf0ae  (iii) 3 2 ClO I \uf02d\uf02b \uf0be\uf0be\uf0ae  (iv) 2 4 NaCl H SO \uf02b \uf0be\uf0be\uf0ae",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "i, ii",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "i, iii",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "i, iii, iv",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ii, iv",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q73",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following species is likely to have a linear structure?  +",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2  2\u2013",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SO4  2\u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q74",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following on heating would give laughing gas?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaNO2 + NH4Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(NH4)2SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH4NO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cu + HNO3 (conc.)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q75",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Hypo on treatment with I2 forms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2SO4 + S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2S4O6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2SO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q76",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is used for the preparation of fluorine by Whytlaw Gray electrolytic method?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KF (aq.)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HF (aq.)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KHF2 (molten)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH4F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q77",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "NH3 reacts with excess of Cl2 to give",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NH4Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NCl3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NCl5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q78",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The van der Waals forces are greatest in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Argon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Krypton",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Xenon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q79",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "453 473 K 3 2 2 220 atm 2NH CO X H O \uf02d \uf02b \uf0be\uf0be\uf0be\uf0be\uf0be\uf0ae \uf02b ; X is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ammonium carbonate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Urea",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biurate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2O2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q80",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "On  heating,  orthophosphorous  acid disproportionates to give",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H3PO4 and H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3PO2 and PH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H3PO2 and H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H3PO4 and PH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q81",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "When XeF4 react with SbF5 the ions formed are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\uf0c5 [XeF] , [SbF ] 6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[XeF ] 6 \uf0c5, [SbF ] 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[XeF ] 3 \uf0c5[SbF ] 6 ,",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[XeF ] , 3 \uf0c5[SbF ] 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q82",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Correct acidic nature order is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H3PO2 > H3PO3 > H3PO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3PO4 > H3PO3 > H3PO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H3PO4 > H3PO2 > H3PO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H3PO3 > H3PO2 > H3PO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q83",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following metal forms NH4NO3 when react with very dil. HNO3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ni",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q84",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The number of S = O bonds in H2S2O8 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q85",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of Lewis base is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NF3 > NCl3 > NBr3 > NI3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NCl3 > NF3 > NBr3 > NI3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NF3 > NBr3 > NCl3 > NI3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NI3 > NBr3 > NCl3 > NF3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q86",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The product formed when Cl2 is treated with excess of NH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2 and HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HClO3 and N2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N2 and NH4Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NCl3 and HCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q87",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "PCI5 in solid state exists as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[PCl3] [Cl2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[PCl4]+ [Cl\u2013]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[PCI4]+ [PCI6]\u2013",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q88",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The basicity of pyrophosphorus acid (H4P2O5) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q89",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The strongest oxidizing agent among the following is  \u2013",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "lO4  \u2013",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "ClO4  \u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BrO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q90",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following acid has S-S bond?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2S2O8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2S2O7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2S2O6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q91",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct bond energy order of halogen is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl2 > Br2 > F2 > I2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl2 > F2 > Br2 > I2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F2 > Cl2 > Br2 > I2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F2 > Cl2 > I2 > Br2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q92",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SO2 bleaches by reduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl2 bleaches by oxidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O3 bleaches by oxidation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q93",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect?  +] cation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PBr5 contains [PBr4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dipole moment of SO3 gas = 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O2, NO2 are paramagnetic molecule",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H3PO4 is stronger acid than H3PO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q94",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Species having same hybridization and same geometry is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "XeF2, CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "XeF4, [Ni(CO)4]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ClF3, NH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH3, PCl3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q95",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Heating ammonium dichromate and ammonium carbonate produces respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2, NH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N2, N2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH3, NH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2, NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q96",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Among the given oxo acids, the acid having highest Ka is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HClO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HBrO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HIO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All have equal Ka",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q97",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement about N2O5",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is anhydride of HNO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is a powerful oxidizing agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It contains one [N \uf0ae O] bond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q98",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Colour of iodine solution is disappeared by shaking it with aqueous solution of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PbSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2S2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2SO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q99",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The number of P\u2013O\u2013P bonds in cyclic metaphosphoric acid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q100",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which molecule has minimum bond angle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AsH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q101",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The shape of XeF6 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Octahedral",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pentagonal bipyramidal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Distorted octahedral",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Square pyramidal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q102",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "From which compound iodine displaces chlorine?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "KClO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q103",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the incorrect statements among the following",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PH3 is a colourless gas with rotten fish smell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl2 reacts with excess of NH3 to give N2 and  NH4Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Br2 reacts with hot and conc. NaOH to give  NaBr, NaBrO2 and H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ozone oxidises SO2 to SO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q104",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "In ring test of nitrate ion, charge of Fe and NO in brown ring complex is respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+2 and 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+1 and +1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+1 and 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+2 and \u20131",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q105",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Yellow P4 \u2013 Bond angle \u2013 109\u00b028\uf0a2\uf0a2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl2 \u2013 Disproportionates with hot conc. NaOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HOCl \u2013 Weaker acid than HOBr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ClF3 \u2013 sp3d2 hybridization",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q106",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "One mole of calcium phosphide on treatment with excess of water gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One mole of phosphine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two moles of phosphoric acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two moles of phosphine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "One mole of phosphorus pentoxide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q107",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pairs of species react with water to produce colourless gas that gives white fumes with HCl?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calcium chloride and calcium cyanamide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calcium carbide and aluminium carbide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnesium nitride and calcium nitride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Calcium carbide and calcium nitride",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q108",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct about Contact process for the manufacture of sulphuric acid?  a. V2O5 is used for catalytic oxidation of SO2 to SO3 b. SO2 is produced which is absorbed in water  c. SO3 is directly absorbed in water  d. SO3 is absorbed in concentrated sulphuric acid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only c",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "c & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & b",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q109",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "How many P \u2013 H and O \u2013 H bonds respectively are present in H4P2O7 molecule?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 & 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 & 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 & 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 & 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q110",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "HI cannot be prepared by the action of KI and H2SO4 because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HI is much weaker acid than H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HI gets oxidised by H2SO4 to I2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2SO4 is a dehydrating reagent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HI is less volatile than H2SO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q111",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction is not feasible?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2NaBr + Cl2 \uf0be\uf0ae 2NaCl + Br2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ClF3 + H2O \uf0be\uf0ae HClO2 + HF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2KIO3 + Cl2 \uf0be\uf0ae 2KClO3 + I2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are feasible",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q112",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the anhydride of HClO4?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ClO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl2O7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl2O6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q113",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Complete hydrolysis of XeF6 forms a compound \u2018A\u2019 which explodes violently in dry state. \u2018A\u2019 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "XeO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "XeO2F2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "XeOF4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XeF4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q114",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "XeF2 reacts with PF5 to form",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[XeF]+ [PF6]\u2013",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[XeF3]+ [PF4]\u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[XeF]\u2013 [PF6]+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XeF4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q115",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "The strongest oxidizing agent among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 BrO\uf02d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 IO\uf02d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 ClO\uf02d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All have same oxidizing power",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q116",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Most volatile halogen acid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HBr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q117",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Least bond angle is possesed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q118",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of boiling point is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O < H2S < H2Se < H2Te",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2S < H2O < H2Se < H2Te",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2S < H2Se < H2O < H2Te",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2S < H2Se < H2Te < H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q119",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cannot be used for drying NH3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P4O10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q120",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect match :  Molecule Hybridisation Shape",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "XeF6 sp3d2 Octahedral",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "XeO3 sp3 Pyramidal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "XeF4 sp3d2 Square planar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XeOF4 sp3d2 Square pyramidal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q121",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following match is incorrect?  Molecule/Ion Shape Bond angle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 NH\uf02b Tetrahedral 109\u00b028\uf0a2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2013 4 ClO Tetrahedral 109\u00b028\uf0a2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u2013 3 ClO Pyramidal 109\u00b028\uf0a2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2013 3 NO Trigonal planar 120\u00b0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q122",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order among the given below is  I. H+ < H < H\u2013 (Atomic/ionic radii)  II. O < N < F (First ionization energy)  III. Br2 < Cl2 < F2 (Oxidizing power)  IV. Br2 < Cl2 < F2 (Bond energy)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I, II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II, III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I, II, III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I, II, III, IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q123",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a component of bleaching powder?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaOCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca(ClO)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaOCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q124",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Catalyst used in preparation of HNO3 by Ostwald process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pt",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "V2O5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q125",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "For the trihalides of phosphorus the order of bond angle would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F > Cl > Br > I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I > Br > Cl > F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl > F > Br > I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl > Br > F > I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q126",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following bond angle is minimum?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2S  \u2013",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 NO\uf02d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q127",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2O5(s) \u2013 Ionic compound",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO(g) at low temperature \u2013 Paramagnetic  nature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PCl5(s) \u2013 Ionic compound",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XeOF4 \u2013 Polar molecule",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_q128",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct order of the melting point of hydrogen halides?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HF > HCl > HBr > HI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HF > HI > HBr > HCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HI > HF > HBr > HCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HI > HF > HCl > HBr  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Fluorine is more reactive than chlorine.\nReason (R): F \u2013 F bond has low bond dissociation energy  than Cl \u2013 Cl.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): PF5 and IF5 have similar shapes.\nReason (R): PF5 and IF5 are interhalogen compounds.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Helium does not form clathrates.\nReason (R): Helium has the smallest atomic size among all  the elements of group 18 & can escape from the cavities.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When PCl3 is hydrolysed then tribasic acid of  phosphorous is formed.\nReason (R): H3PO3 is a tribasic acid.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Oxidizing power are in order  \u2013 > IO4  \u2013 > ClO4  \u2013  BrO4\nReason (R): Standard reduction potential for perhalates will  be in same order.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): N cannot form NCl5.\nReason (R): P cannot form PH5.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_05_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Group 15-18)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Partial hydrolysis of XeF6 is not a redox  reaction.\nReason (R): Complete hydrolysis of XeF6 is a redox  reaction.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I"
+  }
+]

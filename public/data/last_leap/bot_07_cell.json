@@ -1,0 +1,6091 @@
+[
+  {
+    "question_id": "bot_07_q1",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following cell organelle is not the part of endomembrane system?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vacuole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lysosome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Golgi bodies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Peroxisome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q2",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leeuwenhoek first saw and described a living  cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Robert Brown discovered cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electron microscope revealed all the structural  details of cell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A large cell has a higher volume : surface ratio  than a smaller cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q3",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The prokaryotic cells are represented by all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Red algae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Blue green algae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mycoplasma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ray fungi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q4",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The ribosome of a polysome translate the mRNA into",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ER",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phospholipids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "rRNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q5",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The plasma membrane of human RBC contains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "70% phospholipids and 30% sterols",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "52% proteins and 40% lipids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40% proteins and 52% lipids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90% water and 10% integral proteins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q6",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The lipid-like steroidal hormones are synthesized in SER among",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hopanoid containing bacterial cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plant cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Animal cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q7",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. Cristae (i) Chromatin  b. Glycosylation (ii) Mitochondria  c. Rubisco (iii) Chloroplast  d. Histones (iv) Golgi complex",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iii), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q8",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The proteins in the cell membrane responsible for facilitated diffusion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Perform both uphill and downhill transport",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Require metabolic energy for their activity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Are under hormonal regulation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Do not show transport saturation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q9",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lysosome \u2013 Intracellular scavenging",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Golgi complex \u2013 Metabolism of xenobiotics",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Elaioplast \u2013 Oil and fat storage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glyoxysomes \u2013 Gluconeogenesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q10",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "According to the universally accepted model of plasma membrane",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "More extrinsic proteins are found on the outer  face of membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Extrinsic proteins show flip-flop movement",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glycocalyx is exclusively present towards  outer face of membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Certain extrinsic proteins also help in  transport across membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q11",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Histone proteins have lysine and arginine only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Petite colony in yeast is a mitochondrial  character",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RER is involved in detoxification of drugs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 microtubules are present in the peripheral  part of centriole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q12",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "How many protofilaments are present in each peripheral triplet of centriole?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "39",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Less than 39",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "26",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q13",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following synthesizes proteins for export?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Free ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SER",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lysosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RER",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q14",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "For the fluid mosaic model of membrane given by Singer and Nicolson, which of the following conditions are not associated?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lipids enable the lateral movement of proteins  in the membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fluid nature of membrane helps in secretion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lipids can show flip flop movement from one  layer of membrane to other",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fluidity of membrane is mainly due to  oligosaccharides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q15",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement(s) w.r.t. functions of various cellular components  a. Middle lamella works as glue to hold the adjacent cells together.  b. Mitochondria, chloroplast and vacuoles are part of endomembrane system as their functions are coordinated.  c. Lipoidal steroid hormones are synthesized by ER component which is not associated to 80 S ribosomes.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both a and c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both b and c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q16",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "70 \u2018S\u2019 ribosome \u2013 Bacterial mesosome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytoskeleton \u2013 Lipoproteins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kinetochore \u2013 Centromere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lysosome \u2013 Catalase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q17",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following disease is caused by failure of residual bodies to move out of the cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Albinism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Huntington\u2019s chorea",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Edward\u2019s syndrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hurler\u2019s disease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q18",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Single envelope system is characteristic feature of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prokaryotic cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eukaryotic cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mesokaryotic cell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q19",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Thin, amorphous and cementing layer between two adjacent cells, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary wall",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Middle lamella",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary wall",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plasma membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q20",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect statement regarding fluid mosaic model of plasma membrane",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protein icebergs in sea of lipids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycolipid and glycoprotein present on outer  surface",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Extrinsic proteins in lipid bilayer cause flip-flop  movement",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two lipid layers are joined by hydrophobic  attraction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q21",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Dictyosome is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rough endoplasmic reticulum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Smooth endoplasmic reticulum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Non-connected cisternae in plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Interconnected cisternae in animals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q22",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Heterophagosome is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary lysosome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary lysosome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Residual bodies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Autophagic vacuole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q23",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Both chloroplast and mitochondria show similarity in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of DNA with more AT",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of 70s ribosome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of porins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q24",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chloroplast \u2013 Thylakoid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Golgi bodies \u2013 Cristae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitochondria \u2013 Oxisome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Centriole \u2013 Microtubules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q25",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not associated with chloroplast of higher plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thylakoid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Grana",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Quantasome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pyrenoids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q26",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Enzymes for \uf062-oxidation of fatty acids are found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glyoxysome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sphaerosome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lomasome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q27",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Cell organelle with property of detoxification of drugs is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RER",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lysosome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sphaerosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SER",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q28",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Chromosome found in oocytes of many animals is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lampbrush chromosome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polytene chromosome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B-chromosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q29",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "How many microtubules are associated with the structure of centriole?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "11",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "27",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q30",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Plasma membrane is regarded as asymmetric because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is made of phospholipid and protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lipids in outer and inner side are different",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Have permeases for facilitated diffusion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Proteins are like icebergs in sea of lipids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q31",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "In condensed state of mitochondria",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ATP synthesis is reduced",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidative phosphorylation and ETS occurs at  fast rate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intermembranal space becomes smaller",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Core or matrix is enlarged",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q32",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "What is true for plasma membrane?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is asymmetrical due to presence of  glycocalyx at inner side only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lipids show flip-flop movement",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Extrinsic proteins are more abundant on the  outer surface",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Percentage of carbohydrates is higher than  proteins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q33",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The endomembrane system of cell includes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ER + Golgi body + Mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ER + Golgi body + Vacuole + Microtubules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ER + Golgi body + Lysosome + Vacuole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ER + Golgi body + Chloroplast + Lysosome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q34",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Kinetochores are associated with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Outer part of primary constriction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Centromere in its inner central part",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary constriction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Satellite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q35",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement regarding orthodox state of mitochondria",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is an active state of mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Matrix is enlarged while outer chamber is  narrow",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitochondria are actively engaged in  performing Krebs cycle, ETS and oxidative phosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cristae are more randomly distributed and  outer chamber quite large",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q36",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct statement regarding RER",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It bears enzymes for modifying polypeptides",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It takes part in detoxification of toxic  chemicals with the help of cytochrome 450",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It makes glycosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It forms sphaerosome and synthesizes  ascorbic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q37",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Microfilaments are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Non-contractile & hollow fibrils",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Contractile & hollow fibrils",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Contractile & solid fibrils",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non-contractile & solid fibrils",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q38",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Cilia and flagella in a eukaryotic cell",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Are motile at base",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Are made of 20 microtubules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Are devoid of matrix and flagellar sheath",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Shows rotatory movement",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q39",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Eukaryotic cells contain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "70 \u2018S\u2019 ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "70 \u2018S\u2019 and 80 \u2018S\u2019 ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 \u2018S\u2019 ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "70 \u2018S\u2019 and 60 \u2018S\u2019 ribosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q40",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect statement regarding cells",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mycoplasma, the smallest cell, is only 0.3 \uf06dm  in length while bacteria could be 3 to 5 \uf06dm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Haemoglobin associated human cells are  about 7 \uf06dm in diameter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The shape of the cell may not vary with the  function they perform",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nerve cells are longest cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q41",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Robert Brown discovered a dense, spherical body in the cells of an ________ and named it as 'Nucleus'",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acetabularia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Allium sativa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Orchid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Arceuthobium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q42",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is true for microtubules?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Made up of proteins tubulin and actin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Microtubules are restricted to animal cells only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They are tube like branched cylindrical  structures",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T.S. of microtubules shows array of 13 rows  of subunits",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q43",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "A group of characters that identifies a particular chromosome set is regarded as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Idiogram",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Karyotype",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plasmon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Genome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q44",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cell organelle is closely associated with ER & helps in formation of plasma membrane during cytokinesis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Centrosome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sphaerosomes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Golgi bodies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ribosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q45",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Mitochondria are rich in _______ and their DNA have high _______ ratio",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn, GC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn, AT",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zn, GC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zn, AT",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q46",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The ability of proteins to move laterally within the overall bilayer lipid molecules of plasma membrane is measured as its",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stability",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thickness",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Degree of permeability",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fluidity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q47",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Term 'Ergasome' explains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "mRNA associated with proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ER cisternae associated with ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "mRNA associated with group of ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ER vesicles in sarcoplasmic reticulum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q48",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "9 + 0 microtubule constitution with cartwheel structure is present in the proximal region of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Basal bodies",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kinetosomes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Blepharoplast",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q49",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. ER (i) Tubulin  b. Golgi complex (ii) Acid phosphatase  c. Lysosome (iii) Microsomes  d. Microtubule (iv) Phragmosomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q50",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "In typical structure of plasma membrane  a. The lipids are amphipathic  b. Proteins are arranged asymmetrically and shows flip flop movement  c. Extrinsic proteins are abundant towards cytoplasmic face",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only b is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only c is correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both a and c are incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q51",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Ribosomes attach to endoplasmic reticulum by their",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 \u2018S\u2019 sub-unit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 \u2018S\u2019 sub-unit",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 \u2018S\u2019 sub-unit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q52",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a membrane bound cell organelle present in the cell of mango plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chloroplast",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Centriole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q53",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "How many statements are incorrect amongst the following?  a. Microfilaments help in the formation of cleavage furrow during cell division  b. Microtubules present in the cytoplasm are highly labile  c. Nuclear lamina is a network of acidic proteins and intermediate filaments  d. Microtubules control orientation of microfibrils in cell wall",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q54",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Neutral solutes directly pass through the lipid bilayer of plasma membrane because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plasma membrane has special carrier for  them",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They are lipid soluble",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They have specific hydrophilic areas for their  passage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They consume ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q55",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Lateral loops are uncoiled or expanded parts of lampbrush chromosome with one to several transcriptional units. These loops are made up of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNA only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "m-RNA only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protein only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DNA + mRNA + protein",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q56",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Why concentration of number of ions and other materials is higher in vacuole than cytoplasm?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vacuolar membrane is permeable for all  substances",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tonoplast facilitates transport against  concentration gradient",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vacuole is non-membrane structure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vacuoles store and synthesize ATP to absorb  ions and materials",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q57",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Middle lamella is mainly made up of calcium  pectate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cell wall is formed on the inner side of the cell  therefore secondary wall formed first",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Middle lamella glues the neighbouring cells  together",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cell wall helps in cell to cell interaction and  provides barrier to undesirable macromolecules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q58",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Transitional vesicles enclosing biochemicals pinched off from ER fuse with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maturing face of golgi body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Forming face of golgi body",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Primary lysosome for intracellular digestion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plasma membrane to remove them from cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q59",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "According to fluid mosaic model of plasma membrane the quasifluid nature of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protein enables lateral movement of lipids  within the overall bilayer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lipid and protein enable the lateral movement  of carbohydrates",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lipid enables lateral movement of proteins  within the overall bilayer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lipid enables the flip-flop movement of  proteins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q60",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glyoxysome \u2013 \uf062-oxidation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cell plate formation \u2013 Centrifugal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cleavage method of \u2013 Centripetal cytokinesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Telomere \u2013 GC segments",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q61",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The central part of proximal region of centriole is connected with peripheral triplets by radial spokes. These spokes are made up of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fatty acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oligosaccharide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phospholipid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q62",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Cell theory formulated by Schleiden and Schwann does not explain which one of the following features?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Organisms are composed of cells and their  products",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All cells are basically alike in their structure  and metabolism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "New cells originate from pre-existing cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The functions of an organism is an outcome  of activities and interactions of its constituent cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q63",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Half membrane bound spherical structure associated with synthesis and storage of fat is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sphaerosome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Palade granules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q64",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Mitochondrial DNA is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "With high A-T content",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "With high G-C content",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "With low G-C content",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Linear DNA with A-T/G-C ratio equal to one",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q65",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Cilia and flagella resemble in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Microtubular structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of basal granules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mode of action",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q66",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following structure in a chromosome can be used as a marker?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Telomere",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Satellite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chromocentre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kinetochore",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q67",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The enzymes present in lysosomes belong to the class ________ and acidic condition inside the lysosome is maintained by ________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidoreductases, pumping protons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrolases, secretion of acids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrolases, pumping of protons",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lyases, removal of hydroxyl ions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q68",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one w.r.t. Lysosomal inefficiency",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hunter\u2019s disease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Jacob\u2019s syndrome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hurler\u2019s syndrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tay-Sach\u2019s disease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q69",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "P450 found in SER is concerned with detoxification of drugs and the mechanism involved is basically a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Methylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycosylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydroxylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sulphation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q70",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Naked DNA is found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chloroplast and leucoplast only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Leucoplast and chromoplast only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chloroplast and chromoplast only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All plastids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q71",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The endoplasmic reticulum, Golgi complex, lysosomes and vacuoles are considered together as an endomembrane system because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "These are present in eukaryotic cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They lack DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Their functions are coordinated",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They have cisternae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q72",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The outer as well as inner membrane of mitochondria",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Form a number of infoldings towards the  matrix",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both have similar amount of cardiolipin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Have more lipids than proteins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Have their own specific enzymes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q73",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the ratio of number of microtubules in peripheral and central part of axoneme in a eukaryotic flagellum respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9 : 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "27 : 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q74",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. Golgi apparatus",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The cis and trans faces of the organelle are  similar but interconnected",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The Golgi cisternae are concentrically  arranged near the nucleus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It remains in close association with the  endoplasmic reticulum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The ER vesicles fuse with the cis face",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q75",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following sequence is correct w.r.t. size?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eukaryotic cell > PPLO > Viruses > Bacteria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eukaryotic cell > Bacteria > PPLO > Viruses",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eukaryotic cell > PPLO > Bacteria > Viruses",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Eukaryotic cell > Viruses > PPLO > Bacteria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q76",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following organelles is not associated  with endomembrane system?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Golgi bodies",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ER",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glyoxysome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vacuole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q77",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Storage of protein \u2013 Aleuroplast",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Xenobiotic \u2013 RER detoxification",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Digestive vacuoles \u2013 Heterophagosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gluconeogenesis \u2013 Glyoxysomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q78",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is not an example of constitutive heterochromatin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Satellite",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Telomere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Primary constriction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sex chromatin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q79",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Both cilium and flagellum arise from the part which is structurally similar to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Centriole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kinetochore",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kinetosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Centrosphere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q80",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Read the statements carefully and select the set of correct statements  a. Palade particles are found in all cellular organisms  b. A membrane bound structure in nucleus is the site of ribosomal RNA synthesis  c. The mitochondria can divide meiotically to produce daughter mitochondria  d. Vacuoles can occupy about 90% of the volume of a plant cell",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All except b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q81",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "How many radial spokes and microtubules are found in an axoneme of a eukaryotic flagellum respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9 and 20",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9 and 18",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "18 and 18",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "18 and 20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q82",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "How many microtubules are present in the axoneme part of eukaryotic flagellum?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "27",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q83",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. Cristae (i) Dalton complex  b. SER (ii) NOR  c. Cisternae (iii) Cytochrome P450 d. Secondary (iv) Plastochondria constriction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(i), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q84",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The human RBC membrane has approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40% proteins, 52% lipids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50% proteins, 50% lipids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "52% proteins, 40% lipids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "48% proteins, 50% lipids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q85",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct match  Column-I Column-II  a. Membrane fluidity (i) Oligosaccharide  b. Detoxification (ii) TSD  c. Cells recognition (iii) Lipid  d. Residual bodies (iv) Cytochrome P450",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q86",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column-I Column-II  a. ER (i) Packaging of material  b. Cytoskeleton (ii) Dense granules  c. Golgi complex (iii) Synthesis of steroidal  hormones  d. Ribosome (iv) Proteinaceous  structure",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q87",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "ATP powers the movement of cilia and flagella in eukaryotic cell. These ATP molecules are hydrolysed into ADP + iP in cilia and flagella by the activity of",
+    "question_diagram": "/images/last_leap/p253_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Nexin protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dynein protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Myosin of muscles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Flagellin protein",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q88",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "For the sectional view of chloroplast which is given below. Choose the correct statement  B A",
+    "question_diagram": "/images/last_leap/p253_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Envelope  possess  fully  permeable membranes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2018B\u2019 possess the enzymes required for protein  and carbohydrate synthesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u2018A\u2019 structure giving piles of coins like  appearance is the site of C3 cycle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2018A\u2019 Possess ribosomes, large ss circular DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q89",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Ribosomes attach to ER by its",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 S subunit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 S subunit",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 S subunit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 S subunit  90 All are membrane bounded cell organelles in a typical plant cell, except",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lysosome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chloroplast",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q91",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Lysosomal enzymes act at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Basic pH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acidic pH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neutral pH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acidic pH inside lysosome and basic pH in  cytosol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q92",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Plasmodesmata connections help in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytoplasmic streaming",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mitotic division",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Movement of substances between the cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Osmosis only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q93",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "How many statements are incorrect?  a. Colchicine  prevents  assembly  of microfilaments  b. Wall of microtubule is made up of 13 laterally associated and helically arranged tubulin proteins  c. Protofilaments are made of alternate spirals of \uf061-tubulin and \uf062-tubulin  d. Pectin controls orientation of cellulosic subfibrils",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q94",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following feature is common in all types of plastids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Double membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of chlorophyll",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Storage nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of linear DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q95",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "A nuclear pore allows",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Unidirectional movement of DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RNA movement only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RNA and protein movement",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Protein movement only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q96",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Disc shaped proteinaceous structure attached to centromere of a chromosome is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chromocentre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NOR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chromomere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kinetochore",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q97",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cell structure is made by NOR?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aleuroplast",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleolous",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sphaerosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rough ER",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q98",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Correct statement in relation to vacuoles is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is a triple membrane bound space found in  cytoplasm containing sap",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It can occupy 90% of cell volume in plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Its membrane allows transport of materials  along the concentration gradient only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Concentration of ions is significantly lesser in  vacuole than cytoplasm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q99",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Middle lamella is mainly made up of Ca-  pectate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cell wall is formed from inner side therefore  secondary wall formed before primary wall",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Middle  lamella  glues  the  different neighbouring cells together",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pits are present in secondary wall",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q100",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Vesicles from ER fuse with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maturing face of golgi body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Forming face of golgi body",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Primary lysosome for intercellular digestion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plasma membrane to remove them out from  cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q101",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Fluidity of the cell membrane is measured",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "On the amount of cholesterol and protein in  membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "On the amount of carbohydrate in membrane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "On the lateral movement of proteins within the  overall bilayer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "On the flip-flop movement of protein",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q102",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cell organelle is a major site for the synthesis of steroidal hormones?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SER",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Golgi bodies",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Peroxisome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q103",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The content of nucleolus is continuous with nucleoplasm",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Through microtubules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Through nuclear pores",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Due to lack of membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Due to presence of channels in membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q104",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The part of chromosome beyond secondary constriction is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chromomere",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Satellite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kinetochore",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Centromere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q105",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The central part of proximal region of centriole is called hub which is made of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lipoprotein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phospholipid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oligosaccharide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q106",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cell organelle is associated with muscles constriction by release and uptake of Ca++ ions?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vacuole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endoplasmic reticulum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Golgi complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Microtubules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q107",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Middle lamella is first structure formed between the newly formed daughter cells a. At the time of cytokinesis b. And is composed of cellulose provided by ribosomes c. Which is common wall between adjacent cells d. Which get dissolved during ripening of fruit",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only b is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both b and c are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both a and d are incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q108",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Glycosylation, general secretion and recycling of broken plasma membrane are functions specifically performed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glyoxysome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SER",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RER",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Golgi complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q109",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Elaioplast - Oil and fats storage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amyloplast - Carbohydrate storage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Proteinoplast - Protein storage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aleuroplast - Starch storage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q110",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "A normally dividing plant cell may lack",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plastid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ribosome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q111",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Many of the organisms show coordination in their functions and are considered together as an endomembrane system. Find odd one out w.r.t. this statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ER",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Golgi complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vacuole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plastid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q112",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a part of cytoskeleton?",
+    "question_diagram": "/images/last_leap/p255_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Microtubule",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Microfilament",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intermediate filament",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Microfibril",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q113",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct for the given diagram?  A B  D  E  C",
+    "question_diagram": "/images/last_leap/p255_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "\u2018C\u2019 possesses DNA molecule, RNA molecule  and 80 S ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2018A\u2019 and \u2018B\u2019 have their own specific enzymes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u2018E\u2019 made by inner membrane towards the inter  membrane space",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2018B\u2019 forms the continuous limiting boundary of  the organelle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q114",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. prokaryotic cells",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytoplasm lacks membrane bound organelles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sap vacuoles are absent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chromosome possesses acidic protein i.e.,  polyamine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lack streaming movement of cytoplasm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q115",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "In prokaryotes, ribosomal RNAs",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "As well as proteins are synthesized in  cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Are synthesized in the nucleolus while  proteins in cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Are synthesized in the cytoplasm while  proteins in nucleolus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "As well as proteins are synthesized in nucleus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q116",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "A number of proteins synthesized by ribosomes on the endoplasmic reticulum are modified in the ________ of the Golgi apparatus before they are released from its trans face",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tubules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vesicles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cisternae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q117",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "How many microtubules are associated with the structure of centriole?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "27",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "11",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q118",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Granular endoplasmic reticulum is associated with which of the following functions?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Synthesis of secretory as well as non-  secretory proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Synthesis of non-secretory proteins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Synthesis of steroidal hormones",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Synthesis of secretory proteins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q119",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following plastid store fats?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Elaioplast",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aleuroplast",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Proteinoplast",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amyloplast",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q120",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "In plants, which of the following microbody is involved in photorespiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sphaerosome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glyoxysome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ribosome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q121",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Cell organelle showing xenobiotics with the help of Cytochrome P450 is also involved in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycosylation process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycolate oxidation or metabolism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glycogen metabolism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glyoxylate metabolism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q122",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Lysosomes are membrane bound vesicular structures and are very rich in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNAs, proteases and lipases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enzymes optimally active at the basic pH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Almost all types of hydrolases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RNAs, carbohydrase and cathepsin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q123",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Nucleolous organising region is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary constriction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Euchromatin region near satellite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heterochromatin region near secondary  constriction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Basophilic secondary constriction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q124",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Each centriole in a centrosome is made up of nine",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Peripheral triplets of flagellin protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peripheral doublets of tubulin protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Peripheral triplets of tubulin protein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Peripheral triplets and two central singlets of  microtubules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q125",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Ribosomes in prokaryotes  a. Are 70 S type  b. Form polysomes  c. Are not surrounded by any membrane  d. Have 23 S rRNA in small subunit",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only d is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both c & d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only a is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q126",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Virchow \u2013 Omnis cellula-e cellula",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ribosomes \u2013 Palade particles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Golgi complex \u2013 Polar structure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Axoneme of flagella\u2013 Cart wheel structure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q127",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. plasma membrane",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Proteins can move laterally within the overall  bilayer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Proteins can be distinguished on the basis of  ease of extraction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cholesterol is present in all living organisms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Protein constitute 52 percent and lipid 40  percent for RBC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q128",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Examine the figure given below and select the part correctly matched with its function/structure  (D) (C)  (A)  (B)",
+    "question_diagram": "/images/last_leap/p256_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Part (A): Ribosome-made up of 30S and 50S  subunits",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Part (C): RER - principally performs the  function of packaging materials",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Part (D): Nuclear pore - passage through  which movement of RNA takes place in one direction only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Part (B): SER - synthesis of steroidal  hormones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q129",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "In plasma membrane, quasi-fluid nature of lipid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enables flip-flop movement of proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is essential for endocytosis only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enables lateral movement of proteins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enables flip-flop as well as lateral movements  of proteins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q130",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement for eukaryotic flagellum is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Basal body has nine pairs of doublets of  radially arranged peripheral microtubules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It emerge from a centriole like structure called  axoneme",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In axoneme, central tubules are connected by  bridge",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It has a number of microfibrils running parallel  to the long axis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q131",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Elaioplasts, amyloplasts and aleuroplasts",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Contain ds DNA molecule",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Store nutrients and pigments",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Store starch, fat and protein respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Divide by multiple fission",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q132",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements are correct?  a. Rough endoplasmic reticulum is frequently observed in the cells actively involved in protein synthesis.  b. Proteins that are to be used outside the cell are synthesised on free ribosomes.  c. In eukaryotic cell there is an extensive compartmentalisation of cytoplasm through the presence of membrane bound organelles  d. ER is found prominently in human eggs and sperms.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q133",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following organelle is not bounded by two lipoprotein membranes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Golgi body",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plastid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q134",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Pick the odd one out",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glyoxysome \u2013 \uf062 oxidation of fatty acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peroxisome \u2013 Enzyme  for  peroxide synthesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sphaerosome \u2013 Synthesise and storage of  fats",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mitochondria \u2013 Absence of enzymes in  outer  membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q135",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "a. Cytoskeleton is proteinaceous and helps in motility and cell division.  b. Endomembrane system includes GERL and peroxisome.  c. Protein can show lateral movement in membrane, dependent on lipids.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, c are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, c are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All  are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q136",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Movement of protein and RNA takes place in  both directions through nuclear pore",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Basal body of cilia or flagella is similar to  centriole by structure in eukaryotes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Few chromosomes have non-staining  secondary constrictions at a constant location",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Microbodies are not present in plant cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q137",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select the odd one out w.r.t. chloroplasts",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Found in mesophyll cells of the leaves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It contains small, double-stranded linear DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chlorophyll pigments are present in the  thylakoid membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Their ribosomes are smaller than cytoplasmic  ribosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q138",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Endomembrane system in eukaryotic cell",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Refers  coordinated  functions  of  all membranous cell organelles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Includes both membranous and non-  membranous cell organelles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Does not include endoplasmic reticulum and  peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Includes single membrane bound structures  only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q139",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Find correct match (column-I with column-II)  Column I Column II  a. Steroidal hormone (i) Golgi bodies  b. Lipochondria (ii) SER  c. Porins (iii) Microtubules  d. \uf061- and \uf062-tubulins (iv) Plastids",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q140",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "In castor, lipid or fat is stored in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aleuroplasts",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Proteinoplasts",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Elaioplasts",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amyloplasts",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q141",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct match w.r.t. the function of cell organelles  Column I Column II  a. Glycosylation (i) Peroxisome  b. Glycolate oxidation (ii) Chloroplast  c. Oxidation of (iii) Golgi bodies triglyceride into carbohydrates  d. Coupling factors (iv) Glyoxisome  CF0 \u2013 CF1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(i), c(ii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(iii), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q142",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is not related  to centriole?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Made up of nine evenly spaced peripheral  fibrils of tubulin protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Spindle fibres that give rise to spindle  apparatus during cell division in plant cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Central part of the proximal region is called  the hub",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It form the basal body of eukaryotic flagella",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q143",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Chloroplast differs from mitochondria in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Having circular DNA and 70S ribosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phase of division or duplication during cell  cycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Having porins in outer membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Having enzymes for carbohydrate synthesis in  stroma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q144",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Organelles whose functions are coordinated constitute endomembrane system, this includes all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lysosome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Golgi complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Endoplasmic reticulum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q145",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Doublets of microtubules are visible in internal structure of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacterial flagellum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Centriole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nucleolus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Axoneme of eukaryotic flagellum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q146",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Cytoskeleton performs many functions like mechanical support, motility in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protists",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyanobacteria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Methanogens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Viruses",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q147",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "A number of organised flattened membranous sacs are present in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Matrix of mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleoplasm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chloroplasts",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Matrix of centriole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q148",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements carefully:  A. Lipid component of the plasma membrane mainly consists of phosphoglycerides.  B. Polar molecules can pass through the lipid bilayer of plasma membrane, therefore they do not require carrier proteins to facilitate their transport.  C. Secondary wall is capable of growth and it is  formed on the outer side of the cell.  D. Quasifluid nature of lipid enables lateral  movement of proteins within the overall lipid bilayer of plasma membrane.  E. Middle  lamella  glues  the  different neighbouring cells together.  How many statements are incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Five",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q149",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Membrane bound vesicular structures formed by the process of packaging in the Golgi apparatus",
+    "question_diagram": "/images/last_leap/p258_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Contains materials not useful for cell and is  bounded by half unit membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Contains all types of hydrolytic enzymes  optimally active at the acidic pH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Are concerned with photorespiration in plants  and animals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Possess enzymes for Krebs cycle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q150",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "In the following diagram, select the part correctly matched with its character or function.  A  B  C  D",
+    "question_diagram": "/images/last_leap/p258_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A \u2013 The passage through which movement  of RNA and protein molecules take place in both direction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B \u2013 Frequently observed in cells actively  involved in lipid synthesis and secretion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C \u2013 Membrane bound structures composed  of deoxyribonucleic acid and proteins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D \u2013 Provide surface for DNA and protein  synthesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q151",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The organelle considered as the site of aerobic respiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Produce cellular energy in the form of ATP  hence called \u2018Kitchen of cell\u2019",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Outer membrane forms number of infoldings  known as cristae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Divide by fission",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Matrix possesses single, circular and single  stranded DNA molecule",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q152",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Match the columns (I with II)  Column-I Column-II  a. Microbodies (i) Ribosome  b. Chromosome (ii) Sap vacuole  c. Polysome (iii) Peroxisome  d. Tonoplast (iv) Kinetochore",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(ii), c(iii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q153",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Ribosomes are present in how many types of semiautonomous organelles in animal and plant cell respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One, two",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two, three",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three, four",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two, one",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q154",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Chromatin contains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNA, histone protein, basic non-histone  protein, dsRNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DNA, basic histone protein, non-histone  protein, RNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNA, acidic histone protein, basic non-histone  protein, RNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DNA, acidic histone protein, non-histone  protein, dsRNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": null,
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q155",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Membrane bound vesicular structures which contain digestive acid hydrolases are formed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Centrosome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Golgi bodies",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nuclear envelopes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q156",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Choose odd one w.r.t. composition of cell wall of algae",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cellulose, galactans",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mannans, minerals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hemicellulose, pectin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellulose, minerals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q157",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Hub is connected with microtubules of the peripheral triplets in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Basal body of bacterial flagellum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Centriole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Axoneme of eukaryotic flagellum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q158",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is not a property of cell membrane?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polar molecules can not pass through the  nonpolar lipid bilayer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depending on the case of extraction, proteins  can be classified in two types",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The quasi-fluid nature of protein enables  flip-flop movement of lipid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ratio of protein and lipid varies considerably  in different cell types",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q159",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the cell organelles labelled as A, B, C and D. Mark the correct option w.r.t. organelle and its function.  A  B  C  D",
+    "question_diagram": "/images/last_leap/p259_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A \u2013 Major site for synthesis of lipid.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B \u2013 Performs the function of packaging  materials, to be delivered to only intracellular targets.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C \u2013 Sites of anaerobic respiration.",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D \u2013 Main arena of cellular activities",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q160",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "The spherical structures present in the nucleoplasm",
+    "question_diagram": "/images/last_leap/p259_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Has contents continuous with rest of the  nucleoplasm.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is a membrane bound structure.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is a site of active messenger RNA synthesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Are smaller and more numerous in cells  actively carrying out protein synthesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q161",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Bacterial flagellum is composed of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Basal body, axoneme and centrosome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Basal body, hook and filament",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Axoneme, basal body and tubulin protein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Centriole, hook and axoneme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q162",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "\u201cMany organelles are considered together as an endo-membrane system because their functioning is coordinated.\u201d  Which of the following statement gives the correct explanation of this?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protein synthesised in Golgi bodies are  modified in the ER",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Materials formed in ER fuse with the trans  phase of Golgi bodies",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lipids synthesised in ER are modified in the  Golgi apparatus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Membrane bound vesicular structures formed  by the packaging in ER work as lysosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q163",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. Telocentric (i) V-shaped  chromosomes  b. Acrocentric (ii) L-shaped  chromosomes  c. Submetacentric (iii) J - shaped  chromosomes  d. Metacentric (iv) I - Shaped  chromosomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q164",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following combination is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Xenobiotics \u2013 Rough endoplasmic  reticulum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plasma membrane \u2013 52% lipid of RBC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitochondria \u2013 Protein synthesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glyoxysomes \u2013 Photorespiration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_q165",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section A (Objective)",
+    "question_text": "Polysome refers to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chain of volutin granules found in bacterial  cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PHB granules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chain of ribosomes attached to mRNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Free ribosomes in bacterial cytoplasm  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q1",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Cell is considered as basic unit of life.\nReason (R): All organisms begin their life as a single cell.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q2",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Fruit colour changes from yellow orange to  green during ripening.\nReason (R): There is conversion of chromoplasts into  chloroplast.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q3",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): As the cell grows, its surface to volume ratio  decreases.\nReason (R): Its capacity to exchange materials decreases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q4",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Human RBC membrane has 52% protein.\nReason (R): It possesses peripheral as well as integral  proteins.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q5",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): During condensed stage the matrix of  mitochondria occupies large area.\nReason (R): Cristae formation is less.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q6",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Endomembrane system is present in  eukaryotic cells.\nReason (R): It comprises of peroxisomes, golgi complex,  lysosomes and vacuoles.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q7",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Several ribosomes attach to a single mRNA  and form a chain called polyribosome.\nReason (R): Ribosomes are site of protein synthesis.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q8",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Lysosomes are associated with digestion of  biochemicals.\nReason (R): Lysosomes are rich in acid hydrolases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q9",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Carotenoids are fat soluble pigments.\nReason (R): They are present in chromoplasts.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_07_secB_q10",
+    "subject": "Botany",
+    "chapter": "Cell : The Unit of Life",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The endomembrane system includes single  membrane bound as well as non- membranous organelle.\nReason (R): They are all membrane bound organelles  present inside the eukaryotic cells.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I"
+  }
+]

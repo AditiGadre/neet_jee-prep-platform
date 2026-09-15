@@ -1,0 +1,2697 @@
+[
+  {
+    "question_id": "bot_08_q1",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the given below pyramids represents the variation in biomass at different trophic levels in pond ecosystem?  SC  PC",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PP  SC  PC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PP  SC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PC  PP  PC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q2",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one out w.r.t. succession",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Succession and evolution are parallel  processes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In abandon farmlands, primary succession  occurs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Involves changes at every trophic level",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Generally shows a trend from xeric to mesic  conditions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q3",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Net primary productivity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "For oceans is 60% of biosphere productivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depends upon the photosynthetic capacity of  transducers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains constant in temperate area  throughout the year",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Limited by light in marine habitats only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q4",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Pyramid of numbers in a grassland ecosystem is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Spindle shaped",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Upright",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Urn shaped",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inverted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q5",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "In hydrosere, sedge meadow stage replaces",
+    "question_diagram": "/images/last_leap/p261_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Submerged stage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Floating stage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Scrub stage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reed swamp stage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q6",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "What is correct for the diagram given below?",
+    "question_diagram": "/images/last_leap/p261_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "It represents a food chain",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It could be accomodated by ecological  pyramid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Several types of organisms are available at  each trophic level",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "From producers to top carnivores, biomass  always increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q7",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Rate of increase in energy containing organic matter or biomass by heterotrophs or consumers per unit time and area is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gross primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Net primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary productivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ecological efficiency",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q8",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "There are certain limitations of ecological pyramids, like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It does not take into account the same  species belonging to two or more trophic levels",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It assumes a long food chain of many trophic  levels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Saprobic organisms are not given any place",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q9",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "During primary succession in water body, the pioneers are _______, they are replaced by ________ with time",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phytoplanktons, rooted hydrophytes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Free floating hydrophytes, rooted hydrophytes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phytoplanktons, free floating angiosperms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Free floating angiosperms, sedges",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q10",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following ecosystems show maximum energy absorption?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mixed forest",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Modern crops",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Terrestrial ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Grassland ecosystem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q11",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Ecological succession in which a community replaces the other due to the modification of the environment by the community itself is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Autogenic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Allogenic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Autotrophic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heterotrophic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q12",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement in relation to mature successional stages",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Net community production is high and  inorganic nutrients are extrabiotic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Food chains are web like and predominantly  detritus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stratification and spatial heterogeneity is high  and well organised",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Good nutrient conservation and resistance to  external disturbances",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q13",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is matched correctly?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low productive ecosystem \u2013 Flood plains",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Average productive ecosystem\u2013 Grassland",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Least productive ecosystem \u2013 Temperate  forest",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High productive ecosystem \u2013 Area of  upwelling",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q14",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which trophic position is occupied by the decomposer microorganisms in an aquatic ecosystem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q15",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "All given are characteristic features of man made ecosystems, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Absence of self regulatory mechanism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "These are part of noosphere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High productivity in terms of GPP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Little cycling of nutrients",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q16",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "The type of productivity which is not available to any given trophic level is called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NPP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary productivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Net community productivity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q17",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "A detritus food chain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Always ends up in a grazing food chain",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Uses sun as the primary source of energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Has minor contribution in productivity of coral  reef ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Requires special organisms called detrivores  as top consumers.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q18",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Select  a incorrect statement regarding pyramids",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "These are proposed by Charles Elton",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It does not explain the role of organisms  present at more than two trophic levels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decomposers are not given importance while  preparing a pyramid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is sometimes upright, if prepared for energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q19",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the given pyramid can be spindle shaped?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If prepared for numbers, for a tree having  grazing food chain",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If prepared for  number in parasitic food chain  on a tree",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If prepared for biomass of a tree",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If prepared for biomass in a Grassland",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q20",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "GPP utilizes ___________ of incident radiation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 \u2013 5%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 \u2013 10%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.8 \u2013 4%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.6 \u2013 8%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q21",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following decides the nature of climax?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Types of soil and microorganisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prevailing climate of the area",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nature of surface i.e. nude or not",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of organic matter / inorganic matter",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q22",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Succession whether is primary or secondary, it primarily requires ___________ to occur on a area",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nudation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pioneer species",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ecesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q23",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one w.r.t. climax community",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nutrient conservation is high",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Niche becomes more specialized",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biomass is high",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Net community production decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q24",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Annual grass stage in lithosere is followed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Moss stage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Perennial grass stage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reed swamp stage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Marsh meadow stage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q25",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out w.r.t. sedge stage of hydrosere",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyperus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Typha",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Juncus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q26",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Out of total proposed cost of ecological services by Robert constanza, maximum cost accounts for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Climate regulation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Soil formation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nutrient cycling",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Habitat for wildlife",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q27",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Amount of living material present in different trophic levels at a given time is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NPP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Standing stage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Standing crop",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Standing quality",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q28",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "In primary autotrophic succession, ecesis comes after",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Colonisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Invasion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Migration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q29",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following food chain is dominant in aquatic ecosystem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "GFC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DFC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Auxiliary food chain",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Parasitic food chain",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q30",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Select a correct statement for Detritus Food Chain (DFC)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sun is the only source of energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "These systems are more productive than  systems dominated by GFC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is composed of a long chain of decomposer  organisms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tropical Rain forests are not dependent on  DFC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q31",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following productivity is the available biomass for the consumption by heterotrophs?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Net primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gross primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary productivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Community productivity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q32",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the following ecosystems in decreasing order of productivity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sugar-cane field, coral reef, tropical rain  forest, estuary",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coral reef, estuary, sugarcane field, temperate  forest",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Estuary, coral reef, temperate forest,  sugarcane field",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tropical rain forest, coral reef, estuary,  sugarcane field",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q33",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Key industry animals are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary consumers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary consumers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tertiary consumers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Primary producers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q34",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement w.r.t. food chain  (a) GFC is the major conduit of energy flow in  aquatic ecosystem  (b) Source of energy in detritus food chain is not  sun  (c) Detritus food chain may be connected to  grazing food chain  (d) In grazing food chain size of organisms  commonly decreases at higher level",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a) & (b)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a) & (c)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(c) only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(d) only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q35",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "The given pyramid represents ______parameter in _______ ecosystem  PC  PP 4 21",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Number, pond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Standing crop, tree",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Number, tree",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Standing crop, pond",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q36",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Shape of the pyramid explains the growth status of a population, like Urn shaped pyramid reflects",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A declining population",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A population of developing country",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A population showing negative growth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q37",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Ecological pyramid of number can be ______ for different ecosystems",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Upright",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inverted",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Spindle shaped",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q38",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Number pyramid for tree ecosystem w.r.t. parasitic food chain is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Upright",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Spindle shaped",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inverted",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both upright and inverted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q39",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect w.r.t. ecological pyramids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyramid of number for parasitic food chain on  single tree is inverted",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pyramid of energy is always upright",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pyramid of biomass for aquatic habitat is  upright",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pyramid of number for grazing food chain on  single tree is spindle-shaped",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q40",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The number of trophic levels in the GFC is  never restricted",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GFC is major conduit of energy flow in a  terrestrial ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Some of the organisms of DFC are prey to  the animals of GFC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In a natural ecosystem some organisms are  omnivores, like fungi and actinomycetes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q41",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Ecological pyramids",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Assume a food web",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Take into account the same species  belonging to two or more trophic levels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Do not include saprophytes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Involve consumers only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q42",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Trophic level of herbivore is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q43",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "In terrestrial ecosystems, the pyramids of number and biomass are generally",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Spindle shaped",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Upright",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Upright and inverted respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inverted and upright respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q44",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "What is the pioneer community for hydrarch and xerarch succession respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plankton, Annual grasses",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lichens, Zooplankton",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plankton, Lichens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Free floating, Sedges",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q45",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Pyramid of biomass in an aquatic habitats explains that",
+    "question_diagram": "/images/last_leap/p265_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "High standing crop of phytoplanktons  supports a large standing crop of zooplanktons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy at successive higher trophic level  increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phytoplanktons have shorter life span and  high annual productivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Consumers cannot survive for long",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q46",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which stage of primary succession in a water body is shown in the figure given below?",
+    "question_diagram": "/images/last_leap/p265_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Scrub stage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reed swamp stage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Marsh meadow stage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Submerged, free floating plant stage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q47",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "A part of energy captured by producers is used",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "As a food to herbivores only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "For maintenance and as a food to herbivores",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "For synthesis of protoplasm only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "For synthesis of ATP only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q48",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "In temperate lakes, phytoplanktons are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Completely absent in winter and summer  seasons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Abundant in spring season only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Abundant twice a year",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Very less in autumn and spring seasons",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q49",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements are concerned with the organisms like antelope, grasshopper and cow?  a. Key industry animals  b. Third trophic level  c. Secondary producers  d. Predators  e. Primary consumers",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All, except (b)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All, except (b) & (d)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All, except (d)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All, except (c) & (d)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q50",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Price tag put by Robert Constanza as nature life support services is __________ and of it ______ is for soil formation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "US $ 3.3 trillion, < 10%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "US $ 330 trillion,  6%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "US $ 33 trillion, < 10%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "US $ 33 trillion, 50%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q51",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not correctly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Productivity \u2013 Rate of biomass  production",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gross primary \u2013 Rate of production  productivity of earth of organic matter during photosynthesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Net primary productivity \u2013 Available biomass  for consumption by heterotrophs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secondary productivity \u2013 Formation of new  organic matter by producers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q52",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "PC  21 4  PP  Ecosystem which shows above pyramid of biomass possess ________ and _________ pyramid of number and energy respectively.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inverted, upright",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Upright, upright",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Upright, inverted",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Spindle, upright",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q53",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "In hydrarch succession pioneer community is phytoplankton and climax community is forest (mesic). Given below is name of seral stages, arrange them in accordance with their appearance.  a. Submerged free floating plant stage  b. Reed-swamp stage  c. Marsh-meadow stage  d. Submerged plant stage  e. Scrub stage",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c, d & e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, a, c, d & e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d, a, c, b & e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d, a, b, c & e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q54",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Ecological pyramids",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Include provision for seasonal and diurnal  variations",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Do not include decomposers and transducers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Have no remedy for multi-level organisms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Are based on food webs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q55",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Range of tolerance for all the factors influencing a species distribution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ecotone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ecological amplitude",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phenotypic plasticity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Edge effect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q56",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Rate of increase in biomass by heterotrophs or consumers per unit time and area is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gross primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Net primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary productivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Community productivity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q57",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Productivity in an ecosystem at producer level depends upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Availability of nutrients in soil",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Photosynthetic capacity of plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Variety of environmental factors",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q58",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect w.r.t. DFC",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Major energy flow in terrestrial ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dominated by fungi and bacteria mainly",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Begins with sunlight as source of energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May be connected with GFC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q59",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements :  (a) Warm blooded animals have larger body size  in colder areas as compared to animals of warmer areas, is explained by Allen\u2019s rule.  (b) Each trophic level has a certain mass of living  material at a particular time called as the standing state.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only (b) is correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both (a) & (b) are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only (a) is correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both (a) & (b) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q60",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Out of the total cost of various ecosystem services, the soil formation accounts for about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "35%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "85%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q61",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "The available biomass for the consumption to consumers and decomposers is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gross primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary productivity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Net primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Trophic level efficiency",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q62",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statements is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trophic level of key industry animals is T3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More energy flows in tropical rain forests  through GFC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diversity decreases from higher to lower  altitudes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Eastern Himalaya is an active centre of  evolution of flowering plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q63",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Pyramid of number is spindle - shaped in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tree ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pond ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Grassland ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lake ecosystem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q64",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Detritus Food Chain (DFC)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Begins with living organic matter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prevents wastage of energy bound in organic  matter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Provides organic nutrients to grazing food  chain",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is also called subsidiary food chain",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q65",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "An ecosystem supported by 1000000 J of sunlight will have what amount of energy available to the organisms of tertiary consumer level?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1000 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10000 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q66",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "All succession wheather taking place in water or land proceeds to a similar climax community, that is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hydrosere",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Xeric",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mesic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Halosere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q67",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Various stages of succession in a water body are given below, find correct set of their sequential arrangement of occurrence.  a. Submerged plant stage  b. Phytoplankton stage  c. Scrub stage  d. Forest  e. Marsh-meadow stage  f. Reed-swamp stage  g. Submerged free floating plant stage",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b, a, g, e, f, c, d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, a, g, f, e, c, d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, a, e, g, c, f, d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, a, g, c, f, e, d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q68",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Amount of biomass or organic matter produced per unit area over a time period by plants during photosynthesis is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gross primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Net primary productivity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary productivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Primary production",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_q69",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is true for the given ecological pyramid?  21  PC  4   PP",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Small number of phytoplankton supports large  number of zooplankton",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Small biomass of primary producers supports  large number of primary consumers in aquatic habitats",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A large number of herbivores is supported by  small number of producers in aquatic habitats",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A large standing crop of zooplankton is  supported by small standing crop of phytoplankton",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_secB_q1",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Desert ecosystems are less stable in  comparison to a tropical rain forests\nReason (R): There is available more energy at last trophic  level as the food chains are short",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_secB_q2",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Complexity of food web is dependent over  length of food chains\nReason (R): Complexity of food webs determine the  stability of an ecosystem",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_secB_q3",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Ecological equivalents occupies same type of  niches but in different habitats\nReason (R): Similar ecosystems may develop in different  geographical areas due to same climatic  conditions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_secB_q4",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The food chains are generally limited at 3-4  trophic levels.\nReason (R): Autotrophs loose 20% energy, herbivores  30% and carnivores 60% during respiration.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_secB_q5",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In an aquatic ecosystem, DFC is the major  conduit for energy flow.\nReason (R): DFC begins with living organic matter.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_secB_q6",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In aquatic ecosystem, grazing food chain is  the major conduit of energy flow.\nReason (R): Net primary productivity of aquatic ecosystem  is more as compared to terrestrial.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_secB_q7",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In an aquatic ecosystem, DFC is the major  conduit for energy flow.\nReason (R): Solar energy is required for energy supply in  a DFC system.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_08_secB_q8",
+    "subject": "Botany",
+    "chapter": "Ecosystem",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Detritus food chain (DFC) begins with dead  organic matter.\nReason (R): DFC may be connected with the grazing food  chain at some levels.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I"
+  }
+]

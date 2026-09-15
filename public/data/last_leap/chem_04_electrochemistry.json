@@ -1,0 +1,5022 @@
+[
+  {
+    "question_id": "chem_04_q1",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "10 g of a fairly conc. solution of CuSO4 is electrolysed using 0.01 faraday of electricity. The weight of solution after electrolysis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9.6 g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9.75 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.39 g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q2",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "A half cell consist of a strip of cobalt dipped into a 1 M solution of Co2+. If ammonium hydroxide is added to the half cell, then what will be effect on the emf of the cell?  2 o Co /Co (E 0.277 V) \uf02b \uf03d\uf02d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains unchanged",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot be predicted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q3",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The reduction potential of hydrogen half cell will be negative if  2 H p  = 1 atm and [H+] = 1 M",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 H p  = 2 atm and [H+] = 2 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 H p  = 6 atm and [H+] = 3 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 H p  = 1 atm and [H+] = 2 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q4",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The value of equilibrium constant for a feasible reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "< 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "= 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "> 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q5",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The ionisation constant of a weak electrolyte (HA) is 36 \u00d7 10\u20134 while the equivalent conductance of its 100 M solution is 20.4 \uf057\u20131cm2eq\u20131. The equivalent conductance of the electrolyte at infinite dilution will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.4 \u00d7 103",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.4 \u00d7 102",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1000",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 \u00d7 10\u20132",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q6",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If for cell, \uf044H of reaction is \u2013 285.8 kJ/mol,  o cell E = 1.23 V. Thermodynamic efficiency of fuel cell is (n = 2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "83%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "41%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "75%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q7",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Product of electrolysis of aqueous CuCl2 using platinum electrode at anode and cathode respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl2 and Cu",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O2 and Cu",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O2 and H2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cu2+ comes into solution and Cu at cathode",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q8",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following solution can be safely stored in copper vessel?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ZnSO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AgNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "FeSO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q9",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "A galvanic cell is constructed by chromium electrode dipped in 0.1 M Cr2(SO4)3 and silver electrode dipped in 0.1 M AgNO3. If resulting cell is feasible, then its emf would be approximately  3 o o Cr /Cr Ag /Ag [E 0.74 V, E 0.8 V] \uf02b \uf02b \uf03d\uf02d \uf03d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.50 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.09 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.25 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.70 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q10",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "In the electrolysis of H2O, 11.2 litre of H2 was liberated at cathode at NTP. How much O2 will be liberated at anode under the same condition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "11.2 L",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.6 L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "22.4 L",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16.8 L",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q11",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If the pressure of hydrogen gas is increased from 1 atm to 100 atm, keeping the hydrogen ion concentration constant at 1 M, the voltage of the hydrogen half cell at 25\u00b0C will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.0295 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u20130.0295 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u20130.059 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.059 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of equivalent conductance at infinite dilution of NaCl, KCl, RbCl is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaCl > KCl > RbCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RbCl > KCl > NaCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaCl > RbCl > KCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "KCl > NaCl > RbCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q13",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "9 g aluminium (Atomic weight 27) is deposited from aq. solution of its salt at cathode by passing certain quantity of electric charge. The volume of chlorine produced at S.T.P. by the same quantity of charge will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "22.4 L",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11.2 L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.6 L",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "44.8 L",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q14",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If standard reduction potential of Cu2+/Cu and Cu2+/Cu+1 is x and y respectively, then standard electrode potential of Cu+/Cu becomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x \u2013 y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2(x \u2013 y)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2x \u2013 y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2x + y",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q15",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If  o m \uf04c  for BaCl2, NaOH and NaCl are p, q and r \uf057\u20131 cm2 mol\u20131 respectively, the equivalent conductivity of Ba(OH)2 at infinite dilution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "p + q \u2013 r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "p q r 2 \uf02b \uf02d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "p 2q 2r 2 \uf02b \uf02d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "p + 2q \u2013 2r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q16",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Number of Faraday\u2019s required for conversion of one mole of KMnO4 according to the following reaction  4 2 4 2 2 KMnO K MnO MnO O \uf0be\uf0be\uf0ae \uf02b \uf02b",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q17",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Passage of 3F of charge through aqueous solution of AgNO3, CuSO4, Al(NO3)3 and NaCl respectively will deposite the metals in the ratio (molar)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2 : 3 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 : 3 : 2 : 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 : 3 : 0 : 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 2 : 1 : 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q18",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "For which of the following electrolyte the value of \uf04cm and \uf04ceq are same?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KNO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ba(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "FeCl3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Al2(SO4)3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q19",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "A solution of Na2SO4 is electrolysed using Pt electrodes. The products at the cathode and anode are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "O2, H2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2, O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na, SO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2, SO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q20",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "4 moles of electrons were transferred from anode to cathode in an experiment on electrolysis of water. The total volume of the pure gases (at STP) produced will be approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "22.4 L",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "94.8 L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "56.2 L",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "67.2 L",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q21",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The volume of H2 gas at NTP obtained by passing 4 A through acidified H2O for 1930 second is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.896 L",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "89.6 L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "44.8 L",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.0448 L",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q22",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Chemically, rust of iron is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hydrated ferrous oxide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrated ferric oxide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only ferric oxide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A mixture of ferric oxide with a little of Fe(OH)3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q23",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If Eo, A+2/A = 0.34 ...(i)  B+3/B = \u20131.66 ...(ii)  C/C\u2013 = 2.87 ...(iii)  D+2/D = \u20130.44 ...(iv)  Correct order of reactivity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(ii) < (iv) < (iii) < (i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(iii) < (i) < (iv) < (ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(ii) < (iv) < (i) < (iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(iii) < (i) < (ii) < (iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q24",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "1 mole of following solutions are electrolysed completely  Al2(SO4)3 (molten), Bi2(SO4)3 (molten), CuSO4 (aq), Ag2SO4 (aq)  Ratio of charge required is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3F : 3F : 2F : 2F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6F : 6F : 2F : 2F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3F : 3F : 4F : 4F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6F : 6F : 1F : 1F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q25",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation potential of a hydrogen electrode at pH = 10 and PH2 = 1 atm is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.50 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.00 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 0.59 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.059 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q26",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "When 96500 coulomb of electricity is passed through acidified water during electrolysis then which of the following is correct?  1  mole of H2 at cathode",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.6 litre O2 at anode at STP  1 mole of O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q27",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "1 mole of Ag2SO4 solution is electrolysed by passing a current of 1 amp for 965 s Moles of Ag+  left after electrolysis is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.99",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.98",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.99",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.50",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q28",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The resistance of solution A is 100 \uf057 and resistance of solution B is 200 \uf057 in same conductivity cell. Equal volume of solution A and B are mixed and taken in same cell. The resistance of mixture is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "133.33 \uf057",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "166.66 \uf057",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150 \uf057",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "175 \uf057",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q29",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The specific conductance of saturated solution of AgCl is 1.24 \u00d7 10\u20136 \uf057\u20131 cm\u20131. Molar conductance at infinite dilution of AgCl is 119 \uf057\u20131 cm2 mol\u20131. The solubility of AgCl in mole/L is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5 \u00d7 10\u20135 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.04 \u00d7 10\u20135 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.5 \u00d7 10\u20135 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 \u00d7 10\u20135 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q30",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Emf of a cell Ni | Ni2+ (1M) || Au3+ (1M) | Au is .... if E\u00b0 for Ni2+/Ni is \u20130.25 V, E\u00b0 for Au3+/Au is 1.50 V",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 1.25 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2013 1.75 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 1.75 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2013 1.25 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q31",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "In order to get greater value of emf of a cell",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Concentration of anode solution should be  lower than cathode solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Concentration of anode solution should be  higher than cathode solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Concentration of anode and cathode solution  should be 2 M and 1 M respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "None of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q32",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If E1\u00b0 is standard electrode potential for Fe/Fe+2  and E2\u00b0 is for Fe+2/Fe+3 and E3\u00b0 for Fe/Fe+3 then which of the following relation is correct?  0 2 0 1 0 3 \uf02b \uf03d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "0 2 0 1 0 3 E 2E E \uf02b \uf03d",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "3 E 2E E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 2 0 1 0 3 E E E \uf02b \uf03d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 1 0 2 0 3 E 3 E 2 E \uf02b \uf03d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q33",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "A cell is constructed as follows  Pt : H2 (1 atm) | HA1 || HA2 | H2 (1 atm), if the pH of two acid solution HA1 and HA2 are 5 and 3 respectively. The e.m.f. of the cell is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.059 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.0295 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.118 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u20130.118 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q34",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "In the electrolysis of copper chloride solution using copper electrodes, the mass of cathode increases by 3.175 g. At the anode,",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "560 ml of O2 at STP will be liberated",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "112 ml of Cl2 will liberate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.2 mol of copper metal will dissolve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.05 mole of Cu will dissolve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q35",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "A cell contains two hydrogen electrodes. Anode is in contact with a solution of 10\u20134 M H+ ions. E.M.F. of cell is 0.118 V at 25\u00b0C. pH of solution at cathode is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u20131",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q36",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "When electric current is passed through a cell having an electrolyte, the positive ions move towards the cathode and negative ions towards the anode. If the cathode is pulled out of this solution",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The positive ion and negative ions both will  move towards the anode",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The positive ions will start moving towards the  anode, the negative ions will stop moving",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The negative ions will continue to move  towards the anode; the positive ion will stop moving",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The positive ions and negative ions will start  moving randomly",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q37",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Four colourless salt solutions are placed in separate test tubes and a strip of copper is placed in each, which solution finally turns blue?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pb(NO3)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zn(NO3)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AgNO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cd(NO3)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q38",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "What will be Equinohydrone at pH = 2 if  E\u00ba   = 1.30 V?  quinohydrone  OH  O  +   2H +   2e +   \u2013  OH  O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.36 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.30 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.42 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.20 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q39",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Blocks of magnesium metal are often strapped to the steel walls of ocean going ships in order to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Provide cathodic protection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Provide sacrificial protection",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Provide barrier protection",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q40",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "When an aqueous solution of lithium chloride is electrolysed using graphite electrodes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "pH of the resulting solution increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "pH of the resulting solution decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "As the current flows, pH of the solution  around the cathode increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "pH of solution increases till it becomes neutral",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q41",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Certain quantity of electricity is passed through two voltameters connected in series and containing XSO4 (aq) and Y2SO4 (aq) respectively. If the atomic masses of X and Y are in the ratio of 2 : 1, the ratio of the masses of Y liberated to that of X is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q42",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The standard EMF of the cell reaction:  \uf02d \uf02b\uf02b \uf0ae \uf02b Cl Cu 2 1 ) g ( Cl 2 1 ) s ( Cu 2 1 2 2  is 1.02 V. The maximum work which can be obtained by this cell",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\u201398.43 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2013196.86 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u2013198.43 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2013205.0 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q43",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Given  A2+ + 2e\u2013 \uf0ae A(s); E\u00ba = 0.10 V  B+ + e\u2013 \uf0ae B(s); E\u00ba = \u20132.71 V  X2(g) + 2e\u2013 \uf0ae 2X\u2013 ; E\u00ba = 1.08 V  The incorrect statement among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "X2(g) will oxidize both A & B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A2+ will oxidize B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The reaction  2X\u2013 (1.0 M) + A2+ (1.0 M) \uf0ae X2 (1 atm) + A(s) will be spontaneous",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The oxidising power of A2+, B+ and X2(g) is in  order B+ < A2+ < X2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q44",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The e.m.f of the cell  Pt, H2(1atm) | HA(0.01M) || HCl(1.0M) | H2(1atm), Pt is 0.295 V. The dissociation constant of the acid HA is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.0 \u00d7 10\u20134",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.0 \u00d7 10\u20136",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.0 \u00d7 10\u20138",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.0 \u00d7 10\u20135",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q45",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is zero for concentration cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ECell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cell E\uf0b0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both ECell and  Cell E\uf0b0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\uf044Go",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q46",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum work that can be obtained from a  cell having  Cell E\uf0b0  + 1.10 volt and two electrons  are involved in the cell reaction would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "45.75 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "190 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "212.3 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "119.50 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q47",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "When 5F of charge is passed through CaSO4 (aq), CuSO4 (aq), Al2(SO4)3 (molten) and Na2SO4 (molten) then ratio of moles of substances obtained at cathode are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1 : 2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2 : 3 : 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 : 3 : 2 : 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 : 3 : 4 : 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q48",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Electrolysis of water is done by passing 4F of charge. Total volume of gases obtained are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "22.4 litre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "44.8 litre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "67.2 litre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 litre",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q49",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The reduction potential of hydrogen electrode in 0.01 M H2SO4 solution at 1 atm and 25\u00baC will be equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u2013 0.591 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2013 0.0791 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q50",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of volumes at NTP of 1 equivalent of each H2 and O2 gases formed by electrolysis of H2O is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 16",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q51",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following expressions is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\uf044G\u00b0 = \u20132.303 RT n FE\u00b0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\uf044G\u00b0 = +n FE\u00b0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\uf044G\u00b0 = \u2013n FE\u00b0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\uf044G\u00b0 = \u2013n F log KC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q52",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Out of Cu, Ag, Fe and Zn the metal which can displace all other atoms from their salt solutions is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ag",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zn",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q53",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The electronic conductance depends upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nature of the metal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Number of valence electron per atom",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q54",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "When a graph is plotted between molar conductivity and (conc)1/2 for a strong electrolyte, then which of the following is observed correctly?  o m \uf0d9",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intercept equal to",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Slope equal to A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The value of A (constant) depend upon type  of electrolyte, i.e. CaCl2, CaSO4 are 1\u20132 and 1\u20131 electrolyte",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q55",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is mismatched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Charge on 1 mole \u2013 96487 C mol\u20131  electron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduction of 1 mole \u2013 1 mole of e\u2013  required of Ag+ ion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electrochemical \u2013 eq. wt. of substance  96500 equivalent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 F of electricity liberate\u20131 g equivalent of  any substance always",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q56",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If Eext is greater than the Ecell then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electron flow from zinc to copper",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electron flow from copper to zinc",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The reaction stops",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of the above can occur",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q57",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If the potential of hydrogen electrode in contact with a solution is nearly \u20130.6 V, then the hydroxide ion concentration of the solution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "104 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1010 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10\u20134 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10\u201310 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q58",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "For the cell of type  H2 | H+ | | H+ | H2  P1  C1    C2 P2  Which of the following is not true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Standard electrode potential is always zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If the [H+] becomes same and partial pressure  becomes equal in two half cells, then cell stops working",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "To have maximum cell potential C2 < C1 and  P1 > P2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "To have feasible cell reaction, oxidation takes  place on electrode with lower concentration if partial pressure is same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q59",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "During electrolysis of H2SO4 at higher concentration the reaction which is preferred at anode is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2\u2013 2\u2013 \u2013 4 2 8 (aq) (aq) 2SO S O 2e \uf0ae \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2H2O(l) \uf0ae O2 + 4H+ + 4e\u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2H+ \uf0ae H2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q60",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is mismatched regarding number of faradays of electricity required for deposition of 1 mole of respective substance?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrobenzene \uf0ae Aniline \uf0ae 6F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al2O3 \uf0ae Al \uf0ae 3F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "FeO \uf0ae Fe2O3 \uf0ae 1F  \u2013 \uf0ae Mn+2 \uf0ae 5F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MnO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q61",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Correct statement/s with respect to the mercury cell is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zinc-mercury amalgam is used as anode",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Its cell potential remains constant as reaction  does not involved any ion in solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "During oxidation at anode ZnO is produced",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q62",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "What will happen if no salt bridge is used in electrochemical cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inner circuit is not completed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Current stops flowing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Outer circuit is not completed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q63",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement is correct for equivalent conductance?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It decreases for both strong and weak  electrolytes on dilution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It increases for strong electrolyte on dilution  but decreases for weak electrolyte on dilution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains unaffected on dilution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It increases with dilution for strong and weak  electrolyte",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q64",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "What amount of current should be passed in the electrolysis of acidulated water, if hydrogen gas is required at the rate of 1cc per second at NTP condition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8.6 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "24 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q65",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "In which electrolysis pH of solution increases using inert electrodes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AgNO3 solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CuSO4 solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaCl solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2SO4 solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q66",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If 6 faraday of electricity is passed through Al2O3 (molten), CuSO4(aq), NaCl (molten), separately. Amount of Al, Cu, Na deposited at cathodes will be in molar ratio of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 : 2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 3 : 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 : 3 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q67",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If pressure of hydrogen gas is increased from 10 atm to 1000 atm keeping hydrogen ion concentration constant at 1 M, the voltage of hydrogen half cell at 25\u00b0C will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.118 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.059 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.59 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.0295 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q68",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "On passing a current through AgNO3 solution, 5.4 g Ag is deposited at cathode (assume 100% current efficiency). If same current is passed through CuSO4 for same time, only 0.8 g Cu is deposited, then current efficiency in second experiment is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "75%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q69",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The standard reduction potential at 25\u00b0C of the reaction, 2H2O + 2e\u2013   H2 + 2OH\u2013 is \u20130.8277, the equilibrium constant for the above reaction is approximately?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10\u201320",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10\u201314",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10\u201312",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10\u201328",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q70",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "In the electrolytic cell, the flow of electron is from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cathode to anode in solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cathode to anode through external supply",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cathode to anode through internal supply",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anode to cathode through external supply",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q71",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Ag(s)|AgNO3(0.001 M) | | AgNO3(0.01 M) | Ag(s). The EMF of the cell will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "59.00 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.90 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.059 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.59 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q72",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "1.08 g of an element was displaced when a current of one ampere was passed through the salt solution of the element for 16 minutes and five seconds. The equivalent weight of the element is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "108",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.08",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10.8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q73",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which is mismatched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Efficiency of fuel cell =  nFE \u2013 H \uf044",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "At equilibrium \uf0de Ecell = 0  2.303RT E logK nF \uf03d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "At equilibrium \uf0de  0 cell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Galvanic cell \uf0de If Eext < Ecell, current flow from anode to cathode",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q74",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "During the electrolysis of highly concentrated H2SO4 solution, which is released at anode?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O2  2\u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S2O8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q75",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction  1 2 1 2 2 2 (pH ) (pH ) (P ) (P ) Pt, H | H || H | H , Pt \uf02b \uf02b  Standard cell potential will be maximum when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "pH1 > pH2, P1 > P2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "pH2 > pH1, P2 > P1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "pH1 > pH2, P2 > P1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is always zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q76",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "From the following facts  (i) 2X\u2013 + Y2 \uf0be\uf0ae\uf0202Y\u2013 + X2 (ii) 2W\u2013 + Y2 \uf0be\uf0ae\uf020No reaction  (iii) 2Z\u2013 + X2 \uf0be\uf0ae\uf0202X\u2013 + Z2 Which of the following is true?  2 2 2 2 W /W Y /Y X /X Z /Z E E E E \uf02d \uf02d \uf02d \uf02d \uf03e \uf03e \uf03e",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 2 2 W /W Y /Y Z /Z X /X E E E E \uf02d \uf02d \uf02d \uf02d \uf03e \uf03e \uf03e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 2 2 W /W Z /Z Y /Y X /X E E E E \uf02d \uf02d \uf02d \uf02d \uf03e \uf03e \uf03e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 2 2 W /W X /X Y /Y Z /Z E E E E \uf02d \uf02d \uf02d \uf02d \uf03e \uf03e \uf03e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q77",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct statement about concentration cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "o cell E 0 \uf03d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ecell \uf0b9 0  C log C if C2 > C1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ecell = 0.059 2  1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q78",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent conductance of 0.05 N monoprotic acid is 7.40 \uf057\u20131 cm2 eq \u20131 at a given temperature. If the equivalent conductance at infinite dilution is 390.0 \uf057\u20131 cm2 eq\u20131 then, the dissociation constant of the acid will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.8 \u00d7 10\u20135",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.8 \u00d7 10\u20137",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.8 \u00d7 10\u20133",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.8 \u00d7 10\u20136",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q79",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Thermodynamic efficiency of a cell is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H \u2013 G \uf044 \uf044",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "nFE \u2013 G \uf044",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "nFE \u2013 H \uf044",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2013nFE0  \u2013",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q80",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "For completely reducing 20 ml of 0.5 M MnO4  to Mn2+(aq). The charge required is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4825 C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "48250 C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "48.25 C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q81",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Electrolysis product of aqueous NaF using graphite electrodes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anode : H2 ; Cathode : O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anode : F2 ; Cathode : H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anode : O2 ; Cathode : H2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anode : F2 ; Cathode : Na",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q82",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "During the process of electrolysis of brine solution using inert electrode, which of the half cell reaction will take place at anode?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "( ) Na (aq) e Na(s) \uf0c5 \uf02d \uf02b \uf0be\uf0be\uf0ae  2 1 H (aq) e H (g) 2  \uf0c5 \uf02d \uf02b \uf0be\uf0be\uf0ae  ( )",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "( ) ( ) 2 1 Cl (aq) Cl (g) e 2  \uf02d \uf02d \uf0be\uf0be\uf0ae \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "( ) 2 2 1 H O(l) O (g) 2H (aq) 2e 2  \uf0c5 \uf02d \uf0ae \uf02b \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q83",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The charge present on tin (Sn) if 7.42 g of metallic tin is deposited by passage of 24125 C, through a salt of tin in molten state [At wt of Sn = 118]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q84",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option is true for galvanic cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anode is positive electrode",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Salt bridge completes the electrical circuit  through metallic conductance",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "There is flow of current from anode to  cathode through outer circuit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The electrolyte present in the salt bridge  should have same ionic-mobility",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q85",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement regarding redox reaction is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidant is a substance undergoing increase in  oxidation number by loss of electrons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "EMF of cell is the difference in the electrode  potentials of two electrodes in a cell when current flows through the cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reduction involves loss of electrons",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Galvanic cell is a device in which redox  change occurs decreases the free energy that appears as electrical energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q86",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "3 0 Al /Al E \u20131.66V \uf02b \uf03d  and  3 0 Tl /Tl E 1.26V \uf02b \uf03d\uf02b  On the basis of above data which statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tl3+ is unstable in solution while Al3+ ion is  stable",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aluminium has high tendency to make Al3+  ions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aluminium is less electropositive than thallium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tl3+ is powerful oxidising agent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q87",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The standard emf of the cell  Zn|Zn2+ (1M) || Cu2+(1M)|Cu  E\u00b0 for Zn2+/Zn = \u20130.76 V, E\u00b0 for Cu2+/Cu = + 0.34 V",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+1.10 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u20131.10 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u20130.76 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u20130.42 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q88",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The feasible cell reaction, if E0 of Ni/Ni+2 = 0.25 V and Mg/Mg+2 = 2.37 V is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 Mg Ni Mg Ni \uf02b \uf02b \uf02b \uf0be\uf0be\uf0ae \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 Mg Ni Mg Ni \uf02b \uf02b \uf02b \uf0be\uf0be\uf0ae \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 Ni Mg Mg Ni \uf02b \uf02b \uf02b \uf0be\uf0be\uf0ae \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 Mg Ni Mg Ni \uf02b \uf02b \uf02b \uf0be\uf0be\uf0ae \uf02b",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q89",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Standard electrode potential can be calculated from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "o o o cell cathode anode (redn. pot.) (redn. pot.) E E E \uf03d \uf02d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "o o o cell cathode anode (redn. pot.) (oxidn. pot.) E E E \uf03d \uf02d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "o o o cell cathode anode (redn. pot.) (oxidn. pot.) E E E \uf03d \uf02b",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q90",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Reducing power for alkali metals decided by Eo value.  Eo value does not depend upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ionization energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Internal energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydration energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heat of sublimation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q91",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Given that  I2 + 2e\u2013 \uf0be\uf0ae\uf0202I\u2013 ; E\u00b0 = 0.54 V  Br2 + 2e\u2013 \uf0be\uf0ae\uf0202Br\u2013 ; E\u00b0 = 1.09 V  Predict which of the following statement is true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I\u2013 ions will be able to reduce bromine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br\u2013 ions will be able to reduce iodine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Iodine will be able to reduce bromine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bromine will be able to reduce iodide ions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q92",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction occurring at the cathode during charging of lead storage battery is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pb2+ + 2e\u2013 \uf0ae Pb  2\u2013 \uf0ae PbSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pb \uf0ae Pb2+ + 2e\u2013",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pb2+ + SO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PbSO4 + 2H2O \uf0ae 2PbO2 + 4H+ + SO4  2\u2013 + 2e\u2013",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q93",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "For the galvanic cell  Ag | AgCl(s), KCl(0.2 M) || KBr(0.001 M); AgBr(s) | Ag.  Calculate the emf generated and assign correct polarity to each electrode for the spontaneous process after taking into account the cell reaction at 25\u00b0C.  Given ksp(AgCl) = 2.8 \u00d7 10\u201310     ksp(AgBr) = 3.3 \u00d7 10\u201313",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.0371 volt",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2013 0.0371 volt",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.371 volt",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2013 0.371 volt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q94",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Given the following information, rank the \u2018activity\u2019 of the metals as reducing agents. Cr reacts with NiBr2 and CdBr2, but not with ZnBr2. Cd reacts with NiBr2 but not with ZnBr2 or CrBr3.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn > Cr > Cd > Ni",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ni > Cr > Cd > Zn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zn > Cr > Ni > Cd",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zn > Cd > Cr > Ni",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q95",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Both conductance and molar conductance  increase on increasing concentration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both conductance and molar conductance  decrease on increasing concentration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conductance increases but molar conductance  decreases on increasing concentration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conductance  decreases  but  molar conductance increases on increasing concentration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q96",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The equation for one of the half reactions in a lead storage battery is  2 2 4 4 2 PbO 4H SO 2e PbSO 2H O \uf02b \uf02d \uf02d \uf02b \uf02b \uf02b \uf0be\uf0be\uf0ae \uf02b  What happens to the properties of the electrolyte as this cell discharge?  Density pH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decrease Decrease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decrease Increase  \u20132 at infinite dilution are x and y s cm2 eq\u20131. Hence the equivalent conductance of H2SO4 at \uf0a5 dilution is",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q97",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Ionic conductance of H+ and SO4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x + y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2x + y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x + 2y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x + 0.5y",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q98",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase in temperature increases electrolyte  conductivity  but  decreases  metallic conductivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases in temperature increases reduction  electrode polential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increasing temperature increases rate of  exothermic reactions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increasing temperature increases defects in  NaCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q99",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following are correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrolysis of dil. NaOH solution gives H2 at  cathode and O2 at anode",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrolysis of molten CaH2 produces H2 at  anode and calcium at cathode",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electrolysis of CuSO4 solution using copper  electrode do not show any change in molarity of solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q100",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "A gas X at 1 atm is bubbled through a solution containing a mixture of 1 M Y\u2013 and 1 M Z\u2013 at 25\u00b0C. If the reduction potential of Z > Y > X; then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Y will oxidize X but not Z",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Y will oxidize Z but not X",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Y will oxidize both X and Z",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Y will reduce both X and Z",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q101",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which process occurs in the electrolysis of an aqueous solution of nickel chloride at nickel anode?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ni \uf0be\uf0ae\uf020Ni+2 + 2e\u2013",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ni+2 + 2e\u2013  \uf0be\uf0ae\uf020Ni",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2Cl\u2013 \uf0be\uf0ae\uf020Cl2 + 2e\u2013",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2H+ + 2e\u2013 \uf0be\uf0ae\uf020H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q102",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "A 4.0 molar aqueous solution of NaCl is prepared and 500 mL of this solution is electrolyzed. Find out number of moles of Cl2 gas evolved is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.0 mole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.0 mole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 mole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.0 mole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q103",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "x, y, z are the equivalent conductance at infinite dilution for BaCl2, H2SO4 and HCl respectively. The equivalent conductance of BaSO4 would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x + y \u2013 z",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x \u2013 2y + z",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x + y \u2013 2z",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x \u2013 y \u2013 z",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q104",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The  3 2 o M /M E \uf02b \uf02bvalues for A, B, C and D are \u20130.41 V, +1.57 V, + 0.77 V and +1.97 V respectively. For which one of these metals the change in oxidation state from +2 to +3 is easiest?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q105",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If the reduction potential of x, y and z are in the order z > y > x, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "y can oxidise x\u2013 and not z\u2013",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "y can oxidise z\u2013 and not x\u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "y can oxidise both x\u2013 and z\u2013",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "y\u2013 can reduce both x and z",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q106",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "In a galvanic cell, flow of electrons is from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cathode to anode in solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cathode to anode through external wire",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cathode to anode through internal supply",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anode to cathode through external wire",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q107",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The standard oxidation potential E\u00b0 for the half reactions are as  Zn \uf0be\uf0ae Zn2+ + 2e\u2013 E\u00b0 = + 0.76 V  Fe \uf0be\uf0ae Fe2+ + 2e\u2013 E\u00b0 = + 0.41 V  The standard EMF for cell reaction  Fe2+ + Zn \uf0be\uf0ae Zn2+ + Fe is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\u2013 0.35 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 0.35 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 1.17 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2013 1.17 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q108",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "What current is to be passed for 0.25 second, for deposition of certain weight of metal which is equal to its electrochemical equivalent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q109",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which ion has highest conductivity in aqueous solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Be2+  + E\u00b0 = +0.15 V 2  2+ E\u00b0 = +0.30 V 1 Cu",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q110",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Cu  Cu  E\u00b03  3 E\uf0b0 will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.45 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.225 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.15 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u20130.225 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q111",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The molar conductivity of 0.1 M NH4Cl is 20 s  cm2 mol\u20131. The molar conductivity of  4 NH\uf02b and Cl\u2013 at infinite dilution are 74 and 26 s cm2 mol\u20131  respectively. The dissociation constant of NH4Cl will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10\u20132",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 \u00d7 10\u20133",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 \u00d7 10\u20133",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 \u00d7 10\u20133",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q112",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KCl is used as salt bridge in Ag|Ag+||Au3+|Au",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 g equivalent of copper deposited by 2  Faraday",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Molar conductivity of 0.1 M HCN increases if  one litre water is added to it",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fuel cells are galvanic cells in which heat  energy is directly converted into electrical energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q113",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Standard electrode potentials of some metals are given below  K+/K = \u2013 2.93 V  Ag+/Ag = 0.80 V  Hg2+/Hg = 0.79 V  Mg2+/Mg = \u2013 2.37 V  Cr3+/Cr = \u2013 0.74 V  Correct order of reducing power of these metals is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg > K > Cr > Hg > Ag",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K > Mg > Cr > Hg > Ag",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ag > Hg > Mg > Cr > K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K > Mg > Cr > Ag > Hg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q114",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "How much Faraday is required to produce 40 g Al from molten Al2O3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4.4 F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.9 F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q115",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which have highest  o oxi E  in the following?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F\u2013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Li",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl\uf02d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q116",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If Cu strip is put in the solution of AgNO3(aq) then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nothing will happen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ag+ will be reduced",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu will become Cu2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q117",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The value of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depends on concentration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is +ve always",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is \u2013ve always",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q118",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "For the cell, Zn|Zn2+(C1)||Zn2+ (C2)|Zn to show positive e.m.f., the relationship between C1 and C2 should be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C1 \u2013 C2 < 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C2 \u2013 C1 < 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C1C2 = 1  C 1 C \uf03d  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q119",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "An electrochemical cell can behave like an electrolytic cell when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eext > Ecell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eext < Ecell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ecell = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Eext = Ecell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q120",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "On electrolysis of aqueous solution of NaCl using Pt electrode",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "pH of the solution will decrease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "pH of the solution will increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "pH of the solution will remain constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "pH of solution may increase or decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q121",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Given :  Mn2\uf0c5 + 2e \uf02d\u25cb \uf0be\uf0ae Mn; E\u00b0 = \u20131.18  Mn3\uf0c5 + e \uf02d\u25cb \uf0be\uf0ae Mn2\uf0c5; E\u00b0 = 1.51  What is the E\u00b0 value for Mn3\uf0c5 + 3e \uf02d\u25cb \uf0be\uf0ae Mn?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+2.8 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u20132.8 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u20130.28 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+0.28 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q122",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements regarding electrochemical cell  Zn(s)|Zn2(+)(aq) || Cu2(+)(aq)|Cu(s)  I. Electrons move from Zn to Cu  II. Concentration of Zn2(+) will increase and that  of Cu2(+) will decrease when cell operates  III. When cell becomes dead, E\u00b0cell = 0  Choose the correct statement(s)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I, II & III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I & III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I & II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II & III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q123",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement(s)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E\u00b0cell is zero for concentration cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ecell = 0, when cell reaction approaches  equilibrium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Specific conductance of all electrolytes  decreases on dilution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q124",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following EMF diagram for Fe,  2.20 V 0.77 V 2( ) 3( ) 2( ) 4 FeO Fe Fe \uf02d \uf02b \uf02b \uf0be\uf0be\uf0be\uf0be\uf0ae \uf0be\uf0be\uf0be\uf0be\uf0ae  the value for  2( ) 2( ) 4 FeO Fe E \uf02d \uf02b \uf0b0  will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "7.37 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.685 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.456 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.843 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q125",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The amount of electricity required to obtain 10 mole of Al from molten AlCl3 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q126",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "During rusting following redox reaction takes place:  ( ) 2( ) 2 2 1 2H O Fe H O Fe ; E 1.67 V 2  \uf02b \uf02b \uf02b \uf02b \uf0be\uf0be\uf0ae \uf02b \uf0b0\uf03d  What is \uf044G\u00b0 of the reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\u2013322.31 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2013161.155 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "322.31 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+161.155 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q127",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Oxide that can be reduce by hydrogen",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Al2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CuO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q128",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The rusting of iron takes place by these two half reactions  2 2 1 2H 2e O H O(l) 2  \uf02b \uf02d \uf02b \uf02b \uf0be\uf0be\uf0ae ; E\u00b0 = 1.23 V  2 Fe 2e Fe(s) \uf02b \uf02d \uf02b \uf0be\uf0be\uf0ae ; E\u00b0 = \u2013 0.44 V  The \uf044G\u00b0 for the net process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\u2013 322 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u2013 161 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u2013 152 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u2013 76 kJ/mol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q129",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The products of electrolysis of AgNO3(aq) using Ag electrodes are  Cathode Anode",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ag+ Ag+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ag O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ag Ag+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ag+ Ag",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q130",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Four faraday of electricity were passed through aqueous solutions of AgNO3, CuSO4 and PbCl4 connected in series, using inert electrode. The ratio of number of moles of Ag, Cu and Pb deposited will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2 : 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 : 3 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 : 2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 2 : 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q131",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Cathodic and anodic product when dilute aqueous solution of Na2SO4 is electrolysed using inert electrode are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2, O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na, O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O2, H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na, SO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q132",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The reduction potential of hydrogen electrode at 5 atm and pH = 2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "\u2013 0.14 volt",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "\u20130.047 volt",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 0.39 volt",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 0.08 volt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_q133",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If  Reduction E\uf0b0  of I2 < Br2 < Cl2, then Br2(l) can",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidise I\u2013 to I2 and Cl\u2013 to Cl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidise only CI\u2013 to CI2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxidise only I\u2013 to I2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot oxidise (I\u2013) and (CI\u2013)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Corrosion of metals is essentially an  electrochemical phenomenon.\nReason (R): Corrosion of iron metal can be prevented by  galvanization.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): o cell E  is zero for concentration cell.\nReason (R): \uf044G is zero for working concentration cell.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In galvanic cell anode is negative electrode.\nReason (R): Anode is the source of electron.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In electrolysis, the amount of charge required  to deposit 1 mole of Ag and Zn are different.\nReason (R): Atomic weights of Ag and Zn are different.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A correct electrochemical cell can be set up  only if redox reaction is spontaneous in forward direction.\nReason (R): A reaction is spontaneous in forward direction  if Ecell is positive.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The half cell potential of hydrogen electrode at  pH = 10 is 0.59 V.\nReason (R): Half cell potential do not depend upon  temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): For the reaction,  1 2 E E E \uf0b0 \uf0b0 \uf0b0 \uf03d \uf02b  is not always valid.\nReason (R): For the reaction  1 2 G G G \uf0b0 \uf0b0 \uf0b0 \uf044 \uf03d\uf044 \uf02b\uf044  is always valid.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electrolysis of aqueous FeSO4 gives Fe at  cathode in preference to H2.  o o H |H Fe |Fe E E \uf02b \uf02b \uf03c\nReason (R): 2 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "chem_04_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Specific conductivity decreases on dilution.\nReason (R): Number of ions per unit volume decreases on  dilution.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I"
+  }
+]

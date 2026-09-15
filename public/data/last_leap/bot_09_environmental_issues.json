@@ -1,0 +1,2536 @@
+[
+  {
+    "question_id": "bot_09_q1",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Concentration of DDT for first trophic level and fourth trophic level is respectively in aquatic food chains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.04 ppm, 25 ppm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.003 ppm, 2 ppm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 ppm, 2 ppm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.04 ppm, 2 ppm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q2",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Cleaning of waste water in Arcata Marsh involves",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only conventional method of sewage treatment",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Removal of dissolved heavy metals through  biological process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Filteration, chlorination like chemical processes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Utilisation of microorganisms only for pollution  control",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q3",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Eco-san toilets are not associated with which of the following?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Are working in Sri Lanka and Kerala",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Composting method for recycling of human  excreta",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Recycled material forms natural fertilizer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enhance the need for chemical fertilizers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q4",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct sequence of greenhouse gases with respect to their relative contribution to global warming in increasing order",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2O, CFC, CH4, CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CFC, N2O, CO2, CH4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH4, N2O, CO2, CFC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2O, CO2, CH4, CFC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q5",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one out w.r.t. ozone depletion in the stratosphere",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "UV rays have the ability to both degrade as  well as form ozone layer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "UV rays are depleting the good ozone in the  troposphere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CFC\u2019s are disturbing the balance of ozone  equilibrium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "UV-B rays cause inflammation of cornea  called colour blindness",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q6",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Rivet popper hypothesis was given by Paul Ehrlich to explain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The cause of greater biological diversity in  tropics as compared to temperate regions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Extinction of indigenous species due to  introduction of alien species",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The role of ecological hotspots in biodiversity  conservation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The importance of rich biodiversity in  maintaining ecological health",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q7",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Catalytic converters are fitted into automobiles for reducing emission of poisonous gases. Which of the following reaction does not take place in catalytic converter?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Unburnt hydrocarbons \u2013 CO2 and water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ozone \u2013 O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carbon monoxide \u2013 CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitric oxide \u2013 N2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q8",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct for the diagram given below?",
+    "question_diagram": "/images/last_leap/p270_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "(A) Dissolved oxygen, (B) Point of sewage  discharge, (C) BOD",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(A) BOD, (B) Point of treated water discharge,  (C) Dissolved oxygen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(A) Dissolved oxygen, (B) Point of treated  water discharge, (C) BOD",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(A) BOD, (B) Point of sewage discharge,  (C) Dissolved oxygen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q9",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "The thickness of ozone over poles changes with the season being lowest in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Antarctic spring",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polar autumn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Antarctic autumn",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "North hemisphere spring",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q10",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CFCs, halons, methyl bromide, CCl4 and N2O  are responsible for O3 depletion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The main precursors of acid rain are SO2 and  NO2 in atmosphere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lichens and Mosses act as indices of  atmospheric purity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Blue baby syndrome is cause due to  increased level of nitrates in air",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q11",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Photochemical smog has mainly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SPM, O3 and CO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O3, PAN and NOx",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO, H2S and PAN",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2S, SO2 and SPM",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q12",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "_________ was held in _________, and adopted the recommendations of CCC for reducing green house gases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "UNCED, Rio-de-Janeiro",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Earth Summit, Johannesburg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kyoto Protocol, Kyoto",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "World Summit, Buenos Aires",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q13",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements in relation to environmental pollution and find the correct answer  a. Catalytic converters have platinum, palladium and strontium as catalysts which are fitted into automobiles for reducing poisonous gas emissions  b. Motor vehicles equipped with catalytic converters should not use unleaded petrol because lead in petrol activates the catalyst  c. DDT disturbs calcium metabolism in birds leading to thinning of egg shells  d. Cultural eutrophication refers to natural aging of a lake due to climate, size of lake and man\u2019s activities like effluents  e. Montreal protocol to control emission of ozone depleting substances became effective in 1987",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only a & d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only c is correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, c, d & e are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, d & e are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q14",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Greatest harm to human health is caused by particle size __________or less, as suggested by CPCB",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 micrometer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 micrometer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 mm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.5 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q15",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Normal rain water is slightly acidic due to the presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NOx",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q16",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out w.r.t. catalytic converters",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Palladium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rhodium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Platinum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Iron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q17",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "All the buses of Delhi were converted to run on CNG by the end of 2002 as  (a) It is cheaper than petrol or diesel  (b) It burns more efficiently  (c) It can easily be siphoned off",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both (a) and (c) are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only (c) is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both (b) and (c) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q18",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Black foot \u2013 Arsenic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BOD \u2013 Lower than COD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DDT \u2013 Bio-magnification",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Minamata \u2013 e-waste",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q19",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "What occurs when sewage is discharged in a flowing water (lotic) body?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BOD decreases initially",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BOD decreases with decreasing DO finally",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DO Increases initially but decreases finally",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DO decreases and BOD increases initially",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q20",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "If  carried  out  in  ecofriendly  manner, ____________ is the only method for treatment of e-waste",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Open burning",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Recycling",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pyrolysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Incineration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q21",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Global warming is a global threat to environment due to its given major effects, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It will lead to melting of ice caps",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It will change the global climate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "There will be cooling of stratosphere and  warming of trophosphere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It will maintain earths average temperature  at 15\u00b0C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q22",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "'Ozone depletion' means thinning of ozone layer during spring season and",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "This will allow UV \u2013 A to enter stratosphere  which will cause snow blindness",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "This is caused by N2O as major pollutant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ozone is released during this as O2 or ClO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First large hole was discovered over north  pole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q23",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Montreal Protocol became effective in 1989  as Helsinki declaration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lichens are indicators of SO2 pollution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "There are proposed 5 'F's of Chipko  movement",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Slash and Burn agriculture is very popular  among western states of India",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q24",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Biomagnification of DDT causes all except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thinning of egg shell in birds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Liver cirrhosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyanosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Softening of brain and haemorrhage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q25",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following w.r.t. pollution  Column I Column II  (a) Incineration (i) Soil erosion  (b) Green Muffler (ii) Third poison  (c) Ground water pollution (iii) Solid waste  (d) Negative pollution (iv) Noise pollution",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q26",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is known as chemical weed?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amaranthus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chlorofluorocarbon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ozone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Halons",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q27",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Photochemical smog \u2013 O3 + PAN + NOx",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Classical smog \u2013 SO2 + H2S + NOx + H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SPM \u2013 Mist, Dust, Aerosol, Flyash",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Indoor pollution \u2013 HCHO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q28",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Organic enrichment of lakes is also considered to be \u201cdeath of lakes\u201d and is associated with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases DO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreased BOD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreased non-biodegradable components",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Growth of algal blooms",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q29",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Global warming is caused by green-house gases and is supposed to be responsible for many possible negative effects, but some positive effects are also there, like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rising of sea level",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Changing the rainfall pattern, helping proper  distribution of H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maintaining earth\u2019s average temperature at  present value",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Warming of trophosphere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q30",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will not suffer from minimata disease?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rabbit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Seal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fish",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q31",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct one w.r.t. Los Angeles smog",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It contains H2S and SO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "There is no role of secondary pollutant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Formed at low temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Its components can inhibit ETS",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q32",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ozone is a friend at troposphere and foe at  stratosphere",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is continuously formed by the action of UV-  rays on molecular oxygen and also degraded into molecular oxygen in the stratosphere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Montreal Protocol was signed at Canada in  1987 to control the emission of ODS",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The thinning of ozone layer is known as  ozone hole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q33",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Horizon of soil profile characterized by leaching of minerals i.e., eluviation is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "O horizon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A2 horizon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B1 horizon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C horizon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q34",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Brown air or haze is produced by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NOX",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "VOC\u2019s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q35",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Flammingoes, cormorants or cranes will be harmed the most if the aquatic system is polluted by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NOX",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fertilizers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DDT",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Domestic sewage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q36",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ESP  \u2013 SPM",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Land fills \u2013 Solid waste",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Catalytic converter \u2013 Aerosol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ear muffs \u2013 Noise pollution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q37",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements and select the right choice.  a. Use of incinerators is crucial to disposal of hospital wastes.  b. Dobson units are used to measure oxygen content.  c. Methane and carbondioxide are greenhouse gases.  d. The Montreal protocol is associated with the control of emission of ozone depleting substances.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only d is correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only b is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, c & d are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q38",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Euro-II norms stipulate that sulphur be controlled at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "350 ppm in diesel and 150 ppm in petrol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50 ppm in petrol and 100 ppm in diesel",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150 ppm in diesel and 350 ppm in petrol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 ppm in petrol and 50 ppm in diesel",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q39",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Catalytic converters have expensive metals and can convert",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2 \uf0ae NOx",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2 \uf0ae CO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NOx \uf0ae N2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q40",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Pick the correct set of gases labelled A, B, C and D in the given figure showing their respective contribution to global warming  6%  D C  14%  20% 60% A B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A \u2013 CFCs, B \u2013 CH4, C \u2013 CO2, D \u2013 N2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A \u2013 CO2, B \u2013 CH4, C \u2013 CFCs, D \u2013 N2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A \u2013 N2O, B \u2013 CH4, C \u2013 CO2, D \u2013 CFCs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A \u2013 CO2, B \u2013 CFCs, C \u2013 CH4, D \u2013 N2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q41",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "There is a sharp decline in dissolved oxygen in a canal from the point of sewage discharge. The BOD of water",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rises as water flows",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Remains constant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First rises and then declines as water flows",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First declines and then rises as water flows",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q42",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "High concentration of DDT disturbs/causes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Potassium metabolism in birds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thinning of egg shell in birds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stone leprosy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hearing abilities of humans",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q43",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Greenhouse gas which causes maximum contribution to global warming is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CFC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q44",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "High concentration of DDT in birds disturb the metabolism of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Magnesium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Iron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Calcium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phosphorus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q45",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct option respectively w.r.t. A, B, C and D in the given figure of relative contribution of various greenhouse gases to global warming  D 6% C 14%  B 20%  A 60%",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carbon dioxide, CFCs, methane, N2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon dioxide, methane, CFCs, N2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carbon dioxide, N2O, CFCs, methane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbon dioxide, CFCs, N2O, methane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q46",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Good ozone acts as shield absorbing  ultraviolet radiations from sun",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ozone causes odd climatic changes i.e., El-  nino effect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Good ozone is found in upper part of  atmosphere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ozone depletion is occurring widely in the  stratosphere region",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q47",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Photochemical smog has mainly O3, PAN and  NOx",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CFC is most effective green house gas",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biodiversity decreases from lower to higher  altitudes and increases from lower to higher latitudes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dodo and Tasmanian wolf have become  extinct due to overexploitation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q48",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "What is the relative contribution of CFCs to global warming?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "14%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q49",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements carefully  a. Montreal protocol was signed in 1987 to control the emission of ODS  b. By the end of twentieth century the forest cover shrunk to about 30 percent  c. Integrated organic farming is a cyclical, zero waste procedure, that allows maximum utilisation of resources and increase the efficiency of production  d. Biomagnification refers to increase in concentration of toxic substances at lower trophic level only",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only d is correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only b is incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q50",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Noise pollution \u2013 Dobson unit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "National Forest Policy \u2013 1968",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Terror of Bengal \u2013 Eutrophic water  bodies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Water (Prevention and \u2013 1974 Control of Pollution) Act",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q51",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option is incorrect about effects of air pollutants on human health?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Deleteriously affect respiratory system in  humans",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Harmful effects depend on concentration of  pollutants and duration of exposure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Particulate size 2.5 micrometer or less in  diameter are responsible for causing the greatest harm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phaeophytization",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q52",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following effects are related with the use of DDT?  a. Accumulates in human being as it cannot be metabolised or excreted.  b. Disturbs calcium metabolism in birds causing thinning of egg shells.  c. Responsible for decline in population of fish eating birds.  Select the correct option.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only a & b are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only c is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q53",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Cultural eutrophication",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is natural aging of water body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is accelerated aging of water body due to  human activity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Takes thousand of years",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q54",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Polyblend, a fine powder of recycled modified plastic is mixed with bitumen to lay roads, which help to increase road life by a factor of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Five",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q55",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following four statements (a\u2013d) related to greenhouse effect and global warming and select the correct option stating which ones are true (T) and which ones are false (F).  Statements :  a. Greenhouse effect is responsible for maintaining average earth temperature at 18\u00b0C.  b. CO2, CH4, CFC, N2O are greenhouse gases  c. Rise in temperature is leading to deleterious changes in the environment and resulting in odd climatic changes (El Nino effect)  d. Montreal protocol is for biodiversity conservation and control of GHGs.  a b c d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T T F F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F F T T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F T T F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T F F T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q56",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Amrita Devi Bishnoi Award is given for individuals or communities from rural areas that have shown extra-ordinary courage and dedication in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protecting wildlife",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Minimising the ODS",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Organic farming",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Biotechnology",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q57",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Most harmful size of SPM is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PM 10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PM > 10",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PM 2.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PM 100",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q58",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Electrostatic precipitators are used in thermal power plants for the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conversion of NOx to nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Removal of SO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Removal of particulate matter",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conversion of CO to CO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q59",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "According to Euro-II norms amount of sulphur in diesel should be controlled at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "350 PPm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50 PPm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "250 PPm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "150 PPm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q60",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following device can remove over 99% of particulate matter present in the exhaust from a thermal power plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wet scrubbers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bag filters",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyclone collectors",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electrostatic precipitators (ESP)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q61",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Match Column-I with Column-II w.r.t. trophic level and their example  Column I Column II  a. Primary producer (i) Lion  b. Primary consumer (ii) Phytoplanktons  c. Secondary consumer (iii) Grasshopper  d. Tertiary consumer (iv) Fishes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q62",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Select odd one w.r.t. measures to control global warming",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Improving efficiency of energy usage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cutting down use of fossil fuel",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Slowing down the growth of human  population",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increasing deforestation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q63",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Calcium metabolism in fish eating birds get disturbed, if there is high concentration of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Urea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DDT",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cadmium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CFC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q64",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "It has been recommended that storage of nuclear waste, after sufficient pre-treatment, should be done in suitably shielded containers buried within rocks, about _______ deep below the earth\u2019s surface.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "500 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q65",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the correctly matched pair",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Water (Prevention and Control of Pollution)  Act \u2013 1981",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Integrated organic farming \u2013 Cyclical zero  waste procedure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Air (Prevention and Control of Pollution)  Act \u2013 1974",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Snow-blindness \u2013 Caused by methyl  isocyanate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q66",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one w.r.t. primary pollutants.",
+    "question_diagram": "/images/last_leap/p275_img1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2S",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PAN",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_q67",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the following in the correct sequence of increasing order of DDT concentration  a. b.  c. d.",
+    "question_diagram": "/images/last_leap/p275_img1.png",
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_secB_q1",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Noise pollution is now considered as a kind of  air pollution\nReason (R): In 1987, it becomes as part of amended  air act.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_secB_q2",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Royal waste causes mutations to occur at a  very high rate\nReason (R): UV-causes formation of thymine dimers in  DNA",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_secB_q3",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electrostatic precipitator is most efficient in  removing particulate matter.\nReason (R): It can remove over 99% of particulate matter  present in the exhaust from thermal power plant.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_secB_q4",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electrostatic precipitator can remove over  99% particulate matters present in the exhaust.\nReason (R): It has cathodes only.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_secB_q6",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Integrated organic farming is a cyclical zero  waste procedure.\nReason (R): It uses waste products of one process as  nutrients in other process.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-I"
+  },
+  {
+    "question_id": "bot_09_secB_q7",
+    "subject": "Botany",
+    "chapter": "Environmental Issues",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Biomagnification is increase in concentration  of a growth factor at successive trophic levels.\nReason (R): This phenomenon is well known for biological  fungicides.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-I"
+  }
+]
