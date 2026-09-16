@@ -29,7 +29,13 @@ import {
 } from 'lucide-react';
 import { NEET_CUTOFFS_DATA, NeetCutoffEntry } from '../data/neetCutoffsData';
 
-// Calibrated Rank estimation curve based on Official NEET-UG 2025-26 AIQ Round 3 MCC Allotment data
+// Calibrated Rank estimation curve based on Official NEET-UG 2024-2025 AIQ Round 3 MCC Allotment data
+export function formatYearDisplay(year?: string): string {
+  if (!year) return '2024-2025';
+  if (year.includes('2025') || year.includes('2024')) return '2024-2025';
+  return year;
+}
+
 function estimateRankFromScore(score: number): number {
   if (score >= 720) return 1;
   if (score >= 715) return 80;
@@ -627,7 +633,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
           <div className="space-y-1.5">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold border border-indigo-500/30">
               <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-              <span>Official NEET-UG AIQ 2025–26 (MCC 113-Page Round 3) & State CAP Dataset</span>
+              <span>Official NEET-UG AIQ 2024-2025 (MCC 113-Page Round 3) & State CAP Dataset</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
               {isInsideScorecard ? (
@@ -681,7 +687,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             <Table className="w-4 h-4 text-amber-400" />
             <span>Score ↔ AIR ↔ Cutoff Matrix</span>
             <span className="ml-1 px-2 py-0.5 rounded-full text-[10px] bg-amber-900/60 text-amber-200 border border-amber-500/30 font-semibold">
-              Official AIQ 2025-26
+              Official AIQ 2024-2025
             </span>
           </button>
 
@@ -891,9 +897,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white focus:border-cyan-400 focus:outline-hidden"
                 >
                   <option value="ALL">Predict Across All Rounds (Recommended)</option>
-                  <option value="Round 3">Round 3 (Final AIQ & State Allotment)</option>
-                  <option value="Round 1">Round 1 (2025-26)</option>
-                  <option value="Round 2">Round 2</option>
+                  <option value="Round 3">Round 3 (2024-2025 Final AIQ & State Allotment)</option>
+                  <option value="Round 1">Round 1 (2024-2025)</option>
+                  <option value="Round 2">Round 2 (2024-2025)</option>
                 </select>
               </div>
 
@@ -1124,7 +1130,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       <div className="flex items-center space-x-1">
                         <FileText className="w-3.5 h-3.5 text-slate-500" />
                         <span>
-                          {entry.round} ({entry.year})
+                          {entry.round} ({formatYearDisplay(entry.year)})
                         </span>
                       </div>
                       <span className="text-[10px] font-mono text-cyan-400/80 font-semibold">
@@ -1208,7 +1214,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
 
                     <div className="mt-3 pt-2 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
                       <span>{entry.counselingType === 'AIQ' ? 'MCC AIQ Round 3' : 'State CAP'}</span>
-                      <span className="text-[10px] font-mono text-slate-500 font-semibold">{entry.year}</span>
+                      <span className="text-[10px] font-mono text-slate-500 font-semibold">{formatYearDisplay(entry.year)}</span>
                     </div>
                   </div>
                 ))}
@@ -1218,7 +1224,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
         </div>
       )}
 
-      {/* VIEW 2: AIQ 2025-26 PREDICTOR MATRIX (SCORE ↔ AIR ↔ CUTOFFS) */}
+      {/* VIEW 2: AIQ 2024-2025 PREDICTOR MATRIX (SCORE ↔ AIR ↔ CUTOFFS) */}
       {activeTab === 'matrix' && (
         <div className="space-y-6 animate-in fade-in duration-200">
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
@@ -1227,7 +1233,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <div className="flex items-center space-x-2">
                   <Table className="w-5 h-5 text-amber-400" />
                   <h3 className="text-xl font-black text-white">
-                    Official NEET-UG AIQ 2025–26 Predictor Matrix
+                    Official NEET-UG AIQ 2024-2025 Predictor Matrix
                   </h3>
                 </div>
                 <p className="text-xs text-slate-400">

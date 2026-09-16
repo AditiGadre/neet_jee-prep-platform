@@ -234,82 +234,89 @@ export const Header: React.FC<HeaderProps> = ({
                 <ChevronDown className={`w-3 h-3 transition-transform ${packagesDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
 
-              {/* Dropdown Menu */}
+              {/* Packages Dropdown Menu */}
               {packagesDropdownOpen && (
-                <div className="absolute left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-auto sm:right-0 mt-2 w-80 sm:w-96 bg-white border border-slate-200 rounded-2xl shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150 text-slate-900">
-                  <div className="px-3 py-2 border-b border-slate-100 flex items-center justify-between">
-                    <div>
-                      <p className="text-xs font-extrabold text-slate-900 flex items-center gap-1.5">
-                        <Package className="w-3.5 h-3.5 text-blue-600" /> NEET Prep Packages
-                      </p>
-                      <p className="text-[10px] text-slate-500">CBT, Jumbo Question Banks & Hybrid Tests</p>
+                <>
+                  <div
+                    className="fixed inset-0 z-40 bg-black/10 backdrop-blur-[1px]"
+                    onClick={() => setPackagesDropdownOpen(false)}
+                  />
+                  <div className="absolute left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-auto sm:right-0 mt-2 w-88 sm:w-[410px] bg-white border border-slate-200/90 rounded-2xl shadow-2xl p-2.5 z-50 animate-in fade-in zoom-in-95 duration-150 text-slate-900">
+                    <div className="px-3 py-2 border-b border-slate-100 flex items-center justify-between">
+                      <div>
+                        <p className="text-xs font-extrabold text-slate-900 flex items-center gap-1.5">
+                          <Package className="w-3.5 h-3.5 text-blue-600" /> NEET Prep Packages
+                        </p>
+                        <p className="text-[10px] text-slate-500">CBT, Jumbo Question Banks & Hybrid Tests</p>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setPackagesDropdownOpen(false)}
+                        className="text-slate-400 hover:text-slate-600 text-xs p-1.5 rounded-lg hover:bg-slate-100 transition cursor-pointer"
+                        title="Close"
+                      >
+                        ✕
+                      </button>
                     </div>
-                    <button
-                      type="button"
-                      onClick={() => setPackagesDropdownOpen(false)}
-                      className="text-slate-400 hover:text-slate-600 text-xs p-1 cursor-pointer"
-                    >
-                      ✕
-                    </button>
-                  </div>
 
-                  <div className="p-1 space-y-1.5 max-h-[380px] overflow-y-auto mt-1">
-                    {neetPackages.map(pkg => {
-                      const IconComp = pkg.icon;
-                      return (
-                        <div
-                          key={pkg.id}
-                          onClick={() => {
-                            setSelectedPackage(pkg);
-                            setPackagesDropdownOpen(false);
-                          }}
-                          className="p-2.5 rounded-xl border border-slate-100 hover:border-blue-300 hover:bg-blue-50/50 transition cursor-pointer group"
-                        >
-                          <div className="flex items-start justify-between gap-2">
-                            <div className="flex items-start space-x-2">
-                              <div className="w-7 h-7 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center shrink-0 mt-0.5">
-                                <IconComp className="w-4 h-4" />
+                    <div className="p-1 space-y-2 max-h-[min(540px,78vh)] overflow-y-auto mt-1 pr-1 [scrollbar-width:thin] [scrollbar-color:#cbd5e1_transparent] [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:bg-slate-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-transparent">
+                      {neetPackages.map(pkg => {
+                        const IconComp = pkg.icon;
+                        return (
+                          <div
+                            key={pkg.id}
+                            onClick={() => {
+                              setSelectedPackage(pkg);
+                              setPackagesDropdownOpen(false);
+                            }}
+                            className="p-2.5 rounded-xl border border-slate-200/80 hover:border-blue-400 hover:bg-blue-50/50 hover:shadow-xs transition cursor-pointer group bg-white"
+                          >
+                            <div className="flex items-start justify-between gap-2">
+                              <div className="flex items-start space-x-2.5">
+                                <div className="w-7 h-7 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center shrink-0 mt-0.5 group-hover:scale-105 transition-transform">
+                                  <IconComp className="w-4 h-4" />
+                                </div>
+                                <div>
+                                  <h4 className="text-xs font-bold text-slate-900 group-hover:text-blue-600 transition flex items-center gap-1.5">
+                                    {pkg.name}
+                                  </h4>
+                                  <p className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
+                                    {pkg.tagline}
+                                  </p>
+                                </div>
                               </div>
-                              <div>
-                                <h4 className="text-xs font-bold text-slate-900 group-hover:text-blue-600 transition flex items-center gap-1.5">
-                                  {pkg.name}
-                                </h4>
-                                <p className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
-                                  {pkg.tagline}
-                                </p>
+                              <span className={`px-2 py-0.5 rounded-full text-[9px] font-bold border shrink-0 ${pkg.badgeColor}`}>
+                                {pkg.badge}
+                              </span>
+                            </div>
+                            <div className="mt-2 pt-1.5 border-t border-slate-100 flex items-center justify-between text-[11px]">
+                              <div className="flex items-baseline space-x-1.5">
+                                <span className="font-extrabold text-blue-900 text-xs">{pkg.price}</span>
+                                <span className="text-[10px] text-slate-400 line-through">{pkg.originalPrice}</span>
                               </div>
+                              <span className="text-[10px] font-bold text-blue-600 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
+                                View Details →
+                              </span>
                             </div>
-                            <span className={`px-2 py-0.5 rounded-full text-[9px] font-bold border shrink-0 ${pkg.badgeColor}`}>
-                              {pkg.badge}
-                            </span>
                           </div>
-                          <div className="mt-2 pt-1.5 border-t border-slate-100/80 flex items-center justify-between text-[11px]">
-                            <div className="flex items-baseline space-x-1.5">
-                              <span className="font-extrabold text-slate-900">{pkg.price}</span>
-                              <span className="text-[10px] text-slate-400 line-through">{pkg.originalPrice}</span>
-                            </div>
-                            <span className="text-[10px] font-bold text-blue-600 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
-                              View Details →
-                            </span>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
+                        );
+                      })}
+                    </div>
 
-                  <div className="p-2 border-t border-slate-100 bg-slate-50 rounded-xl mt-1 text-center">
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setPackagesDropdownOpen(false);
-                        if (onOpenEnrollment) onOpenEnrollment();
-                      }}
-                      className="w-full py-1.5 px-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
-                    >
-                      Instant Enrollment & Access →
-                    </button>
+                    <div className="p-2 border-t border-slate-100 bg-slate-50/90 rounded-xl mt-1 text-center">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setPackagesDropdownOpen(false);
+                          if (onOpenEnrollment) onOpenEnrollment();
+                        }}
+                        className="w-full py-2 px-3 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs shadow-xs hover:shadow-md transition cursor-pointer"
+                      >
+                        Instant Enrollment & Access →
+                      </button>
+                    </div>
                   </div>
-                </div>
+                </>
               )}
             </div>
           </div>
