@@ -1,0 +1,5352 @@
+[
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q1",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a diagrammatic representation of vertebral column  A  B  C  D  Which of the labelled structure forms thoracic cage?",
+    "question_diagram": "/images/last_leap_pz2/p431_q1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 431,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q2",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following disorder of bones is characterised by microarchitectural deterioration of the bone, increased fragility and proneness to fracture?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Osteoarthritis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gouty arthritis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Osteoporosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rheumatoid arthritis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 431,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q3",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "In rib case, which of the following set of ribs remain attached to each other?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2nd, 3rd and 4th pairs of the ribs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4th, 5th and 6th pairs of the ribs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7th, 8th and 9th pairs of the ribs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8th, 9th and 10th pairs of the ribs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 431,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q4",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "All the statements regarding muscle fibres are correct except one. Select the wrong statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tropomyosin is formed by the polymerisation of  globular protein and is wrapped around the F-actin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "During relaxation of muscle, the troponin  component masks the active sites for the myosin head",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The duration of twitch can vary in different  muscles fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The globular head is an active Mg2+ dependent  ATPase enzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 431,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q5",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Following is a diagrammatic view of human skull with certain labelled bones  (a)  (b)  (e)  (f)  (c)  (g)  (h)  (d)  (i)  (j)  Among these which of them are unpaired bones?",
+    "question_diagram": "/images/last_leap_pz2/p431_q5.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "b, c, f, g, h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, d, e, i, j",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c, d, e, f, g, j",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b, c, d, i, j",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 431,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q6",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct w.r.t. second class lever?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Resistance is at one end and fulcrum in middle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Resistance is in middle and fulcrum, effort on  different end",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Effort is in middle and resistance at one end",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 431,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q7",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Procoelous - Typical vertebrae of frog",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acoelous - IX vertebrae of frog",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amphicoelous - Vertebrae of mammals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Opisthocoelus - Vertebrae of urodela",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q8",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "How many unpaired bones are present with the cranium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q9",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the events during muscle contraction in correct order.  a. Acto-myosin complex synthesis  b. Release of neurotransmitter (acetylcholine) at the neuromuscular junction  c. Pumping of Ca2+ into sarcoplasmic cisternae  d. Sliding of actin filaments over myosin  e. Release of Ca2+ into sarcoplasm",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b, c, e, a, d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "e, b, a ,d, c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, e, a, d,  c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b, e, d, c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q10",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Type of joint present between sternum and clavicle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gliding",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Saddle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pivot",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amphiarthroses",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q11",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Atlanto-occipital joint is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hinge joint",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Condyloid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pivot",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gliding",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q12",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following includes non-muscular movement?  (a) Protoplasmic streaming  (b) Pseudopodial movements  (c) Flagellar movements  (d) Ciliary movement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a) and (b)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a), (c) and (d)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a), (b), (c) and (d)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(c) and (d)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q13",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is mismatched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protractor muscle - Projects the lower jaw,  tongue and head forward",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Flexor - Contracts to bring one articulating  bone close to the other",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Abductor - Contracts to draw a bone towards  the body midline of body",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Supinator - Contracts to rotate the forearm to  turn the palm upwards and forwards",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q14",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement is incorrect w.r.t. muscle contraction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sarcoplasmic membrane contains active  transport pump for Ca+2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca2+ released from the sarcoplasmic reticulum  combines with tropomyosin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase in Ca2+ concentration in the  sarcoplasm causes increased contraction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Muscle action potential travels along the  sarcolemma and into the transverse tubule system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q15",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sarcomere are separated from each other by  Krause line",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I-band appears dark under the light microscope",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In isotonic contraction, tension remains the  same while change occurs in the length of the muscle fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Masseter muscle is the strongest muscle in  human body",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q16",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Accumulation of lactic acid in muscle leads to  pain",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "During Cori's cycle, 4/5 of lactic acid is  converted back into glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tetany is hyperexcitability of muscles which  results in cramps and convulsions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "As the nerve impulse reaches the skeletal  muscle fibre, the sarcolemma becomes impermeable to Na+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q17",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following bone is unpaired?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mandible",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zygomatic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nasal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Palatine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q18",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Acromian process is related to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Scapula",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Humerus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Femur",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tibia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q19",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "In which type of lever, resistance is in middle and fulcrum and resistance are at ends?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "First class lever",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Second class lever",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Third class lever",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fourth class lever",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q20",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following joint is a type of saddle joint?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Joint between metacarpal of thumb and carpals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Joint between radio ulna and carpals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metacarpophalangeal joints",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Between sternum and clavicle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 432,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q21",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect w.r.t. red muscle fibre when compared to white muscle fibres?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They are thin and dark red",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They are rich in mitochondria and sarcoplasmic  reticulum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They have slow rate of contraction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They can contract for a longer period without  fatigue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q22",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following muscle is associated with urinary bladder?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Detrusor",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dartos",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sartorius",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Latissimus dorsi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q23",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The following diagram represents right pectoral girdle and upper arm. The letters a, b, c and d represent which bones?  (a)  Scapula  (b)  (c) (d)  Carpals  Metacarpals  Phalanges",
+    "question_diagram": "/images/last_leap_pz2/p433_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "a : Acromion process b : Humerus,  c : Radius, d : Ulna",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a : Clavicle, b : Humerus,  c : Radius, d : Ulna",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a : Clavicle, b : Humerus,  c : Ulna, d : Radius",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a : Clavicle, b : Femur,  c : Radius, d : Ulna",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q24",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The upper ends of the forearm bones articulate with each other in a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ball and socket joint",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hinge joint",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A pivot joint",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ellipsoid joint",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q25",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "All the ribs are attached to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sternum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vertebral column",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Clavicle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ilium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q26",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following joint is present between the tarsal bones in the ankle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hinge joint",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Angular joint",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gliding joint",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ball and socket joint",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q27",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a correct match between bones / their numbers / characteristics listed?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pisciform : 2 bones of sesamoid type in lower  limb of appendicular skeleton",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Axis and Atlas: Ellipsoid joint where synovial  fluid acts as lubricating agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Femur and Tibia: Hinge joint as found between  humerus and ulna",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Floating / vertebral ribs : Two bones that  possibly protect the gall bladder ventrally",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q28",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "In the dig. of pectoral girdle given below, which part has been labelled wrongly",
+    "question_diagram": "/images/last_leap_pz2/p433_q28.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Coracoid process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Spine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glenoid cavity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Supra spinous fossa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q29",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is major inorganic component of muscle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calcium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Potassium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sodium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q30",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can be taken as an example of endochondrial bone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Humerus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Frontal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Patella",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nasals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 433,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q31",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Excessive metabolism of nucleic acids is not responsible for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gouty arthritis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Deposition of uric acid in cartilages",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Deposition of urate crystals in renal tubules  leading to kidney failure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Deposition of urate crystals in gall bladder",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q32",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which vertebra in the human spine is characterized by the presence of odontoid process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Atlas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Axis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C-7 vertebra",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T-1 vertebra",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q33",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The Japanese population have a variable number of floating ribs as compared to other populations. Maximum how many floating ribs are observed in the Japanese?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q34",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the unpaired bones of the skull amongst the following bones",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vomer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mandible",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethmoid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q35",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which amongst the following can be considered as an autoimmune disease leading to weakness of muscle contraction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Poliomyelitis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Myasthenia gravis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Duchenne's muscular dystrophy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tetany",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q36",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a character of white muscle fibres when compared to red muscle fibre?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Larger diameter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Less blood capillaries",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less number of mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Less sarcoplasmic reticulum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q37",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which amongst the following muscle is responsible for flexion of the arm?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Biceps",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Triceps",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Deltoid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sartorius",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q38",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Mark amongst the following a horizontally placed long bone which is very susceptible to fracture",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sternum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Clavicle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ilium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pubis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q39",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The disorder associated with weakness of bones, bowed tibia, 'rosary' condition in the ribs especially seen in children is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rickets",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Osteomalacia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Scurvy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polio",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q40",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Amongst the following, mark the process which can be classified as a muscle twitch",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hiccup",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Yawning",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cough",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sneezing",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q41",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "In the given graph of different stages of muscle contraction a, b and c indicates?  a  b  c  Time",
+    "question_diagram": "/images/last_leap_pz2/p434_q41.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Twitch, incomplete tetanus, complete tetanus  respectively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Incomplete tetanus, twitch, complete tetanus  respectively",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Complete tetanus, twitch and incomplete  tetanus respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Complete tetanus, incomplete tetanus and  twitch respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q42",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which bone is formed by ossification in the tendon of quadriceps femoris and hence classified as a sesamoid bone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Clavicle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Scapula",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Patella",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Humerus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q43",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "How many vertebrae are present in a child in case of human beings?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "26",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "33",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "42",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q44",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Scoliosis and Kyphosis are conditions associated with abnormal structure of which part of the body?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Humerus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mandible",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vertebral column",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Patella",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 434,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q45",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "In which case amongst the following will Rigor mortis appear earlier?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Soldier in the battle field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polar bear which died of starvation in Arctic ice",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A man who died a silent death after a  prolonged illness",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of them will show similar time period",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q46",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The interchange between muscle and liver lactic acid and glycogen is studied under the name of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cori's cycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sliding filament theory",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kreb's cycle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ornithine cycle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q47",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "All the muscles have the following special properties, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Excitability",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Extensibility",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Autorhythmicity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Contractility",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q48",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of following symptom / character can't be related to rheumatoid arthritis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inflammation of synovial membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ESR-high, rheumatoid factor positive",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Synovial membrane secrete pannus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Affects large weight bearing joints, often single",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q49",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "A single U-shaped bone in the skull which does not  articulate with any other bone is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mandible",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vomer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sphenoid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hyoid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q50",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The costal cartilage of vertebrochondral ribs are attached with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sternum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vertebrosternal rib",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thoracic vertebrae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Not attached they are free",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q51",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following combination of statement is wrong about pectoral girdle?  a. Scapula is a large irregular flat bone situated in the dorsal part of the thorax between the 1st  and 7th ribs  b. Glenoid cavity is involved in forming a shoulder joint  c. Each clavicle is a flat bone with one curvature  d. Each half of the pectoral girdle consists of a pair of scapula and clavicle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c and d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b and d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, c and d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a and c only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q52",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following feature will not be true w.r.t. hypertrophy of muscles?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Number of muscle fibres increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Number of myofilaments increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Number of mitochondria increase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More development of sarcoplasmic reticulum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q53",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the longest muscle in human body?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Quadriceps femoris",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hamstring muscle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sartorius muscle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gastrocnemius muscle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q54",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The type of joint present between zygapophysis of two adjacent vertebrae in vertebral column is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cartilagenous",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gliding",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Slightly movable",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q55",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Proximally tibia articulates with femur and at  the distal end both tibia and fibula together articulate with talus bone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Female pelvis is wider and larger than male",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Muscular dystrophy is the inborn abnormality  of muscle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tibia and fibula both contribute in the formation  of knee joint",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q56",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following do not occur at the time of relaxation of striped muscle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lengthening of A band",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Binding of Ca++ with Troponin C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Shortening of H zone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q57",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following curve of vertebral column is the first one to appear after birth?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thoracic curve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lumbar curve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cervical curve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sacral curve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q58",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Manubrium (handle of malleus) is attached with _________ and the foot plate of stapes is attached by angular ligament to wall of _________.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tympanic membrane, fenestra rotunda",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tympanic membrane, fenestra ovalis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tympanic membrane and vestibule",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vestibule and incus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 435,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q59",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following type of vertebrae are thick, strongest with their neural spine directed downward?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cervical",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thoracic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lumbar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sacral",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q60",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Actomyosin +       x      → Actin + Myosin",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "cAMP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "cGMP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phosphocreatine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q61",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not correct w.r.t. striated muscle fibres?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A-band consists of myosin filaments and parts  of actin filaments",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Each myosin filament is surrounded by 6 actin  filaments",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The calcium binding protein is calmodulin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T-tubules are present at the junction of A-I  bands and are invagination of sarcolemma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q62",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "All of the following muscles are antagonistic to each other except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Biceps and triceps",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pronators and supinators",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Elevators and dilators",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adductors and abductors",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q63",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "When the length of muscle fibre remains the same but the tension increases as when we push a wall but the wall is not displaced, the phenomenon is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isotonic contraction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isometric contraction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Muscle fatigue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rigor mortis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q64",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct sequence of events involved in contraction of striated muscles  a. An action potential passes from the motor end plate finally reaching the SR via T-tubules and stimulate release of Ca2+ ions  b. Binding of energized cross-bridges to myosin binding sites on actins  c. Binding of Ca2+ with TpC-unit of troponin  d. Movement of troponin-tropomyosin complex away from the myosin binding sites on actin  e. Movement of the energized cross-bridges (power stroke) causing thin filaments to slide along the thick filaments",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c, d & e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, c, b, d & e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, c, d, b & e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, d, c, e & b",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q65",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out w.r.t. smooth muscle fibres",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Spindle shaped fibres without striations",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calmodulin is the calcium binding protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T-tubules are present close to Z-line",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Iris and ciliary body muscles are multi-unit  muscles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q66",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Globular protein which blocks active sites on F- actin when the muscle fibre is relaxed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tropomyosin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Meromyosin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "TpT unit of troponin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "TpI unit of troponin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q67",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "When a stimulus several times greater than threshold stimulus is provided to a muscle fibre, the muscle fibre will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Contract with same force",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Contract more forcefully",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Contract slightly",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Undergo tetany",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q68",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a slightly movable joint?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intervertebral joint",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Atlas-axis joint",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carpo-metacarpal joint of thumb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Shoulder joint",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q69",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a sesamoid bone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Humerus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Clavicle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bones of skull",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Patella",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q70",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is anatomically incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cranial bones : 8 in number",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vertebro-chondral ribs : 3 pairs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phalanges in digits : 12 in number",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Floating ribs : 2 pairs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q71",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following sets of bones belongs to the same part of the body?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Occipital, frontal and ethmoid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Humerus, carpals and metatarsals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Capitate, talus and calcaneum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tibia, fibula and metacarpals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q72",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the mismatched pair",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Scapula : Glenoid cavity, acromian process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Humerus : Deltoid ridge, trochlea",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carpals : Hamate, trapezoid, capitate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Innominate : Sigmoid notch, obturator foramen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 436,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q73",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a matching pair of a joint and its example?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pivot joint : Between radius and ulna",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hinge joint : Interphalangeal joints",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fibrous joint : Between teeth and jaw bone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ball and : Between glenoid cavity of socket joint pectoral girdle and head of the femur",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q74",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a degenerative joint disease that affects articular cartilages at the synovial joints normally in old age?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rheumatoid arthritis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Osteoarthritis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gouty arthritis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Paget's disease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q75",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Active transport of Ca2+ ions into the sarcoplasmic reticulum will not be associated with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Return of Z-lines to their original position",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in the I-band of sarcomere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreases in width of O-bands of a sarcomere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decreases in the width of H-zone of a  sarcomere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q76",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "An autoimmune disorder of neuromuscular junction, treated by acetyl cholinesterase inhibitor, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Duchenne's dystrophy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Myasthenia gravis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polio",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Agitan's palsy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q77",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca2+ play key regulatory role in muscle  contraction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Simple bending of arm is isometric contraction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The last two pairs of ribs do not participate in  breathing",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carpometacarpal joint of thumb is an example  of saddle joint",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q78",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a correct pair of antagonistic muscles?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Biceps and Triceps",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Latissimus dorsi and deltoideus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Masseter and depressor mandibularis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pronator and depressor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q79",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Study the figure given below carefully and identify the joints labelled as - A, B and C  Clavicle  Glenoid  Cavity  Scapula  Humerus  A  Upper ends  Radius  B  of radius  Ulna  and ulna  C  Carpals  Metacarpals  Phalanges 1  2 3 4 5",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ball - Socket, pivotal and condyloid joints",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Synovial, pivotal and saddle joints",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hinge, gliding and saddle joints",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hinge, condyloid and rotary joints",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q80",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an example of flagellar movement?",
+    "question_diagram": "/images/last_leap_pz2/p437_q80.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Swimming of spermatozoa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maintenance of water current in the canal  system of sponges",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Movement of ova in fallopian tube",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Locomotion in Euglena",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q81",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Vertebra prominens is the term used for which vertebra/vertebrae?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Last cervical vertebra",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thoracic vertebrae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sacral vertebrae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First lumbar vertebra",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q82",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Pannus granules are formed in which disorder of bones?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bursitis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Osteomalacia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rheumatoid arthritis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Osteoporosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 437,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q83",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is mismatched regarding disorders of muscular and skeletal system?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Myasthenia : Autoimmune disorder gravis affecting neuromuscular junction, can cause paralysis of skeletal muscles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Muscular : Progressive degeneration of dystrophy skeletal muscles mostly due to genetic disorder",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tetany : Rapid spasms in muscle  due to low Ca2+ in body fluid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Osteoporosis : Inflammation of joints due to  accumulation of uric acid crystals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q84",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "During hypertrophy of the muscles which of the following will not increase?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Number of myofilaments",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Number of mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Number of myofibrils",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Number of muscle fibres",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q85",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Malleolus is the part of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Humerus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Femur",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ulna",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tibia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q86",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an incorrect statement w.r.t. axial skeleton of humans?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A single U-shaped bone called hyoid bone is  present at the base of the buccal cavity and it is included in the skull",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The skull region articulates with the superior  region of the vertebral column with the help of one occipital condyle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sternum is a flat bone present on the ventral  midline of thorax",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Last 2 pairs (11th and 12th) of ribs are not  connected ventrally and are therefore called floating ribs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q87",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Saddle joint - Between carpal and metacarpal of thumb",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ball and socket - Between humerus and pectoral girdle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gliding joint - Between carpals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cartilaginous joint - Between prezygapophyses and post zygapophyses of two adjacent vertebrae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q88",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Passage of ova through female reproductive tract is facilitated mainly by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amoeboid movement",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ciliary movement",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Muscular movement only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pseudopodial movement",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q89",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Flexing of the arm is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "First class lever system",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Second class lever system",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Third class lever system",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "This event can't be categorized as a lever  system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q90",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Each myosin is surrounded by _______ actin filaments on either side",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Six",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Eight",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q91",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "At the time of muscle contraction, which of the following will not occur?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Shortening of isotropic band",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Shortening of Hensen's zone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dobie's lines come closer to each other",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Binding of Ca++ with calsequestrin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q92",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the feature which is not associated with white muscle fibres",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lighter in colour",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "These muscles have a fast rate of contraction  but for a short period",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They depend mainly on glycolysis for energy  production and soon get fatigued",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Less sarcoplasmic reticulum compared to red  muscle fibres",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q93",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "In the figure given below, A, B, C and D are  Ilium  A  Sacrum  Pubis Ischium  Femur  B  C D  Tarsals Metatarsals Phalanges",
+    "question_diagram": "/images/last_leap_pz2/p438_q93.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Coxal bone, patella, fibula and tibia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coxal bone, patella, tibia and fibula",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sacrum, patella, fibula and tibia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pubis, calcaneum, tibia and fibula",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 438,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q94",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Number of T tubules per sarcomere in case of cardiac muscle fibres is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q95",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Autorhythmicity is exhibited by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Striped muscles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unstriped muscles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cardiac muscles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q96",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following curves are not present in vertebral column at the time of birth?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cervical and Lumbar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thoracic and Sacral",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cervical and Sacral",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thoracic and Lumbar",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q97",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Costal cartilage of vertebrochondral ribs are attached to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thoracic vertebrae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sternum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cartilage of 7th vertebrosternal rib",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Not attached to any other bone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q98",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement with respect to Myosin",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Globular head part has actin binding site",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Has binding site for ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Has light meromyosin and heavy meromyosin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q99",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Extra amount of oxygen consumed during recovery from muscle fatigue is called oxygen debt of the muscle. It is used in oxidizing what percentage of accumulated lactic acid aerobically and in restoring the depleted creatine phosphate and ATP in muscle fibre?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "80%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q100",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "During muscle contraction, the following events occur  a. Release of Ca++ from sarcoplasmic reticulum  b. Ca++ expose actins which bind to the myosin heads to form cross bridges  c. A motor neuron carries signal to the muscle fibre which generates an action potential in it  d. Cross bridges are broken and muscle relaxes  e. These cross bridges pull the actin filaments, causing them to slide over the myosin filaments and thereby casing contraction.  Mark the correct sequence",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, c, b, d, e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "c, b, a, d, e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c, a, b, e, d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b, c, d, e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q101",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Bones of cranium which do not allow any movement are attached to each other by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Yellow fibrous connective tissue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "White fibrous connective tissue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "White fibro cartilage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Synovial joints",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q102",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Joint between ear ossicles are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Immovable (synarthroses)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Slightly movable (Amphiarthroses)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Movable (Diarthroses)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gomphoses",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q103",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following properties is not applicable to the myosin filaments?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Slide into H-zone during muscle contraction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cross bridges present, hence have rough  surface",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fewer than actin filaments",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Found only in the A-band of sarcomere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q104",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the unpaired bone present in the cranium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parietal bone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mandible",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Temporal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sphenoid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q105",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following properties does not describe rheumatoid arthritis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Affects larger joints first",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Formation of rheumatoid factor (IgM)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Formation of pannus granules",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is an autoimmune disorder",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q106",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The correct sequence of events at the neuromuscular junction is  a. Uptake of Ca2+ into the presynaptic terminals  b. Action potential in the motor nerve  c. Release of acetyl-choline (Ach)  d. Depolarisation in the muscle end plate  e. Interaction between Ach and Ach-specific receptors",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c, d & e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b, d, c & e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, a, c, d & e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, a, c, e & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 439,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q107",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Myocardial contractility increases with the  increase in concentration of Ca2+ ions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lifting the school bag is an example of  isometric contraction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Number of secondary curvatures in the human  vertebral column are three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rheumatoid arthritis is diagnosed by the  presence of IgM and mainly affects the larger joints in its early stages",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q108",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Match the type of joints given in column I with their location given in column II  Column I Column II  a. Ball and socket joint (i) Between carpal and metacarpal of thumb  b. Gliding joint (ii) Between the carpals  c. Saddle joint (iii) Between atlas and  axis  d. Pivot joint (iv) Between humerus  and pectoral girdle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(i), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q109",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Choose an incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sternum is present on ventral side of body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In a muscle fibre Ca++ is stored in  sarcoplasmic reticulum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tropomyosin is present in thick filaments",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H-zone of skeletal muscle fibre represents only  thick filaments",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q110",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The contractile and regulatory protein of a muscle are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tubulin and troponin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tropomyosin and actin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Actin and tropomyosin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Myosin and actin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q111",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following bone/s is/are not a part of axial skeleton?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Skull bones",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bones of vertebral column",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bones of sternum and ribs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bones of pectoral and pelvic girdles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q112",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following pair of structures is correctly matched with their correct description?  Structure Description",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tibia and Fibula Both form parts of knee joint",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cartilage and cornea No blood supply but do require oxygen for respiratory need",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Shoulder and elbow Ball and socket joint joint",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thigh bone femur Articulates with the glenoid cavity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q113",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The muscle which on contraction rotates the fore- arm to make palm face upward or forward",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Supinator",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pronator",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Abductor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adductor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q114",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "During muscle contraction, which of following  is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Size of A-band remains of same length",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Size of I-band decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Size of O-zone decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Size of H-zone decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q115",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is a bone of hind-limb?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ilium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Scaphoid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cuboid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Triquetrum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q116",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Each organised skeletal muscle in our body is made  up of a number of muscle bundles held together by a common connective tissue membrane. This connective tissue membrane is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Perimysium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fasciculus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Endomysium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Epimysium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q117",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The thin filaments are firmly attached with Z-line and  are surrounded by myosin filaments. Which membrane bisects I-band in the centre?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A -band",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Z-line",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M-line",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H-zone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q118",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "There are 12 pairs of ribs in humans and each pair is bicephalic. Which of the following statement best describes this condition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ribs have two sides which appears like head",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ribs have two articulation surfaces on its  dorsal end to fix with vertebral column",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribs have two articulation surfaces one on  dorsal and other on ventral side",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ribs are mainly of two types : true and floating",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 440,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q119",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect matching  Bone Joint",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Upper ends of radius - ulna - Hinge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Atlas - axis - Pivot",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carpal - metacarpal - Gliding",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Humerus - pectoral girdle - Ball & Socket",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 441,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q120",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the type of lever system where body part functions as exerting resistance in between the fulcrum and effort",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Class I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Class II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Class III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Class IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 441,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q121",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Following are some events occurring during muscle contraction. Arrange them in a sequence  a. Action potential of muscle fibre occurs.  b. Sarcoplasmic reticulum releases stored Ca+2  that binds with troponin component of thin filament.  c. Neurotransmitter released at neuromuscular  junction.  d. Ca+2 is pumped back into SR and troponin  mask the active site.  e. Actin molecules are exposed and cross  bridges are formed.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "c → b → a → e → d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b → a → c → e → d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c → a → b → e → d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a → b → c → d → e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 441,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q122",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect match regarding the bones and their number?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vertebrosternal - Last 2 pairs (11th and ribs  12th) ribs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "False ribs - 8th, 9th and 10th pairs of  ribs, do not directly articulate with sternum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Each limb - 30 bones",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tarsals - Ankle bones 7 in number",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 441,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q123",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a common cause of osteoporosis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Due to accumulation of uric acid crystals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreased levels of estrogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreased levels of PTH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Arthritis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 441,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q124",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The slightly movable joint which is present between adjacent vertebrae in vertebral column is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diarthrosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Synarthrosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amphiarthrosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fibrous",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 441,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q125",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "What does the given graphical representation show about the mechanism of skeletal muscle contraction?  Strength of muscles contraction  5 10 15 20 25 30 35 40 45 50 55  Rate of stimulation (times per second)",
+    "question_diagram": "/images/last_leap_pz2/p441_q125.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Summation and fatigue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tetanization and fatigue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Summation and tetanization",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Summation and contracture",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 441,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q126",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a diagrammatic representation of anatomy of a muscle fibre  A D  B C  Choose the correct option w.r.t. the labelled structure",
+    "question_diagram": "/images/last_leap_pz2/p441_q126.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "'A' consists of actin protein only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "'B' consists of myosin protein only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "'C' consists of actin and myosin protein only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "'D' consists of myosin protein only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 441,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q127",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "All the given statements are correct w.r.t. the mechanism of muscle contraction except one. Choose the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Muscle contraction is initiated by a signal sent  by the central nervous system via sensory neuron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Action potential for contraction spreads  through the muscle fibre and causes the release of calcium ions into the sarcoplasm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase in calcium ions level leads to the  binding of calcium with a subunit of troponin on actin filaments and thereby remove the masking of active sites of myosin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Utilising the energy from ATP hydrolysis, the  myosin head now binds to the exposed active sites on actin to form a crossbridge",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 441,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q128",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following bone is unpaired in human body?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parietal bone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Patella",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Occipital",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lacrimal bone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 442,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q129",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Given below are matching pairs of category of bone and their examples. Choose the incorrect one  Category Example",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wrist bones - Carpals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Palm bones - Metacarpals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ear ossicles - Malleus, incus and stapes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pelvic girdle - Ileum, ischium and pubis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 442,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q130",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a diagrammatic representation of ribs and ribcage.  A  Identify the structure labelled as 'A' and choose the correct option w.r.t. its number in human body",
+    "question_diagram": "/images/last_leap_pz2/p442_q130.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "7 in number (cervical vertebrae)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 in number (lumbar vertebrae)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 in number (sacral vertebrae)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 in number (thoracic vertebrae)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 442,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q131",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "The contractile protein of skeletal muscle possessing Mg2+ dependent ATPase activity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Troponin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Myosin head",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Actin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 442,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q132",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a diagrammatic representation of right pelvic girdle and lower limb bones (frontal view)  Ilium  Ischium  Pubis  Femur  Patella  Tibia Fibula  Tarsals Metatarsals Phalanges  Choose the correct option w.r.t. wrongly labelled bones",
+    "question_diagram": "/images/last_leap_pz2/p442_q132.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Pubis and Ischium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tibia and Tarsals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tibia and Fibula",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Femur and Ilium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 442,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q133",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following muscle tissue has longest refractory period and can use lactic acid produced by skeletal muscle fibres to make ATP?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cardiac muscle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Smooth muscle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Non-striated muscle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 442,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q134",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect option w.r.t. energy source of muscle contraction in our body",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phosphocreatine donates its high energy and  phosphate to ADP, producing ATP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phosphocreatine is again formed in relaxing  muscle by using ATP produced by carbohydrate oxidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "During muscle contraction, glycogen is broken  down into lactic acid and liberates energy and 1/5th of lactic acid is oxidised to water and carbon dioxide in muscle and liver",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Arginine phosphate is a phosphogen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 442,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q135",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements very carefully  A. Muscle fibres carry out considerable aerobic  oxidation.  B. Muscle fibres have slow rate of contraction.  C. Muscle fibres poor in sarcoplasmic reticulum  and less mitochondria.  D. Muscle fibres are lighter in colour and thicker.  How many of the following statements are correct for extensor muscle in the back of human?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 442,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q136",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "In resting state a subunit of ______ masks the active binding sites for myosin on actin filaments.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Troponin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calsequestrin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Calmodullin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Meromyosin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 443,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q137",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cells in our body exhibit amoeboid movement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fibroblast and thrombocytes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Macrophages and thrombocytes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Macrophages and leucocytes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leucocytes and thrombocytes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 443,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q138",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Each organised skeletal muscle in our body is  made of a number of    A  held together by a common collagenous connective tissue layer  called    B  .  Choose the option which correctly fills the blanks labelled as A and B  A B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fascicles Sarcolemma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Muscle bundles Endomysium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fascicles Fascia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Muscle bundles Sarcolemma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 443,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q139",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "When bone is broken into more than two fragments with some of the fragments losing the connection with blood circulation then this type of fracture is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Simple fracture",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Comminuted fracture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Green stick fracture",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Impacted fracture",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 443,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q140",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "A person is lifting a dumb-bell by flexion keeping the elbow as the fulcrum. Which of the following statement is true regarding such movement?  A. Flexion is caused by relaxation of biceps.  B. Such movement is an example of class III  lever.  C. Muscles participate in this movement are  striated,  cylindrical,  voluntary  and multinucleated.  D. Continued exercise with dumb-bells will lead to  dystrophy of biceps.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A & B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B & C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B & C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B, C & D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 443,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q141",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is an incomplete table about certain joints and the involved bones  Joints Involved bones  (i)     A    - Flat skull bones  (ii) Gliding joint -     B     (iii)    C    - Atlas and Axis  (iv) Ball and Socket joint -     D     Identify the correct option for the blanks A, B, C and D.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A - Sutures  B - Knee joint  C - Pubic symphysis  D - Shoulder joint",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A - Fibrous joint  B - Carpals  C - Pivot joint  D - Humerus and pectoral girdle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A - Sutures  B - Metacarpal  C - Fibrous joint  D - Humerus and ulna",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A - Fibrous joint  B - Metacarpal  C - Saddle joint  D - Humerus and pectoral girdle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 443,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q142",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Axis vertebra is identified by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sigmoid notch",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Odontoid fossa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Odontoid process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Olecranon process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 443,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secA_q143",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an age-dependent systemic disorder characterised by low bone mass, microarchitectural deterioration of bones and increased fragility and susceptibility of bones to fracture?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Osteomyelitis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Paget's disease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Osteomyelodysplasia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Osteoporosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 443,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secB_q1",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Rest is necessary after heavy exercise.\nReason (R): During rest, glucose is converted into lactic  acid and creatine phosphate breaks down into creatinine.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 444,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secB_q2",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The ear ossicles are infact formed by the  modification of jaw suspension bones.\nReason (R): Articular forms malleus, quadrate form incus  and hyomandibular forms stapes.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 444,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secB_q3",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Fracture in children usually does not break the  bone into individual parts.\nReason (R): Bending type of fractures in children is known  as greenstick fracture.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 444,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secB_q4",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Athletes engaged in activities requiring  prolonged action have abundant red muscle fibres.\nReason (R): Red muscle fibres can perform slow sustained  work over long periods without getting fatigued.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 444,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secB_q5",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Flat skull bones fuse end to end with the help  of dense white fibrous tissues.\nReason (R): At the time of birth, there are some unossified  areas in the skull called fontanels.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 444,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secB_q6",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Myasthenia gravis is an autoimmune disorder  affecting the neuromuscular junction.\nReason (R): It leads to fatigue, weakening and paralysis of  skeletal muscle.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 444,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secB_q7",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Myasthenia gravis, auto immune disorder  affecting neuromuscular junction, leads to fatigue, weakning and paralysis of skeletal muscles.\nReason (R): Use of acetylocholinestrase inhibitors may  help.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 444,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secB_q8",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Muscles possess excitability, contractility,  extensibility and elasticity.\nReason (R): Cardiac muscles are striated, branched and  show autorhythmicity.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 444,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_locomotion_and_movement_secB_q9",
+    "subject": "Zoology",
+    "chapter": "Locomotion and Movement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): All locomotions are movements but all  movements are not locomotions.\nReason (R): Locomotion is generally for search of food,  shelter, mate, suitable breeding grounds favourable climatic conditions or to escape from enemies or predators.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 444,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

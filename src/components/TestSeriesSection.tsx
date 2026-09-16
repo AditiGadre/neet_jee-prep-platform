@@ -239,7 +239,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     }
 
     // Check if admin has customized this specific Sunday test
-    const customPaper = getSavedCustomSundayPaper(plannerTest.code);
+    const customPaper =
+      getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
+      getSavedCustomSundayPaper(plannerTest.code) ||
+      getSavedCustomSundayPaper(plannerTest.id);
     let testQuestions: Question[] = [];
     let syllabusStr = `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`;
 
@@ -311,13 +314,29 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   };
 
   const handleDownloadSundayPdf = (plannerTest: SundayPlannerTest, includeSolutions: boolean = false) => {
-    const questions = generateSundayTestQuestions(plannerTest, undefined, false, activeBatch);
+    if (!isSundayTestUnlocked) {
+      setPendingTestToStart(plannerTest);
+      setShowAdminApprovalModal(true);
+      return;
+    }
+
+    const customPaper =
+      getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
+      getSavedCustomSundayPaper(plannerTest.code) ||
+      getSavedCustomSundayPaper(plannerTest.id);
+
+    const questions = (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180)
+      ? customPaper.questions
+      : generateSundayTestQuestions(plannerTest, undefined, false, activeBatch);
+
     const testItem: TestItem = {
       id: plannerTest.id,
       title: `${plannerTest.code}: ${plannerTest.title}`,
       category: 'neet_mock',
       exam: 'NEET',
-      syllabus: `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`,
+      syllabus: customPaper?.customChapters
+        ? `Physics: ${customPaper.customChapters.physics.join(', ')} | Chemistry: ${customPaper.customChapters.chemistry.join(', ')} | Biology: ${customPaper.customChapters.biology.join(', ')}`
+        : `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`,
       totalQuestions: 180,
       durationMinutes: 180,
       totalMarks: 720,

@@ -1,0 +1,3992 @@
+[
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q1",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two charges placed in air at a distance 1 m exert force 'F' on each other. If these charges placed inside mica at same distance, then the new net force between charges is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "> F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "< F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "= F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depends on area of slab",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q2",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A ring of radius R is having uniform line charge density 'λ'. The electric field at the center of ring is  0 2 R λ πε",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 0 2 R λ πε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 4 R λ πε",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q3",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Four charge of +1μC, +1μC, -1μC and +1μC are  placed at the vertices of a square of side  2 cm,  in sequence. Net force experienced by 0.1 μC charge at the centre of square",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "36 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q4",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two identical charges +'q' each are placed at a distance '2d'. A test charge free to move on perpendicular bisector of the line joining the two charges. The test charge will feel maximum force when it is at distance; from mid point of line joining of charges",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2d  d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q5",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two short dipoles are placed at a certain distance exert a force 'F' on each other. If distance between them is doubled then the force will become",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16 F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q6",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The new dipole moment of the system is of the magnitude  -2q  120º 2a  +q +q",
+    "question_diagram": "/images/last_leap_pz2/p255_q6.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "q × 2a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2q × 2a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "q × a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 × (2q × 2a)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q7",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Electric field calculated by Gauss law is the field due to the charges which",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lie inside the Guassian surface",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lie outside the Guassian surface",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lie on the surface of the Guassian surface",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lie whether inside, outside or on the Guassian  surface",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q8",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A small sphere of mass m and having charge q is suspended by a silk thread of length l in a uniform horizontal electric field. If it stands at a distance x from the vertical line from point of suspension, then magnitude of electric field is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "mg  q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "mg x  q l",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 mgx",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 mg  l  q x  l  q x   l",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q9",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "An infinite number of charges, each of charge 1 μC are placed on the X-axis with co-ordinates x = 1, 2, 4, 8, ......, . If a charge 1 C is kept at the origin, then net force acting on 1 C charge",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9000 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12000 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "24000 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "36000 N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q10",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A pendulum oscillates with the time period T. The string, used in the pendulum, is stretchable. The point to which it is attached is given positive charge and the bob is also given positive charge q. The time period of the pendulum will  +    θ  +q",
+    "question_diagram": "/images/last_leap_pz2/p256_q10.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May increase or decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q11",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two identical small metal spheres having charges q and -3q exert force F on each other. The spheres are touched with each other and then kept at the same separation. The magnitude of the new force between the spheres will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 3 F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two charges 2 μC and 8 μC are separated by 6 cm. Neutral point is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 cm from 2 μC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 cm from 2 μC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 cm from 8 μC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 cm from 8 μC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q13",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A point charge q is kept at a vertex of a cube. The total electric flux linked with the cube is  0 24 q  0 8 q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ε",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ε  q ε  0 4 q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q14",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of the electric flux linked with the shell A and shell B in the diagram shown below is  q  A B",
+    "question_diagram": "/images/last_leap_pz2/p256_q14.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q15",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "At what distance from the larger point charge the electric field is zero?  q 100q  44 cm",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "22 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q16",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A point charge q is kept at the centre of the circle formed by cutting a spherical shell by a plane as shown. The electric flux linked with the remaining surface of the shell is ϕ, then  q  0 2 q ϕ ε",
+    "question_diagram": "/images/last_leap_pz2/p256_q16.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "0 2 q ϕ ε",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "q ϕε  0 2 q ϕ ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q17",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Electric field due to a uniform positively charged arc AB of radius R at O is  A  +   +   Q  +   +  R   +  +  60°  O  +   +   +  +   +   +  B  Q  3  Q",
+    "question_diagram": "/images/last_leap_pz2/p256_q17.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 0 4 ε  R π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 0  R π  8 ε  3  Q  3  Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 0  R π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 0  R π  4 ε  4 ε",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q18",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "In the diagram shown below the block has charge q and is attached at one end of the light spring. The surface is smooth and horizontal and the spring is in its natural length. If the electric field E is switched on, the maximum elongation in the spring will be  E  m k  q",
+    "question_diagram": "/images/last_leap_pz2/p257_q18.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "k qE  2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "k qE",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "k qE 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "k qE 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q19",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A point charge +q is kept at the centre of curvature of thin semicircular wire of length l as shown. The wire has uniformly distributed charge -q on it. The dipole moment of the system is  -  -  - -  -  -  -  q -  -  +",
+    "question_diagram": "/images/last_leap_pz2/p257_q19.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2  ql  ql 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π  π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ql 2 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q20",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A point charge q is kept at the vertex B of the cube shown in the diagram. The electric flux linked with the face BCGH is  F G  B A  H  E  C D  0 8ε q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "0 6ε q",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 12ε q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q21",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "An electric dipole is kept at origin as shown in the diagram. The point A, B, C are on a circular arc with centre of curvature at origin. If the electric  fields at A, B and C respectively are  3 2 1 , , E E E then which of the following is incorrect? (d >> l )  B  C x A  l  d",
+    "question_diagram": "/images/last_leap_pz2/p257_q21.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 1 - E E ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 2 - E E ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 1 E E ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 3 2 - E E ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q22",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A conducting body has a cavity in it as shown in the diagram below. A point charge q is held at the centre of the cavity. The electric flux linked with the closed surface S (shown dotted) is  S q  q",
+    "question_diagram": "/images/last_leap_pz2/p257_q22.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "0 2ε q",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 ε  0 6ε q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q23",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A neutral bubble made of soap solution has radius R. If some negative charge is given which gets distributed uniformly on the surface of the bubble, radius of the bubble becomes R then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R > R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R = R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R < R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R = 0.5R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q24",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A large non-conducting sheet S is given a uniform charge density. Two uncharged small metal rods A and B are placed near the sheet as shown in the following diagram. Then the incorrect option is  A B S",
+    "question_diagram": "/images/last_leap_pz2/p257_q24.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "S attracts A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S attracts B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A attracts B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S repels A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q25",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "An electric dipole is placed at the centre of a sphere. Which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The electric flux through the sphere is zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The electric field is zero at every point on the  sphere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The electric field is zero at every point inside  the sphere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The electric field is uniform inside the sphere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q26",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A particle with charge +q and mass m is projected with velocity v in opposite direction of a uniform electric field E as shown in figure in a gravity free space. After what time the velocity will become -v?  m  q v",
+    "question_diagram": "/images/last_leap_pz2/p258_q26.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "qE mv 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "qE mv  mv 4  mv 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "qE",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "qE",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q27",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is correct about a dipole in a non-uniform field?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Torque is always nonzero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Net force may be nonzero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Torque is always zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Net force is always zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q28",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "In the following diagram the shell A is given a charge q and B is earthed. The electric flux linked with the gaussian surface S is  S  + A q  + + + + +  B  0 2ε q  q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 ε  2 ε  q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q29",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect about the electrostatic field lines?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "These can never be closed curves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "On a conducting surface the lines are  perpendicular",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They can pass through a conductor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If the lines are equispaced and parallel to one  another, then the field is uniform",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q30",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass m has charge q0 when it is at rest. When the particle moves with speed v, charge on the particle will become (c is velocity of light in vacuum)  v q0",
+    "question_diagram": "/images/last_leap_pz2/p258_q30.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "v  c q0",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "c  2  v q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "q0  0 - 1 c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q31",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Starting from rest an electron moves through a small distance in an uniform electric field of magnitude 2 × 104 NC-1. The direction of the field is reversed keeping the magnitude unchanged and a proton moves through the same distance. The time of motion will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Same in both cases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More in the case of an electron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "More in the case of proton",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Independent of charge",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q32",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The conducting shells A and B are arranged as shown below. If charge on the shell B is q then electric flux linked with the spherical gaussian surface S is  S  A  2r r  B  +q  q  0 2 - ε q",
+    "question_diagram": "/images/last_leap_pz2/p258_q32.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 ε  q  0 2ε q  0 - ε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q33",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A source charge Q is kept at a distance of 3 km from a test charge q0. If Q is displaced slightly, then the change in the electric field detected by q0 will be after",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 ms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 μs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 ns",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q34",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two point charges -q and + 9q are kept at r = 12 cm apart as shown. The electric field is zero at  A B r -q 9q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 cm from the point A toward B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 cm from the point A opposite to B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9 cm from the point B towards A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "18 cm from the point B towards A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q35",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two point charges +2 μC and +6 μC repel each other with a force of 60 N. If a charge -4μC is added to each of them, the force between them will become",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "360 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q36",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A cone of radius of base 1 m and height 2 m is placed with its base in the xz plane in a region  with uniform electric field E = 20 ^i V/m as shown in figure. The magnitude of electric flux linked with the cone is  y  x  z",
+    "question_diagram": "/images/last_leap_pz2/p259_q36.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 Vm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 Vm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 π Vm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q37",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "There are two charges 1 μC and 2 μC. The ratio of magnitude of forces acting on them due to their interaction will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q38",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "When 1019 electrons are removed from a neutral metal sphere, the charge on the sphere will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-1.6 C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-3.2 C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.6 C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.8 C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q39",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Dielectric constant for the metal in electrostatics is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "81",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q40",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A cube of side a has a charge q at each of its vertices. The net electric field intensity at its centre is (r is the distance between a corner and the  1 4πε)  centre and k =   0",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 q k  r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6q k r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 12q k  r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q41",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The torque acting on an electric dipole of dipole  \u0002  \u0002  moment P   in a uniform electric field E   is  \u0002 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "P E  \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": ". P E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E P  \u0002 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q42",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The unit of electric permittivity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "joule/coulomb",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "volt/metre2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "farad/metre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "henry/metre",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q43",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two equal positive charges are kept at (3, 0) m and (-3, 0) m. A negative charge is then left from a position (0, 6) m. The negative charge will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Undergo simple harmonic motion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Undergo oscillatory motion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Come to rest at (0, 0) m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Escape to infinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q44",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A pendulum bob carries a positive charge q. Another  positive charge q is held at the point of support, then the time period of bob is (L : length of the simple pendulum)",
+    "question_diagram": "/images/last_leap_pz2/p259_q44.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Greater than 2 L g π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Less than 2 L g π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Equal to 2 L g π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Equal to  2 2 L g π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q45",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Electric field due to an infinite uniformly charged straight wire at a perpendicular distance r is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r  r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 1  r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q46",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "24 electric dipoles each of dipole moment 2 μCm are packed inside a hollow sphere. Net electric flux through the sphere is  2 Nm 28 C μ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "28 μCm2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q47",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A charge q is present at the corner of a cube. Total electric flux through the cube is  q ε",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "0 4 q",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "ε  0  0 8 q  0 16 q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ε",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q48",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not the property of charge?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Like point charges repel each other",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "For an isolated system net charge is  conserved",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Specific charge is invariant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Charge is quantised",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q49",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Three charges q, q and -2q are kept at three corners of an equilateral triangle of side a. Magnitude of electric dipole moment of the arrangement is",
+    "question_diagram": "/images/last_leap_pz2/p260_q49.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2qa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 qa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 qa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "qa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q50",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Charge Q is distributed uniformly in a spherical region of radius R. Which of the following roughly represents the variation of electric field (E) versus distance (r) from the centre of sphere?  E  E",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "r O  R  r O  R  E  E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r O  R  r O  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q51",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The electric field at a point A is perpendicular to the direction of dipole moment P  \u0002   of a short electric dipole. The angle θ is equal to  A  θ P",
+    "question_diagram": "/images/last_leap_pz2/p260_q51.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "90°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "tan-1 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-1 tan ( 2)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q52",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A point charge q is placed over a horizontal square  L from its  of side L at a normal distance of 4  centre. Electric flux through the square is  0 6 ϕ ε q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "0 6 ϕ ε q",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 0 6 ϕ ε ε q q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "q  0 ϕε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q53",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two charges are arranged as shown in the figure. If electric field at the centre of the circle is along  q q is  negative y-axis, then  1  2  y  q2 q1 30° 60°  x  E2 E1  1",
+    "question_diagram": "/images/last_leap_pz2/p260_q53.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q54",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A square of side a is lying in xy-plane such that its two adjacent sides are lying on the x and y axes.  If an electric field  0 ^ E E k  \u0002   is applied on the square, then the flux passing through the square is  3 0 2 E a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E0a3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 0 3 E a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E0a2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q55",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The electric field intensity which would be just sufficient to balance the weight of a particle of charge -10 μC and mass 10 mg, is  (Take g = 10 m/s2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 N/C, in upward direction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "103 N/C, in downward direction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 N/C, in downward direction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "104 N/C, in upward direction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q56",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass 2 g and charge 1 μC is held at a distance of 1 m from a fixed charge of 1 mC. If the particle is released then its speed, when it is at a distance of 10 m from the fixed charge, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "55 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q57",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two charges are placed at a certain distance apart in air. If a glass slab is introduced between them, then the force between the two charges will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Become zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remain same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q58",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The insulation property of air breaks down at E = 3 × 106 V/m. The maximum charge that can be given to a sphere of diameter 5 m is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 × 10-5 C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 × 10-4 C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 × 10-3 C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 × 10-3 C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q59",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "An electric dipole is in unstable equilibrium in external uniform electric field. Angle between its dipole moment and the external electric field is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "90°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "120°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "180°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q60",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass m and charge q is placed at rest in a uniform electric field E and then released. The kinetic energy attained by the particle after moving a distance y is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "qEy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "qEy2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "qE2y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "q2Ey",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q61",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Force of interaction between two bodies of same nature of charge",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Must be repulsive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "May be attractive",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Must be attractive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero  a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q62",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A charge Q is kept at a perpendicular distance 2  from the centre of a square plate of sides a. The electric flux through the square surface is  Q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "0 2ε Q",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 ε  0 4ε Q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 6ε Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q63",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "On the axis of uniformly charged ring of radius R, as shown, the electric field is maximum at  Q  R  x",
+    "question_diagram": "/images/last_leap_pz2/p261_q63.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "x = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 R x  2 R x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2  x R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q64",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "At the three corners of an equilateral triangle charges are placed as shown in figure. The magnitude of electric field at point O is  Q  r  O r r  -Q -Q  1 2 4πε Q  1 4πε Q",
+    "question_diagram": "/images/last_leap_pz2/p261_q64.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 0  r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 0  r  1 2 4πε Q  1 3 4πε Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 0  r  r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q65",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two symmetrical parallel metal plates each of one side plate area A having charges Q1 and -Q2 are placed at small separation. What will be the electric field at a point in between the plates?  0 2   0 4   ε Q Q A",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 2  ε Q Q A",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 2  - 2 ε Q Q A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2  - 4 ε Q Q A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2  0  0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q66",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "An electric dipole of moment P   is released in a uniform electric field E  \u0002   from the position of maximum torque. Angular speed of the dipole when  \u0002  \u0002   becomes parallel to E  P   will be [I = moment of inertia of dipole]",
+    "question_diagram": "/images/last_leap_pz2/p262_q66.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2PE I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PE  I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4PE I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2I PE",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q67",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A charge Q is given to a conducting sphere of radius R. Now if a charge -Q is placed, as shown, at a distance r from the centre, then magnitude of force of attraction between charges is  Q  -Q R  r  2  2  1 4 Q  1 4 Q  r  πε",
+    "question_diagram": "/images/last_leap_pz2/p262_q67.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "r πε",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 0  2 0  2  2  1 4 ( ) Q r R πε   1 4 Q  r  πε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 0  2 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q68",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "If a point charge q is placed at one corner of the cube, then flux linked with the surface shaded in figure is  q  0 8 q  0 3 q",
+    "question_diagram": "/images/last_leap_pz2/p262_q68.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "ε",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ε  0 24 q  0 12 q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ε",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q69",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "If the electric flux entering and leaving a closed surface are respectively of magnitude ϕ1 and ϕ2, then the electric charge inside the surface will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ε0 (ϕ2 - ϕ1)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(ϕ1 - ϕ2)ε0  ϕϕ  2 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ε0(ϕ2 + ϕ1)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ε  0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q70",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Semivertex of the conical surface (obtained by taking dipole moment as axis) on which electric field by dipole becomes normal to moment of the dipole is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-1 tan 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "tan-12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-1 tan 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "tan-13  \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q71",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Electric field at an axial point of short dipole is  1 E  . If the electric field at the equatorial point of same  \u0002  dipole is  2 E  , then which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2 · 0 E E  \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 · 0 E E  \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 · 0 E E  \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 0 E E   \u0002 \u0002 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q72",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "If ε0 is permittivity of free space and E is the electric  field in free space, then dimensional formula of ε0E2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML-1T-2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML2T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[ML0T-3]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M1L-1T-1]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q73",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A long thin rod is charged such that charge per unit length of the rod is λ. The rod is inserted into a hollow spherical surface of radius R. Maximum electric flux coming out of the surface is  2  2λπ ε  λ  R  R",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "ε  0  0  2  2λ ε  2λ ε  R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0  0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q74",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two charges q and 4q are separated by a distance r. The neutral point is at a distance",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 r from q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 3 r from q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r from q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r from 4q",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q75",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A positron and a proton are projected normally into uniform electric field with equal kinetic energy. Trajectory followed by them are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Circular with equal radius",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Elliptical with same major and minor axis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parabolic with identical trajectory",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hyperbolic with identical trajectory",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q76",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "There are two charges of +1 μC and +5 μC. The ratio of the forces acting on them due to their interaction will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q77",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The distance between two point charges is increased by 10%. The force of interaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases by 10%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases by 10%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreases by 17%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increases by 17%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q78",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Cm is the SI unit of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electric flux",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electric potential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electric dipole moment",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electric field intensity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q79",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A solid sphere of radius R has a uniform distribution of electric charge in its volume. At a distance x from its centre (x < R), the electric field is directly proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 1  x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q80",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "An insulated sphere of radius R has charge density ρ. The electric field at a distance r from the centre of sphere (r < R)  0 3 r ρ  0 3 R ρ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ε",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ε  r ρ ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 R ρ ε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q81",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The electric flux from a cube of edge l is ϕ. What will be its value if edge of cube is made 2l and charge enclosed is halved?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2 ϕ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2ϕ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4ϕ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ϕ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q82",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Electric charge density inside a nonconducting sphere varies with distance from the centre of the sphere as ρr = β(R - r) for 0 < r < R. Total charge given to the sphere is Q. Select correct statement (R = radius of sphere)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electric field inside sphere follows inverse  square law",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electric field inside sphere is zero at every  point",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electric field outside the sphere follows inverse  law",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electric field at centre of sphere is zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q83",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A charge Q is kept at centre of a hollow cylinder as shown. ϕ is the electric flux passing through the cylindrical surface. The flux passing through one plane surface A, is  Q  A B  1 2 Q ε",
+    "question_diagram": "/images/last_leap_pz2/p263_q83.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "  0 1 2 εϕ Q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0  1 2 Q   ϕ   ε    0 2 Q   ϕ   ε  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q84",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Three identical plates are kept as shown. Plate 1 is given -5Q charge and plate 3 is given Q charge. Electric field intensity at point x, is  1  x - Q 5  2  3  Q  3 down Q Aε",
+    "question_diagram": "/images/last_leap_pz2/p263_q84.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "3 down 2 Q Aε",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0  0  3 upward 2 Q Aε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 upward Q Aε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0  0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q85",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "The equation of trajectory of a charged particle moving in xy plane in uniform electric field may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "y = 2x + 8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x = y2 + 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "y = 2x2 + 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q86",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A short electric dipole having dipole moment  ^ pi is  placed at origin and a point charge + q is placed at point (0, r). The force on dipole due to charge is in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ x direction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- x direction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ y direction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "- y direction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q87",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A charged particle q of mass m is released on y- axis at y = a in an electric field  ^ 4 E yj  \u0002  . The speed of particle on reaching origin will be  2a mq",
+    "question_diagram": "/images/last_leap_pz2/p263_q87.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "a",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "mq",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 a mq",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 q a m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q88",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A point charge q is placed at the centre of open face of a hemispherical surface as shown in figure. The flux linked with the surface is  r  q  0 2 q",
+    "question_diagram": "/images/last_leap_pz2/p264_q88.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ε  q ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "qπr2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q89",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Order of q/m ratio of proton, α-particle and electron is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "e > p > α",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "p > α > e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "e > α > p",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "p > e > α",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q90",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Dielectric constant of pure water is 81. Its permittivity will be (in MKS units)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.02 × 10-13",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8.86 × 10-12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7.17 × 10-10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7.8 × 10-10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q91",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A body can be negatively charged by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Giving excess of electrons to it",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Removing some electrons from it",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Giving some protons to it",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Removing some neutrons from it",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q92",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "An electric field in space is given by ( ^ ^ ^ 10 3 4 i j k   ) unit, then electric flux through a surface of area 1 unit lying in yz plane is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 units",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "17 units",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 units",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 units",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q93",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two identical small spheres A and B having charge Q are placed at a distance r apart. The force acting between them is F. An identical uncharged sphere C comes into contact with A. After that it comes into contact with B and is then placed in middle of A and B. The net force acting on the C is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 8 F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 4 F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q94",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Four charges are arranged at the corners of a square ABCD as shown in figure. The force on a positive charge kept at the centre of the square is  -2q +2q  B C  +q -q A D",
+    "question_diagram": "/images/last_leap_pz2/p264_q94.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Along diagonal AC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Along diagonal BD",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Perpendicular to the side AB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q95",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "When a positive charge inside a metallic shell of thickness t is moved, then induced surface charge density",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "On inner surface will same and on outer  surface will change",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "On inner surface will change and on outer  surface will same",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "On inner and outer surface will same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "On inner and outer surface will change",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q96",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Charge distribution at three vertices of an equilateral  triangle of side a is shown in the figure. The net electric dipole moment of the system is  y  -4q  x  +2q +2q",
+    "question_diagram": "/images/last_leap_pz2/p264_q96.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "^ 2 3 qaj",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "^ 2 3 qaj ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "^ ^ 2 3  2 3  qai qaj ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "^ ^ 2 3  2 3  qai qaj  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q97",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Figure shows A, B, C and D four conducting plates and Q1 and Q2 are charges given to outer plates A and D respectively, then charges q1 and q2 on outer faces of B and C are respectively  A D B  C  q1  q2  2 1 1 2 ,  2 2 Q Q Q Q  ",
+    "question_diagram": "/images/last_leap_pz2/p265_q97.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 1 2 1 ,  2 2 Q Q Q Q  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Q1, Q2  1 2 , zero 2  Q Q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q98",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A circular plate subtends a solid angle π steradian at a point where a point charge 2Q is kept. The total electric flux passing through the circular plate is  0 4 Q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ε  0 2 Q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ε  2 3 Q ε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0  2Q ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q99",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform electric field of strength E exist in a region. An electron is projected in the region perpendicularly with speed v as shown in the diagram. Electron exits at point B. The electric field in the region is given by  v y  B x y (2 , )  v  x  A x ( , 0)  2 x mv E i e y  \u0002\u0003 \u0004  2  2 2x mv E i e y  \u0002\u0003 \u0004",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 - x mv E i e y  \u0002\u0003 \u0004",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2  2 2 - x mv E i e y  \u0002\u0003 \u0004  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q100",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "A point charge is placed at the centre of spherical Gaussian surface. The electric flux through the surface is changed if the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sphere is replaced by a cube of same volume",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sphere is replaced by a cube of half volume",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Charge is moved off-centre in the original  sphere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Charge is moved just outside the original  sphere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q101",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "In a region volume charge density varies with radial  distance r as  K  r ρ  where K is positive constant.  The electric field E varies with the radial distance in the region as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E ∝ r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 E  r ∝",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E ∝ r2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E ∝ r0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q102",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect about electrostatic force?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is conservative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is a central force",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electrostatic field lines never intersect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It also depends on mass content of body",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q103",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "Two charges each equal to  1 ( 3) nq n  are  placed at the corners of an equilateral triangle of side a. The electric field at the third corner is E3,         πε    q E  where  0 2 0 4  a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E3 = E0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E3 < E0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E3 > E0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E3 ≥ E0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secA_q104",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section A (Objective)",
+    "question_text": "An electric dipole is kept in a uniform electric field such that dipole moment is not collinear with electric field. It experiences",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A force and a torque",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A force but no torque",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A torque but no force",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neither a force nor a torque",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q1",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electric field inside a conductor is zero in  electrostatic equilibrium.\nReason (R): Normal drawn to the electric field-lines at some  point gives the direction of electric-field at that point.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q2",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A sensitive electric equipment can be saved  from electric field by enclosing it inside a metallic shell.\nReason (R): Electric field inside a metallic shell is zero  provided that the shell does not enclose any charge.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q3",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The electric field lines are normal to a  conducting surface.\nReason (R): A conducting surface is an equipotential  surface in equilibrium.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q4",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If the separation between two small electric  dipoles is doubled without changing their relative orientation, the force between them becomes one eighth of initial value.\nReason (R): On equatorial position of an electric dipole the  potential is non zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q5",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Mass of a body is increased slightly, when it  is negatively charged.\nReason (R): Charging is due to transfer of electrons.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q6",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A positive point charge initially at rest in a  uniform electric field starts moving along electric lines of forces.\nReason (R): A point charge released from rest in an electric  field moves along the lines of forces.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q7",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Two dissimilar charges attract each other.\nReason (R): Electrostatic field lines between two dissimilar  charges produce lengthwise contraction.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q8",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Like charges may attract each other.\nReason (R): Unlike charges always attract each other.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q9",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Charge of electric dipole is zero.\nReason (R): An electric dipole consists of two equal and  opposite charges separated by a very small distance.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_14_electric_charges_and_field_secB_q10",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Field",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Two spherical conductors having same surface  charge density will have same electric field near their surfaces due to their own charge.\nReason (R): Surface charge density is charge per unit  area.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

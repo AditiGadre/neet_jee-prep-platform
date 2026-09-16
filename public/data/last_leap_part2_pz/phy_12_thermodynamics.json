@@ -1,0 +1,5982 @@
+[
+  {
+    "question_id": "phy_12_thermodynamics_secA_q1",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A diatomic ideal gas initially at temperature T1 is enclosed in a cylinder fitted with a frictionless piston. The gas is allowed to expand adiabatically to a temperature T2. If the lengths of gas column  T T is  in cylinder are L1 and L2 respectively, then  1  2  2/5 2  5/2 2  L               L  L",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "L  1  1  2/3 1  3/2 2                L L",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "L  2  1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q2",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure in a diatomic gas, increase from P0 to 3P0, when its volume increases from V0 to 2V0. The increase in internal energy is  P  B  3P0 2P0 P0  A  V0 1.5V0 2V0 V",
+    "question_diagram": "/images/last_leap_pz2/p229_q2.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6P0V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8.5P0V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12.5P0V0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "14.5P0V0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q3",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "First law of thermodynamics is based on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Concept of temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Concept of conservation of energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Concept of working of heat engine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Concept of entropy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q4",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas expand from initial state of volume V1 to final state of volume V2, work done is maximum in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isothermal process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isobaric process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adiabatic process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isentropic process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q5",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The isothermal bulk modulus of perfect gas at pressure P is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "γP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q6",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For free expansion of an ideal gas",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "W = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ΔU = 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ΔQ = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q7",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "What is the ratio of temperatures T1 and T2?  P  T2 T1  V  O V0 3V0",
+    "question_diagram": "/images/last_leap_pz2/p229_q7.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 :1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "27 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q8",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The efficiency of an ideal heat engine is less than 100% because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The presence of friction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The leakage of heat energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Unavailability of the sink at zero kelvin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q9",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "How does the pressure of an ideal gas change during the process shown in the diagram?  V  a b  T",
+    "question_diagram": "/images/last_leap_pz2/p230_q9.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Pressure increases continuously",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure decreases continuously",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pressure first increases and then decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pressure first decreases and then increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q10",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas obeys the law P = aV 3, where a is a constant. If the gas is monatomic, then molar heat capacity for the process is  5 3 R",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7 4 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9 4 R  11 5 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q11",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "How does the temperature change when the state of an ideal gas is changed according to the process shown in figure?  p  a  b  v O",
+    "question_diagram": "/images/last_leap_pz2/p230_q11.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature increases continuously",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature decreases continuously",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Temperature first increases and then  decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Temperature first decreases and then  increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q12",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A practical heat engine operates between the temperatures 27°C and 627°C. The efficiency of the engine may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "75%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "70%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "68%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q13",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal monatomic gas undergoes a process a to b as shown. If the heat supplied to the gas is 20p0V0, then the shaded area is equal to  p  b  3p0  a  p0  V 3V0 V0 O",
+    "question_diagram": "/images/last_leap_pz2/p230_q13.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "12p0V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8p0V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4p0V0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "p0V0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q14",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A heat engine operates between the temperatures of 300 K and 500 K. If it extracts 1200 J of heat energy from the source, then the maximum amount of work that can be done by the engine is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "720 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "520 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "480 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q15",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Let P, V and T denote respectively the pressure, volume and temperature of an ideal gas. The correct graph for adiabatic process is  dV dP  -T.",
+    "question_diagram": "/images/last_leap_pz2/p230_q15.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2  V  dV dP  -T.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2  V  dV dP  -T.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2  V  dV dP  -T.",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2  V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q16",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure and volume of an ideal monoatomic  1 2 Constant PV   for a process  gas are related as   A→B. The change in internal energy in the process AB is  P  A  2P0  B  P0  V  4V0",
+    "question_diagram": "/images/last_leap_pz2/p231_q16.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "12 P0V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 P0V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 P0V0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 P0V0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q17",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "One mole of an ideal monoatomic gas undergoes a thermodynamic cycle as shown in the figure. If Ua and Uc are internal energies at a and c respectively. Then Ua - Uc is [T0 = temperature at a]  c  4P0  a b  P0  V0 2V0",
+    "question_diagram": "/images/last_leap_pz2/p231_q17.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "21 R0T0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10.5 R0T0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-10.5 R0T0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-21 R0T0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q18",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "3 moles of a monoatomic gas does 150 J work when it expands isobarically. Then change in its internal energy will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "225 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "400 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "450 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q19",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A diatomic gas is at temperature 1727°C. If it expands such that its final volume becomes 32 times its initial value without exchange of heat then its final temperature will become",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "227°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "373°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "527°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q20",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The figure shows two paths for change of thermodynamic state from A to B. If C1 and C2 are molar heat capacities for path AQB and APB respectively, then  P  B  (Pressure)  Q  C1 C2  A P  (Volume) V",
+    "question_diagram": "/images/last_leap_pz2/p231_q20.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C1 > C2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C2 > C1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C1 = C2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C2  2C1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q21",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A Carnot engine works between 900 K and 600 K. If heat drawn by the engine per cycle is 3000 J, the useful work done by the engine is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "500 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1000 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2000 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2500 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q22",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas undergoes a cyclic process as shown in the graph between pressure (P) and temperature (T). The part of the graph which represents absorbtion of heat from surrounding are  P  B  P2  A  P1  C  D  T T2 T1",
+    "question_diagram": "/images/last_leap_pz2/p231_q22.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "AB, CD",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DA, BC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DA, AB",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BC, AB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q23",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Volume versus temperature graph for two moles of monoatomic gas is as shown. The ratio of work done by the gas to heat absorbed by it in the process A to B is  V  B  A  T  2 5",
+    "question_diagram": "/images/last_leap_pz2/p231_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q24",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In case of free expansion, when a sample of gas expands suddenly. The change in internal energy of the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "3",
+        "text": "3 7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Positive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May be positive or negative",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q25",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The efficiency of a Carnot engine operating with  source at 327ºC and sink at 27ºC is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "75%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q26",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The adiabatic exponent γ for a mixture of 20 g of Neon and 28 g Nitrogen gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q27",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Ideal gas is taken through cycle P → Q → R → P as shown in the figure. If net heat supplied to the gas in the cycle is 15 J, the work done by the gas in the process R → P is  v  R Q  1 m 3 2 m 3 3 m 3  P  2  15  (N/m )",
+    "question_diagram": "/images/last_leap_pz2/p232_q27.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-15 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-20 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-12 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q28",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In the PV graph shown for an ideal diatomic gas change in the internal energy is  p  A B  P  V  V1 V2",
+    "question_diagram": "/images/last_leap_pz2/p232_q28.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "  2 1 3 2 P V V ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "  2 1 5 2 P V V ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "  1 2 3 2 P V V ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "  1 2 7 2 P V V ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q29",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The figure shows PV diagram of a thermodynamic cycle. Which of the following curve is correct?  C B  A D  V  C B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q30",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal monoatomic gas is heated at constant pressure. The fraction of energy supplied used in work done by the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q31",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The figure shows a process on a gas in which pressure (P) and volume (V) of gas changes. If C1 and C2 are the molar heat capacities of gas during process AB and BC respectively, then  P  A  O V C B",
+    "question_diagram": "/images/last_leap_pz2/p232_q31.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C1 = C2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C1 > C2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C1 < C2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C1 ≤ C2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q32",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "During which of the following thermodynamic process elasticity of gas is minimum?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adiabatic process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isothermal process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isobaric process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isochoric process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q33",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "During isobaric process the thermal coefficient of volume expansion of an ideal gas at temperature T (in K) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T -1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2T -2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q34",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Molar specific heat capacity of a gas C",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Always equal to Cv",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Always greater than Cv",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Always equal to Cp",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May be greater or less than Cv",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q35",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The workdone for given process AB is  V  B  4V0  A    V0  P    P0   3P0",
+    "question_diagram": "/images/last_leap_pz2/p232_q35.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6 P0V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 P0V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 P0V0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 P0V0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q36",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Efficiency of a Carnot heat engine working between the temperature 27°C and 227°C",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q37",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Internal energy remains same throughout the process along the path in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adiabatic process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isothermal process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyclic process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q38",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Adiabatic process for the gases (O2, He) are given then  P  2 1  V",
+    "question_diagram": "/images/last_leap_pz2/p233_q38.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 for He and 2 for O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 for O2 and 2 for He",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In both the process temperature decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q39",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Work done during the given cycle is  P  2P V 0 0  P V 0 0 P V 0  0 3  V",
+    "question_diagram": "/images/last_leap_pz2/p233_q39.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4P0V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2P0V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 0 1 2 P V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P0V0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q40",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Cyclic process of 2 mol of diatomic gas is shown in figure then which of the following statement is correct?  P  B  2P0  A  C  P0  T 2T0 T0",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Process BC is isothermal compression",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Work done in the process CA is 4RT0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Work done in the process AB is zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q41",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Without external heat work done possible in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adiabatic process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isochoric process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isothermal process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isobaric process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q42",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Adiabatic graphs 1 and 2 of two different gases are shown in figure, then which of the following is true?  P  1  2  V",
+    "question_diagram": "/images/last_leap_pz2/p233_q42.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 for He and 2 for O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In both the process temperature decreased",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnitude of work done by the gas is  maximum for process 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q43",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal heat engine absorbs the certain amount  of heat. If heat rejected by the system is 1  3 rd of  the total heat absorbed, then efficiency of heat engine is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "33%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "66%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q44",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The thermodynamic state of an ideal gas is varied through different processes as shown in the figure. The change in internal energy of the process A, B and C respectively will be  A  Isobaric  P  B  Isothermal  C  Adiabatic  V",
+    "question_diagram": "/images/last_leap_pz2/p233_q44.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "+, -, +",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0, +, -",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+, 0, -",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-, +, 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q45",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A monoatomic ideal gas is given heat at constant pressure. The ratio of heat given and work done will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 : 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 : 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q46",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas is enclosed in an insulated cylinder. The piston is frictionless and attached with ideal spring. When the gas is heated then",
+    "question_diagram": "/images/last_leap_pz2/p234_q46.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "The work is done against the spring only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The work is done against the atmospheric  pressure only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The internal energy of gas increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Work is equal to heat supplied",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q47",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas undergoes a cyclic process abc as shown below on volume (V) versus temperature (T) diagram. Which of the following graphs represents the same cyclic process on pressure (p) volume (v) diagram?  a b  V  c  T  b  p c  p  b",
+    "question_diagram": "/images/last_leap_pz2/p234_q47.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a  c a  v  v  p c a  p  a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "c  b  v  v",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q48",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A liquid boils at 77ºC, whose enthalpy of vaporisation is 40 kJ/mol. Its entropy of vaporisation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "114.3 JK-1 mol-1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50.3 JK-1 mol-1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "140.3 JK-1 mol-1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "85.3 JK-1 mol-1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q49",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The change in internal energy of an ideal gas does not depend on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Number of moles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Change in temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Specific heat at constant pressure CP of the  gas",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Specific heat at constant volume CV of the gas",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q50",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The temperature of sink and source of an ideal engine is 500ºC and 1000ºC respectively. In which of the following cases the increase in efficiency will be maximum?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature of the sink is lowered by 100ºC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature of source is increased by 100ºC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Temperature of sink is lowered by 50°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Temperature of source is increased by 50°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q51",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The coefficient of performance of an ideal refrigerator is 3 which extracts heat from the sink at the rate of 399 J per cycle. The amount of heat it gives to the room per cycle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "532 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "250 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "300 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "496 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q52",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "25 calorie of heat is required to raise the temperature of 1 mole of an ideal gas from 40ºC to 45ºC. The gas may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "He",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q53",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A gas undergoes the change in its thermodynamic state from A to B via two different paths as shown in given pressure (P) versus volume (V) graph, then  P  1  A B  2  V",
+    "question_diagram": "/images/last_leap_pz2/p234_q53.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "The temperature of gas decreases in path '1'  from A to B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The heat absorbed by gas in '1' is greater than  that in '2'",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The heat absorbed by gas in '2' is greater than  that in '1'",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Change in internal energy in path '1' is greater  than that in path '2'",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q54",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "PV diagram of an ideal gas is shown in the figure. Work done by the gas in the process 1 → 2 → 3 → 4 will be  3P0  3 4  1  2P0  P0  2  V0 2V0 3V0",
+    "question_diagram": "/images/last_leap_pz2/p234_q54.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 9 0 0V P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 0 2 15 V P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 13 0 0V P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 3 0 0V P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q55",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "P-V graph of an ideal monoatomic gas is as shown. Molar heat capacity of gas will be  P  V",
+    "question_diagram": "/images/last_leap_pz2/p235_q55.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q56",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In a thermodynamic process of an ideal gas, if ΔW = 0 and ΔQ is -ve then its",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Volume will increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure will remain constant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Volume will decrease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Temperature will decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q57",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The adiabatic expansion of two different ideal gases (having specific heats ratio γ1 and γ2 respectively) is shown. Which of the following is correct?",
+    "question_diagram": "/images/last_leap_pz2/p235_q57.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "γ1 > γ2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "γ2 > γ1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "γ1 = γ2  P 1 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 γ2 = γ1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q58",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A pressure (P) versus volume (V) diagram is obtained for an ideal gas from state A to B  V  A  P  B  V",
+    "question_diagram": "/images/last_leap_pz2/p235_q58.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "The temperature of gas increases continuously",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The temperature of gas decreases continuously",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The temperature first increases, then  decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The temperature first decreases then increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q59",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In the first stage of a two stage Carnot engine, energy Q1 is absorbed at temperature T1 and energy Q2 is expelled as heat at intermediate temperature T2. The second stage absorbs the energy Q2 and expels energy Q3 at a still lower temperature T3. If the work output of both the stages is same then T2 is equal to  3 1 T T ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2 - 3 1 T T",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  3 1T T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 1T T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q60",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When the sink temperature is kept at 400 K, the efficiency of a Carnot engine is 50%. While keeping the source temperature constant, by how much will the sink temperature be reduced to increase the efficiency to 60%?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "80°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "320°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "320 K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "240 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q61",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The rise in temperature when an ideal monoatomic  27 8        gas at 27°C is compressed adiabatically to     of its original volume is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "450°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "375°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "225°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "402°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q62",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A Carnot engine working between 300 K and 600 K has a work output of 800 J per cycle. The amount of heat energy supplied to the engine from the source in each cycle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "800 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1600 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3500 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6400 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q63",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas expands isothermally along AB and does 500 J of work and then expands adiabatically along BC and does 200 J of work. When the gas returns to A along CA, it rejects 200 J of heat to its surroundings. Work done on the gas along the path CA is  P B  A  C  V",
+    "question_diagram": "/images/last_leap_pz2/p235_q63.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "600 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "800 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "400 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "500 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q64",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A Carnot heat engine working between 450 K and 600 K has a work output of 300 J/cycle. The amount of heat energy supplied to the engine from the source in each cycle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "600 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1200 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "900 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1600 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q65",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "From the following V-T diagram, we can conclude  V  P2  P1  T  T1 T2",
+    "question_diagram": "/images/last_leap_pz2/p235_q65.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "P1 = P2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P1 > P2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P1 < P2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P1 ≥ P2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q66",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If a Carnot's engine functions at source temperature 127°C and at sink temperature 87°C, what is its efficiency?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q67",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure P of an ideal monatomic gas varies with volume V as P = kV3, where k is a constant. The molar heat capacity for the process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "7 4 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11 6 R  13 6 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15 4 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q68",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Two moles of an ideal diatomic gas is expanded isobarically so that its temperature rises by 50 K. The work done by the gas is (where R is universal gas constant)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "250 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "150 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q69",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Two isotherms of an ideal gas are drawn at temperatures T1 and T2 as shown below. If Oa = ab then the ratio of rms speed of gas molecules at temperature T1 and T2 is  P  b  T2  a  O V T1  45°",
+    "question_diagram": "/images/last_leap_pz2/p236_q69.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q70",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas undergoes adiabatic process according to the law TV1/2 = constant. If the gas is at pressure P and temperature T at a certain instant, the value of the adiabatic modulus of elasticity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P 2 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P 2 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P 3 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q71",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If the internal energy of an ideal gas in state A and state B are 40 J and 60 J, what is the heat energy supplied to the gas during the process A to B?  P (kPa)  B  30  20  10  A  0 1 2 3  V (litre)",
+    "question_diagram": "/images/last_leap_pz2/p236_q71.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "40 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q72",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The isochoric bulk modulus of helium gas at NTP is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.01 × 105 Pa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.67 × 105 Pa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q73",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The critical volume of a gas obeying van der Waal's equation is [where symbols have their usual meanings]  a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rb a 27",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R b  2 27",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rb a 27 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3b",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q74",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following ratio is correct for isobaric process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Q : ΔU = 1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Q : ΔW = γ : γ - 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Q : ΔU = γ : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Q : ΔW = 1 : γ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q75",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The isothermal, adiabatic and isochoric Bulk modulus of an ideal gas at atmospheric pressure are KI, KA and KB respectively. Select the correct relationship between them",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KA < KB < KI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KB < KI < KA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KI < KA < KB",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "KA = KI > KB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q76",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graphs shows the variation of pressure P with volume V  for an ideal gas at constant temperature?  P  P",
+    "question_diagram": "/images/last_leap_pz2/p236_q76.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "V  V  P  P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "V  V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q77",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal heat engine rejecting heat at 27°C is to have 25% efficiency. It must take heat at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "127°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "227°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "327°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "673°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q78",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas is taken through a cycle ABCA as shown in figure. The work done during the cycle is (P : pressure, V : Volume)  C P V (2 , 3 ) B P V (2 , )  P  A P V ( ) ,   V",
+    "question_diagram": "/images/last_leap_pz2/p237_q78.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2 PV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2PV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4PV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q79",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "During an adiabatic process, the pressure of an ideal gas is found to be proportional to the fourth power of its absolute temperature. The ratio of its specific heats. Cp/Cv is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3/2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4/3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5/3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7/3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q80",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas having ratio of specific heats γ = 3/2 has initial volume of 400 cc. It is suddenly compressed to 25 cc. If the initial pressure was P, then the final pressure will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "16 P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "32 P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "64 P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q81",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A gas performs minimum work, when it expands",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isochorically",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isobarically",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adiabatically",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isothermally",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q82",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas goes from A to B via two processes I and II as shown. If Δu1 and Δu2  are the changes in internal energies in the process I and II respectively, then (P : pressure, V : volume)  I  P  B A  II  V",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Δu1 > Δu2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Δu1 < Δu2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Δu1 = Δu2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Δu1 ≤ Δu2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q83",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal heat engine is working between source at 727°C and sink at 227°C. If heat absorbed by it from source is 1000 cal then heat rejected to the sink is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 cal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "500 cal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1000 cal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "750 cal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q84",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal monatomic gas  5 3   γ     absorbed 50 cal  in an isochoric process. Increase in internal energy of the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 cal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 cal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 cal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q85",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If Q, W and ΔU are heat supplied to an ideal gas, work done by the gas and increase in internal energy of the gas then first law of thermodynamics states that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Q = ΔU - W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "W = ΔU + Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Q = ΔU + W",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q86",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure-volume (P-V) diagram of n moles of He gas for a certain process AB is shown in figure. During the process AB, change in internal energy is  P 2P0  B  A  P0  V0 2V0 V",
+    "question_diagram": "/images/last_leap_pz2/p237_q86.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6P0V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5P0V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3P0V0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.5P0V0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q87",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure temperature (P-T) graph for two processes A and B on a system is shown in figure. If W1 and W2 are work done by the gas in process A and B respectively, then  P A  B  T",
+    "question_diagram": "/images/last_leap_pz2/p237_q87.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "W1 = W2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "W1 < W2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "W1 > W2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "W1 = -W2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q88",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Variation of molar heat capacity at constant volume CV with temperature T for a monatomic gas is  CV  CV",
+    "question_diagram": "/images/last_leap_pz2/p238_q88.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T O  T O  CV  CV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T O  T O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q89",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure-temperature (P-T) curve of a cyclic process is shown. Work done by the gas in the given process for n moles of the gas is (symbols have their usual meanings)  P  B T ( ) B C T ( ) C  P2  D T ( ) D A  ( ) TA  P1  T",
+    "question_diagram": "/images/last_leap_pz2/p238_q89.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "( ) A C B D nR T T T T   ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 ( ) nR P P   T nR T T T       ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "( )ln D A C  B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "( ) B A C D nR T T T T   ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q90",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas is suddenly compressed to 1  4 th of  its original volume. If original temperature of the gas is  27°C and ratio of its specific heats γ = 1.5, then  rise in the gas temperature is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "300 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q91",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A system is taken from state A to state B along two different paths 1 and 2. If the heat absorbed and work done by the system along these two paths are Q1, Q2 and W1, W2 respectively, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Q1 = Q2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "W1 = W2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Q1 - W1 = Q2 - W2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Q1 + W1 = Q2 + W2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q92",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A gas undergoes a process in which its pressure P and volume V are related as VPn = constant. The bulk modulus for the gas in this process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P  n",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P1/n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "nP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q93",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure P versus volume V diagram for a monatomic gas is a straight line passing through origin. Molar heat capacity of the gas in the process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 2 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 2 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q94",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal monatomic gas is taken through a thermodynamic process from A to B as shown. Heat supplied to the gas in the process is  P  A  2P0  B P0  V  V0 2V0",
+    "question_diagram": "/images/last_leap_pz2/p238_q94.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3P0V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5P0V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 0 5 2 P V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 0 3 2 P V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q95",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Internal energy of an ideal gas changes with change in its",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pressure only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Volume only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Temperature only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Temperature and pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q96",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Two Carnot engines x and y are working between same source temperature T1 and same sink temperature T2. If temperature of source in Carnot engine x is increased by ΔT, and in Carnot engine y temperature of sink is increased by ΔT, then efficiency of x and y becomes x and y. Now",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x = y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x < y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x > y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Relation between x and y depends on nature  of working substance",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q97",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas (γ = 1.4) absorbs 70 cal of heat at constant pressure. Change in internal energy of the gas during this process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "70 cal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 cal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 cal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 cal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q98",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A Carnot engine is operated between source at 327°C and sink at 27°C. If 600 J heat is absorbed per cycle from the hot junction, then heat rejected to the sink per cycle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "300 cal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "300 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "600 cal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "600 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q99",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "One mole of an ideal gas expands from volume V to 2V at a constant temperature T K. Heat absorbed by the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RT ln 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RT ln 0.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RT",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 RT",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q100",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The temperature of n moles of an ideal gas is increased from T0 to 2T0   through a process P = αT. The work done by the gas is given by (α is a constant and P0 is initial pressure)  2 nR P α",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 nRT",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 nRT α",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q101",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Carnot's engine takes in a thousand calorie of heat from a reservoir at 827°C and exhausts it to a sink at 27°C. What is the efficiency of the engine?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "72.72%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "27.27%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30.62%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "96.73%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q102",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "First law of thermodynamics corresponds to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conservation of energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heat flow from hotter to cooler body",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Law of conservation of angular momentum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Newton's law of cooling",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q103",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A system M is neither in thermal equilibrium with N nor with C. The system N and C",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Must be in thermal equilibrium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Can't be in thermal equilibrium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May be in thermal equilibrium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot be concluded",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q104",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Let ΔU1 and ΔU2 be the changes in internal energy of an ideal gas system in the processes A and B as shown in figure, then (P : pressure, V : Volume)  P  A  B  V",
+    "question_diagram": "/images/last_leap_pz2/p239_q104.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "ΔU1 > ΔU2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ΔU1 = ΔU2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ΔU1 < ΔU2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ΔU1 ≠ ΔU2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q105",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In the given pressure-volume (P-V) diagram, the gas does 5 J of work along isotherm cb and 4 J along adiabatic ba. What is the change in the internal energy of the gas if the gas traverses the straight path from a to c?  P  b c  a  V",
+    "question_diagram": "/images/last_leap_pz2/p239_q105.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q106",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A gas in a given state has a certain amount of  internal energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A gas in a given state has a certain amount of  heat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A certain amount of heat may be supplied to  the system in a process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q107",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a condition required for reversible process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The friction, viscosity, electric resistance etc.  should not be there",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Changes should be rapid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy losses by conduction, convection and  radiation should not take place",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The system should not be deviated much from  its equilibrium state",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q108",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For an ideal gas a process xy is shown on pressure-temperature (P-T) diagram. Which of the following is correct for the process?  y  x",
+    "question_diagram": "/images/last_leap_pz2/p240_q108.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Internal energy decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Work done by the gas is zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Volume of the gas increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Volume of the gas decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q109",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The sink temperature of a Carnot engine of 40% efficiency is at 300 K. For increasing the efficiency to 60%, the increase in the temperature of source temperature will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200 K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "300 K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "350 K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "250 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q110",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In the pressure-volume (P-V) diagram shown ABC is a semicircle. The work done by the ideal gas in the process ABC is  P (atm)  3 C  B  1  A  V (litre)  1 2",
+    "question_diagram": "/images/last_leap_pz2/p240_q110.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 π atm litre  π atm litre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 atm litre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q111",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When a system is taken from state a to state b along the path acb, it is found that a quantity of heat Q = 200 J is absorbed by the system and a work W = 80 J is done by it. Along the path adb, heat absorbed Q = 144 J. The work done along the path adb is  P  c b  a d  V",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "18 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q112",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If CP and CV are two specific heats of an ideal gas at constant pressure and constant volume respectively, then the specific heat for isothermal expansion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Infinite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CP - CV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q113",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "70 kcal heat is absorbed by an ideal diatomic gas heated at constant pressure. Change in internal energy of the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 kcal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "70 kcal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 kcal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "42.5 kcal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q114",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If a refrigerator extracts heat a from cold reservoir and b  is the heat released to the hot reservoir then work done on the refrigerant (system) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a + b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a - b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b - a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q115",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Heat is supplied to a diatomic gas in an isochoric process. The ratio of ΔQ : ΔU is (Symbols have usual meanings)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 : 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 : 7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q116",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In the cyclic process shown in the pressure-volume (P-V) diagram the change in internal energy is  2 2 1 2 P P    π   ",
+    "question_diagram": "/images/last_leap_pz2/p240_q116.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "P  P2  2 2 1 2 V V    π   ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P1  V1 V2 O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 1 2 1 ( )( ) 4 P P V V π    V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q117",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In a thermodynamic process when the amount of work done by the gas is 1000 J and change in its internal energy is 400 J, then heat supplied to the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "600 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "400 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "800 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1400 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q118",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal Carnot engine is operating at source temperature of 127°C and sink temperature of 27°C, then its efficiency is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "33%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "75%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q119",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal diatomic gas is supplied the heat Q very slowly keeping pressure constant. The work done by the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2Q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 7Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 5Q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 7Q",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q120",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas is taken around ABCA as shown in the pressure-volume (P-V) diagram. The work done during a cycle is  P  B  P V (3 , 3 )  A P V ( , ) C P V ( , 3 )  V",
+    "question_diagram": "/images/last_leap_pz2/p241_q120.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2PV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 PV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q121",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In the following indicator diagram, the net amount of  work  done  by  the  gas  will  be (P : pressure, V : volume)  1  P  2  V",
+    "question_diagram": "/images/last_leap_pz2/p241_q121.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Positive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Infinity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Negative",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q122",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct at a constant temperature reversible process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Change in Entropy = Heat supplied ×  temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Change in Entropy = Heat supplied ×  (temperature)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Change in  Heat supplied Entropy Temperature ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Change in   2 Heat supplied Entropy  (Temperature) ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q123",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When an ideal gas is compressed isothermally, it's pressure increases because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Average translatory K.E. of gas molecules  increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Average rotational K.E. of gas molecules  increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential energy of gas increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Number of collisions per unit area with walls of  container increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q124",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas undergoes two processes AB and AC as shown in figure. If W1 and W2 are work done by the gas in these two processes respectively, then  P  C A  B  V  V1 V2",
+    "question_diagram": "/images/last_leap_pz2/p241_q124.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "W1 > W2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "W1 < W2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "W1 = W2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "|W1| > |W2|",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q125",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal monatomic gas at pressure P0, volume V0 and temperature T0 is compressed suddenly so  that its final volume becomes  0 8 V . The final  pressure of the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P = 8P0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P = 16P0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P = 24P0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P = 32P0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q126",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Four processes, viz., isothermal, adiabatic, isobaric and isochoric expansion have been shown on a pressure-volume (P-V) diagram. The isothermal process is  P  a  b  c  V d",
+    "question_diagram": "/images/last_leap_pz2/p241_q126.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q127",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Work done by an ideal diatomic gas in its sudden expansion is 20 J. Change in internal energy of the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-20 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "- 15 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q128",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A heat engine is working between 200 K and 400 K. Efficiency of the heat engine may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q129",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure-Volume (P-V) indicator diagram of an ideal gas undergoing a cyclic process is as shown in figure. Net heat absorbed in one cycle is  P  200 kPa  100 kPa  100 cc 200 cc V",
+    "question_diagram": "/images/last_leap_pz2/p242_q129.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q130",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not state function of  thermodynamic process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Volume",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Work",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q131",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas undergoes two processes  at constant volume V1 and V2 as shown in pressure- temperature (P-T) diagram, then  P  V1  V2  T",
+    "question_diagram": "/images/last_leap_pz2/p242_q131.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "V1 = V2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "V1 > V2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "V1 < V2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "V1 ≥ V2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q132",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Change in entropy of an ideal gas during an adiabatic process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Equal to zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Less than zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "More than zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non-negative",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q133",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Dry ice is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ice cube",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sodium chloride",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Liquid nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Solid carbon dioxide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q134",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "First law of thermodynamics is concerned with the conservation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Momentum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mass",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q135",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Internal energy of a gas depends only on the  state of the gas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In an isothermal process change in internal  energy is maximum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Area under pressure volume graph equals heat  supplied in any process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Work done is state dependent but not path  dependent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q136",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If the P-V diagram of a cyclic process ABCA is as shown in figure, then the correct statement is  A P  B C  V",
+    "question_diagram": "/images/last_leap_pz2/p242_q136.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "ΔQ A→B = negative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ΔU B→C = positive",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ΔW CAB = negative",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q137",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "P - V plots for two gases during adiabatic process are shown in figure. Plot 1 and 2 should correspond respectively to  P  1  2  V",
+    "question_diagram": "/images/last_leap_pz2/p242_q137.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "He and O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O2 and He",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "He and Ar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O2 and N2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q138",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The internal energy of ideal gas increases in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adiabatic expansion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adiabatic compression",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isothermal expansion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isothermal compression",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q139",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "5 moles of N2 gas is heated from 30ºC to 60ºC at constant pressure. Change in internal energy of the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "375 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "750 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "225 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q140",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A refrigerator whose coefficient of performance is 5 extracts heat from cooling chamber at a rate 250 J per cycle. For refrigeration, work done required per cycle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "150 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "200 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q141",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A diatomic gas is heated at constant pressure such that it performs 4 J of work. Heat supplied to the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "14 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "18 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q142",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The temperature of 5 moles of a gas at constant volume is changed from 100°C to 120°C. The change in internal energy is 80 J. The total heat capacity of gas at constant volume will be (in joule/kelvin)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q143",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Indicator diagram is shown in figure for a thermodynamic process (ACB) (ACB → Semicircular arc). Work done by gas in this process is  P  C  2P0  P0  A B  V  V0 3V0",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 0 2 P V π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "πP0V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 0 0 0 2 2 P V P V π ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 0 2 V π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q144",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "0.4 mole of an ideal monatomic gas is allowed to expand adiabatically so that its temperature changes from 800 K to 500 K. The work done during expansion is nearly equal to  P  A (800 K)  B (500 K)  V  (0,0)",
+    "question_diagram": "/images/last_leap_pz2/p243_q144.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "129.6 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-129.6 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "149.6 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-149.6 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q145",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "One mole of an ideal gas at temperature T1  expands according to the law p  V = constant.  Work done by the gas, when its final temperature becomes T2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R (T2 - T1)  2 1 ( ) 2 R T T ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 ( ) 4 R T T ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2R (T2 - T1)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q146",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A heat engine operates in a Carnot cycle between 627ºC and 427ºC. It absorbs 27 kcal from the source. The amount of heat that is converted into work is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 kcal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 kcal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "18 kcal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 kcal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q147",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A Carnot engine working as a refrigerator between 250 K and 300 K receives 500 cal of heat from the cold reservoir. Heat rejected by it to the hot reservoir is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "400 cal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "450 cal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "550 cal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "600 cal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q148",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Efficiency of a heat engine working between 127°C and 327°C may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "33%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q149",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If an ideal gas undergoes the cyclic process ABCD once, then heat absorbed by the gas is  P 300 kPa  B A  100 kPa  D C  V O  50 cc 150 cc",
+    "question_diagram": "/images/last_leap_pz2/p244_q149.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "20 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q150",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Efficiency of heat engine working between 300 K and 600 K cannot be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q151",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure P of an ideal gas varies with volume V as P = KV3, where K is a constant. The molar  C  C   γ      p  heat capacity for the process is   v  3 4 1 R   γ   γ  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 4 1 R   γ   γ  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 4 3 R   γ   γ  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 4 3 R   γ   γ  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q152",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If the temperature of sink as well as source is increased by 20°C each, then the efficiency of the heat engine will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Become half",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q153",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "P-V diagram of an ideal gas is shown in the figure. Net work done in the process ABCD is  P  C D 2P0  A B  P0  V  V0 2V0 3V0",
+    "question_diagram": "/images/last_leap_pz2/p244_q153.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "P0V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- 4P0V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-3P0V0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 P0V0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q154",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Two moles of an ideal monatomic gas at temperature  T expands slowly according to the law P  V =  constant. If the final temperature is 2T then heat supplied to the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 RT",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 RT",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 RT",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RT",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secA_q155",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Two isotherms at temperatures T0 and 2T0 are shown in the figure. A gas takes part in two processes A→B and A→C. If Q1 and Q2 are heat supplied in two processes respectively, then  P  B  C  2T0 T0  A  V",
+    "question_diagram": "/images/last_leap_pz2/p245_q155.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Q1 > Q2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Q1 < Q2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Q1 = Q2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Q1 = 2Q2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q1",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In an isothermal expansion of an ideal gas,  there is no change in the internal energy of the gas.\nReason (R): During isothermal expansion, the work done  by the ideal gas is equal to the heat supplied to the ideal gas.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q2",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Isothermal process for a gas is impossible.\nReason (R): Isothermal process is quasi-static process.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q3",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If final volume is equal to initial volume in a  certain thermodynamic process, then the work done is zero.\nReason (R): The ratio of final pressure to initial pressure is  not equal to ratio of final temperature to initial temperature in an isochoric process.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q4",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Internal energy of a gas must increase when its  temperature is raised.\nReason (R): Whenever heat is supplied to the gas its  internal energy always increases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q5",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Whole of the heat cannot be converted into  work.\nReason (R): Temperature of a body can be raised without  supplying heat to it.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q6",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Carnot engine is most efficient among all heat  engines working between same source and sink.\nReason (R): Efficiency of heat engine is independent of  nature of working substance.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q7",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Water in an earthen pot is colder than water in  a similar glass pot.\nReason (R): Evaporation causes cooling.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q8",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If an ideal gas expands in vacuum in an  insulated chamber then ΔQ, ΔU and ΔW are all zero.\nReason (R): Temperature of gas remains constant in free  expansion.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q9",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If V versus T graph in a process is rectangular  hyperbola, then P versus T graph in the same process will be a parabola.\nReason (R): When V versus T graph is a rectangular  hyperbola with increase in T, volume will increase and hence pressure will decrease.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q10",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Specific heat of an ideal gas in an adiabatic  process is infinite.\nReason (R): In adiabatic process, huge amount of energy is  required to do work.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q11",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Zeroth law of thermodynamics explains the  concept of energy.\nReason (R): Energy is independent of temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q12",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Cp is greater than Cv for an ideal gas.\nReason (R): At constant pressure, some heat is spent in  expansion of the gas.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q13",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Second law of thermodynamics states that  heat always flows from hot body to cold body by itself.\nReason (R): First law of thermodynamics indicates the  condition under which a body can use its heat (supplied) energy to produce work.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q14",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Reversible adiabatic process is isoentropic.  Q T Δ         and ΔQ = 0 in\nReason (R): Entropy change   reversible  adiabatic process.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_12_thermodynamics_secB_q15",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): It is impossible to draw an adiabatic and an  isothermal curve with same initial and final states.\nReason (R): Magnitude of slope of an adiabatic curve is  always greater than the magnitude of slope of an isothermal curve.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

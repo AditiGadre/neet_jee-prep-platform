@@ -1,0 +1,3243 @@
+[
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q1",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A proton is moving with constant speed towards a conducting ring placed in the same plane along the path OP. The direction of path of proton ahead of 'P' is  A B C  P  O",
+    "question_diagram": "/images/last_leap_pz2/p307_q1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Along A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Along B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Along C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Along any path depending upon speed of  proton",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q2",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A coil has 500 turns and the flux through the coil is ϕ = 3t2 + 4t + 9 milliweber. The magnitude of induced emf between the ends of coil at t = 5 s is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "34 milivolt",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "17 volt",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "17 milivolt",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "34 volt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q3",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A circular wheel of 24 spokes is rotated at 300 rpm in a uniform magnetic field of 2 × 10-3 tesla. Length of each spoke is 25 cm and magnetic field is along the axis of wheel, then the value of induced emf between rim and center of wheel is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.96 mV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "19.6 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "47.1 mV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "19.6 mV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q4",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "When the length of a solenoid and number of turns per unit length are doubled, then the self inductance of solenoid becomes/remains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 times",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 times",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Unchanged",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 times",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q5",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "When the current through a solenoid increases at a constant rate, the induced current",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is constant and is in the direction of inducing  current",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is constant and is in the direction opposite to  the inducing current",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is increasing and is in the direction of inducing  current",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is increasing and is in the direction opposite to  inducting current",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q6",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A non conducting ring having a uniformly distributed negative charge is placed in the plane of smooth paper. A uniformly decreasing inward magnetic field is passing through the ring. Then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ring will start rotating anticlockwise",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ring will start rotating clockwise",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ring will jump and becomes floating above the  paper",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No change will be observed in the position of  ring",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q7",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A motor having an armature resistance 2  is operating at 220 volt. At full speed back emf of motor is 200 volt. Then the value of current in the armature at full speed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "110 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.55 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q8",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The current in an inductance coil varies with time 't' according to given graph. Which of the following represents the variation of induced emf in the coil?  i  t (0, 0)  Coil V (emf)  V (emf)",
+    "question_diagram": "/images/last_leap_pz2/p308_q8.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "t",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  V (emf)  V (emf)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  (0, 0)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q9",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A square loop enters into a uniform magnetic field. The sides of square are 5 cm and its speed is 1 cm/s. Its front edge enters into magnetic field at t = 0 then which curve represents variation of induced emf V  B = 0.8 T  × × × × × × × × × × × ×  × × × × ×  × × × × ×  × × × × ×  × × × × ×  × × × × ×  × × × × ×  5 cm  10 cm  V  4 × 10 -4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 10 15  t(s)  V  4 × 10 -4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 10 15 (volt)  t(s)  V  4 × 10 -4  5 10 15 (volt)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t(s)  -4  -4 × 10  (volt)  V  4 × 10 -4  5 10 15  O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t(s)  -4  -4 × 10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q10",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The figure shows a current carrying wire whose current increasing continuously, then direction of induced current in the loop conducting placed in the plane of paper is  I",
+    "question_diagram": "/images/last_leap_pz2/p308_q10.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Anticlockwise",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Clockwise",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First clockwise then anticlockwise",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q11",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A bar magnet is released along the vertical axis of the conducting coil. The acceleration of the bar magnet is  S  N  Coil",
+    "question_diagram": "/images/last_leap_pz2/p308_q11.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Greater than g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Less than g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Equal g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Work done in increasing the current through a solenoid from 0 to 2 A is 20 J. Work done in increasing the current from 4 to 6 A is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "120 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q13",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The end points of a current carrying wire lie on the x-axis and y-axis as shown. The magnetic force on the wire is  y  2A  O  x  (4 , 0) m (0, 3 ) m  B = 1.0 T",
+    "question_diagram": "/images/last_leap_pz2/p308_q13.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q14",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A wire of length 6 m is rotated about the axis passing through the point C and parallel to the magnetic field lines with angular velocity 4 radian/second. If B = 0.5 T, the potential difference across the ends of the wire is  B  a b c  2 m  4 m",
+    "question_diagram": "/images/last_leap_pz2/p309_q14.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q15",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The current flowing in an inductor of inductance",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q16",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "If a magnet is allowed to fall through a long conducting pipe, then the final acceleration of the magnet will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "= g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "> g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "g ≥",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q17",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "In a uniform magnetic field, a ring is rotating about its axis which is parallel to the magnetic field and magnetic field is perpendicular to the plane of ring. The induced electric field in the ring",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depends on the radius of ring",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Depends on the nature of the material of ring",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depends on the product of magnetic field and  speed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q18",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not based on the application of eddy current?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Speedometer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dead-beat galvanometer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy meter",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tangent galvanometer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q19",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A railway track running north-south has two parallel rails l distance apart. If H is the horizontal component of earth's field, angle of dip is θ, then the induced emf between the rails when a train passes with velocity v, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hlv tanθ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hlv",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hlv cosθ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hlv sinθ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q20",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Two coils of self inductance L1 and L2 placed so close together that they completely link the magnetic flux of each other. If M be their mutual inductance then, the correct relation is  L M L ",
+    "question_diagram": "/images/last_leap_pz2/p309_q20.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "2 1 L L M ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M = L1 L2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1L L M ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q21",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate the self inductance of solenoid having 1000 turns and length 1 m. The area of cross- section is 7 cm2 and μr = 1000",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "888 H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.88 H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.088 H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "88.8 H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q22",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Two discs of radii R and 2R are moving with velocities v and 2v in opposite directions on a conducting platform, as shown in the figure. If magnetic field B is applied on the plane perpendicular to the discs, then the potential difference between two points P and Q which are the topmost points of the discs is  Q  P B  ×  2v 2R  v  R",
+    "question_diagram": "/images/last_leap_pz2/p309_q22.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "8 BRv",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 BRv",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 BRv",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 BRv",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q23",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A rod having length l and resistance R0 is moving with speed v as shown in the figure. Find the current through the rod  ×  ×  R2 R1 l B R0  v  × ×  Blv  Blv",
+    "question_diagram": "/images/last_leap_pz2/p309_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2  R R         R R R     2 1 R R R  1 1 1    0 2 1  0 2 1  Blv  Blv",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": " ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 2 1 R R R  1 1 1 R R R     0 2 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q24",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "What is the effective self inductance of two solenoids in series wound on a core as shown in the figure, if L is the self inductance of each solenoid?",
+    "question_diagram": "/images/last_leap_pz2/p310_q24.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "L",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 L",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q25",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform conductor having length l is moving in uniform magnetic field B with speed v. If B, l and v are mutually perpendicular and R is the resistance of conductor, then the power delivered by the external source is  2 2 2  v l B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R  2  v l B 2 2 2 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  v l B 2 2 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q26",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A circular ring of radius r is at the centre of a square having side a (a >>r). The mutual inductance of the system is  r 2 0 μ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π μ 2 0 2 r  r 2 0 2 2 μ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a r π μ 2 0 2 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q27",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "If a semicircular conducting loop ACB is rotating in the plane of paper with constant angular velocity ω about O, then which of the following graphs shows the variation of induced current (I) with time (t) . The magnetic field is perpendicular to the plane of loop as shown in the figure  A  C  O  B  I  I  t",
+    "question_diagram": "/images/last_leap_pz2/p310_q27.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2π ω  t  I  I  t 2π ω  t 2π ω",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q28",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A current carrying cable is penetrating a loop as shown in the figure. If magnitude of current is decreasing with time, then the current induced in the loop is  I",
+    "question_diagram": "/images/last_leap_pz2/p310_q28.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Clockwise",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anticlockwise",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depends on the magnitude of current",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q29",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A square loop of side a is rotating in unifrom magnetic field B with angular frequency f such that the direction of angular velocity is perpendicular to the magnetic field and along the plane of loop. The average emf produced during half cycle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 πf a2 B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 fa2 B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 4 2 B fa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 fa2 B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q30",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The slotting processes in a metallic sheet causes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The increase of the resistance in the path for  circulation of current",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease in the strength of eddy current",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Feeble the electromagnetic damping",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q31",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The square loop shown below is rotated about the axis PQ and magnetic field is perpendicular to the plane of paper. The magnitude of induced emf in the loop is minimum when plane of the loop  × × × ×  P  × × × ×  Q  × × × ×",
+    "question_diagram": "/images/last_leap_pz2/p311_q31.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Is perpendicular to the plane of paper",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is parallel to the plane of paper",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Makes 45° angle with the plane of paper",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Makes 60° angle with the plane of paper",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q32",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A small square shaped loop of edge length l is placed at the centre of a circular loop A of radius r with its plane perpendicular to plane of the circular loop. The coefficient of mutual induction of this combination is  A",
+    "question_diagram": "/images/last_leap_pz2/p311_q32.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π μ  3 2 2 0 lr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 2 0 r l μ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r  l 2 3 2 0 μ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q33",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A horizontal ring of radius r spins about its vertical axis with an angular velocity ω in a uniform vertical magnetic field of magnitude B. The emf induced in the ring is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "πr2Bω  2 1 2 B r ω",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bωr2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q34",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "If N is the total number of turns in a coil, then the value of self inductance varies as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q35",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Eddy currents are produced in a material, when it is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Heated",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Placed in an electric field",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Placed in a uniform constant magnetic field",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Placed in a time varying magnetic field",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q36",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The coefficient of mutual inductance between two coils depends upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Medium between coils",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Separation between coils",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Orientation of coils",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q37",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Long's law associated with Faraday's laws of electromagnetic induction are consequence of the conservation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnetic field",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mass",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q38",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The average e.m.f. induced in a coil, when a current changes from 0 to 2 A in 0.5 second is 0.8 V. The self inductance of the coil is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1 H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2 H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.4 H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.8 H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q39",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A small square loop of wire of side 'l' is placed inside a large square loop of side 'L' (L >> l). If the loops are coplanar and their centres coincide, the mutual inductance of the system is directly proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "L  l",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "l L  2 L  2l L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "l",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q40",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Self inductances of two uncoupled coils are 40 mH and 90 mH. Their mutual inductance is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60 mH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "130 mH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 mH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q41",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic flux through a circuit of resistance 20  is changed from 20 Wb to 40 Wb in 5 ms. Charge passed through the circuit during this time is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.5 C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q42",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A long straight conductor carrying current I is fixed on a smooth plane. A circular loop is placed on the same plane as shown in figure. If current I through the wire is increasing, then the loop will move to  I",
+    "question_diagram": "/images/last_leap_pz2/p312_q42.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Right",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Left",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Up",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Down",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q43",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Two coils have a mutual inductance of 5 mH. Current changes in the first coil according to the equation I = I0cosωt, where I0 = 10 A and ω = 100π rad/s. Maximum value of e.m.f. induced in the second coil is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5π volt",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2π volt",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4π volt",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π volt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q44",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A circular loop is placed near a current carrying conductor as shown. If the current in the straight conductor is decreasing then the direction of induced current in the loop is  i (Decreasing)",
+    "question_diagram": "/images/last_leap_pz2/p312_q44.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Clockwise",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anticlockwise",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Into the page",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Out of the page",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q45",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Two rails of a railway track insulated from each other on the ground are connected to a millivoltmeter.  The reading of millivoltmeter when train travels at a speed of 20 m/s along the track is (Given Bv = 0.2 × 10-4 Wb/m2 and distance between the rails is 1 m)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 mV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.4 mV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 mV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 mV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q46",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The current through a choke coil increases from zero to 6 A in 0.3 seconds and an induced emf of 30 V is produced. The inductance of the coil is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.5 H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.5 H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q47",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Self inductance of primary and secondary of a perfectly coupled coil are 40 mH and 90 mH respectively. Coefficient of mutual induction between them is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "65 mH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50 mH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "130 mH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60 mH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q48",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A conducting square loop of side L and resistance R moves in its plane with a uniform velocity v perpendicular to one of its sides. A constant magnetic field B exists as shown in the figure. Mechanical power required to maintain its uniform velocity is  B  L v  2 2 2 B L v  2 2 2  2 B L v",
+    "question_diagram": "/images/last_leap_pz2/p312_q48.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  2 2 2  4 B L v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q49",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A conducting disc of radius r rotates about its axis with an angular speed ω in a uniform magnetic field B perpendicular to the plane of the disc as shown. A resistance R is connected between centre and rim of the disc then  ω  R  B A  B  C r",
+    "question_diagram": "/images/last_leap_pz2/p312_q49.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "No e.m.f. will induce across resistance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E.m.f. will induce and A is at high potential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Current in resistance will flow from A to B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Resistance becomes hot due to Joule's  heating",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q50",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A train is moving on a straight horizontal track. Induced emf across the axle is maximum, when it moves",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "At poles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "At equator",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Along the direction where angle of dip is 45°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "emf is not induced",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q51",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A square loop enters a magnetic field with velocity v as shown in figure. The front edge enters the magnetic field at time t = 0. Which of the following graphs gives the correct variation of emf ε induced in the loop with time t for its constant velocity in the magnetic field? [Take anticlockwise current as negative and vice versa]  v  ε  t (s) ε",
+    "question_diagram": "/images/last_leap_pz2/p313_q51.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "t (s)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t (s) ε  ε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t (s)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q52",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A rectangular metal loop ABCD of is passed through the magnetic field with a constant velocity v. Which of the following represents power (P) dissipated vs time (t) graph?  A  B  v  D   C   P",
+    "question_diagram": "/images/last_leap_pz2/p313_q52.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "t  P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t  P  t O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q53",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Self inductance of a solenoid is 5 mH. If current is decreasing through it at the rate 10+3 A/s, then emf induced in the solenoid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "- 5 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.5 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "- 2.5 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q54",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Keeping number of turns constant self inductance L of a solenoid varies with its length l as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "L ∝ l",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 L l ∝",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "L ∝ l2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 L  l ∝",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q55",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A conducting rod AC of length 4l is rotated with angular velocity ω about a point O in a uniform  \u0002  magnetic field B   directed into the plane of the paper. If AO = l and OC = 3l, then potential difference between A and C, VA - VC is  ω  O A C",
+    "question_diagram": "/images/last_leap_pz2/p313_q55.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2Bωl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bωl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3Bωl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4Bωl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q56",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A flexible wire bent in the form of a circle is placed in a uniform magnetic field perpendicular to the plane of the circle. The radius r of the circle changes with time t as shown in figure. The graph of magnitude of induced emf |e| versus time t in the circle is represented by  r  c d  b  a  O t(s)  1 2  | | e  | | e",
+    "question_diagram": "/images/last_leap_pz2/p314_q56.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O t 1 2  O t 1 2  | | e  | | e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O t 1 2  O t 1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q57",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A cylindrical space of radius R is filled with a uniform magnetic induction B parallel to the axes of the cylinder. If B changes at a constant rate, the graph showing the variation of induced electric field with distance r from the axis of cylinder is  R  E  E",
+    "question_diagram": "/images/last_leap_pz2/p314_q57.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r  r  E  E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q58",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A small circular loop of radius r is placed inside a circular loop of radius R (R >> r). The loops are coplanar and their centres coincide. The mutual inductance of the system is proportional to  r  2 r",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "r R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 r R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 r R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q59",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A long conducting wire AH is moved over a conducting triangular wire CDE with a constant v in a uniform  \u0002  magnetic field B   directed into the plane of the paper. Resistance per unit length of each wire is r. Then  D  B  F A H  G v  C E",
+    "question_diagram": "/images/last_leap_pz2/p314_q59.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A clockwise induced current will flow in the  closed loop",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "No induced current will flow in the closed loop",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Induced current in the closed loop alternately  changes its direction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "An anticlockwise induced current will flow in  the closed loop",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q60",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Figure below shows a square loop of side 0.5 m and resistance 10 . The magnetic field has a magnitude B = 1.0 T. The work done in pulling the loop out of the field slowly and uniformly in 2 second is  v",
+    "question_diagram": "/images/last_leap_pz2/p314_q60.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3.125 × 10-3 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6.25 × 10-4 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.25 × 10-2 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5.0 × 10-4 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q61",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The wires P1Q1 and P2Q2 are made to slide on the rails with the same speed 10 m/s. If P1Q1 moves towards left and P2Q2 moves towards right, then the electric current in the 19  resistor is  P1 P2  2  2  19  4 cm B =1.0 Tesla  Q1 Q2",
+    "question_diagram": "/images/last_leap_pz2/p314_q61.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 m A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.1 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q62",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The triangular circuit ABC shown in figure is in a very long solenoid of radius R such that plane of triangular circuit is normal to length of solenoid. If the magnetic field changes at the rate dB/dt, then the induced emf in the triangular circuit is  R R A C  90° 90°  B  3 dB R dt",
+    "question_diagram": "/images/last_leap_pz2/p315_q62.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "2 dB R dt",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "dB R dt",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "dB R dt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q63",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "If conducting triangle is pulled out with a uniform velocity from the uniform magnetic field, as shown in figure, then which graph of induced current versus time is possible?  A  B  v B  C  i  i",
+    "question_diagram": "/images/last_leap_pz2/p315_q63.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  t  i  i",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q64",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Two circular coils of different radii lie in same plane with their centers at same point i.e. inner coil is surrounded by bigger outer coil. If current in the outer coil is clockwise and increasing with time, then induced current in the inner loop is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anticlockwise",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Clockwise",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depends on resistances",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q65",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A field of 0.2 T acts perpendicular to a coil of area 100 cm2 with 50 turns. If the coil is removed within",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q66",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following devices is not based on Faraday's law of electromagnetic induction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AC generator",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Speedometer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Induction motor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DC motor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q67",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "If by keeping number of turns per unit length constant, the volume of an air core inductor is doubled, then its self inductance will become/ remain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Two times",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Half",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four times",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q68",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Eddy currents are used in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Induction furnace",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electromagnetic brakes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Speedometers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q69",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A square loop of sides 4 cm having resistance of 2  is placed normal to a magnetic field. If magnetic field is gradually reduced at the rate of",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q70",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The direction of runway on airport should be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Along N-S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Along E-W",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Along NW-SE",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Along NE-SW",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q71",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A metallic wheel (of radius l and 8 spokes) is rotated in a uniform magnetic field B as shown. The motional EMF across centre and rim is given by  × × × ×  ω × ×  × B  × × × ×  O  × × × ×  × × × ×",
+    "question_diagram": "/images/last_leap_pz2/p315_q71.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4Bl2ω",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2Bl2ω  2 1 2 Bl ω",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8Bl2ω",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q72",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Charged pollen grains are lying on a frictionless table. These are now subjected to certain field and are found to be moving by these fields. The field cannot be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Time dependent electric field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Position dependent electric field",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Time dependent magnetic field",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Position dependent magnetic field",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q73",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The given figure shows a semicircular loop of radius R carrying current I and is placed in a unform magnetic field B. The force acting on the semicircular part of the loop is  × × × ×  I  × × × ×  × × × ×  × × × ×",
+    "question_diagram": "/images/last_leap_pz2/p316_q73.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "B0πIR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2πIRB",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "IRB",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2IRB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q74",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A non-conducting rod AB of length L has positive linear charge density λ. This rod is rotated about its one end with an angular speed ω as shown. The magnetic moment associated with this rod is  B  + + + + + +  A ω  3  3  3 L λ ω",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "6 L λ ω",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "3  3  12 L λ ω",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 L λ ω",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q75",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic field in the region is decreasing in  such a way that dB  dt γ. If resistance per unit  length of the loop shown is λ, then current flowing in the loop is given by  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  γ  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  2 Clockwise r πγ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 Anticlockwise r πγ  λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Clockwise 2 γ λ r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anticlockwise 2 γ λ r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q76",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Two inductor coils of self inductance L1 = 10 H and L2 = 20 H are placed as shown in the figure. The mutual inductance of the coil is 3 H. The equivalent inductance between AB of the system of coils is  B A",
+    "question_diagram": "/images/last_leap_pz2/p316_q76.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "36 H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "24 H  20 H 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "38 H 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q77",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "There is a solenoid of length 1.5 m having 1000 turns per metre, kept in a region where magnetic field is increased with time as 0.2 T s-1. (radius of  10 cm π ). The current through resistance 10  solenoid is    is  B  B  R = 10  A B",
+    "question_diagram": "/images/last_leap_pz2/p316_q77.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "30 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.3 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.03 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q78",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A one metre long metallic rod is rotated with an angular frequency of 400 radian/s about an axis normal to the rod passing through its one end. The other end of the rod is in contact with a circular metallic ring. A constant uniform magnetic field of",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q79",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Self inductances of primary and secondary of an ideal transformer are 90 mH and 40 mH. If the current in the primary decreases at the rate 103 As-1, then emf across the secondary is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "90 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q80",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A short magnet is allowed to fall along the axis of a horizontal metallic ring. Starting from rest, the distance fallen by the magnet in one second may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q81",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "In the figure as shown, a straight wire carries a constant current. The direction of induced current in the rotating loop about an axis xx at the instant shown  x x' i ω",
+    "question_diagram": "/images/last_leap_pz2/p317_q81.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Is anticlockwise",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is clockwise",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "There is no current in the loop",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May be clockwise or anticlockwise",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q82",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Figure shows a circular region of radius R in which uniform magnetic field increasing at a constant rate  α  dt dB . The induced electric field at a distance r  from the centre is  × × × × × × × × × × × × × ×× × × × × × × × × × × × × × × × × × × × × ××  × × ×  ××  R  B  ×  ×  × × ×  ×  × ×× × × × × × ×",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 r α  for all values of r  2 α  for all values of r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r R 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 r α  for r > R and  r R 2  2 α  for r < R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 r α  for r < R and  r R 2  2 α  for r > R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q83",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "If the instantaneous charge in the capacitor is 400 μC and current through the circuit is decreasing at the rate 103 A/s then potential difference VA - VB is equal to  20 V 10 A 40 F μ  + -  2   A B 20 mH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "70 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q84",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform rod rotates in a uniform magnetic field B (perpendicular to its length) about its one of end with constant angular velocity. The electric field produced is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uniform along its length",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Non-uniform along its length",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May be uniform or non-uniform",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot be predicted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q85",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "When the current in a coil changes from 0 to 5 A, in 0.5 s, the average induced emf in the coil is 1 volt. The self-inductance of the coil is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1 H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2 H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.4 H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q86",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic flux linked with a coil varies with time as ϕ = 2t2 - 6t + 5, where ϕ is in weber and t in second. The induced current is zero at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "t = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t = 1.5 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t = 3 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t = 5 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secA_q87",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section A (Objective)",
+    "question_text": "Choke coil works on the principle of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kirchhoff's laws",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Self induction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mutual induction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secB_q1",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Self inductance is called the inertia of  electricity.\nReason (R): It is on account of self inductance that the coil  opposes any change in current passing through it.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secB_q2",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When a piece of non-metal and a metal are  dropped from the same height near the surface of the earth the non-metallic piece will reach the ground first.\nReason (R): Induced current in metal will decrease the  acceleration.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secB_q3",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Iron loss is minimised by using laminated  core.\nReason (R): Lamination of core restricts eddy current.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secB_q4",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Induced electric field is non-conservative.\nReason (R): Work done in a closed path in induced electric  field is nonzero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secB_q5",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Lenz's law is in accordance with conservation  of energy.  \u0002\u0003 \u0002\u0003 \u0002\nReason (R): The amount of mechanical energy lost against  the induced emf or current is equal to the electrical energy reappearing in the circuit.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secB_q6",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Time dependent magnetic field generates  electric field.\nReason (R): Direction of electric field generated from time  variable magnetic field does not obey Lenz's law.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secB_q7",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If the current passing through an inductor  varies with time (t) as t2, the induced emf will vary as a straight line.\nReason (R): EMF through an inductor is given by  dI E L dt  .",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_18_electromagnetic_induction_secB_q8",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Group of inductors behave in the same way as  group of capacitors.\nReason (R):               1 1 1 1 1 2 3 series parallel 1 2 3 , 3 L L L L L L L L",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

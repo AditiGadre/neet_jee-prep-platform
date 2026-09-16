@@ -1,0 +1,4751 @@
+[
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q1",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A solid conducting sphere of radius 1 cm having charge 2 mC is surrounded by a conducting spherical shell of inner radius 2 cm and outer radius 3 cm having total charge -2 mC. Both spheres are conected with conducting wire. Surface charge density on the outer surface of the shell is     3 10 9  3 9 10   π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 5 10   π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q2",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Eight identical drops of radii 'r'; each having charge 'q' merge to form a single drop. Potential of new drop is  q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 kq  r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r πε  0  8 4 q  0 4 (2 ) q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r πε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r πε  0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q3",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The space between the plates of a parallel plate capacitor is filled with the help of three slabs of same thickness and having dielectric constant k1, k2 and k3 in series. The equivalent dielectric constant of slabs is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "keq = k1 + k2 + k3  1 1 1 1  eq k k k k   ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 3  3  k k k k k k k k k k   ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 3  eq  1 2 2 3 1 3  k k k k   ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 3 3 eq",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q4",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Equivalent capacitance of following arrangement  3 F μ 3 F μ  45 μF  6 μF  63 μF A B  6 μF  9 μF 9 μF",
+    "question_diagram": "/images/last_leap_pz2/p267_q4.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "18 μF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9 μF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 μF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 μF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q5",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two capacitor of capacitance 6 μF and 3 μF are connected in series with battery of 30 V. Charge on 3 μF capacitor at steady state is  6 μF 3 μF  30 V",
+    "question_diagram": "/images/last_leap_pz2/p267_q5.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 μC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5 μC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60 μC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "900 μC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q6",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "If E and V are electric field and electric potential respectively due to a point charge, then which of the following graph best represent their variation?",
+    "question_diagram": "/images/last_leap_pz2/p267_q6.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "V  E  E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "V  E  E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q7",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Three charges - Q, q and - 2Q are placed along a line as shown in the figure. The system of charges will have positive potential energy configuration, if  q  - Q - 2Q l  3 Q q ",
+    "question_diagram": "/images/last_leap_pz2/p268_q7.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "3 Q q ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "3 Q q  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 Q q  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q8",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The circular ring carries a uniformly distributed positive charge lies in y-z plane with centre at origin of the coordinate system. If at a point (x, 0, 0) electric potential is V, then which of the following is correct?  V  V",
+    "question_diagram": "/images/last_leap_pz2/p268_q8.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x  V  V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x  x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q9",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Work done in carrying an α-particle from one point to another point is 3.2 × 10-10 J. The potential difference between the two points is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "106 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "109 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1012 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1015 V  R from",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q10",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A point charge q is placed at a distance 3  the centre O of an uncharged, conducting hollow sphere of inner radius R and outer radius 3R. The  1 4 K      πε    potential at the centre is   0  7 3 Kq",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R  5 3 Kq",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3Kq R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kq  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q11",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Potential (V) versus distance (r) graph is shown in diagram, then value of electric field at an instant A is  V  10V  A  0  2m  r",
+    "question_diagram": "/images/last_leap_pz2/p268_q11.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 V/m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- 10 V/m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 5 V/m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 V/m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Eight identical charged spherical mercury droplets each of capacitance C merge to form a single drop. The capacitance of the single drop is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Equal to 2C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "< 2C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Between C and 2C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Less than C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q13",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two equipotential surfaces are shown in diagram, then magnitude and direction of electric field between the surface is  B  A  50 cm  15 V  10 V",
+    "question_diagram": "/images/last_leap_pz2/p268_q13.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10 V/m, A to B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 V/m, B to A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 V/m, A to B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 V/m, B to A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q14",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In a charged capacitor, the energy resides",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In positive charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both in positive and negative charge",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In the electric field between the plates",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Around the edge of the capacitor plates",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q15",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A capacitor is charged to store 0.4 J of energy and then connected with an identical uncharged capacitor. The energy left with the first capacitor is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.3 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q16",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A point charge of 0.5 C is taken from point A to B as shown in the diagram, where some equipotential surfaces are drawn. The work done by the electric field is  10 V  B  20 V  A  30 V  40 V",
+    "question_diagram": "/images/last_leap_pz2/p269_q16.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-10 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q17",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A capacitor is charged upto 0.4 J of energy with a battery and after disconnecting it from the battery the capacitor is completely filled with dielectric of dielectric constant 4, then final energy in the capacitor is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.4 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.3 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.2 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.1 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q18",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "How much charge will flow through the battery when the switch S is closed?  4 F μ  8 F μ  4 F μ S  10 V",
+    "question_diagram": "/images/last_leap_pz2/p269_q18.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "16 μC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 μC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 μC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 μC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q19",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In the given circuit, ratio of charge stored in the capacitors C and 5C is  C 2C  3C 4C 5C  V",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 : 25",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 : 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 : 9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 : 9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q20",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A capacitor '1' with breakdown voltage 120 volt is connected with two other capacitors '2' and '3' as shown. The breakdown voltage of '2' is 120 V but that of '3' is 150 V. The maximum potential difference across the plates of '2' so that all the capacitors remain safe is (All capacitors have same capacity)  1 2  3",
+    "question_diagram": "/images/last_leap_pz2/p269_q20.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "150 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "120 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "75 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q21",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacitance between the point a and b in the network shown below is  C C  a  C  b  C C",
+    "question_diagram": "/images/last_leap_pz2/p269_q21.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q22",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A capacitor is charged to energy 2.0 J and after removing the battery, it is connected to an identical uncharged capacitor. The amount of heat produced in the process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.0 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.0 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q23",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "How much charge is supplied by the battery when the switch is closed in the circuit?  C  V  S  C  C",
+    "question_diagram": "/images/last_leap_pz2/p269_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 3 CV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 CV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3CV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q24",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two concentric spheres of radii a and b as shown in figure are arranged such that outside sphere is charged +Q and inner sphere is earthed. Charge on outer surface of outer sphere is  b Q  a",
+    "question_diagram": "/images/last_leap_pz2/p270_q24.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Qa Q b   Qa Q b ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Qa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q25",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacitance of the given circuit is  C C  C  C C  C C  to ",
+    "question_diagram": "/images/last_leap_pz2/p270_q25.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q26",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "When the separation between two point charges is increased, the electric potential energy of the charges",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First increases and then decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May increase or decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q27",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The electric field intensity and the electric potential at a point are E and V respectively. Which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If E ≠ 0, V cannot be zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If V ≠ 0, E cannot be zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If V is constant and non-zero, E must be zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If V = 0, E must be zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q28",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In a and non zero electric field equipotential surface is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parallel to the field direction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Perpendicular to the field direction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "At 45° to the field direction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "At 60° to the field direction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q29",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The minimum amount of work done when a point charge 0.2 C is moved from infinity to a given point P, is 20 J. The potential at point P is (potential at infinity is zero)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "200 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q30",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Work done to carry a negatively charged body in direction of electric field (Assuming no other force is acting on the body)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is always negative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "May be negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is always positive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May be zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q31",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Three copper plates A, B, C shown below are kept at very small separations. If the plate A is given 2 μC of charge, then the charge on the outer surface of the plate C will be  A  B  C",
+    "question_diagram": "/images/last_leap_pz2/p270_q31.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 μC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 μC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 μC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q32",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the direction of charge flow when the switch S is closed?  C 2C  a  S  b  3C 4C  c d E",
+    "question_diagram": "/images/last_leap_pz2/p270_q32.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "From a to b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "From b to a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The direction of charge flow will depend on the  value of emf E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No charge will flow across the switch",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q33",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A parallel plate capacitor is connected across the terminals of a battery. While the battery remaining connected, a dielectric slab is introduced between the plates of the capacitor, then which of the following will be the same?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Potential difference across plates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Capacitance of the capacitor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy stored in the capacitor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Charge on the capacitor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q34",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graphs correctly represents the variation of charge q and energy stored U in a capacitor?  U  U",
+    "question_diagram": "/images/last_leap_pz2/p271_q34.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "q  q  U  U",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "q  q",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q35",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum potential difference that can be applied across the plates of a capacitor of capacitance C is V0. What can be the maximum potential difference between the points a and b in the following arrangement?  C  1  C  a b  3  2  C",
+    "question_diagram": "/images/last_leap_pz2/p271_q35.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2V0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3V0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q36",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Six point charges are kept on the circle of radius R as shown below. The electric potential at the centre of the circle is  q  q  q  O  q  q  q  0 4 1  q       πε R",
+    "question_diagram": "/images/last_leap_pz2/p271_q36.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "   q 3 4 1  q 6 4 1       πε R       πε R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "   0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "   0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q37",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The electric potential V is given as a function of x (in metre) V = (x2 - 6x + 5). The electric field is zero at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x = 1 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x = 2 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x = 3 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x = 6 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q38",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Five identical capacitors are shown below alongwith a battery. The potential at point A is  10 V  N C C C C C  A B",
+    "question_diagram": "/images/last_leap_pz2/p271_q38.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q39",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Five plates each of area A are arranged as in the diagram. If the spacing between any two consecutive plates is d then equivalent capacitance between a and b is  a  b",
+    "question_diagram": "/images/last_leap_pz2/p271_q39.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "d A 2 3 0 ε",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "d A 4 3 0 ε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d A 3 2 0 ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d A 3 4 0 ε",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q40",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A capacitor with energy 1 J is connected with an identical uncharged capacitor. The amount of heat developed in the process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.25 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q41",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The two spherical conductors shown below are touched with each other and then separated. After the separation the potential on the shell A is  2q  2q  r 3r A B",
+    "question_diagram": "/images/last_leap_pz2/p271_q41.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r q  0 4πε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r q  0 4 2 πε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r q  0 4 3 πε",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q42",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "What is the charge on 2 μF capacitor in the  circuit diagram shown below?  2 F μ  3 F μ  1 F μ  6 V",
+    "question_diagram": "/images/last_leap_pz2/p272_q42.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C 3 4 μ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 μC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 μC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 μC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q43",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "An air filled parallel plate capacitor has capacitance C. When a dielectric medium of dielectric constant k is introduced to fill half of the space between the plates as shown, the capacitance becomes 2C. The value of k is  k",
+    "question_diagram": "/images/last_leap_pz2/p272_q43.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q44",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "How many identical capacitors will be needed to form a system that can withstand a potential difference of 1000 V and has equivalent capacitance of 10 μF? If each capacitor has breakdown potential of 250 V and capacitance of 5 μF",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "32",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q45",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Find the net capacitance of given circuit between points P and Q  C C C C C",
+    "question_diagram": "/images/last_leap_pz2/p272_q45.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 6C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 5C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q46",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacitance between the points 'a' and 'b' in the following network is  c  4 F μ  2 F μ  a b  5 F μ  3 F μ 6 F μ  d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F 3 10 μ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F 3 20 μ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 μF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 μF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q47",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "If the switch S is closed, how much charge will be supplied by the battery?  S  C C C C  E  C",
+    "question_diagram": "/images/last_leap_pz2/p272_q47.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CE",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2CE",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4CE",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5CE",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q48",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "What should be the capacitance of the capacitor x in the following arrangement so that the potential difference between P and Q is zero?  P  x  C  3 F μ  6 F μ  C  Q  10 V",
+    "question_diagram": "/images/last_leap_pz2/p272_q48.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 μF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 μF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9 μF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 μF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q49",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A slab of a dielectric material is kept in a uniform electric field E0. If net electric field inside the slab is E and induced electric field is Ep then the dielectric constant of the material is equal to  p E E0",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "E E0",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Ep  E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E E  - 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "p E E  - 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q50",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In diagram shown below, the induced charge on the left face of the dielectric slab of dielectric constant k is (Take area of the left face as A)  E0  K   ε k A E 1 - 1 - 0 0",
+    "question_diagram": "/images/last_leap_pz2/p272_q50.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "    ε k A E 1 - 1 0 0        ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": " ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-E0Aε0(k - 1)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E0Aε0(k - 1)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q51",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "If charge on a capacitor is increased, then which of the following will not change?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Energy stored",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Capacitance",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these will increase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q52",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "What is the work done by external force to carry a point charge q0 from point A to B as shown in the diagram? The field intensity is E and distance AB = d  B E  A 60°",
+    "question_diagram": "/images/last_leap_pz2/p273_q52.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "q0 Ed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-q0 Ed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ed q0 2 1 -",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ed q0 2 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q53",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In the following circuit diagram, when the switch S is closed, no current flows through the ammeter. The product of the capacitances C1 and C2 is  C1  3 F μ  S  2 F μ  C2 A",
+    "question_diagram": "/images/last_leap_pz2/p273_q53.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1.5 pF2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 pF2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 pF2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 μF2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q54",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In the diagram shown below some equipotential surfaces are drawn. A point charge q0 = 0.5 C is brought from point A to B. The work done by the electric field in the process is  100 V  B  110 V  A  120 V 130 V",
+    "question_diagram": "/images/last_leap_pz2/p273_q54.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-5 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-10 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q55",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacitance between the points A and B in the following network is (where each capacitor is of capacitance 2 μF)  A B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 μF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 μF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 μF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 μF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q56",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The electric potential at a point P(x,y,z) is given by V = 4x - 3y + 8z. The electric field at that point is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-4 i^ + 3 j^ - 8 k^",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 i^ - 3 j^ + 8 k^",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-4 i^ - 3 j^ - 8 k^",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 i^ + 3 j^ + 8 k^",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q57",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The electric  field can exist only in a material  medium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The electric field in the Gauss's law is only due  to the enclosed charges",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The equatorial plane of an electric dipole is an  equipotential surface",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The path traced by a positive charge in an  electric field is a field line",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q58",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "27 small spherical mercury drops each of radius r and each having same charge q are combined to form a big spherical drop. The ratio between the potential of the bigger drop to that of a small drop is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "27",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "18",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q59",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Three capacitors of capacitance 3 μF, 9 μF and 18 μF are connected once in series and then in parallel. The ratio of equivalent capacitance in the           C C  two cases  s   will be  p",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 15",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 18",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q60",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacitance between A and B in the network below is  2 F μ 2 F μ  A  2 F μ 4 F μ B  2 F μ",
+    "question_diagram": "/images/last_leap_pz2/p273_q60.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4 3 μF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 4 μF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 μF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 6 μF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q61",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In the figure, a capacitor is filled with dielectrics. The resultant capacitance between X and Y is (symbols have usual meanings)  A/2 A/2 X  K1  d 2  d  K3  d 2  K2  Y    ε        2 1 1 1 A d K K K",
+    "question_diagram": "/images/last_leap_pz2/p274_q61.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0  1 2 3    ε        1 1 1 A d K K K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0  1 2 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "  0 1 2 3 2 A K K K d ε    2 2 A K K K K K K d K K ε         ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 1 2 1 3 2 3  1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q62",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "At the centre of a uniform positively charged thin ring (E : electric field intensity, V : electric potential)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E ≠ 0, V = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E ≠ 0, V ≠ 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E  0, V = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E  0, V ≠ 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q63",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Electric potential at an inside point r from the centre of a conducting sphere of radius R and carrying charge Q is  1 . 4 Q  1 . 4 Q R πε",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "r πε  0  0  1 . 4 rQ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 0  R πε",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q64",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In the circuit shown in figure, the charge stored in the capacitor of capacity 30 μF is  15 F μ 30 F μ 90 F μ  50 V",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "450 μC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1500 μC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150 μC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1350 μC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q65",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A capacitor of capacitance 1 μF can withstand a maximum voltage 10 V, while a capacitor of capacitance 5 μF can withstand the maximum voltage 20 V. If the two capacitors are connected in parallel, then the two capacitors combination can take up the maximum voltage of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 3 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q66",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The net capacitance between A and B in the network shown is  A B C C C C C C",
+    "question_diagram": "/images/last_leap_pz2/p274_q66.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 4C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4C   and C2 are charged to potentials V1 and V2 respectively. When they are connected in parallel, the ratio of their respective charges at equilibrium is",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q67",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two capacitors of capacitance C1  C C  C  C",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  2  1  2 1 2 2  V  C V C V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 1  V  2 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q68",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Five capacitors each of capacitance C are connected as shown in the figure. The ratio of capacitance between P and R and the capacitance between P and Q is  P  C C  Q R  C C  C",
+    "question_diagram": "/images/last_leap_pz2/p274_q68.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q69",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The flow of charge through switch S, when it is closed is  2 F μ  +-  q  q +- +- q  S  6 F μ 3 F μ",
+    "question_diagram": "/images/last_leap_pz2/p275_q69.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4 q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 q  2 3 q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q70",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Electric potential at a point P(x,y,z) is (x+y+z) V. Electric field in that region is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 2 ^ ^ ^ V/m x i y j z k  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "^ ^ ^ ( ) V/m i j k  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "^ ^ ^ -( ) V/m i j k  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "^ ^ ^ -( ) V/m xi yj zk  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q71",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "An air filled parallel plate capacitor is charged to potential 20 V and then isolated from the battery. If a dielectric slab of dielectric constant K = 4 is filled to fill the space completely, then new potential difference across the plates is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q72",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two concentric metallic spherical shells A and B of radii a and b respectively (b > a) are arranged such that outer shell is earthed and inner shell is charged to Q. Charge on the outer surface of outer shell will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "- Qa  b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1- a Q b      ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-Q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q73",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In the circuit shown in figure, energy stored in 6 μF capacitor will be  6 F μ  4 F μ  8 V  12 V",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "48 × 10-6 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "32 × 10-6 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "96 × 10-6 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 × 10-6 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q74",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A and B are two concentric metallic shells. If A is positively charged and B is earthed, then electric  A B",
+    "question_diagram": "/images/last_leap_pz2/p275_q74.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Field at common centre is nonzero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Field outside B is nonzero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential outside B is positive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potential at common centre is positive",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q75",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The figure shows some of the equipotential surfaces.  Magnitude and direction of the electric field is given by  y(cm)  30 V 40 V  10 V 20 V  30° 30° 30° 30°  10 20 30 40  O  x(cm)",
+    "question_diagram": "/images/last_leap_pz2/p275_q75.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "200 V/m, making an angle 120° with the x-axis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 V/m, pointing towards negative x-axis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "200 V/m, making an angle -60° with the x-axis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 V/m, making an angle 30° with the x-axis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q76",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two point charges -q and +q are located at points (0, 0, -a) and (0, 0, a) respectively. The electric potential at point (0, 0, z) is (given z > a)  qa  2 4 q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 0 4  z πε",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a πε  0  2  qa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 0  z a πε ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero  4 ( )",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q77",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "If n identical drops, each of capacitance C, coalesce to form a single big drop, the capacitance of the big drop will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n3C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "nC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "n1/2C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n1/3C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q78",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "If an electron is brought towards another electron, then electric potential energy of the system",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Becomes zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remains same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q79",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacitance across A and B in the given figure is  B  C C C A  C",
+    "question_diagram": "/images/last_leap_pz2/p276_q79.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 3C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 3C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q80",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A hollow conducting sphere is placed in an electric field produced by a point charge placed at P as shown. Let VA, VB, VC be the potentials at points A, B and C respectively. Then  B  P C A",
+    "question_diagram": "/images/last_leap_pz2/p276_q80.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "VA < VB < VC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "VA > VB > VC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "VC > VB = VA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "VA = VB = VC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q81",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In a hollow conducting sphere a charge q is placed away from the centre at position A as shown in the figure. Then mark the incorrect statement from the following  R  A q r O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "There exist radial electric field lines in empty  space inside the hollow sphere",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Outside the conducting sphere, radial electric  field lines will exist",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nonuniform distribution of charge on inner  surface of conducting surface",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potentials at inner surface and outer surface of  conductor are same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q82",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A parallel plate capacitor is charged to a definite potential difference and then charging battery is disconnected. Now if a dielectric is inserted between the plates, then choose the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stored energy of the capacitor decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Force of attraction between the plates  decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electric field between the plates decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Net charge induced on the dielectric is zero  \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q83",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Magnitude of the electric field E   depends only on  the x-coordinate given by  2 20 ^ E i x  \u0002   V/m. The  potential difference between two points A(5 m, 0) and B(10 m, 0) i.e., (VB - VA) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+2 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7 - 25 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-2 V  4 5 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q84",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "In the given arrangement of parallel plates each plate has area A and distance between two consecutive plates is d. The equivalent capacitance of the system between x and y is given by  d  k = 5  x  y k = 3  d  d  k = 6  0 7 A d ε",
+    "question_diagram": "/images/last_leap_pz2/p276_q84.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0A d ε",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ε  0 14 A d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 10 7 A d ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q85",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Electric field in a region is increasing in magnitude along x-direction. The equipotential surfaces associated are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Planes parallel to xy-plane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Planes parallel to yz-plane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Co-axial cylinders around x-axis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q86",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two plates (of area A each) of an air filled parallel plate capacitor are charged with q and 2q as shown in figure. Electric field in the space between the plates is  q 2q  3 4ε q  0 2ε q",
+    "question_diagram": "/images/last_leap_pz2/p277_q86.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A  0  4 3ε q  q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 ε  A  0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q87",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Surface charge density on the positive plate of a charged parallel plate capacitor is σ. Energy density in the electric field of the capacitor is  2  0 2 σ  σ  2  ε",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "ε  0  σ ε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2σ2ε0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q88",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two capacitors of capacity 2 μF and 3 μF are charged to same potential difference 6 V. Now, they are connected with opposite polarity as shown. After closing S1 and S2 their final potential difference becomes  S1 + -  - +  3 F μ 2 F μ  S2",
+    "question_diagram": "/images/last_leap_pz2/p277_q88.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 V 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 V 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q89",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "64 charged drops are put together to form a bigger drop. If charge on each drop is q, then the charge on bigger drop will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "16q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "64q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "q",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q90",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "An electric field is given by    ^ ^ ^ 2 E i j k →     N/C.  The work done in moving a 1 coulomb charge from    \u0002 \u0002  to    4 m Br i j →    2 2 m Ar i j →    \u0002 \u0002 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 4 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q91",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The electric field intensity at a point is (20 30 ) i j  \u0002 \u0002 N/C.  Considering potential at origin to be zero, the potential at P(2, 2) m is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-100 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- 50 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 40 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "- 60 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q92",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Taking earth to be a metallic sphere, its capacity will approximately be (Radius of earth R = 6.3 × 106 m)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "700 F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "700 μF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "700 pF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.4 × 106 F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q93",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A conducting sphere of radius R and carrying a charge q is joined to another conducting sphere of radius 2R and carrying a charge -2q. The charge flowing between them will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2 q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 3 q  4 3 q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q94",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "If area of each plate be A then net capacitance of arrangement is  A  B d d  d  0 A d ε  0 2 A d ε",
+    "question_diagram": "/images/last_leap_pz2/p277_q94.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 3 A d ε  0 4 A d ε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q95",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacity between points A and B will be  3 F μ 3 F μ 3 F μ A B",
+    "question_diagram": "/images/last_leap_pz2/p277_q95.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 μF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 μF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 μF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9 μF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q96",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "How many capacitors each of 8 μF and 250 V are required to form a composite capacitor of 16 μF and 1 kV?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "64",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "32",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q97",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "If there are n capacitors in parallel connected to V volt source, then energy stored in the system of capacitors is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CV2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 1 V 2 C n",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 V 2 nC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q98",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Charge on 4 μF capacitor in the given circuit is  1 F μ  4 F μ  5 F μ  3 F μ  10 V",
+    "question_diagram": "/images/last_leap_pz2/p278_q98.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "24 μC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 μC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "36 μC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 μC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q99",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A charge Q is placed on a solid metallic object of irregular shape. Q will distribute itself",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uniformly inside the metal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Uniformly on the surface of metal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Such that potential energy is minimized",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Such that potential energy is maximized",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q100",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "If a unit positive charge is taken from one point to another on an equipotential surface, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Work is done on the charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Work is done by the charge",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential energy of the charge is changed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No work is done on the charge",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q101",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Capacitance of a parallel plate capacitor depends on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Material of plates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thickness of plates",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential difference across plates",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Separation between plates",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q102",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A parallel plate capacitor is charged and disconnected from battery. If separation between the plates is now increased, then the wrong statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Capacitance decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Charge on the capacitor increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential difference  across the plates increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potential energy  stored in the capacitor  increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q103",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Four identical capacitors have equivalent capacitance C1 in series and C2 in parallel. The ratio of C1/C2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1/2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1/8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1/16",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q104",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacitance between A and B is  3 F μ 6 F μ  B  4 F μ 5 F μ  1 F μ  A  2 F μ",
+    "question_diagram": "/images/last_leap_pz2/p278_q104.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3.75 μF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 μF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "21 μF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16 μF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q105",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "An electric field  ^ 10 E xi  \u0002   V/m exists in a space. Take potential at (10 m, 20 m) to be zero, then the potential at the origin is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "300 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "500 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "400 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q106",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A metal sphere of radius 10 cm is charged to potential 24 V. It is joined to another uncharged metal sphere and potential falls to 6 V. The radius of the second sphere is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q107",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A parallel plate capacitor is charged to potential V. A dielectric slab of thickness 3 mm is inserted between the plates and it becomes necessary to increase the distance between them by 2.4 mm to maintain the same potential difference. The dielectric constant of the slab is",
+    "question_diagram": "/images/last_leap_pz2/p278_q107.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q108",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The self potential energy of a uniformly charged non conducting solid sphere carrying charge q and  1 4 k  πε ]  radius R is [  0  2 3 5 kq",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  2  2  3 kq  2 kq",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q109",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacitance between point P and Q in the circuit shown is  C C  P  C C  Q",
+    "question_diagram": "/images/last_leap_pz2/p279_q109.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q110",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "An aluminium sheet is placed parallel to the plates of a parallel plate capacitor. Its capacitance will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Become infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q111",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "If the potential difference between the plates of a capacitor is increased by 20%, then energy stored in the capacitor increases by exactly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "22%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "44%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q112",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Potential V is varying with position (x, y) as  2 1( 2 ) 2 V y x    volt. The electric field at the point  (1, 1) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "^ ^ i j ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "^ ^ i j ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "^ ^ i j ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "^ ^ i j ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q113",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Electrostatic potential on the surface of a metal charged sphere of radius R is V. Its potential at  R from centre is  distance 3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q114",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "An α-particle and a proton are accelerated from rest through same potential difference. The ratio of their final kinetic energies are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q115",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "The work done in moving an electron of charge e and mass m from A to B along the circular path shown by arrow (in figure) in vertical plane in the field of charge Q is  B  + +Q  A",
+    "question_diagram": "/images/last_leap_pz2/p279_q115.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2mgr",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2Qe r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 Qe mgr r ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q116",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A positive charge q and a negative charge -q are placed at x = -a and x = +a respectively. The variation of V along x-axis is represented by the graph  V  -q  x  +q",
+    "question_diagram": "/images/last_leap_pz2/p279_q116.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "x = -a O  x a  =   V  - q +q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x   O  x a  =   V  -q +q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O x a  = - x a  =   x  V  x a  = - x a  = + -q +q  x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q117",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "An earthed conducting sphere",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Always have zero charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Always have zero potential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May have positive charge",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q118",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Neutral metal sphere of radius R is connected to earth through a switch S which is initially open. Two charges +3Q and +2Q are kept at 9R and 3R distances from the centre of the sphere as shown. When switch is closed, the charge flown from the sphere to the earth is  3Q O  9R  S  3R 2Q",
+    "question_diagram": "/images/last_leap_pz2/p280_q118.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "- Q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 3Q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 - 3  Q",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q119",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A capacitor of capacity 10 μF is charged by a battery of emf 10 V. Energy stored in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5 mJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 μJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.5 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q120",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Force between plates of an isolated, charged parallel plate capacitor separated by distance r is F. If the separation between the plates is doubled, then force between the plates will become",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q121",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is correct regarding electrostatics of conductors?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The interior of a conductor with no cavity can  have no excess charge in the static situation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrostatic potential is constant throughout  the volume of the conductor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electrostatic potential has same value inside  as that on its surface",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q122",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two small metallic spheres with charge Q and 3Q repel each other with a force F. If the two are joined by a thin wire, then repulsive force between them will be  4 3 F",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F  2 3 F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q123",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Effective capacitance between A and B of the network shown in the figure is  C  C C  C  C  C  A C C B  4 3 C",
+    "question_diagram": "/images/last_leap_pz2/p280_q123.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7 12 C  7 8 C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q124",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "27 small spherical mercury drops each of radius r and each having same charge q are combined to form a big spherical drop. The ratio between the potential of the bigger drop to that of a small drop is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "27",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "18",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q125",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Two identical geometry capacitors one with dielectric and other with air between the plates are shown in the figure. They are charged by a battery of emf V. The work done by battery in charging both the capacitors fully is  K = 4  C  V",
+    "question_diagram": "/images/last_leap_pz2/p280_q125.png",
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q126",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "A potential difference will not appear between two thin concentric shells of radius R1 and R2 (R1 > R2) by which of the following process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "When a charge is given to inner shell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "When a charge is given to outer shell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "When equal charge is given to both the shells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q127",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Find equivalent capacitance between A and B  A B  - + C  C C  C  C  C",
+    "question_diagram": "/images/last_leap_pz2/p281_q127.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 11C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secA_q128",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section A (Objective)",
+    "question_text": "Uniform electric field of magnitude 100 V/m in space is directed along the line y = 3 + x. Find the potential difference between point A(3, 1) and B(1, 3).",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "200 2 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "200 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secB_q1",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A charged capacitor is disconnected from a  battery. Now if its plates are separated farther, the electric field between plates will remain the same.  σ ε and\nReason (R): The electric field between the plates is   0  charge density remains same on separation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secB_q2",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A negatively charged body can have zero  potential.\nReason (R): The electric potential can be zero at a point  where electric field is non-zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secB_q3",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A capacitor can be given only a limited quantity  of charge.\nReason (R): The capacity of a capacitor depends upon area  of overlapping of plates.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secB_q4",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electron always moves from a region of higher  potential to a region of lower potential.\nReason (R): Electron is a positively charged particle.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secB_q5",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If a dielectric is inserted to fill the gap between  the plates of a capacitor connected to a battery, then electric field inside the capacitor decreases.\nReason (R): Magnitude of electric field inside a medium is  1 K times the potential gradient in that  medium.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secB_q6",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electrostatic potential at every point inside a  charged metal sphere is same as that on surface.\nReason (R): Work done in moving a test charge from  surface to any part inside is zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secB_q7",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A point charge q is rotated along a circle in the  electric field generated by another point charge q. The work done by the electric field on the  \u0002\u0003 \u0002\u0003 \u0002  rotating charge in one complete revolution around that charge is zero.\nReason (R): Work done will be zero in moving charge on  an equipotential surface.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_15_electrostatic_potential_and_capacitance_secB_q8",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Corona discharge takes place readily at  sharper points.\nReason (R): Electrical potential at sharp points is more than  that at the blunt points.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

@@ -1,0 +1,2599 @@
+[
+  {
+    "question_id": "phy_21_wave_optics_secA_q1",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following property of light is a sure proof of wave nature of light?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Interference",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diffraction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Photoelectric effect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q2",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "On superposition of two waves y1 = 3 sin (ωt - kx)  and y2 = 4 sin  2 t kx π   ω      at a point, the  amplitude of resulting wave will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q3",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young's double slit experiment a slit is covered with thin film so that the optical path difference introduced between coherent waves is 5λ. Then the new position of central maxima will be at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The initial position of 5th maxima",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The initial position of 3rd minima",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The initial position of 2nd minima",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The initial position of 3rd maxima",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q4",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young's double slit experiment using a light of wavelength 'λ', 60 fringes are seen on a screen. If the wavelength of light is decreased by 50% then the number of fringes on the same screen will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "120",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q5",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "The polarising angle for a material is 60º then the refractive index of material is  1  3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "3 2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q6",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "The geometrical path of ray of light in a medium of refractive index 2 is 8 m. The optical path is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "16 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q7",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young's double slit experiment if separation of the screen is increased from slits, the fringe width will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain the same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of the above depending on the wavelength  of the light used",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q8",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Five identical polaroids are placed coaxially with 45º angular separation from adjacent one as shown in figure (I0 : Intensity of unpolarised light)  (5)",
+    "question_diagram": "/images/last_leap_pz2/p333_q8.png",
+    "options": [
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "I I0  The intensity I of light emerging out of 5th polaroid is  0 8 I  0 4 I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 16 I  0 32 I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q9",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young double slit experiment, how many minimas can be obtained on a screen, if wavelength of light used is 2000 Å and slit width is 0.0008 mm",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q10",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "When YDSE is carried out in liquid, 5th bright fringe lies at a point on the screen where 3rd dark fringe was lying in air. The refractive index of the medium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q11",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Y.D.S.E., the ratio of maximum intensity at a point to the intensity at same point when one slit is closed",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q12",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Two light sources are said to be coherent when, their",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amplitude are equal and have constant phase  difference",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Wavelengths are equal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intensities are equal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Frequencies are equal and have constant  phase difference",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q13",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Two light waves given below superimpose at a point   π  πt a      y1 = asin2πt, y2 =  . 3 2 sin 2    The resultant amplitude of the wave is",
+    "question_diagram": "/images/last_leap_pz2/p334_q13.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6 a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q14",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "When a transparent sheet of thickness t and refractive index μ is introduced in one of the paths in YDSE having slit width d and distance between slit and screen is D, then the fringe pattern shifts by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "t D d )1 - (μ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t D  d  )1 - (μ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t d D )1 - (μ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D dt  )1 - (μ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q15",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement is not true for polarisation of light?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Light vibrations are restrained only in one plane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Establishes longitudinal nature of light",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intensity of light decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q16",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "The intensity of the polarized light becomes  a 1 times its initial intensity. The angle between  the axis of analyser and polarizer is        θ  1 tan 1 -",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 - tan 1 - a  θ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "   a        θ  1 sin 1 -",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": ") 1 - ( sin 1 - a  θ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "   a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q17",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Which statements is true for interference?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Two independent source of light can produce  interference",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "There is no violation of conservation of energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "White light cannot produce interference",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Interference pattern can be obtained even if  coherent sources are widely apart",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q18",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Y.D.S.E., if the intensity ratio of bright and dark fringes is 81 : 25. The ratio intensity of two waves is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 49",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "49 : 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 : 40",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q19",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Two monochromatic waves each of amplitude A  π.  have a phase difference between them is 2  When they superimpose then the amplitude of the resultant wave is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q20",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the followings is correct regarding scattering of light?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The light of shorter wavelengths is scattered  much more than that of large wavelengths if size of scatterer a >> λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The light of longer wavelengths is scattered  much more than that of shorter wavelengths if size of scatterer a >> λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All wavelength scattered equally if size of  scatterer a << λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All wavelengths scattered equally if size of  scatterer a >> λ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q21",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "A screen is placed 100 cm from a single slit which is illuminated with 5000 Å light. If distance between the first and third minima in the diffraction pattern is 5 mm. The width of the slit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 mm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2 μm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 × 10-4 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 × 10-5 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q22",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "When a light of certain wavelength is incident on a plane surface of a material of a glancing angle 30°, the reflected light is polarised. The angle of refraction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q23",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In a double slit experiment, the distance between the slit is d. The screen is at a distance D from the slits and λ is the wavelength of light used. If a dark fringe is formed opposite to a slit on the screen, the order of fringe is  λ  2  2  D d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "D  λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "λ  2 ) ( - d D  2  λ  d D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d  λ  2  2 d D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "λ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q24",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Y.D.S.E., if a liquid is filled between the space of screen and slit, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Central bright fringe will shift upward",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Central bright fringe will not shift",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Central bright fringe will shift downward",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Central fringe may shift downward or upward",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q25",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Y.D.S.E. if the width of the slits are gradually decreased, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bright fringe will become brighter and dark fringe  become darker",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bright fringe become less bright and dark fringe  become less dark",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bright fringe become brighter and dark fringe  become lighter",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bright fringe become less bright and dark fringe  become darker",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q26",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Light waves of intensities I and 9I interfere to produce a fringe pattern on a screen. The phase  3π  difference between the wave at a point P is 2  and  2 π at other point Q. Then the ratio of intensities at  P and Q is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 : 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 : 8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q27",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In YDSE, two thin transparent film of mica and glass are put in the path of two waves from coherent sources S1 and S2. If their thickness are 3t and 2t respectively, what should be refractive index of mica so that central maxima is found at O (μglass = 1.5)?  3t  S1  O  S2  2t  D",
+    "question_diagram": "/images/last_leap_pz2/p335_q27.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1.25",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.75",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.33",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q28",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In a Young's double slit experiment sources of equal intensities are used. Distance between slits is d and wavelength of light used is λ (λ << d). Angular separation of nearest points on either side of central maximum where intensities become half of the maximum value is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "d λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2d λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4d λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6d λ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q29",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Angular width of principal maximum in Fraunhoffer single slit diffraction is 0.1 radian. Angular width of second order secondary maxima is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.05 radian",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 radian",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 radian",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.25 radian",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q30",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "The slit in a double slit interference experiment are illuminated by a light of wavelength λ = 600 nm. A thin transparent sheet of thickness t is placed in front of one of the slits. The number of fringe shifting is plotted across the refractive index μ of the sheet as given. The value of t is  60 N (No. of fringe shifted)  50  40  30  20  10  μ",
+    "question_diagram": "/images/last_leap_pz2/p336_q30.png",
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q31",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young's double slit experiment, distance between the slits is 1 mm. Wavelength of the light used is 600 nm. Fringe width of interference pattern  (as shown in figure) is  A  S1  C 1 mm  S2  B",
+    "question_diagram": "/images/last_leap_pz2/p336_q31.png",
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q32",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Four coherent sources of intensity I are superimposed constructively at a point. The intensity at that point is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q33",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young's double slit experiment, intensity at the point of maxima and minima are I0 and zero respectively. Intensities of individual sources are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4I0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 2 I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2I0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 4 I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q34",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Two coherent light sources S1 and S2 are kept at equal distances λ from the centre of circle on the same plane of the circle as shown in figure. In one complete revolution on the circular path, number of maxima observed is (λ = wavelength of light used)  S1 S2 O λ λ",
+    "question_diagram": "/images/last_leap_pz2/p336_q34.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q35",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of intensities in consecutive maxima in a diffraction pattern due to a single slit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 4 4 1: : 9 25 π π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 4 1: : 9 25",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 4 9 1: : π π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1: 4 : 9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q36",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In an interference pattern, position of central maxima is 5 mm from a certain point P on the screen. The fringe width is 0.6 mm. The distance of third minima from point P is",
+    "question_diagram": "/images/last_leap_pz2/p336_q36.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3.2 mm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.3 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.5 mm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.8 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q37",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young's double slit experiment the separation between the slits is 4λ (λ is the wavelength of the light used). The maximum number of maxima formed on the screen placed at a distance of 1 m from the slits, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "11",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q38",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young's double slit experiment, separation between the slits is 0.5 mm. Source of light S is placed at a distance of 0.5 mm from the slit S1 as shown in the figure. To have central maxima at mid-point O the glass plate of refractive index 1.5 is placed in front of S1. The thickness of the plate is",
+    "question_diagram": "/images/last_leap_pz2/p336_q38.png",
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q39",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "A plano-convex lens is placed on a plane glass plate such that convex surface is in contact with the plate. The thin air film between glass plate and lens is illuminated by monochromatic light source above the lens. The interference pattern from the thin film are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Concentric circular rings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parallel equispaced straight lines",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Elliptical lines",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hyperbolic lines",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q40",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "If 5th order maxima of wavelength 4000 Å in Young's double slit experiment, coincides with nth  order maxima of wavelength 5000 Å, then n is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q41",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "A light of wavelength 6000 Å in air enters a medium of refractive index 1.5. Frequency and wavelength of light in the medium respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 × 1014 Hz, 6000 Å",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 × 1014 Hz, 4000 Å",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 3 × 1014 Hz, 4000 Å",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 3 × 1014 Hz, 6000 Å",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q42",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Ratio of angular width of principal maximum to the angular width of second secondary maximum in single slit diffraction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q43",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Resolving power of a microscope can be increased by using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Red light",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Blue light",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oil between objective lens and object",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q44",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Monochromatic light of wavelength λ in air is refracted into a glass slab of refractive index μ. The wavelength of light in glass is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "μλ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "λ μ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 λ  μ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q45",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Two coherent sources are 0.3 mm apart. They are 1 m away from the screen. The second dark fringe is at a distance of 0.3 cm from the centre. Distance of fourth bright fringe from the centre is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.16 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.6 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.8 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q46",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Assume that light of wavelength 7000 Å is coming from a star. The limit of resolution (in radian) of a telescope whose objective has a diameter of 244 cm, will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 × 10-7",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.0 × 10-7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.5 × 10-7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.5 × 10-7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q47",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Light of wavelength 5000 Å travelling at a speed of 2 × 108 m/s in medium 1 is incident on a boundary and gets refracted into medium 2. Its wavelength after refraction is found to be 5500 Å. Which of the following is incorrect?  11 10",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Refractive index of medium 2 is",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "On entering medium 2, light bends away from  normal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Speed of light is more in medium 2 than in  medium 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Its frequency remains unchanged",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q48",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Two coherent light sources A and B with separation 2λ are placed on x-axis symmetrically about the origin. They emit light of wavelength λ. Find the number of positions of maxima on a circle of large radius, lying on the x-y plane with centre at the origin",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q49",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Yellow light is used in a single slit diffraction pattern with slit width of 0.5 mm. If yellow light is replaced by X-rays, then the observed pattern will reveal",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "No diffraction pattern",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More narrow central maximum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "More number of fringes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Less number of fringes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q50",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Young's double slit experiment is performed in a liquid. The 10th bright fringe in the liquid lies where the 8th dark fringe lies in vacuum. Refractive index of  the liquid is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.81",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.67",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.54",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.33",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q51",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young's double hole (slit) experiment using light of wavelength 6000 Å, the angular width of fringe formed on a distant screen is 0.1°. The slit separation is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.34 mm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.34 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.34 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.034 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q52",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Intensity at the centre in YDSE is I0. If one of the slits is covered then, intensity at centre will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2I0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 4 I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 2 I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q53",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "A diffraction pattern is obtained by using a beam of red light. What will happen, if the red light is replaced by blue light?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bands will become narrower",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bands become broader",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No change will take place",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bands disappear",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q54",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "When a thin transparent plate of thickness t and refractive index μ is placed in the path of one of the  two interfering waves of light, then the extra path difference created between two waves due to the plate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(μ + 1)t",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(μ - 1)t  1 μ       t",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "μt",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q55",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "If ratio of amplitudes of two coherent sources producing an interference pattern is 3 : 4, then ratio of intensities at maxima and minima is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 : 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9 : 16",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "49 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25 : 7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q56",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Two coherent sources are 0.3 mm apart. They are 1 m away from the screen. The second dark fringe is at a distance of 0.3 cm from the centre. Distance of fourth bright fringe from the centre is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.6 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.8 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.12 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q57",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not based on interference of light?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Newton's rings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Colours of soap bubble",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Optical activity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Colors on the wings of a tropical butterfly",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q58",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In Young's double slit experiment, the slit separation is made 3 fold. The fringe width becomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 9 times  1 3 times",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9 times",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 times",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q59",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "The condition of observing Fraunhoffer's diffraction from single slit is that the light wave front incident on slit should be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Elliptical",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Spherical",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Planar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cylindrical",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q60",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Huygens wave theory allows us to know the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wavelength of the wave",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Velocity of the wave",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amplitude of the wave",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Propagation of wavefronts",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q61",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "The graph between resolving power and accelerating potential V for an electron microscope is (P is resolving power)  P  P",
+    "question_diagram": "/images/last_leap_pz2/p338_q61.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "V  V  P  P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "V  V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q62",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In YDSE, an electron beam is used to obtain interference pattern. If speed of electrons is increased",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "No interference pattern will be observed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Distance between two consecutive fringes  remains same",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Distance between two consecutive fringes will  decrease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Distance between two consecutive fringes will  increase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q63",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "Huygen's principle of secondary wavelets may be used to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Explain Snell's law",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Find velocity of light in vacuum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Find new position of a wavefront",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q64",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "In a YDSE, let X and Y be the upper and lower slits. A thin film of thickness t and refractive index μ is placed infront of X. Let β = fringe width. The central maximum will shift",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Downward",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Upward",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "By ( 1) t β μ λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secA_q65",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section A (Objective)",
+    "question_text": "A beam of unpolarised light of intensity I0 is passed first through a tourmaline crystal A and then through another tourmaline crystal B oriented so that its principal plane is parallel to that of A. The intensity of final emergent light is I. The value of I is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 2 I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 4 I  0 8 I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secB_q1",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The maximum intensity in YDSE is four times  the intensity due to each slit when slits are identical.\nReason (R): The phase difference between the interfering  waves is 2nπ at the position of maxima where n = 0, 1, 2, ........",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secB_q2",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): No sustained interference pattern is obtained  when two electric bulbs of same power are taken.\nReason (R): Phase difference between waves coming out of  electric bulbs is not constant.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secB_q3",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When a thin transparent sheet is placed in  front of one of the slits in YDSE, the fringe of zero order shifts to some other position.\nReason (R): On placing thin transparent sheet in front of a  slit, the position of zero path difference on the screen changes.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secB_q4",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Light of different colours travel with different  speeds in vacuum.\nReason (R): Speed of light depends on mechanical  properties of the medium.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secB_q5",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Nicol prism is used to produce and analyse  plane polarised light.\nReason (R): Nicol prism reduces the intensity of light to  zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secB_q6",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If the background of two microscopic objects  is blue, then they are resolved well by mircroscope.\nReason (R): Resolving power is inversely proportional to  wavelegnth of light used.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secB_q7",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): On increasing the phase difference from   to  3 2 π π in YDSE, the intensity decreases by  1 3 rd.  \u0002\u0003 \u0002\u0003 \u0002\nReason (R): 2 0 4 cos 2 I I θ   with usual symbol meanings.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secB_q8",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If complete YDSE is dipped in liquid from air  then fringe width decreases.\nReason (R): Wavelength of light decreases, when we move  from air to liquid.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_21_wave_optics_secB_q9",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Light waves can be polarised.\nReason (R): Light waves are transverse.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

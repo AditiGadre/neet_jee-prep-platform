@@ -60,9 +60,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
     {
       id: 'what-extra' as TabType,
       label: '2. What Extra We Offer',
-      sublabel: 'Custom DPP, 10K Flashcards, Mind Maps, NCERT Audio',
+      sublabel: 'Custom DPP, Chapter Tests & Analytics',
       icon: Sparkles,
-      badge: '8 Tools'
+      badge: '4 Tools'
     },
     {
       id: 'about-exam' as TabType,
@@ -74,12 +74,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
   const extraSubModules = [
     { id: 'custom-test', label: 'Custom Practice Test Generator', icon: Sliders },
-    { id: 'flash-cards', label: 'Interactive Flashcards', icon: Layers },
-    { id: 'mind-maps', label: 'Visual Mind Maps', icon: Network },
     { id: 'analytics', label: 'Performance Analytics', icon: LineChart },
     { id: 'dpp-generator', label: 'DPP', icon: FileSpreadsheet },
-    { id: 'books', label: 'NCERT Notes & eBooks', icon: BookMarked },
-    { id: 'pyqs', label: 'NEET/JEE PYQ Bank', icon: HelpCircle },
     { id: 'my-downloads', label: 'My Download Vault', icon: ArrowDownToLine }
   ];
 

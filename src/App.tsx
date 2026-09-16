@@ -20,6 +20,7 @@ import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
+import { TermsAndConditionsModal } from './components/TermsAndConditionsModal';
 
 const SectionLoadingFallback = () => (
   <div className="flex flex-col items-center justify-center min-h-[350px] w-full p-8 text-center animate-in fade-in duration-200">
@@ -103,6 +104,7 @@ export default function App() {
   const [isUploadModalOpen, setIsUploadModalOpen] = useState(false);
   const [uploadSubject, setUploadSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Biology');
   const [uploadChapter, setUploadChapter] = useState<string>('Molecular Basis of Inheritance');
+  const [isTermsModalOpen, setIsTermsModalOpen] = useState(false);
 
   // User History & Stats - Load from localStorage if available
   const [completedTests, setCompletedTests] = useState<UserTestResult[]>(() => {
@@ -503,6 +505,26 @@ export default function App() {
 
             {activeTab === 'about-exam' && <AboutExamSection />}
           </Suspense>
+
+          {/* Institutional Platform Footer */}
+          <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2.5">
+            <div className="text-[11px] text-slate-500">
+              © 2026 NeetCbt Exam Test. All rights reserved. Academic CBT Examination Simulator.
+            </div>
+            <div className="flex items-center space-x-3 text-[11px]">
+              <button
+                type="button"
+                onClick={() => setIsTermsModalOpen(true)}
+                className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+              >
+                Terms & Conditions
+              </button>
+              <span>•</span>
+              <span className="text-slate-400">2-Device Protected</span>
+              <span>•</span>
+              <span className="text-slate-400">DOB PIN Encrypted</span>
+            </div>
+          </footer>
         </main>
       </div>
 
@@ -609,6 +631,14 @@ export default function App() {
             documentTitle={dobModalState.documentTitle}
             category={dobModalState.category}
             onVerified={dobModalState.onVerified}
+          />
+        )}
+
+        {/* Terms & Conditions Modal */}
+        {isTermsModalOpen && (
+          <TermsAndConditionsModal
+            isOpen={isTermsModalOpen}
+            onClose={() => setIsTermsModalOpen(false)}
           />
         )}
       </Suspense>

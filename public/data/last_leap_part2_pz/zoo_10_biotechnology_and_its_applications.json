@@ -1,0 +1,2617 @@
+[
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q1",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "An example of gene therapy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Preparation of two DNA sequences  corresponding to A and B chains of human insulin and introducing them in the plasmids of E. coli to produce insulin chains",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Introduction of a functional ADA c-DNA (using  retroviral vector) in the lymphocytes which are subsequently returned to the patient",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bt-toxin gene transferred from the bacteria into  the host plant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Using Agrobacterium vectors, nematode  specific genes are introduced into host plant for RNA interference",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q2",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzyme cannot be used in ELISA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Catalase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peroxidase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "β-galactosidase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glucose oxidase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q3",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "RNAi takes place in all eukaryotic organisms as a method of cellular defence. This method involves silencing of specific mRNA by forming",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ssDNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "tRNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "dsRNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "dsDNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q4",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzymes is used in ELISA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sucrase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Catalase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "EcoRI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enzyme β-galactosidase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q5",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Father of genetic engineering is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alec Jeffrey",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Paul Berg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kary Mullis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Smith",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q6",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is used in RNAi to silence the mRNA of Meloidogyne incogonita infecting tobacco plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ssDNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "dsDNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "tRNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "dsRNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q7",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Amongst the following, which is not a transgenic organism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polly",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Molly",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rosie",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dolly",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q8",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "All of the following statements are correct in respect of gene therapy, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It allows correction of genetic defect in  embryonic stage only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The genes are inserted into cells and tissues  to treat a disease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Delivery of a normal gene into cell takes over  the function of and compensate for the non- functional gene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "As a step towards gene therapy to treat ADA  deficiency, ADAcDNA is introduced into cultured lymphocytes of the patient and subsequently returned to him/her.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q9",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Golden rice is rich in vitamin A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Human protein (α-1 antitrypsin) obtained from  transgenic animals is used to treat emphysema",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Human protein enriched milk, which contained  the human alpha-lactalbumin was produced by transgenic cow, Molly",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "TPA (Tissue Plasminogen Activator) is used by  the doctors to dissolve clots after heart attack in patients",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q10",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Silencing of polygalactouronase gene in Flavr Savr variety of tomato did not promote",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Delayed ripening of tomato",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Superior taste in the tomato",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Retention of flavour of tomato for much longer  time than that of normal tomato variety",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nematode resistance in crop",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 491,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q11",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Match the Column-I with Column-II  Column-I Column-II  a. TPA (i) Dissolves blood clots in  heart patients  b. PDGF (ii) Increases fertility  c. OKT-3 (iii) Prevents kidney  transplant rejection  d. hCG (iv) Stimulates wound healing",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(i), c(iii), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q12",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "RNAi takes place in all eukaryotic organisms as a method of cellular defence. This method involves silencing of specific mRNA. The source of the insert RNA could be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "From an infection by virus having RNA genome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mobile genetic elements (transposons) that  replicate via an RNA intermediate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tobacco plant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q13",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Indian government has set up an organisation which makes decisions regarding validity of GM research and safety of introducing GM organisms for public services. Mark the organisation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "GEAC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "IBC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MOEF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "FDA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q14",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The use of RNA interference against Meloidogyne incognita infection in roots of tobacco plants involves",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prevention of translation by parasite in host  plant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prevention of mRNA synthesis by host plant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Use of ssDNA to destroy mRNA synthesised  by parasite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Introduction of nematode specific proteins into  the host plant using cosmid vectors",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q15",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The technique of replacing a defective mutant allele with a functional one in an individual's cells to treat hereditary diseases is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Molecular diagnostics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Genetic modification",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gene therapy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gene cloning",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q16",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The first gene therapy was given in 1990 to a 4- year old girl child with adenosine deaminase (ADA) deficiency. What could be a permanent cure for this disorder?  A. Enzyme replacement therapy  B. Lymphocytes from the blood of the patient are grown in a culture outside the body. A functional ADA cDNA is then introduced into these lymphocytes, which are subsequently returned to the patient  C. Gene isolated from marrow cells producing ADA is introduced into the cells at an early embryonic stage",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both A & B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B & C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q17",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Golden rice was created by introducing",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RNA interference gene in rice",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carotene synthesising gene in rice",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cry gene in rice",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Antisense RNA synthesising gene in rice",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q18",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following recombinant proteins has been used for the prevention of blood clots?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "OKT-3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reo Pro",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PDGF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q19",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "α-1 antitrypsin is used to treat",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cystic fibrosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rheumatoid arthritis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alzheimer's disease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Emphysema",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q20",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "First time gene therapy was done to cure",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ADA deficiency",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rheumatoid arthritis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Multiple sclerosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lung cancer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q21",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Human insulin is made in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E.coli",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Yeast",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Agrobacterium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thermus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q22",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is related to RNAi and belongs to same phylum as that of Ascaris?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Agrobacterium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Meloidegyne",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trichoderma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rhabditis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q23",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following structure is not present in mature insulin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A-chain",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B-chain",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C-chain",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q24",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "In Flavr savr variety of tomato expression of gene for the production of an enzyme 'X' is blocked for keeping the fruit fresh for long. Enzyme referred as 'X' is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cellulase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chitinase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lysozyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polygalacturonase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q25",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The protein Hirudin prevents blood clotting and its gene was introduced into a plant to obtain it from the seeds of this plant. The source of Hirudin gene was",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hirudinaria (common leech)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brassica napus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Artificially synthesized",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transformed by gene heparin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 492,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q26",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Periodic infusion of genetically engineered lymphocytes is required in a patient suffering from SCID because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insertional inactivation of recombinant gene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depletion of nutrients",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Limited life span of cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Packing up of transferred gene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q27",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "There are 27 documented varieties of Basmati  rice are grown in India",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "At present, about 30 recombinant therapeutics  have been approved for human use in the world. In India, 12 of these are presently being marketed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First transgenic cow, Rosie produced human  protein enriched milk (2.4 gms per litre), containing human alpha lactalbumin and was nutritionally a more balanced product for human babies than natural cow",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Golden rice a transgenic variety of rice which  contains β keratin on active state of vitamin A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q28",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following recombinant product has been produced by transgenic goat for treating emphysema?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tissue plasmogen activator",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "α-1 antitrypsin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lactoferrin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "α-Lactoalbumin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q29",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The first gene therapy was given in 1990 to a 4 year old girl. This girl was suffering from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Huntington chorea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SCID",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cystic fibrosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Turner's syndrome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q30",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect match?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bt Cotton - Resistant to boll worm  infestation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Golden Rice - Vitamin B rich",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Flavr Savr tomato - Better nutrient quality,  increased shelf life",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "GR Soyabean _ Herbicide resistance",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q31",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the advantage of transgenic animals?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vaccine safety",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Study of disease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biological products",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q32",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Technique that can be used for early diagnosis includes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Recombinant DNA technology",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PCR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ELISA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q33",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "If cotton bollworms are to be controlled effectively, which of the following gene can be used to make the plant genetically modified and resistant to cotton bollworm?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cry I Ab",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cry I Ac",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cry II Ab",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q34",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Thurioside toxin produced by the bacterium Bacillus thuringiensis can kill certain harmful insects by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibiting the action of the enzyme  acetylcholinesterase by competitive inhibition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Forming pores in the cell membrane of midgut  walls, leading to osmotic imbalance and cell lysis.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inhibiting the calcium pump in the cell  membranes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Attacking the respiratory system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q35",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The first genetically modified non-human primate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Frosty",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ANDi",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Prometea",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dolly",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q36",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "In 1980 __________ was granted a patent on the first living form of a micro-organism 'super bug' that had been modified to/for __________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dr. Ananda Chakravarti, clear oil spills",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dr. Newman, prevention of frost damages",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H. Khorana, endotoxins used for insect control",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dr. Lalji Singh, chitinase enzymes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q37",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Ian Wilmut and his colleagues at the Roslin Research Institute in Scotland made Dolly clone, they took _________ cells from eve/mother sheep because they were made _________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Skin cells, totipotent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Muscle cells, pluripotent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Udder cells, pluripotent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Udder cells, differentiated",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q38",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an invalid statement w.r.t. 'Rosie'?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Transgenic cow",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Milk contains human α-lactalbumin protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protein content is 2-4 g/litre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Milk is not suitable for human use",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 493,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q39",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "A west African plant, Pentadiplandra brazzeana producing brazzein, was patented in USA which proposed to transfer the brazzein gene into maize and express it in maize kernels. Mark the incorrect statement about this plant",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Brazzein, a protein, is approximately 2000  times as sweet as sugar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is a high calorie sweetener",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The development of brazzein could have serious  implications for countries exporting large quantities of sugar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Local people have known and used super  sweet berries of this plant for centuries",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q40",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Genetically modified food (GM food) which is produced by genetically modified crops is considered to be harmful because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It causes toxicity/allergies since it is a foreign  protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enzymes produced by antibiotic resistance  genes of vectors make bacteria present in alimentary canal resistant to antibiotic  which could become difficult to manage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is poor in nutritive value",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q41",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following was the first transgenic animal produced for food production?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Transgenic pig",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Transgenic goat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transgenic salmon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transgenic cow",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q42",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Indian government has set up an organisation, _________, which will make decisions regarding the validity of GM research and the safety of introducing GM-organisms for public use",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "GEAC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Indian Patents Authority",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ministry of Forestry",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intellectual Properties Authority",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q43",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The introduction of 'nif' gene into the cereal crops was done to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prevent frost damage to the crops",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bring about nutrient enrichment of soil",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Prevent attack of army worms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ensure increase in pro vit A content in cereals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q44",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an advantage of transgenic plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pest resistant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Production of superweeds tolerant to herbicides",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "More tolerant to abiotic stress",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Prevent early exhaustion of soil fertility",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q45",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Bt cotton is often in news as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bt cotton contains cryIAc gene that makes it  resistant to corn borer pest",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High yielding, pest resistant variety of cotton,  having resistance to pest bollworms, Helicoverpa armigera",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Drought resistant variety of cotton developed by  genetic engineering",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hybrid of long staple cotton from America with  native variety",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q46",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Production of Humulin by Eli Lilly company was done in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1990",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1983",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2004",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2001",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q47",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Bacillus thuringiensis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Provides resistance in plants like Bt cotton, Bt  corn, rice etc. against abiotic stresses",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases efficiency of Bt toxin in alkaline  medium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Possesses cry gene that confers ability to  synthesise an inactive crystalline protein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Creates pores in the foregut of insects",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q48",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The main objective of production of herbicide resistant  GM crops is to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reduce herbicide accumulation in food articles  for health safety",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eliminate weeds from the field without the use  of manual labour",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eliminate weeds from the field without use of  herbicide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Encourage eco friendly herbicides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q49",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect statement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "'Bt' in 'Bt-cotton' indicates that it is a  genetically modified organism produced through biotechnology",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bt - proteins kill certain insects such as  lepidopterans, coleopterans and dipterans",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inactive Bt-prototoxins are converted into active  toxins in alkaline medium in gut of insect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bt - toxin is coded by a gene named cry",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q50",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The main challenge for production of insulin using rDNA techniques was",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Recognition of insulin gene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Separation of insulin gene from human genome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Getting insulin assembled into a mature form",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 494,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q51",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "When transgene is introduced into genome of an organism, we can achieve the required results if",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It produces a protein that is the product in  which we are interested",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It should modify an existing biosynthetic  pathway so that a new end product is obtained",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It should prevent the expression of an existing  native gene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q52",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The aim behind introduction of human α- lactalbumin gene in cow was",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "To create a transgenic cow Rosie",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "To bring about protein enrichment of cow milk,  which forms a more balanced diet for human babies",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "To disapprove concept of molecular pharming",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "To create a transgenic model for treating  emphysema",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q53",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "An improved variety of transgenic basmati rice",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gives high yield and is rich in vitamin A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is completely resistant to all insect pests and  diseases of paddy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gives high yield but has no characteristic  aroma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Does not require chemical fertilizers and growth  hormones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q54",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the transgenic protein used for treat emphysema?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alpha lactalbumin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alpha IFN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alpha 1-antitrypsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gamma IFN",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q55",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Genetic modification of rice has led to its",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reduced post harvest loss",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enhanced nutritional value",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increased protein content",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Resistance against pest attack",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q56",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Insulin cannot be synthesized by introducing natural human gene in bacteria because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Natural human genes are split genes, they do  not express their effects in bacteria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prokaryotes are not able to remove intron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Getting insulin assembled into mature form",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q57",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "A single stranded DNA or RNA tagged with radioactive molecule (probe) is allowed to hybridise to its complementary DNA in a clone of cells followed by detection using radiography. Clone appears on photographic film is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mutated gene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Normal gene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Non-complementary gene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q58",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can't be produced by recombinant DNA technology?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "α interferon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "α antitrypsin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insulin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Haemoglobin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q59",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct about the transgenic 'golden' rice?  A. Transgenic 'golden' rice was developed by Swiss bioengineer Ingo Potrykus  B. Transgenic rice was developed to overcome the deficiency of iron and vitamin A  C. Genes have been added to rice to enhance its β-carotene content and thus combat vitamin A deficiency  D. Rice has too little sulphur for iron absorption, so gene encoding a particular sulphur-rich metallothionin protein was transferred into rice from wild rice",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A & B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A & C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B, C & D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q60",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a use of Bt toxin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They do not wash off the plant, as they are  produced inside the crop",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They are active against the target insects.  Other insects are non-harmed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They are not fully biodegradable",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They would allow reductions in the doses of  chemical insecticides that are applied to cotton fields and that negatively affect a number of organisms other than those they are intended to control",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q61",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Bt toxin produced by the bacteria Bacillus thuringiensis is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Exotoxin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endotoxin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Non-biodegradable",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Herbicide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q62",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Small oligonucleotides capable of recognizing complementary sequences are known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "cDNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hybridoma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Repetitive DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Molecular probe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 495,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q63",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a function or characteristic feature of probe?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A single stranded DNA or RNA, tagged with a  radioactive molecule, is probe, is allowed to hybridise to its complementary DNA in a clone of cells followed by detection using autoradiography",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The clone having the mutated gene will not  appear on the photographic film because the probe has no complementarity with mutated gene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In PCR technique, probe is used to detect HIV  in suspect AIDS patients",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Detection of a pathogen by probe is based on  the principle of antigen-antibody interaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secA_q64",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section A (Objective)",
+    "question_text": "The genetically modified brinjal in India has been developed for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insect resistant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enhancing shelf life",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enhancing mineral content",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Making it enriched with vitamin A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secB_q1",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In order to force bacteria to take up the  plasmid, the bacterial cell must first be made 'competent' to take up DNA.  \u0002\u0003 \u0002\u0003 \u0002\nReason (R): DNA is a hydrophilic molecule and cannot pass  through cell membrane easily.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secB_q2",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): RNAi is the phenomenon of inhibiting activity of  a gene through production of sense and antisense RNAs.\nReason (R): RNA interference (RNAi) involves silencing of a  specific m-RNA due to complementary ds RNA that binds to and prevents translation of the m-RNA.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secB_q3",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The transgenic GMO tomato called Flavr-Savr  has much longer and more flavourful shelf life.\nReason (R): This is achieved by reducing the amount of  cell wall degrading enzyme 'polygalacturonase' responsible for fruit softening.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secB_q4",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Human protein (α-1 antitrypsin) is used to treat  emphysema.\nReason (R): Cigarette smoking inhibits the action α-1  antitrypsin.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secB_q5",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): RNA interference involves silencing of an mRNA  due to complementary RNA molecule that binds to and prevents translation of it.\nReason (R): The source of this complementary RNA could  be an infection by viruses having RNA genome or transposons.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secB_q6",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Human protein (α-1-antitrypsin), a biological  product formed by r-DNA technique, is used to treat emphysema.\nReason (R): Human gene for α-1-antitrypsin has been  transferred in sheep and expressed in mammary tissues.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secB_q7",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Transgenic animals are useful for production of  biological products for human welfare.\nReason (R): α-1-antitrypsin produced by recombinant DNA  technology is used to treat cystic fibrosis.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secB_q8",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Transgenic animals used for testing toxicity of  drugs are made more sensitive to those toxic drugs.\nReason (R): Toxicity testing in such animals will allow us to  obtain results in less time.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_10_biotechnology_and_its_applications_secB_q9",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and Its Applications",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In nucleic acid hybridization, the clone having  the mutated gene will not appear on the photographic film.\nReason (R): The probe has no complementarity with the  mutated gene.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 496,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

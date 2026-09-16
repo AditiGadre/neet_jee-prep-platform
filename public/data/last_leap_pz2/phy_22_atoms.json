@@ -1,0 +1,2657 @@
+[
+  {
+    "question_id": "phy_22_atoms_secA_q1",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "According to Bohr's theory the radius of electron in an orbit described by principal quantum number n and atomic number Z is proportional to  2  2 Z n",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Z2n2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 Z  2 n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "n",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Z",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q2",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "If the potential energy of electron in Bohr's atomic model of hydrogen is taken as zero in its first orbit then the P.E. of electron in the 2nd orbit of same hydrogen atom will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 6.8 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-3.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "27.2 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q3",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "In case of a hydrogen like atom when an electron jumps from n = 4 to n = 3 it gives ultraviolet radiation. The radiation of visible spectrum region may be obtained when transition of electron is from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n = 4 to n = 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n = 3 to n = 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "n = 5 to n = 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n = 5 to n = 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q4",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "When a hydrogen atom is excited from ground state to first excited state its potential energy",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases by 10.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases by 10.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increases by 20.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decreases by 20.4 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q5",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of energy of electron in hydrogen atom and hydrogen like helium ion in first orbit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q6",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "An electron in Bohr's hydrogen atom has angular  momentum 2  h . The energy of the electron is  π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "- 3.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- 0.64 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 0.85 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "- 10.25 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q7",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Ratio of speed of electron in first orbit of H-atom to the speed of light is equal to  1 137",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "137",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 83",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 47",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q8",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The energy of an electron in the first orbit of H-atom is (Symbols have their usual meaning)  h",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "Rh",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Rc  c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- Rch",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ch  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q9",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "If the radius of first Bohr orbit is x, then de-Broglie wavelength of electron in 3rd orbit is nearly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2πx",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6πx",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q10",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The angular momentum of an electron in H-atom is  h π, where h is Planck's constant. The kinetic  energy of the electron is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "13.6 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6.8 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "27.2 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q11",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "A stationary atom of mass m emits a photon of wavelength λ. The recoil speed of the atom is  λ  h mλ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "mh",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "mh  h λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q12",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The electron in H-atom undergoes a transition from 4th state to ground state. The maximum number of emission lines will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q13",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "When the electron in a H-atom jumps from 6th excited state to 2nd excited state, the maximum number of emission lines will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q14",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "In the diagram shown below two atomic transitions are shown. If λ1 = 3000 Å and λ2 = 6000 Å, then λ will be  λ1 λ  λ2",
+    "question_diagram": "/images/last_leap_pz2/p342_q14.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2000 Å",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4000 Å",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4500 Å",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9000 Å",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q15",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "If energy of the electron in an H-atom in ground state is taken to be zero, then kinetic energy of the electron in the first excited state will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6.8 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10.2 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "13.6 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q16",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "A metal of atomic number (Z) is used as target in a Coolidge tube. Let f be frequency of the Kα Corresponding value of Z and f are known for a number of metals. Which of the following plots will give a straight line?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "f against Z",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "f against Z",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 f against Z",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "f against Z",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q17",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The ionization potential of H atom is -13.6 V. Photons of energy 12.75 eV are made to incident on sample of H atoms at ground state. How many spectral lines are expected in emitted radiation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q18",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of maximum wavelength of Lyman series in hydrogen spectrum to maximum wavelength in Balmer series is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "27 : 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 : 27",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 : 7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15 : 17",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q19",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not true for Bohr model of hydrogen atom?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Radius of nth orbit is proportional to n2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Total energy of electron in nth orbit is  proportional to  2 1  n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Angular momentum of electron in nth orbit is  proportional to n",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Total energy of electron is equal to its kinetic  energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q20",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "In the figure shown, the wavelength and frequency of photons in transition a, b and c for hydrogen atoms are λa, λb, λc and νa, νb and νc respectively then  λa  λb λc",
+    "question_diagram": "/images/last_leap_pz2/p342_q20.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "νb = νa + νc",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "νc = νa + νb  ν λ  ν λ  ν  b b a a c ν λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c a  λ λ  λ  c a b λ  λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "c a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q21",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Let f1 be the maximum frequency of Lyman series, f2 be the frequency of first line of Lyman series and f3 the frequency of series limit of Balmer series. Then which of following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "f1 - f2 = f3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "f2 - f1 = f3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "f1 + f2 = f3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2f1 = f2 + f3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q22",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "When an electron of hydrogen like atom jumps from a lower energy level to a higher energy level. Its",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetic energy increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Angular momentum decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "de-Broglie wavelength associated with electron  increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Angular momentum remains constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q23",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The angular momentum of an electron in the  hydrogen atom is  π 2 5h , where h is Planck constant,  its kinetic energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.549 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "13.6 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q24",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "If velocity of an electron in third energy level of a hydrogen like atom is v, then velocity of electron in fifth energy level is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 5 v",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "v 25 9",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "v 9 25",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "v 9 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q25",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bohr's theory is applicable to hydrogen atom  only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Circumference of orbit of an electron in Bohr's  model is equal to an integral multiple of de-Broglie wavelength of electron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All the lines of Bohr series lie in visible  spectrum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "When photons is emitted from an atom only  energy is conserved",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q26",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "According to Bohr's atomic model",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mass of electron remains constant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The nucleus is of infinite mass and is at rest",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electron in a quantized orbit will not radiate  energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q27",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The recoil speed of hydrogen atom when it emits a photon during transition from n = 3 to n = 1 is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "38.6 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.86 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.38 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q28",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Wavelength of first line in Balmer Series of hydrogen specturm is λ, then wavelength of second line in this series is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "λ 27 20",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "λ 20 27",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "λ 27 25",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "λ 25 27",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q29",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "In Bohr model of hydrogen atom, the force on the electron depends on the principle quantum numbers as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 1 ∝ F n",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 1 ∝ F n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 1 ∝ F n",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Does not depend on n",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q30",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following transitions in H-atom will give the same line as the transitions 4 → 2 in He+  gives?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 → 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 → 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 → 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 → 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q31",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "An electron in an atom makes transition from the energy state E1 = -E to E2 = -1.5 E. The wavelength of the emitted photon is  hc 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "E hc",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E hc 3 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E hc 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q32",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "An electron in a hydrogen atom makes a transition from n = N1 to n = N2. The frequency of the electron in the final state is eight times that in initial state. The possible values of N1 and N2 are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N1 = 6, N2 = 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N1 = 8, N2 = 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N1 = 8, N2 = 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N1 = 4, N2 = 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q33",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following represents the ratio of maximum wavelength of Paschen series to that of minimum wavelength of Lyman series?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "137 7",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "141 7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "144 7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "106 7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q34",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "E1, E2 and E3 are energy of electron in three consecutive energy levels of hydrogen like atom, such that E1 < E2 < E3. Wavelength emitted in transition from E2 to E1 is λ1 and from E3 to E2 is λ2. Wavelength emitted in transition from E3 to E1 is  1 2 - λλ λ λ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 2 λλ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 1 2 λλ  λλ λλ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2  1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q35",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The angular momentum of an electron in Bohr's  hydrogen atom is 3h  π. The energy of the electron  is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-0.48 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-0.38 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-0.28 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-0.18 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q36",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The magnitude of magnetic moment of the electron in the nth energy state of hydrogen atom is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 n",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n-1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q37",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The difference between (n + 1)th Bohr radius and nth Bohr radius is equal to the (n - 1)th Bohr radius. The value of n is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q38",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "If the potential energy of second orbit in hydrogen atom is taken to be zero, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Potential energy of all other orbits remain  unchanged",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kinetic energy of second orbit is increased",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kinetic energy of all orbits remain unchanged",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potential energy of all orbits will decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q39",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "In order to remove one electron from neutral helium atom let x0 (eV) energy is needed. What is energy required (in eV) to remove both electrons from the helium atom?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(x0 + 50.4) eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(x0 - 54.4) eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(x0 + 54.4) eV  2 0 (",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q40",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "What is the recoil momentum of a hydrogen atom, when it returns to ground state from n = 5? (R = Rydberg constant for hydrogen)  5 6 Rh",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25 24 Rh",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 5 Rh",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 25 Rh",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q41",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "An electron having kinetic energy k0, collides with a hydrogen atom in the ground state. This collision will be elastic if",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.4 eV < k0 < 10.2 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "k0 > 10.2 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "k0 = 10.2 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "k0 < 10.2 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q42",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "If radiations ranging from ultraviolet to infrared are passed through hydrogen gas at room temperature, then the absorption lines will be observed in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lyman series",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Balmer series",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Paschen series",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q43",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Speed of the electron of hydrogen atom in 1st orbit is 2 × 106 m/s. The velocity of an electron in 3rd orbit of doubly ionized lithium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 × 106 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 × 106 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 × 106 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 × 106 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q44",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "If λD and λH be the wavelength of first Balmer line of deuterium and hydrogen respectively, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "λD < λH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "λD > λH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "λD = λH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "λD = 2λH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q45",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Frequency of revolution of electron in the first orbit of a hydrogen like atom is f. Frequency of revolution in its second orbit will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 f",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q46",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Deuterium atom in the ground state, are radiated by photon of energy 12.8 eV. What will be the energy of induced radiation of longest wavelength? (Ionisation energy of deuterium is 14.4 eV)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12.8 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10.8 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.6 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.00 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q47",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Wavelength of photon emitted from an excited hydrogen atom at rest is λ. Recoil momentum of the atom is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2h λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 h  λ  h λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 h  λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q48",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The frequency of radiation emitted during transition of electron from second excited state to first excited state in H-atom is f0. The frequency of same transition emitted by a singly ionised He ion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2f0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4f0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 2 f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 4 f",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q49",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Spectrum of hydrogen atom partly lying in ultra- violet region is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lyman",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Balmer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Paschen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pfund",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q50",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "When the electron of a hydrogen-like atom jumps from a higher energy level to a lower energy level, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Angular momentum of the electron remains  constant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kinetic energy of the electron increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wavelength of de-Broglie wave associated with  motion of the electron increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potential energy increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q51",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following transitions will the wavelength be minimum in hydrogen spectra?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n = 2 to n = 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n = 4 to n = 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "n = 3 to n = 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n = 5 to n = 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q52",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Characteristics X-rays are produced by jumping of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrons from higher to lower energy level",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrons from lower to higher energy level",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protons from lower to higher energy orbit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Protons from higher to lower energy orbit",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q53",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Longest and shortest wavelength of the lyman series are (respectively)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1215 Å, 500 Å",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1215 Å, 912 Å",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "912 Å, 500 Å",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "912 Å, 700 Å",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q54",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is accompanied by the characteristic X-ray emission?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "α-particle emission",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electron emission",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Positron emission",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "k electron capture",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q55",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "If a beam of X-rays of intensity I0 is incident on a material of thickness x and absorption coefficient μ, then intensity I of emergent X-rays is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I = I0(1 - e-μx)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I = I0e-μx",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 μ  I I x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I = μI0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q56",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "In a hydrogen atom, if reference level of potential energy is assumed to be zero at ground state, then select the correct statement.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Total energy of each level increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The difference in total energy of any two level  remains same",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kinetic energy in each level remains same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q57",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Wavelength of first line of Lyman series will be maximum for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hydrogen atom",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Deuterium atom",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Helium ion (He+)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lithium ion (Li2+)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q58",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "In an atom if transition from n = 4 to n = 3 gives ultraviolet radiation, then to obtain infrared radiation transition should be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 → 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 → 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 → 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 → 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q59",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Like angular momentum, which other physical quantity is quantised in Bohr's model of hydrogen atom?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetic energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnetic moment",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mechanical energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q60",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The number of revolutions per seconds made by an electron in the first Bohr orbit of hydrogen atom is of the order of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1020",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1015",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1017",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1019",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q61",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Ratio of the speed of the electron in the ground state of hydrogen to the speed of light in vacuum is  1 237",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 137",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 137",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q62",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "An excited H-atom emits a photon of wavelength λ in returning to the ground state. The quantum number n of excited state is given by (R = Rydberg constant)",
+    "question_diagram": "/images/last_leap_pz2/p346_q62.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "( 1) λ λ  R R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "( 1) λ λ  R R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 λ  λ R  R  1 ( 1) λ λ  R R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q63",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Balmer series of hydrogen atom is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Completely in visible region",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Completely in ultraviolet region",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mostly in visible region",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mostly in I.R. region",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q64",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of minimum to maximum wavelengths of radiation in Lyman series that an excited electron in a hydrogen atom can emit while going to the ground state, is  9 25",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 4  7 9",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "27 32",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q65",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Binding energy of electron in the ground state of He+ ion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "13.6 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "27.2 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "54.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40.8 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q66",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The wavelength of radiation emitted, when an electron jumps from the third to second orbit of hydrogen atom is λ. The wavelength of radiation emitted for the electron jumps from the fourth to second orbit of hydrogen atom will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "27 20 λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 27 λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 5 λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 4 λ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q67",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "If ν is frequency of characteristic X-rays produced in a Coolidge tube operating on potential difference V, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ν ∝ V0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ν ∝ V2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ν ∝ V-1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ν ∝ V-2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q68",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "A positive ion having only one electron ejects it if a photon of λ ≤ 228 Å is absorbed by it. The ion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B+4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Li+2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "He+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Be+3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q69",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum frequency ν of continuous x-rays is related to the applied potential difference V as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ν ∝ V2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ν ∝ V3/2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ν ∝ V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ν∝ V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secA_q70",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section A (Objective)",
+    "question_text": "Let R represents the orbital radius of an electron moving in an orbit and K represents its kinetic energy. Then the quantity KR varies with principal quantum number n as  KR",
+    "question_diagram": "/images/last_leap_pz2/p347_q70.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "n  KR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n  KR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "n  KR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secB_q1",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): It is not essential that all the lines available in  the emission spectrum will also be available in  the absorption spectrum.\nReason (R): The spectrum of hydrogen atom is only  absorption spectrum.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secB_q2",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If electron in a hydrogen atom falls from 6th  orbit to 3rd orbit, the maximum number of  emission lines is six.\nReason (R): When an electron jumps from a higher orbit to  lower orbit, its kinetic energy increases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secB_q3",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If an electron in helium atom is in fourth  excited state then another electron may be  present in second excited state.\nReason (R): Two photons may excite two different electrons  of same atom simultaneously.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secB_q4",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Balmer spectral lines may lie in ultraviolet  regions\nReason (R): When an electron is excited from lower energy  to higher energy state, its kinetic energy  decreases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secB_q5",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Balmer series lies in the visible region of  electromagnetic spectrum.\nReason (R): For Balmer series,  2 2 1 1 1 , 3       λ   R  n  n = 4, 5,  6, 7...... .  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_22_atoms_secB_q6",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Kinetic energy of an electron moving in an  orbit decreases with increase in radius of the  orbit.\nReason (R): Kinetic energy of the electron is given by  1 2 kq q  r .",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

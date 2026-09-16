@@ -1,0 +1,3428 @@
+[
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q1",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Bridges are declared unsafe after a long time of their use due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Elastic after effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Elastic fatigue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plasticity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q2",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A steel wire is fixed at its one end on the roof. At other end of wire 1 kg mass is hanged so that the energy stored in the wire becomes E. The energy stored in the same wire if we hang 2 kg mass instead of 1 kg is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2E",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q3",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Bulk modulus of rubber is 9 × 108 N/m2. To what depth below the surface of sea should the ball be taken so as to decrease its volume by 0.1%?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 km",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q4",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The relationship between, Young's modulus Y, Bulk modulus K and modulus of rigidity  is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Y =  9 3    K  K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9 3 YK Y K    3    K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Y =  3 9  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Y = 9  K  K  K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q5",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "x is the elongation or compression in a rod. Hooke's law is valid when restoring force (F) is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1  x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q6",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "What is the value of Poisson's ratio for an incompressible material?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q7",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If Poisson ratio of a material is 0.5, then its bulk modulus is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Young's modulus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Infinite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Three times Young's modulus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q8",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A rod of length 40 cm is stretched between two rigid supports at zero tension. If the temperature is increased by 10°C, the stress produced in it is (Young's modulus Y = 1.2 × 1012 N/m2,  coefficient of linear expansion of rod = 2 × 10-5/°C)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.4 × 108 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.2 × 108 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.6 × 108 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.8 × 108 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q9",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform wire of cross-sectional area A is stretched by certain force, so that its length is elongated by x. What should be the cross- sectional area of the wire, so that elongation  x on applying same force ?  becomes 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q10",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A wire suspended vertically from one of its end is stretched by attaching a weight of 100 N. If the elastic energy stored in the wire is 0.1 J. The elongation in the wire is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 mm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 mm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q11",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Breaking stress of a wire of length L and radius r is B. If another wire made from same material has length 2L and radius 2r, its breaking stress will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 149,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q12",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If E is the energy stored per unit volume in a wire having Y Young's modulus of material, then stress applied is",
+    "question_diagram": "/images/last_leap_pz2/p150_q12.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 EY",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 EY",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 EY",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 EY",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q13",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Two wires of same material have length in the ratio 1 : 2. If they are stretched by applying equal forces, the increase in length is same. The ratio of their respective radii is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q14",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "For a perfectly elastic rigid material Young's modulus of elasticity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q15",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The value of Poisson's ratio cannot be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.05",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.32",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.63",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.49",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q16",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The breaking stress of a wire depends on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Length of the wire",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Applied force",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Material of the wire",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Area of cross-section of the wire",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q17",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A steel wire of cross-sectional area 3 × 10-6 m2 can withstand a maximum strain of 10-3. If Young's modulus of steel is 2 × 1011 Nm-2 then maximum mass which the wire can hold is [Take g = 10 ms-2]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40 kg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 kg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 kg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60 kg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q18",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If Poisson's ratio σ is  1 2   for a material, then the  material is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Incompressible",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Elastic fatigue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Compressible",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plastic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q19",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A wire can bear maximum force F. A wire of same material but triple radius can bear maximum force of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9 F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "27 F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q20",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The curve between potential energy (U) and distance (r) between atoms of a diatomic molecule  \u0002 \u0002 \u0002 \u0002 \u0002  is shown in figure. If  E D C B A F F F F F  and , , ,  are forces of interaction between atoms of molecule corresponding to points shown on curve, then  U  A  r  B  E  C  D  \u0002 \u0002 \u0002  \u0002   ",
+    "question_diagram": "/images/last_leap_pz2/p150_q20.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "0 | |  B F",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "| | | | | | A B D F F F  \u0002 \u0002  \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 .  E C F F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 .  C D F F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q21",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "An aluminium rod of length 2m held fixed in horizontal position from its one end has the other end free. When the temperature of rod increases by 100ºC, the thermal strain produced in rod will be (α = 1.6 × 10-6/ºC)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.08",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q22",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The increase in length of a wire on stretching is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q23",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The adiabatic elasticity of helium gas at STP will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.13 × 105 Pa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.25 × 105 Pa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.33 × 105 Pa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.67 × 105 Pa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q24",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A force applied on a brass wire of uniform cross section area creates change in its length and cross section area. If lateral strain produced in wire is 3 × 10-2, then energy stored in per unit volume of wire will be [Ybrass = 9 × 1010 N/m2, σbrass = 0.3]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "275 MJ/m3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "315 MJ/m3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "450 MJ/m3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "175 GJ/m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q25",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform wire of length 3m and mass 10 kg is suspended vertically from one end and loaded at other end by a block of mass 10 kg. The radius of cross section of wire is 0.1 m. The stress in the middle of wire is (g = 10 m/s2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.4 × 104 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.8 × 103 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "96 × 104 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.5 × 103 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 150,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q26",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform wire is held at one end and stretched by applying force at other end. If product of length of wire and area of cross section of wire remains unchanged, then Poisson's ratio of material of wire is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.50",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 0.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q27",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The density of material of a wire is 6 g/cc. If to break the wire a stress of 107 N/m2 is required, then the length of the wire which will break by its own weight will be [Take g = 10 m/s2]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "121 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "185 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "133 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "167 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q28",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A wire is loaded by a block of mass 10 kg which results in increase in its length by 10 cm. The work done by gravitational force which increases temperature of wire is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q29",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Three identical balls of rubber, aluminium and steel are dropped from same height on a horizontal rigid surface. If Vrubber, VAl and Vsteel are their speeds just after collision, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vrubber = VAl = Vsteel",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vrubber > VAl > Vsteel",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vsteel > VAl > Vrubber",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vsteel = VAl < Vrubber",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q30",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A solid cylinder of radius 10 cm and length 1m clamped from its one end is twisted through angle",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q31",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform wire of cross section 0.4 cm2 has length 1 m. The force required to stretch it into a wire of length 2 m is [Y = 2 × 1011 N/m2]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 × 10-11 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 × 106 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 × 107 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.6 × 107 N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q32",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If two wires of same material and of same length have ratio of their radii 1 : 2, then under the effect of same stretching force their respective elongation will be in ratio",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q33",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The metal rod (Y = 2 × 1012 dyne/sq. cm) of coefficient of linear expansion 1.6 × 10-5 per °C has its temperature raised by 20°C. The linear compressive stress to prevent the expansion of the rod is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.4 × 108 dyne/sq. cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.2 × 108 dyne/sq. cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6.4 × 108 dyne/sq. cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.6 × 108 dyne/sq. cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q34",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "One end of a uniform wire of length L and of weight W0 is attached rigidly to a point in the roof and a weight W1 is suspended from its lower end. If S is the area of cross-section of the wire, the stress in the wire at a height L/4 from its lower end is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "W1/S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[W1 + (W0/4)]/S",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[W1 + (3W0/4)]/S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(W1 + W0)/S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q35",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "An elongation of 0.1% in a wire of cross-sectional area 10-6 m2 causes a tension of 100 N. The Young's modulus is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1012 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1011 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1010 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "102 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q36",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The elongation (x) of a steel wire varies with the elongating force (F) according to the graph (within elastic limit)  x  x",
+    "question_diagram": "/images/last_leap_pz2/p151_q36.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F  F  x  x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F  F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q37",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A metal rod has a length of 100 cm and cross- section area of 1 cm2. By raising its temperature from 0°C to 100°C so that it is not permitted to expand or bend, the tension developed in the rod is (Y = 1012 dyne/cm2 and α = 10-5/°C)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "108 dyne",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "109 dyne",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1010 dyne",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1014 dyne",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q38",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A steel ring of radius r and cross-section area A is fitted on to a wooden disc of radius R (R > r). If y is Young's modulus of elasticity, then tension with which the steel ring is expanded is  r",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "( )  Ay R r r",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "AyR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "( )  y R r Ar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "yr AR",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 151,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q39",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following affects the elasticity of a substance?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Impurity in substance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hammering and annealing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Change in temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q40",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A ball falling in the lake of depth 200 m experiences a decrease of 0.1% in its volume at the bottom. The bulk modulus of the material of the ball is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "19.6 × 10-10 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "19.6 × 1010 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "19.6 × 10-8 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "19.6 × 108 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q41",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The bulk modulus of an incompressible liquid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Infinity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Between zero and one",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q42",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Young's modulus of a material is 2.4 times that of its modulus of rigidity. Its Poisson's ratio is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q43",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A wire of length L and area of cross section A is made of material of Young's modulus Y. If its length is stretched by x, the work done is  2 YAx  2  2 YAx",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "L",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "L  2 2YAx L",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 YAx",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "L",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q44",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Longitudinal strain of a string is equal to twice the magnitude of lateral strain. Poisson's ratio of the material of string is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q45",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Equilibrium elongation of a steel wire of length L and radius r is x. Equilibrium elongation of another steel wire of length L and radius 2r is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q46",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "When a mass M is suspended through a wire, it elongates the wire by length l. The work done during this elongation process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 Mgl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mgl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 Mgl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q47",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Given that breaking stress of a wire is 7.2 × 107 N/ m2 and its density is 7.2 g/cc, then the maximum length of wire which can hang without breaking is (g = 10 m/s2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1000 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "200 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q48",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Work done in increasing the length of a 1 m long wire by 1 mm is 10 J. Work done in increasing the length further by 1 mm is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q49",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If the pressure of a gas is increased from",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q50",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Breaking strength of an iron wire of radius r and length l is 2 × 106 N/m2. Breaking strength of another iron wire of radius r, and length l at same temperature will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5 × 106 Nm-2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 × 106 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 × 106 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 × 106 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q51",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Bulk modulus of elasticity for a perfectly rigid body is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Infinite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q52",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The stress strain curve for two materials A and B are shown in figure. Select correct statement  Stress  A  B  Strain",
+    "question_diagram": "/images/last_leap_pz2/p152_q52.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Material A is less brittle and less elastic as  compared to B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Material A is more ductile and less elastic as  compared to B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Material A is less brittle and more elastic than B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Material B is more brittle and more elastic than A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q53",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The relation connecting Young's modulus (Y), modulus of rigidity () and Poisson's ratio (σ) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Y = 2(1 + σ)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": " = 2Y(1 + σ)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Y = (2 + σ)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 Y  σ ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 152,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q54",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Potential energy U between two molecules as a function of their intermolecular distance r has been shown in figure. The two molecules are  U  r r1 r2 r0",
+    "question_diagram": "/images/last_leap_pz2/p153_q54.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Attracted when r1 < r < r0 and repelled when  r0 < r < r2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Attracted when r0 < r < r2 and repelled when  r1 < r < r0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Attracted when r = r0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Repelled when r = r0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q55",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If Y represents Young's modulus of elasticity and ε represents the longitudinal strain, the energy stored per unit volume of a stretched wire is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1  2 1 2Y ε  2Yε",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 2Yε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 1 2Y ε",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q56",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A material has Poisson's ratio 0.5 and Young's modulus 2 × 1011 Pa. If a uniform rod of it suffers a lateral strain of 4 × 10-6, then percentage change in its density will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q57",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement about Bulk modulus of elasticity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is defined for solid, liquid and gas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bsolid > Bliquid > Bgas",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bulk modulus of a gas is different for different  processes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Almost for all materials the Bulk modulus  increases with rise in temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q58",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Breaking stress of a wire depends on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Applied force",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Area of cross-section of wire",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Length of wire",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Material of wire",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q59",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The Poisson's ratio of a material is 0.5, then Y  B       is (Y is Young's modulus, B is Bulk modulus)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q60",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The Young's modulus of a wire is numerically equal to the stress at which",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Strain produced in the wire is unity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Length of wire gets doubled",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Length increases by 100%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q61",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Practical value of Poisson's ratio lies between",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-1 to 0.5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-0.5 to 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 to 0.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 to 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q62",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Young's modulus for perfectly rigid body is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q63",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has maximum elasticity?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rubber",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Steel",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mud",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q64",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Figure below shows the stress-strain curve for two bodies A and B.  B  A  Stress  Strain  Choose the correct option",
+    "question_diagram": "/images/last_leap_pz2/p153_q64.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A is having greater elasticity than B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B is having greater elasticity than A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both A and B have same elasticity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A and B both show plasticity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q65",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A rod of uniform cross-sectional area 10 mm2, weighing 5 kg and length 2 m is suspended vertically from a fixed support. What is the elongation produced in the rod?  (Young's modulus for rod = 2 × 1011 N/m2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 × 10-6 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10-4 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 × 10-6 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25 × 10-6 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q66",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Two rods of different material but identical geometry have thermal coefficient of linear expansion as α and 5α The rods are fixed between two rigid and massive walls, and are heated to same temperature. If there is no bending of the rods and the thermal stresses developed in them  are equal, then the ratio of their Young's modulii is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 25",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 153,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q67",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Unit of tensile strain is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "metre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "newton-metre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(metre)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unitless",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q68",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Stress is a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Scalar quantity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vector quantity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Unitless quantity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dimensional constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q69",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Compressibility of a substance is equal to reciprocal of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bulk modulus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Young's modulus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rigidity modulus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Poisson's ratio",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q70",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "For two different material wires of same dimension but, Young's modulus is  B  Force  A  Change in length",
+    "question_diagram": "/images/last_leap_pz2/p154_q70.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Higher for A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Higher for B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Same for both",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite for both",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q71",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "When a load of 1 kg is hung from the wire, then extension of 2 mm is produced. Then work done by restoring force is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200 mJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "400 mJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 mJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 mJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q72",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Longitudinal strain is possible in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Liquid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gasses",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q73",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The Young's modulus of a wire of length L and  L and radius  redius r is Y. If length is reduced to 4  r , then Young's modulus will be  to 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 Y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2Y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4Y",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q74",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Breaking stress of a steel wire of length L and radius r is F. If its radius is doubled and length is halved, its new breaking stress will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q75",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Compressed rubber ball has",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreased potential energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increased potential energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreased kinetic energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increased kinetic energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q76",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Stress vs strain graph for two different wires A and B is given. If YA and YB are Young's modulus of material then  Stress  A  B  30° 15°  Strain",
+    "question_diagram": "/images/last_leap_pz2/p154_q76.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 A B Y Y ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 A B Y Y ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "YA = 3YB",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3YA = YB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q77",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If longitudinal strain X is produced in a wire of Young's modulus Y, then potential energy stored in it per unit volume is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 YX2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 4YX",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 YX2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "YX2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q78",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Hooke's Law is obeyed within",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Elastic limit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Proportionality limit",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Breaking point",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Freezing point",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q79",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The length of wire is 2.01 m when 5 kg is hanging from it and 2.02 m when 10 kg hanging, then natural length of wire is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.95 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.9 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.005 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q80",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Elongation in wire of length L and Young's modulus of Y, when blocks of weight W each are hung as shown position  A = cross-section area of wire  W W",
+    "question_diagram": "/images/last_leap_pz2/p154_q80.png",
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 154,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q81",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform beam of Youngs modulus Y is supported at both ends to keep it horizontal. The depression produced at the middle of beam is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 Y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Y2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1  Y",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 155,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q82",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform bar of mass 2 kg cross-sectional area A = 0.2 m2 and l = 1 m is suspended so that is hangs vertically the stress at middle point of bar to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12.5 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 155,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q83",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Aluminium and iron rods  of same length and diameter are combined together as shown in figure. Force F is applied at one of the ends. The combined length is increased by 2 cm. The rods will have  Fe Al F",
+    "question_diagram": "/images/last_leap_pz2/p155_q83.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Same stress and strain",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Different stress and strain",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Same stress and different strain",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Same strain and different stress",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 155,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q84",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "An uniform rod suspended from ceiling gets elongated by its own weight. Which one of the following graphs represents the variation of elongation with L length?  Elongation  Elongation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Length L  Length L  Elongation  Elongation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Length L  Length L",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 155,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q85",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The diagrams represent the potential energy U of a function of interatomic separation r. Which of the following diagrams corresponds to stable molecules found in nature?  U  U",
+    "question_diagram": "/images/last_leap_pz2/p155_q85.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r (0,0)  r (0,0)  U  U",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r  r (0,0)  (0,0)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 155,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q86",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The bulk modulus of water is 2 × 109 N/m2. The pressure change required to increase the density of water by 0.1% is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 × 105 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 × 106 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 × 107 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 × 108 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 155,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q87",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum load that a wire can bear is W. If the wire is cut to half of its length then the maximum load it can sustain is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 W",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 W",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "W",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 155,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q88",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Two wires X and Y of same length are made of same material. The figure represents the load F versus extension Δx graph for the two wires. Hence  F  Y  X  Δx O",
+    "question_diagram": "/images/last_leap_pz2/p155_q88.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Modulus of elasticity of Y is greater than that  of X",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stiffness of Y is more than that of X",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The cross-sectional area of Y is less than that  of X",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 155,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q89",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If the Young's modulus of elasticity of a beam material is E then the bending of the beam is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Proportional to E",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inversely proportional to E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Proportional to E2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inversely proportional to E2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 155,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q90",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "When a helical spring is stretched then the kind of strain produced in it is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Longitudinal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lateral",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Volumetric",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Shear",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q91",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If Y, K, G are Young's modulus, bulk modulus and shear modulus of elasticity respectively and σ is Poisson's ratio then which of the following relations is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9 1 3   Y K G",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Y = 3K(1 - 2σ)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Y = 2G (1 + σ)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q92",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "If stress versus strain plot for a metal at two different temperature T1 and T2 are shown below then  T1  Stress  T2  Strain",
+    "question_diagram": "/images/last_leap_pz2/p156_q92.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "T1 > T2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T1 < T2  1  T T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T1 = T2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q93",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "A metallic rope of diameter 1 mm breaks at 10 N force. If wire of same material has diameter 2 mm then breaking force is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q94",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following cases, an elastic metal rod will not undergo elongation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The rod falls freely",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is pulled with constant acceleration on a  smooth surface",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is pulled with constant velocity on a rough  surface",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q95",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "Ratio of Young's modulus of wire A to wire B  Strain  A  B  30º 60º  Stress",
+    "question_diagram": "/images/last_leap_pz2/p156_q95.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 :1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1: 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secA_q96",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section A (Objective)",
+    "question_text": "The length of a string is α when mass of 40 kg is suspended from it and β when 50 kg mass is suspended. Its length when 100 kg mass is suspended is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6β - 5α",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5β - 6α",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5β - α",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "β - 6α",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secB_q1",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Steel is more elastic than rubber.\nReason (R): Deformation in steel is less than rubber for  equal forces.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secB_q2",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Hooke's law is applicable up to the elastic  limit.\nReason (R): Up to the elastic limit stress is directly  proportional to strain.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secB_q3",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Air is more elastic than iron.\nReason (R): Elasticity is directly proportional to Bulk modu-  lus and Bulk modulus of air is more than that of steel.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_07_mechanical_properties_of_solids_secB_q4",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Almost for all matals, the modulus of elasticity  decreases with rise in temperature.\nReason (R): By increasing temperature intermolecular force  decreases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 156,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

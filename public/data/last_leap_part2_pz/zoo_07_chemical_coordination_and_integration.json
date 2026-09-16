@@ -1,0 +1,5622 @@
+[
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q1",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is wrong?  a. ADH is produced mainly by the supraoptic nucleus and stimulates absorption of water and decreases urine production  b. Grave's disease is characterised by the production of antibodies in response to thyroid antigens  c. Oxytocin stimulates contraction of uterine muscles during pregnancy  d. Parathormone regulates calcium and phosphate balance between the blood and other tissues",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a and b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a and d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b and c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 463,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q2",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Adrenal cortex is mainly concerned with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Regulation of body growth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Regulation of body temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conservation of Na+ and water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conservation of K+ and water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 463,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q3",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Secondary messenger of which of the following hormone activates the enzyme protein kinase-A?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitric oxide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acetylcholine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insulin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adrenaline",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 463,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q4",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Collip's hormone increases blood calcium level",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insulin and glucagon are polypeptide hormone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pineal gland is related with diurnal rhythm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Testosterone is secreted by Sertoli cells of  testis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 463,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q5",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insulin stimulates transport of glucose from  blood to muscle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Somatostatin released from anterior pituitary  inhibits functioning of growth hormone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Estrogen is responsible for the development of  growing follicles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In sexual pseudoprecocity in girls discharge of  ova do not occur",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 463,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q6",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following function cannot be related to the glucocorticoids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stimulates  the  liver  to  synthesize carbohydrates from non-carbohydrates such as amino acid and glycerol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stimulates the synthesis of protein from amino  acids within the cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Retards phagocytic activities of WBCs and  thus suppresses 'inflammation reaction'",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Suppresses synthesis of antibodies by  inhibiting the production of lymphocytes in the lymphoid tissue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 463,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q7",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following condition can be related to be the cause of hypocalcemic tetany?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypoparathyroidism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hyperparathyroidism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cushing's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hyperthyroidism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 463,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q8",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pineal gland - Biological clock",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thymus - Throne of immunity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxytocin - Pregnancy hormone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Erythropoietin - Haemoeiopoeisis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 463,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q9",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Albuminuria - Glomerulonephritis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycosuria - Diabetes mellitus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ketonuria - Diabetes mellitus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Haemoglobinuria - Mild tertian malaria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q10",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the protein which enables glucose transport into cells",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Collagen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Antibody",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "GLUT-4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ribulose-biphosphate carboxylase-oxygenase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q11",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect w.r.t. endocrine gland?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hormones are also known as chemical  messengers of the body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Part of body where a hormone produces its  effect is called the target organ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Paracrine action involves the hormone acting  on the same cell which secretes it",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hormones are released in very less amount",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q12",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hormone concerned with - Thyroxine  metabolism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hormone for growth and - Somatotropin  development",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hormones of digestion - Thyrotropin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hormones for reproduction - Gonadotropin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q13",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Hormones having its receptors located in the cytoplasm are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxytocin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cortisone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Relaxin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q14",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroid stimulating - Controls secretion of  Hormone thyroid hormone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Melanocyte - Stimulates cutaneous stimulating pigmentation  by Hormone dispersion of melanin granules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Prolactin - Stimulates secretion and  ejection of milk",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Follicle stimulating - Stimulates  Hormone spermatogenesis in males",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q15",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "The hormone which reduces volume of urine by increasing the reabsorption of water from the urine in the distal convoluted tubules in the kidney is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vasopressin released from supraoptic nuclei",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxytocin released from paraventricular nuclei",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vasopressin released from Paraventricular  nuclei",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pitocin released from supraoptic nuclei",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q16",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following given function of thyroid gland is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroid hormone increases the metabolic rate  of the body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thyroid hormone promotes growth of body  tissues",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thyroid hormone stimulate tissue differentiation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q17",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "The patient has a puffy appearance and lacks alertness, intelligence and initiative. These symptoms are related to which of the following disease?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cretinism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gulls disease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Simple goitre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Graves disease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q18",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "The hormone which increases the concentration of calcium ions in the blood plasma and reduce urinary elimination of calcium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Collips hormone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calcitonin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insulin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyroxine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q19",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Symptoms like bronze pigmentation of skin low blood sugar, low plasma Na+, high plasma K+, increased urinary Na+, nausea, vomiting are related",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conn's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cushing syndrome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Addison's disease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adrenal virilism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q20",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following function is not related to hormone insulin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insulin stimulates transport of glucose from  blood to muscle and adipose cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insulin promotes both oxidation of glucose and  conversion of glucose into glycogen in muscles as well as liver",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insulin inhibits synthesis of fats from glucose  in adipose tissue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Insulin promote uptake of amino acids by liver  and muscle cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 464,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q21",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement correct w.r.t. Thymus gland?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thymus is bilobed gland",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The outer cortex has thymocytes and inner  medulla has Hassals corpuscles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hormone produced by the thymus gland is  called thymosin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q22",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "High blood sugar, appearance of sugar in the urine, obesity, rise in plasma Na+, fall in plasma K+ are related to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Addisons disease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cushing's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conns syndrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adrenal virilism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q23",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calcitonin promotes deposition of blood Ca2+  into the matrix of bone tissue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parathormone promotes release of Ca2+ from  bone matrix into the blood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parathormone promote loss of Ca2+ in the urine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Calcitriol stimulates increased absorption of  Ca2+ from food in gastrointestinal tract",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q24",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "The maintenance of blood sugar homeostasis by insulin is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Feedback control of a stimulating (tropic)  hormone by the hormone of the target endocrine gland",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Feedback control by a metabolite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Control by sympathetic nervous system",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Control by nerves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q25",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Melatonin hormone secreted by pituitary is synthesised from an amino acid which helps to decrease the diameter of blood vessels. It is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Serotonin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epinephrine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dopamine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q26",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Hormones produce their effects on large tissues by binding to specific proteins called hormone receptors located in the target tissue only. Which of the following hormone interacts with intracellular receptors in the cytoplasm?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "FSH (follicle stimulating hormone)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epinephrine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glucagon hormone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q27",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormone is secreted when the concentration of Ca2+  ions rises in the blood plasma?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parathormone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calcitonin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aldosterone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q28",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "The hormone that increases the blood calcium level and decreases its excretion by kidney is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calcitonin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parathormone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cortisol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyroxide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q29",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a basic difference between the action of hormones and those of nerves?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hormones transmit the information much more  slowly than nerve impulses",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hormone, takes many seconds or minutes to  produce a tissue response, whereas, a neuron elicits responses in tissues within milliseconds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Synthesis and release of some hormones are  regulated by nerves and not vice - versa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hormonal action is generally less specific or  precise, and more diffuse or widespread, whereas action of neuron is often limited to one or few specific muscles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q30",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Besides, the feedback controls by other hormones and metabolites, secretions of some hormones are controlled by nerves, example is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maintenance of level of thyroxine in our body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maintenance of blood sugar homeostasis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secretion of epinephrine by adrenal medulla",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secretion of pituitary gonadotropins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q31",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the first hormone to be discovered?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insulin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secretin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gastrin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cholecystokinin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q32",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Insulin receptor is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trimeric protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Membrane bound protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intrinsic protein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intracellular receptor protein present in the  cytoplasm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 465,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q33",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroid Hyperthyroidism  causes cretinism in children",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parathyroid Secretes parathormone which stimulates the movement of Ca2+ from the blood into bone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pancreas Delta cells of islets of Langerhans  secrete, somatostatin hormone which stimulates the secretion of insulin and glucagon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adrenal gland It secretes adrenaline which  causes dilation of arterioles of heart and skeletal muscles; increase in breakdown of lipids; increase  in  oxygen consumption and erection of hair",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q34",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "After an animal is killed, very little glycogen can be utilised from food. Why?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycogen is hydrolysed by the enzymes into  glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycogen is rapidly degraded to lactic acid by  enzymes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glycogen is immediately converted into carbon  dioxide and water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycogen in converted into ethyl alcohol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q35",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormone stimulates progesterone secretion from ovary during pregnancy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oestradiol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Luteinising hormone (LH)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adrenocorticotrophic hormone (ACTH)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Human chorionic gonadotropin (HCG)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q36",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "A person is showing demineralisation resulting in softening and bending of the bones and some of the bone substance is replaced by cavities that are filled with fibrous tissue. This condition is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Osteitis fibrosa cystica due to hyposecretion of  PTH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parathyroid tetany due to hypersecretion of  PTH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hyperparathyroidism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tumor of the C-cells of thyroid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q37",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "The hyperproduction of growth hormone during growing stage in mammals results in a condition known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acromegaly",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gigantism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nanism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dwarfism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q38",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Adrenaline is released from adrenal medulla under stress. Which of the following can't be taken as its character?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Elevate blood glucose by converting glycogen  of liver to glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Accelerate rate and force of heart beat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase in breakdown of lipids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Constriction of arterioles of skeletal muscle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q39",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which hormone is responsible to regulate Ca+2 and PO4  3- balance in the body?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parathormone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thyrocalcitonin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q40",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following parts of the adrenal cortex gland is responsible to secrete mineralocorticoids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zona glomerulosa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zona fasciculata",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zona reticularis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All corticotroph cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q41",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Amongst the following, one is not a valid statement w.r.t. insulin hormone. Mark the invalid statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One molecule of insulin is made of 51 amino  acids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insulin is antagonistic to glucagon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "α- and β-polypeptide chains of insulin are  joined by disulphide bonds",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Insulin acts on intra-cellular receptors and  alters the protein synthesized by the DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q42",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following disease is caused due to deficiency of Collip's hormone as a result of which phosphate level in blood decreases and Ca2+ level increases?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rickling Henson disorder",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conn's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Progeria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hashimoto's disease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q43",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which germinal layer is associated with the origin of the thymus gland?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ectoderm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mesoderm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Endoderm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q44",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Name the organ which shows the development of a cancer called phaeochromocytoma leading to very high B.P. and possible death",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adrenal cortex",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adrenal medulla",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pancreas",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyroid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 466,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q45",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "With the process of ageing, brain sand is known to accumulate in which of the following glands of the body?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pituitary",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thyroid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pancreas",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pineal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q46",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Addition of thiourea in water around tadpoles will have an effect on their development. Which amongst the following will be an effect of this addition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metamorphosis will be enhanced",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tadpole will become a giant tadpole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metamorphosis will be halted",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q47",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which hormone is used as an immunosuppressant especially in transplant rejection reactions in humans?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Corticosteroids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Melatonin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Testosterone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q48",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the second messenger amongst the following set of molecules",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ATP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ADP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "cGMP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q49",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which endodermal organ is a gland as well as vital in defence mechanisms of the body hence known as 'throne of immunity'?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thymus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adrenal cortex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pancreas",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q50",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Of all the glands, only one has the ability to store its hormonal secretion over a prolonged period of time. Which one?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ovary",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thyroid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parathyroid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pancreas",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q51",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which amongst the following diseases are caused by hyperparathyroidism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Osteitis fibrosa cystica",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Osteoporosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Osteomalacia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q52",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "People living in mountainous regions have 'rosy' cheek due to relatively higher secretion of the hormone",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Renin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rennin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Erythropoietin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyroxine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q53",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Appearance of some male secondary sexual characters in a female due to hormonal imbalance is seen in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cushing's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adrenal virilism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gynaecomastia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phaeochromocytoma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q54",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which gland of the body will be effected by a disease called Simmond's disease?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pancreas",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pituitary gland",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thymus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q55",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Over secretion of aldosterone due to adrenocortical tumour in the region of zona glomerulosa causes which of the following disorder?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aldosteronism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cushing's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conn's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q56",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Location of which gland is different in human male and in female?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pancreas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adrenal gland",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gonads",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thymus gland",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q57",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Receptors for thyroxine hormone are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Extracellular",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Intracellular",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "G-protein only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q58",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrectly matched pair w.r.t. the term and its related explanation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Menarche - Start of menstruation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Menorrhagia - Excessive bleeding",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dysmenorrhea - Irregular menstruation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amenorrhea - Absence of menstruation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q59",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Blood calcium level is a resultant of how much dietary calcium is absorbed, how much is lost in urine, how much bone dissolves releasing calcium into blood and how much calcium from blood enters tissues. A number of factors play an important role in these processes. Mark the one which has no role.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vitamin D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parathyroid hormone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thyrocalcitonin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thymosin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q60",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Bronze like pigmentation of skin, low blood sugar, high plasma K+ are related to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conn's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Addison's disease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cushing's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adrenal virilism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 467,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q61",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following endocrine disorder will you notice the features of protruding eyes, very high B.P., muscle spasms and very high BMR?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Exophthalmic goitre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parry's disease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Grave's disease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q62",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following set shows antagonistic effect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prolactin and oxytocin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxytocin and prostaglandins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parathyroid hormone and calcitonin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyroxine and GH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q63",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Collip's hormone of parathyroid glands maintains normal blood Ca2+ level by all the following ways except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increased mobilisation of Ca2+ from bones",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increased reabsorption of Ca2+ from nephrons",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increased absorption of Ca2+ from the intestine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PTH is secreted in response to increase in the  level of Ca2+ ions in blood plasma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q64",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which hormone increases cardiac output by increasing heart rate, dialates blood vessels of heart and skeletal muscles, increases O2 consumption and converts liver glycogen into glucose?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insulin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucagon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aldosterone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q65",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following endocrine glands work directly under nervous control with involvement of neurons?  a. Adenohypophysis b. Neurohypophysis  c. Adrenal medulla d. Pineal gland",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, c & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b, c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q66",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correctly matched pair of the hormones given in Column-I and their target organs or glands in Column-II  Column-I Column-II (Hormones) (Target organs)  a. Hypothalamic hormones (i) Adrenal cortex  b. Thyrotropin (TSH) (ii) Pituitary  c. Corticotropin (ACTH) (iii) Testes  d. Gonadotropins (iv) Skin (LH, FSH)  e. MSH (v) Thyroid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(ii), c(iii), d(iv), e(v)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(i), d(iv), e(v)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(v), c(iii), d(iv), e(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(v), c(i), d(iii), e(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q67",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a powerful vasodilator and decreases the blood pressure?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aldosterone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Atrial natriuretic factor (ANF)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q68",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Name the chemical/structures labelled a, b and c in the following flow chart  Hypothalamus  (a)  Inhibitory effect  Anterior pituitary  (b)  Thyroid gland  (c)  Regulation of metabolism",
+    "question_diagram": "/images/last_leap_pz2/p468_q68.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Somatostatin, GH, T4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "TSH, TRH, Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "TRH, TSH, Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "GnRH, FSH, Testesterone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q69",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following diseases is not associated with hypersecretion of a hormone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acromegaly",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cushing's disease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Addison's disease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Osteitis fibrosa cystica",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q70",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a local hormone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Growth hormone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gastrin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxytocin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q71",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a neurohormone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Somatostatin (GHIH)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vasopressin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Prolactin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 468,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q72",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Deficiency of which hormone causes physical and mental deficiencies, infantile facial expression, pug nose, thick legs, pot-belly, pigeon chest, thick tongue and lethargy etc.?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "GH in adulthood",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GH in childhood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thyroxine in adulthood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyroxine in childhood",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q73",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not correct w.r.t. cortisol?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Involved in metabolism of carbohydrates,  proteins and fats with an effect opposite to that of insulin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Involved in inflammatory reactions, allergic  responses and coping with stress conditions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Induces protein synthesis in liver from amino  acids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Induces synthesis of glucose from sources  other than carbohydrates (gluconeogenesis)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q74",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "One amongst the following is not a property of thyroid hormones",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stimulation of RBC formation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Regulation of metabolic rate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maintenance of normal body temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rise in Ca2+ level of the blood",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q75",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Somatostatin is secreted by all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypothalamus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kidney",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pancreas",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Digestive tract",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q76",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Gull's disease is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Deficiency of thyroid hormone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypersecretion of thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hyposecretion of glucocorticoid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hypersecretion of mineralocorticoid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q77",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following secretions is correctly matched with its source and nature of action?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ANF - JG apparatus - Inhibition of release of  renin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vasopressin - Hypothalamus - Reabsorption  of H2O in DCT and collecting duct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Angiotensinogen - Kidney - Contraction of  blood vessels",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aldosterone - JG Apparatus - Retention of  NaCl and H2O in body",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q78",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormones stimulates milk production and secretion, participates in control of reproduction, growth and metabolism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxytocin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prolactin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "hCG",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dopamine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q79",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the incorrect statement with respect to metabolism of calcium in human body",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High level of Ca2+ in blood stimulates thyroid  gland's parafollicular cells to release calcitonin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calcitonin promotes deposition of Ca2+ into  bone matrix to reduce blood Ca2+ level",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hyper secretion of PTH causes deficiency of  Ca2+ in blood which increases the excitability of nerves and muscles and causes sustained muscular contractions (Tetany)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Calcitriol hormone released from kidneys  stimulates absorption of Ca2+ in gastro- intestinal tract",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q80",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not secreted by hypothalamus?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Somatostatin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Somatotropin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dopamine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxytocin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q81",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the correct matching",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parathyroids - Secrete parathormone which  stimulates the movement of Ca2+ from blood into bone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adrenal - Zone fasciculata secretes  gland glucocorticoids which stimulate gluconeogenesis, lipolysis and proteolysis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pancreas - α-cells  secrete  insulin hormone which acts mainly on hepatocytes and adipocytes and enhances cellular glucose uptake",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyroid - It secretes a protein hormone  called thyrocalcitonin which increases the level of Ca2+  ions in blood plasma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q82",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Glucocorticoids are involved in all the following, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Produce anti-inflammatory reactions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Immunosuppressive function",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inhibit gluconeogenesis, lipolysis and  proteolysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stimulate RBC production",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 469,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q83",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "All of the following are effects of hypothyroidism, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cretinism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Low intelligence quotient",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tachycardia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Irregular menstrual cycle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q84",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Besides the feedback control by other hormones and metabolites, secretions of some hormones are controlled by nerves also. Example is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maintenance of level of thyroxine in our body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maintenance of blood sugar homeostasis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secretion of epinephrine by adrenal medulla",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secretion of pituitary gonadotropins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q85",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormones acts on its target tissues by a steroid hormone like mechanism of action?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroid hormone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "FSH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glucagon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ADH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q86",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Adrenaline or epinephrine hormone is formed from which amino acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tyrosine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alanine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q87",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "A person passes out excessive urine and drinks much water but his glucose level is normal. It is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increased secretion of glucagon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fall in glucose concentration released in urine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reduction in insulin secretion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reduction in ADH secretion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q88",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which thyroid hormone is not stored as colloidal material in the thyroid follicles?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calcitonin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Triiodothyronine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q89",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Conn's syndrome is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Excess secretion of cortisol from adrenal cortex",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Excess secretion of aldosterone from adrenal  cortex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less secretion of parathyroid hormone from  parathyroid glands",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Deficiency of thyroid hormones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q90",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Hassal's corpuscles are found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pituitary gland",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pineal gland",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thymus gland",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyroid gland",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q91",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect regarding the hormones, its source and its functions?  Hormone Source Functions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LH (luteinizing Pars distalis Maintains hormone) corpus luteum formed from the remnants of Graafian follicle after ovulation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "TCT (Thyro- Parathyroid Regulates calcitonin) gland blood calcium levels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxytocin Hypothala- Acts on the mus smooth muscles of our body and stimulates their contraction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glucocorti- Zona fasci- Stimulate coids culata gluconeogenesis, lipolysis and proteolysis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q92",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following endocrine glands is related to maintenance of normal rhythms of sleep-wake cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypophysis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pineal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thymus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q93",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a derivative of tyrosine?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Epinephrine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Norepinephrine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dopamine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Serotonin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q94",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormone binds with membrane bound receptors?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "FSH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Estrogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cortisone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 470,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q95",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect match w.r.t. hormones and their functions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parathyroid - Hypercalcemic hormone, hormone (PTH) it increases the blood calcium level by increasing the bone resorption/ demineralisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucocorticoids - Stimulates  lipolysis, proteolysis,  and gluconeogenesis and also stimulates  R.B.C. production",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Atrial natriuretic - Cause vasodilation and  factor decreases the blood pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Somatostatin - Increases the release of  growth hormone and thus increases the growth of the body",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 471,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q96",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Match column I with column II  Column I Column II  a. Cushing's syndrome (i) High plasma Na+, low plasma K+, rise in blood volume and high blood pressure  b. Cretinism (ii) High blood sugar  level,  rise in blood volume, high blood pressure, obesity and wasting  of muscles of thighs and pectoral/pelvic girdles  c. Dwarfism (iii) Slow body growth,  retarded  mental development due to reduced metabolic rate in infants  d. Conn's syndrome (iv) Small  but  well proportioned body, sexual immaturity and having normal intelligence.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iii), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 471,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q97",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Adrenaline and noradrenaline are rapidly secreted in response to stress and during emergency situations and are called emergency hormones or hormones of fight or flight. These hormones are involved in following functions except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increased co-ordination time, pupilary  constriction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Piloerection (raising of hair), sweating etc.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increased heart beat, the strength of heart  contraction and rate of respiration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycogenolysis resulting in increased  concentration of glucose in blood",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 471,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q98",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Hypophyseal portal vein enables the transport of following hormones except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Somatostatin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thyrotropin releasing hormone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gonadotropin releasing hormone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Somatotropic hormone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 471,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q99",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the hormone which is lipid soluble, readily passes through the plasma membrane of target cell into the cytoplasm and alters the pattern of gene expression initiating the transcription of some genes while repressing the transcription of others",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insulin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyrotropin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 471,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q100",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement with respect to thyroid gland",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypothyroidism during pregnancy causes  defective development and maturation of growing foetus leading to stunted growth (cretinism), mental retardation, low intelligence quotient, abnormal skin, deaf mutism etc.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In adult women, hypothyroidism may cause  menstrual cycle to become irregular",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tuberculosis of the thyroid gland leads to  hyperthyroidism which adversely affects the body physiology",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Iodine is essential for the normal rate of  hormone synthesis in the thyroid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 471,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q101",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Parathyroid Hormone (PTH) increases the Ca++  levels in the blood by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stimulating reabsorption of Ca++ by the renal  tubules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increasing Ca2+ absorption from digested food",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stimulating the bone resorption (dissolution/  demineralisation)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 471,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q102",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct match  Hormones Source of Functions secretion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Melatonin Hypophysis Act as a kind of biological clock",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thymosin Thymus Throne of immunity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Erythropoietin Kidney cells Decreases production of RBCs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "LTH Gonadotroph Inhibits milk (Luteotrophic production and hormone) secretion, participates in control of reproduction, osmoregulation and growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q103",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can't be considered as hyperactivity disorder?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cushing's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conn's syndrome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gull's diseases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Osteitis fibrosa cystica",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q104",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the endocrine gland which secretes both steroid and proteinaceous hormone",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pancreas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Placenta",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Testes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q105",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Most abundant glucocorticoid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cortisol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Corticosterone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cortisone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dehydroepiandrosterone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q106",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a function of thyroid hormones?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maintenance of basal metabolic rate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stimulation of protein breakdown",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increased heat production",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Metamorphosis of tadpole into adult frog",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q107",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormones affects the heart beat?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroxine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nor-adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q108",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following endocrine structures secretes both proteinaceous and steroid hormones?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pituitary gland",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ovaries",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Placenta",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q109",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormones is correctly matched with its source and action?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prolactin - Lactotrophs - Growth and  metabolism, stimulates milk production",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gastric Inhibitory Peptide (GIP) - Stomach  lining - Inhibition of gastric motility",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ANF - Juxtaglomerular cells - Inhibition of  release of renin to decrease BP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "TSH - Thyroid follicles - Heat production and  regulation of basal metabolic rate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q110",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Oxytocin and vasopressin are transported",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "From hypothalamus to adenohypophysis  through blood",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "From hypothalamus to neurohypophysis  through blood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "From hypothalamus to adenohypophysis  through axon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "From hypothalamus to neurohypophysis  through axon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q111",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Prolonged hyperglycemia leads to a complex disorder called diabetes mellitus which is associated with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucosuria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ketoacidosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Renal calculi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q112",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is called integration system of the body?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Endocrine system",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nervous system",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neuroendocrine system",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Circulatory system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q113",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Match the hormones given in column I with their functions in column II  Column I Column II  a. Adrenaline (i) Child birth  b. Aldosterone (ii) Accelerates heart  beat  c. Oxytocin (iii) Salt water balance",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iii), c(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(ii), c(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(ii), c(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(i), c(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 472,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q114",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Hormone responsible for increase in blood calcium level in the body is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calcitonin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Collip's hormone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thyroxine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q115",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Hyperactivity of thyroid gland leads to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cretinism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Grave's disease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cushing syndrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Myxoedema",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q116",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which gland undergoes atrophy in response to adrenal glucocorticoids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pineal gland",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thymus gland",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thyroid gland",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pituitary gland",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q117",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "The hormone/s which interact with a surface receptor, usually a glycoprotein and thus initiates a chain of events within it is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Catecholamines",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peptide hormones",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protein hormones",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q118",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Correctly matched pair w.r.t. hormone and its deficiency disorder is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Somatotropin - Goitre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insulin - Diabetes insipidus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PTH - Tetany",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Prolactin - Cretinism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q119",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which gland is also known as 4S gland?  Sugar metabolism  Salt retaining  4S  Sex hormone Source of energy",
+    "question_diagram": "/images/last_leap_pz2/p473_q119.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroid gland",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adrenal gland",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pituitary gland",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pancreas",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q120",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. T4 (i) Hypothalamus  b. PTH (ii) Thyroid  c. GnRH (iii) Pituitary  d. LH (iv) Parathyroid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(iii), c(iv), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q121",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Hypothalamus regulates wide spectrum of body functions through hormones. Which category of the cells are responsible for this regulation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neurosensory and neuromotor cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nuclei",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neurosecretory cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q122",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Hypothyroidism during pregnancy causes defective development and maturation of growing baby, leading to all the following defects except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Deaf mutism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stunted growth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low IQ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Exopthalmic goitre",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q123",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Hormones which interact with membrane bound receptors generate following second messengers except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "cAMP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "IP3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q124",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Steroid hormones",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Have only cell surface receptors",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Are lipophobic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Interact with intracellular receptors and  regulate gene expression or chromosome function by the interaction of hormone - receptor complex with genome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Are produced by only adrenal cortex in the  body",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q125",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect match the source gland with its respective hormone as well as the function.  Source gland Hormone Function",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pineal gland Melatonin Regulation of a  24 hour diurnal rhythm of our body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypothalamus Oxytocin Vigorous contraction of uterus at the time of childbirth, and milk ejection",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pars distalis Prolactin Growth of mammary glands and synthesis of milk in them",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neuro- ACTH Stimulates the hypophysis synthesis and the secretion of steroid hormones, gluco-corticoids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 473,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q126",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "What is the mechanism of action of FSH hormone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It regulates gene expression or chromosome  function by the interaction of hormone receptor complex with the genome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It binds with membrane bound receptors and  produces cyclic AMP or Ca2+ as the second messenger",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It binds with extracellular receptors and  produces cyclic GMP as the second messenger",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It binds with intracellular receptors in nucleus  not cytoplasm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 474,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q127",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "A person has symptoms like frequent urination, glucose absent in urine, and enhanced thirst due to urinary loss of water, this person is suffering from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diabetes mellitus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diabetes insipidus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gull's disease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Grave's disease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 474,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q128",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Given below are four statements (A - D) each with two blanks. Select the options which correctly fills up the blanks in two statements  A. Thymus secretes     (i)    which helps in  differentiation of     (ii)   .  B. The adrenal medulla secretes    (i)   which  stimulates the breakdown of     (ii)    to increase the blood glucose concentration during emergency situations.  C. The     (i)    cells, which are present in the  intertubular spaces produce a group of hormones called     (ii)   .  D. Thyroid gland secretes     (i)    and tri-  iodothyronine.     (ii)    is essential for the hormone synthesis in the thyroid.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A. (i) Melatonin; (ii) Lymphocytes  B. (i) Adrenaline; (ii) Fat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A. (i) Catecholamine; (ii) Glycogen  C. (i) Interstitial cells; (ii) Testosterone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B. (i) Catecholamine; (ii) Glycogen  D. (i) Thyroxine; (ii) Iodine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D. (i) Parathyroid hormones; (ii) Calcium  A. (i) Thymosin; (ii) Lymphocytes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 474,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q129",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is correct w.r.t. mechanism of action of testosterone hormone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It does not enter inside the target cell but  generates second messenger like cAMP and Ca++",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It binds with extracellular receptors",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It interacts with membrane bound receptors",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It interacts with the intracellular receptors in  nucleus and regulates gene expression by interaction of hormone receptor complex with the genome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 474,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q130",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect option w.r.t. the gland, its hormone and principal action  Principal Action Gland  Hormone  Increases, the breakdown  of lipids, increases O consumption and dilation  of pupil  Adrenal  cortex  Adrenaline",
+    "question_diagram": "/images/last_leap_pz2/p474_q130.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2   Insulin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pancreas  Stimulates transport of  glucose from blood to  muscles and adipose cell  Thymosin  Thymus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stimulating effect on  entire immune system  and promotes proliferation  and maturation of  T-lymphocytes  Calcitonin  Thyroid  It is involved in calcium  homeostasis and is  hypocalcemic hormone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 474,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q131",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Read the given paragraph carefully  Excess secretion of growth hormone in adults especially in middle age can result in severe disfigurement called ____, which may lead to serious complications and premature death if unchecked. Choose the option which correctly fills the blank in given paragraph",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dwarfism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gigantism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Simmond's disease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acromegaly",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 474,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q132",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "An impairment affecting synthesis or release of ADH results in a diminished ability of the kidney to conserve water leading to water loss and dehydration. This hormone released in blood by which of the following labelled structure in the given diagram?  D  C  B  A",
+    "question_diagram": "/images/last_leap_pz2/p474_q132.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D & A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 474,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q133",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormone controls other endocrine gland?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gastrin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thyrotropin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Somatotropin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Growth hormone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 475,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q134",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a list of certain endocrine gland disorders  a. Gigantism b. Dwarfism  c. Diabetes mellitus d. Diabetes insipidus  e. Exopthalmic goitre f. Grave's disease  Which of the following option includes disease that are due to hypersecretion of a single endocrine gland?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "c & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "e & f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 475,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q135",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Leydig cells found in human body are secretory source of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucagon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Progesterone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Androgens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Insulin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 475,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q136",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a diagrammatic representation regarding the location of various endocrine gland labelled as A, B, C and D.  D  A  B C  Choose the correct option regarding the labelled glands.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A - It helps in maintaining the normal  rhythms of sleep wake cycle, body temperature and also influences metabolism.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B - Over secretion of this gland always  leads to hyperglycemia which is associated with loss of glucose through urine and formation of harmful product known as ketone bodies.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C - It secretes PTH, which increases the  Ca2+ levels in the blood. It stimulates reabsorption of Ca2+ by the renal tubules.",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D - Iodine is essential for the normal rate of  hormone synthesis in this gland and its hormones play important role in regulation of basal metabolic rate and blood calcium level.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 475,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q137",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a table about endocrine glands their hormone and disorder  Gland Secretion  Disorder  A.  Pituitary  Dwarfism  Growth hormone  B.  Thyroid  Cretinism  Thyroxin  C.  Tetany  Parathyroid  Parathyroid  hormone  D.  Conn's  syndrome  Adrenal  gland  Aldosterone  Mark the odd one in comparison to other categories of given disorders.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 475,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q138",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option does not include the antagonistic hormones?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insulin and glucagon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PTH and calcitonin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epinephrine and norepinephrine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are antagonistic hormones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 475,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q139",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following sex hormones produces anabolic (synthetic) effects on protein and carbohydrate metabolism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Testosterone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Estrogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Progesterone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Relaxin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 475,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secA_q140",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a list of hormones secreted by various endocrine gland?  a. Erythropoietin  b. Cortisol  c. Thymosin  d. Melatonin  e. Somatostatin  Which of the following hormone/s stimulate/s erythropoiesis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & b only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & c only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d & e only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 475,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q1",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Excess of growth hormone can have  diabetogenic action.\nReason (R): Growth hormone acts through insulin like  growth factors (IGFs).",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q2",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Absence of iodine containing food in a  previously normal person will induce goitre only after a prolonged period of time.\nReason (R): Thyroid gland stores its secretions.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q3",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The effect of insulin, on glucose level of blood  is very rapid but transient in nature.\nReason (R): Insulin acts on extracellular receptors of the  target cell.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q4",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Tumour of adrenal medulla may lead to  haemorrhagic B.P. followed by death.\nReason (R): Catecholamines are sympathomimetic.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q5",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Oxytocin and vasopressin are secreted by  supraoptic and paraventricular nuclei of hypothalamus\nReason (R): They remain stored in axon terminals inside the  posterior lobe of pituitary called Herring bodies.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q6",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Glaucoma may result in permanent blindness.\nReason (R): It is due to increase in intraocular pressure  which damages the optic nerve leading to permanent blindness.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q7",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In frog's tadpole, if thyroid gland is removed  surgically, metamorphosis stops.\nReason (R): TSH is not secreted.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q8",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Diabetes is characterised by hyperglycemia,  glycosuria, polyurea, polydipsia, dehydration etc.\nReason (R): Type-II diabetes occurs due to deficiency of  insulin hormone as beta cells of pancreas are destroyed.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q9",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Prolactin is called maternity hormone.\nReason (R): It stimulates development of mammary glands  during pregnancy and lactation after birth.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q10",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Insulin dependent diabetes is characterised by  appearance of ketone bodies in urine.\nReason (R): Ketone bodies are formed due to breakdown of  fats.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q11",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Cortisol,  testosterone,  estradiol  and progesterone bind to cytoplasmic receptors.\nReason (R): Cortisol,  testosterone,  estradiol  and progesterone are steroid hormones.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q12",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Low secretion of parathyroid hormone leads to  Hypocalcaemic tetany.\nReason (R): Low Ca2+ conc. in the extracellular medium of  muscle fibres makes them more excitable.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q13",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Growth hormone and thyroxine are synergistic  hormones.\nReason (R): Both growth hormone and thyroxine increase  blood glucose level.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q14",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Calcitonin hormone increases the blood  calcium level by stimulating the process of bone resorption.\nReason (R): Calcitonin hormone is a hypercalcemic  hormone.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q15",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Catecholamines refer to dopamine, epinephrine  and nor-epinephrine.\nReason (R): The secretion of epinephrine is under control of  pituitary hormones.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q16",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The Leydig cells which are present in inter  tubular spaces produce a group of hormones called testosterone.\nReason (R): Testosterone hormone does not influence  libido.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q17",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Castration changes an aggressive bull into a  docile ox.\nReason (R): This is due to deficiency of testosterone.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_chemical_coordination_and_integration_secB_q18",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Thyroid regulates basal metabolic rate.\nReason (R): Thyroid initiates, regulates and play a key role  in metamorphosis of frog's tadpole.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 476,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

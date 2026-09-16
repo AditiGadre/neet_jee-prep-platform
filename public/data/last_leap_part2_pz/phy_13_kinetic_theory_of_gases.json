@@ -1,0 +1,2766 @@
+[
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q1",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "At 27°C temperature, the kinetic energy of an ideal gas is E. If the temperature is increased to 327°C, then kinetic energy would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2E",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1  2 E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q2",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "When a gas in an open container is heated, the mean free path",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains the same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of the above depending on the molar mass",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q3",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Translational kinetic energy of oxygen molecules at room temperature is 60 J. Their rotational kinetic energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q4",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas kept in a container with a hole is heated. The mean free path will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain the same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of the above depending on the molar mass",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q5",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Two isotherms are drawn at temperatures T1 and T2 as shown. The ratio of mean speed at T1 and T2 is  p  T1 T2 v0 4v0  v O",
+    "question_diagram": "/images/last_leap_pz2/p247_q5.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q6",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas kept in a closed container is heated. The collision frequency of the gas molecules will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain the same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depend on the volume of the container",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q7",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Two bulbs A and B of same volume contain an ideal gas at temperature T and pressure p. When the temperature of the bulb B is doubled and that of A remains unchanged, the pressure of the gas will be (Neglect the volume of the tube connecting the two bulbs)  A B",
+    "question_diagram": "/images/last_leap_pz2/p247_q7.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2p",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 3 p",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.5p",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.2p",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q8",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The translational kinetic energy of n moles of a diatomic gas at absolute temperature T is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 2 nRT",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2 nRT",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5nRT",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 2 nRT",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q9",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "At what temperature will the oxygen molecule have the same root mean square speed as hydrogen molecule have at 100 K?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "400 K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "800 K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1000 K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1600 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q10",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "If pressure of a gas is doubled, then of the average kinetic energy per unit volume of the gas will  be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Half of its initial value",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Double of its initial value",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "One fourth of its initial value",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four times of its initial value",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q11",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas undergoes change in its thermodynamic state from a to b at constant pressure as shown in the figure. The mass of the gas  V a  b  T",
+    "question_diagram": "/images/last_leap_pz2/p248_q11.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May increase or decrease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remains constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q12",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "If Vrms, v and  m v  represent rms speed, average  speed and most probable speed of the molecules of a gas at a given temperature respectively, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "r ms m v v v  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r ms   m v v v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r ms m v v v  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r ms m v v v  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q13",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The value of x in the given graph with usual symbols is  pV nT (J mol K  T2 T1  -1 -1)  x  T1 > T2  p",
+    "question_diagram": "/images/last_leap_pz2/p248_q13.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0.26 J mol-1 K-1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8.314 J mol-1 K-1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8.2 J mol-1 K-1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8.2 × 102 J mol-1 K-1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q14",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Entropy of the Universe is increasing",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Entropy of the Universe is constant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Entropy of the Universe may decrease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q15",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Average velocity of oxygen molecules at 27°C in a container at rest is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "980 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "370 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "863 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q16",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "At temperature 127°C the r.m.s. speed of the molecules of certain gas is found to be 600 m/s. The gas is (R = 8.4 J/k mol)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "He",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q17",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The kinetic energy of one mole of an ideal gas is  5 2 RT at absolute temperature T. The molar heat  capacity at constant volume for gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.2 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.5 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.5 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q18",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of Vav : Vmp : Vrms is [symbols have their usual meaning]",
+    "question_diagram": "/images/last_leap_pz2/p248_q18.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 : 2 : 8 π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 : 8 : 2 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 8 : 3 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π 8 : 2 : 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q19",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is true for molar heat capacity of an ideal gas?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It cannot be negative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It has only two values (CP and CV)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It can have any value",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It cannot be zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q20",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A vessel contains 2 moles of N2 gas at temperature T. An identical vessel contains 2 moles of Helium gas at temperature 3T. The ratio of their pressure is  (Take gases to be ideal)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 27",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "27 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q21",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Gas equation PV = nRT is valid for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Real gases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ideal gases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Real gases at low pressure and high  temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q22",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "For the process A → B of an ideal gas of fixed mass, the density of gas  B  P  A  T",
+    "question_diagram": "/images/last_leap_pz2/p249_q22.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First increases then decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q23",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The root mean square velocity of the molecules in  7 5 th that of the molecules        a sample of helium is     in a sample of hydrogen. If the temperature of the hydrogen sample is 0°C, that of helium samples is about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "273°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q24",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "If temperature of an ideal gas is increased at constant volume, then select correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The average kinetic energy of gas molecules  will increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The average speed of gas molecules will  increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The collision frequency will increase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q25",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "At temperature 127ºC the r.m.s. speed of the molecules of certain gas is found to be 600 ms-1. The gas is [R = 8.4 J K-1mol-1]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "He",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q26",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Maxwell's speed distribution graph is drawn as shown below. The most probable speed of the gas molecules is  Nv  O 2 4 6 8 10 v (km/s)",
+    "question_diagram": "/images/last_leap_pz2/p249_q26.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4 km/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Between 2 km/s and 1 km/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Any value between 2 km/s and 6 km/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than 4 km/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q27",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A rigid container containing an ideal gas with a small hole is gradually heated and the amount of the gas (in moles) is plotted with temperature (in kelvin). The correct graph is  n  n",
+    "question_diagram": "/images/last_leap_pz2/p249_q27.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T  T  n  n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T  T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q28",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The density of a gas is 9×10-2 kg/m3 and the root mean square velocity of the gas molecules is 500 m/s. The pressure exerted by the gas on the walls of the vessel is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9112.5 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18225 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4556 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7500 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q29",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A closed container having an ideal gas is heated gradually to increase the temperature by 20%. The mean free path will become/remain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20% more",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Same",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20% less",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "33% less",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q30",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "If fT, fR and fv are translational, rotational and vibrational degrees of freedom of an atom in a solid, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "fT = 3, fR = 0, fV = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "fT = 0, fR = 0, fV = 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "fT = 3, fR = 0, fV = 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "fT = 3, fR = 0, fV = 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q31",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A flask contains neon and oxygen in the ratio 4 : 5 by mass. The temperature of the mixture is 50°C. The ratio of their mean translational kinetic energy is (assume ideal gas behaviour)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 : 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16 : 25",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q32",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Degrees of freedom of carbon monoxide ideal gas at room temperature is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q33",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The molar specific heat at constant pressure for a monatomic ideal gas is (R : Universal Gas Constant)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 2 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7 2 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q34",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following relations for an ideal gas is wrong? (Symbols have their usual meaning)  R C γ γ  R C γ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 p",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 v  C  p  C γ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cp - Cv = 2R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "v",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q35",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "At a given temperature, the pressure of an ideal gas of density ρ is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 ρ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 1  ρ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ρ2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ρ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q36",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graphs shows the variation of mean kinetic energy E of an ideal gas molecules with temperature t°C?  E  E",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  t  E  E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q37",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Mean free path of N2 gas molecules in a rigid container is λ. If the temperature of the gas is doubled, then the new mean free path of N2 gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "λ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q38",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Ratio of mean translational kinetic energy of He and O2 gas molecules at a temperature will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 : 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 : 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q39",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure and density of an ideal diatomic gas change adiabatically from (p1, d1) to (p2, d2).  d  p  If  2  d = 32, then  2  p is  1  1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 128",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "128",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "32",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "256",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q40",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "According to kinetic theory of gases, at 0 K",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Internal energy of an ideal gas is zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure of an ideal gas is zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Volume of an ideal gas is zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q41",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The root mean square speed of oxygen molecules (O2) at a certain absolute temperature is v. If the temperature is doubled and oxygen gas dissociates into oxygen, the rms speed would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "v",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 v",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 v",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q42",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A vessel of volume V contains an ideal gas at absolute temperature T and pressure P. The gas is allowed to leak till its pressure falls to P . Assuming that the temperature remains constant during leakage, the number of moles of the gas that has leaked is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "( ) V P P RT   ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "( ) 2 V P P RT   ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "( ) V P P RT   ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "( ) 2 V P P RT   ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q43",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "For a gas, if the ratio of molar heat capacities at constant pressure P and constant volume V is γ, then the value of degree of freedom is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 1 γ γ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 1 γ γ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1( 1) 2 γ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 γ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q44",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Two gases A and B having the same temperature T, same pressure P and same volume V are mixed. If the mixture is at the same temperature and occupies a volume V, the pressure of the mixture is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q45",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Boyle's law and Charles' law are given respectively by (Symbols have usual meanings)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "and  constant V P V T ∝ ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "constant and  constant V PV T  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1  and  V T P V ∝ ∝",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 and  constant V VT P ∝ ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q46",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas has an initial pressure of 3 pressure units and an initial volume of 4 volume units. The following options give the final pressure and volume of the gas  (in those same units) in four processes. Which process starts and ends on different isotherm?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P = 12, V = 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P = 6, V = 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P = 5, V = 7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P = 4, V = 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q47",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Five molecules have speed 4, 3, 5, 7 and 9 m/s. What is the rms speed of these molecules (in m/ s)?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "36",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q48",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "If the temperature of an ideal gas is changed from 20°C to 40°C while the volume is unchanged, then the pressure of the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Doubled",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increased to less than double",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increased to more than double",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decreased",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q49",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Figure shows graphs of pressure P versus density ρ for an ideal gas at two temperatures T1 and T2. Then  P  T1  T2  ρ",
+    "question_diagram": "/images/last_leap_pz2/p251_q49.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "T1 > T2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T1 = T2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T1 < T2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T1 ≤ T2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q50",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "When n moles of a polyatomic gas is mixed with five moles of monoatomic gas at low temperature, the mixture behaves as a diatomic gas, the value of n is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q51",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The temperature of an ideal gas is increased from 120 K to 480 K. If at 120 K the root mean square velocity of the gas molecules is v, then at 480 K it becomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4v",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 v",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 v",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q52",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following quantities is zero on an average for the molecules of an ideal gas in thermal equilibrium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetic energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Momentum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Density",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Speed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q53",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Molar heat capacity at constant volume of He gas is  ideally (R : Universal gas constant)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 2 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7 2 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9 2 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q54",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Two ideal gases have same number of molecules per unit volume and radii of their molecules are r and 3r respectively. The ratio of their mean free path in  an identical container will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q55",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Ratio of molar heat capacity at constant volume to its specific heat capacity at constant volume for hydrogen is equal to  7 g 5",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 g 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q56",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of average translatory kinetic energy to average rotational K.E. of a diatomic gas molecule is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q57",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A diatomic gas of molecular mass 30 g/mol is filled in a rigid container at temperature 20°C. Container is fixed with a moving trolley whose velocity is 60 m/s. If trolley suddenly stops, then the rise in temperature of the gas is (R : universal gas constant)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "112 C 5R °  108 C 5R °",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "96 C 5R °",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "78 C 5R °",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q58",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "For nitrogen Cp - Cv = a and for oxygen, Cp - Cv = b. The relation between a and b is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a = b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a = 7b  7 a b ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 b a ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q59",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "For a gas R/Cv=0.67. This gas consists of molecules which are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diatomic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monatomic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Triatomic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q60",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The relation among P, V, T for an ideal gas is PV = aT, where a is a constant. The value of a depends on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P, V and T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mass of a gas molecule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Average K.E. of gas",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Number of molecules in volume V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q61",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "In thermal equilibrium, the average velocity of gas molecules is (T : absolute temperature)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Proportional to T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Proportional to T2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Proportional to T3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q62",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "At what temperature the rms velocity of O2 molecule will be equal to rms velocity of N2 molecule at 0°C?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "93°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "39°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "53°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q63",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Volume-temperature graph at atmospheric pressure for a monatomic gas ( V in m3 and T in °C) is  V  V",
+    "question_diagram": "/images/last_leap_pz2/p252_q63.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T O  T O  V  V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T O  T O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q64",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The average translational kinetic energy of O2 (molar mass 32) at particular temperature is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q65",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "At constant pressure, the ratio of increase in volume of an ideal gas per degree rise in kelvin temperature to its original volume is (T = absolute temperature of gas)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 1  T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q66",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The number of degree of freedom for a diatomic gas, taking into account vibrational mode is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q67",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A gas is at temperature 137ºC. It is cooled down upto temperature tºC so that average kinetic energy (Translational) of molecule is half then t is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "68ºC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "167ºC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "205ºC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-68ºC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q68",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas follows a law according to that its  α   2 1 / P  ,  pressure varies with volume as       β  V  where α and β are constants. The temperature of the gas at volume V = β is equal to (No. of moles = 1)  2 2  2  2R αβ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2R αβ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "αβ  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2R αβ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q69",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A container containing hydrogen gas at 27°C is at rest. Average velocity of gas molecules is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1934 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "967 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "483 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q70",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Degrees of freedom of an ideal gas is 4. Ratio of  C  p  molar heat capacities   C  is equal to  v",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.67",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.33",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q71",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "RMS speed of a monatomic gas is increased to two times of its initial value. If the process is done adiabatically, then the ratio of final volume to initial volume will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 23/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 42/3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q72",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A vessel contains 1 mole of O2 gas at a temperature T . The pressure of the gas is P. An identical vessel containing 2 mole of He gas at a temperature 2T has a pressure of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q73",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The rms speed of an ideal diatomic gas is V at a certain temperature. When temperature of the gas is doubled the gas dissociates into atoms. New rms speed of the gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q74",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The number of rotational degree of freedom for a diatomic gas molecules is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secA_q75",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "As temperature increases for a given sample of gas,  the most probable speed",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depends on atomicity of the gas",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secB_q1",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If the temperature of gas filled in a closed  container is halved, the mean free path of the gas is also halved.\nReason (R): The mean free path of gas is directly  proportional to temperature at constant volume",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secB_q2",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If an electric fan be switched on in a closed  room, air of the room will be cooled.\nReason (R): Fan air decreases the temperature of the room.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secB_q3",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): For monatomic gas atom, the number of  degrees of freedom is 3.  C\nReason (R): For monatomic gas,  5 3  p  C γ .  v",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_13_kinetic_theory_of_gases_secB_q4",
+    "subject": "Physics",
+    "chapter": "Kinetic Theory of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): At very high temperature, diatomic gas have  two additional degrees of freedom.\nReason (R): Number of molecules of gas decreases at high  temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

@@ -181,17 +181,21 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     };
   }, []);
 
-  // Sub-tab definitions (Student High-Yield Precision Suite)
+  // Sub-tab definitions (Student High-Yield Precision Suite - Curated)
   const subModules = [
     { id: 'custom-test', label: 'Custom Practice Test Generator', icon: Sliders, desc: 'Generate high-yield chapter tests and printable papers by difficulty.' },
-    { id: 'flash-cards', label: 'Flash Cards', icon: Layers, desc: '30+ high-yield revision cards with formulas, reactions, diagrams & mnemonics.' },
-    { id: 'mind-maps', label: 'Mind Maps', icon: Network, desc: 'Interactive concept visual trees for rapid revision.' },
     { id: 'analytics', label: 'Student Analytics', icon: LineChart, desc: 'Score analysis, accuracy, weak topics & progress graphs.' },
     { id: 'dpp-generator', label: 'DPP', icon: FileSpreadsheet, desc: 'Sub-topic daily practice papers with instant solutions and PDF download.' },
-    { id: 'books', label: 'Books & Notes', icon: BookMarked, desc: 'NCERT highlighters, revision notes, formula books & downloadable PDFs.' },
-    { id: 'pyqs', label: 'NEET/JEE PYQs', icon: HelpCircle, desc: 'Chapter, topic & year-wise previous year questions with step solutions.' },
     { id: 'my-downloads', label: 'My Download Vault', icon: ArrowDownToLine, desc: 'Preserved download history of question papers, scorecards, NCERT books and DPPs.' }
   ];
+
+  // Auto-redirect if incoming subTab is one of the hidden modules
+  useEffect(() => {
+    const hiddenTabs = ['flash-cards', 'mind-maps', 'books', 'pyqs'];
+    if (hiddenTabs.includes(activeSubTab)) {
+      onSelectSubTab('custom-test');
+    }
+  }, [activeSubTab, onSelectSubTab]);
 
   // Available Chapters by Subject (Instantly pre-computed)
   const biologyChapters = ALL_BIOLOGY_CHAPTERS;
@@ -515,10 +519,10 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <Sparkles className="w-3 h-3 text-blue-600" /> High-Yield Academic Edge Suite
             </div>
             <h1 className="text-xl sm:text-2xl font-bold text-gray-900 tracking-tight">
-              2. What Extra We Offer (8 Precision Learning Tools)
+              2. What Extra We Offer (Precision Student Suite)
             </h1>
             <p className="mt-1 text-xs text-gray-600 max-w-3xl">
-              Custom Practice Test Generator, Interactive Flashcards, Visual Mind Maps, DPP, Books & Notes, PYQs, and tracked PDF download vault.
+              Custom Practice Test Generator, Sub-Topic DPPs, Student Performance Analytics, and Tracked PDF Download Vault.
             </p>
           </div>
         </div>

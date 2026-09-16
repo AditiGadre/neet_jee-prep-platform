@@ -1,0 +1,4461 @@
+[
+  {
+    "question_id": "phy_23_nuclei_secA_q1",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A radioactive sample decays by two processes with half lives 600 s and 30 days. The effective half-life of the sample is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30 days",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30.007 days",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "600 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Less than 600 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q2",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "During an 'α' particle decay from a nuclei at rest of atomic mass 284, the wavelength of the wave associated with the 'α' particle is 'λ'. Then the wavelength of the wave associated with the daughter nuclei must be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "280 λ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q3",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The nuclear density of a material of atomic number 27 is \"3ρ0\". Then the nuclear density of material of atomic number 125 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5ρ0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3ρ0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 5 3 ρ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ρ0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q4",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A nucleus at rest ruptures into two nuclear parts which have ratio of magnitude of their velocities 1 : 2. Then what is the ratio of their nuclear radius?  1 2 2 : 1  1 3 2 : 1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q5",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A radioactive sample has a half-life of 1770 years. At some instant 20% of the sample has decayed. Taking this instant as t = t1, it is found that at t = t2, 20% of the sample is left. Then, t2   - t1 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1770 years",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "885 years",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2655 years",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3540 years",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q6",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The density ρ of nucleus varies with nucleon number A as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ρ ∝ A1/2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ρ ∝ A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ρ ∝ A3/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ρ ∝ A0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q7",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The order of magnitude of density of a nucleus is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1014 kg/m3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1017 kg/m3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1021 kg/m3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1025 kg/m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q8",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The binding energy of an electron in ground state of He is equal to 24.6 eV. The energy that must be given to the atom so that second electron can be removed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "49.2 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "54.4 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "79 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "84 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q9",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has the mass closest to that of positron?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Proton",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Photon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neutrino",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q10",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "What was the fissionable material used in bomb dropped at Nagasaki (Japan) in 1945?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uranium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nepturium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Berkalium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plutonium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q11",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If half life of a radioactive substance is 10 hours, then its mean life is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "14.4 h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7.2 h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.93 h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q12",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Average binding energy per nucleon is constant and is equal to 8 MeV per nucleon for most of the nuclei. This is because nuclear force",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is a short range force",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is charge independent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is non-central",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Show saturation property",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q13",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following, controlled fusion reaction takes place?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tokamak",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stellar energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrogen bomb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q14",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "19 19 8 9 O F A B →    In the given decay equation, A and B indicate",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electron and antineutrino",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Positron and antineutrino",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Positron and neutrino",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electron and positron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q15",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A radionuclide decays 50% in 1 h. If the activity of the radionuclide is A0 at a certain instant, then after two hours, the activity will become",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 2 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 4 A  0 8 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 16 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q16",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Two radioactive substances A and B have decay constants such that λA = 2λB. At t = 0, number of nuclei of B is twice of that of A. Then after what time, the ratio of number of nuclei of A to that of  1 ? 2e  number of nuclei of B is   1 2λB",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 λA",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 λB",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 λA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q17",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A freshly prepared radio-isotope has activity 64 times the allowed level. If half life is 3 h, then how long one must wait before using the isotope in radio-diagnosis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "24 h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18 h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q18",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graph correctly represents the variation of the term log (A/A0), where A is activity at time t and A0 is initial activity?  A A0 log  O t",
+    "question_diagram": "/images/last_leap_pz2/p350_q18.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A A0 log",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O t  A A0 log",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O t  A A0 log",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q19",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A stationary nucleus of mass number A emits an α-particle. The de-Broglie wavelength of the daughter nucleus is λ1 and that of the α-particle is  λ λ  is  λ2, then the ratio  1  2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 4 A ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 4 A ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 4 A ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q20",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If the half-life of a radio-nuclide is two hours, the fraction decayed in four hours will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2  1 8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q21",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "After two alpha decays and four beta(-ve) decays, the atomic number",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases by 4 and mass number remains same",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Remains same but mass number increases by 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains same but mass number decreases by 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increases but mass number remains same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q22",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The atomic weight of boron is 10.81 g/mole and it  has two isotopes 10 11 5 5 B : B. The ratio (by number)  of 10 11 5 5 B : B in nature would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "19 : 81",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 : 11",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 : 16",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "81 : 19",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q23",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Mark out the correct statement(s)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Higher binding energy per nucleon means the  nucleus is more stable",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If the binding energy of nucleus were zero,  then it would spontaneously break apart",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Binding energy of a nucleus is always +ve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q24",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Binding energy per nucleon of a fixed nucleus XA  is 8 MeV. It absorbs a neutron moving with kinetic energy K.E. = 4 MeV. and converts into Y. Emitting a photon of energy 2 MeV. The binding energy per nucleon of Y (in MeV) is   ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "8 2 1 A A   ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "8 2 1 A A   ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 1 A A ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 1 1 A A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q25",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If the binding energy of the electron in the ground state of a hydrogen atom is E, then the frequency of electron in the nth orbit is  n E 2 / 1 2",
+    "question_diagram": "/images/last_leap_pz2/p351_q25.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "E  3 2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "h  h n  E 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 3  E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "nh  h n",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q26",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair of nuclei are isotones?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B , Be 10 5 9 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "He , He 4 2 3 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F , O 17 9 17 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Be Li, 7  4 7 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q27",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The statement which is incorrect about nuclear force between to protons is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "These are always attractive forces",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "These are non-central forces",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "These are charge independent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "These are short range forces",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q28",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The rest mass energy of a positron is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.51 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.02 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.25 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q29",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The Q-value for a fission process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Always positive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Always negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Always zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of the above depending on the mass ratio  of the fission fragments",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q30",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If mass of He 4 2  is 4.0026 amu, mass of a proton  is 1.0073 amu and mass of a neutron is 1.0087 amu, then the binding energy of 2He4 is equivalent to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.0294 amu",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.0588 amu",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.1176 amu",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.0147 amu",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q31",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Two protons each having kinetic energy K move towards each other from infinitely large separation. Assuming a proton to be a sphere having radius equal to 1 fermi, the minimum value of K for which the protons are able to touch each other is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "360 keV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "180 keV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "720 keV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1440 keV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q32",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If a luminous watch dial contains 10 micro curies  of radium isotope  , Ra 226 83  then the number of  decays per second that occur in it, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.81 × 105 decays s-1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.62 × 105 decays s-1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.9 × 105 decays s-1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7.24 × 105 decays s-1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q33",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A beta plus decay is shown below. Assuming that X and Y both are neutral atoms and energy carried by ν is negligible, the Q value of the process is  ν   →  e Y X A z A z 1 -",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 1 - ] 2 - ) ( - ) ( [ c m Y m X m e A z A z",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 - )] ( - ) ( [ c Y m X m A z A z",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 1 - ] - ) ( - ) ( [ c m Y m X m e A z A z",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 - ] ) ( - ) ( [ c m Y m X m e A z A z ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q34",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If a nucleus ruptures into two nuclear parts which have their velocity ratio equal to 8 : 1, then the ratio of their nuclear radii is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q35",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A radioactive nucleus having mass number 198 and atomic number 83 undergoes a series of decays as   α β α γ →  → → →  1  0 1 2 3 4 X X X X X  Find the mass number and atomic number for X4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "190, 80",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "196, 82",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "194, 81",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "192, 80",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q36",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A radioactive element A disintegrates to form another radioactive element B having decay constant λ1 and the element B further disintegrates with decay constant λ2 into element C. If element B is in radioactive equilibrium, then the ratio of the half life periods in two decays is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "λ1 : λ2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "λ2 : λ1  2 : λ2 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 : λ λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "λ1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q37",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If E is the amount of energy released when a radioactive element having mass number A undergoes alpha decay, then the velocity of alpha particle is  E A ) 4 - ( 2",
+    "question_diagram": "/images/last_leap_pz2/p352_q37.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4 - 2 A  Q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "α Am  E A  2 ) 4 - (",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 - 2 A  AE",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "α Am",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q38",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "In a given time interval t a radioactive sample emits n beta particles and in next time interval t it emits 0.75 n beta particles. The mean life of the sample is  2t",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "3 / 4 ln  5 . 1 t",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "3 / 4 ln  t  t",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 / 3 ln",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 / 4 ln",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q39",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "When a radioactive nucleus undergoes negative beta decay, the ejected electron is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electron already present in the nucleus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Valance electron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Emitted by a neutron in the nucleus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Emitted by a proton in the nucleus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q40",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If t1/2 is the half life of a substance, then in 2(t1/2) time substance",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decays by 3 th 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Remains 3 th 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decays by 1  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remains 1  3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q41",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The half life of a radioactive substances X is T. When this substance makes a chemical compound XY after reacting with the substance Y which is stable, the half life of X becomes T, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T = T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T > T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T < T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T = ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q42",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A freshly, prepared radioisotope has rate of disintegration 64 times higher than the safe limit. Half life of the radioisotope is 1.5 hr. How long a radiologist must wait before he uses this isotope in diagnosis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 hour",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7 hour",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9 hour",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 hour",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q43",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Two nuclei fuse together to form a single nucleus  as  4 2 2 1 2 1 B A A →  . If binding energy per nucleon of A and B are respectively x and y, then the energy released in the process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4x + 4y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4x - 4y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4y - 4x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "y - x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q44",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The S.I. Unit of activity of a radioactive material is 'becquerel'. 1 becquerel is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "106 disintegrations/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.7×1010 disintegrations/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1010 disintegrations/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 disintegration/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q45",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "When a radioactive nucleus is too heavy, it will, most likely, emit",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "α-particle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "β--particle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "β+-particle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "γ-photon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q46",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The volume (V) of a nucleus is related to its mass (M) as  1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "V ∝ M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "V ∝ M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "V ∝ M 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "V ∝  3 1  M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q47",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A sample of radioactive material has initial mass A, decay constant B, molecular weight C and Avogadro's constant D. The activity of the sample after time t will be  Bt e CB AD -          Bt e C AD -        ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Bt e C ADB -          BT e B ADC -        ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q48",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A U235 nucleus at rest emits an alpha (α) particle. During this process",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The nucleus remains at rest while α-particle  comes out with a large speed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleus as well as α-particle move with equal  and opposite speeds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "α-particle moves with lesser speed compared  to the nucleus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both will move with same magnitude of  momentum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q49",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "In an α-particle scattering experiment, the number of particles scattering per minute in a direction perpendicular to direction of incident particles is 40. The number of particles scattered at an angle 60° per minute will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "145",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "160",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "172",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "157",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q50",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "In a nuclear reaction an electron and positron join to liberate two γ-ray photons. The momentum of each photon will be [m0 is rest mass of electron or positron and neglect initial speed of the electron and position]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "m0c",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 2 m c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2m0c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2m0c2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q51",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The mass number of a nucleus is M which is at rest initially. It emits an α particle of kinetic energy",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q52",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Density of gold nucleus is X. Density of silver nucleus will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2X",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 X",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4X",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "X",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q53",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Activity of a radioactive substance decays from 8000 bequerel to 4000 bequerel in 5 days. Activity of the substance after next 10 days will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "500 bequerel",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1500 bequerel",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2000 bequerel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1000 bequerel",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q54",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct statement regarding mass number and atomic number. Mass number of a nucleus",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is always more than atomic number",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is always less than atomic number",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is always equal to its atomic number",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May be more than or equal to its atomic  number",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q55",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "On decay a neutron produces a proton, an electron and",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A neutrino",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "An antielectron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "An antineutrino",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π-Meson",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q56",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Half-life of a radioactive nucleus is 16 days. Select the correct statement for a given sample of this radioactive material.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "No nucleus will decay before 8 days",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "No nucleus will decay before 16 days",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All nuclei will decay before 33 days",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A nucleus may decay any time after t = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q57",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The half-lives of a radioactive substance are 1600 year and 400 year for α-emission and β-emission respectively. The time after which one fourth of the sample will remain undecayed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "640 Year",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4000 Year",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2000 Year",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "320 Year",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q58",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "In the pair-production process a γ ray photon creates an electron-positron pair. If the total kinetic energy of electron and positron is 0.78 MeV then the energy of γ ray photon is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.80 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.10 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.01 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.27 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q59",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "In the following nuclear reaction, the value of z is  decay decay 238 92U X Y α α → → A Z",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "84",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "86",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "88",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q60",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements  A : Spectrum of energy of α-particles in α-decay is  line spectrum.  B : Spectrum of energy of β-particle in β-decay is  continuous spectrum.  Which of the following options is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Statement A is true and B is false",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Statement B is true and A is false",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both statements A and B false",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both statements A and B true",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q61",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If mass of electron is equal to  1 1840 times the  mass of proton, then energy of γ photon required for the pair-production of an electron and positron is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Less than 1.01 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Equal to 1.01 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Greater than 1.01 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Less than or equal to 1.01 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q62",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A radioactive substance can decay by two individual decay processes of half lives 150 yrs and 100 yrs. If the sample starts decaying by both processes simultaneously, then half life of the sample becomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "125 yrs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "250 yrs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "120 yrs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60 yrs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q63",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Total mass of a radioactive sample is m, decay constant is λ and molecular weight is M. If NA is Avogadro's number, then initial activity of the sample is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "λm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "m M λ  M λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "mMeλ  A mN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q64",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Number of α and β-1 particles respectively, emitted in the following radioactive decay, is  200 168 90 80 X Y →",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 and 6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 and 8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 and 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 and 6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q65",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The radius of a nucleus is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Proportional to its mass number",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inversely proportional to its mass number",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Proportional to the cube root of its mass  number",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Not related to its mass number",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q66",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If 10% of a radioactive material decays in 5 days, then amount of the original material left after 20 days is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "75%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "65%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "85%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q67",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Out of the following, the most unstable particles are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrons",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neutrons",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "α-particles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q68",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A radioactive nuclei emits a β-particle. The parent and daughter nuclei are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isotopes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isotones",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isomers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isobars",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q69",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Two nucleons are at a separation of 1 fm. The net force between them is F1 if both are neutrons, F2 if both are protons and F3 if one is proton and the other is a neutron. Hence",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F1 > F2 > F3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F2 > F1 > F3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F1 = F3 > F2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F1 = F2 > F3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q70",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The activity of a sample of radioactive material is A1 at time t1 and A2 at time t2 (t2 > t1). Its mean life is T. Which of the following relation is correct?   ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "A1t1 = A2t2  1 2 ( )  t t T A A e",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 1  t t T A A e   A A t t   1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2    = constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 1  2 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q71",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct decreasing order of penetrating power of α particle, β particle and γ rays, each having an energy of 0.4 MeV.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "γ, β, α",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "β, γ, α",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "α, γ, β",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "α, β, γ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q72",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Two lithium nuclei in a lithium vapour at room temperature do not combine to form a carbon nucleus because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A lithium nucleus is more tightly bound than a  carbon nucleus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon nucleus is an unstable particle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lithium nuclei are more stable than carbon nuclei",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Coulombic repulsion does not allow the nuclei  to come very close",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q73",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If only 25 percent of a radioactive material is left over after 24 h, then the half life of the material is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8.46 h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q74",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A nucleus with mass number 220 initially at rest emits an α-particle. If the Q value of the reaction is 5.5 MeV, then the KE of α-particle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4.4 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.4 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.6 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.5 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q75",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The binding energy per nucleon of deuteron (1H2) and helium nucleus (2He4) is 1.1 MeV and 7 MeV respectively. If two deuteron nuclei react to form a single helium nucleus, the energy released is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "13.9 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "26.9 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "23.6 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "19.2 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q76",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Activity of a radioactive element decreased to one third of initial value R0 in 9 years. After next 9 years its activity will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 2 3 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 6 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 9 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 12 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q77",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If a stationary nucleus of mass m emits a photon of energy E, then recoil energy of the nucleus is  2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E mc",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 E m c  2  2 2 2E c m  2 2 E mc",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q78",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "16 g of radioactive Radon of half life 3.8 days is kept in a container. How much Radon will disintegrate in 19 days?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5 g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.5 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10.5 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15.5 g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q79",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If the binding energy of deuteron 2  1( H) is 1.15 MeV  per nucleon and an alpha particle  4 2( He) has a binding energy of 7.1 MeV per nucleon, then in the reaction  2 2 4 1 1 2 H + H He + Q →  the energy Q released is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4.6 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "28.4 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "23.8 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "33 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q80",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The binding energy per nucleon for α-particle and deuteron are x and y respectively. What will be the energy released in the reaction?  1H2 + 1H2 → 2He4 + Q",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4(x - y)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4(y + x)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2(x + y)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2(y - x)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q81",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Density of potasium nucleus is ρ. Density of sodium nucleus will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ρ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2ρ  11 13 ρ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "13 ρ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q82",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Radioactivity of a sample of radioactive nuclei reduces from 4000 to 2000 becquerel in 2 h. Time taken by it to reduce its value from 2000 to 500 becquerel is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q83",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The graph between the instantaneous concentration (N) of a radioactive element and time (t) is  N  N",
+    "question_diagram": "/images/last_leap_pz2/p355_q83.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  t  N  N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q84",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The half life period of a radioactive element x is same as the mean life time of another radioactive element y. Initially both of them have same number of atoms, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x and y have same decay rate initially",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x and y decay at the same rate always",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "y will decay at a faster rate than x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x will decay at a faster rate than y",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q85",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A radioactive nucleus undergoes α emission to form a stable element. What will be the recoil velocity of daughter nuclei, if v is the velocity of α- emission and A is the atomic mass of radioactive nucleus?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 4 v A ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 4 v A ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 4 v A ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 4 v A ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q86",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If T is the half life of a radioactive material, then the fraction of initial nuclei that would remain after a time T/2 is",
+    "question_diagram": "/images/last_leap_pz2/p355_q86.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 4  1  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 - 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q87",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The relationship between disintegration constant (λ) and half life (T) will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "log 2 λ e T",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "10 log 2 λ T  T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 log λ e T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "log 2 λ  e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q88",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The sun maintains its brightness due to which of the following reactions in its core?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conversion of Helium into Hydrogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fusion of Hydrogen into Helium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fusion of Helium into Nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fission of Carbon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q89",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Momentum of an alpha particle emitted from a  \u0002p . Momentum of the daughter nucleus should be  stationary nucleus is   \u0002p  \u0002p",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 \u0002p",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u0002p",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q90",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Percentage of radioactive  sample decayed in 2 half lives is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "75%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q91",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "In sun about 4 billion kg of matter is converted into energy each second. Power output of Sun in watts, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.6 × 1026",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "36 × 1026",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.36 × 1026",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.036 × 1026",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q92",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The rate of disintegration of a radioactive sample is R1 at time t1 and R2 at time t2. The half-life of the sample is proportional to  ( )ln ln t t R R   2 1 ln / t t R R   1 2  1 2 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": " ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "   1  ( ) ln / t t R R   ( ) [ln( ) ln( )] t t R R    1 2  1 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": " ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1  1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q93",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A nucleus of mass m emits photon of wavelength λ If the recoil energy of nucleus is E, then energy of photon is equal to",
+    "question_diagram": "/images/last_leap_pz2/p356_q93.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 c m E",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E  c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 cE  m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2  m E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q94",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The activity of a sample decreases by 30% in 10 days. Half life of the sample is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 days",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 days",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 days",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 days",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q95",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Minimum energy that a γ-ray must have to give rise to an electron-position pair is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.51 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.02 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.04 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.53 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q96",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is used as a moderator in nuclear reactor?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plutonium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cadmium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thorium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heavy water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q97",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The binding energy per nucleon for a deuteron and an α-particle are E1 and E2 respectively. The energy  Q  released  in  the  reaction  2 2 4 1 1 2 H H He Q  →   is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4(E2 - E1)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4(E1 + E2)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2(E1 + E2)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2(E2 - E1)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q98",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The energy of thermal neutron is about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.51 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "25 meV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.02 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q99",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "During fusion reaction, the device in which magnetic field is used to confine the plasma is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Breeder reactor",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Moderator",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tokamak",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Geiger-Nuttal counter",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q100",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If only 25% of a radioactive material is leftover after 24 h, then the half life of the material is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7.86 h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q101",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The binding energy per nucleon of deuteron (1H2) and helium nucleus (2He4) is 1.1 MeV and 7 MeV respectively. If two deutron nuclei react to form a single helium nucleus, then energy released is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "13.9 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "26.9 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "23.6 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "19.2 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q102",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following parameter of nucleus is independent of its mass number?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Radius",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Volume",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Density",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q103",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A nucleus of mass M is at rest. An alpha particle of mass m is emitted from the nucleus with momentum P. Q value of the nuclear reaction is  2  2  2 ( ) P M m M m ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2 ( ) P m m M m ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  2  2 ( ) P M m M m ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 ( ) P m m M m ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q104",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The half life of a radioactive substance is 20 days. The time spent between 40% decay to 85% decay of initial number of nuclei is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 days",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 days",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 days",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 days",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q105",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Half life of a certain radioactive element is 2 minutes. The amount of element that will decompose in 20 minutes is (A0 is the initial amount)  0 1024 A",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "0 1023 1024 A",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 10 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 1020 1024 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q106",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Let a nucleus N1 decomposed into N2 and N3 as shown in the figure  λ1 1 ,T  N2  N1  λ2 2 ,T  N3  The value of λeffective and Teffective is  2 , T T T T λλ   1 2 1 2 1 2",
+    "question_diagram": "/images/last_leap_pz2/p357_q106.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "λ1 + λ2, T1 + T2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 1 2 1 2 ,T T λλ  λλ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 1 2 1 2 , T T  T T λλ ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q107",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "If the radius of 13Al27 is 6 fermi, then the radius of  52Te125 nucleus is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 fermi",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 fermi",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 fermi",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 fermi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q108",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "In which of following decays, atomic number increases?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "α",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "β-",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "β+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "γ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q109",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "For the nuclei with mass number A > 100",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The nucleus essentially breaks up into two  nuclides of equal mass releasing energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The two nucleus fuse to form a bigger nuclide  releasing energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Binding energy per nucleon of the nucleus  decreases on an average as A increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Binding energy per nucleon of the nucleus  increases on an average as A increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q110",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The fusion process is possible at high temperature because at high temperatures",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Atoms become ionized",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Molecules disintegrate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The nucleus disintegrate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The nuclei get sufficient energy so as to  overcome the coulombic repulsive force",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q111",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The half life of a radioactive substance as compared to its mean life is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "70%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q112",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "10% of a radioactive sample has decayed in 1 day. After 2 days, the decayed percentage of nuclei will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "19%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "81%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q113",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The graph shows the variation of the number of radioactive atoms left undecayed with time. The  0 5 N  time t corresponding to    is  N  2 3  N0  N0  5 t  t0 t",
+    "question_diagram": "/images/last_leap_pz2/p357_q113.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 ln (5) ln (2/3) t t ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 ln (5) ln (3/2) t t ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t = t0 ln (5)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 3 ln (5) ln 2 t t        ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q114",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "A nucleus with atomic number Z = 92 emits the following in sequence α, β-1, β-1, α, α, α, α, α, β-1, β-1, α, β+1. The atomic number of the end product is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "83",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "86",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "81",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "79",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q115",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Rutherford performed first artificial disintegration experiment with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxygen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chlorine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q116",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "There are two radioactive materials A and B having decay constants 5 λ and λ respectively. Initially both A and B have same number of nuclei. The ratio of the number of nuclei of A to that of B will  be 1  e after a time",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 4 λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 5 λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 4 λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 5 λ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q117",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Ninety percent of radioactive sample is left after a time t. The percentage of initial sample that will disintegrate in time 2t is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "38%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "19%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "62%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q118",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Activity of a radioactive sample decayed from 10000/s to 5000/s in 10 hours. It will decay to 2500/s in next",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 hrs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 hrs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 hrs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 hrs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q119",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "Stability of a nucleus can be confirmed from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Binding energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Binding energy per nucleon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mass defect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secA_q120",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section A (Objective)",
+    "question_text": "The number (N) of scattered α-particles detected versus scattering angle (θ) graph for α-particle scattering experiment (obtained by Geiger and Marsden) is best represented by  N  N",
+    "question_diagram": "/images/last_leap_pz2/p358_q120.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "θ  θ  N  N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "θ  θ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secB_q1",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If half-life of a radionuclide is one hour, then  activity of the radionuclide becomes one-fourth after two hours.\nReason (R): If half-life is one hour, then a given nucleus will  certainly disintegrate in two hours.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secB_q2",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Energy is released in nuclear fission as well as  nuclear fusion\nReason (R): In both processes the total binding energy of  daughter nuclii is larger than the total binding energy of parent nucleus",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secB_q3",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A nucleus may be left excited after emission  of α or β particles, which then radiates γ-ray photons.\nReason (R): Nucleus have discrete energy levels as present  in the atom.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secB_q4",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The mass of β-particles when they are emitted  is higher than the mass of electrons obtained by other means.\nReason (R): β-particles and electron are identical particles.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secB_q5",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Spectrum of energy in α decay from a sample  of nuclei is line spectrum.\nReason (R): α-decay is one dimensional.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secB_q6",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electron cannot reside inside nucleus.\nReason (R): Uncertainty in position of electron is greater  than the diameter of the nucleus.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secB_q7",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The ionising power of β-particle is less  compared to α-particle but its penetrating power is more.\nReason (R): The mass of β-particle is less than the mass  of α-particle.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_23_nuclei_secB_q8",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When the atomic number increases to 2  times, the wave number of the photon emitted for similar transition increases by 3 times.\nReason (R): Wave number ∝ z2 for similar transition.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

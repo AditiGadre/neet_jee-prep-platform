@@ -1,0 +1,1247 @@
+[
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q1",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "What is the energy density of electric field at a distance of 5 m from a point source of EM wave, if the electric field strength at that point be 100 V/m?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "44 × 10-9 J/m3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11 × 10-9 J/m3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "22 × 10-9 J/m3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "88 × 10-9 J/m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q2",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "The energy of EM wave is of the order of 15 keV. Then this wave belongs to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "γ-rays spectrum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "X-rays spectrum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Infra-red spectrum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ultraviolet spectrum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q3",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Electromagnetic wave is deflected by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electric field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnetic field",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neither electric nor magnetic field",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q4",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "If U is the energy density of electromagnetic wave in vacuum and c is the speed of light in vacuum, then intensity of electromagnetic wave in the vacuum is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "U I c   2  2 U I  c ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I = Uc",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I = U2c2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q5",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "The phase difference between electric field and magnetic field in an electromagnetic wave is always",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q6",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of magnitudes of magnetic field vector and electric field vector in free space for an electromagnetic [in SI units] is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 × 108",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.33 × 10-9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "376.7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q7",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "For an electromagnetic wave propagating through vacuum the amplitude of electric field vector is 30 V/m. The maximum rate of energy flow per unit area due to electromagnetic wave through medium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.33 mW/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 μW/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.33 mW/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 μW/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q8",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Electromagnetic radiations of intensity 1 W/m2  strikes on the surface of a substance, which reflect 80% incident radiation back into same medium. The radiation pressure on the surface of substance is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 × 10-8 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.5 × 10-7 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 × 10-8 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 × 10-9 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q9",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "The laser beam from a source which radiates energy at the rate of 25 μW and wavelength 5000 Å is focus on a perfect absorbing surface having area equal to square of wavelength of beam. The radiation pressure on surface is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.33 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.44 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.33 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.67 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q10",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following rays (or waves) has maximum speed in air?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "β-rays",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heat radiations",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cosmic rays",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ultrasonic waves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q11",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following phenomenon proves the transverse nature of electromagnetic waves?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polarisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Interference",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diffraction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reflection",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "If the amplitudes of electric field and magnetic field in an electromagnetic wave are E0 and B0 respectively and speed of light is c, then which of the following is incorrect?  1 ε0 E0 2 c",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intensity of the wave is 2  2 0         1  c B    ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Intensity of the wave is 2  μ0  2 0 2 0 0Ε        1  c B  μ  ε   ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intensity of the wave is 4  0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "cE0 = B0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q13",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "The impulse imparted by an electromagnetic pulse of energy 1.5 × 10-2 joule when it falls normally on a perfectly reflecting surface is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4×10-10 kg-m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2×10-10 kg-m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10-10 kg-m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.5 × 10-10 kg-m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q14",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "The speed of the electromagnetic wave in a medium which has relative permittivity and permeability 4.5 and 2 respectively, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.5 × 107 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.0 × 108 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.2 × 108 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.5 × 107 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q15",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pairs of space and time varying electric field and magnetic field would generate a plane electromagnetic wave travelling in the z-direction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "^ ^ , Ei Bj",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "^ ^ , Ei Bi",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "^ ^ , Ei Bk",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "^ ^ , Ek Bi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q16",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Angle between electric field and magnetic field at any instant is 90° in electromagnetic wave. Phase difference between them is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "180°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q17",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Direction of Poynting vector is along (symbols have their usual meaning)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "B E  \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "E B  \u0002 \u0002  \u0002  \u0002",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q18",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Average magnetic energy density in plane electromagnetic wave is x. The average electric energy density is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q19",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Instantaneous direction of magnetic and electric field of an electromagnetic wave are along +ve x- axis and +ve y-axis respectively. Direction of propagation of the electromagnetic wave is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ve x-axis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ve y-axis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ve z-axis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-ve z-axis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q20",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Frequency of oscillation of the energy density of an electromagnetic wave is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Frequency of wave",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Half the frequency of wave",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Double the frequency of wave",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q21",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "X-rays cannot be deflected by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "An electric field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A magnetic field",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A gravitational field",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of these  \u0002  \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q22",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "If E   and B   are instantaneous electric field and magnetic field in an electromagnetic wave, then direction of propagation of electromagnetic wave is along",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E B  \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E B  \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B E  \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E B  \u0002 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q23",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "If λv, λx and λm represent the wavelengths of visible light, X-rays and microwaves respectively, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "m x v λ λ λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "v m x λ λ λ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "v x m λ λ λ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "m v x λ λ λ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q24",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "The speed of electromagnetic wave in a medium of dielectric constant 2.25 and relative permeability 4 is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 × 108 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.5 × 108 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 × 108 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 × 108 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q25",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "The rms value of the electric field of the light coming from the sun is 720 N/C. The average total energy density of the electromagnetic wave is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.3 × 10-3 J/m3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.59 × 10-6 J/m3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6.37 × 10-9 J/m3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "81.35 × 10-12 J/m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q26",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "The electric field vector of an electromagnetic wave  is given by,  0 ^ sin( )  ω \u0002 E E t kx j  The corresponding expression for magnetic field is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 ^ sin( )  ω \u0002 B B t kx k",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 ^ sin( )  ω \u0002 B B t kx k",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 ^ sin( )  ω \u0002 B B t kx k",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 ^ sin( )  ω \u0002 B B t kx k",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q27",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Electromagnetic waves are produced by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Static charges",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Charges in uniform motion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "An oscillating charge",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "\u0002 E and magnetic field   \u0002 B of an electromagnetic wave are at angles θ1 and θ2 respectively with direction of propagation of electromagnetic wave, then",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q28",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Electric field",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "θ1 = θ2 = 90°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "θ1 = 90°, θ2 ≠ 90°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "θ1 ≠ 90°, θ2 = 90°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "θ1 and θ2 both are zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q29",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Average energy density of electromagnetic wave Ey = E0 sin (kx -ωt) and Bz = B0 sin(kx -ωt) is given by  2 0  0 2 B  2 0 0 1 2 εE",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "μ  0 4 4 ε  μ E B  2 2 0 0 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q30",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Displacement current through a capacitor at steady state is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Infinite",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero  0 E d dt ε ϕ  0 B d dt ε ϕ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secA_q31",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section A (Objective)",
+    "question_text": "Figure shows a parallel plate capacitor being charged by a battery. If X and Y are two closed  \u0002 \u0002 \u0002B dl is zero along the curve  curves then during charging  ·   X Y",
+    "question_diagram": "/images/last_leap_pz2/p331_q31.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "X only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Y only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both X & Y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neither X nor Y",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secB_q1",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The energy in an em wave is divided equally  between the electric and magnetic field.\nReason (R): The magnitude of electric field vector is  3 × 108 times the magnitude of magnetic field vector in vacuum.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secB_q2",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electromagnetic waves produced by vertical  antenna are vertically polarised.\nReason (R): Electric  vibrations  present  in  the electromagnetic waves are collinear with the antenna.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secB_q3",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electric energy density in electric field of  electromagnetic wave is c2 times the magnetic energy density in its magnetic field.\nReason (R): Amplitude of electric field is 1  c times the  amplitude of magnetic field.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_20_electromagnetic_waves_secB_q4",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Sound waves cannot travel in vacuum but light  waves can travel in vacuum.\nReason (R): Sound waves are non-mechanical waves but  electromagnetic waves are mechanical waves.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

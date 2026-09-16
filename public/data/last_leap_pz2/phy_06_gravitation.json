@@ -1,0 +1,6344 @@
+[
+  {
+    "question_id": "phy_06_gravitation_secA_q1",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The exchange particles which are considered to be responsible for gravitational attraction are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "π-meson",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Graviton",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Photon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gluon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q2",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Radii and densities of two planets are R1, R2 and ρ1, ρ2 respectively. The ratio of accelerations due to gravity on their surfaces is  1 2 : R R ρ ρ  1 2 2 2 1 2 : R R ρ ρ  1 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 1 : R R ρ ρ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ρ1R1 : ρ2R2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 1 1 2 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q3",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The escape velocity for an object on the surface of moon is Ve. If a narrow tunnel is dug along the diameter of moon, then the escape velocity for an object from the centre of moon will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2 e V  e V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q4",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Potential energy (U) and time period (T) of a satellite are related to each other as  2 3 1 T U ∝",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "3 1 T U ∝",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 3 1 U T ∝",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 3 T U ∝",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q5",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A simple pendulum has a time period T1 on the surface of earth and it has time period T2 at a height h = R (R-radius of earth) from the surface of earth The ratio of T2 : T1 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q6",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If gravitational force between two point objects is inversely proportional to their distance of separation (r), then orbital speed (v0) in that system is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r-1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r1/2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q7",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass m is released from a height R (radius of earth) from the surface of earth. When it reaches the earth's surface, it enters a tunnel leading to its centre. Its speed at the centre is [g = acceleration due to gravity on surface of earth]",
+    "question_diagram": "/images/last_leap_pz2/p133_q7.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "gR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2gR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3gR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5gR",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q8",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass M is placed at the centre of a  M and radius R. Gravitational  uniform shell of mass 2  R from the centre is  potential at a point 2  R",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "3 2  GM",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "GM  R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 2  GM  R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q9",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "1 kg sugar have maximum weight",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "At pole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "At equator",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "At latitude 45°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In India",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q10",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A man have maximum weight at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Poles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depth equal to half of radius of earth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Equator",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Altitude equal to half of radius of earth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q11",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body thrown vertically upward with initial speed  gR , where R is the radius of earth. Then maximum height reached by the body from the surface of earth is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q12",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "At what minimum value of angular velocity of rotation, the bodies on equator will become weightless?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 rad/s 8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 rad/s 80",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 rad/s 800",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1  rad/s 8000",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q13",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite around earth is moving in elliptical orbit. The sum of potential energy and kinetic energy of the satellite is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Positive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Positive at perigee and negative at apogee",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q14",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The orbital radius of a satellite is one fourth that of a geostationary satellite. The period of revolution of the satellite is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q15",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is located midway between two point masses each of mass M kept at a separation 2d. The escape speed of the particle is (neglect the effect of any other gravitational effect)",
+    "question_diagram": "/images/last_leap_pz2/p134_q15.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2GM d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 GM d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3GM d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 GM  d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q16",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite moving in a circular orbit has binding energy E1. When its orbit radius increases, the binding energy becomes E2. The change in gravitational potential energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(E1 - E2)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2(E1 - E2)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(E2 - E1)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2(E2 - E1)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q17",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Three identical particles each of mass M are located at the vertices of an equilateral triangle of side a. The escape speed of one particle will be  4GM a",
+    "question_diagram": "/images/last_leap_pz2/p134_q17.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "3GM a",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2GM a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "GM  a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q18",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is dropped from a height h = 3R above earth surface, where R is the radius of earth. If g is the acceleration due to gravity on earth surface, then speed with which the particle strikes the earth surface is",
+    "question_diagram": "/images/last_leap_pz2/p134_q18.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3gR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2gR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q19",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Gravitational potential at the centre of a solid sphere is V. Now radius of this sphere is made double its present value  without changing its mass. Then the potential on the surface of this new sphere will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q20",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The factors on which the escape speed from earth depends",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Direction of projection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mass of the body projected",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The location of projection on the earth surface",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The height of projection from the earth's surface",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q21",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The variation of gravitational potential (V) for a uniform solid sphere of mass M and radius R, with distance (r) from its centre  V  V",
+    "question_diagram": "/images/last_leap_pz2/p134_q21.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  r  r  R  V  V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r  r  R  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q22",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If universal gravitational constant starts increasing gradually then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Period of revolution of earth around sun will  decrease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Earth will follow a spiral path of decreasing  radius",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PE of earth will change",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q23",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The escape velocities from the surface of two  planets of same masses is in the ratio of 1: 2 . Then ratio of their densities is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 16",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q24",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "An artificial satellite is moving in a circular orbit around earth has a kinetic energy E. Its total energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "- E",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 E ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 2E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q25",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two particles having masses 1 kg and 7 kg respectively attract each other. Initially they are at rest and infinite separation. The velocity of approach of the particles are at a separation of 1m is (G = universal gravitational constant)",
+    "question_diagram": "/images/last_leap_pz2/p135_q25.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 m/s G",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 m/s G",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "m/s 2 G",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "m/s 4 G",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q26",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two concentric shells of uniform density of mass M and 2M are situated as shown in the figure. The ratio of forces experienced by a particle of mass m at position A and B is  2M  M  2x  B x  A",
+    "question_diagram": "/images/last_leap_pz2/p135_q26.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 : 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q27",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the speed of a satellite orbiting near the surface of the earth is changed from v0 to 0.9 v0, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It will revolve in a circular orbit of smaller radius",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It will revolve in a circular orbit of larger radius",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It will revolve in an elliptical orbit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It will follow a parabolic path",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q28",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two identical hollow spheres of negligible thickness are placed in contact with each other. The force of gravitation between the spheres will be proportional to (R = radius of each sphere)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q29",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A planet is revolving around a massive star in a circular orbit of radius R. If the gravitational force of attraction between the planet and the star is inversely proportional to R3, then time period of revolution T is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q30",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of acceleration due to gravity at a depth h below the surface of earth and at a height h above the earth surface of earth (h << radius of earth) is  h R  2 1         h R",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1         h R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1       ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q31",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of energy required to raise a satellite upto a height 2R above the earth surface (R = radius of earth) to the magnitude of total energy of satellite revolving in that orbit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q32",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "By what percent the energy of a satellite has to be increased to shift it from an orbit of 2R to 4R (R = radius of earth)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "70%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q33",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite of mass 1000 kg revolves in a circular orbit around the earth with constant speed 100 m/ s. The total mechanical energy of satellite is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "- 0.5 MJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- 25 MJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 5 MJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "- 2.5 MJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q34",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If gravitational potential is taken as zero at the surface of earth, then kinetic energy of a satellite of mass m revolving in a circular orbit of radius r will be [M is mass of earth]  r",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "GMm",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 GMm  r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 GMm  r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2GMm r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 135,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q35",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A point mass M is placed at distance x from the center of a spherical shell of mass m and radius R. The net force on mass M due to shell and point mass m is  m M  x  O  R",
+    "question_diagram": "/images/last_leap_pz2/p136_q35.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2GMm  R  GMm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 4   x R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 2 GMm GMm  R x R  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q36",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A point mass m is placed at a distance R from the surface of a solid sphere of mass m and radius R. The gravitational potential energy of this system of point mass and sphere is  2  2 Gm  2 Gm  R ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "R ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 2Gm R ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 11 10 Gm  R ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q37",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The position vector of a planet w.r.t. the sun sweeps area A during the first week of January 2001. The area swept by it during the month of February, 2004 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "28 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "29 7 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q38",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two satellites of equal mass are moving around the earth in a circular orbit at height 5R and 7R respectively from earth surface, where R is radius of earth. The ratio of their kinetic energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4  3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16  9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q39",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If a body is projected horizontally with speed  4 gR from the top of a tower of height 0.5 R, then it will [R is radius of earth]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fall back on the surface of earth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Start rotating around the earth in elliptical orbit",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Start rotating around the earth in a circular orbit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Escape from earth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q40",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "In a new system, the force between the masses given by F ∝ r 2, then time period of revolution T is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "r -1/2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r 1/2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r 3/2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q41",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If magnitude of centripetal acceleration of all the planets taken to be same, then the force of attraction between the sun and planet is maximum for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Earth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Venus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Jupiter",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Saturn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q42",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "In the case of stable equilibrium in gravitational field",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Force on the body is zero and potential energy  is always negative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Force on the body is non-zero and potential  energy is always zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Force on the body is zero and potential energy  is always positive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Force on the body is non-zero and potential  energy is always positive",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q43",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The value of acceleration due to gravity at a point at a height of 800 km from the surface of earth (radius of earth is 6400 km and value of acceleration due to gravity on the earth surface is 981 g/cm2) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "775 g/cm2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "872 g/cm2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "981 g/cm2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q44",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "When a planet revolve around the sun in an elliptical path, then number of points at which velocity equal in magnitude and opposite in direction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q45",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the magnitude of gravitational potential energy of a system is varies according to the relation   ∝ , then time period of revolution is  2 1 U  r  proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "r3/2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 136,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q46",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Binding energy of a planet and star is increased then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Potential energy increased",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Potential energy decreased",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kinetic energy decreased",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kinetic and potential energy both remains  constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q47",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two masses m1 and m2 are inside the spherical shell of mass m3. Then which of the following is not true?  m3  m2 O  m1  r 2r",
+    "question_diagram": "/images/last_leap_pz2/p137_q47.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Force between m1 and m2 is non-zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Force between m1 and m3 is zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Force between m2 and m3 is zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "At the centre O gravitational field is zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q48",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two planets are at the distances 2r and 3r from the sun then the ratio of their time periods  2/3 2 3        3/2 2 5      ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "3/2 2 3      ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q49",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the orbital radius of the earth around the sun becomes one fourth of the present value, then the duration of the year will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "22.8 days",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "32.5 days",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45.63 days",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "91.25 days",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q50",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite of mass m at rest on the surface of earth is to be launched into the parking orbit. The energy required for this process is [R - radius of earth, g - acceleration due to gravity on earth's surface]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 3gmR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9 7gmR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "14 13gmR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 5gmR",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q51",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A solid sphere of mass M and radius R has to be disintegrated into infinite point masses at infinite separation. The work done for this process will be (G - universal gravitational constant)  GM",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R GM ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 R  3 2 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R GM  5 3 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R GM",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q52",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "An object of mass 2 kg is dropped from height 10 m on the surface of earth. The acceleration produced in the motion of earth by the object will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9.8 m/s2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Less than 9.8 m/s2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Greater than 9.8 m/s2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q53",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "According to Kepler's 3rd law T2 = Ka3, where K is proportionality constant which depends on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mass of sun",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mass of planet",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Radius of sun",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q54",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A point mass of 2 kg experiences a gravitational force of 14.2 N in gravitational field of a planet. The field intensity at that point is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "7.1 N/kg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "28.4 N/kg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8.6 N/m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "21.2 N/kg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q55",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A man of mass 100 kg in a satellite revolves around earth at height R from the surface of earth. The true weight of man will be [R → radius of earth, take  g = 10 m/s2 on the surface of earth]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "250 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "490 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "980 N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q56",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum value of gravitational potential energy can be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q57",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If ge and gp are magnitude of acceleration due to gravity at equator and poles respectively, then gravity at a place where latitude is 45º will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ge + gp",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "gp - ge  p e g g   e p g g ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 137,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q58",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "At what angular speed of earth, the object on equator of earth will escape to infinity from its surface? [R → radius of earth]",
+    "question_diagram": "/images/last_leap_pz2/p138_q58.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "gR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "gR 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R gR  g 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q59",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "An object of mass m has potential energy U1 on the surface of earth. The object has potential energy U2 on the surface of another planet of  R , then [R → radius of  density 4ρ and radius 2  earth, ρ → density of earth]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "U1 = U2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "U1 < U2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "U1 > U2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "U1U2 < 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q60",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite of mass 100 kg moves around the earth in a circular orbit with speed 100 m/s. The potential energy of satellite is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5 MJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- 1.0 MJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 0.5 MJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "- 0.40 MJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q61",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite of mass m revolving round the earth in a circular orbit of radius r has its angular momentum equal to L about the centre of the earth. The potential energy of the satellite is  2 2  2 ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2  L ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "mr L 2  mr  2 2  2  L ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2  L ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2  r m  mr",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q62",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair/s have maximum binding energy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Two point masses each of mass m at distance d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two solid spheres each of mass m with their  centres at distance d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A point mass and a solid sphere each of mass m  at distance d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All above pairs have same potential energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q63",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body of mass m is at the centre of the earth. The work which should be done to bring the body at the surface of earth will be [M = mass of earth, R = radius of earth]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R GMm  2 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R GMm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R GMm  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q64",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The mean radius of the earth is R, its angular speed about its own axis ω and the acceleration due to gravity at earth surface is g. The cube of radius of orbit of a 'geostationary satellite' will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R2g/ω",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R2ω/g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rg/ω2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R2g/ω2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q65",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the radius of the earth's orbit around the sun is R and the time period of revolution of earth around the sun is T, the mass of the sun is  2  R π",
+    "question_diagram": "/images/last_leap_pz2/p138_q65.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "3 2  3 2 4  GT",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  π  4 R  GT  3  3 2 4  R π  GT",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2  π  4 R  GT",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q66",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two point masses M and 4M are kept at a separation of 12 meter. At what distance from the smaller mass, The gravitational potential has a minimum magnitude?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.4 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q67",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two solid spheres each of radius R and mass m are initially at rest with respect to a stationary reference frame S. The initial separation between the spheres is very large. If the two move due to mutual gravitational pull, with what speed w.r.t. the frame S will they strike each other?",
+    "question_diagram": "/images/last_leap_pz2/p138_q67.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "R Gm  2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R Gm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R Gm 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R Gm 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q68",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The escape speed from earth surface is 11.2 kms-1. If radius of earth is doubled and the density remaining the same, the escape speed from earth surface will become/remain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5.6 km/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11.2 km/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "22.4 km/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "33.6 km/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 138,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q69",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The mass of moon is about 1.5% of the mass of the Earth. If the gravitational pull that the Earth exerts on the moon is F, then the pull exerted by moon on the Earth",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "> F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "= F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "< F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Information is insufficient to predict",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q70",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A small ball of mass m is dropped from a geostationary spacecraft revolving around the earth. The total energy of the ball after it is dropped from the spacecraft will be [M → mass of earth; R → radius of earth and height of the satellite from earth surface is 6R]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R GMm  14 -",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R GMm  6 -",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R GMm  10 -",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q71",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "When a body of mass m is lifted from surface of the earth to a height equal to radius R of the earth, the change in gravitational potential energy of the body is (g : acceleration due to gravity at the surface of the earth)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1  2 mgR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "mgR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 mgR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 mgR",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q72",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Mechanical energy of a body of mass m thrown from surface of the earth (mass M, radius R ) at escape velocity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "GMm  2 GMm",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "R  R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less than zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q73",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Suppose the  earth of radius R starts rotating about its polar axis at such an angular velocity that a person on equator feels weightless. In this situation the duration of one day is equal to",
+    "question_diagram": "/images/last_leap_pz2/p139_q73.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2π Rg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2π R  g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2πRg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2πR g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q74",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "At a point inside a uniform spherical shell",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gravitational potential is constant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gravitational field is non-zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gravitational potential is zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q75",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "At what angle with the horizontal should a body be projected upwards from earth surface to escape from gravitational pull?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Less than 45°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "More than 45°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any angle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q76",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graphs correctly represents the variation of acceleration due to gravity g with distance r from centre of the earth? (where R is the radius of earth)  g  g",
+    "question_diagram": "/images/last_leap_pz2/p139_q76.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "O R r  O R r  g  g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O r  O R r  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q77",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Work done by a person on a mass of 3 kg in bringing it from infinity to a point A is -9 joule. If the mass was initially at rest and its final velocity at point A is 6 m/s, then gravitational potential at point A is (assume gravitational potential at infinity is zero)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "21 J/kg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-21 J/kg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "54 J/kg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-54 J/kg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q78",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If a body is dropped from an artificial satellite revolving around the earth at an altitude of 120 km, the body will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fall down to earth gradually",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Go far away in space",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Continue to move with same speed along the  original orbit of satellite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Continue to move tangentially in a straight line  to the satellite orbit with same speed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q79",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the speed of an artificial satellite revolving around  2 3 of escape velocity  the earth in circular orbit be   from the surface of the earth then its altitude above the surface of earth is  4 5 R",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2 5 R",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 8 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 5 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 139,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q80",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The distance of geostationary satellite from the centre of earth (R = 6400 km) is nearest to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "18 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q81",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If radius of the earth is reduced by 1%  without changing its mass, then the change in acceleration due to gravity at the surface of the earth will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreased by 1%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreased by 1.5%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increased by 2%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increased by 1%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q82",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Orbital speed of the polar satellite around earth is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 km/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11.2 km/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 km/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 km/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q83",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Potential energy of a satellite orbiting around earth in a certain orbit is -U. Extra energy required for the  satellite to just escape from the orbit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "U",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2U  U",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 U",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q84",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body is projected from the centre of a spherical shell of mass m and radius R. Its escape speed from the centre is",
+    "question_diagram": "/images/last_leap_pz2/p140_q84.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2Gm R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gm  R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4Gm R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 Gm  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q85",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "An artificial satellite moving in a circular orbit around the earth has a total (kinetic plus potential) energy equal to -106 J. Its potential energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-106 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-1.5 × 106 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-2 × 106 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "106 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q86",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A person can jump upto a height h (<< RE) on the earth. Radius RP of a planet on which the man escapes through jumping can be given by  (Density of planet is same as that of the earth and RE is radius of earth)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RP  = (REh2)1/3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RP  =  E R h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 P E R R h   2 E P  R R h ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q87",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If radius of the earth shrinks by 1% and its mass remains same then acceleration due to gravity experiences",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1% decrease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1% increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2% decrease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2% increase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q88",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "An astronaut on a satellite drops a stone out of the satellite into the space. The stone will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fall on the earth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stick to the satellite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Become a satellite of the earth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Slowly fall on the earth making rounds",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q89",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The change in gravitational potential energy when a body of mass m is raised to a height nR from the earth's surface is (R = radius of earth)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 n mgR n ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 n mgR n   2  n mgR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "nmgR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q90",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the gravitational potential on the surface of a uniform solid sphere is P, then the potential at its center is  2 1  2 3 P",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 3 P",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3  2 P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q91",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If speed of a satellite of earth is raised by 41.4%, then the satellite",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Escapes the earth's field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Moves in elliptical orbit about earth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Moves in circular orbit about earth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Will fall into earth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q92",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If we start moving away from the centre of the earth, then gravitational potential",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases continuously",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases continuously",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First increases then decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First decreases then increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q93",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Time period of the polar satellite around the earth is about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "24 h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 minute",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 140,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q94",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If R is the radius of orbit of a planet and T is time period of the planet, then which of the following graphs correctly shows the motion of a planet revolving around the sun?  2  2  T  T",
+    "question_diagram": "/images/last_leap_pz2/p141_q94.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3  R  R  2  T  T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3  R  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q95",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite is launched to orbit around the earth at a height h (<< R = radius of earth). Time period of revolution of satellite around the earth is nearly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "24 h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.8 h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.4 h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q96",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body of mass m is taken to an altitude equal to the radius of earth (R). If acceleration due to gravity at the surface of earth is g, then gain in potential energy of the body is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "mgR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 mgR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 mgR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 mgR",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q97",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Time period of revolution of a satellite very close to earth surface is T. If an imaginary straight bottomless tunnel is dug through earth and a body is dropped into it, then its time period of oscillation will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q98",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "What should be the length of a day on earth, if a man standing on the equator experience weightlessness?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "48 hours",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "84.6 minute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Infinite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "42.3 minute",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q99",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The scientific principle involved in orbital motion of a satellite is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Laws of thermodynamics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Newton's laws of motion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kepler's laws of planetary motion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bernoulli's principle of fluid dynamics",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q100",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A vertical stick of mass 1 kg and length 4 m is pivoted at top end and is displaced through an angle 60° from its initial vertical position. The increase in its gravitational potential energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q101",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Figure shows two concentric shells of masses m1 and m2. At which point a particle of mass m shall experience zero gravitational force because of them?  m2  m1  D C B A",
+    "question_diagram": "/images/last_leap_pz2/p141_q101.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q102",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If a particle is given escape velocity on the surface of earth, then its mechanical energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Greater than zero  GMm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less than zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "- 2  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q103",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The gravitational field in a region is given by  ^ ^ 4 4 . g i j   \u0002\u0003   Work done by this field is zero, when  a particle is moved along the line",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3x + 4y = 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3x + 3y = 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x + 3y = 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3y + x = 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q104",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A straight hole is drilled from surface of the earth to its centre. If a particle at rest is dropped from surface of the earth then speed of the particle when it reaches the centre of the earth is (M = mass of earth, R = radius)",
+    "question_diagram": "/images/last_leap_pz2/p141_q104.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2GM R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 GM R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "GM  R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 GM  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 141,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q105",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A tunnel has been dug through a diameter of a solid sphere of uniform mass density. Which graph best represents the variation of gravitational field intensity E with position r as one moves from A to B?  A  B  E  E",
+    "question_diagram": "/images/last_leap_pz2/p142_q105.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r  r  E  E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r  r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 142,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q106",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "An artificial satellite is moving in a circular orbit around earth has a kinetic energy E. Its potential energy is  E",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-2E",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 142,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q107",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Figure shows a planet in elliptical orbit around the sun (S). Ratio of momentum of planet at point A to that at point B is  V2  S A B  r1 r2  V1  2 1 2 2  r r",
+    "question_diagram": "/images/last_leap_pz2/p142_q107.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "r r  1",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  2 2 2 1  r  r  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r  1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 142,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q108",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If orbital speed of a satellite orbiting near surface of the earth in circular orbit is changed from V0 to",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 142,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q109",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A particle has been thrown up with double the escape speed Ve from the surface of the earth. Its speed when it reaches the interstellar space far away from the earth's gravity, is  e V",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "Ve",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 e V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 142,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q110",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The gravitational potential energy of an isolated system of three particles each of mass m at the three corners of an equilateral triangle of side l is  2 - Gm  2 3 - Gm  l",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "l  2 2 - Gm  2 - 2 Gm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "l",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "l",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 142,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q111",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The value of g at a certain height h above the free  x , where x is value of g at the  surface of earth is 4  surface of earth. The height h is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 142,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q112",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two satellites each of mass m are revolving around earth of mass M. The ratio of maximum and minimum force on earth due to two satellites is  1  R M 2R  2  5 3",
+    "question_diagram": "/images/last_leap_pz2/p142_q112.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "3 5",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4  5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 142,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q113",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The slope of a graph plotted between squaring time period of revolution (T 2) and cube of semi major axis (a3) for a planet around the sun of mass M will be (G : Universal gravitational constant)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4πGM",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 4 GM  π  π  2 4 GM",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 142,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q114",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is correct about gravitational force?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It depends upon the product of two masses",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It depends upon the medium between the  masses",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It depends upon the separation between the  two masses",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q115",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body is projected at an angle of 60° upwards from the surface of the earth. The escape speed in this case would be (symbols have their usual meaning)",
+    "question_diagram": "/images/last_leap_pz2/p143_q115.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2 2 GM  R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 2 GM  R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2GM R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 GM  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q116",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Kepler's second law states that, areal velocity of a planet is constant. It is a consequence of conservation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Linear momentum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Angular momentum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mass",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q117",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the earth suddenly stops rotating, then the value of acceleration due to gravity g at equator and pole respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases, decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases, remains constant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreases, remains constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remains constant, decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q118",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If a body is projected with a speed equal to half of escape speed from the surface of the earth, then the maximum height attained by it is (R = radius of the earth)  R",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "4 R",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "3  R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 3 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q119",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cannot be used to measure time in a spaceship orbiting around the earth?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Atomic watch",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A watch using electric oscillation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A watch using elastic vibrations",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pendulum clock",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q120",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If g is the acceleration due to gravity on the surface of the earth, then increase in potential energy of a body of mass m raised to a height equal to half of the radius R of the earth, from the earth surface is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1  2 mgR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2mgR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1  3 mgR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 3 mgR",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q121",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite orbits around the earth in a circular orbit with a speed v and orbital radius r. If it loses some energy, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "v decreases and r increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both v and r decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "v increases and r decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both v and r increase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q122",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the law of gravitation, instead of being inverse square law, becomes an inverse cube law, then the  true statement is?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Circular orbits of planet is not possible",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Projectile motion on the earth's surface will be  circular",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Planets will not have elliptical orbits",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q123",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Work done by gravitational field of earth of mass M and radius R on an orbiting satellite of mass m at an altitude h in one revolution is  R h",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2( )   GMm",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "  GMm  R h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2   GMm R h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q124",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two satellites are orbiting in circular orbits around the earth at different altitude of 2R and 3R, where R is radius of the earth. The ratio of their time period is",
+    "question_diagram": "/images/last_leap_pz2/p143_q124.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "8 27",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "27 64",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "64 125",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 143,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q125",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of total mechanical energy to the potential energy of an orbiting satellite around the earth is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q126",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass m is projected with a speed thrice the escape speed Ve from the surface of the earth. Its speed at infinity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2Ve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 Ve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3Ve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q127",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Three identical point masses each of mass 1 kg lie at three points (0, 0), (0, 0.2 m), (0.2 m, 0). The net gravitational force on the mass at the origin is  (1) 9 ^ ^",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q128",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Four particles of equal mass m are placed at the four corners of a square ABCD as shown in the figure. Gravitational force on C is along  A B  m m  D C m m",
+    "question_diagram": "/images/last_leap_pz2/p144_q128.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CB",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "AB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q129",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body of mass m is at an altitude 5 R. Energy required to make it escape is (R = radius of the earth)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 mgR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 mgR  5 6 mgR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 5 mgR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q130",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite is revolving around the earth with speed v0. If it is stopped suddenly, then with what velocity will the satellite hit the ground (ve = escape velocity from earth surface.)?",
+    "question_diagram": "/images/last_leap_pz2/p144_q130.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 0 e v v ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 0 2 e v v   2 2 0 2 e  v v ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 0 3 e v v ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q131",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Assuming the earth as a uniform solid sphere of radius R, the gravitational field on its surface is x.  R from  The gravitational field inside at a distance 2  its surface is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q132",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body of mass m is raised by an altitude equal to radius of the earth R. If acceleration due to gravity on the surface of the earth is g, then gain in potential energy of the body is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "mgR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 mgR  2 3 mgR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2mgR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q133",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two particles of mass m and 4m are separated by a distance r. Their neutral point is at  r from m",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "3 r",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2   from 4m  r from m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 r from 4m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q134",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A ball of mass 1 kg is thrown horizontally from the  top of a tall tower with velocity  ^ 8 m/s  \u0002v i . The change in gravitational potential energy of the ball- earth system in 4 s will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "800 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "320 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "160 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q135",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The SI unit of universal gravitational constant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nm2/kg2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nm/kg2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nm-2/kg2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nkg2 /m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 144,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q136",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Value of escape speed at the moon is (approximately)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.38 km/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.02 km/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "11.2 km/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16.02 km/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q137",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Variation of gravitational field due to a uniform solid sphere of radius R with distance r from centre is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Straight line, for R > r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hyperbolic, for R < r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parabolic for R < r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q138",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Gravitational field intensity (I) of uniform solid sphere at distance r from centre is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 for GMr R r R    2  3 for   GMr R r R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 for   ≤ GM R r r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q139",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Ratio of binding energy of a satellite revolving few metre above the earth's surface and same satellite rest on earth is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q140",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite is moving in circular orbit with speed of  0  e GM v r , then which statement is false inside  satellite?",
+    "question_diagram": "/images/last_leap_pz2/p145_q140.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Heat transfer in fluid is done by convection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Candle would quickly burn itself",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Astronaut feels weightless",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Liquid do indeed coalesce into spheres",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q141",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Gravitational acceleration (g) inside earth at r form centre distance is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 1 ∝ g  r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "g ∝ r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 ∝ g r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "g ∝ r2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q142",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Kepler's second law is based on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Newton's 2nd law",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy conservation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Newton's 1st law",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Angular momentum conservation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q143",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Pendulum watch deep inside earth surface",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Runs slow",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Runs fast",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Runs as usual",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stops",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q144",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "For weather information most preferred satellite type is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Geostationary",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Geosynchronous",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q145",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The escape speed for a rocket on the earth is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q146",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body is dropped from a height equal to the radius R of earth. Maximum speed at which it will hit the ground is",
+    "question_diagram": "/images/last_leap_pz2/p145_q146.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2gR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "gR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q147",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "At what altitude would the gravitational acceleration be 4.9 m/s2? [R = Radius of earth]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.4 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.4 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q148",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body is projected vertically up from the surface of earth with a speed bve, where b is constant (b < 1) and ve is escape speed from the surface of the earth. If R is radius of the earth, then maximum altitude to which the body goes is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 1 R  b   R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1  b ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 1 Rb  b   2  2 1 Rb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 145,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q149",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "From the centre of earth an object is fired upward  with a speed  2 . GM  R  The object will obtain a  maximum altitude of",
+    "question_diagram": "/images/last_leap_pz2/p146_q149.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q150",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If w1, w2 and w3 represent the work done in moving a particle from A to B along three different paths 1, 2 and 3 in gravitational field of a point mass m, the correct relation between w1, w2 and w3 is  B  1 2 3  A",
+    "question_diagram": "/images/last_leap_pz2/p146_q150.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "w1 = w2 = w3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "w1 > w2 > w3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "w1 < w2 < w3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "w1 > w2 < w3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q151",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If density of two planets are same and ratio of their radius is 1 : 2, then ratio of acceleration due to gravity at their surface is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q152",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Assuming the earth to be a sphere of uniform density, the weight of a body half way towards the centre of the earth, if it weighed 200 N on the surface, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200 N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q153",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The time period of rotation of the earth so that a body kept on equator feels weightless is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "85 minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 hour",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 hour",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 hour",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q154",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "The altitude at which the value of acceleration due to gravity 'g' be reduced by 36% from the value at the surface of the earth is (R = 6400 km)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6400 km",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3200 km",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1600 km",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "800 km",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q155",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Three masses of 1 kg, 2 kg and 3 kg are placed at the vertices of an equilateral triangle of side 1 m. The gravitational potential energy of the system is approximately (G = 6.67 × 10-11 Nm2/kg2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-7.3 × 10-9 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-7.3 × 10-10 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-7.3 × 10-11 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-7.3 × 10-12 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q156",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body of mass m is lifted up from the surface of the earth to an altitude twice the radius of the earth R. The increase in the potential energy of the body is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "mgR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2  3 mgR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 mgR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2mgR",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q157",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is projected from the surface of the earth  at very large speed  gR , where g is acceleration  due to gravity on the surface and R is radius of the earth. Neglecting air friction, the maximum altitude upto which it can go is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q158",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite is rotating very close to the surface of the earth. Percentage increase in its kinetic energy so that it just escapes from the orbit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "41.4%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q159",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A body is released from very large height from the surface of the earth. Its speed just before striking the ground is approximately [Neglecting air resistance]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "11.2 km/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.6 km/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 km/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q160",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "Two satellites A and B of the same mass are orbiting the earth at altitudes R and 3R respectively. (R : Radius of the earth) Ratio of their respective kinetic energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q161",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A planet has twice the density of the earth but the acceleration due to gravity on its surface is same as that on the surface of the earth. If radius of the earth is R then the radius of the planet is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 146,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q162",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite orbiting close to the surface of the earth does not fall down because the gravitational pull of the earth",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Keeps it weightless",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Balances the gravitational pull of the sun",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Balances the gravitational pull of the moon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Provides the necessary acceleration for its  circular motion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q163",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "For a planet revolving around the sun, its semi- major and semi-minor axis are 'a' and 'b' respectively. Then the square of its time period is proportional to  3  2        a b",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "a3",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a - b)3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q164",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the earth stops rotating about its axis, then the acceleration due to gravity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Changes everywhere on the surface of the  earth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases at the equator",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Does not change at the poles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increases at the poles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secA_q165",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section A (Objective)",
+    "question_text": "If the distance between the earth and the sun were reduced to half of its present value, then the number of days in a year would have been approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "700",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "400",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "129",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q1",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): During the fall of an apple event the earth is  also attracted towards apple.\nReason (R): Acceleration is inversely proportional to mass  for a given magnitude of force.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q2",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Binding energy of a satellite doesn't depend  upon the mass of the satellite.\nReason (R): Binding energy is equal to the negative value  of potential energy of satellite.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q3",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When a pendulum clock giving correct time on  arth surface is brought into a deep mine, the clock will lose the time.\nReason (R): The value of acceleration due to gravity inside  a mine is smaller than that on earth surface.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q4",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Kepler's second law is a consequence of  conservation of linear momentum.\nReason (R): The linear momentum of a planet revolving  around sun remains constant.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q5",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The principle of superposition is valid for  gravitational force.\nReason (R): Gravitational force is a central force.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q6",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The gravitational field due to earth is zero both  at the centre of earth and at infinite distance.\nReason (R): The acceleration due to gravity of earth is zero  at the centre of earth and at infinity.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q7",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The gravitational force on a particle inside a  spherical shell is zero.\nReason (R): The shell shields other bodies outside it from  exerting gravitational forces on a particle inside.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q8",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Space crafts are usually launched in the  equatorial line from west to east.\nReason (R): Acceleration due to gravity is minimum at  equator.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q9",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When a body is raised from the surface of  earth, its potential energy increases.\nReason (R): Potential energy of a body on the surface of  earth is zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q10",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The value of escape velocity from surface of the  earth at angle of projection 30° and 60° with horizontal are equal.\nReason (R): The value of escape velocity depends on height  of projection from earth's surface.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q11",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Gravitational force is conservative force.\nReason (R): The gravitational force is negative gradient of  gravitational potential energy.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q12",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Escape speed from a point on the surface of  earth depends on its location on the earth.\nReason (R): Shape of earth is not perfect spherical.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q13",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The total mechanical energy of a planet  revolving around the sun remains conserved.\nReason (R): The gravitational force acting on the planet  remains perpendicular to its velocity.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 147,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q14",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Work done in moving a system of four particles  arranged on a square to infinity by gravitational force is negative.\nReason (R): Work done by gravitational force is equal to  initial potential energy minus final potential energy.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 148,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q15",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Acceleration due to gravity at poles is  independent of angular velocity of earth.\nReason (R): Acceleration due to gravity  2 GM g  R   at the  poles.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 148,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q16",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Work done by the gravitational force on a  planet by the Sun during its motion from  perigee to apogee is negative.\nReason (R): During the motion of a planet from perigee to  apogee work is done by the tangential force.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 148,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_06_gravitation_secB_q17",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Football bounces higher on hills than in planes.\nReason (R): Acceleration due to gravity on hills is less than  that on the earth's surface.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 148,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

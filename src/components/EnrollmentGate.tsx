@@ -31,6 +31,7 @@ import {
   deauthorizeDevice,
   ActiveDevice
 } from '../utils/deviceSessionManager';
+import { TermsAndConditionsModal } from './TermsAndConditionsModal';
 
 export interface EnrolledStudent {
   studentName: string;
@@ -111,6 +112,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
   const [dob, setDob] = useState(initialData?.dob || '2006-08-15');
   const [targetYear, setTargetYear] = useState<EnrolledStudent['targetYear']>(initialData?.targetYear || '2027');
   const [agreedTerms, setAgreedTerms] = useState(true);
+  const [showTermsModal, setShowTermsModal] = useState(false);
 
   // New Aspirant Fields State
   const [studentPhoto, setStudentPhoto] = useState<string>(initialData?.studentPhoto || '');
@@ -230,19 +232,50 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
       newErrors.parentName = 'Please enter a valid parent name (min 3 characters)';
     }
 
-    const phoneRegex = /^[6-9]\d{9}$/;
-    const cleanParentPhone = parentPhone.replace(/\D/g, '');
-    if (!cleanParentPhone) {
-      newErrors.parentPhone = 'Parent contact number is required';
-    } else if (!phoneRegex.test(cleanParentPhone)) {
-      newErrors.parentPhone = 'Enter valid 10-digit Indian mobile number (starts with 6-9)';
+    const checkIsInvalidOrDummyPhone = (phoneRaw: string): string | null => {
+      const digits = phoneRaw.replace(/\D/g, '');
+      if (!digits) {
+        return 'Mobile number is required';
+      }
+      if (!/^[6-9]\d{9}$/.test(digits)) {
+        return 'Enter valid 10-digit Indian mobile number (starts with 6-9)';
+      }
+      // Check 1: All identical digits (e.g. 9999999999, 8888888888, 7777777777, 6666666666)
+      if (/^(\d)\1{9}$/.test(digits)) {
+        return 'Dummy number not allowed (all repeated digits)';
+      }
+      // Check 2: Sequential numbers ascending or descending (e.g. 9876543210, 1234567890, 0123456789)
+      const sequentialPatterns = [
+        '9876543210', '1234567890', '0123456789', '8765432109', '7654321098',
+        '2345678901', '9876543211', '9876543212', '1234567891', '0987654321'
+      ];
+      if (sequentialPatterns.includes(digits)) {
+        return 'Dummy or sequential mobile number is not permitted (e.g. 9876543210)';
+      }
+      // Check 3: Repetitive two-digit / three-digit cycles (e.g. 9898989898, 9090909090, 9191919191)
+      if (/^(\d{2})\1{4}$/.test(digits) || /^(\d{3})\1{2}\d$/.test(digits) || /^(\d{5})\1$/.test(digits)) {
+        return 'Repetitive dummy mobile pattern is not permitted';
+      }
+      // Check 4: Must contain at least 4 distinct unique digits
+      const uniqueDigits = new Set(digits.split(''));
+      if (uniqueDigits.size < 4) {
+        return 'Invalid mobile number: too few distinct digits. Enter genuine number.';
+      }
+      // Check 5: Common dummy test prefixes with all zeros or repeating suffix
+      if (/^[6-9]0{8,9}$/.test(digits) || /^[6-9]1{8,9}$/.test(digits) || /^98765/.test(digits)) {
+        return 'Dummy or placeholder mobile number is not allowed';
+      }
+      return null;
+    };
+
+    const parentPhoneErr = checkIsInvalidOrDummyPhone(parentPhone);
+    if (parentPhoneErr) {
+      newErrors.parentPhone = parentPhoneErr;
     }
 
-    const cleanStudentPhone = studentPhone.replace(/\D/g, '');
-    if (!cleanStudentPhone) {
-      newErrors.studentPhone = 'Student contact number is required';
-    } else if (!phoneRegex.test(cleanStudentPhone)) {
-      newErrors.studentPhone = 'Enter valid 10-digit Indian mobile number (starts with 6-9)';
+    const studentPhoneErr = checkIsInvalidOrDummyPhone(studentPhone);
+    if (studentPhoneErr) {
+      newErrors.studentPhone = studentPhoneErr;
     }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -1072,7 +1105,18 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
                   className="mt-0.5 rounded border-slate-300 text-blue-600 focus:ring-blue-500"
                 />
                 <span>
-                  I confirm that the details provided are genuine and acknowledge that this account will be bound to <strong>maximum 2 active devices</strong> and PDFs locked with my DOB PIN.
+                  I confirm that the details provided are genuine and agree to the{' '}
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setShowTermsModal(true);
+                    }}
+                    className="text-blue-600 hover:text-blue-800 underline font-semibold cursor-pointer"
+                  >
+                    Terms & Conditions
+                  </button>
+                  , acknowledging that this account will be bound to <strong>maximum 2 active devices</strong> and PDFs locked with my DOB PIN.
                 </span>
               </label>
               {errors.terms && (
@@ -1109,6 +1153,12 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
           </form>
         )}
       </div>
+
+      {/* Terms & Conditions Modal */}
+      <TermsAndConditionsModal
+        isOpen={showTermsModal}
+        onClose={() => setShowTermsModal(false)}
+      />
     </div>
   );
 };

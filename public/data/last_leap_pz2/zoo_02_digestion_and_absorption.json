@@ -1,0 +1,5317 @@
+[
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q1",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "How many of the enzymes given below in block belong to brush border enzymes?  Maltase, Nucleosidase, Enterokinase, Amylopsin, Steapsin, Nucleases, Erepsin, Carboxypeptidase, Lactase, Aminopeptidase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Six",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Seven",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Five",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 389,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q2",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following chemical substance is absorbed by passive transport in intestine?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Galactose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amino acids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fructose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 389,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q3",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Select the symptoms of a disease in which diet of the patient must contain adequate proteins, fats and carbohydrates",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Subcutaneous fat is preserved",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Deficiency of proteins and calories",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Appetite is poor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enlarged fatty liver",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 389,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q4",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fangs are certain specialised teeth attached to  maxillary bones in poisonous snakes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Niacin is also known as pellagra preventing  vitamin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Choleretic are substances which increases  secretion of HCl from stomach",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hormone villikinin is released from intestinal villi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 389,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q5",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Kwashiorkar and Marasmus are disorders due to malnutrition. Which of the following is not a character of Marasmus?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Common in infants under 1 year of age",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ribs become prominent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Subcutaneous fat is well preserved",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oedema is absent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 389,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q6",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzyme acts upon the monoglycerides changing it into fatty acids and glycerol?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Steapsin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Trypsin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bile",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Erepsin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 389,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q7",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Achlorhydria (lack of HCl secretion in stomach) or gastrectomy can lead to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Indigestion of fat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Iron deficiency anaemia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Unable to digest lactose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Galactosemia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 389,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q8",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Bile duct and the pancreatic duct open together into the duodenum as the common hepato- pancreatic duct which is guarded by a sphincter called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sphincter of Boyden",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pyrolic sphincter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sphincter of Oddi",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gastro-oesophageal sphincter",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 389,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q9",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Galactosemia is a metabolic genetic disorder  in which galactose is not metabolised into glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sea faring fisherman sometimes eat raw fish  from their catch. They suffer with paralysis due to vitamin B1 deficiency",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Some nutrients such as fructose and mannose  are absorbed from the intestine by facilitated diffusion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If we drink sea water, Mg2+ ions present will  increase the solute concentration inside the cell, leading to excessive absorption",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 389,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q10",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "A young infant may be feeding entirely on mother's milk which is white in colour but the stools which the infant passes out are quite yellowish, due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Undigested milk protein casein of milk",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bile pigments passed through bile juice of  infant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pancreatic juice poured into duodenum of infant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mucus secreted by goblet cells of alimentary  canal of infant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q11",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct pair of food components in human which reach the stomach in undigested form",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Starch and Fat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Starch and Protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Starch and Cellulose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellulose and Fat",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q12",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Oesophagus is a long, thin tube 25 cm long that pierces through the diaphragm and enters the abdominal cavity. Oesophagus is characterized by the following, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Absence of visceral peritoneum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Absence of Auerbach's and Meissner's plexus  i.e. presence of voluntary muscles through out",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Absence of digestive glands",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of mucus secreting goblet cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q13",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match    Disorder  Symptom/  Characteristic   Cause",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Achalasia  cardia   Accumulation of  food in oesophagus    Failure of  cardiac   sphincter to  relax",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heart burn  Burning sensation in  oesophagus   Cardiac  sphincter  remains open",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Galactosemia  Accumulation of  galoctose leading to  mental retardation   Absence of  Lactase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ulcer  Crater like lesion or  erosion in mucous  membrane develops  in alimentary canal   Hyper acidic  Aspirin,  alcohol,  excessive  vagus  stimulation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q14",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is true w.r.t. dentition in human?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thecodont, heterodont",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heterodont, acrodont",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thecodont, homodont",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acrodont, bunodont",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q15",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "If the main pancreatic duct is blocked which of the following function will be affected?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Blood glucose level",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Digestion of fat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Digestion of cellulose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No function will be affected as sufficient  amount pancreatic juice is poured into duodenum through duct of Santorini",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q16",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fructose, mannose and some amino acids are  absorbed by facilitated diffusion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Various nutrients like amino acids, fatty acid,  monosaccharides like glucose, electrolytes like Na+ are absorbed by active transport only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fatty acid and glycerol are first incorporated  into small droplets called micelles which move into intestinal cell of mucosa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transport of water depends upon osmotic  gradient",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q17",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Principal enzyme for digestion of fat is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Steapsin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amylopsin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intestinal lipase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gastric lipase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q18",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormone is secreted by 'Gastrointestinal Tract' and is both, stimulatory and inhibitory nature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "GIP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gastrin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secretin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Duocrinin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q19",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match w.r.t. deficiency diseases",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Niacin - Pellagra",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyanocobalamin - Pernicious anaemia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thymine - Beriberi",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Folic acid - Sprue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q20",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "In acute constipation purgatives containing magnesium salts are generally used;  Mark the most appropriate reason  (a) Mg2+ ions are absorbed fast which facilitates  water absorption from the intestine  (b) Mg2+ ions are absorbed slowly, which prevents  the water absorption from the intestine  (c) Magnesium salts are easily available  (d) Osmotic effect of Mg2+ ions rather draws water  from the blood to intestinal lumen by osmosis and consequently stimulates intestinal peristalsis and evacuation of faeces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a) and (c)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(b) and (c)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a) and (d)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(b) and (d)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 390,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q21",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bile produced from liver is rich in lipases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alcholics are short of vitamin C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vitamins are essential for normal metabolism  growth and sound health",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Excess of glucose, fructose and galactose are  usually stored in the liver and muscle cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 391,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q22",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "All the following conditions are observed in Marasmus, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is found in infants less than a year in age,  if the mothers milk is replaced too early by other foods which are poor in both proteins and caloric value",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The layer of fat beneath the skin disappears",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hands and other body parts show fluid  accumulation (oedema) and swelling",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thinning of limbs and ribs become very  prominent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 391,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q23",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "How many of the following statements are wrong?  a. The bile duct and the pancreatic duct open  together into the duodenum as the common hepato-pancreatic duct which is guarded by sphincter of Boyden.  b. The parotid, sub-maxillary and sub-lingual  salivary glands are located just outside the buccal cavity and secrete salivary juice into the buccal cavity.  c. In duodenum, glands are only found in  submucosa which are Brunner's glands, a type of simple branched tubular glands.  d. There is no modification of the four layers  namely serosa, muscularis, sub-mucosa and mucosa in different parts of alimentary canal.  e. Lipases are absent in secretion of gastric  glands.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 391,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q24",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The following diagram depicts the duct systems of liver, gall bladder and pancreas. What would happen if the duct A in the figure is blocked by gall stone?  B  Ducts  from liver   C  A  D  Duodenum  (i) The endocrine function of pancreas, secretion of insulin and glucagon hormone will be blocked  (ii) Exocrine function of pancreas will be blocked  (iii) Contraction of gall bladder will cause pain  generally felt under the right scapular region  (iv) The bile pigments will accumulate in the blood  and cause obstructive jaundice",
+    "question_diagram": "/images/last_leap_pz2/p391_q24.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "(i) and (ii) only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(ii) and (iii) only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(iii) and (iv) only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(iv) only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 391,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q25",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzyme is not included in the secretions of the brush border cells of mucosa?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maltase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dipeptidase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nucleosidase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carboxypeptidase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 391,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q26",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Out of the following digestive juices arrange them in the order of decreasing pH?  a. Intestinal juice b. Saliva  c. Hepatic bile d. Gastric juice",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c, d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "c, a, b, d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d, b, a, c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "c, b, a, d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 391,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q27",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The absorption of nutrients, like amino acids, occurs via co-transport channels, which couple with the movement of Na+. Which of the following statement is true for this type of co-transport?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In this both amino acids and Na+ move down  a electrochemical gradient",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both amino acids and Na+ are absorbed  against the electrochemical gradient",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amino acids are absorbed against the  electrochemical gradient and Na+ moves towards the electrochemical gradient",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amino acids move towards the electrochemical  gradient and Na+ against the electrochemical gradient",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 391,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q28",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Why hands and feet get swollen with accumulated fluid (oedema) in persons suffering from dietary deficiency of proteins in kwashiorkor?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plasma proteins serve as a source of proteins  for tissue cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Albumin and globulins retain water in the blood  plasma by their osmotic effects",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Albumin and globulins transport many  substances such as thyroxine and Fe3+ in combination with them",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tissue cells utilise plasma proteins for forming  their cellular proteins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q29",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormone is secreted from the intestinal mucosa and stimulates the release of enzymes in the pancreatic juice?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Secretin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cholecystokinin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enterocrinin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Duocrinin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q30",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormone inhibits the secretion of gastric juice?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enterogastrone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secretin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cholecystokinin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q31",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Constipation is a condition in which defecation occurs only at prolonged intervals. It is irregular or inadequate defecation. Which of the following condition is not responsible for constipation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreased colon motility",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A diet containing too little fluid and fibre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Haemorrhoids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Too much absorption of water by colon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q32",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The microvilli participate in absorption and also in digestion because a number of digestive enzymes are embedded within the epithelial cells plasma membrane. Which of the following is not an brush- bordered enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lactase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aminopeptidase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carboxypeptidase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Erepsin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q33",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Myenteric nerve plexus is located in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sub-mucosa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Muscularis mucosa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Muscularis externa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mucosa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q34",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "All the following statements are correct but one is wrong. Which one is wrong?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Avidin a protein of raw egg white inhibits  intestinal absorption of biotin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vitamins A, C and E are anti-oxidants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fluorine maintains normal dental enamel and  prevents dental caries",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ameloblasts are mesodermal in origin and  secrete enamel",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q35",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Brunner's glands are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Simple tubular",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Simple coiled tubular",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Compound alveolar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Compound tubular",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q36",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Taste buds for tasting chillies, black pepper and hot sauces are present in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vallate papillae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fungiform on the upper side",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Filiform",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No taste buds for chillies, black pepper and hot  sauces",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q37",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is present in the saliva of all mammals?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mucin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Salivary amylase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amylopsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diastase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q38",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "What is the gross energy value of proteins?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4.1 kcal/g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.65 kcal/g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9.45 kcal/g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.0 kcal/g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q39",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Salivary α-amylase becomes inactive in the stomach primarily due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Degradation by gastric pepsin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inhibition by Cl-",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inhibition by peptides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inactivation by low pH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q40",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzyme is not a disaccharidase?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sucrase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lactase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maltase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dextrinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q41",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Crypts in between the bases of villi in the intestine are crypts of Lieberkuhn. Which of the following cells in these crypts secrete digestive enzymes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parietal cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Paneth cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zymogen cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Argentaffin cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 392,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q42",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "All the following statement are correct but one is wrong. Which one is wrong?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Liver is the largest gland of the body weighing  about 1.2 to 1.5 kg in an adult human",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Liver is situated in the abdominal cavity, just  below the diaphragm and has two lobes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If the concentration of plasma proteins is too  low as a result of liver disease such as cirrhosis, fluid accumulates in the tissues, a condition called oedema",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Liver produces most of the proteins found in  blood plasma such as α, β and γ-globulins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q43",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not the correctly matched pair of salivary gland and its secretory duct?  Salivary gland Secretory duct",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parotid : Stensen's duct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sub-mandibular : Wharton's duct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sub-lingual : Duct of Rivinus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sub-maxillary : Stensen's duct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q44",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Cholic acid giving rise to bile salts is chemically",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amino acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Organic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Steroid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fatty acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q45",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Micelle formation is necessary for the intestinal absorption of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycerol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Galactose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vitamin D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bile pigments",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q46",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "One amongst the following is not associated with pancreatic juice",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amylopsin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Steapsin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nucleases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nucleotidase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q47",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Many human adults, especially senior citizens cannot digest milk and results in intestinal cramps, diarrhoea and flatulence because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lactose intolerance which is due to deficiency  of enzyme uridyl transferase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Many adult humans lose the ability to produce  the brush border enzyme lactase and therefore cannot digest milk sugar",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Undigested lactose in chyme retains fluid and  bacterial fermentation of lactose results in the production of gases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q48",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Chymotrypsinogen and pro-carboxypeptidase of pancreatic juice are activated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enterokinase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Exopeptidase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trypsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enteropeptidase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q49",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following type of cells are a part of the oxyntic tubular glands of stomach epithelium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The parietal cells located in stomach's gastric  pits",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The peptic cells which secrete a large quantity  of pepsinogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Goblet cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q50",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Sea-faring fisherman sometimes eat raw fish from their catch. They suffer from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Paralysis due to vitamin B1 deficiency",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypercholesterolemia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pellagra",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Obesity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q51",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormone acts on pancreas, secretory cells and muscles of stomach? It stimulates the secretion of water and bicarbonates in the bile and pancreatic juice and inhibits gastric motility",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enterogastrene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gastric inhibitory peptide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gastrin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secretin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q52",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The substrate of invertase enzyme is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Starch",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cane sugar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maltose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q53",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "A person is suffering from macrocytic/megaloblastic anaemia. This anaemia can be due to degenerative action of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chief cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxyntic cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Peptic cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zymogen cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q54",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Chylomicrons are protein coated small fat globules formed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lumen of intestine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lacteals of villi",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cells of mucosa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Blood vessels of villi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 393,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q55",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following organ secretes brush border enzymes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pancreas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stomach",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intestine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Buccal cavity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q56",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following papillae do not contain taste buds in humans?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Circumvallate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Foliate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Filiform",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fungiform",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q57",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Salivary amylase is contributed by all the  salivary glands, mainly by parotid glands",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Waldeyer's ring consists of pharyngeal tonsils  and adenoid tonsils only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Uvula closes the internal nares at the time of  swallowing of food",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maximum number of teeth amongst heterodont  mammals are found in pig and horse",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q58",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The food in stomach is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bolus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chyme",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chyle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Food vacuole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q59",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Physiologically, vitamin E is known to be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anti-inflammatory",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A powerful antioxidant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "An important coenzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anti-hypertensive factor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q60",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement is correct with reference to chylomicron?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They are end products of fat digestion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The reconstructed triglycerides in the intestinal  cells combine with phospholipids and cholesterol and are released into lymph in the form of protein coated fat droplets called chylomicrons",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "This is the form in which digested fats are  absorbed into intestinal cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "These are short chains of fatty acids absorbed  directly into blood by diffusion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q61",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Following are enzymes present in the intestinal juice. Which among these is considered as non-digestive enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleotidase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aminopeptidase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enterokinase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lipase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q62",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Tooth enamel  is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ectodermal, secreted by Ameloblast",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mesodermal, secreted by Odontoblast",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mesodermal, secreted by Ameloblast",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ectodermal, secreted by Odontoblast",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q63",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the odd one with reference to its ability to digest proteins",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pepsin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Trypsin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chymotrypsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carboxypeptidase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q64",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Dental formula of milk teeth in humans is  2012 2 2012 ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2102 2 2102 ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2103 2 2103 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2123 2 2123 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q65",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct sequence of digestion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protein  Trypsin → Dipeptide Chymotrypsin  oligopeptide  Endopeptidase →Amino acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thymidylic acid  DNAse → Thymidine + Pi  Nucleotidase → Thymine + Uridine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RNA  RNAse →Cytidylic acid Nucleotidase →  Cytidine + Pi  Nucleosidase →Cytosine + Ribose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Triglyceride Elastase →Diglyceride Erepsin →  Monoglyceride Steapsin →Fatty acid + Glycerol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q66",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Trypsinogen is activated by an enzyme, _____, secreted by the intestinal mucosa",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enterogastron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enterokinase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carboxypeptidase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Erepsin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q67",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The roof of buccal cavity is called palate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Internal nares open into buccal cavity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The transverse ridges called palatine rugae are  2 parts of soft palate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Soft palate has bony support",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 394,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q68",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following disorders with their characters  Column I Column II  a. Constipation (i) Abnormal frequency of bowel movement and increased liquidity of the faecal discharge  b. Indigestion (ii) A reflex action having feeling  of nausea  c. Vomiting (iii) Faeces are retained within  the rectum as the bowl movements occur irregularly  d. Diarrhoea (iv) Feeling of fullness due to  anxiety, food poisoning and over eating",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(ii), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iii), c(ii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q69",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the enzyme that causes curdling of milk protein into calcium paracaesinate in acidic medium",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rennin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Steapsin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chymotrypsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enterokinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q70",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct answer using codes given below  Column-I Column-II  a. Biotin (i) Ricket  b. Thiamine (ii) Pellagra  c. Nicotinic acid (iii) Dermatitis  d. Calciferol (iv) Beri-beri",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(i), c(ii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q71",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not present in mucosa of intestine?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Crypts of Lieberkuhn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brunner's gland",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intestinal gland",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are present in mucosa of intestine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q72",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a correct match of the substrate, the enzyme acting upon it and the end product?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Starch Amylase →Maltose Maltase →Glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Protein Pepsin →Peptones/Proteoses  Carboxypeptidase →Dipeptides",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Triglycerides Lipase →Diglycerides Lipase → Monoglycerides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Peptones/Proteoses Trypsin →Dipeptides  Enterokinase → Amino-acids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q73",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a correctly matched pair?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Microcytic anaemia - Achlorhydria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pernicious anaemia - Deficiency  of Castle's intrinsic factor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Korsakoff's syndrome - Deficiency of B1 in  alcoholics",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Megaloblastic anaemia - Deficiency of iron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q74",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzyme present in saliva acts as an antibacterial agent that prevents infection?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Salivary amylase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thiocyanate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lysozyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chitinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q75",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a characteristic feature regarding protein energy malnutrition, marasmus?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is produced by a simultaneous deficiency of  proteins and calories",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is found in infant less than a year of age",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Patient shows wasting of muscles, thinning of  limbs, failure of growth and brain development",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Some fat is left under the skin of patient,  extensive oedema and swelling of body parts are seen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q76",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which amongst the following is not a component of pancreatic juice?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sodium bicarbonate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Procarboxypeptidase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Elastase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dextrinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q77",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Stomach is the site of absorption of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Simple sugars",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alcohol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 395,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q78",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "A person consumed a poisonous substance against which digestive tract gave a vomiting response. The centres responsible for this response possibly can be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Myenteric plexus and medulla",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Medulla and Meissner's plexus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PNS",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Auerbach's plexus and Remaks plexus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q79",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Study the following reactions involved in digestion of food.  A. Carboxypeptidase Peptides Dipeptides →  Nucleases Nucleic acid Nucleotides →  B.  Maltase Maltose Glucose Glucose →   C.  Nucleotidase Nucleotides Nucleosides →  D.  Nucleosidase Sugar N bases →    Mark the option which includes reactions not catalysed by brush bordered enzymes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A & C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A & D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A & B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q80",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "All the given statements are correct except one choose the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Significant digestive activity occurs in large  intestine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The activities of gastrointestinal tract are under  neural and hormonal control for proper coordination of different parts",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fructose and some amino acids are absorbed  with the help of carrier ions like Na+ called as facilitated transport",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The egestion of faeces to the outside through  the anal opening is a voluntary process and is carried out by a mass peristaltic movement",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q81",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Cholecystokinin is the secretion of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Duodenum that causes contraction of gall  bladder",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Goblet cells of ileum, stimulates secretion of  succus entericus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Liver and controls bile synthesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stomach that stimulates pancreas to release  pancreatic juices",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q82",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is true about digestion and absorption of food?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trypsin, chymotrypsin and carboxypeptidase  are brush border enzymes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The chemical process of digestion is initiated  in the oral cavity. About 60% starch is hydrolysed here by salivary amylase to form maltose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rennin is a proteolytic enzyme found in gastric  juice of infants. Small amounts of lipases are also secreted by the gastric glands",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If breast feeding is replaced by less nutritive  food low in proteins and calories, the infants below the age of one year will suffer from Kwashiorkar",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q83",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "What will happen if bile duct gets blocked?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Faeces become dry",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acidic chyme will not be neutralised",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "There will be little digestion in intestine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Little absorption of fats will occur",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q84",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Vitamin B12 is absorbed by the help of secretions of which cells of stomach?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Goblet cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parietal cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Peptic cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chief cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q85",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Removal of stool from anus is called defaecation. It is mainly a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Voluntary process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Involuntary process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reflex action",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Provoked process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q86",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "When skin and eyes turn yellow, it is the symptom of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vomiting",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diarrhoea",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Jaundice",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Constipation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q87",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Succus entericus is the term used for which of the following?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A junction present between ileum and large  intestine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Foramen present in the heart",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Swelling in throat",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intestinal juice",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 396,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q88",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Match the Column I with Column II  Column I Column II  a. Bilirubin and (i) Sub-lingual  biliverdin  b. Hydrolysis of starch (ii) Bile pigments  c. Digestion of proteins (iii) Trypsin  d. Salivary glands (iv) Amylase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(i), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q89",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following structures prevents the back flow of faecal matter?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cardiac sphincter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pyloric sphincter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ileo-caecal valve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sphincter of Oddi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q90",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "HCl provides the pH which is about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q91",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reactions is not catalysed by a brush border enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maltose  Maltase → glucose + glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lactose  Lactase → glucose + galactose  Amylase → Disaccharide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Starch   Nucleotidase → Nucleoside",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nucleotides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q92",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The vitamin which is commonly known as antihaemorrhagic factor is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vit-A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vit-C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vit-K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vit-B2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q93",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a zinc-containing exopeptidase enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carboxypeptidase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Steapsin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trypsinogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chymotrypsinogen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q94",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Excessive stratification and keratinization and drying of cornea is due to deficiency of which of the following vitamins?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vit-A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vit-B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vit-C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vit-D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q95",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The papillae which are largest and knob like are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Circumvallate papillae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Filiform papillae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fungiform papillae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Foliate papillae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q96",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "In the man, teeth which grow at late adult stage are called wisdom teeth. Their number is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q97",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "About 30% of starch is hydrolysed in the  buccal cavity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Small amounts of lipases are also secreted by  gastric glands",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chymotrypsinogen is activated by trypsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Brunner's glands secrete enzymes and mucus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q98",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following sets represents the brush border enzymes?  a. Maltase b. Sucrase  c. Dipeptidase d. Amylopsin  e. Trypsin",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c, d & e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & e only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & c only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "c & d only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q99",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Transverse section of gut shows four layers of the wall i.e. serosa, muscularis, submucosa and mucosa. Which of the following statements is not correct regarding its arrangement and modifications?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Serosa is the outermost layer which is made  of thin mesothelium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oblique muscle layer is present in stomach",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All the four layers show modifications in  different parts of alimentary canal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Villi and rugae are modified mucosal and  submucosal layers respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q100",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Common bile duct includes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Right and left hepatic ducts only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Common hepatic duct and cystic duct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cystic duct and pancreatic duct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Common hepatic duct and pancreatic duct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q101",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The population of Escherichia coli, which is a resident of the colon, lives on undigested food. The bacteria in turn produce which of the following vitamins that are absorbed across the wall of colon?  A. Vitamin B12 B. Vitamin K  C. Thiamine D. Riboflavin",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A & B only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B & D only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B & D only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B, C & D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 397,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q102",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not correct about lactose intolerance?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Deficiency of lactase enzyme is associated  with intolerance of milk",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It leads to flatulence",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Curd is better tolerated than milk in intolerant  individuals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is due to the deficiency of enzyme which  converts galactose into glucose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 398,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q103",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which type of cells are the part of tubular glands of the stomach epithelium?  A. Parietal cells B. Peptic cells  C. Zymogen cells D. Oxyntic cells",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "D only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A & D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B & C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B, C & D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 398,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q104",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Digestion of fats starts in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mouth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stomach",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Small intestine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pharynx",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 398,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q105",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an incorrect match?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Filiform papillae : Smallest and most numerous,  found mainly in the centre of tongue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fungiform papillae : Most numerous, near the base of tongue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Foliate papillae : Not developed in the adult human tongue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vallate papillae : Largest papillae,each surrounded  by  a circular groove",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 398,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q106",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cells are present at the bottom of crypts of lieberkuhn, particularly in the small intestine and secrete enzymes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Paneth cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kupffer's cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Argentaffin cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glial cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 398,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q107",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following gastro-intestinal hormones stimulates the Brunner's glands to release mucus in the intestine?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enterocrinin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Duocrinin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secretin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enterokinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 398,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q108",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxyntic tubular glands of the stomach  epithelium include oxynctic cells, zymogen cells and goblet cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxyntic cells in stomach secrete HCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gastric ulcers can be due to intake of alcohol,  aspirin, smoking and excessive vagus stimulation etc.",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fatty acids are transported in intestinal  epithelial cells by Na+ dependent co-transport",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 398,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q109",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Digestion of which food substance will be affected if stomach of a person is removed surgically?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fats only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fats and starch",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Starch and vitamins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 398,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q110",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a diagrammatic representation of transverse section of gut  A  C  D B  E  Choose the option which is correct for the layers labelled as A, B, C, D and E",
+    "question_diagram": "/images/last_leap_pz2/p398_q110.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A - Serosa  B - Longitudinal muscle layer  C - Circular muscle layer  D - Mucosa  E - Submucosa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A - Mucosa  B - Circular muscle layer  C - Longitudinal muscle layer  D - Submucosa  E - Serosa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A - Serosa  B - Circular muscle layer  C - Longitudinal muscle layer  D - Submucosa  E - Mucosa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A - Serosa  B - Longitudinal muscle layer  C - Circular muscle layer  D - Submucosa  E - Mucosa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 398,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q111",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Gastric glands are found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mucosa and submucosa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Crypts of Lieberkuhn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mucosa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Muscularis externa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q112",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "All of the following hormones are secreted by duodenum except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gastrin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secretin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "GIP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Duocrinin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q113",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match w.r.t. composition of digestive juices",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gastric juice - Pepsin, erepsin, gastric lipase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pancreatic juice - Trypsin,  carboxypeptidases, ribonuclease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Succus entericus - Enterokinase, dipeptidase, sucrase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q114",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Cardia achalasia is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Relaxation of cardiac sphincter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Relaxation of pyloric sphincter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Failure of cardiac sphincter to relax completely",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Failure of pyloric sphincter to relax completely",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q115",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not related to Marasmus?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Subcutaneous fat is not preserved",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oedema is absent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribs become very prominent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enlarged fatty liver",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q116",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match    Deficiency  Disease   Deficient  nutrient   Symptoms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Beri beri  Vitamin B1  (Thiamine)   Inflammation  of  peripheral nerves,  weakness of limb  muscles, paralysis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cheilosis  Vitamin B2  (Riboflavin)   Bleeding of gums,  falling of teeth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pellagra  Nicotinamide  Canine or black  tongue disease in  dogs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nyctalopia  Vitamin A  (Retinol)   Less rhodopsin in  rod cells, no vision  in dim light",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q117",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement w.r.t. saliva/salivary glands",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thiocyanate in saliva is antimicrobial",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mumps is a viral infection of parotid salivary  glands",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Submandibular or submaxillary salivary glands  secrete maximum amount of saliva and provide their secretion by means of Wharton's duct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secretion of saliva is stimulated by  sympathetic nervous system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q118",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following functions as true stomach in ruminants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Abomasum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rumen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Omasum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q119",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following  a. Trypsin b. Carboxypeptidase  c. Steapsin d. Amylopsin  The enzyme/s not initially secreted as zymogen is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q120",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pepsinogen has no proteolytic activity, unless  activated into pepsin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bile is a watery greenish fluid containing bile  pigments, bile salts, cholesterol and phospholipids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In stomach, hydrochloric acid denatures the  salivary amylase and prevents further breakdown of carbohydrates (disaccharides)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bilirubin and biliverdin are formed from the  breakdown of globin protein of haemoglobin molecule",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q121",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which salivary gland is mainly infected in mumps?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parotid gland",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Submaxillary gland",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sublingual gland",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Submandibular",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q122",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Carbohydrates in the chyme are hydrolysed to disaccharide by amylase of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pancreatic juice",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gastric juice",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Brunners gland",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Crypts of Lieberkuhn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q123",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Gastric juice contains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trypsin, lipase, renin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pepsin, lipase, rennin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trypsin, pepsin, lipase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pepsin, renin, amylase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 399,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q124",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct sequence of digestion  Erepsin Diglyceride   Steapsin",
+    "question_diagram": "/images/last_leap_pz2/p400_q124.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Triglyceride   Elastase Fatty acid + Glycerol  Monoglyceride   Nucleo- sidase  Uricase Uridine + iP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Uridylic acid  Uracil + Ribose  Trypsin Peptone Aminopeptidase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protein  Dipeptide and Amino acid  Ptyalin Maltose Amylopsin Glucose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Starch",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 400,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q125",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Deficiency of which of the following results in formation of large, immature and nucleated RBC devoid of haemoglobin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyanocobalamine (B12)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Folic acid (B9)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Iron",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 400,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q126",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The wall of the alimentary canal from oesophagus to rectum possesses four layers namely serosa, mucosa, muscularis, sub-mucosa. What is the correct sequence of layers from inside to outside?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mucosa, Sub-mucosa, Inner circular and Outer  longitudinal muscles in Muscularis, Serosa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mucosa, Sub-mucosa, Inner longitudinal,  Outer circular muscle in Muscularis, Serosa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Serosa, Outer longitudinal and Inner circular  muscles in Muscularis, Submucosa and Mucosa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Serosa, Outer circular and Inner longitudinal  muscles in Muscularis, Submucosa and Mucosa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 400,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q127",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "The saliva secreted by salivary glands does not",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Contain electrolytes like Na+, K+, Cl- and  3 HCO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Give safety against dental carries",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bring about hydrolysis of starch upto 90%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Initiate the process of digestion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 400,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q128",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement with respect to kwashiorkor",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It occurs in children whose diets are deficient  in protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It occurs in children more than one year of  age",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Subcutaneous fat is preserved",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oedema is absent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 400,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q129",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match w.r.t. gastrointestinal hormone and its action.  Gastrointestinal Action hormone",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gastrin - Stimulates gastric glands  to secrete and release the gastric juice",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secretin - Release bicarbonates in  the pancreatic juice. Promotes  gastric secretion and motility",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enterocrinin - Stimulates the crypts of  Leiberkuhn to release enzymes in the intestinal juice",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CCK-PZ - Contracts gall bladder.  Stimulates pancreas to secrete and release digestive enzymes in the pancreatic juice.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 400,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q130",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Following are certain enzymatic reactions taking place in the human alimentary canal. Each reaction is depicted it with suitable enzyme A, B, C and D. Find from the options the correct set of enzymes required to carry out these reactions  Starch  A → Maltose  Nucleosides  B → Sugars + Bases  Di and monoglycerides  C → Fatty acids + Glycerol  Trypsinogen  D → Trypsin",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A - Pancreatic amylase  B - Nucleotidase  C - Lipase  D - Trypsin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A - Salivary amylase  B - Nucleases  C - Dipeptidases  D - Enterokinase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A - Dipeptidases  B - Nucleotidase  C - Lipase  D - Trypsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A - Salivary amylase  B - Nucleosidase  C - Lipase  D - Enterokinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 400,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q131",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Select the wrong statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Teeth of humans are bunodont",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dentine forms the main part of tooth which is  ectodermal in origin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lingual frenulum is a fold which attaches  tongue with the floor of buccal cavity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Smallest and most abundant papillae present  on human tongue is filiform papillae having no taste buds",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 401,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q132",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements  a. The mucous membrane of oesophagus is  formed of stratified squamous non-keratinised epithelium.  b. HCl of gastric juice converts Fe+2 into Fe+3  making the absorption of iron possible.  c. Glisson's capsule is the characteristic feature  of mammalian liver.  d. Wall of colon has three bands of longitudinal  muscles called epiploic appendages.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Statement a, b & c are correct; d is wrong",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Statement a & c are correct; b & d are wrong",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Statement c is correct; a, b & d are wrong",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Statement a, c & d are correct; b is wrong",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 401,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q133",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is accessory or nonfunctional duct of pancreas, opening directly into duodenum?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Duct of Santorini",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Duct of Wirsung",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cystic duct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hepatopancreatic duct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 401,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q134",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. Sphincter of Boyden (i) Regulates opening of oesophagus into stomach  b. Sphincter of Oddi (ii) Surrounds the opening of bile duct into pancreatic duct  c. Cardiac sphincter (iii) Regulates the  opening of stomach into small intestine  d. Pyloric sphincter (iv) Surrounds ampulla of  vater",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(i), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 401,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q135",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements with certain blanks  (i), (ii), (iii) & (iv) and select the option which correctly fills up these blanks.  A. Galactosemia is due to deficiency of enzyme        (i)     .  B. The failure in opening of gastro-oesophageal  sphincter leads to       (ii)     .  C.      (iii)     deficiency causes xerophthalmia.  D.      (iv)     ions are antimicrobial components  of saliva.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A - Lactase  B - Heart burn  C - Retinol  D - Thiocyanate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A - Uridyl transferase  B - Cardia achalasia  C - Cyanocobalamin  D - Lysozyme",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A - Lactase  B - Cardia achalasia  C - Thiamine  D - Na+ and Cl-",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A - Uridyl transferase  B - Cardia achalasia  C - Retinol  D - Thiocyanate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 401,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q136",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Antihemorrhagic vitamin - Vitamin K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Renin - Curdling of milk",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Deficiency of vitamin B1 - Wernicke's Korsakoff Syndrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Facilitated transport - Fructose and some amino acids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 401,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q137",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a disease due to nutritional deficiency?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaemia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Scurvy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diabetes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Goitre",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q138",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the condition where food is not properly digested leading to feeling of fullness. This can be caused due to inadequate secretion, food poisoning, over eating etc.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vomiting",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Constipation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Indigestion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diarrhoea",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secA_q139",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section A (Objective)",
+    "question_text": "Which cells are not associated with gastric glands?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mucus neck cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peptic cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Paneth cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Parietal cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q1",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In predatory animals trypsin acts like thrombin  and helps to digests the blood proteins.\nReason (R): Pepsin is absent in case of invertebrate.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q2",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Cattle fed with sploit hay of sweet clover may  suffer from vitamin K deficiency and prolonged uncontrollable bleeding.\nReason (R): Dicumarol prevents the action of vitamin K.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q3",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The animal polysaccharide glycogen is present  in the liver and flesh, but ordinarily very little glycogen can be utilised from food.  \u0002\u0003 \u0002\u0003 \u0002\nReason (R): Glycogen is rapidly degraded to lactic acid by  the enzymes of the liver and muscles after an animal is killed.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q4",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Water is not gained, but is lost from blood on  drinking sea water.\nReason (R): Mg2+ ions in sea water increase the solute  concentration in the intestinal lumen because Mg2+ is absorbed slowly.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q5",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Consumption of raw egg is injurious to health.\nReason (R): Raw egg has avidin which binds to biotin and  prevents its uptake.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q6",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Heart burn occurs when acidic chyme enters  into oesophagus.\nReason (R): A muscular gastro-oesophageal sphincter  regulates the opening of oesophagus into the stomach.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q7",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Serosa is the outer most layer of intestinal  wall.\nReason (R): Serosa is absent in oesophagus.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q8",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Food provides energy and organic materials for  growth and repair of tissues.\nReason (R): Biomacromolecules in food can be utilized by  our body in their original form.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q9",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A cartilaginous flap called epiglottis prevents  the entry of food into gullet during swallowing.\nReason (R): The oesophagus is a thin long tube which  extends posteriorly passing through neck, thorax and diaphragm and open in fundus region of stomach.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q10",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Aminopeptidase is exopeptidase.\nReason (R): It cleaves the peptide bond at N-terminal end  of polypeptide chain.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q11",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Bile helps in emulsification of fats.\nReason (R): Bile lacks digestive enzymes but its bile salts  help in micelle action.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_02_digestion_and_absorption_secB_q12",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Histamine stimulates the secretion of pepsin  and hydrochloric acid in the stomach. It is also released during allergic reactions.\nReason (R): Anti-histamine tablets given during the allergic  reactions affect the secretion of acid in stomach.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 402,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

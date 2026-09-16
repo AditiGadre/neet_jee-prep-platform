@@ -1,0 +1,2871 @@
+[
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q1",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following property of magnetic material is observed in all the materials?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ferromagnetism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Paramagnetism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diamagnetism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electromagnetism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q2",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Two small bar magnets are placed in a plane. Direction of their dipole moments and the position of magnets are as shown in figure  N  P N S S  The appropriate direction of net magnetic field at point 'P' will be indicated by which of the following arrow?",
+    "question_diagram": "/images/last_leap_pz2/p299_q2.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q3",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "H is the horizontal component of earth and 'V' is the vertical component of earth then at magnetic equator",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "V and H are equal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Value of V and H are zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Value of H is zero only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Value of V is zero only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q4",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Two bar magnets are held together tightly in a vibration magnetometer. When their like poles are together, they make 20 oscillation per minute and when their unlike poles are together, they make 8 oscillation per minute. The ratio of magnetic moment of two bar magnets is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "29 : 21",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 : 15",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25 : 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q5",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic susceptibility  of a diamagnetic material depends on absolute temperature T as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": " ∝ T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": " ∝ 1  T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": " ∝ T0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": " ∝ 1  T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q6",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Force between two magnetic pole of strength unity at a separation of 1 m is    7 10 4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10-7 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4π × 10-7 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q7",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic lines of force inside a bar magnet are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "From south to north pole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "From north to south pole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Not present",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intersecting each other",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q8",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The material which used to make permanent magnet has",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High retentivity, low coercivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Low retentivity, low coercivity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low retentivity, high coercivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High retentivity, high coercivity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q9",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "On a magnetic map, the lines joining the points of same value of horizontal component of earth's magnetic field are called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aclinic lines",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isoclinic lines",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isodynamic lines",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isogonic lines",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q10",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "What is the unit of pole strength of a bar magnet?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ampere metre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ampere/metre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ampere/metre2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ampere metre2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q11",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic dip at two perpendicular positions of a dip circle are 45° and 30°. True dip at that place is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 cot 2 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "cot-1 2  1 1 cot 2         1 1 cot       ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q12",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of magnetic length and geometrical length of a bar magnet is about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.84",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.42",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.21",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q13",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Soft iron is used to make electromagnets as it has",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High coercive force and high retentivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Low coercive force and low retentivity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High coercive force and low retentivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Low coercive force and high retentivity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q14",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "An electric cable is carrying current from north to south. The position of null point from the cable is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vertically upward",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vertically downward",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eastward",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No where",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q15",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A substance is placed in external magnetic field. If the direction of induced dipole moment is opposite to the direction of applied magnetic field, then the substance may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diamagnetic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ferro magnetic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q16",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "If Bo is magnetic flux density in vacuum produced by a magnetising force and magnetic flux density produced by the magnetisation of a material due to the same magnetising force is Bm, then the total magnetic flux density in the material is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bo + Bm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bo - Bm  B  m B B  o B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "m  o",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q17",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A magnet (primary) oscillates with frequency  1 ν in earth's magnetic field (BH) alone. Now a secondary magnet is placed near the primary magnet. If B is the magnetic field of secondary magnet on primary magnet  in the direction of BH, the primary magnet  B  oscillates with freqency  2 ν, then the ratio of   H B  is  2  ν ν        2  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1  2  ν ν        2  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 -  1  2  ν ν        2   ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1  1  2  ν        1  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 -  ν  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q18",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graphs represents the correct variation of the intensity of magnetisation (I) with the intensity of magnetising field (H) in a ferromagnetic substance?  I  I",
+    "question_diagram": "/images/last_leap_pz2/p300_q18.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H  H  I  I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H  H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q19",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The angle of dip is θ1 on a given meridian which is at an angle θ with the magnetic meridian. If θ2 is the angle of dip on another meridian which is perpendicular to the first meridian, then θ, θ1 and θ2 are related as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "cot2θ = cot2θ1 + cot2θ2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "tan2θ = tan2θ1 tan2θ2  θ  θ  tan tan θ  1 tan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "tanθ = tan θ1 + tanθ2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q20",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic susceptibility ()  of a ferromagnetic material varies with temperature, as    ",
+    "question_diagram": "/images/last_leap_pz2/p301_q20.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T  T    ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T  T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q21",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not dimensionless? (where symbols stand for their usual meanings in magnetism)?  I",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "H B",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "H  0 μ  B r μ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r μ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q22",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The unit of intensity of magnetising field is  N",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "3 J",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Wb  m tesla   J ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wb m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q23",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "If at any place angle of dip is θ and magnetic lattitude is λ, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "θ = λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "tanθ = cotλ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "tanθ · cotλ = 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 cot tan  λ θ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q24",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "If A is area of intensity of magnetisation in ferromagnetic material versus magnetising field intensity, V is volume of the magnetic sample and n  is the frequency of alternating magnetic field, then the rate of hysteresis loss in the substance is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AVn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "n AV  A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "nV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q25",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A magnet is oscillating with time period 'T' in a vertical plane. If angle of dip at that place is 60° and the magnet is restricted to oscillate in horizontal plane, then the time period of oscillations will be  T",
+    "question_diagram": "/images/last_leap_pz2/p301_q25.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q26",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic susceptibility of a substance is -0.0002 at room temperature. If this substance is kept in a uniform external magnetic field B, the net field inside the substance becomes B then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B > B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B < B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B = B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q27",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The true value of the angle of dip at a place is θ. If the plane of the dip circle is at 30° with the magnetic meridian, the angle of dip is θ, then one concludes that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "θ = θ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "θ < θ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "θ > θ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "θ = θ + 30°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q28",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A diamagnetic substance is kept in a uniform external magnetic field B. If the net magnetic field inside the substance is B, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B < B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B = B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B > B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of the above depending on the value of B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q29",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "At a place the angle of dip is 30°. If the horizontal component of earth's magnetic field is B, the total intensity is  2B",
+    "question_diagram": "/images/last_leap_pz2/p301_q29.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 3B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q30",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The lines joining the places of zero declination are called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isogonic lines",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Agonic lines",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isoclinic lines",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aclinic lines",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q31",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A magnetic needle makes n oscillations per minute in a horizontal plane where angle of dip is 45°. If needle is made to oscillate in a vertical plane coinciding with the magnetic meridian, then number of oscillations per minute will become/remain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1/4 n",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n/2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q32",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Two similar nature magnetic poles of strength 16 A-m and 64 A-m are placed at a distance of 120 cm in air. At which point on the line joining the two poles, the force on another unit north pole will be zero?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.8 m from 64 Am",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.8 m from 16 Am",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.4 m from 64 Am",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.6 from 64 Am",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q33",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic moment of a short dipole is 100 Am2. The magnetic induction in vacuum at 1 m from the dipole on the axis of dipole is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 × 10-5 T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10-5 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 μT",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 μT",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q34",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A deflection magnetometer is placed in tanA position. The bar magnet is placed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "East-west direction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "North-south direction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "North-east direction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "South-west direction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q35",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Each of the two identical magnets when suspended alone makes 30 oscillation per minute at a place. The number of oscillation per minute, if they are fixed at right angles and allowed to oscillate in the same field will be approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25 oscillation/minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 oscillation/minute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60 oscillation/minute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15 oscillation/minute",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q36",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "If the apparent value of dip at a place in two perpendicular vertical planes are respectively 30° and 45°, then the true angle of dip at that place is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "cot -1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "tan -1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-1 cot ( 3)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-1 cot ( 5)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q37",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic moment of a magnet (10 cm × 4 cm × 1 cm) is 4 Am2. Its intensity of magnetisation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "103 A/m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "102 A/m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "105 A/m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "104 A/m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q38",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "If the magnetic field of earth at any point on the magnetic equator is 0.4 × 10-4 T then the value of magnetic field at the magnetic pole of the earth is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.4 × 10-4 T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2 × 10-4 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.8 × 10-4 T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.3 × 10-4 T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q39",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "S.I. unit of intensity of magnetisation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ampere metre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ampere metre2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ampere/metre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ampere/metre2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q40",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "When plane of a dip circle is along magnetic meridian, period of oscillation of dip needle is T1. When plane of dip circle is perpendicular to the magnetic meridian, the period of oscillation is T2  T T is (Angle of dip = 30°)  then  1  2",
+    "question_diagram": "/images/last_leap_pz2/p302_q40.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q41",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A ferromagnetic material is placed in an external magnetic field. The magnetic domains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Must increase in size",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Must decrease in size",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May increase or decrease in size",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Disappear",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q42",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "If a magnetic dipole of dipole moment μ is rotated through an angle θ with respect to the direction of the magnetic field B, then work done is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "μBsinθ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "μB(1 - sinθ)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "μBcosθ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "μB(1 - cosθ)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q43",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "In cosmic shower an electron is falling toward earth near equator. In which direction will it be deflected?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eastward",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Westward",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Northward",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Southward",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q44",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic permeability is maximum for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diamagnetic substance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Paramagnetic substance",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ferromagnetic substance",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Same for all three substances",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q45",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The area enclosed by hysteresis loop is a measure of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Permeability",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Susceptibility",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Retentivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Energy loss per cycle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q46",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Susceptibility of a substance at 300 K is -0.00002. Its susceptibility at 600 K is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-0.00001",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-0.00004",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-0.00006",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-0.00002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q47",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Line joining places of zero angle of dip on earth surface is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isoclinic line",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aclinic line",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isogonic line",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Agonic line",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q48",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "When a dip circle is kept at a place, the angle of dip obtained is 45°. When the dip circle is rotated about its vertical axis by 90°, the angle of dip obtained is 60°. True dip at that place is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-1 2 cot  3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-1 4 cot 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-1 2 tan  3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-1 4 tan 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q49",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic moment of a bar magnet shown in figure (i) is M.  l l  S N  S N   Fig (i) Fig (ii)  If a hole is drilled through the magnet as shown in figure (ii), then new magnetic moment of the magnet will be",
+    "question_diagram": "/images/last_leap_pz2/p303_q49.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Equal to M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Less than M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "More than M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q50",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "When a substance is kept in a magnetic field, it gets repelled. Which of the following represents its susceptibility?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-0.0004",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.0004",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.000",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-1.000",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q51",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Time period of vibration of a bar-magnet in vibration magnetometer is T. If the magnet is cut into n identical parts such that length of each part is equal to length of original magnet, then time period of vibration of one part in the vibration magnetometer is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T  n",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "nT",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "n2T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q52",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic susceptibility of a substance at  27°C is - 0.00025. Its magnetic susceptibility at 127°C is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-0.000125",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-0.0005",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-0.00025",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-0.00001",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q53",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Locus of all points having same dip on the magnetic map of earth is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isodynamic line",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isogonic line",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isothermal line",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isoclinic line",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q54",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic induction at an axial point of a short magnet  \u0002  at a distance r from the centre of dipole is B  . Its value at the equatorial point of the short magnet at same distance from centre of dipole is  \u0002  \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2 B",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "B   \u0002  \u0002",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 B ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q55",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A compass needle which is allowed to move in a horizontal plane is taken to a geomagnetic pole. It will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stay in east-west direction only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stay in any position",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Become rigid showing no movement",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stay in north-south direction only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q56",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Consider a magnetic dipole kept in the east-west direction. Let P1, P2, Q1, Q2 be four points at the same distance from the dipole towards north, south, east and west of the dipole respectively. The directions of the magnetic field due to the dipole only are the same at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P1 and Q1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P2 and Q1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P1 and Q2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Q1 and Q2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q57",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Due to a small magnet, intensity at a distance x in the end on position is 9 gauss. What will be the  x on broad side on  intensity at a distance 2  position?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9 gauss",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 gauss",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "36 gauss",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.5 gauss",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q58",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic moment of a bar magnet of length L and area of cross-section A is M. If the magnet is cut into four identical parts each of length L and area of  A , then magnetic moment of each  cross- section 4  part is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q59",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "At magnetic equator, the angle of dip is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "90°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "135°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q60",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The possible value of magnetic susceptibility of a diamagnetic material can be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "- 2.45",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.75",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 0.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.67",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q61",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Unit of reduction factor of tangent galvanometer is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ampere",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ohm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "tesla",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "weber",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q62",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The bar magnet A of magnetic moment MA is found to oscillate at a frequency twice that of magnet B of magnetic moment MB and same moment of inertia when placed in a vibration magnetometer. We may say that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MB = 8MA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MA = 4MB",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MA = 8MB",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MA = 2MB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q63",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "When a magnetic material is subjected to a very small magnetising force H. The intensity of magnetisation is proportional to  1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q64",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic screening is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Not possible",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Possible using superconductors",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Possible using iron ring as cover",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q65",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Apparent dip at a place is always greater than or equal to the value of true dip at that place. This is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase in apparent value of Bv",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease in apparent value of BH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase in apparent value of BH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q66",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "If a bar magnet is kept on a horizontal plane with N-pole of bar magnet facing geographic N-pole and S-pole of bar magnet facing geographic S-pole. Then the number of neutral points is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q67",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetization of a piece of iron or steel",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Depends on strength of magnetising field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depends on the external condition such as  temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cannot be done beyond the saturation point",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q68",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A Gaussian surface is drawn enclosing N-pole of a bar magnet. The net magnetic flux through the Gaussian surface will be (pole strength of N-pole is treated as positive and S-pole as negative)  N S  Gaussian  surface",
+    "question_diagram": "/images/last_leap_pz2/p304_q68.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Positive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Positive or negative",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q69",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A material when heated, suddenly changes its magnetic property at a particular temperature and above this temperature, its susceptibility is found to be inversely proportional to the absolute temperature. The material may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ferromagnetic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diamagnetic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ferromagnetic or Paramagnetic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q70",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Elements of Earth's magnetism is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Magnetic declination",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnetic inclination (or dip)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Horizontal component of earth's magnetic field",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q71",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "At angle   3  apparent dip is 60°. The true dip at the place is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q72",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "As we go from magnetic equator towards geographic south pole, the angle of dip will become",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "More and more vertically downward and  perpendicular to the surface at magnetic pole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More and more vertically upward and become  perpendicular to the surface at magnetic pole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less and less vertically downward and become  horizontal at magnetic pole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Less and less vertically upward and become  horizontal at magnetic pole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q73",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Soft iron is used to manufacture electromagnets because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It has high permeability",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Its retentivity and coercivity are small",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Its retentivity and coercivity are high",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q74",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "A long solenoid has 1500 turns per metre and an iron core of μr = 1100 is kept inside it. 2 A current flows in the coil of solenoid. If core is heated beyond curie temperature then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The H and B fields in the solenoid reduces to  zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The H and B fields in the solenoid remains  unchanged",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The H field in the solenoid is nearly unchanged  but B field decreases significantly",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The B field in the solenoid is nearly unchanged  but H field decreases significantly",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q75",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement regarding magnetism.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Paramagnetic sample display greater  magnetisation when cooled",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diamagnetism is almost independent of  temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ferromagnetic substances show hysteresis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q76",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The horizontal component of the earth's magnetic field at a place is 3 × 10-4 T and the dip is  1 4 tan . 3         A metal rod of length 0.25 m placed in the north- south position and is moved at a constant speed of 10 cm/s towards the east. The emf induced across the length of rod will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 μV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 μV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 μV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q77",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The material suitable for making electromagnets should have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High retentivity and high coercivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High retentivity and low coercivity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low retentivity and high coercivity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Low retentivity and low coercivity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secA_q78",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section A (Objective)",
+    "question_text": "The work done in rotating a magnet of magnetic moment 100 Am2 through 90° from a direction parallel to uniform magnetic field of strength",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secB_q1",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Magnetic dip at pole is 0°.\nReason (R): Magnetic field at pole is directed horizontal.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secB_q2",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): An magnetic dipole may have non-zero torque  and zero force in non-uniform magnetic field.\nReason (R): In uniform magnetic field the net force on  magnetic dipole is always zero and torque may or may not be zero.  \u0002\u0003 \u0002\u0003 \u0002  \u0002\u0002\u0003 \u0003 \u0002 B ds  because magnetic monopoles do not exist.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_17_magnetism_and_matter_secB_q3",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): . 0    \u0002\u0002\u0003 \u0003 \u0002 B ds  means magnetic field is zero.\nReason (R): . 0  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

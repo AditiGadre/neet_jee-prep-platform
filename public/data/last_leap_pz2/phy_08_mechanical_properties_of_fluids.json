@@ -1,0 +1,6109 @@
+[
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q1",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "On dissolving soluble solids in water the surface tension",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May increases or decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 157,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q2",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Surface tension of soap solution is 2 × 10-2 N/m. If a soap bubble of radii 4 cm is blown, then the amount of work done is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 π × 10-6 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.56 π × 10-4 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16 π × 10-5 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16 π × 10-6 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 157,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q3",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure inside two soap bubbles are 1.01 and",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 157,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q4",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graph represent the variation of height capillarity of liquid with radius of capillary tube?  h  h",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r  r  h  h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "r  r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 157,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q5",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A small tiny water droplet is falling towards earth at a uniform speed of 1 cm/s. When 27 such identical droplets combine together to form a bigger drop, then with what uniform velocity will this bigger drop falls?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "27 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "81 cm/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 157,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q6",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "In making of an alloy, a metal of density n1 and another metal of density n2 are used. If the masses of two metals used are m1 and m2 respectively, then the density of the alloy is           m m  1 2  m m n n          m m n n",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2  1 2  1 2           m m  1 2  1 2 2 n n         m m n n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2  2 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 157,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q7",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "There is an orifice at some depth of water tank. Absolute pressure at the level of orifice in water tank is 4 atmospheric pressure. Density of water is 103 kg/m3 and 1 atm pressure = 105 N/ m2. The speed of water coming out of orifice is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 6 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 2 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 157,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q8",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "When 106 small drops coalesce adiabatically to make a new larger drop, the drop's",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Density increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Density remain constant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Temperature increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Temperature decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 157,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q9",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A mercury drop does not spread on a glass plate because the angle of contact between glass and mercury is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Obtuse",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q10",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Velocity of water in a river is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Same everywhere",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More in the middle and less near its banks",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less in middle and more at banks",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increases from one bank to other",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q11",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A body of density 800 kg/m3 is floating on water surface. If the system is accelerated upward, then the fraction of volume immersed will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain the same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Become zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q12",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A steel ball is dropped on water surface from zero height. The variation of the viscous force with time on the ball can be represented as  f  f",
+    "question_diagram": "/images/last_leap_pz2/p158_q12.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O t  O t  f  f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O t  O t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q13",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The 15% volume of a cubical block is outside water. The relative density of the block is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.15",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.30",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.60",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.85",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q14",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A small metal sphere is dropped on water surface. The velocity (v) of the sphere varies with time as  v  v",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  t  O  O  v  v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t  O  O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q15",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A body with air cavity loses one third of weight when immersed in water. If relative density of the material of body is 6, then the ratio of the volume of cavity to the volume of the body is  2 3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q16",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "An incompressible liquid is flowing through horizontal pipe having branches of area A, 0.4 A and 0.5 A as shown in figure. Then value of v is  2 m/s",
+    "question_diagram": "/images/last_leap_pz2/p158_q16.png",
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q17",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A rain drop started falling in static air. Which of the following represents its acceleration a versus time t graph?  a  a  g  g",
+    "question_diagram": "/images/last_leap_pz2/p158_q17.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  t  O  a  a  g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t  O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q18",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Two spherical soap bubbles of radii 3 cm and 4 cm came in contact externally. Radius of curvature of the common surface is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 7 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q19",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graphs correctly shows the variation in kinetic energy (KE) of a metal sphere falling freely in a lake? Assume sufficient depth of the lake to impart terminal velocity to the sphere (d : depth)  KE  KE",
+    "question_diagram": "/images/last_leap_pz2/p158_q19.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "d  d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 158,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q20",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A sphere of mass 40 g in air has a cavity of volume 35 cm3. It just floats in water. The specific gravity of material of the sphere is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q21",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The amount of work done to form a soap bubble of radius R is [S = surface tension of soap bubble]  2 3 2 R S π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 πR2S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "24πR2S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4πR2S  5 ρ floats in a liquid of density",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q22",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A block of density 3  ρ. The percent of volume which is outside the liquid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q23",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A liquid is filled in a container as shown in the figure. The force exerted by the liquid on the base of the container must be",
+    "question_diagram": "/images/last_leap_pz2/p159_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Equal to weight of the liquid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More than the weight of the liquid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less than the weight of the liquid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More or less than the weight of the liquid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q24",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "When two water droplets coalesce to form a large droplet",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Energy is absorbed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy is released",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No change in energy takes place",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Energy may be absorbed or released",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q25",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A U tube is partially filled with water. Oil which is immiscible with water is poured into one side, until the water rises by 25 cm on the other side. If the oil level is 12.5 cm higher than the water level, then the relative density of oil is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q26",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "An aeroplane of total wing area of 120 m2 is in a level flight at some height. If pressure difference in upper and lower surface is 2.5 kPa, then the mass of the aeroplane is [Take g = 10 ms-2]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 × 103 kg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 × 104 kg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 × 104 kg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 × 107 kg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q27",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "An air bubble of radius r in water is at certain depth below the water surface. If P is the pressure inside the bubble, then the depth below the water surface is [P0 = Atmospheric pressure, ρ = Density of water, T = surface tension of water]      0 2 P P T g r g  0 2 P P T g r g   ρ ρ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": " ρ ρ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "    0 2 P P T g r g  P P T g r g   ρ ρ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": " ρ ρ  0 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q28",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A block weighs 5 N in air, 4.5 N in a liquid of specific gravity 0.5. Its weight in water will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.5 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.0 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.5 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.0 N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q29",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Water flows steadily through a capillary tube of radius r. The pressure difference across the tube is P. If radius is reduced to half and pressure difference is increased to P , then the rate of flow become one fourth to its initial value. Then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P  = 4 P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P  = 8 P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P  = 10 P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P  = 16 P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q30",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A liquid is poured in the three vessels of same base area to equal heights as shown in the figure then  A B C",
+    "question_diagram": "/images/last_leap_pz2/p159_q30.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Maximum force on the base will be for vessel C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maximum force on the base will be for vessel B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maximum force on the base will be for vessel A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Force on the base will be equal for all the  vessels",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q31",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The figure shows an L shaped tube filled with water  g is  to a length x. If a horizontal acceleration of 2  given to the tube, then the ratio of pressure at P and Q is  g/2 P  x  Q  2x",
+    "question_diagram": "/images/last_leap_pz2/p159_q31.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q32",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The variation of horizontal range (X) of ideal liquid coming out of the orifice O with h in adjoining graph is best represented by  h  O  H  X  Xmax  Xmax",
+    "question_diagram": "/images/last_leap_pz2/p160_q32.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H 2 H  H 2 H  Xmax  Xmax",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H 2 H  H  H 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q33",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The surface tension of a liquid is 5 Nm-1. If a film is held on a ring of area 0.02 m2, then its total surface energy is about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 × 10-2 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 × 10-1 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 × 10-3 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10-1 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q34",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "When flat disc is thrown from a height in such a manner that it is rotating in horizontal plane. The range of disc is maximum due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Air drag",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Initial rotational kinetic energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Loss in weight due to rotation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Upward force due to air",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q35",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A liquid filled in a container has plane meniscus. If θ is angle of contact, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "θ = 0º",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "θ = 90º",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "θ < 90º",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "θ = 180º",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q36",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "It is not possible to drink water on the surface of moon with a straw because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gravity is less on the surface of moon than  earth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Moon has no atmosphere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Surface tension of water decreases on moon's  surface",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q37",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A solid is suspended from an independent support in a liquid placed on a weighing machine, due to which the weight of liquid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain unchanged",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May increase or decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q38",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The relative velocity of two adjacent layers of a liquid is 6 cm/s and perpendicular distance between layers is 0.1 mm. The velocity gradient for liquid (in per second) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.06",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "600",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q39",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "An air filled spherical balloon of radius 10 cm is at a depth of 100 m below the water surface in an ocean. The normal stress on the surface of balloon is (Neglect surface tension), [Take g = 10 ms-2  and 1 atm =105 Pa]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 × 105 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 × 104 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "11 × 105 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 × 106 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q40",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The surface tension of a liquid is 10 N/m. If a thin film of liquid is developed in a ring of wire of radius",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q41",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "At which of the following temperatures the surface tension of water becomes zero?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "273 K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "373 K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1327 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q42",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A large open tank with a square hole of side 0.1 cm in the wall at a depth of 0.2 m from the top is completely filled with a liquid. The rate of flow of liquid (in cm3/s) through the hole will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q43",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A spherical ball of radius 0.05 m and density 0.5 g/ cc floats in water filled in a container accelerating vertically upward with acceleration 4.9 m/s2. The fraction of volume of ball immersed in liquid will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.25",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.50",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.75",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.85",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q44",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The property of surface tension of liquid is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gravitational force of attraction between  molecules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cohesive forces between molecules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adhesive force between molecules",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Formation of ionic bonds among molecules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q45",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "When a man sits on a boat of length 2 m and breadth 1 m floating on a lake, the boat sinks by 2 cm. The mass of man is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25 kg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 kg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60 kg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "80 kg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q46",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The speed of water stream at which velocity head is 10 cm of water will be [Tage g = 1000 cm/s2]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "121.2 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "173.1 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "141.4 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "135.5 cm/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q47",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Two iron balls when immersed in water experience thrust in ratio 1 : 2, then ratio of mass of balls will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q48",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal fluid flows through a horizontal pipe of uniform cross section as shown in figure. The liquid has velocities VA, VB and VC and pressure PA, PB and PC at points A, B and C respectively, then  A  B  C",
+    "question_diagram": "/images/last_leap_pz2/p161_q48.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "VA < VB < VC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "VA > VB > VC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PA = PB = PC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PC > PB > PA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q49",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Four liquids of densities 1 g/cc, 2 g/cc, 3 g/cc and 4 g/cc are mixed in equal volumes. The density of the mixture is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 × 103 kg/m3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.5 × 10-3 kg/m3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "104 kg/m3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 × 103 kg/m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q50",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "There are four cylindrical vessels identical in dimensions. If these are filled with equal masses of four different liquids P, Q, R and S such that their densities are ρP > ρQ > ρR > ρS, then pressure at the base of vessels is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PP = PQ = PR = PS",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PP > PQ > PR > PS",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PP < PQ < PR < PS",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Data is insufficient to predict relation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q51",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements  I. Two bodies of different masses, shapes and size may experience same thrust when their volumes inside a fluid are equal  II. A soft plastic bag weights the same when empty or when filled with air at atmospheric pressure",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only I is true",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only II is true",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both are true",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both are wrong",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q52",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "When a large bubble rises from the bottom of a lake to the surface, its radius doublets. The atmospheric pressure is equal to that of a column of water of height H. The depth of lake is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q53",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The reading of a spring balance when a block is suspended from it air is 60 N. This reading is changed to 40 N when the block is submerged in water. The specific gravity of the block must therefore be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3/2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q54",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The continuity equation for a fluid flow is based on the principle of the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conservation of mass",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conservation of energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conservation of momentum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conservation of angular momentum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q55",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the height of liquid of density",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q56",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Blood flows in an artery of radius R in Laminar manner under pressure P with a flow rate Q. If the radius gets halved and the pressure quadruples, the new rate of flow will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4Q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 Q",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q57",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A beaker full of water is placed on a spring balance. If we put our finger in water without touching the beaker, how will the reading of balance change? [Take ρfinger > ρwater]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Will be halved",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q58",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The radius of an air bubble is double that of another. The ratio of the excess pressures in the bubbles will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 :  2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q59",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Liquid disturbed by stirring comes to rest after some time due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Surface tension",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Viscosity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Buoyancy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stability",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q60",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A liquid wets a solid. The meniscus of the liquid in a long vertical capillary of that solid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Concave upward",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Convex upward",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cylindrical upward",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q61",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A sphere of mass M and radius R is falling in a viscous liquid. The terminal velocity attained by the sphere will be proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q62",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure inside the two soap bubbles is 1.01 and 1.02 atmosphere. The ratio of their respective volume is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q63",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Two water droplets merge with each other to form a larger droplet isothermally. In this process",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Energy is absorbed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy is liberated",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy is neither liberated nor absorbed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Some mass is converted into energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q64",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "An aeroplane of mass 3 × 104 kg and total area of 120 m2 is in a level flight at some altitude. The difference in pressure between the upper and lower surfaces of its wings is [Take g = 10 m/s2]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 × 103 Pa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 × 103 Pa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.5 × 103 Pa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12.5 × 103 Pa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q65",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the fraction of total volume of iceberg above the level of sea water if density of sea water is 1.03 g/cm3 and that of ice is 0.92 g/cm3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.8%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10.67%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "34%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8.1%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q66",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Bernoulli's theorem is based on the conservation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mass",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Momentum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q67",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure difference between ends of a cylindrical pipe in which liquid is flowing is made half and radius is doubled. If the initial rate of flow of liquid was Q, then new rate of flow of liquid will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4Q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "32Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8Q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16Q",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q68",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Water is filled in a container upto height h. A narrow hole is made in the bottom. The velocity with which water will come out through hole is proportional to  1 2 h",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "h3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "h2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "h0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q69",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If an ice cube melts on a tray in a gravity free space, then it",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Will spread over the tray",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Remains cubical",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Becomes elliptical",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Becomes spherical",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q70",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A balloon has volume of 1000 m3. It is filled with hydrogen of density 0.09 g/L. If density of air is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q71",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If density of ice and water be x and y respectively then the change in volume of water when m mass of ice completely melts inside water, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "my(x - y)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": " y x m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "m(y - x)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": " m m y x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q72",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A ball of specific gravity 0.8 falls into water from a height of 2 m. The depth to which ball will sink is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q73",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "With the rise in temperature of water from 20°C, surface tension of water",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sometimes increases and sometimes  decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q74",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If a capillary tube is partially dipped vertically into liquid and the levels of the liquid inside and outside are same, then the angle of contact is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "90°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q75",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "From given diagram the velocity v3 is  2 A2 = 0.2 m  2  A1 = 0.2 m  v2 = 2 m/s v1 = 4 m/s  A3 = 0.4 m  v3  2",
+    "question_diagram": "/images/last_leap_pz2/p162_q75.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q76",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Some insects move and run on the surface of water without sinking, because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insects are lighter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insects can swim on water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insects experience upthrust",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Due to surface tension elastic membrane is  formed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q77",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A wooden ball of density 'ρ' is immersed in water of density 'σ' to a depth 'h' and then released. The height above the surface of water upto which the ball will jump out of water is (σ > ρ)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 ρ      σ    h  h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "σ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 σ      ρ    h  ρ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q78",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "From given diagram the speed with which water leaves the tube B of small diameter is  h1  A  h2  B",
+    "question_diagram": "/images/last_leap_pz2/p163_q78.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2gh",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2gh",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 2 ( )  g h h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 7 2 ( )  g h h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q79",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The surface tension of a liquid at critical temperature is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Infinite",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Uncertain",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Equal to that at any other temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q80",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is(are) application(s) of Bernoulli's theorem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Magnus effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Venturimeter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lifting of aeroplane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q81",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Work done in blowing a soap bubble of radius r is W. The work done in increasing its radius from r to 2r is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3W",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4W",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6W",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q82",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not based on Bernoulli's principle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Venturimeter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pitot tube",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Barometer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Magnus effect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q83",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "An iron sphere is dropped into a viscous liquid. Which of the following represents its acceleration (a) versus time (t) graph?  a  a",
+    "question_diagram": "/images/last_leap_pz2/p163_q83.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O  O  t  t  a  a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t vT  O  O  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q84",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Eight droplets of water each of radius 0.5 mm combine to form a bigger drop. The energy evolved in this process is (surface tension = 7.2 × 10-2 N/m)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9 × 10-7 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 × 10-7 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 × 10-7 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 × 10-7 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q85",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Reynold number for which flow of water through a pipe becomes turbulent is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "500",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "900",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "750",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3000",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q86",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The diameter of a syringe is 4 mm and the diameter of its nozzle (opening) is 1 mm. The syringe is placed on the table horizontally at a height of 1.25 m. If the piston is moved at a speed of 0.5 m/s, then considering the liquid in syringe to be ideal, the horizontal range of liquid is (g = 10 m/s2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.4 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.2 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q87",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Radius of a soap bubble is increased from R to 2R. Work done in this process (T = surface tension) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "24 πR2T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "48 πR2T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 πR2T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "36 πR2T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q88",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If the surface tension of soap solution is 1.6 N/m, then the difference of air pressure between the inside and outside of a soap bubble of 4 mm in diameter is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3200 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1600 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6400 N/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "800 N/m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q89",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A wooden block is floating with some part immersed in water. If the vessel moves upward with an acceleration a, then the fraction immersed in water will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First increase then decrease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remain same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q90",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A water tank is kept at a height H above the ground and the tank contains depth H of water as shown. Find the maximum possible range of water current, if there exists a small hole on the side wall of the tank.  H  H",
+    "question_diagram": "/images/last_leap_pz2/p164_q90.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2 H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5  2 H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q91",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If the temperature of a liquid rises, then its coefficient of viscosity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May increase or decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q92",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Figure shows an L-shaped tube filled with a liquid  ℓ. Horizontal acceleration a of the  up to a height 2  tube so that pressure at A becomes equal to atmospheric pressure, is  B  a  ℓ/2  A  ℓ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 g  g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 3 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q93",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal fluid is flowing in steady state from section A to B through a pipe in vertical plane as shown. Select incorrect statement  vB  B  vA A",
+    "question_diagram": "/images/last_leap_pz2/p164_q93.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Total energy per unit volume is same at both  sections A and B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Incoming rate at A is equal to outgoing rate at  B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Loss in kinetic energy of the fluid is equal to  gain in potential energy from section A to B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Flow of fluid from A to B is laminar flow",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q94",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A solid block of density 480 kg/m3, floats in a liquid of density 800 kg/m3. The percent of volume which is outside the liquid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q95",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "When a large liquid drop breaks into several smaller liquid drops then the temperature of smaller drops is relatively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Same",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May be less or more",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q96",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A vessel is filled with two liquids of densities ρ1 = 800 kg/m3 and ρ2 = 1000 kg/m3 as shown in figure. The force that acts on the bottom of the vessel is (Neglect atmospheric pressure)  [Take g = 10 m/s2]  -3 2  Area = 10 m",
+    "question_diagram": "/images/last_leap_pz2/p164_q96.png",
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q97",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A container filled with a liquid is accelerating with a as shown in figure. If P1, P2, P3 and P4 are pressure at points A, B, C and D respectively then which is incorrect?",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q98",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A cube is floating in a liquid as shown in figure. The incorrect statement is that if  x",
+    "question_diagram": "/images/last_leap_pz2/p165_q98.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Density of liquid decreases then x will  increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Size of cube is increased then x will increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cube is replaced by another cube of same  mass and size then x will remain same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Some material of cube is cut and taken out,  then x will remain same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q99",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Contact angle between a solid and a liquid is a property of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Material of solid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Material of liquid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Shape of solid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q100",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Figure shows a large open tank. Water emerging out from holes O1 and O3 strikes the ground at same point but from O2 has maximum range. Then height of O2 from ground  h1  O1  h2  O2  O3  1 2 2 h h ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2 1 - 2 h h",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "h h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 2 h h  1 2 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q101",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A body floats in water on earth with 90% inside water. What fraction of body will be inside water at  an altitude  2 R H   ? (R = Radius of the earth)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "80%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "70%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q102",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A solid ball of density half that of water, falls freely under gravity from a height 20 m and then enters water. Total time taken by the ball to reach it's original position is (Neglect air resistance and viscosity effect in water) [Take g = 10 m/s2]  h = 20 m",
+    "question_diagram": "/images/last_leap_pz2/p165_q102.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q103",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Water flows through a frictionless tube with a varying cross-section as shown in figure. Variation of pressure P at point x along axis is roughly given by  P  P",
+    "question_diagram": "/images/last_leap_pz2/p165_q103.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x  x  P  P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x  x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q104",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A liquid is filled in a container as shown in figure. The force exerted by the liquid on the base of container must be",
+    "question_diagram": "/images/last_leap_pz2/p165_q104.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Equal to weight of the liquid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More than the weight of liquid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less than the weight of liquid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More or less than weight of liquid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q105",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A cubical tank completely filled with a liquid of density ρ is accelerated horizontally with acceleration a. The value of a at which pressure at A becomes equal to pressure at D is  A B  a  C D",
+    "question_diagram": "/images/last_leap_pz2/p166_q105.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 g  g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q106",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "64 rain-drops combine into a single drop. Ratio of total surface energy of the 64 drops to that of a single drop is (surface tension of water is T = 0.072 Nm-1)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 4  1 8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q107",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If the work done in blowing a soap bubble of volume V is W, then work done in blowing a soap bubble of volume 8V will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 W",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "64W",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4W",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q108",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A solid sphere weighs 40 N in water and 45 N in a liquid of relative density 0.75. Relative density of sphere will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q109",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "There is cylindrical vessel of radius R with a liquid filled in it upto a height H = R. Ratio of force exerted by liquid on the sides of vessel to the force exerted on the bottom is (Neglect atmospheric pressure)  R  H R  =",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q110",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Water flows steadily through a capillary tube of radius r. The pressure difference across the tube is P. If radius is reduced to half and pressure difference is increased to P0 then rate of flow becomes one fourth of initial value, hence",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P0 = 4P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P0 = 16P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P0 = 10P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P0 = 8P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q111",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Surface tension of a liquid is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gravitational force between molecules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrical force between molecules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adhesive force between molecules",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cohesive force between molecules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q112",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A lead sphere of mass m falls in a viscous liquid with terminal velocity v0. Another lead sphere of mass M falls through with terminal velocity 4v0.  The ratio M  m is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q113",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A block is submerged in a vessel filled with water by a string attached to the bottom of the vessel. If vessel now moves upward with an acceleration a (a < g) then the tension in string",
+    "question_diagram": "/images/last_leap_pz2/p166_q113.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Will decrease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Will increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Will become zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remains constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q114",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If a block is floating on water having its one fourth volume just outside the surface of water, then its density is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 g/cm3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.25 g/cm3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.75 g/cm3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.5 g/cm3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q115",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A fine hole is made at the bottom of a 20 cm high container. The maximum speed at which water flows out of it is [Take g = 10 m/s2]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q116",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Bernoulli's principle is an outcome of  the principle of conservation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mechanical energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Potential energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kinetic energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q117",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Two liquids of density ρ1 and ρ2 are adjusted in a tube as shown, then  ρ1  h1 h2  ρ2",
+    "question_diagram": "/images/last_leap_pz2/p167_q117.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 1 2 2 ρ ρ h h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 2 1 ρ ρ h h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 1 1 2 2 ρ  ρ h h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 1 2 2 ρ ρ h h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q118",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If few liquid drops are joined to form a bigger drop isothermally, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Some energy will be released in this process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Some energy will be absorbed in this process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neither energy is absorbed nor released",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amount of energy change is independent of  number of drops joined",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q119",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Eight spherical rain drops of same mass and radius are falling down with a terminal speed of 10 cm/s. They coalesce to form one bigger drop, then the terminal speed of bigger drop is (neglect buoyancy due to air)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "24 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "64 cm/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q120",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A liquid exerts pressure equally in all direction  at a point",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure is a scalar quantity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Specific gravity is dimensionless quantity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unit of pressure is pascal/m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q121",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement regarding surface tension (S) is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[S] = [MT-2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unit of surface tension is N/m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Surface tension arises due to inter molecular  cohesive force",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Surface tension is property by which liquid tends  to expand to occupy maximum surface area",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q122",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Water droplets are spherical in free fall condition due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gravity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Viscosity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intermolecular attraction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Surface tension",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q123",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "In the given figure, the velocity v3 of incompressible fluid flowing through the tube will be  2  v2 = 2 m/s  A1= 0.2 m  2 v1= 8 m/s  A2= 0.1 m  2  A3= 0.4 m  v3= ?",
+    "question_diagram": "/images/last_leap_pz2/p167_q123.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.5 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.5 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q124",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "With the rise in temperature angle of contact of water  with glass",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First increases then decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q125",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "An orifice of radius r is present at the bottom of a container. The maximum height to which the container can be filled with a liquid of density ρ for which liquid will not come out of the orifice is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ρ T r g  3 ρ  T r g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 ρ  T r g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 ρ  T r g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q126",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "For amongst the following curves which one shows the variation of velocity with time (t) for small sized spherical body falling vertically in a long column of viscous liquids  v  v",
+    "question_diagram": "/images/last_leap_pz2/p167_q126.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  t  v  v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q127",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Working of atomiser is based on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pascal law",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Charle's law",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Archimedes principle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bernoulli's law",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q128",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Bernoulli's equation is consequence of conservation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mass",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Linear momentum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Angular momentum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q129",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The container is moving downwards with acceleration g/2 and distance between A and B is h. If density of liquids is ρ, then pressure difference between A and B is  g/2 A  h  B",
+    "question_diagram": "/images/last_leap_pz2/p168_q129.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 h g ρ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2 hgρ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "hρg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2hρg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q130",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A container is accelerating towards right with acceleration g. If density of liquid is ρ, then pressure difference between point A and B is  A  h  g  B h",
+    "question_diagram": "/images/last_leap_pz2/p168_q130.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "hρg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2ρhg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 h g ρ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q131",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If surface tension of soap solution is T, then work done in increasing diameter of soap bubble from r to 2r is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "24πr2T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "32πr2T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4πr2T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8πr2T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q132",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A sphere of mass m is dropped from a tall tower when it falls by 10 m, it attains terminal velocity and  continues to fall at that speed. The work done by air friction against the sphere during first 10 m is w1 and during next 10 m is w2, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "w1 < w2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "w1 > w2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "w1 = w2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "w1 > w2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q133",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The work done to break a spherical drop of radius R to n drops of equal size is equal to  π  2  2 3 4  R T",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "  1  n  2 1 3 1 1 4    π      R T n",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 3 2 ( 1)4 n R T  π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 3 2 ( 1)4 n R T  π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q134",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure inside a spherical bubble of water is P0. Find the force on half sphere of bubble due to air pressure (P0) inside it (R is Radius of bubble)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 0 2 P R π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 0 P R π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 0 3 P R π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q135",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A very large container has dense liquid as shown in figure. Velocity of efflux through orifice is (ρ = density of water)  v 2ρ  h",
+    "question_diagram": "/images/last_leap_pz2/p168_q135.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2gh",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4gh",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6gh",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3gh",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q136",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform solid cylinder of density 8 g/cm3 floats in equilibrium in a combination of two non-mixing liquids A and B with its vertical axis. The densities of the liquids A and B are 0.7 g/cm3 and 1.2 g/cm3, respectively. The height of liquid A is hA = 1.2 cm. The length of the part of the cylinder immersed in liquid B is hB = 0.8 cm. The net force exerted on the cylinder is  Air  A  hA  hB  B",
+    "question_diagram": "/images/last_leap_pz2/p169_q136.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "8.4 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q137",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The addition of soap changes the surface tension of water to σ1 and that of salt changes to σ2, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "σ1 > σ2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "σ1 < σ2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "σ1 = σ2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "σ1 ≥ σ2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q138",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Hydraulic press is based on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Archimedes' principle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bernoulli's principle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pascal's law",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reynold's law",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q139",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Poisson's ratio cannot have the value",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q140",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "When a non-wetting liquid is placed in a capillary tube of sufficient length, the shape of meniscus is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Concave upward",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Convex upward",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Flat",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Convex downward",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q141",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure gradient has the same dimension as that of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Velocity gradient",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Potential gradient",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy gradient",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Force per unit volume",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q142",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The mass of the tank and water of density ρ as shown in the figure is m. As the valve is opened the tank moves backwards with an acceleration [A is the area of cross-section of the orifice]  h  Smooth  m ρ",
+    "question_diagram": "/images/last_leap_pz2/p169_q142.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "ρAgh",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 Agh  m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "gh Am ρ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 Agh m ρ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q143",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Two cylindrical pipes of length L1, L2, radii R1, R2 respectively are connected in series with a source of water. The length and radius of equivalent pipe is L and R respectively, then  L L L  R R R    1 2 4 4 4 1 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 4 4 1 2  R R R  L L L  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2  L L L  R R R    1 2 2 2 2 1 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 2 1 2  R R R  L L L  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q144",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Water is flowing from a source as shown in the figure. Let A be the cross-sectional area of the liquid flow at the time when velocity is 5 m/s. The cross-sectional area of the liquid flow when water has descended by 10 metre is [Take g = 10 m/s2]",
+    "question_diagram": "/images/last_leap_pz2/p169_q144.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 A  A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q145",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "When two substances of specific gravities ρ1 and ρ2 are mixed in equal volume, the specific gravity of mixture becomes 4. When they are mixed in equal masses, the specific gravity of the mixture is 3. The values of ρ1 and ρ2 are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ρ1 = 6 and ρ2 = 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ρ1 = 3 and ρ2 = 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ρ1 = 12 and ρ2 = 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ρ1 = 4 and ρ2 = 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q146",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform cube of mass M floats in a liquid with three fourth of its volume immersed in the liquid of density ρ. The length of the side of the cube is equal to  1/3 4 3     ρ   M  4 3ρ M",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2/3 4 3     ρ   M  1/3 3 4     ρ   M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q147",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A human heart pumps 60 millilitre of blood per heart beat at a pressure of 100 mm of Hg. If the heart beats at 72 per minute then average pumping power of the heart is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.5 W",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.98 W",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.3 W",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q148",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A piece of gold of density 19.3 g/cm3 weighs",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q149",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A stone of relative density k is released from rest on the surface of a lake. The acceleration by which stone sinks in water is (neglecting the viscous force)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "g(1 + k)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 1        g k",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 1        g k",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "  1 g k",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q150",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A piece of ice floats in a beaker containing salt solution of specific gravity 1.3. If ice melts, then total level of liquid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May increase or decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q151",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A body floats in water with its one-third volume above the surface. The same body floats in a liquid with one-third volume immersed. The density of the liquid (in kg/m3) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9000",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2000",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3000",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1500",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q152",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The work done in blowing a soap bubble of radius 100 mm with surface tension 0.03 (Nm-1) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "7.5 × 10-2 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7.5 × 10-3 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7.5 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "75 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q153",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "If S is surface tension of a liquid then the work done in splitting the spherical liquid drop of radius R into n identical spherical drops is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4πR2S(n1/3 - 1)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4πR2S(n2/3 - 1)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4πR2S(n - 1)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4πR2Sn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q154",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Two capillary tubes of same length but of internal radius 2R and 3R are connected in series and laminar flow of liquid exists through it. If pressure difference across large capillary is 16 mm of Hg then the pressure difference across smaller capillary is [mm of Hg]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "27",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "81",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q155",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A steel ball of mass M falls in a viscous liquid with terminal velocity v. Now a steel ball of mass 8 M will fall in the same liquid with terminal velocity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4v",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2v",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "v",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q156",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Behind a dam, water stands upto a height H. If width of the dam is W then the average force pushing the dam is (density of water is ρ)  2  2 ρgWH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ρgH2W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2  4 ρgWH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2ρgWH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q157",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A water tank is kept on a table of height H. If a small orifice is pierced at the side of the tank near its base, it is found that the water stream strikes the ground at a horizontal distance X from the tank. The depth of water in the tank is  2 X  2  2 X",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H  2  2 2X H  4 X",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q158",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "A water jet comes with velocity 10 m/s from the pipe cross-sectional area 2 cm2. The jet hits a perpendicular plate and water drops dead after hitting. The force experienced by the plate is (Water density = 1000 kg/m3)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q159",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Eight identical spherical raindrops are falling down with terminal speed v each. If they coalesce to form single large spherical drop, then its terminal speed will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "v",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4v",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 v",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q160",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "The volume flow rate of a liquid flowing out of an orifice at the bottom of a tank does not depend on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Density of the liquid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Height of liquid above orifice",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Acceleration due to gravity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Radius of the orifice",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q161",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure on a swimmer at depth H below free surface of water is 3 atm. Then H is  [Take g = 10 m/s2]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secA_q162",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section A (Objective)",
+    "question_text": "Two soap bubbles are connected by a tube as shown in figure. Then which of the following statement is true?  S  A B",
+    "question_diagram": "/images/last_leap_pz2/p171_q162.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Volume of A will increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Volume of A will remain constant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Volume of B will increase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Volume of B will decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q1",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Sudden fall of pressure at a place indicates  storm.\nReason (R): Air of low pressure zone rushes away to high  pressure zone.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q2",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If a simple barometer is brought to the surface  of moon, the length of mercury column will become zero.\nReason (R): There is no atmosphere on the moon.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q3",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When an ice cube floats in kerosene, then the  liquid level in the vessel will fall when ice melts.\nReason (R): Density of ice is smaller than that of water.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q4",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When a piece of ice floating in water melts  completely the levels remains same.\nReason (R): Ice has density lesser than water.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q5",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Water is more elastic than air.\nReason (R): Air is more compressible than water.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q6",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The velocity of a liquid flowing in a broader pipe  increases, when it enters a narrow pipe.\nReason (R): According to equation of continuity, the product  of area and velocity is constant.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q7",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Bernoulli's theorem holds for non-viscous and  incompressible fluids.\nReason (R): For the streamline flow of an ideal liquid, the  total energy per unit mass remains constant.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q8",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Blood pressure in human being is greater at  the feet than at the brain.\nReason (R): Pressure depends on height.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q9",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Machine parts are jammed in winter.\nReason (R): The viscosity of lubricant used  in machine  parts decreases at low temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q10",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The shape of small liquid drop is spherical.\nReason (R): The pressure inside the drop is greater than  that outside.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q11",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When liquid is flowing through a horizontal tube  of variable cross section, the pressure at the narrow part is less than the pressure at wider part.\nReason (R): Pressure is inversely proportional to area of  cross section.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q12",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When temperature of a liquid increases, its  viscosity decreases.\nReason (R): Increase of temperature of liquid decreases the  surface tension.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q13",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If a barometer accelerates upwards the level of  mercury in the tube of barometer will decrease.\nReason (R): The effective value of g will increase, so  upthrust will increase.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q14",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Viscosity of gases increase with the rise in  temperature.\nReason (R): On increasing temperature, there is diffusion of  gases from one moving layer to the other due to their random motion.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q15",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When air blows over the roof of a house, the  force on the roof is upward.\nReason (R): Pressure below the roof is more than above the  roof.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q16",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When kerosene is sprinkled on water, water  surface may not support the weight of insects and insects may sink into water sprinkled.\nReason (R): On sprinkling kerosene on water, surface  tension of water decreases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_08_mechanical_properties_of_fluids_secB_q17",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When eight identical drops of water each of  radius r coalesce to form a big drop, the energy released is 16πr2T, where T = Surface tension.\nReason (R): The surface energy of a drop of surface tension  T is directly proportional to the surface area.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

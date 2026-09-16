@@ -1963,21 +1963,37 @@ export function getSavedCustomSundayPaper(paperIdOrCode: string): SavedSundayPap
   if (!paperIdOrCode) return null;
   const all = getAllSavedCustomSundayPapers();
   const key = paperIdOrCode.toLowerCase().trim();
+  const cleanKey = key.replace(/^(11th|12th|repeater|dropper)-/i, '').trim();
+
+  // 1. Exact key match
   if (all[key]) return all[key];
 
+  // 2. Clean key match (e.g. "cwt-01")
+  if (all[cleanKey]) return all[cleanKey];
+
+  // 3. Prefix-insensitive / batch-aware search
   for (const k of Object.keys(all)) {
-    if (k.toLowerCase() === key || all[k].paperCode?.toLowerCase() === key) {
+    const kClean = k.toLowerCase().replace(/^(11th|12th|repeater|dropper)-/i, '').trim();
+    const paperCodeClean = (all[k].paperCode || '').toLowerCase().replace(/^(11th|12th|repeater|dropper)-/i, '').trim();
+    if (
+      k.toLowerCase() === key ||
+      kClean === cleanKey ||
+      paperCodeClean === cleanKey ||
+      k.toLowerCase().endsWith('-' + cleanKey) ||
+      key.endsWith('-' + kClean)
+    ) {
       return all[k];
     }
   }
 
-  // Fallback check legacy neet_published_sunday_test
+  // 4. Fallback check legacy neet_published_sunday_test
   try {
     const legacyRaw = localStorage.getItem('neet_published_sunday_test');
     if (legacyRaw) {
       const legacy = JSON.parse(legacyRaw);
       if (legacy && Array.isArray(legacy.questions) && legacy.questions.length === 180) {
-        if (!legacy.paperCode || legacy.paperCode.toLowerCase() === key) {
+        const legClean = (legacy.paperCode || '').toLowerCase().replace(/^(11th|12th|repeater|dropper)-/i, '').trim();
+        if (!legClean || legClean === cleanKey || legClean === key) {
           return {
             paperCode: legacy.paperCode || paperIdOrCode,
             testTitle: legacy.testTitle,
@@ -2010,6 +2026,7 @@ export function saveCustomSundayPaper(
   try {
     const all = getAllSavedCustomSundayPapers();
     const key = paperCode.toLowerCase().trim();
+    const cleanKey = key.replace(/^(11th|12th|repeater|dropper)-/i, '').trim();
     const payload: SavedSundayPaper = {
       paperCode: paperCode.toUpperCase(),
       testTitle: data.testTitle,
@@ -2019,6 +2036,9 @@ export function saveCustomSundayPaper(
       publishedBy: data.publishedBy || 'Admin Portal'
     };
     all[key] = payload;
+    if (cleanKey && cleanKey !== key) {
+      all[cleanKey] = payload;
+    }
     localStorage.setItem(SUNDAY_CUSTOM_PAPERS_KEY, JSON.stringify(all));
 
     // Also sync legacy neet_published_sunday_test
@@ -2375,7 +2395,10 @@ export function generateSundayTestQuestions(
 ): Question[] {
   // If this paper was customized and saved by admin, load those exact questions directly!
   if (!customChapters) {
-    const saved = getSavedCustomSundayPaper(test.code);
+    const saved =
+      getSavedCustomSundayPaper(`${batch}-${test.code}`) ||
+      getSavedCustomSundayPaper(test.code) ||
+      getSavedCustomSundayPaper(test.id);
     if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
       return saved.questions.map(q => ({ ...q, difficulty: 'Hard' as const }));
     }

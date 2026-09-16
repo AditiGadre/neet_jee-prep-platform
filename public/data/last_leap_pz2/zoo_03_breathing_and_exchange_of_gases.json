@@ -1,0 +1,4512 @@
+[
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q1",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Effect of oxyhaemoglobin formation on  dissociation of CO2 transported is called as Haldane effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "During strong pneumotaxic signal, complete  filling of lungs occurs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "VC = IRV + TV + ERV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Arytenoid cartilage are two roughly pyramidal  shaped cartilage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 403,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q2",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Volume of air that will remain in the lungs after a normal expiration is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inspiratory capacity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Functional residual capacity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vital capacity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Expiratory reserve volume",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 403,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q3",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Dorsal respiratory centre receives the chemical signal from carotid and aortic bodies (peripheral chemoreceptor) by means of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glossopharyngeal and Vagus cranial nerves  respectively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vagus and Glossopharyngeal cranial nerves  respectively",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Facial and Glossopharyngeal cranial nerves  respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vagus and Facial cranial nerves respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 403,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q4",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Major part of carbondioxide is transported in the form of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dissolve state",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sodium bicarbonate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potassium bicarbonate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbamino haemoglobin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 403,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q5",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Respiratory rhythm centre is present in the medulla and is primarily responsible for regulation of respiration as per demands of the body tissues. This centre is regulated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pneumotaxic centre present pons region",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Central chemoreceptor adjacent to rhythm  centre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Peripheral chemoreceptor present in aortic  arch and carotid artery",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 403,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q6",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Maximum volume of air a person can breathe after forceful expiration is termed as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inspiratory capacity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vital capacity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Expiratory capacity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Functional residual capacity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 403,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q7",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "When oxygen haemoglobin dissociation curve gets shifted towards the right side, it reflects the following features, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreased affinity of haemoglobin for oxygen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Facilitates dissociation of oxygen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decrease in P50 value",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Less percentage saturation of haemoglobin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 403,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q8",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The amount of oxygen that can be transported by 500 ml of blood dissolved in plasma during normal physiological condition is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "75 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 403,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q9",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Cardiac notch is associated with _____ in human",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Superior lobe of right lung",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Superior lobe of left lung",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Middle lobe of right lung",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inferior lobe of left lung",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 403,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q10",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Pneumotaxic centre located dorsally in upper pons control the rate and pattern of respiration. When it sends a strong signal to inspiratory area which of the following will not occur?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase in rate of respiration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Partial filling of lungs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decrease in inspiration time",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increase in expiration time",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 404,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q11",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Silicosis and asbestosis are common  occupational lung diseases characterised by proliferation of fibrous connective tissue in upper part of lung causing inflammation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon monoxide poisoning is characterized by  headache, dizziness, nausea, paralysis and even death",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sea diving mammals (like seals, whales) stay  under water for a long time because they can store oxygen in the blood and muscles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bronchial asthma characterised by the dilation  of the smooth muscles present in the walls of the bronchiole symptomized by coughing or difficulty in breathing mainly during inspiration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 404,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q12",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rate of breathing is much faster in terrestrial  organism w.r.t. aquatic organism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mammals have negative pressure breathing as  it allows them to eat and breathe at the same time",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Functional residual capacity, residual volume  and total lung capacity measured by indirect method i.e. Helium dilution method",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lungs are placed above diaphragm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 404,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q13",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Tidal volume + Inspiratory reserve volume + residual volume + Expiratory reserve volume is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inspiratory capacity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vital capacity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Total lung capacity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Functional residual capacity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 404,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q14",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The exchange of gases between the alveoli and  blood in the lungs is due to differences in partial pressure  - ions diffuse out into plasma and Cl-",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HCO3  ions enter into the RBC at the level of tissue is known as chloride shift",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Haldane's effect can be termed as reverse of  Bohr's effect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Weak signal from respiratory centre cause  complete filling of lungs and rate of breathing increases.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 404,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q15",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "During holding of the breath by closing the nose with fingers, CO2 build up, so that when the nose opens again rate and depth is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Slowed down",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Accelerated",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No effect on breathing rate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stopped due to the formation of carbamino-  haemoglobin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 404,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q16",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Under which of the following conditions red blood cell count increases?  A. During regular muscular exercise  B. At high altitude due to low oxygen tension of air  C. As a result of rise in environmental temperature  D. Increase in cortisol hormone",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A and B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A, B and D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B and C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B, C and D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 404,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q17",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "If pulmonary volumes/capacities of a person are as given below  Vital capacity = 4600 ml  Total capacity = 6000 ml  Tidal volume = 400 ml  Expiratory capacity = 1300 ml  Find the functional residual capacity (FRC) of the person",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1800 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2300 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3300 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "900 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 404,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q18",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Excess of carbon-dioxide with a simultaneous lack of oxygen produces _________ which is the cause of respiratory and circulatory failures and death in case of suffocation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Histotoxic hypoxia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Asphyxia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaemic hypoxia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Emphysema",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 404,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q19",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Breathing becomes accelerated when the person opens his nose after holding of the breath by closing the nose with fingers. This is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decrease in the concentration of H+ ions in the  body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon-monoxide build up in arterial blood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decrease in carbon-dioxide concentration in  arterial blood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbon-dioxide build up in the body",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q20",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Minute volume is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dead space volume",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(Tidal volume) × (breathing rate)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Residual volume",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(Tidal volume - Dead space volume) ×  Breathing rate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q21",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "CO2 generated in the tissues is carried in venous blood primarily as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO2 in plasma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2CO3 in plasma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sodium bicarbonate in plasma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potassium bicarbonate in venous blood",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q22",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The avian respiratory system is most efficient among terrestrial vertebrates because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is achieved through the action of air sacs  which are unique to birds, where exchange of gases occur",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It has unidirectional flow of air through  parabronchi and cross-current blood flow through lungs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Exchange of gases occur in blind ended alveoli",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They have counter-current flow of blood in lungs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q23",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Under enhanced respiratory drive, the respiratory signal from which group contributes to fulfil the demand by regulating both inspiration and expiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pneumotaxic centre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dorsal respiratory group",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ventral respiratory group",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Apneustic centre",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q24",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The condition in which the blood flow to the tissue is so low that adequate O2 is not delivered to it  2 O P  and oxyhaemoglobin is normal,  even though   is called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypoxic hypoxia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaemic hypoxia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stagnant hypoxia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Histotoxic hypoxia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q25",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "In the haemoglobin-O2 dissociation curves the shift of the curve towards the right could be caused by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increased pH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon monoxide (CO)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Strenous exercise",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Foetal haemoglobin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q26",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a character of respiratory bronchioles and terminal bronchioles?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cartilaginous rings are absent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lined with cuboidal epithelium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cilia present",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mucous secreting glands present",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q27",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Amount of oxygen carried by one gram of haemoglobin is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.34 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "13.4 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "19.8 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q28",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is likely to occur in the blood entering pulmonary capillaries?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Formation of carbamino-haemoglobin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Movement of chloride from RBC into plasma  and that of bicarbonate into RBC from plasma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dissociation of carbonic anhydrase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diffusion of carbondioxide from alveoli into  blood",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q29",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "In the given figure, identify the muscles involved in raising the rib cage  Air entering lungs  Ribs and   sternum  raised  Volume of  thorax  increased  Rib cage  Diaphragm  contracted",
+    "question_diagram": "/images/last_leap_pz2/p405_q29.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "External intercostals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Internal intercostals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Internal intercostals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Abdominal recti",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 405,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q30",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following diseases is not included in chronic obstructive pulmonary disease?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Emphysema",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bronchitis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Asthma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q31",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Maximum amount of oxygen transported to tissues by one litre of the blood in a adult human during heavy physical activity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "150 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "750 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q32",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Pneumotaxic centre is located in the pons and controls the switch off point of inspiration. When sending a strong signal, which of the following will not occur?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase in rate of breathing",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Partial filling of lung",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase in duration of inspiration and expiration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inspiration lasts for only 0.5 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q33",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Total lung capacity of a person is 7000 ml, functional residual capacity is 3500 ml. Inspiratory capacity of that person will be (Residual vol. is 2100 ml)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2000 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3500 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4900 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4300 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q34",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Haldane effect is related with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Loading of oxygen will cause unloading of CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is the effect of oxyhaemoglobin formation or  dissociation of CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is the phenomenon of unloading of oxygen at  tissue level and loading at lung level",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q35",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the most common symptom of silicosis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inflammation of bronchi",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in thickening of mucus in lungs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fibrosis of upper part of lungs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Collapsing of alveoli",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q36",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A healthy man can inspire or expire approximately ________ air per minute under normal conditions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3500-4000 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5000-6000 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2500-3000 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1100-2300 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q37",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Exchange between Cl- and HCO3  - involving RBC and plasma occurs at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tissue level of respiration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "External respiration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Superior and inferior venacava",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q38",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the effect of increased level of 2, 3 DPG at oxyhaemoglobin dissociation curve?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "No effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Right sided shift",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Left sided shift",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Becomes hyperbolic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q39",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Squamous epithelium is made up of a single thin layer of flattened cells with irregular boundaries found in the walls of blood vessels and alveoli of lungs. They are mainly involved in a function like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Forming a protective covering",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Forming a secretory layer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Forming a diffusion boundary",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Forming a absorptive layer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q40",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Dissociation of oxygen from blood to tissue is facilitated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low pO2 at the level of tissue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metabolic activities of the tissue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High pCO2 at the level of tissue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q41",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrectly matched pair",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Additional volume of air - Expiratory person can expire by reserve a forceful expiration volume",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maximum amount of - Vital capacity air expelled forcefully from lungs after maximum forceful inspiration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Volume of air inspired - Tidal volume and expired during a normal respiration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "When a person breathes - Residual normally, the amount of air volume which remains in the lungs after normal expiration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q42",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "What happens to O2-Hb dissociation curve if CO2 level of blood rises at 37°C?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "No change occurs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Becomes hyperbolic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Shifts towards right",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Shift towards left",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 406,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q43",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Bohr's effect is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase in CO2 levels results in rise of p50  value",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease in p50 value is related to decrease in  pH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase in pH and decrease in pCO2 result in  rise of p50 value",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decrease in pO2 results in dissociation of  carbamino haemoglobin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q44",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The number of oxygen molecules (O2) that can conjugate with one molecule of haemoglobin are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q45",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Central chemoreceptors in the brain respond to changes in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxygen concentration in blood",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon dioxide concentration in CSF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxygen concentration in CSF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rate of oxidation of food content in the cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q46",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following disorders alveolar walls are damaged, surface area for gaseous exchange is reduced and the air sacs remain filled with air even after expiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pneumonia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coryza",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Emphysema",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SARS",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q47",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Dorsal respiratory group is located in ________ and mainly causes ________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pons Varolii, expiration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Medulla, inspiration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Medulla, either expiration or inspiration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pons Varolii, inspiration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q48",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following condition does not result in shifting of oxy-Hb dissociation curve to the right?  a. Increase in pCO2 b. Increase in pH  c. Increase in body temperature  d. Excess of 2, 3 DPG  Choose the correct option",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b and c only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "c and d only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q49",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "If high quantity of oxygen is inhaled by our body, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It over stimulates our respiratory centre so that  rate of inspiration increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rate of respiration remains unaffected",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Respiration will stop for some time",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rate of respiration decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q50",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Conditions like low pCO2 and low H+ concentration will have ________ on binding of O2 with Hb",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adverse effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enhancing effect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No effect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Variable effect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q51",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The pO2 in systemic arteries and systemic veins is respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "95, 40 mmHg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "95, 45 mmHg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40, 95 mmHg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "104, 40 mmHg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q52",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Oxygen dissociation curve of haemoglobin will shift to right of normal curve if",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2 decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "pH decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BPG is low",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q53",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect combination w.r.t. pulmonary capacities",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "IC = TV + IRV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "FRC = RV + ERV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "VC = TLC + RV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "EC = TV + ERV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q54",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "What will happen if the stretch receptors present in the wall of bronchioles and alveoli are removed?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Breathing will continue normally",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Breathing will stop immediately",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inspiration can continue until the alveoli get  ruptured",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inhibition of inspiratory area will slow down the  breathing rate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q55",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements are correct w.r.t. transportation of gases?  A. Blood transports CO2 comparatively easily because of its higher solubility  B. CO2 diffuses into blood, passes into RBCs and reacts with water to form H2CO3  C. 20-25 percent CO2 is carried by haemoglobin as carbamino-haemoglobin  D. Oxyhaemoglobin of erythrocytes is basic in nature and it increases pH of blood",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A & B only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B & C only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B, C & D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 407,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q56",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "How much ml of CO2 will be delivered by one litre of blood to the alveoli",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "75 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "23 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q57",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Given below are four statements A to D, each with one or two blanks. Select the option which correctly fills up the blanks in any two statements  A. Total amount of air accommodated in lungs at the end of a forced inspiration is (i)  B. The maximum volume of air a person can breathe in after a forced expiration is (i) .  The maximum volume of air a person can breathe out after a forced inspiration is (ii)  C. Volume of air remaining in the lungs even after a maximum forceful expiration is (i) . This is  about (ii)  D. A healthy man can inspire approximately (i)  ml of air per minute",
+    "question_diagram": "/images/last_leap_pz2/p408_q57.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A (i) Inspiratory reserve volume  B (i) Vital capacity  (ii) Expiratory capacity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B (i) Vital capacity  (ii) Vital capacity  C (i) Functional residual volume  (ii) 1000 - 1100 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C (i) Residual volume  (ii) 1100 ml - 1200 ml  D (i) 6000 to 8000 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B (i) Vital capacity  (ii) Vital Capacity  D (i) 500 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q58",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which structure is not related with respiration in frog?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lungs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Skin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Buccal cavity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diaphragm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q59",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Collapsing of lungs may be due to the presence of which condition in lungs?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Atelectasis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pneumothorax",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrothorax",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q60",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "If a person exhales out air forcefully and then inhales without any extra effort, the volume of air inhaled will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tidal volume",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inspiratory capacity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Expiratory capacity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inspiratory reserve volume",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q61",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Total volume of air a person can expire after a normal inspiration is  A. Tidal volume B. TV + ERV  C. Expiratory capacity D. ERV + RV",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B & C only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B & C only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B, C & D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q62",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum volume of air a person can breathe in after a forced expiration includes",
+    "question_diagram": "/images/last_leap_pz2/p408_q62.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "ERV (Expiratory Reserve Volume)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "TV (Tidal Volume)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "IRV (Inspiratory Reserve Volume)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q63",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Trachea divides into bronchi at the level of which thoracic vertebra ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q64",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following factors does not occur in alveoli and is favourable for dissociation of oxygen from oxyhaemoglobin?  A. High pO2  B. Low pCO2  C. Less H+ concentration and low temperature  D. High temperature",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A & B only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B & C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q65",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Difficulty in breathing causing wheezing is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Emphysema",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Asthma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tuberculosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Atelectasis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q66",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cartilages does not take part in the formation of sound producing structure, the larynx?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cuneiform cartilage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Corniculate cartilage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epiglottis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Articular cartilage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 408,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q67",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Volume of air that will remain in the lungs after  a normal expiration is about 2200 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Partial pressure of O2 and CO2 in alveoli is  40 mm Hg and 104 mm Hg respectively",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alveoli of lungs are lined by thin squamous  epithelium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High amount of carbonic anhydrase is found in  RBCs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q68",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "On an average, a healthy human breathes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12-16 times/min",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "70-80 times/min",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80-120 times/min",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3-5 times/min",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q69",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The movement of air into the lungs occurs due to a pressure gradient between the lungs and the atmosphere. So, inspiration occurs when/due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intra pulmonary pressure is less than the  atmospheric pressure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in the volume of the thoracic chamber  in the dorso-ventral axis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Contraction of external inter-costal muscles and  phrenic muscles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q70",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The diffusion membrane or respiratory membrane does not include",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thin squamous epithelium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pseudostratified ciliated epithelium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Endothelium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Basement membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q71",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "How much percentage of O2 is transported through plasma in dissolved form ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "97%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20-25%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q72",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Human beings have a significant ability to maintain and moderate the respiratory rhythm. This is done by neural control. Which of the following is not related with respiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pneumotaxic centre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Respiratory rhythm centre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hypothalamus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aortic and carotid body receptors",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q73",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "During inspiration, the diaphragm",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Contracts",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Expands",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Does not move",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Relaxes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q74",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Hiccoughs (Hiccups) occur during respiration due to abnormal activity of / presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intercostal muscles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Food in the air tract",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diaphragm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inadequate O2 in the environment",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q75",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Myoglobin binds with how many molecule of O2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q76",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "A healthy man can inspire or expire approximately ________ of air per breath normaly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "500 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1000 ml to 1100 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1100 ml to 1200 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6000 ml to 8000 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q77",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Total volume of air accommodated in the lungs at the end of maximum forceful inspiration includes  A. ERV + RV  B. IRV + ERV  C. TV + IRV + ERV + RV  D. VC + RV",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A & B only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C & D only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q78",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "In both Cockroach and humans, tracheal rings are present around trachea. They are responsible for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Liberation of mucous to outside",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Liberation of surfactant which is trapped in the  alveoli",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Preventing collapsing of the tracheal wall",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Generation of pressure gradient",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q79",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "What percentage of haemoglobin is saturated with oxygen in the blood at pO2 30 mm Hg and pCO2 40 mm Hg?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "85%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "98%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q80",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Incomplete cartilaginous rings are not present around",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trachea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Primary bronchi",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary bronchi",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Respiratory bronchioles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 409,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q81",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Conducting part of respiratory system extends from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trachea to bronchi",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "External nostrils to trachea",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "External nostrils to terminal bronchioles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "External nostrils to alveolar ducts",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q82",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "In case of decrease in carbon dioxide concentration of blood, the Hb-O2 saturation curve will shift towards",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Right side",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Left side",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No change in the position of saturation curve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First right and then left",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q83",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The amount of CO2 that can diffuse through the diffusion membrane per unit difference in partial pressure is much higher as compared to that of O2. This is because   is higher",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Solubility coefficient of CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solubility coefficient of CO2 is lesser",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amount of gases in blood is independent of  partial pressures of the gases in the atmosphere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Arterial blood contains more O2 than CO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q84",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is correct regarding CO2 and O2 transport in blood?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 ml of oxygenated blood carries 53 ml of O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 ml of blood always transports equal  amounts of O2  and CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 ml of oxygenated blood delivers more O2  than CO2 to the tissues",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O2 and CO2 are both maximally transported  through the blood plasma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q85",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Medullary chemosensitive area is more sensitive to fluctuations in concentration of  a. CO2 b. H+  c. O2 d. CO",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & b only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & c only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q86",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following laryngeal cartilages is paired and consist largely of hyaline cartilage with only the upper end made of elastic cartilage?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thyroid cartilage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cricoid cartilage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Arytenoid cartilage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cuneiform cartilage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q87",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Pneumotaxic centre is located in the dorsal part of pons varolii and suppresses impulses from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dorsal respiratory group",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Apneustic area",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carotid bodies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aortic bodies",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q88",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "What volume of carbon dioxide is carried as dissolved gas by 100 ml of oxygenated blood?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nil",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.4 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.7 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q89",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "In lungs, exchange of ions between RBCs and plasma and removal of CO2 from blood involves all except  - ions into RBCs",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Influx of HCO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Buffering of H+ ions inside the RBCs by  bicarbonates and formation of carbonic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Influx of Cl- ions in RBCs and efflux of HCO3  -  ions from RBCs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Partial pressure gradient of CO2 across the  respiratory membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q90",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "All of the following stimuli can stimulate respiration through chemoreceptor mechanism except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase in acidity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in arterial pCO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decrease in pH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decrease in H+ concentration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q91",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum amount of O2 that can be transported to the tissues by 500 ml of blood during strenuous exercise is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "15 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "25 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "75 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q92",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. Emphysema",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is a chronic obstructive disease of lungs,  causing irreversible, distension and loss of elasticity of alveoli",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The alveolar sac remains filled with air even  after expiration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bronchodilators, antibiotics and oxygen therapy  are used to treat emphysema. It can be cured permanently",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conditions of emphysema are mainly due to  cigarette smoking",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 410,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q93",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. Apnea (i) Rapid shallow breathing  b. Dyspnea (ii) Normal breathing  c. Tachypnea (iii) No breathing  d. Eupnea (iv) Painful breathing except  in upright position",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q94",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The epithelial lining of alveoli consist of two types of cells called as pneumocyte type - I and pneumocyte type - II. Type II pneumocytes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Are transitional epithelial cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Form the site of gaseous exchange between  alveolus and blood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Constitute about 95% of total number of cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secrete alveolar fluid and surfactant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q95",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Given below are the partial pressures (in mmHg) of oxygen and carbondioxide at different parts involved in diffusion in comparison to those in atmosphere.  Alveoli Body  (deoxyge- nated)  Blood (Oxygenated)  Tissues  Respiratory   Atmospheric air  gas  O2  159  40 D  B  40  CO2  A  40 C  40  45  Choose the correct option w.r.t. the values of partial pressures (in mmHg) marked as A, B, C and D  A B C D",
+    "question_diagram": "/images/last_leap_pz2/p411_q95.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0.3 104 40 52",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "32 116 45 45",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.3 104 45 95",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "32 116 45 95",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q96",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "At 40 mmHg of partial pressure of oxygen haemoglobin is _____ saturated",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "75%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "85%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "35%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q97",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an unpaired cartilage of the human larynx?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cartilage of santorini",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cricoid cartilage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Corniculate cartilage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cuneiform cartilage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q98",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ventral respiratory group is located in medulla  and controls the switch off point of inspiration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dead space is the amount of air left in lungs  after normal expiration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mountain sickness is due to decreased partial  pressure of oxygen at high altitude",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hering-Breuer's reflex is mainly a protective  mechanism for preventing excessive deflation of lungs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q99",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can be measured with the help of simple spirometer?  a. FRC b. RV  c. TLC d. VC",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "c only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "d only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & b only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "c & d only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q100",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Trachea divides into right and left primary bronchi at the level of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2nd thoracic vertebrae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5th thoracic vertebrae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7th thoracic vertebrae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10th thoracic vertebrae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q101",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "During normal expiration which centre remains almost dormant and does not play any major role in the basic respiratory rhythm?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pneumotaxic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dorsal respiratory group",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ventral respiratory group",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chemosensitive area",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q102",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Carbon dioxide generated in the tissues is carried in venous blood primarily as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dissolved gas in plasma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbamino haemoglobin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sodium bicarbonate in venous blood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potassium bicarbonate in venous blood",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 411,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q103",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Given below are four statements A-D each with one or two blanks. Select the option which correctly fills up the blanks in two statements.  A. Healthy man can inspire or expire  approximately    (i)    ml of air per minute.  B. Inspiratory reserve volume average    (i)    ml.  C. Residual volume averages    (i)    ml.  D. Volume of air accumulated in the lungs at the  end of forced inspiration is    (i)   .  Options :",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A - (i) 500 ml,  B - (i) 2500 to 3000 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B - (i) 2500 to 3000 ml,  C - (i) 1000 ml to 1100 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C - (i) 1000 ml to 1100 ml  D - (i) Vital capacity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A - (i) 6000 to 8000 ml  D - (i) Vital capacity + residual volume",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 412,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q104",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Presence of large number of alveoli around alveolar ducts in mammlian lungs is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inefficient system of ventilation with little  residual air",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inefficient system of ventilation with high  amount of residual air",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Efficient system of ventilation with high  residual air",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Efficient system of ventilation with little amount  of residual air",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 412,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q105",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "All the following statements are correct, but one is wrong. Which one is wrong?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In fishes, countercurrent exchange is a  process that allows for the most efficient blood oxygenation in nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "As we move towards higher altitudes, hypoxia,  leads to polycythemia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amphibians force air into the lungs by creating  a greater than atmospheric pressure in air outside the lungs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In insects the blood helps in the transportation  of oxygen to the tissues",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 412,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q106",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "In case of increase in concentration of hydrogen ion, the Hb - O2 dissociation curve will shift towards",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Left side",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Right side",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain as such, neither shift towards left nor  towards right",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First left and then right",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 412,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q107",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "What happens when pneumotaxic centre sends weak signal?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Complete filling of lungs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inspiration is of 5 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Breathing rate is not fast",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 412,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q108",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect w.r.t. transport of carbon dioxide in blood?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "About 20-25 percent of carbon dioxide is  carried by haemoglobin in the form of carbaminohaemoglobin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "70 percent of CO2 is carried in a dissolved  states through plasma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "As the blood picks up carbon dioxide from  - accumulates inside RBCs of which some move out into the blood plasma and in exchange chloride ions move from plasma into RBCs  tissue, HCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The greatest percentage of carbon dioxide is  transported in blood plasma as bicarbonate ions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 412,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q109",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "How much carbon dioxide is delivered by 5 L of deoxygenated blood to the alveoli?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "400 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "300 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 412,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q110",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cells release lecithin?  a. Type I pneumocytes.  b. Type II pneumocytes.  c. Dust cells.  d. Clara cells, respiratory bronchiole.  e. Clara cells, bronchi.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, c, e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, d, e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 412,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q111",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "The most important primary factor in determining the percent saturation of haemoglobin with oxygen is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Partial pressure of oxygen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acidity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Partial pressure of carbon dioxide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q112",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "How many of the following statements are correct?  a. Normal exhalation during quiet breathing is an  active process involving intensive muscle contraction.  b. Air flow during breathing is due to a pressure  gradient between the lungs and atmospheric air.  c. A specialised centre present in the medulla  region of the brain called respiratory rhythm centre is primarily responsible for regulation of respiration.  d. Respiratory rate decreases during fever.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q113",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "During normal expiration/at the end of expiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diaphragm contract",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inter-intercostal muscle contract",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Negative pressure remains in thorax",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Positive pressure remains in the thorax",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q114",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following are correct differences between foetal haemoglobin (Hb-F) and maternal haemoglobin (Hb-A)?  a. Hb-F and Hb-A differ in structure.  b. Hb-F has higher affinity for oxygen as  compared to Hb-A.  c. The curve of foetal haemoglobin remains  towards the left of maternal haemoglobin (Hb-A).  d. Hb-F binds with BPG more strongly as  compared to Hb-A.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c, d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, c, d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b, c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, c, d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q115",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "Vital capacity (VC) can be stated as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "TV + IRV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "TV + FRC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "IRV + FRC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "IC + ERV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q116",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "After hyperventilation the person can hold his breath for sometime due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low pO2 in blood",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High pCO2 in blood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High pO2 in blood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Low pCO2 in blood",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secA_q117",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section A (Objective)",
+    "question_text": "At 45 mm pCO2, volume of CO2 present in dissolved form in venous blood is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "14.5 ml / 100 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.7 ml / 100 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.4 ml / 100 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "52 ml / 100 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q1",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A film of lecithin lines the alveoli of the lungs  that lowers the surface tension and keeps the alveoli inflated.\nReason (R): Lecithin is a phospholipid secreted by pneumocyte cells type-II.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q2",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Breathing and eating can occur simultaneously  in mammals.\nReason (R): Cerebral cortex influences the contraction of  breathing muscles.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q3",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Methaemoglobin when present in large  quantities causes cyanosis.\nReason (R): In methaemoglobin Fe2+ ions are oxidised to  ferric ions and bind with oxygen irreversibly.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q4",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Patchy Atelectasis is seen in patients who  have undergone cardiac surgery during which a pump oxygenator is used and pulmonary circulation is interrupted.\nReason (R): This is due to the deficiency of surfactant.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 413,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q5",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): P50 indicates the oxygen concentration at  which 50% haemoglobin of blood is saturated with O2.\nReason (R): The haemoglobin gets saturated to about 50%  when partial pressure of oxygen is 25 - 30 mm of Hg",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 414,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q6",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In carbon monoxide poisoning death occurs  due to non availability of oxygen.\nReason (R): It is due to absence of free haemoglobin.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 414,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q7",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): CO2 is transported in the blood mainly in the  form of bicarbonate ions.\nReason (R): RBCs contain a very high concentration of the  enzyme carbonic anhydrase.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 414,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q8",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): CO2 can diffuse through the diffusion  membrane more rapidly than O2 per unit difference in partial pressure.\nReason (R): Solubility of CO2 in plasma is 20-25 times  higher than that of O2.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 414,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q9",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Pneumotaxic centre can moderate the  functions of the respiratory rhythm centre.\nReason (R): Neural signals from pneumotaxic centre can  reduce the duration of inspiration and alter the respiratory rate.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 414,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q10",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Carbonic anhydrase enzyme facilitates the  following reaction in both directions.  C.A. 2 2 2 3 CO H O H CO  \u0002\u0002\u0002\u0002⇀ ↽\u0002\u0002\u0002\u0002\nReason (R): Carbonic anhydrase is found in very high  concentration in RBCs and minute quantities of it are present in the plasma too.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 414,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_03_breathing_and_exchange_of_gases_secB_q11",
+    "subject": "Zoology",
+    "chapter": "Breathing and Exchange of Gases",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): During holding of breath by closing the nose  with fingers, CO2 builds up so that when nose opens again, the breathing becomes accelerated.\nReason (R): The regulatory centre for respiration lies in the  medulla of the brain and is sensitive to increase in concentration of CO2 in arterial blood.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 414,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

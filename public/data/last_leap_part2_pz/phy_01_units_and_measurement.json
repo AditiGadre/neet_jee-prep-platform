@@ -1,0 +1,6394 @@
+[
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q1",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The number of significant figure in the difference of",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q2",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensions of which of the following pairs are not same?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Torque and work",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Young's modulus and pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Impulse and momentum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Angular momentum and energy  ρ ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q3",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A physical quantity x is represented by  F v x S  where F, ρ, v and S are force, density, velocity and surface tension respectively. Then the dimensions of x is same as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Angular momentum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coefficient of viscosity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Modulus of elasticity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Boltzmann's constant  3 2  3 x y P   , which",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q4",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A quantity P is calculated by   1 3 2  c d  quantity should be measured with best care to minimize error in P?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q5",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In an experiment, following fractional errors were obtained on observation, in mass (M) 0.8% ,in length (L) 0.4% and diameter (D) 0.5%. Using the  2  2 MgL Y  D   , the maximum permissible error  formula   π  in Y is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.6%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.6%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.6%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.4%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q6",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The power generated in a circuit is given by P = i2R, where i is current and R is resistance. The percentage error in measuring i and R are 0.3 and",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q7",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Assume that energy E, angular momentum J, mass M and universal gravitational constant G are the fundamental quantities in a system, then the  2  5 2 EJ  M G is similar to  dimension of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Momentum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Power",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Angle  n dx x a a a x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q8",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If  -1  2 2 sin      is dimensionally correct,  then value of n is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 9,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q9",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Number of significant digit in 2000 kg is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q10",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Two physical quantities having same dimension then their magnitude",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cannot be multiplied",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Can be added",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cannot be added",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot be added or subtracted  1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q11",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimension of    is  με  r r",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0L0T0]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M0L1T1]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0L1T-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0L2T-1]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q12",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The Vernier scale of a micrometer has 30 divisions, and its main scale is divided upto 0.5 degrees. The L.C. of the instrument is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q13",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The vernier scale of a vernier callipers has 20 divisions, and total length of the vernier scale is equal to 18 divisions of the main scale. If one division of the main scale is 1 mm, the least count of the instrument is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.05 mm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.10 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.20 mm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.40 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q14",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "When units of mass, length and time are taken as 10 kg, 60 m and 60 s, the new unit of energy becomes x times the initial SI unit of energy. The value of x is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "120",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q15",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The unit of magnetic dipole moment is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ampere metre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ampere metre2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ampere/metre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ampere/metre2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q16",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The measured values of mass and radius of a sphere are given as (10.0 ± 0.1) kg and (10.0 ±",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q17",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensionally wavelength is equal to  E RC B",
+    "question_diagram": "/images/last_leap_pz2/p10_q17.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "B LC E",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 E B LC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B RC E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q18",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following physical quantity is unitless as well as dimensionless?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Angle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Length",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Velocity gradient",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Strain",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q19",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The value of 1 Pa in CGS unit (dyne/cm2) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "105",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "102",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10-2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q20",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a derived unit?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "kilogram",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ampere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "candela",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "newton",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q21",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is largest length?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "103   angstrom",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "106 fermi",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 parsec",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 light year",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q22",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair have the same dimensions?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Angle and strain",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy density and Young's modulus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy density and pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q23",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The error associated with resolution of an instrument is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Relative error",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Personal error",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero error",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Least count error",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q24",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Surface area of a cube is 7.34 cm2. The surface area of 8 such cubes will be [Taking significant figure in account]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "58.7 cm2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "58.72 cm2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "58.8 cm2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "58.720 cm2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q25",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "On subtracting 1.5 × 10-8 from 4.8 × 10-7, the result so obtained taking significant figure in account is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4.6 × 10-7",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.65 × 10-7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "46.5 × 10-7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.70 × 10-7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q26",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The number of significant figures in 12500.40 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 10,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q27",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The percentage error in the measurement of time period of a pendulum, if maximum errors in the measurement of ℓ and g are 3% and 7% respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q28",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensional formula of Stefan's constant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML0 T-3K-4]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M1L1T1K-4]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0L1T0K-4]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[ML1T-2K-4]  1 4 K  πε?",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q29",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "What are the units of   0",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C2N-1m-2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nm2C-2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nm2C2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unitless",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q30",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The radius of a uniform plate is 1.5 cm. Its area on taking significant figure in account is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "7.065 cm2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7.06 cm2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7.0 cm2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7.1 cm2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q31",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If a wire is stretched to decrease its radius by 2%, then the percentage change in its resistance will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q32",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If error in measuring the distance of a planet from sun is 0.4% and in measuring the mass of sun is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q33",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following relation is dimensionally incorrect?  (ν-frequency, v-velocity, λ-wavelength, E-elastic constant, ρ-density, R-radius of earth, T-tension, μ-mass per unit length, ℓ-length, g-acceleration due to gravity)  1 2 E ν ρ ℓ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "v νλ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 T ν μ ℓ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 1 1 1 2 R g   ν    π   ℓ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q34",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Mass of a block is 0.013 kg and its volume is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q35",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is different from the others?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parallactic second",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Light year",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kilosecond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Micron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q36",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Moon was observed at the same time from two observatories, situated at two diametrically opposite points on the earth's surface. The parallax angle subtended by the moon was measured to be",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q37",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has its unit different from the other three? (R = Resistance, C = Capacitance, L = Inductance)  L",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "LC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q38",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The S.I. unit of solar constant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wm-2K-4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Js-1m-2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wm-2K-1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Js-1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q39",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensional formula of universal gravitational constant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M-1L3T2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML-3T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M-1L3T-2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M-1L-2T-3]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q40",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The magnitude of measurement of a physical quantity is expressed in terms of numerical value n and unit u. Which of the following graphs best represents the variation of n with u?  n  n",
+    "question_diagram": "/images/last_leap_pz2/p11_q40.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "u  u  n  n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "u  u",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 11,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q41",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In  the  equation  RT b V V  P = Pressure, V = Volume, T = absolute  a is  temperature. The dimensional formula of b",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML5T-3]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML2T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M-1L3T-4]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[ML-2T2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q42",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If velocity V = A + Bt + Ct2 (where t is time) then dimensional formula of C is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0LT-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M0LT-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0LT-3]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0L-1T-2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q43",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following relations is dimensionally wrong? [The symbols have their usual meanings]  2 2 2 2aS u v",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 6 1 at ut S  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "v = u - 2at",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q44",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If force (F), length (L) and time (T) are taken as fundamental quantities then the dimensional formula of mass will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[FL-1T2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[FLT-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[F-1L-1T2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[FL-2T-1]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q45",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Two quantities P and Q have different dimensions. Which of the following mathematical operations given below is physically meaningful?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P + Q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P - Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P × Q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q46",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Position x of a body moving with acceleration a is related to time t as x = Kamtn, where K is dimensionless. The values of m and n are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "m = 1, n = 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "m = 2, n = 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "m = -1, n = 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "m = -2, n = 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q47",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following, the number of significant figures is different from that in the others?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.003 kg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12.23 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.002 × 105 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.001 × 10-3 kg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q48",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The true value of the measurement of a physical quantity is 13.5 m2. Which of the following measured values of this quantity is most precise?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "13.4 m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "13.230 m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "13.30 m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "13.8 m2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q49",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Accuracy of a measurement tells",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The closeness of a measured value to the true  value",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Upto what resolution or limit the given quantity  is measured",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The number of readings taken for the  measurement",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these  2 . The  B A Z 4  5 1  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q50",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A physical quantity Z is given by   D C  quantity which brings in the maximum percentage error in Z is (assume percentage errors in the measurements of A, B, C and D are equal)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q51",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If P = 2.348 cm and Q = 2.1 cm then P - Q equals",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.248 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.25 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.3 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q52",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If the measured mass and volume of a body are",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q53",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensional formula of torque is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M1L2T-1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M1L2T-2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M1L1T-1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M1L1T-2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q54",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If the units of mass, length and time each is doubled then the unit of acceleration will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Doubled",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Halved",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tripled",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Quadrupled",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q55",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The length l of a cube is measured to be l = 4.0 ± 0.1 m. The volume of the cube will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "64 ± 4.8 m3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "64 ± 0.3 m3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "64 ± 2.4 m3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "64 ± 1.6 m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q56",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensional formula of viscosity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ML-1T-1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ML-2T-2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M2L-1T-3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "L2T-1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 12,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q57",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The velocity v of a particle depends on time t as  B At v     The physical  per the equation  .t C  quantities represented by A, B and C are in the following order",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Distance, velocity, time",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acceleration, distance, time",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Distance, time, velocity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acceleration, velocity, time",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q58",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The diameter of a coin is measured by a vernier callipers. The five observations that were taken are given as 2.53 cm, 2.50 cm, 2.51 cm, 2.47 cm and",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q59",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensions of the group     linear mass density, p is presure, T is tension and ρ is mass per unit volume) are same as that of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Angle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Force",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(Velocity)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Planck's constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q60",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensions of the pole strength of a magnet are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0L0TA]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M0LT0A]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[ML2T-2A]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[MLT-2A2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q61",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The radius of curvature of the curved face of a  2 ,  plano-convex lens is calculated as R =  t d  8  where d (diameter of the aperture) is measured as (5.0 ± 0.1) cm and t (thickness of the lens in middle) is measured as (0.40 ± 0.02) cm. The maximum error in R is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q62",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass (m) is located in a space where potential energy varies with position (x) as  α β   , where α and β are positive constants.  2 U x x  A particle is performing oscillation in this region and  time period is recorded as  2 4 m T α  πα  . This  β  formula is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dimensionally correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dimensionally incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dimensionally correct in some conditions and  incorrect in some other conditions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q63",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A satellite in a circular orbit near the surface of earth has period of revolution T. If ρ is the density of earth's material then the entity ρT2 is dimensionally equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML-3 T2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML-3 T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M2L-1 T2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[MLT-3]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q64",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "P varies with position x as P = sinx, what is mean error in P if mean error in the x is Δx?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 1 P x  Δ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 P x  Δ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2Δ P x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(1 + P2)Δx",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q65",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensions of coefficient of viscosity is same to that of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Force per unit area",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kinetic energy per unit area",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Volume per unit time",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Impulse per unit area",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q66",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The force (F) and density (d) are related as  a F  2 .   b d  The dimensions of a and b are    respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M3L-5T-2] and [M4L-12]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M-1L5T-2] and [M2T-3]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M2L5T-2] and [M3T-4]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[ML4T-2] and [ML2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q67",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If the power (P), length (L) and time (T) are taken as fundamental quantities, then the dimensions of mass are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[PLT2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[P-1L-2T3]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[PL-2T3]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[P-1L-1T]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q68",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The principal thrust(s) in the study of physics is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reductionism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unification",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both unification and reductionism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neither unification nor reductionism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 13,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q69",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Exchange particle between Quark-Quark interaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Photon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vector Boson",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gluon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Graviton",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q70",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If α and β have dimension of time, then the given relation  2 2 1 sin d  α α     β α αβ   is  1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dimensionally and physically both correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dimensionally correct but physically incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dimensionally as well as physically incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dimensionally incorrect but physically correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q71",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Round off of 18.65 to 3 significant figure is 18.6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Round off of 18.55 to 3 significant figure is 18.6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Round off of 18.75 to 3 significant figure is 18.7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q72",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The position (x) of a particle varies with time as  V x e  where V0 is a positive constant  0 ( ) (1 ) β   β  t t  and β > 0. Dimensions of V0 and β are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0LT-1] and [T-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M0LT-1] and [T]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0LT0] and [T-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M-1L-1T] and [T-2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q73",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The time taken by a metrorail from a station A to station B is 205 second. If time is measured by a stopwatch of resolution one second, then significant figure in 205 second is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q74",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not unit of time?  I. Parallactic second  II. Shake  III. Barn",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I & II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I & III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "II & III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q75",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following error can be removed completely?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero error",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Random error",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Least count error",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gross error",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q76",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The angular diameter of Sun as measured from the earth is 0.001 radian. Then the diameter of the Sun in meters is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.5 × 108 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5 × 1010 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.5 × 105 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 × 1012 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q77",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The unit 'barn' relates to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Astronomical lengths",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nuclear cross-sectional area",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Small volume",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Large mass",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q78",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure P depends on time t according to    c d P bt t . Then dimensional formula of d is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML-1T-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML-1T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[ML2T-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[ML-1T2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q79",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The external and internal diameters of a hollow cylinder are (4.23 ± 0.01) cm and (3.89 ± 0.01) cm then thickness of cylindrical wall (in cm) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(0.34 ± 0.02)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(0.17 ± 0.02)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(0.17 ± 0.01)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(0.34 ± 0.01)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q80",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following particles pair do not experience strong force?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neutron-Neutron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Neutron-Proton",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Proton-Proton",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electron-Electron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q81",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following quantities is not dimensionless?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Refractive index of water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solid angle subtended by a sphere at its  centre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Slope of position time graph",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Relative density of mercury",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q82",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Unification of electricity and magnetism into a single subject \"electromagnetism\" was done by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Faraday",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maxwell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oersted",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q83",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Number of significant figures in 0.0006032 m2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 14,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q84",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "N divisions on main scale of a vernier callipers coincide with (N + 1) divisions on the vernier scale. If each division on the main scale is of a units, then least count of instrument is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a  N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 a N   ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N  a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 N  a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q85",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "When fundamental unit of mass, length and time are taken as 10 kg, 60 m and x s, then new unit of energy becomes 10 times the S.I. unit of energy. The value of x is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q86",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pairs does not have same dimensional formula?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Angular momentum and Planck's constant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Work and energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Angular impulse and Planck's constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Modulus of rigidity and impulse",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q87",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Maximum percentage error in the measurement of",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q88",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If n is the numerical value and u is the unit of measurement of a physical quantity, then which of the following is correct?  n",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "u  nu",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "u  n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 u",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q89",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If velocity (V), force (F) and energy (E) are taken as fundamental units, then dimensional formula for mass will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[V0FE 2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[VF-2E0]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[V-2F0E ]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[VF-2E ]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q90",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Displacement of a particle is given as  (1 ) Bt A x e B     . Here, A is constant and B > 0.  The dimensions of A and B are, respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0 L T0] and [T]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M0 L T-1] and [LT-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0 L T-2] and [T]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0 L T-1] and [T-1]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q91",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensional formula of coefficient of thermal conductivity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M1L1T-3K-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M3L-1T-1K]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M1L-3T-1K-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M1L-1T-3K]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q92",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In the following four different measurement of masses 10.52 kg, 1.54 g, 10.23 g and 25.1 g, which is most accurate?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10.52 kg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.54 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10.23 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25.1 g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q93",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A student measures the value of g with the help of a simple pendulum using the formula  π  . L and T are measured to be 2.0 m and  2  2 4 L g  T",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q94",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensions of solar constant are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0L1T-3]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M1L0T-3]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0L0T0]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0L0T-2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q95",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If ε0 is the permittivity of free space and E is the electric field, then dimension of ε0E2 is same as that of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pressure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Force",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intensity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 15,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q96",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In a new system of units mass is measured in multiple of 100 kg, length in multiple of 1 km and time in mulpitple of 100 s. What is value of 1 joule in the new system of units?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10-1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10-2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10-3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10-4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q97",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If velocity v, force F and acceleration a are taken as fundamental unit, then unit of angular momentum is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F-1 v2 a3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F2 v3 a-1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F v3 a-2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F-2 v-3 a-2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q98",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If A and B have same dimensions, then which of the following operations must be correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A + B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A - B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A  B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q99",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Time period of a liquid drop is given by  x y z T kd r  σ, where d is density of liquid, r is radius of liquid drop and σ is surface tension of liquid, then the value of x, y and z are (k is dimensionless constant)  1 1 2 , , 2 3 3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 3 1 , , 2 2 2 ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 1 1 , , 2 2 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 1 , 1, 2 2  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q100",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The mass of a box is 2.3 kg. Two wooden ball of masses 120 g and 150 g are added in the box. The total mass of the box upto correct significant figures is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.3 kg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.5 kg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.6 kg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.57 kg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q101",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "What is value of (9.99 + 0.0099) cm, taking significant figure into account?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10.0 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10.00 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10.0000 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q102",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A body weights (5.00  ±  0.05) N in air and (4.00  ±",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q103",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A physical quantity Q is given by   Which one of the following quantity contribute maximum percentage error in Q?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q104",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensional formula of entropy is same that of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thermal capacity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Specific heat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gas constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gravitational constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q105",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If 50th division of vernier scale coincide with 48th  division of main scale and value of one main scale division is  1 mm then the least count of vernier calliperse is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.01 mm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.02 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.03 mm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.04 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q106",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If α, β and γ are physical quantities, having different dimensions which of the following combination(s) may be a meaningful quantity?  2 αβγ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "β",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "αγ - β  αβ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "γ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q107",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In an operation R = A × B-2, if maximum error in A is a and that in B is b. The maximum error in R will be (where ΔR is maximum error in R)  2 a b R R A B   Δ      ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 a b R R A B   Δ      ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a b R R A B   Δ      ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a b R R A B   Δ      ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q108",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not correctly matched?  (a) Strong nuclear force - Gluon  (b) Electrostatic force - Meson  (c) Gravitational force - Graviton  (d) Weak nuclear force - Boson",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b & c",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 16,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q109",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If B represents magnetic field and μ0 represents  2  0 2μ B  has the  permeability of free space, then   dimension of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M1L-1T-2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M1L2T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M1L0T-3]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M1L0T-2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q110",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following net force between nucleons except gravitational force is correctly represented?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(P = P) = (P = N) = (N = N)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(P = P) > (P = N) = (N = N)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(P = P) < (P = N) = (N = N)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(P = P) ≠ (P = N) ≠ (N = N)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q111",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In which cases link between technology and physics is correctly matched?  Technology Physics  (I) Production of ultra high magnetic field  Superconductivity  (II) Optical fibres  Total internal reflection  (III) Electron microscope  Photoelectric effect",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I & III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II & III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I & II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I, II & III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q112",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Classical physics mainly deals with macroscopic phenomena which includes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrodynamics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Optics",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thermodynamics",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q113",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Time period of oscillation of a simple pendulum is found to be 2.62 second in as experiment and the mean error calculated is 0.11 s. Which one of following is correctly representing result of the experiment?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(2.6 ± 0.11) s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(2.6 ± 0.1) s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(2.60 ± 0.11) s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(2.62 ± 0.1) s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q114",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is dimension formula of  2 L  CR ?  (L = self inductance, C = capacitance, R = resistance)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[MLT-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML2T-1]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M-1 L2 T-2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0 L0 T0]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q115",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A student performs an experiment and takes 100 observations. He repeats the same experiment and now takes 500 observations by doing so",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The probable error becomes half",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The probable error becomes two times  1 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The probable error is reduced by a factor of",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The probable error increases by a factor of 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q116",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The least count of a stop watch is  1 5 s. The time  of 200 oscillations is found to be 50 s. The maximum error in measurement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.2%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.3%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.4%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.8%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q117",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "What is the dimension of energy density?  1 1 2 [M L T ]  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 2 3 [M L T ]  ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 1 [M L T ]  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 0 2 1 [M L T A ]  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q118",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The mass of a spherical body depends on density P of material, its diameter D and surface area A as M∝PxDyAz. If percentage change in calculation of density, diameter and surface area are ρ%; d% and a% respectively then % change in mass is (where x, y, z are positive and can be zero)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "( )% d a ±ρ ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(xρ + yd + za)%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(xρ - yd + za)%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "% d a x y z   ρ     ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q119",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Tension in a string is example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Contact force",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electromagnetic force",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gravitational force",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nuclear force",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q120",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Weak nuclear force is responsible for the decay of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "β+ and β- particle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Antineutrino",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neutrino",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q121",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Quantum physics deals with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Microscopic phenomenon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Macroscopic phenomenon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mesoscopic phenomenon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 17,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q122",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Unit of volume may be barrel",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unit of area may be barn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Unit of length may be parallactic second",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q123",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If y = a sin (bt - cx), where y and x represent length; t represents time, then which of the  2 ab  following has same dimension as that of   c ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(Speed)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Momentum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Angle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acceleration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q124",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Two instruments A and B calculate diameter of a wire as A = 5.00 m and B = 5.000 m then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A is more accurate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B has more percentage error",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B has less percentage error",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A has less percentage error",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q125",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The most appropriate value of (1 - 0.001)10 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.01",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.99",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.099",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10.1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q126",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which is the mediating particle for weak nuclear force?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gluon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Photon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Boson",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Graviton",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q127",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the unit of time?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Light year",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Angstrom",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chandrashekhar limit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Shake",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q128",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensional formula for modulus of elasticity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML-1 T-2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M-1L-1 T-2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M-1L-1 T2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q129",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If the maximum percentage error in the measurement of mass and radius of a solid sphere are 0.5% and 0.2% respectively, then the maximum percentage error in the measurement of its density is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.7%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.6%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.1%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q130",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The numbers 6.845 and 6.835 on rounding off to 3 significant figures will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6.85 and 6.84",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6.84 and 6.84",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6.84 and 6.83",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.85 and 6.83",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q131",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is largest unit of length?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A.U.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "light year",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "parsec",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "fermi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q132",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In a hypothetical system of units, if force (A), velocity (B) and length (C) are taken as fundamental units then mass represented in this system will be  B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2 AB C",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 AC  B AC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ABC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q133",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The diameter of a wire is measured to be",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q134",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following formulas cannot be derived by using the concept of dimension? (Symbols have their usual meaning)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "y = A0 sin(ωt - β)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "y = A0 e(-αt + β)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "y = A0 log(ωt + β)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q135",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensional formula of compressibility is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0L0T0]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M1L -1T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[MLT-2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M-1LT2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q136",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensional formula of universal gravitational constant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M1L-1T-2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M1L2T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M1L3T-2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M-1L3T-2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q137",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensional formula of Reynold's number is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML-1T-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M0L0T0]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[ML0T-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M-1L-1T]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q138",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensional formula for change in momentum is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML2T-2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[MLT-3]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[MLT-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[MLT]  ax K a P e b      θ     where, x is",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q139",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure P is given by   distance, K is Boltzmann's constant, θ is temperature, a and b are constants. The dimensions of a is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M1 L2 T]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M1 L1 T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M1 L2 T0]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0 L0 T0]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 18,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q140",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Percentage error in measurements of mass and speed of a particle are 0.1% and 0.2% respectively. Percentage error in the measurement of kinetic energy of the particle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.3%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q141",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has same dimensions as that of viscosity?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Impulse",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure per unit volume",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Impulse per unit area",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q142",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass m is moving in a circular path of radius r with speed v. If percentage error in measurement of m, v and r are 0.1%, 0.3% and",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q143",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensional formula of coefficient of viscosity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M1L1T-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M1L-1T-1]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M1L1T2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M1L2T-2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q144",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Force acting on a body is represented by   Bt F A x , where A and B are constants. If x  and t are distance and time respectively then SI unit of B is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "watt",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "joule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "newton",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "J s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q145",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimension of momentum is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[MLT-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML4]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M1L3]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M2L2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q146",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The  physical  quantity  denoted  by    is  Mass Pressure Density",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Force",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Work",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Momentum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Angular momentum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q147",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "What is the number of significant figures in (3.20+4.80) × 105 ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q148",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A public park in the form of a square has an area of (100 ± 0.2) m2. The side of park is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(10 ± 0.01) m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(100 ± 0.1) m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(10.0 ± 0.1) m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(10.0 ± 0.2) m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q149",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If R is the resistance of a conductor and C is the capacity of a capacitor, then the dimensional formula of RC is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M1L0T0]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M0L0T1]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M1L1T-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M1L1T-2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q150",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A cube has a side of length 1.2 × 10-2 m. Calculate  its volume",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.7 × 10-6 m3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.73 × 10-6 m3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.70 × 10-6 m3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.732 × 10-6 m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q151",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In a new system of unit, five times speed of light in vacuum is taken as unit of distance. If light takes 8 minute 20 s to reach to earth from sun, then distance between earth and sun in terms of new unit is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25 new units",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50 new units",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 new units",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "500 new units",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q152",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A calorie is an unit of heat and equals 4.2 J. Suppose we employ a system of units in which the unit of mass is α kg, the unit of length is β m and the unit of time is γ second. In this new system, 1 calorie =",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "α-1β-2γ-2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.2 αβ2γ2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "αβ2γ2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.2 α-1β-2γ2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q153",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "There are four data given A = 5.00 m, B = 5.00 cm, C = 50.00 m and D = 5.00 mm. Select the most precise and most accurate data",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C and D respectively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "D and C respectively",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A and C respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B and D respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q154",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The volume of a sphere is 1.62 m3. The volume of 22 such spheres, taking into account of significant figure, will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "36 m3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "35.6 m3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "35.64 m3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "35 m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q155",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If P represents radiation pressure, C represents speed of light and Q represents radiation energy striking a unit area per second, then non-zero integers x, y and z such that PxQyCz is dimensionless are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x = 1, y = 1, z = -1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x = 1, y = -1, z = 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x = -1, y = 1, z = 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x = 1, y = 1, z = 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 19,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q156",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The volume V of a liquid crossing through a tube is related to the area of cross-section A, velocity  v and  time t as: α βγ ∝ V A v t . Choose the correct alternative",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "α≠β≠γ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "α≠βγ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "αβ≠γ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "αβγ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q157",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensional formula of rate of change of angular momentum is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML2T-2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[MLT-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[MLT-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[ML2T-1]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q158",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The respective number of significant figures for the numbers 23.023, 0.0003 and 2·1 × 10-3 are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5, 1, 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5, 1, 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5, 5, 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4, 4, 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q159",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensional formula for  0 0 v με is  (v = speed)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[LT-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[L3T-3]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[L-3T3]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0L0T0]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q160",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If we select unit of acceleration as 9.8 m/s2 and unit of velocity as 3 × 108 m/s, then what will be unit of time?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.06 × 107 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.06 × 107 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.06 × 107 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.06 × 107 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q161",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The linear momentum of a particle in time t and position x is given by P = (A cos Bx)(C sin Dt). The dimensions of AC and BD respectively, are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MLT-1, M0L-1T1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MLT-1, ML-1T-1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ML2T-2, M0L-1T-2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MLT-1, M0L-1T-1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q162",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Acceleration due to gravity g is measured with the help of simple pendulum T = 2.00 s, l = 50.0 cm. The maximum possible error in measurement of g is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.2%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.4%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.5%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.1%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q163",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimensional formula of magnetic permeability is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[MLTA-2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[MLT-2A-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M-1L-3T4A2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[ML2T-2A-1]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q164",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "A vernier callipers has its main scale of 1 cm equally divided into 10 equal parts. Its vernier scale of 20 divisions coincides with 19 divisions of main scale. Least count of the instrument is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 × 10-2 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 × 10-3 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 × 10-3 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.1 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q165",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Dimension of μ0 in terms of M, L, T and I is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M-1L2T-2I-2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M LT-2I-2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M-1L-2T-2I-2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M L-2T-2I-2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q166",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Potential energy of a particle at position x and at  2 Bx U Ax  C t    time t is given by   . Dimensional    B C is same that of  formula of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetic energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Force",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tension",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q167",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of universal gravitational constant and  G  acceleration   a is represented by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M1L2T-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M-1L2T0]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M1L-2T0]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M-1L2T-1]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q168",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent capacitance for two capacitors connected in parallel is given by Ceq = C1 + C2. If C1 = (30 ± 2) μF and C2 = (60 ± 4) μF, then the equivalent capacitance can be written as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(90 ± 6) μF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(20 ± 6) μF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(20 ± 1) μF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(90 ± 2) μF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q169",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not responsible for strong nuclear force?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bosons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Quarks",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gluons",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q170",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following does not represent the dimension of viscosity?  Pressure Velocity gradient",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy density × time  Stress Strain rate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Young's Modulus Temperature gradient",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 20,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q171",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A unitless quantity is always dimensionless",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A dimensionless quantity may be unitless",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dimensional analysis can be always used to  determine an incorrect equation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dimensional analysis is based on principle of  homogeneity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q172",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Domains covered by physics is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Microscopic domain",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mesoscopic domain",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Macroscopic domain",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q173",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an application of dimensional analysis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conversion of units",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Deduction of numerical constants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Express basic quantities in terms of derived  quantities",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Choosing a new system of units",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q174",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If force, velocity and time have new units as 1 kN, 72 km/hr and 2 hrs, then new unit of mass in terms of given force, velocity and time will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.6 × 106 kg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.6 × 105 kg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.44 × 106 kg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.44 × 105 kg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q175",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "In the given formula F = kx0 sin(ωt), the terms F, k, x0, ω and t stands for force, force constant, displacement, angular frequency and time, then the  ω is  dimension of F  k",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0LT1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML-1T-2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0LT-2]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0LT-1]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q176",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Two physical quantities having the same  dimension can always be added",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Precision always leads to accuracy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A dimensionally correct equation is always  correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If z = AaBb, then  z z Δ may not be equal to  A B a b A B Δ Δ ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secA_q177",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section A (Objective)",
+    "question_text": "If ρ, v, d and  represent density, speed, diameter and coefficient of viscosity, then the physical  vd ρ  quantity    has the dimension of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0L1T0]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M1L0T0]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0L0T1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0L0T0]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q1",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If a measurement is more accurate, then it  must be more precise.\nReason (R): The accuracy of a measurement is the  measure of how far the measured value is from true value.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q2",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Dimensionally incorrect equation can not ever  be correct.\nReason (R): Physically correct equations must be  dimensionally correct.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q3",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The emissivity of a body is dimensionless  quantity.\nReason (R): Emissive power of a body is a dimensionless  quantity.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q4",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): All physically correct equations are dimensionally correct.\nReason (R): Physical correctness depends on dimensional correctness and the numerical values of dimensionless constants used.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q5",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If a, b and c are the percentage errors in the measurements of A, B and C respectively then the percentage error in the measurement of Z = AaBbCc must be a + b + c  Z Δ  Δ  Δ  Δ  C B  B A  A Z\nReason (R): If Z = AaBbCc then  C",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 21,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q6",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Each one of the fundamental units are  independent.\nReason (R): None of the fundamental units can be  expressed  in terms of the remaining fundamental units.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 22,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q7",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Strong nuclear force do not acts between  Leptons.\nReason (R): Strong nuclear force acts between Baryons and  Leptons.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 22,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q8",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Quark-Quark interaction is more fundamental  than strong nuclear force.\nReason (R): Strong nuclear force is spin dependent.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 22,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q9",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Out of measurements l1 = 0.3 m and l2 = 0.30  m,  l2 is most accurate.\nReason (R): In every measurement, only the last significant  digit is not accurately known.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 22,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q10",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A constant may not be unitless.\nReason (R): A physical quantity may have unit but it is  dimensionless.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 22,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q11",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Solid angle has unit steradian.\nReason (R): Solid angle has no dimension.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 22,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_01_units_and_measurement_secB_q12",
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If A and B has same dimension, then A + B  is a valid relation.\nReason (R): If A and B has same dimensions, they are  same physical quantities.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 22,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

@@ -1,0 +1,3416 @@
+[
+  {
+    "question_id": "phy_19_alternating_current_secA_q1",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "For the circuit shown in the figure, the time constant is  4  4 H  2  6   10 V  9 10 s",
+    "question_diagram": "/images/last_leap_pz2/p319_q1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10 11 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 7 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 4 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q2",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "If I = 2t, then the R.M.S. value of current between zero to 2 second is  4",
+    "question_diagram": "/images/last_leap_pz2/p319_q2.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q3",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "L, C and R denote inductance, capacitance and resistance respectively. Pick out the combination which does not have the dimension of frequency.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 RC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1  LC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C  L",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q4",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The phase difference (ϕ) between emf and current in LCR series a.c. circuit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ϕ = 0  π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 ≤ ϕ < 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 π < ϕ < π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ϕ = π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q5",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The primary and secondary coils of an ideal transformer have 100 and 5000 turns respectively. The magnetic flux linking the primary coil is given by ϕ = 20t + 10. The output voltage across the secondary coil is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "500 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1000 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10000 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q6",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In the LCR-circuit shown below, if readings of the voltmeters V1 and V2 are the same, then  V1 V2 V  C L 10   A  V t  = 50  2 sin ω",
+    "question_diagram": "/images/last_leap_pz2/p319_q6.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 1 LC ω",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reading of the voltmeter V is 50 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reading of the ammeter A is 5 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q7",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "If R and L are resistance and inductance of a choke coil and f is the frequency of current through it, then average power of the choke coil is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 1 L",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q8",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The current in the branch of a circuit shown below increases at a rate of 3 A/s. At the instant when current in the wire is 2A, the potential drop from a to b is  i 2 H  a b  5  10 V",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "26 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "14 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q9",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is/are copper loss/losses in a transformer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hysteresis loss",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eddy current loss",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heat loss in the primary and secondary coils",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q10",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Half power frequencies for the circuit shown below are 200 rad/s and 800 rad/s. The value of the product LC is (in second2/radian2)  L R C",
+    "question_diagram": "/images/last_leap_pz2/p320_q10.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6.25 × 10-3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6.25 × 10-6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.25 × 10-3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.25 × 10-5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q11",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Laminated iron core is used in a transformer to minimize",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hysteresis loss",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eddy current loss",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Copper loss",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q12",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "What is the reading of the a.c. voltmeter in the network shown below?  V 10   XL = 50  XC = 50   V t  = 100  2 sin ω",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "200 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "500 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q13",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The power factor of the given circuit is  L C  I R  2V 6V  4V  1",
+    "question_diagram": "/images/last_leap_pz2/p320_q13.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q14",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In LC oscillation, the current in the circuit when total energy stored is in the form of magnetic energy (where q0 is maximum charge stored by capacitor)  q0",
+    "question_diagram": "/images/last_leap_pz2/p320_q14.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "LC  q0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "LC q0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "LC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q15",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The variation of alternating current (I) with time (t) is shown in the given graph. Find the average value of current for half cycle  I  I0  t  T  0I  0 2I",
+    "question_diagram": "/images/last_leap_pz2/p320_q15.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "π  0I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q16",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A capacitor and a resistor are connected in series across a.c. supply. Which of the following phasor diagram may be correct?  I  I V π/2  V  ωt",
+    "question_diagram": "/images/last_leap_pz2/p320_q16.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "ωt",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "I  V  V  ωt  ωt I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q17",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An inductor of inductance (L), a capacitor of capacitance (C) and a resistor of resistance (R) are  t E E sin 0  . The  connected in series across   LC  reading of hot wire voltmeter connected across resistor is  0 E",
+    "question_diagram": "/images/last_leap_pz2/p321_q17.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "E0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2  0 E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q18",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The power factor of a series LCR circuit in resonance condition is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1  1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q19",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The instantaneous power of resistor having resistance R across ac supply of E = E0 sin ωt is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "t R E ω 2 2 0 sin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t R E ω 2 2 0 cos",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R E 2  0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q20",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of resonant angular frequency and band width of a given series LCR circuit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inversely proportional to angular frequency of ac",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Directly proportional to angular frequency of ac",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Independent of angular frequency of ac",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Directly proportional to the square of angular  frequency of a.c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q21",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An electric bulb rated 100 W, 40 V has to be operated across 50 V, 50 Hz a.c supply. The capacitance of the capacitor which has to be connected in series with the bulb is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12 F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "24 πF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F π 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F π 1200 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q22",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An electric bulb is connected in series with an inductor across a.c. supply. When an iron rod is inserted in the inductor, the brightness of bulb",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First increases then decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remains the same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q23",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The quality factor of series resonant circuit is  stored energy    maximum 2  π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "cycle per n dissipatio Energy   frequency   Resonant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "width Band  capacitor   across   difference Potential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "resistor    across    difference   Potential",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q24",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "When alternating current flows through a conductor, the rate of flux change",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is higher in the inner part of the conductor",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is lower in the inner part of the conductor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is uniform throughout the conductor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depends on the resistivity of the conductor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q25",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In a circuit L, C and R are connected in series with an alternating source of frequency f. Find the value  π  of L for with the current leads the voltage by 4    π π R fC f 2 1 2 1  π π R fC f - 2 1 2 1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "           ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "   π π fC R f 2 1 - 2 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "   π π R fC f - 2 1 2            ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": " ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q26",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In a step-up transformer the turn ratio is 1 : 20. A  resistance of 100  connected across the secondary is drawing a current of 2 A. The primary voltage and the current respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 V, 0.5 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "200 V, 10 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 V, 40 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 V, 20 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q27",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal inductor of 20 henry is joined in series with a resistance of 5 ohm and a battery of 5V. The current flowing in the circuit after 4 s is (in amperes)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "e 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "e 1 - 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 - e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q28",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The rms value of the current in a series LCR circuit is plotted with angular frequency as shown below. The ohmic resistance is R, inductance is L and capacitance is C in the circuit. The value of the difference (ω2 - ω1) is  irms  i",
+    "question_diagram": "/images/last_leap_pz2/p322_q28.png",
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q29",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In the circuit diagram shown below, the reading of the a.c. voltmeter is  C = 100 F μ L = 1 H  20   XL  V  V = 200 2 sin 100t",
+    "question_diagram": "/images/last_leap_pz2/p322_q29.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "200 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 2 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q30",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In a series RLC alternating current circuit, the r.m.s. value of current is  I, the average power loss in the circuit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I2 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I2 ωL  1 )",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I2 ωC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I2 (ωL -  C ω",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q31",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A step down transformer transforms 220 V to 110 volt. If the current in primary and secondary coils are 6 A and 9.6 A respectively, the efficiency of transformer is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "70%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q32",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal inductor connected to a cell is shown in figure. Select the correct relations between readings of ammeters A1 and A2, just after the switch is closed and a long time after closing the switch  A1  L E R  A2  R S",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A1 > A2 ; A1 < A2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A1 > A2 ; A2 = A1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A1 < A2 ; A1 < A2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A1 < A2 ; A1 = A2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q33",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The power dissipated in following circuit will be about half of its maximum value at approximately  1 F μ  100   1 H  ~  50 sinωt",
+    "question_diagram": "/images/last_leap_pz2/p322_q33.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "ω = 1050 rad/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ω = 1000 rad/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ω = 950 rad/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q34",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An ac source of emf e = 50 sin 100 πt is connected across a circuit for which phasor diagram is shown in figure. The time difference between current and voltage applied across circuit is  i  30° e",
+    "question_diagram": "/images/last_leap_pz2/p322_q34.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1.25 ms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.33 ms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.67 ms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.85 ms",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q35",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The instantaneous values of current (in ampere) and potential (in volt) in an A.C. circuit are i = 4 sinωt  and  100cos - 3 V t π    ω       respectively. The power  factor of the circuit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q36",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In the given A.C. circuit, the instantaneous current through inductor and capacitor are 0.8 A and 0.4 A respectively. The instantaneous current through resistor is  L  R  C  ~",
+    "question_diagram": "/images/last_leap_pz2/p322_q36.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1.2 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.6 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.4 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q37",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In LCR series A.C. circuit, as we vary the frequency of A.C. source, a peak current is obtained. The value of this peak current, apart from the supply voltage, depends upon (symbols have their usual meaning)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "L and R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "L and C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R and C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q38",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A direct current of 2 A and an alternating current having peak value 2 A flow through two identical resistance for same time. The ratio of heat produced in the two resistance will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q39",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The inductive reactance and resistance of L-R circuit are respectively 30 ohm and 40 ohm. The impedance of the circuit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 ohm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 ohm  4 3 ohm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "70 ohm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q40",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A bulb and a capacitor are in series with an A.C. source. On increasing frequency, how will glow of the bulb change?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The glow decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The glow increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The glow remain the same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The glow first decreases then increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q41",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In the circuit shown, X is joined to Y for a long time, and then X is joined to Z. The total heat produced in R2 is (Symbols have their usual meaning)  R2  Y Z X L  R1 + - E  2  2  2 1 2 LE  2 2 2 LE",
+    "question_diagram": "/images/last_leap_pz2/p323_q41.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  2  2 2 3 1 2  1 2 2 LE  LE R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q42",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A transformer has turn ratio 1 : 5. A DC source of EMF 10 V is applied across its primary. EMF across the secondary will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q43",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A series LCR circuit has resistance 20  and self inductance 20 mH. Bandwidth of the circuit is (in radian/s)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1000",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100  1 1000",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q44",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Voltage across the resistor, inductor and capacitor in series LCR circuit are 20 V, 50 V and 50 V respectively. Peak value of the applied source is",
+    "question_diagram": "/images/last_leap_pz2/p323_q44.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "20 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 2 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "120 2 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "120 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q45",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A solenoid has an inductance of 20 henry and a resistance of 5 ohm. It is connected to a battery of 20 volt. Maximum magnetic energy stored in the magnetic field of solenoid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "160 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "320 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "80 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q46",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The r.m.s. value of current for  I = 3sinωt + 4cosωt is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 2 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 A 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 A 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q47",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "If ω1 and ω2 are half power frequencies of a series LCR circuit, then resonant frequency ωr can be expressed as  ωω ω",
+    "question_diagram": "/images/last_leap_pz2/p323_q47.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "1 2 r ω ωω",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 2 2 r  2 2 1 2 2 r  ωω ωωω  ωω ω",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q48",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A solenoid of inductance L and resistance R is connected to a battery of e.m.f. E. Maximum value of magnetic energy stored in the inductor is  2  2  E L  2 E",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2  R  2 E L  2  2 E L",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q49",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Voltage and current in an ac circuit are given by  5sin 100 6 V t V π    π      and  4sin 100 , 6 I t A π    π     hence",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Voltage leads the current by 30°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Current leads the voltage by 30°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Current leads the voltage by 60°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Voltage leads the current by 60°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q50",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The r.m.s. voltage of the waveform shown is  v  +10  t  O  -10",
+    "question_diagram": "/images/last_leap_pz2/p324_q50.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6.37 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10.5 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q51",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An alternating voltage (in volts) given by  200 2 sin100 V t  is  connected  to  1 μF  capacitor through an ac ammeter. The reading of the ammeter will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 mA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "80 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q52",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In the circuit given below, the reading of the voltmeter V will be  V 150 V 150 V  300 V 50 Hz",
+    "question_diagram": "/images/last_leap_pz2/p324_q52.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "200 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "300 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q53",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "If potential differences measured in ac voltmeters across inductor, capacitor and resistor in series LCR ac circuit are 100 V, 100 V and 50 V respectively, then peak value of the applied ac voltage to the circuit is",
+    "question_diagram": "/images/last_leap_pz2/p324_q53.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "50 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50 2 V  50 V 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 V π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q54",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Voltage and current in an a.c. circuit is given by  V = 20sin(314t)V and  10sin 314 . 3 I t A π         Wattful current in the circuit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 A 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 A 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q55",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Current I through an inductor is increasing according to I = 2t. Variation of rate of increment  of its energy du  dt         with time t is correctly shown  in the graph  du      du  dt  dt",
+    "question_diagram": "/images/last_leap_pz2/p324_q55.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "t  t  du      du  dt  dt",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q56",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A time varying current is given by  5sin . 6 I t π    ω     Its r.m.s. value is (symbols have usual meanings)",
+    "question_diagram": "/images/last_leap_pz2/p324_q56.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 5 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 A  5 A 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15 A 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q57",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A series LCR circuit consists of a variable inductance L, variable capacitance C and variable resistance R. For a given set of values of L, C and R, the supply voltage lags the current. The power factor of the circuit can be increased by",
+    "question_diagram": "/images/last_leap_pz2/p324_q57.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreasing L",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreasing C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreasing R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increasing  R, L or C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q58",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An alternating voltage  2sin V t ω at different frequencies is applied across a capacitor C as shown in the figure. Which of the following graphs between rms current (I ) observed by ammeter and angular frequency ω of voltage is correct?  C  A  ~  V  I  I",
+    "question_diagram": "/images/last_leap_pz2/p324_q58.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ω  ω",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q59",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "It is found that current through LCR series circuit is maximum. If VR , VC and VL are potential differences across resistance, capacitor and inductor  respectively, then which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "VR = VL > VC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "VR ≠ VL = VC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "VR ≠ VL ≠ VC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "VR = VC ≠ VL",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q60",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In a series L-C-R circuit, different physical quantities vary with frequency ω. Which of the following curves represent correct frequency variation of the corresponding quantity?  y  (I)  (III)  (II)  x  ω",
+    "question_diagram": "/images/last_leap_pz2/p325_q60.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Curve (I) for R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Curve (II) for XC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Curve (III) for XL",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q61",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "For the circuit shown in figure below, the ammeter A2 reads 1.6 A and ammeter A3 reads 0.4 A. If ω0 is angular frequency and f is frequency of ac, then  L  A2  C  A3  A1  ac",
+    "question_diagram": "/images/last_leap_pz2/p325_q61.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 4  LC ω  π ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 f  LC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The ammeter A1 reads 1.2 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The ammeter A1 reads 2 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q62",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In a series L-C-R circuit current through the ac source is 2 A. If resistor R used has resistance  10 . Average power dissipated in the circuit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 W",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 W",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 W",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q63",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "If the readings of V1 and V3 are 100 V each, the reading of V2 is  L C  R  V2 V1 V3",
+    "question_diagram": "/images/last_leap_pz2/p325_q63.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "200 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot be determined by given information",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q64",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "If current i1 = 3A sinωt and current i2 = 4A cosωt, then i3 is  i1 i2  i3",
+    "question_diagram": "/images/last_leap_pz2/p325_q64.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 sin( 53º ) A t ω",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 sin( 37º ) A t ω",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 sin( 45º ) A t ω",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 sin( 30º ) ω A t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q65",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A capacitor of capacitance 1 μF  is charged to a potential of 1 V. It is connected in parallel to an inductor of inductance 10-3 H. The maximum current that will flow in the circuit has the value",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1000 mA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 A μ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1000 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q66",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In a box Z of unknown elements (L or R or any other combination, an ac voltage  0 sin( ) E E t  ωϕ is applied and current in the circuit was found to be  0 sin( ) 4 I I t π  ωϕ . Then the unknown elements in  the box may be  N",
+    "question_diagram": "/images/last_leap_pz2/p325_q66.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Only capacitor",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inductor and resistor both",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Either capacitor, resistor and inductor or only  capacitor and resistor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only resistor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q67",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In the transformer shown in figure, ratio of number  1 . 50 N N   of turns of primary to the secondary is  1  2  If a battery of emf 10 V is connected across primary, then induced current through the load of 10 k in secondary is  N1 N2  10 k  10 V  1 A 20",
+    "question_diagram": "/images/last_leap_pz2/p326_q67.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 A 10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 A 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q68",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In an ac current i = 100sin100t A and  100sin(100 )volt 3 V t π   . Then the average power  dissipated in the ac circuit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2500 W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "250 W",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5000 W",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4000 W",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q69",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "EMF induced in the secondary coil of an ideal transformer does not depend upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "EMF in primary coil",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Frequency of source",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ratio of number of turns",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q70",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Phase difference between emf and current through choke coil may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "85°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q71",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "A bulb is rated at 100 V, 100 W, and is treated as a resistor. The inductance of an inductor (choke coil) that should be connected in series with the bulb to operate the bulb at its rated power with the help of an ac source of 200 V and 50 Hz is  π",
+    "question_diagram": "/images/last_leap_pz2/p326_q71.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "H 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 H π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 H π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q72",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The value of current in two series LCR circuits at resonance is same when connected across a sinusoidal voltage source. Then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Both circuits should have same value of  capacitance and inductor",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In both circuits, ratio of L and C will be same",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "For both the circuits, resistance must be same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both circuits should have same impedance at  all frequencies",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q73",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal transformer is made to step down the power line voltage of 2200 V for distribution to a city at 220 V. If the full load impedance of the city is 4  then the primary current is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "45 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.5 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "55 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.55 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q74",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "What is the phase difference between potential difference across inductor and potential difference across capacitor in a series LCR circuit?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q75",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "For a series LCR circuit quality factor is α and potential difference across circuit is β. The potential difference across inductor in resonance state will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "αβ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "β α  α β",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q76",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of current delivered by battery just after the switch is closed to a long time after switch closed is  R L  S  R 2R ε  2 3",
+    "question_diagram": "/images/last_leap_pz2/p326_q76.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "5 6",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q77",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "What is the reading of the A.C voltmeter in the network as shown in the figure?  V  X  L = 20   XC = 20 R = 10     V t  = 100 2 sinω",
+    "question_diagram": "/images/last_leap_pz2/p327_q77.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "200 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "400 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q78",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The value of power factor for a parallel LC circuit at frequency less than resonance frequency is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "> 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "< 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q79",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The rms value of an alternating voltage given by ε = (6 sin ωt - 2 cos ωt) volt is",
+    "question_diagram": "/images/last_leap_pz2/p327_q79.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4 2 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 5 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 3 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q80",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Current through an element in ac circuit is said to be wattless, when the element is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pure inductor (L)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pure capacitor (C)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Series L-C circuit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q81",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "An LC circuit contains inductor (L = 25 mH) and capacitor (C = 25 mF) with an initial charge Q0. After what time will the circuit have equal amount of electrical and magnetic energy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "s 160 π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 s 160 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 s 160 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q82",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following circuits, power factor can be zero?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LC circuit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "LCR circuit",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Purely resistive circuit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q83",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Quality factor of resonance circuit is given by (symbols have usual meanings)  0L R ω",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 RC ω",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0  0C R ω",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q84",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "Dimension of inductance is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[MLT-2A-2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[ML2T-2A2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[ML2T-2A-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[ML2T-2A-2]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q85",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "In the given circuit, switch S is closed at t = 0. After a long time the iron rod is withdrawn from the inductor L. Then, the bulb  Iron Rod  B  L  R  S",
+    "question_diagram": "/images/last_leap_pz2/p327_q85.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Glows with same brightness",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glows more brightly",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gets dimmer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stops glowing",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q86",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The circuit is in steady state when the key is at position 1. If the switch is changed from position 1 to position 2, then the steady current in the circuit is  L 1  2  E0  3L  R",
+    "question_diagram": "/images/last_leap_pz2/p327_q86.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 E  R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 3 E  R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 2 E  R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 4 E  R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q87",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "LCR series circuit is connected with an alternating emf source. If peak current and voltage are I0 and V0 respectively then at resonance the value of wattless current is  I  0 2",
+    "question_diagram": "/images/last_leap_pz2/p327_q87.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "I0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 2 I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secA_q88",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section A (Objective)",
+    "question_text": "The value of quality factor (Q-value) of the series resonant circuit with inductance L = 2.0 H, capacitance C = 32 μF and resistance R = 10 , is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "250",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.25",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secB_q1",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When a current i = (3 + 4 sin ωt) flows in a  wire, then reading of a d.c. ammeter connected in series is 4 units.\nReason (R): A d.c. ammeter measures only the value of  current amplitude.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secB_q2",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A capacitor can replace choke coil in a.c  circuit.\nReason (R): A capacitor can reduce the current in a.c.  circuit like an inductor.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secB_q3",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): On increasing frequency of a.c. through a  conductor resistance of circuit may increase.\nReason (R): Resistance of a conductor is directly  proportional to the frequency of the a.c. input.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secB_q4",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In any LCR circuit, total energy stored is  constant at resonance.\nReason (R): Resistance of LCR circuit doesn't affect the  total energy stored in the circuit at resonance.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secB_q5",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Average value of AC is always zero in one time  period.\nReason (R): Net charge transferred in one time period of AC  is zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secB_q6",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Average power in series LCR ac circuit is  maximum at resonance.\nReason (R): At resonance circuit is purely resistive.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secB_q7",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Current through a pure inductor is wattless.\nReason (R): Phase difference between emf across a pure  π.  inductor and current through it is 90° or 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secB_q8",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): DC and AC both can be measured by a hot  wire instrument.\nReason (R): A hot wire instrument works on the principle of  magnetic effect of current.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_19_alternating_current_secB_q9",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When the frequency of the AC source in a  series LCR circuit equals to the resonant frequency, the reactance of the circuit is zero.\nReason (R): There is maximum current through the inductor  as well as capacitor at resonance.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

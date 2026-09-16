@@ -588,6 +588,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     setSundayQuestions(currentList);
 
+    // Auto-save permanently so modifications immediately reflect across the platform
+    saveCustomSundayPaper(selectedPlannerPreset, {
+      questions: currentList,
+      customChapters: {
+        physics: sundayPhyUnits,
+        chemistry: sundayChemUnits,
+        biology: sundayBioUnits
+      },
+      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      publishedBy: 'Institutional Master Admin'
+    });
+
     // Update topicAllocations state
     setTopicAllocations(prev => {
       const exists = prev.some(a => a.chapter.toLowerCase() === fromTopic.toLowerCase());
@@ -735,7 +747,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const total180 = [...phy45, ...chem45, ...bot45, ...zoo45];
     setSundayQuestions(total180);
-    setActionSuccessBanner('✓ Fresh 180-Question Sunday Test Paper Assembled with 100% Chapter Isolation!');
+
+    // Auto-save permanently so modifications immediately reflect across the platform
+    saveCustomSundayPaper(selectedPlannerPreset, {
+      questions: total180,
+      customChapters: {
+        physics: sundayPhyUnits,
+        chemistry: sundayChemUnits,
+        biology: sundayBioUnits
+      },
+      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      publishedBy: 'Institutional Master Admin'
+    });
+
+    setActionSuccessBanner('✓ Fresh 180-Question Sunday Test Paper Assembled & Permanently Saved!');
     setTimeout(() => setActionSuccessBanner(null), 3500);
   };
 
@@ -782,7 +807,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const copy = [...sundayQuestions];
     copy[questionIdx] = newQ;
     setSundayQuestions(copy);
-    setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped strictly with a question from ${ch || sub}!`);
+
+    // Auto-save permanently so modifications immediately reflect across the platform
+    saveCustomSundayPaper(selectedPlannerPreset, {
+      questions: copy,
+      customChapters: {
+        physics: sundayPhyUnits,
+        chemistry: sundayChemUnits,
+        biology: sundayBioUnits
+      },
+      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      publishedBy: 'Institutional Master Admin'
+    });
+
+    setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped strictly with a question from ${ch || sub} & permanently saved!`);
     setTimeout(() => setActionSuccessBanner(null), 3000);
   };
 
@@ -808,9 +846,22 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       explanation: editForm.explanation
     };
     setSundayQuestions(copy);
+
+    // Auto-save permanently so modifications immediately reflect across the platform
+    saveCustomSundayPaper(selectedPlannerPreset, {
+      questions: copy,
+      customChapters: {
+        physics: sundayPhyUnits,
+        chemistry: sundayChemUnits,
+        biology: sundayBioUnits
+      },
+      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      publishedBy: 'Institutional Master Admin'
+    });
+
     setEditingQuestionIdx(null);
     setEditForm(null);
-    setActionSuccessBanner(`✓ Question #${idx + 1} updated and saved!`);
+    setActionSuccessBanner(`✓ Question #${idx + 1} updated & permanently saved!`);
     setTimeout(() => setActionSuccessBanner(null), 3000);
   };
 

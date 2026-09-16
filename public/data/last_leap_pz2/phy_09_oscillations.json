@@ -1,0 +1,6467 @@
+[
+  {
+    "question_id": "phy_09_oscillations_secA_q1",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum kinetic energy of a simple pendulum is E. Then the maximum potential energy of pendulum",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is equal to E",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is less than or E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May be equal to E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is greater than E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q2",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A smooth narrow tunnel is dug along the chord of earth. The time period of vibration of a small ball dropped from one end of the tunnel is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60 minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "84.6 minute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "42.3 minute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 minute",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q3",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The time period of vibration of a uniform disc of mass 'M' and radius 'R' about an axis perpendicular to the plane of disc and passing from  R from the center of disc is  a point at a distance 2  3 2 R  3  R",
+    "question_diagram": "/images/last_leap_pz2/p173_q3.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2π  g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2π  g  2  2 3 R  3 2 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2π  g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2π  g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q4",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two identical blocks each of mass 'M' are connected with springs of spring constant 'K' and placed on smooth surface as shown in figure. When the blocks are in contact the springs are in its natural length. The collision between masses is  elastic. The frequency of vibration on disturbing the masses symmetrically in the directions of arrows and releasing them is  M M K K  Smooth surface",
+    "question_diagram": "/images/last_leap_pz2/p173_q4.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2 K M π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 4 K M π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 K M π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q5",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A disc of mass 'M' and radii 'R' is attaced with spring of spring constant 'K'. The time period of oscillation of disc spring system is  K  I M R K  I M R K   π",
+    "question_diagram": "/images/last_leap_pz2/p173_q5.png",
+    "options": [
+      {
+        "label": "2",
+        "text": " π  2 2 2 2  2 2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 K  π   π  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 M I KR  I M R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q6",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two mutually perpendicular simple harmonic vibration of same frequency superimpose on each other. The amplitude of two vibration is different and  π. The  they are differing each other in phase by 2  resultant of superposition is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parabola",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Straight line",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Elliptical",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Circular",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q7",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two equation of S.H.M. are Y = a sin(ωt - α) and Y = b cos(ωt - α). The phase difference between the two is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "α°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "180°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q8",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "If a particle in S.H.M. has time period 0.1 s and amplitude of 6 cm. Its maximum velocity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "120π cm/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.6π cm/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "π cm/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 cm/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q9",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A ring of radius R is hung by a hail on its periphery such that it can freely rotate in its vertical plane. The time period of ring for small oscillation is",
+    "question_diagram": "/images/last_leap_pz2/p174_q9.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2  π R T g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π R T g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2  π R T g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 5  π R T g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q10",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The potential energy U (in J) of a body executing S.H.M. is given by U = 20 + 10(sin2 100πt), then the minimum potential energy of the body is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q11",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The equation of S.H.M. is gives as x = A sin (0.02πt), where t is in seconds. With what time- period the potential energy oscillates?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q12",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "In a stationary lift a spring-block system oscillates with a frequency f. When the lift accelerates up the frequency becomes f, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "f > f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "f < f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "f = f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of the above depending on the value of  acceleration of the lift",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q13",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The kinetic energy (K) of a simple harmonic oscillator varies with displacement (x) as shown. The period of oscillation is (mass of oscillator is 1 kg)  K (J)  2  x (m)  0 -0.5",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q14",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The equation of an SHM is given as  3sin 4cos y t t  ω ω where y is in centimetres. The amplitude of the SHM is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q15",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The equation of an SHM is given as  5sin 4 3 x t π    π      , where t is in seconds and x  in metres. During a complete cycle the average speed of the oscillator is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q16",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The equation of a simple harmonic oscillator is  given as  sin 20 3 y A t π    π      , where t is in  seconds. The frequency with which kinetic energy oscillates is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 Hz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 Hz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 Hz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 Hz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q17",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "What is the period of oscillation of the block shown in figure?  2k  k k  k π",
+    "question_diagram": "/images/last_leap_pz2/p174_q17.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "4 2 M k π",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M  k π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 M  k π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q18",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "If a simple pendulum is brought deep inside a mine from earth surface, its time period of oscillation will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain the same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of the above depending on the length of  the pendulum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q19",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The amplitude of a simple harmonic oscillator is A and speed at the mean position is v0. The speed  A x   is  of the oscillator at the position   3  v",
+    "question_diagram": "/images/last_leap_pz2/p175_q19.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "0 2 3 v",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 2  3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 2 3 v",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 2  v  3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q20",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Initial phase of the particle executing SHM with y = 4 sin ωt + 3 cos ωt is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "53°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "37°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "45°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q21",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A spring-block system is brought from earth surface to deep inside mine. Its period of oscillation will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain the same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May increase or decrease depending on the  mass of the block",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q22",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle executes S.H.M with amplitude A. If the time taken by the particle to travel from -A to A/2 is 4 seconds. Its time period is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "18 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q23",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of time periods for figure (a) and (b) is T1 and T2 respectively, if all surfaces shown below  T  are smooth, then the ratio   1   is  T  2  k  k m  m  60°                   (a)    (b)",
+    "question_diagram": "/images/last_leap_pz2/p175_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q24",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two simple harmonic motions are represented by  y1 = 6 sin 2 3 t π   π       and    2 3 sin2 cos2 y t t  π π .  The ratio of their amplitudes is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q25",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is attached to a vertical spring and pulled down a distance 0.01 m below its mean position and released. If its initial acceleration is 0.16 m/s2  then its time period in seconds will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q26",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The phase difference between velocity and displacement in a simple harmonic motion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q27",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A disc executes S.H.M. about the axis X X' in the plane of disc as shown in the figure. Its time period of oscillation is  X X'  R/2  C  R",
+    "question_diagram": "/images/last_leap_pz2/p175_q27.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6R g π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 R  g π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 R g π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 R  g π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q28",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A spring block system shown in the figure oscillates with certain time period. If charge q is given to the block and a uniform field E is switched on then its time period of oscillation is  q E",
+    "question_diagram": "/images/last_leap_pz2/p175_q28.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May increase or decrease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remains same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q29",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The period of oscillation of spring block system shown in the figure is (Assume pulley and spring to be ideal)  3k  k  m  k π",
+    "question_diagram": "/images/last_leap_pz2/p175_q29.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "4 2 3 m",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 3 m  k π  k π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 4 m  k π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q30",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The graph between velocity and acceleration of a particle executing S.H.M. can be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A circle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "An ellipse",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A straight line",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q31",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The potential energy of a particle of mass m executing SHM is given by U = A(1 - cos2x), where x is instantaneous displacement of the particle. Time period of oscillation is",
+    "question_diagram": "/images/last_leap_pz2/p176_q31.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "m  A π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 m  A π  A π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 m  A π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q32",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The displacement of an object attached to a spring and executing simple harmonic motion is given by x = 4 cosπt metre. The time at which the maximum acceleration occurs first, after the start is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 s  ℓ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q33",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform rod of length ℓ is suspended at 4   from  one end and made to undergo small oscillations. The time period of oscillation is  7 2 12 π ℓ  3 2 7 π ℓ g",
+    "question_diagram": "/images/last_leap_pz2/p176_q33.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7 2 3 π ℓ g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 2 5 π ℓ g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q34",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A simple pendulum with a metalic bob has a time period T. The bob is now immersed in a non  viscous liquid and time period is found to be  5T .  The ratio of density of metal to that of liquid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1/4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4/3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5/4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7/3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q35",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle executes S.H.M. with time period T. The time period of oscillation of total energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q36",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is executing linear simple harmonic motion with amplitude a and angular frequency 'ω'. Its average speed for its motion from extreme to mean portion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 aω",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 aω  π  aω  2aω π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q37",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two simple harmonic motions  1 sin y a t  ω and  2 2 2 sin 3 y a t π    ω     are superimposed on a  particle of mass m. The maximum kinetic energy of the particle is  2 2 5 4 m a ω  2 2 1 2 m a ω",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 2 3 2 m a ω",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q38",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The time period of oscillation of a simple pendulum of length equal to half of the diameter of earth is about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60 minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "84.6 minute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "42.3 minute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 hour",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q39",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Displacement function of time is given as y = 2 sin ωt + 2 cos ωt. The amplitude of function is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q40",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "All the surfaces are smooth and springs are ideal. If block of mass m is given the velocity v0 to the right direction, then the time period of block shown in figure is  k 4 k  v0  l l  2 3 2 π  ℓ m v k  12ℓ v",
+    "question_diagram": "/images/last_leap_pz2/p176_q40.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0  0  4 3 2  π ℓ m v k",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 πm k",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q41",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not true for damped oscillations with time period  t and initial amplitude a?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Angular frequency is slightly less than the  natural frequency",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Force remains constant in time interval t = 0  T  to t = 8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If amplitude after time t is a  N , then the  amplitude after time 2t is  2 a  N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Total mechanical energy is exponentially  decreasing",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q42",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Time period of given spring mass system is",
+    "question_diagram": "/images/last_leap_pz2/p177_q42.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2πm k  2 k  2 k",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 π m  k  m  2 2 3 π m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "k  30°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "πm  k",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 177,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q43",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "For damped oscillator graph between energy and time is  E  E",
+    "question_diagram": "/images/last_leap_pz2/p177_q43.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "t  t  E  E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 177,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q44",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "In the spring pendulum, in the place of mass liquid is used. If liquid leaks out continuously then time period of spring pendulum",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases continuously",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases continuously",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First increased and then decreased",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First decreased then increased",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 177,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q45",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The equation of simple harmonic motion is given by    5 4 cm sin 6.28 3 x t π          then  maximum  velocity of the particle in simple harmonic motion are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25.12 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25.12 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12.56 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12.56 cm/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 177,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q46",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Equation of simple harmonic motion is x = a sin ωt, then for which value of x kinetic energy equal to the potential energy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x = ± a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 a x ±  a x ±",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 a x ±",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 177,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q47",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Spring pendulum is on the rotating table. Initial angular velocity of the table is ω0 and time period of pendulum is T0. Now the angular velocity of table becomes 2ω0, then new time period will",
+    "question_diagram": "/images/last_leap_pz2/p177_q47.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2T0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 2 T  T  0 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 177,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q48",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Angular frequency of given spring mass system is (k = 6000 N/s, m = 30 kg)  k  m  k  Smooth surface  20 π rad/s",
+    "question_diagram": "/images/last_leap_pz2/p177_q48.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10 π rad/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 rad/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "400 rad/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 177,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q49",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "If vertical spring mass system dipped in a non viscous liquid, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only mean position is changed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only time period is changed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Time period and mean position both are  changed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Time period and mean position both remain  same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 177,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q50",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The displacement x of a particle varies with time t   π  π  3 2 sin t T A x . Time taken by particle to      as     reach from  2 A x   to  2 A x    is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 177,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q51",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Force on a particle F varies with time t as shown in the given graph. The displacement x versus time t graph corresponding to force-time graph is  F  t  x  x",
+    "question_diagram": "/images/last_leap_pz2/p178_q51.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "t",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  x  x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q52",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Time period of a simple pendulum in a stationary trolley is T1. If trolley is moving with a constant speed, then time period is T2, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T1 > T2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T1 < T2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T1 = T2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T2 = ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q53",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle executes S.H.M with frequency 20 Hz. The frequency with which its potential energy oscillates is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 Hz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 Hz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 Hz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 Hz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q54",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is moving along the x-axis. The speed of  2 2 1 144 9 v x   .  particle v varies with position x as   The time period of S.H.M is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "π unit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 3π unit",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 π unit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 π unit",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q55",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A block of mass m is attached to a massless spring having spring constant K. The other end of spring is fixed from the wall of a trolley, as shown in figure. Spring is initially unstretched and trolley starts moving toward the direction shown. Its velocity-time graph is also shown.  v  K  t Smooth  m  θ = 37°  Motion  The energy of oscillation, as seen from trolley is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K m 6 32 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K m 8 9 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K m 32 9 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K m2  9 8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q56",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A body of mass 20 g is executing S.H.M with amplitude 5 cm. When it passes through equilibrium position its speed is 20 cm/s. Find the distance from equilibrium when its speed becomes 10 cm/s",
+    "question_diagram": "/images/last_leap_pz2/p178_q56.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 3 5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 5 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 7 25  cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 3 5 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q57",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "For a simple harmonic oscillator velocity-time diagram is shown. The angular frequency of oscillation is  V (m/s)  10  5  0 20 40 80 60 t(ms)  -5  -10",
+    "question_diagram": "/images/last_leap_pz2/p178_q57.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 25 rad/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 25π rad/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "25 rad/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25π rad/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q58",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "In an S.H.M when displacement is one fourth of the amplitude, the ratio of total energy to the potential energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "16 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 16",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q59",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle executing S.H.M is displacement x varies with time t as x = 8 sin 4t + 6 cos 4t,  The maximum velocity of the particle will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 unit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 unit",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 unit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 unit",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q60",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The amplitude of oscillation for a particle executing S.H.M with angular frequency π rad/s and maximum acceleration 5π2 m/s2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q61",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is true for ideal simple pendulum?  l T π 2  is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The expression for time period  g  true only for oscillation of infinitely small amplitude",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The motion of bob is rotatory",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The buoyancy of air has appreciable effect on  the motion of bob",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 178,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q62",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A mass of 30 g is attached with two springs having spring constant 100 N/m and 200 N/m and other ends of springs are attached to rigid walls as shown in the given figure. The angular frequency of oscillation is  100 Nm -1 200 Nm -1",
+    "question_diagram": "/images/last_leap_pz2/p179_q62.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "π 2 100  rad/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π 100  rad/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 rad/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200π rad/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q63",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A simple pendulum of length l and bob of mass m is executing S.H.M with amplitude A. The maximum tension in the string will be  A l mg   2 2 ) (  l mg",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2      ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "   A l  l  2          l mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "   A l mg    ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "    2 2  l  l A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q64",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "If a bob of simple pendulum having negative charge q is made to oscillate in a uniform electric field acting vertically upward direction, then its time period",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No effect of electric field",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decreases or increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q65",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Find the % change in time period if the length of simple pendulum is increased by 3%",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.5%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.5%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q66",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A disc is oscillating about a horizontal axis passing through its rim and perpendicular to the plane of disc. If radius of disc is R, then frequency of oscillation is",
+    "question_diagram": "/images/last_leap_pz2/p179_q66.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "g R 2 3 2π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  g 3 2 2π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "g R 2 3 2 1 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R  g 3 2 2 1 π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q67",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The amplitude of a damped oscillator becomes one  1 times of the  third in 10 minutes and it becomes n  original in 30 minutes. The value of n is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "81",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "27",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q68",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is executing SHM with time period T. Time taken by it to travel from mean position to  1  2  times its amplitude is equal to  T",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "12 T",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "6  T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q69",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A simple pendulum is hanged in a cart and cart is sliding on inclined plane of inclination 60°, with horizontal. If friction has no role, then time period of oscillation will be (here, l is length of simple pendulum)  l π 2",
+    "question_diagram": "/images/last_leap_pz2/p179_q69.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "g  l8 π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "g  l2 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "g  l 2 3 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q70",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A force F = -Kxn acted on a particle, where K is positive constant. The value of n for which motion can be oscillatory, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q71",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A block of mass 2 kg is hanging with a massless spring and spring is stretched by 40 cm. If the block is pulled down and released, then find the period of oscillation (here, g = 10 m/s2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "s 5 3 π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "s 2 5 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "s 5 2 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "s 3 5 π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q72",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A spring is attached vertically to the ceiling of a lift and lower end of spring is connected with a block of mass 2 kg. If the lift starts accelerating upwards with an acceleration 2 m/s2, then find the amplitude of S.H.M, while spring constant is 100 N/m",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q73",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The motion of particle is started at t = 0 and   π   t x      equation of motion is given by  , 6 100 sin 8    where, x is in cm and t is in seconds. When will the particle comes to rest for the first time?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "s 300 π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "s 200 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "s 100 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "s 400 π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q74",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "What will be frequency of oscillation of a simple pendulum, if the length of the pendulum is equal to the radius of earth?",
+    "question_diagram": "/images/last_leap_pz2/p180_q74.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "g R π 2 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R  g π 1  g 2 2 1 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R  g 3 2 1 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q75",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Curve between the potential energy (u) and displacement (x) is shown. Which of the oscillation is about the mean position x = 0?  u  u",
+    "question_diagram": "/images/last_leap_pz2/p180_q75.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "x  x  u  u",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x  x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q76",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The time period of a body under S.H.M. is T1 and T2 when restoring forces F1 and F2 respectively act on it. What will be the time period of S.H.M. when both the forces act simultaneously on it?  T T  2 1 T T  ",
+    "question_diagram": "/images/last_leap_pz2/p180_q76.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "T1 + T2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 1  2 2 2 1 T T  T T ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T T  2 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 2 1    T T  2 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q77",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass 'm' is executing oscillations about the origin on the x-axis. Its potential energy is U(x) = k|x| where k is a positive constant. If the amplitude of oscillation is a, then its time period T is directly proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a-1/2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a1/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q78",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is subjected to two mutually perpendicular SHM such that x = 2sinωt and  2sin . 2 y t π    ω     The path of the particle will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "An ellipse",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A straight line",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A parabola",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A circle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q79",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Suppose that a pendulum clock is carried to a depth of 32 km inside earth (Radius R = 6400 km).To have correct time from the clock, by what percentage the effective length of the pendulum should be changed?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-0.5%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-1.0%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q80",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "In damped harmonic oscillation, the amplitude of oscillation becomes one third after 2 s. If A0 is initial amplitude of oscillation, then amplitude after 1 s from start will be  A  0",
+    "question_diagram": "/images/last_leap_pz2/p180_q80.png",
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q81",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "When a periodic force  1 F acts on a particle, the  particle oscillates according to the equation x = A sin ωt. Under the effect of another periodic  force  2 F , the particle oscillates according to the equation y = Bsin(ωt + π/2). The amplitude of  oscillation when the force   2 1 F F   acts is",
+    "question_diagram": "/images/last_leap_pz2/p180_q81.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A + B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 B A   2 2 B A ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "AB",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q82",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is executing SHM with amplitude A and angular frequency ω. The time taken by the particle to move from x = 0 to x = A/2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ω π 12",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ω π 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ω π 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ω  π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q83",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A spring-block system oscillates with time-period T on earth surface. When the system is brought into a deep mine, The time period of oscillation becomes T . Then one can conclude that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T > T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T < T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T = T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T = 2T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q84",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle executes harmonic oscillations under the effect of a small damping. If the amplitude of oscillation becomes half of the initial value 16 mm, in five minutes, then what will be the amplitude after fifteen minutes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 mm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 mm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q85",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect about simple harmonic oscillations of a particle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Force and acceleration differ in phase by angle  of 90°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Force varies linearly with displacement",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Velocity is 90° ahead in phase relative to  displacement from the mean position",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K.E. is zero at the extreme position(s)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q86",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "For a particle executing SHM, the graph between its momentum and displacement will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Straight line",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hyperbola",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parabola",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ellipse",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q87",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle executes SHM of amplitude 10 m and period 4 s along straight line. The velocity of the particle at a distance 6 m from mean position is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2π m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4π m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6π m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5.4π m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q88",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform rod of mass m and length L pivoted from its one end is executing SHM with time period T. If rod suddenly breaks from middle while passing through its mean position, then time period of oscillation of remaining half part will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 T  T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q89",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A pendulum oscillates about its mean position C. The position where the speed of the bob becomes maximum is  A  D  C B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q90",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is executing linear S.H.M. between x = ± A. The time taken to go from 0 to A/2 is T1 and to go from A/2 to A is T2, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T1 < T2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T1 > T2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T1 = T2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T1 = 2T2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q91",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The position x (in centimeter) of a simple harmonic oscillator varies with time t(in second) as  x = 2cos 0.5 3 t π   π     The magnitude of the maximum acceleration of the particle in cm/s2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "π/2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π/4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "π2/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π2/4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q92",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A horizontal platform is executing simple harmonic motion in the vertical direction with frequency f. A block of mass m is placed on the platform. What is the maximum amplitude of the SHM, so that the block is not detached from it?  mg  mg",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 2  f π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 4  f π  g  g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 4  f π  f π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q93",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A body at the end of a spring executes S.H.M. with period T1, while the corresponding period for another spring is T2. If the period of oscillation with two springs in series is T, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T = T1 + T2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 2 1 2 T T T    1 1 1  1 1 1 T T T  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 2 1 2  T T T  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q94",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A body is executing linear S.H.M. At a body position x, its potential energy is E1 and at a position y, its potential energy is E2. The potential energy at the  position (x + y) is",
+    "question_diagram": "/images/last_leap_pz2/p181_q94.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "E1 + E2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 1 2 E E ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 1 2 2 E E E E  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 E E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q95",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Equation of a particle executing simple harmonic  motion is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q96",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal spring mass system has time period of vibration T. If the spring is cut into 4 identical parts and same mass is oscillated with one of these parts, then new time period of vibration will be  T",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "T",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q97",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Equation of a particle executing simple harmonic  motion is  2 2 sin 314 y t  . Displacement y  from mean position where acceleration becomes zero is (y is in cm and t is in second)",
+    "question_diagram": "/images/last_leap_pz2/p182_q97.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0  1  2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q98",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The equation of an S.H.M. is given as x = 5sin(4πt), where symbols have their usual  T t ,  meanings. During a half cycle  0 2   ≤ ≤      average acceleration (in m/s2) of the oscillator is (x is in metre and time t is in second)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "180π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "120π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "160π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q99",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The displacement (x) of an S.H.M. varies with time (t) as shown in figure. The frequency of variation of potential energy is  x",
+    "question_diagram": "/images/last_leap_pz2/p182_q99.png",
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q100",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A simple pendulum bob is a hollow sphere full of sand suspended by means of a wire. If all the sand is drained out immediately, then time period of the pendulum will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Become erratic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q101",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A simple pendulum of length L is suspended from the ceiling of a cart which is sliding without friction on an inclined plane of inclination θ. The time period of the pendulum is",
+    "question_diagram": "/images/last_leap_pz2/p182_q101.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 L T g  π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 cos  L T g π θ  L T g  π θ  L T g  π θ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 tan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 sin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q102",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A body is placed on a horizontal platform which is undergoing vertical SHM. If the amplitude of oscillation is 40 cm, then the least period of oscillation for which an object placed over the platform is not detached from it is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.256 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12.56 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.1256 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "125.6 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q103",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The variation of acceleration a of a particle executing SHM with displacement x is  a",
+    "question_diagram": "/images/last_leap_pz2/p182_q103.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "x  a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x  a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x  a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q104",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "If a pendulum giving correct time on ground at a certain place is moved to the top of a tower 320 m high, then the loss in time (in second) measured by the pendulum clock in one week is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "15.12",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7.72",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.78",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30.24",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q105",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Instantaneous acceleration (in ms-2) of a particle  executing S.H.M. is given by  - sin - 4 4 6 a t π π π         .  The maximum speed of the particle will occur first time at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.75 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.4 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.2 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.67 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q106",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle moves according to the equation  cos . 2 x A t π   Distance covered by it in the time  interval of t = 0 to t = 3 s, is (symbols have their usual meanings)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q107",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two simple pendulums of length 1 m and 16 m are in same phase at the mean position at any instant. If T is the time period of smaller pendulum, then minimum time after which they will again be in same phase, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3  2 T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 4 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2  3 T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 3 T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q108",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle executes SHM with a time period of 4 s. The time taken by the particle to go directly from its mean position to half of its amplitude is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 s 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 s 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q109",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A body of mass m hanging with the help of three springs, each of spring constant k as shown. If the mass is slightly displaced and released, then the system will oscillate with time period  k  k k  m  k π",
+    "question_diagram": "/images/last_leap_pz2/p183_q109.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "2 2 3 m",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 3 m  k π  k π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 k m π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 2 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q110",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A block of mass m attached to a spring of constant k oscillates on a smooth surface. The other end of the spring is fixed to a wall. When spring is at its natural length, speed of the block is v. Displacement of the block from its mean position before coming to instantaneous rest is",
+    "question_diagram": "/images/last_leap_pz2/p183_q110.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "mv  k",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "m v k",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "v m k",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 m k v",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q111",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle under SHM has a maximum speed of 30 cm/s and a maximum acceleration of 60 cm/s2. The time period of oscillation (in second) is  π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q112",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The x-t graph of a particle undergoing SHM is shown below. The acceleration of the particle at  4 3 t   is  x(cm)  1  4 8 12 t(s)  0  -1  3 2 3 cm/s 32 π",
+    "question_diagram": "/images/last_leap_pz2/p183_q112.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 cm/s 32 π ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 cm/s 32 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 3 cm/s 32  π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q113",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Position-time (y-t) graph of a particle executing S.H.M. is shown. Time period of particle is 4 second. Equation of particle executing S.H.M. is  y (m)  6  3 (0, 0)  t (s)",
+    "question_diagram": "/images/last_leap_pz2/p184_q113.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6sin 2 6 π    π     y t",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6sin 2 3 π π         y t",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6sin 2 6 π π         y t",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6sin - 2 6 π π        y t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q114",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle starts executing SHM from extreme position with time period T and amplitude A. The  distance travelled by the particle in time 15  18 T is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.5 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.5 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q115",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two tunnels are dug across earth as shown in the figure. Balls A and B are dropped in the tunnels. If time period of oscillation of ball A is T, the time period of oscillation of ball B is  Ball  B Ball  A 60°",
+    "question_diagram": "/images/last_leap_pz2/p184_q115.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2 T  2  2 3T  3 T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q116",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement(s) regarding S.H.M.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The average speed of particle executing S.H.M.  is zero in one complete oscillation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Graph between kinetic and potential energy of  a particle executing S.H.M. is a straight line",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Restoring force acting on particle is directed  towards a fixed point and is directly proportional to displacement from the mean position of the particle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q117",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Graph between velocity (v) of a particle executing S.H.M. and its displacement (x) is shown in the figure. The time period of oscillation is  v (m/s)  β  x (m)  α",
+    "question_diagram": "/images/last_leap_pz2/p184_q117.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "α β",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 α πβ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 β   π  α  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2   α π  β  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q118",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The displacement of a body performing simple harmonic  motion  is  represented  by  sin 2 3 x a t π    π      . After what approximate time  from t = 0, speed of particle becomes maximum for the first time?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.12 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.24 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.33 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.42 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q119",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is performing S.H.M. with time period 8 s and starts from the origin. The ratio of distance travelled by particle in 1st second and 2nd second of its motion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "( 2 1) ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "( 2 -1)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q120",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two particles are executing S.H.M. about same mean position, along same straight line, with same amplitude and time period. At any instant they meet  A while moving in opposite direction.  each other at - 2  The phase difference between them is  2 3 π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "3 π",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "11 6 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 6 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q121",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A small block of mass m is kept on a wooden plank which is oscillating in vertical plane (as shown), with time period T. The amplitude of oscillation at which block leaves contact with the plank is  m  Plank  Mean  2  2  gT ≤  4 gT ≥ π",
+    "question_diagram": "/images/last_leap_pz2/p185_q121.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 4  π  2  2  gT ≤  gT ≥",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2  2 4  π  π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q122",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle performing S.H.M. is at rest at points P and Q which are at a distance a and b from point O. It has velocity v when it is half way between P and Q. The time period of oscillation is  v  P O Q  M  a  b  - b a v b a       ",
+    "question_diagram": "/images/last_leap_pz2/p185_q122.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "( - ) b a v π  - b a v ba   π   ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Data is insufficient to answer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q123",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The time period of a simple pendulum in a stationary lift is T. If the lift moves upwards with an acceleration g, then the new time period will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Infinite",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q124",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Acceleration-time (a-t) graph for a particle performing S.H.M. is shown in the figure. Select the incorrect statement.  2  a (m/s )  D A  t (s)  (0, 0)  B  C",
+    "question_diagram": "/images/last_leap_pz2/p185_q124.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Displacement of particle at A is negative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Potential energy of particle at C is minimum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Velocity of particle at B is positive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Speed of particle at D is decreasing",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q125",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is executing S.H.M. such that its acceleration a is function of displacement x as a = -β(x - 6). The time period of the oscillation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "π  β  π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2  β  π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2  β  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2π  β",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q126",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass 0.5 kg is executing S.H.M. such that its potential energy is 5 J at mean position. If its total mechanical energy is 9 J and amplitude of oscillation is 1 cm, then the time period of oscillation of the particle is  2 s 100 π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "s 200 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "s 25 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2π s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q127",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The total mechanical energy of a linear harmonic oscillator is 600 J. At mean position its potential energy is 100 J. The minimum potential energy of oscillator is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "500 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q128",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A general graph showing variation in potential energy (PE) of a particle with time while executing S.H.M. is  PE  PE  time O  time O",
+    "question_diagram": "/images/last_leap_pz2/p186_q128.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PE  PE  time O  time O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q129",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two blocks of masses 2 kg and 1 kg oscillate with a light spring of spring constant k = 300 N/m as shown. The time period of the oscillation is  2 kg k 1 kg  μ = 0 μ = 0",
+    "question_diagram": "/images/last_leap_pz2/p186_q129.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 s 30 π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 s 15 π  5 2 s 3 π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 s π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q130",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two simple pendulum of lengths 1.44 m and 1 m start S.H.M. together in same phase. They will be in same phase again after",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 vibrations of longer pendulum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 vibrations of smaller pendulum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 vibrations of smaller pendulum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 vibrations of longer pendulum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q131",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A spring has equilibrium elongation 0.1 m, when suspended vertically with a load. If the load is slightly displaced vertically downward and released, then time period of SHM of the system will be approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.4 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.6 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.3 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q132",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement regarding potential energy (u) in simple harmonic motion of a particle along x-axis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 du dx   for all position of particle performing  S.H.M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 du dx   for all time",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential energy is minimum at equilibrium  position of particle performing S.H.M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potential energy increases linearly with position  as particle moves away from equilibrium position",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q133",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A simple pendulum is pushed slightly from its equilibrium towards left and then set free to execute S.H.M. Select correct graph between its velocity(v) and displacement (x)  v",
+    "question_diagram": "/images/last_leap_pz2/p186_q133.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "x  v",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x  v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x (0, 0)  v",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x (0, 0)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q134",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Simple harmonic motion is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uniformly accelerated motion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Uniform motion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nonuniform accelerated motion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q135",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle under SHM takes 1.2 s to complete one vibration. Minimum time taken by it to travel from mean position to half of its amplitude is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.2 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.4 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.3 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q136",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Potential energy of a particle executing SHM at extreme position and mean position are 20 J and 5 J respectively. Kinetic energy of the particle at mean position is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12.5 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q137",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle moves in xy plane according to equation  (5 3 ) sin 2 r i j t   \u0002  . The motion of the particle is  along",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Straight line and periodic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Circle and non-periodic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ellipse and periodic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Parabola and non-periodic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q138",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Equation of simple harmonic motion of a particle is y = (0.4 m) sin 314 t, where, time t is in second. Frequency of vibration of the particle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 Hz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "75 Hz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 Hz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25 Hz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q139",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle starts SHM from the mean position. Its amplitude is A and time period is T. At the time when its speed is half of its maximum speed, its displacement is  A",
+    "question_diagram": "/images/last_leap_pz2/p187_q139.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2  A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 A  2  A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q140",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The acceleration of a particle in SHM is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Always zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Always constant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maximum at extreme position",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maximum at equilibrium position",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q141",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is performing SHM with amplitude A and angular frequency ω. The ratio of magnitude of maximum velocity to maximum acceleration is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ω",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 ω",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ω2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aω",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q142",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The potential energy of a particle executing SHM is 2.5 J, when its displacement is half of amplitude. The total energy of particle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "18 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.5 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q143",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All SHM's have fixed time period.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All motions having same time period are SHM.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In SHM, total energy is proportional to square  of amplitude",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phase constant of SHM depends upon initial  conditions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q144",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "If a simple pendulum is suspended from the roof of a trolley which moves in horizontal direction with an acceleration a, then the time period is given by  2 , l T g  π  where g is equal to",
+    "question_diagram": "/images/last_leap_pz2/p187_q144.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "g - a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "g + a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 g a ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q145",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "In the given figure when two identical springs are attached with a body of mass m, then oscillation frequency is f. If one spring is removed, then the frequency will become  m A  B  S1 S2",
+    "question_diagram": "/images/last_leap_pz2/p187_q145.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2f  f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q146",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The function sin2(ωt) represents  2π ω",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "An SHM with a period of   π ω",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "An SHM with a period of",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A periodic motion but not SHM with a period  2π ω  of",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A periodic motion but not SHM with a period of  π ω",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q147",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Values of the acceleration A of a particle moving in simple harmonic motion as a function of its displacement x are given below  A (mms-2) 16 8 0 -8 -16  x (mm) -4 -2 0 2 4  The period of the motion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 s π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 s π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "s 2 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q148",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Acceleration-time graph of a particle undergoing SHM is shown in figure.  a  1  t  2 4  3",
+    "question_diagram": "/images/last_leap_pz2/p188_q148.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Velocity of particle at point 2 is zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Velocity at point 3 is zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Velocity at point 2 is +ve and maximum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q149",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "For a particle executing simple harmonic motion, the KE is given by K = K0 cos2ωt. Then maximum value of potential energy (for given particle)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "May be K0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Must be K0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May be less than K0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q150",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A body of mass M is situated in potential field. Potential energy of the body is given by  U(x) = U0 [1+cos Kx]; where x = position, K and U0 = constant. Period of small oscillations of the body will be",
+    "question_diagram": "/images/last_leap_pz2/p188_q150.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 0 2 MU K π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 0 2 M  U K π  2 0 2 U K  0 2 2 U  MK π  M π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q151",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is executing SHM about origin along x- axis, between points A(α, 0) and B(-α, 0). Its time period of oscillation is T. The magnitude of its  T second after the particle reaches  acceleration 12  point A will be  πα  2  πα",
+    "question_diagram": "/images/last_leap_pz2/p188_q151.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "2 2 2 T",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 3 T  πα",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "πα  2  2  2 2 3 T  2 3 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q152",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle executes linear oscillation such that its epoch is zero. The ratio of magnitude of its displacement in 1st second and 2nd second is (Time period = 12 second)  1  1",
+    "question_diagram": "/images/last_leap_pz2/p188_q152.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 1 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 1 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 1 2 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3  3 1 ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q153",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A block of mass 0.02 kg is connected with a spring and is free to oscillate on horizontal smooth surface as shown. The angular frequency of oscillation is 2 rad s-1. The block is pulled by 4 cm (from equilibrium position) and then pushed towards the spring with a velocity of 8 cm/s. The amplitude of oscillation is (Neglect any damping)  v = 8 cm/s  4 cm",
+    "question_diagram": "/images/last_leap_pz2/p188_q153.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 2 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q154",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle moves on a circular path with uniform speed about origin. The x-t graph will be (x : value of x-coordinate; t-time)  x  x",
+    "question_diagram": "/images/last_leap_pz2/p189_q154.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "t",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  x  x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q155",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A simple pendulum has time period T. The bob is given negative charge and surface below it is given positive charge. The new time period will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Less than T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Greater than T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Equal to T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q156",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A simple pendulum attached to the ceiling of a stationary lift has a time period 1 s. The distance y covered by the lift moving downward varies with time as y = 3.75 t2, where y in meter and t in second. If g = 10 m/s2, then the time period of the pendulum will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q157",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following may represent the potential energy of a body in S.H.M.? (Symbols have usual meaning)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "mω2A2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 1 2 ω m x  2 2 1 2A m      ω  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q158",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "If  a  physical  quantity  is  given  by  sin( - ) y A kx t  ω where symbols have usual  2    2 y  meaning, then the dimensional formula for     is  x  best described by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[M0L0T-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M-1L0T-1]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0L1T0]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M0L-1T0]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q159",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle moves according  (6 cm) cos . 2 x t π            Average velocity of the  particle in the time interval between t = 0 to t = 3 s is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.5 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 cm/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 cm/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q160",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle performs S.H.M. with frequency f. Frequency of its velocity and acceleration are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "f, f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": ", 2 f f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2f, f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "f, 2f",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q161",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "In the figure shown if elongation in the spring at any instant is x then differential equation of S.H.M. of the block can be given by  k  m  2  2 0 d x k x m dt         ",
+    "question_diagram": "/images/last_leap_pz2/p189_q161.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2  2 0 4 d x k x m dt         ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2  2 2 0 d x k x m dt         ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2  2 0 2 d x k x m dt         ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q162",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Force acting on a body free to move on x-axis is given by F = -kxn where k is a positive constant. For which value of n motion of the body is not oscillatory?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q163",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "In forced oscillation when system oscillates under the action of driving force F = F0 sinωt in addition to its internal restoring force, then the particle oscillates with a frequency equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Natural frequency of the body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Frequency of driving force",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Difference of frequency of driving force and  natural frequency",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mean of frequency of driving frequency and  natural frequency",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q164",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Potential energy of a harmonic oscillator at equilibrium is 15 J and average kinetic energy is 5 J. Total energy at any instant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q165",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The displacement of a particle executing S.H.M. is  given by",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q166",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is executing S.H.M. Graph of its displacement with position is shown in the figure. Maximum acceleration of the particle is  x (m)  +2  2 3 5 4 t (s)  -2  2 2 m/s 2 π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 m/s 4 π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4π2 m/s2  2 2 m/s 8 π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q167",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A uniform spring has a force constant K. It is cut into two pieces of lengths l1 and l2 such that l1 = nl2. Time period of oscillation of a mass m with spring of length l1 is   π",
+    "question_diagram": "/images/last_leap_pz2/p190_q167.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "( 1) 2 m n  nK   π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "( 1) 2 K n  m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 ( 1) m K n π ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 ( 1) mn K n π ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q168",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A body executes oscillations under the effect of a small damping force. If the amplitude of the body reduces by 50% in 6 minute, then amplitude after next 12, minute will be (initial amplitude is A0)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 4 A  0 8 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 16 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 6 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q169",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is executing SHM along a straight line path. Then which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acceleration always decreases speed of  particle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acceleration is constant with time",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Acceleration is constant with position",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acceleration is maximum when particle is at  rest",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q170",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Two pendulums A and B of length 144 cm and 100 cm  are initially in same phase at their equilibrium positions. After how many complete oscillation of B they come in same phase?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q171",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "Time period of spring mass system depends upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gravity of earth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mass of block",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mass of spring",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q172",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "The displacements of the particle from extreme  position when its kinetic energy is 1 th 4  of the  maximum value and 3 th 4  of the maximum value  x x is  A  are xA and xB respectively. The ratio   B",
+    "question_diagram": "/images/last_leap_pz2/p191_q172.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 :1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1: 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(2 3) :1 ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secA_q173",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is moving along x-axis (x in metre) and force acting on particle varies as F = -5x + 5N, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Motion of particle will be circular",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Motion of particle will be periodic having mean  position at x = 1 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Equilibrium position of particle will be at x = 4m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q1",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The periodic time of a hard spring is more as  compared to the soft spring.\nReason (R): The spring constant of hard spring is less.  1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q2",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The root mean square velocity is   2 times of  its maximum velocity for a particle executing simple harmonic motion.\nReason (R): The velocity of a particle executing simple  harmonic motion varies according to sine rule.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q3",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When angular amplitude of simple pendulum is  l T π 2  is not valid.  large, then   g\nReason (R): Time period of simple pendulum depends on  angular amplitude for large magnitude of angular displacement.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q4",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If the elevator goes down with constant  acceleration, then frequency of oscillation of spring block system in elevator will be independent of acceleration of elevator.\nReason (R): If the given elevator goes with uniform velocity,  then the frequency of oscillation will change.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q5",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When the damping force acting on the  oscillating particle is proportional to its velocity, mechanical energy decreases exponentially with time.\nReason (R): During damped vibration, amplitude of vibration  decreases exponentially with time.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q6",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Resonance is a special case of forced  vibration in which the natural frequency of vibration of the body is same as the impressed frequency and the amplitude of forced vibration is maximum.\nReason (R): The amplitude of forced vibration of a body  increases with an increase in the frequency of the externally impressed periodic force.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q7",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In simple harmonic motion, the velocity is  maximum when the acceleration is minimum.\nReason (R): Displacement and velocity in simple harmonic  motion differ in phase by 90°.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q8",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Oscillatory motions are necessarily periodic,  but all periodic motions are not oscillatory.\nReason (R): Simple pendulum is an example of oscillatory  motion.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q9",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The amplitude of oscillation can never be  infinity.\nReason (R): The energy of oscillator is continuously  dissipated.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q10",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In SHM, velocity leads the acceleration by  2 π.\nReason (R): In SHM, displacement leads the velocity by  2 π.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q11",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In SHM the phase difference between any two  points separated by a distance of A (amplitude)  π.  is 4  \u0002\u0003 \u0002\u0003 \u0002\nReason (R): The phase difference between two points is  proportional to the distance between them in SHM.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q12",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The time period of a simple pendulum is  minimum at the surface of earth.\nReason (R): g is maximum at the surface of earth.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_09_oscillations_secB_q13",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In an S.H.M. kinetic energy is equal to potential  energy when the displacement is half of amplitude.\nReason (R): Kinetic energy and potential energy of an  S.H.M. is independent of displacement.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

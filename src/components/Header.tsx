@@ -12,9 +12,17 @@ import {
   Mail,
   ShieldCheck,
   HardDrive,
-  Bell,
   Upload,
-  GraduationCap
+  GraduationCap,
+  Package,
+  Crown,
+  Layers,
+  CheckCircle2,
+  X,
+  ArrowRight,
+  Monitor,
+  Building,
+  Lock
 } from 'lucide-react';
 import { ExamType } from '../types';
 import { getCurrentUser, getUserDownloads } from '../utils/downloadTracker';
@@ -57,6 +65,8 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenEnrollment
 }) => {
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
+  const [packagesDropdownOpen, setPackagesDropdownOpen] = useState(false);
+  const [selectedPackage, setSelectedPackage] = useState<any | null>(null);
   const [downloadsCount, setDownloadsCount] = useState<number>(0);
   const [currentUser, setCurrentUser] = useState<any>(getCurrentUser());
 
@@ -96,6 +106,77 @@ export const Header: React.FC<HeaderProps> = ({
   const parentName = enrolledStudent?.parentName || currentUser?.parentName || 'Parent / Guardian';
   const userCaste = enrolledStudent?.caste || currentUser?.caste || 'General / Open';
 
+  const neetPackages = [
+    {
+      id: 'online-cbt',
+      name: 'Online CBT All-India Test Series',
+      badge: 'Popular',
+      badgeColor: 'bg-emerald-100 text-emerald-800 border-emerald-200',
+      icon: Monitor,
+      price: '₹2,999',
+      originalPrice: '₹5,999',
+      tagline: 'Official NTA CBT simulator with instant AIR & Maharashtra CAP cutoffs',
+      features: [
+        'Full 180-Question (720 Marks) Sunday Proctored CBT Exams',
+        'Real NTA Test Engine with Question Palette & Timer',
+        'Instant All-India Rank (AIR) & Subject-wise Percentiles',
+        'Maharashtra State CAP 6,995 Cutoff College Predictor',
+        '2-Device Authorized Concurrency with DOB PIN Encryption'
+      ]
+    },
+    {
+      id: 'jumbo-pack',
+      name: 'Jumbo Package (CBT + All Study Materials)',
+      badge: 'All-in-One Value',
+      badgeColor: 'bg-purple-100 text-purple-800 border-purple-200',
+      icon: Crown,
+      price: '₹5,499',
+      originalPrice: '₹11,999',
+      tagline: 'Complete CBT Access + 15,000+ Question Banks & DPP Generator',
+      features: [
+        'All Online CBT All-India Test Series Features Included',
+        'Last Leap Part-II (5,070 Qs + 827 Diagrams) Master Bank',
+        'Allen & Aakash High-Yield NCERT Question Archives',
+        'Unlimited DPP Custom Test Generator with Chapter Isolation',
+        'High-Yield Formula Sheets & Offline PDF Downloads'
+      ]
+    },
+    {
+      id: 'classroom-cbt',
+      name: 'Classroom Test Series (Hybrid CBT + OMR)',
+      badge: 'Hybrid Series',
+      badgeColor: 'bg-blue-100 text-blue-800 border-blue-200',
+      icon: Building,
+      price: '₹4,499',
+      originalPrice: '₹8,999',
+      tagline: 'Physical Center Sunday Tests + Complete Digital CBT Portal',
+      features: [
+        'Physical Center OMR Sheet Sunday Examinations',
+        'Automated Mobile Camera OMR Scanning & Scoring',
+        'Complete Digital CBT Access with Instant AIR Sync',
+        'Combined Center & National Leaderboard Ranks',
+        'Hardcopy Test Paper & Detailed Solution Booklets'
+      ]
+    },
+    {
+      id: 'target-batch',
+      name: `Target Dedicated Batch Pack (${targetYear})`,
+      badge: `Target ${targetYear}`,
+      badgeColor: 'bg-amber-100 text-amber-800 border-amber-200',
+      icon: Award,
+      price: '₹6,999',
+      originalPrice: '₹14,999',
+      tagline: `Multi-Year Dedicated Academic Foundation for NEET ${targetYear}`,
+      features: [
+        `Curriculum Schedule Mapped Specifically for Target ${targetYear}`,
+        'Chapter-Wise (CWT), Cumulative, Part & Full Syllabus Tests',
+        '24/7 AI-Powered Live Doubt Resolution Portal',
+        'Detailed Weak-Area Remediation & NCERT Page Mapping',
+        'Parent Progress SMS/Email Notification Reports'
+      ]
+    }
+  ];
+
   return (
     <header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/80 text-slate-800 shadow-xs">
       <div className="w-full px-3 sm:px-6">
@@ -117,7 +198,7 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
           </div>
 
-          {/* Target Year Selector Bar: 2027, 2028, 2029 */}
+          {/* Target Year Selector Bar: 2027, 2028, 2029 + Packages Dropdown */}
           <div className="flex items-center space-x-2">
             <div className="flex items-center bg-slate-100/90 p-1 rounded-xl border border-slate-200">
               {(['2027', '2028', '2029'] as const).map(yr => (
@@ -134,6 +215,102 @@ export const Header: React.FC<HeaderProps> = ({
                   {yr}
                 </button>
               ))}
+            </div>
+
+            {/* Packages Dropdown Button */}
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setPackagesDropdownOpen(!packagesDropdownOpen)}
+                className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition border cursor-pointer ${
+                  packagesDropdownOpen
+                    ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white border-blue-600 shadow-xs'
+                    : 'bg-white hover:bg-slate-50 text-slate-700 border-slate-200 hover:border-slate-300 shadow-2xs'
+                }`}
+                title="View NEET Preparation Packages"
+              >
+                <Package className={`w-3.5 h-3.5 ${packagesDropdownOpen ? 'text-white' : 'text-blue-600'}`} />
+                <span className="hidden sm:inline">Packages</span>
+                <ChevronDown className={`w-3 h-3 transition-transform ${packagesDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {/* Dropdown Menu */}
+              {packagesDropdownOpen && (
+                <div className="absolute left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-auto sm:right-0 mt-2 w-80 sm:w-96 bg-white border border-slate-200 rounded-2xl shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150 text-slate-900">
+                  <div className="px-3 py-2 border-b border-slate-100 flex items-center justify-between">
+                    <div>
+                      <p className="text-xs font-extrabold text-slate-900 flex items-center gap-1.5">
+                        <Package className="w-3.5 h-3.5 text-blue-600" /> NEET Prep Packages
+                      </p>
+                      <p className="text-[10px] text-slate-500">CBT, Jumbo Question Banks & Hybrid Tests</p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setPackagesDropdownOpen(false)}
+                      className="text-slate-400 hover:text-slate-600 text-xs p-1 cursor-pointer"
+                    >
+                      ✕
+                    </button>
+                  </div>
+
+                  <div className="p-1 space-y-1.5 max-h-[380px] overflow-y-auto mt-1">
+                    {neetPackages.map(pkg => {
+                      const IconComp = pkg.icon;
+                      return (
+                        <div
+                          key={pkg.id}
+                          onClick={() => {
+                            setSelectedPackage(pkg);
+                            setPackagesDropdownOpen(false);
+                          }}
+                          className="p-2.5 rounded-xl border border-slate-100 hover:border-blue-300 hover:bg-blue-50/50 transition cursor-pointer group"
+                        >
+                          <div className="flex items-start justify-between gap-2">
+                            <div className="flex items-start space-x-2">
+                              <div className="w-7 h-7 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center shrink-0 mt-0.5">
+                                <IconComp className="w-4 h-4" />
+                              </div>
+                              <div>
+                                <h4 className="text-xs font-bold text-slate-900 group-hover:text-blue-600 transition flex items-center gap-1.5">
+                                  {pkg.name}
+                                </h4>
+                                <p className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
+                                  {pkg.tagline}
+                                </p>
+                              </div>
+                            </div>
+                            <span className={`px-2 py-0.5 rounded-full text-[9px] font-bold border shrink-0 ${pkg.badgeColor}`}>
+                              {pkg.badge}
+                            </span>
+                          </div>
+                          <div className="mt-2 pt-1.5 border-t border-slate-100/80 flex items-center justify-between text-[11px]">
+                            <div className="flex items-baseline space-x-1.5">
+                              <span className="font-extrabold text-slate-900">{pkg.price}</span>
+                              <span className="text-[10px] text-slate-400 line-through">{pkg.originalPrice}</span>
+                            </div>
+                            <span className="text-[10px] font-bold text-blue-600 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
+                              View Details →
+                            </span>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  <div className="p-2 border-t border-slate-100 bg-slate-50 rounded-xl mt-1 text-center">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setPackagesDropdownOpen(false);
+                        if (onOpenEnrollment) onOpenEnrollment();
+                      }}
+                      className="w-full py-1.5 px-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
+                    >
+                      Instant Enrollment & Access →
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
@@ -331,6 +508,92 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
         </div>
       </div>
+
+      {/* Selected Package Details Modal */}
+      {selectedPackage && (
+        <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-in fade-in duration-200">
+          <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-in zoom-in-95 duration-200 text-slate-900 my-auto">
+            {/* Modal Header */}
+            <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-cyan-700 p-5 text-white flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center text-white border border-white/30 shadow-inner">
+                  {React.createElement(selectedPackage.icon, { className: "w-5 h-5" })}
+                </div>
+                <div>
+                  <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase font-mono ${selectedPackage.badgeColor}`}>
+                    {selectedPackage.badge}
+                  </span>
+                  <h3 className="text-base font-bold text-white mt-1">
+                    {selectedPackage.name}
+                  </h3>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setSelectedPackage(null)}
+                className="w-8 h-8 rounded-xl bg-white/20 hover:bg-white/30 flex items-center justify-center text-white font-bold text-sm transition cursor-pointer"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="p-6 space-y-4">
+              <p className="text-xs text-slate-600 leading-relaxed">
+                {selectedPackage.tagline}
+              </p>
+
+              {/* Price Banner */}
+              <div className="p-3.5 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 flex items-center justify-between">
+                <div>
+                  <span className="text-[10px] font-bold text-slate-500 uppercase">Package Fee</span>
+                  <div className="flex items-baseline space-x-2">
+                    <span className="text-xl font-black text-blue-900">{selectedPackage.price}</span>
+                    <span className="text-xs text-slate-400 line-through">{selectedPackage.originalPrice}</span>
+                    <span className="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-1.5 py-0.5 rounded">50% OFF</span>
+                  </div>
+                </div>
+                <div className="text-right text-[10px] text-slate-500">
+                  <span className="font-semibold text-slate-700">NEET {targetYear} Valid</span>
+                  <p>2-Device Protected</p>
+                </div>
+              </div>
+
+              {/* Features List */}
+              <div className="space-y-2">
+                <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider">What's Included:</h4>
+                <div className="space-y-2">
+                  {selectedPackage.features.map((feat: string, idx: number) => (
+                    <div key={idx} className="flex items-start space-x-2 text-xs text-slate-700">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                      <span>{feat}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Enrollment CTA */}
+              <div className="pt-2 space-y-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedPackage(null);
+                    if (onOpenEnrollment) onOpenEnrollment();
+                  }}
+                  className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-bold text-sm shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
+                >
+                  <Lock className="w-4 h-4" />
+                  <span>Enroll in this Package Now</span>
+                  <ArrowRight className="w-4 h-4 ml-1" />
+                </button>
+                <p className="text-[10px] text-center text-slate-400">
+                  Instant activation upon candidate profile verification & DOB encryption.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 };

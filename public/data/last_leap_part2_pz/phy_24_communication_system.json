@@ -1,0 +1,1311 @@
+[
+  {
+    "question_id": "phy_24_communication_system_secA_q1",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "The frequency range of ground wave propagation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "500 kHz to 1500 kHz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 MHz to 30 MHz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2500 kHz to 2 MHz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Above 35 MHz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q2",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Critical frequency [fc] of radio for reflection through ionosphere depends on maximum electron density [Nmax] of ionosphere as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "fc ∝ Nmax",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "fc ∝ (Nmax)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "fc ∝ (Nmax)1/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "fc ∝ (Nmax)-1/2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q3",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "In a communication system, noise is most likely to affect the signal",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "At the transmitter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In the channel of transmission",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "At the receiver",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In modulating system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q4",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Satellite communication is carried out for frequencies",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Above 30 MHz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Between 10 MHz to 30 MHz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Below 10 MHz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Between 1 kHz to 1 MHz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q5",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Attenuation in the communication system is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Modulation of signal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Demodulation of signal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Loss of strength of signal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amplification of signal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q6",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "The frequency band of satellite communication in down link is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.7 to 4.2 GHz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.7 to 4.2 MHz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.925 to 6.425 GHz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5.925 to 6.425 MHz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q7",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "If the transmitting antenna is at a height h and receiving antenna is having same height h, and R is the radius of earth, the maximum distance between them for satisfactory communication in line of sight mode is",
+    "question_diagram": "/images/last_leap_pz2/p359_q7.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2Rh",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 Rh",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8Rh",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6Rh",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q8",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "A message signal of frequency 100 kHz is used to modulate a carrier of frequency 10 MHz. The side bands produced are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1010 kHz and 990 kHz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10100 kHz and 9900 kHz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1010 kHz and 900 kHz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10100 kHz and 9990 kHz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q9",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "A modulating sine wave of amplitude A0 is superimpossed on a carrier sine wave of amplitude",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q10",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "If transmission frequency of a signal is 1 MHz, then the minimum length of antenna for proper transmission is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "75 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "300 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1200 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "900 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q11",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "For same antenna length, the effective power radiated is directly proportional to (here λ is wavelength)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "λ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "λ2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "λ 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 λ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q12",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a component of block diagram of a receiver?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amplifier",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "IF stage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Detector",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Square law device",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q13",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "On a day when the electron density per cubic metre of ionosphere is 6.4 × 1010 m-3. The critical frequency for the sky wave propagation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.8 MHz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7.2 MHz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.6 MHz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12.4 MHz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q14",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "In amplitude modulation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The amplitude of carrier wave is varied in  accordance with the carrier wave",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The frequency of carrier wave is varied in  accordance with the information signal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The amplitude of carrier wave is varied in  accordance with the information signal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The frequency of carrier wave is varried in  accordance with the carrier wave",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q15",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "An amplitude modulated amplifier has radio frequency output of 70 watt at modulation index equal to one. If the internal loss in the modulator is 20 watts, then the unmodulated carrier power is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40 watt",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 watt",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "135 watt",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90 watt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q16",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Line of sight communication uses",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ground waves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sky waves",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Frequency Modulated waves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q17",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "The range of frequency which is not reflected by the ionospheric layer is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3-6 MHz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40-80 MHz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3-30 kHz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3-30 Hz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q18",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum electron density in ionosphere is 1012 m-3. What is the frequency of signal which cannot be used in ionospheric communication?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 MHz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8.5 MHz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9.0 MHz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9.5 MHz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q19",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following modulation index in amplitude modulated wave produces noise?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q20",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "The communication satellites are parked at an altitude of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "36000 km",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3600 km",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "360 km",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "36 km",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q21",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "For a carrier frequency of 100 kHz and a modulating frequency of 5 kHz, what is the band width of AM transmission?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 kHz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 kHz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 kHz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200 kHz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q22",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Frequencies in the UHF range normally propagate by means of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ground waves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sky waves",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Surface waves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Space waves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q23",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Need for modulation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "To achieve practicable antenna height",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "To achieve high power transmission by  antenna",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "To achieve user friendly communication",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q24",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Line of sight propagation is otherwise named as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ground wave propagation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Space wave propagation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sky wave propagation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Optical fibre propagation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q25",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Loss of strength of signal while propagating through a medium is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Attenuation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Noise",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Modulation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Demodulation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q26",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum distance up to which TV transmission from a TV tower of height h can be received is proportional to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "h1/2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "h3/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "h2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q27",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "If fa and ff represent the carrier wave frequencies for amplitude and frequency modulations respectively, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "fa > ff",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "fa < ff",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "fa  ff",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "fa = 2ff",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q28",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "How many 500 kHz waves can be adjusted on a 10 km transmission line?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "16.67",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.667",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "166.7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1667",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q29",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "If for an AM wave, modulation factor is 0.5, then the fraction of total power carried by side bands is  2 3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2  2 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q30",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is/are not transducer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Loudspeaker",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amplifier",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Microphone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q31",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "FM broadcast is done using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Short waves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "γ rays",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Medium waves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "VHF and UHF waves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q32",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "Sky wave propagation is suitable for radiowaves of frequency",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Upto 2 MHz",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "From 2 kHz to 10 kHz",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "From 2 MHz to 30 MHz",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "From 30 MHz to 100 MHz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secA_q33",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section A (Objective)",
+    "question_text": "A TV transmitting antenna is 6.4 m tall, then approximate maximum service range, upto which the signal can be received (R = 6400 km) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9 km",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "95 km",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "900 km",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "950 km",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secB_q1",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Frequency modulated wave is not used for long  distance communication.\nReason (R): Over long distance the FM wave becomes  highly distorted.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secB_q2",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Electromagnetic waves of frequency 40 MHz cannot be transmitted by sky wave propagation.\nReason (R): The ionosphere cannot reflect the waves of frequencies more than 20 MHz.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secB_q3",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The amplitude of the modulated wave varies in  proportion to the instantaneous voltage of the modulating signal in case of frequency modulation.  \u0002\u0003 \u0002\u0003 \u0002\nReason (R): In amplitude modulation frequency varies in  accordance with amplitude of signal wave.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secB_q4",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In analog communication modulating signal  should be sinusoidal or analog.\nReason (R): Analog communication uses both analog as  well as pulse carrier.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_24_communication_system_secB_q5",
+    "subject": "Physics",
+    "chapter": "Communication System",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): TV signals are received using sky-wave  propagation.\nReason (R): The ionosphere reflects EM wave of frequency  greater than certain critical frequency.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]

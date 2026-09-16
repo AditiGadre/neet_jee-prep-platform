@@ -938,6 +938,45 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     );
   };
 
+  // Sunday Test Strict Lock Enforcement
+  // Sunday tests can NEVER be unlocked individually except on Sundays AND after admin approval
+  if (isSundayTest && !isSundayTestUnlockedByAdmin && !isSubmitted) {
+    return (
+      <div className="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md flex items-center justify-center p-4 text-slate-900 animate-in fade-in duration-200">
+        <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-md w-full p-6 text-center space-y-5 animate-in zoom-in-95 duration-200">
+          <div className="w-16 h-16 rounded-2xl bg-amber-50 border border-amber-200 text-amber-600 flex items-center justify-center mx-auto shadow-xs">
+            <Lock className="w-8 h-8" />
+          </div>
+          <div className="space-y-2">
+            <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-[11px] font-extrabold uppercase font-mono">
+              Sunday Proctored Exam &bull; Locked
+            </span>
+            <h3 className="text-lg font-bold text-slate-900">
+              Sunday All-India Mock Test Locked
+            </h3>
+            <p className="text-xs text-slate-600 leading-relaxed">
+              Sunday 720-Marks mock test papers can never be unlocked one-by-one. In compliance with strict institutional exam regulations, Sunday papers unlock exclusively on Sundays (IST) and only after Administrator authorization.
+            </p>
+          </div>
+          <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 text-xs text-slate-700 space-y-1 text-left font-mono">
+            <div className="text-[10px] text-slate-400 uppercase font-bold">Candidate Verification:</div>
+            <div><strong>Student:</strong> {studentName}</div>
+            <div><strong>Roll No:</strong> {rollNumber}</div>
+            <div><strong>Paper:</strong> {test.title}</div>
+          </div>
+          <div className="pt-2">
+            <button
+              onClick={onClose}
+              className="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
+            >
+              Return to Platform Dashboard
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md flex flex-col overflow-hidden text-slate-900">
       <div className="w-full h-full bg-slate-50 flex flex-col overflow-hidden">

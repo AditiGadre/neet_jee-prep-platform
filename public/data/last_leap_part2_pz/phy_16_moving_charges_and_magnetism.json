@@ -1,0 +1,5295 @@
+[
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q1",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In the given figure the current 2I is coming and passing through two semicircular loops. The magnetic induction at the centre 'O' is    I  2 I  r1  O  r2  I  2 I    2 1 2 ( ) I r r μ π   0",
+    "question_diagram": "/images/last_leap_pz2/p283_q1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "  μ μ     π    2 1 1 2 2 I I r r r  0 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 1 2    μ μ     π    2 1 1 2 2 I I r r r  0 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 1 2  r r   μ       1 1 4 I  0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q2",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A proton moving in a circular path inside a uniform magnetic field with a speed v. The magnitude of change in its velocity when the arc constructed by proton makes an angle of 60º at the center",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "v",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 v  v",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 v",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q3",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A charge is moving in a circular path of radius 'r' with speed v in a transverse magnetic field B. Specific charge of the particle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "v Br",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B vr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bvr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "vr  B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q4",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Voltage sensitivity of a moving coil galvanometer is Vs and current sensitivity is Is. Resistance of galvanometer is 'G'. The relation between Vs and Is is  I V G ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "Vs = Is.G  s s",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "G V V I ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "s s  G I V ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "s s s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q5",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two straight parallel thin wires carrying current i  each down in plane of paper are kept at  3 x  distance apart as shown in the figure. If magnetic field due to current in wire A at P is B. The magnetic field at P by A is  x  P A  i  3x  A i",
+    "question_diagram": "/images/last_leap_pz2/p283_q5.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 2 B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5  B  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q6",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is wrong?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Voltmeter should have high resistance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ammeter should have low resistance",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ammeter is placed parallel across the  resistance in a circuit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Voltmeter is placed in parallel across the  resistance in a circuit",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q7",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic field at the centre of circular coil is  B0 than the distance on its axis where Bx =  0 8 B  is (R = radius of coil)",
+    "question_diagram": "/images/last_leap_pz2/p284_q7.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3R  R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q8",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An electron is travelling horizontally towards east. A magnetic field in vertically downward direction exerts a force on the electron along",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "East",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "West",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "North",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "South",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q9",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "When the speed of electron increases, then the value of its specific charge",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First increases to certain velocity and then  decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q10",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A current carrying loop is turned into a coil having n identical concentric turns. Magnetic field at the centre becomes x times its initial value, then x =",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2n",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 n",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q11",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A straight current carrying wire is placed along the axis of a current carrying loop, then force between them is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Repulsive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Attractive",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot be predicted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A proton and an α particle are thrown normally into an uniform magnetic field with same momentum, then ratio of radii of their circular path is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q13",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "When a charged particle moves in a uniform magnetic field, which of the following always remains constant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetic energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Force",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Momentum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q14",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An α-particle completes 40,000 revolutions in a cyclotron before exiting from it. If potential difference between the Dees is 5000 V, then the energy gained by the particle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "800 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "400 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q15",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A charge particle is projected in uniform magnetic field at an angle 45° with magnetic field. If circumference of the helical path followed by it is 2 cm, then pitch of the helix is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q16",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A charged particle moves in a transverse magnetic field. The quantities/quantity that will remain unchanged are/is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetic energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Speed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnitude of momentum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q17",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A proton and an α-particle move in circular paths in a transverse magnetic field. If speed of proton is two times that of α-particle, the ratio of their periods of revolution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q18",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A wire of length l carrying current i is folded to form a circular coil of N turns. To have maximum value of magnetic moment of the coil, the value of N will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q19",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two wires of large length carry equal currents each i. One wire is kept along x-axis and the other is kept along y-axis. The magnitude of magnetic field at a point on z-axis at distance d from the origin is  μ  0 2 i d μ  i  0 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π  d  0i d μ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q20",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A straight magnetic wire of magnetic moment M is folded to form an arc that subtends an angle of 60° at the centre of curvature. The new value of magnetic moment is  3M π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2M π",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "M  π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q21",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "To compensate the relativistic variation of mass at high speed of charge in cyclotron. Adjustments can be made is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Frequency of a.c. is decreased",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnetic field is increased",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Peak value of a.c. is increased",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q22",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A wire of length l is folded to form double circular loop. If current in the wire is i, the magnetic field at the centre is  0 μπ i l  0 2 μπ i l",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 2μπ i l",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 4μπ i l",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q23",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A infinite straight wire carrying current 3 A and other carrying 6 A in the same direction produce a magnetic field of 12 tesla at the mid point of line joining them. When 6 ampere current wire is switched off, the magnetic field will be  3 A 6 A  d",
+    "question_diagram": "/images/last_leap_pz2/p285_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "24 T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q24",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "When a 1  resistor is connected with a moving coil galvanometer, then its deflection reduces from 50 division to 5 divisions. The resistance of the galvanometer is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "11 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q25",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A voltmeter of resistance 2000  can measure a maximum potential difference of 2 V. If it is to be converted into a voltmeter of range 20 V, the required resistance in series will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2000 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1800 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "18000 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8000 ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q26",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Current is flowing in a thick metal rod. The magnetic field is associated with the current will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only inside the rod",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only outside the rod",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both inside and outside the rod",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neither inside nor outside the rod",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q27",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic intensity near one end of a long solenoid of length L and having N turns and carrying current i is given as  0 μ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "μ0Ni",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "L Ni 2  Ni 0 μ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "L Ni 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "L",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q28",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The dimensional formula of magnetic intensity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ML0T-2A-1]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[M0L-1T0A+1]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[M0L+1T0A-1]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[M2LT-2A-1]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q29",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "What should be current in a circular coil formed by a wire of length 31.4 cm to produce a magnetic field of 1 × 10-4 T ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.8 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "80 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q30",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "If magnetic induction at centre due to electron in first orbit of hydrogen atom is B, then the magnetic induction due to electron in 5th orbit of the atom is  B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 (5)  B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 (5)  B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 (5)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q31",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A charged particle enters a region of uniform magnetic field at an angle θ (where 0 < θ < 90°) to the field. The path of the particle will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Straight line",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ellipse",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Circle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Helix",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q32",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A proton, an electron and an α-particle after being accelerated by the same potential difference, enters perpendicularly into a uniform magnetic field. The kinetic energy of the particle when they come out of the field will be in the ratio",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 2 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q33",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A charge -Q is moving vertically upwards. If it enters a magnetic field directed to south, then the force on the charged particle will be towards",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "North",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "South",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "East",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "West",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q34",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass m and charge q is moving in a magnetic field B with velocity v in a circular path of radius r. The time period of revolution does not depend on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "v",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q35",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The magnetic field at origin in the situation shown in figure has magnitude (BCD is a semi-circular arc of radius R in xz plane)  y  A  R B D  E  x  C  z  2 0 4 2 π  π μ  I π μ 4  I  0",
+    "question_diagram": "/images/last_leap_pz2/p286_q35.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "R  R  μ  2 2 0 2 π  π μ R R  I  I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 0 1 4  π π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q36",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In a region, a uniform electric field E and a uniform magnetic field B exist parallel to each other. If a charged particle enters perpendicular to the fields, then the path of the particle will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Circle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Straight line",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Helix of uniform pitch",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Helix of non-uniform pitch",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q37",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An electron moves in a circular orbit with a uniform speed v. It produces a magnetic field B at the centre of the circle. The radius of the circle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B ev π μ  0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B ev π μ  0  2  4  ev  π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B ev",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 B  π 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q38",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "If number of turns in a moving coil galvanometer is doubled, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Voltage sensitivity becomes double",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Current sensitivity becomes double",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Voltage sensitivity becomes half",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Current sensitivity remains same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q39",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Three long straight wires A, B and C are shown in figure. The resultant magnetic force on wire B is  1 A 2 A 3 A  A C B",
+    "question_diagram": "/images/last_leap_pz2/p286_q39.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Towards left",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Towards right",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Upwards (perpendicular to the plane of paper)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Downwards (perpendicular to the plane of  paper)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q40",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "When the space within a current carrying toroid is filled with a substance having susceptibility 2 × 10-5. Find the percentage change in the magnetic field",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.001",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.003",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.002",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.004",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q41",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The energy density in the magnetic field B of a solenoid is (where symbols stand for their usual meanings)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 0 2 1 H μ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 0 2 1 B μ  2  2  2 1  B  2 1 μ H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 0  μ  0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q42",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In modified ampere's law  \u0002  ) ( . 0 di i dl B  μ    i and id is conduction current and displacement current respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "i > id",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "i < id  di i ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "i = id",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q43",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The Maxwells equations deals with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electricity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrostatics",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnetism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both electrostatics and magnetism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q44",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An electron is revolving around a nucleus (atomic number Z) with angular velocity ω. If radius of the orbit is r then magnetic moment of the electron is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "e ωr2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 e ωr2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ze ωr2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 Ze ωr2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q45",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A circular loop having radius r of uniform cross-section is connected with two straight wire AB and CD  of large lengths. The magnetic field at the centre of the loop is  i  r  O  i  i π μ 2  0",
+    "question_diagram": "/images/last_leap_pz2/p287_q45.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "r  0 μ  i 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r  π  μ 1 1 2  i        0 r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": " ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q46",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The two parts of the loop are circles of radii 2a and a respectively and carrying same current i as shown in the given figure. What is the magnitude of dipole moment of the current loop?  2a a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5πa2 i",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4πa2 i",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3πa2 i",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q47",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two protons are projected with velocity v each, in the same direction as shown. At the instant of projection the ratio of magnetic force and electrostatic force between them is (c is the speed of light)  p v  p v  2",
+    "question_diagram": "/images/last_leap_pz2/p287_q47.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "c v  v",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  c  2  c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "v c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2  v",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q48",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "What is the magnetic moment of the current loop shown below ?  2 A 3 m  90°  4 m",
+    "question_diagram": "/images/last_leap_pz2/p287_q48.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "24 Am2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 Am2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 Am2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q49",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In a moving coil galvanometer the deflection θ of the coil is related to the electric current by the relation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I ∝ tan θ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I ∝ cos θ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I ∝ θ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I ∝ θ2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q50",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A half metre long wire is lying in a plane perpendicular to the magnetic field. A force of 2 kg wt is acting on it in a magnetic field of 0.98 tesla. The current flowing in it will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "400 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q51",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A cyclotron cannot be used to accelerate",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Deutrons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Protons",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neutrons",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q52",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An electron and a proton are revolving around common centre O in two coplanar circular paths as shown in figure with time period of rotation 1 s and 2 s respectively. The net magnetic field at O will be  -e  +e  O  1m  2m",
+    "question_diagram": "/images/last_leap_pz2/p288_q52.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "π μe 0  tesla",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0e 2 μ  tesla",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2μ0 e tesla",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q53",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A current element of strength 2 × 10-4 Am is placed at the corner A of a square ABCD of side 10 cm.  Magnetic field induction at the point which is at diagonally opposite corner of the square due to the element is (The element lies along the side AB)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.7 × 10-9 Wb/m2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.2 × 10-9 Wb/m2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 × 10-9 Wb/m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q54",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An electron moving in a circular orbit of radius r makes n rotations per second. The magnetic moment associated with this electron is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "πr2ne",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "πr2n2e  2 0 2 ner μ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q55",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A point P lies on the axis of a flat coil carrying a current. The magnetic moment of the coil is M. The distance of P from the coil is d, which is large compared to the radius of the coil. The magnetic field at P has magnitude  μ  0 3 4 M d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "π  μ  0 3 2 M d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π  μ  0 2 2 M d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "π  μ  0 2 4 M d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q56",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A conductor AB of length l, carrying a current i2, is placed antiparallel to a long straight conductor XY carrying a current i1 as shown. The force on AB has magnitude  A  Y  i2 l  i1  l/2  X  B",
+    "question_diagram": "/images/last_leap_pz2/p288_q56.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "μ0i1i2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 1 2 μ  i i  π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 1 2 2 μ  π i i",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2μ0i1i2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q57",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A proton, a deuteron and an α-particle with the same kinetic energy are moving in circular trajectories in a uniform magnetic field. If rp, rd and rα denote respectively the radii of the trajectories of these particles, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "rα = rp < rd",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "rα > rd > rp",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "rα = rd > rp",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "rp = rd = rα",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q58",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "If a long hollow copper pipe carries a direct current along its length, then the magnetic field associated with the current will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only inside the pipe",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only outside the pipe",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both inside and outside the pipe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero everywhere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q59",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two long straight conductors with currents I1 and I2 are placed along X and Y axes. The locus of points of zero magnetic induction is  Y  I2  X O  I1",
+    "question_diagram": "/images/last_leap_pz2/p288_q59.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A parabola",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A rectangular hyperbola",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A straight line",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "An ellipse",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q60",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Cyclotron frequency does not depend upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Specific charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Speed of revolving particle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnetic induction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Charge",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q61",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of mass m and charge q moving with speed v describes a circular path of radius r when subjected to a transverse uniform magnetic field of induction B. The work done by the field, when the particle completes one full circle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2πmv2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2πrqBv",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 rqB v π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q62",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A conducting arc of radius of curvature r carrying current I is shown. Magnetic field intensity at its centre of curvature O is  I  θ r  O",
+    "question_diagram": "/images/last_leap_pz2/p289_q62.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 4 μθ  I  r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero  π  r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 μθ I r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 2 μθ  I  π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q63",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The net magnetic flux through any closed surface, kept in uniform magnetic field is  0 4 μ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "π  0 4μ π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4πμ0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q64",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic field at the centre of an infinite solenoid is B. Magnetic field at its end will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q65",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum kinetic energy of an α-particle coming out of a cyclotron accelerator is 20 MeV. The maximum kinetic energy of a proton that can be obtained from this accelerator is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 MeV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 MeV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 MeV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 MeV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q66",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two concentric circular current carrying loops of radius r each are arranged such that their planes are perpendicular to each other. If current through them are I each, then magnetic moment of the arrangement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2πr2I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "πr2I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 r I π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q67",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "If a current is passed through a circular loop of radius R then magnetic flux through a coplanar square loop of side ℓ as shown in the figure (ℓ << R) is  R  ℓ I  2 0 2 I R μ  2 0 2 I R μℓ",
+    "question_diagram": "/images/last_leap_pz2/p289_q67.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "ℓ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 0 2 I R μπ  2 0 R I μπ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ℓ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ℓ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q68",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Figure shows a particle of charge q and mass m moving with velocity v along the x-axis enters a region of uniform magnetic field. Minimum value of v so that the charge q is deflected by an angle 30° is  y  B  x  v  a  b",
+    "question_diagram": "/images/last_leap_pz2/p289_q68.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 ( - ) qB b a m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "( ) 2  qB b a m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "( - ) qB b a m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 qBb  m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q69",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A semicircular wire is moving with uniform velocity in a uniform magnetic field as shown in figure. Hence the wire becomes  B  v  A",
+    "question_diagram": "/images/last_leap_pz2/p290_q69.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrically charged",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Positively charged at end B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hot due to Joules heating",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q70",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two long parallel wires A and B carry current I1 and I2(I1 > I2). When I1 and I2 are in same direction the magnetic field at a point mid way between the wires is 10 × 10-6 T. If I2 is reversed the field  I I is  becomes 30 × 10-6 T. The ratio 1  2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q71",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The wire shown carries a current of 40 A. If radius r = 1.57 cm, the magnetic field at point P will be  P  r  90°",
+    "question_diagram": "/images/last_leap_pz2/p290_q71.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1.6 × 10-3 T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.2 × 10-3 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.2 × 10-3 T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.4 × 10-3 T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q72",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "If current I flows through a closed loop as shown, then the magnetic field at the centre O is  I  O  2θ R",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 ( sin ) 2 μ θ θ π  I R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 ( sin ) 2 μ πθ θ π  I R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 ( sin ) 2 μ πθ θ π  I R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 ( tan ) 2 μ πθ θ π  I R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q73",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic field at the outer surface of long hollow cylindrical shell of radius R and carrying current I  is B. Magnetic field at distance 3  2 R from the axis  of the cylindrical shell is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 3 B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q74",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "If only 1% of the main current is to be passed through a galvanometer of resistance G, then the resistance of shunt will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 G  99 100G",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "99 G",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q75",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A neutron of mass m enters a uniform magnetic field B with the velocity v perpendicular to it. The radius of the circular path made by neutron is  B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2 mv",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "mv  B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Infinity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q76",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In a moving coil galvanometer, magnetic field lines by magnet are made",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uniform",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Concentric",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Helical",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Radial",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q77",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A proton and an α-particle started moving in uniform magnetic field with same magnitude of momentum. If their momenta are normal to the magnetic field, then ratio of radii of path of proton to that of α-particle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1: 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q78",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A long cylindrical shell of radius R is carrying  current I. Magnetic field at distance  2 R r   from the  axis of the shell is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 2 I R μ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 2 I R μ  π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 4 I R μ  π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q79",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A square loop of side length a is shown in the diagram. Magnetic field at point P due to the configuration is (symbols have usual meanings)  I  P  I I  I",
+    "question_diagram": "/images/last_leap_pz2/p291_q79.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 2 4 I a μ π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 2 4 I a μ  π  μ  I  0 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero  a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q80",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A wire abcdef with each side of length L bent as shown and carrying a current I is placed in a uniform magnetic field B parallel to the positive y- direction. What is the magnitude and direction of the force experienced by the wire?  z  d  c  e  f  B  y  x b a",
+    "question_diagram": "/images/last_leap_pz2/p291_q80.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "BIL along +z-direction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BIL along +y-direction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BIL along -z-direction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BIL along -y-direction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q81",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two identical wires of same length l are bent in the form of a circle of radius R and a square frame of side b. Ratio of magnetic induction at centre of the circle and at centre of the square frame for same current is  π  π  2  2",
+    "question_diagram": "/images/last_leap_pz2/p291_q81.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 2  4 2  π  π  2  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q82",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "On connecting a shunt of 10 , the deflection in a moving coil galvanometer falls from 40 divisions to 6 divisions. The resistance of the galvanometer is  120 3 ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "30 7 ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "170 3 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "150 7 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q83",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A proton started moving with speed v normal to a uniform magnetic field. Time period of revolution of the proton is T. When another proton starts moving with speed 2v normal to the same uniform magnetic field, its new time period of revolution will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q84",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic field at the centre of the 1st orbit of an electron in H atom is B. Magnetic field at the centre of the 2nd orbit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16 B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "32 B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q85",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two concentric and coplanar circular loops of radii a1 and a2 (>> a1) are as shown in figure. If current I is flowing in the bigger loop then magnetic flux linked with smaller loop is  I  a1  a2",
+    "question_diagram": "/images/last_leap_pz2/p291_q85.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 1 2 I a μπ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 2 2 I a μπ  1 2 2( ) Ia a a a μ  2 0 1  a μπ  2 2 I a  0 1 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q86",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An electron moves in a uniform magnetic field and follows a circular path. Which of the following is false?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Angular velocity of the electron remains  constant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnitude of velocity of the electron decrease  continuously",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Net force on the particle is always  perpendicular to its direction of motion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Time period of revolution of electron remains  constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q87",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Uniform magnetic field is present in an infinite region. A proton is started moving normal to the magnetic field with speed 2v and another proton is started moving with speed 5v normal to magnetic field. If T1 and T2 are their time periods of revolutions, then T1 : T2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q88",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A semicircular wire of radius R is placed in uniform  \u0002  magnetic field B   directed towards right as shown in figure. The resultant magnetic force on it is  I  B  P Q  R",
+    "question_diagram": "/images/last_leap_pz2/p292_q88.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "IBR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2IBR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 IBR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q89",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A charge particle is moving with a constant velocity  \u0002  v\u0002 in a region having uniform electric field E   and  \u0002  . Which of the following relation is correct?  uniform magnetic field B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E v B   \u0002 \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E v B   \u0002 \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E B v   \u0002 \u0002 \u0002",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "v E B   \u0002 \u0002 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q90",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An insulating rod of length l carries a charge q distributed uniformly on it. The rod is pivoted at its mid point and is rotated at a frequency f about a fixed axis perpendicular to the rod and passing through the pivot. The magnetic moment of the rod system is  2 1 12 qf π l",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2 qf π l",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 1 6 qf π l",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 3 qf π l",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q91",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A conductor of length L and carrying current I is bent to form a coil of n turns. Magnetic field at the centre of the coil will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 2 nI L μ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 0 n I L μπ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 nI L μπ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 0 2 n I L μπ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q92",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Straight conductor AB is rigidly fixed on a horizontal smooth floor and the rectangular loop PQRS is placed on the floor such that AB parallel to PS. If I1 and I2 are currents through them respectively, then  B  Q  P  I1  S R  A",
+    "question_diagram": "/images/last_leap_pz2/p292_q92.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Loop moves to left",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Loop moves to right",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Loop starts rotating clockwise",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Loop starts rotating anticlockwise",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q93",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Current sensitivity of a moving coil galvanometer is 1 rad A-1 and its resistance is 5 . Its voltage sensitivity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.2 rad V-1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 rad V-1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 rad V-1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 rad V-1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q94",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following expression represents Biot Savart law? (Symbols have their usual meanings)  \u0002\u0002\u0003 \u0002\u0002\u0002\u0003  \u0002\u0002\u0003 \u0003 \u0002\u0002\u0002\u0003  μ    μ  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 3 ^ ( )  I dl r dB  \u0003",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 2 ( )  I dl r dB  \u0003  π  π  4  r  4  r  \u0002\u0002\u0003 \u0003 \u0002\u0002\u0002\u0003  \u0002\u0002\u0003 \u0003 \u0002\u0002\u0002\u0003  μ ·   0 3 ( )  I dl r dB  μ  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 3 ( )  I dl r dB  \u0003",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "\u0003  π  4  r  π  4  r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q95",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two thick wire and two thin wires, all of the same material and same length, form the square in three different ways; P, Q and R as shown below. With current connections as shown, the magnetic field at the centre of the square is zero in case(s)  ( ) P",
+    "question_diagram": "/images/last_leap_pz2/p292_q95.png",
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q96",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Torque on a current carrying coil is maximum in a uniform magnetic field, when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plane of the coil makes an angle 45° with the  field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plane of the coil is perpendicular to the field",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plane of the coil is parallel to the field",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plane of the coil makes an angle 60° with the  field",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q97",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A particle having mass m and charge q is projected into a region having perpendicular magnetic field as shown. If the width of the field  2 mv d qB  , then the deviation θ of charge particle  as it comes out of field  v θ  v  d",
+    "question_diagram": "/images/last_leap_pz2/p293_q97.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "12 π θ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 π θ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 π θ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "θ = π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q98",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A toroid having 500 turns of wire and a mean circumference of 50 cm carries a current of 0.3 A. The relative permeability of core is 600. The magnetic field in the core is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.126 T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.226 T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.125 T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.067 T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q99",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A circular loop of radius R carrying current i lies in x-y plane. The centre of the loop coincides with the origin, then total magnetic flux passing through x-y plane is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ϕ ∝ R2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ϕ ∝ R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ϕ ∝ i",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q100",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An ammeter of resistance 20  measures upto 50 mA. The value of shunt required in parallel to measure current upto 5 A is nearly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.02 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.01 ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q101",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In a hot wire galvanometer, if current I is passed through it and θ is deflection produced in it, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "θ ∝ I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "θ ∝ I2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I θ∝",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I ∝ tan θ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q102",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following situations will there be no force?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A positive charge projected past a piece of soft  iron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A positive charge sent along the axis of a  solenoid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two parallel wires carrying current in the same  direction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A positive charge projected between the poles  of a magnet",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q103",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A straight wire of length (π2) metre is carrying a current of 2 A and the magnetic field due to it is measured at a point distance 1 cm from it. If the wire is to be bent into a circle and is to carry the same current as before, the ratio of the magnetic field at its centre to that obtained in the first case would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 100",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 50",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q104",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic dipole moment is a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Scalar quantity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vector quantity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Constant for all magnets",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Temperature independent quantity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q105",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A charge particle at rest is forced to move in a circular loop. The work done  on charge particle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Always non-zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Always zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May be zero or non-zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dependent on the type of charge",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q106",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A beam of proton passes through a region of uniform magnetic field as shown. It crosses the screen. In order to prevent it from crossing the screen, the beam is rotated by 30°. What is the maximum speed  of protons in the beam?  [Given: mass of proton = 1.66 × 10-27 kg]  30°  Beam of Protons  ×  ×  ×  ×  -2   B = 10 T  ×  ×  ×  ×  10 cm  × × ×  ×  Screen",
+    "question_diagram": "/images/last_leap_pz2/p294_q106.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1·11 × 106 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1·11 × 105 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1·92 × 106 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1·92 × 105 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q107",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A particle of charge q is accelerated through an electric potential difference and then enters a region of uniform magnetic field B to describe a circular path of radius R. If the potential difference is doubled and magnetic field's strength is halved, the new radius will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q108",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic fields at two points on the axis of a circular coil at a distance of 1 m and 5 m from the centre are in the ratio 27:1. The radius of the coil is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 m  1 m 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q109",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A current carrying square shaped loop has edge 1m. The magnetic field at the centre of the square loop is given by  I μ  π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "0 2 2 I μ π  0 2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 2 I μ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 2 I μ π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q110",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An α-particle and a proton having same momentum move through a magnetic field. The radius described by them are in the ratio of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 : 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q111",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A circular loop  of radius r carrying a current I is given the shape of L such that the two semicircular parts lie in xz plane and yz plane as shown. The magnetic field at O is  y  I  x  O  z  0 ^ ^ ( ) 2 I i j r μ ",
+    "question_diagram": "/images/last_leap_pz2/p294_q111.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "0 ^ ^ ( ) 2 I i j r μ ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 ^ ^ ( ) 4 I i j r μ ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 ^ ^ ( ) 4 μ  I i j r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q112",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The Bohr magneton is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 eh  m π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 eh  m π  m π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 eh  m π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 eh",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q113",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A current carrying block of mass M is hanging as shown in the figure. The net extension in spring k3 is (symbols have usual meaning)  ×  ×  ×  k1  B  k3  ×  ×  ×  k2  l  i  ×  × Mg  Mg Bil k k k   ",
+    "question_diagram": "/images/last_leap_pz2/p294_q113.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2 3  ( )( ) ( ) Mg Bil k k k k k k      1 2 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2 3    Mg Bil k k k k k",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "   1 2 3 1 2  ( )( ) Mg Bil k k k k k k   ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 3  1 2 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q114",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The voltage sensitivity of a moving coil galvanometer becomes K times when number of turns is tripled. The value of K is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "27",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q115",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A current carrying wire is placed in non-conducting liquid medium of refractive index n and relative electrical permittivity εr . Then magnetic field at a point r distance of the point from the element is given by  \u0002  \u0002  r Idl r r μμ  π  4 Idl r r μ  π",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 2 ^",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 2 ^  4  \u0002    μ   2 0 2 ^  Idl r n r    π ε  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 r",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q116",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two beams of protons moving with velocity v1 and v2 are allowed to enter parallel to each other in a field free region. The ratio of magnetic force and electrostatic force exerted between the two beams is given by  2  c v v  1 2 2 v v",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "c",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2  v v",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 v v  1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q117",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic field due to straight current carrying conductor  is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Radially inward",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Radially outward",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Square shaped",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Concentric and circular",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q118",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The primary functions of electric field in cyclotrons is to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Energize the charge particle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bring the charge particle again and again in the  field",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cancel the force due to magnetic field",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Guide charged particles to the exit part",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q119",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following particles can be accelerated in controlled manner in cyclotron?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neutron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Proton",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electron",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Positron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q120",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The radius of a loop as shown in figure is 10 cm. If magnetic field is uniform and has value 10-2 T, then  the flux through the loop is  B  30°",
+    "question_diagram": "/images/last_leap_pz2/p295_q120.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2π × 10-2 Wb",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3π × 10-4 Wb",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5π × 10-5 Wb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5π × 10-4 Wb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q121",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "The resistance that should be used to shunt a galvanometer of resistance 1 k, to reduce its  sensitivity to 1  20 times of the initial value, is  nearly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "53 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "503 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "208 ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q122",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A charged particle of mass m charge q is projected along a negative x-axis from a point A (r0, 0, 0) in  a region having uniform magnetic field  0     B B j  \u0003\u0002 \u0004 . The maximum value of KE of the particle so that particle does not collide with Y-Z plane, is  2 2 2 0 0 2 2  2 2 2 0 0 4 r q B  r q B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "m  m  2 2 2 0 0 2 r q B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 0 2 r qB",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "m  m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q123",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A positive charge particle having charge q enters a region where magnetic flux density is B0, with speed v0 as shown in the figure. The time after which it will come out of the field is (symbol have their usual meanings).  B0  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  v0  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  ×  6 π θ  × ×  ×  ×  ×  ×  q  π  0 2 m q B π  2 m q B",
+    "question_diagram": "/images/last_leap_pz2/p295_q123.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0  π  0 3 m q B π  3 2 m q B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q124",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A galvanometer coil has a resistance of 15  and it shows full deflection when 4 mA current flows through. The value of shunt resistance needed to convert it into an ammeter which can read any current between 0 to 6 A, is nearly equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.01 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.001 ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q125",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A conducting wire of length l is turned in the form of a circular coil and i current is passed through it. When this coil is kept in a uniform magnetic field B, the torque on it will be maximum, if number of turns (N) in the coil is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1000",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10000",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q126",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A charge particle is projected through a region in a gravity free space. If it passes through the region with constant speed then the region may have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0, 0 E B  ≠ \u0002\u0003 \u0002\u0003",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0, 0 E B ≠ ≠ \u0002\u0003 \u0002\u0003",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0, 0 E B ≠  \u0002\u0003 \u0002\u0003",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "and",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q127",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement regarding cyclotron.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A charged particle accelerates only between  the dees because of magnetic field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A charged particle accelerates only between  the dees because of electric field",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A charged particle slows down within the dees  and speeds up between dees",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A charged particle continuously accelerates all  the time",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q128",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic field at the centre O of semicircular arc of radius r carrying current I is  I r O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 2 μI  r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 4 μI  r  0 8 μI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q129",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A closely wound solenoid of 2000 turns and area of cross-section 1.6 cm2 carries a current of 4 A. The magnetic moment associated with the solenoid (in Am2) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.28",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.56",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10.24",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q130",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A neutron, a proton, an electron and an α-particle enter a region of uniform magnetic field with the same velocity. The magnetic field is perpendicular and directed into the plane of the paper. The tracks of the particle are labelled in the figure. α- particle will follow the track  C B  D A",
+    "question_diagram": "/images/last_leap_pz2/p296_q130.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q131",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic field at the centre of a circular coil of radius R due to current I flowing through it is B0. The magnetic field at a point along the axis at a distance R from the centre is  B  0 8",
+    "question_diagram": "/images/last_leap_pz2/p296_q131.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "B0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B  0 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 2 2 B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q132",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In the hydrogen atom, the electron is making",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q133",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In the figure shown, the magnetic induction at the centre O will be  O 2r I  0 ( 2) 4 I r μ π π  0 2 I r μ",
+    "question_diagram": "/images/last_leap_pz2/p296_q133.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 ( 1) 4 I r μ π π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 ( 2) 4 I r μ π π",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q134",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "Two parallel infinite length line charges of magnitude λ1 and λ2 are at a distance b apart as shown in the figure. The force per unit length is  λ1 λ2  b  0 4 b λλ  0 2 b λλ  1 2  1 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "πε",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "πε  2 b λλ πε  0b λλ πε",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2  1 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q135",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "An infinitely long current carrying wire having current I1 is passed perpendicularly through the centre of circular ring having current I2. Net force experienced by the circular coil is  I1 I2  R  0 1 2 2 I I R μ",
+    "question_diagram": "/images/last_leap_pz2/p297_q135.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero  0 1 2 I I R μ  0 1 2 4 I I R μ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "π",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "π",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q136",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "A voltmeter gives full scale deflection at 20 V. To convert it into a voltmeter which gives a full scale deflection at 200 V, the voltmeter should be connected (Rv be the initial resistance of the voltmeter) to a  v R",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Shunt resistor of 9   in parallel with the  voltmeter  v R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Shunt resistor of 10   in parallel with the  voltmeter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Resistor of 9Rv in series with the voltmeter",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Resistor of 10Rv in series with the voltmeter",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secA_q137",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section A (Objective)",
+    "question_text": "In a gravity free chamber electric and magnetic fields are applied perpendicular to each other. Alpha-rays enter this chamber in such a way that it passes undeflected through it. When magnetic field is switched off, the α-rays will follow",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A straight path",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Elliptical path",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Circular path",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Parabolic path",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q1",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The coil of moving coil galvanometer is wounded  on a metallic frame.\nReason (R): Metallic frame provides larger moment  of  inertia hence smooth oscillations are possible.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q2",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Work done by magnetic field on a moving  point charge is zero.\nReason (R): The magnetic force is perpendicular to velocity.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q3",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The net force on a current carrying loop kept  in a uniform magnetic field is zero.\nReason (R): When the net magnetic force on a current  carrying loop is zero, torque on it cannot be zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q4",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): For an electron moving in a circular orbit, the  magnetic moment and angular momentum are in opposite directions.\nReason (R): Electron is a negatively charged particle.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q5",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When kinetic energy of a proton circulating in  uniform magnetic field becomes four times, its frequency of revolution becomes two times.\nReason (R): The frequency of a circulating particle in a  uniform magnetic field is directly proportional to the speed.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q6",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A charged particle cannot be accelerated  beyond a certain maximum speed.\nReason (R): At relativistic speeds the time period of  charged particle in magnetic field becomes the function of speed of the particle.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q7",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A constant magnetic field can accelerate a  charged particle but cannot increase its speed.\nReason (R): Magnetic force on a charged particle is always  perpendicular to the direction to the velocity.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q8",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Tangential acceleration of charge thrown into  transverse magnetic field is zero.\nReason (R): Velocity of charge particle may change by  magnetic field.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q9",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Magnetic field inside the solenoid is uniform.\nReason (R): Magnetic field outside the solenoid is zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q10",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The sensitivity of a moving coil galvanometer is  increased by using a suitable magnetic material as a core inside the coil.  \u0002\u0003 \u0002\u0003 \u0002\nReason (R): Soft iron has a high magnetic permeability and  cannot be easily magnetized or demagnetized.  \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q11",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Magnitude of B   is constant along a magnetic field line.  \u0002\nReason (R): B   is normal to a magnetic field line.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The magnetic field due to a wire placed in  X direction in the X-Y plane is everywhere perpendicular to Z-axis.\nReason (R): Magnetic field due to a current carrying wire is  perpendicular to the length and parallel to position vector.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q13",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Magnetic field due to a long thin current  carrying wire doubles on increasing distance twice.\nReason (R): Magnetic field is directly proportional to the  distance from the wire.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_16_moving_charges_and_magnetism_secB_q14",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): We can accelerate neutrons by cyclotron.\nReason (R): Neutrons are heavy in comparison in deuteron.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II (Physics & Zoology)"
+  }
+]
