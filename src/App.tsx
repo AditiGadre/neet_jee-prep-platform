@@ -20,6 +20,7 @@ import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
+const OnlineCoursesSection = lazy(() => import('./components/OnlineCoursesSection').then(m => ({ default: m.OnlineCoursesSection })));
 import { TermsAndConditionsModal } from './components/TermsAndConditionsModal';
 
 const SectionLoadingFallback = () => (
@@ -40,6 +41,7 @@ import {
   BOOKS_DATA,
   PYQS_DATA
 } from './data/mockData';
+import { ONLINE_COURSES_DATA } from './data/coursesData';
 import { ExamType, TestItem, BookItem, UserTestResult } from './types';
 
 export default function App() {
@@ -485,6 +487,15 @@ export default function App() {
                 testItems={TEST_SERIES_DATA}
                 targetYear={targetYear}
                 onStartTest={handleStartTest}
+              />
+            )}
+
+            {activeTab === 'online-courses' && (
+              <OnlineCoursesSection
+                courses={ONLINE_COURSES_DATA}
+                onEnroll={() => {
+                  setIsEnrollmentModalOpen(true);
+                }}
               />
             )}
 

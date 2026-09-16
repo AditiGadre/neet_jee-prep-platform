@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import {
   Sparkles,
   MessageCircleQuestion,
@@ -143,19 +144,19 @@ export const Header: React.FC<HeaderProps> = ({
     },
     {
       id: 'classroom-cbt',
-      name: 'Classroom Test Series (Hybrid CBT + OMR)',
-      badge: 'Hybrid Series',
+      name: 'Classroom Lectures & Hybrid Test Series',
+      badge: 'Lectures + Tests',
       badgeColor: 'bg-blue-100 text-blue-800 border-blue-200',
       icon: Building,
       price: '₹4,499',
       originalPrice: '₹8,999',
-      tagline: 'Physical Center Sunday Tests + Complete Digital CBT Portal',
+      tagline: 'Daily Physical Classroom Sessions & 4K Video Replays + OMR & CBT',
       features: [
-        'Physical Center OMR Sheet Sunday Examinations',
-        'Automated Mobile Camera OMR Scanning & Scoring',
-        'Complete Digital CBT Access with Instant AIR Sync',
-        'Combined Center & National Leaderboard Ranks',
-        'Hardcopy Test Paper & Detailed Solution Booklets'
+        'Daily Physical Classroom Lectures & Complete 4K Video Archive',
+        'Physical Center OMR Sheet Sunday Examinations with Instant Scoring',
+        'Complete Digital CBT Access with Instant AIR & Subject Percentile Sync',
+        '1-on-1 Faculty Doubt Clearance with Sub-10 Min Turnaround',
+        'Hardcopy Classroom Lecture Notes, Question Banks & DPP Booklets'
       ]
     },
     {
@@ -516,9 +517,14 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
       </div>
 
-      {/* Selected Package Details Modal */}
-      {selectedPackage && (
-        <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-in fade-in duration-200">
+      {/* Selected Package Details Modal - Mounted directly into body to break out of header stacking context */}
+      {selectedPackage && typeof document !== 'undefined' && createPortal(
+        <div
+          className="fixed inset-0 z-[99999] bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-in fade-in duration-200"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setSelectedPackage(null);
+          }}
+        >
           <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-in zoom-in-95 duration-200 text-slate-900 my-auto">
             {/* Modal Header */}
             <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-cyan-700 p-5 text-white flex items-center justify-between">
@@ -599,7 +605,8 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </header>
   );
