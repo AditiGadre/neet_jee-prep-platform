@@ -1,5 +1,13 @@
+dist/
+.vercel/
 extracted_lastleap/
+extracted_lastleap_part1/
+extracted_lastleap_part2/
 extracted_lastleap_pz2/
 scratch/
 lastleap_part2_page_inventory.json
 *.pdf
+*.zip
+*.tgz
+*.tar.gz
+
