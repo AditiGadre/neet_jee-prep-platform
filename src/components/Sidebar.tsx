@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   FileCheck2,
-  TvMinimalPlay,
   Sparkles,
   BookOpen,
   Trophy,
@@ -20,7 +19,6 @@ import {
 
 export type TabType =
   | 'test-series'
-  | 'online-courses'
   | 'what-extra'
   | 'about-exam'
   | 'support';
@@ -58,22 +56,15 @@ export const Sidebar: React.FC<SidebarProps> = ({
       badge: '180 Qs PCB'
     },
     {
-      id: 'online-courses' as TabType,
-      label: '2. Classroom & Video Lectures',
-      sublabel: 'Live Classes, 4K Video Library & Batches',
-      icon: TvMinimalPlay,
-      badge: 'Live + 4K'
-    },
-    {
       id: 'what-extra' as TabType,
-      label: '3. What Extra We Offer',
+      label: '2. What Extra We Offer',
       sublabel: 'Custom DPP, Chapter Tests & Analytics',
       icon: Sparkles,
       badge: '4 Tools'
     },
     {
       id: 'about-exam' as TabType,
-      label: '4. About NEET CBT Exam',
+      label: '3. About NEET CBT Exam',
       sublabel: 'CBT Pattern, Syllabus, Seats & Marks vs Rank',
       icon: BookOpen
     }

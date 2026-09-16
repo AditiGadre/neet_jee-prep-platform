@@ -20,7 +20,6 @@ import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
-const OnlineCoursesSection = lazy(() => import('./components/OnlineCoursesSection').then(m => ({ default: m.OnlineCoursesSection })));
 import { TermsAndConditionsModal } from './components/TermsAndConditionsModal';
 
 const SectionLoadingFallback = () => (
@@ -41,13 +40,21 @@ import {
   BOOKS_DATA,
   PYQS_DATA
 } from './data/mockData';
-import { ONLINE_COURSES_DATA } from './data/coursesData';
 import { ExamType, TestItem, BookItem, UserTestResult } from './types';
 
 export default function App() {
   const [activeExam, setActiveExam] = useState<ExamType>('NEET');
-  const [activeTab, setActiveTab] = useState<TabType>('test-series');
+  const [activeTab, setActiveTab] = useState<TabType>(() => {
+    try {
+      const saved = localStorage.getItem('neet_active_tab');
+      if (saved === 'test-series' || saved === 'what-extra' || saved === 'about-exam') {
+        return saved;
+      }
+    } catch {}
+    return 'test-series';
+  });
   const [extraSubTab, setExtraSubTab] = useState<string>('books');
+  const [enrollmentPackageId, setEnrollmentPackageId] = useState<string | undefined>(undefined);
 
   // Mandatory Enrollment Gate State - Persistent check for existing enrolled users & saved logins
   const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
@@ -441,6 +448,7 @@ export default function App() {
       {(!enrolledStudent || isEnrollmentModalOpen) && (
         <EnrollmentGate
           initialData={enrolledStudent || undefined}
+          initialPackageId={enrollmentPackageId}
           onEnrollSuccess={student => {
             setEnrolledStudent(student);
             setIsEnrollmentModalOpen(false);
@@ -466,7 +474,10 @@ export default function App() {
         onOpenDownloads={() => setIsDownloadsModalOpen(true)}
         onOpenSuperUser={handleOpenSuperUser}
         onOpenUploadModal={() => handleOpenUpload()}
-        onOpenEnrollment={() => setIsEnrollmentModalOpen(true)}
+        onOpenEnrollment={pkg => {
+          setEnrollmentPackageId(pkg?.id);
+          setIsEnrollmentModalOpen(true);
+        }}
       />
 
       {/* Main Layout Container */}
@@ -487,15 +498,6 @@ export default function App() {
                 testItems={TEST_SERIES_DATA}
                 targetYear={targetYear}
                 onStartTest={handleStartTest}
-              />
-            )}
-
-            {activeTab === 'online-courses' && (
-              <OnlineCoursesSection
-                courses={ONLINE_COURSES_DATA}
-                onEnroll={() => {
-                  setIsEnrollmentModalOpen(true);
-                }}
               />
             )}
 

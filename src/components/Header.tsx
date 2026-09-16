@@ -45,7 +45,7 @@ interface HeaderProps {
   onOpenDownloads?: () => void;
   onOpenSuperUser?: () => void;
   onOpenUploadModal?: () => void;
-  onOpenEnrollment?: () => void;
+  onOpenEnrollment?: (packageInfo?: any) => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -143,20 +143,20 @@ export const Header: React.FC<HeaderProps> = ({
       ]
     },
     {
-      id: 'classroom-cbt',
-      name: 'Classroom Lectures & Hybrid Test Series',
-      badge: 'Lectures + Tests',
+      id: 'hybrid-cbt-omr',
+      name: 'Hybrid Test Series (CBT + OMR Center Tests)',
+      badge: 'CBT + Center OMR',
       badgeColor: 'bg-blue-100 text-blue-800 border-blue-200',
       icon: Building,
       price: '₹4,499',
       originalPrice: '₹8,999',
-      tagline: 'Daily Physical Classroom Sessions & 4K Video Replays + OMR & CBT',
+      tagline: 'Physical Test Center Sunday OMR Mocks + Digital CBT Online Portal',
       features: [
-        'Daily Physical Classroom Lectures & Complete 4K Video Archive',
-        'Physical Center OMR Sheet Sunday Examinations with Instant Scoring',
-        'Complete Digital CBT Access with Instant AIR & Subject Percentile Sync',
-        '1-on-1 Faculty Doubt Clearance with Sub-10 Min Turnaround',
-        'Hardcopy Classroom Lecture Notes, Question Banks & DPP Booklets'
+        '40 Physical Test Center Sunday Mocks with authentic OMR evaluation',
+        'Complete digital access to NEET CBT Online Portal & AI Analytics',
+        'All-India Rank, detailed step-by-step solutions & percentile analysis',
+        'Printed question booklets & OMR answer sheets at test centers',
+        'Pan-India test center access across 150+ cities'
       ]
     },
     {
@@ -590,8 +590,9 @@ export const Header: React.FC<HeaderProps> = ({
                 <button
                   type="button"
                   onClick={() => {
+                    const pkg = selectedPackage;
                     setSelectedPackage(null);
-                    if (onOpenEnrollment) onOpenEnrollment();
+                    if (onOpenEnrollment) onOpenEnrollment(pkg);
                   }}
                   className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-bold text-sm shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
                 >

@@ -128,7 +128,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
               Subscriptions, Packages & Refund Policy
             </h3>
             <p>
-              Access to specialized packages (Online CBT All-India Test Series, Jumbo Package, Classroom Test Series, and Target Batch Dedicated Packs) is granted upon successful enrollment. Because digital access to question banks, downloadable resources, and test engines is provided immediately upon registration, payments made for enrolled packages are non-refundable.
+              Access to specialized packages (Online CBT All-India Test Series, Jumbo Package, Hybrid CBT + OMR Test Series, and Target Dedicated Batch Packs) is granted upon successful enrollment. Because digital access to question banks, downloadable resources, and test engines is provided immediately upon registration, payments made for enrolled packages are non-refundable.
             </p>
           </div>
 

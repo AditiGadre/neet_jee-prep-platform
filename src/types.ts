@@ -227,3 +227,29 @@ export interface DownloadRecord {
   format: 'PDF' | 'HTML' | 'DOC';
 }
 
+export interface EnrolledPackage {
+  id: string;
+  name: string;
+  price: string;
+  originalPrice?: string;
+  tagline?: string;
+  enrolledAt: string;
+}
+
+export interface AdminEnrollmentNotification {
+  id: string;
+  type: 'PACKAGE_ENROLLMENT';
+  studentName: string;
+  rollNumber: string;
+  studentPhone: string;
+  parentName?: string;
+  parentPhone?: string;
+  email: string;
+  targetYear: string;
+  packageId: string;
+  packageName: string;
+  packagePrice: string;
+  enrolledAt: string;
+  read: boolean;
+}
+

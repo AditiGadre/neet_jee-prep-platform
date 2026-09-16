@@ -22,7 +22,8 @@ import {
   Accessibility,
   Shield,
   Eye,
-  EyeOff
+  EyeOff,
+  Crown
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { supabase } from '../supabaseClient';
@@ -32,6 +33,8 @@ import {
   ActiveDevice
 } from '../utils/deviceSessionManager';
 import { TermsAndConditionsModal } from './TermsAndConditionsModal';
+import { EnrolledPackage } from '../types';
+import { NEET_PREP_PACKAGES, getPackageById, saveAdminNotification } from '../data/packagesData';
 
 export interface EnrolledStudent {
   studentName: string;
@@ -53,10 +56,12 @@ export interface EnrolledStudent {
   gender: 'Female' | 'Male' | 'Third Gender';
   disabilityStatus: string;
   specialReservation: string;
+  selectedPackage?: EnrolledPackage;
 }
 
 interface EnrollmentGateProps {
   initialData?: EnrolledStudent | null;
+  initialPackageId?: string;
   onEnrollSuccess: (student: EnrolledStudent) => void;
   onOpenAdmin?: () => void;
   onClose?: () => void;
@@ -89,7 +94,14 @@ const RANDOM_PARENT_NAMES = [
   'Debabrata Choudhury'
 ];
 
-export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onEnrollSuccess, onOpenAdmin, onClose, onOpenAuth }) => {
+export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
+  initialData,
+  initialPackageId,
+  onEnrollSuccess,
+  onOpenAdmin,
+  onClose,
+  onOpenAuth
+}) => {
   const [randomStudentPlaceholder] = useState(() => {
     const idx = Math.floor(Math.random() * RANDOM_STUDENT_NAMES.length);
     return `e.g. ${RANDOM_STUDENT_NAMES[idx]}`;
@@ -98,6 +110,16 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
     const idx = Math.floor(Math.random() * RANDOM_PARENT_NAMES.length);
     return `e.g. ${RANDOM_PARENT_NAMES[idx]}`;
   });
+
+  const [selectedPackageId, setSelectedPackageId] = useState<string>(
+    initialPackageId || initialData?.selectedPackage?.id || 'online-cbt'
+  );
+
+  React.useEffect(() => {
+    if (initialPackageId) {
+      setSelectedPackageId(initialPackageId);
+    }
+  }, [initialPackageId]);
 
   const [studentName, setStudentName] = useState(initialData?.studentName || '');
   const [parentName, setParentName] = useState(initialData?.parentName || '');
@@ -326,6 +348,16 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
     const dobPin = formatDobToPin(dob);
     const accountPassword = password.trim() || dobPin;
 
+    const selectedPkgItem = getPackageById(selectedPackageId);
+    const enrolledPackage: EnrolledPackage = {
+      id: selectedPkgItem.id,
+      name: selectedPkgItem.name,
+      price: selectedPkgItem.price,
+      originalPrice: selectedPkgItem.originalPrice,
+      tagline: selectedPkgItem.tagline,
+      enrolledAt: new Date().toISOString()
+    };
+
     const studentData: EnrolledStudent = {
       studentName: studentName.trim(),
       parentName: parentName.trim(),
@@ -344,8 +376,27 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
       studentPhoto,
       gender,
       disabilityStatus,
-      specialReservation
+      specialReservation,
+      selectedPackage: enrolledPackage
     };
+
+    // Save Admin Notification immediately
+    saveAdminNotification({
+      id: `notif-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
+      type: 'PACKAGE_ENROLLMENT',
+      studentName: studentData.studentName,
+      rollNumber: studentData.rollNumber,
+      studentPhone: studentData.studentPhone,
+      parentName: studentData.parentName,
+      parentPhone: studentData.parentPhone,
+      email: studentData.email,
+      targetYear: studentData.targetYear,
+      packageId: enrolledPackage.id,
+      packageName: enrolledPackage.name,
+      packagePrice: enrolledPackage.price,
+      enrolledAt: enrolledPackage.enrolledAt,
+      read: false
+    });
 
     // 1. Save credentials and candidate metadata in Supabase Auth
     if (supabase) {
@@ -368,7 +419,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
               gender: studentData.gender,
               disability_status: studentData.disabilityStatus,
               special_reservation: studentData.specialReservation,
-              roll_number: studentData.rollNumber
+              roll_number: studentData.rollNumber,
+              selected_package: enrolledPackage.name,
+              package_price: enrolledPackage.price,
+              package_id: enrolledPackage.id
             }
           }
         });
@@ -412,7 +466,8 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
         studentPhoto: studentData.studentPhoto,
         gender: studentData.gender,
         disabilityStatus: studentData.disabilityStatus,
-        specialReservation: studentData.specialReservation
+        specialReservation: studentData.specialReservation,
+        selectedPackage: enrolledPackage
       })
     );
     localStorage.removeItem('neet_guest_mode');
@@ -434,10 +489,19 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
   const handleDeauthorizeAndContinue = async (deviceToRemoveId: string) => {
     const updatedDevices = deauthorizeDevice(email.trim().toLowerCase(), deviceToRemoveId);
     setDeviceLimitError(null);
-    // Proceed with enrollment
     const rollNo = `NCBT-${targetYear}-` + Math.floor(100000 + Math.random() * 900000);
     const dobPin = formatDobToPin(dob);
     const accountPassword = password.trim() || dobPin;
+
+    const selectedPkgItem = getPackageById(selectedPackageId);
+    const enrolledPackage: EnrolledPackage = {
+      id: selectedPkgItem.id,
+      name: selectedPkgItem.name,
+      price: selectedPkgItem.price,
+      originalPrice: selectedPkgItem.originalPrice,
+      tagline: selectedPkgItem.tagline,
+      enrolledAt: new Date().toISOString()
+    };
 
     const studentData: EnrolledStudent = {
       studentName: studentName.trim(),
@@ -457,8 +521,26 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
       studentPhoto,
       gender,
       disabilityStatus,
-      specialReservation
+      specialReservation,
+      selectedPackage: enrolledPackage
     };
+
+    saveAdminNotification({
+      id: `notif-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
+      type: 'PACKAGE_ENROLLMENT',
+      studentName: studentData.studentName,
+      rollNumber: studentData.rollNumber,
+      studentPhone: studentData.studentPhone,
+      parentName: studentData.parentName,
+      parentPhone: studentData.parentPhone,
+      email: studentData.email,
+      targetYear: studentData.targetYear,
+      packageId: enrolledPackage.id,
+      packageName: enrolledPackage.name,
+      packagePrice: enrolledPackage.price,
+      enrolledAt: enrolledPackage.enrolledAt,
+      read: false
+    });
 
     // 1. Save credentials and candidate metadata in Supabase Auth
     if (supabase) {
@@ -627,6 +709,77 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
         ) : (
           /* Enrollment Form Body */
           <form onSubmit={handleSubmit} className="p-5 sm:p-6 space-y-4">
+            {/* 1. Preparation Package Selection */}
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-slate-50 via-blue-50/40 to-indigo-50/40 border border-blue-200/80 space-y-2.5">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                <label className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                  <Crown className="w-4 h-4 text-amber-500" />
+                  <span>Enrolling Preparation Package</span>
+                  <span className="text-rose-500">*</span>
+                </label>
+                <span className="text-[10px] text-blue-700 font-semibold bg-blue-100/70 px-2 py-0.5 rounded-full border border-blue-200/60">
+                  Admin Real-Time Notification Enabled
+                </span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {NEET_PREP_PACKAGES.map(pkg => {
+                  const isSelected = selectedPackageId === pkg.id || (pkg.id === 'online-cbt' && selectedPackageId === 'online-cbt-series');
+                  const Icon = pkg.icon;
+                  return (
+                    <div
+                      key={pkg.id}
+                      onClick={() => setSelectedPackageId(pkg.id)}
+                      className={`p-2.5 rounded-xl border-2 transition cursor-pointer flex flex-col justify-between select-none ${
+                        isSelected
+                          ? 'border-blue-600 bg-white shadow-sm ring-2 ring-blue-500/20'
+                          : 'border-slate-200 hover:border-slate-300 bg-white/70 hover:bg-white'
+                      }`}
+                    >
+                      <div>
+                        <div className="flex items-start justify-between gap-1.5">
+                          <div className="flex items-center space-x-2 min-w-0">
+                            <div
+                              className={`w-6 h-6 rounded-lg flex items-center justify-center shrink-0 ${
+                                isSelected ? 'bg-blue-600 text-white shadow-xs' : 'bg-slate-100 text-slate-600'
+                              }`}
+                            >
+                              <Icon className="w-3.5 h-3.5" />
+                            </div>
+                            <span className="font-bold text-xs text-slate-900 truncate">
+                              {pkg.name}
+                            </span>
+                          </div>
+                          <span className={`px-1.5 py-0.5 rounded text-[9px] font-bold shrink-0 border ${pkg.badgeColor}`}>
+                            {pkg.badge}
+                          </span>
+                        </div>
+                        <p className="text-[10px] text-slate-500 mt-1 line-clamp-1 leading-snug">
+                          {pkg.tagline}
+                        </p>
+                      </div>
+
+                      <div className="mt-2 pt-1.5 border-t border-slate-100 flex items-center justify-between">
+                        <div className="flex items-baseline space-x-1.5">
+                          <span className="font-extrabold text-blue-900 text-xs">{pkg.price}</span>
+                          <span className="text-[10px] text-slate-400 line-through">{pkg.originalPrice}</span>
+                          <span className="text-[9px] font-bold text-emerald-700 bg-emerald-100/70 px-1 py-0.2 rounded">
+                            {pkg.discount}
+                          </span>
+                        </div>
+                        <span
+                          className={`text-[10px] font-bold flex items-center gap-1 ${
+                            isSelected ? 'text-blue-600' : 'text-slate-400'
+                          }`}
+                        >
+                          {isSelected ? '✓ Selected' : 'Tap to Choose'}
+                        </span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {/* Photo Upload Section */}
               <div className="sm:col-span-2 p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50/50 border border-blue-100 flex flex-col sm:flex-row items-center gap-4">

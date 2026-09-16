@@ -50,7 +50,8 @@ import {
   FlaskConical,
   Dna,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  Crown
 } from 'lucide-react';
 import {
   getUnifiedQuestionBank,
@@ -65,9 +66,10 @@ import {
   markQuestionsAsConsumed
 } from '../utils/questionTracker';
 import { downloadTestPaperPDF } from '../utils/pdfDownloader';
-import { TestItem, Question } from '../types';
+import { TestItem, Question, AdminEnrollmentNotification } from '../types';
 import { SAMPLE_QUESTIONS } from '../data/mockData';
 import { StudentUnlockRequest, getStoredUnlockRequests } from './SuperUserModal';
+import { getAdminNotifications, NEET_PREP_PACKAGES } from '../data/packagesData';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
@@ -1052,6 +1054,40 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
   })();
 
+  const [registeredCandidates, setRegisteredCandidates] = useState<any[]>(() => {
+    try {
+      const raw = localStorage.getItem('neet_registered_candidates');
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
+    } catch {}
+    return enrolledStudent ? [enrolledStudent] : [];
+  });
+
+  const [adminNotifications, setAdminNotifications] = useState<AdminEnrollmentNotification[]>(() => getAdminNotifications());
+  const [showNotificationDrawer, setShowNotificationDrawer] = useState(false);
+
+  useEffect(() => {
+    const handleNotificationUpdate = () => {
+      setAdminNotifications(getAdminNotifications());
+      try {
+        const raw = localStorage.getItem('neet_registered_candidates');
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (Array.isArray(parsed) && parsed.length > 0) setRegisteredCandidates(parsed);
+        }
+      } catch {}
+    };
+
+    window.addEventListener('neet_admin_enrollment_notification', handleNotificationUpdate);
+    window.addEventListener('storage', handleNotificationUpdate);
+    return () => {
+      window.removeEventListener('neet_admin_enrollment_notification', handleNotificationUpdate);
+      window.removeEventListener('storage', handleNotificationUpdate);
+    };
+  }, []);
+
   return (
     <div className="space-y-5 animate-in fade-in duration-150">
       {/* Page Header Banner */}
@@ -1076,8 +1112,92 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
           </div>
 
-          {/* Quick Sunday Test Master Toggle */}
-          <div className="flex items-center space-x-3">
+          {/* Header Controls: Sunday Test Master Toggle & Notification Bell */}
+          <div className="flex items-center space-x-2 sm:space-x-3">
+            {/* Enrollment Notification Bell */}
+            <div className="relative">
+              <button
+                onClick={() => setShowNotificationDrawer(prev => !prev)}
+                className={`relative px-3 py-2.5 rounded-xl font-bold text-xs transition flex items-center space-x-2 cursor-pointer shadow-md ${
+                  adminNotifications.length > 0
+                    ? 'bg-amber-500/20 text-amber-300 border border-amber-400/40 hover:bg-amber-500/30'
+                    : 'bg-white/10 text-slate-300 border border-white/10 hover:bg-white/20'
+                }`}
+                title="Candidate Package Enrollment Alerts"
+              >
+                <Bell className={`w-4 h-4 ${adminNotifications.length > 0 ? 'text-amber-400 animate-bounce' : 'text-slate-400'}`} />
+                <span className="hidden sm:inline">Alerts</span>
+                {adminNotifications.length > 0 && (
+                  <span className="px-1.5 py-0.2 rounded-full bg-rose-500 text-white font-mono text-[10px] font-black">
+                    {adminNotifications.length}
+                  </span>
+                )}
+              </button>
+
+              {/* Notification Dropdown Drawer */}
+              {showNotificationDrawer && (
+                <>
+                  <div
+                    className="fixed inset-0 z-40"
+                    onClick={() => setShowNotificationDrawer(false)}
+                  />
+                  <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-white rounded-2xl shadow-2xl border border-slate-200 z-50 p-4 text-slate-900 animate-in fade-in zoom-in-95 duration-150">
+                    <div className="flex items-center justify-between pb-2.5 border-b border-slate-100">
+                      <div className="flex items-center space-x-2">
+                        <Bell className="w-4 h-4 text-blue-600" />
+                        <h4 className="text-xs font-bold text-slate-900">Enrolled Package Notifications</h4>
+                      </div>
+                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">
+                        {adminNotifications.length} New
+                      </span>
+                    </div>
+
+                    <div className="mt-2.5 space-y-2 max-h-72 overflow-y-auto pr-1">
+                      {adminNotifications.length > 0 ? (
+                        adminNotifications.map(notif => (
+                          <div
+                            key={notif.id}
+                            className="p-2.5 rounded-xl border border-slate-100 bg-slate-50/70 hover:bg-blue-50/50 transition space-y-1"
+                          >
+                            <div className="flex items-start justify-between gap-2">
+                              <span className="text-xs font-bold text-slate-900">{notif.studentName}</span>
+                              <span className="text-[10px] font-mono text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded font-bold shrink-0">
+                                {notif.packagePrice}
+                              </span>
+                            </div>
+                            <div className="flex items-center gap-1.5 text-[11px] text-blue-700 font-semibold">
+                              <Crown className="w-3 h-3 text-amber-500 shrink-0" />
+                              <span className="truncate">{notif.packageName}</span>
+                            </div>
+                            <div className="flex items-center justify-between text-[10px] text-slate-500 pt-1 border-t border-slate-200/50">
+                              <span className="font-mono">Roll: {notif.rollNumber}</span>
+                              <span>{new Date(notif.enrolledAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
+                            </div>
+                          </div>
+                        ))
+                      ) : (
+                        <div className="text-center py-6 text-slate-400 text-xs">
+                          No recent enrollment notifications yet.
+                        </div>
+                      )}
+                    </div>
+
+                    <div className="mt-3 pt-2.5 border-t border-slate-100">
+                      <button
+                        onClick={() => {
+                          setAdminTab('students');
+                          setShowNotificationDrawer(false);
+                        }}
+                        className="w-full py-1.5 text-center text-xs font-bold text-blue-600 hover:text-blue-800 transition"
+                      >
+                        Open Full Candidate Directory →
+                      </button>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+
             <button
               onClick={handleToggleAdminTestAccess}
               className={`px-4 py-2.5 rounded-xl text-xs font-bold font-mono transition flex items-center space-x-2 cursor-pointer shadow-md ${
@@ -1090,12 +1210,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               {isAdminTestAccessGranted ? (
                 <>
                   <Unlock className="w-4 h-4 text-emerald-200" />
-                  <span>Sunday Tests: UNLOCKED (All Students)</span>
+                  <span className="hidden sm:inline">Sunday Tests:</span> UNLOCKED
                 </>
               ) : (
                 <>
                   <Lock className="w-4 h-4 text-amber-200" />
-                  <span>Sunday Tests: LOCKED (Approval Required)</span>
+                  <span className="hidden sm:inline">Sunday Tests:</span> LOCKED
                 </>
               )}
             </button>
@@ -1112,6 +1232,49 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           </div>
         </div>
       </div>
+
+      {/* Real-Time Enrollment Notification Alert Banner */}
+      {adminNotifications.length > 0 && (
+        <div className="p-4 rounded-2xl bg-gradient-to-r from-emerald-950 via-teal-950 to-slate-900 border-2 border-emerald-500/50 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-white animate-in fade-in slide-in-from-top-2 duration-200">
+          <div className="flex items-start sm:items-center space-x-3 min-w-0">
+            <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 flex items-center justify-center shrink-0 mt-0.5 sm:mt-0">
+              <Crown className="w-5 h-5 text-amber-400" />
+            </div>
+            <div className="min-w-0">
+              <div className="flex items-center space-x-2 flex-wrap">
+                <span className="px-2 py-0.5 rounded-full bg-emerald-500 text-slate-950 font-mono font-black text-[10px] uppercase">
+                  Candidate Enrolled
+                </span>
+                <span className="text-xs font-mono text-emerald-300">
+                  {adminNotifications[0].studentName} (Roll: {adminNotifications[0].rollNumber})
+                </span>
+                <span className="text-[10px] text-slate-400">
+                  {new Date(adminNotifications[0].enrolledAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                </span>
+              </div>
+              <p className="text-xs text-slate-200 mt-1">
+                Enrolled Package:{' '}
+                <strong className="text-white font-bold bg-white/10 px-2 py-0.5 rounded border border-white/20">
+                  {adminNotifications[0].packageName}
+                </strong>{' '}
+                <span className="text-emerald-400 font-bold font-mono">
+                  ({adminNotifications[0].packagePrice})
+                </span>{' '}
+                &bull; Contact: +91 {adminNotifications[0].studentPhone}
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center space-x-2 shrink-0">
+            <button
+              onClick={() => setAdminTab('students')}
+              className="px-3.5 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-extrabold text-xs shadow-md transition cursor-pointer"
+            >
+              View in Directory →
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Global Action Banner */}
       {actionSuccessBanner && (
@@ -1285,7 +1448,19 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           <td className="p-3.5">
                             <div className="font-bold text-gray-900">{req.studentName}</div>
                             <div className="text-[11px] font-mono text-blue-700 font-semibold">{req.rollNumber}</div>
-                            <div className="text-[10px] text-gray-400">{req.targetBatch}</div>
+                            {(() => {
+                              const matched = registeredCandidates.find((c: any) => c.rollNumber === req.rollNumber || c.studentName === req.studentName || c.studentPhone === req.studentPhone);
+                              const pkg = matched?.selectedPackage || enrolledStudent?.selectedPackage;
+                              return pkg ? (
+                                <div className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-50 text-amber-900 border border-amber-200 mt-1">
+                                  <Crown className="w-2.5 h-2.5 text-amber-600 shrink-0" />
+                                  <span className="truncate max-w-[160px]">{pkg.name}</span>
+                                  <span className="font-mono text-emerald-700 font-bold">{pkg.price}</span>
+                                </div>
+                              ) : (
+                                <div className="text-[10px] text-gray-400">{req.targetBatch}</div>
+                              );
+                            })()}
                           </td>
 
                           <td className="p-3.5 font-mono text-gray-700">
@@ -3194,51 +3369,116 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
           </div>
 
-          {enrolledStudent ? (
-            <div className="bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs space-y-4">
-              <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-gray-100">
-                <div className="flex items-center space-x-3.5">
-                  <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-black text-base flex items-center justify-center shadow-xs">
-                    {enrolledStudent.studentName?.charAt(0) || 'S'}
-                  </div>
-                  <div>
-                    <div className="flex items-center space-x-2">
-                      <h4 className="text-base font-bold text-gray-900">{enrolledStudent.studentName}</h4>
-                      <span className="px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-[10px] font-bold">
-                        {enrolledStudent.caste || 'General / Open'}
-                      </span>
+          {/* Candidates Directory & Package Status */}
+          {registeredCandidates.length > 0 ? (
+            <div className="space-y-4">
+              {/* Package Distribution Summary Card */}
+              <div className="bg-white p-4 rounded-2xl border border-gray-200 shadow-2xs">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-gray-100">
+                  <div className="flex items-center space-x-2">
+                    <Crown className="w-5 h-5 text-amber-500" />
+                    <div>
+                      <h4 className="text-sm font-bold text-gray-900">Enrolled Candidates & Prep Packages</h4>
+                      <p className="text-xs text-gray-500">Live directory of active candidate package subscriptions</p>
                     </div>
-                    <p className="text-xs text-gray-500 font-mono">
-                      Roll: {enrolledStudent.rollNumber} • Target: {enrolledStudent.targetExam || 'NEET (UG)'} {enrolledStudent.targetYear || '2027'}
-                    </p>
                   </div>
+                  <span className="px-3 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-200 text-xs font-bold font-mono">
+                    {registeredCandidates.length} Active {registeredCandidates.length === 1 ? 'Candidate' : 'Candidates'}
+                  </span>
                 </div>
 
-                <span className="px-3 py-1 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-300 font-bold text-xs font-mono">
-                  ✓ Verified Active
-                </span>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mt-3 text-xs">
+                  {NEET_PREP_PACKAGES.map(pkg => {
+                    const count = registeredCandidates.filter(c => c.selectedPackage?.id === pkg.id || (pkg.id === 'online-cbt' && !c.selectedPackage)).length;
+                    return (
+                      <div key={pkg.id} className="p-2.5 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
+                        <div className="text-[10px] uppercase font-bold text-slate-500 truncate">{pkg.name}</div>
+                        <div className="flex items-baseline justify-between">
+                          <span className="text-sm font-black text-slate-900">{count}</span>
+                          <span className="text-[10px] font-mono text-emerald-700 font-bold">{pkg.price}</span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
-                <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
-                  <div className="text-[10px] uppercase font-bold text-gray-500">Student Contact</div>
-                  <div className="font-mono font-bold text-gray-900 mt-0.5">+91 {enrolledStudent.studentPhone}</div>
-                </div>
+              {/* Candidate Cards */}
+              <div className="space-y-3">
+                {registeredCandidates.map((cand, idx) => {
+                  const pkg = cand.selectedPackage || {
+                    name: 'Online CBT All-India Test Series',
+                    price: '₹2,999',
+                    enrolledAt: cand.enrolledAt
+                  };
 
-                <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
-                  <div className="text-[10px] uppercase font-bold text-gray-500">Parent / Emergency Phone</div>
-                  <div className="font-mono font-bold text-emerald-800 mt-0.5">+91 {enrolledStudent.parentPhone || enrolledStudent.studentPhone}</div>
-                </div>
+                  return (
+                    <div key={cand.rollNumber || idx} className="bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs space-y-4">
+                      <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-gray-100">
+                        <div className="flex items-center space-x-3.5">
+                          {cand.studentPhoto ? (
+                            <img
+                              src={cand.studentPhoto}
+                              alt={cand.studentName}
+                              className="w-12 h-12 rounded-2xl object-cover border border-slate-200 shadow-xs"
+                            />
+                          ) : (
+                            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-black text-base flex items-center justify-center shadow-xs">
+                              {cand.studentName?.charAt(0) || 'S'}
+                            </div>
+                          )}
+                          <div>
+                            <div className="flex items-center space-x-2">
+                              <h4 className="text-base font-bold text-gray-900">{cand.studentName}</h4>
+                              <span className="px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-[10px] font-bold">
+                                {cand.caste || 'General / Open'}
+                              </span>
+                            </div>
+                            <p className="text-xs text-gray-500 font-mono">
+                              Roll: <strong className="text-blue-700">{cand.rollNumber}</strong> &bull; Target: {cand.targetYear || '2027'} &bull; Domicile: {cand.domicileState || 'Maharashtra'}
+                            </p>
+                          </div>
+                        </div>
 
-                <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
-                  <div className="text-[10px] uppercase font-bold text-gray-500">Parent Email ID</div>
-                  <div className="font-mono font-semibold text-gray-900 mt-0.5 truncate">{enrolledStudent.parentEmail || enrolledStudent.email}</div>
-                </div>
+                        {/* Enrolled Package Badge */}
+                        <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 shadow-2xs">
+                          <Crown className="w-4 h-4 text-amber-500 shrink-0" />
+                          <div>
+                            <div className="text-[9px] uppercase font-bold text-slate-500">Enrolled Package</div>
+                            <div className="text-xs font-extrabold text-blue-950 flex items-center gap-1.5">
+                              <span>{pkg.name}</span>
+                              <span className="font-mono text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded text-[10px] font-bold">
+                                {pkg.price}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
-                <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
-                  <div className="text-[10px] uppercase font-bold text-gray-500">State Domicile (85% Quota)</div>
-                  <div className="font-bold text-blue-700 mt-0.5">{enrolledStudent.domicileState || 'Maharashtra'}</div>
-                </div>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+                        <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
+                          <div className="text-[10px] uppercase font-bold text-gray-500">Student Contact</div>
+                          <div className="font-mono font-bold text-gray-900 mt-0.5">+91 {cand.studentPhone}</div>
+                        </div>
+
+                        <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
+                          <div className="text-[10px] uppercase font-bold text-gray-500">Parent / Emergency Phone</div>
+                          <div className="font-mono font-bold text-emerald-800 mt-0.5">+91 {cand.parentPhone || cand.studentPhone}</div>
+                        </div>
+
+                        <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
+                          <div className="text-[10px] uppercase font-bold text-gray-500">Parent Email ID</div>
+                          <div className="font-mono font-semibold text-gray-900 mt-0.5 truncate">{cand.parentEmail || cand.email}</div>
+                        </div>
+
+                        <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
+                          <div className="text-[10px] uppercase font-bold text-gray-500">State Domicile (85% Quota)</div>
+                          <div className="font-bold text-blue-700 mt-0.5">{cand.domicileState || 'Maharashtra'}</div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           ) : (

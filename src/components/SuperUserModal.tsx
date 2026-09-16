@@ -1998,9 +1998,16 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     </div>
                   </div>
 
-                  <span className="px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-300 font-bold text-xs font-mono">
-                    ✓ Verified Active
-                  </span>
+                  <div className="flex items-center space-x-2">
+                    {enrolledStudent.selectedPackage && (
+                      <span className="px-3 py-1 rounded-lg bg-blue-50 text-blue-900 border border-blue-200 font-bold text-xs font-mono">
+                        🏷️ {enrolledStudent.selectedPackage.name} ({enrolledStudent.selectedPackage.price})
+                      </span>
+                    )}
+                    <span className="px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-300 font-bold text-xs font-mono">
+                      ✓ Verified Active
+                    </span>
+                  </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
