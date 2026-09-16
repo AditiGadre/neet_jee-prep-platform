@@ -1,0 +1,6431 @@
+[
+  {
+    "question_id": "zoo_07_biomolecules_secA_q1",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which monosaccharide takes part in the synthesis of lignin and anthocyanin pigments?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ribose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Erythrose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mannose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Galactose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q2",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Honey is sweet in taste as it contains two sugars both these sugar are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hexoses",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pentoses",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tetroses",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heptoses",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q3",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Fatty acids are called saturated if they do not have any double bonds between the carbons of the molecular chain. Which of the following is saturated fatty acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Linolenic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stearic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Palmitic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q4",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Prostaglandins occur in human seminal fluid, menstrual fluid, amniotic fluid and a number of tissues. Prostaglandins are derived from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Palmitic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arachidonic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cerebrosides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sterols",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q5",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following essential amino acid is diamino monocarboxylic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leucine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Valine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lysine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isoleucine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q6",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect w.r.t. proteins?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A protein is a heteropolymer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The sequence of amino acids in polypeptide  chain gives the protein its primary structure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "When two or more chains are joined together  by intermolecular hydrogen bonds, the structure is called pleated sheet",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "As the size of the protein molecule increases,  it becomes more soluble and its heat coagulability increases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q7",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect w.r.t. nucleic acids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleic acids were first discovered by Meischer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The backbone of the nucleic acid is uniformly  made up of alternating pentose and phosphate groups",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In DNA molecule, the amount of purine and  pyrimidines are equal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DNA was discovered by Jacob and Monad",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q8",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Enzyme that catalyses the cleavage of specific covalent bond and removal of groups without hydrolysis belongs to which class of enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lyases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrolases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transferases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ligases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q9",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The inhibition of succinic dehydrogenase by malonate is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Non-competitive inhibition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Competitive inhibition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Allosteric modulation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q10",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect w.r.t. non-competitive inhibition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Non-competitive inhibition can be overcome by  increasing the concentration of substrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Non-competitive inhibitors decrease the Vmax of  the reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Non-competitive inhibitors do not interfere with  the binding of substrate to enzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In non-competitive inhibition the enzyme shows  the same Km in the presence or absence of the non-competitive inhibitors",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 255,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q11",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleotide with more than one phosphate  group are called higher nucleotides",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rhodopsin and iodopsin are photoreceptor  pigments",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glycoprotein plays important role in cell  recognition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monellin is sweetest sugar obtained from an  African berry",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q12",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "By possessing free aldehyde or ketone group, carbohydrates exhibit the reducing property. Which of the following pair are without these free aldehyde or ketonic group?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lactose, maltose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maltose, sucrose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sucrose, trehalose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maltose, inulin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q13",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The enzyme which possess both protein and non- protein part are called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Apoenzymes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cofactors",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Coenzymes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Holoenzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q14",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a ribonucleotide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytidine monophosphate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytidylic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribose + cytosine + phosphate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q15",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The acid insoluble fraction, has only four types  of  organic  compounds,  proteins, polysaccharides nucleic acids and lipids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chemical compounds found in living organisms  are of two types, acid soluble and acid insoluble",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The compounds which are found in the acid  insoluble fraction are called micromolecules",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The acid soluble pool represents roughly the  cytoplasmic composition",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q16",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Biologists describe the protein structure at four levels. Which level described the sequence of amino acids, i.e., the positional information in a protein?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary structure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tertiary structure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Quaternary structure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q17",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect w.r.t. enzymes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "An active site of an enzyme is a pocket into  which the substrate fits",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enzymes through their active site, catalyse  reactions at a high rate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inorganic catalysts work efficiently at high  temperature and high pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enzymes retain their catalytic power even at  high temperatures",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q18",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The four curves have been depicted in the figure given below. Which curve represent the uncatalysed reaction or no enzyme is involved?  Vmax  A  B C  D Rate of reaction  Concentration of substrate (s)",
+    "question_diagram": "/images/last_leap_part1/p256_q18.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Curve A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Curve B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Curve C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Curve D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q19",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following amino acid is alcoholic amino acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Threonine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arginine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glycine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Valine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q20",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is monounsaturated fatty acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Linoleic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Linolenic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Arachidonic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oleic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q21",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Co-enzymes are also organic compounds but  their association with apoenzyme is only transient",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vmax (maximum velocity) represent that there  are no substrate molecules to bind with free enzyme molecule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Living state is non-equilibrium steady state to  be able to perform work",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enzymes eventually bring down the energy  barrier making the transition of substrate to product more easy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q22",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Type of relationship between turnover number and Km (Michaelis constant) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Directly proportional",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inversely proportional",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Exponential",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Not related",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q23",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Number of phosphate group present in NADP+ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 256,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q24",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Chondroitin sulphate is the mucopolysaccharide found in the matrix of cartilage and connective tissue for support and elasticity is made up of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucuronic acid + acetyl aminogalactose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucuronic acid + acetyl glucosamine HA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 – 4 glucosamine + glucuronic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acetyl glucosamine + galactose + sulphuric  acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q25",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Inhibition of threonine deaminase by isoleucine is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Competitive inhibition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Non competitive inhibition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Feed back inhibition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Irreversible inhibition",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q26",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Lecithin is formed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fatty acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ Phosphoric acid",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "+  Ethanolamine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fatty acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ Phosphoric acid",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "+ Serine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fatty acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ Glycerol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycerol",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "+ Fatty acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ Phosphoric acid",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "+ Choline",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q27",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct definition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vitamins are the organic molecules in food  that are required in minute quantities for normal metabolism are synthesised in adequate amounts by humans and animals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hormones are chemicals secreted by the  endocrine glands into the blood, which then transport these to the target tissues located away from the site of secretion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Totipotency is the potential ability of any cell  to grow into a complete organism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tendon is a dense, strong fibrous connective  tissue with thick parallel bundles of collagen and elastic fibres forming inextensible attachment of a skeletal muscle to a bone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q28",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Enzymes that catalyse removal of groups substrates by mechanisms other than hydrolysis leaving double bonds are  | | X Y  C– C X Y C C    ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ligases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lyases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrolases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isomerases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q29",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Following are the examples of secondary metabolites except one. Mark the exception",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Morphine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vinblastine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lecithin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellulose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q30",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "After hydrolysis of glutathione which of the following will not be produced?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glutamate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Leucine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cysteine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q31",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can’t be considered as difference point between nucleotide and nucleoside ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleotide is formed through phosphorylation of  nucleoside",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleotide is a compound formed by the union  of nitrogen base, a pentose sugar and phosphate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is acidic in nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of hydrogen bond in its structure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q32",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Types of linkage present in chitin is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": ", 1 - 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": ", 1 - 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": ", 1 - 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both 1-4 and 1-6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q33",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the covalent bond present in tertiary structure but absent in primary and secondary structure",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Peptide bond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Disulphide bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ionic bond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydrogen bond",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q34",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can’t be included under glucan?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Starch",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cellulose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pectin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycogen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q35",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match w.r.t. enzyme and its cofactor?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Catalase - Ca2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tyrosinase - Copper",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carbonic anhydrase - Zinc",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Salivary amylase - Chloride",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q36",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In case of competitive inhibitor there is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decrease in Vmax, Increase in Km",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease in Vmax and Km remains unchanged",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase in Km but Vmax remains unchanged",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decrease in Km Increase in Vmax",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q37",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Desert temperature often varies between 0°C to 50°C. The DNA polymerase isolated from a camel living in the desert will be able to synthesize DNA most efficiently at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "37°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 257,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q38",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In cells and extracellular fluids dibasic  phosphate and monobasic phosphate act as acid-base buffers to maintain the H+ ion concentration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in level of Ca2+ and Mg2+ increases  the excitability of nerves and muscles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Micromolecules include water, aminoacids,  monosaccharides and nucleotides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secondary metabolites include rubber, drugs,  spices, scents and pigments",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q39",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following monosaccharide is pentose sugar?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mannose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ribose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Galactose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glucose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q40",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following are saturated fatty acids?  (a) Palmitic acid (b) Linolenic  (c) Stearic acid (d) Linoleic acid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(d) only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a) only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a) and (c)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(b) and (d)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q41",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an essential amino acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Valine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Serine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leucine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q42",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chromoprotein - Cytochrome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phosphoprotein - Casein of milk",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cheese - Denatured protein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monellin - Sweetest sugar",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q43",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Certain enzymes which leave the cells and function outside them are called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Endoenzymes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Exoenzymes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Extracellular enzymes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q44",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a limiting factor on the rate of enzyme catalysed reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature and hydrogen ion concentration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enzyme concentration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Product concentration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absence of an inhibitor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q45",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Ribozyme was first discovered by ___ from ___",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Altman et al, Bacteria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cech et al, Tetrahymena",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Buchner, Jack fruit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kuhne, Pineapple",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q46",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Inulin is a polymer of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One glucose and one fructose molecules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Many fructose molecules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "One glucose and galactose molecules",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Many N-acetylglucosamine molecules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q47",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "On the accompanying graph the curves A, B and C, indicate which of the following reactions  Maximum rate   Rate of reaction - V  B A  C  Km  Concentration of substrate (S)  (i) Reaction with enzyme  (ii) Reaction without enzyme  (iii) Reaction in the presence of competitive  inhibitor  (iv) Reaction in the presence of non-competitive  inhibitor",
+    "question_diagram": "/images/last_leap_part1/p258_q47.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A(iv), B(iii), C(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A(i), B(iv), C(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A(i), B(iii), C(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A(i), B(ii), C(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q48",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is not correct about proteins?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The first protein to have its primary structure  determined was insulin by (Sanger)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In proteins with the surface containing  aminoacids like cysteine, considerable tertiary stability is achieved through covalent disulphide bonds between the sulphur atoms on different parts of the molecule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cereal and millet proteins are deficient in lysine  and tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pulses are rich in sulphur containing  aminoacids like methionine and cysteine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q49",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Proteases can act on a variety of proteins. What would be the Km value of the enzyme protease, when it acts on different proteins?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The Km value will remain the same",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The Km value of the protease will vary with the  type of protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The Km value will be increased",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The Km value will be decreased",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 258,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q50",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The coiled cellophane tube used in kidney dialysing machine, is made up of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cellulose xanthate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plastic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lipoproteins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q51",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a nucleoside?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uridine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytidylic acid CMP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thymidine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Guanosine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q52",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following mineral is a component of the enzyme for melanin synthesis and it also essential for haemoglobin synthesis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zinc",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calcium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Copper",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phosphorus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q53",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The structure given below is of  O  O  Adenine OCH2 P HO  OH  OH  OH OH",
+    "question_diagram": "/images/last_leap_part1/p259_q53.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A purine base",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adenosine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adenylate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A pyrimidine base",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q54",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct set of primary metabolites?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Codeine, Lecithin, Carotenoid, Glycerol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cholesterol, Uridine, Lecithin, Palmitic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anthocyanin, Cellulose, Rubber, Morphine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gums, Vinblastin, Cellulose, Codeine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q55",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Select the true statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Haem is the prosthetic group and it is a part  of the active site of the enzyme peroxidase and catalase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lyase enzymes catalyse hydrolysis of ester,  ether and peptide, glycosidic bonds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enzymes generally function in a broad range  of temperature and pH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inhibition of succinate dehydrogenase enzyme  by malonate results in decrease of Vmax while Km value remains unaffected",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q56",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following biomolecules are amphoteric in nature?  (a) Amino acids  (b) Phospholipids  (c) Proteins",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only (a)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a) and (c)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a) and (b)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(a), (b) and (c)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q57",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can be taken as an example of neutral amino acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Valine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Leucine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lysine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q58",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The backbone of nucleic acid structure is made up of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Peptide bonds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycosidic bonds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phosphodiester bridges",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q59",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Nucleotides of vitamins nicotinamide and riboflavin occur either free or in combination with specific proteins. Their function is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "To participate in the formation of nucleic  acids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "To act along with oxidising enzymes and  participate in oxidation reactions occurring in the cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "To store energy in their high energy phosphate  bonds",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "To act as prosthetic group only in enzymes  involved in reducing reactions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q60",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "After the removal of the amino group the  carbon chain of many amino acids is converted into glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "On losing the carboxyl group as carbon  dioxide, amino acids form biologically active amines such as histamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tyrosine is involved in the formation of plant  hormone indole-3-acetic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycine is involved in the formation of heme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q61",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following set of molecule show presence of heterocyclic ring?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucose, Trypsin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycogen, Lysine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adenine, Guanine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lecithin, Ribose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 259,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q62",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct identification of a, b, c and d nitrogenous bases represented below?  C O  C O  HN O=C  C–CH3 CH N H  HN O=C  CH CH N H  a.  b.  C NH2  C NH2  N C  c. N  CH d. N  CH  O=C CH N H  HC  C  N H  N",
+    "question_diagram": "/images/last_leap_part1/p260_q62.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Uracil, thymine, cytosine, guanine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Uracil, cytosine, thymine, guanine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Uracil, thymine, cytosine, adenine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thymine, cytosine, uracil, guanine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q63",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a secondary metabolite?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Antibiotics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vitamins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carotenoids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Morphine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q64",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect match about the enzyme and its co-factor?  Enzyme Co-factor",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carboxypeptidase : Zinc",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tyrosinase : Copper",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carbonic anhydrase : Zinc",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catalase : Ca2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q65",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements about enzymes is false?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enzymes are catalyst within the cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All the cells of an organism contain same  enzymes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enzymes bring the substances together so  that they undergo a reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enzymes lower the activation energy of  spontaneous reactions in the cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q66",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The presence of a non-competitive inhibitor",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leads to both increase in the Vmax of a  reaction and increase in the Km",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Leads to decrease in the observed Vmax",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Leads to decrease in Km and Vmax",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increases the steady-state concentration of ES",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q67",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "An unusual polysaccharide, formed of fructose residues and representing reserved food in tubers, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Callose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inulin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glycogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hemicellulose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q68",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The analogue of hirudin, from the saliva of leech, found in human blood is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Antithrombin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gamma globulin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Histamine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heparin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q69",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The neurologic disturbances seen in Niemann – Pick disease are associated with the accumulation in the central nervous tissue which one of the following?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prostaglandins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ganglioside",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cerebroside",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sphingomyelin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q70",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is storage protein?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protamine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prolamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P-protein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Histone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q71",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzyme is not used in ELISA test?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alkaline phosphatase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose oxidase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Horseradish peroxidase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catalase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q72",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "For the enzyme phosphofructokinase which of the following is an allosteric inhibitor?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ADP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glucose-6-phosphate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isoleucine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q73",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not true for cellulose?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cellulose is the most abundant organic  compound in the biosphere",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is a branched polymer of -glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The artificial fibre rayon is prepared from  cellulose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carboxymethyl cellulose is added to ice-  creams, cosmetics and medicines to emulsify and give a smooth texture",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q74",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the most abundant protein in animal tissue?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ribulose biphosphate carboxylase-oxygenase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Collagen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trypsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "GLUT-4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 260,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q75",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Enzyme immobilisation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conversion of an active enzyme to inactive form",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Providing enzyme with protective covering",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Changing the soluble enzyme into insoluble  state",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Denaturation of enzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q76",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Glycerol is absent in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lanolin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Spermaceti",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bee wax",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q77",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Number of phosphate group present in NADP+ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q78",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the odd one out",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Guanylic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Uridylic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cytidine monophosphate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Palmitic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q79",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Di-isopropyl fluorophosphate (DFP a nerve gas) prevents impulse transfer by combining irreversibly with amino acid serine of acetylcholinesterase. In this type of inhibition, what type of change occur in Vmax and Km?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vmax unchanged and increase in Km",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease in Vmax and Km unchanged",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decrease in both Vmax and Km",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increase in both Vmax and Km",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q80",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match w.r.t. action of cofactor",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prosthetic group – Covalently associated  (haem) with apoenzyme",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Co-enzyme – Permanently associated  with apoenzyme",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metal ions – Form co-ordination bonds  with side chains at the active site and at the same time form one or more co-ordination bonds with substrate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Removal of – Loss of catalytic activity cofactor of enzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q81",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Maximum number of double bond is present in which of the following essential fatty acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oleic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Linoleic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Linolenic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Arachidonic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q82",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "For maximal activity of enzymes following conditions are essential except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Optimum temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Optimum pH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High Ki value",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Low Km value",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q83",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following set is correct w.r.t. macromolecules found in living system?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carbohydrates, proteins and lipids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbohydrates, lipids and nucleic acids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nucleic acids, proteins and carbohydrates",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nucleic acids, proteins, carbohydrates and  lipids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q84",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following disaccharide is made up of glucose + glucose and is a non-reducing sugar?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maltose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sucrose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lactose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Trehalose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q85",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Chitin is found in exoskeletons of arthropods. It is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Simple glycoproteinaceous compound",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Complex homopolysaccharides",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Complex homopolypeptide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chemically modified alcoholic sugars",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q86",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the Km value of an enzyme if it is acting on more than one substrate?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Km value remain same for all substrates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Km value will be different for different substrates",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Km value for a particular substrate is fixed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q87",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not reported in RNA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Guanine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Uracil",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cytosine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thiamine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q88",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a disaccharide sugar found in some fungi and haemolymph of some insect and is non-reducing sugar?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sucrose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maltose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trehalose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Raffinose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q89",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following amino acid is involved in the formation of nicotinamide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tyrosine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-alanine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 261,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q90",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Deficiency of which vitamin is involved in the disorder characterised by dry eyes, nyctalopia and probable blindness?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyridoxine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Retinol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ascorbic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Calciferol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q91",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The number of substrate molecule changed per minute by a molecule of enzyme is called turn over number. It depends upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The number of active sites present over the  enzyme",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Precise collision between reactants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rate of removal of end product",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q92",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which form of DNA will have maximum number of coils in it?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A - form",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E - form",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C - form",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Z - form",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q93",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All digestive enzymes are hydrolytic enzymes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inhibition of xanthine oxidase by Allopurinol is  an example of competitive inhibitor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In case of non-competitive inhibition there is  decrease in Vmax but increase in Km",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phosphofructosekinase is activated by ADP  and inhibited by ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q94",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a nucleoside?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adenylic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytosine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Uridine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thiamine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q95",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Compounds which consist of only one type of monosaccharide  monomer  are  called homopolysaccharides. Which one of the following does not belong this category?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Starch",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pectin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cellulose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycogen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q96",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Heme pigment is synthesized from amino acid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alanine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lysine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glutamic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q97",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Induced fit hypothesis was proposed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Emil Fischer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Copeland",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Koshland",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Schwann",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q98",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibition of threonine deaminase by isoleucine  is feed back inhibition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enzymes having similar substrate activity are  called isoenzyme",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyanide kills an animal by inhibiting  cytochrome oxidase enzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sucrose is a reducing sugar",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q99",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a basic amino acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tyrosine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phenylalanine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lysine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tryptophan",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q100",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement w.r.t. enzymes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enzymes are used up at the end of reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They show substrate specificity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Coenzymes NAD and NADP contain vitamin  niacin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enzyme activity may be influenced by product  concentration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q101",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "How many hydroxyl groups does a molecule of glucose have and how many carbon atoms are part of its carbon skeleton ring?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5, 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5, 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4, 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6, 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q102",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The figure given below shows three velocity and substrate concentration curves for an enzyme catalyzed reaction. Which of the following is not a correct statement for curve-c?  Vmax  a b  Velocity (v ) 0  c  Substrate concentration(S)",
+    "question_diagram": "/images/last_leap_part1/p262_q102.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "It is a case of non-competitive inhibition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inhibition cannot be overcome by increasing  the concentration of substrate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vmax decreases and Km increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cyanide killing an animal by inhibiting  cytochrome oxidase is an example of this reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q103",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following amino acids is involved in formation of vitamin nicotinamide and plant hormone indole-3-acetic acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tyrosine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Arginine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q104",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Monosaccharides with formula C5H10O5 are all except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Xylose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arabinose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribulose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mannose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 262,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q105",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which amongst the following secondary metabolites is a drug?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ricin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cellulose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Curcumin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lemon grass oil",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q106",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Exoskeleton of arthropods possesses chitin which is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A complex polysaccharide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A polymer of N-acetylglucosamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Known for forming complex helices in its  secondary structure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q107",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Competitive inhibitor is characterised by all except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The inhibitor binds to the active site of enzyme",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It does not have a regulatory function",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conformation of enzyme is changed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The inhibitor resembles the substrate in its  broad structure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q108",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Non reducing disaccharide is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maltose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cellobiose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trehalose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lactose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q109",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an example of allosteric modulation or feedback inhibition?  A. Inhibition of hexokinase by glucose-6- phosphate  B. Inhibition of phosphofructokinase by ATP  C. Inhibition of threonine by isoleucine  D. Nerve gas inhibiting the enzyme acetyl cholinesterase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B & C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B, C & D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q110",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect w.r.t. coenzymes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They participate in the formation of nucleic  acids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nicotinamide and riboflavin nucleotides act as  coenzymes of oxidising enzymes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They are organic compounds but their  association with apoenzymes is only transient",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NAD and FAD are coenzymes of many  oxidising enzymes of the mitochondria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q111",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a non reducing sugar?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Galactose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sucrose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maltose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glucose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q112",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Cytidine is a/an",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleoside",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleotide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Essential amino acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non essential amino acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q113",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Most enzymes consist of two parts i.e.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Holoenzyme and prosthetic group",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enzyme and coenzyme",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Apoenzyme and enzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Apoenzyme and cofactor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q114",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is the most abundant protein in animal world?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Collagen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RUBISCO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trypsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Insulin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q115",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following does not affect the activity of simple enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of coenzymes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "pH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Substrate concentration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q116",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect match of the compounds shown?",
+    "question_diagram": "/images/last_leap_part1/p263_q116.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "– A steroid,  O  deficiency of which causes hypersensitivity to a variety of stimuli and airway obstruction in the lungs of new born.  O CH –O–C 2 –R1  O  R –C–O–CH 2  CH –O–P–O 2 –CH –CH 2 2  +  OH N CH3 CH3 CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– It is found in  animals only. It is precursor of hormones such as progesterone, testosterone, estradiol and cortisol.  HO  O  HN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– Found in RNA  but absent in DNA.  O N H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "COOH  – Alcoholic amino  H – C – NH2  acid. The ‘R’ group contains hydroxy methyl.  CH – OH 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 263,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q117",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The following graphs show enzymatic activity for certain factors on x-axis and y-axis. Which of the following is correct in such regard?  Transition state  Activation energy  without enzyme  Activation energy with enzyme  Substrate (s)  a.  Product (P)  b.  c.  Km",
+    "question_diagram": "/images/last_leap_part1/p264_q117.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Figure (a) ; x-axis – Potential energy  y-axis – Progress of reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Figure (b) ; x-axis – Enzymatic activity  y-axis – Temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Figure (c) ; x-axis – Velocity of reaction  y-axis – Substrate concentration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Figure (b) ; x-axis – pH  y-axis – Enzymatic activity.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q118",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Uridine is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrogenous base",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitrogenous base + sugar",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrogenous base + phosphate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrogenous base + sugar + phosphate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q119",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "D form of DNA consisting of 100 base pairs will have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 turns",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 turns",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 turns",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9 turns",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q120",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is true for competitive inhibition of enzymes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vmax will decrease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vmax will decrease and Km will increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vmax will be the same and Km will decrease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vmax will be the same and Km will increase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q121",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an example of a lectin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ricin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Curcumin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Concanavalin A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anthocyanin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q122",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not correct about proteins?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The first amino acid of all the proteins is also  known as N-terminal amino acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In proteins, only right handed helices are  observed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-helices are tertiary structures of proteins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Primary structure of a protein dictates its  secondary and tertiary conformations",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q123",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following properties of starch makes it useful as storage material?  A. Easily translocated  B. Chemically non-reactive  C. Synthesised during photosynthesis  D. Osmotically inactive",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A & B only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B & C only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C & D only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B & D only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q124",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following secondary metabolites is an example of toxins?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Concanavalin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Curcumin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vinblastin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Abrin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q125",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can’t be included under derived sugars?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucosamine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mannitol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ascorbic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ribose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q126",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following properties can’t be attributed to the polysaccharides?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Usually insoluble",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Commonly sweet in taste",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Form components of cell walls",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellulose is an example of polysaccharides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q127",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a mismatch.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-helical structure : Keratin (hair)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Antiparallel  pleated sheet : Fibroin of silk",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parallel  pleated sheet : -keratin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Antiparallel  pleated sheet : fibrin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 264,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q128",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following properties is not applicable to the nucleotides?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "These are the building blocks of nucleic acids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Higher nucleotides behave as energy carriers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nucleotides are formed by phosphorylation of  nucleosides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nucleotides are slightly basic in nature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q129",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following types of ribonucleic acids is also known as soluble RNA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "mRNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "tRNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "rRNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "hnRNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q130",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following combines with a non-protein prosthetic group to form a functional enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Holoenzyme",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Apoenzyme",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Coenzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Proenzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q131",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can’t be taken as an example of primary metabolites?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fats",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Morphine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chlorophyll",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q132",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a correct statement w.r.t. carbohydrates?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mannose and galactose are polymers of  glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cellulose acetate is used in fabrics, cellulosic  plastics and shatter proof glasses",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Most of sugars show Benedict’s test but not  sucrose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sucrose is composed of glucose and fructose  and is a non-reducing sugar",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q133",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "When reaction velocity (V) is plotted against enzyme concentration (E) find out the right relationship between V and E?  V  V",
+    "question_diagram": "/images/last_leap_part1/p265_q133.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E  E  V  V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E  E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q134",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "If a competitive inhibitor is added to the reaction medium, which of the following will not occur?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decrease in the Vmax and increase in the Km",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "No change in the Vmax and increase in the Km",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vmax can be achieved by increasing substrate  concentration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The inhibitor will interfere with the binding of  substrate with enzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q135",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Cellulose digesting enzymes like -glucosidase is secreted by which protozoan?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leishmania",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Trichonympha",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Noctiluca",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Babesia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q136",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Primary structure of a portion of a hypothetical protein is given below  N  C  OH  COOH  SH  CH2  CH OH 2  CH2  CH2 CH2  –HN  CH  CO  NH  CH  CO  NH  CH  CO  NH  CH  CO –  –  –  –  –  –  –  –  –  –  –  –  A B C D  Which of the following option is correct identification of amino acids labelled as A, B, C and D?  A B C D",
+    "question_diagram": "/images/last_leap_part1/p265_q136.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Alanine Methionine Tyrosine Glutamate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aspartic Cysteine Tyrosine Glutamate acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Serine Cysteine Tyrosine Glutamate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Serine Cysteine Phenylalanine Glutamate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q137",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is diagrammatic representation of phospholipid (lecithin)?",
+    "question_diagram": "/images/last_leap_part1/p265_q137.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "O  CH2  O — C  — R1  O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O  O R2 C CH  CH2  O — C  — R3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q138",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Following is the diagrammatic representation of three different amino acids labelled as A, B and C  COOH  A. C H  NH 2  H  B.  COOH  C. C H  NH2  OH CH2  Select the option which is correct identification of amino acids A, B and C.  A B C",
+    "question_diagram": "/images/last_leap_part1/p266_q138.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycine Valine Threonine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycine Isoleucine Aspartic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glycine Alanine Serine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycine Serine Alanine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q139",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following factor/s will affect enzyme activity?  A. Temperature  B. pH  C. Enzyme concentration  D. Product concentration  E. Substrate concentration  F. Activation energy",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A & B only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A, B, E & F only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B, C, D & E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All the above factors will affect enzymatic  activity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q140",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is diagrammatic representation of small molecular weight organic compounds in living tissues  O  Adenine O OCH 2 P HO  OH  A.  OH OH  HOCH2 Adenine O  B.  OH OH  NH2  N  N  C.  NH N  Choose the option which is correct identification of structures labelled as A, B and C  A B C",
+    "question_diagram": "/images/last_leap_part1/p266_q140.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleoside Nucleotide Adenine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleotide Nucleoside Guanine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nucleoside Nucleotide Guanine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nucleotide Nucleoside Adenine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q141",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a diagrammatic representation which indicates the secondary structure of DNA  O  OCH2 CH2  O  A O  .......  .......  5 B  3  O  O  HO – P = O  O = P – OH  O CH2  O  .......  ....... .......  C D  O O CH2  3 5  O  O",
+    "question_diagram": "/images/last_leap_part1/p266_q141.png",
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q142",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Given below is a graphical representation of reaction velocity (V0) versus substrate (S). Which of the following statement is correct w.r.t. A, B and C curves?  vmax  Reaction velocity (v ) 0  A  B C  v  max  2  00  [S]  Km",
+    "question_diagram": "/images/last_leap_part1/p267_q142.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Curves A, B and C represent the enzyme  activity on reaction velocity without any inhibitor",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Curve A represents the enzyme activity in the  presence of competitive inhibitor while curves B and C represent enzyme activity in presence of noncompetitive inhibitor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Curve A represents enzyme activity without  any inhibitor, curve B represents enzyme activity in the presence of competitive inhibitor while curve C represents enzyme activity in the presence of noncompetitive inhibitors",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Curves A, B and C represent the enzyme  activity in the presence of noncompetitive inhibitor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q143",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement for enzymes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enzyme always contains more than one  polypeptide chain",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Competitive inhibition changes the Vmax of  enzyme kinetics while Km increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lyases catalyse removal of groups from  substrate by the mechanism of hydrolysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Haem acts as prosthetic group for peroxidase  and catalase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q144",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a homopolymer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peptidoglycan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pectin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inulin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q145",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is protein?  a. GLUT-4 b. Insulin  c. Inulin d. Lecithin",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b & c",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q146",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The elemental composition in human body in descending order is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxygen – Carbon – Nitrogen – Calcium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon – Oxygen – Nitrogen – Calcium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Calcium – Carbon – Oxygen – Nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxygen – Calcium – Carbon – Nitrogen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q147",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Amino acids differ from each other mainly at R group. If R group of proteinaceous amino acid is hydroxy methyl, the amino acid would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alanine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Serine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tyrosine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q148",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Find the wrong statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Living state is non-equilibrium steady state to  be able to perform work",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "There is no uncatalysed metabolic conversion  in living systems",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tertiary structure is absolutely necessary for  the many biological activities of proteins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellulose contain complex helices where it  can hold iodine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q149",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The most abundant protein in nature is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cellulose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Collagen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribulose biphosphate carboxylase oxygenase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chitin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q150",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a function of lipids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Long term energy storage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Structures in cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enzymes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sex hormones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q151",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The sequence of _____ bases determines the ____ structure of a protein, which is responsible for the specificity of protein?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RNA; secondary",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DNA; quaternary",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNA; primary",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RNA; primary",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q152",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following structural formulae of two organic compounds is correctly identified along with its function?  O  R1  O  C  CH2  O  C CH  R2  O  O  A.  CH2 CH2 CH2  O  P  O  N  OH  CH3 CH3 CH3  O  Adenine O OCH 2 P HO  OH  B.  OH OH",
+    "question_diagram": "/images/last_leap_part1/p268_q152.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A. Triglyceride – A major source of energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B. Adenine – Nitrogenous base in DNA and RNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A. Lecithin – Found in cell membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B. Adenosine – Found in DNA and RNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q153",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an example of competitive inhibition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibition of succinic dehydrogenase by  malonate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Control of bacterial pathogens by sulpha drugs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyanide poisoning",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Control of methanol poisoning by infusion of  ethanol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q154",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "All the following statements about cellulose are correct but one is wrong. Which one is wrong?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cellulose is homopolymer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is the most abundant organic molecule in  the biosphere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It has -1-4 glycosidic bonds",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is a branched polymer of -glucose, can  hold iodine in the helical portion giving blue black colour with it",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q155",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a derivative of tyrosine amino acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dopamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Melanin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Serotonin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q156",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a heterocyclic amino acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Histidine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tyrosine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phenylalanine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q157",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The molecule that provides stability to cell membrane is  CH OH  2  CH OH  2",
+    "question_diagram": "/images/last_leap_part1/p268_q157.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH OH  2  O  HN CH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH  N H O  O  CH – O – C – R 2 1  O  CH – O – C – R2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O  CH – O – P – O – CH 2 2 – CH2  OH N  CH3 CH3  CH3  COOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H – C – NH2  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q158",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In the graph given below, the curve b is applicable to which of the following examples?  Vmax  No  inhibitor  a  Reaction vector (V ) 0  b With  inhibitor  V  max  2  (Apparent K in presence   m   of an inhibitor)  0  0  [S] Michaelis  constant, Km",
+    "question_diagram": "/images/last_leap_part1/p268_q158.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibition of succinic dehydrogenase by  malonate which closely resembles the substrate succinate in structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyanide kills an animal by inhibiting  cytochrome oxidase, a mitochondrial enzyme essential for cellular respiration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q159",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following represents uridylic acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uracil + Ribose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Uridine + Phosphoric acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Uracil + Phosphoric acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Uridine + Ribose + Phosphoric acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q160",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "A segment of DNA has 120 adenine and 120 cytosine bases. The total number of nucleotides present in the segment is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "120",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "240",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "480",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q161",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an essential amino acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phenylalanine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methionine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Serine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tryptophan",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q162",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In the given graph, if Y-axis represents reaction velocity, then X-axis can represent  Y  X",
+    "question_diagram": "/images/last_leap_part1/p269_q162.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "pH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Substrate concentration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Either",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "or",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q163",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following monosaccharides is/are included in furanose structure?  (a) Ribose (b) Glucose  (c) Fructose (d) Galactose",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a) only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a), (c) & (d)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a) & (c)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(a), (b) & (c)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q164",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Many elements are found in living organisms either free or in form of compounds. One of the following is negligible in living organisms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Silicon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnesium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Iron",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sodium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q165",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Match the Column-I with Column-II  Column-I Column-II  a. Starch (i) Cotton fibre  b. Cellulose (ii) Exoskeleton of  cockroach  c. Glycogen (iii) Liver  d. Chitin (iv) Peeled potato",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(i), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q166",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a protein?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "GLUT-4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Collagen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inulin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Antibody",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q167",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In the given primary structure of a protein, which amino acid is at position ‘n–2’?  OH  CH2     COOH SH  CH OH 2 CH2 CH2 CH2  HN   CH   CO   NH   CH   CO   NH   CH   CO   NH   CH   CO  n – 2 n – 1 n n + 1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cysteine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Serine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tyrosine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glutamic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q168",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an example of competitive inhibition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibition of succinic dehydrogenase by  malonate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inhibition of cytochrome oxidase by cyanide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inhibition of phosphofructokinase by ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inhibition of acetylcholinesterase by organo  phosphate pesticides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q169",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "All standard amino acids can be derived from substitution in a molecule of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Formic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Methanol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q170",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Some inhibitors and enzymes are listed below. Select the set in which Km is same but Vmax decreases  a. Nerve gas – Acetylcholinesterase  b. Malonate – Succinic dehydrogenase  c. Cyanide – Cytochrome oxidase  d. PABA – Folic acid synthetase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q171",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "What type of bond is found in lactose and what kind of sugar it is?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": " 1, 4 – Reducing sugar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": " 1, 4 – Non-reducing sugar",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": " 1, 4 – Reducing sugar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": " 1, 2 – Non-reducing sugar",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q172",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Select the set of secondary metabolites",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucose, anthocyanin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleic acid, protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fat, morphine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Abrin, ricin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q173",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Cytidine is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrogenous base",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleoside",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nucleotide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vitamin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secA_q174",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In case of lecithin, which of the following nitrogenous group is attached with phosphoric acid forming the head part (polar)?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Choline",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethanolamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inositol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sphingosine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secB_q1",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In competitive inhibition inhibitor binds  reversibly to the same site, that the substrate would normally occupy.\nReason (R): Cyanide kills an animal by inhibiting  cytochrome oxidase by non-competitive inhibition.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secB_q2",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The bonds attaching second and third  phosphates of higher nucleotides are high energy bonds.\nReason (R): Second and third phosphates of higher  nucleotide are attached against forces of repulsion between similarly charged phosphate radicals.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secB_q3",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Starch iodine complex gives blue colour but  cellulose does not.\nReason (R): Starch forms helical secondary structure in  which it can hold iodine molecules but cellulose cannot as it does not contain complex helices.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secB_q4",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Cofactors play a crucial role in the catalytic  activity of the enzyme.\nReason (R): Catalytic activity is lost when the cofactor is  removed from the enzyme.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secB_q5",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Phosphofructokinase is activated by ADP and  inhibited by ATP.\nReason (R): This enzyme is allosteric and the type of  modulator attached bring change in its active site. When lot of ATP is synthesised it will act as inhibitor.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secB_q6",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Starch gives blue black colour with iodine.\nReason (R): Starch forms a helical structure which can  hold the I2 molecules in the helical portions.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secB_q7",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The pitch of B-DNA is 34 Å.\nReason (R): The rise per base pair in B-DNA is 3.4 Å.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_07_biomolecules_secB_q8",
+    "subject": "Zoology",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Prosthetic groups are non-protein organic  factors which are firmly attached to the apoenzymes.\nReason (R): FMN and FAD are coenzymes loosely  attached to the enzyme.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  }
+]

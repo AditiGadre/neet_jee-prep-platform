@@ -1,0 +1,5836 @@
+[
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q1",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "During auricular diastole phase and  ventricular systole, blood from auricles pass to their respective ventricle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cardio-vascular centre is present in medulla-  oblongata",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fossa ovalis is a depression present in inter-  atrial septum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The wall of arteries and vein differ from each  other in thickness of tunica media",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q2",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Irregular thickening of arterial walls and narrowing of their lumen due to deposition of plaque is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Atherosclerosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arteriosclerosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Varicose vein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rete mirabilia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q3",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The ECG showing depressed S-T segment indicates",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insufficient oxygen supply to heart muscle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acute myocardial infarction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rheumatic fever",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Arteriosclerotic heart disease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q4",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is most numerous leucocytes, they have fine granules and are phagocytic in nature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eosinophils",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Basophils",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monocytes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neutrophils",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q5",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following character cannot be related to arteries?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Usually deep seated",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Wall thick and muscular",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No valves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Blood flows smoothly",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q6",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the structure present in heart of human but absent in heart of frog",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sinus venosus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Truncus arteriosus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sinu auricular node (SA node)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Auriculo-ventricular node (AV node)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q7",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Lymph is/contains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Blood minus corpuscles and fibrin proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Blood minus RBCs, platelets, some proteins  and some salts",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Blood minus RBCs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lymph is plasma minus proteins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q8",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Within the lamellae of gills, the blood circulation is arranged so that blood is carried in opposite direction to the movement of water. The functional significance of this arrangement is that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It helps to maintain the  temperature of the  organism equal to the water temperature thus enhancing diffusion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It  ensures  continuous  gradient  of concentration difference between the blood and the water, so that diffusion continues all along the gill",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It increases the surface area for diffusion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It allows some kinds of fishes to continue to  get oxygen even when they are not moving",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q9",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "When the sinu-atrial node generates an action potential which stimulates both the atria to undergo a simultaneous contraction. It is called as atrial systole. This causes the flow of blood into the ventricles and is responsible for _________ filling of ventricles",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "70 percent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 percent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 percent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than 80 percent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q10",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Time interval between DUP and LUBB is ______ coincide with _______",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.3 sec, ventricular systole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5 sec, joint diastole and atrial systole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.4 sec, joint diastole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.1 sec, atrial systole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q11",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Heart beat increases in all the following conditions, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Excess of calcium ions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Strong emotions such as fear, anger and  anxiety",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vagotomy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mental states such as depression and grief",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q12",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following layer is responsible for variation in the thickness of heart wall in different chambers of it?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Epicardium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Myocardium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Endocardium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fibrous capsule",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q13",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the valve of the human heart which comes in contact with deoxygenated blood only  (a) Thebassian valve (b) Mitral valve  (c) Semilunar valve (d) Eustachian valve  (e) Atrial valve",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a), (c) and (d)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a) and (d)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a), (d) and (e)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(a), (c), (d) and (e)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q14",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Following structure are present in adult human heart except one. Mark the except one",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fossa ovalis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chordae tendinae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Columnae carneae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ductus arteriosus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q15",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match w.r.t. normal conditions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pulse pressure in adult human : 40 mm of Hg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mean arterial blood pressure : 120 mm of Hg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heart beat rate : 70-72  per  minute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cardiac output : 5 litres per  minute",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q16",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "ECG report of a patient shows increased P-Q interval, which lasts for more than 0.16 seconds. It represents",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Myocardial infarction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heart muscles receive insufficient oxygen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inflammation of atria and atrioventricular node  which occurs during rheumatic fever and arteriosclerotic heart",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adam’s stoke syndrome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q17",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Thoracic duct is a long duct and begins as dilation called Cisterna chyli. The thoracic duct carries lymph to the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Right sub clavian vein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Left sub clavian vein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Right sub clavian artery",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Left sub clavian artery",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q18",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement w.r.t. foetal circulation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A large quantity of blood from placenta  passes from umbilical vein into inferior vena cava through ductus venosus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Major portion of mixed blood collected in the  right atria is diverted into left atrium via foramen ovale",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "From left atrium blood passes to left ventricle  which sends blood to the aorta",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Blood from left ventricle is pumped into  pulmonary artery and is completely drained out into aorta through ductus arteriosus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q19",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Angina pectoris - Acute chest pain due to  insufficient oxygen supply to the heart muscles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heart failure - State of heart when it is not  pumping the blood effectively enough to meet the needs of the body",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cardiac arrest - Sudden cessation of heart  beat",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heart attack - Heart beat is not passed to the  ventricles properly due to defect of conducting system of the heart",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q20",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following respiratory organ is considered to be the most efficient w.r.t. gaseous exchange?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gills",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Skin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lungs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lining of buccopharyngeal cavity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q21",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hepatic portal system pours blood from  digestive system into the liver",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Renal portal system is well developed in  fishes and amphibians",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First heart sound is produced at the onset of  ventricular diastole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High level of K+ and Na+ ions decrease heart rate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q22",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Microscopical examination of the pus reveals that it contains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lymph, RBCs and dead bacteria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Necrotic tissue, leucocytes and RBCs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Necrotic tissue, dead neutrophils and dead  macrophages and tissue fluid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tissue fluid, dead RBC, dead bacteria and  necrotic tissue and dead leucocytes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q23",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a function or characteristic feature of spleen?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It filters the disintegrated red blood cells from  the blood flowing through it",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It acts as a reservoir, holding a large amount  of blood",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In human embryo it is also the site of  formation of both red and white blood cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If the spleen is removed from the adult  human, the number of WBC decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q24",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect statement about Erythrocyte sedimentation rate (ESR)?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is abnormally enhanced in diseases with  abnormal albumin globulin ratio in the plasma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ESR is a diagnostic value for many diseases  including tuberculosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It gives the relative volume of erythrocytes as  the percentage of the total blood volume",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It can be measured by wintrobe and  westergren method",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q25",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Each peak in the ECG is identified with a letter from P to T that corresponds to a specific electrical activity of the heart. Which of the following waves in ECG represents the beginning of ventricular systole or  ventricular systole starts shortly after which wave?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P-wave",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T-wave",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Q-wave",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "QRS-wave",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q26",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Following is the diagrammatic representation of formed elements in the blood. Which of the following is the function of WBCs labelled as ‘A’?  RBC Platelets Basophil  A  T lymphocyte B lymphocyte  B C",
+    "question_diagram": "/images/last_leap_part1/p241_q26.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "They are phagocytic cells which destroy  foreign organisms entering the body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They secrete histamine serotonin heparin and  are involved in inflammatory reactions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They resist infections associated with allergic  reactions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They are responsible for immune responses  of the body",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q27",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "End of T-wave in ECG represents",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diastole of ventricles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The end of ventricular systole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Joint diastole of auricle and ventricle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Systole of auricle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q28",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "If a man is Rh+ and woman Rh–, then which of the following can occur?  (A) Their first child will die  (B) Their first child will survive  (C) The second Rh+ child will suffer with  erythroblastosis foetalis  (D) No child would be born after the first delivery",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only (A)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only (B)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(B) & (C)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only (D)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q29",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is true for QRS complex in an ECG?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One can determine the heart beat by counting  the number of QRS",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Represents end of ventricular depolarisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lubb sound is detected by ECG after QRS  complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q30",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can’t be taken as the character of artery?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tunica media is thick having more muscle fibres",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The flow of blood is fast and with jerks",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gets collapsed after death",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No valves are present",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q31",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following structure in the human heart makes link between AV valve and papillary muscles?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Columnae carneae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Musculi pectinati",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trabeculae carneae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chordae tendineae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q32",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "In the ECG of a normal person, time required for an impulse to travel through the atria and AV node to the remaining conducting tissue is indicated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "S - T segment",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P - Q interval",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "QRS wave",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S - T interval",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q33",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is wrong?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Foetal heart rate is 140-150 beats per minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heart rate is more in females than in males",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In old age heart rate decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "People with high blood pressure are susceptible  to stroke, heart disease, kidney failure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q34",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Pulmonary heart is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Left atrium and left ventricle in higher mammals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Left atrium and right ventricle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The right atrium and right ventricle receiving  the venous blood and propelling it to lungs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The right atrium and left ventricle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q35",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Heparin can be administered to patients during and after surgery to retard blood clotting. Which of the following substances can bind with Ca2+  and act as very effective anti-coagulants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Potassium oxalate and sodium citrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heparin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protein-C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q36",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "'Purpura' is a group of bleeding disorders it is associated with all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thrombocytosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thrombocytopenia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Deficiency of Von Willebrand factor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Deficiency of vitamin C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q37",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following represents remnant of an opening in the inter-atrial septum of the foetal heart?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fossa ovalis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Foramen ovale",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ligamentum arteriosum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ductus arteriosus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q38",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The blood from a person with AB blood type",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Would agglutinate with anti-A antibodies only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Would agglutinate with anti-B antibodies only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Would agglutinate with both anti-A and anti-B  antibodies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Would not agglutinate with either anti-A or  anti-B antibodies",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q39",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "If the systolic pressure and diastolic pressure of a person is about 160/120 respectively. What will be the value of mean arterial blood pressure?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "140 mmHg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "133 mmHg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 mmHg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "160 mmHg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q40",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Lymph from the legs portion is received by which of the following structure before entering into thoracic duct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Left sub-clavian vein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Right sub-clavian vein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pylangium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cysterna chyli",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q41",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The exchange of material between blood and interstitial fluid occurs only at the level of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Veins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Capillaries",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Arteries",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aorta",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q42",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Blood from head, neck and arms enters the heart through",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Superior vena cava",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inferior vena cava",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pulmonary artery",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pulmonary vein",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q43",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the disease where impulses are interrupted at any point along the conduction system of heart",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Heart failure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cardiac arrest",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heart block",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heart attack",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q44",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inferior vena cava – Eustachian valve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coronary sinus – Thebasian valve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oval depression – Foramen ovale in interatrial septum of adult heart",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aorta – Semilunar valves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q45",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "If the heart of a person beats 68 times per minute and pumps about 60 ml blood per contraction, what will be the cardiac output",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5040 ml/min",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1280 ml/min",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4080 ml/min",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5.5 L/min",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q46",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "First heart sound ‘lubb’ is produced by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Closure of bicuspid and tricuspid valves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Opening of bicuspid and tricuspid valves",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Closure of aortic and pulmonary semilunar valves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Opening of aortic and pulmonary semilunar  valves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q47",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "When ECG of a person is to be recorded, three leads (metal electrodes) are attached to the arms and legs. It is done after cleaning the body surface and applying a special jelly which is meant for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Firm attachment of electrodes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Giving local anaesthesia to the person",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Improving electrical conduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reducing pain during process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q48",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Heart beat is accelerated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parasympathetic nervous system, acetylcholine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parasympathetic nervous system, adrenaline",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ANS, acetylcholine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ANS, adrenaline",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q49",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "In heart cells, which one acts as a secondary messenger that speeds up muscle contraction in response to adrenaline?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "cAMP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GTP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "cGMP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q50",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Find the state of ECG which appears when heart does not pump sufficient amount of oxygen to the its own muscles due to partial blockage of coronary  R  R  T  P P T  P",
+    "question_diagram": "/images/last_leap_part1/p243_q50.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Q S  Q S  R  R  T  P  P  T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Q S  Q S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q51",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Atrial hypertrophy is detected by fluctuations in which wave of the ECG?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P-wave",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "QRS complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T-wave",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S-T interval",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q52",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct statement w.r.t. circulatory system",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In fishes, the heart pumps out oxygenated  blood to the body parts in a single blood circulation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fats are absorbed and transported through  the blood vessels present in the intestinal villi",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The part of nodal tissue of the heart that  passes through the atrioventricular septum is atrio-ventricular bundle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "During a cardiac cycle, each ventricle pumps  out a fixed amount of blood called cardiac output",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q53",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "What happens to the respiratory process and RBCs in a man going up a hill?  A. Rate of breathing increases with altitude  B. Hypoxia  C. Number of erythrocytes increases  D. Increase in size of RBCs  E. Rate of breathing decreases  Choose the option with correct statements",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A, B, D & E",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A, B & C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B, C & D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B, D & E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q54",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "When the heart muscles are suddenly damaged by an inadequate blood supply, it is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Heart failure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heart-attack",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cardiac block",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Angina pectoris",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q55",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following conditions is not related with tachycardia?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increased body temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stimulation of the heart by the sympathetic  nerve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tobacco smoking",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Athlete’s heart at rest",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 243,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q56",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "If a doctor records the ECG of a patient in which S-T segment is elevated, this indicates",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Heart muscles receive insufficient oxygen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arteriosclerosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cardiac arrest",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acute myocardial infarction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q57",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following plasma proteins mainly help in maintaining the osmotic balance of body fluids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fibrinogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Globulins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ceruloplasmin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Albumins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q58",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Following is the diagrammatic presentation of a standard ECG. Each peak in the ECG is identified with a letter from P to T that corresponds to a specific electrical activity of the heart. Which of the following is incorrect match?  R  R  T  P Q S  Diagrammatic presentation of a  standard ECG",
+    "question_diagram": "/images/last_leap_part1/p244_q58.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "QRS complex – Represents  the depolarisation  of  the ventricles. By counting the number of QRS complexes that occur in a given time period, one can determine the heart rate of individual",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T wave – Represents repolarisation  of ventricles. The end of T wave marks the end of systole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Q-wave – Marks the beginning of  atrial systole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P-wave – Represents the electrical  excitation of the atria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q59",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements regarding regulation of cardiac activity are correct?  A. The sympathetic nerves can increase the rate of heart beat and the strength of ventricular contraction, thereby increasing the cardiac output  B. Vagus nerve decreases the rate of heart beat  C. Adrenal medullary hormones decrease the cardiac output  D. A special neural centre in the hypothalamus can moderate the cardiac functions through autonomic nervous system",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A & B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B & C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B, C & D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q60",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following correctly defines heart failure?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is the condition when heart stops beating",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "When the heart muscles are suddenly  damaged due to inadequate blood supply",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is the state of the heart when it is not  pumping blood effectively enough to meet the needs of the body",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A condition of acute chest pain when enough  oxygen is not reaching the heart muscles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q61",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect w.r.t. the heart of frog?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The single auriculo ventricular valve bears  four flaps, connected to ventricular wall with chordae tendinae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Wave of contraction originates from the sinus  venosus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sympathetic stimulation increases the heart  beat rate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The opening of sinus venosus into right  auricle is unguarded as no valves are present",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q62",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Chordae tendinae are the cord like structures that originate from papillary muscles of the inner border of the ventricles and are attached to free edges of the cuspid valves. What would happen if there is breakdown of chordae tendinae of bicuspid valves?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "There will be regurgitation of blood into right  atrium during ventricular systole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The bicuspid valves will not close",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The blood may flow back into the left atrium  during ventricular systole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "There may be regurgitation of blood into both  the atria during ventricular systole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q63",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Given below are four statements (A–D) each with one or two blanks. Select the option which correctly fills up the blank  A. (i) , the tendon like cords, prevent the inversion of atrioventricular valves  B. (i) , the remnant of foramen ovale where the later is an opening in the interatrial septum of foetal heart",
+    "question_diagram": "/images/last_leap_part1/p244_q63.png",
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 244,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q64",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Given below are four statements regarding human blood circulatory system  A. A healthy individual has 12-16 grams of haemoglobin in every 100 ml of blood  B. If the blood pressure of an individual is 140/90  mmHg  or  higher,  it  shows hypertension  C. The duration of cardiac cycle is 0.8 seconds which increases during fever  D. Interstitial fluid or tissue fluid has the same mineral distribution and proteins as that of plasma  Which two of the above statements are correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A and B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A and D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B and C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C and D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q65",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a matching pair?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Systemic heart : Left atrium and left ventricle  in the higher vertebrates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dup : Opening of semilunar valves  at the begining of ventricular diastole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pulse pressure : Difference between systolic  and  diastolic  blood pressures",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lubb : Closure of AV valves at the  begining of ventricular systole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q66",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following blood vessel contains maximum amount of urea?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hepatic portal vein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Renal vein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hepatic vein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hepatic artery",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q67",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The most likely route for the spread of micro-organisms and cancer cells in the body is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Large arteries",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arterioles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lymph capillaries",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Veins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q68",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Lymph is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Blood without corpuscles and fibrin proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Blood without RBCs, platelets, some proteins  and some salts, it can clot",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Blood without RBCs and WBCs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plasma without proteins, so it can not clot",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q69",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "All the following statements are correct except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Foetal heart rate is 146-150 beats per minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heart rate is more in females than in males",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In old age, heart rate decreases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "People with high blood pressure are  susceptible to stroke, heart diseases and kidney failure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q70",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Pulmonary artery in a mammalian embryo communicates with carotico-systemic aorta by a thin vessel called Ductus-arteriosus which later closes and remains in the adult as ________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fossa ovalis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ligamentum arteriosum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Duct of Botallo",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Eustachian valve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q71",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following conditions indicates myocardial infarction?  A. S-T segment is elevated  B. S-T segment is depressed  C. T wave is flattened  D. Enlarged Q and R waves  E. PQ interval lengthens",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A & D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A & C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, D & E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, C, D & E",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 245,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q72",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following conditions, there is failure of reception of the atrial impusles by the ventricles due to infarction of the AV node, leading to completely independent contractions of the atria and ventricles?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Myocardial ischaemia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Atherosclerosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stokes-Adams syndrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rheumatic fever",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q73",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Match the three layers of walls of arteries and veins (a–c) with their correct description (i–iii)  Column-I Column-II  a. Tunica intima (i) Fibrous connective tissue with collagen fibres  b. Tunica media (ii) Squamous  endothelium  c. Tunica externa (iii) Smooth muscles  and elastic fibres",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(ii), c(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iii), c(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iii), c(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q74",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "What would happen if any one of the heart valves is defective?  A. Extra heart sounds called murmurs will be produced  B. There can be leakage of blood from arteries back into the ventricles  C. The valves will not open and close properly so  that proper heart sounds will not be produced",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only A and B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only B and C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A, B and C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q75",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "A moderate increase in the concentration of which of the following ions speeds up the heart rate and strengthens the heart beat?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na+ ions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca2+ ions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K+ ions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q76",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "In recent years, some athletes have been tempted to try blood doping, a practice banned by international olympics. In this, blood cells are removed, stored and then reinjected a few days before the an athletic event. Which of the following factors makes this practice dangerous?  A. With the increased numbers of RBCs, the viscosity of the blood rises which makes the blood more difficult for the heart to pump  B. It can improve athletic performance in endurance events  C. It increases the work load of heart  D. This increases oxygen carrying capacity of  blood which could increase muscular performance",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A and B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B and C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A and C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q77",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Collateral circulation is present in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anastomosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Portal veins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lymphatic vessels",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "End arteries",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q78",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not correct about ECG?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P wave occurs at the beginning of contraction  of atria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "QRS wave initiates ventricular contraction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The end of T wave marks the end of  ventricular systole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Q wave marks the beginning of atrial systole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q79",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following blood components is the major factor for determining the viscosity of blood?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Blood lipids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Blood salts",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RBCs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Blood platelets",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q80",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following nodal tissues of heart with their correct location  Column-I Column-II  a. AV node (i) Right upper corner of the right atrium  b. SA node (ii) Left upper corner of  the right atrium  c. Bundle branch (iii) Base of inter atrial  septum tilted towards right  d. Purkinje fibres (iv) Lower right corner  of right atrium  (v) Interventricular  septum  (vi) Musculature of  ventricles",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(ii), c(vi), d(v)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(i), c(v), d(vi)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iii), c(v), d(vi)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(v), b(ii), c(vi), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 246,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q81",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following nodal tissues is autoexcitable and is called the pacesetter of heart?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SA node",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Purkinje fibres",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AV node",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bundle of His",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q82",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Volume of blood pumped by each ventricle during each heart beat is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "70 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5000 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "140 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "35 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q83",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Closing of semilunar valves during cardiac cycle occurs when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ventricular pressure increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ventricular pressure decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Atrial pressure increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Atrial pressure decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q84",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "An athlete has more cardiac output than normal due to  a. Change in stroke volume  b. Change in heart rate  c. Parasympathetic stimulation  d. More release of acetylcholine near SA node",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b, c & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q85",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not the action of parasympathetic nervous system?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dilates arteries and lowers blood pressure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Micturition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Widens air passages to facilitate breathing",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Accelerates peristalsis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q86",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following properties is not applicable to the WBCs?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Can escape from the capillaries into the  tissues",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Produced by bone marrow",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Form rouleaux in larger blood vessels",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Act as scavangers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q87",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Atria normally contract due to a wave of  contraction generated by AV node",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "As the ventricles begin to contract, the  bicuspid and tricuspid valves open immediately, producing the first heart sound",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "When the ventricles relax, the semilunar  valves open and produce the second heart sound",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Blood flows into the pulmonary trunk and  aorta as the semilunar valves open",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q88",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following components of ECG represents the potential generated by the recovery of the ventricles from the depolarisation state?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P-R interval",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S-T segment",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T-wave",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "QRS wave",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q89",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not correct w.r.t. lymphatic capillaries?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wider than blood capillaries",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Add tissue fluid into intercellular spaces",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Do not have uniform diameter",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Blind at the tip",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q90",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a correct statement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Marey’s law states that heart rate is inversely  related to the systemic B.P.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amount of blood received by brain is 750 ml  per minute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lubb is the louder sound produced due to  sudden opening of AV valves at the beginning of ventricular systole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "For safe blood transfusion, recipients serum  should not contain antibodies against donor’s antigen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q91",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "What happens when the pacemaker becomes non-functional?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only auricles contract rhythmically",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only ventricles contract rhythmically",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cardiac muscles do not undergo co-ordinated  rhythmic movements",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Auricles and ventricles still contract rhythmically",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 247,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q92",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "How many times will the blood have to pass through  the human heart during its supply to and from kidneys?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One time",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two times",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three times",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four times",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q93",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Incomplete double circulation is found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amphibians and reptiles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fishes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mammals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Birds",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q94",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Bundle of His comprises of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Right and left bundle on the top of  interventricular septum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Right and left bundle branches along with  Purkinje fibres",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Right and left bundle in the atrioventricular  septum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Purkinje fibres only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q95",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "During each cardiac cycle, the SAN generates action potential which stimulates both atria to undergo simultaneous contraction. The atrial systole increases the flow of blood into the ventricle by about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "75%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q96",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Cardiac output of an athlete during exercise is much higher than an ordinary man. It means that human body has the ability to alter  a. Stroke volume  b. Heart rate  c. Duration of cardiac cycle  Choose the correct options",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & b only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b & c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q97",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "ECG is a graphical representation of the electrical activity of the heart during a cardiac cycle. Mark the correct statement regarding specific electrical activity of the heart",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The contraction of the ventricles start shortly  after S-wave",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The end of the T-wave marks the end of  ventricular systole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "QRS complex represents the return of  ventricles from excited to normal state",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T-wave represents repolarisation of atria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q98",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cardiac functions can be moderated by neural signals from special neural centre in the medulla oblongata?  a. Rate of heart beat  b. Cardiac output  c. Speed of conduction of action potential  d. Strength of ventricular contraction and thereby the cardiac output",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b, c & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q99",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an effect produced by sympathetic stimulation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acceleration of heart beat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Constriction of pupil",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stimulation of sweat glands",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Erection of hair",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q100",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "A patient is hooked up to a monitoring machine of ECG that shows voltage traces on a screen and makes the sound pip---pip---peeeeee----. This sound is an indication of, as the patient goes into",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Heart failure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cardiac achalasia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cardiac arrest",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heart block",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q101",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SA node generates the maximum number of  action potential per minute so it sets the pace of the activities of the heart",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "About 70 ml of blood in pumped out by each  ventricle during a cardiac cycle is stroke volume",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heart is autoexcitable, its functions can be  moderated by neural and hormonal mechanisms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Systemic heart includes the right ventricle and  left atrium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q102",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Both adrenaline and cortisol are secreted in response to stress. Which of the following statement is true for both these hormones?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They act to increase blood glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They are secreted by the adrenal cortex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Their  secretion  is  stimulated  by adrenocorticotropins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They are life saving hormones secreted by  adrenal medulla",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 248,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q103",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "If the deflection wave on electrocardiogram is showing a flat T wave, what does it represent?  R  P  T  Q S",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acute myocardium infarction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insufficient oxygen to heart muscle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Atherosclerosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cardiac arrest",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q104",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Refer to the diagrammatic representation of standard ECG and select the option with correct matching.  R  P Q S T  P-wave QRS complex T-wave",
+    "question_diagram": "/images/last_leap_part1/p249_q104.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Repolarisation Repolarisation Depolarisation of the atria of the ventricles of atria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depolarisation Depolarisation Repolarisation of atria of ventricles of ventricles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Repolarisation Repolarisation Depolarisation of the of atria of the ventricles ventricles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depolarisation Depolarisation Repolarisation of the of the atria of the atria ventricles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q105",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following plasma protein helps in osmotic balance?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fibrinogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Globulins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Albumin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heparin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q106",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect match?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neutrophils – Phagocytic cells which  destroy  the  foreign organisms entering the body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Basophils – Secrete  histamine, serotonin and heparin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eosinophils – Resist infections and are  also  associated  with allergic reactions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monocytes – Called as PMNL and are  transformed  into macrophages",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q107",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The QRS complex of ECG determines",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ventricular filling",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pulse rate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Atrial systole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increase in mean arterial pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q108",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Myocardial contractibility is best correlated with the intracellular concentration of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca++",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mg2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q109",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "A condition of arrhythmia of heart that results when the electrical pathway between atria and ventricles are blocked, slowing the transmission of nerve impulses is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Heart failure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Myocardial infarction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tachycardia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heart block",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q110",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "How many openings are present in the right atrium to provide deoxygenated blood to it?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "One",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q111",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "In an abnormal ECG, which of the following represents, the heart muscles receiving insufficient oxygen as in atherosclerotic heart disease?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Depressed S-T segment",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Flat T wave",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enlarged P wave",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q112",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lubb – Closure of bicuspid and  tricuspid valves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dup – Closure of semilunar valves",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Angina – Acute chest pain appears  when no enough oxygen is reaching the heart muscle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cardiac arrest – State of heart when it is not  pumping blood effectively enough to meet the needs of body",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 249,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q113",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "A person is found to have a resting cardiac output of 5.25 L per minute and a heart rate of 75 beats per minute. What is his stroke volume?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "72 mL",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "70 mL",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "75 mL",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "80 mL",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q114",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Tendons of papillary muscles are called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Musculi pectineti",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chordae tendinae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Purkinje fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Moderator band",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q115",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "During a cardiac cycle the SA node generates action potential which stimulates both atria to undergo a simultaneous contraction referred to as atrial systole. The atrial systole increases the flow of blood into the ventricles by about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "70%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q116",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements A, B, C and D and state from the options given whether they are True (T) or False (F)  A. Haemolytic disease of the new born (HDN)  can occur when an Rh– mother is pregnant with an Rh+ foetus.  B. Cardiac output of an athlete will be much  higher than that of an ordinary man.  C. In an ECG, by counting the number of QRS  complexes that occur in a given time period, one can determine the heart beat rate of an individual.  D. Vagus nerve, a part of parasympathetic  nervous system decreases heart rate when stimulated.  A B C D",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F F T T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T F T F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T T F T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T T T T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q117",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. Pulse pressure (i) Heart rate is inversely related with systemic blood pressure  b. Marey’s law (ii) 40 mmHg in a  normal healthy person  c. Frank-Starling Law (iii) 93.3 mmHg in a  normal healthy person  d. Mean arterial (iv) Force of blood pressure contraction is directly proportional to the length of the cardiac muscle fibres",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q118",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "In Coronary Artery Bypass Grafting (CABG), in order to bypass the blocked region of the coronary artery surgeon uses",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only arteries from another part of body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only veins from another part of body",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Artery or a vein from another part of body",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only artificial arteries made from porous  plastic fibres of dacron or teflon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q119",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "If haemoglobin is made free it is excreted in urine in significant amount while albumin is not because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Molecular weight of haemoglobin is much  less than albumin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Size of haemoglobin is much less than  albumin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Albumin is largest sized plasma protein so  cannot pass through slit pores",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Albumin is small sized plasma protein having  negative charge repelled by negatively charged proteins in basement membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 250,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q120",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Human heart has four chambers and are having different types of valves. Which valve will open at the end of isovolumetric contraction of cardiac cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Semilunar valve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eustachian valve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitral valve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thebasian valve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q121",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The action potential of SA node is triggered by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Closing of K+ channels",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Opening of K+ channels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Closing of Ca+2 channels",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Opening of Na+ channels",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q122",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following receives action potential from bundle branches and finally passes them to ventricular myocardium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SA node",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AV node",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bundle of His",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Purkinje fibres",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q123",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "What is the role of parasympathetic nervous system in the regulation of cardiac activity?  a. Decrease the rate of heart beat.  b. Decrease the speed of conduction of action  potential.  c. Increase the strength of ventricular  contraction.  d. Increase the cardiac output.  Options",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b, c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q124",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The simple flexion of arm when we pick up a heavy weight is an example of which type of contraction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isotonic contraction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isometric contraction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Muscle summation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Muscle relaxation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q125",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following factor can increase the cardiac output?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adrenal medullary hormones",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inhibition of sympathetic nerves",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Excitation of parasympathetic nerves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sedentary life style",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q126",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an incorrect statement w.r.t. cardiac cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "When the ventricular systole takes place,  atria undergo relaxation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Time gap between consecutive HS1 and HS2  is 0.3 second.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "During joint diastole both atria and ventricle  begin diastole simultaneously",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isovolumetric relaxation is observed during  beginning of ventricular diastole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q127",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Factor IX – Christmas factor",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Factor VII – Proconvertin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Factor XII – Hageman factor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Factor X – Plasma thromboplastin  antecedent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q128",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Rouleaux formation occurs",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "When RBCs adhere together with platelets",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "When RBCs adhere with WBCs and form clot",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "When RBCs adhere together by their concave  surface",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "When platelets adhere to injured blood  vessels",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q129",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Purpura, a group of bleeding disease is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thrombocytosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Leucopenia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thrombocytopenia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polycythemia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q130",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Total count of WBC is normally 6000 to 8000 per mm–3 of blood. It may rise in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Appendicitis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pneumonia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Malignancies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q131",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The most abundant blood plasma protein is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Albumin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Globulin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fibrinogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 251,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q132",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pale colour of plasma is largely due to  bilirubin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sodium oxalate prevents blood coagulation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RBCs of all vertebrates are nucleated, oval  and biconvex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anaemia can be caused due to the  deficiency of folic acid, vit-B12 or haemoglobin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q133",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following blood clotting factor is also known as antihemophilic factor C?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Factor VIII",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Factor IX",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Factor X",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Factor XI",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q134",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair can clot?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Blood and lymph",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Serum and lymph",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Serum and blood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plasma and serum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q135",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Deficiency of folic acid, vitamin B12 and haemoglobin causes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polycythemia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaemia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Leukaemia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leucopenia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q136",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following prevents the conversion of prothrombin to thrombin in an undamaged blood vessel?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Heparin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thromboplastin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fibrinogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Calcium ions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q137",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Components of plasma that carry lipids, steroids, carotenes, iron, vitamin A, vitamin D and vitamin K are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Albumins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Beta globulins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fibrinogens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gamma globulins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q138",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Water retention in plasma is brought about mainly by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fibrinogens",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Serum Albumins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alpha globulins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gamma globulins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q139",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Leucocytes with bilobed nucleus, produced in Red Bone marrow and antihistaminic in function are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Basophils",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eosinophils",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neutrophils",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monocytes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q140",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which cells among leucocytes are involved in inflammatory reactions?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eosinophils",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Neutrophils",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Basophils",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monocytes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q141",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The blood protein which maintains normal blood pressure is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Haemoglobin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fibrinogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Albumin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heparin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q142",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Types of cells that can release the vasodilator chemical involved in inflammation are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eosinophils",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mast cells only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Basophils and mast cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Macrophages",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q143",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "The site of production of blood cells is present within",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adult liver",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adult spleen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bones",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cartilage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q144",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Agranulocytes are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eosinophils and neutrophils",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monocytes and lymphocytes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eosinophils and lymphocytes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lymphocytes and basophils",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q145",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypogastric artery - Legs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inferior mesenteric artery - Colon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Subclavian artery - Arms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carotid artery - Head",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 252,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secA_q146",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following do not occur normally in a newly born infant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Closing of foramen of ovale",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Closing of ductus arteriosus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sufficient secretion of lecithin by pneumocytes  cells type - II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Constriction of pulmonary artery by sufficient  secretion of nitrous oxide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q1",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The cutaneous blood flow is mainly regulated  by body temperature and the hypothalamus of the brain plays an important role in this.\nReason (R): When the body temperature is increased, the  hypothalamus is activated and this causes cutaneous vasodilation and causes loss of heat from the body through sweat.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q2",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Conduction of electrical impulse in case of  atria passes from apex to base and in ventricle, it passes from base to apex.\nReason (R): Conduction speed is fastest in S.A. node and  slowest in Purkinje system.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q3",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): As the age increases after birth heart beat  rate decreases.\nReason (R): Vagal tonicity increases with age after birth.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q4",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Blood always flow from arteries to veins.\nReason (R): Arterial pressure is higher than venous  pressure.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q5",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Heart attack occurs when the heart muscle is  suddenly damaged by inadequate blood supply.\nReason (R): Heart failure is same as cardiac arrest.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q6",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If free haemoglobin is present in the blood, it  is excreted in significant amounts but not albumin.\nReason (R): Haemoglobin is less negatively charged than  albumin, and hence its passage through the negatively charged channels in the basement membrane and slits in the epithelial layer is less hampered.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q7",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If the nerve supply of the vertebrate heart is  cut off or removed, it stops beating immediately.\nReason (R): Acetylcholine secreted by nerve endings  accelerates the heart beat.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q8",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): During isovolumetric diastole of heart, AV  valves are still closed.\nReason (R): Pressure in ventricles is still high as  compared to atria.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q9",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Muscle fibres of SA node possess the highest  rhythmicity among all cardiac muscle fibers.\nReason (R): Due to this fact, it can initiate excitatory waves  at the highest rate, so it is called the pacemaker of heart.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q10",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Hemoglobin is normally enclosed in red blood  cells and therefore not excreted in urine.\nReason (R): If hemoglobin was present in blood plasma, it  would have been excreted out in significant amounts.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q11",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In an athlete, the cardiac output may rise to  even 20 litres per minute during exercise, i.e. about 4-5 times the normal resting value of about 5 litres per minute.\nReason (R): This rise in cardiac output helps the body in  exercise by enhancing manifold the supply of nutrients and oxygen to tissues.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q12",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If we cut the nerves supplying the heart of  cockroach, it will stop beating.\nReason (R): The heart of cockroach is neurogenic.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q13",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): If we sit or stand immobile for a long time,  there is swelling in the feet.\nReason (R): Flow of blood in the veins is suspended due  to suspension of the skeletal muscle pump.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q14",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Atrial Natriuretic Factor acts as a check on  the renin-angiotensin mechanism and causes vasodilation.\nReason (R): It is secreted by SA node of atrium.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q15",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Human heart is myogenic.\nReason (R): Normal activities of human heart are  auto-regulated by specialised muscles.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 253,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q16",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Sinoatrial node (SAN) is called the pacemaker  of the heart.\nReason (R): The SAN can generate the maximum number  of action potentials i.e., 70-75 min–1 under vagal control and is responsible of initiating and maintaining the rhythmic contractile activity of the heart.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q17",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In very severe exercise, cardiac output may  rise to even to  20 L per minute, about 4 to 5 fold the normal resting value of about 5 L per minute.\nReason (R): The rise in cardiac output helps the body in  exercise by enhancing manifold the supply of nutrients and oxygen to contracting muscles.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q18",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A fall in plasma proteins lead to filtering out of  excessive volumes of water from blood to tissues.  \u0002\u0003\u0002\u0003\u0002\nReason (R): Albumin and globulins retains water in blood  plasma.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q19",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A person with blood group A possesses  antigen ‘A’ and antibody b.\nReason (R): Antigen A and antibody b are compatible.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q20",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Mast cells in areolar connective tissue are  responsible for making diapedesis successful.\nReason (R): Mast cells produce histamine, which result in  vasodilation and increased permeability of blood vessel.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_06_body_fluids_and_circulation_secB_q21",
+    "subject": "Zoology",
+    "chapter": "Body Fluids and Circulation",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Mature human RBCs are non-nucleated.\nReason (R): Absence of nucleus in RBCs helps to  accommodate  maximum  amount  of haemoglobin.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 254,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  }
+]

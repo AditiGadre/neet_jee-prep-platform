@@ -1,0 +1,6216 @@
+[
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q1",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A car is moving on a straight road at a speed of 50 km/h and a truck is ahead of the car and having a large plane mirror fixed vertically on the back of truck. Truck is running at a speed of 70 km/h. For a stationary observer standing between car and truck. What is the speed of image of car in the mirror?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40 km/h",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "70 km/h",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 km/h",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90 km/h",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q2",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Two plane mirrors should be placed at what angle so that the incident ray and final reflected ray are antiparallel?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "90º",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60º",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45º",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30º",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q3",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The field of view is maximum for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Concave mirror",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Convex mirror",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plane mirror",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Parabolic concave mirror",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q4",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An object is placed in front of a concave mirror. The distance of object from the focus is 10 cm and distance of image from the focus is 40 cm then the focal length mirror is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q5",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A fish at a depth y inside the water is seeing a bird. The bird is at a height x above the water level. Refractive index of water is  then the apparent distance of bird as seen by the fish is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x + y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "y + x  y x ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x y ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q6",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A jar of height H is half filled with a liquid of refractive index 1 and the remaining half with a liquid of refractive index 2. The apparent depth of a coin placed at the bottom of jar when seen from vertically upward direction is  1 2 . ( ) H  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 2 .H          1 2  1 2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 2 . 2 H        ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 . 2 H         1 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q7",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A cylindrical solid rod made up of material of  2  refractive index   3 is given. A light beam enters  from one circular end of the cylinder, and comes out just brushing the outer surface along the length. What should be the angle of incidence on the circular face?         1 1 sin  1 1 sin 2       ",
+    "question_diagram": "/images/last_leap_part1/p73_q7.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "3           1 3 sin 2         1 2 sin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q8",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If the critical angle for a liquid A is 60º and critical angle for the liquid B is 45º, then the critical angle for a ray travelling from A to B will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Less than 45º",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More than 60º",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Between 45º and 60º",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Does not exist",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q9",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A convex lens made of 5 different transparent materials is used to make image of an object placed in front of it. The number of images formed will be  1 2 3 4 5 4 3 2 1",
+    "question_diagram": "/images/last_leap_part1/p74_q9.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q10",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If the plane surface of a planoconvex lens is silvered, then it will behave as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Converging mirror",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diverging mirror",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plane mirror",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May behave as",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "or",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q11",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Chromatic aberration of a lens can be corrected by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reducing its apperture",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Proper polishing of its surfaces",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Suitably combining it with another lens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Providing different suitable curvature to its  surfaces",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A small air bubble is at the centre of a glass sphere of radii 5 cm. When it is viewed from outside what will be the position of image? Refractive index of glass is 1.5",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "At the same place as that of object  10 cm 3  from the surface near the eye",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7.5 cm from the surface of sphere near the  eye",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "At infinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q13",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The refractive indices of a prism for red, yellow and violet colours are 1.52, 1.57 and 1.62 respectively, then the dispersive power of the material of prism will be  1",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q14",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The magnification of a compound microscope for the final image at least distance of distinct vision is 90. Magnification of objective lens is 15. The value of focal length of eyepiece will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 cm  1 cm 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q15",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A terrestrial telescope is made by introducing an inverting lens of focal length fi. Focal length of objective and eyepiece are fo and fe. Then the length of telescope for normal adjustment is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "fo + fe + fi",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "fo + fe + 2fi",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2fo + 2fe + fi",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "fo + fe + 4fi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q16",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The reflected light wave and incident light wave differ from each other by a phase angle of 180º, when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Light enters into glass from air",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Light enters into air from glass",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Light enters into glass from diamond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Light enters into water from glass",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q17",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Converging rays are incident on a convex lens, the image formed",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "May be virtual",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Must be virtual",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May be real",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Must be real",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q18",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "When an object is placed at 10 cm and 30 cm from a convex lens image obtained are of same magnitude of magnification. The focal length of the lens may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q19",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "One of the refracting surface of a prism is silvered. A ray is incident at an angle 60°, such that it retraces its path. The angle of the prism is  ( 3) ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "75°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q20",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A concave lens forms the image of an object such that the distance between the object and image is  10 cm. If magnification of the image is 1 4 . The  focal length of the lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 3 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10  7 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 9 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q21",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A ray of light is incident on a prism of angle A and refractive index  will not emerge out of prism for any angle of incidence, if  A",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": " > cos A",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": " > sin 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": " <  1 sin A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": " >  1  A  sin 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q22",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "What should be the maximum angle of acceptance at the air core interface of an optical fibre, if n1 and n2 are the refractive indices of the core and the cladding respectively?  1 sin       n  n",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 2 2 1 2 sin  n n",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 2  1 tan       2 sin       n  n n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2  n",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q23",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Focal length of a glass ( = 1.5) lens in air is  20 cm. If it is dipped in water  4 3         , its focal  length in water will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "80 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q24",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "When a concave mirror of focal length f is immersed in water, its focal length becomes f, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "f = f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "f < f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "f > f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The information is insufficient to predict",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q25",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A person cannot see objects clearly that are closer than 2 m and farther than 4 m. To correct the eye vision, the person will use",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bifocal lenses of power –3.5D and 0.25D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bifocal lenses of power –0.25D and 3.5D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bifocal lenses of power –0.5D and 4.0D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bifocal lenses of power –4.0D and 0.5D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q26",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Minimum distance between real object and image produced by a concave mirror of focal length 20 cm is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "80 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q27",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A small air bubble is present exactly at the centre of a glass sphere. Size of the image as seen from outside is of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Same size",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bigger",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Smaller",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "May be smaller or bigger depending on the  distance of observer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q28",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An object is at a distance of 30 cm in front of a concave mirror of focal length 10 cm. The image of the object will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Smaller in size",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inverted",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Between focus and centre of curvature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q29",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "In normal adjustment the angular magnification of an astronomical telescope is 39. If length of the tube is 2 m, then focal length of the objective and eyepiece are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "195 cm, 5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "190 cm, 10 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 cm, 180 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 cm, 190 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q30",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A convex lens of focal length 10 cm form real image of an object. The distance between the object and the image may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "38 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q31",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "What is the distance of the image of the point object O from the surface of water in the diagram shown below, where bottom of the container is silver polished?  O  16 cm   = 4  12 cm  3",
+    "question_diagram": "/images/last_leap_part1/p75_q31.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "30 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "34 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q32",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A plano-convex lens of focal length 20 cm is silver painted on its plane face, as shown. The distance of the image of object O from the lens-mirror system is  O  10 cm",
+    "question_diagram": "/images/last_leap_part1/p76_q32.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q33",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Two convex lenses of focal lengths 10 cm and 30 cm are kept at separation of 20 cm. Then the correct statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Effective focal length is 15 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chromatic aberration is minimised",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Combination behaves like convergent lens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q34",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If one surface of a biconvex lens is silvered then it behave as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A concave mirror of focal length 4 2 R   R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A concave mirror of focal length 2  R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A convex mirror of focal length 4 2 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A concave mirror of focal length 2 2 R   4 3 is placed between",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q35",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A liquid of refractive index   two identical planoconvex-lenses touching each other at their spherical surfaces of radius R. If refractive index of lens is 1.50, then the lens behave",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Convergent with power  1 3 P R ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Convergent with power  1 6 P R ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Divergent with power  1 3 P R ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Divergent with power  1 6 P R ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q36",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A ray of light incident on an equilateral prism at an angle of incidence i. The deviation produced by prism will be maximum, when angle i is [take glass = 2]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30º",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "45º",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60º",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90º",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q37",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A lens of focal length fa in air consist of glass of refractive index g. If fl is its focal length in a liquid of refractive index l, then for l = g",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "fl = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": " > fl > fa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 < fl < fa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "fl = ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q38",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If four convex lenses are given to you have focal lengths f1 < f2 < f3 < f4, then which of the following combination will you prefer to form a compound microscope?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "f1 as objective and f4 as eye-lens",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "f1 as objective and f2 as eye-lens",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "f4 as objective and f1 as eye-lens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "f2 as objective and f3 as eye-lens",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q39",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of velocity of light in a medium to velocity  4 . If ray of light is emerging  of light in vacuum is 5  from this medium into air, then the critical angle for this interface of medium and air will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30º",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "37º",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "53º",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "45º",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q40",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If light ray incident normally on face AB of a part of a prism, then for no emergent ray from second face AC [  refractive index of glass of prism]  A  50º 70º  B C  2",
+    "question_diagram": "/images/last_leap_part1/p76_q40.png",
+    "options": [
+      {
+        "label": "1",
+        "text": " =  3  2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": " >  3  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": " <  3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": " can have any value",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q41",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "In a glass ( = 1.5) sphere of radius 10 cm, there is an air bubble B at distance 5 cm from C. The distance of bubble from the surface of sphere (i.e. point A) as observed from point P in air will be  B  P A  C  5 cm",
+    "question_diagram": "/images/last_leap_part1/p77_q41.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20.0 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9.37 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.67 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q42",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A lens forms image of a point object placed at distance 20 cm from it, just in front of the object at distance 4 cm from object towards lens. The power of lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 2.25 D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.75 D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 1.25 D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.4 D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q43",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The distance between the object and its real image formed by a concave mirror is minimum, when distance of object from centre of curvature of mirror is [f  focal length of mirror]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2f",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q44",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If wavelength of ray of light from a source of lights is 3000 Å in air, then wavelength of that ray of light in a liquid in which S is placed will be  Air",
+    "question_diagram": "/images/last_leap_part1/p77_q44.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4000 Å",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1500 Å",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9000 Å",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3500 Å",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q45",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Chromatic aberration is absent in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plano convex lens",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plano concave lens",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Concave mirror",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bifocal lens",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q46",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "For a convex lens of focal length 15 cm the dispersive power of its material is 0.05. The longitudinal chromatic aberration of the lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.6 × 10–4 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "700 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7.5 mm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.34 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q47",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An object is placed at infinite distance from a concave lens. If m is magnification obtained in the size of image; then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "m = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "m << –1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "m > – 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "m << + 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q48",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A point object O is placed at distance 20 cm from a biconvex lens of radius of curvature 20 cm and  = 1.5. The final image produced by lens and mirror combination will be at  10 cm  O",
+    "question_diagram": "/images/last_leap_part1/p77_q48.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10 cm from mirror",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 cm from lens",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 20 cm from lens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 15 cm from mirror",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q49",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A thin lens whose power is + 2 D is cut into two pieces perpendicular to principal axis. The focal length of each part will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "75 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.05 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q50",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A person can see objects clearly between 1 m and 3 m. The power of lens required to correct near point will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 2.5 D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 3 D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 1.5 D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 1.75 D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q51",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The focal lengths of the objective and eyepiece of a terrestrial telescope are 50 cm and 10 cm respectively. The magnifying power of telescope when the final image is formed at infinity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.75",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 2.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 4.25",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q52",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A convex mirror of focal length 20 cm forms image which is quarter the size of the object. The distance of the object from mirror is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 60 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 40 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 70 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q53",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "What is the length of the optical path of two media in contact having thickness 2 cm and 3 cm and refractive indices 1.5 and 1.7 respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8.1 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6.2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9.4 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q54",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A converging beam of light forms a point image on a screen of an object. A plane glass plate of  3 is  thickness 2 cm and refractive index 2  introduced in the path of the beam. The screen should be shifted w.r.t. its initial position to obtain point image on screen will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.67 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.33 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q55",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect option",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A plane mirror always forms a virtual image",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The virtual image formed by a concave mirror  is always enlarged",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The critical angle is always defined in the  denser medium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A glass slab cannot deviate the light",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q56",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct option",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Velocity of light is constant in all media",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A convex lens always forms real image",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If aperture of lens is halved then image size  will be halved",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The ray optics is not applicable when size of  obstacle is less than wavelength of light",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q57",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "In case of a compound microscope the image formed by the objective lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Virtual, erect and diminished",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Real, erect and magnified",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Virtual, inverted and enlarged",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Real, inverted and enlarged",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q58",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A plano convex lens of focal length 10 cm is made of glass of refractive index 1.5. If the plane surface of convex lens is polished, then focal length of resultant combination will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12.5 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q59",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A parallel narrow beam of light travelling through water in a container incident on an air bubble of radius 8 mm. What will be the distance of image obtained due to refraction of beam on first face of  4 ]  air bubble from the centre of bubble? [water = 3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "17.2 mm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "32 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "41.5 mm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25.75 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q60",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Two slabs P & Q of transparent materials have thickness in ratio 2 : 5. If a ray of light take same time to move from A to B and B to C then refractive index of Q w.r.t. P will be  P Q  A B C",
+    "question_diagram": "/images/last_leap_part1/p78_q60.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0.4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.85",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q61",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A ray of light strikes on a glass sphere at point A. If A is midway between P and Q, then the deviation of the ray as it emerges out of the sphere will be  Q  A  R O  P  S",
+    "question_diagram": "/images/last_leap_part1/p78_q61.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "30º",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "45º",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "65º",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "85º",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q62",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A thin lens of focal length 10 cm is cut into two equal halves and are kept as shown in figure. If an object O is placed at distance 10 cm from the optical centre of combination, then the distance of image from object will be  O",
+    "question_diagram": "/images/last_leap_part1/p78_q62.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q63",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The average value of focal length of a normal eye-lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q64",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If a glass prism of refractive index 1.5 dipped in a liquid having refractive index same as that of material of prism, then the dispersive power of prism will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Become zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depend on apex angle of prism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q65",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "What should be the angle between two plane mirror, if an object placed unsymmetrically between them has five images?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "75º",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60º",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "120º",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "59º",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q66",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Resolving power of compound microscope",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Depends on wavelength of light as ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depends on wavelength of light as 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Depends on wavelength of light as  1 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depends on wavelength of light as  2 1 ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q67",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum magnification which can be obtained with the help of a simple microscope is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q68",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A converging spherical wavefront is obtained from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Light emerging from a convex lens when a  point source is placed at its focus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A parallel beam of light incident on the convex  lens",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Light converging at a point",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q69",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A ray is incident normally on a right angled prism whose R.I. is  3 and prism angle  = 30º. Deviation to the ray is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6   2 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q70",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A convex lens forms the image of the point object O on the screen. If a glass slab of thickness 3 cm and refractive index 1.5 is put as shown below, then to have the image of the object on the screen the object should be shifted    O  screen  3 cm",
+    "question_diagram": "/images/last_leap_part1/p79_q70.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Away from the lens by 1 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Away from the lens by 1.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Towards the lens by 1 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Towards the lens by 1.5 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q71",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "In the following diagram what is the distance x if the radius of curvature R = 15 cm?  1= 1  2 = 1.5  O  x R C",
+    "question_diagram": "/images/last_leap_part1/p79_q71.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "30 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q72",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Focal lengths of objective and eyepiece of a Gallilian telescope have magnitudes of 100 cm and 5 cm respectively. In normal adjustment the distance between the objective and eyepiece is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "105 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "95 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q73",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "In the diagram shown below, the image of the point object O is formed at I by the convex lens of focal length 20 cm, where F1 and F2 are foci of lens. The value of x is  10 cm f = 20 cm  x  F2  O F1  I",
+    "question_diagram": "/images/last_leap_part1/p79_q73.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q74",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An astronomical telescope has angular magnification of 40 in normal adjustment. If the focal length of the eyepiece is 5 cm, the length of the telescope is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "190 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "200 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "205 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "210 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q75",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The focal length of a convex lens is 40 cm and the size of the inverted image formed is half of the object. The object distance is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "120 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "180 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q76",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The condition of minimum deviation is achieved in an equilateral prism kept on the prism table of a spectrometer. If the angle of incidence is 50°, the angle of deviation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q77",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A small air bubble is at the centre of a glass sphere of radius 10 cm and refractive index 1.5. The distance of the bubble from the surface when viewed  from outside the sphere is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q78",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The refractive index of material of prism is  2 . Angle of prism A is equal to  A",
+    "question_diagram": "/images/last_leap_part1/p80_q78.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q79",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An object is placed 20 cm in front of a concave mirror of radius of curvature 10 cm. Position of the image from pole of the mirror is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "7.67 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6.67 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8.67 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9.67 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q80",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A convex lens forms the image of an object of same magnification when the object is placed at 10 cm and  20 cm from the lens. The focal length of the lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "25 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q81",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A small source of light is 2 m below the surface  5 3 .In order to block  of a liquid of refractive index   all the light coming out of the liquid surface, the minimum diameter of the disc placed on the surface  of the liquid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.5 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q82",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A glass slab is placed with the right angle prism as shown in the figure. The possible value of  such that light incident normally on the prism does not pass through the glass slab is   = 1.2   = 1.5  ",
+    "question_diagram": "/images/last_leap_part1/p80_q82.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "37°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q83",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "In front of a mirror, a ball is projected at acute angle  with horizontal toward the mirror as shown. The motion of the image of the ball w.r.t. the ball  u  ",
+    "question_diagram": "/images/last_leap_part1/p80_q83.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Must be straight line and horizontal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "May be a straight line depending on the value  of ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is parabolic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is a straight line and vertical",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q84",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "To increase magnifying power of a telescope",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Focal length of eyepiece should be increased",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Focal length of objective should be increased",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wavelength of light should be increased",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aperture of eyepiece should be increased",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q85",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Two positions of convex lens for which image of the object is formed on the same screen are 40 cm and 80 cm from the object. The focal length of lens is  80 3 cm",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "40 3 cm",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "80 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q86",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A graph is plotted between angle of deviation  in a triangular prism and angle of incidence as shown in the figure. Refracting angle of the prism is    40°  28° 48°  Angle of incidence",
+    "question_diagram": "/images/last_leap_part1/p80_q86.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "28°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "48°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "36°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "46°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q87",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Three lenses A, B and C are shown in the figure. Lens A is concave lens. B and C are plano convex lenses. All the lenses have same focal length f. In which case the spherical aberration is minimum?  (A) (B) (C)",
+    "question_diagram": "/images/last_leap_part1/p80_q87.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q88",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Three identical thin convex lenses are kept as shown in the figure. A ray passing through the lens is shown. The focal length of each lens is  10 cm 10 cm",
+    "question_diagram": "/images/last_leap_part1/p81_q88.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q89",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "To a diver inside water, the setting sun will appear  5 µ 4 W         at an angle (with the horizontal) of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "53°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "37°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q90",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The following diagram shows  a glass sphere of radius 10 cm with a paraxial incident ray. The refractive index of material of the glass is",
+    "question_diagram": "/images/last_leap_part1/p81_q90.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.75",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q91",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A spherical fish bowl of radius 15 cm is filled with  water of refractive index 4  3 . A cat standing outside  in air at a distance of 30 cm from the centre of fish bowl  is looking at the fish. At what distance from the center would the cat appear to fish situated at the centre?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "45 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q92",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Two convex lenses of focal length X and Y are placed parallel to each other. An object at infinity from first lens forms its image at infinity from the second lens. The separation between two lenses should be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "X + Y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 X Y ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "X – Y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 X Y ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q93",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Two plane mirrors are placed perpendicular to each other as shown in the figure. An object O is kept at the angular bisector of the two mirrors. Number of images of object O formed, will be  O",
+    "question_diagram": "/images/last_leap_part1/p81_q93.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q94",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A plane mirror is placed at the bottom of a fish tank  filled with water of refractive index 4  3 . The fish is  at a height 10 cm above the plane mirror. An  observer O, vertically above the fish outside the water, sees the fish and its image in the mirror. The apparent distance between fish and its image is  O  observer  10 cm  mirror",
+    "question_diagram": "/images/last_leap_part1/p81_q94.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "35 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "45 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q95",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An astronomical telescope has angular magnification of 20 in its normal adjustment. Focal length of eyepiece is 4 cm. Distance between objective and eyepiece is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "80 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "84 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "76 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q96",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The thickness of a plano-convex glass lens in the middle is 1.5 cm. Viewing from the flat side the thickness of lens at the centre will appear (Refractive index of glass is 1.5) to be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.0 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.5 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q97",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A beam of light consisting of red, green and blue colours is incident on a right angled prism as shown. The refractive index of the material of prism for red, green and blue wavelength are 1.39,",
+    "question_diagram": "/images/last_leap_part1/p82_q97.png",
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q98",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A light ray is incident on a prism of refracting angle 30°. One face of the prism is silvered as shown in the figure. If refractive index of prism is  2 , then for what value of angle of incidence, the  ray will retrace its path?  30°  i",
+    "question_diagram": "/images/last_leap_part1/p82_q98.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "37°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q99",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A plane mirror is fixed in yz plane at x = 0. The  velocity of a moving object is  0 ˆ ˆ ˆ 3 6 4 v i j k    \u0002 .  Velocity of the image relative to a stationary observer will be  y  v0  x  x = 0",
+    "question_diagram": "/images/last_leap_part1/p82_q99.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "ˆ ˆ ˆ 3 6 4 i j k  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ˆ ˆ ˆ 3 6 4 i j k  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ˆ ˆ ˆ 3 6 4 i j k  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ˆ ˆ ˆ 3 6 4 i j k   ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q100",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If there is no emergent light through a prism of refracting angle 60°, whatever may be the angle of incidence, then the minimum value of refractive index of material of the prism is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q101",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If the space between two convex lenses of glass in the combination shown in the figure below is filled with water, then",
+    "question_diagram": "/images/last_leap_part1/p82_q101.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Focal length of the system will decrease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Focal length of the system will increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Power of system will increase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Power of system will become infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q102",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A prism of refracting angle 30°, has one of refracting faces polished. A beam of light incident on the other refracting face with i = 60° will retrace its path, if the refractive index of prism would be",
+    "question_diagram": "/images/last_leap_part1/p82_q102.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q103",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "To form an achromatic combination, two lens of focal length X and Y and dispersive power A and B respectively, are kept in contact. Which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A = C, B = C/2 ; X = 2Y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A = C, B = C/2 ; X = –2Y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A = C, B = 2C ; X = 2Y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A = C, B = 2C ; X = –2Y",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q104",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An object is placed at a distance of 20 cm from the thin lens as shown in the figure. The points C1 and C2 denote centres of curvature. The magnification produced by the lens is (Refractive index of glass is 1.5)  C1 C2  10 cm  20 cm",
+    "question_diagram": "/images/last_leap_part1/p82_q104.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "–2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–1/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+1/2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q105",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Two objects are placed at a distance of 100 m from a person. The diameter of  the eye-lens of the person is 2 mm. What should be the separation between the objects so that they can be seen just resolved? (The wavelength of light is 5000 Å)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.5 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q106",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A ray of light incident at angle i is refracted at angle r into a glass slab of thickness t. The lateral displacement of the emergent ray is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sin cos t i r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sin( – )  cos t i r r  sin( ) cos t i r r ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "tsin(i – r)cosr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q107",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A convex mirror of focal length f (in air) is  immersed in water  4 3         . Focal length of the  mirror in water will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 3 f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3  4 f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4f",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q108",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Diameter of a plano-convex lens is 5 cm and thickness at the centre is 5 mm. If the refractive index of the material of the lens is 1.5, the focal length of the lens is (approximately)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "13 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.25 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q109",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If the angle of a triangular prism is A and the refractive index of the material is , then under what condition will there be no emergent ray?  –1 1 2sin A        ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–1 1 sin A        ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–1 –1 1 1 sin 2sin A                  –1 1 2sin A        ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q110",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Minimum magnifying power of an astronomical telescope is 40. If the length of the telescope is 205 cm, then focal length of its field lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "200 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "140 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q111",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A thin equiconvex lens of power P is cut into three parts A, B and C as shown in figure. If P1, P2 and P3 are powers of the three parts respectively, then  A  B C",
+    "question_diagram": "/images/last_leap_part1/p83_q111.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "P1 = P2 = P3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "P1 > P2 = P3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P1 < P2 = P3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P2 = P3 = 2P1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q112",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A light beam containing red, yellow and blue colour, falls on the interface of glass air as shown. If yellow light is just totally internally reflected then emergent ray in air contain  air  yellow  glass",
+    "question_diagram": "/images/last_leap_part1/p83_q112.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Both red and blue colour",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only red colour",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only blue colour",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No colour",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q113",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Angle of a distant object formed at the objective of a telescope is 2. If focal length of objective and eyepiece of telescope is 200 cm and 20 cm, then the size of image formed by the objective is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.12 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.4 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q114",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Focal lengths of objective and eyepiece of a compound microscope are 2 cm and 6.25 cm respectively. An object AB is placed at a distance of 2.5 cm from objective which forms the image AB as shown in figure. Maximum magnifying power in this case is  A  B  B F0 Fe",
+    "question_diagram": "/images/last_leap_part1/p83_q114.png",
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q115",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A plane mirror is placed at x = 0 along y-axis and  an object starts moving with velocity ( ˆ ˆ 2 2 i j  ) m/s  from x = 3. Relative velocity of the image in the mirror with respect to the object is  ( 2 + 2 ) m/s i j   X = 0 X = 3",
+    "question_diagram": "/images/last_leap_part1/p84_q115.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "4 m/s along the –x axis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 m/s along the +x axis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 m/s making an angle of 45° with the  +x axis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 m/s making an angle of 135° with the  +x axis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q116",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The angle of minimum deviation for a glass prism  of refractive index  3   equals the refracting  angle of the prism. The angle of prism is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "45°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q117",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Minimum distance between a real object and screen such that a convex lens of focal length 20 cm can produce real image on the screen is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q118",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A concave lens of focal length 25 cm produces  image 1 th 10  the size of the object. The distance  of the object from the lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "225 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "250 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "175 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q119",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A convex lens A of focal length 20 cm and a concave lens B of focal length 5 cm are kept along the same axis at a distance x apart. If a parallel beam of light incident on A leaves B as a parallel beam, then x is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "15 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q120",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A combination is made of two lenses of focal length f1 and f2 in contact. The dispersive power of the materials of the lenses are 1 and 2. If the combination is achromatic, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "21 = 2, f2 = 2f1  2 f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "21 = 2, f2 = 1  f",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "21 = 2, f2 = 1 – 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "21 = 2, f2 = –2f1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q121",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An optical element is shown in figure. Radii of two surfaces are 10 cm and 20 cm. Calculate distance between two spherical surfaces so that image of the object coincides with the object itself  R = 10 cm R = 20 cm  O   = 3/2 30 cm  d = ?",
+    "question_diagram": "/images/last_leap_part1/p84_q121.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "100 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "80 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "110 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "95 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q122",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Minimum distance between a real object and its real image produced by a concave mirror of focal length f0 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2f0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "f0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4f0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q123",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "When a telescope is focussed for parallel rays then its magnifying power is 10 and distance between the objective and the eyepiece is 22 cm. Focal length of each lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 cm, 2 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11 cm, 9 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 cm, 5 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "18 cm, 2 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q124",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The angle of a prism is A and one of its refracting surfaces is silvered. Light rays falling at an angle of incidence 2A on the first surface return through the same path after suffering reflection at the second (silvered) surface. The refractive index of the material is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 sinA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 cosA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1cos 2 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "tanA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q125",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An object O is placed on one side of two glass slabs A and B of thickness 1.5 cm and refractive index 1.5 as shown. Separation between the slabs is 1.5 cm. The position of image of O, when viewed from the other side of slab B, will be",
+    "question_diagram": "/images/last_leap_part1/p84_q125.png",
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q126",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Focal length of an equiconvex glass lens in air is 20 cm. Relative refractive index of glass with  respect to water is 9, 8 if the lens is dipped in  water, then its new focal length in water is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 20 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 80 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q127",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The correct statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intermediate image in compound microscope  is real, erect and magnified",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Intermediate image in compound microscope  is real, inverted, but diminished",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intermediate image in compound microscope  is virtual, erect and magnified",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intermediate image in compound microscope  is real, inverted and magnified",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q128",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Refracting indices of core and cladding of an optical fibre are 2 and 1 respectively. If laser light is incident into the optical fibre from air, then semivertex of the acceptance cone has the value of   ",
+    "question_diagram": "/images/last_leap_part1/p85_q128.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "1 2 2 2 1 cos   1 2 2 2 1 sin",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 2 2 1 sin ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "  1 2 2 2 1 sin 2  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q129",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A convex mirror of focal length f forms an image,  1 n       times the length of the object. The  which is   distance of the object from the mirror is          1 n f n",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(n – 1)f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "      ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(n + 1)f  1 n f n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q130",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "We combined a convex lens of focal length f1 with a concave lens of focal length f2 and their combined focal length is F. The combination of these lenses will behave like a concave lens, if",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "f1 > f2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "f1 < f2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "f1 = f2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "f1 < f2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q131",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A ray of light is incident on an equilateral glass prism placed on a horizontal table as shown. For minimum deviation, true statement is  Q R  S  P",
+    "question_diagram": "/images/last_leap_part1/p85_q131.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "PQ is horizontal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "QR is horizontal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RS is horizontal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Either PQ or RS is horizontal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q132",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The length of a compound microscope is 14 cm. The magnifying power for relaxed eye is 25. If the focal length of eye lens is 5 cm, then the object distance for objective lens will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.8 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.1 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.4 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q133",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The minimum magnifying power of telescope is M. If the focal length of its eye lens is halved, then the magnifying power will become",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q134",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "When a ray of light falls on a given plate at an angle of incidence 60°, the reflected and refracted rays are found to be normal to each other. The refractive index of the material of the plate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.732",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q135",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A white beam of light can be deviated without dispersion by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Using two suitable glass prisms placed in  same sense",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Using two suitable glass prisms placed in  opposite sense",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Using a suitable glass prism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "None of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q136",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If total deviation produced by two plane mirrors is 300° then number of images formed of an object placed symmetrically is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q137",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A man runs towards a stationary plane mirror with velocity 15 m/s. Magnitude of velocity of the man relative to his image is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "15 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "45 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q138",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Minimum angular magnification produced by an astronomical telescope having focal length of field lens and ocular 200 cm and 5 cm respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q139",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Size of image formed by a convex lens is one fourth of size of a real object. If focal length of the lens is 30 cm, then distance of the object from the lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "150 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "120 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q140",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Refractive index of material of an equilateral  prism is  2 . Angle of incidence for minimum deviation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q141",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A concave lens is made of three layers of glass of three different materials as shown in the figure. A point object is placed on its axis. Number of images of the object is",
+    "question_diagram": "/images/last_leap_part1/p86_q141.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q142",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A point object O is placed on the principal axis of a convex lens of focal length f = 20 cm at a distance of  40 cm to the left of it. The diameter of lens is 10 cm. An eye is placed 60 cm to the right of lens and a distance h below the principal axis. The maximum value of h to see the image is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.5 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q143",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A plane mirror is placed on x-z plane and is free to rotate about z-axis. A fixed object is on x-y plane at a point O(5 m, 5 m). When mirror starts rotating anticlockwise with angular speed 5 rad/s about z-axis. The initial linear speed of image is  y  O (5 m, 5 m)  x",
+    "question_diagram": "/images/last_leap_part1/p86_q143.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "25 m/s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25 2 m/s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 m/s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 2 m/s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q144",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Light ray is incident at an angle of 60º on one face of a rectangular prism of refractive angle 90º. If light ray grazes the second face, then the refractive index of material of prism is",
+    "question_diagram": "/images/last_leap_part1/p86_q144.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q145",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A boy with defective eye-sight cannot see things beyond 50 cm. The corrective lens required has the power",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 1 D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 2 D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 1 D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 2 D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q146",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The focal length of a thin convex lens for red and blue light are 0.5 m and 0.484 m. The dispersive power of the lens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.984",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.032",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.484",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.434",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q147",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Two thin convex lenses of focal length 20 cm and 5 cm are placed 10 cm apart. The power of the combination of lenses is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "15 D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25 D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q148",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The refractive index of the material of a equilateral prism for yellow light is 1.5. Angle of minimum deviation of the prism for yellow light is (sin 49° = 0.75)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "38°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "52°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q149",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The resolving power of an electron microscope is R, when accelerating potential is V. If accelerating potential is increased by 3 V, then its new resolving power is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q150",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "If 1, 2 and 3 are critical angle of glass-air interface for red, violet and yellow colour, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 > 2 > 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 > 2 > 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 = 2 = 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 > 3 > 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q151",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A concave and convex lens have the same focal length of 20 cm and are put into contact to form a lens combination. The combination is used to view an object of 5 cm length kept at 20 cm from the lens combination. As compared to the object, the image will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Of same size as the object and erect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Of same size as the object but inverted",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnified and inverted",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reduced and erect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q152",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A concave lens of glass of refractive index 1.5 has both surfaces of the same radius of curvature R. On immersion in a medium of refractive index",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q153",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Two convex lenses of focal lengths f1 and f2 are separated co-axially by a distance d. The power of the combination will be zero, if d equals to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 2 f f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "f1 + f2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2 2 f f ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 2 f f ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q154",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "In case of refraction through a glass slab if i is very small, the lateral shift is (t is the thickness, u is the refractive index)  1 1 t i        ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "1 1 t i        ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "1 2 t i        ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2 t i        ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q155",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A plane mirror is moving with velocity  ˆ ˆ ˆ 4 5 8 i j k   .  A point object in front of the mirror moves with a  velocity  ˆ ˆ ˆ 3 4 5 i j k   , here ˆk is along the normal  to the plane mirror and facing towards the object. The velocity of the image is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ˆ ˆ ˆ 3 4 5 i j k   ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ˆ ˆ ˆ 7 9 11 i j k  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ˆ ˆ ˆ 3 4 11 i j k  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ˆ ˆ ˆ 3 4 11 i j k   ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q156",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A candle is held 3 cm away from a concave mirror of focal length 12 cm, then nature of image formed by mirror is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Real, inverted",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Virtual, erect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Real, erected",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Virtual, inverted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q157",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Each lens magnifies the image three times of object, then total magnification given by three lens combination w.r.t. individual lenses is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "27",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "81",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q158",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A diverging lens of focal length 20 cm and a converging mirror of focal length 10 cm are placed 5 cm apart coaxially. Where should an object be placed so that object and its real image coincide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 cm away from lens",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 cm away from lens",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 cm away from lens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "45 cm away from lens",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q159",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A, B and C are three optical media of respective critical angles iA, iB and iC. Total internal reflection of light can occur from A to B and also from B to C but not from C to A, then the correct relation between critical angles is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "iA < iB < iC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "iA > iB > iC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "iA = iB = iC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "iC > iA > iB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q160",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "The angle of prism for which there is no emergent ray will be (ic = critical angle)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2ic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "> ic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "< ic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "> 2ic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q161",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An object and a screen are fixed at a distance d apart. When a lens of focal length f is moved between the object and the screen, sharp images of the object are formed on the screen for two positions of the lens. The magnifications produced at these two positions are M1 and M2 then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "|M1| = |M2| = 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "d > 4f  1  M M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q162",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A virtual image of an object is formed by a concave lens. The lens is then coupled (kept in contact) with a convex lens. A virtual image is again formed. Then the image, now",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Shifts away from lens system",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Shifts towards lens system",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains at its original position",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Data insufficient to predict whether it will shift  towards or away from lens system.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q163",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A compound microscope has two convex lens system with focal lengths 2 cm and 5 cm. An object is 2.5 cm away from the objective lens. The tube length of microscope when magnification is maximum is equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "18.2 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "14.2 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8.2 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.2 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q164",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A particle is thrown at an angle  –1 3 sin 5        in  air as shown in the figure. The angle received from  4 3        .  the inside water is  water     = 4  3",
+    "question_diagram": "/images/last_leap_part1/p87_q164.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "15°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "45°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q165",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A ray of light is incident grazing on an equilateral prism of refractive index = 2. The angle of emergence is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30º",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60º",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "75º",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90º",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q166",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A point source of light is emitting light in vertically upward direction and the container is filled with a  liquid of refractive index  2 . If it starts accelerating along x-axis with acceleration  g a  , then the light coming out of liquid is  3  deviated by  2   S Source of light",
+    "question_diagram": "/images/last_leap_part1/p88_q166.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5º",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10º",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15º",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20º",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q167",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "A compound microscope has an objective lens with a focal length of 1.5 cm and an eye piece of focal length 5 cm. It is focussed on an object which is at a distance of 1.8 cm. The length of the microscope for normal adjustment is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "14 cm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 cm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "19 cm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9.5 cm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q168",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "An astronomical telescope has objective and ocular of focal length 100 cm and 1 cm respectively. Minimum magnifying power of the telescope is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "96",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "48",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secA_q169",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section A (Objective)",
+    "question_text": "Number of fringes in the field of view of YDSE is 30 in air. If the experiment is performed in water 4 3       , then number of fringes in the field of  view will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "60",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q1",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A convex lens made up of glass can never  form a virtual, erect and diminished image.\nReason (R): Convex lens can give only virtual enlarged  image when an object in placed between focus and pole of the mirror.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q2",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When a convex mirror is immersed in water,  its focal length increases.\nReason (R): The focal length of a mirror is inversely  proportional to the refractive index of the medium.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q3",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A beam of white light passing through a thin  hollow prism does not give spectrum.\nReason (R): The speed of light inside and outside the prism  is same.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q4",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When white light incident on a prism it will  disperse.\nReason (R): The refractive index of a medium depends on  wavelength of light.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q5",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The focal length of a convex mirror is always  taken as positive.\nReason (R): A real image of a real object cannot be  obtained with a convex mirror.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q6",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The nature of image of an object depends on  the size of mirror.\nReason (R): It is not possible to obtain real image by a  plane mirror.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q7",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A convex lens may be diverging.\nReason (R): Nature of a lens depends upon refractive index  of the lens and that of the surrounding medium.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q8",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The air bubble shines in water.\nReason (R): Air bubble in water shines due to refraction of  light.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q9",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A convex mirror is used as a rear view mirror.\nReason (R): Convex mirror always forms virtual, erect and  diminished image for real objects.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q10",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When a convex glass lens is dipped in water,  its focal length increases.\nReason (R): When the lens is dipped in water, its light  bending capacity increases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_05_ray_optics_and_optical_instruments_secB_q11",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Number of images of an object held between  two plane mirrors perpendicular to each other is 3.  360  , where  is the\nReason (R): Number of images =   angle between the mirrors in degree.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  }
+]

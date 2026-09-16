@@ -1,0 +1,3994 @@
+[
+  {
+    "question_id": "phy_03_semiconductors_secA_q1",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In an intrinsic semiconductor the intrinsic carrier concentration is 2 × 1019/m3. On doping with “B” the hole concentration becomes 4 × 1022/m3. Then the electron concentration in the doped semiconductor is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1016/m3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 × 1016/m3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 × 1016/m3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 × 1019/m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q2",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following diode is used in forward bias?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LED",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zener diode",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Photodiode",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q3",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "For a transistor, the current amplification factor is 0.9. The transistor is connected in common emitter configuration. The change in collector current when the base current changes by 6 mA is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5.4 mA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "54 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6.62 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q4",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "A and B are the inputs for the given logic gate. The output Y will be  A  Y A  0 1 2 3 4 5 6  B  B  0 1 2 3 4 5 6",
+    "question_diagram": "/images/last_leap_part1/p55_q4.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 1 2 3 4 5 6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 1 2 3 4 5 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 1 2 3 4 5 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 1 2 3 4 5 6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q5",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In the circuit given below, if VCE is 5 V and R = 4 × 105 , then current gain is (Neglect VBE)  R 2 k  10 V  B  VCE E",
+    "question_diagram": "/images/last_leap_part1/p55_q5.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "97",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "98",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "99",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q6",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In an unbiased p-n junction diode",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "p type side is at higher potential than n type  side",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "p type side is at lower potential than n type  side",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electric field is directed from n side to p side",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q7",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Zener break down takes place, if",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Doped impurity concentration is low",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Doped impurity concentration is high",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less impurity in N part",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Less impurity in P part",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q8",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "A potential barrier of 0.4 V exists across a p-n junction. A constant electric field of magnitude 106  V/m exists in the depletion region. The width of depletion region is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 × 10–7 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 × 10–7 m",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 × 10–5 m",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q9",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is universal gate?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AND gate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NOT gate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OR gate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NAND gate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q10",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "2% electrons are recombined in the base region in a npn-transistor. If the transistor is used in CE-configuration, then the current gain for the transistor will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "98",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "49",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q11",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Name the logic gate shown below  A  C  B",
+    "question_diagram": "/images/last_leap_part1/p56_q11.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "NOR-gate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NAND-gate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AND-gate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OR-gate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q12",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "A zener diode is shown in the following circuit diagram. When the source voltage fluctuates such that V > VZ then  I1  I3 Source  V  I2  VZ",
+    "question_diagram": "/images/last_leap_part1/p56_q12.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "All the currents I1, I2 and I3 change",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only I1, I2 change and I3 remains constant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only I1, I3 change and I2 remains constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All the currents remain constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q13",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "When emitter current increases by 10 mA, the base current increases by 0.4 mA. The value of voltage gain in common emitter configuration of amplifier will be (output and input resistance ratio is 50)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1200",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "180",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "120",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q14",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "A photodetector is made of a compound semiconductor with the band gap of 2.0 eV. The maximum wavelength of the incident radiation that can be detected is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6200 Å",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7200 Å",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8000 Å",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12000 Å",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q15",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Transistor with CE configuration can be used as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AND gate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OR gate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NOR gate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NOT gate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q16",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "If the current gain in the transistor is 50, then the VCE is equal to  VCC 10 V  245 k 2 k 40 A ",
+    "question_diagram": "/images/last_leap_part1/p56_q16.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q17",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In P–n–P transistor the collector current is 8 mA. If 80% of holes emitted reach the collector, the emitter current will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9 mA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q18",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In the Boolean algebra ( . ) A B A equals to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A B ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "· A B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A + B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q19",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The net charge on p-type semiconductor and n- type semiconductor is respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Positive, negative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negative, positive",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Positive, positive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero, zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q20",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The drift current in a pn junction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Directly proportional to the bias voltage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inversely proportional to the bias voltage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nearly independent of the bias voltage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Directly proportional to the square of bias  voltage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q21",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following condition, diffusion current in p-n junction is more than drift current?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Forward biasing",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reverse biasing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No biasing",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q22",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The drift current in p-n junction diode is due to flow of electron from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "p side to n side",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n side to p side",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Depletion region to p side",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q23",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "What is the reading of ideal ammeter A1 and A2 connected in the given circuit diagram, if p-n junction diodes are ideal?  A2  6   D2  A1  5   D1  + –  3  18 V",
+    "question_diagram": "/images/last_leap_part1/p57_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2 A and zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 A and 2 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 A and 3 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero and 2 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q24",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following region of transistors has the least impurity?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Emitter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Base",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Collector",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q25",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "If in a reverse biased p-n junction, increase in carrier concentration takes place due to creation of new hole-electron pair by light of wavelength less than or equal to 620 nm, then the band gap is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 eV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 eV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 eV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.2 eV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q26",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The mobility of hole in a semiconductor depends on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electric field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Potential difference",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Current",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mass",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q27",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graphs may correctly represent the variation of current (I ) with potential difference (V) across a zener diode?",
+    "question_diagram": "/images/last_leap_part1/p57_q27.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I  I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q28",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "A n-p-n transistor operates in a common emitter mode as shown. Given that IC = 4 mA, VCE = 4 V, VBE = 0.6 V and dc = 100. The value of RL is  IC  IB  RL  RB  C  8V  B  IE  E",
+    "question_diagram": "/images/last_leap_part1/p57_q28.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 k",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 k",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 k",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 k",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q29",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect about LED?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It require low operational voltage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It has fast on off switching capability",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The band width of emitted light is 100 Å to  10000 Å",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It does not require warm-up time",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q30",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The variation of output potential V0 with input potential (Vi) in a transistor in CE-mode can be best represented as  V0  V0",
+    "question_diagram": "/images/last_leap_part1/p57_q30.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vi  Vi  V0  V0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vi  Vi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q31",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The current gain of NPN transistor amplifier in common emitter configuration is 200. If the collector current changes by 2 mA, then the change in emitter current is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.01 mA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.01 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.01 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q32",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In the combination of logic gates shown in the circuit. If A is at 0 V and B is at 5 V, then the potential of R is  R  A  B",
+    "question_diagram": "/images/last_leap_part1/p58_q32.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q33",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "How many minimum number of NOR gates are required to obtain AND gate?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Five",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q34",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The circuit shown below is an electrical analogue for which of the following logic gates?  Key",
+    "question_diagram": "/images/last_leap_part1/p58_q34.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "AND gate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OR gate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NOT gate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NOR gate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q35",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "When a battery is connected across a pn- junction, which of the following remains almost unchanged?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diffusion current",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Drift current",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Net current",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any of these depending as the type of  biasing",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q36",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Five diodes and three resistors are connected along with a cell of emf 1.5 V and internal resistance 0.1  as shown. The current drawn from the cell is (diodes are ideal).",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q37",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "What is the equivalent resistance across the terminals of the battery, if the diodes are ideal?  10   + – 10   10 ",
+    "question_diagram": "/images/last_leap_part1/p58_q37.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": " 3 10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q38",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In an amplifier an npn-transistor is used in common-emitter mode. If  =25, then what will be the collector current if emitter current is 13 mA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "13.5 mA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12.5 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "11 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10.5 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q39",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "If p-n junction is reverse biased, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diffusion current decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Drift current almost remains unchanged",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Net current flows from n-side to p-side",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of the above are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q40",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "What is the name of the logic gate represented by the following symbol?  X A B",
+    "question_diagram": "/images/last_leap_part1/p58_q40.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "NOR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NAND",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "AND",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q41",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "What is the potential difference across the resistor shown in the following circuit diagram if the diode is ideal?  10 V 15   5V",
+    "question_diagram": "/images/last_leap_part1/p59_q41.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "15 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q42",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the logic gate which follows the following input-output waveform  t1 t2 t3 t4 t5 t6  (A) Input  (B)  Y (output)",
+    "question_diagram": "/images/last_leap_part1/p59_q42.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "OR gate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AND gate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NOT gate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XOR gate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q43",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "If Re, Rb, Rc is the resistance of emitter, base and collector region of a NPN transistor then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Re < Rb < Rc",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Re < Rc < Rb",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rc < Re < Rb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rb < Rc < Re",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q44",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Assuming the diodes having forward resistance zero, the current I in the following circuit is  2 k  E = 20 V",
+    "question_diagram": "/images/last_leap_part1/p59_q44.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9.65 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10.35 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q45",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The combination of gates shown in diagram is equivalent to  A  B",
+    "question_diagram": "/images/last_leap_part1/p59_q45.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "OR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AND",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NAND",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XOR",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q46",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "For the logic circuit given below, the output Y for A = 0, B = 0 and A = 1, B = 1 are  A  Y  B",
+    "question_diagram": "/images/last_leap_part1/p59_q46.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 and 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 and 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 and 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 and 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q47",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "If the emitter current in a common emitter mode of a transistor is 5.1 mA, then the collector current will be (given current amplification is 50)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 mA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q48",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "A photocell is illuminated by a point source of radiation 4 m away. If same source is kept at 8 m away, then the number of photoelectrons emitted",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Becomes four times the initial value",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Becomes one-fourth of initial value",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains unchanged",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Becomes half of the initial value",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q49",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct Boolean expression for the network shown?  y A  B",
+    "question_diagram": "/images/last_leap_part1/p59_q49.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "y AB ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "y AB ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "y A B  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "y A B  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q50",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Two ideal diodes are connected with a battery as shown. If 5 A current is drawn from the battery, then the value of emf of the battery is  6   5 A  9  9   E",
+    "question_diagram": "/images/last_leap_part1/p60_q50.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "45 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "75 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "25 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q51",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "A Zener diode is used to obtain a constant voltage. If applied voltage V changes, then (V is more than Zener voltage)  i2 i1  i3 V  V0 RL",
+    "question_diagram": "/images/last_leap_part1/p60_q51.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "i1 and i2 change",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "i2 and v0 change and i3 is constant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "i2 and v0 don’t change while i3 changes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "i3 and v0 don’t change while i2 changes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q52",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "A transistor circuit in common emitter configuration is shown. The current gain is 100. If VBE  0, then VCE is given by  1 k  250 k  10 V C  E B",
+    "question_diagram": "/images/last_leap_part1/p60_q52.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q53",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The order of thickness of depletion layer in PN junction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 m",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 nm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 pm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q54",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following represents analog circuit diagram for OR gate?  S1 S2 B",
+    "question_diagram": "/images/last_leap_part1/p60_q54.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "V  B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "V S  S1  S2  B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "V  S1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S2 B  V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q55",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "When transistor is operating in common base arrangement, the alternating current gain is found to be 0.98. What is the change in base current, if emitter current is changed by 5.0 mA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10– 3 A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10– 4 A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10– 5 A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10– 6 A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q56",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The breakdown of PN junction which is reversible is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dielectric breakdown",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Avalanche breakdown",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zener breakdown",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q57",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The input A and B and output (y) of the following logic gate can be expressed as  A B  y",
+    "question_diagram": "/images/last_leap_part1/p60_q57.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "· · AB AB ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "· · AB AB ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A + B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A B ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q58",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pn junction is used unbiased?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Photo diode",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "LED",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zener diode",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Solar cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q59",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct about transistor in active region?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Base-emitter junction in forward biased",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Base-collector junction in reverse biased",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Emitter is heavily doped",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q60",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In the given circuit power developed in 2 k resistor is  1 k  +  2 k  20 V–  12 V",
+    "question_diagram": "/images/last_leap_part1/p61_q60.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "36 mW",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 mW",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "144 mW",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "72 mW",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q61",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The output Y of the logic gate circuit shown in figure is best represented as  A  Y  B",
+    "question_diagram": "/images/last_leap_part1/p61_q61.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "( · )  A A B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "( · )  A A B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A + (A·B)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "( · )  A A B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q62",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The conductivity of an n-type semiconductor whose Density of conduction electrons is ne, Density of holes is nh, Mobility of conduction electrons is e and Mobility of holes is h, will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "e[neh + nee]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "e[nee + nhe]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ene[e + h]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "e[nee + nhh]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q63",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The current gain  of a transistor in a common base arrangement is 0.98. Ratio of change in collector current (iC) to change in base current (iB), corresponding to a change of 5.0 mA in emitter current is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "49",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q64",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The source voltage and source resistance are 9 V and 1000  respectively. The current through a silicon diode connected to the source is (Given that knee voltage of Si = 0.7 V)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3.8 mA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.5 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8.3 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5.4 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q65",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "If E1, E2 and E3 are the band gap of silicon, germanium and carbon respectively then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E1 > E2 > E3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E1 < E2 < E3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E1 = E2 < E3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E2 < E1 < E3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q66",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Two ideal diodes are used in the circuit shown. If the voltage drop across R1 is 1.3 V, and that across R2 is V, then  R1  R2  E",
+    "question_diagram": "/images/last_leap_part1/p61_q66.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "E = 2 V, V = 1.3 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E = 1.3 V, V = 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E = 2 V, V = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "E = 2.3 V, V = 1.7 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q67",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The following configuration of logic gate is equivalent to  A B",
+    "question_diagram": "/images/last_leap_part1/p61_q67.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "NAND gate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "XOR gate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OR gate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NOR gate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q68",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Which symbol of the following p-n junctions is used for voltage stabilisation?",
+    "question_diagram": "/images/last_leap_part1/p61_q68.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q69",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "An n-p-n transistor having a.c. current gain of 50 is to be used to make an amplifier of voltage gain 6. What will be power gain of the amplifier?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "300",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "600",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "750",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "400",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q70",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The output Y, in the network shown, when all the three inputs are first high and then low, will respectively be  A  B C  Y",
+    "question_diagram": "/images/last_leap_part1/p62_q70.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0, 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1, 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1, 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0, 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q71",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The I-V characteristics of a p-n junction diode is shown. If R1 and R2 be the dynamic resistance of the p-n junction when (i) a forward bias of 1 volt is applied and (ii) a forward bias of 2 volt is  R R ?  applied respectively, then  1  2  I (mA)  400 800  10 15  2 2.1  1 1.2 V (volt)",
+    "question_diagram": "/images/last_leap_part1/p62_q71.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "160",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.16",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q72",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Current I1 through the Zener diode shown in the circuit is  10 k  I  R1  10 V  I1 I2  R2  10 k  VZ = 2 V",
+    "question_diagram": "/images/last_leap_part1/p62_q72.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.6 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.2 mA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.8 mA  2 3 of the total current is due",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q73",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In a semiconductor   to flow of electrons. If drift velocity of electrons is  3 2 times that of holes, then the ratio of  concentration of electrons and holes is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 : 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 : 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q74",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Current gain of a transistor is 0.99. If it is used in common emitter mode to form a transistor amplifier with input resistance 1 k and load resistance 10 k, then the voltage gain of the amplifier is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "99",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.99",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9.9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "990",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q75",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Current in the circuit shown, will be (If diodes are ideal)  20   30   20   10 V",
+    "question_diagram": "/images/last_leap_part1/p62_q75.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1 A 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 A 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "25 A 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 A 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q76",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The forward biased diode is  – 4 V – 3 V",
+    "question_diagram": "/images/last_leap_part1/p62_q76.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 3 V + 5 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 V – 2 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 2V + 2 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q77",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "When a diode is heavily doped the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zener voltage will be low",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Avalanche voltage will be high",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Depletion region will be thin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leakage current will be low",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q78",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The logic behind NOR gate is that which gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High output when both inputs are high",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Low output when both inputs are low",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High output when both inputs are low",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Low output when both inputs are same",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q79",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "An amplifier has a voltage gain AV = 1000. The voltage gain in dB is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30 dB",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 dB",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 dB",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 dB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q80",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The energy gap of silicon is 1.14 eV. The maximum wavelength at which silicon will begin absorbing energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10.888 Å",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "108.88 Å",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10888 Å",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1088 Å",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q81",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The output of OR gate is 1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only if both inputs are zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If either or both inputs are 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only if both inputs are 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If any input is zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q82",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In case of current gains  and  of a transistor,",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "= ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "= 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "< 1, > 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "> 1, < 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q83",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The voltage gain of the amplifier is  1000 k  1 k  – +  V  10 k  V0",
+    "question_diagram": "/images/last_leap_part1/p63_q83.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1000",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9.9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q84",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Identical operation performed by given circuit is that due to  A  Y  B",
+    "question_diagram": "/images/last_leap_part1/p63_q84.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "AND gate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OR gate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NOT gate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NAND gate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q85",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The output current in half wave rectifier is (where I0 is the peak current)  0 2I ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "0I ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "0 2 I  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 2 I ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q86",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In an NPN transistor, 108 electrons enter the emitter in 10–8 s. If 1% electrons are lost in the base, the fraction of current that enters the collector and the current amplification factor are, respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.7 and 50",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.9 and 90",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.8 and 49",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.99 and 99",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q87",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In the middle of depletion layer of a reverse biased PN junction, the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Potential is zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electric field is zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential is maximum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electric field is maximum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q88",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "When a transistor is used in common emitter mode as an amplifier",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Base-emitter junction is forward biased",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Base-emitter junction is reverse biased",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Base-collector junction is forward biased",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Input is connected in series with voltage  applied across base-collector junction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q89",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The output of a NAND gate is 0, when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Both inputs are 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "One input is 0 and the other is 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both inputs are 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q90",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The resistance of a germanium junction diode whose V - I graph for small range as shown in the figure is  I  100 A ",
+    "question_diagram": "/images/last_leap_part1/p63_q90.png",
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q91",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In the circuit shown, I1 and I2 are respectively (If diodes are ideal)  2 k I2  10 V 14 k 12 k  I1",
+    "question_diagram": "/images/last_leap_part1/p64_q91.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0, 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 mA, 5 mA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 mA, 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0, 5 mA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q92",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Input applied to the following circuit will produce which of the following output signal, (assuming R1 = R2 and diodes are ideal)  R1  Vin  5 V  R2 V0 0 t 2t 3t 4t +  –  – 5 V  5 V",
+    "question_diagram": "/images/last_leap_part1/p64_q92.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0 t 2t 3t 4t  0 t 2t 3t 4t",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 5 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q93",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The output of the given circuit is  y A B",
+    "question_diagram": "/images/last_leap_part1/p64_q93.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A B ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AB",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "( ) A B B  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(AB) + A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q94",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Out of the following PN junction diodes, which one is forward biased?",
+    "question_diagram": "/images/last_leap_part1/p64_q94.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "–20 V  –15 V –20 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–10 V –5 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q95",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In a silicon transistor the base current is changed by 25 μA. This results in a change of",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q96",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The circuit given below is equivalent to  x  z  y",
+    "question_diagram": "/images/last_leap_part1/p64_q96.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "NOT gate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OR gate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AND gate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XOR gate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q97",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "In the following circuit, the output Y becomes 0 for the inputs  A  Y  B",
+    "question_diagram": "/images/last_leap_part1/p64_q97.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A = 1, B = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A = 0, B = 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A = 1, B = 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A = 0, B = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q98",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent resistance of the circuit between A and B is, if VA < VB  4   1   5   A B",
+    "question_diagram": "/images/last_leap_part1/p64_q98.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.2 ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q99",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Correct statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "When the applied voltage across zener diode  is less than zener voltage, diode will conduct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Avalanche breakdown occurs in forward bias",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In a semiconductor diode the barrier potential  offers opposition to only majority carrier in both regions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The lowest occupied energy level at the  absolute zero of temperature is called fermi level",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q100",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The LED",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is reverse biased",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is forward biased",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Can be made of GaAs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q101",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "Four amplifier each with a voltage gain 10 are connected in series, then overall amplification is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10  4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "14",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10000",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secA_q102",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section A (Objective)",
+    "question_text": "The voltage gain of the following amplifier is  10 k  1 k  –  +  10 k V0  Vi",
+    "question_diagram": "/images/last_leap_part1/p65_q102.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1000",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9.9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q1",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The transistor amplifier in a common emitter  configuration has high output impedance.\nReason (R): The base collector junction is reverse biased.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q2",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When a pure semiconducting material is doped  by pentavalent impurity, the density of holes remains unchanged.\nReason (R): When a pure semiconducting material is doped  by a pentavalent impurity, it becomes negatively charged.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q3",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): CE amplifier can be used as inverter  (NOTgate).\nReason (R): The phase difference between input and output  signal is 180° in CE amplifier.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q4",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The transistor in common emitter configuration  is preferred over common base configuration.\nReason (R): The output signal is in the same phase as  input signal in common base configuration.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q5",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In a reverse biased pn junction, drift current  is more than diffusion current.\nReason (R): The drift current increases in pn junction  diode with external electric field.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q6",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In a transistor the base region is thin and  highly doped.\nReason (R): In a transistor collector region is least doped.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q7",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Power gain in CE amplifier is maximum.\nReason (R): CE amplifier converts dc to ac.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q8",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Silicon is preferred over germanium for  making semiconductor devices.\nReason (R): The forbidden energy gap for germanium is  more than the energy gap of silicon.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q9",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A transistor amplifier in common emitter  configuration has a low input resistance.\nReason (R): The base to emitter region is forward biased.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q10",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): NAND gates are called digital building blocks.\nReason (R): Repetitive use of NAND gate can produce all  the basic gates.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q11",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): XOR gates are called building blocks of digital  electronics.\nReason (R): All the basic gates can be made using only  XOR gates",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q12",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The output is 180° out of phase w.r.t. input in  common base configuration of a transistor.\nReason (R): The ouput is in phase with the input in  common emitter configuration of a transistor.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "phy_03_semiconductors_secB_q13",
+    "subject": "Physics",
+    "chapter": "Semiconductors",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A transistor in amplifier common emitter mode  is preferred over common base mode.\nReason (R): The current gain in common base circuit is  always less than one.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  }
+]

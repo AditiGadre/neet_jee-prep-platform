@@ -1,0 +1,4730 @@
+[
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q1",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "A foreign DNA is inserted within the coding sequence of an enzyme  galactosidase used as selective marker will distinguish recombinants from non-recombinants. This results into following except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inactivation of enzyme",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Colonies produce no colour",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insertional inactivation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Activation of enzyme which gives blue colour",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q2",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "DNA fragments can be separated by a technique called agarose gel electrophoresis developed by A.Tiselius in 1937. This separation is based upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Size",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Density",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q3",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bam HI restriction site is present in tetracycline  resistant part of pBR-322",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Separated DNA fragments can be visualised  only after staining the DNA with a compound known as ethidium bromide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Agrobacterium tumefaciens is considered as  natural genetic engineer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In the gel electrophoresis DNA fragments  resolve according to base sequence",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q4",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The separation and purification of the recombinant products is collectively called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Upstreaming",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Downstreaming",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electroporation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transformation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q5",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Following are vectorless gene transfer except one. Mark the except one",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Micro injection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electroporation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cosmid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Biolistic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q6",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Selection of recombinants is based on all except one. Find out the exception",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Expression and non-expression of genes  encoding for tetracycline resistant compound",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Expression and non-expression of genes  encoding for insulin resistant compound",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Expression and non-expression of genes  encoding for ampicillin resistant compound",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Insertional inactivation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q7",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Restriction endonuclease are known as molecular scissor in genetic engineering. These have been obtained from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acellular eukaryotes and viruses",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Yeast cells, virus and bacteria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mostly from viruses and some from bacteria  also",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bacterial cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q8",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "If pBR322 is used as a vector and Pvu-I or Pst-I is used as the molecular scissor. The resultant recombinant host cell will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Having inactivation of tetR gene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unable to grow in the presence of tetracycline",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Unable to grow in the presence of ampicillin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q9",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a direct method of gene transfer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chemical mediated gene transfer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electroporation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Microinjection",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bacteriophages",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q10",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "When a recombinant DNA is inserted within the coding sequence of an enzyme -galactosidase. This results into following except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insertional inactivation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Recombinant colonies do not produce any  colour",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inactivation of enzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chromogenic substrate is converted into  product by recombinant colonies",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q11",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is considered as molecular glue in recombinant DNA technology?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Endonuclease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DNA ligase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polymerase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alkaline phosphatase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q12",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Genetically modified food or GM foods could lead to which of the following problems when they are consumed?  a. The transgene product may cause toxicity and/ or produce allergies  b. The enzyme produced by antibiotic resistant gene could cause allergies since it is a foreign protein  c. The bacteria present in the alimentary canal of the humans could take up the antibiotic resistant gene that is present in GM food  d. The GM soyabean is less nutritious as compared to organic one",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b, c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q13",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a direct method of gene transfer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plasmid vector",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cosmid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ti-plasmid based vector",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chemical mediated genetic transformation in  which certain chemical like polyethylene glycol help in uptake of foreign DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q14",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Agarose – Gel electrophoresis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethidium bromide – Stained DNA can be  seen in visible light",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chilled ethanol – Precipitates DNA for  spooling",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chitinase – Disrupts fungal cell wall",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q15",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following carries a natural plasmid that can most effectively and exclusively be used in transforming plant cell only?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Meloidogyne incognita",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bacillus thuringiensis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Agrobacterium tumefaciens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Escherichia coli",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q16",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzymes exist in many bacteria where they function as a part of their defense mechanism called the restriction- modification system?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Restriction enzymes and DNA ligases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Restriction enzymes and DNA polymerase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Restriction enzymes and methylases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Restriction enzymes and alkaline phosphatase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q17",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Three main classes of restriction endonucleases are discovered, each distinguished by a slightly different mode of action. Which type of restriction enzymes are used in recombinant DNA technology?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Type-I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Type-II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Type-III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Type-II and III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q18",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "A type-II restriction enzyme SmaI, recognizes the 6-nucleotide palindromic sequence and cuts both DNA strands at the positions indicated by the two       3 5  GGG    CCC  arrows,       5 3  CCC GGG    producing",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sticky ends",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Blunt/Flush ends",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Staggered ends",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cohesive ends",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q19",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The gene library which represents only those genes that are being expressed by a particular cell or under a specific condition is called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gene library",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Genomic library",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c-DNA library",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q20",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "A relatively small sequence of DNA tagged with radioactive isotopes that is used to detect and locate its complementary sequence in hybridisation experiments, is called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DNA probe",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c-DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Recombinant DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q21",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "A plasmid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cannot replicate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is autonomously replicating circular extra  chromosomal DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Shows dependent assortment",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is able to integrate with the host chromosome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q22",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Kary Mullis, discovered",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Restriction endonuclease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PCR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Genetic engineering",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DNA finger printing",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q23",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The vector used to transfer gene to produce pest resistant tobacco plant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "pBR 322",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "pUC 18",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ti plasmid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": " phage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q24",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "A chimaeric DNA is formed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Deleting selectable markers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Joining c-DNA with plasmid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "EcoRI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enzyme -galactosidase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q25",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "DNA can be introduced into any cell by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Injection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Being complexed with calcium salts",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Being placed along with the cell into a gene  gun",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gel electrophoresis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q26",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Noble prize of 1978 for restriction endonuclease technology was given to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Milstein and Kohler",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arber, Nathans and Smith",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Holley, Khorana and Nirenberg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Karry Mullis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q27",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "In gel electrophoresis, the differential mobility of DNA depends on _________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Helical nature of DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Double stranded nature of DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Charge and size of DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydrogen bonding between bases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q28",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Select the DNA sequences which would act as a restriction site",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AACCGG",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GGTTGG  TTGGCC CCAACC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AAGGCT",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CTGCAG  TTCCGA GACGTC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q29",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following restriction enzyme is present with rop site of pBR322?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pst-I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pvu-I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pvu-II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BamH-I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q30",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct about the Agrobacterium tumefaciens?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacteria has tumor inducing plasmid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bacteria infects all broad leaved agricultural  crops",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Modified bacteria infects monocot plant only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q31",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzyme is not used to isolate the DNA during r-DNA technology?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ribonuclease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Deoxyribonuclease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chitinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q32",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is not a critical research area of biotechnology?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Providing the best catalyst",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Creating optimal condition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Downstream processing technologies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Methylation of cytosine base of DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q33",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "A transgene expression can achieve which of the following?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prevent expression of a native gene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Modify and existing biosynthetic pathway",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Produces a protein that itself produces the  phenotype of interest, or is the product of interest",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 227,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q34",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In gel electrophoresis, the undigested DNA  fragment is likely to move through least distance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Any piece of DNA when linked to ori site  sequence can be made to replicate within host cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Restriction endonuclease break the bond  between pentose sugar and nitrogenous base in DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bt cotton is pest resistant variety of cotton  developed by genetic engineering",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 228,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q35",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "If the bacteria having insert in the plasmid at -gal site is grown on a medium having chromogenic substance, this will result in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Blue colour will change to pink",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "No blue colour will appear",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Blue colour can be observed in medium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Colour will change but only after sometime",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 228,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q36",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the restriction endonuclease enzyme amongst the following which is active at the given  5 3 GAATTC  palindromic sequence of   3 5 CTTAAG ",
+    "question_diagram": "/images/last_leap_part1/p228_q36.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Eco RI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bam HI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hind II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sma I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 228,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q37",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The figure below is a diagrammatic representation of the E.coli vector pBR322, which one of the given option includes wrongly labelled components w.r.t. site of restriction endonuclease enzymes?  Hind III Cla I EcoR I  Pvu I  BamHI Pst I  R amp  R  tet  Sal I  pBR322  rop ori  Pvu II",
+    "question_diagram": "/images/last_leap_part1/p228_q37.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "BamH I and Pst I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pst I and Pvu I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pvu I and Pvu II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "EcoR I and Sal I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 228,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q38",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Disarmed Retroviruses –Deliver  desirable genes into animal cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Biolistics –Vectrorless  gene transfer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Natural genetic –Agrobacterium engineer tumefaciens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Insertional inactivation –Blue colonies of -galactosidase indicate recombinants.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 228,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q39",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Following diagram represents polymerase chain reaction with steps labelled as A, B & C. Identify the correct description of steps mentioned.  Region to be amplified 5 3  3 5 ds DNA  A  5 3  5 3 3 5  B  3 5  5 3  3 5  C  5 3  5 3  30 cycles  Amplified ( 1 billion times) ",
+    "question_diagram": "/images/last_leap_part1/p228_q39.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A. Denaturation – Occurs at 40°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B. Annealing – Requires activity of Taq  polymerase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C. Extension – Requires ribonucleotides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A. Melting – Requires temperature  above 90°C.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 228,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q40",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct set of restriction enzymes having restriction sites in E. coli cloning vector pBR322.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eco R II, Hind III, Bam HI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pst I, Pvu II, Sal I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pvu I, Bam HI, Sma I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pvu II, Cla I, Hind II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 228,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q41",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Selective markers have been developed to distinguish the recombinant from non-recombinant on the basis of their ability to produce colour in the presence of chromogenic substrate like -gal.",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 228,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q42",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The processes which includes separation and purification of products are collectvely called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Upstreaming process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Downstreaming process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Quality control testing",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Clinical trial test",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q43",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Alien DNA is inserted in the coding sequence of an enzyme -galactosidase in artificial cloning vector, a plasmid. How will you select the recombinants in presence of chromogenic substrate?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If in the presence of chromogenic substrate the  colonies give blue colour then they are recombinants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If the colonies do not produce any colour then  they are recombinants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If the colonies do not produce any colour then  they are non-recombinants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q44",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following features cannot be associated with Ti plasmid of Agrobacterium tumefaciens which is modified into a cloning vector?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Able to deliver genes of our interest into a  variety of plants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Modified into cloning vector as it can transfer  a piece of T-DNA into the plant cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pathogenic to the plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ti plasmid of Agrobacterium is a natural genetic  engineer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q45",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is/are not indirect method/ s of gene transfer?  a. Bacteriophages  b. Plasmids  c. Mobile genetic elements (transposons)  d. Chemical mediated gene transfer  e. Electroporation  Options",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d & e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "c, d & e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q46",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Following enzymes/techniques are used in the process of recombinant DNA technology  a. EcoRI to cut the isolated genome  b. DNA ligase  c. Protease and ribonuclease for removal of proteins and RNA from DNA  d. Production of recombinant hosts  e. Lysozyme for isolation of the genetic material (DNA)  f. Gel electrophoresis for separation and isolation of DNA fragments  Mark the correct sequence of their use",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "c, e, b, f, a, d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "e, c, a, b, f, d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "e, c, a, f, b, d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, e, c, b, d, f",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q47",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect regarding the gel electrophoresis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNA fragments are negatively charged  molecules and they can be separated by forcing them to move towards cathode under an electric field",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DNA fragments separate according to their  sizes through sieving effect provided by agarose gel",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Smaller the fragment size, the farther it moves  on gel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The separated DNA fragments can be  visualised only after staining with ethidium bromide followed by exposure to UV radiations",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q48",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement w.r.t. a restriction endonuclease",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Functions by inspecting the length of a DNA  sequence, once it finds its specific recognition sequence, it will bind to DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It cuts each of the two strands of the double  helix at specific points in their sugar phosphate backbones",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Each restriction endonuclease recognises a  specific palindromic nucleotide sequence in the DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Restriction endonucleases are synthesized by  all prokaryotes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q49",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Following are the steps in the formation of recombinant DNA by action of a restriction endonuclease. Which one of the given option incorrectly identifies the steps, components labelled as A, B, C and D?  Vector DNA Foreign DNA  Step A :  Step D: Name the  enzyme used  Step B :  Step C  Recombinant DNA",
+    "question_diagram": "/images/last_leap_part1/p230_q49.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Exonuclease cuts the DNA between  bases G and A only when the sequence GAATTC is present in the DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B – Sticky ends are formed.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C – The DNA fragments join at sticky ends  by DNA ligase.",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D – Restriction enzyme Eco RI cuts the  strand of DNA a little away from centre of the palindromic sites, but between the same two bases on the opposite strands",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q50",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the first isolated restriction endonuclease enzyme",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "EcoR I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bam HI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hind II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "EcoR II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q51",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Two enzymes responsible for restricting the growth of bacteriophages in Escherichia coli were isolated. One was methylase and other was restriction endonuclease. What was the significance of methylase?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Able to cut the DNA of bacteriophage at  specific sites",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Able to remove the methyl group and hence  prevent the action of restriction endonuclease on host DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protection of host DNA from the action of  restriction endonuclease by adding methyl group to one or two bases usually within the sequence recognised by restriction enzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Able to ligate the two cohesive ends of DNA  molecule",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q52",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the restriction endonuclease which forms blunt or flush ends    G - A - A - T - T - C  C - T - T - A - A - G EcoRI",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "    C - G - A - T - C - G  G - C - T - A - G - C Pvu-I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "    C - C - C - G - G - G  G - G - G - C - C - C Sma-I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "    A - A - G - C - T - T  T - T - C - G - A - A Hind-III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q53",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "In case pBR-322 is used as cloning vector and its ampR gene has MCS, the host cells which are transformants as well as recombinants will grow on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only complete medium plate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only tetracycline medium plate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only ampicillin medium plate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "On both tetracycline and ampicillin plates",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q54",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "One of the following pairs is incorrect",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plasmid – Small piece of extra chromosomal DNA in bacteria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Interferon – An enzyme that interferes with DNA replication",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cosmid – A vector for carrying large DNA fragments (upto 45 Kbp) into host cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Myeloma – Cancerous cells of bone marrow",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q55",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Agrobacterium tumefaciens  a. Acts as natural genetic engineer  b. Carries ‘vir’ region which is essential for insertion of T-DNA into host cells  c. Has been used to transfer genes for ‘RNA interference’ in plants  Mark the correct statements",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b & c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q56",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect w.r.t. polymerase chain reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Repeated amplification is achieved by the use  of thermostable DNA polymerase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thermostable DNA polymerase is isolated from  a bacterium, Thermus aquaticus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Each cycle in PCR has three steps, first is  primer annealing, second is denaturation and third is extension of primers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In polymerase chain reaction, multiple copies  of gene of interest are synthesized in vitro using two sets of primers and enzyme DNA polymerase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q57",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following methods, micro-particles of gold or tungsten are used to transfer the foreign DNA molecules in the host cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electroporation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Direct DNA injection",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biolistic method",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Micro-injection method",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q58",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is used to clone DNA fragments of more than 1 mb size and has been exploited extensively in the human genome project?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cosmid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BAC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "YAC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "pBR-322",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q59",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Biolistic is suitable for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Constructing recombinant DNA by joining with  vectors",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DNA fingerprinting",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Disarming pathogen vector",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transformation of plant cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q60",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following processes cannot be considered a part of biotechnology?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Genetic engineering",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Manipulation of defective gene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Traditional hybridisation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Developing a DNA vaccine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q61",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Elution is a method applied for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Making the matrix during gel electrophoresis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Staining the bands of DNA after electrophoresis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cutting out the pieces of agarose gel and  extraction of DNA from gel pieces",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Joining the specific DNA with the cloning vector",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q62",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not true about pBR322 vector?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It was constructed by using DNA derived from  naturally occuring plasmids of E.coli",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It has two drug resistance genes, tetR and  ampR",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It was developed by Bolivar and Rodriguez",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Selectable markers present in it can  differentiate recombinants from non- recombinants on the basis of their inability to produce colour in the presence of chromogenic substrate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q63",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Direct visual selection method for the selection of recombinant host cells  on the basis of their inability to produce colour in the presence of chromogenic substrate can be applied if the vector used is a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Modified plasmid vector of E.coli",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Modified bacteriophage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Modified Agrobacterium tumefaciens plasmid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Disarmed retroviruse",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q64",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following vectors is/are used for cloning in eukaryotic organisms?  a. Plasmids  b. Bacteriophages  c. Ti plasmid of Agrobacterium tumefaciens  d. Disarmed retroviruses",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q65",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct w.r.t. BAC?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is circular in shape",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It has genes for replication of F-factor along  with a cloning site and selectable marker",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Its cloning capacity is 300-3500 Kbp",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q66",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The role of DNA ligase in the construction of a recombinant DNA molecule is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Formation of phosphodiester bond between  two DNA fragments",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Formation of hydrogen bonds between sticky  end of DNA fragments",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ligation of all purine and pyrimidine bases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q67",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is direct method of gene transfer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plasmid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electroporation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BAC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bacteriophage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q68",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "In genetic engineering, the antibiotics are used",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "As selectable markers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "To select healthy vectors",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "As sequences from where the replication  starts",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "To keep culture free of infection",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q69",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement w.r.t. the recombinant DNA technology?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The protein toxins encoded by genes cry I Ac  and cry II Ab control the cotton bollworms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PCR is more efficient and more expensive as  compared to gene cloning",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alkaline phosphatase can remove the  phosphate group from 5 end of DNA molecule leaving a free hydroxyl group",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DNA is negatively charged molecule so it  moves towards anode through the agarose gel matrix",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q70",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The purification of biotechnological product is done in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Upstream processing",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Downstream processing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thawing processing",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enzyme linked sorbent assay",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q71",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Select the DNA sequence which can act as a recognition site of a restriction endonuclease",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AA CC GG",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GG TT GG  TT GG CC CC AA CC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AA GG CT",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CT GC AG  TT CC GA GA CG TC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q72",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Introduction of plasmid into the host bacterium can be helped by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Treating the cells with specific concentration of  a divalent cation such as calcium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enzyme -galactosidase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cellulase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lysozyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q73",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a direct method of gene transfer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plasmid mediated",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cosmid mediated",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ti vector mediated",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chemical mediated genetic transformation in  which certain chemicals like polyethylene glycol help to uptake the foreign DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q74",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The figure below shows three steps (A, B, C) of polymersase chain reaction (PCR). Select the correct identification together with what it represents  Region to be amplified  3 5dsDNA A  5  3  B  5  3  5  3  C  5  3",
+    "question_diagram": "/images/last_leap_part1/p232_q74.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "B – Denaturation at a temperature of about  98°C separating the two DNA strands",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Denaturation at a temperature of about  60°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C – Extension in the presence of heat stable  DNA polymerase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – Annealing with two sets of primer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q75",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Ti plasmid of Agrobacterium tumefaciens when disarmed can be used to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Induce pest resistance in plants, by being  used as a vector",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduce tolerance to abiotic stresses in plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase demand of mineral in plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increase opine production in host plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q76",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following restriction endonucleases will cut the DNA leaving behind blunt ends?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bam HI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eco RI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pst I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sma I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q77",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Many of the vectors meant for use in eukaryotic cells are constructed such that they can exist in both the eukaryotic cells and E. coli. Such vectors are known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Shuttle vectors",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phagemid vectors",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BAC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "YAC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q78",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Who is father of Genetic engineering?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Paul Berg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alec Jefferys",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nathan and Smith",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Karl Ereky",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q79",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not correct about type II restriction endonucleases?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cut the DNA within specific recognition  sequence",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Recognise a specific palindromic nucleotide  sequence on the DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "May cut the strands of DNA a little away from  the centre of palindromic site",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Before the cutting action, the enzyme modifies  the DNA to be cut by methylation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q80",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Among the given cloning vectors maximum length of insert can be carried by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cosmids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M13",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plasmids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "YACs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q81",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The cutting of DNA by restriction endonucleases results in the formation of fragments of DNA which can be separated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polymerase chain reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Down streaming processing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insertional inactivation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gel electrophoresis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q82",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "One amongst the following will not be considered as a desired quality of cloning vector",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ability to replicate in host cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of unique restriction enzyme sites for  insertional cloning",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maximum amount of non-essential DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of selectable marker sites",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q83",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "By plating cells that contain recombinant pBR322 that was ligated with the help of Bam HI restriction endonuclease, it was found that the cells",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Had lost their ability to replicate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Were unable to survive in tetracycline rich  medium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Showed insertional inactivation of ampicillin  gene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Had lost their ability to synthesise  -galactosidase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q84",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The letter ‘R’ in the name of restriction endonuclease;  ECoRI, denotes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Genus of source",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Species of source",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Strain of source",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Order of discovery of source",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q85",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Hamilton Smith and his co-workers first isolated a restriction enzyme Hind II from bacterium. The bacterium was",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Escherichia coli",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thermus aquaticus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Salmonella typhimurium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Haemophilus influenzae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q86",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Method of gene transfer that involves use of electrical impulses of high field strength to increase permeability of membrane by creating transient pores in it, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Microinjection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electroporation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biolistics",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lipofection",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q87",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Given below are the three basic steps in genetically modifying an organism  a. Introduction of the identified DNA into the host.  b. Maintenance of introduced DNA in the host and transfer of the DNA to its progeny.  c. Identification of DNA with desirable genes.  Choose the option w.r.t. correct sequence of the given steps",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a  c  b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "c  b  a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c  a  b",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b  a  c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q88",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "c-DNA is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Circular DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chimeric DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Complementary DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytoplasmic DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q89",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Genetic engineering is the technique to alter the chemistry of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q90",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The term vector used for mosquito in Plasmodium life cycle; is also for _______in genetic engineering",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plasmid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Restriction enzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q91",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The term ‘molecular scissors’ is used for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reverse transcriptase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Restriction enzyme",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNA polymerase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RNA polymerase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q92",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following gene was linked with native plasmid of Salmonella typhimurium to construct the first recombinant DNA molecule?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ADA gene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insulin gene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Antibiotic resistance gene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T-DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q93",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following performs a function which is just opposite to that performed by restriction endonuclease enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNA ligase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DNA polymerase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reverse transcriptase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Exonuclease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q94",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is/are key tools of recombinant DNA technology?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Restriction enzyme",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polymerase enzymes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ligases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q95",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect match for EcoRI?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E – Escherichia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "co – coli",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R – Resistance to penicillin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I – The order in which enzyme is isolated from that bacteria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q96",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect about restriction endonuclease enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It cuts strands of DNA at specific points in  their sugar phosphate backbones",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It recognizes palindromic nucleotide sequences  in the DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It belongs to a class of enzymes called  nucleases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It removes nucleotides from the ends of DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q97",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "A typical agarose gel electrophoresis showing migration of digested DNA fragments.  d a  1 2 3 4  b c  Arrange the fragments a, b, c and d in increasing order of their size",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, c, d, b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, d, c, b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d, a, b, c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, c, b, d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q98",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect statement about gel electrophoresis used to separate DNA fragments?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNA fragments are separated by forcing them  to move towards the cathode under an electric field through matrix",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Matrix is made up agarose which is extracted  from sea weeds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The DNA fragments are resolved according to  their size through sieving effect provided by agarose gel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The smaller the fragment size, the farther it  moves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q99",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has/have the ability to replicate within bacterial cells independent of the control of chromosomal DNA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plasmid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Palindromic nucleotide sequences",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bacteriophage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q100",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct about genomic DNA library?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It constitutes a collection of all DNA fragments  of an organism inserted into plasmids in bacteria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It constitutes all the genes in a gene pool",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It constitutes all genes sequenced so far",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is a collection of literature about DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q101",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Ori site is a sequence in a vector",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Where replication starts",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Responsible for controlling the copy number of  the linked DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Makes any piece of DNA to replicate within  host cells when linked to it",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q102",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "‘Insertional inactivation’ is used for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Selection of recombinants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Producing pest resistant crops",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enhancing nutritional value of food",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reducing post harvest losses",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q103",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements and choose the option which correctly marks T/F for given statements  a. Viruses and some bacteria can transform eukaryotic cells and force them to do what the bacteria or viruses want.  b. Recombinant bacterial colonies produce blue colour in presence of chromogenic substrate due to insertional inactivation.  c. Disarmed pathogens are used to transfer the recombinant DNA into the host.  d. Some divalent cations at specific concentration make the bacterial cell wall more porous.  a b c d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T T F F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T F T T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T F T F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F F T F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q104",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Multiple copies of the gene of interest can be synthesised in-vitro using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plasmid with high copy number per cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bacteriophage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PCR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DNA with ori sequence",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q105",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "One amongst the following will behave as a pallindromic site.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A A G C T T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C G T A C A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A A T C A G C A T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C C T A G G A C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q106",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The construction of the first recombinant DNA by linking antibiotic resistance gene with a native plasmid of Salmonella typhimurium was done by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Arber and Nathans",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kary Mullis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Herbert Boyer and Stanley Cohen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Smith and Wilcox",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q107",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which can be used as vector for transfer of DNA segment?  a. Bacterium b. Plasmid  c. Plasmodium d. Bacteriophage",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q108",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The first isolated restriction endonuclease is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "EcoRI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hind II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "pBR 322",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bam HI",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q109",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The construction of first recombinant DNA was accomplished by linking a foreign gene with a native plasmid of the bacterium",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Salmonella typhimurium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E. coli",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Agrobacterium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bacillus thuringiensis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q110",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "pBR322 vector carries genes for tetracycline and ampicillin resistance. A foreign DNA is ligated at the site of tetracycline resistance gene. Such vector is then introduced in E. coli. The transformants growing in ampicillin containing medium are then transferred on a medium containing tetracycline.  A  A  H  B  G  G  F  F  C  E  D  D  Bacterial colonies on   Bacterial colonies on  tetracycline containing   ampicillin containing   medium  medium  Select the set of recombinant bacterial colonies",
+    "question_diagram": "/images/last_leap_part1/p236_q110.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A, D, F, G",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B, C, E, H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B, C, D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B, C, F, G",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q111",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The aim behind addition of chilled ethanol to the homogenised medium in which naked DNA is present is to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Remove proteins associated with DNA strands",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bring about precipitation of DNA threads",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fragment DNA threads into short segments",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Make DNA threads visible as orange coloured  bands",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q112",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the statement that is incorrect for PCR",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The exposure of sample DNA to high  temperature of about 94°C is aimed to disrupt sugar phosphate backbone of DNA strands",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Taq polymerase used for polymerisation  process  is obtained from bacterium, Thermus aquaticus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Each cycle of PCR has 3 steps-Denaturation,  Annealing and Extension",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is routinely being used to detect HIV in  suspected AIDS patients",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q113",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The ‘rop’ site of plasmid pBR322 codes for proteins involved in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Packing of DNA in capsid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The replication of the plasmid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Screening of transformants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Insertion of foreign of DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q114",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following base sequences in DNA can be recognised and cut by some particular restriction enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5CACGTA3; 3CTCAGT5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5GAATTC3; 3CTTAAG5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5GATATG3; 3CTACTA5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5CGTTCG3; 3ATGGTA5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q115",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "In the given scheme of events, identify the enzymes that are best suited from the options given below  A  Foreign DNA Vector   B  DNA (plasmid)  C  New Plasmid",
+    "question_diagram": "/images/last_leap_part1/p236_q115.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A – EcoRI for foreign DNA  B – Hind III for plasmid  C – Ligase for joining",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Hind III for foreign DNA  B – EcoRI for plasmid  C – Lyase for joining",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Hind III for foreign DNA  B – Hind III for plasmid  C – DNA ligase for joining",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – EcoRI for foreign DNA  B – EcoRI for plasmid  C – Phosphodiesterase for joining",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q116",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following paragraph and the correct option that statisfies A, B and C.  The DNA fragments are  A charged molecules that are resolved under the influence of  B   through sieving effect of agarose gel. Restriction enzyme digested DNA is loaded which move towards the  C  under an electric field.",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q117",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "A researcher cloned the gene of interest at Bam H1 site in the plasmid pBR 322. Which of the following is most likely, to the one of his observations w.r.t. recombinants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Resistance intact for both ampicillin and  tetracycline drugs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Resistant to ampicillin while sensitive to  tetracycline",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sensitive to both ampicillin and tetracycline",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Resistant to tetracycline while sensitive to  ampicillin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q118",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Method suitable for introducing foreign DNA involving high velocity microparticles of gold or tungsten coated DNA in plant cells is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Elution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Biolistic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Microinjection",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Disarmed retrovirus method",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q119",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a prerequisite for a PCR reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Denatured dsDNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DNA ligase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNA polymerase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Deoxynucleotides and Mg2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q120",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "To transform a bacterial cell with recombinant DNA, which of the following is required?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "90°C temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Divalent calcium ions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Selectable marker",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Restriction enzyme digested DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q121",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a part of downstream processing?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Identification of gene of interest (drug X)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cloning and transformation of X in E.coli",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Purification of drug X",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Biosynthesis of drug X by E.coli",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q122",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The advantages of stirred tank bioreactors over shake flasks include",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Better aeration and mixing properties",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Foam control",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sampling ports",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q123",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect about Agrobacterium tumefaciens?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is natural genetic engineer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It induces the formation of cancerous growth  as crown gall tumor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "For genetic engineering Agrobacterium strains  have been developed, from which tumor forming genes have been deleted",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It infects all crops as soyabean, sunflower,  cereals, cotton etc.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q124",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Recombinant DNA technology has allowed the production of antigenic polypeptides of the pathogen in bacteria or yeast. Which of the following is an example of vaccine produced using this approach from transgenic yeast?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pneumonia vaccine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polio vaccine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hepatitis B vaccine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tetanus vaccine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q125",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is direct method of gene transfer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plasmid vector",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electroporation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bacterial artificial chromosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bacteriophage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q126",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "If the recombinant DNA is inserted within the coding sequence of lac Z gene, then the host cells which carry the recombinant plasmid molecule form/or ________ in the presence of X-gal.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Blue coloured colonies",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "White colonies",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Do not grow",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pink coloured colonies",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q127",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Mapping of large sized eukaryotic genome like human genome can be done successfully by using vectors having cloning capacity in excess of 1 Mbp. One such vector is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M13 bacteriophage vector",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lambda phage vector",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "YAC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phagemid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q128",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Temporary pores created in the cell wall of host bacterial cells make them competent for use as suitable host cells in recombinant DNA technology.  The methods by which the bacterial cells or protoplasts can be made competent are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Heat shock treatment",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electroporation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biolistics",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q129",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "The polymerase which is generally used in PCR reactions is isolated from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thermus aquaticus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arthrobacter luteus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Escherichia coli",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Proteus vulgaris",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secA_q130",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section A (Objective)",
+    "question_text": "Ti plasmid of Agrobacterium tumefaciens serves as a vector in recombinant DNA technology when it is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cloned",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Disarmed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Linked with host DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Introduced in monocots  \u0002\u0003\u0002\u0003\u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secB_q1",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Alkaline phosphatase is one of the significant  enzyme in rDNA technology.\nReason (R): This enzyme remove phosphate group from  5 end of vector and prevents any unwanted self ligation during rDNA technology.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secB_q2",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Downstreaming process involves purification  and separation of products of biotechnology.\nReason (R): In upstreaming process the product is  formulated with suitable preservatives.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secB_q3",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Plasmids are single stranded extra  chromosomal DNA.\nReason (R): Plasmids are possessed by eukaryotic cells  only.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  },
+  {
+    "question_id": "zoo_05_biotechnology_principles_and_processes_secB_q4",
+    "subject": "Zoology",
+    "chapter": "Biotechnology : Principles and Processes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Drugs produced by rDNA technology are safe  and more effective.\nReason (R): They do not induce unwanted immunological  responses as is common in case of similar products isolated from non-human source.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-I (Physics & Zoology)"
+  }
+]
