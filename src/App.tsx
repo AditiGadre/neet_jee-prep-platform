@@ -10,6 +10,7 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 // Lazy-load secondary tabs & heavy interactive modals for sub-second initial load
 const WhatExtraSection = lazy(() => import('./components/WhatExtraSection').then(m => ({ default: m.WhatExtraSection })));
 const AboutExamSection = lazy(() => import('./components/AboutExamSection').then(m => ({ default: m.AboutExamSection })));
+const NeetCollegePredictor = lazy(() => import('./components/NeetCollegePredictor').then(m => ({ default: m.NeetCollegePredictor })));
 const SupportSection = lazy(() => import('./components/SupportSection').then(m => ({ default: m.SupportSection })));
 const CBTTestModal = lazy(() => import('./components/CBTTestModal').then(m => ({ default: m.CBTTestModal })));
 const LiveDoubtModal = lazy(() => import('./components/LiveDoubtModal').then(m => ({ default: m.LiveDoubtModal })));
@@ -517,6 +518,21 @@ export default function App() {
             )}
 
             {activeTab === 'about-exam' && <AboutExamSection />}
+
+            {activeTab === 'college-predictor' && (
+              <div className="space-y-6 animate-in fade-in duration-200">
+                <NeetCollegePredictor
+                  initialScore={655}
+                  initialAir={26178}
+                  initialCategory={enrolledStudent?.caste || 'OPEN'}
+                  initialGender={enrolledStudent?.gender || 'Female'}
+                  initialSpecialReservation={enrolledStudent?.specialReservation || 'None'}
+                  candidateName={enrolledStudent?.fullName || 'NEET Candidate'}
+                  rollNumber={enrolledStudent?.rollNumber || 'NCBT-2026-CAP'}
+                  isInsideScorecard={false}
+                />
+              </div>
+            )}
           </Suspense>
 
           {/* Institutional Platform Footer */}

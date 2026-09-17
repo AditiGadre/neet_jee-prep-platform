@@ -1953,48 +1953,19 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     </div>
                   </div>
 
-                  {/* SECTION 7: Official Maharashtra State CAP Medical College Forecaster (Sunday Tests Unlocked by Admin Only) */}
-                  {isSundayTestUnlockedByAdmin ? (
-                    <div className="space-y-4">
-                      <NeetCollegePredictor
-                        initialScore={testResult.score}
-                        initialAir={testResult.predictedAIR}
-                        initialCategory={studentCategory}
-                        initialGender={enrolledStudent?.gender || 'Female'}
-                        initialSpecialReservation={enrolledStudent?.specialReservation || 'None'}
-                        candidateName={studentName}
-                        rollNumber={rollNumber}
-                        isInsideScorecard={true}
-                      />
-                    </div>
-                  ) : (
-                    <div className="bg-white border border-amber-200 rounded-3xl p-6 sm:p-8 shadow-sm text-center space-y-4">
-                      <div className="w-14 h-14 rounded-2xl bg-amber-50 border border-amber-200 text-amber-600 flex items-center justify-center mx-auto shadow-xs">
-                        <Lock className="w-7 h-7" />
-                      </div>
-                      <div className="space-y-1.5 max-w-lg mx-auto">
-                        <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-[11px] font-extrabold uppercase tracking-wider">
-                          <Lock className="w-3 h-3" />
-                          <span>Admin Unlock Authorization Required</span>
-                        </span>
-                        <h3 className="text-lg sm:text-xl font-black text-slate-900 tracking-tight">
-                          SECTION 7: Medical Seat Allotment Predictor Locked
-                        </h3>
-                        <p className="text-xs text-slate-600 leading-relaxed">
-                          The AI Medical College & Seat Allotment Forecaster (powered by 6,995 Maharashtra State CAP cutoffs) is accessible exclusively for <strong>Sunday 720-Marks Mock Tests</strong> unlocked and approved by the Institution Administrator or Exam Director.
-                        </p>
-                      </div>
-                      <div className="pt-2 flex flex-wrap items-center justify-center gap-2">
-                        <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-slate-100 border border-slate-200 text-slate-700 text-xs font-semibold">
-                          <ShieldCheck className="w-4 h-4 text-blue-600" />
-                          <span>Candidate: {studentName} ({rollNumber})</span>
-                        </div>
-                        <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-xl bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold">
-                          <span>Status: Locked (Requires Admin Approval)</span>
-                        </div>
-                      </div>
-                    </div>
-                  )}
+                  {/* SECTION 7: Official Maharashtra State CAP Medical College Forecaster (2026 Allotments) */}
+                  <div className="space-y-4">
+                    <NeetCollegePredictor
+                      initialScore={testResult.score}
+                      initialAir={testResult.predictedAIR}
+                      initialCategory={studentCategory}
+                      initialGender={enrolledStudent?.gender || 'Female'}
+                      initialSpecialReservation={enrolledStudent?.specialReservation || 'None'}
+                      candidateName={studentName}
+                      rollNumber={rollNumber}
+                      isInsideScorecard={true}
+                    />
+                  </div>
 
                   {/* SECTION 8 */}
                   <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">

@@ -29,10 +29,10 @@ import {
 } from 'lucide-react';
 import { NEET_CUTOFFS_DATA, NeetCutoffEntry } from '../data/neetCutoffsData';
 
-// Calibrated Rank estimation curve based on Official NEET-UG 2024-2025 AIQ Round 3 MCC Allotment data
+// Calibrated Rank estimation curve based on Official NEET-UG 2026 Allotment data
 export function formatYearDisplay(year?: string): string {
-  if (!year) return '2024-2025';
-  if (year.includes('2025') || year.includes('2024')) return '2024-2025';
+  if (!year) return '2026';
+  if (year.includes('2025') || year.includes('2024') || year.includes('2026')) return '2026';
   return year;
 }
 
@@ -633,17 +633,17 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
           <div className="space-y-1.5">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold border border-indigo-500/30">
               <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-              <span>Official NEET-UG AIQ 2024-2025 (MCC 113-Page Round 3) & State CAP Dataset</span>
+              <span>Official NEET-UG 2026 Maharashtra State CAP (10,509 Allotments) & AIQ Selection Dataset</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
               {isInsideScorecard ? (
-                <>SECTION 7: Predicted Medical Colleges & AIQ Seat Allotment Matrix</>
+                <>SECTION 7: Predicted Medical Colleges & AIQ Seat Allotment Matrix (2026)</>
               ) : (
-                <>NEET MBBS & BDS <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">College Predictor Matrix</span></>
+                <>NEET MBBS & BDS <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">College Predictor Matrix (2026)</span></>
               )}
             </h2>
             <p className="text-sm text-slate-300 max-w-3xl leading-relaxed">
-              Admission viability calibrated dynamically from your score of <strong className="text-cyan-400 font-mono">{activeScore}/720 Marks</strong> (Simulated AIR: <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong>) across <strong className="text-white">10,701 verified selection entries</strong> (including 3,706 Official MCC Round 3 All-India Quota, AIIMS, Central Universities & Deemed Medical Colleges).
+              Admission viability calibrated dynamically from your score of <strong className="text-cyan-400 font-mono">{activeScore}/720 Marks</strong> (Simulated AIR: <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong>) across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 10,509 verified Maharashtra 2026 State CAP allotments and 3,706 Official MCC All-India Quota, AIIMS, Central Universities & Deemed Medical Colleges).
             </p>
           </div>
 
@@ -687,7 +687,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             <Table className="w-4 h-4 text-amber-400" />
             <span>Score ↔ AIR ↔ Cutoff Matrix</span>
             <span className="ml-1 px-2 py-0.5 rounded-full text-[10px] bg-amber-900/60 text-amber-200 border border-amber-500/30 font-semibold">
-              Official AIQ 2024-2025
+              Official 2026
             </span>
           </button>
 
@@ -745,7 +745,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       : 'text-slate-400 hover:text-white'
                   }`}
                 >
-                  All Quotas (10.7k)
+                  All Quotas (14.2k)
                 </button>
                 <button
                   onClick={() => setCounselingScope('AIQ')}
@@ -755,7 +755,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       : 'text-slate-400 hover:text-white'
                   }`}
                 >
-                  AIQ 15% / Central / Deemed
+                  AIQ 15% / Central / Deemed (3.7k)
                 </button>
                 <button
                   onClick={() => setCounselingScope('STATE')}
@@ -765,7 +765,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       : 'text-slate-400 hover:text-white'
                   }`}
                 >
-                  State 85% Quota
+                  Maharashtra State 85% (10.5k)
                 </button>
               </div>
 
@@ -897,9 +897,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white focus:border-cyan-400 focus:outline-hidden"
                 >
                   <option value="ALL">Predict Across All Rounds (Recommended)</option>
-                  <option value="Round 3">Round 3 (2024-2025 Final AIQ & State Allotment)</option>
-                  <option value="Round 1">Round 1 (2024-2025)</option>
-                  <option value="Round 2">Round 2 (2024-2025)</option>
+                  <option value="Round 1">Round 1 (2026 Maharashtra State CAP Allotment)</option>
+                  <option value="Round 3">Round 3 (2026 MCC AIQ & Central Allotment)</option>
+                  <option value="Round 2">Round 2</option>
                 </select>
               </div>
 
@@ -1224,7 +1224,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
         </div>
       )}
 
-      {/* VIEW 2: AIQ 2024-2025 PREDICTOR MATRIX (SCORE ↔ AIR ↔ CUTOFFS) */}
+      {/* VIEW 2: 2026 PREDICTOR MATRIX (SCORE ↔ AIR ↔ CUTOFFS) */}
       {activeTab === 'matrix' && (
         <div className="space-y-6 animate-in fade-in duration-200">
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
@@ -1233,7 +1233,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <div className="flex items-center space-x-2">
                   <Table className="w-5 h-5 text-amber-400" />
                   <h3 className="text-xl font-black text-white">
-                    Official NEET-UG AIQ 2024-2025 Predictor Matrix
+                    Official NEET-UG 2026 Predictor Matrix
                   </h3>
                 </div>
                 <p className="text-xs text-slate-400">
