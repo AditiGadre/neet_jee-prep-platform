@@ -121,7 +121,7 @@ export const Header: React.FC<HeaderProps> = ({
         'Full 180-Question (720 Marks) Sunday Proctored CBT Exams',
         'Real NTA Test Engine with Question Palette & Timer',
         'Instant All-India Rank (AIR) & Subject-wise Percentiles',
-        'Maharashtra State CAP 10,509 Cutoff College Predictor (2026)',
+        'Maharashtra State CAP 21,447 Cutoff College Predictor (R1 & R2 2026)',
         '2-Device Authorized Concurrency with DOB PIN Encryption'
       ]
     },

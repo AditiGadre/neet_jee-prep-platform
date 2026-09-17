@@ -633,7 +633,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
           <div className="space-y-1.5">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold border border-indigo-500/30">
               <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-              <span>Official NEET-UG 2026 Maharashtra State CAP (10,509 Allotments) & AIQ Selection Dataset</span>
+              <span>Official NEET-UG 2026 Maharashtra State CAP (21,447 Round 1 & Round 2 Allotments) & AIQ Selection Dataset</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
               {isInsideScorecard ? (
@@ -643,7 +643,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               )}
             </h2>
             <p className="text-sm text-slate-300 max-w-3xl leading-relaxed">
-              Admission viability calibrated dynamically from your score of <strong className="text-cyan-400 font-mono">{activeScore}/720 Marks</strong> (Simulated AIR: <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong>) across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 10,509 verified Maharashtra 2026 State CAP allotments and 3,706 Official MCC All-India Quota, AIIMS, Central Universities & Deemed Medical Colleges).
+              Admission viability calibrated dynamically from your score of <strong className="text-cyan-400 font-mono">{activeScore}/720 Marks</strong> (Simulated AIR: <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong>) across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 21,447 verified Maharashtra 2026 State CAP Round 1 & Round 2 allotments and 3,706 Official MCC All-India Quota, AIIMS, Central Universities & Deemed Medical Colleges).
             </p>
           </div>
 

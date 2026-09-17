@@ -72,7 +72,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     {
       id: 'college-predictor' as TabType,
       label: '4. NEET College Predictor (2026)',
-      sublabel: '10,509 Verified Maharashtra CAP Cutoffs',
+      sublabel: '21,447 Verified CAP R1 & R2 Cutoffs',
       icon: Trophy,
       badge: '2026 CAP',
       highlight: true

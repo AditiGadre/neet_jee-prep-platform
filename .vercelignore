@@ -10,4 +10,5 @@ lastleap_part2_page_inventory.json
 *.zip
 *.tgz
 *.tar.gz
+*.csv
 
