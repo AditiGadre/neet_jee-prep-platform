@@ -369,16 +369,15 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
     return 'ALL';
   }, [initialGender]);
 
-  const initScore = initialScore !== undefined ? initialScore : 655;
-  const initAir = initialAir !== undefined && initialAir > 0 ? initialAir : (initialScore !== undefined && initialScore > 0 ? estimateRankFromScore(initialScore) : 26178);
+  const initAir = initialAir !== undefined && initialAir > 0
+    ? initialAir
+    : (initialScore !== undefined && initialScore > 0 ? estimateRankFromScore(initialScore) : 26178);
 
   // Active Tab
   const [activeTab, setActiveTab] = useState<'forecaster' | 'matrix' | 'benchmarks'>('forecaster');
 
-  // Input states
-  const [inputMode, setInputMode] = useState<'rank' | 'score'>(initialAir ? 'rank' : 'score');
+  // Input states - Purely All India Rank (AIR) driven
   const [rankInput, setRankInput] = useState<string>(String(initAir));
-  const [scoreInput, setScoreInput] = useState<string>(String(initScore));
   const [selectedCourse, setSelectedCourse] = useState<'ALL' | 'MBBS' | 'BDS'>('ALL');
   const [selectedCategory, setSelectedCategory] = useState<string>(resolvedCategory);
   const [gender, setGender] = useState<'ALL' | 'FEMALE' | 'MALE'>(defaultGender);
@@ -394,15 +393,10 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
   const [tierSearch, setTierSearch] = useState<string>('');
 
   React.useEffect(() => {
-    if (initialScore !== undefined) {
-      setScoreInput(String(initialScore));
-      if (initialAir && initialAir > 0) {
-        setRankInput(String(initialAir));
-      } else if (initialScore > 0) {
-        setRankInput(String(estimateRankFromScore(initialScore)));
-      } else {
-        setRankInput('0');
-      }
+    if (initialAir !== undefined && initialAir > 0) {
+      setRankInput(String(initialAir));
+    } else if (initialScore !== undefined && initialScore > 0) {
+      setRankInput(String(estimateRankFromScore(initialScore)));
     }
     if (resolvedCategory) {
       setSelectedCategory(resolvedCategory);
@@ -414,53 +408,18 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
 
   // Active user AIR
   const userAir = useMemo(() => {
-    if (inputMode === 'rank') {
-      const r = parseInt(rankInput.replace(/\D/g, ''), 10);
-      return isNaN(r) || r <= 0 ? 0 : r;
-    } else {
-      const s = parseInt(scoreInput.replace(/\D/g, ''), 10);
-      if (isNaN(s) || s <= 0) return 0;
-      return estimateRankFromScore(Math.min(720, s));
-    }
-  }, [inputMode, rankInput, scoreInput]);
-
-  const activeScore = useMemo(() => {
-    if (inputMode === 'score') {
-      const s = parseInt(scoreInput.replace(/\D/g, ''), 10);
-      return isNaN(s) ? 0 : s;
-    } else {
-      if (userAir <= 0) return 0;
-      return estimateScoreFromRank(userAir);
-    }
-  }, [inputMode, scoreInput, userAir]);
-
-  // Handle Score Change
-  const handleScoreChange = (val: string) => {
-    setScoreInput(val);
-    const s = parseInt(val.replace(/\D/g, ''), 10);
-    if (!isNaN(s) && s > 0) {
-      const estRank = estimateRankFromScore(Math.min(720, s));
-      setRankInput(String(estRank));
-    } else {
-      setRankInput('0');
-    }
-  };
+    const r = parseInt(rankInput.replace(/\D/g, ''), 10);
+    return isNaN(r) || r <= 0 ? 0 : r;
+  }, [rankInput]);
 
   // Handle Rank Change
   const handleRankChange = (val: string) => {
     setRankInput(val);
-    const r = parseInt(val.replace(/\D/g, ''), 10);
-    if (!isNaN(r) && r > 0) {
-      const estScore = estimateScoreFromRank(r);
-      setScoreInput(String(estScore));
-    } else {
-      setScoreInput('0');
-    }
   };
 
   // Filter and compute cleared vs close-not-cleared
   const { clearedList, closeList, stats } = useMemo(() => {
-    if (userAir <= 0 || activeScore <= 0) {
+    if (userAir <= 0) {
       return {
         clearedList: [],
         closeList: [],
@@ -566,7 +525,6 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
     };
   }, [
     userAir,
-    activeScore,
     counselingScope,
     selectedCourse,
     selectedCategory,
@@ -643,7 +601,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               )}
             </h2>
             <p className="text-sm text-slate-300 max-w-3xl leading-relaxed">
-              Admission viability calibrated dynamically from your score of <strong className="text-cyan-400 font-mono">{activeScore}/720 Marks</strong> (Simulated AIR: <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong>) across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 21,447 verified Maharashtra 2026 State CAP Round 1 & Round 2 allotments and 3,706 Official MCC All-India Quota, AIIMS, Central Universities & Deemed Medical Colleges).
+              Admission viability calibrated dynamically for All India Rank <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong> across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 21,447 verified Maharashtra 2026 State CAP Round 1 & Round 2 allotments and 3,706 Official MCC All-India Quota, AIIMS, Central Universities & Deemed Medical Colleges).
             </p>
           </div>
 
@@ -685,7 +643,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             }`}
           >
             <Table className="w-4 h-4 text-amber-400" />
-            <span>Score ↔ AIR ↔ Cutoff Matrix</span>
+            <span>AIR ↔ Category Cutoff Matrix</span>
             <span className="ml-1 px-2 py-0.5 rounded-full text-[10px] bg-amber-900/60 text-amber-200 border border-amber-500/30 font-semibold">
               Official 2026
             </span>
@@ -718,7 +676,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               1. <strong>MCC AIQ Round 3 Reconstructed Cutoffs:</strong> Includes all 3,706 closing cutoffs across AIIMS, Central Institutes, AFMC, ESIC, State GMCs (15% AIQ), and Deemed Universities from the official 113-page allotment release.
             </div>
             <div>
-              2. <strong>Round 3 Absolute Boundary:</strong> Open/OBC Govt MBBS closed at <strong>AIR 26,178</strong> (~655 Marks), SC Govt MBBS closed at <strong>AIR 1,35,684</strong> (~575 Marks), ST at <strong>AIR 1,63,285</strong> (~552 Marks), and Govt BDS at <strong>AIR 49,462</strong> (~630 Marks).
+              2. <strong>Round 3 Absolute Boundary:</strong> Open/OBC Govt MBBS closed at <strong>AIR 26,178</strong>, SC Govt MBBS closed at <strong>AIR 1,35,684</strong>, ST at <strong>AIR 1,63,285</strong>, and Govt BDS at <strong>AIR 49,462</strong>.
             </div>
           </div>
         </div>
@@ -769,28 +727,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 </button>
               </div>
 
-              {/* Input Mode Toggle */}
-              <div className="flex items-center rounded-lg bg-slate-800/80 p-1 border border-slate-700">
-                <button
-                  onClick={() => setInputMode('rank')}
-                  className={`px-3 py-1 rounded-md text-xs font-semibold transition cursor-pointer ${
-                    inputMode === 'rank' ? 'bg-blue-600 text-white shadow-xs' : 'text-slate-400 hover:text-white'
-                  }`}
-                >
-                  By Rank (AIR)
-                </button>
-                <button
-                  onClick={() => setInputMode('score')}
-                  className={`px-3 py-1 rounded-md text-xs font-semibold transition cursor-pointer ${
-                    inputMode === 'score' ? 'bg-blue-600 text-white shadow-xs' : 'text-slate-400 hover:text-white'
-                  }`}
-                >
-                  By Score (/720)
-                </button>
-              </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {/* AIR Input */}
               <div className="space-y-1.5">
                 <label className="block text-xs font-bold text-slate-300">
@@ -808,31 +747,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   />
                   <span className="absolute right-3 top-2.5 text-xs text-slate-500 font-semibold">AIR</span>
                 </div>
-                {inputMode === 'score' && (
-                  <p className="text-[11px] text-cyan-400 font-medium">Calibrated from NEET Score ~{scoreInput}</p>
-                )}
-              </div>
-
-              {/* NEET Score Input */}
-              <div className="space-y-1.5">
-                <label className="block text-xs font-bold text-slate-300">
-                  NEET Score (Marks / 720)
-                </label>
-                <div className="relative">
-                  <input
-                    type="number"
-                    min="0"
-                    max="720"
-                    value={scoreInput}
-                    onChange={e => handleScoreChange(e.target.value)}
-                    placeholder="e.g. 655"
-                    className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white font-mono focus:border-cyan-400 focus:outline-hidden focus:ring-1 focus:ring-cyan-400"
-                  />
-                  <span className="absolute right-3 top-2.5 text-xs text-slate-500 font-semibold">/ 720</span>
-                </div>
-                {inputMode === 'rank' && (
-                  <p className="text-[11px] text-slate-400 font-medium">Calibrated Marks ~{scoreInput}/720</p>
-                )}
+                <p className="text-[11px] text-slate-400 font-medium">Predict colleges eligible at your All India Rank</p>
               </div>
 
               {/* Category Dropdown */}
@@ -883,6 +798,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     </button>
                   ))}
                 </div>
+                <p className="text-[11px] text-slate-400 font-medium">Filter by MBBS, BDS, or Both</p>
               </div>
             </div>
 
@@ -1015,12 +931,12 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               </div>
             </div>
 
-            {activeScore <= 0 || userAir <= 0 ? (
+            {userAir <= 0 ? (
               <div className="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 text-center space-y-3">
                 <AlertCircle className="w-8 h-8 text-amber-400 mx-auto" />
-                <p className="text-sm font-bold text-white">No Medical Colleges Allotted (Current Score: 0 Marks)</p>
+                <p className="text-sm font-bold text-white">No All India Rank (AIR) Specified</p>
                 <p className="text-xs text-slate-400 max-w-md mx-auto leading-relaxed">
-                  Enter a valid NEET score (between 150 and 720) or All India Rank to view real-time college predictions across All India Quota and State Quota.
+                  Enter a valid All India Rank (e.g. 26178) to view real-time college predictions across All India Quota and Maharashtra State Quota.
                 </p>
               </div>
             ) : clearedList.length === 0 ? (
@@ -1224,7 +1140,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
         </div>
       )}
 
-      {/* VIEW 2: 2026 PREDICTOR MATRIX (SCORE ↔ AIR ↔ CUTOFFS) */}
+      {/* VIEW 2: 2026 PREDICTOR MATRIX (AIR ↔ CUTOFFS) */}
       {activeTab === 'matrix' && (
         <div className="space-y-6 animate-in fade-in duration-200">
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
@@ -1233,19 +1149,17 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <div className="flex items-center space-x-2">
                   <Table className="w-5 h-5 text-amber-400" />
                   <h3 className="text-xl font-black text-white">
-                    Official NEET-UG 2026 Predictor Matrix
+                    Official NEET-UG 2026 Rank & Cutoff Matrix
                   </h3>
                 </div>
                 <p className="text-xs text-slate-400">
-                  Comprehensive benchmark mapping of NEET Scores ↔ All India Ranks (AIR) ↔ College Cutoffs across all categories from the 113-page MCC Round 3 dataset.
+                  Comprehensive benchmark mapping of All India Ranks (AIR) ↔ College Cutoffs across all categories from the official MCC Round 3 dataset.
                 </p>
               </div>
 
-              {activeScore > 0 && (
+              {userAir > 0 && (
                 <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-mono shrink-0">
-                  <span>Your Score: <strong>{activeScore}/720</strong></span>
-                  <span>•</span>
-                  <span>Est. AIR: <strong>#{userAir.toLocaleString()}</strong></span>
+                  <span>Candidate Rank: <strong className="text-emerald-300 font-bold">AIR #{userAir.toLocaleString()}</strong></span>
                 </div>
               )}
             </div>
@@ -1255,8 +1169,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               <table className="w-full text-left text-xs border-collapse">
                 <thead>
                   <tr className="bg-slate-950/80 border-b border-slate-800 text-slate-300">
-                    <th className="p-3.5 font-bold">NEET Score (/720)</th>
-                    <th className="p-3.5 font-bold">Expected AIR</th>
+                    <th className="p-3.5 font-bold">All India Rank (AIR Range)</th>
                     <th className="p-3.5 font-bold">Govt MBBS (AIQ Open/OBC)</th>
                     <th className="p-3.5 font-bold">Govt MBBS (SC / ST)</th>
                     <th className="p-3.5 font-bold">Top Central / AIIMS</th>
@@ -1266,17 +1179,19 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 </thead>
                 <tbody className="divide-y divide-slate-800/60">
                   {AIQ_SCORE_AIR_MATRIX.map((row, idx) => {
-                    // Check if candidate's score falls in this range
+                    // Check if candidate's rank falls in this range
                     let isCandidateRow = false;
-                    if (idx === 0 && activeScore >= 710) isCandidateRow = true;
-                    else if (idx === 1 && activeScore >= 695 && activeScore < 710) isCandidateRow = true;
-                    else if (idx === 2 && activeScore >= 680 && activeScore < 695) isCandidateRow = true;
-                    else if (idx === 3 && activeScore >= 668 && activeScore < 680) isCandidateRow = true;
-                    else if (idx === 4 && activeScore >= 655 && activeScore < 668) isCandidateRow = true;
-                    else if (idx === 5 && activeScore >= 630 && activeScore < 655) isCandidateRow = true;
-                    else if (idx === 6 && activeScore >= 570 && activeScore < 630) isCandidateRow = true;
-                    else if (idx === 7 && activeScore >= 550 && activeScore < 570) isCandidateRow = true;
-                    else if (idx === 8 && activeScore > 0 && activeScore < 550) isCandidateRow = true;
+                    if (userAir > 0) {
+                      if (idx === 0 && userAir <= 350) isCandidateRow = true;
+                      else if (idx === 1 && userAir > 350 && userAir <= 2500) isCandidateRow = true;
+                      else if (idx === 2 && userAir > 2500 && userAir <= 8500) isCandidateRow = true;
+                      else if (idx === 3 && userAir > 8500 && userAir <= 15000) isCandidateRow = true;
+                      else if (idx === 4 && userAir > 15000 && userAir <= 26178) isCandidateRow = true;
+                      else if (idx === 5 && userAir > 26178 && userAir <= 49462) isCandidateRow = true;
+                      else if (idx === 6 && userAir > 49462 && userAir <= 135684) isCandidateRow = true;
+                      else if (idx === 7 && userAir > 135684 && userAir <= 163285) isCandidateRow = true;
+                      else if (idx === 8 && userAir > 163285) isCandidateRow = true;
+                    }
 
                     return (
                       <tr
@@ -1287,16 +1202,13 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                             : 'hover:bg-slate-800/40'
                         }`}
                       >
-                        <td className="p-3.5 font-mono font-bold text-white whitespace-nowrap">
-                          {row.scoreRange}
+                        <td className="p-3.5 font-mono font-bold text-cyan-300 whitespace-nowrap">
+                          {row.airRange}
                           {isCandidateRow && (
                             <span className="ml-2 px-1.5 py-0.5 rounded text-[10px] bg-cyan-500 text-slate-950 font-black">
-                              YOU
+                              YOUR RANK
                             </span>
                           )}
-                        </td>
-                        <td className="p-3.5 font-mono text-cyan-300 font-bold whitespace-nowrap">
-                          {row.airRange}
                         </td>
                         <td className="p-3.5 text-slate-200">
                           {row.govtMbbsOpen.includes('Closing Boundary') ? (
@@ -1334,9 +1246,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <div className="text-xs font-bold text-cyan-400 uppercase tracking-wide">
                   1. Govt MBBS Open/OBC Cutoff
                 </div>
-                <div className="text-sm font-black text-white">AIR 26,178 (~655 Marks)</div>
+                <div className="text-sm font-black text-white">AIR 26,178 (Closing Boundary)</div>
                 <p className="text-xs text-slate-400 leading-relaxed">
-                  Last allotted institute in Round 3 was GMC Nagapattinam & Virudhunagar. Candidates scoring 655+ secured Government MBBS under AIQ 15%.
+                  Last allotted institute in Round 3 was GMC Nagapattinam & Virudhunagar under AIQ 15%. Candidates within AIR 26,178 secured Government MBBS.
                 </p>
               </div>
 
@@ -1344,7 +1256,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <div className="text-xs font-bold text-amber-400 uppercase tracking-wide">
                   2. Govt BDS (Dental) Final Cutoff
                 </div>
-                <div className="text-sm font-black text-white">AIR 49,462 (~630 Marks)</div>
+                <div className="text-sm font-black text-white">AIR 49,462 (Closing Boundary)</div>
                 <p className="text-xs text-slate-400 leading-relaxed">
                   Last allotted Government Dental College under AIQ Open was JNIDS, Imphal at AIR 49,462 (OBC: 51,192, EWS: 54,132).
                 </p>
@@ -1354,9 +1266,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <div className="text-xs font-bold text-emerald-400 uppercase tracking-wide">
                   3. Reserved Category Closing Limits
                 </div>
-                <div className="text-sm font-black text-white">SC: 1,35,684 | ST: 1,63,285</div>
+                <div className="text-sm font-black text-white">SC: AIR 1,35,684 | ST: AIR 1,63,285</div>
                 <p className="text-xs text-slate-400 leading-relaxed">
-                  Scheduled Caste Govt MBBS closed at Score ~575 (AIR 1,35,684). Scheduled Tribe Govt MBBS closed at Score ~552 (AIR 1,63,285).
+                  Scheduled Caste Govt MBBS closed at AIR 1,35,684. Scheduled Tribe Govt MBBS closed at AIR 1,63,285.
                 </p>
               </div>
             </div>
@@ -1372,31 +1284,31 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">OPEN / UR (Govt MBBS)</span>
               <div className="text-xl font-black text-cyan-400 font-mono">AIR 26,178</div>
-              <div className="text-xs text-slate-300">Score ~655 / 720</div>
+              <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
             </div>
 
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">OBC (Govt MBBS)</span>
               <div className="text-xl font-black text-blue-400 font-mono">AIR 26,167</div>
-              <div className="text-xs text-slate-300">Score ~655 / 720</div>
+              <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
             </div>
 
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">EWS (Govt MBBS)</span>
               <div className="text-xl font-black text-teal-400 font-mono">AIR 27,243</div>
-              <div className="text-xs text-slate-300">Score ~653 / 720</div>
+              <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
             </div>
 
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">SC (Govt MBBS)</span>
               <div className="text-xl font-black text-amber-400 font-mono">AIR 1,35,684</div>
-              <div className="text-xs text-slate-300">Score ~575 / 720</div>
+              <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
             </div>
 
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1 col-span-2 sm:col-span-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">ST (Govt MBBS)</span>
               <div className="text-xl font-black text-rose-400 font-mono">AIR 1,63,285</div>
-              <div className="text-xs text-slate-300">Score ~552 / 720</div>
+              <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
             </div>
           </div>
 
@@ -1445,7 +1357,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     <h4 className="text-base font-black text-white">{tier.name}</h4>
                     <p className="text-xs text-slate-400 leading-relaxed">{tier.description}</p>
                     <div className="text-[11px] font-semibold text-slate-300">
-                      Typical Qualifying Score: <span className="text-amber-400 font-mono">{tier.scoreReq}</span>
+                      Typical Qualifying Rank: <span className="text-cyan-400 font-mono">{tier.airRange}</span>
                     </div>
 
                     {/* Colleges list */}

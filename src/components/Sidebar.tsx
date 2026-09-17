@@ -21,7 +21,6 @@ export type TabType =
   | 'test-series'
   | 'what-extra'
   | 'about-exam'
-  | 'college-predictor'
   | 'support';
 
 interface SidebarProps {
@@ -68,14 +67,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
       label: '3. About NEET CBT Exam',
       sublabel: 'CBT Pattern, Syllabus, Seats & Marks vs Rank',
       icon: BookOpen
-    },
-    {
-      id: 'college-predictor' as TabType,
-      label: '4. NEET College Predictor (2026)',
-      sublabel: '21,447 Verified CAP R1 & R2 Cutoffs',
-      icon: Trophy,
-      badge: '2026 CAP',
-      highlight: true
     }
   ];
 
