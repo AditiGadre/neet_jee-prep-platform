@@ -20,7 +20,8 @@ import { Question } from '../types';
 import {
   uploadCustomQuestions,
   generateAiAugmentedBatch,
-  getQuestionDatabaseStats
+  getQuestionDatabaseStats,
+  getVaultDatabaseChapters
 } from '../utils/questionDatabase';
 
 interface UploadContentModalProps {
@@ -266,12 +267,18 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
               <label className="text-[11px] font-bold text-gray-600 uppercase">Target Chapter Name</label>
               <input
                 type="text"
+                list="vault-chapters-datalist"
                 value={chapter}
                 onChange={e => setChapter(e.target.value)}
-                placeholder="e.g. Molecular Basis of Inheritance"
+                placeholder="Select or type chapter name..."
                 className="w-full p-2 rounded-lg bg-white border border-gray-300 text-xs font-semibold text-gray-900 focus:outline-none focus:border-blue-500"
                 required
               />
+              <datalist id="vault-chapters-datalist">
+                {getVaultDatabaseChapters(subject).map((ch, idx) => (
+                  <option key={idx} value={ch} />
+                ))}
+              </datalist>
             </div>
           </div>
 

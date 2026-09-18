@@ -58,6 +58,10 @@ import {
   ALL_BIOLOGY_CHAPTERS,
   ALL_CHEMISTRY_CHAPTERS,
   ALL_PHYSICS_CHAPTERS,
+  getVaultDatabaseChapters,
+  addChapterToVaultDatabase,
+  deleteChapterFromVaultDatabase,
+  getVaultCustomChapters,
   TopicAllocationItem,
   assembleStrictTopicAllocations
 } from '../utils/questionDatabase';
@@ -110,7 +114,48 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [inventorySortBy, setInventorySortBy] = useState<'count_desc' | 'count_asc' | 'name_asc'>('count_desc');
   const [expandedChapterName, setExpandedChapterName] = useState<string | null>(null);
 
-  // Compute Question Bank Inventory across all subjects & chapters
+  // Vault Database Reactivity & Add Chapter State
+  const [vaultRefreshVersion, setVaultRefreshVersion] = useState(0);
+  const [isAddChapterModalOpen, setIsAddChapterModalOpen] = useState(false);
+  const [newChapterSubject, setNewChapterSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Biology');
+  const [newChapterName, setNewChapterName] = useState('');
+  const [addChapterStatus, setAddChapterStatus] = useState<{ type: 'success' | 'error'; msg: string } | null>(null);
+
+  useEffect(() => {
+    const handleUpdate = () => {
+      setVaultRefreshVersion(v => v + 1);
+    };
+    window.addEventListener('neet_question_bank_updated', handleUpdate);
+    window.addEventListener('neet_vault_chapters_updated', handleUpdate);
+    window.addEventListener('storage', handleUpdate);
+    return () => {
+      window.removeEventListener('neet_question_bank_updated', handleUpdate);
+      window.removeEventListener('neet_vault_chapters_updated', handleUpdate);
+      window.removeEventListener('storage', handleUpdate);
+    };
+  }, []);
+
+  const handleAddChapterToVault = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!newChapterName.trim()) {
+      setAddChapterStatus({ type: 'error', msg: 'Please enter a chapter name.' });
+      return;
+    }
+    const res = addChapterToVaultDatabase(newChapterSubject, newChapterName.trim());
+    if (res.success) {
+      setAddChapterStatus({ type: 'success', msg: res.message });
+      setNewChapterName('');
+      setVaultRefreshVersion(v => v + 1);
+      setTimeout(() => {
+        setIsAddChapterModalOpen(false);
+        setAddChapterStatus(null);
+      }, 1500);
+    } else {
+      setAddChapterStatus({ type: 'error', msg: res.message });
+    }
+  };
+
+  // Compute Question Bank Inventory dynamically across all subjects & chapters in the vault database
   const questionInventory = useMemo(() => {
     const allQs = getUnifiedQuestionBank();
     const physicsQs = allQs.filter(q => q.subject === 'Physics');
@@ -119,12 +164,27 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const buildChapterStats = (qs: Question[], subjectName: 'Physics' | 'Chemistry' | 'Biology') => {
       const map = new Map<string, Question[]>();
+      const registeredChapters = getVaultDatabaseChapters(subjectName);
+
+      // Pre-seed map with all registered syllabus & vault chapters so 0-question chapters are also tracked
+      for (const ch of registeredChapters) {
+        map.set(ch, []);
+      }
+
       for (const q of qs) {
         const ch = q.chapter || `General ${subjectName}`;
-        let arr = map.get(ch);
+        const cleanNorm = ch.toLowerCase().replace(/[^a-z0-9]/g, '');
+        let targetKey = ch;
+        for (const reg of registeredChapters) {
+          if (reg.toLowerCase().replace(/[^a-z0-9]/g, '') === cleanNorm) {
+            targetKey = reg;
+            break;
+          }
+        }
+        let arr = map.get(targetKey);
         if (!arr) {
           arr = [];
-          map.set(ch, arr);
+          map.set(targetKey, arr);
         }
         arr.push(q);
       }
@@ -146,7 +206,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           chapter: chName,
           subject: subjectName,
           totalQuestions: qList.length,
-          percentage: Math.round((qList.length / totalSubjectQs) * 1000) / 10,
+          percentage: qList.length > 0 ? Math.round((qList.length / totalSubjectQs) * 1000) / 10 : 0,
           subtopics: Object.keys(subtopicMap),
           subtopicCounts: subtopicMap,
           difficultyCounts: diffMap,
@@ -172,7 +232,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       biologyChapters,
       allChapters: [...physicsChapters, ...chemistryChapters, ...biologyChapters]
     };
-  }, []);
+  }, [vaultRefreshVersion]);
 
   const displayedChapters = useMemo(() => {
     let list =
@@ -365,9 +425,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     return true;
   });
 
-  const biologyChapters = ALL_BIOLOGY_CHAPTERS && ALL_BIOLOGY_CHAPTERS.length > 0 ? ALL_BIOLOGY_CHAPTERS : ['Molecular Basis of Inheritance', 'Principles of Inheritance and Variation'];
-  const chemistryChapters = ALL_CHEMISTRY_CHAPTERS && ALL_CHEMISTRY_CHAPTERS.length > 0 ? ALL_CHEMISTRY_CHAPTERS : ['Chemical Bonding and Molecular Structure', 'Equilibrium'];
-  const physicsChapters = ALL_PHYSICS_CHAPTERS && ALL_PHYSICS_CHAPTERS.length > 0 ? ALL_PHYSICS_CHAPTERS : ['Kinematics', 'Laws of Motion', 'Thermodynamics'];
+  const biologyChapters = useMemo(() => getVaultDatabaseChapters('Biology'), [vaultRefreshVersion]);
+  const chemistryChapters = useMemo(() => getVaultDatabaseChapters('Chemistry'), [vaultRefreshVersion]);
+  const physicsChapters = useMemo(() => getVaultDatabaseChapters('Physics'), [vaultRefreshVersion]);
 
   const currentChapterList = customSubject === 'Biology'
     ? biologyChapters
@@ -2963,12 +3023,114 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 Real-time question count distribution across Physics, Chemistry, and Biology syllabus chapters.
               </p>
             </div>
-            <div className="flex items-center space-x-2 self-start sm:self-center">
+            <div className="flex flex-wrap items-center gap-2 self-start sm:self-center">
+              <button
+                type="button"
+                onClick={() => {
+                  setVaultRefreshVersion(v => v + 1);
+                  setActionSuccessBanner('Database chapters & inventory audited successfully.');
+                  setTimeout(() => setActionSuccessBanner(null), 2000);
+                }}
+                className="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-cyan-200 text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer"
+                title="Force audit and refresh database"
+              >
+                <RefreshCw className="w-3.5 h-3.5" />
+                <span>Refresh Database</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setIsAddChapterModalOpen(prev => !prev);
+                  setAddChapterStatus(null);
+                }}
+                className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+              >
+                <Plus className="w-3.5 h-3.5" />
+                <span>Add New Chapter to Vault</span>
+              </button>
+
               <span className="px-3 py-1.5 rounded-xl bg-white/10 border border-white/20 text-cyan-300 font-mono text-xs font-bold">
                 {questionInventory.totalCount.toLocaleString()} Total Questions
               </span>
             </div>
           </div>
+
+          {/* Add New Chapter to Vault Form Panel */}
+          {isAddChapterModalOpen && (
+            <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border-2 border-blue-300 shadow-md space-y-3 animate-in fade-in">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center space-x-2">
+                  <div className="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold shadow-xs">
+                    <Plus className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-slate-900">Add New Chapter to Admin Vault Database</h4>
+                    <p className="text-[11px] text-slate-600">Register a new official syllabus or specialized chapter. It will instantly update all generators, topic swappers, and analytics.</p>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIsAddChapterModalOpen(false)}
+                  className="p-1 rounded-lg text-slate-400 hover:text-slate-700 cursor-pointer"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+
+              <form onSubmit={handleAddChapterToVault} className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+                <div>
+                  <label className="text-[11px] font-bold text-slate-700 uppercase block mb-1">Select Subject</label>
+                  <select
+                    value={newChapterSubject}
+                    onChange={e => setNewChapterSubject(e.target.value as any)}
+                    className="w-full p-2.5 rounded-xl bg-white border border-slate-300 text-xs font-semibold text-slate-900 focus:outline-none focus:border-blue-500 cursor-pointer"
+                  >
+                    <option value="Biology">🧬 Biology</option>
+                    <option value="Chemistry">🧪 Chemistry</option>
+                    <option value="Physics">⚡ Physics</option>
+                  </select>
+                </div>
+
+                <div className="sm:col-span-2">
+                  <label className="text-[11px] font-bold text-slate-700 uppercase block mb-1">New Chapter Name</label>
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="text"
+                      value={newChapterName}
+                      onChange={e => setNewChapterName(e.target.value)}
+                      placeholder="e.g. Molecular Basis of Inheritance, Magnetism, etc."
+                      className="flex-1 p-2.5 rounded-xl bg-white border border-slate-300 text-xs font-semibold text-slate-900 focus:outline-none focus:border-blue-500"
+                      required
+                    />
+                    <button
+                      type="submit"
+                      className="px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-xs transition cursor-pointer shrink-0"
+                    >
+                      Save Chapter
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              {addChapterStatus && (
+                <div
+                  className={`p-2.5 rounded-xl text-xs font-medium flex items-center space-x-2 ${
+                    addChapterStatus.type === 'success'
+                      ? 'bg-emerald-100 text-emerald-900 border border-emerald-300'
+                      : 'bg-rose-100 text-rose-900 border border-rose-300'
+                  }`}
+                >
+                  {addChapterStatus.type === 'success' ? (
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  ) : (
+                    <AlertCircle className="w-4 h-4 text-rose-600 shrink-0" />
+                  )}
+                  <span>{addChapterStatus.msg}</span>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Top 4 Summary Metric Cards */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3.5">
@@ -3229,18 +3391,31 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       {isExpanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
                     </button>
 
-                    <button
-                      onClick={() => {
-                        setCustomSubject(item.subject);
-                        setCustomChapter(item.chapter);
-                        setAdminTab('generator');
-                      }}
-                      className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 text-[11px] font-semibold transition cursor-pointer flex items-center space-x-1"
-                      title={`Generate Custom Test from ${item.chapter}`}
-                    >
-                      <Sliders className="w-3 h-3 text-blue-600" />
-                      <span>Generate Test</span>
-                    </button>
+                    {item.totalQuestions === 0 ? (
+                      <button
+                        type="button"
+                        onClick={() => onOpenUploadModal && onOpenUploadModal(item.subject, item.chapter)}
+                        className="px-2.5 py-1 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-300 text-[11px] font-semibold transition cursor-pointer flex items-center space-x-1"
+                        title={`Upload Questions for ${item.chapter}`}
+                      >
+                        <Upload className="w-3 h-3 text-emerald-600" />
+                        <span>Upload Questions</span>
+                      </button>
+                    ) : (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setCustomSubject(item.subject);
+                          setCustomChapter(item.chapter);
+                          setAdminTab('generator');
+                        }}
+                        className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 text-[11px] font-semibold transition cursor-pointer flex items-center space-x-1"
+                        title={`Generate Custom Test from ${item.chapter}`}
+                      >
+                        <Sliders className="w-3 h-3 text-blue-600" />
+                        <span>Generate Test</span>
+                      </button>
+                    )}
                   </div>
 
                   {/* Expanded Chapter Details Drawer */}

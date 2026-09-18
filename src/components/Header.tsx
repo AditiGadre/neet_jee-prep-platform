@@ -46,6 +46,8 @@ interface HeaderProps {
   onOpenSuperUser?: () => void;
   onOpenUploadModal?: () => void;
   onOpenEnrollment?: (packageInfo?: any) => void;
+  onNavigateHome?: () => void;
+  onNavigateAbout?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -63,7 +65,9 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenDownloads,
   onOpenSuperUser,
   onOpenUploadModal,
-  onOpenEnrollment
+  onOpenEnrollment,
+  onNavigateHome,
+  onNavigateAbout
 }) => {
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
   const [packagesDropdownOpen, setPackagesDropdownOpen] = useState(false);
@@ -183,7 +187,11 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="w-full px-3 sm:px-6">
         <div className="flex items-center justify-between h-14">
           {/* Logo & Brand */}
-          <div className="flex items-center space-x-2.5">
+          <div
+            onClick={() => onNavigateHome && onNavigateHome()}
+            className={`flex items-center space-x-2.5 ${onNavigateHome ? 'cursor-pointer hover:opacity-90 transition' : ''}`}
+            title="NeetCbt Exam Platform"
+          >
             <div className="w-8 h-8 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center text-white font-black text-sm shadow-xs tracking-tight">
               nc
             </div>
@@ -324,6 +332,21 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Quick Action Buttons */}
           <div className="flex items-center space-x-1.5 sm:space-x-2.5">
+            {/* About Link */}
+            {onNavigateAbout && (
+              <a
+                href="/about"
+                onClick={(e) => {
+                  e.preventDefault();
+                  onNavigateAbout();
+                }}
+                className="hidden sm:flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold border border-slate-200 shadow-2xs transition cursor-pointer"
+                title="About NeetCbt Platform (Exclusively for NEET Exam Aspirants)"
+              >
+                <span>About</span>
+              </a>
+            )}
+
             {/* Ask Doubt Button */}
             <button
               id="header-ask-doubt-btn"

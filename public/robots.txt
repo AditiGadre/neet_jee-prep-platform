@@ -1,4 +1,19 @@
+# Allow all search engines and Google crawlers full access
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: *
 Allow: /
 
+# XML Sitemap
 Sitemap: https://neetcbtexam.com/sitemap.xml
+

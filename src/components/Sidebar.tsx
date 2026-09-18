@@ -29,6 +29,7 @@ interface SidebarProps {
   extraSubTab?: string;
   onSelectExtraSubTab?: (subTab: string) => void;
   onOpenAdmin?: () => void;
+  onNavigateToAbout?: () => void;
 }
 
 interface MenuItem {
@@ -45,7 +46,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
   onSelectTab,
   extraSubTab,
   onSelectExtraSubTab,
-  onOpenAdmin
+  onOpenAdmin,
+  onNavigateToAbout
 }) => {
   const menuItems: MenuItem[] = [
     {
@@ -182,6 +184,19 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <p className="text-[10px] text-slate-400 font-mono">
             Target Batch 2027–2029 &bull; 100% NCERT Authenticated
           </p>
+        </div>
+        <div className="mt-2 text-center">
+          <a
+            href="/about"
+            onClick={(e) => {
+              e.preventDefault();
+              if (onNavigateToAbout) onNavigateToAbout();
+            }}
+            className="text-[10.5px] font-semibold text-slate-400 hover:text-cyan-300 transition inline-flex items-center gap-1 cursor-pointer"
+          >
+            <span>About NeetCbt Platform</span>
+            <span>&rarr;</span>
+          </a>
         </div>
       </div>
     </aside>

@@ -88,6 +88,7 @@ function buildChapterIndex(questions: Question[], subject?: string) {
           }
           kinList.push(q);
           chapterSet.add('Kinematics');
+          chapterSet.add(ch);
           continue;
         }
 
@@ -146,9 +147,283 @@ export const ALL_CHEMISTRY_COMBINED_QUESTIONS: Question[] = [
 const chemIndex = buildChapterIndex(ALL_CHEMISTRY_COMBINED_QUESTIONS, 'Chemistry');
 const physIndex = buildChapterIndex(ALL_PHYSICS_MASTER_QUESTIONS, 'Physics');
 
-export const ALL_BIOLOGY_CHAPTERS: string[] = bioIndex.chapters;
-export const ALL_CHEMISTRY_CHAPTERS: string[] = chemIndex.chapters;
-export const ALL_PHYSICS_CHAPTERS: string[] = physIndex.chapters;
+/**
+ * 38 OFFICIAL NEET-UG BIOLOGY CHAPTERS (NCERT Class 11 & 12)
+ */
+export const OFFICIAL_NEET_BIOLOGY_CHAPTERS: string[] = [
+  // Class 11 (22 Chapters)
+  'The Living World',
+  'Biological Classification',
+  'Plant Kingdom',
+  'Animal Kingdom',
+  'Morphology of Flowering Plants',
+  'Anatomy of Flowering Plants',
+  'Structural Organisation in Animals',
+  'Cell: The Unit of Life',
+  'Biomolecules',
+  'Cell Cycle and Cell Division',
+  'Transport in Plants',
+  'Mineral Nutrition',
+  'Photosynthesis in Higher Plants',
+  'Respiration in Plants',
+  'Plant Growth and Development',
+  'Digestion and Absorption',
+  'Breathing and Exchange of Gases',
+  'Body Fluids and Circulation',
+  'Excretory Products and their Elimination',
+  'Locomotion and Movement',
+  'Neural Control and Coordination',
+  'Chemical Coordination and Integration',
+  // Class 12 (16 Chapters)
+  'Reproduction in Organisms',
+  'Sexual Reproduction in Flowering Plants',
+  'Human Reproduction',
+  'Reproductive Health',
+  'Principles of Inheritance and Variation',
+  'Molecular Basis of Inheritance',
+  'Evolution',
+  'Human Health and Disease',
+  'Strategies for Enhancement in Food Production',
+  'Microbes in Human Welfare',
+  'Biotechnology: Principles and Processes',
+  'Biotechnology and its Applications',
+  'Organisms and Populations',
+  'Ecosystem',
+  'Biodiversity and Conservation',
+  'Environmental Issues'
+];
+
+/**
+ * 30 OFFICIAL NEET-UG CHEMISTRY CHAPTERS (NCERT Class 11 & 12)
+ */
+export const OFFICIAL_NEET_CHEMISTRY_CHAPTERS: string[] = [
+  // Class 11 (14 Chapters)
+  'Some Basic Concepts of Chemistry',
+  'Structure of Atom',
+  'Classification of Elements and Periodicity in Properties',
+  'Chemical Bonding and Molecular Structure',
+  'States of Matter',
+  'Thermodynamics',
+  'Equilibrium',
+  'Redox Reactions',
+  'Hydrogen',
+  'The s-Block Elements',
+  'The p-Block Elements (Class 11)',
+  'Organic Chemistry - Some Basic Principles and Techniques',
+  'Hydrocarbons',
+  'Environmental Chemistry',
+  // Class 12 (16 Chapters)
+  'The Solid State',
+  'Solutions',
+  'Electrochemistry',
+  'Chemical Kinetics',
+  'Surface Chemistry',
+  'General Principles and Processes of Isolation of Elements',
+  'The p-Block Elements (Class 12)',
+  'The d- and f-Block Elements',
+  'Coordination Compounds',
+  'Haloalkanes and Haloarenes',
+  'Alcohols, Phenols and Ethers',
+  'Aldehydes, Ketones and Carboxylic Acids',
+  'Amines',
+  'Biomolecules (Chemistry)',
+  'Polymers',
+  'Chemistry in Everyday Life'
+];
+
+/**
+ * 28 OFFICIAL NEET-UG PHYSICS CHAPTERS (NCERT Class 11 & 12)
+ */
+export const OFFICIAL_NEET_PHYSICS_CHAPTERS: string[] = [
+  // Class 11 (14 Chapters)
+  'Physical World and Measurement',
+  'Units and Measurement',
+  'Kinematics',
+  'Motion in a Straight Line',
+  'Motion in a Plane',
+  'Laws of Motion',
+  'Work, Energy and Power',
+  'Rotational Motion',
+  'Gravitation',
+  'Mechanical Properties of Solids',
+  'Mechanical Properties of Fluids',
+  'Thermal Properties of Matter',
+  'Thermodynamics',
+  'Kinetic Theory of Gases',
+  'Oscillations and Waves',
+  // Class 12 (14 Chapters)
+  'Electrostatics',
+  'Current Electricity',
+  'Magnetic Effects of Current and Magnetism',
+  'Magnetism and Matter',
+  'Electromagnetic Induction',
+  'Alternating Current',
+  'Electromagnetic Waves',
+  'Ray Optics and Optical Instruments',
+  'Wave Optics',
+  'Dual Nature of Radiation and Matter',
+  'Atoms and Nuclei',
+  'Semiconductor Electronics',
+  'Principles of Communication Systems',
+  'Experimental Skills'
+];
+
+export interface VaultCustomChapter {
+  id: string;
+  subject: 'Physics' | 'Chemistry' | 'Biology';
+  chapter: string;
+  addedAt: string;
+}
+
+export const VAULT_CUSTOM_CHAPTERS_KEY = 'neet_admin_vault_chapters';
+
+export function getVaultCustomChapters(): VaultCustomChapter[] {
+  if (typeof window === 'undefined') return [];
+  try {
+    const raw = localStorage.getItem(VAULT_CUSTOM_CHAPTERS_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * Get all registered chapters in the Vault database for a given subject or all subjects.
+ * Dynamically unifies official baseline syllabus chapters, built-in questions, custom vault chapters, and uploaded questions.
+ */
+export function getVaultDatabaseChapters(subject?: 'Physics' | 'Chemistry' | 'Biology'): string[] {
+  const customVaultChapters = getVaultCustomChapters();
+  const customQuestions = getCustomQuestions();
+
+  const getChaptersForSubject = (subj: 'Physics' | 'Chemistry' | 'Biology'): string[] => {
+    const baseline =
+      subj === 'Biology'
+        ? OFFICIAL_NEET_BIOLOGY_CHAPTERS
+        : subj === 'Chemistry'
+        ? OFFICIAL_NEET_CHEMISTRY_CHAPTERS
+        : OFFICIAL_NEET_PHYSICS_CHAPTERS;
+
+    const builtinIndexChapters =
+      subj === 'Biology'
+        ? bioIndex.chapters
+        : subj === 'Chemistry'
+        ? chemIndex.chapters
+        : physIndex.chapters;
+
+    const customVaultSubj = customVaultChapters
+      .filter(c => c.subject === subj)
+      .map(c => c.chapter);
+
+    const customQSubj = customQuestions
+      .filter(q => q.subject === subj && q.chapter)
+      .map(q => q.chapter as string);
+
+    // Merge baseline + built-in + vault-custom + question-custom with normalized deduplication
+    const map = new Map<string, string>();
+
+    // Priority 1: Baseline official chapters first
+    for (const ch of baseline) {
+      const norm = normalizeChapterName(ch);
+      if (!map.has(norm)) map.set(norm, ch);
+    }
+    // Priority 2: Built-in question chapters
+    for (const ch of builtinIndexChapters) {
+      const norm = normalizeChapterName(ch);
+      if (!map.has(norm)) map.set(norm, ch);
+    }
+    // Priority 3: Custom chapters added in vault
+    for (const ch of customVaultSubj) {
+      const norm = normalizeChapterName(ch);
+      if (!map.has(norm)) map.set(norm, ch);
+    }
+    // Priority 4: Custom question chapters
+    for (const ch of customQSubj) {
+      const norm = normalizeChapterName(ch);
+      if (!map.has(norm)) map.set(norm, ch);
+    }
+
+    return Array.from(map.values());
+  };
+
+  if (subject) {
+    return getChaptersForSubject(subject);
+  }
+
+  return [
+    ...getChaptersForSubject('Physics'),
+    ...getChaptersForSubject('Chemistry'),
+    ...getChaptersForSubject('Biology')
+  ];
+}
+
+/**
+ * Add a new chapter to the Admin Vault database.
+ */
+export function addChapterToVaultDatabase(
+  subject: 'Physics' | 'Chemistry' | 'Biology',
+  chapterName: string
+): { success: boolean; message: string } {
+  const clean = chapterName.trim();
+  if (!clean) {
+    return { success: false, message: 'Chapter name cannot be empty.' };
+  }
+
+  const existing = getVaultDatabaseChapters(subject);
+  const cleanNorm = normalizeChapterName(clean);
+  const alreadyExists = existing.some(ch => normalizeChapterName(ch) === cleanNorm);
+
+  if (alreadyExists) {
+    return { success: false, message: `Chapter "${clean}" is already registered in the ${subject} database.` };
+  }
+
+  const customList = getVaultCustomChapters();
+  const newItem: VaultCustomChapter = {
+    id: `vault-ch-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+    subject,
+    chapter: clean,
+    addedAt: new Date().toISOString()
+  };
+
+  customList.push(newItem);
+  try {
+    localStorage.setItem(VAULT_CUSTOM_CHAPTERS_KEY, JSON.stringify(customList));
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('neet_question_bank_updated'));
+      window.dispatchEvent(new CustomEvent('neet_vault_chapters_updated', { detail: newItem }));
+    }
+    return { success: true, message: `Chapter "${clean}" added to ${subject} vault database successfully!` };
+  } catch (err: any) {
+    return { success: false, message: 'Failed to save to local storage: ' + err.message };
+  }
+}
+
+/**
+ * Delete a custom chapter from the Admin Vault database.
+ */
+export function deleteChapterFromVaultDatabase(
+  subject: 'Physics' | 'Chemistry' | 'Biology',
+  chapterName: string
+): boolean {
+  try {
+    const customList = getVaultCustomChapters();
+    const cleanNorm = normalizeChapterName(chapterName);
+    const filtered = customList.filter(
+      item => !(item.subject === subject && normalizeChapterName(item.chapter) === cleanNorm)
+    );
+    localStorage.setItem(VAULT_CUSTOM_CHAPTERS_KEY, JSON.stringify(filtered));
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('neet_question_bank_updated'));
+      window.dispatchEvent(new CustomEvent('neet_vault_chapters_updated'));
+    }
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+export const ALL_BIOLOGY_CHAPTERS: string[] = getVaultDatabaseChapters('Biology');
+export const ALL_CHEMISTRY_CHAPTERS: string[] = getVaultDatabaseChapters('Chemistry');
+export const ALL_PHYSICS_CHAPTERS: string[] = getVaultDatabaseChapters('Physics');
 
 // Static pre-combined array allocated once
 const ALL_BUILTIN_QUESTIONS: Question[] = [
@@ -445,6 +720,13 @@ export function uploadCustomQuestions(newQuestions: Question[], sourceTag: strin
     cachedCustomQuestions = updatedCustom;
     localStorage.setItem(CUSTOM_QUESTIONS_KEY, JSON.stringify(updatedCustom));
 
+    // Automatically register any new chapters from uploaded questions into the Admin Vault database
+    uniqueToAdd.forEach(q => {
+      if (q.subject && q.chapter) {
+        addChapterToVaultDatabase(q.subject as any, q.chapter);
+      }
+    });
+
     // Also ingest key explanations into AI Knowledge Store so AI Chatbot immediately learns from new data
     try {
       const aiStore = getLearnedKnowledgeStore();
@@ -596,7 +878,7 @@ export function getQuestionDatabaseStats() {
     chemistryCount: chemCount,
     physicsCount: physCount,
     customUploadedCount: custom.length,
-    totalChapters: bioIndex.chapters.length + chemIndex.chapters.length + physIndex.chapters.length
+    totalChapters: getVaultDatabaseChapters().length
   };
 }
 

@@ -213,6 +213,13 @@ import {
   ALL_PHYSICS_MASTER_QUESTIONS
 } from './physicsMasterQuestions';
 import {
+  NARAYANA_MOTION_IN_STRAIGHT_LINE_QUESTIONS,
+  NARAYANA_TEST_SERIES_PART1_QUESTIONS,
+  NARAYANA_TEST_SERIES_PART2_QUESTIONS,
+  NARAYANA_TEST_SERIES_PART3_QUESTIONS
+} from './narayanaMotionInStraightLineQuestions';
+import { PHYSICS_SMART_BOOKLET_MOTION_QUESTIONS } from './physicsSmartBookletMotionInStraightLineQuestions';
+import {
   TestItem,
   Flashcard,
   MindMapNode,
@@ -234,6 +241,160 @@ const get45 = (arr: Question[], start = 0): Question[] => {
 };
 
 export const TEST_SERIES_DATA: TestItem[] = [
+  // ==========================================
+  // PHYSICS SMART BOOKLET: MOTION IN A STRAIGHT LINE (185 QUESTIONS)
+  // ==========================================
+  {
+    id: 'test-smart-booklet-motion-full',
+    title: 'Smart Booklet Master: Motion in a Straight Line (185 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'Complete Physics Smart Booklet: Theory Illustrations, NCERT Line-by-Line, NCERT Based Practice, Topic-Wise Practice & NEET PYQs (185 Questions)',
+    totalQuestions: 185,
+    durationMinutes: 180,
+    totalMarks: 720,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    scheduledDate: '2026-09-24',
+    cbtMode: true,
+    features: [
+      'Complete 185 Questions from Physics Smart Booklet Chapter 4',
+      'All 5 Core Sections: Illustrations, NCERT Line-by-Line, NCERT Practice, Topic-Wise & PYQs',
+      'High-Resolution Kinematics Graphs & Diagram Integration',
+      'Official Verified Answer Key & Detailed Step-by-Step Pedagogical Solutions'
+    ],
+    questions: PHYSICS_SMART_BOOKLET_MOTION_QUESTIONS
+  },
+  {
+    id: 'test-smart-booklet-motion-topicwise',
+    title: 'Smart Booklet CBT: Topic-Wise Practice (104 Qs)',
+    category: 'part',
+    exam: 'NEET',
+    syllabus: 'Topic 1: Distance & Velocity, Topic 2: Accelerated Motion, Topic 3: Gravity, Topic 4: Relative Motion, Topic 5: Graphs (Q1 - Q104)',
+    totalQuestions: 104,
+    durationMinutes: 105,
+    totalMarks: 416,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    scheduledDate: '2026-09-25',
+    cbtMode: true,
+    features: [
+      '104 High-Yield Practice Questions across all 5 Core Topics',
+      '30+ Graph-Based Analysis & Motion Profile Questions',
+      'Step-by-step Mathematical Derivations & Solutions'
+    ],
+    questions: PHYSICS_SMART_BOOKLET_MOTION_QUESTIONS.slice(39, 143)
+  },
+  {
+    id: 'test-smart-booklet-motion-ncert-pyq',
+    title: 'Smart Booklet CBT: NCERT Line-by-Line & NEET PYQs (62 Qs)',
+    category: 'chapter',
+    exam: 'NEET',
+    syllabus: 'NCERT Line-by-Line (20 Qs) + NCERT Based Practice (34 Qs) + NEET PYQs (8 Qs)',
+    totalQuestions: 62,
+    durationMinutes: 60,
+    totalMarks: 248,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    scheduledDate: '2026-09-26',
+    cbtMode: true,
+    features: [
+      'Strict NCERT Page-Referenced Questions & Authentic NEET PYQs',
+      'Detailed Textual Justifications and Conceptual Clarifications'
+    ],
+    questions: [
+      ...PHYSICS_SMART_BOOKLET_MOTION_QUESTIONS.slice(19, 39),
+      ...PHYSICS_SMART_BOOKLET_MOTION_QUESTIONS.slice(39, 73),
+      ...PHYSICS_SMART_BOOKLET_MOTION_QUESTIONS.slice(143)
+    ]
+  },
+  // ==========================================
+  // NARAYANA TEST SERIES: MOTION IN A STRAIGHT LINE (130 QUESTIONS)
+  // ==========================================
+  {
+    id: 'test-narayana-motion-full',
+    title: 'Narayana Grand Test: Motion in a Straight Line (130 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'Day-19 Assignment: 1D Kinematics, Uniform Acceleration, Relative Motion, Graphs & Calculus (Full 130 Questions)',
+    totalQuestions: 130,
+    durationMinutes: 130,
+    totalMarks: 520,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    scheduledDate: '2026-09-22',
+    cbtMode: true,
+    features: [
+      'Complete 130 Questions from Narayana Medical Academy Assignment',
+      '20+ Embedded Vector & Kinematics Graph Schematics',
+      'Step-by-Step Derivations and Numerical Solutions',
+      'Instant All India Ranking & Topic Analysis'
+    ],
+    questions: NARAYANA_MOTION_IN_STRAIGHT_LINE_QUESTIONS
+  },
+  {
+    id: 'test-narayana-motion-part1',
+    title: 'Narayana CBT 01: Rectilinear Motion & Velocity (45 Qs)',
+    category: 'part',
+    exam: 'NEET',
+    syllabus: 'Displacement, Average Speed/Velocity, Uniform Acceleration & Alpha-Beta Acceleration (Q1 - Q45)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    scheduledDate: '2026-09-23',
+    cbtMode: true,
+    features: [
+      '45 NTA Pattern Questions (Q1 to Q45)',
+      'High-Yield Rolling, Pursuit & Acceleration Problems',
+      'Detailed Explanations with KaTeX LaTeX Formulas',
+      'Speed and Accuracy CBT Simulation'
+    ],
+    questions: NARAYANA_TEST_SERIES_PART1_QUESTIONS
+  },
+  {
+    id: 'test-narayana-motion-part2',
+    title: 'Narayana CBT 02: Kinematics Graphs, Calculus & Pursuit (45 Qs)',
+    category: 'part',
+    exam: 'NEET',
+    syllabus: 'Velocity-Time Curves, Space-Time Averages, Differential Calculus & 2D Vector Kinematics (Q46 - Q90)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    scheduledDate: '2026-09-24',
+    cbtMode: true,
+    features: [
+      '45 Advanced Analytical & Graphical Problems (Q46 to Q90)',
+      'Area Under Curve & Differential Acceleration Derivations',
+      'Detailed SVG Graphs & Schematics',
+      'Time-Management Scoring Analytics'
+    ],
+    questions: NARAYANA_TEST_SERIES_PART2_QUESTIONS
+  },
+  {
+    id: 'test-narayana-motion-part3',
+    title: 'Narayana CBT 03: Free Fall, Tower Problems & Relative Motion (40 Qs)',
+    category: 'part',
+    exam: 'NEET',
+    syllabus: 'Motion Under Gravity, Multi-Storey Drops, Air Resistance & Moving Frame Dynamics (Q91 - Q130)',
+    totalQuestions: 40,
+    durationMinutes: 40,
+    totalMarks: 160,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    scheduledDate: '2026-09-25',
+    cbtMode: true,
+    features: [
+      '40 Comprehensive Free Fall & Tower Questions (Q91 to Q130)',
+      'Elevator, Escalator, and Multi-Body Crossing Physics',
+      '100% Verified Step-by-Step Solutions',
+      'Performance Diagnostic & Negative Marking Audit'
+    ],
+    questions: NARAYANA_TEST_SERIES_PART3_QUESTIONS
+  },
 // ==========================================
   // 1. SUNDAY-TO-SUNDAY ALL INDIA SCHEDULED TEST SERIES (45 Qs & 15 MINS)
   // ==========================================
@@ -4552,7 +4713,7 @@ export const RANKER_STORIES: any[] = [];
 export const FAQS_DATA: any[] = [
   {
     question: 'How is this CBT Test Series structured for NEET 2026/2027?',
-    answer: 'Every test is strictly structured with 45 questions, 45 minutes allotted time, and 180 marks (+4 for correct, -1 for incorrect). It features scheduled Sunday-to-Sunday All India mock tests, Class 11 & 12 chapter-wise tests, and customizable tests from our 6,465 verified NCERT question bank.',
+    answer: 'Every test is strictly structured with 45 questions, 45 minutes allotted time, and 180 marks (+4 for correct, -1 for incorrect). It features scheduled Sunday-to-Sunday All India mock tests, Class 11 & 12 chapter-wise tests, and customizable tests from our 18,500+ verified NCERT, Premier Institute & Narayana question bank.',
     category: 'CBT Test Series'
   },
   {

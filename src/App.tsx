@@ -10,6 +10,7 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 // Lazy-load secondary tabs & heavy interactive modals for sub-second initial load
 const WhatExtraSection = lazy(() => import('./components/WhatExtraSection').then(m => ({ default: m.WhatExtraSection })));
 const AboutExamSection = lazy(() => import('./components/AboutExamSection').then(m => ({ default: m.AboutExamSection })));
+const AboutPlatformSection = lazy(() => import('./components/AboutPlatformSection').then(m => ({ default: m.AboutPlatformSection })));
 const SupportSection = lazy(() => import('./components/SupportSection').then(m => ({ default: m.SupportSection })));
 const CBTTestModal = lazy(() => import('./components/CBTTestModal').then(m => ({ default: m.CBTTestModal })));
 const LiveDoubtModal = lazy(() => import('./components/LiveDoubtModal').then(m => ({ default: m.LiveDoubtModal })));
@@ -44,6 +45,44 @@ import { ExamType, TestItem, BookItem, UserTestResult } from './types';
 
 export default function App() {
   const [activeExam, setActiveExam] = useState<ExamType>('NEET');
+  const [currentPath, setCurrentPath] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      const p = window.location.pathname.toLowerCase();
+      return p.length > 1 && p.endsWith('/') ? p.slice(0, -1) : p;
+    }
+    return '/';
+  });
+
+  const navigateTo = (path: string) => {
+    if (typeof window !== 'undefined') {
+      const target = path.length > 1 && path.endsWith('/') ? path.slice(0, -1) : path;
+      if (window.location.pathname.toLowerCase() !== target.toLowerCase()) {
+        window.history.pushState(null, '', target);
+      }
+      setCurrentPath(target.toLowerCase());
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
+  useEffect(() => {
+    const handlePopState = () => {
+      if (typeof window !== 'undefined') {
+        const p = window.location.pathname.toLowerCase();
+        setCurrentPath(p.length > 1 && p.endsWith('/') ? p.slice(0, -1) : p);
+      }
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  useEffect(() => {
+    if (currentPath === '/about') {
+      document.title = 'About NeetCbt | Exclusively for NEET-UG Exam Aspirants';
+    } else {
+      document.title = 'Neetcbt for neet aspirants | All-India CBT Test Series & Exam Simulator';
+    }
+  }, [currentPath]);
+
   const [activeTab, setActiveTab] = useState<TabType>(() => {
     try {
       const saved = localStorage.getItem('neet_active_tab');
@@ -478,68 +517,143 @@ export default function App() {
           setEnrollmentPackageId(pkg?.id);
           setIsEnrollmentModalOpen(true);
         }}
+        onNavigateHome={() => navigateTo('/')}
+        onNavigateAbout={() => navigateTo('/about')}
       />
 
-      {/* Main Layout Container */}
-      <div className="flex-1 flex flex-col lg:flex-row w-full mx-auto">
-        {/* Sidebar */}
-        <Sidebar
-          activeTab={activeTab}
-          onSelectTab={setActiveTab}
-          extraSubTab={extraSubTab}
-          onSelectExtraSubTab={setExtraSubTab}
-        />
-
-        {/* Dynamic Content Area */}
-        <main className="flex-1 p-4 sm:p-5 lg:p-6 overflow-y-auto bg-slate-100 min-w-0">
-          <Suspense fallback={<SectionLoadingFallback />}>
-            {activeTab === 'test-series' && (
-              <TestSeriesSection
-                testItems={TEST_SERIES_DATA}
-                targetYear={targetYear}
-                onStartTest={handleStartTest}
-              />
-            )}
-
-            {activeTab === 'what-extra' && (
-              <WhatExtraSection
-                activeSubTab={extraSubTab}
-                onSelectSubTab={setExtraSubTab}
-                flashcards={FLASHCARDS_DATA}
-                mindMaps={MIND_MAPS_DATA}
-                books={BOOKS_DATA}
-                pyqs={PYQS_DATA}
-                onStartCustomTest={handleStartTest}
-                onOpenBook={setActiveBookForReading}
-                completedTests={completedTests}
-                onOpenUploadModal={handleOpenUpload}
-              />
-            )}
-
-            {activeTab === 'about-exam' && <AboutExamSection />}
-          </Suspense>
-
-          {/* Institutional Platform Footer */}
-          <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2.5">
-            <div className="text-[11px] text-slate-500">
-              © 2026 NeetCbt Exam Test. All rights reserved. Academic CBT Examination Simulator.
-            </div>
-            <div className="flex items-center space-x-3 text-[11px]">
+      {/* ROUTE 1: Dedicated Standalone /about Page View */}
+      {currentPath === '/about' ? (
+        <div className="flex-1 flex flex-col w-full bg-slate-100 min-h-[calc(100vh-3.5rem)] animate-in fade-in duration-150">
+          {/* Sub-header Navigation Strip */}
+          <div className="bg-white border-b border-slate-200 px-4 sm:px-8 py-3 flex items-center justify-between shadow-2xs">
+            <div className="flex items-center space-x-2">
               <button
                 type="button"
-                onClick={() => setIsTermsModalOpen(true)}
-                className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+                onClick={() => navigateTo('/')}
+                className="px-3.5 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-2xs"
               >
-                Terms & Conditions
+                <span>← Back to Test Series & Sunday Mocks</span>
               </button>
-              <span>•</span>
-              <span className="text-slate-400">2-Device Protected</span>
-              <span>•</span>
-              <span className="text-slate-400">DOB PIN Encrypted</span>
+              <span className="text-slate-300">/</span>
+              <span className="text-xs font-semibold text-slate-500">About Platform</span>
             </div>
-          </footer>
-        </main>
-      </div>
+            <div className="hidden sm:flex items-center space-x-2 text-xs font-semibold text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-200 font-mono">
+              <span>https://neetcbtexam.com/about</span>
+            </div>
+          </div>
+
+          {/* About Platform Content Container */}
+          <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-6xl mx-auto w-full">
+            <Suspense fallback={<SectionLoadingFallback />}>
+              <AboutPlatformSection
+                onNavigateToTestSeries={() => navigateTo('/')}
+                onOpenEnrollment={() => setIsEnrollmentModalOpen(true)}
+              />
+            </Suspense>
+
+            {/* Institutional Platform Footer on /about */}
+            <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2.5">
+              <div className="text-[11px] text-slate-500">
+                © 2026 NeetCbt Exam Test. Built exclusively for NEET-UG Exam Aspirants.
+              </div>
+              <div className="flex items-center space-x-3 text-[11px]">
+                <button
+                  type="button"
+                  onClick={() => navigateTo('/')}
+                  className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+                >
+                  ← Test Series Dashboard
+                </button>
+                <span>•</span>
+                <button
+                  type="button"
+                  onClick={() => setIsTermsModalOpen(true)}
+                  className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+                >
+                  Terms & Conditions
+                </button>
+                <span>•</span>
+                <span className="text-slate-400">2-Device Protected</span>
+                <span>•</span>
+                <span className="text-slate-400">DOB PIN Encrypted</span>
+              </div>
+            </footer>
+          </main>
+        </div>
+      ) : (
+        /* ROUTE 2: Main Application Dashboard */
+        <div className="flex-1 flex flex-col lg:flex-row w-full mx-auto">
+          {/* Sidebar */}
+          <Sidebar
+            activeTab={activeTab}
+            onSelectTab={setActiveTab}
+            extraSubTab={extraSubTab}
+            onSelectExtraSubTab={setExtraSubTab}
+            onNavigateToAbout={() => navigateTo('/about')}
+          />
+
+          {/* Dynamic Content Area */}
+          <main className="flex-1 p-4 sm:p-5 lg:p-6 overflow-y-auto bg-slate-100 min-w-0">
+            <Suspense fallback={<SectionLoadingFallback />}>
+              {activeTab === 'test-series' && (
+                <TestSeriesSection
+                  testItems={TEST_SERIES_DATA}
+                  targetYear={targetYear}
+                  onStartTest={handleStartTest}
+                />
+              )}
+
+              {activeTab === 'what-extra' && (
+                <WhatExtraSection
+                  activeSubTab={extraSubTab}
+                  onSelectSubTab={setExtraSubTab}
+                  flashcards={FLASHCARDS_DATA}
+                  mindMaps={MIND_MAPS_DATA}
+                  books={BOOKS_DATA}
+                  pyqs={PYQS_DATA}
+                  onStartCustomTest={handleStartTest}
+                  onOpenBook={setActiveBookForReading}
+                  completedTests={completedTests}
+                  onOpenUploadModal={handleOpenUpload}
+                />
+              )}
+
+              {activeTab === 'about-exam' && <AboutExamSection />}
+            </Suspense>
+
+            {/* Institutional Platform Footer */}
+            <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2.5">
+              <div className="text-[11px] text-slate-500">
+                © 2026 NeetCbt Exam Test. All rights reserved. Academic CBT Examination Simulator.
+              </div>
+              <div className="flex items-center space-x-3 text-[11px]">
+                <a
+                  href="/about"
+                  onClick={e => {
+                    e.preventDefault();
+                    navigateTo('/about');
+                  }}
+                  className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+                >
+                  About Platform (NEET Aspirants)
+                </a>
+                <span>•</span>
+                <button
+                  type="button"
+                  onClick={() => setIsTermsModalOpen(true)}
+                  className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+                >
+                  Terms & Conditions
+                </button>
+                <span>•</span>
+                <span className="text-slate-400">2-Device Protected</span>
+                <span>•</span>
+                <span className="text-slate-400">DOB PIN Encrypted</span>
+              </div>
+            </footer>
+          </main>
+        </div>
+      )}
 
       {/* Suspended Modals */}
       <Suspense fallback={null}>

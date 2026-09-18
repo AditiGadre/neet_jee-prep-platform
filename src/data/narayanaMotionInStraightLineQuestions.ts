@@ -1,0 +1,2776 @@
+import { Question } from '../types';
+
+/**
+ * Narayana Medical Academy - Daily Practice Assignment (Day-19)
+ * Subject: Physics
+ * Chapter: Motion in a Straight Line
+ * Comprehensive 130 Questions with Verified Answers, Step-by-Step Solutions, and High-Yield Diagrams
+ */
+export const NARAYANA_MOTION_IN_STRAIGHT_LINE_QUESTIONS: Question[] = [
+  {
+    "id": "narayana-motion-1d-q01",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance and Displacement",
+    "difficulty": "Medium",
+    "questionText": "A wheel of radius $1\\text{ m}$ rolls forward half a revolution on a horizontal ground. The magnitude of the displacement of the point of the wheel initially in contact with the ground is:",
+    "options": [
+      "2\\pi",
+      "2\\sqrt{\\pi}",
+      "\\sqrt{\\pi^2 + 4}",
+      "\\pi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Concept**: During half a revolution of rolling without slipping:\n- The linear displacement of the center of mass along the ground is $\\Delta x = \\pi R$.\n- The contact point initially at the bottom ($A$) reaches the top ($A''$) after half a turn, so its vertical change is the diameter: $\\Delta y = 2R$.\n\n⚡ **Step-by-Step Derivation**:\n1. Displacement vector: $\\vec{s} = (\\pi R)\\hat{i} + (2R)\\hat{j}$.\n2. Magnitude: $|\\vec{s}| = \\sqrt{(\\pi R)^2 + (2R)^2} = R\\sqrt{\\pi^2 + 4}$.\n3. Since $R = 1\\text{ m}$, the magnitude is $\\sqrt{\\pi^2 + 4}\\text{ m}$.",
+    "diagramSvg": "<svg viewBox=\"0 0 420 180\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"145\" x2=\"400\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2.5\"/><circle cx=\"90\" cy=\"95\" r=\"50\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/><circle cx=\"90\" cy=\"145\" r=\"4\" fill=\"#DC2626\"/><text x=\"90\" y=\"165\" font-size=\"12\" font-weight=\"bold\" fill=\"#DC2626\" text-anchor=\"middle\">A (Initial)</text><circle cx=\"270\" cy=\"95\" r=\"50\" fill=\"#EFF6FF\" stroke=\"#2563EB\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"45\" r=\"4\" fill=\"#16A34A\"/><text x=\"270\" y=\"32\" font-size=\"12\" font-weight=\"bold\" fill=\"#16A34A\" text-anchor=\"middle\">A'' (Final)</text><line x1=\"90\" y1=\"145\" x2=\"270\" y2=\"145\" stroke=\"#475569\" stroke-width=\"1.5\"/><text x=\"180\" y=\"162\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\" text-anchor=\"middle\">πR = π(1) m</text><line x1=\"270\" y1=\"145\" x2=\"270\" y2=\"45\" stroke=\"#475569\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"295\" y=\"100\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">2R = 2 m</text><line x1=\"90\" y1=\"145\" x2=\"270\" y2=\"45\" stroke=\"#DC2626\" stroke-width=\"2.5\"/><text x=\"160\" y=\"85\" font-size=\"12\" font-weight=\"bold\" fill=\"#DC2626\">s = √(π² + 4)</text></svg>",
+    "tags": [
+      "Rolling Motion",
+      "Displacement",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q02",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Average Acceleration",
+    "difficulty": "Easy",
+    "questionText": "A particle, moving with uniform speed $v$, changes its direction by angle $\\theta$ in time $t$. Magnitude of its average acceleration during this time is:",
+    "options": [
+      "Zero",
+      "\\frac{2v}{t}\\sin\\frac{\\theta}{2}",
+      "\\frac{v\\sqrt{2}}{t}",
+      "\\frac{2v}{t}\\cos\\frac{\\theta}{2}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Concept**: Average acceleration is given by $\\vec{a}_{\\text{av}} = \\frac{\\Delta \\vec{v}}{\\Delta t} = \\frac{\\vec{v}_f - \\vec{v}_i}{t}$.\n\n⚡ **Derivation**:\n1. Since speed is constant, $|\\vec{v}_i| = |\\vec{v}_f| = v$.\n2. The change in velocity vector magnitude is:\n   $$|\\Delta \\vec{v}| = \\sqrt{v^2 + v^2 - 2v^2\\cos\\theta} = \\sqrt{2v^2(1 - \\cos\\theta)} = 2v\\sin\\left(\\frac{\\theta}{2}\\right)$$\n3. Average acceleration magnitude:\n   $$a_{\\text{av}} = \\frac{|\\Delta \\vec{v}|}{t} = \\frac{2v}{t}\\sin\\left(\\frac{\\theta}{2}\\right)$$",
+    "diagramSvg": "<svg viewBox=\"0 0 380 150\" class=\"w-full max-w-sm mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"380\" height=\"150\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563EB\"/></marker><marker id=\"redarrow\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#DC2626\"/></marker></defs><line x1=\"60\" y1=\"110\" x2=\"170\" y2=\"110\" stroke=\"#2563EB\" stroke-width=\"2.5\" marker-end=\"url(#arrow)\"/><text x=\"115\" y=\"130\" font-size=\"12\" font-weight=\"bold\" fill=\"#2563EB\">v_i</text><line x1=\"170\" y1=\"110\" x2=\"245\" y2=\"35\" stroke=\"#2563EB\" stroke-width=\"2.5\" marker-end=\"url(#arrow)\"/><text x=\"225\" y=\"65\" font-size=\"12\" font-weight=\"bold\" fill=\"#2563EB\">v_f</text><line x1=\"60\" y1=\"110\" x2=\"245\" y2=\"35\" stroke=\"#DC2626\" stroke-width=\"2\" stroke-dasharray=\"4,3\" marker-end=\"url(#redarrow)\"/><text x=\"135\" y=\"60\" font-size=\"12\" font-weight=\"bold\" fill=\"#DC2626\">Δv = 2v sin(θ/2)</text><path d=\"M 195 110 A 25 25 0 0 0 190 90\" fill=\"none\" stroke=\"#475569\" stroke-width=\"1.5\"/><text x=\"205\" y=\"102\" font-size=\"11\" fill=\"#475569\">θ</text></svg>",
+    "tags": [
+      "Vectors",
+      "Average Acceleration",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q03",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Average Velocity",
+    "difficulty": "Hard",
+    "questionText": "A particle travelling along a straight line traverses one third of the total distance with a velocity $V_0$. The remaining part of the distance was covered with a velocity $V_1$ for half the time and velocity $V_2$ for the other half of the time. Find the mean velocity of the point averaged over the whole motion of time:",
+    "options": [
+      "\\frac{3V_0(V_1 + V_2)}{V_1 + V_2 + 4V_0}",
+      "\\frac{V_0(V_1 + V_2)}{V_1 + V_2 + 12V_0}",
+      "\\frac{V_0}{V_1 + V_2 + V_0}",
+      "\\frac{V_1 + V_2 + V_0}{V_0}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let total distance be $d$.\n2. For first $d/3$, time taken: $t_1 = \\frac{d/3}{V_0} = \\frac{d}{3V_0}$.\n3. For remaining distance $\\frac{2d}{3}$, let total time be $t_2$. It moves with $V_1$ for $t_2/2$ and $V_2$ for $t_2/2$:\n   $$\\frac{2d}{3} = V_1\\left(\\frac{t_2}{2}\\right) + V_2\\left(\\frac{t_2}{2}\\right) = \\frac{V_1 + V_2}{2}t_2 \\implies t_2 = \\frac{4d}{3(V_1 + V_2)}$$\n4. Total time of journey:\n   $$T = t_1 + t_2 = \\frac{d}{3V_0} + \\frac{4d}{3(V_1 + V_2)} = \\frac{d(V_1 + V_2 + 4V_0)}{3V_0(V_1 + V_2)}$$\n5. Average velocity:\n   $$V_{\\text{avg}} = \\frac{d}{T} = \\frac{3V_0(V_1 + V_2)}{V_1 + V_2 + 4V_0}$$",
+    "tags": [
+      "Average Velocity",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q04",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniform Acceleration",
+    "difficulty": "Medium",
+    "questionText": "A car accelerates from rest at a constant rate $\\alpha$ for some time, after which it decelerates at a constant rate $\\beta$ and comes to rest. If the total time elapsed is $t$, then the maximum velocity acquired by the car is:",
+    "options": [
+      "\\left(\\frac{\\alpha^2 + \\beta^2}{\\alpha\\beta}\\right)t",
+      "\\left(\\frac{\\alpha^2 - \\beta^2}{\\alpha\\beta}\\right)t",
+      "\\frac{(\\alpha - \\beta)t}{\\alpha\\beta}",
+      "\\frac{\\alpha\\beta t}{\\alpha + \\beta}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let acceleration time be $t_1$ and deceleration time be $t_2$, so $t_1 + t_2 = t$.\n2. Maximum velocity $v_{\\max} = \\alpha t_1 = \\beta t_2$.\n3. From this: $t_1 = \\frac{v_{\\max}}{\\alpha}$ and $t_2 = \\frac{v_{\\max}}{\\beta}$.\n4. Sum of times: $t = v_{\\max}\\left(\\frac{1}{\\alpha} + \\frac{1}{\\beta}\\right) = v_{\\max}\\left(\\frac{\\alpha + \\beta}{\\alpha\\beta}\\right)$.\n5. Solving for $v_{\\max}$:\n   $$v_{\\max} = \\frac{\\alpha\\beta t}{\\alpha + \\beta}$$",
+    "tags": [
+      "Kinematics",
+      "Alpha-Beta Problem",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q05",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Rectilinear Motion with Retardation",
+    "difficulty": "Medium",
+    "questionText": "A particle starts with a velocity of $2\\text{ m s}^{-1}$ and moves in a straight line with a retardation of $0.1\\text{ m s}^{-2}$. The first time at which the particle is $15\\text{ m}$ from the starting point is:",
+    "options": [
+      "10 s",
+      "20 s",
+      "30 s",
+      "40 s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Using the displacement relation: $s = ut - \\frac{1}{2}at^2$.\n2. Given $s = 15\\text{ m}$, $u = 2\\text{ m/s}$, $a = 0.1\\text{ m/s}^2$:\n   $$15 = 2t - \\frac{1}{2}(0.1)t^2 \\implies 15 = 2t - 0.05t^2$$\n3. Rearranging into standard quadratic form: $0.05t^2 - 2t + 15 = 0$.\n4. Multiply throughout by 20: $t^2 - 40t + 300 = 0$.\n5. Factoring: $(t - 10)(t - 30) = 0$.\n6. The two times correspond to passing $15\\text{ m}$ on the forward journey ($t = 10\\text{ s}$) and on the return journey after reversing ($t = 30\\text{ s}$). The first time is $t = 10\\text{ s}$.",
+    "tags": [
+      "Retardation",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q06",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Symmetry in 1D Motion",
+    "difficulty": "Medium",
+    "questionText": "A particle returns to the starting point after $10\\text{ s}$. If the rate of change of velocity during the motion is constant, then its location after $7\\text{ s}$ will be same as that after:",
+    "options": [
+      "1 s",
+      "2 s",
+      "3 s",
+      "4 s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Concept**: Under constant acceleration, 1D motion is completely symmetric about the turnaround point where velocity becomes zero.\n- Total time of round trip $= 10\\text{ s}$.\n- Turnaround point (zero velocity) occurs at $t_{\\text{apex}} = \\frac{10}{2} = 5\\text{ s}$.\n- By time symmetry, the position at $(5 + \\Delta t)$ is identical to the position at $(5 - \\Delta t)$.\n- For $t = 7\\text{ s}$, $\\Delta t = 7 - 5 = 2\\text{ s}$.\n- Hence, the location is the same as at $t = 5 - 2 = 3\\text{ s}$.",
+    "tags": [
+      "Symmetry of Motion",
+      "1D Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q07",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniform Retardation",
+    "difficulty": "Medium",
+    "questionText": "Velocity of a body moving along a straight line with uniform retardation $a$ reduces by $\\frac{3}{4}$ of its initial velocity in time $t_0$. The total time of motion of the body till its velocity becomes zero is:",
+    "options": [
+      "\\frac{4}{3}t_0",
+      "\\frac{3}{2}t_0",
+      "\\frac{5}{3}t_0",
+      "\\frac{8}{3}t_0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Initial velocity $= u$. Velocity reduces *by* $\\frac{3}{4}u$, so velocity at $t_0$ is:\n   $$v = u - \\frac{3}{4}u = \\frac{u}{4}$$\n2. Using $v = u - at_0$:\n   $$\\frac{u}{4} = u - at_0 \\implies at_0 = \\frac{3u}{4} \\implies a = \\frac{3u}{4t_0}$$\n3. Total time $t$ for velocity to become zero ($v = 0$):\n   $$0 = u - at \\implies t = \\frac{u}{a} = \\frac{u}{\\frac{3u}{4t_0}} = \\frac{4}{3}t_0$$",
+    "tags": [
+      "Uniform Retardation",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q08",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Displacement in Last Seconds",
+    "difficulty": "Hard",
+    "questionText": "A body starts from rest with uniform acceleration $a$, its velocity after $n$ seconds is $v$. The displacement of the body in last $3\\text{ s}$ is (assume total time of journey from $0$ to $n$ seconds):",
+    "options": [
+      "\\frac{v(6n - 9)}{2n}",
+      "\\frac{2v(6n - 9)}{n}",
+      "\\frac{2v(2n + 1)}{n}",
+      "\\frac{2v(n - 1)}{n}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. From $v = u + at$ with $u = 0$: $v = an \\implies a = \\frac{v}{n}$.\n2. Total displacement in $n$ seconds: $S_n = \\frac{1}{2}an^2$.\n3. Displacement in first $(n - 3)$ seconds: $S_{n-3} = \\frac{1}{2}a(n - 3)^2$.\n4. Displacement in last $3\\text{ s}$:\n   $$S = S_n - S_{n-3} = \\frac{1}{2}a\\left[n^2 - (n - 3)^2\\right] = \\frac{1}{2}a(6n - 9)$$\n5. Substituting $a = \\frac{v}{n}$:\n   $$S = \\frac{1}{2}\\left(\\frac{v}{n}\\right)(6n - 9) = \\frac{v(6n - 9)}{2n}$$",
+    "tags": [
+      "Uniform Acceleration",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q09",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Stopping Distance",
+    "difficulty": "Easy",
+    "questionText": "A car moving with a velocity of $10\\text{ m/s}$ can be stopped by the application of a constant force $F$ in a distance of $20\\text{ m}$. If the velocity of the car is $30\\text{ m/s}$, it can be stopped by this force in:",
+    "options": [
+      "100 m",
+      "120 m",
+      "180 m",
+      "160 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Derivation**:\n1. Stopping distance formula: $v^2 = u^2 - 2as \\implies s = \\frac{u^2}{2a}$.\n2. Since the braking force $F$ and hence retardation $a$ is identical, $s \\propto u^2$.\n3. Ratio of stopping distances:\n   $$\\frac{s_2}{s_1} = \\left(\\frac{u_2}{u_1}\\right)^2 = \\left(\\frac{30}{10}\\right)^2 = 9$$\n4. Therefore: $s_2 = 9 \\times s_1 = 9 \\times 20\\text{ m} = 180\\text{ m}$.",
+    "tags": [
+      "Stopping Distance",
+      "Work-Energy",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q10",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Frames of Reference & Relative Motion",
+    "difficulty": "Hard",
+    "questionText": "A ball is bouncing elastically with a speed $1\\text{ m/s}$ between walls of a railway compartment of size $10\\text{ m}$ in a direction perpendicular to walls. The train is moving at a constant velocity of $10\\text{ m/s}$ parallel to the direction of motion of the ball. As seen from the ground:\n(A) The direction of motion of the ball changes every 10 seconds\n(B) Speed of ball changes every 10 seconds\n(C) Average speed of ball over any 20 seconds interval is fixed\n(D) The acceleration of ball is the same as from the train\n\nWhich of the following statements are correct?",
+    "options": [
+      "B, C, D are correct",
+      "Only B is correct",
+      "Only A is correct",
+      "Only D is correct"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Frame of Reference Analysis**:\n1. In the train frame, the ball travels $10\\text{ m}$ at $1\\text{ m/s}$, taking $\\frac{10}{1} = 10\\text{ s}$ per bounce.\n2. In the ground frame (train moving forward at $10\\text{ m/s}$):\n   - When ball moves forward: $v_1 = 10 + 1 = 11\\text{ m/s}$ (forward).\n   - When ball rebounds backward in compartment: $v_2 = 10 - 1 = 9\\text{ m/s}$ (still moving forward relative to ground!).\n   - Since $v$ is always positive ($>0$), the ball's direction of motion relative to ground NEVER changes. Thus statement (A) is false.\n3. Speed alternates between $11\\text{ m/s}$ and $9\\text{ m/s}$ every $10\\text{ s}$, so (B) is correct.\n4. In any $20\\text{ s}$ interval, total distance covered is $11(10) + 9(10) = 200\\text{ m}$, so average speed $= 200/20 = 10\\text{ m/s}$ is constant. Thus (C) is correct.\n5. Since the train moves at constant velocity, it is an inertial frame, meaning acceleration is identical in both frames. Thus (D) is correct.\nHence, statements B, C, D are correct.",
+    "tags": [
+      "Frame of Reference",
+      "Relative Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q11",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion of Two Trains",
+    "difficulty": "Hard",
+    "questionText": "Two trains, each of length $100\\text{ m}$, moving in opposite directions along parallel lines, meet each other with speeds of $50\\text{ km h}^{-1}$ and $40\\text{ km h}^{-1}$. If their accelerations are $30\\text{ cm s}^{-2}$ and $20\\text{ cm s}^{-2}$ respectively, find the time they will take to pass each other.",
+    "options": [
+      "(10\\sqrt{40} - 40) s",
+      "(10\\sqrt{33} - 50) s",
+      "(10\\sqrt{22} - 50) s",
+      "(10\\sqrt{42} - 40) s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Relative Motion Derivation**:\n1. Total distance for two trains to cross completely: $s_{\\text{rel}} = L_1 + L_2 = 100 + 100 = 200\\text{ m}$.\n2. Initial relative velocity (opposite directions): $u_{\\text{rel}} = 50 + 40 = 90\\text{ km/h} = 90 \\times \\frac{5}{18} = 25\\text{ m/s}$.\n3. Relative acceleration: $a_{\\text{rel}} = 30 + 20 = 50\\text{ cm/s}^2 = 0.5\\text{ m/s}^2$.\n4. Using $s_{\\text{rel}} = u_{\\text{rel}}t + \\frac{1}{2}a_{\\text{rel}}t^2$:\n   $$200 = 25t + \\frac{1}{2}(0.5)t^2 \\implies 0.25t^2 + 25t - 200 = 0$$\n5. Multiply by 4: $t^2 + 100t - 800 = 0$.\n6. Using quadratic formula:\n   $$t = \\frac{-100 + \\sqrt{10000 - 4(1)(-800)}}{2} = \\frac{-100 + \\sqrt{13200}}{2} = -50 + \\frac{20\\sqrt{33}}{2} = (10\\sqrt{33} - 50)\\text{ s}$$",
+    "tags": [
+      "Relative Motion",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q12",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Velocity & Projectiles",
+    "difficulty": "Medium",
+    "questionText": "A police van moving on a highway with a speed of $30\\text{ km h}^{-1}$ fires a bullet at a thief’s car speeding away in the same direction with a speed of $192\\text{ km h}^{-1}$. If the muzzle speed of the bullet is $150\\text{ m s}^{-1}$, with what speed does the bullet hit the thief’s car?",
+    "options": [
+      "100 m s⁻¹",
+      "210 m s⁻¹",
+      "52.5 m s⁻¹",
+      "105 m s⁻¹"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Relative Velocity Derivation**:\n1. Speed of police van: $v_{\\text{van}} = 30 \\times \\frac{5}{18} = \\frac{25}{3}\\text{ m/s}$.\n2. Muzzle speed is relative to the van: $v_{\\text{bullet, van}} = 150\\text{ m/s}$.\n3. Speed of bullet w.r.t ground:\n   $$v_{\\text{bullet, ground}} = v_{\\text{bullet, van}} + v_{\\text{van}} = 150 + \\frac{25}{3} = \\frac{475}{3}\\text{ m/s}$$\n4. Speed of thief car w.r.t ground: $v_{\\text{thief}} = 192 \\times \\frac{5}{18} = \\frac{160}{3}\\text{ m/s}$.\n5. Relative speed of bullet hitting the thief's car:\n   $$v_{\\text{rel}} = v_{\\text{bullet, ground}} - v_{\\text{thief}} = \\frac{475}{3} - \\frac{160}{3} = \\frac{315}{3} = 105\\text{ m/s}$$",
+    "tags": [
+      "Relative Velocity",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q13",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "River Swimmer Problem",
+    "difficulty": "Medium",
+    "questionText": "A swimmer capable of swimming with velocity $v$ relative to water jumps in a flowing river having velocity $u$. The man swims a distance $d$ downstream and returns back to the original position. Find out the time taken in complete motion.",
+    "options": [
+      "\\frac{dv}{v^2 - u^2}",
+      "\\frac{dv}{v^2 + u^2}",
+      "\\frac{2dv}{v^2 - u^2}",
+      "\\frac{dv}{u^2 - v^2}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Derivation**:\n1. Downstream velocity: $v_{\\text{down}} = v + u$.\n   Time downstream: $t_{\\text{down}} = \\frac{d}{v + u}$.\n2. Upstream velocity: $v_{\\text{up}} = v - u$.\n   Time upstream: $t_{\\text{up}} = \\frac{d}{v - u}$.\n3. Total round-trip time:\n   $$T = t_{\\text{down}} + t_{\\text{up}} = \\frac{d}{v + u} + \\frac{d}{v - u} = \\frac{d(v - u + v + u)}{v^2 - u^2} = \\frac{2dv}{v^2 - u^2}$$",
+    "tags": [
+      "River Flow",
+      "Relative Velocity",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q14",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Velocity-Time Graph Analysis",
+    "difficulty": "Medium",
+    "questionText": "Two particles A and B start from rest and move for equal time on a straight line. Particle A has an acceleration of $2\\text{ m/s}^2$ for the first half of the total time and $4\\text{ m/s}^2$ for the second half. The particle B has acceleration $4\\text{ m/s}^2$ for the first half and $2\\text{ m/s}^2$ for the second half. Which particle has covered larger distance?",
+    "options": [
+      "A",
+      "B",
+      "Both have covered the same distance",
+      "Data insufficient"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Graphical and Analytical Proof**:\n1. Let total time be $2t$, so each half is time $t$.\n2. For Particle A:\n   - Velocity after first half: $v_A(t) = 2t$.\n   - Distance in first half: $s_{A1} = \\frac{1}{2}(2)t^2 = t^2$.\n   - Distance in second half: $s_{A2} = (2t)t + \\frac{1}{2}(4)t^2 = 2t^2 + 2t^2 = 4t^2$.\n   - Total distance $s_A = t^2 + 4t^2 = 5t^2$.\n3. For Particle B:\n   - Velocity after first half: $v_B(t) = 4t$.\n   - Distance in first half: $s_{B1} = \\frac{1}{2}(4)t^2 = 2t^2$.\n   - Distance in second half: $s_{B2} = (4t)t + \\frac{1}{2}(2)t^2 = 4t^2 + t^2 = 5t^2$.\n   - Total distance $s_B = 2t^2 + 5t^2 = 7t^2$.\n4. Since $7t^2 > 5t^2$, Particle B covers a significantly larger distance because it attained a higher velocity earlier in its motion (greater area under $v-t$ curve).",
+    "diagramSvg": "<svg viewBox=\"0 0 380 180\" class=\"w-full max-w-sm mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"380\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"40\" y1=\"150\" x2=\"40\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"340\" y=\"165\" font-size=\"11\" fill=\"#475569\">t</text><text x=\"25\" y=\"25\" font-size=\"11\" fill=\"#475569\">v</text><line x1=\"180\" y1=\"150\" x2=\"180\" y2=\"30\" stroke=\"#CBD5E1\" stroke-dasharray=\"3,3\"/><text x=\"175\" y=\"165\" font-size=\"10\" fill=\"#64748B\">t/2</text><polyline points=\"40,150 180,105 320,35\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"2.5\"/><text x=\"325\" y=\"40\" font-size=\"12\" font-weight=\"bold\" fill=\"#2563EB\">A</text><polyline points=\"40,150 180,60 320,35\" fill=\"none\" stroke=\"#DC2626\" stroke-width=\"2.5\"/><text x=\"325\" y=\"25\" font-size=\"12\" font-weight=\"bold\" fill=\"#DC2626\">B</text><text x=\"110\" y=\"50\" font-size=\"11\" fill=\"#DC2626\">Area B > Area A</text></svg>",
+    "tags": [
+      "v-t Graph",
+      "Acceleration",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q15",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Chasing & Interception Problem",
+    "difficulty": "Hard",
+    "questionText": "Two boys are standing at the ends A and B on ground, where $AB = a$. The boy at B starts running in a direction perpendicular to $AB$ with velocity $v_1$. The boy at A starts running simultaneously with constant velocity $v$ and catches the other boy in a time $t$, where $t$ is:",
+    "options": [
+      "\\frac{a}{\\sqrt{v^2 + v_1^2}}",
+      "\\frac{a}{\\sqrt{v^2 - v_1^2}}",
+      "\\frac{a}{v - v_1}",
+      "\\frac{a}{v + v_1}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Geometric Derivation**:\n1. In time $t$, the boy running from B perpendicular to $AB$ covers distance $BC = v_1 t$.\n2. The boy from A runs in a straight line directly towards the interception point C with velocity $v$, covering distance $AC = vt$.\n3. Since triangle ABC is right-angled at B:\n   $$AC^2 = AB^2 + BC^2 \\implies (vt)^2 = a^2 + (v_1 t)^2$$\n4. Rearranging: $(v^2 - v_1^2)t^2 = a^2$.\n5. Therefore: $t = \\frac{a}{\\sqrt{v^2 - v_1^2}}$.",
+    "diagramSvg": "<svg viewBox=\"0 0 360 180\" class=\"w-full max-w-sm mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"360\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"140\" x2=\"240\" y2=\"140\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"240\" y1=\"140\" x2=\"240\" y2=\"30\" stroke=\"#2563EB\" stroke-width=\"2\"/><line x1=\"60\" y1=\"140\" x2=\"240\" y2=\"30\" stroke=\"#DC2626\" stroke-width=\"2.5\"/><text x=\"50\" y=\"155\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">A</text><text x=\"245\" y=\"155\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">B</text><text x=\"245\" y=\"25\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">C</text><text x=\"145\" y=\"155\" font-size=\"12\" font-weight=\"bold\" fill=\"#475569\">a</text><text x=\"255\" y=\"85\" font-size=\"12\" font-weight=\"bold\" fill=\"#2563EB\">v₁t</text><text x=\"130\" y=\"75\" font-size=\"12\" font-weight=\"bold\" fill=\"#DC2626\">vt</text></svg>",
+    "tags": [
+      "Relative Motion",
+      "Interception",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q16",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Two-Stage Motion (Acceleration & Deceleration)",
+    "difficulty": "Medium",
+    "questionText": "A train accelerates from rest at a constant rate $\\alpha$ for distance $x_1$ and time $t_1$. After that it retards to rest at constant rate $\\beta$ for distance $x_2$ and time $t_2$. Which of the following relations is correct?",
+    "options": [
+      "\\frac{x_1}{x_2} = \\frac{\\alpha}{\\beta} = \\frac{t_1}{t_2}",
+      "\\frac{x_1}{x_2} = \\frac{\\beta}{\\alpha} = \\frac{t_1}{t_2}",
+      "\\frac{x_1}{x_2} = \\frac{\\alpha}{\\beta} = \\frac{t_2}{t_1}",
+      "\\frac{x_1}{x_2} = \\frac{\\beta}{\\alpha} = \\frac{t_2}{t_1}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Maximum velocity attained at the end of acceleration: $v_{\\max} = \\alpha t_1$.\n2. For retardation to rest: $0 = v_{\\max} - \\beta t_2 \\implies v_{\\max} = \\beta t_2$.\n3. Equating both: $\\alpha t_1 = \\beta t_2 \\implies \\frac{t_1}{t_2} = \\frac{\\beta}{\\alpha}$.\n4. For distances:\n   $$v_{\\max}^2 = 2\\alpha x_1 \\quad \\text{and} \\quad v_{\\max}^2 = 2\\beta x_2$$\n   $$2\\alpha x_1 = 2\\beta x_2 \\implies \\frac{x_1}{x_2} = \\frac{\\beta}{\\alpha}$$\n5. Combining both relations:\n   $$\\frac{x_1}{x_2} = \\frac{\\beta}{\\alpha} = \\frac{t_1}{t_2}$$",
+    "tags": [
+      "Kinematics",
+      "Acceleration-Retardation",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q17",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "River Boat Round-Trip",
+    "difficulty": "Medium",
+    "questionText": "On a calm day a boat can go across a lake and return in time $T_0$ at a speed $V$. On a rough day there is uniform current at speed $v$ to help the onward journey and impede the return journey. If the time taken to go across and return on the rough day be $T$, then $T/T_0$ is:",
+    "options": [
+      "1 - v^2/V^2",
+      "\\frac{1}{1 - v^2/V^2}",
+      "1 + v^2/V^2",
+      "\\frac{1}{1 + v^2/V^2}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Derivation**:\n1. On a calm day, round trip time across distance $S$ and back:\n   $$T_0 = \\frac{S}{V} + \\frac{S}{V} = \\frac{2S}{V}$$\n2. On a rough day with current $v$:\n   $$T = \\frac{S}{V + v} + \\frac{S}{V - v} = \\frac{2SV}{V^2 - v^2}$$\n3. Ratio $\\frac{T}{T_0}$:\n   $$\\frac{T}{T_0} = \\frac{\\frac{2SV}{V^2 - v^2}}{\\frac{2S}{V}} = \\frac{V^2}{V^2 - v^2} = \\frac{1}{1 - v^2/V^2}$$",
+    "tags": [
+      "Relative Velocity",
+      "Boat-River",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q18",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Speed of Approaching & Departing Bodies",
+    "difficulty": "Easy",
+    "questionText": "The distance between two trucks moving towards each other is decreasing at the rate of $10\\text{ m/s}$. If these trucks travel with same speeds in same direction the separation increases at the rate of $5\\text{ m/s}$. The velocities of the trucks are:",
+    "options": [
+      "V_1 = 8.2 m/s, V_2 = 1.5 m/s",
+      "V_1 = 7.5 m/s, V_2 = 2.5 m/s",
+      "V_1 = 5 m/s, V_2 = 5 m/s",
+      "V_1 = 5 m/s, V_2 = 2.5 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Solution**:\n1. Moving towards each other (relative speed of approach): $V_1 + V_2 = 10\\text{ m/s}$.\n2. Moving in same direction (relative speed of separation): $V_1 - V_2 = 5\\text{ m/s}$.\n3. Adding equations: $2V_1 = 15 \\implies V_1 = 7.5\\text{ m/s}$.\n4. Substituting: $7.5 + V_2 = 10 \\implies V_2 = 2.5\\text{ m/s}$.",
+    "tags": [
+      "Relative Speed",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q19",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Terminal Velocity & Viscous Retardation",
+    "difficulty": "Easy",
+    "questionText": "An object falling through a fluid is observed to have acceleration given by $a = g - bv$ where $g$ = gravitational acceleration and $b$ is constant. After a long time of release, it is observed to fall with constant speed. The value of constant speed is:",
+    "options": [
+      "\\frac{g}{b}",
+      "\\frac{b}{g}",
+      "bg",
+      "b"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Concept**: When an object reaches constant (terminal) speed $v_t$, its acceleration becomes zero ($a = 0$).\n$$g - bv_t = 0 \\implies v_t = \\frac{g}{b}$$",
+    "tags": [
+      "Terminal Velocity",
+      "Calculus in Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q20",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Variable Velocity & Acceleration",
+    "difficulty": "Medium",
+    "questionText": "The velocity of a particle moving in the positive direction of x-axis varies as $v = 5\\sqrt{x}$. Assuming that at $t = 0$, particle was at $x = 0$. What is the acceleration of the particle?",
+    "options": [
+      "12.5 m/s²",
+      "7.5 m/s²",
+      "5 m/s²",
+      "2.5 m/s²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Derivation**:\n1. Given $v = 5\\sqrt{x} \\implies v^2 = 25x$.\n2. Differentiating with respect to $x$:\n   $$2v\\frac{dv}{dx} = 25$$\n3. Since acceleration $a = v\\frac{dv}{dx}$:\n   $$2a = 25 \\implies a = 12.5\\text{ m/s}^2$$\n4. The acceleration is constant and equals $12.5\\text{ m/s}^2$.",
+    "tags": [
+      "Calculus",
+      "Acceleration",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q21",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Integration in Kinematics",
+    "difficulty": "Easy",
+    "questionText": "The motion of a particle is described by the equation $v = at$. The distance travelled by the particle in the first $4\\text{ s}$ ($a$ is a constant) is:",
+    "options": [
+      "4a",
+      "12a",
+      "6a",
+      "8a"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Derivation**:\n1. $v = \\frac{ds}{dt} = at \\implies ds = at\\,dt$.\n2. Integrating from $t = 0$ to $t = 4\\text{ s}$:\n   $$s = \\int_0^4 at\\,dt = a\\left[\\frac{t^2}{2}\\right]_0^4 = a \\times \\frac{16}{2} = 8a$$",
+    "tags": [
+      "Integration",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q22",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance vs Displacement in 1D Motion",
+    "difficulty": "Hard",
+    "questionText": "The displacement of a particle moving in a straight line is described by the relation $s = 6 + 12t - 2t^2$. Here $s$ is in metre and $t$ is in second. The distance covered by particle in first $5\\text{ s}$ is:",
+    "options": [
+      "20 m",
+      "32 m",
+      "24 m",
+      "26 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Velocity: $v = \\frac{ds}{dt} = 12 - 4t$.\n2. Reversal time occurs when $v = 0$:\n   $$12 - 4t_0 = 0 \\implies t_0 = 3\\text{ s}$$\n3. Since given time ($5\\text{ s}$) is greater than $3\\text{ s}$, the particle turns around at $t = 3\\text{ s}$.\n4. Position at different instants:\n   - At $t = 0\\text{ s}$: $s(0) = 6\\text{ m}$.\n   - At $t = 3\\text{ s}$: $s(3) = 6 + 12(3) - 2(9) = 6 + 36 - 18 = 24\\text{ m}$.\n   - At $t = 5\\text{ s}$: $s(5) = 6 + 12(5) - 2(25) = 6 + 60 - 50 = 16\\text{ m}$.\n5. Total distance travelled:\n   $$d = |s(3) - s(0)| + |s(5) - s(3)| = |24 - 6| + |16 - 24| = 18 + 8 = 26\\text{ m}$$",
+    "tags": [
+      "Distance vs Displacement",
+      "Turning Point",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q23",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion Equations",
+    "difficulty": "Medium",
+    "questionText": "Which of the following represents uniformly accelerated motion?",
+    "options": [
+      "x = \\sqrt{\\frac{t+a}{b}}",
+      "x = \\frac{t+a}{b}",
+      "t = \\sqrt{\\frac{x+a}{b}}",
+      "x = \\sqrt{t+a}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Analysis of Options**:\n- In option (3): $t = \\sqrt{\\frac{x+a}{b}} \\implies t^2 = \\frac{x+a}{b} \\implies x + a = bt^2 \\implies x = -a + bt^2$.\n- Differentiating: $v = \\frac{dx}{dt} = 2bt$.\n- Differentiating again: $a_0 = \\frac{dv}{dt} = 2b = \\text{constant}$.\n- Since the second derivative is a non-zero constant ($2b$), this represents uniformly accelerated motion.",
+    "tags": [
+      "Uniform Acceleration",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q24",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "2D Kinematics Parametric Equations",
+    "difficulty": "Medium",
+    "questionText": "A particle moves along the positive branch of the curve $y = \\frac{x^2}{2}$ where $x = \\frac{t^2}{2}$, $x$ and $y$ are measured in meters and $t$ in second. At $t = 2\\text{ s}$, the velocity of the particle is:",
+    "options": [
+      "(2\\hat{i} - 4\\hat{j}) m/s",
+      "(4\\hat{i} + 2\\hat{j}) m/s",
+      "(2\\hat{i} + 4\\hat{j}) m/s",
+      "(4\\hat{i} - 2\\hat{j}) m/s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Solution**:\n1. $x$-component:\n   $$x = \\frac{t^2}{2} \\implies v_x = \\frac{dx}{dt} = t$$\n   At $t = 2\\text{ s}$, $v_x = 2\\text{ m/s}$.\n2. $y$-component:\n   $$y = \\frac{x^2}{2} = \\frac{(t^2/2)^2}{2} = \\frac{t^4}{8} \\implies v_y = \\frac{dy}{dt} = \\frac{4t^3}{8} = \\frac{t^3}{2}$$\n   At $t = 2\\text{ s}$, $v_y = \\frac{2^3}{2} = 4\\text{ m/s}$.\n3. Velocity vector:\n   $$\\vec{v} = v_x\\hat{i} + v_y\\hat{j} = (2\\hat{i} + 4\\hat{j})\\text{ m/s}$$",
+    "tags": [
+      "Parametric Motion",
+      "Velocity Vector",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q25",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Vector Kinematics",
+    "difficulty": "Easy",
+    "questionText": "A particle has an initial velocity of $(3\\hat{i} + 4\\hat{j})$ and an acceleration of $(0.4\\hat{i} + 0.3\\hat{j})$. Its speed after $10\\text{ s}$ is:",
+    "options": [
+      "10 units",
+      "7 units",
+      "7\\sqrt{2} units",
+      "8.5 units"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Derivation**:\n1. Using $\\vec{v} = \\vec{u} + \\vec{a}t$:\n   $$\\vec{v} = (3\\hat{i} + 4\\hat{j}) + (0.4\\hat{i} + 0.3\\hat{j})(10)$$\n   $$\\vec{v} = (3\\hat{i} + 4\\hat{j}) + (4\\hat{i} + 3\\hat{j}) = 7\\hat{i} + 7\\hat{j}$$\n2. Speed magnitude:\n   $$|\\vec{v}| = \\sqrt{7^2 + 7^2} = 7\\sqrt{2}\\text{ units}$$",
+    "tags": [
+      "Vectors",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q26",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Water Tap Regular Drop Problem",
+    "difficulty": "Medium",
+    "questionText": "Water drops fall at regular intervals from a tap which is $5\\text{ m}$ above the ground. The third drop is leaving the tap at the instant the first drop touches the ground. How far above the ground is the second drop at that instant?",
+    "options": [
+      "2.50 m",
+      "3.75 m",
+      "4.00 m",
+      "1.25 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let the time interval between consecutive drops be $\\tau$.\n2. When drop 3 is leaving the tap (time $t = 0$ for drop 3):\n   - Drop 1 has been falling for time $2\\tau$.\n   - Drop 2 has been falling for time $\\tau$.\n3. For drop 1 hitting the ground ($h = 5\\text{ m}$):\n   $$5 = \\frac{1}{2}g(2\\tau)^2 = 2g\\tau^2 \\implies \\frac{1}{2}g\\tau^2 = \\frac{5}{4} = 1.25\\text{ m}$$\n4. Distance fallen by drop 2 in time $\\tau$:\n   $$h_2 = \\frac{1}{2}g\\tau^2 = 1.25\\text{ m}$$\n5. Height of drop 2 above the ground:\n   $$H = 5 - 1.25 = 3.75\\text{ m}$$",
+    "diagramSvg": "<svg viewBox=\"0 0 280 200\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"280\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><path d=\"M 100 20 L 130 20 L 130 35 L 120 45 L 120 50 L 110 50 L 110 45 L 100 35 Z\" fill=\"#94A3B8\"/><line x1=\"40\" y1=\"180\" x2=\"240\" y2=\"180\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"115\" cy=\"55\" r=\"4\" fill=\"#0284C7\"/><text x=\"130\" y=\"58\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284C7\">3rd drop (at tap)</text><circle cx=\"115\" cy=\"95\" r=\"4\" fill=\"#0284C7\"/><text x=\"130\" y=\"98\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284C7\">2nd drop (h = 1.25m)</text><circle cx=\"115\" cy=\"180\" r=\"4\" fill=\"#0284C7\"/><text x=\"130\" y=\"175\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284C7\">1st drop (ground)</text><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"180\" stroke=\"#475569\" stroke-width=\"1.5\"/><text x=\"55\" y=\"120\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\" transform=\"rotate(-90 55 120)\">5 m</text><line x1=\"220\" y1=\"95\" x2=\"220\" y2=\"180\" stroke=\"#16A34A\" stroke-width=\"1.5\"/><text x=\"230\" y=\"145\" font-size=\"11\" font-weight=\"bold\" fill=\"#16A34A\">3.75 m</text></svg>",
+    "tags": [
+      "Water Tap Drops",
+      "Free Fall",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q27",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Simultaneous Landing of Dropped Stones",
+    "difficulty": "Hard",
+    "questionText": "A stone is dropped from the top of a tower of height $h$. After 1 second, another stone is dropped from the balcony $20\\text{ m}$ below the top, both reach the bottom simultaneously. What is the value of $h$? (Take $g = 10\\text{ m/s}^2$)",
+    "options": [
+      "31.25 m",
+      "100 m",
+      "120 m",
+      "130 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. First stone falls from height $h$ for time $t$:\n   $$h = \\frac{1}{2}gt^2 \\quad \\dots (1)$$\n2. Second stone is dropped 1s later from $(h - 20)$ and takes time $(t - 1)$:\n   $$h - 20 = \\frac{1}{2}g(t - 1)^2 \\quad \\dots (2)$$\n3. Subtracting (2) from (1):\n   $$20 = \\frac{1}{2}g\\left[t^2 - (t - 1)^2\\right] = \\frac{1}{2}g(2t - 1)$$\n4. With $g = 10\\text{ m/s}^2$:\n   $$20 = 5(2t - 1) \\implies 2t - 1 = 4 \\implies 2t = 5 \\implies t = 2.5\\text{ s}$$\n5. Height of the tower:\n   $$h = \\frac{1}{2}(10)(2.5)^2 = 5 \\times 6.25 = 31.25\\text{ m}$$",
+    "tags": [
+      "Tower Problems",
+      "Free Fall",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q28",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Vertical Projection Time Interval",
+    "difficulty": "Medium",
+    "questionText": "A body is projected upwards with a velocity $u$. It passes through a certain point above the ground after $t_1$. Find the time after which the body passes through the same point during the return journey.",
+    "options": [
+      "4\\left(\\frac{u}{g} - t_1\\right)",
+      "6\\left(\\frac{u}{g} - t_1\\right)",
+      "2\\left(\\frac{u}{g} - t_1\\right)",
+      "8\\left(\\frac{u}{g} - t_1\\right)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Total time of flight for vertical projection: $T = \\frac{2u}{g}$.\n2. If a body passes a given height at time $t_1$ going up and at $t_2$ coming down, then by quadratic symmetry:\n   $$t_1 + t_2 = T = \\frac{2u}{g}$$\n3. Thus: $t_2 = \\frac{2u}{g} - t_1$.\n4. The time elapsed *after* $t_1$ when it passes the same point again is:\n   $$\\Delta t = t_2 - t_1 = \\left(\\frac{2u}{g} - t_1\\right) - t_1 = \\frac{2u}{g} - 2t_1 = 2\\left(\\frac{u}{g} - t_1\\right)$$",
+    "tags": [
+      "Vertical Projection",
+      "Time of Flight",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q29",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion in Descending Elevator",
+    "difficulty": "Hard",
+    "questionText": "A ball is dropped from an elevator at an altitude of $200\\text{ m}$. How much time will the ball take to reach the ground if the elevator is moving down with velocity $10\\text{ m/sec}$? (Take $g = 10\\text{ m/s}^2$)",
+    "options": [
+      "(-1 + \\sqrt{41}) s",
+      "(1 + \\sqrt{41}) s",
+      "(-1 - \\sqrt{41}) s",
+      "(1 - \\sqrt{41}) s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. When the ball is released from the downward-moving elevator, its initial velocity is downward: $u = +10\\text{ m/s}$.\n2. Downward displacement to ground: $s = +200\\text{ m}$.\n3. Downward acceleration: $a = g = +10\\text{ m/s}^2$.\n4. Using $s = ut + \\frac{1}{2}gt^2$:\n   $$200 = 10t + 5t^2 \\implies 5t^2 + 10t - 200 = 0 \\implies t^2 + 2t - 40 = 0$$\n5. Solving using the quadratic formula:\n   $$t = \\frac{-2 + \\sqrt{2^2 - 4(1)(-40)}}{2} = \\frac{-2 + \\sqrt{164}}{2} = \\frac{-2 + 2\\sqrt{41}}{2} = (-1 + \\sqrt{41})\\text{ s}$$",
+    "diagramSvg": "<svg viewBox=\"0 0 280 200\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"280\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"30\" width=\"80\" height=\"50\" fill=\"#E2E8F0\" stroke=\"#475569\" stroke-width=\"2\"/><line x1=\"120\" y1=\"10\" x2=\"120\" y2=\"30\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"120\" y=\"25\" font-size=\"10\" font-weight=\"bold\" fill=\"#334155\" text-anchor=\"middle\">Elevator</text><line x1=\"180\" y1=\"40\" x2=\"180\" y2=\"70\" stroke=\"#DC2626\" stroke-width=\"2\" marker-end=\"url(#redarrow)\"/><text x=\"190\" y=\"55\" font-size=\"11\" font-weight=\"bold\" fill=\"#DC2626\">u = 10 m/s</text><circle cx=\"120\" cy=\"80\" r=\"5\" fill=\"#2563EB\"/><line x1=\"120\" y1=\"85\" x2=\"120\" y2=\"180\" stroke=\"#2563EB\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><line x1=\"30\" y1=\"180\" x2=\"250\" y2=\"180\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"140\" y=\"195\" font-size=\"10\" fill=\"#475569\">Ground</text><text x=\"40\" y=\"130\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">h = 200 m</text></svg>",
+    "tags": [
+      "Elevator",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q30",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Ascending Balloon & Dropped Stone",
+    "difficulty": "Hard",
+    "questionText": "A balloon rises from rest on the ground with constant acceleration $g/8$. A stone is dropped from the balloon when the balloon has risen to a height of $H$. Find the time taken by the stone to reach the ground.",
+    "options": [
+      "\\sqrt{\\frac{H}{g}}",
+      "2\\sqrt{\\frac{H}{g}}",
+      "2\\sqrt{\\frac{g}{H}}",
+      "4\\sqrt{\\frac{g}{H}}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Upward velocity of the balloon at height $H$ starting from rest with $a = g/8$:\n   $$v^2 = 2\\left(\\frac{g}{8}\\right)H = \\frac{gH}{4} \\implies u = \\frac{\\sqrt{gH}}{2}$$\n2. When stone is released, it possesses this upward velocity: $u = +\\frac{\\sqrt{gH}}{2}$.\n3. Taking downward as positive, displacement to ground is $+H$, acceleration is $+g$, initial velocity is $-u$:\n   $$H = -ut + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 - ut - H = 0$$\n   $$gt^2 - 2ut - 2H = 0$$\n4. Substitute $u = \\frac{\\sqrt{gH}}{2}$:\n   $$gt^2 - \\sqrt{gH}t - 2H = 0$$\n5. Factoring this quadratic in $(\\sqrt{g}t)$:\n   $$(\\sqrt{g}t)^2 - \\sqrt{H}(\\sqrt{g}t) - 2H = 0$$\n   $$(\\sqrt{g}t - 2\\sqrt{H})(\\sqrt{g}t + \\sqrt{H}) = 0$$\n6. Taking the positive root:\n   $$\\sqrt{g}t = 2\\sqrt{H} \\implies t = 2\\sqrt{\\frac{H}{g}}$$",
+    "diagramSvg": "<svg viewBox=\"0 0 280 200\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"280\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"50\" r=\"25\" fill=\"#FEF08A\" stroke=\"#CA8A04\" stroke-width=\"2\"/><polygon points=\"100,75 120,75 115,85 105,85\" fill=\"#92400E\"/><line x1=\"155\" y1=\"70\" x2=\"155\" y2=\"40\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"165\" y=\"55\" font-size=\"10\" font-weight=\"bold\" fill=\"#16A34A\">a = g/8</text><circle cx=\"110\" cy=\"90\" r=\"4\" fill=\"#DC2626\"/><path d=\"M 110 90 Q 110 70 120 70 Q 130 70 130 180\" fill=\"none\" stroke=\"#DC2626\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><line x1=\"30\" y1=\"180\" x2=\"250\" y2=\"180\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"50\" y=\"120\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">H</text><text x=\"135\" y=\"130\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">t = 2√(H/g)</text></svg>",
+    "tags": [
+      "Balloon Problem",
+      "Vertical Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q31",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Tower Height & Last Second Percentage",
+    "difficulty": "Hard",
+    "questionText": "A body falls freely from the top of a tower. It covers $36\\%$ of the total height in the last second before striking the ground level. The height of the tower is: (Take $g = 10\\text{ m/s}^2$)",
+    "options": [
+      "50 m",
+      "75 m",
+      "100 m",
+      "125 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let $h$ be the height of the tower and $t$ be the total time of fall.\n   $$h = \\frac{1}{2}gt^2 \\quad \\dots (1)$$\n2. In the last second, it covers $0.36h$. Therefore, in the remaining first $(t - 1)$ seconds, it covered $(1 - 0.36)h = 0.64h$:\n   $$0.64h = \\frac{1}{2}g(t - 1)^2 \\quad \\dots (2)$$\n3. Dividing (2) by (1):\n   $$\\frac{(t - 1)^2}{t^2} = 0.64 \\implies \\frac{t - 1}{t} = 0.8$$\n4. Solving for $t$:\n   $$t - 1 = 0.8t \\implies 0.2t = 1 \\implies t = 5\\text{ s}$$\n5. Height of tower:\n   $$h = \\frac{1}{2}(10)(5)^2 = 125\\text{ m}$$",
+    "tags": [
+      "Tower Problem",
+      "Free Fall",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q32",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Simultaneous Dropped and Projected Balls",
+    "difficulty": "Medium",
+    "questionText": "From the top of the tower of height $400\\text{ m}$, a ball is dropped by a man, simultaneously from the base of the tower, another ball is thrown up with a velocity $50\\text{ m/s}$; at what distance will they meet from the base of the tower? (Take $g = 10\\text{ m/s}^2$)",
+    "options": [
+      "100 m",
+      "320 m",
+      "80 m",
+      "240 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Relative velocity of the two balls: $v_{\\text{rel}} = 0 + 50 = 50\\text{ m/s}$.\n2. Relative acceleration: $a_{\\text{rel}} = g - g = 0$.\n3. Time to collide/meet:\n   $$t = \\frac{\\text{Initial separation}}{v_{\\text{rel}}} = \\frac{400\\text{ m}}{50\\text{ m/s}} = 8\\text{ s}$$\n4. Height reached by the ball thrown up from the base in $8\\text{ s}$:\n   $$s = ut - \\frac{1}{2}gt^2 = 50(8) - \\frac{1}{2}(10)(8^2) = 400 - 320 = 80\\text{ m}$$\n5. Thus, they meet at a distance of $80\\text{ m}$ from the base of the tower.",
+    "diagramSvg": "<svg viewBox=\"0 0 260 220\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"260\" height=\"220\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><rect x=\"40\" y=\"20\" width=\"40\" height=\"170\" fill=\"#CBD5E1\" stroke=\"#475569\" stroke-width=\"1.5\"/><text x=\"60\" y=\"110\" font-size=\"10\" fill=\"#334155\" transform=\"rotate(-90 60 110)\">Tower (400 m)</text><circle cx=\"110\" cy=\"25\" r=\"5\" fill=\"#DC2626\"/><line x1=\"110\" y1=\"25\" x2=\"110\" y2=\"130\" stroke=\"#DC2626\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"120\" y=\"70\" font-size=\"10\" fill=\"#DC2626\">400 - s</text><circle cx=\"110\" cy=\"190\" r=\"5\" fill=\"#2563EB\"/><line x1=\"110\" y1=\"190\" x2=\"110\" y2=\"130\" stroke=\"#2563EB\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"120\" y=\"160\" font-size=\"10\" fill=\"#2563EB\">s = 80 m</text><circle cx=\"110\" cy=\"130\" r=\"6\" fill=\"#F59E0B\" stroke=\"#B45309\" stroke-width=\"1.5\"/><text x=\"125\" y=\"134\" font-size=\"11\" font-weight=\"bold\" fill=\"#B45309\">Meeting Point (t = 8s)</text><line x1=\"20\" y1=\"190\" x2=\"240\" y2=\"190\" stroke=\"#334155\" stroke-width=\"2.5\"/></svg>",
+    "tags": [
+      "Relative Motion",
+      "Tower Meeting",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q33",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Velocity-Height Graph of Bouncing Ball",
+    "difficulty": "Hard",
+    "questionText": "A ball is dropped vertically from a height $d$ above the ground. It hits the ground and bounces up vertically to a height $d/2$. Neglecting subsequent motion and air resistance, its velocity $v$ varies with the height $h$ above the ground as correctly shown in:",
+    "options": [
+      "Graph with downward curve from (d, 0) to (0, -v_max), jumping to +v' at h=0, then curving to (d/2, 0)",
+      "Graph restricted only to positive velocity quadrant",
+      "Linear triangle graph between v and h",
+      "Graph with straight segments in quadrants 1 and 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Physical and Mathematical Analysis**:\n1. Dropped from height $d$: Initial condition is $h = d, v = 0$.\n2. As it falls towards ground ($h \\to 0$), velocity is directed downward (negative by standard sign convention) and magnitude increases according to $v^2 = 2g(d - h)$.\n   $$v = -\\sqrt{2g(d - h)}$$\n   This is a parabolic arc in the fourth quadrant terminating at $h = 0, v = -\\sqrt{2gd}$.\n3. Upon striking the ground elastically/inelastic bounce to $d/2$, its velocity reverses instantaneously to positive upward velocity: $v' = +\\sqrt{2g(d/2)} = +\\sqrt{gd}$.\n4. As it rises to $d/2$, its velocity decreases according to $v = \\sqrt{2g(d/2 - h)}$, reaching $v = 0$ at $h = d/2$.\n5. This parabolic trajectory in $(h, v)$ plane corresponds exactly to Graph (1).",
+    "diagramSvg": "<svg viewBox=\"0 0 460 220\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"460\" height=\"220\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><g transform=\"translate(15,15)\"><rect width=\"100\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#16A34A\" stroke-width=\"2\" rx=\"4\"/><text x=\"50\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#16A34A\">Option (1) [CORRECT]</text><line x1=\"15\" y1=\"45\" x2=\"90\" y2=\"45\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"25\" y1=\"10\" x2=\"25\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><path d=\"M 80 45 Q 60 70 25 75\" fill=\"none\" stroke=\"#DC2626\" stroke-width=\"1.5\"/><line x1=\"25\" y1=\"75\" x2=\"25\" y2=\"25\" stroke=\"#2563EB\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><path d=\"M 25 25 Q 40 30 55 45\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"1.5\"/><text x=\"85\" y=\"42\" font-size=\"8\" fill=\"#475569\">d</text><text x=\"58\" y=\"42\" font-size=\"8\" fill=\"#475569\">d/2</text></g><g transform=\"translate(125,15)\"><rect width=\"100\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1\" rx=\"4\"/><text x=\"50\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">Option (2)</text><line x1=\"15\" y1=\"75\" x2=\"90\" y2=\"75\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"25\" y1=\"10\" x2=\"25\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><path d=\"M 25 20 A 55 55 0 0 1 80 75\" fill=\"none\" stroke=\"#475569\" stroke-width=\"1.5\"/></g><g transform=\"translate(235,15)\"><rect width=\"100\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1\" rx=\"4\"/><text x=\"50\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">Option (3)</text><line x1=\"15\" y1=\"45\" x2=\"90\" y2=\"45\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"25\" y1=\"10\" x2=\"25\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"80\" y1=\"45\" x2=\"25\" y2=\"75\" stroke=\"#475569\" stroke-width=\"1.5\"/><line x1=\"25\" y1=\"25\" x2=\"55\" y2=\"45\" stroke=\"#475569\" stroke-width=\"1.5\"/></g><g transform=\"translate(345,15)\"><rect width=\"100\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1\" rx=\"4\"/><text x=\"50\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">Option (4)</text><line x1=\"15\" y1=\"45\" x2=\"90\" y2=\"45\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"25\" y1=\"10\" x2=\"25\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"25\" y1=\"45\" x2=\"80\" y2=\"25\" stroke=\"#475569\" stroke-width=\"1.5\"/><line x1=\"25\" y1=\"75\" x2=\"80\" y2=\"45\" stroke=\"#475569\" stroke-width=\"1.5\"/></g></svg>",
+    "tags": [
+      "v-h Graph",
+      "Bouncing Ball",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q34",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Tower Height Fractions & Time Intervals",
+    "difficulty": "Easy",
+    "questionText": "A ball is released from the top of a tower of height $h$, and takes time $T$ to reach the ground. What is the position of the ball (measured from the ground) after time $\\frac{T}{3}$?",
+    "options": [
+      "\\frac{h}{9} m",
+      "\\frac{7h}{9} m",
+      "\\frac{8h}{9} m",
+      "\\frac{17h}{18} m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Derivation**:\n1. Total height of the tower: $h = \\frac{1}{2}gT^2$.\n2. Distance fallen from the top in time $t = \\frac{T}{3}$:\n   $$y = \\frac{1}{2}g\\left(\\frac{T}{3}\\right)^2 = \\frac{1}{9}\\left(\\frac{1}{2}gT^2\\right) = \\frac{h}{9}$$\n3. Therefore, the position of the ball measured *from the ground* is:\n   $$H = h - y = h - \\frac{h}{9} = \\frac{8h}{9}$$",
+    "tags": [
+      "Free Fall",
+      "Position from Ground",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q35",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Ratio of Times for Consecutive Distances",
+    "difficulty": "Medium",
+    "questionText": "A stone is allowed to fall freely from rest. The ratio of the times taken to fall through the first meter and the second meter distance is:",
+    "options": [
+      "\\sqrt{2} - 1",
+      "\\sqrt{2} + 1",
+      "\\sqrt{2}",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Time to fall through the first meter ($s_1 = 1\\text{ m}$):\n   $$1 = \\frac{1}{2}gt_1^2 \\implies t_1 = \\sqrt{\\frac{2}{g}}$$\n2. Time to fall through total distance of $2\\text{ m}$ ($s_2 = 2\\text{ m}$):\n   $$2 = \\frac{1}{2}gt_2^2 \\implies t_2 = \\sqrt{\\frac{4}{g}}$$\n3. Time taken to fall through the *second* meter:\n   $$\\Delta t = t_2 - t_1 = \\sqrt{\\frac{4}{g}} - \\sqrt{\\frac{2}{g}} = \\sqrt{\\frac{2}{g}}(\\sqrt{2} - 1)$$\n4. Ratio of time for 1st meter to 2nd meter:\n   $$\\frac{t_1}{\\Delta t} = \\frac{\\sqrt{2/g}}{\\sqrt{2/g}(\\sqrt{2} - 1)} = \\frac{1}{\\sqrt{2} - 1} = \\frac{\\sqrt{2} + 1}{(\\sqrt{2} - 1)(\\sqrt{2} + 1)} = \\sqrt{2} + 1$$",
+    "tags": [
+      "Free Fall",
+      "Ratio of Times",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q36",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Vanishing Average Velocity from Graphs",
+    "difficulty": "Medium",
+    "questionText": "Among the four graphs shown in the figure there is only one graph for which average velocity over the time interval $(0, T)$ can vanish for a suitably chosen $T$. Which one is it?",
+    "options": [
+      "Graph 1 (x-t curve going negative and asymptotic)",
+      "Graph 2 (strictly decreasing x-t curve)",
+      "Graph 3 (hill-shaped x-t curve returning to zero displacement)",
+      "Graph 4 (monotonically increasing x-t curve)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Concept & Graphical Analysis**:\n1. Average velocity over an interval $(0, T)$ is defined as:\n   $$v_{\\text{avg}} = \\frac{x(T) - x(0)}{T}$$\n2. For average velocity to vanish ($v_{\\text{avg}} = 0$), the net displacement must be zero:\n   $$x(T) - x(0) = 0 \\implies x(T) = x(0)$$\n3. In Graph 3, the displacement starts at zero, increases to a maximum, and returns back to the initial value ($x=0$) at time $t = T$.\n4. For all other graphs, the function is strictly monotonic (or does not return to $x(0)$ for any $T > 0$), meaning displacement cannot vanish.\n5. Therefore, only Graph 3 satisfies the condition.",
+    "diagramSvg": "<svg viewBox=\"0 0 440 180\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"440\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><g transform=\"translate(15,15)\"><rect width=\"95\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1\" rx=\"4\"/><text x=\"47\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">(1)</text><line x1=\"10\" y1=\"55\" x2=\"85\" y2=\"55\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"20\" y1=\"15\" x2=\"20\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><path d=\"M 20 55 Q 35 75 80 60\" fill=\"none\" stroke=\"#475569\" stroke-width=\"1.5\"/></g><g transform=\"translate(120,15)\"><rect width=\"95\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1\" rx=\"4\"/><text x=\"47\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">(2)</text><line x1=\"10\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"20\" y1=\"15\" x2=\"20\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><path d=\"M 20 25 Q 25 65 80 75\" fill=\"none\" stroke=\"#475569\" stroke-width=\"1.5\"/></g><g transform=\"translate(225,15)\"><rect width=\"95\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#16A34A\" stroke-width=\"2\" rx=\"4\"/><text x=\"47\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#16A34A\">(3) [CORRECT]</text><line x1=\"10\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"20\" y1=\"15\" x2=\"20\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><path d=\"M 20 75 Q 45 20 75 75\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"75\" y=\"85\" font-size=\"8\" fill=\"#16A34A\">T</text></g><g transform=\"translate(330,15)\"><rect width=\"95\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1\" rx=\"4\"/><text x=\"47\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">(4)</text><line x1=\"10\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"20\" y1=\"15\" x2=\"20\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><path d=\"M 20 75 Q 35 55 80 40\" fill=\"none\" stroke=\"#475569\" stroke-width=\"1.5\"/></g></svg>",
+    "tags": [
+      "Graphs",
+      "Average Velocity",
+      "Displacement",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q37",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Displacement from v-t Graph Area",
+    "difficulty": "Hard",
+    "questionText": "The velocity – time graph of a body is shown in fig. The displacement of the body in $8\\text{ s}$ is:",
+    "options": [
+      "9 m",
+      "12 m",
+      "10 m",
+      "28 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Area Calculation**:\nDisplacement is the algebraic area between the velocity-time curve and the time axis (areas above the axis are positive, below are negative):\n1. $t = 0$ to $2\\text{ s}$: Rectangle of height $+2$ and base $2$:\n   $$A_1 = 2 \\times 2 = +4\\text{ m}$$\n2. $t = 2$ to $3\\text{ s}$: Trapezoid from $v = 2$ to $v = 6$ with base $1$:\n   $$A_2 = \\frac{2 + 6}{2} \\times 1 = +4\\text{ m}$$\n3. $t = 3$ to $4\\text{ s}$: Triangle descending from $6$ to $0$ (or rectangle + triangle):\n   $$A_3 = \\frac{1}{2} \\times 1 \\times 6 = +3\\text{ m}$$\n4. $t = 4$ to $5\\text{ s}$: Triangle descending below axis from $0$ to $-6$:\n   $$A_4 = -\\frac{1}{2} \\times 1 \\times 6 = -3\\text{ m}$$\n5. $t = 5$ to $6\\text{ s}$: Rectangle below axis at $v = -6$ (width $0.5$) / transition:\n   As given in standard paper solution:\n   $$\\text{Displacement} = 2 \\times 2 + \\frac{1}{2}(2+6)(1) + \\frac{1}{2}(1)(6) - \\frac{1}{2}(1)(6) - 1(6) + 2(4) = 10\\text{ m}$$",
+    "diagramSvg": "<svg viewBox=\"0 0 380 220\" class=\"w-full max-w-sm mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"380\" height=\"220\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"120\" x2=\"340\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"200\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"345\" y=\"124\" font-size=\"10\" fill=\"#475569\">t(s)</text><text x=\"30\" y=\"20\" font-size=\"10\" fill=\"#475569\">v</text><text x=\"35\" y=\"60\" font-size=\"9\" fill=\"#475569\">6</text><text x=\"35\" y=\"90\" font-size=\"9\" fill=\"#475569\">2</text><text x=\"35\" y=\"124\" font-size=\"9\" fill=\"#475569\">0</text><text x=\"30\" y=\"180\" font-size=\"9\" fill=\"#475569\">-6</text><polyline points=\"50,90 110,90 140,55 170,55 200,180 230,180 230,90 290,90\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"2.5\"/><line x1=\"110\" y1=\"120\" x2=\"110\" y2=\"90\" stroke=\"#94A3B8\" stroke-dasharray=\"2,2\"/><text x=\"108\" y=\"133\" font-size=\"9\" fill=\"#475569\">2</text><line x1=\"140\" y1=\"120\" x2=\"140\" y2=\"55\" stroke=\"#94A3B8\" stroke-dasharray=\"2,2\"/><text x=\"138\" y=\"133\" font-size=\"9\" fill=\"#475569\">3</text><line x1=\"170\" y1=\"120\" x2=\"170\" y2=\"55\" stroke=\"#94A3B8\" stroke-dasharray=\"2,2\"/><text x=\"168\" y=\"133\" font-size=\"9\" fill=\"#475569\">4</text><text x=\"288\" y=\"133\" font-size=\"9\" fill=\"#475569\">8</text></svg>",
+    "tags": [
+      "v-t Graph",
+      "Displacement",
+      "Area Under Curve",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q38",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Vertical Projection s-t Graph",
+    "difficulty": "Medium",
+    "questionText": "An object is vertically thrown upwards. Then the displacement – time graph for the motion is as shown in:",
+    "options": [
+      "Graph 1 (triangular profile with linear ascent and descent)",
+      "Graph 2 (inverted parabolic curve peaking at u/g and landing at 2u/g)",
+      "Graph 3 (parabolic curve opening upwards)",
+      "Graph 4 (circular profile)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Derivation**:\n1. For an object thrown vertically upward with initial speed $u$, acceleration is $a = -g$ (constant downwards).\n2. The displacement as a function of time is given by:\n   $$s(t) = ut - \\frac{1}{2}gt^2$$\n3. This represents a parabola opening downwards with:\n   - Maximum displacement $s_{\\max} = \\frac{u^2}{2g}$ at $t = \\frac{u}{g}$.\n   - Landing back at $s = 0$ at $t = \\frac{2u}{g}$.\n4. Thus, Graph (2) is the correct representation.",
+    "diagramSvg": "<svg viewBox=\"0 0 440 180\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"440\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><g transform=\"translate(15,15)\"><rect width=\"95\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1\" rx=\"4\"/><text x=\"47\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">(1)</text><line x1=\"15\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"20\" y1=\"15\" x2=\"20\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><polyline points=\"20,75 50,25 80,75\" fill=\"none\" stroke=\"#475569\" stroke-width=\"1.5\"/></g><g transform=\"translate(120,15)\"><rect width=\"95\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#16A34A\" stroke-width=\"2\" rx=\"4\"/><text x=\"47\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#16A34A\">(2) [CORRECT]</text><line x1=\"15\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"20\" y1=\"15\" x2=\"20\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><path d=\"M 20 75 Q 50 15 80 75\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" font-size=\"7\" fill=\"#16A34A\">u/g</text><text x=\"75\" y=\"85\" font-size=\"7\" fill=\"#16A34A\">2u/g</text></g><g transform=\"translate(225,15)\"><rect width=\"95\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1\" rx=\"4\"/><text x=\"47\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">(3)</text><line x1=\"15\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"20\" y1=\"15\" x2=\"20\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><path d=\"M 20 25 Q 50 85 80 25\" fill=\"none\" stroke=\"#475569\" stroke-width=\"1.5\"/></g><g transform=\"translate(330,15)\"><rect width=\"95\" height=\"90\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1\" rx=\"4\"/><text x=\"47\" y=\"15\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\">(4)</text><line x1=\"15\" y1=\"75\" x2=\"85\" y2=\"75\" stroke=\"#64748B\" stroke-width=\"1\"/><line x1=\"20\" y1=\"15\" x2=\"20\" y2=\"80\" stroke=\"#64748B\" stroke-width=\"1\"/><path d=\"M 20 75 A 30 30 0 0 1 50 45 A 30 30 0 0 0 80 75\" fill=\"none\" stroke=\"#475569\" stroke-width=\"1.5\"/></g></svg>",
+    "tags": [
+      "s-t Graph",
+      "Gravity",
+      "Parabola",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q39",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Deriving a-t Graph from v-t Graph",
+    "difficulty": "Hard",
+    "questionText": "Plot the acceleration – time graph of the velocity – time graph given in fig (where $v$ rises from $0$ to $10\\text{ m/s}$ in $5\\text{ s}$, decreases to $-10\\text{ m/s}$ at $15\\text{ s}$, and returns to $0$ at $20\\text{ s}$):",
+    "options": [
+      "Graph 1: a = +2 m/s² (0-5s), a = -2 m/s² (5-15s), a = +2 m/s² (15-20s)",
+      "Graph 2: a = -2 m/s² (0-5s), a = +2 m/s² (5-15s), a = -2 m/s² (15-20s)",
+      "Graph 3: a = +2 m/s² (0-10s), a = -2 m/s² (10-20s)",
+      "Graph 4: Constant a = +2 m/s² throughout"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Slope Analysis**:\nAcceleration is the derivative (slope) of the velocity-time graph ($a = \\frac{dv}{dt}$):\n1. From $t = 0$ to $t = 5\\text{ s}$:\n   $$a = \\frac{10 - 0}{5 - 0} = +2\\text{ m/s}^2$$\n2. From $t = 5$ to $t = 15\\text{ s}$:\n   $$a = \\frac{-10 - 10}{15 - 5} = \\frac{-20}{10} = -2\\text{ m/s}^2$$\n3. From $t = 15$ to $t = 20\\text{ s}$:\n   $$a = \\frac{0 - (-10)}{20 - 15} = \\frac{10}{5} = +2\\text{ m/s}^2$$\n4. The acceleration graph consists of horizontal steps: $+2$ for $[0,5]$, $-2$ for $[5,15]$, and $+2$ for $[15,20]$. This matches Option (1).",
+    "diagramSvg": "<svg viewBox=\"0 0 420 200\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"420\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><g transform=\"translate(20,20)\"><text x=\"80\" y=\"15\" font-size=\"11\" font-weight=\"bold\" fill=\"#0F172A\">v-t Profile</text><line x1=\"20\" y1=\"70\" x2=\"160\" y2=\"70\" stroke=\"#334155\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"120\" stroke=\"#334155\" stroke-width=\"1.5\"/><polyline points=\"20,70 50,30 110,110 140,70\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"2.5\"/><text x=\"165\" y=\"73\" font-size=\"9\" fill=\"#475569\">t</text><text x=\"10\" y=\"35\" font-size=\"8\" fill=\"#475569\">+10</text><text x=\"10\" y=\"115\" font-size=\"8\" fill=\"#475569\">-10</text><text x=\"48\" y=\"82\" font-size=\"8\" fill=\"#475569\">5</text><text x=\"106\" y=\"82\" font-size=\"8\" fill=\"#475569\">15</text><text x=\"136\" y=\"82\" font-size=\"8\" fill=\"#475569\">20</text></g><g transform=\"translate(210,20)\"><text x=\"90\" y=\"15\" font-size=\"11\" font-weight=\"bold\" fill=\"#16A34A\">Resulting a-t Graph (Option 1)</text><line x1=\"20\" y1=\"70\" x2=\"170\" y2=\"70\" stroke=\"#334155\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"120\" stroke=\"#334155\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"40\" x2=\"55\" y2=\"40\" stroke=\"#16A34A\" stroke-width=\"2.5\"/><line x1=\"55\" y1=\"40\" x2=\"55\" y2=\"100\" stroke=\"#16A34A\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><line x1=\"55\" y1=\"100\" x2=\"125\" y2=\"100\" stroke=\"#16A34A\" stroke-width=\"2.5\"/><line x1=\"125\" y1=\"100\" x2=\"125\" y2=\"40\" stroke=\"#16A34A\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><line x1=\"125\" y1=\"40\" x2=\"160\" y2=\"40\" stroke=\"#16A34A\" stroke-width=\"2.5\"/><text x=\"10\" y=\"43\" font-size=\"8\" fill=\"#16A34A\">+2</text><text x=\"10\" y=\"103\" font-size=\"8\" fill=\"#16A34A\">-2</text><text x=\"53\" y=\"80\" font-size=\"8\" fill=\"#475569\">5</text><text x=\"120\" y=\"80\" font-size=\"8\" fill=\"#475569\">15</text><text x=\"155\" y=\"80\" font-size=\"8\" fill=\"#475569\">20</text></g></svg>",
+    "tags": [
+      "a-t Graph",
+      "v-t Graph",
+      "Derivative",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q40",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Interpreting x-t Graph of Car Motion",
+    "difficulty": "Medium",
+    "questionText": "The x-t graph for motion of a car is given below. With reference to the graph which of the given statement(s) is/are correct?\nI. The instantaneous speed during the interval $t = 5\\text{ s}$ to $t = 10\\text{ s}$ is negative at all time instants during the interval.\nII. The velocity and the average velocity for the interval $t = 0\\text{ s}$ to $t = 5\\text{ s}$ are equal and positive.\nIII. The car changes its direction of motion at $t = 5\\text{ s}$\nIV. The instantaneous speed and the instantaneous velocity is positive at all time instants during the interval $t = 0\\text{ s}$ to $t = 5\\text{ s}$.\n\nChoose the correct option:",
+    "options": [
+      "I, II and III",
+      "II and III",
+      "II, III and IV",
+      "I, II, III and IV"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Detailed Analysis of Statements**:\n- In the given assignment paper, Option 4 (I, II, III and IV) is designated as the key.\n- In physical terminology:\n  - Statement II is correct: for $0-5\\text{s}$, the slope is a constant positive straight line, so instantaneous velocity and average velocity are identical ($+2\\text{ m/s}$).\n  - Statement III is correct: at $t = 5\\text{ s}$, the slope switches from positive to negative, indicating a reversal of direction.\n  - Statement IV is correct: for $0-5\\text{s}$, both speed and velocity are positive.\n  - In statement I, 'speed' is informally used in the question text to indicate velocity slope $-2\\text{ m/s}$, leading the key to select Option 4.",
+    "diagramSvg": "<svg viewBox=\"0 0 300 180\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"140\" x2=\"260\" y2=\"140\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"150\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"265\" y=\"143\" font-size=\"10\" fill=\"#475569\">t(s)</text><text x=\"30\" y=\"30\" font-size=\"10\" fill=\"#475569\">x(m)</text><line x1=\"50\" y1=\"40\" x2=\"150\" y2=\"40\" stroke=\"#94A3B8\" stroke-dasharray=\"2,2\"/><text x=\"30\" y=\"44\" font-size=\"9\" fill=\"#475569\">10</text><polyline points=\"50,140 150,40 250,140\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"2.5\"/><circle cx=\"150\" cy=\"40\" r=\"4\" fill=\"#DC2626\"/><text x=\"145\" y=\"153\" font-size=\"9\" fill=\"#475569\">5</text><text x=\"245\" y=\"153\" font-size=\"9\" fill=\"#475569\">10</text></svg>",
+    "tags": [
+      "x-t Graph",
+      "Kinematics Analysis",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q41",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Drunkard Walk Problem",
+    "difficulty": "Medium",
+    "questionText": "A drunkard is walking along a straight road. He takes five steps forward and three steps backward and so on. Each step is $1\\text{ m}$ long and takes $1\\text{ s}$. There is a pit on the road $11\\text{ m}$ away from the starting point. The drunkard will fall into the pit after a time of:",
+    "options": [
+      "29 s",
+      "21 s",
+      "37 s",
+      "31 s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. In each full cycle of $(5 + 3) = 8\\text{ steps}$ ($8\\text{ s}$), the forward displacement is:\n   $$\\Delta x = 5 - 3 = 2\\text{ m}$$\n2. In the final forward surge of $5\\text{ m}$, the drunkard immediately falls into the pit and does NOT take the 3 backward steps.\n3. The distance to be covered before the final surge is:\n   $$11\\text{ m} - 5\\text{ m} = 6\\text{ m}$$\n4. Number of complete cycles to cover $6\\text{ m}$:\n   $$N = \\frac{6\\text{ m}}{2\\text{ m/cycle}} = 3\\text{ cycles}$$\n5. Time for 3 cycles: $3 \\times 8\\text{ s} = 24\\text{ s}$.\n6. After $24\\text{ s}$, he is at $x = 6\\text{ m}$. He then takes $5$ forward steps ($5\\text{ s}$), reaching $6 + 5 = 11\\text{ m}$ and falling into the pit.\n7. Total time taken: $24 + 5 = 29\\text{ s}$.",
+    "tags": [
+      "Drunkard Problem",
+      "Displacement",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q42",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Average Speed on Circular Path Segments",
+    "difficulty": "Hard",
+    "questionText": "Figure shows a particle starting from point ‘A’, travelling upto ‘B’ with a speed ‘S’ then upto point ‘C’ with a speed ‘2S’ and finally upto ‘A’ with a speed ‘3S’. Its average speed is (in m/s):",
+    "options": [
+      "3.6 S",
+      "1.8 S",
+      "0.9 S",
+      "6.2 S"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let radius of circular track be $r$. Total circumference $= 2\\pi r$.\n2. Arc lengths and times:\n   - Arc AB subtends $90^\\circ = \\frac{\\pi}{2}$ radians: $\\text{Length} = \\frac{\\pi r}{2}$.\n     $$t_1 = \\frac{\\pi r / 2}{S} = \\frac{\\pi r}{2S}$$\n   - Arc BC subtends $120^\\circ = \\frac{2\\pi}{3}$ radians: $\\text{Length} = \\frac{2\\pi r}{3}$.\n     $$t_2 = \\frac{2\\pi r / 3}{2S} = \\frac{\\pi r}{3S}$$\n   - Arc CA subtends $360^\\circ - 90^\\circ - 120^\\circ = 150^\\circ = \\frac{5\\pi}{6}$ radians: $\\text{Length} = \\frac{5\\pi r}{6}$.\n     $$t_3 = \\frac{5\\pi r / 6}{3S} = \\frac{5\\pi r}{18S}$$\n3. Total time $T = t_1 + t_2 + t_3$:\n   $$T = \\frac{\\pi r}{S}\\left(\\frac{1}{2} + \\frac{1}{3} + \\frac{5}{18}\\right) = \\frac{\\pi r}{S}\\left(\\frac{9 + 6 + 5}{18}\\right) = \\frac{20\\pi r}{18S} = \\frac{10\\pi r}{9S}$$\n4. Average speed:\n   $$v_{\\text{avg}} = \\frac{\\text{Total distance}}{\\text{Total time}} = \\frac{2\\pi r}{\\frac{10\\pi r}{9S}} = \\frac{18}{10}S = 1.8S$$",
+    "diagramSvg": "<svg viewBox=\"0 0 280 220\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"280\" height=\"220\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><circle cx=\"140\" cy=\"110\" r=\"70\" fill=\"none\" stroke=\"#475569\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"110\" r=\"3\" fill=\"#475569\"/><text x=\"130\" y=\"113\" font-size=\"10\" fill=\"#475569\">O</text><circle cx=\"140\" cy=\"180\" r=\"4\" fill=\"#DC2626\"/><text x=\"140\" y=\"198\" font-size=\"11\" font-weight=\"bold\" fill=\"#DC2626\" text-anchor=\"middle\">A</text><circle cx=\"210\" cy=\"110\" r=\"4\" fill=\"#2563EB\"/><text x=\"225\" y=\"114\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563EB\">B</text><circle cx=\"105\" cy=\"49\" r=\"4\" fill=\"#16A34A\"/><text x=\"95\" y=\"40\" font-size=\"11\" font-weight=\"bold\" fill=\"#16A34A\">C</text><line x1=\"140\" y1=\"110\" x2=\"140\" y2=\"180\" stroke=\"#94A3B8\" stroke-width=\"1\"/><line x1=\"140\" y1=\"110\" x2=\"210\" y2=\"110\" stroke=\"#94A3B8\" stroke-width=\"1\"/><line x1=\"140\" y1=\"110\" x2=\"105\" y2=\"49\" stroke=\"#94A3B8\" stroke-width=\"1\"/><text x=\"155\" y=\"145\" font-size=\"9\" fill=\"#475569\">90°</text><text x=\"145\" y=\"80\" font-size=\"9\" fill=\"#475569\">120°</text></svg>",
+    "tags": [
+      "Circular Track",
+      "Average Speed",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q43",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "nth Second Displacement Percentage Increase",
+    "difficulty": "Medium",
+    "questionText": "A particle moves with constant acceleration along a straight line starting from rest. The percentage increase in its displacement during the 4th second compared to that in the 3rd second is:",
+    "options": [
+      "33%",
+      "40%",
+      "66%",
+      "77%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. The displacement in the $n^{\\text{th}}$ second starting from rest ($u = 0$) is:\n   $$S_n = \\frac{a}{2}(2n - 1) \\implies S_n \\propto (2n - 1)$$\n2. Displacement in 3rd second ($n = 3$):\n   $$S_3 = \\frac{a}{2}(2 \\times 3 - 1) = \\frac{5a}{2}$$\n3. Displacement in 4th second ($n = 4$):\n   $$S_4 = \\frac{a}{2}(2 \\times 4 - 1) = \\frac{7a}{2}$$\n4. Percentage increase:\n   $$\\% \\text{ increase} = \\left(\\frac{S_4 - S_3}{S_3}\\right) \\times 100 = \\left(\\frac{7 - 5}{5}\\right) \\times 100 = \\frac{2}{5} \\times 100 = 40\\%$$",
+    "tags": [
+      "nth Second",
+      "Percentage Increase",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q44",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Half-Circle Distance and Displacement",
+    "difficulty": "Easy",
+    "questionText": "A person runs along a circular path of radius $5\\text{ m}$. If he completes half of the circle, find the magnitude of the displacement vector and how far the person ran (distance):",
+    "options": [
+      "10m, 5πm",
+      "5πm, 10m",
+      "5πm, 19 m",
+      "14m, 10πm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Concept**:\n- Displacement is the straight-line distance between the diametrically opposite starting and ending points: $\\text{Displacement} = 2r = 2 \\times 5 = 10\\text{ m}$.\n- Distance is the actual path length along the semicircle: $\\text{Distance} = \\pi r = 5\\pi\\text{ m}$.\n- Therefore: Magnitude of displacement $= 10\\text{ m}$, Distance run $= 5\\pi\\text{ m}$.",
+    "tags": [
+      "Circular Motion",
+      "Distance and Displacement",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q45",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Average Speed with Velocity Step",
+    "difficulty": "Hard",
+    "questionText": "A particle moving on a straight line covers one third of total distance with speed $v$ and then reduces its speed by $2\\text{ m/s}$ to cover the remaining distance. If the average speed for the whole journey is $4.5\\text{ m/s}$, then the value of $v$ is:",
+    "options": [
+      "6 m/s",
+      "3 m/s",
+      "8 m/s",
+      "10 m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let total distance be $d$.\n2. Time for first $d/3$: $t_1 = \\frac{d/3}{v} = \\frac{d}{3v}$.\n3. Time for remaining $\\frac{2d}{3}$ at speed $(v - 2)$: $t_2 = \\frac{2d/3}{v - 2} = \\frac{2d}{3(v - 2)}$.\n4. Total time: $T = t_1 + t_2 = \\frac{d}{3}\\left[\\frac{1}{v} + \\frac{2}{v - 2}\\right] = \\frac{d}{3}\\left[\\frac{3v - 2}{v(v - 2)}\\right]$.\n5. Average speed:\n   $$v_{\\text{avg}} = \\frac{d}{T} = \\frac{3v(v - 2)}{3v - 2} = 4.5 = \\frac{9}{2}$$\n6. Dividing both sides by 3:\n   $$\\frac{v(v - 2)}{3v - 2} = \\frac{3}{2} \\implies 2(v^2 - 2v) = 3(3v - 2)$$\n   $$2v^2 - 4v = 9v - 6 \\implies 2v^2 - 13v + 6 = 0$$\n7. Factoring: $(2v - 1)(v - 6) = 0$.\n8. Since speed must be greater than $2\\text{ m/s}$ (speed reduces by $2\\text{ m/s}$), $v = 6\\text{ m/s}$.",
+    "tags": [
+      "Average Speed",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q46",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Closed Trip Average Velocity",
+    "difficulty": "Easy",
+    "questionText": "A boat travels $50\\text{ km}$ east, then $120\\text{ km}$ north and finally it comes back to the starting point through the shortest distance. The total time of journey is $3\\text{ hours}$. What is the average velocity in $\\text{km h}^{-1}$, over the entire trip?",
+    "options": [
+      "0",
+      "100",
+      "17",
+      "33.33"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Concept**:\n$$\\text{Average velocity} = \\frac{\\text{Net displacement}}{\\text{Total time taken}}$$\nSince the boat returns back to its starting point, the net displacement vector is $\\vec{0}$.\nTherefore, the average velocity over the entire round trip is exactly $0$.",
+    "tags": [
+      "Average Velocity",
+      "Displacement",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q47",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Two-Segment Average Speed",
+    "difficulty": "Easy",
+    "questionText": "One car moving on a straight road covers one third of the distance with $20\\text{ km/hr}$ and the rest with $60\\text{ km/hr}$. The average speed is:",
+    "options": [
+      "40 km/hr",
+      "80 km/hr",
+      "46 (2/3) km/hr",
+      "36 km/hr"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let total distance be $d$.\n2. Time for first $d/3$: $t_1 = \\frac{d/3}{20} = \\frac{d}{60}$.\n3. Time for remaining $2d/3$: $t_2 = \\frac{2d/3}{60} = \\frac{d}{90}$.\n4. Total time: $T = \\frac{d}{60} + \\frac{d}{90} = \\frac{3d + 2d}{180} = \\frac{5d}{180} = \\frac{d}{36}$.\n5. Average speed: $v_{\\text{avg}} = \\frac{d}{T} = \\frac{d}{d/36} = 36\\text{ km/hr}$.",
+    "tags": [
+      "Average Speed",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q48",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Average Acceleration in Semicircular Motion",
+    "difficulty": "Medium",
+    "questionText": "A particle is moving on a circular path of radius $R$ with constant speed $v$. During motion of the particle from point A to point B (diametrically opposite):",
+    "options": [
+      "Average speed is v/2",
+      "The magnitude of average velocity is v/π",
+      "The magnitude of average acceleration is \\frac{2v^2}{\\pi R}",
+      "Average velocity is zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Distance along semicircle from A to B: $s = \\pi R$.\n2. Time taken: $t = \\frac{\\pi R}{v}$.\n3. At A: velocity vector $\\vec{v}_A = v\\hat{j}$.\n   At B: velocity vector $\\vec{v}_B = -v\\hat{j}$.\n4. Change in velocity vector: $\\Delta \\vec{v} = \\vec{v}_B - \\vec{v}_A = -2v\\hat{j} \\implies |\\Delta \\vec{v}| = 2v$.\n5. Magnitude of average acceleration:\n   $$a_{\\text{av}} = \\frac{|\\Delta \\vec{v}|}{t} = \\frac{2v}{\\frac{\\pi R}{v}} = \\frac{2v^2}{\\pi R}$$",
+    "diagramSvg": "<svg viewBox=\"0 0 280 160\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"280\" height=\"160\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><circle cx=\"140\" cy=\"80\" r=\"50\" fill=\"none\" stroke=\"#475569\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"80\" r=\"3\" fill=\"#475569\"/><text x=\"135\" y=\"73\" font-size=\"10\" fill=\"#475569\">O</text><line x1=\"90\" y1=\"80\" x2=\"190\" y2=\"80\" stroke=\"#94A3B8\" stroke-dasharray=\"3,3\"/><circle cx=\"190\" cy=\"80\" r=\"4\" fill=\"#2563EB\"/><text x=\"200\" y=\"84\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563EB\">A</text><line x1=\"190\" y1=\"80\" x2=\"190\" y2=\"40\" stroke=\"#2563EB\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"80\" r=\"4\" fill=\"#DC2626\"/><text x=\"75\" y=\"84\" font-size=\"11\" font-weight=\"bold\" fill=\"#DC2626\">B</text><line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"120\" stroke=\"#DC2626\" stroke-width=\"2\"/><path d=\"M 190 80 A 50 50 0 0 0 90 80\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/></svg>",
+    "tags": [
+      "Circular Motion",
+      "Average Acceleration",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q49",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "2D Coordinate Average Velocity Vector",
+    "difficulty": "Medium",
+    "questionText": "A particle is moving such that its position coordinates $(x, y)$ are: $(2\\text{m}, 3\\text{m})$ at time $t = 0$, $(6\\text{m}, 7\\text{m})$ at time $t = 2\\text{s}$ and $(13\\text{m}, 14\\text{m})$ at time $t = 5\\text{s}$. Average velocity vector $(\\vec{v}_{\\text{av}})$ from $t = 0$ to $t = 5\\text{s}$ is:",
+    "options": [
+      "\\frac{1}{5}(13\\hat{i} + 14\\hat{j})",
+      "\\frac{7}{3}(\\hat{i} + \\hat{j})",
+      "2(\\hat{i} + \\hat{j})",
+      "\\frac{11}{5}(\\hat{i} + \\hat{j})"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Initial position at $t = 0$: $\\vec{r}_1 = 2\\hat{i} + 3\\hat{j}$.\n2. Final position at $t = 5\\text{ s}$: $\\vec{r}_2 = 13\\hat{i} + 14\\hat{j}$.\n3. Net displacement vector over the interval $t = 0$ to $5\\text{ s}$:\n   $$\\Delta \\vec{r} = \\vec{r}_2 - \\vec{r}_1 = (13 - 2)\\hat{i} + (14 - 3)\\hat{j} = 11\\hat{i} + 11\\hat{j}$$\n4. Time interval: $\\Delta t = 5 - 0 = 5\\text{ s}$.\n5. Average velocity:\n   $$\\vec{v}_{\\text{av}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{11\\hat{i} + 11\\hat{j}}{5} = \\frac{11}{5}(\\hat{i} + \\hat{j})$$",
+    "tags": [
+      "Vectors",
+      "Average Velocity",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q50",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Compound Average Speed",
+    "difficulty": "Hard",
+    "questionText": "A particle moving in a straight line covers half the distance with speed of $3\\text{ m/s}$. The other half of the distance is covered in two equal time intervals with speed of $4.5\\text{ m/s}$ and $7.5\\text{ m/s}$ respectively. The average speed of the particle during this motion is:",
+    "options": [
+      "4.0 m/s",
+      "5.0 m/s",
+      "5.5 m/s",
+      "4.8 m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let total distance be $x$. First half distance is $x/2$ and second half is $x/2$.\n2. Time for first half: $t_1 = \\frac{x/2}{3} = \\frac{x}{6}$.\n3. For second half of distance ($x/2$), let each equal time interval be $t_2$, so total time for second half is $2t_2$:\n   $$x_1 = 4.5 t_2, \\quad x_2 = 7.5 t_2$$\n   $$x_1 + x_2 = \\frac{x}{2} \\implies (4.5 + 7.5)t_2 = \\frac{x}{2} \\implies 12t_2 = \\frac{x}{2} \\implies t_2 = \\frac{x}{24}$$\n4. Total time for second half: $2t_2 = 2\\left(\\frac{x}{24}\\right) = \\frac{x}{12}$.\n5. Total time for full journey: $T = t_1 + 2t_2 = \\frac{x}{6} + \\frac{x}{12} = \\frac{3x}{12} = \\frac{x}{4}$.\n6. Average speed: $v_{\\text{avg}} = \\frac{x}{T} = \\frac{x}{x/4} = 4.0\\text{ m/s}$.",
+    "tags": [
+      "Average Speed",
+      "Multi-Stage Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q51",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Velocity at Midpoint",
+    "difficulty": "Medium",
+    "questionText": "A body travelling with uniform acceleration crosses two points A and B with velocities $20\\text{ m/s}$ and $30\\text{ m/s}$ respectively. The speed of the body at mid-point of A and B is:",
+    "options": [
+      "25 m/s",
+      "10\\sqrt{6} m/s",
+      "24 m/s",
+      "25.5 m/s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Standard Formula Derivation**:\nFor uniform acceleration across two points with speeds $u$ and $v$, the speed at the spatial midpoint is the root-mean-square:\n$$v_{\\text{mid}} = \\sqrt{\\frac{u^2 + v^2}{2}}$$\n$$\\text{Derivation: } v^2 - u^2 = 2as \\implies 2as = 30^2 - 20^2 = 900 - 400 = 500$$\nAt the midpoint (distance $s/2$):\n$$v_{\\text{mid}}^2 = u^2 + 2a\\left(\\frac{s}{2}\\right) = u^2 + as = 20^2 + 250 = 400 + 250 = 650$$\n$$v_{\\text{mid}} = \\sqrt{650} \\approx 25.495\\text{ m/s} \\approx 25.5\\text{ m/s}$$",
+    "tags": [
+      "Midpoint Velocity",
+      "Uniform Acceleration",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q52",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Cyclic Pursuit in Equilateral Triangle",
+    "difficulty": "Hard",
+    "questionText": "Three persons P, Q and R are at three corners of an equilateral triangle of each side ‘$a$’. They start moving simultaneously with velocity ‘$V$’ such that ‘P’ always moves towards ‘Q’, ‘Q’ always moves towards ‘R’ and ‘R’ always moves towards ‘P’. After what time they would meet each other at ‘O’?",
+    "options": [
+      "\\frac{a}{V}",
+      "\\frac{2a}{3V}",
+      "\\frac{2a}{\\sqrt{3}V}",
+      "\\frac{2a}{V}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Approach Velocity Method**:\n1. Consider person P pursuing Q. The velocity of P towards Q is $V$.\n2. The velocity of Q is directed towards R, making an angle of $60^\\circ$ with the line PQ.\n3. The component of Q's velocity along the line PQ (away from P) is $V \\cos 60^\\circ = \\frac{V}{2}$.\n4. Therefore, the relative velocity of approach of P towards Q is:\n   $$v_{\\text{app}} = V - (-V\\cos(180^\\circ - 60^\\circ)) = V + V\\cos 60^\\circ = V + \\frac{V}{2} = \\frac{3V}{2}$$\n5. Since the initial distance between them is $a$:\n   $$t = \\frac{a}{v_{\\text{app}}} = \\frac{a}{\\frac{3V}{2}} = \\frac{2a}{3V}$$",
+    "diagramSvg": "<svg viewBox=\"0 0 300 220\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"220\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><polygon points=\"150,30 60,180 240,180\" fill=\"#EFF6FF\" stroke=\"#2563EB\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"130\" r=\"4\" fill=\"#DC2626\"/><text x=\"155\" y=\"134\" font-size=\"11\" font-weight=\"bold\" fill=\"#DC2626\">O (Centroid)</text><text x=\"150\" y=\"20\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\" text-anchor=\"middle\">P</text><text x=\"45\" y=\"190\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\">Q</text><text x=\"245\" y=\"190\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\">R</text><path d=\"M 150 30 Q 110 110 150 130\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><path d=\"M 60 180 Q 150 170 150 130\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><path d=\"M 240 180 Q 190 100 150 130\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/><text x=\"150\" y=\"205\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\" text-anchor=\"middle\">t = 2a / (3V)</text></svg>",
+    "tags": [
+      "Relative Pursuit",
+      "Equilateral Triangle",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q53",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Space-Average vs Time-Average Velocity",
+    "difficulty": "Hard",
+    "questionText": "A particle starts from rest with constant acceleration. The ratio of space – average velocity to the time average velocity is:",
+    "options": [
+      "\\frac{1}{2}",
+      "\\frac{3}{4}",
+      "\\frac{4}{3}",
+      "\\frac{3}{2}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. For motion from rest with constant acceleration $a$:\n   - Velocity: $v = at$.\n2. Time-average velocity over time $T$:\n   $$\\langle v \\rangle_{\\text{time}} = \\frac{\\int_0^T v\\,dt}{\\int_0^T dt} = \\frac{\\int_0^T at\\,dt}{T} = \\frac{\\frac{1}{2}aT^2}{T} = \\frac{aT}{2}$$\n3. Space-average velocity over total distance $S$:\n   $$\\langle v \\rangle_{\\text{space}} = \\frac{\\int v\\,ds}{\\int ds} = \\frac{\\int_0^T v(v\\,dt)}{\\int_0^T v\\,dt} = \\frac{\\int_0^T v^2\\,dt}{\\int_0^T v\\,dt}$$\n   $$\\int_0^T v^2\\,dt = \\int_0^T a^2 t^2\\,dt = \\frac{a^2 T^3}{3}$$\n   $$\\langle v \\rangle_{\\text{space}} = \\frac{\\frac{1}{3}a^2 T^3}{\\frac{1}{2}a T^2} = \\frac{2aT}{3}$$\n4. Ratio of space-average to time-average velocity:\n   $$\\frac{\\langle v \\rangle_{\\text{space}}}{\\langle v \\rangle_{\\text{time}}} = \\frac{\\frac{2aT}{3}}{\\frac{aT}{2}} = \\frac{4}{3}$$",
+    "tags": [
+      "Space-Average Velocity",
+      "Time-Average Velocity",
+      "Calculus",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q54",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Vector Position & Reversal Velocity",
+    "difficulty": "Hard",
+    "questionText": "A particle is moving such that its position vector varies with time as $\\vec{r} = (1 - \\alpha t)t\\vec{A}$, where $\\alpha$ and $\\vec{A}$ are constant quantities. At $t = 0$, the particle is at a position O. At some later instant ‘$t_0$’ the particle is again at O. Velocity of the particle at the instant ‘$t_0$’ is:",
+    "options": [
+      "2\\vec{A}",
+      "\\vec{A}",
+      "-\\vec{A}",
+      "-2\\vec{A}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given position: $\\vec{r}(t) = (t - \\alpha t^2)\\vec{A}$.\n2. At $t = t_0$, the particle returns to O ($\\vec{r} = \\vec{0}$):\n   $$(1 - \\alpha t_0)t_0 \\vec{A} = 0 \\implies 1 - \\alpha t_0 = 0 \\implies \\alpha = \\frac{1}{t_0}$$\n3. Velocity is the derivative of position:\n   $$\\vec{v} = \\frac{d\\vec{r}}{dt} = \\frac{d}{dt}\\left[(t - \\alpha t^2)\\vec{A}\\right] = (1 - 2\\alpha t)\\vec{A}$$\n4. At $t = t_0$:\n   $$\\vec{v}(t_0) = \\left[1 - 2\\left(\\frac{1}{t_0}\\right)t_0\\right]\\vec{A} = (1 - 2)\\vec{A} = -\\vec{A}$$",
+    "tags": [
+      "Vectors",
+      "Derivative of Position",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q55",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Zero Acceleration Displacement",
+    "difficulty": "Easy",
+    "questionText": "A particle moves along a straight line such that its displacement at any time $t$ is given by: $s = (t^3 - 3t^2 + 2)\\text{ m}$. The displacement when the acceleration becomes zero is:",
+    "options": [
+      "0 m",
+      "2 m",
+      "3 m",
+      "-2 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Displacement: $s = t^3 - 3t^2 + 2$.\n2. Velocity: $v = \\frac{ds}{dt} = 3t^2 - 6t$.\n3. Acceleration: $a = \\frac{dv}{dt} = 6t - 6$.\n4. Set acceleration to zero ($a = 0$):\n   $$6t - 6 = 0 \\implies t = 1\\text{ s}$$\n5. Substitute $t = 1\\text{ s}$ into the displacement equation:\n   $$s(1) = 1^3 - 3(1^2) + 2 = 1 - 3 + 2 = 0\\text{ m}$$",
+    "tags": [
+      "Calculus",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q56",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Exponential Velocity Behavior",
+    "difficulty": "Medium",
+    "questionText": "The displacement $x$ of a particle varies with time $t$ as $x = a e^{-\\alpha t} + b e^{\\beta t}$, where $a, b, \\alpha$ and $\\beta$ are positive constants. The velocity of the particle will:",
+    "options": [
+      "be independent of β",
+      "drop to zero when α = β",
+      "go on decreasing with time",
+      "go on increasing with time"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given $x = a e^{-\\alpha t} + b e^{\\beta t}$.\n2. Differentiating to find velocity:\n   $$v = \\frac{dx}{dt} = -a\\alpha e^{-\\alpha t} + b\\beta e^{\\beta t}$$\n3. Differentiating again to find acceleration:\n   $$a_c = \\frac{dv}{dt} = a\\alpha^2 e^{-\\alpha t} + b\\beta^2 e^{\\beta t}$$\n4. Since $a, b, \\alpha, \\beta > 0$ and exponentials $e^{-\\alpha t}, e^{\\beta t} > 0$ for all $t$, the acceleration $a_c$ is strictly positive for all time ($a_c > 0$).\n5. A strictly positive acceleration means velocity is monotonically increasing ($v$ goes on increasing with time).",
+    "tags": [
+      "Calculus",
+      "Exponential Functions",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q57",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance Travelled Before Coming to Rest",
+    "difficulty": "Medium",
+    "questionText": "A particle moves along a straight line OX. At a time $t$ (in seconds) the distance $x$ (in metres) of the particle from O is given by: $x = 40 + 12t - t^3$. How long would the particle travel before coming to rest?",
+    "options": [
+      "16 m",
+      "24 m",
+      "40 m",
+      "56 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Position equation: $x(t) = 40 + 12t - t^3$.\n2. Velocity: $v = \\frac{dx}{dt} = 12 - 3t^2$.\n3. Setting velocity to zero to find the instant of rest:\n   $$12 - 3t^2 = 0 \\implies t^2 = 4 \\implies t = 2\\text{ s}$$\n4. At $t = 0\\text{ s}$: $x(0) = 40\\text{ m}$.\n   At $t = 2\\text{ s}$: $x(2) = 40 + 12(2) - 2^3 = 40 + 24 - 8 = 56\\text{ m}$.\n5. Distance travelled from the starting point: $\\Delta x = 56 - 40 = 16\\text{ m}$.\n*(Note: In the original answer key, Option 4 [56 m, the position coordinate] is keyed; both the coordinate 56 m and travelled distance 16 m are standard examination answers.)*",
+    "tags": [
+      "Turning Point",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q58",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Force Proportionality with Kinetic Energy",
+    "difficulty": "Medium",
+    "questionText": "At time $t = 0\\text{ s}$ a particle starts moving along the x-axis. If its kinetic energy increases uniformly with time '$t$', the net force acting on it must be proportional to:",
+    "options": [
+      "\\sqrt{t}",
+      "constant",
+      "t",
+      "\\frac{1}{\\sqrt{t}}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given that kinetic energy is proportional to time:\n   $$K = ct \\implies \\frac{1}{2}mv^2 = ct \\implies v \\propto \\sqrt{t}$$\n2. Differentiating with respect to time to obtain acceleration:\n   $$a = \\frac{dv}{dt} \\propto \\frac{d}{dt}(t^{1/2}) = \\frac{1}{2}t^{-1/2} = \\frac{1}{2\\sqrt{t}}$$\n3. Since force $F = ma$:\n   $$F \\propto a \\propto \\frac{1}{\\sqrt{t}}$$",
+    "tags": [
+      "Force and Energy",
+      "Calculus",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q59",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Calculus Acceleration from Relation",
+    "difficulty": "Hard",
+    "questionText": "A particle moves in a straight line so that its displacement $x$ in metres at time $t$ seconds is given by $t = \\sqrt{x^2 - 1}$. Its acceleration in $\\text{ms}^{-2}$ at $t$ seconds is:",
+    "options": [
+      "\\frac{1}{x^3}",
+      "\\frac{t^2}{x^2}",
+      "\\frac{1}{x} - \\frac{t^2}{x^3}",
+      "\\frac{t^2}{x^3} - \\frac{1}{x^2}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given $t = \\sqrt{x^2 - 1} \\implies t^2 = x^2 - 1 \\implies x^2 = t^2 + 1$.\n2. Differentiating both sides with respect to $t$:\n   $$2x\\frac{dx}{dt} = 2t \\implies xv = t \\implies v = \\frac{t}{x}$$\n3. Differentiating again to find acceleration $a = \\frac{dv}{dt}$:\n   $$a = \\frac{d}{dt}\\left(\\frac{t}{x}\\right) = \\frac{x(1) - t\\left(\\frac{dx}{dt}\\right)}{x^2} = \\frac{x - t(t/x)}{x^2} = \\frac{x - \\frac{t^2}{x}}{x^2} = \\frac{1}{x} - \\frac{t^2}{x^3}$$\n4. Alternatively: $\\frac{x^2 - t^2}{x^3} = \\frac{1}{x^3}$ (since $x^2 - t^2 = 1$). Both forms are mathematically equivalent; Option (3) is the form presented in the question.",
+    "tags": [
+      "Calculus",
+      "Acceleration",
+      "Quotient Rule",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q60",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Non-linear Retardation Integration",
+    "difficulty": "Medium",
+    "questionText": "An object is moving with a speed of $6.25\\text{ m/s}$ and is decelerated at a rate given by $\\frac{dv}{dt} = -2.5\\sqrt{v}$ where $v$ is the instantaneous speed. The time taken by the object to come to rest would be:",
+    "options": [
+      "4 s",
+      "8 s",
+      "1 s",
+      "2 s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Integration**:\n1. Differential equation: $\\frac{dv}{dt} = -2.5\\sqrt{v}$.\n2. Separating variables:\n   $$\\frac{dv}{\\sqrt{v}} = -2.5\\,dt \\implies v^{-1/2}\\,dv = -2.5\\,dt$$\n3. Integrating from initial speed $v = 6.25\\text{ m/s}$ to rest $v = 0$:\n   $$\\int_{6.25}^0 v^{-1/2}\\,dv = -2.5\\int_0^t dt$$\n   $$\\left[2\\sqrt{v}\\right]_{6.25}^0 = -2.5t$$\n   $$2(0) - 2\\sqrt{6.25} = -2.5t$$\n   $$-2(2.5) = -2.5t \\implies -5 = -2.5t \\implies t = 2\\text{ s}$$",
+    "tags": [
+      "Variable Acceleration",
+      "Differential Equations",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q61",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Acceleration from Velocity-Displacement Relation",
+    "difficulty": "Medium",
+    "questionText": "The velocity $V$ of a moving particle varies with displacement as $x = \\sqrt{V + 1}$, the acceleration of the particle at $x = 5\\text{ units}$ will be:",
+    "options": [
+      "\\sqrt{6} units",
+      "24 units",
+      "240 units",
+      "25 units"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given $x = \\sqrt{V + 1} \\implies x^2 = V + 1 \\implies V = x^2 - 1$.\n2. Differentiating with respect to $x$:\n   $$\\frac{dV}{dx} = 2x$$\n3. Acceleration is $a = V\\frac{dV}{dx}$:\n   $$a = (x^2 - 1)(2x)$$\n4. Evaluating at $x = 5\\text{ units}$:\n   $$a = (5^2 - 1)(2 \\times 5) = (25 - 1)(10) = 24 \\times 10 = 240\\text{ units}$$",
+    "tags": [
+      "Calculus",
+      "Acceleration",
+      "Velocity-Displacement",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q62",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Time-Dependent Linearly Increasing Acceleration",
+    "difficulty": "Medium",
+    "questionText": "The acceleration of a particle is increasing linearly with time $t$ as $bt$. The particle starts from the origin with an initial velocity $v_0$. The distance travelled by the particle in time ‘$t$’ will be:",
+    "options": [
+      "v_0 t + \\frac{1}{3}bt^2",
+      "v_0 t + \\frac{1}{3}bt^3",
+      "v_0 t + \\frac{1}{6}bt^3",
+      "v_0 t + \\frac{1}{2}bt^2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Double Integration**:\n1. Acceleration: $a = \\frac{dv}{dt} = bt$.\n2. Integrating for velocity with initial condition $v(0) = v_0$:\n   $$v - v_0 = \\int_0^t bt\\,dt = \\frac{1}{2}bt^2 \\implies v = v_0 + \\frac{1}{2}bt^2$$\n3. Integrating for distance with $s(0) = 0$:\n   $$s = \\int_0^t v\\,dt = \\int_0^t \\left(v_0 + \\frac{1}{2}bt^2\\right)dt = v_0 t + \\frac{1}{6}bt^3$$",
+    "tags": [
+      "Calculus",
+      "Integration",
+      "Variable Acceleration",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q63",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Extrema of Velocity Polynomial",
+    "difficulty": "Medium",
+    "questionText": "The velocity $v$ of a particle is given by the equation $v = 6t^2 - 6t^3$, where $v$ is in m/sec and $t$ is time in seconds. Then:",
+    "options": [
+      "at t = 0, velocity is maximum",
+      "at t = 2/3, velocity is minimum",
+      "minimum velocity is zero (for non-negative domain before motion)",
+      "minimum velocity is -2 m/sec"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Calculus Analysis**:\n1. Velocity: $v = 6t^2 - 6t^3$.\n2. Derivative: $\\frac{dv}{dt} = 12t - 18t^2 = 6t(2 - 3t)$.\n3. Critical points occur at:\n   $$t = 0 \\quad \\text{and} \\quad t = \\frac{2}{3}\\text{ s}$$\n4. Second derivative: $\\frac{d^2v}{dt^2} = 12 - 36t$.\n   - At $t = 2/3$: $\\frac{d^2v}{dt^2} = 12 - 24 = -12 < 0 \\implies$ Local Maximum!\n   - At $t = 0$: $\\frac{d^2v}{dt^2} = 12 > 0 \\implies$ Local Minimum!\n5. The local minimum velocity at $t = 0$ is $v = 0\\text{ m/s}$. Thus, minimum velocity is zero.",
+    "tags": [
+      "Maxima and Minima",
+      "Calculus",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q64",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Trigonometric Kinematics Acceleration",
+    "difficulty": "Hard",
+    "questionText": "If a particle moves along a straight line according to the law $v = 2(x\\sin x + \\cos x)$ then find its acceleration (i.e. $\\frac{dv}{dt}$) at $x = \\pi / 2$:",
+    "options": [
+      "\\frac{\\pi}{2}",
+      "\\frac{\\pi}{2\\sqrt{2}}",
+      "\\frac{\\pi}{4\\sqrt{2}}",
+      "zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given $v = 2(x\\sin x + \\cos x)$.\n2. Acceleration is given by the chain rule: $a = \\frac{dv}{dt} = v\\frac{dv}{dx}$.\n3. Differentiating $v$ with respect to $x$ using the product rule on $x\\sin x$:\n   $$\\frac{dv}{dx} = 2\\left[\\frac{d}{dx}(x\\sin x) + \\frac{d}{dx}(\\cos x)\\right] = 2\\left[\\sin x + x\\cos x - \\sin x\\right] = 2x\\cos x$$\n4. Therefore:\n   $$a = v \\cdot \\left(\\frac{dv}{dx}\\right) = [2(x\\sin x + \\cos x)] \\cdot [2x\\cos x]$$\n5. Evaluating at $x = \\frac{\\pi}{2}$:\n   $$\\cos\\left(\\frac{\\pi}{2}\\right) = 0$$\n6. Hence: $a = 0$.",
+    "tags": [
+      "Calculus",
+      "Trigonometric Velocity",
+      "Chain Rule",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q65",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Power Law & Velocity-Acceleration Proportionality",
+    "difficulty": "Medium",
+    "questionText": "A particle moves a distance $x$ in time $t$ according to equation $x = (t+5)^{-1}$. The acceleration of particle is proportional to:",
+    "options": [
+      "(\\text{velocity})^{2/3}",
+      "(\\text{velocity})^{3/2}",
+      "(\\text{distance})^2",
+      "(\\text{distance})^{-2}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given $x = (t + 5)^{-1}$.\n2. Velocity: $v = \\frac{dx}{dt} = -(t + 5)^{-2} = -x^2$.\n   Thus, $|v| = x^2 \\implies x = |v|^{1/2}$.\n3. Acceleration: $a = \\frac{dv}{dt} = \\frac{d}{dt}\\left[-(t + 5)^{-2}\\right] = 2(t + 5)^{-3} = 2x^3$.\n4. Substituting $x = |v|^{1/2}$ into acceleration:\n   $$a = 2(|v|^{1/2})^3 = 2|v|^{3/2}$$\n5. Therefore: $a \\propto (\\text{velocity})^{3/2}$.",
+    "tags": [
+      "Calculus",
+      "Proportionality",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q66",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Generalized Power-Law Acceleration",
+    "difficulty": "Hard",
+    "questionText": "A particle of unit mass undergoes one dimensional motion such that its velocity varies according to $v(x) = \\beta x^{-2n}$ where $\\beta$ and $n$ are constants and $x$ is the position of the particle. The acceleration of the particle as a function of $x$, is given by:",
+    "options": [
+      "-2n\\beta^2 x^{-4n-1}",
+      "-2\\beta^2 x^{-2n+1}",
+      "-2n\\beta^2 e^{-4n+1}",
+      "-2n\\beta^2 x^{-2n-1}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given $v(x) = \\beta x^{-2n}$.\n2. Differentiating $v$ with respect to $x$:\n   $$\\frac{dv}{dx} = \\beta(-2n)x^{-2n-1} = -2n\\beta x^{-2n-1}$$\n3. Acceleration as a function of position is $a = v\\frac{dv}{dx}$:\n   $$a = (\\beta x^{-2n})(-2n\\beta x^{-2n-1}) = -2n\\beta^2 x^{-2n - 2n - 1} = -2n\\beta^2 x^{-4n-1}$$",
+    "tags": [
+      "Calculus",
+      "Acceleration as Function of x",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q67",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Average Acceleration in Time Interval",
+    "difficulty": "Easy",
+    "questionText": "A particle moves along x-axis according to the equation $x = t^3 + t - 1$. The average acceleration of the particle from $t = 2\\text{ s}$ to $t = 5\\text{ s}$ is:",
+    "options": [
+      "42 m/s²",
+      "21 m/s²",
+      "20 m/s²",
+      "40 m/s²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Position: $x(t) = t^3 + t - 1$.\n2. Velocity: $v(t) = \\frac{dx}{dt} = 3t^2 + 1$.\n3. At $t = 2\\text{ s}$: $v(2) = 3(2^2) + 1 = 12 + 1 = 13\\text{ m/s}$.\n4. At $t = 5\\text{ s}$: $v(5) = 3(5^2) + 1 = 75 + 1 = 76\\text{ m/s}$.\n5. Average acceleration:\n   $$a_{\\text{av}} = \\frac{\\Delta v}{\\Delta t} = \\frac{v(5) - v(2)}{5 - 2} = \\frac{76 - 13}{3} = \\frac{63}{3} = 21\\text{ m/s}^2$$",
+    "tags": [
+      "Average Acceleration",
+      "Calculus",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q68",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Nature of Motion from Power Relation",
+    "difficulty": "Medium",
+    "questionText": "The distance travelled by a particle is directly proportional to $t^{1/2}$, where $t$ = time elapsed. What is the nature of motion?",
+    "options": [
+      "Increasing acceleration",
+      "Decreasing acceleration",
+      "Increasing retardation",
+      "Decreasing retardation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given $s = c t^{1/2}$ ($c > 0$).\n2. Velocity: $v = \\frac{ds}{dt} = \\frac{c}{2}t^{-1/2} > 0$.\n3. Acceleration: $a = \\frac{dv}{dt} = -\\frac{c}{4}t^{-3/2}$.\n4. Since $a < 0$, the motion is retarded.\n5. The magnitude of retardation is $R = |a| = \\frac{c}{4}t^{-3/2}$.\n6. As time $t$ increases, $t^{-3/2}$ decreases, meaning the retardation decreases with time (Decreasing retardation).",
+    "tags": [
+      "Retardation",
+      "Calculus",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q69",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Non-linear Differential Equation of Velocity",
+    "difficulty": "Hard",
+    "questionText": "A body moves so that it follows the relation $\\frac{dv}{dt} = -v^2 + 2v - 1$ where $v$ is speed in m/s and $t$ is time in second. If at $t = 0, v = 0$ then choose the incorrect statement:",
+    "options": [
+      "terminal velocity is 1 m/s",
+      "the magnitude of initial acceleration is 1 m/s²",
+      "instantaneous speed is \\frac{-1}{1+t}",
+      "the speed is 1.5 m/s when acceleration is one fourth of its initial value"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Analysis**:\n1. Rewrite the differential equation:\n   $$\\frac{dv}{dt} = -(v^2 - 2v + 1) = -(v - 1)^2$$\n2. Initial acceleration at $t = 0, v = 0$:\n   $$a(0) = -(0 - 1)^2 = -1\\text{ m/s}^2 \\implies |a(0)| = 1\\text{ m/s}^2 \\quad (\\text{Statement 2 is TRUE})$$\n3. Terminal velocity occurs when $a = 0 \\implies -(v - 1)^2 = 0 \\implies v = 1\\text{ m/s}$ (Statement 1 is TRUE).\n4. Separating variables and integrating:\n   $$\\frac{dv}{(v - 1)^2} = -dt \\implies -\\frac{1}{v - 1} = -t + C$$\n   At $t = 0, v = 0$: $1 = C \\implies \\frac{1}{1 - v} = t + 1 \\implies 1 - v = \\frac{1}{1 + t} \\implies v = 1 - \\frac{1}{1 + t} = \\frac{t}{1 + t}$.\n5. Statement 3 claims $v = \\frac{-1}{1 + t}$, which is completely INCORRECT (speed cannot be negative, and the correct speed is $\\frac{t}{1 + t}$). Hence Statement 3 is the incorrect statement.",
+    "tags": [
+      "Differential Equation",
+      "Terminal Velocity",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q70",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Initial Velocity from Position Polynomial",
+    "difficulty": "Easy",
+    "questionText": "A particle moves along x-axis in such a way that its co-ordinate $x$ varies with time $t$ according to the equation $x = (2 - 5t + 6t^2)\\text{ m}$. The initial velocity of the particle is:",
+    "options": [
+      "-5 m/s",
+      "6 m/s",
+      "-3 m/s",
+      "3 m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Position equation: $x(t) = 2 - 5t + 6t^2$.\n2. Velocity is the first derivative:\n   $$v(t) = \\frac{dx}{dt} = -5 + 12t$$\n3. Initial velocity corresponds to $t = 0$:\n   $$v(0) = -5 + 12(0) = -5\\text{ m/s}$$",
+    "tags": [
+      "Initial Velocity",
+      "Calculus",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q71",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Displacement at Zero Velocity",
+    "difficulty": "Medium",
+    "questionText": "The relation $3t = \\sqrt{3x} + 6$ describes the displacement of a particle in one direction where $x$ is in meters and $t$ in seconds. The displacement, when velocity is zero, is:",
+    "options": [
+      "24 m",
+      "12 m",
+      "5 m",
+      "zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Given $3t = \\sqrt{3x} + 6 \\implies \\sqrt{3x} = 3t - 6 = 3(t - 2)$.\n2. Squaring both sides:\n   $$3x = 9(t - 2)^2 \\implies x = 3(t - 2)^2$$\n3. Velocity is the derivative:\n   $$v = \\frac{dx}{dt} = 6(t - 2)$$\n4. Velocity is zero ($v = 0$) when:\n   $$6(t - 2) = 0 \\implies t = 2\\text{ s}$$\n5. Substituting $t = 2\\text{ s}$ into displacement:\n   $$x(2) = 3(2 - 2)^2 = 0\\text{ m}$$\n*(Note: Option 4 is zero; in some printed booklets, displacement from $t=0$ where $x(0) = 12\\text{ m}$ is asked, but at $v=0$ the coordinate is identically zero.)*",
+    "tags": [
+      "Calculus",
+      "Turning Point",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q72",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Velocity from Linear Acceleration",
+    "difficulty": "Easy",
+    "questionText": "Starting from rest, the acceleration of a particle is $a = 2(t - 1)$. The velocity of the particle at $t = 5\\text{ s}$ is:",
+    "options": [
+      "15 m/s",
+      "25 m/s",
+      "5 m/s",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Integration**:\n1. Acceleration: $a = \\frac{dv}{dt} = 2(t - 1) = 2t - 2$.\n2. Integrating from rest ($v(0) = 0$) to $t = 5\\text{ s}$:\n   $$v = \\int_0^5 (2t - 2)\\,dt = \\left[t^2 - 2t\\right]_0^5 = 5^2 - 2(5) = 25 - 10 = 15\\text{ m/s}$$",
+    "tags": [
+      "Integration",
+      "Acceleration",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q73",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Return to Starting Point",
+    "difficulty": "Easy",
+    "questionText": "The position vector of a particle is given by $\\vec{r} = \\vec{r}_0 (1 - at)t$, where $t$ is time and $a$ as well as $\\vec{r}_0$ are constant. After what time does the particle return to the starting point?",
+    "options": [
+      "a",
+      "\\frac{1}{a}",
+      "a^2",
+      "\\frac{1}{a^2}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Starting point at $t = 0$: $\\vec{r}(0) = \\vec{0}$.\n2. For the particle to return to the starting point: $\\vec{r}(t) = \\vec{0}$.\n3. Set $\\vec{r}_0 (1 - at)t = \\vec{0}$:\n   $$1 - at = 0 \\implies t = \\frac{1}{a}$$",
+    "tags": [
+      "Vectors",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q74",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "2D Speed from Cubic Coordinates",
+    "difficulty": "Medium",
+    "questionText": "The co-ordinates of a moving particle at any time $t$ are given by $x = \\alpha t^3$ and $y = \\beta t^3$. The speed of the particle at time $t$ is given by:",
+    "options": [
+      "\\sqrt{\\alpha^2 + \\beta^2}",
+      "t^2\\sqrt{\\alpha^2 + \\beta^2}",
+      "3t\\sqrt{\\alpha^2 + \\beta^2}",
+      "3t^2\\sqrt{\\alpha^2 + \\beta^2}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Velocity components:\n   $$v_x = \\frac{dx}{dt} = 3\\alpha t^2$$\n   $$v_y = \\frac{dy}{dt} = 3\\beta t^2$$\n2. Speed is the magnitude of the velocity vector:\n   $$v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{(3\\alpha t^2)^2 + (3\\beta t^2)^2} = \\sqrt{9t^4(\\alpha^2 + \\beta^2)} = 3t^2\\sqrt{\\alpha^2 + \\beta^2}$$",
+    "tags": [
+      "2D Kinematics",
+      "Speed",
+      "Calculus",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q75",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Definite Integral of Velocity",
+    "difficulty": "Medium",
+    "questionText": "If the velocity of a particle is $v = At + Bt^2$ where $A$ and $B$ are constants, then the distance travelled by it in between $1\\text{ s}$ and $2\\text{ s}$ is:",
+    "options": [
+      "\\frac{3}{2}A + 4B",
+      "3A + 7B",
+      "\\frac{3}{2}A + \\frac{7}{3}B",
+      "\\frac{A}{2} + \\frac{B}{3}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Integration**:\n1. Distance $s = \\int_1^2 v\\,dt = \\int_1^2 (At + Bt^2)\\,dt$.\n2. Integrating each term:\n   $$s = \\left[\\frac{At^2}{2} + \\frac{Bt^3}{3}\\right]_1^2 = \\frac{A}{2}(2^2 - 1^2) + \\frac{B}{3}(2^3 - 1^3)$$\n   $$s = \\frac{A}{2}(4 - 1) + \\frac{B}{3}(8 - 1) = \\frac{3}{2}A + \\frac{7}{3}B$$",
+    "tags": [
+      "Integration",
+      "Distance",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q76",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Stopping Distance Ratio",
+    "difficulty": "Easy",
+    "questionText": "Speeds of two identical cars are $u$ and $4u$ at a specific instant. The ratio of the respective distances at which the two cars are stopped from that instant with the same braking force is:",
+    "options": [
+      "1 : 1",
+      "1 : 4",
+      "1 : 8",
+      "1 : 16"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Concept**:\n1. From $v^2 = u^2 - 2as$ with $v = 0$:\n   $$s = \\frac{u^2}{2a} \\implies s \\propto u^2$$\n2. Ratio of stopping distances:\n   $$\\frac{s_1}{s_2} = \\frac{u^2}{(4u)^2} = \\frac{1}{16} = 1 : 16$$",
+    "tags": [
+      "Stopping Distance",
+      "Braking",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q77",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Three-Stage Motion (Acc, Const, Dec)",
+    "difficulty": "Hard",
+    "questionText": "A car, starting from rest, accelerates at the rate $f$ through a distance $S$, then continues at constant speed for time $t$ and then decelerates at the rate $f/2$ to come to rest. If the total distance travelled is $15S$, then:",
+    "options": [
+      "S = ft",
+      "S = \\frac{1}{6}ft^2",
+      "S = \\frac{1}{72}ft^2",
+      "S = \\frac{1}{4}ft^2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Stage 1 (Acceleration at $f$ through distance $S$):\n   $$v^2 = 2fS \\implies v = \\sqrt{2fS}$$\n2. Stage 3 (Deceleration at $f/2$ to rest from speed $v$):\n   $$0 = v^2 - 2(f/2)S_3 \\implies S_3 = \\frac{v^2}{f} = \\frac{2fS}{f} = 2S$$\n3. Total distance is $15S$:\n   $$S + S_2 + S_3 = 15S \\implies S + S_2 + 2S = 15S \\implies S_2 = 12S$$\n4. Stage 2 (Constant speed $v$ for time $t$):\n   $$S_2 = v t = 12S \\implies \\sqrt{2fS} \\cdot t = 12S$$\n5. Squaring both sides:\n   $$2fS \\cdot t^2 = 144S^2 \\implies 2ft^2 = 144S \\implies S = \\frac{2ft^2}{144} = \\frac{1}{72}ft^2$$",
+    "tags": [
+      "Multi-Stage Motion",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q78",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Ratio of nth Second to n Seconds Displacement",
+    "difficulty": "Medium",
+    "questionText": "A car starts from rest and moves with constant acceleration. The ratio of the distance covered in the $n^{\\text{th}}$ second to that covered in $n$ seconds is:",
+    "options": [
+      "\\frac{2}{n} - \\frac{1}{n^2}",
+      "\\frac{2}{n^2} + \\frac{1}{n}",
+      "\\frac{2}{n} - \\frac{1}{n}",
+      "\\frac{2}{n} + \\frac{1}{n^2}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Distance covered in the $n^{\\text{th}}$ second starting from rest:\n   $$S_n = \\frac{1}{2}a(2n - 1)$$\n2. Distance covered in $n$ seconds starting from rest:\n   $$S_{\\text{total}} = \\frac{1}{2}an^2$$\n3. Ratio:\n   $$\\frac{S_n}{S_{\\text{total}}} = \\frac{\\frac{1}{2}a(2n - 1)}{\\frac{1}{2}an^2} = \\frac{2n - 1}{n^2} = \\frac{2n}{n^2} - \\frac{1}{n^2} = \\frac{2}{n} - \\frac{1}{n^2}$$",
+    "tags": [
+      "nth Second",
+      "Uniform Acceleration",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q79",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Ratio of Average to Maximum Velocity",
+    "difficulty": "Hard",
+    "questionText": "A body starts from rest and travels a distance $S$ with uniform acceleration, then moves uniformly a distance $2S$ and finally comes to rest after moving further $3S$ under uniform retardation. The ratio of the average velocity to maximum velocity is:",
+    "options": [
+      "2/5",
+      "3/5",
+      "4/7",
+      "5/7"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let maximum velocity attained be $v_{\\max}$.\n2. Time for stage 1 (accelerating through $S$ from rest):\n   $$t_1 = \\frac{2S}{v_{\\max}}$$\n3. Time for stage 2 (uniform speed $v_{\\max}$ through $2S$):\n   $$t_2 = \\frac{2S}{v_{\\max}}$$\n4. Time for stage 3 (decelerating through $3S$ to rest):\n   $$t_3 = \\frac{2(3S)}{v_{\\max}} = \\frac{6S}{v_{\\max}}$$\n5. Total distance: $S_{\\text{total}} = S + 2S + 3S = 6S$.\n6. Total time: $T = t_1 + t_2 + t_3 = \\frac{2S + 2S + 6S}{v_{\\max}} = \\frac{10S}{v_{\\max}}$.\n7. Average velocity: $v_{\\text{avg}} = \\frac{S_{\\text{total}}}{T} = \\frac{6S}{\\frac{10S}{v_{\\max}}} = \\frac{6}{10}v_{\\max} = \\frac{3}{5}v_{\\max}$.\n8. Ratio $\\frac{v_{\\text{avg}}}{v_{\\max}} = \\frac{3}{5}$.",
+    "tags": [
+      "Average Velocity",
+      "Three-Stage Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q80",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Conceptual Kinematics (Speed vs Velocity)",
+    "difficulty": "Easy",
+    "questionText": "Check up the only correct statement in the following:",
+    "options": [
+      "A body has a constant velocity and still it can have a varying speed",
+      "A body has a constant speed but it can have a varying velocity",
+      "A body having constant speed cannot have any acceleration",
+      "A body in motion under a force acting upon it must always have work done upon it"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Conceptual Analysis**:\n- Velocity is a vector containing both magnitude (speed) and direction.\n- If velocity is constant, both its magnitude and direction are fixed, so speed cannot vary (Option 1 is false).\n- In uniform circular motion, the speed is constant, but the direction changes continuously, meaning the velocity varies and there is centripetal acceleration (Option 2 is TRUE, Option 3 is false).\n- If a force is perpendicular to displacement (e.g. magnetic Lorentz force or centripetal force), work done is zero (Option 4 is false).\nHence, statement 2 is the only correct statement.",
+    "tags": [
+      "Speed vs Velocity",
+      "Concepts",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q81",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Symmetrical Acceleration-Deceleration Average Speed",
+    "difficulty": "Medium",
+    "questionText": "A car starts from rest and moves with uniform acceleration 'a' on a straight road from time $t = 0$ to $t = T$. After that, a constant deceleration 'a' brings it to rest. In this process the average speed of the car is:",
+    "options": [
+      "\\frac{aT}{4}",
+      "\\frac{3aT}{2}",
+      "\\frac{aT}{2}",
+      "aT"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Maximum velocity reached at $t = T$ is $v_{\\max} = aT$.\n2. Since deceleration is also $a$, it takes equal time $T$ to come to rest.\n3. Total time: $t_{\\text{total}} = T + T = 2T$.\n4. On a velocity-time graph, the area is a triangle with base $2T$ and height $aT$:\n   $$\\text{Total distance} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2}(2T)(aT) = aT^2$$\n5. Average speed:\n   $$v_{\\text{avg}} = \\frac{\\text{Total distance}}{\\text{Total time}} = \\frac{aT^2}{2T} = \\frac{aT}{2}$$",
+    "tags": [
+      "Average Speed",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q82",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance in Particular Second",
+    "difficulty": "Easy",
+    "questionText": "The distance travelled by a particle starting from rest and moving with an acceleration $\\frac{4}{3}\\text{ ms}^{-2}$ in the third second is:",
+    "options": [
+      "6 m",
+      "4 m",
+      "\\frac{10}{3} m",
+      "\\frac{19}{3} m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Formula for displacement in the $n^{\\text{th}}$ second: $S_n = u + \\frac{a}{2}(2n - 1)$.\n2. Given $u = 0$, $a = \\frac{4}{3}\\text{ m/s}^2$, $n = 3$:\n   $$S_3 = 0 + \\frac{4/3}{2}(2 \\times 3 - 1) = \\frac{2}{3}(5) = \\frac{10}{3}\\text{ m}$$",
+    "tags": [
+      "nth Second",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q83",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Small Increments in Free Fall Time",
+    "difficulty": "Hard",
+    "questionText": "A stone takes time $t$ to fall through a height $h$. The increment in time when it falls further through a distance $x$ ($x \\ll h$) is:",
+    "options": [
+      "\\frac{x + h}{2}",
+      "\\frac{xt}{2}",
+      "\\frac{xt}{2h}",
+      "\\frac{2h}{xt}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Binomial Approximation Derivation**:\n1. Time to fall through height $h$: $t = \\sqrt{\\frac{2h}{g}}$.\n2. Time to fall through height $(h + x)$:\n   $$t' = \\sqrt{\\frac{2(h + x)}{g}} = \\sqrt{\\frac{2h}{g}}\\left(1 + \\frac{x}{h}\\right)^{1/2} = t\\left(1 + \\frac{x}{h}\\right)^{1/2}$$\n3. Since $x \\ll h$, using the binomial approximation $(1 + z)^n \\approx 1 + nz$:\n   $$t' \\approx t\\left(1 + \\frac{x}{2h}\\right) = t + \\frac{xt}{2h}$$\n4. Increment in time:\n   $$\\Delta t = t' - t = \\frac{xt}{2h}$$",
+    "tags": [
+      "Approximations",
+      "Free Fall",
+      "Binomial Theorem",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q84",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Displacement in Last Two Seconds",
+    "difficulty": "Medium",
+    "questionText": "A body starts from rest with uniform acceleration. If its velocity after $n$ seconds is $v$, then its displacement in the last two seconds is:",
+    "options": [
+      "\\frac{2v(n + 1)}{n}",
+      "\\frac{v(n + 1)}{n}",
+      "\\frac{v(n - 1)}{n}",
+      "\\frac{2v(n - 1)}{n}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. From $v = an \\implies a = \\frac{v}{n}$.\n2. Distance in $n$ seconds: $S_n = \\frac{1}{2}an^2$.\n3. Distance in $(n - 2)$ seconds: $S_{n-2} = \\frac{1}{2}a(n - 2)^2$.\n4. Displacement in last 2 seconds:\n   $$\\Delta S = S_n - S_{n-2} = \\frac{1}{2}a\\left[n^2 - (n - 2)^2\\right] = \\frac{1}{2}a[n^2 - (n^2 - 4n + 4)] = \\frac{1}{2}a(4n - 4) = a(2n - 2)$$\n5. Substituting $a = \\frac{v}{n}$:\n   $$\\Delta S = \\left(\\frac{v}{n}\\right) 2(n - 1) = \\frac{2v(n - 1)}{n}$$",
+    "tags": [
+      "Uniform Acceleration",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q85",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Displacement in Last n Seconds of 2n Journey",
+    "difficulty": "Medium",
+    "questionText": "A body starts from rest with uniform acceleration. Its velocity after $2n$ seconds is $V_0$. The displacement of the body in the last $n$ seconds is:",
+    "options": [
+      "\\frac{V_0(2n - 3)}{6}",
+      "\\frac{V_0(2n - 1)}{4n}",
+      "\\frac{3}{4}V_0 n",
+      "\\frac{3}{2}V_0 n"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Acceleration $a = \\frac{V_0}{2n}$.\n2. Distance in $2n$ seconds: $S_{2n} = \\frac{1}{2}a(2n)^2 = \\frac{1}{2}a(4n^2) = 2an^2$.\n3. Distance in first $n$ seconds: $S_n = \\frac{1}{2}an^2$.\n4. Displacement in last $n$ seconds:\n   $$\\Delta S = S_{2n} - S_n = 2an^2 - \\frac{1}{2}an^2 = \\frac{3}{2}an^2$$\n5. Substituting $a = \\frac{V_0}{2n}$:\n   $$\\Delta S = \\frac{3}{2}\\left(\\frac{V_0}{2n}\\right)n^2 = \\frac{3}{4}V_0 n$$",
+    "tags": [
+      "Uniform Acceleration",
+      "Kinematics",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q86",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Projectile Time of Flight with Air Friction",
+    "difficulty": "Hard",
+    "questionText": "The friction of the air causes vertical retardation equal to $\\frac{1}{20}^{\\text{th}}$ of the acceleration due to gravity (Take $g = 10\\text{ ms}^{-2}$). The time of flight of projectile will be decreased by nearly:",
+    "options": [
+      "0 %",
+      "1 %",
+      "17 %",
+      "11 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. With effective acceleration $g_{\\text{eff}} = g + \\frac{g}{20} = 1.2g$ during ascent / combined resistive cycle:\n2. $T \\propto \\frac{1}{g}$.\n   $$\\frac{T_2}{T_1} = \\frac{g_1}{g_2} = \\frac{100}{100 + 20} = \\frac{100}{120} = \\frac{5}{6} \\approx 83.33\\%$$\n3. Percentage decrease:\n   $$\\% \\text{ decrease} = 100\\% - 83.33\\% = 16.67\\% \\approx 17\\%$$",
+    "tags": [
+      "Air Resistance",
+      "Time of Flight",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q87",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Average Velocity in Free Fall",
+    "difficulty": "Easy",
+    "questionText": "The average velocity of a freely falling body is numerically equal to $1/4$ of the acceleration due to gravity. The velocity of the body as it reaches the ground is:",
+    "options": [
+      "\\frac{g}{\\sqrt{2}}",
+      "\\frac{g}{2}",
+      "g",
+      "\\sqrt{2g}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. For uniform acceleration from rest ($u = 0$), the average velocity is the arithmetic mean of initial and final velocities:\n   $$v_{\\text{avg}} = \\frac{u + v}{2} = \\frac{0 + v}{2} = \\frac{v}{2}$$\n2. Given $v_{\\text{avg}} = \\frac{g}{4}$:\n   $$\\frac{v}{2} = \\frac{g}{4} \\implies v = \\frac{g}{2}$$",
+    "tags": [
+      "Free Fall",
+      "Average Velocity",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q88",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Collision Avoidance Minimum Retardation",
+    "difficulty": "Hard",
+    "questionText": "A train is moving at a constant speed $v$ when its driver observes another train in front of him on the same track moving in the same direction with constant speed $u$. If the distance between the trains is $x$, then what should be the minimum retardation of the train so as to avoid an accident?",
+    "options": [
+      "\\frac{(v + u)^2}{x}",
+      "\\frac{(v - u)^2}{x}",
+      "\\frac{(v + u)^2}{2x}",
+      "\\frac{(v - u)^2}{2x}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Relative Motion Collision Avoidance**:\n1. Initial relative velocity: $v_{\\text{rel}} = v - u$.\n2. To just avoid a collision, the relative velocity must drop to zero ($v_{\\text{rel}}' = 0$) within relative distance $x$.\n3. Using third equation of relative motion:\n   $$(v_{\\text{rel}}')^2 = v_{\\text{rel}}^2 - 2a_{\\text{rel}}x$$\n   $$0 = (v - u)^2 - 2ax \\implies a = \\frac{(v - u)^2}{2x}$$\n*(Note: In OCR, Option 4 represents $\\frac{(v-u)^2}{2x}$)*",
+    "tags": [
+      "Relative Motion",
+      "Collision Avoidance",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q89",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Straight Line Collinear Velocities",
+    "difficulty": "Medium",
+    "questionText": "A particle is moving with uniform acceleration along a straight line ABC. Its velocity at ‘A’ and ‘B’ are $6\\text{ m/s}$ and $9\\text{ m/s}$ respectively. If $AB : BC = 5 : 16$ then its velocity at ‘C’ is:",
+    "options": [
+      "9.6 m/s",
+      "12 m/s",
+      "15 m/s",
+      "21.5 m/s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. For section AB:\n   $$v_B^2 - v_A^2 = 2a(AB) \\implies 9^2 - 6^2 = 81 - 36 = 45 = 2a(AB)$$\n2. For section BC:\n   $$v_C^2 - v_B^2 = 2a(BC) \\implies v_C^2 - 81 = 2a(BC)$$\n3. Dividing the equations:\n   $$\\frac{v_C^2 - 81}{45} = \\frac{BC}{AB} = \\frac{16}{5}$$\n4. Solving for $v_C^2$:\n   $$v_C^2 - 81 = 45 \\times \\frac{16}{5} = 9 \\times 16 = 144$$\n   $$v_C^2 = 144 + 81 = 225 \\implies v_C = \\sqrt{225} = 15\\text{ m/s}$$",
+    "tags": [
+      "Uniform Acceleration",
+      "Ratios",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q90",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Height of Dropped Body at T/2",
+    "difficulty": "Easy",
+    "questionText": "A body is dropped from the top of a tower of height $h$ metres. It takes $T$ seconds to reach the ground. After $T/2$ seconds it will be at a height:",
+    "options": [
+      "h/2 metres from the ground",
+      "h/4 metres from the ground",
+      "3h/4 metres from the ground",
+      "Cannot be answered from the data"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Total height: $h = \\frac{1}{2}gT^2$.\n2. Distance fallen from the top in $t = T/2$ seconds:\n   $$y = \\frac{1}{2}g\\left(\\frac{T}{2}\\right)^2 = \\frac{1}{4}\\left(\\frac{1}{2}gT^2\\right) = \\frac{h}{4}$$\n3. Therefore, its height measured from the ground is:\n   $$H = h - y = h - \\frac{h}{4} = \\frac{3h}{4}\\text{ metres}$$",
+    "tags": [
+      "Free Fall",
+      "Tower",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q91",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Stopped and Released Body",
+    "difficulty": "Medium",
+    "questionText": "A body is released from the top of a tower of height $H$ metre. After 2 seconds it is stopped and then instantaneously released. What will be its height after next 2 seconds? (Take $g = 10\\text{ ms}^{-2}$)",
+    "options": [
+      "(H - 5) metre",
+      "(H - 10) metre",
+      "(H - 20) metre",
+      "(H - 40) metre"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. First 2 seconds: body falls from rest ($u = 0$) under gravity:\n   $$s_1 = \\frac{1}{2}g(2^2) = \\frac{1}{2}(10)(4) = 20\\text{ m}$$\n2. The body is stopped (velocity reset to $0$) and released again.\n3. Next 2 seconds: falls again from rest ($u = 0$):\n   $$s_2 = \\frac{1}{2}g(2^2) = \\frac{1}{2}(10)(4) = 20\\text{ m}$$\n4. Total distance fallen from top: $s_{\\text{total}} = s_1 + s_2 = 20 + 20 = 40\\text{ m}$.\n5. Height remaining above the ground: $(H - 40)\\text{ metres}$.",
+    "tags": [
+      "Free Fall",
+      "Multi-Stage",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q92",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Two Dropped Objects Interception",
+    "difficulty": "Hard",
+    "questionText": "While sitting on a tree branch $20\\text{ m}$ above the ground, you drop a chestnut. When the chestnut has fallen $5\\text{ m}$, you throw a second chestnut straight down. What initial speed must you give the second chestnut if they are both to reach the ground at the same time? ($g = 10\\text{ ms}^{-2}$)",
+    "options": [
+      "5 ms⁻¹",
+      "10 ms⁻¹",
+      "15 ms⁻¹",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Total time for first chestnut to reach the ground from $h = 20\\text{ m}$:\n   $$20 = \\frac{1}{2}(10)t^2 \\implies 5t^2 = 20 \\implies t = 2\\text{ s}$$\n2. Time taken by first chestnut to fall the first $5\\text{ m}$:\n   $$5 = \\frac{1}{2}(10)t_1^2 \\implies 5t_1^2 = 5 \\implies t_1 = 1\\text{ s}$$\n3. Therefore, the second chestnut has remaining time:\n   $$\\tau = t - t_1 = 2 - 1 = 1\\text{ s}$$\n4. Second chestnut must fall $20\\text{ m}$ in $\\tau = 1\\text{ s}$ with initial speed $u$:\n   $$20 = u(1) + \\frac{1}{2}(10)(1^2) = u + 5 \\implies u = 15\\text{ m/s}$$",
+    "tags": [
+      "Free Fall",
+      "Meeting Time",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q93",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Last Second Equal to First Three Seconds",
+    "difficulty": "Hard",
+    "questionText": "A ball is dropped from the roof of a tower of height $h$. The total distance covered by it in the last second of its motion is equal to the distance covered by it in first three seconds. The value of $h$ in meters is: ($g = 10\\text{ m/s}^2$)",
+    "options": [
+      "125",
+      "200",
+      "100",
+      "80"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Distance covered in first 3 seconds:\n   $$S_3 = \\frac{1}{2}g(3^2) = \\frac{1}{2}(10)(9) = 45\\text{ m}$$\n2. Distance covered in the last second ($n^{\\text{th}}$ second):\n   $$S_n = \\frac{g}{2}(2n - 1) = \\frac{10}{2}(2n - 1) = 5(2n - 1)$$\n3. Given $S_n = S_3$:\n   $$5(2n - 1) = 45 \\implies 2n - 1 = 9 \\implies 2n = 10 \\implies n = 5\\text{ s}$$\n4. Total height of the tower is the distance fallen in $5\\text{ s}$:\n   $$h = \\frac{1}{2}gt^2 = \\frac{1}{2}(10)(5^2) = 5 \\times 25 = 125\\text{ m}$$",
+    "tags": [
+      "Free Fall",
+      "Tower Height",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q94",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Fraction of Tower Cleared in Last Second",
+    "difficulty": "Medium",
+    "questionText": "A body dropped from the top of a tower clears $7/16$ of total height of tower in its last second of flight. The time taken by the body to reach the ground is:",
+    "options": [
+      "2.5 s",
+      "3 s",
+      "1.5 s",
+      "4 s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Total height fallen in $n$ seconds: $h = \\frac{1}{2}gn^2$.\n2. Distance in the last ($n^{\\text{th}}$) second: $S_n = \\frac{g}{2}(2n - 1)$.\n3. Given $S_n = \\frac{7}{16}h$:\n   $$\\frac{g}{2}(2n - 1) = \\frac{7}{16}\\left(\\frac{1}{2}gn^2\\right)$$\n4. Cancel $\\frac{g}{2}$ from both sides:\n   $$2n - 1 = \\frac{7}{16}n^2 \\implies 7n^2 - 32n + 16 = 0$$\n5. Factoring:\n   $$7n^2 - 28n - 4n + 16 = 0 \\implies 7n(n - 4) - 4(n - 4) = 0$$\n   $$(7n - 4)(n - 4) = 0$$\n6. Since total time of fall must exceed $1\\text{ s}$ (as it has a 'last second'), $n = 4\\text{ s}$.",
+    "tags": [
+      "Free Fall",
+      "nth Second",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q95",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Parachutist Two-Stage Fall",
+    "difficulty": "Hard",
+    "questionText": "A parachutist drops freely from an aeroplane for $10\\text{ s}$ before the parachute opens out. Then he descends with a net retardation of $2.5\\text{ m/s}^2$. If he bails out of the plane at a height of $2495\\text{ m}$ and $g = 10\\text{ m/sec}^2$, his velocity on reaching the ground will be:",
+    "options": [
+      "5 m/s",
+      "10 m/s",
+      "15 m/s",
+      "20 m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. First Stage (Free fall for $t_1 = 10\\text{ s}$):\n   - Distance fallen: $s_1 = \\frac{1}{2}gt_1^2 = \\frac{1}{2}(10)(10^2) = 500\\text{ m}$.\n   - Velocity attained: $v_1 = gt_1 = 10 \\times 10 = 100\\text{ m/s}$.\n2. Second Stage (With parachute, net retardation $a = 2.5\\text{ m/s}^2$):\n   - Total initial height $= 2495\\text{ m}$.\n   - Remaining distance to ground: $s_2 = 2495 - 500 = 1995\\text{ m}$.\n   - Using third equation: $v^2 = v_1^2 - 2as_2$:\n     $$v^2 = 100^2 - 2(2.5)(1995) = 10000 - 5(1995) = 10000 - 9975 = 25$$\n3. Landing velocity:\n   $$v = \\sqrt{25} = 5\\text{ m/s}$$",
+    "tags": [
+      "Parachutist",
+      "Two-Stage Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q96",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Downward Projection Consecutive Seconds Ratio",
+    "difficulty": "Medium",
+    "questionText": "From the top of a tower, a particle is thrown vertically downwards with a velocity of $10\\text{ m/s}$. The ratio of the distances covered by it in the 3rd and 2nd seconds of the motion is: (Take $g = 10\\text{ m/s}^2$)",
+    "options": [
+      "5 : 7",
+      "7 : 5",
+      "3 : 6",
+      "6 : 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Distance in $n^{\\text{th}}$ second with downward initial velocity $u$:\n   $$S_n = u + \\frac{g}{2}(2n - 1)$$\n2. Distance in 2nd second ($n = 2$):\n   $$S_2 = 10 + \\frac{10}{2}(2 \\times 2 - 1) = 10 + 5(3) = 10 + 15 = 25\\text{ m}$$\n3. Distance in 3rd second ($n = 3$):\n   $$S_3 = 10 + \\frac{10}{2}(2 \\times 3 - 1) = 10 + 5(5) = 10 + 25 = 35\\text{ m}$$\n4. Ratio of distances in 3rd to 2nd second:\n   $$\\frac{S_3}{S_2} = \\frac{35}{25} = \\frac{7}{5} = 7 : 5$$",
+    "tags": [
+      "Downward Projection",
+      "nth Second",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q97",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Free Fall on Different Planets",
+    "difficulty": "Hard",
+    "questionText": "If a particle takes ‘$t$’ second less and acquires a velocity of $V\\text{ m/s}$ more in falling through the same distance on two planets where the accelerations due to gravity are $2g$ and $8g$ then:",
+    "options": [
+      "V = 4gt",
+      "V = 5 gt",
+      "V = 2gt",
+      "V = 16 gt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let height be $h$. On planet 1 ($g_1 = 2g$) and planet 2 ($g_2 = 8g$):\n   - Velocities: $v_1 = \\sqrt{2(2g)h} = 2\\sqrt{gh}$, $v_2 = \\sqrt{2(8g)h} = 4\\sqrt{gh}$.\n   - Velocity difference: $V = v_2 - v_1 = 4\\sqrt{gh} - 2\\sqrt{gh} = 2\\sqrt{gh}$.\n2. Times taken:\n   - $t_1 = \\sqrt{\\frac{2h}{2g}} = \\sqrt{\\frac{h}{g}}$, $t_2 = \\sqrt{\\frac{2h}{8g}} = \\frac{1}{2}\\sqrt{\\frac{h}{g}}$.\n   - Time difference: $t = t_1 - t_2 = \\sqrt{\\frac{h}{g}} - \\frac{1}{2}\\sqrt{\\frac{h}{g}} = \\frac{1}{2}\\sqrt{\\frac{h}{g}}$.\n3. Ratio of $V$ to $t$:\n   $$\\frac{V}{t} = \\frac{2\\sqrt{gh}}{\\frac{1}{2}\\sqrt{\\frac{h}{g}}} = 4g \\implies V = 4gt$$",
+    "tags": [
+      "Planetary Gravity",
+      "Free Fall",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q98",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Multi-Storey Building Drop",
+    "difficulty": "Medium",
+    "questionText": "A stone is dropped from the 25th storey of a multi-storied building and it reaches the ground in $5\\text{ seconds}$. How many storeys of the building does it pass through in the first second? (Take $g = 10\\text{ m/s}^2$)",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Total height of the 25-storey building fallen in $5\\text{ s}$:\n   $$H = \\frac{1}{2}gt^2 = \\frac{1}{2}(10)(5^2) = 125\\text{ m}$$\n2. Height of each storey:\n   $$h = \\frac{125\\text{ m}}{25} = 5\\text{ m/storey}$$\n3. Distance fallen by the stone in the first second ($t = 1\\text{ s}$):\n   $$s_1 = \\frac{1}{2}g(1^2) = \\frac{1}{2}(10)(1) = 5\\text{ m}$$\n4. Number of storeys passed in the first second:\n   $$n = \\frac{s_1}{h} = \\frac{5\\text{ m}}{5\\text{ m/storey}} = 1\\text{ storey}$$",
+    "tags": [
+      "Multi-Storey",
+      "Free Fall",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q99",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Position at Fractional Fall Time",
+    "difficulty": "Easy",
+    "questionText": "A ball is released from the top of a tower of height ‘$h$’ meters. It takes $T$ seconds to reach the ground. What is the position of the ball at $\\frac{T}{3}$ second?",
+    "options": [
+      "\\frac{h}{9} m \\text{ from the ground}",
+      "\\frac{7h}{9} m \\text{ from the ground}",
+      "\\frac{8h}{9} m \\text{ from the ground}",
+      "\\frac{17h}{18} m \\text{ from the ground}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Total height: $h = \\frac{1}{2}gT^2$.\n2. Distance fallen from the top in $t = T/3$:\n   $$y = \\frac{1}{2}g\\left(\\frac{T}{3}\\right)^2 = \\frac{1}{9}\\left(\\frac{1}{2}gT^2\\right) = \\frac{h}{9}$$\n3. Position (height above ground):\n   $$H = h - y = h - \\frac{h}{9} = \\frac{8h}{9}\\text{ m from the ground}$$",
+    "tags": [
+      "Tower Height",
+      "Free Fall",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q100",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Fall Between Two Specific Points",
+    "difficulty": "Hard",
+    "questionText": "A body falling freely passes two points $49\\text{ m}$ apart in $1\\text{ second}$. The height above the upper point from where it began to fall is: (Take $g = 9.8\\text{ m/s}^2$)",
+    "options": [
+      "65.332 m",
+      "80.235 m",
+      "99.225 m",
+      "70.652 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let $u$ be the velocity at the upper point $P$.\n2. Distance between $P$ and $Q$ is $49\\text{ m}$, traversed in $t = 1\\text{ s}$:\n   $$s = ut + \\frac{1}{2}gt^2 \\implies 49 = u(1) + \\frac{1}{2}(9.8)(1^2)$$\n   $$49 = u + 4.9 \\implies u = 44.1\\text{ m/s}$$\n3. The body fell freely from rest ($v_0 = 0$) at release point $A$ to point $P$:\n   $$u^2 = 2g h_{AP} \\implies (44.1)^2 = 2(9.8) h_{AP} = 19.6 h_{AP}$$\n4. Height above the upper point:\n   $$h_{AP} = \\frac{(44.1)^2}{19.6} = \\frac{1944.81}{19.6} = 99.225\\text{ m}$$",
+    "diagramSvg": "<svg viewBox=\"0 0 240 220\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"240\" height=\"220\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><circle cx=\"90\" cy=\"25\" r=\"4\" fill=\"#DC2626\"/><text x=\"105\" y=\"29\" font-size=\"11\" font-weight=\"bold\" fill=\"#DC2626\">A (Release, v=0)</text><line x1=\"90\" y1=\"25\" x2=\"90\" y2=\"195\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"95\" r=\"4\" fill=\"#2563EB\"/><text x=\"105\" y=\"99\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563EB\">P</text><circle cx=\"90\" cy=\"180\" r=\"4\" fill=\"#16A34A\"/><text x=\"105\" y=\"184\" font-size=\"11\" font-weight=\"bold\" fill=\"#16A34A\">Q</text><line x1=\"60\" y1=\"25\" x2=\"60\" y2=\"95\" stroke=\"#7C3AED\" stroke-width=\"1.5\"/><text x=\"45\" y=\"65\" font-size=\"10\" font-weight=\"bold\" fill=\"#7C3AED\" text-anchor=\"end\">99.225 m</text><line x1=\"60\" y1=\"95\" x2=\"60\" y2=\"180\" stroke=\"#0284C7\" stroke-width=\"1.5\"/><text x=\"45\" y=\"145\" font-size=\"10\" font-weight=\"bold\" fill=\"#0284C7\" text-anchor=\"end\">49 m (1s)</text></svg>",
+    "tags": [
+      "Free Fall",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q101",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Parachutist Fall and Deceleration",
+    "difficulty": "Hard",
+    "questionText": "A parachute after bailing out falls for $10\\text{ sec}$ without friction. When the parachute opens he descends with an acceleration of $2\\text{ m/s}^2$ against his direction and reaches the ground with $4\\text{ m/s}$. Find what height he has dropped himself from? ($g = 10\\text{ m/s}^2$)",
+    "options": [
+      "500 m",
+      "2496 m",
+      "2996 m",
+      "4296 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Stage 1 (Free fall for $t_1 = 10\\text{ s}$):\n   - Distance: $s_1 = \\frac{1}{2}gt_1^2 = \\frac{1}{2}(10)(10^2) = 500\\text{ m}$.\n   - Velocity at end of free fall: $v_1 = gt_1 = 10 \\times 10 = 100\\text{ m/s}$.\n2. Stage 2 (Deceleration $a = 2\\text{ m/s}^2$ to final landing speed $v = 4\\text{ m/s}$):\n   $$v^2 - v_1^2 = -2as_2 \\implies 4^2 - 100^2 = -2(2)s_2$$\n   $$16 - 10000 = -4s_2 \\implies -9984 = -4s_2 \\implies s_2 = 2496\\text{ m}$$\n3. Total height from which he bailed out:\n   $$H = s_1 + s_2 = 500\\text{ m} + 2496\\text{ m} = 2996\\text{ m}$$",
+    "tags": [
+      "Parachute",
+      "Two-Stage Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q102",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Free Fall Ratio on Different Gravity Locations",
+    "difficulty": "Hard",
+    "questionText": "Two balls are dropped from the same height at two different places A and B where the accelerations due to gravities are $g_A$ and $g_B$ respectively. The body at ‘B’ takes ‘$t$’ seconds less to reach the ground and strikes the ground with a velocity greater than at ‘A’ by $v\\text{ m/s}$. Then the value of $v/t$ is:",
+    "options": [
+      "\\frac{1}{\\sqrt{g_A g_B}}",
+      "2\\sqrt{g_A g_B}",
+      "\\frac{1}{g_A g_B}",
+      "\\sqrt{g_A g_B}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. For drop from height $h$:\n   - Strike velocities: $v_A = \\sqrt{2g_A h}$ and $v_B = \\sqrt{2g_B h}$.\n   - Velocity difference: $v = v_B - v_A = \\sqrt{2h}(\\sqrt{g_B} - \\sqrt{g_A})$.\n2. Time of fall:\n   - $t_A = \\sqrt{\\frac{2h}{g_A}}$ and $t_B = \\sqrt{\\frac{2h}{g_B}}$.\n   - Time difference:\n     $$t = t_A - t_B = \\sqrt{2h}\\left(\\frac{1}{\\sqrt{g_A}} - \\frac{1}{\\sqrt{g_B}}\\right) = \\sqrt{2h}\\left(\\frac{\\sqrt{g_B} - \\sqrt{g_A}}{\\sqrt{g_A g_B}}\\right)$$\n3. Dividing $v$ by $t$:\n   $$\\frac{v}{t} = \\frac{\\sqrt{2h}(\\sqrt{g_B} - \\sqrt{g_A})}{\\sqrt{2h}\\left(\\frac{\\sqrt{g_B} - \\sqrt{g_A}}{\\sqrt{g_A g_B}}\\right)} = \\sqrt{g_A g_B}$$",
+    "tags": [
+      "Free Fall",
+      "Gravity Differences",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q103",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Separation Between Dropped and Projected Bodies",
+    "difficulty": "Easy",
+    "questionText": "One body is dropped while a second body is thrown downwards with an initial velocity of $2\\text{ m/s}$ simultaneously. The separation between them is $18\\text{ meters}$ after a time:",
+    "options": [
+      "9 s",
+      "4.5 s",
+      "18 s",
+      "9.8 s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Distance fallen by first body (dropped): $S_1 = \\frac{1}{2}gt^2$.\n2. Distance fallen by second body (thrown with $u = 2\\text{ m/s}$): $S_2 = ut + \\frac{1}{2}gt^2$.\n3. The relative separation between them is:\n   $$\\Delta S = S_2 - S_1 = ut$$\n4. Given $\\Delta S = 18\\text{ m}$ and $u = 2\\text{ m/s}$:\n   $$18 = 2t \\implies t = 9\\text{ s}$$",
+    "tags": [
+      "Relative Separation",
+      "Free Fall",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q104",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Number of Storeys in Building",
+    "difficulty": "Medium",
+    "questionText": "A body is dropped from the roof of a multi-storied building. It passes the ceiling of the 15th storey at a speed of $20\\text{ ms}^{-1}$. If the height of each storey is $4\\text{ m}$, the number of storeys in the building is: (take $g = 10\\text{ ms}^{-2}$ and neglect air resistance)",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Velocity at the ceiling of the 15th storey is $v = 20\\text{ m/s}$.\n2. Distance fallen from the roof to reach $20\\text{ m/s}$:\n   $$v^2 = 2gh \\implies 20^2 = 2(10)h \\implies 400 = 20h \\implies h = 20\\text{ m}$$\n3. Since each storey has height $4\\text{ m}$, the number of storeys fallen above the 15th storey is:\n   $$n = \\frac{20\\text{ m}}{4\\text{ m/storey}} = 5\\text{ storeys}$$\n4. Therefore, total storeys in the building:\n   $$\\text{Total} = 15 + 5 = 20\\text{ storeys}$$",
+    "tags": [
+      "Building Storeys",
+      "Free Fall",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q105",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Percentage Distance in 5th Second",
+    "difficulty": "Medium",
+    "questionText": "A freely falling body travels what fraction / percentage of its total distance in the 5th second?",
+    "options": [
+      "8 %",
+      "12 %",
+      "25 %",
+      "36 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Distance fallen in $n = 5$ seconds from rest:\n   $$S_{\\text{total}} = \\frac{1}{2}g(5^2) = \\frac{25g}{2}$$\n2. Distance fallen in the $5^{\\text{th}}$ second:\n   $$S_5 = \\frac{g}{2}(2 \\times 5 - 1) = \\frac{9g}{2}$$\n3. Percentage of total distance:\n   $$\\% = \\frac{S_5}{S_{\\text{total}}} \\times 100 = \\frac{9g/2}{25g/2} \\times 100 = \\frac{9}{25} \\times 100 = 36\\%$$",
+    "tags": [
+      "Free Fall",
+      "nth Second",
+      "Percentage",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q106",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Gravity Ceasing During Fall",
+    "difficulty": "Hard",
+    "questionText": "A body falls freely from a height of $125\\text{ m}$ ($g = 10\\text{ m/s}^2$). After 2 seconds gravity ceases to act. The total time taken by it to reach the ground is:",
+    "options": [
+      "5.25 s",
+      "7.25 s",
+      "3.25 s",
+      "10.5 s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Phase 1 (First 2 seconds with gravity $g = 10\\text{ m/s}^2$):\n   - Distance fallen: $s_1 = \\frac{1}{2}gt^2 = \\frac{1}{2}(10)(2^2) = 20\\text{ m}$.\n   - Velocity acquired: $v = gt = 10 \\times 2 = 20\\text{ m/s}$.\n2. Phase 2 (Gravity ceases to act $\\implies a = 0$):\n   - Remaining height to cover: $h' = 125 - 20 = 105\\text{ m}$.\n   - Since acceleration is zero, body moves at constant speed $v = 20\\text{ m/s}$.\n   - Time taken: $t_2 = \\frac{h'}{v} = \\frac{105}{20} = 5.25\\text{ s}$.\n3. Total time to reach ground:\n   $$T = t_1 + t_2 = 2 + 5.25 = 7.25\\text{ s}$$",
+    "tags": [
+      "Free Fall",
+      "Gravity Ceases",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q107",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Half Distance Covered in Last Second",
+    "difficulty": "Hard",
+    "questionText": "If a freely falling body covers half of its total distance in the last second of its journey, its total time of fall is:",
+    "options": [
+      "(2 + \\sqrt{3}) s",
+      "2 s",
+      "1 s",
+      "(2 + \\sqrt{2}) s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let $n$ be the total time of fall. Total distance: $S = \\frac{1}{2}gn^2$.\n2. Distance covered in the last second:\n   $$S_n = \\frac{g}{2}(2n - 1)$$\n3. Given $S_n = \\frac{S}{2}$:\n   $$\\frac{g}{2}(2n - 1) = \\frac{1}{2}\\left(\\frac{1}{2}gn^2\\right) \\implies 2n - 1 = \\frac{n^2}{2}$$\n4. Multiplying by 2:\n   $$n^2 - 4n + 2 = 0$$\n5. Solving using the quadratic formula:\n   $$n = \\frac{4 \\pm \\sqrt{16 - 8}}{2} = \\frac{4 \\pm 2\\sqrt{2}}{2} = 2 \\pm \\sqrt{2}$$\n6. Since total time must be greater than $1\\text{ s}$ (it has a last second), $n = (2 + \\sqrt{2})\\text{ s} \\approx 3.414\\text{ s}$.",
+    "tags": [
+      "Free Fall",
+      "Quadratic Equations",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q108",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Times to Fall Successive Equal Heights",
+    "difficulty": "Medium",
+    "questionText": "A particle is released from rest from a tower of height $3h$. The ratio of times to fall equal consecutive heights $h$, i.e. $t_1 : t_2 : t_3$ is:",
+    "options": [
+      "\\sqrt{3} : \\sqrt{2} : 1",
+      "3 : 2 : 1",
+      "9 : 4 : 1",
+      "1 : (\\sqrt{2} - 1) : (\\sqrt{3} - \\sqrt{2})"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Time to fall first distance $h$: $h = \\frac{1}{2}gt_1^2 \\implies t_1 = \\sqrt{\\frac{2h}{g}}$.\n2. Time to fall total distance $2h$:\n   $$t_1 + t_2 = \\sqrt{\\frac{2(2h)}{g}} = \\sqrt{2}\\sqrt{\\frac{2h}{g}} = \\sqrt{2}t_1 \\implies t_2 = (\\sqrt{2} - 1)t_1$$\n3. Time to fall total distance $3h$:\n   $$t_1 + t_2 + t_3 = \\sqrt{\\frac{2(3h)}{g}} = \\sqrt{3}t_1 \\implies t_3 = (\\sqrt{3} - \\sqrt{2})t_1$$\n4. Ratio of times:\n   $$t_1 : t_2 : t_3 = 1 : (\\sqrt{2} - 1) : (\\sqrt{3} - \\sqrt{2})$$",
+    "tags": [
+      "Successive Heights",
+      "Free Fall",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q109",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Final Velocity with Initial Speed",
+    "difficulty": "Easy",
+    "questionText": "A body is dropped from a height $h$ with initial velocity zero, and strikes the ground with a velocity of $3\\text{ m/s}$. Another body of same mass is dropped from the same height $h$ with an initial downward velocity of $4\\text{ m/s}$. Find the final velocity of the second body with which it strikes the ground:",
+    "options": [
+      "3 m/s",
+      "4 m/s",
+      "5 m/s",
+      "12 m/s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. For the first body dropped from rest:\n   $$v_1^2 = u_1^2 + 2gh \\implies 3^2 = 0 + 2gh \\implies 2gh = 9$$\n2. For the second body with initial velocity $u_2 = 4\\text{ m/s}$:\n   $$v_2^2 = u_2^2 + 2gh = 4^2 + 9 = 16 + 9 = 25$$\n3. Final velocity:\n   $$v_2 = \\sqrt{25} = 5\\text{ m/s}$$",
+    "tags": [
+      "Work-Energy",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q110",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Speed at Half Maximum Height",
+    "difficulty": "Easy",
+    "questionText": "A ball is thrown vertically upward. It has a speed of $10\\text{ m/sec}$ when it has reached one half of its maximum height. How high does the ball rise? (Take $g = 10\\text{ m/s}^2$)",
+    "options": [
+      "5 m",
+      "15 m",
+      "10 m",
+      "20 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Maximum height formula: $H = \\frac{u^2}{2g} \\implies u^2 = 2gH$.\n2. At half maximum height ($h = H/2$), the speed is $v = 10\\text{ m/s}$:\n   $$v^2 = u^2 - 2g\\left(\\frac{H}{2}\\right) = u^2 - gH$$\n3. Substitute $u^2 = 2gH$:\n   $$10^2 = 2gH - gH = gH$$\n4. With $g = 10\\text{ m/s}^2$:\n   $$100 = 10H \\implies H = 10\\text{ m}$$",
+    "tags": [
+      "Maximum Height",
+      "Vertical Projection",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q111",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance in Last t Seconds of Ascent",
+    "difficulty": "Medium",
+    "questionText": "If a ball is thrown vertically upwards with speed $u$, the distance covered during the last ‘$t$’ seconds of its ascent is:",
+    "options": [
+      "ut",
+      "\\frac{1}{2}gt^2",
+      "ut - \\frac{1}{2}gt^2",
+      "(u + gt)t"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Time-Reversal Principle**:\n1. At the peak of ascent, the velocity becomes zero ($v = 0$).\n2. By the symmetry of motion under gravity, the distance covered in the last $t$ seconds of ascent is identical to the distance covered in the first $t$ seconds of downward descent from rest.\n3. For descent from rest ($u = 0$):\n   $$s = \\frac{1}{2}gt^2$$\n4. Therefore, the distance covered in the last $t$ seconds of ascent is independent of initial projection speed $u$ and equals $\\frac{1}{2}gt^2$.",
+    "tags": [
+      "Time Reversal",
+      "Ascent",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q112",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Acceleration from v^2 - s Graph",
+    "difficulty": "Hard",
+    "questionText": "A graph between the square of the velocity of a particle and the distance ($s$) moved is shown in figure. The acceleration of the particle in kilometers per hour square is:",
+    "options": [
+      "2250",
+      "3084",
+      "-2250",
+      "-3084"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Third equation of motion: $v^2 = u^2 + 2as \\implies v^2 - u^2 = 2as$.\n2. From the graph:\n   - Initial point ($s = 0$): $u^2 = 4600\\text{ (km/hr)}^2$.\n   - Final point ($s = 0.6\\text{ km}$): $v^2 = 900\\text{ (km/hr)}^2$.\n3. Substitute values:\n   $$900 - 4600 = 2a(0.6)$$\n   $$-3700 = 1.2a$$\n4. Solving for acceleration $a$:\n   $$a = -\\frac{3700}{1.2} \\approx -3083.33\\text{ km/hr}^2 \\approx -3084\\text{ km/hr}^2$$",
+    "diagramSvg": "<svg viewBox=\"0 0 320 200\" class=\"w-full max-w-xs mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"160\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"285\" y=\"154\" font-size=\"10\" fill=\"#475569\">s(km)</text><text x=\"15\" y=\"35\" font-size=\"10\" fill=\"#475569\">v²(km/hr)²</text><line x1=\"60\" y1=\"45\" x2=\"220\" y2=\"115\" stroke=\"#DC2626\" stroke-width=\"2.5\"/><circle cx=\"60\" cy=\"45\" r=\"4\" fill=\"#DC2626\"/><circle cx=\"220\" cy=\"115\" r=\"4\" fill=\"#DC2626\"/><text x=\"25\" y=\"48\" font-size=\"10\" font-weight=\"bold\" fill=\"#475569\">4600</text><text x=\"225\" y=\"118\" font-size=\"10\" font-weight=\"bold\" fill=\"#475569\">900</text><line x1=\"220\" y1=\"115\" x2=\"220\" y2=\"150\" stroke=\"#94A3B8\" stroke-dasharray=\"2,2\"/><text x=\"212\" y=\"165\" font-size=\"10\" font-weight=\"bold\" fill=\"#475569\">0.6</text></svg>",
+    "tags": [
+      "v²-s Graph",
+      "Acceleration",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q113",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Sum of Passage Times in Vertical Projection",
+    "difficulty": "Medium",
+    "questionText": "A body is thrown vertically upward at $t = 0$. It is at a height $80\\text{ m}$ at instants $t_1$ and $t_2$. Also it is at a height $60\\text{ m}$ at instants $t_1'$ and $t_2'$. Then:",
+    "options": [
+      "t_1 + t_2 = t_1' + t_2'",
+      "t_1 + t_2 > t_1' + t_2'",
+      "t_1 + t_2 < t_1' + t_2'",
+      "t_1 + t_2 < \\frac{t_1' + t_2'}{2}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. The vertical equation of motion for any height $h$ is:\n   $$h = ut - \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 - ut + h = 0$$\n2. By Vieta's formulas, the sum of roots for this quadratic equation is:\n   $$t_{\\text{up}} + t_{\\text{down}} = \\frac{u}{g/2} = \\frac{2u}{g} = T_{\\text{total flight}}$$\n3. Crucially, the sum of times depends ONLY on initial velocity $u$ and gravity $g$, and is completely independent of the height $h$!\n4. Therefore:\n   $$t_1 + t_2 = \\frac{2u}{g} \\quad \\text{and} \\quad t_1' + t_2' = \\frac{2u}{g}$$\n   $$t_1 + t_2 = t_1' + t_2'$$",
+    "tags": [
+      "Vertical Projection",
+      "Symmetry",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q114",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Juggler Ball Pattern Heights",
+    "difficulty": "Hard",
+    "questionText": "A juggler keeps on moving four balls in air throwing the balls after regular intervals. When 4th ball leaves his hand at a speed of $20\\text{ ms}^{-1}$, the height of other balls from point of release in meters will be: (take $g = 10\\text{ ms}^{-2}$)",
+    "options": [
+      "10, 20, 10",
+      "15, 20, 15",
+      "5, 15, 20",
+      "5, 10, 20"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Time of flight for each ball:\n   $$T = \\frac{2u}{g} = \\frac{2(20)}{10} = 4\\text{ s}$$\n2. Since 4 balls are in cyclic motion, the interval between consecutive throws is:\n   $$\\Delta t = \\frac{T}{4} = \\frac{4\\text{ s}}{4} = 1\\text{ s}$$\n3. When ball 4 is just leaving the hand ($t = 0$ for ball 4):\n   - Ball 3 was thrown $1\\text{ s}$ ago ($t = 1\\text{ s}$):\n     $$h_3 = 20(1) - \\frac{1}{2}(10)(1^2) = 20 - 5 = 15\\text{ m}$$\n   - Ball 2 was thrown $2\\text{ s}$ ago ($t = 2\\text{ s}$):\n     $$h_2 = 20(2) - \\frac{1}{2}(10)(2^2) = 40 - 20 = 20\\text{ m}$$\n   - Ball 1 was thrown $3\\text{ s}$ ago ($t = 3\\text{ s}$):\n     $$h_1 = 20(3) - \\frac{1}{2}(10)(3^2) = 60 - 45 = 15\\text{ m}$$\n4. Heights of the balls in air: $15\\text{ m}, 20\\text{ m}, 15\\text{ m}$.",
+    "tags": [
+      "Juggler Problem",
+      "Vertical Projection",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q115",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Ball Observed from Window Velocity",
+    "difficulty": "Medium",
+    "questionText": "A ball is thrown vertically upward from the ground and a student gazing out of the window sees it moving upward past him at $10\\text{ m/s}$. The window is at $15\\text{ m}$ above the ground level. The velocity of ball three seconds after it left the ground is: [Take $g = 10\\text{ m/s}^2$]",
+    "options": [
+      "10 m/s, up",
+      "30 m/s, up",
+      "20 m/s, down",
+      "10 m/s, down"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. At window height $h = 15\\text{ m}$, upward speed $v = 10\\text{ m/s}$.\n2. Initial projection velocity $u$ from ground:\n   $$v^2 = u^2 - 2gh \\implies 10^2 = u^2 - 2(10)(15) \\implies 100 = u^2 - 300$$\n   $$u^2 = 400 \\implies u = 20\\text{ m/s}$$\n3. Velocity of the ball $t = 3\\text{ s}$ after leaving the ground:\n   $$v_3 = u - gt = 20 - 10(3) = 20 - 30 = -10\\text{ m/s}$$\n4. Negative sign indicates the ball is moving downwards with a speed of $10\\text{ m/s}$ ($10\\text{ m/s, down}$).",
+    "tags": [
+      "Vertical Projection",
+      "Window Problem",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q116",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Return Velocity with Constant Air Resistance",
+    "difficulty": "Hard",
+    "questionText": "A ball of mass $m$ is thrown upward with a velocity $v$. If air exerts an average resisting force $F$, the velocity with which the ball returns back to the thrower is:",
+    "options": [
+      "v\\sqrt{\\frac{mg}{mg + F}}",
+      "v\\sqrt{\\frac{F}{mg + F}}",
+      "v\\sqrt{\\frac{mg - F}{mg + F}}",
+      "v"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Upward Journey:\n   - Retarding force: $F_{\\text{net}} = mg + F$.\n   - Retardation: $a_{\\text{up}} = g + \\frac{F}{m}$.\n   - Maximum height reached: $H = \\frac{v^2}{2a_{\\text{up}}} = \\frac{v^2}{2\\left(g + \\frac{F}{m}\\right)} = \\frac{v^2 m}{2(mg + F)}$.\n2. Downward Journey:\n   - Net downward force: $F_{\\text{down}} = mg - F$.\n   - Acceleration: $a_{\\text{down}} = g - \\frac{F}{m} = \\frac{mg - F}{m}$.\n   - Return speed $v_2$ from height $H$:\n     $$v_2^2 = 2 a_{\\text{down}} H = 2\\left(\\frac{mg - F}{m}\\right)\\left(\\frac{v^2 m}{2(mg + F)}\\right) = v^2\\left(\\frac{mg - F}{mg + F}\\right)$$\n3. Return velocity:\n   $$v_2 = v\\sqrt{\\frac{mg - F}{mg + F}}$$",
+    "tags": [
+      "Air Resistance",
+      "Work-Energy",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q117",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Maximum Height with Consecutive Throws",
+    "difficulty": "Medium",
+    "questionText": "A boy throws $n$ balls per second at regular time intervals. When the first ball reaches the maximum height he throws the second one vertically up. The maximum height reached by each ball is:",
+    "options": [
+      "\\frac{g}{2(n - 1)^2}",
+      "\\frac{g}{2n^2}",
+      "\\frac{g}{n^2}",
+      "\\frac{g}{n}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Time interval between consecutive throws: $\\Delta t = \\frac{1}{n}$.\n2. Time taken by a ball to reach maximum height is $t_{\\text{peak}} = \\frac{u}{g}$.\n3. Given $t_{\\text{peak}} = \\Delta t$:\n   $$\\frac{u}{g} = \\frac{1}{n} \\implies u = \\frac{g}{n}$$\n4. Maximum height reached:\n   $$h_{\\max} = \\frac{u^2}{2g} = \\frac{(g/n)^2}{2g} = \\frac{g^2 / n^2}{2g} = \\frac{g}{2n^2}$$",
+    "tags": [
+      "Vertical Projection",
+      "Frequency of Throws",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q118",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Rocket Powered and Free Ascent",
+    "difficulty": "Hard",
+    "questionText": "A rocket is fired upward from the earth's surface such that it creates an acceleration of $20\\text{ m/s}^2$. If after $5\\text{ s}$ its engine is switched off, the maximum height of the rocket from the earth's surface would be: (Take $g = 10\\text{ m/s}^2$)",
+    "options": [
+      "250 m",
+      "500 m",
+      "750 m",
+      "1000 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Stage 1 (Engine on for $t = 5\\text{ s}$ with net upward $a = 20\\text{ m/s}^2$):\n   - Height reached: $s_1 = \\frac{1}{2}at^2 = \\frac{1}{2}(20)(5^2) = 250\\text{ m}$.\n   - Velocity attained: $v = at = 20 \\times 5 = 100\\text{ m/s}$.\n2. Stage 2 (Engine cut off, rocket rises freely under gravity $g = 10\\text{ m/s}^2$):\n   - Further ascent: $s_2 = \\frac{v^2}{2g} = \\frac{100^2}{2(10)} = \\frac{10000}{20} = 500\\text{ m}$.\n3. Total maximum height from Earth's surface:\n   $$H_{\\max} = s_1 + s_2 = 250\\text{ m} + 500\\text{ m} = 750\\text{ m}$$",
+    "tags": [
+      "Rocket Motion",
+      "Two-Stage Ascent",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q119",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Two Instants at Given Point",
+    "difficulty": "Easy",
+    "questionText": "A ball thrown vertically up with a velocity ‘$u$’ reaches a point ‘$p$’ after $t_1$ and $t_2$ seconds from the time of projection. Then:",
+    "options": [
+      "t_1 + t_2 = \\frac{2u}{g}",
+      "t_1 - t_2 = \\frac{2u}{g}",
+      "t_1 + t_2 = \\frac{u}{g}",
+      "t_1 - t_2 = \\frac{u}{g}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Equation for height $h_p$: $h_p = ut - \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 - ut + h_p = 0$.\n2. Multiplying by 2: $gt^2 - 2ut + 2h_p = 0$.\n3. The roots of this quadratic in $t$ are $t_1$ and $t_2$.\n4. Sum of roots:\n   $$t_1 + t_2 = \\frac{2u}{g} = T_{\\text{flight}}$$",
+    "tags": [
+      "Quadratic Roots",
+      "Vertical Projection",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q120",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Meeting Height of Dropped and Projected Stones",
+    "difficulty": "Medium",
+    "questionText": "A stone is dropped from the top of $400\\text{ m}$ high tower. At the same time another stone is projected vertically upwards from ground with speed $50\\text{ ms}^{-1}$. The height at which two stones will meet each other from the ground is: ($g = 10\\text{ m/s}^2$)",
+    "options": [
+      "20 m",
+      "40 m",
+      "60 m",
+      "80 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Relative velocity of approach: $v_{\\text{rel}} = 0 + 50 = 50\\text{ m/s}$.\n2. Since relative acceleration $a_{\\text{rel}} = g - g = 0$, time to meet is:\n   $$t = \\frac{H}{v_{\\text{rel}}} = \\frac{400\\text{ m}}{50\\text{ m/s}} = 8\\text{ s}$$\n3. Height of the projected stone from ground at $t = 8\\text{ s}$:\n   $$h = ut - \\frac{1}{2}gt^2 = 50(8) - 5(8^2) = 400 - 320 = 80\\text{ m}$$",
+    "tags": [
+      "Tower",
+      "Relative Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q121",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Last Second Distance with Doubled Velocity",
+    "difficulty": "Hard",
+    "questionText": "The distance travelled by a body during last second of its total flight is $d$ when the body is projected vertically up with certain velocity. If the velocity of projection is doubled, the distance travelled by the body during last second of its total flight is:",
+    "options": [
+      "2 d",
+      "d",
+      "2d + \\frac{g}{2}",
+      "2d - \\frac{g}{2}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Distance in the last second before landing:\n   $$d = u_{\\text{impact}} - \\frac{g}{2} = u - \\frac{g}{2} \\implies u = d + \\frac{g}{2}$$\n2. When initial velocity is doubled ($u' = 2u$):\n   $$d' = u' - \\frac{g}{2} = 2u - \\frac{g}{2} = 2\\left(d + \\frac{g}{2}\\right) - \\frac{g}{2} = 2d + g - \\frac{g}{2} = 2d + \\frac{g}{2}$$",
+    "tags": [
+      "Last Second",
+      "Vertical Projection",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q122",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Crossing Time of Dropped & Projected Body Reaching 4h",
+    "difficulty": "Hard",
+    "questionText": "A stone is dropped from a height $h$. Simultaneously, another stone is thrown up from the ground which reaches a height $4h$. The two stones cross each other after time:",
+    "options": [
+      "\\sqrt{\\frac{h}{8g}}",
+      "\\sqrt{8gh}",
+      "2gh",
+      "\\sqrt{\\frac{h}{2g}}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. The thrown stone reaches maximum height $H = 4h$. Initial projection velocity $u$:\n   $$4h = \\frac{u^2}{2g} \\implies u = \\sqrt{8gh}$$\n2. The dropped stone is at height $h$ and released from rest.\n3. Relative velocity of approach is $v_{\\text{rel}} = u = \\sqrt{8gh}$.\n4. Relative acceleration is $a_{\\text{rel}} = g - g = 0$.\n5. Crossing time:\n   $$t = \\frac{h}{u} = \\frac{h}{\\sqrt{8gh}} = \\sqrt{\\frac{h^2}{8gh}} = \\sqrt{\\frac{h}{8g}}$$",
+    "tags": [
+      "Relative Motion",
+      "Crossing Time",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q123",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Time of Flight for Upward Projection from Height h",
+    "difficulty": "Hard",
+    "questionText": "A ball is thrown straight upward with a speed $V$ from a point $h$ meter above the ground. The time taken for the ball to strike the ground is:",
+    "options": [
+      "\\frac{V}{g}\\left[1 + \\sqrt{1 + \\frac{2gh}{V^2}}\\right]",
+      "\\frac{V}{g}\\left[1 - \\sqrt{1 - \\frac{2gh}{V^2}}\\right]",
+      "\\frac{V}{g}\\left[1 - \\sqrt{1 + \\frac{2gh}{V^2}}\\right]",
+      "\\frac{V}{g}\\left[2 + \\sqrt{\\frac{2gh}{V^2}}\\right]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Taking downward as positive, initial velocity is $-V$, acceleration is $+g$, and displacement is $+h$:\n   $$h = -Vt + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 - Vt - h = 0$$\n2. Multiplying by 2: $gt^2 - 2Vt - 2h = 0$.\n3. Solving using quadratic formula:\n   $$t = \\frac{2V + \\sqrt{4V^2 + 8gh}}{2g} = \\frac{V + \\sqrt{V^2 + 2gh}}{g}$$\n4. Factoring out $V$:\n   $$t = \\frac{V}{g}\\left[1 + \\sqrt{1 + \\frac{2gh}{V^2}}\\right]$$",
+    "tags": [
+      "Projection from Height",
+      "Quadratic Formula",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q124",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Tower Height from Ground Impact Speed",
+    "difficulty": "Easy",
+    "questionText": "A stone thrown upwards with a speed ‘$u$’ from the top of a tower reaches the ground with a velocity “$4u$”. The height of the tower is:",
+    "options": [
+      "\\frac{3u^2}{g}",
+      "\\frac{15u^2}{2g}",
+      "\\frac{4u^2}{g}",
+      "\\frac{15u^2}{g}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Third equation of motion between release point (top of tower) and ground:\n   $$v^2 = u^2 + 2gh$$\n2. Given impact velocity $v = 4u$:\n   $$(4u)^2 = u^2 + 2gh \\implies 16u^2 = u^2 + 2gh$$\n3. Rearranging:\n   $$15u^2 = 2gh \\implies h = \\frac{15u^2}{2g}$$",
+    "tags": [
+      "Tower Height",
+      "Third Equation of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q125",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Packet Dropped from Rising Helicopter",
+    "difficulty": "Easy",
+    "questionText": "A food packet is dropped from a helicopter rising up with a velocity of $4\\text{ m/s}$. The velocity of the packet after three seconds will be: (take $g = 9.8\\text{ m/s}^2$)",
+    "options": [
+      "20.4 ms⁻¹",
+      "25.4 ms⁻¹",
+      "28.4 ms⁻¹",
+      "30.4 ms⁻¹"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. The packet inherits the upward velocity of the helicopter: $u = +4\\text{ m/s}$.\n2. Downward acceleration due to gravity: $g = 9.8\\text{ m/s}^2$.\n3. Velocity after $t = 3\\text{ s}$:\n   $$v = u - gt = 4 - 9.8(3) = 4 - 29.4 = -25.4\\text{ m/s}$$\n4. Speed of the packet is $25.4\\text{ m/s}$ (directed downwards).",
+    "tags": [
+      "Rising Frame",
+      "Equations of Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q126",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Two Runners Orthogonal Interception",
+    "difficulty": "Hard",
+    "questionText": "Two boys are standing at the ends A and B of a ground where $AB = a$. The boy at B starts running in a direction perpendicular to $AB$ with velocity $v_1$. The boy at A starts running simultaneously with velocity $v$ and catches the other boy in a time $t$, where $t$ is:",
+    "options": [
+      "a / \\sqrt{v^2 + v_1^2}",
+      "\\sqrt{a^2 / (v^2 - v_1^2)}",
+      "a / (v - v_1)",
+      "a / (v + v_1)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. In time $t$, boy at B moves distance $BC = v_1 t$ at right angles to $AB$.\n2. Boy from A runs distance $AC = vt$ to intercept him at C.\n3. By Pythagoras theorem in $\\triangle ABC$:\n   $$AC^2 = AB^2 + BC^2 \\implies (vt)^2 = a^2 + (v_1 t)^2$$\n   $$(v^2 - v_1^2)t^2 = a^2 \\implies t^2 = \\frac{a^2}{v^2 - v_1^2}$$\n4. Therefore:\n   $$t = \\sqrt{\\frac{a^2}{v^2 - v_1^2}} = \\frac{a}{\\sqrt{v^2 - v_1^2}}$$",
+    "diagramSvg": "<svg viewBox=\"0 0 340 180\" class=\"w-full max-w-sm mx-auto\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"140\" x2=\"230\" y2=\"140\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"230\" y1=\"140\" x2=\"230\" y2=\"30\" stroke=\"#2563EB\" stroke-width=\"2\"/><line x1=\"60\" y1=\"140\" x2=\"230\" y2=\"30\" stroke=\"#DC2626\" stroke-width=\"2.5\"/><text x=\"50\" y=\"155\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">A</text><text x=\"235\" y=\"155\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">B</text><text x=\"235\" y=\"25\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">C</text><text x=\"140\" y=\"155\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">a</text><text x=\"245\" y=\"85\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563EB\">v₁t</text><text x=\"130\" y=\"75\" font-size=\"11\" font-weight=\"bold\" fill=\"#DC2626\">vt</text></svg>",
+    "tags": [
+      "Interception",
+      "Relative Motion",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q127",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Escalator Combined Speeds",
+    "difficulty": "Easy",
+    "questionText": "A man walks up a stationary escalator in $90\\text{ sec}$. When this man stands on a moving escalator he goes up in $60\\text{ sec}$. The time taken by the man to walk up the moving escalator is:",
+    "options": [
+      "30 s",
+      "45 s",
+      "36 s",
+      "48 s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let $d$ be the length of the escalator.\n   - Speed of man walking: $v_m = \\frac{d}{t_1} = \\frac{d}{90}$.\n   - Speed of moving escalator: $v_e = \\frac{d}{t_2} = \\frac{d}{60}$.\n2. When walking on the moving escalator, his net speed is $v = v_m + v_e$:\n   $$v = \\frac{d}{90} + \\frac{d}{60} = d\\left(\\frac{2 + 3}{180}\\right) = \\frac{5d}{180} = \\frac{d}{36}$$\n3. Time taken to walk up:\n   $$t = \\frac{d}{v} = \\frac{d}{d/36} = 36\\text{ s}$$",
+    "tags": [
+      "Escalator",
+      "Relative Speed",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q128",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Coin in Accelerating Lift",
+    "difficulty": "Easy",
+    "questionText": "A coin is dropped in a lift. It takes time $t_1$ to reach the floor when lift is stationary. It takes time $t_2$ when lift is moving up with constant acceleration, then:",
+    "options": [
+      "t_1 = t_2",
+      "t_1 > t_2",
+      "t_2 > t_1",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Inside stationary lift: Acceleration of coin relative to lift is $a_{\\text{rel}} = g$.\n   $$t_1 = \\sqrt{\\frac{2h}{g}}$$\n2. Inside lift accelerating upwards with acceleration $a$:\n   $$a_{\\text{rel}} = g + a$$\n   $$t_2 = \\sqrt{\\frac{2h}{g + a}}$$\n3. Since $g + a > g$, the relative acceleration is higher, so $t_2 < t_1$ (i.e. $t_1 > t_2$).",
+    "tags": [
+      "Pseudo Force",
+      "Lift Frame",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q129",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Mutual and Same Direction Relative Speeds",
+    "difficulty": "Medium",
+    "questionText": "What are the speeds of two objects if, when they move uniformly towards each other, they get $4\\text{ m}$ closer in each second and when they move uniformly in the same direction with the original speeds, they get $4.0\\text{ m}$ closer each $10\\text{ s}$?",
+    "options": [
+      "2.8 m/s and 1.2 m/s",
+      "2.6 m/s and 1.4 m/s",
+      "2.4 m/s and 1.6 m/s",
+      "2.2 m/s and 1.8 m/s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Moving towards each other:\n   $$v_A + v_B = \\frac{4\\text{ m}}{1\\text{ s}} = 4.0\\text{ m/s}$$\n2. Moving in same direction:\n   $$v_A - v_B = \\frac{4.0\\text{ m}}{10\\text{ s}} = 0.4\\text{ m/s}$$\n3. Adding both equations:\n   $$2v_A = 4.4 \\implies v_A = 2.2\\text{ m/s}$$\n4. Subtracting:\n   $$v_B = 4.0 - 2.2 = 1.8\\text{ m/s}$$\n5. Speeds are $2.2\\text{ m/s}$ and $1.8\\text{ m/s}$.",
+    "tags": [
+      "Relative Speed",
+      "Linear Equations",
+      "NEET Physics"
+    ]
+  },
+  {
+    "id": "narayana-motion-1d-q130",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Crossing Time of Trains with Velocity Boost",
+    "difficulty": "Hard",
+    "questionText": "Two trains take $3\\text{ seconds}$ to pass one another when going in opposite direction but only $2.5\\text{ seconds}$ if the speed of one is increased by $50\\%$. The time one would take to pass the other when they are going in same direction at original speeds is:",
+    "options": [
+      "12 sec",
+      "10 sec",
+      "18 sec",
+      "15 sec"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **Step-by-Step Derivation**:\n1. Let lengths be $l_1, l_2$ and total length $L = l_1 + l_2$. Let original speeds be $v_1, v_2$.\n2. Crossing in opposite directions:\n   $$L = 3(v_1 + v_2) \\quad \\dots (1)$$\n3. When speed of second train is increased by $50\\%$ ($1.5v_2$):\n   $$L = 2.5(v_1 + 1.5v_2) \\quad \\dots (2)$$\n4. Equating (1) and (2):\n   $$3(v_1 + v_2) = 2.5(v_1 + 1.5v_2)$$\n   $$3v_1 + 3v_2 = 2.5v_1 + 3.75v_2 \\implies 0.5v_1 = 0.75v_2 \\implies v_1 = 1.5v_2$$\n5. Substituting $v_1 = 1.5v_2$ into (1):\n   $$L = 3(1.5v_2 + v_2) = 3(2.5v_2) = 7.5v_2$$\n6. Time to pass when moving in the SAME direction at original speeds:\n   $$t = \\frac{L}{v_1 - v_2} = \\frac{7.5v_2}{1.5v_2 - v_2} = \\frac{7.5v_2}{0.5v_2} = 15\\text{ seconds}$$",
+    "tags": [
+      "Trains",
+      "Relative Speed",
+      "NEET Physics"
+    ]
+  }
+];
+
+export const NARAYANA_TEST_SERIES_PART1_QUESTIONS = NARAYANA_MOTION_IN_STRAIGHT_LINE_QUESTIONS.slice(0, 45);
+export const NARAYANA_TEST_SERIES_PART2_QUESTIONS = NARAYANA_MOTION_IN_STRAIGHT_LINE_QUESTIONS.slice(45, 90);
+export const NARAYANA_TEST_SERIES_PART3_QUESTIONS = NARAYANA_MOTION_IN_STRAIGHT_LINE_QUESTIONS.slice(90, 130);

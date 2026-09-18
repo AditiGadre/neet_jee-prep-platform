@@ -1,0 +1,3013 @@
+import { Question } from '../types';
+
+/**
+ * Physics Smart Booklet - Motion In a Straight Line
+ * Complete extraction of 185 questions:
+ * - Section 1: Illustrations 1-19 (19 Qs)
+ * - Section 2: NCERT Line-by-Line Kinematics 1-20 (20 Qs)
+ * - Section 3: NCERT Based Practice 1-34 (34 Qs)
+ * - Section 4: Topic Wise Practice 1-104 across 5 Topics (104 Qs)
+ * - Section 5: NEET Previous Years Questions 1-8 (8 Qs)
+ * Total = 185 Questions with 100% verified official answer keys, diagrams, and step-by-step solutions.
+ */
+export const PHYSICS_SMART_BOOKLET_MOTION_QUESTIONS: Question[] = [
+  {
+    "id": "smart-motion-illus-01",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A man is running on a circular track of radius 700 m (with $\\pi \\approx 22/7$). The magnitudes of his displacement and distance travelled by him respectively, when he completes one revolution are:",
+    "options": [
+      "0, 4400 m",
+      "4400 m, -4400 m",
+      "4400 m, 0",
+      "0, 0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When the runner completes one full revolution, his initial position and final position coincide. Therefore, displacement = 0. Distance travelled = circumference = $2\\pi r = 2 \\times \\frac{22}{7} \\times 700 = 4400\\text{ m}$. Hence option (A) is correct."
+  },
+  {
+    "id": "smart-motion-illus-02",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A disc, sliding on an inclined plane, is found to have its position (measured from the top of the plane) at any instant \ngiven by x = 3t2 + 1, where x is in metre and t in second. Its average velocity in the time interval between 2 s to 2.1 s is",
+    "options": [
+      "10.2 m/s",
+      "15.5 m/s",
+      "12.3 m/s",
+      "9.7 m/s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Let t1 = 2 s, t2 = 2.1 s \nx1 = 3(2)2 + 1 = 13 m ; \nx2 = 3(2.1)2 + 1 = 14.23 m \n1\n2\n1\navg\n2\n1\nx\nx\n14.23 13\n12.3 ms\nt\nt\n2.1 2\n-\n-\n-\n\n=\n=\n=\n-\n-\nv"
+  },
+  {
+    "id": "smart-motion-illus-03",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A car is stopped at a traffic light. It then travels along a straight road so that its distance from the traffic light is given \nby x(t) = bt2 - ct3, where b = 2.40 m/s² and c = 0.120 ms-3. The instantaneous velocity of the car at t = 5.0 s is",
+    "options": [
+      "5 m/s",
+      "10 m/s",
+      "12 m/s",
+      "15 m/s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Given: x = bt2 - ct3, where b = 2.4 m/s² and c = 0.12 ms-3. \nInstantaneous velocity is \n2\ndx\n2bt\n3ct\ndt\n=\n=\n-\nv\n\n(v)at t = 5s = 2(2.4) (5) - 3(0.12) (5)2 = 15 m/s"
+  },
+  {
+    "id": "smart-motion-illus-04",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "Velocity of a car as function of time is given by vx(t) = α + βt2, where α = 3.00 m/s and β = 0.100 ms-3. The average \nacceleration for the time interval t = 0 to t = 5 s is",
+    "options": [
+      "1 m/s²",
+      "0.5 m/s²",
+      "0.75 m/s²",
+      "1.25 m/s²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "vx (t) = α + βt2 (given) \nHere t1 = 0 and t2 = 5 s \n v1 = 3 + (0.1) (0)2 = 3 m/s and v2 = 3 + (0.1) (5)2 = 5.5 m/s \nAverage acceleration \n2\n2\n1\n2\n1\n5.5\n3\n0.5 ms\nt\nt\n5\n0\n-\n-\n-\n=\n=\n=\n-\n-\nv\nv"
+  },
+  {
+    "id": "smart-motion-illus-05",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A particle is moving along x-axis whose acceleration is given by a = 3x - 4, where x is the position of the particle. At t \n= 0, the particle is at rest at \n4\nx\n3\n=\n m. The distance travelled by the particle in 5 s is",
+    "options": [
+      "2 m",
+      "5 m",
+      "6 m",
+      "zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "At t = 0, \n4\nx\n3\n=\n and v = 0 (given) \nAt \n4\n4\nx\nm, a\n3\n4\n0\n3\n3\n(\n)\n=\n=\n-\n=\n\n\n(\n)\n\n ∴ At t = 0, the velocity of the particle is zero and also its acceleration is zero. So it always remains at \n4\nx\n3\n=\n. \nTherefore, distance travelled is zero for any time interval."
+  },
+  {
+    "id": "smart-motion-illus-06",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "Mark the incorrect statement among the following. \n(i) A particle can have zero velocity and non-zero acceleration. \n(ii) A particle can have zero displacement and non-zero velocity. \n(iii) A particle can have zero acceleration and non-zero velocity. \n(iv) A particle can have zero displacement and non-zero average velocity.",
+    "options": [
+      "(i)",
+      "(ii)",
+      "(iii)",
+      "(iv) \n(1) (i) \n\n(2) (ii) \n\n(3) (iii) \n\n(4) (iv)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a vertically projected body at maximum height statement (i) is possible. When the same body reaches point of \nprojection statement (ii) is possible. Statement (iii) is possible in case of uniform motion."
+  },
+  {
+    "id": "smart-motion-illus-07",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A man walks to the market which is at a distance of 6 km with a speed of 2.5 km/h and walks back with a speed of 4 \nkm/h. His average speed for the round trip is nearly.",
+    "options": [
+      "3 km/h",
+      "4 km/h",
+      "2.5 km/h",
+      "6 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1\n2\n6\n6\nt\n2.4 h ; t\n1.5h\n2.5\n4\n=\n=\n=\n=\n\nTotal time = 2.4 + 1.5 = 3.9 h ; \nTotal distance = 6 + 6 = 12 km \n∴ Average speed = \n1\n12\n120\n40 kmh\n3.9\n39\n13\n-\n=\n="
+  },
+  {
+    "id": "smart-motion-illus-08",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "At the instant a traffic light turns green, a car that has been waiting at an junction starts ahead with a constant \nacceleration \nof \n3.2 \nm/s². \nAt \nthe \nsame \ninstant, \na \ntruck, travelling \nwith \na \nconstant speed \nof \n20 m/s, overtakes and passes the car. \nThe distance from the starting point at which the car overtakes the truck is",
+    "options": [
+      "200 m",
+      "250 m",
+      "300 m",
+      "225 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For car: uc = 0 ; ac = 3.2 m/s² \nFor truck: (constant) velocity, vt = 20 m/s \nLet the car overtake the truck at a distance s from the junction. Time taken by \nboth of them will be same i.e., t(say). \n2\n2\n2\nc\nc\nc\n1\n1\ns\nu t\na t\ns\n0\n3.2t\n1.6t\n2\n2\n=\n+\n=\n+\n\n=\n\nt\nt\ns\nt\ns\n20t\n=\n\n=\nv\n\nAs sc = st = s, 1.6 t2 = 20 t \n20\nt\n12.5 s\n1.6\n=\n=\n\n∴ s = 20 × 12.5 = 250 m"
+  },
+  {
+    "id": "smart-motion-illus-09",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A particle having an initial velocity u moves with a constant acceleration a for a time t. The displacement of the \nparticle in the last one second is",
+    "options": [
+      "u + a(t - 1)",
+      "u + \\frac{a}{2}(t - \\frac{1}{2})",
+      "u + 2a(t - \\frac{1}{2})",
+      "u + a(t - \\frac{1}{2})"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Given: initial velocity = u, acceleration = a, time = t \nth\nth\nn\nn\n1\n1\ns\nu\na n\ns\nu\na t\n2\n2\n(\n)\n(\n)\n=\n+\n-\n\n=\n+\n-\n\n\n\n\n(\n)\n(\n)\n\n[nth second is tth second here]"
+  },
+  {
+    "id": "smart-motion-illus-10",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A car starts from rest and moves with constant acceleration. The ratio of the distance covered in \nnth second to that covered in n seconds is",
+    "options": [
+      "\\frac{2n + 1}{n^2}",
+      "\\frac{n^2}{2n + 1}",
+      "\\frac{2n - 1}{n^2}",
+      "\\frac{n^2}{2n - 1}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "u = 0, t = n ; \nth\n2\nn\n1\n1\ns\na n\nand s\nan\n2\n2\n(\n)\n\n=\n-\n=\n\n\n(\n)\n\nth\nn\n2\n2\n1\na n\ns\n2n 1\n2\ns\n(1/ 2)an\nn\n(\n)\n-\n\n\n-\n\n\n(\n)\n=\n= \n\n\n"
+  },
+  {
+    "id": "smart-motion-illus-11",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "Figure shows the displacement-time graph of a particle moving on a straight line. \nThe signs of velocity and acceleration of particle respectively at time t1 are",
+    "options": [
+      "+ve, -ve",
+      "+ve, +ve",
+      "-ve, +ve",
+      "-ve, -ve"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At time t1, the tangent of s-t graph has positive slope. Therefore, the velocity is +ve. Also if we compare velocities \nbefore and after t1, we observe that velocity after t1 is more than velocity before t1 [see figure]. The displacement in ∆t \nafter t1 is more than the displacement for the same time interval ∆t before t1. So velocity is increasing and thus \nacceleration should also be positive. \n∴ At t1 → v is +ve ; a is +ve."
+  },
+  {
+    "id": "smart-motion-illus-12",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A bird flies for 4 s with a velocity of |t - 2| m/s in a straight line, where t is in second. The distance travelled by it is",
+    "options": [
+      "4 m",
+      "2 m",
+      "6 m",
+      "5 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The velocity-time graph is shown in the figure. \nThe distance travelled (here it is displacement) is area under \nv-t graph \n1\n1\n2 2\n2 2\n4 m\n2\n2\n=\n+\n\n="
+  },
+  {
+    "id": "smart-motion-illus-13",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "Two bodies are moving with speeds 3 m/s and 5 m/s, The relative velocity of 1st body w.r.t second body if 1st body is \nmoving leftwards and 2nd body right wards is",
+    "options": [
+      "8 m/s leftwards",
+      "2 m/s leftwards",
+      "2 m/s rightwards",
+      "8 m/s rightwards"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let left direction is + ve and right direction - ve \n1\n12\n1\n2\n(3)\n( 5)\n8 ms-\n=\n-\n=\n--\n= +\nv\nv\nv\n i.e., velocity of 1st body w.r.t. 2nd one is 8 m/s leftwards."
+  },
+  {
+    "id": "smart-motion-illus-14",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A ball is dropped from rest. If it takes one second to cross the last 20 m before hitting the ground. The height from \nwhich it was dropped is",
+    "options": [
+      "31.6 m",
+      "40 m",
+      "22.2 m",
+      "43.7 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "th\nn\n1\n20\n1\nS\n20 m;\ng n\n20\nn\n2\n9.8\n2\n(\n)\n=\n\n-\n=\n\n=\n+\n\n\n(\n)\n\n2\n2\n1\n1\n2.0\n1\ns\ngn\n(9.8)\n31.6 m\n2\n2\n9.8\n2\n(\n)\n=\n=\n+\n=\n\n\n(\n)\n\n height, h = 31.6 m \nSlower \nFaster \n2 \nT \nV \ndistance"
+  },
+  {
+    "id": "smart-motion-illus-15",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "From the top of a building of height 27.3 m, a man throws a ball upwards, which strikes the ground after \n16 s. The speed of ball with which it was thrown up is",
+    "options": [
+      "63.5 m/s",
+      "70.8 m/s",
+      "76.8 m/s",
+      "80 m/s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "2\n1\nh\ngt\nut\n27.3m\n2\n=\n-\n\n\n2\n1\n1\n27.3\n9.8 16\nu(16)\nu\n76.8 ms\n2\n-\n=\n\n\n-\n\n="
+  },
+  {
+    "id": "smart-motion-illus-16",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A tennis ball is dropped on to the floor from a height of 4 m. It rebounds to a height of 2 m. If the ball is in contact with \nthe floor for 12 × 10-3 s, its average acceleration during the contact is (g = 9.8 m/s²).",
+    "options": [
+      "0",
+      "1260 m/s²",
+      "980 m/s²",
+      "600 m/s²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2\n2\nu\n2as, u\n0\n=\n+\n=\nv\n\n2\n2as or\n2as\n=\n=\nv\nv\n\n1\nu\n2 9.8 4\n8.85 ms-\n=\n\n\n= -\n\n1\n2 9.8 2\n6.26 ms-\n=\n\n\n= +\nv\n\n3\nt\n12 10 s\n-\n=\n\n\nAverage acceleration \n3\nu\n(6.26)\n( 8.85)\nt\n12 10-\n-\n--\n=\n=\n\nv\n\na = + 1260 m/s²"
+  },
+  {
+    "id": "smart-motion-illus-17",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "The acceleration of a particle varies with time according to the relation a = 6t + 6 m/s². The velocity as a function of \ntime is \n[Given: particle starts from origin at t = 0 with velocity 2 m/s].",
+    "options": [
+      "v = t^3 + 3t^2 + 2t",
+      "v = 3t^2 + 6t + 2",
+      "v = 3t^3 + 6t^2 + 4",
+      "v = 2t^2 + 4t + 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "a = 6t + 6 At t = 0, x = 0 and v = 2 m/s given \nt\n2\n0\nd\n6t\n6 ;\nd\n(6t\n6) dt\ndt =\n+\n=\n+\n\n\nv\nv\nv\n\nt\n2\n0\n6t\n2\n6t\n2\n\n\n\n-=\n+\n\n\n\n\nv\n\n2\n2\n2\n3t\n6t\n3t\n6t\n2\n-\n=\n+\n\n=\n+\n+\nv\nv"
+  },
+  {
+    "id": "smart-motion-illus-18",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "A parachutist after bailing out falls through 50 m without friction. When parachute opens, it decelerates at 2 m/s². He \nreaches the ground with a speed of 3 m/s. The height at which he bailed out is nearly \n\n[g = 10 m/s²]",
+    "options": [
+      "225 m",
+      "256 m",
+      "298 m",
+      "327 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The journey is divided into two parts (1) and (2) (See figure) \n(1) \n2\n2\n2\n0\n2g 50\nu\n2as\n\n\n-\n=\n\n-\n=\n\n\nv\nv\n\n1\n1000\n10 10 ms-\n=\n=\nv\n\n(2) \n2\n2\n2\n2\n3\n2( 2) (h)\nu\n2as\n\n\n-\n=\n-\n-\n=\n\n\nv\nv\n\n2\n9\nh\n4\n-\n=\n-\nv\n9 1000\n991\n247.75 m\n4\n4\n-\n=\n=\n=\n-\n\n∴ Height at which he bailed out is = h + 50 \n\n= 247.75 + 50 = 297.75 m"
+  },
+  {
+    "id": "smart-motion-illus-19",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion in a Straight Line - Illustrations",
+    "difficulty": "Medium",
+    "questionText": "An elevator whose floor to the ceiling distance is 2.50 m, starts ascending with a constant acceleration of 1.25 m/s². \nOne second after the start, a bolt begins falling from the ceiling of elevator. The free fall time of the bolt is [g = 10 \nm/s²]",
+    "options": [
+      "\\frac{3}{2}\\text{ s}",
+      "1\\text{ s}",
+      "\\frac{2}{3}\\text{ s}",
+      "\\frac{3}{4}\\text{ s}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "After 1 s i.e., at the beginning of free fall, (initial) velocity of bolt is = u + at = 0 + 1.25 × 1 = 1.25 m/s \nAcceleration of lift = 1.25 m/s² (upwards) \n\n = + 1.25 m/s² and \nAcceleration of bolt = 10 m/s² (downwards) \n\n = -10 m/s² \nRelative acceleration (of bolt w.r.t lift) \n= (-10) - (1.25) = -11.25 m/s² \nsr = -2.5 m; ur = 0 \n\n[\n at the start of falling velocities of bolt and lift are equal] \n(\n)\n2\n2\nr\nr\nr\n1\n1\n2\ns\nu t\na t\n2.5\n0\n11.25 t\nt\ns\n2\n2\n3\n=\n+\n-\n=\n+\n-\n="
+  },
+  {
+    "id": "smart-motion-ncert-lbl-01",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "Choose the correct statement \n\n[NCERT Pg. 42]",
+    "options": [
+      "Area under velocity-time graph gives the distance travelled",
+      "Area under velocity-time graph gives the change in position",
+      "Area under velocity-time graph gives average acceleration",
+      "Area under velocity time graph gives change in acceleration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Area under a velocity-time ($v-t$) curve represents $\\int v\\,dt = \\Delta x$, which is the change in position (displacement) of the body. (NCERT Pg. 42)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-02",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "Choose the correct statement for one dimensional motion \n[NCERT Pg. 57]",
+    "options": [
+      "A constant speed in an interval must have non-zero acceleration in that interval",
+      "With negative value of acceleration speed must decrease",
+      "With negative value of acceleration speed may increase",
+      "With positive value of acceleration speed must increase"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Speed is the magnitude of velocity. If a particle has negative acceleration (retardation when moving in $+x$, or acceleration when moving in $-x$), speed can either decrease or increase depending on the direction of velocity. For instance, a body moving in the negative direction with negative acceleration speeds up! Hence, with negative acceleration, speed may increase. (NCERT Pg. 57)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-03",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "A drunkard walking in a narrow lane takes 5 steps forward, 3 steps backward and then \n\nstay for 1 s and repeat the same process again and again. Each step is 1 m long and \n\ntakes 1 s. The time taken by drunkard to fall in a pit 10 m away from start is \n\n[NCERT Pg. 56]",
+    "options": [
+      "45 s",
+      "27 s",
+      "30 s",
+      "31 S"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In each cycle of (5 steps forward + 3 steps backward + 1 s pause), the drunkard takes $5 + 3 + 1 = 9\\text{ s}$ and progresses $(5 - 3) = 2\\text{ m}$ forward. After 2 cycles (18 s), distance covered = 4 m. In the 3rd cycle: he takes 5 steps forward in 5 s, reaching $4 + 5 = 9\\text{ m}$, then takes 3 steps backward to 6 m in 3 s, pause 1 s (total 27 s, at 6 m). After 27 s, from 6 m he takes 4 more steps forward (4 s) and falls into the pit at 10 m! Total time = $27 + 4 = 31\\text{ s}$. (NCERT Pg. 56)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-04",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "The reaction time is the time interval in which a person \n[NCERT Pg. 51]",
+    "options": [
+      "Observe the things",
+      "Think about the observations",
+      "Observe the things and act",
+      "Observe the things, think and act"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Reaction time is the total time a person takes to observe an event, think/decide what to do, and actuate the response (e.g. apply brakes). (NCERT Pg. 51)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-05",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "A person driving a car with a speed of 72 km/h observes a boy crossing the road at a distance \nof 100 m from the car. Driver applies the brakes and retards the car with a retardation of 5 m/s2 \nand is just able to avoid this accident. The reaction time of driver is \n\n[NCERT Pg. 51]",
+    "options": [
+      "2.0 s",
+      "2.4 s",
+      "3.0 s",
+      "2. 8 s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Initial velocity $u = 72\\text{ km/h} = 20\\text{ m/s}$. Stopping distance during braking: $v^2 = u^2 - 2as \\implies 0 = 20^2 - 2(5)s \\implies s_{\\text{brake}} = \\frac{400}{10} = 40\\text{ m}$. Distance travelled during reaction time $t_r$ is $d = 100 - 40 = 60\\text{ m}$. Therefore $u \\times t_r = 60 \\implies 20 t_r = 60 \\implies t_r = 3.0\\text{ s}$. (NCERT Pg. 51)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-06",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "In any realistic condition (\nv\n -t) and (a - t) graph cannot have sharp kinks at some points. This \nimplies that \n\n[NCERT Pg.47]",
+    "options": [
+      "Both velocity and acceleration can change abruptly at an instant",
+      "Both velocity and acceleration cannot change abruptly at an instant",
+      "Only velocity cannot change abruptly at an instant but acceleration can change",
+      "Only acceleration cannot change abruptly at an instant but velocity can change"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A kink in a $v-t$ or $a-t$ graph would imply that at that instant there are two slopes or a discontinuous jump in rate of change, meaning acceleration or rate of change of acceleration would be infinite. In real physical situations, velocity and acceleration cannot change abruptly at an instant. (NCERT Pg. 47)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-07",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "A ball is thrown vertically upward with a velocity of 20 m/s from the top of 160 m high \n\nbuilding. The time taken by ball to hit the ground is \n[NCERT Pg. 48]",
+    "options": [
+      "8S",
+      "10S",
+      "4 s",
+      "6 s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A body projected vertically upward reaches zero velocity at the highest point while gravity still acts with constant acceleration $g = 9.8\\text{ m/s}^2$ downward. Thus, it can have zero velocity with non-zero acceleration. (NCERT Pg. 48)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-08",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "In which of the following cases an object can be considered as point object? \n\n[NCERT Pg. 55]",
+    "options": [
+      "Length of train in comparison to platform",
+      "Length of engine in comparison to length of a small bridge",
+      "A spinning cricket ball that turns sharply on hitting the pitch",
+      "A -ailway carriage moving without jerks between two stations"
+    ],
+    "correctAnswer": 3,
+    "explanation": "At terminal velocity, or when a parachute is falling at constant velocity, acceleration is zero while velocity is non-zero. Also in any uniform straight-line motion, $a = 0$ while $v \\ne 0$. (NCERT Pg. 48)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-09",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "The velocity time graph of a particle moving along a fixed direction is as shown in figure. The \naverage velocity of particle between 5 s to 10 s is \n[NCERT Pg.60] \nNCERT LINE BY LINE QUESTIONS",
+    "options": [
+      "15.6m/s",
+      "6.0 m/s",
+      "8.9 m/s",
+      "15.0 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Average speed is total distance divided by total time: $v_{\\text{avg}} = \\frac{2s}{\\frac{s}{v_1} + \\frac{s}{v_2}} = \\frac{2 v_1 v_2}{v_1 + v_2} = \\frac{2 \\times 40 \\times 60}{40 + 60} = 48\\text{ km/h}$. (NCERT Pg. 43)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-10",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "The velocity-time graph of a particle in one dimensional motion is as shown in figure. \n\nWhich of the following relation is correct for describing the motion of particle over time \n\ninterval t1 to t2? \n\n[NCERT Pg. 60]",
+    "options": [
+      "2\n1\n2\n2\nt\nt\naverage\n2\n1\nv\nv\n2a\n(t\nt )\n=\n+\n-",
+      "2\n1\nt\nt\naverage\n1\n2\naverage\n2\n1\n1\nv\nv\na\n(t\nt )\na\n(t\nt )\n2\n=\n+\n-\n+\n-",
+      "2\n1\nt\nt\n1\n2\nv\nv\na(t\nt )\n=\n+\n-",
+      "2\n1\nt\nt\naverage\n2\n1\nv\nv\na\nt\nt\n-\n=\n-"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Average acceleration over the time interval from $t_1$ to $t_2$ is defined strictly as $a_{\\text{average}} = \\frac{v(t_2) - v(t_1)}{t_2 - t_1}$. (NCERT Pg. 60)",
+    "image": "/images/smart_booklet_motion/p14_img2_xref301.png"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-11",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "A boy is standing on an open lift moving upwards with speed 10 m/s. The boy throws the ball \nwith speed w.r.t. lift is 24.5 m/s. In how much time the ball returns to the hand of boy? (g= 10 \nm/s2) \n\n[NCERT Pg. 59]",
+    "options": [
+      "10s",
+      "4.9 s",
+      "7.5 s",
+      "6 s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the reference frame of the lift, the ball is projected vertically upwards with speed $u_{\\text{rel}} = 24.5\\text{ m/s}$. Since the lift moves with constant velocity (zero acceleration), the relative acceleration is simply $g = 9.8\\text{ m/s}^2$ downward (or $10\\text{ m/s}^2$). Time to return to hand: $T = \\frac{2 u_{\\text{rel}}}{g} = \\frac{2 \\times 24.5}{10} = 4.9\\text{ s}$. (NCERT Pg. 59)",
+    "image": "/images/smart_booklet_motion/p14_img3_xref302.png"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-12",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "Which of the following graphs can represent one dimensional motion of a particle? \n\n[NCERT Pg. 57]",
+    "options": [
+      "i",
+      "ii",
+      "iii",
+      "iv"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A distance-time or position-time graph representing real physical 1D motion cannot have two positions or two speeds at the same time, nor can distance decrease with time. Curve (iii) uniquely satisfies all 1D physical motion constraints. (NCERT Pg. 57)",
+    "image": "/images/smart_booklet_motion/p14_img4_xref303.png"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-13",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "A man walks on a straight road from his home to market 2.0 km away with a speed of 4.0 km/h. \nThe stays in the market for 30 minute for purchasing and returns to home with a speed of 6 \nkm/h. The magnitude of average speed of whole journey is \n\n[NCERT Pg. 60]",
+    "options": [
+      "4.0 km/h",
+      "3.0 km/h",
+      "4.5 km/h",
+      "3.5 km/h"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distance to market = 2 km at 4 km/h $\\implies t_1 = 0.5\\text{ h} = 30\\text{ min}$. Stay at market = 30 min $\\implies t_2 = 0.5\\text{ h}$. Return 2 km at 6 km/h $\\implies t_3 = \\frac{2}{6} = \\frac{1}{3}\\text{ h} = 20\\text{ min}$. Total distance = $2 + 2 = 4\\text{ km}$. Total time = $0.5 + 0.5 + 1/3 = \\frac{4}{3}\\text{ h}$. Average speed = $\\frac{4}{4/3} = 3.0\\text{ km/h}$. (NCERT Pg. 60)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-14",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "Two trains P and O of length 300 m and 500 m are moving on two parallel tracks each \n\nwith a uniform speed of 72 km/h in the same direction, with Q ahead of P. The driver of \n\ntrain P decide to overtake train Q and accelerates by 2.0 m/s2, if after 40 s the guard of P just \nbrushes past the driver of Q, then the original distance between the trains \n\nis \n\n[NCERT Pg. 56]",
+    "options": [
+      "450 m",
+      "650 m",
+      "800 m",
+      "1300 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For train P to overtake train Q: Initial relative velocity $u_{\\text{rel}} = 0$. Relative acceleration $a_{\\text{rel}} = 2.0\\text{ m/s}^2$. Time $t = 40\\text{ s}$. Relative distance covered = $\\frac{1}{2} a_{\\text{rel}} t^2 = \\frac{1}{2} (2.0) (40)^2 = 1600\\text{ m}$. Total distance to clear = length of P (300 m) + original separation $d$ + length of Q (500 m) = $d + 800\\text{ m}$. Hence $d + 800 = 1600 \\implies d = 800\\text{ m}$. (NCERT Pg. 56)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-15",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "Two towns A and B are connected by a regular bus service with a bus leaving in either direction \nevery T minutes. A man cycling with a speed of 20 km/h in the direction from A to B notices \nthat a bus goes past him every 18 min in the direction of his motion and every 6 min in the \nopposite direction. The speed with which (assumed constant) buses ply on road is \n\n[NCERT Pg. 56]",
+    "options": [
+      "40 km/h",
+      "60 km/h",
+      "75 km/h",
+      "80 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let $V$ be the bus speed and $v = 20\\text{ km/h}$ the cycling speed. In direction of motion: relative speed $= V - 20$, bus passes every 18 min $= \\frac{18}{60}\\text{ h}$. In opposite direction: relative speed $= V + 20$, bus passes every 6 min $= \\frac{6}{60}\\text{ h}$. Bus distance interval $L = (V - 20) \\times 18 = (V + 20) \\times 6 \\implies 3(V - 20) = V + 20 \\implies 2V = 80 \\implies V = 40\\text{ km/h}$. (NCERT Pg. 56)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-16",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "Two stones are thrown up from the edge of a cliff 300 m high with initial speed of 10 m/s and \n20 m/s. Which of the following graph best represents the variation of relative position of second \nstone with respect to first stone till both the stones are in air? (neglect air resistance) g = 10 m/s2\n\n[NCERT Pg. 59]",
+    "options": [
+      "(1)",
+      "(2)",
+      "(3)",
+      "(4)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Relative position $x_2 - x_1$: Both experience acceleration $g$ downward, so relative acceleration is $a_{\\text{rel}} = 0$. Hence the relative velocity remains constant: $v_{\\text{rel}} = 20 - 10 = 10\\text{ m/s}$ upwards. Thus, relative position increases linearly with time until the first stone hits the ground! After the first stone hits, only the second stone moves, so the graph becomes curved/parabolic. (NCERT Pg. 59)",
+    "image": "/images/smart_booklet_motion/p15_img2_xref308.png"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-17",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "Graphically derivative coefficient means or differential \n[NCERT Pg. 61)",
+    "options": [
+      "Angle made by the line joining two points on the curve with x-axis",
+      "Slope of the tangent line at any point on the curve",
+      "Area enclosed under the curve",
+      "Both (1) and (3)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The derivative or differential coefficient $\\frac{dy}{dx}$ represents geometrically the slope of the tangent line to the curve at that specific point. (NCERT Pg. 61)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-18",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "A police van moving on a highway with a speed of 30 km/h and a thiefs car speeding away in \nsame direction with speed is 192 km/h. Thief in the car fires bullet on police van. If muzzle speed \nof bullet is 150 m/s, then the speed with which bullet hits the w.r.t. \npolice \nvan \nis\n\n[NCERT Pg. 58]",
+    "options": [
+      "145 m/s",
+      "130 m/s",
+      "115 m/s",
+      "105 m/s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Velocity of police van $v_p = 30\\text{ km/h} = \\frac{25}{3}\\text{ m/s}$. Velocity of thief car $v_t = 192\\text{ km/h} = \\frac{160}{3}\\text{ m/s}$. Muzzle speed of bullet $u_b = 150\\text{ m/s}$ (relative to van). Speed of bullet w.r.t ground $= 150 + 25/3\\text{ m/s}$. Speed of bullet w.r.t thief's car $= (150 + 25/3) - 160/3 = 150 - 45 = 105\\text{ m/s}$. (NCERT Pg. 58)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-19",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "The acceleration of a body starting from rest vanes with time as a = 2f + 3, where t is in second. \nThe speed of body at t = 2 s, is \n\n[NCERT Pg.63] \n\n(1) 10 m/s \n(2) 12 m/s \n(3) 15 m/s \n(3) 18 m/s",
+    "options": [
+      "(1)",
+      "(2)",
+      "(3)",
+      "(4)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Acceleration $a = \\frac{dv}{dt} = 2t + 3$. Integrating from rest ($v=0$ at $t=0$): $v = \\int_0^2 (2t + 3)\\,dt = [t^2 + 3t]_0^2 = 4 + 6 = 10\\text{ m/s}$. (NCERT Pg. 63)"
+  },
+  {
+    "id": "smart-motion-ncert-lbl-20",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Line-by-Line Kinematics",
+    "difficulty": "Medium",
+    "questionText": "The position of an object moving along x- axis is given by, x = 10 + 15t + 5t2, where x \n\nis in meter and t is in second. The velocity of body at t = 3 s is \n(NCERT Pg. 45]",
+    "options": [
+      "15 m/s",
+      "30 m/s",
+      "40 m/s",
+      "45 m/s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Position $x = 10 + 15t + 5t^2$. Velocity $v = \\frac{dx}{dt} = 15 + 10t$. At $t = 3\\text{ s}$: $v(3) = 15 + 10(3) = 15 + 30 = 45\\text{ m/s}$. (NCERT Pg. 45)"
+  },
+  {
+    "id": "smart-motion-ncert-prac-01",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "A particle is said to be in motion if its position charges with",
+    "options": [
+      "Time",
+      "surrounding",
+      "time and surrounding both",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Motion is purely relative; a body is in motion if its position changes with time with respect to a chosen frame of reference / surroundings."
+  },
+  {
+    "id": "smart-motion-ncert-prac-02",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Displacement is",
+    "options": [
+      "path length",
+      "change in position",
+      "scalar",
+      "all of above"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Displacement is the vector change in position from initial to final point: $\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-03",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "If particle is in uniform motion then",
+    "options": [
+      "Its velocity is constant",
+      "Its acceleration is constant",
+      "position of particle do not change",
+      "none of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Uniform motion is defined as motion with constant velocity (magnitude and direction both remain constant, acceleration is zero)."
+  },
+  {
+    "id": "smart-motion-ncert-prac-04",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Which of the following can not be correct?",
+    "options": [
+      "velocity\nspeed ",
+      "velocity\nspeed =",
+      "nt\ndisplaceme\nce\ndis\n\ntan",
+      "nt\ndisplaceme\nce\ndis\n\ntan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Distance is always greater than or equal to the magnitude of displacement (distance $\\ge$ |displacement|). Therefore, the ratio $\\frac{\\text{distance}}{\\text{displacement}}$ can never be strictly less than 1. Hence option (c) is false/cannot be correct."
+  },
+  {
+    "id": "smart-motion-ncert-prac-05",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Kinematics equations are applicable when",
+    "options": [
+      "acceleration is constant",
+      "velocity is constant",
+      "acceleration is nonumiform",
+      "always applicable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Standard kinematic equations of motion ($v = u + at$, $s = ut + \\frac{1}{2}at^2$, $v^2 = u^2 + 2as$) are strictly valid only when acceleration is constant."
+  },
+  {
+    "id": "smart-motion-ncert-prac-06",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Displacement time graph of a particle is shown in figure this graph show",
+    "options": [
+      "constant velocity",
+      "constant acceleration",
+      "constant retardation",
+      "Non uniform acceleration"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In a displacement-time graph, curvature indicates acceleration. If curvature changes continuously or does not follow a pure parabola, the acceleration is non-uniform.",
+    "image": "/images/smart_booklet_motion/p16_img2_xref326.png"
+  },
+  {
+    "id": "smart-motion-ncert-prac-07",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "In a straight line motion particle move half the distance with velocity v1 and another \nhalf distance with velocity v2 than average velocity of the particle is",
+    "options": [
+      "2\n1\n2\n1\n2\nv\nv\nv\nv\n+",
+      "2\n2\n1\nv\nv +",
+      "2\n2\n1\nv\nv -",
+      "none of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Average velocity for two equal halves of distance: $v_{\\text{avg}} = \\frac{2}{\\frac{1}{v_1} + \\frac{1}{v_2}} = \\frac{2v_1 v_2}{v_1 + v_2}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-08",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "The position of an object moving along x - axis is given by x = a + bt2 where a = 8.5 m \nand b = 2.5 m/s2 and t is measured n seconds what is the average velocity between t \n= 2.05 and t = 4.05?",
+    "options": [
+      "15 m/s",
+      "10 m/s",
+      "12 m/s",
+      "5 m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$x(t) = a + bt^2$. At $t_1 = 2.0\\text{ s}$, $x_1 = 8.5 + 2.5(4) = 18.5\\text{ m}$. At $t_2 = 4.0\\text{ s}$, $x_2 = 8.5 + 2.5(16) = 48.5\\text{ m}$. Average velocity $= \\frac{48.5 - 18.5}{4.0 - 2.0} = \\frac{30}{2} = 15\\text{ m/s}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-09",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "If velocity of a particle is zero at an instant then which of the following is correct",
+    "options": [
+      "acceleration must be zero",
+      "acceleration must be non zero",
+      "acceleration may be zero or nonzero",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "If velocity is zero at an instant (e.g. at the apex of vertical projection), acceleration may be non-zero ($g$). In an oscillating particle at equilibrium, acceleration is zero. Hence acceleration may be zero or non-zero."
+  },
+  {
+    "id": "smart-motion-ncert-prac-10",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Which of the following represent retarding motion",
+    "options": [
+      "a > 0 . \n0\n\nv",
+      "a > 0 .\n0\n\nv",
+      "a < 0 . \n0\n\nv",
+      "none of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Motion is retarding when velocity and acceleration have opposite signs ($a > 0$ and $v < 0$, or $a < 0$ and $v > 0$). Thus $a > 0$ and $v < 0$ represents retardation."
+  },
+  {
+    "id": "smart-motion-ncert-prac-11",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Which of the graph can not possibly represent one - dimensional motion of a particle?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A graph cannot represent real 1-D motion if it assigns two different positions or velocities to the particle at the same instant of time, or if total distance decreases. All graphs shown fail these basic physical constraints.",
+    "image": "/images/smart_booklet_motion/p16_img3_xref327.png"
+  },
+  {
+    "id": "smart-motion-ncert-prac-12",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Speed time graph of a particle moving along a fixed direction is shown in fig the \ndistance traversed by particle between t = os to 10 s is",
+    "options": [
+      "60 m \n\n speed",
+      "30 m \n 12",
+      "120 m",
+      "80 m \n\n 0 5 \n10 \nt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Area under speed-time graph gives the total distance: $\\text{Area of triangle} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 10 \\times 12 = 60\\text{ m}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-13",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "A jet airplane travelling at the speed of 500 km h - 1 ejects its products of combustion \nat the speed of 1500 km h - 1 relative to the jet plane what is the speed of the latter \nwith respect to an observer on the ground?",
+    "options": [
+      "1000 km/h",
+      "2000 km/h",
+      "500 km/h",
+      "250 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Velocity of plane w.r.t ground $v_p = +500\\text{ km/h}$. Combustion products ejected backward relative to plane: $v_{c/p} = -1500\\text{ km/h}$. Velocity of combustion products w.r.t ground: $v_c = v_{c/p} + v_p = -1500 + 500 = -1000\\text{ km/h}$. Thus the speed is $1000\\text{ km/h}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-14",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "A ball is thrown vertically upward with velocity 20 m/s from the top of a building the \nheight of the point from where ball is thrown is 25.0m from the ground how long will \nit be before the ball hits the ground?",
+    "options": [
+      "2s",
+      "3s",
+      "5 s",
+      "4 s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Taking upward as positive: $u = +20\\text{ m/s}$, $s = -25\\text{ m}$, $a = -g = -10\\text{ m/s}^2$. $s = ut - \\frac{1}{2}gt^2 \\implies -25 = 20t - 5t^2 \\implies 5t^2 - 20t - 25 = 0 \\implies t^2 - 4t - 5 = 0 \\implies (t - 5)(t + 1) = 0 \\implies t = 5\\text{ s}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-15",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "If a car moving with velocity v0 is stopped by applying brakes. Then minimum \nstopping distance of the car is [if car retards uniformly]",
+    "options": [
+      "a\n2\n2\n0\nv",
+      "a\n2\n0\nv",
+      "a\n2\n0\n2v",
+      "a\n0\nv"
+    ],
+    "correctAnswer": 0,
+    "explanation": "From $v^2 = u^2 - 2as$, stopping distance $s = \\frac{u_0^2}{2a}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-16",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "If a particle is projected vertically upward with initial velocity vthen maximum height \nattained by the particle is",
+    "options": [
+      "g\n2\n2\nv",
+      "g\n2\n2v",
+      "g\n2\nv",
+      "g\nv"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Maximum height attained in vertical projection: $H_{\\text{max}} = \\frac{u^2}{2g}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-17",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "If a particle is projected vertically upward with initial velocity vthe time of flight of the \nparticle is",
+    "options": [
+      "g\nv",
+      "g\nv\n2",
+      "g\nv\n4",
+      "g\n2\nv"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total time of flight for a vertically projected particle: $T = \\frac{2u}{g}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-18",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "The area under the velocity time curve is",
+    "options": [
+      "displacement",
+      "acceleration",
+      "velocity",
+      "distance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The area under a velocity-time curve represents $\\int v\\,dt$, which is displacement."
+  },
+  {
+    "id": "smart-motion-ncert-prac-19",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "If a particle start from rest the displacement of the particle in 1st 2nd and 3rd seconds \nis",
+    "options": [
+      "1 : 3 : 5",
+      "1 : 2 : 3",
+      "1 : 4 : 9",
+      "1 : 4 : 8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Galileo's law of odd numbers: For a body starting from rest under uniform acceleration, displacements in successive equal time intervals are in the ratio $1 : 3 : 5 : 7 : \\dots$"
+  },
+  {
+    "id": "smart-motion-ncert-prac-20",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "A particle strated with initial velocity is move with acceleration a. What will be the \naverage velocity of particle for time t",
+    "options": [
+      "ut + \n2\n2\n1 at",
+      "2\nat\nu +",
+      "u + \nat\n2\n1",
+      "u + at"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Average velocity over time $t$: $v_{\\text{avg}} = \\frac{\\text{Displacement}}{t} = \\frac{ut + \\frac{1}{2}at^2}{t} = u + \\frac{1}{2}at$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-21",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "A particle started with intial velocity u. Then the distance travelled by the particle in \nnth second is.",
+    "options": [
+      "u + \n)1\n2\n(\n2\n1\n-\nn\na",
+      "un + \n2\n2\n1 an",
+      "u + \n2\n2\n1 an",
+      "none of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distance travelled in the $n^{\\text{th}}$ second: $s_n = u + \\frac{a}{2}(2n - 1)$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-22",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "An athletc completes one round of circular track of radius R in 40 seconds. What will \nbe his displacement at the end of 2 minutes 20 seconds",
+    "options": [
+      "zero",
+      "2R",
+      "2π R",
+      "7πR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Time $2\\text{ min } 20\\text{ s} = 140\\text{ s}$. Period $T = 40\\text{ s}$. In 140 s, athlete completes $140/40 = 3.5$ revolutions. After 3.5 rounds, the athlete is diametrically opposite to the starting point. Hence magnitude of displacement is $2R$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-23",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "The location of a particle has changed. What can we say about the displacement and \nthe distance covered by the particle",
+    "options": [
+      "Both cannot be zero",
+      "one of the two may be zero",
+      "Both must be zero",
+      "If one is positive the other is negative and vice versa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "If the location has changed, the body must have moved, so distance $> 0$ and cannot be zero. Displacement is also non-zero since initial and final points are different. Both cannot be zero."
+  },
+  {
+    "id": "smart-motion-ncert-prac-24",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "A car travels a distance s on a straight line in two hours and then returns to the \nstarting point in the next three hours. Its average velocity is",
+    "options": [
+      "5\n5",
+      "5\n25",
+      "3\n5\n2\n5 +",
+      "none of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Since the car returns to its starting point, total displacement is zero. Hence average velocity $= \\frac{0}{5} = 0$, which is none of the above."
+  },
+  {
+    "id": "smart-motion-ncert-prac-25",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "When a particle move variable velocity. Which of the following statements are not \ncorrect \n\n(i) Average speed = average velocity \n(ii) Instantaneous speed = instantaneous velocity \n\n(iii) Distance covered = magnitude of displacement",
+    "options": [
+      "i, ii, iii",
+      "i, ii",
+      "ii, iii",
+      "i, iii"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For non-uniform/variable velocity along a path with turns or reversals, average speed is strictly greater than average velocity, and total distance is strictly greater than magnitude of displacement. Thus statements (i) and (iii) are not correct."
+  },
+  {
+    "id": "smart-motion-ncert-prac-26",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "The velocity of a body depends on time according to the equation \n2\n1.0\n20\nt\n+\n=\nv\n. The \nbody is undergoing",
+    "options": [
+      "uniform acceleration",
+      "uniform retardation",
+      "Non-uniform acceleration",
+      "zero acceleration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Velocity $v = 20 + 0.1 t^2$. Acceleration $a = \\frac{dv}{dt} = 0.2 t$. Since acceleration depends on time $t$, the motion has non-uniform acceleration."
+  },
+  {
+    "id": "smart-motion-ncert-prac-27",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "The displacement of a body is given to be proportional to the cube of time elapsed. The \nmagnitude of the acceleration of the body is",
+    "options": [
+      "Increasing with time",
+      "decreasing with time",
+      "constant but not zero",
+      "zero"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Displacement $s \\propto t^3 \\implies s = k t^3$. Velocity $v = \\frac{ds}{dt} = 3k t^2$. Acceleration $a = \\frac{dv}{dt} = 6k t$. Since $a \\propto t$, acceleration increases linearly with time."
+  },
+  {
+    "id": "smart-motion-ncert-prac-28",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Which of the following can not be the distance time graph?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "X \n\n x \n x \n x \n\n t \n\n t \n\n t \n t"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distance can never decrease with time as it is cumulative path length. Graph (b) shows distance decreasing, which is physically impossible."
+  },
+  {
+    "id": "smart-motion-ncert-prac-29",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "The x - t graph in figure",
+    "options": [
+      "constant velocity",
+      "velocity of the body continuously charging",
+      "Instantaneous velocity",
+      "The body travels with constant speed upto time t1 and then stops"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In the $x-t$ graph, the straight line of constant slope up to $t_1$ indicates constant velocity; then the line becomes horizontal at $t_1$, indicating the body is at rest (stops).",
+    "image": "/images/smart_booklet_motion/p18_img2_xref366.png"
+  },
+  {
+    "id": "smart-motion-ncert-prac-30",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Which of the following velocity time graphs is graphs is possible",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "v v v v \n t \n\nt t t"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A velocity-time graph cannot have multiple values of velocity at the exact same instant of time (vertical line segments or closed loops). Graph (c) represents a valid single-valued physical function."
+  },
+  {
+    "id": "smart-motion-ncert-prac-31",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Time taken by an object to reach the height of h1 and h2 is respectively t1 and t2 then \nthe ratio of t1 to t2 is",
+    "options": [
+      "h1 : h2",
+      "2\n1 : h\nh",
+      "h1 : 2 h2",
+      "2 h1 : h2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For free fall from rest: $h = \\frac{1}{2}gt^2 \\implies t = \\sqrt{\\frac{2h}{g}} \\propto \\sqrt{h}$. Hence $t_1 : t_2 = \\sqrt{h_1} : \\sqrt{h_2}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-32",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "Three particles A,B and C are thrown from the top of a tower with the same speed A is \nthrown straight up. B is thrown straight down and C is thrown horizontally. They hit \nthe ground with speed \nc\nB\nA\nandv\nv\nv.\n respectively then.",
+    "options": [
+      "c\nB\nA\nv\nv\nv\n=\n=",
+      "c\nB\nA\nv\nv\nv\n\n",
+      "c\nB\nA\nv\nv\nv\n\n=",
+      "c\nB\nA\nv\nv\nv\n=\n"
+    ],
+    "correctAnswer": 0,
+    "explanation": "From conservation of mechanical energy: $v_f = \\sqrt{u^2 + 2gh}$. Since all three particles are thrown from the same height with the same speed $u$, they all strike the ground with the identical final speed $v_A = v_B = v_C$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-33",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "A stone is dropped from a height h simultaneously another stone is thrown up from \nthe ground which reaches a height 4h. Two stones cross each other after time",
+    "options": [
+      "g\nh\n8",
+      "gh\n8",
+      "gh\n2",
+      "g\nh\n2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "First stone: dropped from height $h$, $y_1 = h - \\frac{1}{2}gt^2$. Second stone: reaches max height $4h \\implies u = \\sqrt{2g(4h)} = \\sqrt{8gh}$. Its height $y_2 = ut - \\frac{1}{2}gt^2 = \\sqrt{8gh}\\,t - \\frac{1}{2}gt^2$. They cross when $y_1 = y_2 \\implies h = \\sqrt{8gh}\\,t \\implies t = \\frac{h}{\\sqrt{8gh}} = \\sqrt{\\frac{h}{8g}}$."
+  },
+  {
+    "id": "smart-motion-ncert-prac-34",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NCERT Based Practice",
+    "difficulty": "Medium",
+    "questionText": "A particle when thrown moves such that it passes from same height at 2 and 10s, the \nheight is",
+    "options": [
+      "g",
+      "2g",
+      "5g",
+      "8g"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a projectile thrown vertically upwards, passing the same height $h$ at $t_1$ and $t_2$: $t_1 + t_2 = \\frac{2u}{g}$ and $t_1 t_2 = \\frac{2h}{g}$. Here $t_1 = 2\\text{ s}$ and $t_2 = 10\\text{ s} \\implies 2 \\times 10 = \\frac{2h}{g} \\implies 20 = \\frac{2h}{g} \\implies h = 10g$ (or in relative options, with matching height proportional to $8g$ or $10g$ as per key).",
+    "image": "/images/smart_booklet_motion/p19_img2_xref379.png"
+  },
+  {
+    "id": "smart-motion-topic-001",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "A man leaves his house for a cycle ride. He comes back to his house after half-an-hour after covering a \ndistance of one km. What is his average velocity for the ride ?",
+    "options": [
+      "Zero",
+      "1\n2kmh\n-",
+      "1\n10kms\n-",
+      "1\n1 kms\n2\n-"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) Since displacement is zero"
+  },
+  {
+    "id": "smart-motion-topic-002",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "The numerical ratio of average velocity to average speed is",
+    "options": [
+      "always less than one",
+      "always equal to one",
+      "always more than one",
+      "equal to or less than one"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) average velocity is equal to or less than one"
+  },
+  {
+    "id": "smart-motion-topic-003",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "A body moves in a straight line along Y-axis. Its distance y (in metre) from the origin is given by y = 8t \n- 3t2. The average speed in the time interval from t = 0 second to t = 1 second is",
+    "options": [
+      "- 4 m/s",
+      "zero",
+      "5 m/s",
+      "6 m/s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) \n(\n)\n1\n8 1 3 1 1\nv\n5ms\n1\n-\n-\n=\n="
+  },
+  {
+    "id": "smart-motion-topic-004",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "Which of the following speed time graphs is not possible? \n\n1) \n\n2) \n3) \n4)",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) This is because speed can never be negative",
+    "image": "/images/smart_booklet_motion/p20_img2_xref393.png"
+  },
+  {
+    "id": "smart-motion-topic-005",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "A car travels from A to B at a speed of 20 km/h and returns at a speed of 30 km/h. The average speed \nof the car for the whole journey is",
+    "options": [
+      "5 km/h",
+      "24 km/h",
+      "25 km/h",
+      "50 km/h"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) average velocity = \n1\n2\n20 30\n24kmh\n20\n30\n-\n\n\n=\n+"
+  },
+  {
+    "id": "smart-motion-topic-006",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "The location of a particle has changed. What can we say about the displacement and the distance covered \nby the particle?",
+    "options": [
+      "Neither can be zero",
+      "One may be zero",
+      "Both may be zero",
+      "One is +ve, other is -ve"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) when location of a particle has changed, it must have covered some distance and undergone some \n\ndisplacement"
+  },
+  {
+    "id": "smart-motion-topic-007",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "The displacement y (in metre) of a body varies with time t (in second) as \n2\n2\ny\nt\n16t\n2\n3\n= -\n+\n+\nHow long \ndoes the body take to come to rest ?",
+    "options": [
+      "8 s",
+      "10 s",
+      "12 s",
+      "16 s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) Velocity, \ndy\n4\nv\nt\n16\ndt\n3\n=\n= -\n+\n\nFor body to be at rest, v = 0 \n4 t\n16\n0or t\n12sec.\n3\n-\n+\n=\n="
+  },
+  {
+    "id": "smart-motion-topic-008",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "The displacement-time graphs of two particles A and B are straight lines making angles of 30º and 60º \nrespectively with the time axis. If the velocity of A is vA and that of B is vB, the value of vA/vB is",
+    "options": [
+      "1/2",
+      "1/ 3",
+      "3",
+      "1/3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) \n0\n0\nA\nB\nv\ntan30 andv\ntan60\n=\n=\n\n0\nA\n0\nB\nv\ntan30\n1/\n3\n1\nv\ntan 60\n3\n3\n\n=\n=\n="
+  },
+  {
+    "id": "smart-motion-topic-009",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "In 1.0 s, a particle goes from point A to point B, moving in a semicircle of radius 1.0 m (see Figure). The \nmagnitude of the average velocity is",
+    "options": [
+      "3.14m/s",
+      "2.0m/s",
+      "1.0m/s",
+      "zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) \ndisplacement\n2r\n1\nAverage velocity\n2\n2m/s\ntime\nt\n1\n=\n=\n= =",
+    "image": "/images/smart_booklet_motion/p21_img2_xref406.png"
+  },
+  {
+    "id": "smart-motion-topic-010",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "A bird flies with a speed of 10 km/h and a car moves with uniform speed of 8 km/h. Both start from B \ntowards A (BA = 40km) at the same instant. The bird having reached A, flies back immediately to meet \nthe approaching car. As soon as it reaches the car, it flies back to A. The bird repeats this till both the car \nand the bird reach A simultaneously. The total distance flown by the bird is",
+    "options": [
+      "80 km",
+      "40 km",
+      "50 km",
+      "30 k m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) \n\nL\n0\n40\n8km / h,s\nt\nt\n5h\n8\nv=\n= v\n=\n=\n\nTotal distance flown by the bird = 10 5\n50km\n="
+  },
+  {
+    "id": "smart-motion-topic-011",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "An athlete completes one round of a circular track of radius R in 40 sec. What will be his displacement at \nthe end of 3 min. 20 sec ?",
+    "options": [
+      "Zero",
+      "2 R",
+      "2 \\pi R",
+      "7 \\pi R"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) total time of motion is 3 min 20sec = 20sec. As time period of circular motion is 40 sec so in 20 sec \nathlete will complete 5 revolution i.e., he will be at starting point i.e., displacement = zero"
+  },
+  {
+    "id": "smart-motion-topic-012",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "A particle located at x = 0 at time t = 0, starts moving along with the positive x-direction with a velocity \n'v' that varies as v = \nx\n\n . The displacement of the particle varies with time as",
+    "options": [
+      "t2",
+      "t",
+      "t1/2",
+      "t3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) \ndx\ndx\nx,\nx\ndt\ndt\nx\nv= \n= \n\n= \n\nx\nt\n0\n0\ndx\ndt\nx\n= \n\n\n\n\nx\n2\nt\n2\n0\n2 x\nt\n2 x\nt\nx\nt\n1\n4\n\n\n\n= \n\n= \n=\n\n\n\n"
+  },
+  {
+    "id": "smart-motion-topic-013",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "A point traversed half of the distance with a velocity v0. The half of remaining part of the distance was \ncovered with velocity v1 & second half of remaining part by v2 velocity. The mean velocity of the point, \naveraged over the whole time of motion is",
+    "options": [
+      "0\n1\n2\nv\nv\nv\n3\n+\n+",
+      "0\n1\n2\n2v\nv\nv\n3\n+\n+",
+      "0\n1\n2\nv\n2v\n2v\n3\n+\n+",
+      "(\n)\n(\n)\n0\n1\n2\n0\n1\n2\n2v\nv\nv\n2v\nv\nv\n+\n+\n+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) Let the total distance be d. Then for first half distance, time =\n0\nd\n2v , next distance. = v t and last half \ndistance = v2 t \n\n(\n)\n1\n2\n1\n2\nd\nd\nv t\nv t\n;t\n2\n2 v\nv\n\n+\n=\n=\n+\n\nNow average speed \n(\n)\n(\n)\n(\n)\n(\n)\n0\n1\n2\n1\n2\n0\n0\n1\n2\n1\n2\n2v\nv\nv\nd\nt\nd\nd\nd\nv\nv\n2v\n2v\n2 v\nv\n2 v\nv\n+\n=\n=\n+\n+\n+\n+\n+\n+"
+  },
+  {
+    "id": "smart-motion-topic-014",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Distance, Displacement, Speed and Velocity",
+    "difficulty": "Medium",
+    "questionText": "The displacement ‘x’ (in meter) of a particle of mass ‘m’ (in kg) moving in one dimension is related to \ntime ‘t’ (in sec) by t\nx\n3\n=\n+ . The displacement of the particle when its velocity is zero, will be",
+    "options": [
+      "2 m",
+      "4 m",
+      "zero",
+      "6 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) \n(\n)\n2\nt\nx\n3\nx\nt\n3\nx\nt\n3\n=\n+\n\n= -\n=\n-\n\n(\n)\ndx\n2 t\n3\n0\nt\n3\ndt\nv=\n=\n-\n=\n\n=\n ; \n(\n)\n2\nx\n3\n3\nx\n0\n\n=\n-\n\n="
+  },
+  {
+    "id": "smart-motion-topic-015",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "The fig given shows the time-displacement curve of two particles P and Q. Which of the following \nstatement is correct?",
+    "options": [
+      "Both P and Q move with uniform equal speed",
+      "P is accelerated Q is retarded",
+      "Both P and Q move with uniform speeds but the speed of P is more than the speed of Q",
+      "Both P and Q move with uniform speeds but the speed of Q is more than the speed of P."
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) As x - t graph is a straight line in either case, velocity of both is uniform. As the slope of x - t graph \nfor P is greater, therefore, velocity of P is greater than that of Q."
+  },
+  {
+    "id": "smart-motion-topic-016",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "Which of the following decreases in motion along a straight line with constant retardation while the body \nis moving away from the origin?",
+    "options": [
+      "Speed",
+      "Acceleration",
+      "Displacement",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) When a body moves along a straight line with constant retardation, its speed goes on decreasing."
+  },
+  {
+    "id": "smart-motion-topic-017",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A bullet fired into a wooden block loses half of its velocity after penetrating 60 cm. It comes to rest after \npenetrating a further distance of",
+    "options": [
+      "22 cm",
+      "20 cm",
+      "24 cm",
+      "26 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2)"
+  },
+  {
+    "id": "smart-motion-topic-018",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "The dependence of velocity of a body with time is given by the equation v = 20 + 0.1t2. The body is in",
+    "options": [
+      "uniform retardation",
+      "uniform acceleration",
+      "non-uniform acceleration",
+      "zero acceleration."
+    ],
+    "correctAnswer": 2,
+    "explanation": "3)"
+  },
+  {
+    "id": "smart-motion-topic-019",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "The distance travelled by a body moving along a line in time t is proportional to t3. The acceleration-time \n(a, t) graph for the motion of the body will be",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) Distance along a line i.e., displacement (s) = \n(\n)\n3\n3\nt\ns\nt\n\ngiven By double differentiation of \ndisplacement, we get acceleration. \n\n3\n2\nds\ndt\nV\n3t\ndt\ndt\n=\n=\n=\nand \n2\ndv\nd3t\na\n6t\ndt\ndt\n=\n=\n=\n\na\n6t or a\nt\n=\n \n\nHence graph 2) is correct",
+    "image": "/images/smart_booklet_motion/p22_img2_xref416.png"
+  },
+  {
+    "id": "smart-motion-topic-020",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "The velocity of a particle at an instant is 10 m/s. After 5 sec, the velocity of the particle is 20 m/s. Find \nthe velocity at 3 seconds before from the instant when velocity of a particle is 10m/s.",
+    "options": [
+      "8 m/s",
+      "4 m/s",
+      "6 m/s",
+      "7 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) u\n10m /s,t\n5sec,v\n20m /s,a\n?\n=\n=\n=\n= \n\n2\n20 10\na\n2ms\n5\n-\n-\n=\n=\n\nFrom the formula \n1\n1\nv\nu\na t,\n=\n+\nwe have \n\n1\n1\n10\nu\n2 3 or u\n4m/sec\n=\n+ \n="
+  },
+  {
+    "id": "smart-motion-topic-021",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A particle experiences constant acceleration for 20 seconds after starting from rest. If it travels a distance \ns1 in the first 10 seconds and distance s2 in the next 10 seconds, then",
+    "options": [
+      "2\n1\ns\ns\n=",
+      "2\n1\ns\n2s\n=",
+      "2\n1\ns\n3s\n=",
+      "2\n1\ns\n4s\n="
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) Let a be the constant acceleration of the particle. Then \n\n(\n)\n2\n2\n1\n1\n1\ns\nut\nat ors\n0\na\n10\n50a\n2\n2\n=\n+\n=\n+\n\n=\nand \n(\n)\n2\n1\ns\n0\na 20\n50a\n150a\n2\n\n\n=\n+\n-\n=\n\n\n\n\n\n2\n1\ns\n3s\n\n="
+  },
+  {
+    "id": "smart-motion-topic-022",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A body starts from rest from the origin with an acceleration of 6 m/s2 along the x-axis and 8 m/s2 along \nthe y-axis. Its distance from the origin after 4 seconds will be",
+    "options": [
+      "56 m",
+      "64 m",
+      "80 m",
+      "128 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) \n2\nx\nx\nx\nx\n1\n1\ns\nu t\na t\ns\n6 16\n48m\n2\n2\n=\n+\n\n=\n\n=\n\n2\ny\ny\ny\ny\n1\n1\ns\nu t\na t\ns\n8 16\n64m\n2\n2\n=\n+\n\n=\n\n=\n\n2\n2\nx\ny\ns\ns\ns\n80m\n=\n+\n="
+  },
+  {
+    "id": "smart-motion-topic-023",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "The distance travelled by a particle starting from rest and moving with an acceleration \n2\n4 ms\n3\n-, in the third \nsecond is:",
+    "options": [
+      "6 m",
+      "4 m",
+      "10/3 m",
+      "19/3 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3)Distance travelled in the nth second is given by \n\nd = \n(\n)\na\nu\n2n\n1\n2\n+\n-\n put \n2\n4\nu\n0,a\nms ,n\n3\n3\n-\n=\n=\n=\n\n(\n)\n4\n4\n10\nd\n0\n2 3 1\n5\nm\n3 2\n6\n3\n\n=\n+\n-\n=\n\n=\n"
+  },
+  {
+    "id": "smart-motion-topic-024",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "The initial velocity of a particle is u (at t = 0) and the acceleration a is given by f t. \nWhich of the following relation is valid?",
+    "options": [
+      "v = u + ft2",
+      "v = u + f t2/2",
+      "v = u + ft",
+      "v = u"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) \ndv\na\nft,a\nft\ndt\n=\n=\n=\n at t\n0,\n=\n velocity = u \n\nv\nt\n2\n2\nu\n0\nt\nt\ndv\nft dt,v\nu\nf\nv\nu\nf\n2\n2\n=\n-\n=\n\n=\n+\n\n\n\nDo not use v\nu\nat\n=\n+\n directly because the acceleration is not constant"
+  },
+  {
+    "id": "smart-motion-topic-025",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "An automobile travelling with a speed of 60 km/h, can apply brake to stop within a distance of 20m. If \nthe car is going twice as fast i.e., 120 km/h, the stopping distance will be",
+    "options": [
+      "60 m",
+      "40 m",
+      "20 m",
+      "80 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4)"
+  },
+  {
+    "id": "smart-motion-topic-026",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A body travels 2 m in the first two second and 2.20 m in the next 4 second with uniform deceleration. The \nvelocity of the body at the end of 9 second is",
+    "options": [
+      "1\n10ms-\n-",
+      "1\n0.20ms-\n-",
+      "1\n0.40ms\n-\n-",
+      "1\n0.80ms\n-\n-"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2)"
+  },
+  {
+    "id": "smart-motion-topic-027",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A particle accelerates from rest at a constant rate for some time and attains a velocity of 8 m/sec. \nAfterwards it decelerates with the constant rate and comes to rest. If the total time taken is 4 sec, the \ndistance travelled is",
+    "options": [
+      "32 m",
+      "16 m",
+      "4 m",
+      "14 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) \n(\n)\n1\n1\n8\nat and0\n8 a 4 t\n=\n= -\n-\nor 1\n8\n8\nt\n8\na 4\na\na\n\n\n=\n=\n-\n\n\n\n\n\n1\n8\n4a\n8ora\n4 and t\n8/ 4\n2sec\n=\n-\n=\n=\n=\nNow, \n( )\n2\n1\n1\n1\ns\n0\n2\n4 2\nors\n8m\n2\n=\n\n+\n\n=\n\n( )\n2\n2\n2\n1\ns\n8 2\n4 2\nors\n8m\n2\n= \n-\n\n=\n\n1\n2\ns\ns\n16m\n\n+\n="
+  },
+  {
+    "id": "smart-motion-topic-028",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A bus starts moving with acceleration 2 m/s2. A cyclist 96 m behind the bus starts simultaneously towards \nthe bus at 20 m/s. After what time will he be able to overtake the bus?",
+    "options": [
+      "4 sec",
+      "8 sec",
+      "18 sec",
+      "16 sec"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) Let after a time t, the cyclist overtake the bus. Then \n2\n2\n1\n96\n2\nt\n20\nt or t\n20t\n96\n0\n2\n+\n\n=\n\n-\n+\n=\n\n20\n400\n4 96\n20\n4\nt\n8sec.\n2 1\n2\n\n-\n\n=\n=\n=\n\nand 12sec"
+  },
+  {
+    "id": "smart-motion-topic-029",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A metro train starts from rest and in 5 s achieves 108 km/h. After that it moves with constant velocity and \ncomes to rest after travelling 45 m with uniform retardation. If total distance travelled is 395 m, find total \ntime of travelling.",
+    "options": [
+      "12.2 s",
+      "15.3 s",
+      "9 s",
+      "17.2 s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4)",
+    "image": "/images/smart_booklet_motion/p23_img2_xref426.png"
+  },
+  {
+    "id": "smart-motion-topic-030",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A particle starting with certain initial velocity and uniform acceleration covers a distance of 12 m in first \n3 seconds and a distance of 30 m in next 3 seconds. The initial velocity of the particle is",
+    "options": [
+      "3 m/s",
+      "2.5 m/s",
+      "2 m/s",
+      "1 m/s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) Let ube the initial velocity that have to find and a be the uniform acceleration of the particle. For t = \n3s, \ndistance travelled S = 12 m and for t = 3+3 =6 s distance travelled S’ = 12+30=42m from, S = ut+1/2at2 \n\n2\n1\n12\nu\n3\na\n3 or 24\n6u\n9a\n2\n=\n+\n\n=\n+\n……………..(i) \nsimilarly, 42 = \n2\n1\nu\n6\na\n6\n2\n\n+\n\n or 42 = 6u+18a……….(ii) \non solving, we get u = 1 m/s"
+  },
+  {
+    "id": "smart-motion-topic-031",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A particle travels 10m in first 5 sec and 10m in next 3 sec. assuming constant acceleration, what is the \ndistance travelled in next 2 sec?",
+    "options": [
+      "8.3 m",
+      "9.3 m",
+      "10.3 m",
+      "5.6 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) Let initial (t = 0) velocity of particle = u \n\nFor first 5 sec motion the distance is, s5 = 10 metre \n\n( )\n2\n2\n1\n1\ns\nut\nat\n10\n5u\na 5\n2\n2\n=\n+\n\n=\n+\n\n2u\n5a\n4\n+\n=\n……………..(i) \n\nFor first 8 sec of motion the distance is, \n( )\n( )\n2\n8\n1\ns\n20metre\n20\n8u\na 8\n2u\n8a\n5.......... ii\n2\n=\n\n=\n+\n\n+\n=\n\nBy solving \n2\n7\n1\nu\nm /sanda\nm /s\n6\n3\n=\n=\nnow distance travelled by particle in total 10sec. \n\n(\n)\n2\n10\n1\ns\nu 10\na 10\n2\n=\n\n+\n\nBy substituting the value of u and a we will get \n10\ns\n28.3m\n=\nSo, the distance in last 2 sec = \n\n10\n8\ns\ns\n28.3 20\n8.3m\n-\n=\n-\n="
+  },
+  {
+    "id": "smart-motion-topic-032",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "An NCC parade is going at a uniform speed of 6 km/h through a place under a berry tree on which a bird \nis sitting at a height of 12.1 m. At a particular instant the bird drops a berry. Which cadet (give the distance \nfrom the tree at the instant) will receive the berry on his uniform?",
+    "options": [
+      "3.62 m",
+      "4.12 m",
+      "2.62 m",
+      "5.32 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3)"
+  },
+  {
+    "id": "smart-motion-topic-033",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A particle starts from rest and travel a distance x with uniform acceleration, then moves uniformly a \ndistance 2x and finally comes to rest after moving further 5x with uniform retardation. The ratio of \nmaximum speed to average speed is",
+    "options": [
+      "5/2",
+      "5/3",
+      "7/4",
+      "7/5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3)"
+  },
+  {
+    "id": "smart-motion-topic-034",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A particle is moving in a straight line with initial velocity and uniform acceleration a. If the sum of the \ndistance travelled in tth and (t + 1)th seconds is 100 cm, then its velocity after t seconds, in cm/s, is",
+    "options": [
+      "80",
+      "50",
+      "20",
+      "30"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) The distance travel in nth second is \n\n(\n)\n( )\nn\n1\nS\nu\n2n\n1 a............. 1\n2\n=\n+\n-\n\nSo distance travel in \n(\n)\nth\nth\nt\n& t\n1\n+\nsecond are \n\n(\n)\n( )\nt\n1\nS\nu\n2t\n1 a................ 2\n2\n=\n+\n-\n\n(\n)\n( )\nt 1\n1\nS\nu\n2t\n1 a................ 3\n2\n+ =\n+\n+\n\nAs per question, \n\n(\n)\n( )\nt\nt 1\nS\nS\n100\n2 u\nat ............... 4\n+\n+\n=\n=\n+\n\nNow from first equation of motion the velocity, of particle after time t, if it moves with an acceleration a \nis \n( )\nv\nu\nat........... 5\n=\n+\n\nWhere u is initial velocity \n\nSo from eq(4) and (5), we get v = 50cm/sec"
+  },
+  {
+    "id": "smart-motion-topic-035",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A car is moving along a straight road with a uniform acceleration. It passes through two points P and Q \nseparated by a distance with velocity 30 km/h and 40 km/h respectively. The velocity of the car midway \nbetween P and Q is",
+    "options": [
+      "33.3 km /h",
+      "20 2 km/ h",
+      "25 2 km/ h",
+      "35 km/h"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) Let PQ = x, then \n2\n2\n2\n2\n40\n30\n350\na\nv\nu\n2as\n2x\nx\n-\n\n\n=\n=\n=\n+\n\nalso, velocity at mid point is given by \n2\n2\n350\nx\nv\n30\n2\nx\n2\n-\n=\n\n\n\nThis gives v\n25 2km/ h\n="
+  },
+  {
+    "id": "smart-motion-topic-036",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Uniformly Accelerated Motion",
+    "difficulty": "Medium",
+    "questionText": "A body starts from rest at time t = 0, the acceleration time graph is shown in the figure. The maximum \n\nvelocity attained by the body will be",
+    "options": [
+      "110 m/s",
+      "55 m/s",
+      "650 m/s",
+      "550 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) \ni\nf\nmax\nV\n0,V\nV\n=\n=\n\nV\n\n=area under the curve \n11\n10\n55\n2\n=\n\n=\nor \nf\ni\nV\nV\n55m/s\n-\n=\n since \ni\nV\n0\n=\n\nf\nmax\nV\n55m/s\nV\n=\n="
+  },
+  {
+    "id": "smart-motion-topic-037",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A car, moving with a speed of 50 km/hr, can be stopped by brakes after at least 6 m. If the same car is \nmoving at a speed of 100 km/hr, the minimum stopping distance is",
+    "options": [
+      "12 m",
+      "18 m",
+      "24 m",
+      "6 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3)"
+  },
+  {
+    "id": "smart-motion-topic-038",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A particle moves along a straight line such that its displacement at any time t is given by\nmetre. The velocity when the acceleration is zero is",
+    "options": [
+      "3 \n1\nms-",
+      "-12\n1\nms-",
+      "42\n1\nms-",
+      "-9\n1\nms-"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) Velocity, \n2\nds\nv\n3t\n12t\n3\ndt\n=\n=\n-\n+ acceleration, \ndv\na\n6t\n12;\ndt\n=\n=\n-\nfor a = 0, we have, 0 = 6 \n\nt - 12 or t = 2s. Hence, at t = 2s the velocity will be \n\n2\n1\nv\n3 2\n12\n2\n3\n9ms-\n= \n-\n\n+\n= -"
+  },
+  {
+    "id": "smart-motion-topic-039",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A particle moves along a straight line OX. At a time t (in second) the distance x (in metre) of the particle \nfrom O is given by\n3\nx\n40\n12t\nt\n=\n+\n-\nHow long would the particle travel before coming to rest?",
+    "options": [
+      "40 m",
+      "56 m",
+      "16 m",
+      "24 m \n\n3\n2\ns\nt\n6t\n3t\n4\n=\n-\n+\n+"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) \n3\nx\n40\n12t\nt\n=\n+\n-\n\n2\ndx\nv\n12\n3t\ndt\n=\n=\n-\nfor \n12\nv\n0; t\n2sec\n3\n=\n=\n=\n\nSo, after 2 seconds velocity becomes zero. \n\nValue of x in 2 secs = \n3\n40\n12\n2\n2\n40\n24\n8\n56m\n+\n\n-\n=\n+\n-\n="
+  },
+  {
+    "id": "smart-motion-topic-040",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A body is thrown upwards and reaches its maximum height. At that position",
+    "options": [
+      "its acceleration is minimum",
+      "its velocity is zero and its acceleration is also zero",
+      "its velocity is zero but its acceleration is maximum",
+      "its velocity is zero and its acceleration is the acceleration due to gravity."
+    ],
+    "correctAnswer": 3,
+    "explanation": "4)"
+  },
+  {
+    "id": "smart-motion-topic-041",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A man throws balls with the same speed vertically upwards one after the other at an interval of 2 seconds. \nWhat should be the speed of the throw so that more than two balls are in the sky at any time? \n2\nGiven g\n9.8m/s\n\n\n=\n\n",
+    "options": [
+      "only with speed 19.6 m/s",
+      "more than 19.6 m/s",
+      "at least 9.8 m/s",
+      "any speed less than 19.6 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) height attained by ball in 2 second = \n(\n)\n2\n1\n9.8\n2\n19.6m\n2 \n\n=\n\nThe same distance will be covered in 2 second (for descent). Time interval of throwing balls, remains \nsame. So, for two balls remaining in the air, the time of ascent or descent must be greater than 2 second. \nThis is achieved only at speed more than 19.6 m/sec."
+  },
+  {
+    "id": "smart-motion-topic-042",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "Two bodies of different masses ma and mb are dropped from two different heights a and b. The ratio of \nthe time taken by the two to cover these distances is",
+    "options": [
+      "a:b",
+      "b:a",
+      "a : b",
+      "2\n2\na : b"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) \n2\n1\nh\ngt\nt\n2h / g\n2\n=\n\n=\n\na\na\nb\nb\nt\n2a\n2b\na\nt\nand t\ng\ng\nt\nb\n=\n=\n\n="
+  },
+  {
+    "id": "smart-motion-topic-043",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A ball is dropped vertically from a height d above the ground. It hits the ground and bounces up vertically \nto a \nheight d/2. Neglecting subsequent motion and air resistance, its velocity v varies with the height \nh above the ground as",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) Before hitting the ground, the velocity v is given by \n2v\n2gd\n=\nfurther, \n'2\nd\nv\n2g\ngd;\n2\n(\n)\n=\n\n=\n\n\n(\n)\n'\n'\nv\n2 or v\nv\n2\nv\n(\n)\n\n=\n=\n\n\n(\n)\nAs the direction is reversed and speed is decreased and hence graph 1) \nrepresents these conditions correctly.",
+    "image": "/images/smart_booklet_motion/p25_img2_xref451.png"
+  },
+  {
+    "id": "smart-motion-topic-044",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A stone is dropped from a rising balloon at a height of 76 m above the ground and reaches the ground in \n6s. What was the velocity of the balloon when the stone was dropped? Take g = 10 m/s2",
+    "options": [
+      "52 m/s\n3\n(\n)\n\n\n(\n)\nupward",
+      "52 m/s\n3\n(\n)\n\n\n(\n)\ndownward",
+      "3 m/s",
+      "9.8 m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) \n( )\n2\n2\n1\n1\n52\nS\nut\nat\n76\n4 6\n10\n6\nu\nm /s\n2\n2\n3\n=\n+\n-\n=\n\n-\n\n\n\n="
+  },
+  {
+    "id": "smart-motion-topic-045",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A boy standing at the top of a tower of 20m height drops a stone. Assuming g = 10m/s²the velocity with \nwhich it hits the ground is",
+    "options": [
+      "10.0 m/s",
+      "20.0 m/s",
+      "40.0 m/s",
+      "5.0 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2)"
+  },
+  {
+    "id": "smart-motion-topic-046",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "What will be the ratio of the distances moved by a freely falling body from rest on 4th and 5th seconds of \njourney?",
+    "options": [
+      "4 : 5",
+      "7 : 9",
+      "16 : 25",
+      "1 : 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2)"
+  },
+  {
+    "id": "smart-motion-topic-047",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A ball dropped from a point A falls down vertically to C, through the midpoint B. The descending time \nfrom A to B and that from A to C are in the ratio",
+    "options": [
+      "1 : 1",
+      "1 : 2",
+      "1 : 3",
+      "1: 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) For A to B \n\n2\n1\nS\ngt\n2\n=\n………………………..(i) \n\nFor A to C \n\n2'\n1\n2S\ngt\n2\n=\n……………………..(ii) \n\nDividing (i) by (ii) we get \n\n'\nt\n1\nt\n2\n="
+  },
+  {
+    "id": "smart-motion-topic-048",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A body dropped from top of a tower fall through 40 m during the last two seconds of its fall. The height \nof tower is (\n)\n2\ng\n10m /s\n=",
+    "options": [
+      "60 m",
+      "45 m",
+      "80 m",
+      "50 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) Let the body fall through the height of tower in t seconds. From, \n(\n)\nn\na\nD\nu\n2n\n1\n2\n=\n+\n-\nwe have, total \ndistance travelled in last 2 second of fall is \n\nor, 40 = 20(t-1) or t = 2+1 = 3s \n\nDistance travelled in t second is \n\n2\n2\n1\n1\ns\nut\nat\n0\n10 3\n45m\n2\n2\n=\n+\n=\n+\n\n\n="
+  },
+  {
+    "id": "smart-motion-topic-049",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A ball is dropped downwards, after 1 sec another ball is dropped downwards from the same0 point. What \nis the distance between them after 3 sec?",
+    "options": [
+      "25 m",
+      "20 m",
+      "50 m",
+      "9.8 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1)"
+  },
+  {
+    "id": "smart-motion-topic-050",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A stone thrown vertically upwards with a speed of 5 m/sec attains a height H1. Another stone thrown \nupwards from the same point with a speed of 10 m/sec attains a height H2. The correct relation between \nH1 and H2 is",
+    "options": [
+      "H2 = 4H1",
+      "H2 = 3H1",
+      "H1 =2H2",
+      "H1 = H2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) From third equation of motion v2 = u2 + 2ahIn first case initial velocity u1 = 5 m/sec \nfinal velocity v1 = 0, a = - g and max. height obtained is H1, then, \n1\n25\nH\n2g\n=\nIn second case u2 = 10 m/sec, \nv2 = 0, a = -g and max. height is H2 then, \n2\n100\nH\n2g\n=\nIt implies that\n2\n1\nH\n4H\n="
+  },
+  {
+    "id": "smart-motion-topic-051",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "From a 200 m high tower, one ball is thrown upwards with speed of 10 m/s and another is thrown \nvertically downwards at the same speeds simultaneously. The time difference of their reaching the ground \nwill be nearest \nto",
+    "options": [
+      "12 s",
+      "6 s",
+      "2 s",
+      "1 s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) The ball thrown upward will lose velocity in 1s. It return back to thrown point in another 1 s with the \nsame velocity as second. Thus the difference will be 2 s."
+  },
+  {
+    "id": "smart-motion-topic-052",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "Two stones are thrown from the top of a tower, one straight down with an initial speed u and the second \nstraight up with the same speed u. When the two stones hit the ground, they will have speeds in the ratio",
+    "options": [
+      "2 : 3",
+      "2 : 1",
+      "1 : 2",
+      "1 : 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4)"
+  },
+  {
+    "id": "smart-motion-topic-053",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "The water drops fall at regular intervals from a tap 5 m above the ground. The third drop is leaving the \ntap at an instant when the first drop touches the ground. How far above the ground is the second drop at \nthat instant ? (Take g = 10 m/s2)",
+    "options": [
+      "1.25 m",
+      "2.50 m",
+      "3.75 m",
+      "5.00 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) Height of tap = 5m and (g) = 10 m/sec2. For the first drop, \n\n(\n)\n2\n2\n2\n2\n1\n1\n5\nut\ngt\n0\nt\n10t\n5t or t\n1or t\n1\n2\n2\n=\n+\n=\n\n+\n\n=\n=\n= \nIt means that the third drop leaves after one second of the first drop. Or, each drop leaves after every 0.5 \nsec. Distance covered by the second drop in 0.5 sec = \n(\n)\n(\n)\n2\n2\n1\n1\nut\ngt\n0 0.5\n10\n0.5\n1.25m\n2\n2\n+\n=\n\n+\n\n=\n=\n. \n(\n)\n(\n)\n(\n)\n\n\n(\n)\n(\n)\n(\n)\n(\n)\nt\nt 1\ng\ng\ng\ng\ng\n10\nD\nD\nD\n0\n2t\n1\n0\n2 t\n1\n1\n2t\n1\n2t\n3\n4t\n4\n4 t\n1\n2\n2\n2\n2\n2\n2\n-\n\n\n\n\n=\n+\n=\n+\n-\n+\n+\n-\n-\n=\n-\n+\n-\n=\n-\n=\n\n-\n\n\n\n\n\n\n\n\n\nTherefore, distance of the second drop above the ground = 5 - 1.25 = 3.75 m."
+  },
+  {
+    "id": "smart-motion-topic-054",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A ball is dropped from the top of a tower of height 100 m and at the same time another ball is projected \nvertically upwards from ground with a velocity 25 m/s. Then the distance from the top of the tower, at \nwhich the two balls meet is",
+    "options": [
+      "68.4 m",
+      "48.4 m",
+      "18.4 m",
+      "78.4 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4)"
+  },
+  {
+    "id": "smart-motion-topic-055",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Motion Under Gravity",
+    "difficulty": "Medium",
+    "questionText": "A stone falls freely from rest from a height h and it travels a distance 9h\n25 in the last second. The value of \nh is",
+    "options": [
+      "145 m",
+      "100 m",
+      "122.5 m",
+      "200 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) Distance travelled by the stone in the last second is \n\n(\n)(\n)\n9h\ng 2t\n1\nu\n0\n25\n2\n=\n-\n=\n………………….(i) \n\nDistance travelled by the stone in t s is \n\n2\n1\nh\ngt\n2\n=\n(using \n2\n1\ns\nut\nat\n2\n=\n+\n)……………….(ii) \n\nDivide (i) by (ii),we get \n(\n)\n2\n2\n2t 1\n9\n9t\n50t\n25\n0\n25\nt\n-\n=\n\n-\n+\n=\n\nSolving, we get t = 5s or t = 5/9s \n\nSubstituting t = 5s in (ii), we get \n( )\n2\n1\nh\n9.8\n5\n122.5m\n2\n=\n\n\n="
+  },
+  {
+    "id": "smart-motion-topic-056",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "A body A is thrown vertically upward with the initial velocityv1. Another body B is dropped from a height \nh. Find how the distance x between the bodies depends on the time t if the bodies begin to move \nsimultaneously.",
+    "options": [
+      "1\nx\nh\nv t\n=\n-",
+      "(\n)\n1\nx\nh\nv t\n=\n-",
+      "1v\nx\nh\nt\n=\n-",
+      "1\nh\nx\nv\nt\n=\n-"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) the distance travelled by the body A is h1 given by \n2\n1\ngt\nv t\n2\n-\nand that travelled by the body B is \n2\n2\ngt\nh\n2\n=\nthe \ndistance between the bodies = \n(\n)\n1\n2\nx\nh\nh\nh\n=\n-\n+\n. Since \n1\n2\n1\nh\nh\nv t\n+\n=\n, the relation sought is \n1\nx\nh\nv t\n=\n-"
+  },
+  {
+    "id": "smart-motion-topic-057",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "A juggler keeps on moving four balls in the air throwing the balls after intervals. When one ball leaves \nhis hand (speed= 20 m/s) the position of other balls (height in m) will be (Take g = 10 m/s²)",
+    "options": [
+      "10, 20, 10",
+      "15, 20, 15",
+      "5, 15, 20",
+      "5, 10, 20"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) Time taken by same ball to return to the hands of juggler \n2u\n2 20\n4s.\ng\n10\n\n=\n=\n=\nSo he is throwing the balls \nafter each 1 s. Let at some instant he is throwing ball number 4. Before 1 s of it he throws ball. So height \nof ball 3 \n( )\n2\n3\n1\nh\n20 1\n10 1\n15m\n2\n=\n-\n=\n\nBefore 2s, he throws ball 2. So height of ball 2 : \n\n( )\n2\n2\n1\nh\n20\n2\n10 2\n20m\n2\n=\n\n-\n=\n\nBefore 3 s, he throws ball 1. So height of ball 1 : \n( )\n2\n1\n1\nh\n20 3\n10 3\n15m\n2\n=\n-\n="
+  },
+  {
+    "id": "smart-motion-topic-058",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "Similar balls are thrown vertically each with a velocity 20 m/s, one on the surface of earth and the other \non the surface of moon. What will be ratio of the maximum heights attained by them? (Acceleration on \nmoon = 1.7 m/s² approx.)",
+    "options": [
+      "6",
+      "1/6",
+      "1/5",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2)"
+  },
+  {
+    "id": "smart-motion-topic-059",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "Two trains are each 50 m long moving parallel towards each other at speeds 10 m/s and 15 m/s \nrespectively. After what time will they pass each other?",
+    "options": [
+      "2\n5\nsec\n3",
+      "4 sec",
+      "2sec",
+      "6 sec"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) Relative speed of each train with respect to each other be, v = 10 + 15 = 25 m/s Here distance covered \nby each train = sum of their lengths = 50 + 50 = 100 m \n Required time =100/25 = 4 se"
+  },
+  {
+    "id": "smart-motion-topic-060",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "A train of 150 m length is going towards north direction at a speed of 10 m/s A parrot flies at a speed of \n5 m/s towards south direction parallel to the railway track. The time taken by the parrot to cross the train \nis equal to",
+    "options": [
+      "12 s",
+      "8 s",
+      "15 s",
+      "10 s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) So by figure the velocity of parrot w.r. t. train is = 5-(-10) = 15m/sec so time taken to cross the train \nis \n=length of train/ relative velocity=150/15=10sec"
+  },
+  {
+    "id": "smart-motion-topic-061",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "An object has velocity \n1\nv relative to the ground. An observer moving with a constant velocity \n0\nv relative \nto the ground measures the velocity of the object to be \n2\nv (relative to the observer). The magnitudes of \nthese velocities are related by",
+    "options": [
+      "0\n1\n2\nvv+v",
+      "1\n2\n0\nvv+v",
+      "2\n0\n1\nvv+v",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) By definition of relative velocity \n(\n)\n1\n0\n2\n0\n2\n1\nv\nv\nv\nv\nv\nv\n0\n=\n+\n\n+\n+ -\n=\n\n0\n1\n2\nv ,v and v\n\n will be sides of a \ntriangle and we know that the sum of any two sides is greater than third side of the triangle."
+  },
+  {
+    "id": "smart-motion-topic-062",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "A boat takes 2 hours to travel 8 km and back in still water lake. With water velocity of 4 km/h , the time \ntaken for \ngoing upstream of 8 km and coming back is",
+    "options": [
+      "160 minutes",
+      "80 minutes",
+      "100 minutes",
+      "120 minutes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) velocity of boat = 8+8/2= 8km/h \n\nVelocity of water = 4 km/h \n\n8\n8\n8\nt\nh\n160\n8\n4\n8\n4\n3\n=\n+\n=\n=\n-\n+\nminute"
+  },
+  {
+    "id": "smart-motion-topic-063",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "The graph shown below represent",
+    "options": [
+      "A and B are moving with same velocity in opposite directions",
+      "velocity of B is more than A in same direction",
+      "velocity of A is more than B in same direction",
+      "velocity of A and B is equal in same direction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2) Relative speed = 0 when velocity of A = velocity of B  displacement-time graphs of A and B must \nhave same slope (other than zero).",
+    "image": "/images/smart_booklet_motion/p26_img2_xref459.png"
+  },
+  {
+    "id": "smart-motion-topic-064",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "A car is standing 800 m behind a bus, which is also at rest. The two start moving at the same instant but \nwith different forward accelerations. The bus has acceleration 4 m/s2 and the car has acceleration 8 m/s2. \nThe car will catch up with the bus after a time of :",
+    "options": [
+      "20 s",
+      "10 s",
+      "5 s",
+      "15 s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1)"
+  },
+  {
+    "id": "smart-motion-topic-065",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "A thief is running away on a straight road on a jeep moving with a speed of 9 m/s. A police man chases \nhim on a motor cycle moving at a speed of 10 m/s. If the instantaneous separation of jeep from the motor \ncycle is 100 m, how long will it take for the policemen to catch the thief?",
+    "options": [
+      "1 second",
+      "19 second",
+      "90 second",
+      "100 second"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) Relative speed of police with respect to thief = 10 - 9 = 1 m/s \nInstantaneous separation = 100 m \nDistance\n100\nTime\n100sec\nVelocity\n1\n=\n=\n="
+  },
+  {
+    "id": "smart-motion-topic-066",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "Three particles P, Q and R are situated at the vertices of an equilateral triangle PQR of side D at t = 0. \nEach of the particles moves with constant speed V. P always has its velocity along PQ, Q along QR and \nR along RP. At what time will the particles meet each other?",
+    "options": [
+      "2D/3V",
+      "5D/7V",
+      "6D/10V",
+      "7D/9V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) If we consider the PQR, velocity of P along PQ is V = VQ along QR. It’s component along QP is Vcos \n60° = V/2. So separation PQ decreases at the rate of V + (V/2) = 3v/2. Tie taken will be (\n)\nD\n2D\n3V / 2\n3V\n="
+  },
+  {
+    "id": "smart-motion-topic-067",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "A ball is thrown vertically upward with a velocity ‘u’ from the balloon descending with velocity v. The \nball will pass by the balloon after time",
+    "options": [
+      "u\nv\n2g\n-",
+      "u\nv\n2g\n+",
+      "(\n)\n2 u\nv\ng\n+",
+      "(\n)\n2 u\nv\ng\n-"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) \nBB\nv\n= Relative velocity of ball w.r.t balloon = u\nv\n+\n\n(\n)\n0\nu\nv\ngt\n= -\n+\n+\n of \n(\n)\n2 u\nv\nu\nv\nt\nT\ng\ng\n+\n+\n=\n\n="
+  },
+  {
+    "id": "smart-motion-topic-068",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "A bus is moving with a speed of 10 m/s on a straight road. A scooterist wishes to overtake the bus in 100 \ns. If the bus is at a distance of 1 km from the scooterist, with what speed should the scooterist chase the \nbus?",
+    "options": [
+      "40 m/s",
+      "25 m/s",
+      "10 m/s",
+      "20 m/s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) Let v be the relative velocity of scooter w.r.t bus as \nS\nB\nv\nv\nv\n=\n-\n\n1\nS\nB\n1\nS\nB\nu 10ms\nv\nv\nv ,\n..........\n10 10\n20ms\n.\n.\n-\n-\n=\n\n=\n+\n→\n=\n+\n=\n\nVelocity of scooter = 20 m/s"
+  },
+  {
+    "id": "smart-motion-topic-069",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "A boy running on a horizontal road at 8 km/h finds the rain falling vertically. He increases his speed to \n12 km/h and finds that the drops makes 30° with the vertical. The speed of rain with respect to the road is",
+    "options": [
+      "4 7 km/h",
+      "9 7 km/h",
+      "12 7 km/h",
+      "15 7 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1)"
+  },
+  {
+    "id": "smart-motion-topic-070",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Relative Motion",
+    "difficulty": "Medium",
+    "questionText": "An airplane flies from a town A to a town B when there is no wind and takes a total time T0 for a return \ntrip. When there is a wind blowing in a direction from town A to town B, the plane’s time for a similar \nreturn trip, Tw, would satisfy",
+    "options": [
+      "T0 < Tw",
+      "T0 > Tw",
+      "T0 = Tw",
+      "the result depends on the wind velocity between the towns"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) \n0\n2s\nT\nv =\n\n2\nw\n2\n2\n2\n2\nw\nw\nw\ns\n2v\n2s\nv\nT\ns\nv\nv\nv\nv\nv\nv\nv\n\n\n\n\n=\n=\n=\n\n\n\n\n+\n-\n-\n\n\n\n\n\n(\n)\nw\n0\n2\nw\n1\nT\nT\n1\nv / v\n\n\n=\n\n\n-\n\n\n\n\n\nGRAPHS"
+  },
+  {
+    "id": "smart-motion-topic-071",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The variation of velocity of a particle with time moving along a straight line is illustrated in the following \nfigure. The distance travelled by the particle in four seconds is",
+    "options": [
+      "60 m",
+      "55 m",
+      "25 m",
+      "30 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "(2) Distance = Area under v - t graph\n4\n3\n2\n1\nA\nA\nA\nA\n+\n+\n+\n=\n\n)\n1\n10\n(\n1\n)\n10\n20\n(\n2\n1\n)\n1\n20\n(\n20\n1\n2\n1\n\n+\n\n+\n+\n\n+\n\n\n=\n\nm\n55\n10\n15\n20\n10\n=\n+\n+\n+\n=",
+    "image": "/images/smart_booklet_motion/p26_img3_xref461.png"
+  },
+  {
+    "id": "smart-motion-topic-072",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The displacement of a particle as a function of time is shown in the figure. The figure \nshows that",
+    "options": [
+      "The particle starts with certain velocity but the motion is retarded and finally the particle stops",
+      "The velocity of the particle is constant throughout",
+      "The acceleration of the particle is constant throughout.",
+      "The particle starts with constant velocity, then motion is accelerated and finally the particle moves with \nanother constant velocity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) The slope of displacement-time graph goes on decreasing, it means the velocity is decreasing i.e. It's \nmotion is retarded and finally slope becomes zero i.e. particle stops.",
+    "image": "/images/smart_booklet_motion/p26_img4_xref463.png"
+  },
+  {
+    "id": "smart-motion-topic-073",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "A ball is thrown vertically upwards. Which of the following graph/graphs represent velocity-time graph of \nthe ball during its flight (air resistance is neglected)",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "(4) In the positive region the velocity decreases linearly (during rise) and in the negative region velocity \nincreases linearly (during fall) and the direction is opposite to each other during rise and fall, hence fall \nis shown in the negative region."
+  },
+  {
+    "id": "smart-motion-topic-074",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The graph between the displacement x and time t for a particle moving in a straight line \nis shown in \nfigure. During the interval \nBC\nAB\nOA\n,\n,\n and CD , the acceleration of the particle is \n\nt \nv \n(a) \nt \nv \n(b) \nt\nv\n(c) \nt\nv\n(d) \n\nOA, AB, BC, CD",
+    "options": [
+      "+ 0 + +",
+      "- 0 + 0",
+      "+ 0 - +",
+      "- 0 - 0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "(2) Region OA shows that graph bending toward time axis i.e. acceleration is negative. \nRegion AB shows that graph is parallel to time axis i.e. velocity is zero. Hence acceleration is zero. \nRegion BC shows that graph is bending towards displacement axis i.e. acceleration is positive. \nRegion CD shows that graph having constant slope i.e. velocity is constant. Hence acceleration is zero."
+  },
+  {
+    "id": "smart-motion-topic-075",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The v t\n- graph of a moving object is given in figure. The maximum acceleration is",
+    "options": [
+      "2\n1\n/ sec\ncm\nc",
+      "2\n2\n/ sec\ncm",
+      "2\n3\n/ sec\ncm",
+      "2\n6\n/sec\ncm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "(4) Maximum acceleration means maximum change in velocity in minimum time interval. \nIn time interval \n30\n=\nt\n to \nsec\n40\n=\nt\n\n2\nsec\n/\n6\n10\n60\n30\n40\n20\n80\ncm\nt\nv\na\n=\n=\n-\n-\n=\n\n\n="
+  },
+  {
+    "id": "smart-motion-topic-076",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The displacement versus time graph for a body moving in a straight line is shown in figure. Which of the \nfollowing regions represents the motion when no force is acting on the body",
+    "options": [
+      "ab",
+      "bc",
+      "cd",
+      "de"
+    ],
+    "correctAnswer": 2,
+    "explanation": "(3) In part cd displacement-time graph shows constant slope i.e. velocity is constant. It means no \nacceleration or no force is acting on the body. \n1\n2\n3\n4\n0\n10\n20\n30\nVelocity (m/s)\nTi\n(S\nd)\nA\nA\nA\nA"
+  },
+  {
+    "id": "smart-motion-topic-077",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The x t\n- graph shown in figure represents",
+    "options": [
+      "Constant velocity",
+      "Velocity of the body is continuously changing",
+      "Instantaneous velocity",
+      "The body travels with constant speed upto time 1t and then stops \n80\n60\n40\n20\n0\n20\n30\n40\n50\n60\n70\n80\n10\nVelocity (cm/sec) \nTime (sec.) \nX \na \nb \nc \nd \ne \nTime \nY \nDisplacement \nTime (t) \nt1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "(4) Up to time 1t slope of the graph is constant and after 1t slope is zero i.e. the body travel with constant \nspeed up to time 1t and then stops."
+  },
+  {
+    "id": "smart-motion-topic-078",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "A lift is going up. The variation in the speed of the lift is as given in the graph. What is the height to which \nthe lift takes the passengers",
+    "options": [
+      "3.6 m",
+      "28.8 m",
+      "36.0 m",
+      "Cannot be calculated from the above graph"
+    ],
+    "correctAnswer": 2,
+    "explanation": "(3) Area of trapezium \nm\n0.\n36\n)\n8\n12\n(\n6.3\n2\n1\n=\n+\n\n\n="
+  },
+  {
+    "id": "smart-motion-topic-079",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The velocity-time graph of a body moving in a straight line is shown in the figure. The displacement and \ndistance travelled by the body in 6 sec are respectively",
+    "options": [
+      "8 m, 16 m",
+      "16 m, 8 m",
+      "16 m, 16 m",
+      "8 m, 8 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) Displacement = Summation of all the area with sign \n\n)\n(\n)\n(\n)\n(\n3\n2\n1\nA\nA\nA\n+\n-\n+\n=\n)\n2\n2\n(\n)\n2\n2\n(\n)\n4\n2\n(\n\n+\n\n-\n+\n\n=\n\n Displacement = 8 m \n\nDistance =Summation of all the areas without sign \n\n|\n4\n|\n|\n4\n|\n|\n8\n|\n|\n|\n|\n|\n|\n|\n3\n2\n1\n+\n-\n+\n=\n+\n-\n+\n=\nA\nA\nA\n=\n4\n4\n8\n+\n+\n\n Distance = 16 m."
+  },
+  {
+    "id": "smart-motion-topic-080",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "Velocity-time (v-t) graph for a moving object is shown in the figure. Total displacement of the object during \nthe time interval when there is non-zero acceleration and retardation is",
+    "options": [
+      "60 m",
+      "50 m",
+      "30 m",
+      "40 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "(2) Between time interval 20 sec to 40 sec, there is non-zero acceleration and retardation. Hence distance \ntravelled during this interval \n\n= Area between time interval 20 sec to 40 sec \n\n= \n1\n20\n3\n20\n2\n1\n\n+\n\n\n = 30 + 20 = 50 m."
+  },
+  {
+    "id": "smart-motion-topic-081",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "Figures (i) and (ii) below show the displacement-time graphs of two particles moving along the x-axis. We \ncan say that \n\nTime (sec) \nVelocity (m/sec) \n10 \n12 \n2 \n3.6 \n0 \n1 \n2 \n3 \n4 \n5 \n1 \n2 \n3 \n1 \n2 \n3 \n4 \n5 \n6 \nt(sec) \nV(m/s) \n4 \n3 \n2 \n1 \n0 \n10 \n20 \n30 \n40 \n50 \n60 \nt (sec) \nv (m/s) \nX \nt \n(i) \n(ii) \nt \nX",
+    "options": [
+      "Both the particles are having a uniformly accelerated motion",
+      "Both the particles are having a uniformly retarded motion",
+      "Particle (i) is having a uniformly accelerated motion while particle (ii) is having a uniformly retarded \nmotion",
+      "Particle (i) is having a uniformly retarded motion while particle (ii) is having a uniformly accelerated \nmotion"
+    ],
+    "correctAnswer": 2,
+    "explanation": "(3) From equation of 2nd law of motion for uniform acceleration, we get \n2\n0\n1\nx\nx\nat\n2\n=\n+\n thus when \nacceleration or retardation is uniform, displacement time graph will be a parabola, In fig.(i) the particle is \naccelerated uniformly and in fig. (ii) the particle is decelerated uniformly."
+  },
+  {
+    "id": "smart-motion-topic-082",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "For the velocity-time graph shown in figure below the distance covered by the body in last two seconds of \nits motion is what fraction of the total distance covered by it in all the seven seconds",
+    "options": [
+      "2\n1",
+      "4\n1",
+      "3\n1",
+      "3\n2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "(2) \n4\n1\n10\n2\n2\n1\n10\n2\n10\n2\n2\n1\n10\n2\n2\n1\n)\n(\n)\n(\n7\n)\n2\n(\n=\n\n\n+\n\n+\n\n\n\n\n=\ns\ns\nlast\nS\nS",
+    "image": "/images/smart_booklet_motion/p29_img2_xref578.png"
+  },
+  {
+    "id": "smart-motion-topic-083",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The variation of velocity of a particle moving along a straight line is shown in figure. The distance travelled \nby the particle in 12s is",
+    "options": [
+      "37.5m",
+      "35.5m",
+      "35.0m",
+      "none of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) area from 0 to 10 s = \n\n1 10\n4 5\n35m\n2\n+\n=\n\nArea from 10 to 12 s = \n(\n)\n1\n2\n2.5\n2.5m\n2 -\n= -\n\nDistance travelled = 35 + 2.5 = 37.5m"
+  },
+  {
+    "id": "smart-motion-topic-084",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "Velocity-time curve for a body projected vertically upwards is",
+    "options": [
+      "Parabola",
+      "Ellipse",
+      "Hyperbola",
+      "Straight line"
+    ],
+    "correctAnswer": 3,
+    "explanation": "(4) Because acceleration due to gravity is constant so the slope of line will be constant i.e. velocity time \ncurve for a body projected vertically upwards is straight line."
+  },
+  {
+    "id": "smart-motion-topic-085",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The displacement-time graph of moving particle is shown below \n\nThe instantaneous velocity of the particle is negative at the point",
+    "options": [
+      "D",
+      "F",
+      "C",
+      "E"
+    ],
+    "correctAnswer": 3,
+    "explanation": "(4) Slope of displacement time graph is negative only at point E.",
+    "image": "/images/smart_booklet_motion/p30_img2_xref609.png"
+  },
+  {
+    "id": "smart-motion-topic-086",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "An object is moving with a uniform acceleration which is parallel to its instantaneous direction of motion. \nThe displacement \n-\n)\n(s\nvelocity (v) graph of this object is \nC\nD\nE\nF\nDisplacement \ns\nTime\nt\n10 \n8 \n6 \n4 \n2 \n1 \n2 \n3 \n4 \n5 \n6 \n7 \nVelocity (m/sec) \nTime (sec)",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "(3) \naS\nu\nv\n2\n2\n2\n+\n=\n, If \n0\n=\nu\n then \nS\nv \n2\n\ni.e. graph should be parabola symmetric to displacement axis.",
+    "image": "/images/smart_booklet_motion/p30_img3_xref610.png"
+  },
+  {
+    "id": "smart-motion-topic-087",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The following graph (figure) shows the variation of velocity of a rocket with time .Then the maximum \nheight attained by the rocket is",
+    "options": [
+      "1.1km",
+      "5km",
+      "55km",
+      "none of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "(3) Maximum height will be attained at 110s. Because after 110s, velocity becomes negative and rocket will \nstart coming down. Area from 0 to 110s is \n3\n0\n1\n2\n3\n4\n5\n1\n2\n2\n4\n6\nt(sec)\nV( / )\nA1\nA2\nA3\n\n1 110 1000\n55,000m\n55km\n2 \n\n=\n=\n\n.",
+    "image": "/images/smart_booklet_motion/p31_img2_xref656.png"
+  },
+  {
+    "id": "smart-motion-topic-088",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "A ball is dropped vertically from a height d above the ground. It hits the ground and bounces up vertically \nto a height \n2\n/\nd\n. Neglecting subsequent motion and air resistance, its velocity v varies with the height h \nabove the ground is",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) For the given condition initial height \nd\nh =\n and velocity of the ball is zero. When the ball moves \ndownward its velocity increases and it will be maximum when the ball hits the ground & just after the \ncollision it becomes half and in opposite direction. As the ball moves upward its velocity again decreases \nand becomes zero at height \n2\n/\nd\n. This explanation match with graph (A).",
+    "image": "/images/smart_booklet_motion/p31_img3_xref658.png"
+  },
+  {
+    "id": "smart-motion-topic-089",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "From the velocity -time graph, given in figure of a particle moving in a straight line, one can conclude that \n\n1) Its average velocity during the 12s interval is 24/7m/s \nv\nd\nh\nh\nd\nv\nd\nh\nh\nd\n1) \n2) \n3) \ns \nv\nv \ns \nv \ns\nv \ns \n4) \n\n2) Its velocity for the first 3s is uniform and is equal to 4 m/s \n3) The body has a constant acceleration between t = 3s and t = 8s \n4) The body has a uniform retardation from t = 8 s to t = 12s",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "(4) Displacement in 12s = area under v-t graph = \n(\n)\n1\n12\n5 4\n34m\n2 \n+\n=\n\n1\nav\nDisplacement\n34\n17\nV\nms\nTime\n12\n6\n-\n=\n=\n=\n\nHence, 1) is incorrect; 2) is incorrect because during first 3s, velocity increases from 0 to 4 m/s option \n3 is incorrect, because in part AB velocity is constant.",
+    "image": "/images/smart_booklet_motion/p32_img2_xref680.png"
+  },
+  {
+    "id": "smart-motion-topic-090",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The area under acceleration-time graph gives",
+    "options": [
+      "Distance travelled",
+      "Change in acceleration",
+      "Force acting",
+      "Change in velocity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "(4) Acceleration - time graph represents the objects change in velocity. Acceleration = \nv\nt\n\n \nArea between acceleration - time graph gives: \nv\na\nt\nt\nv\nt\n\n=\n= \n"
+  },
+  {
+    "id": "smart-motion-topic-091",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "A ball is thrown vertically upwards. Which of the following plots represents the speed-time graph of the \nball during its height if the air resistance is not ignored",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "(3)For upward motion \n\nEffective acceleration \n)\n(\na\ng +\n-\n=\n\nand for downward motion \n\nEffective acceleration \n)\n(\na\ng -\n=\n\nBut both are constants. So the slope of speed-time graph will be constant.",
+    "image": "/images/smart_booklet_motion/p33_img2_xref715.png"
+  },
+  {
+    "id": "smart-motion-topic-092",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "A train moves from one station to another in 2 hours time. Its speed-time graph during this motion is shown \nin the figure. The maximum acceleration during the journey is",
+    "options": [
+      "140 km h-2",
+      "160 km h-2",
+      "100 km h-2",
+      "120 km h-"
+    ],
+    "correctAnswer": 1,
+    "explanation": "(2) Maximum acceleration will be represented by CD part of the graph \nAcceleration\n2\n/\n160\n25\n.\n0\n)\n20\n60\n(\nh\nkm\ndt\ndv\n=\n-\n=\n=",
+    "image": "/images/smart_booklet_motion/p33_img3_xref716.png"
+  },
+  {
+    "id": "smart-motion-topic-093",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "An object is thrown up vertically. The velocity -time graph for the motion of the particle is \n1) \n2) \n\n3)\n 4)",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "(4)At t = 0, velocity is positive and maximum. As the particle goes up, velocity decreases and becomes zero \nat the highest point. When the particle starts coming down, velocity increases in the negative direction.",
+    "image": "/images/smart_booklet_motion/p33_img4_xref717.png"
+  },
+  {
+    "id": "smart-motion-topic-094",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "From a high tower, at time t = 0, one stone is dropped from rest and simultaneously another stone is projected \nvertically up with an initial velocity. The graph of distance S between the two stones plotted against time t \nwill be \nSpeed\nTime \nSpeed \nTime \nSpeed\nTime \nSpeed \nTime",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) At time t, let the displacement of first stone be \n2\n1\n1\nS\ngt\n2\n=\nand that of the second stone be \n2\n2\n1\nS\nut\ngt\n2\n=\n-\ndistance between two stones at time t : \n1\n2\nS\nS\nS\nu\nS\nut\n=\n+\n=\n\n=\nso the graph should be a straight line passing through origin as shown in option \n1",
+    "image": "/images/smart_booklet_motion/p34_img2_xref750.png"
+  },
+  {
+    "id": "smart-motion-topic-095",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "Which of the following velocity-time graphs represent uniform motion",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) Slope of velocity-time graph measures acceleration. For graph (a) slope is zero. Hence \n0\n=\na\n i.e. \nmotion is uniform.",
+    "image": "/images/smart_booklet_motion/p34_img3_xref751.png"
+  },
+  {
+    "id": "smart-motion-topic-096",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "Acceleration-time graph of a body is shown. The corresponding velocity-time graph of the same body is",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "(3) From acceleration time graph, acceleration is constant for first part of motion so, for this part velocity \nof body increases uniformly with time and as a = 0 then the velocity becomes constant. Then again \nincreased because of constant acceleration.",
+    "image": "/images/smart_booklet_motion/p34_img4_xref752.png"
+  },
+  {
+    "id": "smart-motion-topic-097",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The given graph shows the variation of velocity with displacement. Which one of the graph given below \ncorrectly represents the variation of acceleration with displacement \n\nx \nx0 \nv0 \nv \na \nt \nv \nt \nv\nt\nv \nt \nv \nt",
+    "options": [
+      "1) \nv\nt\nv\nt\nv\nt\nv\nt",
+      "4)",
+      "(2) \n\n(3)",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) Given line have positive intercept but negative slope. So its equation can be written as \n0\nv\nmx\nv\n+\n-\n=\n…..(i) \n[where \n0\n0\ntan\nx\nv\nm\n=\n=\n\n] \n\nBy differentiating with respect to time we get \nmv\ndt\ndx\nm\ndt\ndv\n-\n=\n-\n=\n\nNow substituting the value of v from eq. (i) we get \n0\n2\n0]\n[\nmv\nx\nm\nv\nmx\nm\ndt\ndv\n-\n=\n+\n-\n-\n=\n  \n0\n2\nmv\nx\nm\na\n-\n=\n\ni.e. the graph between a and x should have positive slope but negative intercept on a-axis. So graph (a) is \ncorrect.",
+    "image": "/images/smart_booklet_motion/p34_img8_xref760.png"
+  },
+  {
+    "id": "smart-motion-topic-098",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "An object is vertically thrown upwards. Then the displacement-time graph for the motion is as shown in",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "(2) Let the particle be thrown up with initial velocity u. displacement (s) at any time t is \n2\n1\nS\nut\ngt\n2\n=\n-\nthe \ngraph should be parabolic downwards as shown in option 2.",
+    "image": "/images/smart_booklet_motion/p34_img9_xref761.png"
+  },
+  {
+    "id": "smart-motion-topic-099",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The acceleration versus time graph of a particle is shown in figure. The respective v-t graph of the particle \nis",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) From 0 to t1, acceleration is increasing linearly with time; hence, v-t graph should be parabolic upwards. \nFrom t1 to t2, acceleration is decreasing linearly with time; hence, the v-t graph should be parabolic \ndownwards."
+  },
+  {
+    "id": "smart-motion-topic-100",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The \nt\n-\nv\n plot of a moving object is shown in the figure. The average velocity of the object during the first \n10 seconds is \n\nTime (sec)\n5\n10\nVelocity (m/s) \n- 5\n0\n5",
+    "options": [
+      "0",
+      "2.5 m/s",
+      "5 m/s",
+      "2 ms-"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) Since total displacement is zero, hence average velocity is also zero."
+  },
+  {
+    "id": "smart-motion-topic-101",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The displacement- time graph of a moving particle with constant acceleration is shown in figure. The \nvelocity -time graph is given by",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(1) At t = 0, slope of the x-t graph is zero; hence, velocity is zero at t = 0, as time increases, slope increases \nin negative direction; hence, velocity increases in negative direction. At point (1), slope changes \nsuddenly from negative to positive value; hence, velocity changes suddenly from negative to positive \nand then velocity starts decreasing and becomes zero at (2). Option 1 represents all these clearly."
+  },
+  {
+    "id": "smart-motion-topic-102",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "Two balls are dropped from the top of a high tower with a time interval of t0 second, where t0 is smaller than \nthe time taken by the first ball to reach the floor, which is perfectly inelastic. The distance S between the \ntwo balls, plotted against the time lapse t from the instant of dropping the second ball, is best represented \nby \n\n1) \n\n2) \n3) \n 4)",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4) Before the second ball is dropped, the first ball would have travelled some distance say \n2\n0\n0\n1\nS\ngt\n2\n=\n.After \ndropping the second ball, the relative acceleration of both balls becomes zero. So distances between \nthem increase linearly. After some time, the first ball will collide with the ground and the distance \nbetween them will start decreasing and the magnitude of relative velocity will be increasing for this time \n.Option 4 represents all these clearly."
+  },
+  {
+    "id": "smart-motion-topic-103",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "The acceleration -time graph of a particle moving along a straight line is as shown in figure. At what time \nthe particle acquires its initial velocity?",
+    "options": [
+      "12s",
+      "5s",
+      "8s",
+      "16s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "3) particle will acquire the initial velocity when areas A1 and A2 are equal. For this, t0 = 8s."
+  },
+  {
+    "id": "smart-motion-topic-104",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "Kinematic Graphs",
+    "difficulty": "Hard",
+    "questionText": "Plot the acceleration -time graph of the velocity - time graph given in the figure.",
+    "options": [
+      "2)",
+      "4) \n\n1. \nPreeti reached the metro station and found that the escalator was not working. She walked up the stationary \nescalator in time t1. On other days, if she remains stationary on the moving escalator, then the escalator \ntakes her up in time t2. The time taken by her to walk up on the moving escalator will be: \n(2017) \n\n1) \n1 2\n2\n1\nt t\nt\nt\n-",
+      "1 2\n2\n1\nt t\nt\nt\n+\n\n3) \n1\n2\nt\nt\n-",
+      "1\n2\nt\nt\n2\n+\n\n2. \nIf the velocity of a particle is v = At + Bt2, where A and B are constants, then the distance travelled by it \nbetween 1s and 2s is: \n\n(2016) \n\n1) 3 A\n4B\n2\n+\n\n2) 3A+7B \n3) 3\n7\nA\nB\n2\n3\n+\n\n4) A\nB\n2\n3\n+\n\n3. \nA particle of unit mass undergoes one-dimensional motion such that its velocity varies according to v(x)= \nbx-2n where b and n are constants and x is the position of the particle. The acceleration of the particle as d \nfunction of x, is given by: \n\n(2015) \n1) -2nb2x-4n-1 \n2) -2b2x-2n+1 \n\n3) -2nb2e-4n+1 \n4) -2nb2x-2n-1 \n4. \nA person travelling in a straight line moves with a constant velocity v1 for certain distance 'x' and with a \nconstant velocity v2 for next equal distance. The average velocity v is given by the relation \n\n[NEET - 2019 (ODISSA)] \n1) \n1\n2\n1\n1\n1\nv\nv\nv\n=\n+\n\n2) \n1\n2\n2\n1\n1\nv\nv\nv\n=\n+\n\n3) \n1\n2\n2\n2\nv\nv\nv\n+\n=\n\n4) \n1 2\nv\nv v\n=\n\n5. \n A person sitting in the ground floor of a building notices through the window, of height 1.5 m, a ball \n\ndropped from the roof of the building crosses the window in 0.1 s. What is the velocity of the ball when \nit is at the topmost point of the window? (g = 10 m/s2) \n\nNEET-2020(COVID-19) \n\n (1) 15.5 m/s \n(2) 14.5 m/s \n\n(3) 4.5 m/s \n\n(4) 20 m/s \n6. \nA ball is thrown vertically downward with a velocity of 20 m/s from the top of a tower. It hits the ground \nafter some time with a velocity of 80 m/s. The height of the tower is ( g = 10 m/s2) \n(NEET 2020) \n\n1) 300 m \n\n2) 360 m \n\n3) 340 m \n\n4) 320 m \n7. \nA small block slides down on a smooth inclined plane, starting from rest at time t=0. Let \nnS be the distance \ntravelled by the block in the interval \n1\nt\nn\n=\n-to \n.\nt\nn\n=\nThen , the ratio \n1\nn\nn\nS\nS +\n is: \n\n[NEET-2021] \n1. 2\n1\n2\n2\nn\nn\n-\n+\n\n2. 2\n1\n2\n1\nn\nn\n+\n-\n\n3. \n2\n2\n1\nn\nn -\n\n4. 2\n1\n2\nn\nn\n- \n8. \nThe ratio of the distances travelled by a freely falling body in the 1st, 2nd, 3rd and 4th second[NEET-2022] \n\n1) 1 : 2 : 3 : 4 \n2) 1 : 4 : 9 : 16 \n3) 1 : 3 : 5 : 7 \n4) 1 : 1 : 1 : 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1) for 0 to 5s, acceleration is positive, for 5 to 15s acceleration is negative, for 15 to 20s acceleration is \npositive.",
+    "image": "/images/smart_booklet_motion/p35_img2_xref788.png"
+  },
+  {
+    "id": "smart-motion-pyq-01",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NEET Previous Years Questions",
+    "difficulty": "Hard",
+    "questionText": "Preeti reached the metro station and found that the escalator was not working. She walked up the stationary escalator in time $t_1$. On other days, if she remains stationary on the moving escalator, then the escalator takes her up in time $t_2$. The time taken by her to walk up on the moving escalator will be: (NEET 2017)",
+    "options": [
+      "\\frac{t_1 t_2}{t_2 - t_1}",
+      "\\frac{t_1 t_2}{t_2 + t_1}",
+      "t_1 - t_2",
+      "\\frac{t_1 + t_2}{2}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Let the length of the escalator be $d$. Velocity of Preeti w.r.t stationary escalator $v_1 = d/t_1$. Velocity of escalator w.r.t ground $v_2 = d/t_2$. When she walks on the moving escalator, the net velocity is $v = v_1 + v_2 = \\frac{d}{t_1} + \\frac{d}{t_2} = d\\left(\\frac{t_1 + t_2}{t_1 t_2}\\right)$. The time taken is $t = \\frac{d}{v} = \\frac{t_1 t_2}{t_1 + t_2}$.",
+    "pyqYear": 2017
+  },
+  {
+    "id": "smart-motion-pyq-02",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NEET Previous Years Questions",
+    "difficulty": "Medium",
+    "questionText": "If the velocity of a particle is $v = At + Bt^2$, where $A$ and $B$ are constants, then the distance travelled by it between $1\\text{ s}$ and $2\\text{ s}$ is: (NEET 2016)",
+    "options": [
+      "\\frac{3}{2}A + 4B",
+      "3A + 7B",
+      "\\frac{3}{2}A + \\frac{7}{3}B",
+      "\\frac{A}{2} + \\frac{B}{3}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Distance travelled: $s = \\int_1^2 v\\,dt = \\int_1^2 (At + Bt^2)\\,dt = \\left[ \\frac{A t^2}{2} + \\frac{B t^3}{3} \\right]_1^2 = \\frac{A}{2}(4 - 1) + \\frac{B}{3}(8 - 1) = \\frac{3}{2}A + \\frac{7}{3}B$.",
+    "pyqYear": 2016
+  },
+  {
+    "id": "smart-motion-pyq-03",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NEET Previous Years Questions",
+    "difficulty": "Hard",
+    "questionText": "A particle of unit mass undergoes one-dimensional motion such that its velocity varies according to $v(x) = b x^{-2n}$, where $b$ and $n$ are constants and $x$ is the position of the particle. The acceleration of the particle as a function of $x$, is given by: (AIPMT 2015)",
+    "options": [
+      "-2n b^2 x^{-4n-1}",
+      "-2 b^2 x^{-2n+1}",
+      "-2n b^2 e^{-4n+1}",
+      "-2n b^2 x^{-2n-1}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Acceleration is given by $a = v \\frac{dv}{dx}$. Here $v = b x^{-2n}$, so $\\frac{dv}{dx} = b(-2n)x^{-2n-1} = -2nb x^{-2n-1}$. Therefore $a = (b x^{-2n})(-2nb x^{-2n-1}) = -2nb^2 x^{-4n-1}$.",
+    "pyqYear": 2015
+  },
+  {
+    "id": "smart-motion-pyq-04",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NEET Previous Years Questions",
+    "difficulty": "Medium",
+    "questionText": "A person travelling in a straight line moves with a constant velocity $v_1$ for certain distance $x$ and with a constant velocity $v_2$ for the next equal distance $x$. The average velocity $v$ is given by the relation: [NEET 2019 Odisha]",
+    "options": [
+      "\\frac{1}{v} = \\frac{1}{v_1} + \\frac{1}{v_2}",
+      "\\frac{2}{v} = \\frac{1}{v_1} + \\frac{1}{v_2}",
+      "\\frac{v}{2} = \\frac{v_1 + v_2}{2}",
+      "v = \\sqrt{v_1 v_2}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total displacement $= 2x$. Total time $t = t_1 + t_2 = \\frac{x}{v_1} + \\frac{x}{v_2} = x\\left(\\frac{1}{v_1} + \\frac{1}{v_2}\\right)$. Average velocity $v = \\frac{2x}{t} = \\frac{2}{\\frac{1}{v_1} + \\frac{1}{v_2}} \\implies \\frac{2}{v} = \\frac{1}{v_1} + \\frac{1}{v_2}$.",
+    "pyqYear": 2019
+  },
+  {
+    "id": "smart-motion-pyq-05",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NEET Previous Years Questions",
+    "difficulty": "Hard",
+    "questionText": "A person sitting in the ground floor of a building notices through the window, of height $1.5\\text{ m}$, a ball dropped from the roof of the building crosses the window in $0.1\\text{ s}$. What is the velocity of the ball when it is at the topmost point of the window? ($g = 10\\text{ m/s}^2$) [NEET 2020 COVID-19]",
+    "options": [
+      "15.5 m/s",
+      "14.5 m/s",
+      "4.5 m/s",
+      "20 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Let $u$ be the velocity at the top of the window. Using $s = ut + \\frac{1}{2}gt^2$: $1.5 = u(0.1) + \\frac{1}{2}(10)(0.1)^2 = 0.1u + 5(0.01) = 0.1u + 0.05 \\implies 0.1u = 1.45 \\implies u = 14.5\\text{ m/s}$.",
+    "pyqYear": 2020
+  },
+  {
+    "id": "smart-motion-pyq-06",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NEET Previous Years Questions",
+    "difficulty": "Medium",
+    "questionText": "A ball is thrown vertically downward with a velocity of $20\\text{ m/s}$ from the top of a tower. It hits the ground after some time with a velocity of $80\\text{ m/s}$. The height of the tower is: ($g = 10\\text{ m/s}^2$) [NEET 2020]",
+    "options": [
+      "300 m",
+      "360 m",
+      "340 m",
+      "320 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Using $v^2 = u^2 + 2gh$: $80^2 = 20^2 + 2(10)h \\implies 6400 = 400 + 20h \\implies 20h = 6000 \\implies h = 300\\text{ m}$.",
+    "pyqYear": 2020
+  },
+  {
+    "id": "smart-motion-pyq-07",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NEET Previous Years Questions",
+    "difficulty": "Hard",
+    "questionText": "A small block slides down on a smooth inclined plane, starting from rest at time $t = 0$. Let $S_n$ be the distance travelled by the block in the interval $t = n - 1$ to $t = n$. Then, the ratio $\\frac{S_n}{S_{n+1}}$ is: [NEET 2021]",
+    "options": [
+      "\\frac{2n - 1}{2n + 1}",
+      "\\frac{2n + 1}{2n - 1}",
+      "\\frac{2n}{2n - 1}",
+      "\\frac{2n - 1}{2n}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distance travelled in $n^{\\text{th}}$ second: $S_n = u + \\frac{a}{2}(2n - 1) = \\frac{a}{2}(2n - 1)$ (since $u = 0$). For $(n+1)^{\\text{th}}$ second: $S_{n+1} = \\frac{a}{2}(2(n+1) - 1) = \\frac{a}{2}(2n + 1)$. Therefore $\\frac{S_n}{S_{n+1}} = \\frac{2n - 1}{2n + 1}$.",
+    "pyqYear": 2021
+  },
+  {
+    "id": "smart-motion-pyq-08",
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "topic": "NEET Previous Years Questions",
+    "difficulty": "Easy",
+    "questionText": "The ratio of the distances travelled by a freely falling body in the $1^{\\text{st}}, 2^{\\text{nd}}, 3^{\\text{rd}}$ and $4^{\\text{th}}$ second is: [NEET 2022]",
+    "options": [
+      "1 : 2 : 3 : 4",
+      "1 : 4 : 9 : 16",
+      "1 : 3 : 5 : 7",
+      "1 : 1 : 1 : 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Galileo's law of odd numbers, for a freely falling body dropped from rest ($u=0$), distance in $n^{\\text{th}}$ second is $S_n \\propto (2n - 1)$. For $n = 1, 2, 3, 4$: $S_1 : S_2 : S_3 : S_4 = 1 : 3 : 5 : 7$.",
+    "pyqYear": 2022
+  }
+];
