@@ -219,6 +219,7 @@ import {
   NARAYANA_TEST_SERIES_PART3_QUESTIONS
 } from './narayanaMotionInStraightLineQuestions';
 import { PHYSICS_SMART_BOOKLET_MOTION_QUESTIONS } from './physicsSmartBookletMotionInStraightLineQuestions';
+import { YCT_MOTION_IN_PLANE_QUESTIONS } from './yctMotionInPlaneQuestions';
 import {
   TestItem,
   Flashcard,
@@ -241,6 +242,90 @@ const get45 = (arr: Question[], start = 0): Question[] => {
 };
 
 export const TEST_SERIES_DATA: TestItem[] = [
+  // ==========================================
+  // YCT OBJECTIVE PHYSICS: MOTION IN A PLANE (715 QUESTIONS)
+  // ==========================================
+  {
+    id: 'test-yct-motion-plane-full',
+    title: 'YCT Grand Master: Motion in a Plane (715 Qs - Full Chapter)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'Complete YCT Volume-I Chapter 03: Vectors & Scalars (167 Qs), Plane Motion (22 Qs), Relative Velocity (55 Qs), Projectile Motion (258 Qs) & Circular Motion (213 Qs)',
+    totalQuestions: 715,
+    durationMinutes: 180,
+    totalMarks: 720,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    scheduledDate: '2026-09-28',
+    cbtMode: true,
+    features: [
+      'Complete 715 Questions with 337 Diagrams & Solutions',
+      'All 5 Sections: Vectors, Plane Motion, Relative Motion, Projectiles & Circular Motion',
+      'Authentic NEET, AIIMS, JEE Main & State Entrance Exam Questions',
+      'Instant CBT Analytics and Detailed Solutions'
+    ],
+    questions: YCT_MOTION_IN_PLANE_QUESTIONS
+  },
+  {
+    id: 'test-yct-motion-plane-projectile',
+    title: 'YCT CBT: Projectile Motion Master (258 Qs)',
+    category: 'part',
+    exam: 'NEET',
+    syllabus: 'Section (d): Projectile Motion, Trajectory Equations, Range, Time of Flight, Inclined Plane & Velocity Profiles (Q245 - Q502)',
+    totalQuestions: 258,
+    durationMinutes: 180,
+    totalMarks: 720,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    scheduledDate: '2026-09-29',
+    cbtMode: true,
+    features: [
+      '258 High-Yield Projectile Motion Questions',
+      'Derivations, Vector Trajectory & Graphical Profiles',
+      'Full Step-by-Step Numerical Explanations'
+    ],
+    questions: YCT_MOTION_IN_PLANE_QUESTIONS.slice(244, 502)
+  },
+  {
+    id: 'test-yct-motion-plane-circular',
+    title: 'YCT CBT: Circular Motion & Dynamics (213 Qs)',
+    category: 'chapter',
+    exam: 'NEET',
+    syllabus: 'Section (e): Uniform & Non-Uniform Circular Motion, Banking of Roads, Vertical Circles & Centripetal Forces (Q503 - Q715)',
+    totalQuestions: 213,
+    durationMinutes: 180,
+    totalMarks: 720,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    scheduledDate: '2026-09-30',
+    cbtMode: true,
+    features: [
+      '213 Comprehensive Circular Motion & Dynamics Questions',
+      'Vertical Circle Tension Derivations, Conical Pendulum & Banking',
+      'Complete Explanations & Diagrams'
+    ],
+    questions: YCT_MOTION_IN_PLANE_QUESTIONS.slice(502)
+  },
+  {
+    id: 'test-yct-motion-plane-vectors',
+    title: 'YCT CBT: Vectors & Plane Kinematics (244 Qs)',
+    category: 'chapter',
+    exam: 'NEET',
+    syllabus: 'Sections (a), (b), (c): Scalar & Vector Quantities, Plane Motion Analysis & Relative Velocity (Q1 - Q244)',
+    totalQuestions: 244,
+    durationMinutes: 180,
+    totalMarks: 720,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    scheduledDate: '2026-10-01',
+    cbtMode: true,
+    features: [
+      '244 Vector Algebra & Relative Motion Problems',
+      'Dot/Cross Products, River-Boat, Rain-Man & Swimmer Problems',
+      'Step-by-step Vector Resolutions'
+    ],
+    questions: YCT_MOTION_IN_PLANE_QUESTIONS.slice(0, 244)
+  },
   // ==========================================
   // PHYSICS SMART BOOKLET: MOTION IN A STRAIGHT LINE (185 QUESTIONS)
   // ==========================================

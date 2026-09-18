@@ -87,6 +87,14 @@ function buildChapterIndex(questions: Question[], subject?: string) {
             map.set('kinematics', kinList);
           }
           kinList.push(q);
+          // Also index under specific chapter name (e.g. Motion in a Plane)
+          const specKey = normalizeChapterName(ch);
+          let specList = map.get(specKey);
+          if (!specList) {
+            specList = [];
+            map.set(specKey, specList);
+          }
+          specList.push(q);
           chapterSet.add('Kinematics');
           chapterSet.add(ch);
           continue;
@@ -105,7 +113,15 @@ function buildChapterIndex(questions: Question[], subject?: string) {
             map.set('unitsandmeasurements', uList);
           }
           uList.push(q);
+          const specKey = normalizeChapterName(ch);
+          let specList = map.get(specKey);
+          if (!specList) {
+            specList = [];
+            map.set(specKey, specList);
+          }
+          specList.push(q);
           chapterSet.add('Units and Measurements');
+          chapterSet.add(ch);
           continue;
         }
       }
@@ -117,7 +133,7 @@ function buildChapterIndex(questions: Question[], subject?: string) {
   let finalChapters = Array.from(chapterSet);
   if (subject === 'Physics') {
     // Ensure Units and Measurements and Kinematics are top chapters
-    finalChapters = finalChapters.filter(c => c !== 'Motion in One Dimension' && c !== 'Motion in a Plane');
+    finalChapters = finalChapters.filter(c => c !== 'Motion in One Dimension');
     if (!finalChapters.includes('Units and Measurements')) finalChapters.unshift('Units and Measurements');
     if (!finalChapters.includes('Kinematics')) finalChapters.splice(1, 0, 'Kinematics');
     // Ensure Units and Measurements is first, Kinematics is second
