@@ -220,6 +220,7 @@ import {
 } from './narayanaMotionInStraightLineQuestions';
 import { PHYSICS_SMART_BOOKLET_MOTION_QUESTIONS } from './physicsSmartBookletMotionInStraightLineQuestions';
 import { YCT_MOTION_IN_PLANE_QUESTIONS } from './yctMotionInPlaneQuestions';
+import { NARAYANA_MOTION_IN_PLANE_QUESTIONS } from './narayanaMotionInPlaneQuestions';
 import {
   TestItem,
   Flashcard,
@@ -242,6 +243,30 @@ const get45 = (arr: Question[], start = 0): Question[] => {
 };
 
 export const TEST_SERIES_DATA: TestItem[] = [
+  // ==========================================
+  // NARAYANA TEST SERIES: MOTION IN A PLANE (124 QUESTIONS)
+  // ==========================================
+  {
+    id: 'test-narayana-motion-plane-full',
+    title: 'Narayana Day-20 CBT: Motion in a Plane (124 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'Narayana Medical Academy Day-20 Assignment: 2D Vectors & Relative Velocity (Q1-24), Projectile Motion (Q25-71), Circular Motion & Dynamics (Q72-124)',
+    totalQuestions: 124,
+    durationMinutes: 120,
+    totalMarks: 496,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    scheduledDate: '2026-10-02',
+    cbtMode: true,
+    features: [
+      'Complete 124 Questions from Narayana Medical Academy Day-20 Assignment',
+      'Vectors, Relative Motion, Trajectory Equations & Vertical Circular Motion',
+      'Official Answer Keys & Complete Step-by-Step Solutions',
+      'High-Yield Geometry & Physics Diagrams Integrated'
+    ],
+    questions: NARAYANA_MOTION_IN_PLANE_QUESTIONS
+  },
   // ==========================================
   // YCT OBJECTIVE PHYSICS: MOTION IN A PLANE (715 QUESTIONS)
   // ==========================================
