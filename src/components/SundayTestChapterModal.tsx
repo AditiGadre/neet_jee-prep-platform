@@ -22,7 +22,10 @@ import {
   OFFICIAL_PHYSICS_UNITS,
   OFFICIAL_CHEMISTRY_UNITS,
   OFFICIAL_BOTANY_BLOCKS,
-  OFFICIAL_ZOOLOGY_BLOCKS
+  OFFICIAL_ZOOLOGY_BLOCKS,
+  generateSundayTestQuestions,
+  SundayPlannerTest,
+  assertNoDuplicateQuestions
 } from '../data/sundayPlannerTests';
 
 export interface SundayChapterSelection {
@@ -142,132 +145,59 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
   };
 
   const handleLaunch = () => {
-    // 1. Collect questions for Physics (45 Qs) strictly from selected Physics chapters
-    let phyPool: Question[] = [];
-    for (const unit of selectedPhysics) {
-      phyPool.push(...getUnifiedQuestionBank('Physics', unit));
-    }
-    phyPool = Array.from(new Map(phyPool.map(q => [q.id, q])).values());
-    if (phyPool.length === 0) {
-      phyPool = getUnifiedQuestionBank('Physics', selectedPhysics[0] || 'Thermodynamics');
-    }
-    
-    // Pick 45 questions strictly from phyPool without cross-chapter mixing
-    const randomizedPhy = [...phyPool].sort(() => 0.5 - Math.random());
-    const selectedPhyQs: Question[] = [];
-    for (let idx = 0; idx < 45; idx++) {
-      const q = randomizedPhy[idx % randomizedPhy.length];
-      selectedPhyQs.push({
-        ...q,
-        id: `sunday-phy-${idx + 1}-${q.id}`,
-        subject: 'Physics' as const,
-        questionText: formatMathAndFormulas(q.questionText || (q as any).question || ''),
-        options: (q.options || []).map(o => formatMathAndFormulas(o)),
-        explanation: formatMathAndFormulas(q.explanation || '')
-      });
-    }
+    const chapters: SundayChapterSelection = {
+      physics: selectedPhysics,
+      chemistry: selectedChemistry,
+      biology: selectedBiology
+    };
 
-    // 2. Collect questions for Chemistry (45 Qs) strictly from selected Chemistry chapters
-    let chemPool: Question[] = [];
-    for (const unit of selectedChemistry) {
-      chemPool.push(...getUnifiedQuestionBank('Chemistry', unit));
-    }
-    chemPool = Array.from(new Map(chemPool.map(q => [q.id, q])).values());
-    if (chemPool.length === 0) {
-      chemPool = getUnifiedQuestionBank('Chemistry', selectedChemistry[0] || 'Chemical Thermodynamics');
-    }
-    
-    const randomizedChem = [...chemPool].sort(() => 0.5 - Math.random());
-    const selectedChemQs: Question[] = [];
-    for (let idx = 0; idx < 45; idx++) {
-      const q = randomizedChem[idx % randomizedChem.length];
-      selectedChemQs.push({
-        ...q,
-        id: `sunday-chem-${idx + 1}-${q.id}`,
-        subject: 'Chemistry' as const,
-        questionText: formatMathAndFormulas(q.questionText || (q as any).question || ''),
-        options: (q.options || []).map(o => formatMathAndFormulas(o)),
-        explanation: formatMathAndFormulas(q.explanation || '')
-      });
-    }
-
-    // 3. Collect questions for Botany (45 Qs) strictly from selected Botany chapters
     const selectedBotany = selectedBiology.filter(c => c.startsWith('[Botany]') || !c.startsWith('[Zoology]'));
-    const effectiveBotChapters = selectedBotany.length > 0 ? selectedBotany : [BIOLOGY_CHAPTERS_LIST[0]];
-    let botPool: Question[] = [];
-    for (const ch of effectiveBotChapters) {
-      botPool.push(...getUnifiedQuestionBank('Biology', ch));
-    }
-    botPool = Array.from(new Map(botPool.map(q => [q.id, q])).values());
-    if (botPool.length === 0) {
-      botPool = getUnifiedQuestionBank('Biology', 'The Living World');
-    }
-
-    const randomizedBot = [...botPool].sort(() => 0.5 - Math.random());
-    const selectedBotQs: Question[] = [];
-    for (let idx = 0; idx < 45; idx++) {
-      const q = randomizedBot[idx % randomizedBot.length];
-      selectedBotQs.push({
-        ...q,
-        id: `sunday-bot-${idx + 1}-${q.id}`,
-        subject: 'Biology' as const,
-        tags: [...(q.tags || []).filter(t => t !== 'Zoology'), 'Botany'],
-        questionText: formatMathAndFormulas(q.questionText || (q as any).question || ''),
-        options: (q.options || []).map(o => formatMathAndFormulas(o)),
-        explanation: formatMathAndFormulas(q.explanation || '')
-      });
-    }
-
-    // 4. Collect questions for Zoology (45 Qs) strictly from selected Zoology chapters
     const selectedZoology = selectedBiology.filter(c => c.startsWith('[Zoology]'));
-    const effectiveZooChapters = selectedZoology.length > 0 ? selectedZoology : [BIOLOGY_CHAPTERS_LIST[20]]; // default Animal Kingdom
-    let zooPool: Question[] = [];
-    for (const ch of effectiveZooChapters) {
-      zooPool.push(...getUnifiedQuestionBank('Biology', ch));
-    }
-    zooPool = Array.from(new Map(zooPool.map(q => [q.id, q])).values());
-    if (zooPool.length === 0) {
-      zooPool = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
-    }
 
-    const randomizedZoo = [...zooPool].sort(() => 0.5 - Math.random());
-    const selectedZooQs: Question[] = [];
-    for (let idx = 0; idx < 45; idx++) {
-      const q = randomizedZoo[idx % randomizedZoo.length];
-      selectedZooQs.push({
-        ...q,
-        id: `sunday-zoo-${idx + 1}-${q.id}`,
-        subject: 'Biology' as const,
-        tags: [...(q.tags || []).filter(t => t !== 'Botany'), 'Zoology'],
-        questionText: formatMathAndFormulas(q.questionText || (q as any).question || ''),
-        options: (q.options || []).map(o => formatMathAndFormulas(o)),
-        explanation: formatMathAndFormulas(q.explanation || '')
-      });
-    }
+    const baseTest: SundayPlannerTest = {
+      id: initialTest?.id || 'test-sunday-custom-cbt',
+      code: (initialTest as any)?.code || 'SUNDAY-CBT',
+      dateStr: new Date().toISOString().slice(0, 10),
+      phase: 'Phase Sunday Mock',
+      phaseGroup: 'cwt',
+      title: initialTest?.title || 'NeetCbt Exam Test: Sunday 180-Question PCB All-India Mock',
+      description: 'Sunday Proctored Mock Test',
+      physicsUnit: selectedPhysics.join(', '),
+      chemistryUnit: selectedChemistry.join(', '),
+      botanyBlock: selectedBotany.join(', '),
+      zoologyBlock: selectedZoology.join(', '),
+      physicsKeywords: selectedPhysics,
+      chemistryKeywords: selectedChemistry,
+      botanyKeywords: selectedBotany,
+      zoologyKeywords: selectedZoology,
+      totalQuestions: 180,
+      durationMinutes: 180,
+      totalMarks: 720
+    };
 
-    const total180Qs: Question[] = [...selectedPhyQs, ...selectedChemQs, ...selectedBotQs, ...selectedZooQs];
+    // Generate deterministic 180-question paper with strict ZERO-DUPLICATION guarantee across all devices
+    const total180Qs = generateSundayTestQuestions(baseTest, chapters);
 
     const sundayTestItem: TestItem = {
-      id: 'test-sunday-custom-' + Date.now(),
+      id: initialTest?.id || 'test-sunday-custom-' + (initialTest as any)?.code || 'test-sunday-cbt-180',
       title: initialTest?.title || 'NeetCbt Exam Test: Sunday 180-Question PCB All-India Mock',
       category: 'neet_mock',
       exam: 'NEET',
-      syllabus: `Calendar Syllabus: Physics (${selectedPhysics.length} Units), Chemistry (${selectedChemistry.length} Units), Biology (${selectedBiology.length} Blocks)`,
+      syllabus: Calendar Syllabus: Physics ( Units), Chemistry ( Units), Biology ( Blocks),
       totalQuestions: 180,
       durationMinutes: 180,
-      totalMarks: 180,
-      negativeMarking: '+1 for correct, -0.25 for incorrect (Total 180 Marks)',
+      totalMarks: 720,
+      negativeMarking: '+4 for correct, -1 for incorrect, 0 for unattempted (Total 720 Marks)',
       difficulty: 'Mixed',
       cbtMode: true,
       features: [
         '180 Questions (45 Phys + 45 Chem + 90 Bio)',
         '180 Minutes (3.0 Hours NTA Timer)',
-        '180 Marks (+1 / -0.25 Standard Marking)',
+        '720 Marks (+4 / -1 NTA Official Standard)',
         'All India Rank (AIR) & College Probability Predictor'
       ],
       questions: total180Qs
     };
-
     onLaunchSundayTest(sundayTestItem, {
       physics: selectedPhysics,
       chemistry: selectedChemistry,

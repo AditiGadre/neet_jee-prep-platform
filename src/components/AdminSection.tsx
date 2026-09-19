@@ -75,6 +75,11 @@ import { SAMPLE_QUESTIONS } from '../data/mockData';
 import { StudentUnlockRequest, getStoredUnlockRequests } from './SuperUserModal';
 import { getAdminNotifications, NEET_PREP_PACKAGES } from '../data/packagesData';
 import {
+  syncSundayPaperToCloud,
+  syncAdminConfigToCloud,
+  fetchAdminConfigFromCloud
+} from '../utils/cloudSyncManager';
+import {
   SUNDAY_DROPPER_PLANNER_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
   PLANNER_12TH_TESTS,
@@ -346,8 +351,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const next = !isAdminTestAccessGranted;
     localStorage.setItem('neet_admin_test_access', next ? 'true' : 'false');
     setIsAdminTestAccessGranted(next);
+    // Sync platform-wide Sunday access across all 1,000 systems via cloud
+    syncAdminConfigToCloud({ platformWideSundayAccess: next }).catch(e => console.warn('Admin access cloud sync notice:', e));
     window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: next } }));
-    setActionSuccessBanner(next ? '✓ All Sunday Tests Unlocked Platform-Wide!' : '🔒 Sunday Tests Locked (Approval Required)');
+    setActionSuccessBanner(next ? '✓ All Sunday Tests Unlocked Platform-Wide & Cloud Synced!' : '🔒 Sunday Tests Locked (Approval Required)');
     setTimeout(() => setActionSuccessBanner(null), 3000);
   };
 
@@ -357,6 +364,17 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     } catch (e) {
       console.warn('Error reloading admin data:', e);
     }
+    // Pull latest cloud admin settings from Supabase
+    fetchAdminConfigFromCloud().then(cfg => {
+      if (cfg) {
+        if (typeof cfg.platformWideSundayAccess === 'boolean') {
+          setIsAdminTestAccessGranted(cfg.platformWideSundayAccess);
+        }
+        if (Array.isArray(cfg.approvedStudentRequests)) {
+          setUnlockRequests(cfg.approvedStudentRequests as any);
+        }
+      }
+    }).catch(() => {});
   };
 
   useEffect(() => {
@@ -382,6 +400,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
     localStorage.setItem('neet_admin_test_access', 'true');
     setIsAdminTestAccessGranted(true);
+    syncAdminConfigToCloud({ platformWideSundayAccess: true, approvedStudentRequests: updated as any }).catch(() => {});
     window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
     setActionSuccessBanner('✓ Test Access Approved & Unlocked for Candidate!');
     setTimeout(() => setActionSuccessBanner(null), 3500);

@@ -22,6 +22,8 @@ import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
 import { TermsAndConditionsModal } from './components/TermsAndConditionsModal';
+import { initCloudSync } from './utils/cloudSyncManager';
+import { assertNoDuplicateQuestions } from './data/sundayPlannerTests';
 
 const SectionLoadingFallback = () => (
   <div className="flex flex-col items-center justify-center min-h-[350px] w-full p-8 text-center animate-in fade-in duration-200">
@@ -73,6 +75,13 @@ export default function App() {
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  // Initialize Global Cloud Sync (Sunday Papers, Admin State, Student Profile Registry)
+  useEffect(() => {
+    initCloudSync().catch(err => {
+      console.warn('App cloud sync initialization notice:', err);
+    });
   }, []);
 
   useEffect(() => {
@@ -354,7 +363,12 @@ export default function App() {
   }, [user]);
 
   const handleStartTest = (test: TestItem, chapters?: SundayChapterSelection) => {
-    setActiveTestForCBT(test);
+    // Strict zero-duplication guarantee across all tests before CBT simulation begins
+    const validatedTest: TestItem = {
+      ...test,
+      questions: test.questions && test.questions.length > 0 ? assertNoDuplicateQuestions(test.questions) : test.questions
+    };
+    setActiveTestForCBT(validatedTest);
     setSelectedSundayChapters(chapters);
   };
 

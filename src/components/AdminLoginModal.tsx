@@ -70,6 +70,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
       }
 
       sessionStorage.setItem('neet_admin_authenticated', 'true');
+      localStorage.setItem('neet_admin_authenticated', 'true');
       sessionStorage.setItem('neet_admin_session_time', Date.now().toString());
       setIsAuthenticating(false);
       onLoginSuccess();

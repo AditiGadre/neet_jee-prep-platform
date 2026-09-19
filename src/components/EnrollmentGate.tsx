@@ -34,6 +34,11 @@ import {
 import { TermsAndConditionsModal } from './TermsAndConditionsModal';
 import { EnrolledPackage } from '../types';
 import { getPackageById, saveAdminNotification } from '../data/packagesData';
+import {
+  syncStudentEnrollmentToCloud,
+  fetchStudentByPhoneFromCloud,
+  SyncedStudentProfile
+} from '../utils/cloudSyncManager';
 
 export interface EnrolledStudent {
   studentName: string;
@@ -143,6 +148,38 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [matchedCloudStudent, setMatchedCloudStudent] = useState<SyncedStudentProfile | null>(null);
+  const [isLookingUpPhone, setIsLookingUpPhone] = useState(false);
+
+  const handlePhoneLookup = async (phoneToLookUp: string) => {
+    const digits = phoneToLookUp.replace(/\D/g, '');
+    if (digits.length !== 10) return;
+
+    setIsLookingUpPhone(true);
+    try {
+      const student = await fetchStudentByPhoneFromCloud(digits);
+      if (student && student.studentName) {
+        setMatchedCloudStudent(student);
+        setStudentName(student.studentName);
+        if (student.parentName) setParentName(student.parentName);
+        if (student.parentPhone) setParentPhone(student.parentPhone);
+        if (student.email) setEmail(student.email);
+        if (student.parentEmail) setParentEmail(student.parentEmail);
+        if (student.dob) setDob(student.dob);
+        if (student.targetYear) setTargetYear(student.targetYear as any);
+        if (student.caste) setCaste(student.caste as any);
+        if (student.domicileState) setDomicileState(student.domicileState);
+        if (student.selectedPackage?.id) setSelectedPackageId(student.selectedPackage.id);
+        if (student.studentPhoto) setStudentPhoto(student.studentPhoto);
+      } else {
+        setMatchedCloudStudent(null);
+      }
+    } catch (e) {
+      console.warn('Phone cloud lookup notice:', e);
+    } finally {
+      setIsLookingUpPhone(false);
+    }
+  };
 
   React.useEffect(() => {
     if (initialData) {
@@ -396,6 +433,13 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       enrolledAt: enrolledPackage.enrolledAt,
       read: false
     });
+
+    // 0. Save student enrollment in Supabase Cloud bound to phone number
+    try {
+      await syncStudentEnrollmentToCloud(studentData);
+    } catch (err) {
+      console.warn('Cloud student sync notice:', err);
+    }
 
     // 1. Save credentials and candidate metadata in Supabase Auth
     if (supabase) {
@@ -888,8 +932,17 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                     maxLength={10}
                     value={studentPhone}
                     onChange={e => {
-                      setStudentPhone(e.target.value.replace(/\D/g, ''));
+                      const clean = e.target.value.replace(/\D/g, '');
+                      setStudentPhone(clean);
                       if (errors.studentPhone) setErrors(prev => ({ ...prev, studentPhone: '' }));
+                      if (clean.length === 10) {
+                        handlePhoneLookup(clean);
+                      }
+                    }}
+                    onBlur={() => {
+                      if (studentPhone.length === 10) {
+                        handlePhoneLookup(studentPhone);
+                      }
                     }}
                     placeholder="10-digit Mobile No."
                     className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white font-mono focus:outline-none focus:ring-2 transition ${
@@ -903,6 +956,23 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                   <p className="text-[10px] text-rose-600 font-semibold mt-1 flex items-center gap-1">
                     <AlertCircle className="w-3 h-3 shrink-0" /> {errors.studentPhone}
                   </p>
+                )}
+                {isLookingUpPhone && (
+                  <p className="text-[10px] text-blue-600 font-semibold mt-1 flex items-center gap-1">
+                    <Sparkles className="w-3 h-3 shrink-0 animate-spin text-blue-500" /> Verifying mobile number with cloud registry...
+                  </p>
+                )}
+                {matchedCloudStudent && (
+                  <div className="mt-1.5 p-2 bg-emerald-50 border border-emerald-200 rounded-xl text-xs text-emerald-800 animate-in fade-in">
+                    <div className="flex items-center space-x-1.5">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                      <span className="font-bold">Registered Aspirant Bound:</span>
+                      <span className="font-semibold">{matchedCloudStudent.studentName}</span>
+                    </div>
+                    <div className="text-[10px] text-emerald-600 pl-5 mt-0.5">
+                      Roll #{matchedCloudStudent.rollNumber} • Synchronized across all 1,000 systems
+                    </div>
+                  </div>
                 )}
               </div>
 

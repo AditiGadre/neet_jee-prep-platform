@@ -43,7 +43,8 @@ import {
   REVISION_ANALYSIS_BUFFER_12TH,
   SundayPlannerTest,
   generateSundayTestQuestions,
-  getSavedCustomSundayPaper
+  getSavedCustomSundayPaper,
+  assertNoDuplicateQuestions
 } from '../data/sundayPlannerTests';
 
 interface TestSeriesSectionProps {
@@ -247,7 +248,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     let syllabusStr = `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`;
 
     if (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180) {
-      testQuestions = customPaper.questions;
+      testQuestions = assertNoDuplicateQuestions(customPaper.questions);
       if (customPaper.customChapters) {
         syllabusStr = `Physics: ${customPaper.customChapters.physics.join(', ')} | Chemistry: ${customPaper.customChapters.chemistry.join(', ')} | Biology: ${customPaper.customChapters.biology.join(', ')}`;
       }

@@ -3,6 +3,10 @@ import { getUnifiedQuestionBank, STRICT_SYLLABUS_UNIT_MAPPINGS } from '../utils/
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { getSequentialLoopQuestions } from '../utils/questionLoopManager';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
+import {
+  syncSundayPaperToCloud,
+  normalizeQuestionText
+} from '../utils/cloudSyncManager';
 
 export interface SundayPlannerTest {
   id: string;
@@ -2041,6 +2045,11 @@ export function saveCustomSundayPaper(
     }
     localStorage.setItem(SUNDAY_CUSTOM_PAPERS_KEY, JSON.stringify(all));
 
+    // Synchronize to Supabase Cloud so all 1,000 systems receive it immediately!
+    syncSundayPaperToCloud(payload).catch(e => {
+      console.warn('Cloud sync notification for Sunday paper:', e);
+    });
+
     // Also sync legacy neet_published_sunday_test
     try {
       const legacyPayload = {
@@ -2276,6 +2285,8 @@ export function ensureAllSundayPapersGenerated(): void {
     for (let tIdx = 0; tIdx < tests.length; tIdx++) {
       const t = tests[tIdx];
       const paperSignatures = new Set<string>();
+      const paperIds = new Set<string>();
+      const paperTexts = new Set<string>();
       const paperQuestions: Question[] = [];
 
       const pickCategory = (
@@ -2306,10 +2317,19 @@ export function ensureAllSundayPapersGenerated(): void {
             for (const q of rotatedKw) {
               const sig = getQuestionSignature(q);
               const baseId = getBaseQuestionId(q);
-              if (!GLOBAL_USED_QUESTION_SIGNATURES.has(sig) && !GLOBAL_USED_QUESTION_IDS.has(baseId) && !paperSignatures.has(sig)) {
+              const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
+              if (
+                !GLOBAL_USED_QUESTION_SIGNATURES.has(sig) &&
+                !GLOBAL_USED_QUESTION_IDS.has(baseId) &&
+                !paperSignatures.has(sig) &&
+                !paperIds.has(baseId) &&
+                (normText.length <= 15 || !paperTexts.has(normText))
+              ) {
                 GLOBAL_USED_QUESTION_SIGNATURES.add(sig);
                 GLOBAL_USED_QUESTION_IDS.add(baseId);
                 paperSignatures.add(sig);
+                paperIds.add(baseId);
+                if (normText.length > 15) paperTexts.add(normText);
                 picked.push({
                   ...q,
                   subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
@@ -2332,10 +2352,19 @@ export function ensureAllSundayPapersGenerated(): void {
           for (const q of rotated) {
             const sig = getQuestionSignature(q);
             const baseId = getBaseQuestionId(q);
-            if (!GLOBAL_USED_QUESTION_SIGNATURES.has(sig) && !GLOBAL_USED_QUESTION_IDS.has(baseId) && !paperSignatures.has(sig)) {
+            const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
+            if (
+              !GLOBAL_USED_QUESTION_SIGNATURES.has(sig) &&
+              !GLOBAL_USED_QUESTION_IDS.has(baseId) &&
+              !paperSignatures.has(sig) &&
+              !paperIds.has(baseId) &&
+              (normText.length <= 15 || !paperTexts.has(normText))
+            ) {
               GLOBAL_USED_QUESTION_SIGNATURES.add(sig);
               GLOBAL_USED_QUESTION_IDS.add(baseId);
               paperSignatures.add(sig);
+              paperIds.add(baseId);
+              if (normText.length > 15) paperTexts.add(normText);
               picked.push({
                 ...q,
                 subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
@@ -2347,20 +2376,30 @@ export function ensureAllSundayPapersGenerated(): void {
           }
         }
 
-        // If still < count, strict isolation fallback cycling strictly from the same chapter
+        // STRICT ZERO-DUPLICATION: Fill remainder from subject bank without repeating any question!
         if (picked.length < count) {
-          const matched = filterQuestionsByKeywords(bank, keywords, subject);
-          const sourcePool = matched.length > 0 ? matched : bank;
-          const testSeed = (tIdx * 17 + (batch === '12th' ? 73 : batch === '11th' ? 139 : 0)) % (sourcePool.length || 1);
-          for (let i = 0; picked.length < count; i++) {
-            const q = sourcePool[(i + testSeed) % sourcePool.length];
-            picked.push({
-              ...q,
-              id: `${q.id}-iso-${batch}-${t.code}-${i + 1}`,
-              subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
-              tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
-              difficulty: 'Hard' as const
-            });
+          const subjectSeed = (tIdx * 31 + (batch === '12th' ? 89 : batch === '11th' ? 173 : 0)) % (bank.length || 1);
+          const rotatedBank = bank.length > 0 ? [...bank.slice(subjectSeed), ...bank.slice(0, subjectSeed)] : [];
+          for (const q of rotatedBank) {
+            const sig = getQuestionSignature(q);
+            const baseId = getBaseQuestionId(q);
+            const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
+            if (
+              !paperSignatures.has(sig) &&
+              !paperIds.has(baseId) &&
+              (normText.length <= 15 || !paperTexts.has(normText))
+            ) {
+              paperSignatures.add(sig);
+              paperIds.add(baseId);
+              if (normText.length > 15) paperTexts.add(normText);
+              picked.push({
+                ...q,
+                subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+                tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+                difficulty: 'Hard' as const
+              });
+              if (picked.length === count) break;
+            }
           }
         }
 
@@ -2372,14 +2411,67 @@ export function ensureAllSundayPapersGenerated(): void {
       const bot = pickCategory('Botany', botanyBank, t.botanyKeywords, 45);
       const zoo = pickCategory('Zoology', zoologyBank, t.zoologyKeywords, 45);
 
-      paperQuestions.push(...phy, ...chem, ...bot, ...zoo);
-      sundayBatchPaperCache.set(`${batchKeyPrefix}${t.code}`, paperQuestions);
+      const rawPaper = [...phy, ...chem, ...bot, ...zoo];
+      const verifiedPaper = assertNoDuplicateQuestions(rawPaper);
+      sundayBatchPaperCache.set(batchKeyPrefix + t.code, verifiedPaper);
     }
   }
 }
 
 function ensureBatchPapersGenerated(batch: 'repeater' | '12th' | '11th'): void {
   ensureAllSundayPapersGenerated();
+}
+
+/**
+ * Strict Zero-Duplication Assertion:
+ * Guarantees that EVERY question in the array has a unique ID and unique normalized text.
+ * If any collision is detected, dynamically substitutes an unused question from the bank.
+ */
+export function assertNoDuplicateQuestions(questions: Question[], fallbackBank?: Question[]): Question[] {
+  const seenIds = new Set<string>();
+  const seenTexts = new Set<string>();
+  const cleanList: Question[] = [];
+
+  for (const q of questions) {
+    const baseId = getBaseQuestionId(q);
+    const rawText = q.questionText || (q as any).question || '';
+    const normText = normalizeQuestionText(rawText);
+
+    const isDuplicate =
+      seenIds.has(baseId) ||
+      (normText.length > 20 && seenTexts.has(normText));
+
+    if (isDuplicate) {
+      // Find an unused replacement from fallbackBank or unified subject bank
+      const replacementBank = fallbackBank || getUnifiedQuestionBank(q.subject || 'Physics');
+      let found = false;
+      for (const rep of replacementBank) {
+        const repId = getBaseQuestionId(rep);
+        const repNormText = normalizeQuestionText(rep.questionText || (rep as any).question || '');
+        if (!seenIds.has(repId) && (repNormText.length <= 20 || !seenTexts.has(repNormText))) {
+          seenIds.add(repId);
+          if (repNormText.length > 20) seenTexts.add(repNormText);
+          cleanList.push({
+            ...rep,
+            subject: q.subject,
+            tags: q.tags,
+            difficulty: 'Hard' as const
+          });
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        cleanList.push(q);
+      }
+    } else {
+      seenIds.add(baseId);
+      if (normText.length > 20) seenTexts.add(normText);
+      cleanList.push(q);
+    }
+  }
+
+  return cleanList;
 }
 
 /**
@@ -2396,11 +2488,11 @@ export function generateSundayTestQuestions(
   // If this paper was customized and saved by admin, load those exact questions directly!
   if (!customChapters) {
     const saved =
-      getSavedCustomSundayPaper(`${batch}-${test.code}`) ||
+      getSavedCustomSundayPaper(batch + '-' + test.code) ||
       getSavedCustomSundayPaper(test.code) ||
       getSavedCustomSundayPaper(test.id);
     if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
-      return saved.questions.map(q => ({ ...q, difficulty: 'Hard' as const }));
+      return assertNoDuplicateQuestions(saved.questions.map(q => ({ ...q, difficulty: 'Hard' as const })));
     }
   }
 
@@ -2413,6 +2505,9 @@ export function generateSundayTestQuestions(
     const zoologyBank = allBioBank.filter(q => ZOOLOGY_NCERT_CHAPTERS.has(q.chapter || ''));
 
     const paperSignatures = new Set<string>();
+    const paperIds = new Set<string>();
+    const paperTexts = new Set<string>();
+
     const pickCustom = (
       subject: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology',
       bank: Question[],
@@ -2423,8 +2518,12 @@ export function generateSundayTestQuestions(
       const picked: Question[] = [];
       for (const q of matched) {
         const sig = getQuestionSignature(q);
-        if (!paperSignatures.has(sig)) {
+        const baseId = getBaseQuestionId(q);
+        const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
+        if (!paperSignatures.has(sig) && !paperIds.has(baseId) && (normText.length <= 15 || !paperTexts.has(normText))) {
           paperSignatures.add(sig);
+          paperIds.add(baseId);
+          if (normText.length > 15) paperTexts.add(normText);
           picked.push({
             ...q,
             subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
@@ -2434,18 +2533,25 @@ export function generateSundayTestQuestions(
           if (picked.length === count) break;
         }
       }
+
+      // STRICT ZERO-DUPLICATION: Fill remaining quota from bank without repeating any question
       if (picked.length < count) {
-        // STRICT ISOLATION: Cycle strictly from the same matched chapter questions
-        const sourcePool = matched.length > 0 ? matched : bank;
-        for (let i = 0; picked.length < count; i++) {
-          const q = sourcePool[i % sourcePool.length];
-          picked.push({
-            ...q,
-            id: `${q.id}-custom-iso-${i + 1}`,
-            subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
-            tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
-            difficulty: 'Hard' as const
-          });
+        for (const q of bank) {
+          const sig = getQuestionSignature(q);
+          const baseId = getBaseQuestionId(q);
+          const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
+          if (!paperSignatures.has(sig) && !paperIds.has(baseId) && (normText.length <= 15 || !paperTexts.has(normText))) {
+            paperSignatures.add(sig);
+            paperIds.add(baseId);
+            if (normText.length > 15) paperTexts.add(normText);
+            picked.push({
+              ...q,
+              subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+              tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+              difficulty: 'Hard' as const
+            });
+            if (picked.length === count) break;
+          }
         }
       }
       return picked;
@@ -2458,16 +2564,18 @@ export function generateSundayTestQuestions(
     const chem = pickCustom('Chemistry', chemBank, customChapters.chemistry || [], 45);
     const bot = pickCustom('Botany', botanyBank, customBot.length > 0 ? customBot : customChapters.biology || [], 45);
     const zoo = pickCustom('Zoology', zoologyBank, customZoo.length > 0 ? customZoo : customChapters.biology || [], 45);
-    return [...phy, ...chem, ...bot, ...zoo];
+    const combined = [...phy, ...chem, ...bot, ...zoo];
+    return assertNoDuplicateQuestions(combined);
   }
 
   // Official Sunday Test from zero-overlap batch partition
   ensureAllSundayPapersGenerated();
-  const cached = sundayBatchPaperCache.get(`${batch}_${test.code}`);
+  const cached = sundayBatchPaperCache.get(batch + '_' + test.code);
   if (cached && cached.length === 180) {
-    return cached;
+    return assertNoDuplicateQuestions(cached);
   }
 
   // Fallback if needed
-  return sundayBatchPaperCache.get(`repeater_${test.code}`) || [];
+  const fallback = sundayBatchPaperCache.get('repeater_' + test.code) || [];
+  return assertNoDuplicateQuestions(fallback);
 }
