@@ -260,7 +260,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         syllabusStr = `Physics: ${customPaper.customChapters.physics.join(', ')} | Chemistry: ${customPaper.customChapters.chemistry.join(', ')} | Biology: ${customPaper.customChapters.biology.join(', ')}`;
       }
     } else {
-      testQuestions = generateSundayTestQuestions(plannerTest, undefined, true, activeBatch);
+      testQuestions = generateSundayTestQuestions(plannerTest, undefined, false, activeBatch);
     }
 
     const testItem: TestItem = {

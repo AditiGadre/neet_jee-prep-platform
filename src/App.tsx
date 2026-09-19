@@ -42,6 +42,12 @@ import {
   BOOKS_DATA,
   PYQS_DATA
 } from './data/mockData';
+import {
+  SUNDAY_DROPPER_PLANNER_TESTS,
+  generateSundayTestQuestions,
+  getSavedCustomSundayPaper
+} from './data/sundayPlannerTests';
+import { fetchSundayPaperFromCloud } from './utils/cloudSyncManager';
 import { ExamType, TestItem, BookItem, UserTestResult } from './types';
 
 export default function App() {
@@ -488,9 +494,35 @@ export default function App() {
     window.dispatchEvent(new Event('neet_admin_login_change'));
   };
 
-  const handleQuickMockTest = () => {
-    const defaultMock = TEST_SERIES_DATA.find(t => t.category === 'neet_mock') || TEST_SERIES_DATA[0];
-    setActiveTestForCBT(defaultMock);
+  const handleQuickMockTest = async () => {
+    const plannerTest = SUNDAY_DROPPER_PLANNER_TESTS[0];
+    const cloudPaper = await fetchSundayPaperFromCloud('CWT-01');
+    const customPaper = cloudPaper || getSavedCustomSundayPaper('CWT-01');
+    const questions = (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180)
+      ? customPaper.questions
+      : generateSundayTestQuestions(plannerTest, undefined, false, 'repeater');
+
+    const testItem: TestItem = {
+      id: plannerTest.id,
+      title: `${plannerTest.code}: ${plannerTest.title}`,
+      category: 'neet_mock',
+      exam: 'NEET',
+      syllabus: `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`,
+      totalQuestions: 180,
+      durationMinutes: 180,
+      totalMarks: 720,
+      negativeMarking: '+4 for correct, -1 for incorrect, 0 for unattempted (Total 720 Marks)',
+      difficulty: 'Mixed',
+      cbtMode: true,
+      features: [
+        '180 Questions (45 Phys + 45 Chem + 45 Bot + 45 Zoo)',
+        '180 Minutes (3.0 Hours NTA Timer)',
+        '720 Marks (+4 / -1 NTA Official Standard)',
+        'All India Rank (AIR) & College Probability Predictor'
+      ],
+      questions
+    };
+    handleStartTest(testItem);
   };
 
   const handleOpenUpload = (sub?: string, ch?: string) => {
