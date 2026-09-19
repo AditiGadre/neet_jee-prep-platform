@@ -36,6 +36,7 @@ import {
 import { TestItem, TestCategory, Question } from '../types';
 import { downloadTestPaperPDF } from '../utils/pdfDownloader';
 import { recordSuperUserNotification } from '../utils/superUserNotifier';
+import { fetchSundayPaperFromCloud } from '../utils/cloudSyncManager';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
@@ -78,11 +79,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     }
   })();
 
-  const studentName = enrolledStudent?.studentName || 'Enrolled Student';
-  const rollNumber = enrolledStudent?.rollNumber || 'NEET-2027-001';
-  const studentPhone = enrolledStudent?.studentPhone || '9876543210';
-  const parentPhone = enrolledStudent?.parentPhone || '9876543211';
-  const parentName = enrolledStudent?.parentName || 'Parent / Guardian';
+  const studentName = enrolledStudent?.studentName || '';
+  const rollNumber = enrolledStudent?.rollNumber || '';
+  const studentPhone = enrolledStudent?.studentPhone || '';
+  const parentPhone = enrolledStudent?.parentPhone || '';
+  const parentName = enrolledStudent?.parentName || '';
 
   // Check whether Admin has approved Sunday test access
   const checkAdminAccess = () => {
@@ -232,15 +233,21 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     ? filtered12thTests
     : filtered11thTests;
 
-  const handleLaunchDirectSundayTest = (plannerTest: SundayPlannerTest) => {
+  const handleLaunchDirectSundayTest = async (plannerTest: SundayPlannerTest) => {
     if (!isSundayTestUnlocked) {
       setPendingTestToStart(plannerTest);
       setShowAdminApprovalModal(true);
       return;
     }
 
-    // Check if admin has customized this specific Sunday test
+    // Check if admin has customized this specific Sunday test (Cloud Supabase first for universal consistency across all 10 lakh systems)
+    const cloudPaper =
+      (await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.code}`)) ||
+      (await fetchSundayPaperFromCloud(plannerTest.code)) ||
+      (await fetchSundayPaperFromCloud(plannerTest.id));
+
     const customPaper =
+      cloudPaper ||
       getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
       getSavedCustomSundayPaper(plannerTest.code) ||
       getSavedCustomSundayPaper(plannerTest.id);
@@ -314,20 +321,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     });
   };
 
-  const handleDownloadSundayPdf = (plannerTest: SundayPlannerTest, includeSolutions: boolean = false) => {
+  const handleDownloadSundayPdf = async (plannerTest: SundayPlannerTest, includeSolutions: boolean = false) => {
     if (!isSundayTestUnlocked) {
       setPendingTestToStart(plannerTest);
       setShowAdminApprovalModal(true);
       return;
     }
 
+    const cloudPaper =
+      (await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.code}`)) ||
+      (await fetchSundayPaperFromCloud(plannerTest.code)) ||
+      (await fetchSundayPaperFromCloud(plannerTest.id));
+
     const customPaper =
+      cloudPaper ||
       getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
       getSavedCustomSundayPaper(plannerTest.code) ||
       getSavedCustomSundayPaper(plannerTest.id);
 
     const questions = (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180)
-      ? customPaper.questions
+      ? assertNoDuplicateQuestions(customPaper.questions)
       : generateSundayTestQuestions(plannerTest, undefined, false, activeBatch);
 
     const testItem: TestItem = {
@@ -556,7 +569,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               🔔 Automated Sunday Test Reminder Activated for {reminderSetFor}!
             </div>
             <p className="text-emerald-800">
-              Test reminder scheduled for Sunday at <strong>8:00 AM</strong>. Candidate alert will be sent to <strong>+91 {studentPhone}</strong>. Exam window opens at 9:00 AM.
+              Test reminder scheduled for Sunday at <strong>8:00 AM</strong>. Candidate alert will be sent to <strong>{studentPhone ? `+91 ${studentPhone}` : 'registered mobile'}</strong>. Exam window opens at 9:00 AM.
             </p>
           </div>
         </div>
@@ -933,13 +946,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 </div>
                 <div className="grid grid-cols-2 gap-2 text-[11px] font-mono">
                   <div>
-                    <span className="text-slate-500">Student:</span> <span className="font-bold text-slate-900">{studentName}</span>
+                    <span className="text-slate-500">Student:</span> <span className="font-bold text-slate-900">{studentName || 'Registered Student'}</span>
                   </div>
                   <div>
-                    <span className="text-slate-500">Roll No:</span> <span className="font-bold text-blue-700">{rollNumber}</span>
+                    <span className="text-slate-500">Roll No:</span> <span className="font-bold text-blue-700">{rollNumber || 'Enrolled'}</span>
                   </div>
                   <div>
-                    <span className="text-slate-500">Contact:</span> <span className="font-bold text-slate-800">+91 {studentPhone}</span>
+                    <span className="text-slate-500">Contact:</span> <span className="font-bold text-slate-800">{studentPhone ? `+91 ${studentPhone}` : 'Enrolled Profile'}</span>
                   </div>
                   <div>
                     <span className="text-slate-500">Status:</span>{' '}

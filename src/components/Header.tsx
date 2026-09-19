@@ -48,6 +48,8 @@ interface HeaderProps {
   onOpenEnrollment?: (packageInfo?: any) => void;
   onNavigateHome?: () => void;
   onNavigateAbout?: () => void;
+  onOpenAdminLogin?: () => void;
+  isAdmin?: boolean;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -67,7 +69,9 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenUploadModal,
   onOpenEnrollment,
   onNavigateHome,
-  onNavigateAbout
+  onNavigateAbout,
+  onOpenAdminLogin,
+  isAdmin = false
 }) => {
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
   const [packagesDropdownOpen, setPackagesDropdownOpen] = useState(false);
@@ -106,8 +110,8 @@ export const Header: React.FC<HeaderProps> = ({
     };
   }, [userEmail]);
 
-  const userName = enrolledStudent?.studentName || currentUser?.name || currentUser?.user_metadata?.name || (userEmail ? userEmail.split('@')[0] : 'Enrolled Student');
-  const userPhone = enrolledStudent?.studentPhone ? `+91 ${enrolledStudent.studentPhone}` : currentUser?.phone || currentUser?.user_metadata?.phone || '+91 9876543210';
+  const userName = enrolledStudent?.studentName || currentUser?.name || currentUser?.user_metadata?.name || (userEmail ? userEmail.split('@')[0] : 'NEET Candidate');
+  const userPhone = enrolledStudent?.studentPhone ? `+91 ${enrolledStudent.studentPhone}` : currentUser?.phone || currentUser?.user_metadata?.phone || '';
   const parentName = enrolledStudent?.parentName || currentUser?.parentName || 'Parent / Guardian';
   const userCaste = enrolledStudent?.caste || currentUser?.caste || 'General / Open';
 
@@ -356,6 +360,22 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <MessageCircleQuestion className="w-3.5 h-3.5 text-blue-600" />
               <span>Ask Doubt</span>
+            </button>
+
+            {/* Institutional Master Admin Portal Button */}
+            <button
+              id="header-admin-portal-btn"
+              type="button"
+              onClick={isAdmin && onOpenSuperUser ? onOpenSuperUser : onOpenAdminLogin || onOpenSuperUser}
+              className={`flex items-center space-x-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer shadow-2xs ${
+                isAdmin
+                  ? 'bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white shadow-amber-500/20'
+                  : 'bg-slate-900 hover:bg-slate-800 text-amber-400 border border-slate-700'
+              }`}
+              title={isAdmin ? 'Institutional Master Admin Session Active (Click to open Admin Vault)' : 'Institution Director & Master Admin Security Portal'}
+            >
+              <Lock className="w-3.5 h-3.5 text-amber-400" />
+              <span className="hidden md:inline">{isAdmin ? 'Admin Vault' : 'Admin Portal'}</span>
             </button>
 
             {/* Auth / User Profile Button & Dropdown */}

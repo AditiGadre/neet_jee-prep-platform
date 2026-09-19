@@ -200,7 +200,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
     }
   }, [initialData]);
 
-  // Auto-detect and bypass if student or user credentials are saved in localStorage (only if NOT explicitly opened to view/edit)
+  // Auto-detect and bypass if genuine student credentials are saved in localStorage
   React.useEffect(() => {
     if (initialData) return;
 
@@ -208,37 +208,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       const saved = localStorage.getItem('neet_enrolled_student');
       if (saved) {
         const student = JSON.parse(saved);
-        if (student && (student.studentName || student.email)) {
+        if (student && student.studentName && student.studentPhone && !student.studentPhone.includes('9876543210')) {
           onEnrollSuccess(student);
           return;
         }
-      }
-      const local = localStorage.getItem('neet_local_user');
-      if (local) {
-        const u = JSON.parse(local);
-        const reconstructed: EnrolledStudent = {
-          studentName: u.studentName || u.name || (u.email ? u.email.split('@')[0] : 'Enrolled Student'),
-          parentName: u.parentName || 'Parent / Guardian',
-          parentPhone: u.parentPhone ? String(u.parentPhone).replace(/\D/g, '') : '9876543210',
-          studentPhone: u.studentPhone ? String(u.studentPhone).replace(/\D/g, '') : (u.phone ? String(u.phone).replace(/\D/g, '') : '9876543210'),
-          domicileState: u.domicileState || 'Maharashtra',
-          caste: u.caste || 'General / Open',
-          email: u.email || 'student@neetcbt.in',
-          dob: u.dob || '2006-08-15',
-          dobPin: u.dobPin || '15082006',
-          targetYear: u.targetYear || '2027',
-          enrolledAt: u.enrolledAt || new Date().toISOString(),
-          rollNumber: u.rollNumber || 'NCBT-2027-784920',
-          devices: u.devices || ['dev-1'],
-          studentPhoto: u.studentPhoto || '',
-          gender: u.gender || 'Female',
-          disabilityStatus: u.disabilityStatus || 'No Disability',
-          specialReservation: u.specialReservation || 'None'
-        };
-        localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
-        localStorage.setItem('neet_user_enrolled', 'true');
-        onEnrollSuccess(reconstructed);
-        return;
       }
     } catch {}
   }, [onEnrollSuccess, initialData]);
@@ -380,7 +353,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       return;
     }
 
-    const rollNo = `NCBT-${targetYear}-` + Math.floor(100000 + Math.random() * 900000);
+    const rollNo = matchedCloudStudent?.rollNumber || `NCBT-${targetYear}-` + Math.floor(100000 + Math.random() * 900000);
     const dobPin = formatDobToPin(dob);
     const accountPassword = password.trim() || dobPin;
 
@@ -391,7 +364,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       price: selectedPkgItem.price,
       originalPrice: selectedPkgItem.originalPrice,
       tagline: selectedPkgItem.tagline,
-      enrolledAt: new Date().toISOString()
+      enrolledAt: matchedCloudStudent?.selectedPackage?.enrolledAt || new Date().toISOString()
     };
 
     const studentData: EnrolledStudent = {
@@ -406,7 +379,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       dob,
       dobPin,
       targetYear,
-      enrolledAt: new Date().toISOString(),
+      enrolledAt: matchedCloudStudent?.enrolledAt || new Date().toISOString(),
       rollNumber: rollNo,
       devices: [authCheck.currentDeviceId],
       studentPhoto,
@@ -692,22 +665,38 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
           </div>
         </div>
 
-        {/* Quick Sign In Bar for Already Registered Candidates */}
-        {onOpenAuth && (
-          <div className="bg-blue-50 border-b border-blue-200/80 px-4 py-2.5 flex items-center justify-between">
-            <span className="text-xs text-blue-950 font-medium">Already enrolled or have an existing candidate account?</span>
+        {/* Quick Sign In Bar for Already Registered Candidates & Admin Portal */}
+        <div className="bg-blue-50 border-b border-blue-200/80 px-4 py-2.5 flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center space-x-2">
+            <span className="text-xs text-blue-950 font-medium">Already enrolled or have candidate credentials?</span>
+            {onOpenAuth && (
+              <button
+                type="button"
+                onClick={() => {
+                  if (onClose) onClose();
+                  onOpenAuth();
+                }}
+                className="px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded-lg shadow-xs transition cursor-pointer"
+              >
+                Sign In Here →
+              </button>
+            )}
+          </div>
+
+          {onOpenAdmin && (
             <button
               type="button"
               onClick={() => {
                 if (onClose) onClose();
-                onOpenAuth();
+                onOpenAdmin();
               }}
-              className="px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded-lg shadow-xs transition cursor-pointer"
+              className="px-3 py-1 bg-slate-900 hover:bg-slate-800 text-amber-300 text-xs font-bold rounded-lg border border-slate-700 shadow-xs transition cursor-pointer flex items-center space-x-1.5"
             >
-              Sign In Here →
+              <KeyRound className="w-3.5 h-3.5 text-amber-400" />
+              <span>Institution Admin Portal →</span>
             </button>
-          </div>
-        )}
+          )}
+        </div>
 
         {/* 2-DEVICE LIMIT EXCEEDED MODAL CHALLENGE */}
         {deviceLimitError && deviceLimitError.show ? (
@@ -963,14 +952,30 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                   </p>
                 )}
                 {matchedCloudStudent && (
-                  <div className="mt-1.5 p-2 bg-emerald-50 border border-emerald-200 rounded-xl text-xs text-emerald-800 animate-in fade-in">
-                    <div className="flex items-center space-x-1.5">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                      <span className="font-bold">Registered Aspirant Bound:</span>
-                      <span className="font-semibold">{matchedCloudStudent.studentName}</span>
+                  <div className="mt-2 p-3 bg-emerald-50 border border-emerald-300 rounded-xl text-xs text-emerald-900 animate-in fade-in space-y-2">
+                    <div className="flex flex-wrap items-center justify-between gap-1">
+                      <div className="flex items-center space-x-1.5">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                        <span className="font-bold text-emerald-900">Registered Aspirant Bound:</span>
+                        <span className="font-extrabold text-emerald-950">{matchedCloudStudent.studentName}</span>
+                      </div>
+                      <span className="text-[10px] font-bold font-mono px-2 py-0.5 rounded-full bg-emerald-200 text-emerald-900">
+                        Roll #{matchedCloudStudent.rollNumber}
+                      </span>
                     </div>
-                    <div className="text-[10px] text-emerald-600 pl-5 mt-0.5">
-                      Roll #{matchedCloudStudent.rollNumber} • Synchronized across all 1,000 systems
+                    <div className="text-[11px] text-emerald-700 flex flex-wrap items-center justify-between gap-2 pt-0.5">
+                      <span>Universal student identity synchronized across all 10 lakh systems.</span>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          localStorage.setItem('neet_enrolled_student', JSON.stringify(matchedCloudStudent));
+                          localStorage.setItem('neet_user_enrolled', 'true');
+                          onEnrollSuccess(matchedCloudStudent as any);
+                        }}
+                        className="px-3 py-1 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs rounded-lg shadow-xs transition cursor-pointer"
+                      >
+                        Confirm & Access Portal as {matchedCloudStudent.studentName} →
+                      </button>
                     </div>
                   </div>
                 )}

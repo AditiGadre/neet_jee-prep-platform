@@ -9,8 +9,30 @@ const STORAGE_KEY = 'neet_user_downloads';
 export function getCurrentUser() {
   try {
     const raw = localStorage.getItem('neet_local_user');
-    if (!raw) return null;
-    return JSON.parse(raw);
+    if (raw) {
+      const user = JSON.parse(raw);
+      if (user && (user.name || user.phone || user.user_metadata?.name || user.user_metadata?.phone)) {
+        return user;
+      }
+    }
+    const rawEnrolled = localStorage.getItem('neet_enrolled_student');
+    if (rawEnrolled) {
+      const enrolled = JSON.parse(rawEnrolled);
+      if (enrolled && (enrolled.studentName || enrolled.studentPhone)) {
+        return {
+          id: enrolled.rollNumber || 'student-' + (enrolled.studentPhone || Date.now()),
+          name: enrolled.studentName || 'Enrolled Student',
+          phone: enrolled.studentPhone ? `+91 ${enrolled.studentPhone}` : '',
+          email: enrolled.email || 'student.target2027@neetprep.in',
+          user_metadata: {
+            name: enrolled.studentName || 'Enrolled Student',
+            phone: enrolled.studentPhone ? `+91 ${enrolled.studentPhone}` : '',
+            rollNumber: enrolled.rollNumber || ''
+          }
+        };
+      }
+    }
+    return raw ? JSON.parse(raw) : null;
   } catch {
     return null;
   }

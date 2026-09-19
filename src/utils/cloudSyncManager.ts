@@ -148,13 +148,49 @@ export async function syncSundayPaperToCloud(paper: SyncedSundayPaper): Promise<
   }
 }
 
-export async function fetchSundayPaperFromCloud(paperCode: string): Promise<SyncedSundayPaper | null> {
+export async function fetchSundayPaperFromCloud(paperCode: string, forceCloud = true): Promise<SyncedSundayPaper | null> {
   const cleanCode = paperCode.toUpperCase().trim();
   const baseCode = cleanCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
 
+  // 1. If Supabase is active, query cloud database first for universal real-time consistency
+  if (supabase) {
+    try {
+      const rowId = SUNDAY_PAPER_PREFIX + cleanCode;
+      const baseRowId = SUNDAY_PAPER_PREFIX + baseCode;
+
+      const { data, error } = await supabase
+        .from('questions')
+        .select('question_text')
+        .or('id.eq.' + rowId + ',id.eq.' + baseRowId)
+        .limit(1);
+
+      if (!error && data && data.length > 0) {
+        const paper = JSON.parse(data[0].question_text) as SyncedSundayPaper;
+        if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
+          memorySundayPaperCache.set(cleanCode, paper);
+          memorySundayPaperCache.set(baseCode, paper);
+          try {
+            const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
+            const localPapers = localPapersRaw ? JSON.parse(localPapersRaw) : {};
+            localPapers[cleanCode.toLowerCase()] = paper;
+            localPapers[cleanCode] = paper;
+            localPapers[baseCode.toLowerCase()] = paper;
+            localPapers[baseCode] = paper;
+            localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
+          } catch {}
+          return paper;
+        }
+      }
+    } catch (err) {
+      console.warn('Error fetching Sunday paper ' + cleanCode + ' from cloud:', err);
+    }
+  }
+
+  // 2. Check in-memory cache
   if (memorySundayPaperCache.has(cleanCode)) return memorySundayPaperCache.get(cleanCode)!;
   if (memorySundayPaperCache.has(baseCode)) return memorySundayPaperCache.get(baseCode)!;
 
+  // 3. Fallback to localStorage if offline
   try {
     const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
     if (localPapersRaw) {
@@ -171,36 +207,41 @@ export async function fetchSundayPaperFromCloud(paperCode: string): Promise<Sync
     }
   } catch {}
 
-  if (!supabase) return null;
+  return null;
+}
+
+export async function deleteSundayPaperFromCloud(paperCode: string): Promise<boolean> {
+  const cleanCode = paperCode.toUpperCase().trim();
+  const baseCode = cleanCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
+  memorySundayPaperCache.delete(cleanCode);
+  memorySundayPaperCache.delete(baseCode);
+
+  try {
+    const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
+    if (localPapersRaw) {
+      const localPapers = JSON.parse(localPapersRaw);
+      delete localPapers[cleanCode.toLowerCase()];
+      delete localPapers[cleanCode];
+      delete localPapers[baseCode.toLowerCase()];
+      delete localPapers[baseCode];
+      localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
+    }
+  } catch {}
+
+  if (!supabase) return false;
 
   try {
     const rowId = SUNDAY_PAPER_PREFIX + cleanCode;
     const baseRowId = SUNDAY_PAPER_PREFIX + baseCode;
-
-    const { data, error } = await supabase
-      .from('questions')
-      .select('question_text')
-      .or('id.eq.' + rowId + ',id.eq.' + baseRowId)
-      .limit(1);
-
-    if (error || !data || data.length === 0) return null;
-
-    const paper = JSON.parse(data[0].question_text) as SyncedSundayPaper;
-    if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
-      memorySundayPaperCache.set(cleanCode, paper);
-      try {
-        const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
-        const localPapers = localPapersRaw ? JSON.parse(localPapersRaw) : {};
-        localPapers[cleanCode.toLowerCase()] = paper;
-        localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
-      } catch {}
-      return paper;
+    const { error } = await supabase.from('questions').delete().or('id.eq.' + rowId + ',id.eq.' + baseRowId);
+    if (!error) {
+      window.dispatchEvent(new CustomEvent('neet_cloud_sunday_paper_deleted', { detail: { paperCode: cleanCode } }));
+      return true;
     }
-  } catch (err) {
-    console.warn('Error fetching Sunday paper ' + cleanCode + ' from cloud:', err);
+  } catch (e) {
+    console.warn('Failed to delete Sunday paper ' + cleanCode + ' from cloud:', e);
   }
-
-  return null;
+  return false;
 }
 
 export async function fetchAllSundayPapersFromCloud(): Promise<Record<string, SyncedSundayPaper>> {
@@ -411,10 +452,41 @@ export async function fetchStudentByPhoneFromCloud(rawPhone: string): Promise<Sy
   const phone = cleanPhoneNumber(rawPhone);
   if (!phone || phone.length < 10) return null;
 
+  // 1. Check Supabase first for the authoritative cloud record across all systems
+  if (supabase) {
+    try {
+      const rowId = STUDENT_PHONE_PREFIX + phone;
+      const { data, error } = await supabase
+        .from('questions')
+        .select('question_text')
+        .eq('id', rowId)
+        .limit(1);
+
+      if (!error && data && data.length > 0) {
+        const student = JSON.parse(data[0].question_text) as SyncedStudentProfile;
+        if (student && student.studentName) {
+          memoryStudentPhoneCache.set(phone, student);
+          try {
+            const rawCand = localStorage.getItem('neet_registered_candidates');
+            const list = rawCand ? JSON.parse(rawCand) : [];
+            const filtered = list.filter((c: any) => cleanPhoneNumber(c.studentPhone || c.phone) !== phone);
+            filtered.push(student);
+            localStorage.setItem('neet_registered_candidates', JSON.stringify(filtered));
+          } catch {}
+          return student;
+        }
+      }
+    } catch (err) {
+      console.warn('Error fetching student profile for phone ' + phone + ' from cloud:', err);
+    }
+  }
+
+  // 2. Memory cache check
   if (memoryStudentPhoneCache.has(phone)) {
     return memoryStudentPhoneCache.get(phone)!;
   }
 
+  // 3. Fallback to registered candidates in localStorage
   try {
     const rawCand = localStorage.getItem('neet_registered_candidates');
     if (rawCand) {
@@ -429,33 +501,18 @@ export async function fetchStudentByPhoneFromCloud(rawPhone: string): Promise<Sy
     }
   } catch {}
 
-  if (!supabase) return null;
-
+  // 4. Fallback to current enrolled student in localStorage
   try {
-    const rowId = STUDENT_PHONE_PREFIX + phone;
-    const { data, error } = await supabase
-      .from('questions')
-      .select('question_text')
-      .eq('id', rowId)
-      .limit(1);
-
-    if (error || !data || data.length === 0) return null;
-
-    const student = JSON.parse(data[0].question_text) as SyncedStudentProfile;
-    if (student && student.studentName) {
-      memoryStudentPhoneCache.set(phone, student);
-      try {
-        const rawCand = localStorage.getItem('neet_registered_candidates');
-        const list = rawCand ? JSON.parse(rawCand) : [];
-        const filtered = list.filter((c: any) => cleanPhoneNumber(c.studentPhone || c.phone) !== phone);
-        filtered.push(student);
-        localStorage.setItem('neet_registered_candidates', JSON.stringify(filtered));
-      } catch {}
-      return student;
+    const rawCurr = localStorage.getItem('neet_enrolled_student');
+    if (rawCurr) {
+      const curr = JSON.parse(rawCurr);
+      if (curr && cleanPhoneNumber(curr.studentPhone || curr.parentPhone) === phone && curr.studentName) {
+        memoryStudentPhoneCache.set(phone, curr);
+        return curr;
+      }
     }
-  } catch (err) {
-    console.warn('Error fetching student profile for phone ' + phone + ':', err);
-  }
+  } catch {}
+
   return null;
 }
 
@@ -474,11 +531,36 @@ export async function initCloudSync(): Promise<void> {
     console.warn('Initial cloud sync notice:', e);
   }
 
+  // Realtime subscription via Supabase channel for instant universal synchronization
+  if (supabase && typeof supabase.channel === 'function') {
+    try {
+      supabase
+        .channel('platform_universal_sync')
+        .on(
+          'postgres_changes',
+          {
+            event: '*',
+            schema: 'public',
+            table: 'questions',
+            filter: 'subject=eq.__SYSTEM_SYNC__'
+          },
+          () => {
+            fetchAllSundayPapersFromCloud().catch(() => {});
+            fetchAdminConfigFromCloud().catch(() => {});
+          }
+        )
+        .subscribe();
+    } catch (e) {
+      console.warn('Realtime channel subscription notice:', e);
+    }
+  }
+
   if (typeof window !== 'undefined') {
+    // 20-second active background polling
     setInterval(() => {
       fetchAdminConfigFromCloud().catch(() => {});
       fetchAllSundayPapersFromCloud().catch(() => {});
-    }, 30000);
+    }, 20000);
 
     window.addEventListener('focus', () => {
       fetchAdminConfigFromCloud().catch(() => {});

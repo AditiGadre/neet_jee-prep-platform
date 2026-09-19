@@ -21,8 +21,7 @@ import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
-import { TermsAndConditionsModal } from './components/TermsAndConditionsModal';
-import { initCloudSync } from './utils/cloudSyncManager';
+import { initCloudSync, fetchStudentByPhoneFromCloud, cleanPhoneNumber } from './utils/cloudSyncManager';
 import { assertNoDuplicateQuestions } from './data/sundayPlannerTests';
 
 const SectionLoadingFallback = () => (
@@ -104,6 +103,18 @@ export default function App() {
   const [extraSubTab, setExtraSubTab] = useState<string>('books');
   const [enrollmentPackageId, setEnrollmentPackageId] = useState<string | undefined>(undefined);
 
+  // Master Admin Session State across all systems
+  const [isAdminSession, setIsAdminSession] = useState<boolean>(() => {
+    try {
+      return (
+        sessionStorage.getItem('neet_admin_authenticated') === 'true' ||
+        localStorage.getItem('neet_admin_authenticated') === 'true'
+      );
+    } catch {
+      return false;
+    }
+  });
+
   // Mandatory Enrollment Gate State - Persistent check for existing enrolled users & saved logins
   const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
     try {
@@ -111,35 +122,41 @@ export default function App() {
       if (saved) {
         try {
           const parsed = JSON.parse(saved);
-          if (parsed && (parsed.studentName || parsed.email)) return parsed;
+          if (parsed && parsed.studentName && parsed.studentPhone && !parsed.studentPhone.includes('9876543210')) {
+            return parsed;
+          }
         } catch {}
       }
       const local = localStorage.getItem('neet_local_user');
       if (local) {
         try {
           const u = JSON.parse(local);
-          const reconstructed: EnrolledStudent = {
-            studentName: u.studentName || u.name || (u.email ? u.email.split('@')[0] : 'Enrolled Student'),
-            parentName: u.parentName || 'Parent / Guardian',
-            parentPhone: u.parentPhone ? String(u.parentPhone).replace(/\D/g, '') : '9876543210',
-            studentPhone: u.studentPhone ? String(u.studentPhone).replace(/\D/g, '') : (u.phone ? String(u.phone).replace(/\D/g, '') : '9876543210'),
-            domicileState: u.domicileState || 'Maharashtra',
-            caste: u.caste || 'General / Open',
-            email: u.email || 'student@neetcbt.in',
-            dob: u.dob || '2006-08-15',
-            dobPin: u.dobPin || '15082006',
-            targetYear: u.targetYear || '2027',
-            enrolledAt: u.enrolledAt || new Date().toISOString(),
-            rollNumber: u.rollNumber || 'NCBT-2027-784920',
-            devices: u.devices || ['dev-1'],
-            studentPhoto: u.studentPhoto || '',
-            gender: u.gender || 'Female',
-            disabilityStatus: u.disabilityStatus || 'No Disability',
-            specialReservation: u.specialReservation || 'None'
-          };
-          localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
-          localStorage.setItem('neet_user_enrolled', 'true');
-          return reconstructed;
+          const rawPhone = u.studentPhone || u.phone || u.parentPhone;
+          const clean = cleanPhoneNumber(String(rawPhone || ''));
+          if (clean && clean.length === 10 && !clean.includes('9876543210')) {
+            const reconstructed: EnrolledStudent = {
+              studentName: u.studentName || u.name || `Candidate ${clean.slice(-4)}`,
+              parentName: u.parentName || 'Parent / Guardian',
+              parentPhone: u.parentPhone ? cleanPhoneNumber(String(u.parentPhone)) : clean,
+              studentPhone: clean,
+              domicileState: u.domicileState || 'Maharashtra',
+              caste: u.caste || 'General / Open',
+              email: u.email || `student.${clean}@neetcbt.in`,
+              dob: u.dob || '2006-08-15',
+              dobPin: u.dobPin || '15082006',
+              targetYear: u.targetYear || '2027',
+              enrolledAt: u.enrolledAt || new Date().toISOString(),
+              rollNumber: u.rollNumber || `NCBT-2027-${clean.slice(-6)}`,
+              devices: u.devices || ['dev-1'],
+              studentPhoto: u.studentPhoto || '',
+              gender: u.gender || 'Female',
+              disabilityStatus: u.disabilityStatus || 'No Disability',
+              specialReservation: u.specialReservation || 'None'
+            };
+            localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
+            localStorage.setItem('neet_user_enrolled', 'true');
+            return reconstructed;
+          }
         } catch {}
       }
       return null;
@@ -206,13 +223,25 @@ export default function App() {
         }
         const student = localStorage.getItem('neet_enrolled_student');
         if (student) {
-          setEnrolledStudent(JSON.parse(student));
+          const parsed = JSON.parse(student);
+          if (parsed && parsed.studentPhone && !parsed.studentPhone.includes('9876543210')) {
+            setEnrolledStudent(parsed);
+          }
         } else {
           setEnrolledStudent(null);
         }
       } catch (err) {
         console.error('Error syncing local auth:', err);
       }
+    };
+
+    const syncAdmin = () => {
+      try {
+        const authed =
+          sessionStorage.getItem('neet_admin_authenticated') === 'true' ||
+          localStorage.getItem('neet_admin_authenticated') === 'true';
+        setIsAdminSession(authed);
+      } catch {}
     };
 
     const handleAuthRequired = () => {
@@ -232,73 +261,62 @@ export default function App() {
     window.addEventListener('neet_auth_change', syncAuth);
     window.addEventListener('neet_auth_required_for_download', handleAuthRequired);
     window.addEventListener('neet_request_dob_verification', handleDobRequired);
+    window.addEventListener('storage', syncAdmin);
+    window.addEventListener('neet_admin_login_change', syncAdmin);
+
+    // Initial student verification against cloud registry
+    const rawSaved = localStorage.getItem('neet_enrolled_student');
+    if (rawSaved) {
+      try {
+        const parsed = JSON.parse(rawSaved);
+        const clean = cleanPhoneNumber(parsed.studentPhone || parsed.phone || '');
+        if (clean && clean.length === 10 && !clean.includes('9876543210')) {
+          fetchStudentByPhoneFromCloud(clean).then(cloudStudent => {
+            if (cloudStudent && cloudStudent.studentName) {
+              setEnrolledStudent(cloudStudent as any);
+              localStorage.setItem('neet_enrolled_student', JSON.stringify(cloudStudent));
+            }
+          }).catch(() => {});
+        }
+      } catch {}
+    }
 
     if (supabase) {
       supabase.auth.getSession().then(({ data: { session } }) => {
-        if (session?.user && localStorage.getItem('neet_enrolled_student')) {
+        if (session?.user) {
           setUser(session.user);
-          setEnrolledStudent(prev => {
-            if (prev) return prev;
-            const u = session.user;
-            const reconstructed: EnrolledStudent = {
-              studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Enrolled Student',
-              parentName: 'Parent / Guardian',
-              parentPhone: '9876543210',
-              studentPhone: u.user_metadata?.phone ? String(u.user_metadata.phone).replace(/\D/g, '') : '9876543210',
-              domicileState: 'Maharashtra',
-              caste: 'General / Open',
-              email: u.email || 'student@neetcbt.in',
-              dob: '2006-08-15',
-              dobPin: '15082006',
-              targetYear: '2027',
-              enrolledAt: new Date().toISOString(),
-              rollNumber: 'NCBT-2027-' + Math.floor(100000 + Math.random() * 900000),
-              devices: ['dev-1'],
-              studentPhoto: '',
-              gender: 'Female',
-              disabilityStatus: 'No Disability',
-              specialReservation: 'None'
-            };
-            localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
-            localStorage.setItem('neet_user_enrolled', 'true');
-            return reconstructed;
-          });
+          const rawPhone = session.user.user_metadata?.phone || session.user.phone || '';
+          const clean = cleanPhoneNumber(rawPhone);
+          if (clean && clean.length === 10 && !clean.includes('9876543210')) {
+            fetchStudentByPhoneFromCloud(clean).then(cloudStudent => {
+              if (cloudStudent) {
+                setEnrolledStudent(cloudStudent as any);
+                localStorage.setItem('neet_enrolled_student', JSON.stringify(cloudStudent));
+                localStorage.setItem('neet_user_enrolled', 'true');
+              }
+            }).catch(() => {});
+          }
         }
       }).catch(err => {
-        console.warn('Supabase getSession failed, using local session:', err);
+        console.warn('Supabase getSession notice:', err);
       });
 
       const {
         data: { subscription },
       } = supabase.auth.onAuthStateChange((_event, session) => {
-        if (session?.user && localStorage.getItem('neet_enrolled_student')) {
+        if (session?.user) {
           setUser(session.user);
-          setEnrolledStudent(prev => {
-            if (prev) return prev;
-            const u = session.user;
-            const reconstructed: EnrolledStudent = {
-              studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Enrolled Student',
-              parentName: 'Parent / Guardian',
-              parentPhone: '9876543210',
-              studentPhone: u.user_metadata?.phone ? String(u.user_metadata.phone).replace(/\D/g, '') : '9876543210',
-              domicileState: 'Maharashtra',
-              caste: 'General / Open',
-              email: u.email || 'student@neetcbt.in',
-              dob: '2006-08-15',
-              dobPin: '15082006',
-              targetYear: '2027',
-              enrolledAt: new Date().toISOString(),
-              rollNumber: 'NCBT-2027-' + Math.floor(100000 + Math.random() * 900000),
-              devices: ['dev-1'],
-              studentPhoto: '',
-              gender: 'Female',
-              disabilityStatus: 'No Disability',
-              specialReservation: 'None'
-            };
-            localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
-            localStorage.setItem('neet_user_enrolled', 'true');
-            return reconstructed;
-          });
+          const rawPhone = session.user.user_metadata?.phone || session.user.phone || '';
+          const clean = cleanPhoneNumber(rawPhone);
+          if (clean && clean.length === 10 && !clean.includes('9876543210')) {
+            fetchStudentByPhoneFromCloud(clean).then(cloudStudent => {
+              if (cloudStudent) {
+                setEnrolledStudent(cloudStudent as any);
+                localStorage.setItem('neet_enrolled_student', JSON.stringify(cloudStudent));
+                localStorage.setItem('neet_user_enrolled', 'true');
+              }
+            }).catch(() => {});
+          }
         } else if (_event === 'SIGNED_OUT' || !session) {
           setUser(null);
           if (!localStorage.getItem('neet_enrolled_student')) {
@@ -312,6 +330,8 @@ export default function App() {
         window.removeEventListener('neet_auth_change', syncAuth);
         window.removeEventListener('neet_auth_required_for_download', handleAuthRequired);
         window.removeEventListener('neet_request_dob_verification', handleDobRequired);
+        window.removeEventListener('storage', syncAdmin);
+        window.removeEventListener('neet_admin_login_change', syncAdmin);
       };
     }
 
@@ -319,6 +339,8 @@ export default function App() {
       window.removeEventListener('neet_auth_change', syncAuth);
       window.removeEventListener('neet_auth_required_for_download', handleAuthRequired);
       window.removeEventListener('neet_request_dob_verification', handleDobRequired);
+      window.removeEventListener('storage', syncAdmin);
+      window.removeEventListener('neet_admin_login_change', syncAdmin);
     };
   }, []);
 
@@ -432,6 +454,8 @@ export default function App() {
     localStorage.removeItem('neet_user_enrolled');
     localStorage.removeItem('neet_guest_mode');
     sessionStorage.removeItem('neet_admin_authenticated');
+    localStorage.removeItem('neet_admin_authenticated');
+    setIsAdminSession(false);
 
     // 2. Purge Supabase auth tokens from localStorage
     try {
@@ -461,6 +485,7 @@ export default function App() {
     // 5. Broadcast changes across tabs and components
     window.dispatchEvent(new Event('neet_auth_change'));
     window.dispatchEvent(new Event('neet_downloads_change'));
+    window.dispatchEvent(new Event('neet_admin_login_change'));
   };
 
   const handleQuickMockTest = () => {
@@ -479,7 +504,9 @@ export default function App() {
   };
 
   const handleOpenSuperUser = () => {
-    const isAuthed = sessionStorage.getItem('neet_admin_authenticated') === 'true';
+    const isAuthed =
+      sessionStorage.getItem('neet_admin_authenticated') === 'true' ||
+      localStorage.getItem('neet_admin_authenticated') === 'true';
     if (isAuthed) {
       setIsSuperUserModalOpen(true);
     } else {
@@ -497,8 +524,8 @@ export default function App() {
         </div>
       )}
 
-      {/* MANDATORY ENROLLMENT GATE: Required for all new / signed-out candidates */}
-      {(!enrolledStudent || isEnrollmentModalOpen) && (
+      {/* MANDATORY ENROLLMENT GATE: Required for all new / signed-out candidates (Bypassed if Master Admin session is active) */}
+      {(!enrolledStudent || isEnrollmentModalOpen) && !isAdminSession && (
         <EnrollmentGate
           initialData={enrolledStudent || undefined}
           initialPackageId={enrollmentPackageId}
@@ -508,6 +535,7 @@ export default function App() {
           }}
           onClose={enrolledStudent ? () => setIsEnrollmentModalOpen(false) : undefined}
           onOpenAuth={() => setIsAuthModalOpen(true)}
+          onOpenAdmin={() => setIsAdminLoginModalOpen(true)}
         />
       )}
 
@@ -527,6 +555,8 @@ export default function App() {
         onOpenDownloads={() => setIsDownloadsModalOpen(true)}
         onOpenSuperUser={handleOpenSuperUser}
         onOpenUploadModal={() => handleOpenUpload()}
+        onOpenAdminLogin={() => setIsAdminLoginModalOpen(true)}
+        isAdmin={isAdminSession}
         onOpenEnrollment={pkg => {
           setEnrollmentPackageId(pkg?.id);
           setIsEnrollmentModalOpen(true);
@@ -714,6 +744,10 @@ export default function App() {
               setIsAuthModalOpen(false);
               setIsEnrollmentModalOpen(true);
             }}
+            onOpenAdminLogin={() => {
+              setIsAuthModalOpen(false);
+              setIsAdminLoginModalOpen(true);
+            }}
           />
         )}
 
@@ -729,7 +763,9 @@ export default function App() {
             onClose={() => setIsAdminLoginModalOpen(false)}
             onLoginSuccess={() => {
               setIsAdminLoginModalOpen(false);
+              setIsAdminSession(true);
               setIsSuperUserModalOpen(true);
+              window.dispatchEvent(new Event('neet_admin_login_change'));
             }}
           />
         )}

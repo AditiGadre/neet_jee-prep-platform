@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../supabaseClient';
 import {
+  fetchStudentByPhoneFromCloud,
+  syncStudentEnrollmentToCloud,
+  cleanPhoneNumber
+} from '../utils/cloudSyncManager';
+import {
   X,
   Phone,
   KeyRound,
@@ -24,9 +29,10 @@ const WhatsAppIcon: React.FC<{ className?: string }> = ({ className = 'w-4 h-4' 
 interface AuthModalProps {
   onClose: () => void;
   onOpenEnrollment?: () => void;
+  onOpenAdminLogin?: () => void;
 }
 
-export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment }) => {
+export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment, onOpenAdminLogin }) => {
   const [phone, setPhone] = useState('');
   const [otp, setOtp] = useState('');
   const [generatedOtp, setGeneratedOtp] = useState('');
@@ -50,8 +56,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
 
   const saveLocalUserSession = (userEmail: string, userPhone: string, userName?: string, fullStudent?: any) => {
     const cleanEmail = userEmail.trim().toLowerCase();
-    const phoneDigits = userPhone.replace(/\D/g, '');
-    const cleanName = userName?.trim() || fullStudent?.studentName || `Aspirant ${phoneDigits.slice(-4)}`;
+    const phoneDigits = cleanPhoneNumber(userPhone);
+    const cleanName = userName?.trim() || fullStudent?.studentName || (phoneDigits ? `Candidate ${phoneDigits.slice(-4)}` : 'Candidate');
 
     const localUser = {
       id: fullStudent?.rollNumber ? `student-${fullStudent.rollNumber}` : 'local-' + Date.now(),
@@ -67,30 +73,13 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
 
     localStorage.setItem('neet_local_user', JSON.stringify(localUser));
 
-    const updatedEnrolled = fullStudent || {
-      studentName: cleanName,
-      parentName: 'Parent / Guardian',
-      parentPhone: phoneDigits,
-      parentEmail: cleanEmail,
-      studentPhone: phoneDigits,
-      domicileState: 'Maharashtra',
-      caste: 'General / Open',
-      email: cleanEmail,
-      dob: '2006-08-15',
-      dobPin: '15082006',
-      targetYear: '2027',
-      enrolledAt: new Date().toISOString(),
-      rollNumber: 'NCBT-2027-' + (phoneDigits.slice(-6) || Math.floor(100000 + Math.random() * 900000)),
-      devices: ['dev-1'],
-      gender: 'Female',
-      disabilityStatus: 'No Disability',
-      specialReservation: 'None'
-    };
+    if (fullStudent) {
+      localStorage.setItem('neet_enrolled_student', JSON.stringify(fullStudent));
+      localStorage.setItem('neet_user_enrolled', 'true');
+      syncStudentEnrollmentToCloud(fullStudent).catch(() => {});
+    }
 
-    localStorage.setItem('neet_enrolled_student', JSON.stringify(updatedEnrolled));
-    localStorage.setItem('neet_user_enrolled', 'true');
     localStorage.removeItem('neet_guest_mode');
-
     window.dispatchEvent(new Event('neet_auth_change'));
   };
 
@@ -193,22 +182,33 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
       return;
     }
 
-    // Look up enrolled candidate by phone number
+    // Look up enrolled candidate by phone number (Supabase Cloud first for universal consistency across all systems)
     let matchedStudent: any = null;
 
-    // 1. Check registered candidates in localStorage
     try {
-      const rawCandidates = localStorage.getItem('neet_registered_candidates');
-      if (rawCandidates) {
-        const candidates: any[] = JSON.parse(rawCandidates);
-        const match = candidates.find(
-          (c: any) =>
-            (c.studentPhone && c.studentPhone.replace(/\D/g, '') === cleanPhone) ||
-            (c.parentPhone && c.parentPhone.replace(/\D/g, '') === cleanPhone)
-        );
-        if (match) matchedStudent = match;
+      const cloudStudent = await fetchStudentByPhoneFromCloud(cleanPhone);
+      if (cloudStudent && cloudStudent.studentName) {
+        matchedStudent = cloudStudent;
       }
-    } catch {}
+    } catch (e) {
+      console.warn('Cloud student lookup notice:', e);
+    }
+
+    // 1. Check registered candidates in localStorage
+    if (!matchedStudent) {
+      try {
+        const rawCandidates = localStorage.getItem('neet_registered_candidates');
+        if (rawCandidates) {
+          const candidates: any[] = JSON.parse(rawCandidates);
+          const match = candidates.find(
+            (c: any) =>
+              (c.studentPhone && cleanPhoneNumber(c.studentPhone) === cleanPhone) ||
+              (c.parentPhone && cleanPhoneNumber(c.parentPhone) === cleanPhone)
+          );
+          if (match) matchedStudent = match;
+        }
+      } catch {}
+    }
 
     // 2. Check current enrolled student in localStorage
     if (!matchedStudent) {
@@ -217,8 +217,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
         if (rawCurrent) {
           const current = JSON.parse(rawCurrent);
           if (
-            (current.studentPhone && current.studentPhone.replace(/\D/g, '') === cleanPhone) ||
-            (current.parentPhone && current.parentPhone.replace(/\D/g, '') === cleanPhone)
+            (current.studentPhone && cleanPhoneNumber(current.studentPhone) === cleanPhone) ||
+            (current.parentPhone && cleanPhoneNumber(current.parentPhone) === cleanPhone)
           ) {
             matchedStudent = current;
           }
@@ -274,16 +274,16 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
       }
     }
 
-    // 3. If student profile found, use it; otherwise create standard profile
+    // 3. If student profile found in cloud/local, use authentic profile; otherwise generate candidate profile & sync to cloud
     const studentToSave = matchedStudent || {
-      studentName: `Aspirant ${cleanPhone.slice(-4)}`,
+      studentName: `Candidate ${cleanPhone.slice(-4)}`,
       parentName: 'Parent / Guardian',
       parentPhone: cleanPhone,
-      parentEmail: `student.${cleanPhone}@neetprep.in`,
+      parentEmail: `student.${cleanPhone}@neetcbt.in`,
       studentPhone: cleanPhone,
       domicileState: 'Maharashtra',
       caste: 'General / Open',
-      email: `student.${cleanPhone}@neetprep.in`,
+      email: `student.${cleanPhone}@neetcbt.in`,
       dob: '2006-08-15',
       dobPin: '15082006',
       targetYear: '2027',
@@ -307,17 +307,14 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
     }, 600);
   };
 
-  const handleQuickLogin = (
-    demoPhone = '9876543210',
-    demoEmail = 'student.target2027@neetprep.in',
-    demoName = 'NEET Aspirant Candidate'
-  ) => {
+  const handleQuickLogin = (existingStudent?: any) => {
+    if (!existingStudent) return;
     setLoading(true);
     setMessage({
-      text: `✓ Signed in successfully via Pre-Verified Mobile (+91 ${demoPhone})!`,
+      text: `✓ Signed in successfully as ${existingStudent.studentName}!`,
       type: 'success'
     });
-    saveLocalUserSession(demoEmail, demoPhone, demoName);
+    saveLocalUserSession(existingStudent.email, existingStudent.studentPhone, existingStudent.studentName, existingStudent);
     setTimeout(() => {
       onClose();
     }, 500);
@@ -349,18 +346,48 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
           </p>
         </div>
 
-        {/* Instant 1-Click Access Button */}
-        <div className="pt-1">
-          <button
-            type="button"
-            onClick={() => handleQuickLogin()}
-            disabled={loading}
-            className="w-full py-2.5 px-3 rounded-lg bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-800 font-bold text-xs flex items-center justify-center space-x-2 shadow-xs transition disabled:opacity-50 cursor-pointer"
-          >
-            <Zap className="w-4 h-4 text-emerald-600 fill-emerald-600" />
-            <span>⚡ Instant 1-Click Student Login (Pre-Verified)</span>
-          </button>
-        </div>
+        {/* Saved Session Resume if Enrolled Candidate Exists */}
+        {(() => {
+          try {
+            const raw = localStorage.getItem('neet_enrolled_student');
+            if (raw) {
+              const parsed = JSON.parse(raw);
+              if (parsed && parsed.studentName && parsed.studentPhone) {
+                return (
+                  <div className="pt-1">
+                    <button
+                      type="button"
+                      onClick={() => handleQuickLogin(parsed)}
+                      disabled={loading}
+                      className="w-full py-2.5 px-3 rounded-lg bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-800 font-bold text-xs flex items-center justify-center space-x-2 shadow-xs transition disabled:opacity-50 cursor-pointer"
+                    >
+                      <Zap className="w-4 h-4 text-emerald-600 fill-emerald-600" />
+                      <span>⚡ Continue as {parsed.studentName} (+91 {parsed.studentPhone})</span>
+                    </button>
+                  </div>
+                );
+              }
+            }
+          } catch {}
+          return null;
+        })()}
+
+        {/* Master Admin Portal Direct Entry Gateway */}
+        {onOpenAdminLogin && (
+          <div className="pt-1">
+            <button
+              type="button"
+              onClick={() => {
+                onClose();
+                onOpenAdminLogin();
+              }}
+              className="w-full py-2 px-3 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-amber-300 font-bold text-xs flex items-center justify-center space-x-2 shadow-xs transition cursor-pointer"
+            >
+              <KeyRound className="w-4 h-4 text-amber-400" />
+              <span>Institutional Master Admin & Director Portal →</span>
+            </button>
+          </div>
+        )}
 
         <div className="relative flex items-center justify-center">
           <div className="border-t border-gray-200 w-full"></div>

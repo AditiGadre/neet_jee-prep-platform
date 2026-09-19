@@ -1432,10 +1432,12 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <Mail className="w-3.5 h-3.5 text-gray-400" />
                 <span>{dlUser?.email || 'student.target2027@neetprep.in'}</span>
               </div>
-              <div className="flex items-center space-x-1.5 text-emerald-800 font-mono font-semibold text-[11px]">
-                <Phone className="w-3.5 h-3.5 text-emerald-600" />
-                <span>{dlUser?.phone || dlUser?.user_metadata?.phone || '+91 9876543210'}</span>
-              </div>
+              {(dlUser?.phone || dlUser?.user_metadata?.phone) && (
+                <div className="flex items-center space-x-1.5 text-emerald-800 font-mono font-semibold text-[11px]">
+                  <Phone className="w-3.5 h-3.5 text-emerald-600" />
+                  <span>{dlUser?.phone || dlUser?.user_metadata?.phone}</span>
+                </div>
+              )}
             </div>
 
             <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold text-[10px] font-mono flex items-center space-x-1">

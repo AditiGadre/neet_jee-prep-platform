@@ -114,15 +114,15 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     }
   })();
 
-  const studentName = enrolledStudent?.studentName || 'Enrolled Student';
-  const studentPhone = enrolledStudent?.studentPhone ? `+91 ${enrolledStudent.studentPhone}` : '+91 9876543210';
-  const studentEmail = enrolledStudent?.email || 'student.target2027@neetprep.in';
-  const rollNumber = enrolledStudent?.rollNumber || 'NCBT-2027-882190';
+  const studentName = enrolledStudent?.studentName || '';
+  const studentPhone = enrolledStudent?.studentPhone ? `+91 ${enrolledStudent.studentPhone}` : '';
+  const studentEmail = enrolledStudent?.email || '';
+  const rollNumber = enrolledStudent?.rollNumber || '';
   const studentCategory = enrolledStudent?.caste || 'General / Open';
-  const studentDomicile = 'Maharashtra (State Quota)';
-  const parentName = enrolledStudent?.parentName || 'Parent / Guardian';
-  const parentEmail = enrolledStudent?.parentEmail || enrolledStudent?.email || 'parent@example.com';
-  const parentPhone = enrolledStudent?.parentPhone ? `+91 ${enrolledStudent.parentPhone}` : '+91 9876543211';
+  const studentDomicile = enrolledStudent?.state ? `${enrolledStudent.state} (State Quota)` : 'State Quota';
+  const parentName = enrolledStudent?.parentName || '';
+  const parentEmail = enrolledStudent?.parentEmail || enrolledStudent?.email || '';
+  const parentPhone = enrolledStudent?.parentPhone ? `+91 ${enrolledStudent.parentPhone}` : '';
 
   // Check if current test is an authorized Sunday test unlocked by Admin on Sundays
   const isSundayTestUnlockedByAdmin = useMemo(() => {

@@ -139,8 +139,8 @@ export function recordSuperUserNotification(item: {
 }): SuperUserNotification {
   const user = getCurrentUser();
   const userName = user?.name || user?.user_metadata?.name || 'Enrolled Student';
-  const userEmail = user?.email || 'student.target2026@neetprep.in';
-  const userPhone = user?.phone || user?.user_metadata?.phone || '+91 9876543210';
+  const userEmail = user?.email || 'student.target2027@neetprep.in';
+  const userPhone = user?.phone || user?.user_metadata?.phone || '';
   const size = item.fileSize || '1.8 MB';
   const fileSizeBytes = parseFileSizeToBytes(size);
 
@@ -247,9 +247,9 @@ export function getSuperUserNotifications(): SuperUserNotification[] {
           id: 'su-seed-1',
           type: 'DOWNLOAD_ALERT',
           title: 'Student Download: Book - Biology NCERT Class 11 & 12 Complete High-Yield Booster',
-          userName: 'NEET Aspirant Candidate',
-          userEmail: 'student.target2026@neetprep.in',
-          userPhone: '+91 9876543210',
+          userName: 'Rohan Sharma',
+          userEmail: 'rohan.sharma2027@gmail.com',
+          userPhone: '+91 9820145678',
           contentTitle: 'Biology NCERT Class 11 & 12 Complete High-Yield Booster',
           category: 'Book',
           fileSize: '2.4 MB',
@@ -261,9 +261,9 @@ export function getSuperUserNotifications(): SuperUserNotification[] {
           id: 'su-seed-2',
           type: 'DOWNLOAD_ALERT',
           title: 'Student Download: Test Paper - Sunday All India Grand Mock Test #1',
-          userName: 'NEET Aspirant Candidate',
-          userEmail: 'student.target2026@neetprep.in',
-          userPhone: '+91 9876543210',
+          userName: 'Ananya Verma',
+          userEmail: 'ananya.verma2027@gmail.com',
+          userPhone: '+91 9833214560',
           contentTitle: 'Sunday All India Grand Mock Test #1 (Complete PCB)',
           category: 'Test Paper',
           fileSize: '1.8 MB',
@@ -276,9 +276,9 @@ export function getSuperUserNotifications(): SuperUserNotification[] {
           id: 'su-seed-3',
           type: 'DOWNLOAD_ALERT',
           title: 'Student Download: Solutions - Full Syllabus All India Grand Test #1 Solutions',
-          userName: 'NEET Aspirant Candidate',
-          userEmail: 'student.target2026@neetprep.in',
-          userPhone: '+91 9876543210',
+          userName: 'Priya Kulkarni',
+          userEmail: 'priya.kulkarni@gmail.com',
+          userPhone: '+91 9819234567',
           contentTitle: 'Full Syllabus All India Grand Test #1 Official Solutions Matrix',
           category: 'Solutions',
           fileSize: '2.1 MB',

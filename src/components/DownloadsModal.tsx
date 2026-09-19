@@ -239,10 +239,12 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
               <Mail className="w-3.5 h-3.5 text-gray-400" />
               <span>{user?.email || 'student.target2027@neetprep.in'}</span>
             </div>
-            <div className="flex items-center space-x-1.5 text-gray-600 font-mono text-[11px]">
-              <Phone className="w-3.5 h-3.5 text-emerald-600" />
-              <span>{user?.phone || user?.user_metadata?.phone || '+91 9876543210'}</span>
-            </div>
+            {(user?.phone || user?.user_metadata?.phone) && (
+              <div className="flex items-center space-x-1.5 text-gray-600 font-mono text-[11px]">
+                <Phone className="w-3.5 h-3.5 text-emerald-600" />
+                <span>{user?.phone || user?.user_metadata?.phone}</span>
+              </div>
+            )}
           </div>
 
           <div className="flex items-center space-x-2">

@@ -5,6 +5,7 @@ import { getSequentialLoopQuestions } from '../utils/questionLoopManager';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 import {
   syncSundayPaperToCloud,
+  deleteSundayPaperFromCloud,
   normalizeQuestionText
 } from '../utils/cloudSyncManager';
 
@@ -2079,6 +2080,10 @@ export function deleteCustomSundayPaper(paperCode: string): void {
       localStorage.setItem(SUNDAY_CUSTOM_PAPERS_KEY, JSON.stringify(all));
       window.dispatchEvent(new CustomEvent('neet_custom_sunday_paper_deleted', { detail: { paperCode } }));
     }
+    // Delete from Supabase cloud database so all 10 lakh systems sync the reset immediately
+    deleteSundayPaperFromCloud(paperCode).catch(err => {
+      console.warn('Notice deleting Sunday paper from cloud:', err);
+    });
   } catch (err) {
     console.error('Failed to delete custom Sunday paper:', err);
   }
