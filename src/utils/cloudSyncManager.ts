@@ -74,6 +74,7 @@ const SUNDAY_PAPER_PREFIX = '__SUNDAY_PAPER__';
 const ADMIN_CONFIG_ID = '__GLOBAL_ADMIN_CONFIG__';
 const STUDENT_PHONE_PREFIX = '__STUDENT__';
 const STUDENT_EMAIL_PREFIX = '__STUDENT_EMAIL__';
+const CUSTOM_QUESTIONS_STORE_ID = '__CUSTOM_QUESTIONS_STORE__';
 
 // Runtime memory caches
 const memorySundayPaperCache = new Map<string, SyncedSundayPaper>();
@@ -99,10 +100,32 @@ export function normalizeQuestionText(text: string): string {
     .trim();
 }
 
+async function insertSystemRow(row: {
+  id: string;
+  subject: string;
+  chapter: string;
+  topic: string;
+  difficulty: string;
+  question_text: string;
+  options: string[];
+  correct_answer: number;
+  explanation: string;
+}): Promise<boolean> {
+  if (!supabase) return false;
+  try {
+    const { error } = await supabase.from('questions').insert(row);
+    if (error) console.warn('Supabase insert notice for ' + row.id + ':', error.message);
+    return !error;
+  } catch (e: any) {
+    console.warn('Supabase row persist notice for ' + row.id + ':', e.message);
+    return false;
+  }
+}
+
 // 1. SUNDAY TEST PAPER PERSISTENCE
 export async function syncSundayPaperToCloud(paper: SyncedSundayPaper): Promise<boolean> {
   const cleanCode = paper.paperCode.toUpperCase().trim();
-  const rowId = SUNDAY_PAPER_PREFIX + cleanCode;
+  const rowId = SUNDAY_PAPER_PREFIX + cleanCode + '__' + Date.now();
 
   memorySundayPaperCache.set(cleanCode, paper);
 
@@ -118,30 +141,25 @@ export async function syncSundayPaperToCloud(paper: SyncedSundayPaper): Promise<
 
   try {
     const payloadJson = JSON.stringify(paper);
-    const { error } = await supabase.from('questions').upsert(
-      {
-        id: rowId,
-        subject: '__SYSTEM_SYNC__',
-        chapter: 'SUNDAY_TEST_PAPERS',
-        topic: cleanCode,
-        difficulty: 'System',
-        question_text: payloadJson,
-        options: ['SYNC_PAYLOAD_V1'],
-        correct_answer: 0,
-        explanation: 'Global Synced Sunday Paper: ' + cleanCode
-      },
-      { onConflict: 'id' }
-    );
+    const success = await insertSystemRow({
+      id: rowId,
+      subject: '__SYSTEM_SYNC__',
+      chapter: 'SUNDAY_TEST_PAPERS',
+      topic: cleanCode,
+      difficulty: 'System',
+      question_text: payloadJson,
+      options: ['SYNC_PAYLOAD_V2', cleanCode],
+      correct_answer: 0,
+      explanation: 'Global Synced Sunday Paper: ' + cleanCode
+    });
 
-    if (error) {
-      console.warn('Supabase sync notice for Sunday Paper ' + cleanCode + ':', error);
-      return false;
+    if (success) {
+      window.dispatchEvent(
+        new CustomEvent('neet_cloud_sunday_paper_synced', { detail: { paperCode: cleanCode, paper } })
+      );
+      return true;
     }
-
-    window.dispatchEvent(
-      new CustomEvent('neet_cloud_sunday_paper_synced', { detail: { paperCode: cleanCode, paper } })
-    );
-    return true;
+    return false;
   } catch (err) {
     console.warn('Error syncing Sunday paper ' + cleanCode + ' to cloud:', err);
     return false;
@@ -149,46 +167,77 @@ export async function syncSundayPaperToCloud(paper: SyncedSundayPaper): Promise<
 }
 
 export async function fetchSundayPaperFromCloud(paperCode: string, forceCloud = true): Promise<SyncedSundayPaper | null> {
+  if (!paperCode) return null;
   const cleanCode = paperCode.toUpperCase().trim();
+  const is11th = cleanCode.startsWith('11TH-');
+  const is12th = cleanCode.startsWith('12TH-');
   const baseCode = cleanCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
 
-  // 1. If Supabase is active, query cloud database first for universal real-time consistency
+  // 1. Check in-memory cache
+  if (memorySundayPaperCache.has(cleanCode)) return memorySundayPaperCache.get(cleanCode)!;
+  if (!is11th && !is12th && memorySundayPaperCache.has(baseCode)) return memorySundayPaperCache.get(baseCode)!;
+
+  // 2. Query Supabase cloud database
   if (supabase) {
     try {
-      const rowId = SUNDAY_PAPER_PREFIX + cleanCode;
-      const baseRowId = SUNDAY_PAPER_PREFIX + baseCode;
+      let targetTopics: string[];
+      let targetIds: string[];
+      if (is11th) {
+        targetTopics = ['11TH-' + baseCode, cleanCode];
+        targetIds = [SUNDAY_PAPER_PREFIX + '11TH-' + baseCode];
+      } else if (is12th) {
+        targetTopics = ['12TH-' + baseCode, cleanCode];
+        targetIds = [SUNDAY_PAPER_PREFIX + '12TH-' + baseCode, SUNDAY_PAPER_PREFIX + cleanCode];
+      } else {
+        targetTopics = [cleanCode, baseCode, 'REPEATER-' + baseCode];
+        targetIds = [
+          SUNDAY_PAPER_PREFIX + cleanCode,
+          SUNDAY_PAPER_PREFIX + baseCode,
+          SUNDAY_PAPER_PREFIX + 'REPEATER-' + baseCode
+        ];
+      }
 
       const { data, error } = await supabase
         .from('questions')
-        .select('question_text')
-        .or('id.eq.' + rowId + ',id.eq.' + baseRowId)
-        .limit(1);
+        .select('id, topic, question_text')
+        .eq('subject', '__SYSTEM_SYNC__')
+        .eq('chapter', 'SUNDAY_TEST_PAPERS')
+        .or(`topic.in.(${targetTopics.join(',')}),id.in.(${targetIds.join(',')})`);
 
       if (!error && data && data.length > 0) {
-        const paper = JSON.parse(data[0].question_text) as SyncedSundayPaper;
-        if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
-          memorySundayPaperCache.set(cleanCode, paper);
-          memorySundayPaperCache.set(baseCode, paper);
+        let latest: SyncedSundayPaper | null = null;
+        for (const row of data) {
+          try {
+            const paper = JSON.parse(row.question_text) as SyncedSundayPaper;
+            if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
+              if (!latest || new Date(paper.updatedAt).getTime() >= new Date(latest.updatedAt).getTime()) {
+                latest = paper;
+              }
+            }
+          } catch {}
+        }
+
+        if (latest) {
+          memorySundayPaperCache.set(cleanCode, latest);
+          if (!is11th && !is12th) memorySundayPaperCache.set(baseCode, latest);
           try {
             const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
             const localPapers = localPapersRaw ? JSON.parse(localPapersRaw) : {};
-            localPapers[cleanCode.toLowerCase()] = paper;
-            localPapers[cleanCode] = paper;
-            localPapers[baseCode.toLowerCase()] = paper;
-            localPapers[baseCode] = paper;
+            localPapers[cleanCode.toLowerCase()] = latest;
+            localPapers[cleanCode] = latest;
+            if (!is11th && !is12th) {
+              localPapers[baseCode.toLowerCase()] = latest;
+              localPapers[baseCode] = latest;
+            }
             localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
           } catch {}
-          return paper;
+          return latest;
         }
       }
     } catch (err) {
       console.warn('Error fetching Sunday paper ' + cleanCode + ' from cloud:', err);
     }
   }
-
-  // 2. Check in-memory cache
-  if (memorySundayPaperCache.has(cleanCode)) return memorySundayPaperCache.get(cleanCode)!;
-  if (memorySundayPaperCache.has(baseCode)) return memorySundayPaperCache.get(baseCode)!;
 
   // 3. Fallback to localStorage if offline
   try {
@@ -198,8 +247,7 @@ export async function fetchSundayPaperFromCloud(paperCode: string, forceCloud = 
       const matched =
         localPapers[cleanCode.toLowerCase()] ||
         localPapers[cleanCode] ||
-        localPapers[baseCode.toLowerCase()] ||
-        localPapers[baseCode];
+        (!is11th && !is12th ? (localPapers[baseCode.toLowerCase()] || localPapers[baseCode]) : undefined);
       if (matched && Array.isArray(matched.questions) && matched.questions.length === 180) {
         memorySundayPaperCache.set(cleanCode, matched);
         return matched;
@@ -251,7 +299,7 @@ export async function fetchAllSundayPapersFromCloud(): Promise<Record<string, Sy
   try {
     const { data, error } = await supabase
       .from('questions')
-      .select('id, question_text')
+      .select('id, topic, question_text')
       .eq('subject', '__SYSTEM_SYNC__')
       .eq('chapter', 'SUNDAY_TEST_PAPERS');
 
@@ -260,10 +308,28 @@ export async function fetchAllSundayPapersFromCloud(): Promise<Record<string, Sy
     for (const row of data) {
       try {
         const paper = JSON.parse(row.question_text) as SyncedSundayPaper;
-        if (paper && paper.paperCode && Array.isArray(paper.questions) && paper.questions.length === 180) {
-          const code = paper.paperCode.toUpperCase();
-          result[code] = paper;
-          memorySundayPaperCache.set(code, paper);
+        if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
+          const rawCode = (row.id || '')
+            .replace(/^__SUNDAY_PAPER__/, '')
+            .replace(/__\d+$/, '')
+            .toUpperCase()
+            .trim();
+          const topicCode = (row.topic || '').toUpperCase().trim();
+          const pCode = (paper.paperCode || '').toUpperCase().trim();
+
+          const candidateKeys = [topicCode, rawCode, pCode].filter(Boolean);
+          for (const key of candidateKeys) {
+            const existing = result[key];
+            if (!existing || new Date(paper.updatedAt).getTime() >= new Date(existing.updatedAt).getTime()) {
+              result[key] = paper;
+              memorySundayPaperCache.set(key, paper);
+              if (key.startsWith('REPEATER-')) {
+                const baseKey = key.replace(/^REPEATER-/, '');
+                result[baseKey] = paper;
+                memorySundayPaperCache.set(baseKey, paper);
+              }
+            }
+          }
         }
       } catch {}
     }
@@ -274,6 +340,12 @@ export async function fetchAllSundayPapersFromCloud(): Promise<Record<string, Sy
       Object.assign(localPapers, result);
       localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
     } catch {}
+
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(
+        new CustomEvent('neet_cloud_all_sunday_papers_loaded', { detail: result })
+      );
+    }
   } catch (err) {
     console.warn('Error fetching all Sunday papers from cloud:', err);
   }
@@ -312,30 +384,25 @@ export async function syncAdminConfigToCloud(configPartial: Partial<SyncedAdminC
   if (!supabase) return false;
 
   try {
-    const { error } = await supabase.from('questions').upsert(
-      {
-        id: ADMIN_CONFIG_ID,
-        subject: '__SYSTEM_SYNC__',
-        chapter: 'ADMIN_SETTINGS',
-        topic: 'PLATFORM_CONFIG',
-        difficulty: 'System',
-        question_text: JSON.stringify(updatedConfig),
-        options: ['ADMIN_CONFIG_V1'],
-        correct_answer: 0,
-        explanation: 'Global Synced Admin Config'
-      },
-      { onConflict: 'id' }
-    );
+    const success = await insertSystemRow({
+      id: ADMIN_CONFIG_ID + '__' + Date.now(),
+      subject: '__SYSTEM_SYNC__',
+      chapter: 'ADMIN_SETTINGS',
+      topic: 'PLATFORM_CONFIG',
+      difficulty: 'System',
+      question_text: JSON.stringify(updatedConfig),
+      options: ['ADMIN_CONFIG_V2'],
+      correct_answer: 0,
+      explanation: 'Global Synced Admin Config'
+    });
 
-    if (error) {
-      console.warn('Supabase sync notice for Admin Config:', error);
-      return false;
+    if (success) {
+      window.dispatchEvent(
+        new CustomEvent('neet_cloud_admin_config_synced', { detail: updatedConfig })
+      );
+      return true;
     }
-
-    window.dispatchEvent(
-      new CustomEvent('neet_cloud_admin_config_synced', { detail: updatedConfig })
-    );
-    return true;
+    return false;
   } catch (err) {
     console.warn('Error syncing admin config to cloud:', err);
     return false;
@@ -358,25 +425,37 @@ export async function fetchAdminConfigFromCloud(): Promise<SyncedAdminConfig | n
   try {
     const { data, error } = await supabase
       .from('questions')
-      .select('question_text')
-      .eq('id', ADMIN_CONFIG_ID)
-      .limit(1);
+      .select('id, question_text')
+      .eq('subject', '__SYSTEM_SYNC__')
+      .eq('chapter', 'ADMIN_SETTINGS')
+      .eq('topic', 'PLATFORM_CONFIG');
 
-    if (error || !data || data.length === 0) return memoryAdminConfig;
+    if (!error && data && data.length > 0) {
+      let latestConfig: SyncedAdminConfig | null = null;
+      for (const row of data) {
+        try {
+          const cfg = JSON.parse(row.question_text) as SyncedAdminConfig;
+          if (cfg && cfg.lastUpdated) {
+            if (!latestConfig || new Date(cfg.lastUpdated).getTime() >= new Date(latestConfig.lastUpdated).getTime()) {
+              latestConfig = cfg;
+            }
+          }
+        } catch {}
+      }
 
-    const config = JSON.parse(data[0].question_text) as SyncedAdminConfig;
-    if (config) {
-      memoryAdminConfig = config;
-      try {
-        localStorage.setItem('neet_cloud_admin_config', JSON.stringify(config));
-        if (typeof config.platformWideSundayAccess === 'boolean') {
-          localStorage.setItem('neet_admin_test_access', config.platformWideSundayAccess ? 'true' : 'false');
-        }
-        if (Array.isArray(config.approvedStudentRequests)) {
-          localStorage.setItem('neet_unlock_requests', JSON.stringify(config.approvedStudentRequests));
-        }
-      } catch {}
-      return config;
+      if (latestConfig) {
+        memoryAdminConfig = latestConfig;
+        try {
+          localStorage.setItem('neet_cloud_admin_config', JSON.stringify(latestConfig));
+          if (typeof latestConfig.platformWideSundayAccess === 'boolean') {
+            localStorage.setItem('neet_admin_test_access', latestConfig.platformWideSundayAccess ? 'true' : 'false');
+          }
+          if (latestConfig.approvedStudentRequests) {
+            localStorage.setItem('neet_unlock_requests', JSON.stringify(latestConfig.approvedStudentRequests));
+          }
+        } catch {}
+        return latestConfig;
+      }
     }
   } catch (err) {
     console.warn('Error fetching admin config from cloud:', err);
@@ -389,7 +468,7 @@ export async function syncStudentEnrollmentToCloud(student: SyncedStudentProfile
   const phone = cleanPhoneNumber(student.studentPhone);
   if (!phone || phone.length < 10) return false;
 
-  const rowId = STUDENT_PHONE_PREFIX + phone;
+  const rowId = STUDENT_PHONE_PREFIX + phone + '__' + Date.now();
   const email = (student.email || '').trim().toLowerCase();
 
   memoryStudentPhoneCache.set(phone, student);
@@ -403,24 +482,22 @@ export async function syncStudentEnrollmentToCloud(student: SyncedStudentProfile
 
   try {
     const payloadJson = JSON.stringify(student);
-    const rowsToUpsert: any[] = [
-      {
-        id: rowId,
-        subject: '__SYSTEM_SYNC__',
-        chapter: 'STUDENT_ENROLLMENTS',
-        topic: phone,
-        difficulty: 'Student',
-        question_text: payloadJson,
-        options: [student.studentName, student.rollNumber, student.email],
-        correct_answer: 0,
-        explanation: 'Student: ' + student.studentName + ' | Phone: ' + phone
-      }
-    ];
+    const successPhone = await insertSystemRow({
+      id: rowId,
+      subject: '__SYSTEM_SYNC__',
+      chapter: 'STUDENT_ENROLLMENTS',
+      topic: phone,
+      difficulty: 'Student',
+      question_text: payloadJson,
+      options: [student.studentName, student.rollNumber, student.email],
+      correct_answer: 0,
+      explanation: 'Student: ' + student.studentName + ' | Phone: ' + phone
+    });
 
     if (email && email.includes('@')) {
       const emailSafeKey = email.replace(/[^a-z0-9@._-]/gi, '');
-      rowsToUpsert.push({
-        id: STUDENT_EMAIL_PREFIX + emailSafeKey,
+      await insertSystemRow({
+        id: STUDENT_EMAIL_PREFIX + emailSafeKey + '__' + Date.now(),
         subject: '__SYSTEM_SYNC__',
         chapter: 'STUDENT_ENROLLMENTS_EMAIL',
         topic: emailSafeKey,
@@ -432,16 +509,15 @@ export async function syncStudentEnrollmentToCloud(student: SyncedStudentProfile
       });
     }
 
-    const { error } = await supabase.from('questions').upsert(rowsToUpsert, { onConflict: 'id' });
-    if (error) {
-      console.warn('Supabase enrollment sync notice for phone ' + phone + ':', error);
-      return false;
+    if (successPhone) {
+      if (typeof window !== 'undefined') {
+        window.dispatchEvent(
+          new CustomEvent('neet_cloud_student_synced', { detail: { phone, student } })
+        );
+      }
+      return true;
     }
-
-    window.dispatchEvent(
-      new CustomEvent('neet_cloud_student_synced', { detail: { phone, student } })
-    );
-    return true;
+    return false;
   } catch (err) {
     console.warn('Error syncing student enrollment for phone ' + phone + ':', err);
     return false;
@@ -455,25 +531,39 @@ export async function fetchStudentByPhoneFromCloud(rawPhone: string): Promise<Sy
   // 1. Check Supabase first for the authoritative cloud record across all systems
   if (supabase) {
     try {
-      const rowId = STUDENT_PHONE_PREFIX + phone;
       const { data, error } = await supabase
         .from('questions')
-        .select('question_text')
-        .eq('id', rowId)
-        .limit(1);
+        .select('id, question_text')
+        .eq('subject', '__SYSTEM_SYNC__')
+        .eq('chapter', 'STUDENT_ENROLLMENTS')
+        .or(`topic.eq.${phone},id.eq.${STUDENT_PHONE_PREFIX + phone}`);
 
       if (!error && data && data.length > 0) {
-        const student = JSON.parse(data[0].question_text) as SyncedStudentProfile;
-        if (student && student.studentName) {
-          memoryStudentPhoneCache.set(phone, student);
+        let latestStudent: SyncedStudentProfile | null = null;
+        for (const row of data) {
+          try {
+            const student = JSON.parse(row.question_text) as SyncedStudentProfile;
+            if (student && student.studentName) {
+              if (
+                !latestStudent ||
+                new Date(student.enrolledAt || 0).getTime() >= new Date(latestStudent.enrolledAt || 0).getTime()
+              ) {
+                latestStudent = student;
+              }
+            }
+          } catch {}
+        }
+
+        if (latestStudent) {
+          memoryStudentPhoneCache.set(phone, latestStudent);
           try {
             const rawCand = localStorage.getItem('neet_registered_candidates');
             const list = rawCand ? JSON.parse(rawCand) : [];
             const filtered = list.filter((c: any) => cleanPhoneNumber(c.studentPhone || c.phone) !== phone);
-            filtered.push(student);
+            filtered.push(latestStudent);
             localStorage.setItem('neet_registered_candidates', JSON.stringify(filtered));
           } catch {}
-          return student;
+          return latestStudent;
         }
       }
     } catch (err) {
@@ -516,6 +606,93 @@ export async function fetchStudentByPhoneFromCloud(rawPhone: string): Promise<Sy
   return null;
 }
 
+export async function syncCustomQuestionsToCloud(questions: Question[]): Promise<boolean> {
+  if (!supabase || !questions || questions.length === 0) return false;
+  try {
+    const payloadJson = JSON.stringify(questions);
+    const rowId = CUSTOM_QUESTIONS_STORE_ID + '__' + Date.now();
+    const success = await insertSystemRow({
+      id: rowId,
+      subject: '__SYSTEM_SYNC__',
+      chapter: 'CUSTOM_QUESTION_BANK',
+      topic: 'ALL_CUSTOM_QUESTIONS',
+      difficulty: 'System',
+      question_text: payloadJson,
+      options: [`${questions.length} Questions`],
+      correct_answer: 0,
+      explanation: 'Global Synced Custom Questions Store'
+    });
+
+    if (success) {
+      if (typeof window !== 'undefined') {
+        window.dispatchEvent(new CustomEvent('neet_cloud_custom_questions_synced', { detail: questions }));
+      }
+      return true;
+    }
+  } catch (err) {
+    console.warn('Error syncing custom questions to cloud:', err);
+  }
+  return false;
+}
+
+export async function fetchCustomQuestionsFromCloud(): Promise<Question[] | null> {
+  if (!supabase) return null;
+  try {
+    const { data, error } = await supabase
+      .from('questions')
+      .select('id, question_text')
+      .eq('subject', '__SYSTEM_SYNC__')
+      .eq('chapter', 'CUSTOM_QUESTION_BANK');
+
+    if (!error && data && data.length > 0) {
+      const mergedMap = new Map<string, Question>();
+      for (const row of data) {
+        try {
+          const qs = JSON.parse(row.question_text) as Question[];
+          if (Array.isArray(qs)) {
+            for (const q of qs) {
+              if (q && q.id) {
+                mergedMap.set(q.id, q);
+              }
+            }
+          }
+        } catch {}
+      }
+
+      if (mergedMap.size > 0) {
+        const mergedQuestions = Array.from(mergedMap.values());
+        try {
+          const currentRaw = localStorage.getItem('neet_custom_questions');
+          const current: Question[] = currentRaw ? JSON.parse(currentRaw) : [];
+          const seen = new Set(current.map(q => q.id));
+          let hasNew = false;
+          for (const q of mergedQuestions) {
+            if (!seen.has(q.id)) {
+              current.push(q);
+              seen.add(q.id);
+              hasNew = true;
+            }
+          }
+          if (hasNew || current.length < mergedQuestions.length) {
+            localStorage.setItem('neet_custom_questions', JSON.stringify(current));
+            if (typeof window !== 'undefined') {
+              window.dispatchEvent(
+                new CustomEvent('neet_question_bank_updated', {
+                  detail: { addedCount: mergedQuestions.length, totalCustom: current.length }
+                })
+              );
+            }
+          }
+        } catch {}
+        return mergedQuestions;
+      }
+    }
+  } catch (e) {
+    console.warn('Error fetching custom questions from cloud:', e);
+  }
+  return null;
+}
+
 let hasInitialized = false;
 
 export async function initCloudSync(): Promise<void> {
@@ -525,7 +702,8 @@ export async function initCloudSync(): Promise<void> {
   try {
     await Promise.allSettled([
       fetchAllSundayPapersFromCloud(),
-      fetchAdminConfigFromCloud()
+      fetchAdminConfigFromCloud(),
+      fetchCustomQuestionsFromCloud()
     ]);
   } catch (e) {
     console.warn('Initial cloud sync notice:', e);
@@ -547,6 +725,7 @@ export async function initCloudSync(): Promise<void> {
           () => {
             fetchAllSundayPapersFromCloud().catch(() => {});
             fetchAdminConfigFromCloud().catch(() => {});
+            fetchCustomQuestionsFromCloud().catch(() => {});
           }
         )
         .subscribe();
@@ -560,11 +739,13 @@ export async function initCloudSync(): Promise<void> {
     setInterval(() => {
       fetchAdminConfigFromCloud().catch(() => {});
       fetchAllSundayPapersFromCloud().catch(() => {});
+      fetchCustomQuestionsFromCloud().catch(() => {});
     }, 20000);
 
     window.addEventListener('focus', () => {
       fetchAdminConfigFromCloud().catch(() => {});
       fetchAllSundayPapersFromCloud().catch(() => {});
+      fetchCustomQuestionsFromCloud().catch(() => {});
     });
   }
 }

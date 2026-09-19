@@ -77,7 +77,10 @@ import { getAdminNotifications, NEET_PREP_PACKAGES } from '../data/packagesData'
 import {
   syncSundayPaperToCloud,
   syncAdminConfigToCloud,
-  fetchAdminConfigFromCloud
+  fetchAdminConfigFromCloud,
+  fetchSundayPaperFromCloud,
+  fetchAllSundayPapersFromCloud,
+  fetchCustomQuestionsFromCloud
 } from '../utils/cloudSyncManager';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
@@ -301,6 +304,64 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     correctAnswer: number;
     explanation: string;
   } | null>(null);
+
+  // Synchronize Sunday Studio paper & question bank from Supabase Cloud
+  useEffect(() => {
+    let isMounted = true;
+
+    const syncPapersFromCloud = () => {
+      fetchAllSundayPapersFromCloud().then(allPapers => {
+        if (!isMounted || !allPapers) return;
+        const currentCode = selectedPlannerPreset.toUpperCase().trim();
+        const baseCode = currentCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
+        const paper =
+          allPapers[currentCode] ||
+          allPapers[`REPEATER-${baseCode}`] ||
+          allPapers[baseCode];
+        if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
+          setSundayQuestions(paper.questions);
+        }
+      }).catch(() => {});
+    };
+
+    syncPapersFromCloud();
+    fetchCustomQuestionsFromCloud().catch(() => {});
+
+    const handleSundayPaperSynced = (e: any) => {
+      const code = e.detail?.paperCode?.toUpperCase();
+      const currentCode = selectedPlannerPreset.toUpperCase().trim();
+      const baseCode = currentCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
+      if (code && (code === currentCode || code === baseCode || code === `REPEATER-${baseCode}`)) {
+        if (e.detail?.paper?.questions && e.detail.paper.questions.length === 180) {
+          setSundayQuestions(e.detail.paper.questions);
+        }
+      }
+    };
+
+    const handleAllPapersLoaded = (e: any) => {
+      if (!isMounted) return;
+      const allPapers = e.detail;
+      if (!allPapers) return;
+      const currentCode = selectedPlannerPreset.toUpperCase().trim();
+      const baseCode = currentCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
+      const paper =
+        allPapers[currentCode] ||
+        allPapers[`REPEATER-${baseCode}`] ||
+        allPapers[baseCode];
+      if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
+        setSundayQuestions(paper.questions);
+      }
+    };
+
+    window.addEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
+    window.addEventListener('neet_cloud_all_sunday_papers_loaded', handleAllPapersLoaded);
+
+    return () => {
+      isMounted = false;
+      window.removeEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
+      window.removeEventListener('neet_cloud_all_sunday_papers_loaded', handleAllPapersLoaded);
+    };
+  }, [selectedPlannerPreset]);
 
   // Student Unlock Requests State
   const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(() => {
@@ -536,10 +597,28 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
   };
 
-  const handleSelectSundayPaper = (paperCode: string) => {
+  const handleSelectSundayPaper = async (paperCode: string) => {
     setSelectedPlannerPreset(paperCode);
     handleApplyPreset(paperCode);
+    setStudioPage(1);
+    setEditingQuestionIdx(null);
+    setEditForm(null);
 
+    // 1. Check cloud database first for universal real-time consistency
+    try {
+      const cloudPaper = await fetchSundayPaperFromCloud(paperCode);
+      if (cloudPaper && Array.isArray(cloudPaper.questions) && cloudPaper.questions.length === 180) {
+        setSundayQuestions(cloudPaper.questions);
+        if (cloudPaper.customChapters) {
+          if (cloudPaper.customChapters.physics?.length) setSundayPhyUnits(cloudPaper.customChapters.physics);
+          if (cloudPaper.customChapters.chemistry?.length) setSundayChemUnits(cloudPaper.customChapters.chemistry);
+          if (cloudPaper.customChapters.biology?.length) setSundayBioUnits(cloudPaper.customChapters.biology);
+        }
+        return;
+      }
+    } catch {}
+
+    // 2. Saved custom paper from localStorage
     const saved = getSavedCustomSundayPaper(paperCode);
     if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
       setSundayQuestions(saved.questions);
@@ -548,24 +627,23 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         if (saved.customChapters.chemistry?.length) setSundayChemUnits(saved.customChapters.chemistry);
         if (saved.customChapters.biology?.length) setSundayBioUnits(saved.customChapters.biology);
       }
-    } else {
-      const is11th = paperCode.toLowerCase().startsWith('11th-');
-      const is12th = paperCode.toLowerCase().startsWith('12th-');
-      const cleanCode = paperCode.replace(/^(11th|12th)-/i, '').toUpperCase();
-      const planner = is11th
-        ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || SUNDAY_11TH_PLANNER_TESTS[0])
-        : is12th
-        ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || PLANNER_12TH_TESTS[0])
-        : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
-          || SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
-          || PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode)
-          || SUNDAY_DROPPER_PLANNER_TESTS[0]);
-      const defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
-      setSundayQuestions(defaultQuestions);
+      return;
     }
-    setStudioPage(1);
-    setEditingQuestionIdx(null);
-    setEditForm(null);
+
+    // 3. Fallback to generated Sunday paper
+    const is11th = paperCode.toLowerCase().startsWith('11th-');
+    const is12th = paperCode.toLowerCase().startsWith('12th-');
+    const cleanCode = paperCode.replace(/^(11th|12th)-/i, '').toUpperCase();
+    const planner = is11th
+      ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || SUNDAY_11TH_PLANNER_TESTS[0])
+      : is12th
+      ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || PLANNER_12TH_TESTS[0])
+      : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+        || SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+        || PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+        || SUNDAY_DROPPER_PLANNER_TESTS[0]);
+    const defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
+    setSundayQuestions(defaultQuestions);
   };
 
   const handleSaveAndPublishSelectedPaper = () => {

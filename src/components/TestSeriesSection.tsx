@@ -242,15 +242,21 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
     // Check if admin has customized this specific Sunday test (Cloud Supabase first for universal consistency across all 10 lakh systems)
     const cloudPaper =
-      (await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.code}`)) ||
-      (await fetchSundayPaperFromCloud(plannerTest.code)) ||
-      (await fetchSundayPaperFromCloud(plannerTest.id));
+      activeBatch !== 'repeater'
+        ? ((await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.code}`)) ||
+           (await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.id}`)))
+        : ((await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.code}`)) ||
+           (await fetchSundayPaperFromCloud(plannerTest.code)) ||
+           (await fetchSundayPaperFromCloud(plannerTest.id)));
 
     const customPaper =
       cloudPaper ||
-      getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
-      getSavedCustomSundayPaper(plannerTest.code) ||
-      getSavedCustomSundayPaper(plannerTest.id);
+      (activeBatch !== 'repeater'
+        ? (getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
+           getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.id}`))
+        : (getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
+           getSavedCustomSundayPaper(plannerTest.code) ||
+           getSavedCustomSundayPaper(plannerTest.id)));
     let testQuestions: Question[] = [];
     let syllabusStr = `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`;
 
@@ -329,15 +335,21 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     }
 
     const cloudPaper =
-      (await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.code}`)) ||
-      (await fetchSundayPaperFromCloud(plannerTest.code)) ||
-      (await fetchSundayPaperFromCloud(plannerTest.id));
+      activeBatch !== 'repeater'
+        ? ((await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.code}`)) ||
+           (await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.id}`)))
+        : ((await fetchSundayPaperFromCloud(`${activeBatch}-${plannerTest.code}`)) ||
+           (await fetchSundayPaperFromCloud(plannerTest.code)) ||
+           (await fetchSundayPaperFromCloud(plannerTest.id)));
 
     const customPaper =
       cloudPaper ||
-      getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
-      getSavedCustomSundayPaper(plannerTest.code) ||
-      getSavedCustomSundayPaper(plannerTest.id);
+      (activeBatch !== 'repeater'
+        ? (getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
+           getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.id}`))
+        : (getSavedCustomSundayPaper(`${activeBatch}-${plannerTest.code}`) ||
+           getSavedCustomSundayPaper(plannerTest.code) ||
+           getSavedCustomSundayPaper(plannerTest.id)));
 
     const questions = (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180)
       ? assertNoDuplicateQuestions(customPaper.questions)

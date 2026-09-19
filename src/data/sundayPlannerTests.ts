@@ -1974,53 +1974,33 @@ export function getSavedCustomSundayPaper(paperIdOrCode: string): SavedSundayPap
   if (!paperIdOrCode) return null;
   const all = getAllSavedCustomSundayPapers();
   const key = paperIdOrCode.toLowerCase().trim();
+  const is11th = key.startsWith('11th-');
+  const is12th = key.startsWith('12th-');
   const cleanKey = key.replace(/^(11th|12th|repeater|dropper)-/i, '').trim();
 
   // 1. Exact key match
   if (all[key]) return all[key];
+  if (all[paperIdOrCode.toUpperCase().trim()]) return all[paperIdOrCode.toUpperCase().trim()];
 
-  // 2. Clean key match (e.g. "cwt-01")
-  if (all[cleanKey]) return all[cleanKey];
-
-  // 3. Prefix-insensitive / batch-aware search
-  for (const k of Object.keys(all)) {
-    const kClean = k.toLowerCase().replace(/^(11th|12th|repeater|dropper)-/i, '').trim();
-    const paperCodeClean = (all[k].paperCode || '').toLowerCase().replace(/^(11th|12th|repeater|dropper)-/i, '').trim();
-    if (
-      k.toLowerCase() === key ||
-      kClean === cleanKey ||
-      paperCodeClean === cleanKey ||
-      k.toLowerCase().endsWith('-' + cleanKey) ||
-      key.endsWith('-' + kClean)
-    ) {
-      return all[k];
-    }
+  // 2. Class 11 Batch Isolated Search
+  if (is11th) {
+    if (all[`11th-${cleanKey}`]) return all[`11th-${cleanKey}`];
+    if (all[`11TH-${cleanKey.toUpperCase()}`]) return all[`11TH-${cleanKey.toUpperCase()}`];
+    return null;
   }
 
-  // 4. Fallback check legacy neet_published_sunday_test
-  try {
-    const legacyRaw = localStorage.getItem('neet_published_sunday_test');
-    if (legacyRaw) {
-      const legacy = JSON.parse(legacyRaw);
-      if (legacy && Array.isArray(legacy.questions) && legacy.questions.length === 180) {
-        const legClean = (legacy.paperCode || '').toLowerCase().replace(/^(11th|12th|repeater|dropper)-/i, '').trim();
-        if (!legClean || legClean === cleanKey || legClean === key) {
-          return {
-            paperCode: legacy.paperCode || paperIdOrCode,
-            testTitle: legacy.testTitle,
-            questions: legacy.questions,
-            customChapters: legacy.units ? {
-              physics: legacy.units.physics || [],
-              chemistry: legacy.units.chemistry || [],
-              biology: legacy.units.biology || []
-            } : undefined,
-            updatedAt: legacy.publishedAt || new Date().toISOString(),
-            publishedBy: legacy.publishedBy || 'Admin'
-          };
-        }
-      }
-    }
-  } catch {}
+  // 3. Class 12 Batch Isolated Search
+  if (is12th) {
+    if (all[`12th-${cleanKey}`]) return all[`12th-${cleanKey}`];
+    if (all[`12TH-${cleanKey.toUpperCase()}`]) return all[`12TH-${cleanKey.toUpperCase()}`];
+    return null;
+  }
+
+  // 4. Dropper / Repeater Batch Search
+  if (all[cleanKey]) return all[cleanKey];
+  if (all[cleanKey.toUpperCase()]) return all[cleanKey.toUpperCase()];
+  if (all[`repeater-${cleanKey}`]) return all[`repeater-${cleanKey}`];
+  if (all[`REPEATER-${cleanKey.toUpperCase()}`]) return all[`REPEATER-${cleanKey.toUpperCase()}`];
 
   return null;
 }
@@ -2287,11 +2267,14 @@ export function ensureAllSundayPapersGenerated(): void {
     { batch: '11th', tests: SUNDAY_11TH_PLANNER_TESTS }
   ];
 
+  // SINGLE GLOBAL MUTUAL EXCLUSION SET across all 76 tests and all 3 batches (Dropper, 11th, 12th)
+  // Guarantees zero cross-test question overlap platform-wide!
+  const globalUsedIds = new Set<string>();
+  const globalUsedTexts = new Set<string>();
+
   for (const cfg of batchConfigs) {
     const { batch, tests } = cfg;
     const batchKeyPrefix = `${batch}_`;
-    const batchUsedIds = new Set<string>();
-    const batchUsedTexts = new Set<string>();
 
     for (let tIdx = 0; tIdx < tests.length; tIdx++) {
       const t = tests[tIdx];
@@ -2309,9 +2292,9 @@ export function ensureAllSundayPapersGenerated(): void {
         for (const q of matched) {
           const baseId = getBaseQuestionId(q);
           const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
-          if (!batchUsedIds.has(baseId) && (normText.length <= 15 || !batchUsedTexts.has(normText))) {
-            batchUsedIds.add(baseId);
-            if (normText.length > 15) batchUsedTexts.add(normText);
+          if (!globalUsedIds.has(baseId) && (normText.length <= 15 || !globalUsedTexts.has(normText))) {
+            globalUsedIds.add(baseId);
+            if (normText.length > 15) globalUsedTexts.add(normText);
             picked.push({
               ...q,
               subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
@@ -2327,9 +2310,9 @@ export function ensureAllSundayPapersGenerated(): void {
           for (const q of bank) {
             const baseId = getBaseQuestionId(q);
             const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
-            if (!batchUsedIds.has(baseId) && (normText.length <= 15 || !batchUsedTexts.has(normText))) {
-              batchUsedIds.add(baseId);
-              if (normText.length > 15) batchUsedTexts.add(normText);
+            if (!globalUsedIds.has(baseId) && (normText.length <= 15 || !globalUsedTexts.has(normText))) {
+              globalUsedIds.add(baseId);
+              if (normText.length > 15) globalUsedTexts.add(normText);
               picked.push({
                 ...q,
                 subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
@@ -2350,9 +2333,20 @@ export function ensureAllSundayPapersGenerated(): void {
       const zoo = pickCategory('Zoology', zoologyBank, t.zoologyKeywords, 45);
 
       const paper = [...phy, ...chem, ...bot, ...zoo];
+      const cleanCode = t.code.toUpperCase().trim();
+      const batchCode = `${batch.toUpperCase()}-${cleanCode}`;
+
       sundayBatchPaperCache.set(batchKeyPrefix + t.code, paper);
-      sundayBatchPaperCache.set(t.code, paper);
-      sundayBatchPaperCache.set(t.id, paper);
+      sundayBatchPaperCache.set(batchKeyPrefix + cleanCode, paper);
+      sundayBatchPaperCache.set(batchKeyPrefix + t.id, paper);
+      sundayBatchPaperCache.set(batchCode, paper);
+
+      // Repeater is the default batch, so register plain code as well
+      if (batch === 'repeater') {
+        sundayBatchPaperCache.set(t.code, paper);
+        sundayBatchPaperCache.set(cleanCode, paper);
+        sundayBatchPaperCache.set(t.id, paper);
+      }
     }
   }
 }
@@ -2427,9 +2421,9 @@ export function generateSundayTestQuestions(
   // If this paper was customized and saved by admin, load those exact questions directly!
   if (!customChapters) {
     const saved =
-      getSavedCustomSundayPaper(batch + '-' + test.code) ||
-      getSavedCustomSundayPaper(test.code) ||
-      getSavedCustomSundayPaper(test.id);
+      batch !== 'repeater'
+        ? (getSavedCustomSundayPaper(batch + '-' + test.code) || getSavedCustomSundayPaper(batch + '-' + test.id))
+        : (getSavedCustomSundayPaper(batch + '-' + test.code) || getSavedCustomSundayPaper(test.code) || getSavedCustomSundayPaper(test.id));
     if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
       return assertNoDuplicateQuestions(saved.questions.map(q => ({ ...q, difficulty: 'Hard' as const })));
     }
@@ -2509,12 +2503,17 @@ export function generateSundayTestQuestions(
 
   // Official Sunday Test from zero-overlap batch partition
   ensureAllSundayPapersGenerated();
+  const cleanCode = test.code.toUpperCase().trim();
+  const batchKeyPrefix = `${batch}_`;
+  const batchCode = `${batch.toUpperCase()}-${cleanCode}`;
+
   const cached =
-    sundayBatchPaperCache.get(batch + '_' + test.code) ||
-    sundayBatchPaperCache.get(test.code) ||
-    sundayBatchPaperCache.get(test.id) ||
-    sundayBatchPaperCache.get('repeater_' + test.code) ||
-    sundayBatchPaperCache.get('repeater_' + test.id);
+    sundayBatchPaperCache.get(batchKeyPrefix + test.code) ||
+    sundayBatchPaperCache.get(batchKeyPrefix + cleanCode) ||
+    sundayBatchPaperCache.get(batchKeyPrefix + test.id) ||
+    sundayBatchPaperCache.get(batchCode) ||
+    (batch === 'repeater' ? (sundayBatchPaperCache.get(test.code) || sundayBatchPaperCache.get(cleanCode) || sundayBatchPaperCache.get(test.id)) : undefined);
+
   if (cached && cached.length === 180) {
     return cached;
   }

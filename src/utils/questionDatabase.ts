@@ -5,6 +5,7 @@ import { ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS } from '../data/allenAnimalTissuesQu
 import { ALL_ALLEN_ANIMAL_KINGDOM_QUESTIONS } from '../data/allenAnimalKingdomQuestions';
 import { ALL_ALLEN_DIVERSITY_LIVING_WORLD_QUESTIONS } from '../data/allenDiversityLivingWorldQuestions';
 import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
+import { ALL_ALLEN_CHEMISTRY_QUESTIONS } from '../data/allenChemistryQuestions';
 import { ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS } from '../data/allenAtomicStructureQuestions';
 import { ALL_ALLEN_MOLE_CONCEPT_QUESTIONS } from '../data/allenMoleConceptQuestions';
 import { ALL_PHYSICS_MASTER_QUESTIONS } from '../data/physicsMasterQuestions';
@@ -12,6 +13,7 @@ import { supabase } from '../supabaseClient';
 import { recordSuperUserNotification } from './superUserNotifier';
 import { getCurrentUser } from './downloadTracker';
 import { getLearnedKnowledgeStore } from './aiKnowledgeEngine';
+import { syncCustomQuestionsToCloud } from './cloudSyncManager';
 
 const CUSTOM_QUESTIONS_KEY = 'neet_custom_questions';
 
@@ -155,11 +157,28 @@ export const ALL_BIOLOGY_COMBINED_QUESTIONS: Question[] = [
   ...ALL_ALLEN_DIVERSITY_LIVING_WORLD_QUESTIONS
 ];
 const bioIndex = buildChapterIndex(ALL_BIOLOGY_COMBINED_QUESTIONS, 'Biology');
-export const ALL_CHEMISTRY_COMBINED_QUESTIONS: Question[] = [
+function deduplicateQuestions(list: Question[]): Question[] {
+  const seenIds = new Set<string>();
+  const seenTexts = new Set<string>();
+  const deduped: Question[] = [];
+  for (const q of list) {
+    if (!q) continue;
+    const textNorm = (q.questionText || (q as any).question || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (!seenIds.has(q.id) && (textNorm.length <= 15 || !seenTexts.has(textNorm))) {
+      seenIds.add(q.id);
+      if (textNorm.length > 15) seenTexts.add(textNorm);
+      deduped.push(q);
+    }
+  }
+  return deduped;
+}
+
+export const ALL_CHEMISTRY_COMBINED_QUESTIONS: Question[] = deduplicateQuestions([
   ...ALL_CHEMISTRY_MASTER_QUESTIONS,
+  ...ALL_ALLEN_CHEMISTRY_QUESTIONS,
   ...ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS,
   ...ALL_ALLEN_MOLE_CONCEPT_QUESTIONS
-];
+]);
 const chemIndex = buildChapterIndex(ALL_CHEMISTRY_COMBINED_QUESTIONS, 'Chemistry');
 const physIndex = buildChapterIndex(ALL_PHYSICS_MASTER_QUESTIONS, 'Physics');
 
@@ -782,24 +801,10 @@ export function uploadCustomQuestions(newQuestions: Question[], sourceTag: strin
       subject: validatedQuestions[0]?.subject
     });
 
-    // Sync to Supabase if online
-    if (supabase) {
-      supabase.from('custom_question_bank').insert(
-        uniqueToAdd.map(q => ({
-          question_id: q.id,
-          subject: q.subject,
-          chapter: q.chapter,
-          topic: q.topic,
-          difficulty: q.difficulty,
-          question_text: q.questionText,
-          options: q.options,
-          correct_answer: q.correctAnswer,
-          explanation: q.explanation,
-          uploaded_by: userName,
-          created_at: new Date().toISOString()
-        }))
-      ).then(() => {}).catch(() => {});
-    }
+    // Sync to Supabase Cloud so all systems receive updated questions immediately
+    syncCustomQuestionsToCloud(updatedCustom).catch(err => {
+      console.warn('Notice syncing custom questions to cloud:', err);
+    });
 
     return { count: uniqueToAdd.length, totalInBank: getUnifiedQuestionBank().length };
   } catch (err) {
