@@ -101,7 +101,6 @@ import { getSequentialLoopQuestions, resetLoopCursor } from '../utils/questionLo
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 import { DetailedSolutionViewer } from './DetailedSolutionViewer';
-import { AdminPublishingCenter } from './AdminPublishingCenter';
 
 interface AdminSectionProps {
   onClose?: () => void;
@@ -114,7 +113,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   onStartCustomTest,
   onOpenUploadModal
 }) => {
-  const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'publishing' | 'generator' | 'telemetry' | 'students'>('requests');
+  const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'generator' | 'telemetry' | 'students'>('requests');
   const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
   const [actionSuccessBanner, setActionSuccessBanner] = useState<string | null>(null);
 
@@ -656,12 +655,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
     });
 
-    setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved & published platform-wide! All candidates will now receive these 180 questions with 100% chapter isolation.`);
-    setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} published!`);
+    setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved as DEFAULT! All candidates across all devices will receive this exact paper.`);
+    setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} set as Master Default for all students!`);
     setTimeout(() => {
       setPublishSuccessMsg(null);
       setActionSuccessBanner(null);
@@ -749,7 +748,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     setSundayQuestions(currentList);
 
-    // Auto-save permanently so modifications immediately reflect across the platform
+    // Auto-save as default so modifications immediately reflect across the platform as default for all students
     saveCustomSundayPaper(selectedPlannerPreset, {
       questions: currentList,
       customChapters: {
@@ -757,7 +756,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
     });
 
@@ -771,7 +770,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       }
     });
 
-    setActionSuccessBanner(`✓ Swapped "${fromTopic}" with "${toTopic}" — ${targetCount} questions allocated with 100% strict chapter isolation!`);
+    setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") & set as DEFAULT for all students!`);
     setTimeout(() => setActionSuccessBanner(null), 4000);
   };
 
@@ -909,7 +908,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const total180 = [...phy45, ...chem45, ...bot45, ...zoo45];
     setSundayQuestions(total180);
 
-    // Auto-save permanently so modifications immediately reflect across the platform
+    // Auto-save as default so modifications immediately reflect across the platform as master default
     saveCustomSundayPaper(selectedPlannerPreset, {
       questions: total180,
       customChapters: {
@@ -917,11 +916,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
     });
 
-    setActionSuccessBanner('✓ Fresh 180-Question Sunday Test Paper Assembled & Permanently Saved!');
+    setActionSuccessBanner('✓ Fresh 180-Question Sunday Test Paper assembled & set as DEFAULT for all students!');
     setTimeout(() => setActionSuccessBanner(null), 3500);
   };
 
@@ -969,7 +968,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     copy[questionIdx] = newQ;
     setSundayQuestions(copy);
 
-    // Auto-save permanently so modifications immediately reflect across the platform
+    // Auto-save as default so modifications immediately reflect across the platform as master default
     saveCustomSundayPaper(selectedPlannerPreset, {
       questions: copy,
       customChapters: {
@@ -977,12 +976,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
     });
 
-    setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped strictly with a question from ${ch || sub} & permanently saved!`);
-    setTimeout(() => setActionSuccessBanner(null), 3000);
+    setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped & set as DEFAULT for all students!`);
+    setTimeout(() => setActionSuccessBanner(null), 3500);
   };
 
   const handleStartEditQuestion = (idx: number) => {
@@ -1008,7 +1007,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     };
     setSundayQuestions(copy);
 
-    // Auto-save permanently so modifications immediately reflect across the platform
+    // Auto-save as default so modifications immediately reflect across the platform as master default
     saveCustomSundayPaper(selectedPlannerPreset, {
       questions: copy,
       customChapters: {
@@ -1016,14 +1015,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
     });
 
     setEditingQuestionIdx(null);
     setEditForm(null);
-    setActionSuccessBanner(`✓ Question #${idx + 1} updated & permanently saved!`);
-    setTimeout(() => setActionSuccessBanner(null), 3000);
+    setActionSuccessBanner(`✓ Question #${idx + 1} updated & set as DEFAULT for all students!`);
+    setTimeout(() => setActionSuccessBanner(null), 3500);
   };
 
   const handlePublishSundayPaper = () => {
@@ -1479,21 +1478,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         </button>
 
         <button
-          onClick={() => setAdminTab('publishing')}
-          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
-            adminTab === 'publishing'
-              ? 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-xs'
-              : 'bg-emerald-50 text-emerald-800 border border-emerald-200/80 hover:bg-emerald-100'
-          }`}
-        >
-          <Globe className="w-4 h-4 text-emerald-500" />
-          <span>Universal Publishing & 1M Distribution</span>
-          <span className="px-1.5 py-0.5 rounded-full bg-emerald-600 text-white text-[10px] font-mono font-bold">
-            Draft/Live
-          </span>
-        </button>
-
-        <button
           onClick={() => setAdminTab('generator')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'generator'
@@ -1734,11 +1718,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         </div>
       )}
 
-      {/* TAB: UNIVERSAL PUBLISHING & 1M DISTRIBUTION */}
-      {adminTab === 'publishing' && (
-        <AdminPublishingCenter adminEmail="admin@neetcbtexam.com" />
-      )}
-
       {/* TAB: SUNDAY TEST PAPER STUDIO (180 QUESTIONS INSPECTOR & CUSTOMIZER) */}
       {adminTab === 'sunday_studio' && (
         <div className="space-y-6">
@@ -1753,11 +1732,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   {isCurrentPaperCustomized ? (
                     <span className="px-3 py-1 rounded-full text-[11px] font-mono font-black bg-emerald-500/20 text-emerald-300 border border-emerald-400/40 flex items-center gap-1.5 shadow-xs">
                       <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                      Admin Customized Paper Active
+                      Master Default Active (Live for All Candidates)
                     </span>
                   ) : (
                     <span className="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-blue-500/20 text-blue-300 border border-blue-400/30">
-                      Standard Planner Syllabus
+                      Standard Planner Default
                     </span>
                   )}
                 </div>
@@ -1766,7 +1745,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   Sunday Test Paper Studio: <span className="text-amber-300 font-mono underline decoration-amber-400/50">{selectedPlannerPreset.toUpperCase()}</span>
                 </h3>
                 <p className="text-xs text-indigo-200/90 mt-1 max-w-2xl leading-relaxed">
-                  Select and edit <strong>all Sunday papers</strong> across Chapter-Wise (CWT-01 to 19), Cumulative (CUM-01 to 05), Part-Wise (PART-01 to 03), and Full-Syllabus (FST-01 to 06). Choose specific topics, inspect questions 1 to 180, edit question text, answer keys, and solutions in-place.
+                  Select and edit <strong>all Sunday papers</strong> across Chapter-Wise (CWT-01 to 19), Cumulative (CUM-01 to 05), Part-Wise (PART-01 to 03), and Full-Syllabus (FST-01 to 06). When you swap a question, edit a question, or swap a topic, it automatically becomes the <strong>Master Default</strong> for all candidates platform-wide.
                 </p>
               </div>
 
@@ -1775,20 +1754,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 <button
                   onClick={handleSaveAndPublishSelectedPaper}
                   className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-xl text-xs font-black transition flex items-center gap-2 shadow-md cursor-pointer"
-                  title="Save & Publish this specific Sunday Paper for all students"
+                  title="Save this specific Sunday Paper as Master Default for all students"
                 >
                   <CheckCheck className="w-4 h-4" />
-                  Save & Publish {selectedPlannerPreset.toUpperCase()}
+                  Save as Master Default ({selectedPlannerPreset.toUpperCase()})
                 </button>
 
                 {isCurrentPaperCustomized && (
                   <button
                     onClick={handleResetSelectedPaperToDefault}
                     className="px-3 py-2.5 bg-rose-500/20 hover:bg-rose-500/40 text-rose-200 border border-rose-400/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer"
-                    title="Reset this paper back to default planner syllabus and questions"
+                    title="Revert this paper back to original base syllabus template"
                   >
                     <RotateCcw className="w-3.5 h-3.5" />
-                    Reset to Default
+                    Revert to Base Template
                   </button>
                 )}
 

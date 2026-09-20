@@ -2027,8 +2027,18 @@ export function saveCustomSundayPaper(
       publishedBy: data.publishedBy || 'Admin Portal'
     };
     all[key] = payload;
-    if (cleanKey && cleanKey !== key) {
+    all[paperCode.toUpperCase()] = payload;
+    if (cleanKey) {
       all[cleanKey] = payload;
+      all[cleanKey.toUpperCase()] = payload;
+      all[`11th-${cleanKey}`] = payload;
+      all[`12th-${cleanKey}`] = payload;
+      all[`repeater-${cleanKey}`] = payload;
+      all[`dropper-${cleanKey}`] = payload;
+      all[`11TH-${cleanKey.toUpperCase()}`] = payload;
+      all[`12TH-${cleanKey.toUpperCase()}`] = payload;
+      all[`REPEATER-${cleanKey.toUpperCase()}`] = payload;
+      all[`DROPPER-${cleanKey.toUpperCase()}`] = payload;
     }
     localStorage.setItem(SUNDAY_CUSTOM_PAPERS_KEY, JSON.stringify(all));
 
