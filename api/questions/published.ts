@@ -88,6 +88,47 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const { data: rows, error } = await query.limit(1);
 
     if (error || !rows || rows.length === 0) {
+      // Check if we can build an initial published version from authoritative questions table
+      const { data: qData, error: qErr } = await serverSupabase
+        .from('questions')
+        .select('*')
+        .order('id', { ascending: true })
+        .limit(180);
+
+      if (!qErr && qData && qData.length > 0) {
+        const payload = qData.map((q: any, i: number) => ({
+          id: q.id,
+          subject: q.subject || 'Physics',
+          chapter: q.chapter || 'General',
+          topic: q.topic || '',
+          subtopic: '',
+          difficulty: q.difficulty || 'Medium',
+          questionText: q.question_text || '',
+          options: q.options || [],
+          correctAnswer: q.correct_answer !== undefined ? q.correct_answer : 0,
+          explanation: q.explanation || '',
+          diagramSvg: q.diagram_svg || null,
+          orderIndex: i + 1,
+          version: 1
+        }));
+
+        const snapshotObj = {
+          versionId: 1,
+          versionTag: 'v1.0.0-central-bank',
+          checksum: 'init-' + payload.length,
+          publishedAt: new Date().toISOString(),
+          questionCount: payload.length,
+          payload: payload,
+          cachedAt: Date.now()
+        };
+
+        if (!requestedVersion) {
+          setMemoryCurrentVersion(snapshotObj);
+        }
+
+        return servePublishedResponse(req, res, snapshotObj, false, 'INITIAL_DB_POPULATED');
+      }
+
       // Fallback: If no published version exists yet, return empty standard structure
       res.setHeader('Cache-Control', 'public, s-maxage=10, stale-while-revalidate=30');
       return res.status(200).json({

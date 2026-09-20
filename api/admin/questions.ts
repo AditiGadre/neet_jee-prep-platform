@@ -39,7 +39,45 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         .order('id', { ascending: true });
 
       if (error) {
-        // If table doesn't exist yet or has error, handle gracefully
+        // Fallback: Query authoritative 'questions' table
+        const { data: legacyData, error: legacyErr } = await serverSupabase
+          .from('questions')
+          .select('*')
+          .order('id', { ascending: true })
+          .limit(250);
+
+        if (!legacyErr && legacyData && legacyData.length > 0) {
+          const fallbackQuestions = legacyData.map((q: any, idx: number) => ({
+            id: q.id,
+            subject: q.subject || 'Physics',
+            chapter: q.chapter || 'General',
+            topic: q.topic || '',
+            subtopic: '',
+            difficulty: q.difficulty || 'Medium',
+            questionText: q.question_text || '',
+            options: q.options || [],
+            correctAnswer: q.correct_answer !== undefined ? q.correct_answer : 0,
+            explanation: q.explanation || '',
+            diagramSvg: q.diagram_svg || null,
+            tags: ['Central Bank'],
+            status: 'published',
+            orderIndex: idx + 1,
+            version: 1,
+            updatedBy: 'system',
+            updatedAt: new Date().toISOString()
+          }));
+
+          return res.status(200).json({
+            success: true,
+            questions: fallbackQuestions,
+            totalCount: fallbackQuestions.length,
+            draftCount: 0,
+            publishedCount: fallbackQuestions.length,
+            message: 'Loaded central questions from authoritative database store.',
+            serverTimestamp: new Date().toISOString()
+          });
+        }
+
         return res.status(200).json({
           success: true,
           questions: [],

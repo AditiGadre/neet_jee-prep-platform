@@ -256,3 +256,39 @@ BEGIN
     RETURN v_result;
 END;
 $$;
+
+
+-- ============================================================================
+-- 6. SECURITY & ACCESS GRANTS (ANON & AUTHENTICATED ROLES)
+-- ============================================================================
+GRANT USAGE ON SCHEMA public TO anon, authenticated, service_role;
+GRANT ALL ON TABLE admin_users TO anon, authenticated, service_role;
+GRANT ALL ON TABLE question_bank_items TO anon, authenticated, service_role;
+GRANT ALL ON TABLE published_versions TO anon, authenticated, service_role;
+GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO anon, authenticated, service_role;
+
+-- Grant procedure execution
+GRANT EXECUTE ON FUNCTION publish_question_bank_version(TEXT, TEXT) TO anon, authenticated, service_role;
+GRANT EXECUTE ON FUNCTION rollback_question_bank_version(INT, TEXT) TO anon, authenticated, service_role;
+
+-- Row Level Security policies
+ALTER TABLE admin_users ENABLE ROW LEVEL SECURITY;
+ALTER TABLE question_bank_items ENABLE ROW LEVEL SECURITY;
+ALTER TABLE published_versions ENABLE ROW LEVEL SECURITY;
+
+-- Permissive policies for publishing system
+DROP POLICY IF EXISTS "Allow public read published_versions" ON published_versions;
+CREATE POLICY "Allow public read published_versions" ON published_versions FOR SELECT USING (true);
+
+DROP POLICY IF EXISTS "Allow admin write published_versions" ON published_versions;
+CREATE POLICY "Allow admin write published_versions" ON published_versions FOR ALL USING (true) WITH CHECK (true);
+
+DROP POLICY IF EXISTS "Allow public read question_bank_items" ON question_bank_items;
+CREATE POLICY "Allow public read question_bank_items" ON question_bank_items FOR SELECT USING (true);
+
+DROP POLICY IF EXISTS "Allow admin write question_bank_items" ON question_bank_items;
+CREATE POLICY "Allow admin write question_bank_items" ON question_bank_items FOR ALL USING (true) WITH CHECK (true);
+
+DROP POLICY IF EXISTS "Allow admin access admin_users" ON admin_users;
+CREATE POLICY "Allow admin access admin_users" ON admin_users FOR ALL USING (true) WITH CHECK (true);
+
