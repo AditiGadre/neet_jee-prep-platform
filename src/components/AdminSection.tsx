@@ -51,7 +51,8 @@ import {
   Dna,
   ChevronDown,
   ChevronUp,
-  Crown
+  Crown,
+  Globe
 } from 'lucide-react';
 import {
   getUnifiedQuestionBank,

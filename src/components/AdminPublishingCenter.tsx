@@ -164,7 +164,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
         const res = await saveAuthoritativeQuestion(id, expectedVersion, editingQuestion, adminEmail);
 
-        if ('conflict' in res && res.conflict) {
+        if ('conflict' in res) {
           setConflictError(
             `CONCURRENT EDIT CONFLICT: Another administrator modified this question (Server Version: v${res.serverVersion}, Your Version: v${res.expectedVersion}). Please review and refresh.`
           );

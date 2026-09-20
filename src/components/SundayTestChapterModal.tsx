@@ -183,7 +183,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
       title: initialTest?.title || 'NeetCbt Exam Test: Sunday 180-Question PCB All-India Mock',
       category: 'neet_mock',
       exam: 'NEET',
-      syllabus: Calendar Syllabus: Physics ( Units), Chemistry ( Units), Biology ( Blocks),
+      syllabus: 'Calendar Syllabus: Physics ( Units), Chemistry ( Units), Biology ( Blocks)',
       totalQuestions: 180,
       durationMinutes: 180,
       totalMarks: 720,

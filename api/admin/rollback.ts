@@ -1,5 +1,22 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { serverSupabase, invalidateMemoryCache, setMemoryCurrentVersion } from '../_supabase';
+import { createClient } from '@supabase/supabase-js';
+
+const SUPABASE_URL = 
+  process.env.VITE_SUPABASE_URL || 
+  process.env.SUPABASE_URL || 
+  'https://emfnqqxsyidicqxnxxxj.supabase.co';
+
+const SUPABASE_SERVICE_ROLE_OR_ANON_KEY = 
+  process.env.SUPABASE_SERVICE_ROLE_KEY || 
+  process.env.VITE_SUPABASE_ANON_KEY || 
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVtZm5xcXhzeWlkaWNxeG54eHhqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODczMjk3OTcsImV4cCI6MjEwMjkwNTc5N30.L-yNwKM4F3hOHnjiYjrMm9H9r4xWRTNHPxTjf8yfObg';
+
+const serverSupabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_OR_ANON_KEY, {
+  auth: { persistSession: false }
+});
+
+const invalidateMemoryCache = () => {};
+const setMemoryCurrentVersion = (_v: any) => {};
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Origin', '*');
