@@ -100,6 +100,7 @@ import { getSequentialLoopQuestions, resetLoopCursor } from '../utils/questionLo
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 import { DetailedSolutionViewer } from './DetailedSolutionViewer';
+import { AdminPublishingCenter } from './AdminPublishingCenter';
 
 interface AdminSectionProps {
   onClose?: () => void;
@@ -112,7 +113,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   onStartCustomTest,
   onOpenUploadModal
 }) => {
-  const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'generator' | 'telemetry' | 'students'>('requests');
+  const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'publishing' | 'generator' | 'telemetry' | 'students'>('requests');
   const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
   const [actionSuccessBanner, setActionSuccessBanner] = useState<string | null>(null);
 
@@ -1477,6 +1478,21 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         </button>
 
         <button
+          onClick={() => setAdminTab('publishing')}
+          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+            adminTab === 'publishing'
+              ? 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-xs'
+              : 'bg-emerald-50 text-emerald-800 border border-emerald-200/80 hover:bg-emerald-100'
+          }`}
+        >
+          <Globe className="w-4 h-4 text-emerald-500" />
+          <span>Universal Publishing & 1M Distribution</span>
+          <span className="px-1.5 py-0.5 rounded-full bg-emerald-600 text-white text-[10px] font-mono font-bold">
+            Draft/Live
+          </span>
+        </button>
+
+        <button
           onClick={() => setAdminTab('generator')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'generator'
@@ -1715,6 +1731,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
           </div>
         </div>
+      )}
+
+      {/* TAB: UNIVERSAL PUBLISHING & 1M DISTRIBUTION */}
+      {adminTab === 'publishing' && (
+        <AdminPublishingCenter adminEmail="admin@neetcbtexam.com" />
       )}
 
       {/* TAB: SUNDAY TEST PAPER STUDIO (180 QUESTIONS INSPECTOR & CUSTOMIZER) */}
