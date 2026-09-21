@@ -125,15 +125,40 @@ async function insertSystemRow(row: {
 // 1. SUNDAY TEST PAPER PERSISTENCE
 export async function syncSundayPaperToCloud(paper: SyncedSundayPaper): Promise<boolean> {
   const cleanCode = paper.paperCode.toUpperCase().trim();
-  const rowId = SUNDAY_PAPER_PREFIX + cleanCode + '__' + Date.now();
+  const baseCode = cleanCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
+  const is11th = cleanCode.startsWith('11TH-');
+  const is12th = cleanCode.startsWith('12TH-');
+  const now = Date.now();
+  const rowId = SUNDAY_PAPER_PREFIX + cleanCode + '__' + now;
 
+  // Ensure valid updatedAt timestamp
+  if (!paper.updatedAt || isNaN(new Date(paper.updatedAt).getTime())) {
+    paper.updatedAt = new Date(now).toISOString();
+  }
+  paper.paperCode = cleanCode;
+
+  // Update in-memory cache across all key aliases
   memorySundayPaperCache.set(cleanCode, paper);
+  memorySundayPaperCache.set(baseCode, paper);
+  if (!is11th && !is12th) {
+    memorySundayPaperCache.set('REPEATER-' + baseCode, paper);
+    memorySundayPaperCache.set('DROPPER-' + baseCode, paper);
+  }
 
+  // Update localStorage immediately across all key aliases
   try {
     const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
     const localPapers = localPapersRaw ? JSON.parse(localPapersRaw) : {};
     localPapers[cleanCode.toLowerCase()] = paper;
     localPapers[cleanCode] = paper;
+    localPapers[baseCode.toLowerCase()] = paper;
+    localPapers[baseCode] = paper;
+    if (!is11th && !is12th) {
+      localPapers['repeater-' + baseCode.toLowerCase()] = paper;
+      localPapers['repeater-' + baseCode] = paper;
+      localPapers['dropper-' + baseCode.toLowerCase()] = paper;
+      localPapers['dropper-' + baseCode] = paper;
+    }
     localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
   } catch {}
 
@@ -152,6 +177,24 @@ export async function syncSundayPaperToCloud(paper: SyncedSundayPaper): Promise<
       correct_answer: 0,
       explanation: 'Global Synced Sunday Paper: ' + cleanCode
     });
+
+    // Also persist aliases so any batch queries (e.g. 11th, 12th, dropper) find the exact same master paper
+    if (!is11th && !is12th) {
+      const aliasCodes = [baseCode, 'REPEATER-' + baseCode, 'DROPPER-' + baseCode].filter(c => c !== cleanCode);
+      for (const alias of aliasCodes) {
+        await insertSystemRow({
+          id: SUNDAY_PAPER_PREFIX + alias + '__' + now,
+          subject: '__SYSTEM_SYNC__',
+          chapter: 'SUNDAY_TEST_PAPERS',
+          topic: alias,
+          difficulty: 'System',
+          question_text: payloadJson,
+          options: ['SYNC_PAYLOAD_V2', alias],
+          correct_answer: 0,
+          explanation: 'Global Synced Sunday Paper: ' + alias
+        });
+      }
+    }
 
     if (success) {
       window.dispatchEvent(
@@ -173,28 +216,26 @@ export async function fetchSundayPaperFromCloud(paperCode: string, forceCloud = 
   const is12th = cleanCode.startsWith('12TH-');
   const baseCode = cleanCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
 
-  // 1. Check in-memory cache
-  if (memorySundayPaperCache.has(cleanCode)) return memorySundayPaperCache.get(cleanCode)!;
-  if (!is11th && !is12th && memorySundayPaperCache.has(baseCode)) return memorySundayPaperCache.get(baseCode)!;
+  // 1. Check in-memory cache ONLY IF not forced
+  if (!forceCloud) {
+    if (memorySundayPaperCache.has(cleanCode)) return memorySundayPaperCache.get(cleanCode)!;
+    if (!is11th && !is12th && memorySundayPaperCache.has(baseCode)) return memorySundayPaperCache.get(baseCode)!;
+  }
 
   // 2. Query Supabase cloud database
   if (supabase) {
     try {
       let targetTopics: string[];
-      let targetIds: string[];
+      let orFilter: string;
       if (is11th) {
-        targetTopics = ['11TH-' + baseCode, cleanCode];
-        targetIds = [SUNDAY_PAPER_PREFIX + '11TH-' + baseCode];
+        targetTopics = ['11TH-' + baseCode, cleanCode, '11th-' + baseCode.toLowerCase()];
+        orFilter = `topic.in.(${targetTopics.join(',')}),id.ilike.${SUNDAY_PAPER_PREFIX}11TH-${baseCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}${cleanCode}%`;
       } else if (is12th) {
-        targetTopics = ['12TH-' + baseCode, cleanCode];
-        targetIds = [SUNDAY_PAPER_PREFIX + '12TH-' + baseCode, SUNDAY_PAPER_PREFIX + cleanCode];
+        targetTopics = ['12TH-' + baseCode, cleanCode, '12th-' + baseCode.toLowerCase()];
+        orFilter = `topic.in.(${targetTopics.join(',')}),id.ilike.${SUNDAY_PAPER_PREFIX}12TH-${baseCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}${cleanCode}%`;
       } else {
-        targetTopics = [cleanCode, baseCode, 'REPEATER-' + baseCode];
-        targetIds = [
-          SUNDAY_PAPER_PREFIX + cleanCode,
-          SUNDAY_PAPER_PREFIX + baseCode,
-          SUNDAY_PAPER_PREFIX + 'REPEATER-' + baseCode
-        ];
+        targetTopics = [cleanCode, baseCode, 'REPEATER-' + baseCode, 'DROPPER-' + baseCode, cleanCode.toLowerCase(), baseCode.toLowerCase()];
+        orFilter = `topic.in.(${targetTopics.join(',')}),id.ilike.${SUNDAY_PAPER_PREFIX}${cleanCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}${baseCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}REPEATER-${baseCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}DROPPER-${baseCode}%`;
       }
 
       const { data, error } = await supabase
@@ -202,15 +243,23 @@ export async function fetchSundayPaperFromCloud(paperCode: string, forceCloud = 
         .select('id, topic, question_text')
         .eq('subject', '__SYSTEM_SYNC__')
         .eq('chapter', 'SUNDAY_TEST_PAPERS')
-        .or(`topic.in.(${targetTopics.join(',')}),id.in.(${targetIds.join(',')})`);
+        .or(orFilter);
 
       if (!error && data && data.length > 0) {
         let latest: SyncedSundayPaper | null = null;
+        let latestTs = -1;
         for (const row of data) {
           try {
             const paper = JSON.parse(row.question_text) as SyncedSundayPaper;
             if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
-              if (!latest || new Date(paper.updatedAt).getTime() >= new Date(latest.updatedAt).getTime()) {
+              let ts = new Date(paper.updatedAt || 0).getTime();
+              if (isNaN(ts) || ts <= 0) ts = 0;
+              const idMatch = (row.id || '').match(/__(\d{12,})$/);
+              if (idMatch) {
+                ts = Math.max(ts, parseInt(idMatch[1], 10));
+              }
+              if (ts > latestTs || !latest) {
+                latestTs = ts;
                 latest = paper;
               }
             }
@@ -219,15 +268,23 @@ export async function fetchSundayPaperFromCloud(paperCode: string, forceCloud = 
 
         if (latest) {
           memorySundayPaperCache.set(cleanCode, latest);
-          if (!is11th && !is12th) memorySundayPaperCache.set(baseCode, latest);
+          memorySundayPaperCache.set(baseCode, latest);
+          if (!is11th && !is12th) {
+            memorySundayPaperCache.set('REPEATER-' + baseCode, latest);
+            memorySundayPaperCache.set('DROPPER-' + baseCode, latest);
+          }
           try {
             const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
             const localPapers = localPapersRaw ? JSON.parse(localPapersRaw) : {};
             localPapers[cleanCode.toLowerCase()] = latest;
             localPapers[cleanCode] = latest;
+            localPapers[baseCode.toLowerCase()] = latest;
+            localPapers[baseCode] = latest;
             if (!is11th && !is12th) {
-              localPapers[baseCode.toLowerCase()] = latest;
-              localPapers[baseCode] = latest;
+              localPapers['repeater-' + baseCode.toLowerCase()] = latest;
+              localPapers['repeater-' + baseCode] = latest;
+              localPapers['dropper-' + baseCode.toLowerCase()] = latest;
+              localPapers['dropper-' + baseCode] = latest;
             }
             localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
           } catch {}
@@ -247,7 +304,7 @@ export async function fetchSundayPaperFromCloud(paperCode: string, forceCloud = 
       const matched =
         localPapers[cleanCode.toLowerCase()] ||
         localPapers[cleanCode] ||
-        (!is11th && !is12th ? (localPapers[baseCode.toLowerCase()] || localPapers[baseCode]) : undefined);
+        (!is11th && !is12th ? (localPapers[baseCode.toLowerCase()] || localPapers[baseCode] || localPapers['repeater-' + baseCode.toLowerCase()]) : undefined);
       if (matched && Array.isArray(matched.questions) && matched.questions.length === 180) {
         memorySundayPaperCache.set(cleanCode, matched);
         return matched;
@@ -263,6 +320,8 @@ export async function deleteSundayPaperFromCloud(paperCode: string): Promise<boo
   const baseCode = cleanCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
   memorySundayPaperCache.delete(cleanCode);
   memorySundayPaperCache.delete(baseCode);
+  memorySundayPaperCache.delete('REPEATER-' + baseCode);
+  memorySundayPaperCache.delete('DROPPER-' + baseCode);
 
   try {
     const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
@@ -272,25 +331,18 @@ export async function deleteSundayPaperFromCloud(paperCode: string): Promise<boo
       delete localPapers[cleanCode];
       delete localPapers[baseCode.toLowerCase()];
       delete localPapers[baseCode];
+      delete localPapers['repeater-' + baseCode.toLowerCase()];
+      delete localPapers['dropper-' + baseCode.toLowerCase()];
       localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
     }
   } catch {}
 
-  if (!supabase) return false;
-
-  try {
-    const rowId = SUNDAY_PAPER_PREFIX + cleanCode;
-    const baseRowId = SUNDAY_PAPER_PREFIX + baseCode;
-    const { error } = await supabase.from('questions').delete().or('id.eq.' + rowId + ',id.eq.' + baseRowId);
-    if (!error) {
-      window.dispatchEvent(new CustomEvent('neet_cloud_sunday_paper_deleted', { detail: { paperCode: cleanCode } }));
-      return true;
-    }
-  } catch (e) {
-    console.warn('Failed to delete Sunday paper ' + cleanCode + ' from cloud:', e);
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('neet_cloud_sunday_paper_deleted', { detail: { paperCode: cleanCode } }));
   }
-  return false;
+  return true;
 }
+
 
 export async function fetchAllSundayPapersFromCloud(): Promise<Record<string, SyncedSundayPaper>> {
   const result: Record<string, SyncedSundayPaper> = {};
@@ -722,10 +774,59 @@ export async function initCloudSync(): Promise<void> {
             table: 'questions',
             filter: 'subject=eq.__SYSTEM_SYNC__'
           },
-          () => {
-            fetchAllSundayPapersFromCloud().catch(() => {});
-            fetchAdminConfigFromCloud().catch(() => {});
-            fetchCustomQuestionsFromCloud().catch(() => {});
+          (payload: any) => {
+            const row = payload?.new;
+            if (row && row.chapter === 'SUNDAY_TEST_PAPERS' && row.question_text) {
+              try {
+                const paper = JSON.parse(row.question_text) as SyncedSundayPaper;
+                if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
+                  const pCode = (paper.paperCode || row.topic || '').toUpperCase().trim();
+                  const baseCode = pCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
+                  const is11th = pCode.startsWith('11TH-');
+                  const is12th = pCode.startsWith('12TH-');
+
+                  const cached = memorySundayPaperCache.get(pCode);
+                  const incomingTs = new Date(paper.updatedAt || 0).getTime() || 0;
+                  const cachedTs = cached ? new Date(cached.updatedAt || 0).getTime() || 0 : 0;
+
+                  if (incomingTs >= cachedTs) {
+                    memorySundayPaperCache.set(pCode, paper);
+                    memorySundayPaperCache.set(baseCode, paper);
+                    if (!is11th && !is12th) {
+                      memorySundayPaperCache.set('REPEATER-' + baseCode, paper);
+                      memorySundayPaperCache.set('DROPPER-' + baseCode, paper);
+                    }
+                    try {
+                      const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
+                      const localPapers = localPapersRaw ? JSON.parse(localPapersRaw) : {};
+                      localPapers[pCode.toLowerCase()] = paper;
+                      localPapers[pCode] = paper;
+                      localPapers[baseCode.toLowerCase()] = paper;
+                      localPapers[baseCode] = paper;
+                      if (!is11th && !is12th) {
+                        localPapers['repeater-' + baseCode.toLowerCase()] = paper;
+                        localPapers['repeater-' + baseCode] = paper;
+                        localPapers['dropper-' + baseCode.toLowerCase()] = paper;
+                        localPapers['dropper-' + baseCode] = paper;
+                      }
+                      localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
+                    } catch {}
+
+                    if (typeof window !== 'undefined') {
+                      window.dispatchEvent(
+                        new CustomEvent('neet_cloud_sunday_paper_synced', {
+                          detail: { paperCode: pCode, paper, source: 'realtime' }
+                        })
+                      );
+                    }
+                  }
+                }
+              } catch {}
+            } else if (row && row.chapter === 'ADMIN_CONFIG') {
+              fetchAdminConfigFromCloud().catch(() => {});
+            } else if (row && row.chapter === 'CUSTOM_QUESTIONS') {
+              fetchCustomQuestionsFromCloud().catch(() => {});
+            }
           }
         )
         .subscribe();
@@ -735,16 +836,14 @@ export async function initCloudSync(): Promise<void> {
   }
 
   if (typeof window !== 'undefined') {
-    // 20-second active background polling
+    // 15-second active background polling for lightweight config & custom questions
     setInterval(() => {
       fetchAdminConfigFromCloud().catch(() => {});
-      fetchAllSundayPapersFromCloud().catch(() => {});
       fetchCustomQuestionsFromCloud().catch(() => {});
-    }, 20000);
+    }, 15000);
 
     window.addEventListener('focus', () => {
       fetchAdminConfigFromCloud().catch(() => {});
-      fetchAllSundayPapersFromCloud().catch(() => {});
       fetchCustomQuestionsFromCloud().catch(() => {});
     });
   }
