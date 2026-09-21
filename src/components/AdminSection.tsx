@@ -52,7 +52,10 @@ import {
   ChevronDown,
   ChevronUp,
   Crown,
-  Globe
+  Globe,
+  ArrowUp,
+  ArrowDown,
+  AlertTriangle
 } from 'lucide-react';
 import {
   getUnifiedQuestionBank,
@@ -101,6 +104,18 @@ import { getSequentialLoopQuestions, resetLoopCursor } from '../utils/questionLo
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 import { DetailedSolutionViewer } from './DetailedSolutionViewer';
+import {
+  swapQuestions,
+  swapSingleQuestionWithBank,
+  saveQuestionEdit,
+  swapTopics,
+  fetchAuthoritativePaper,
+  commitAuthoritativePaperToCloud,
+  subscribeToPaperRealtime,
+  getLastSyncedTimestamp,
+  setLastSyncedTimestamp,
+  syncTopicAllocationsToCloud
+} from '../services/authoritativeCloudService';
 
 interface AdminSectionProps {
   onClose?: () => void;
@@ -116,6 +131,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'generator' | 'telemetry' | 'students'>('requests');
   const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
   const [actionSuccessBanner, setActionSuccessBanner] = useState<string | null>(null);
+  const [actionErrorBanner, setActionErrorBanner] = useState<string | null>(null);
 
   // Question Bank Inventory & Chapter Analytics State
   const [inventorySubject, setInventorySubject] = useState<'All' | 'Physics' | 'Chemistry' | 'Biology'>('All');
@@ -283,6 +299,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   ]);
   const [selectedPlannerPreset, setSelectedPlannerPreset] = useState<string>('CWT-01');
   const [isStudioLoadingPaper, setIsStudioLoadingPaper] = useState<boolean>(false);
+  const [isSyncingAction, setIsSyncingAction] = useState<boolean>(false);
+  const [lastSyncedTime, setLastSyncedTime] = useState<string | null>(() => getLastSyncedTimestamp());
   const [sundayQuestions, setSundayQuestions] = useState<Question[]>(() => {
     try {
       const savedPaper = getSavedCustomSundayPaper('CWT-01');
@@ -312,11 +330,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     let isMounted = true;
     setIsStudioLoadingPaper(true);
 
-    fetchSundayPaperFromCloud(selectedPlannerPreset, true)
+    fetchAuthoritativePaper(selectedPlannerPreset, true)
       .then(paper => {
         if (!isMounted || !paper) return;
         if (Array.isArray(paper.questions) && paper.questions.length === 180) {
           setSundayQuestions(paper.questions);
+          setLastSyncedTime(paper.updatedAt);
           if (paper.customChapters) {
             if (paper.customChapters.physics?.length) setSundayPhyUnits(paper.customChapters.physics);
             if (paper.customChapters.chemistry?.length) setSundayChemUnits(paper.customChapters.chemistry);
@@ -333,6 +352,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     fetchCustomQuestionsFromCloud().catch(() => {});
 
+    // Live Realtime Subscription to Supabase Channel
+    const unsubscribeRealtime = subscribeToPaperRealtime(selectedPlannerPreset, (incomingPaper) => {
+      if (!isMounted) return;
+      setSundayQuestions(incomingPaper.questions);
+      setLastSyncedTime(incomingPaper.updatedAt);
+      if (incomingPaper.customChapters) {
+        if (incomingPaper.customChapters.physics?.length) setSundayPhyUnits(incomingPaper.customChapters.physics);
+        if (incomingPaper.customChapters.chemistry?.length) setSundayChemUnits(incomingPaper.customChapters.chemistry);
+        if (incomingPaper.customChapters.biology?.length) setSundayBioUnits(incomingPaper.customChapters.biology);
+      }
+      setActionSuccessBanner(`⚡ Master Default paper ${incomingPaper.paperCode} updated live from another admin device!`);
+      setTimeout(() => setActionSuccessBanner(null), 3500);
+    });
+
     const handleSundayPaperSynced = (e: any) => {
       if (!isMounted) return;
       const code = e.detail?.paperCode?.toUpperCase();
@@ -341,14 +374,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       if (code && (code === currentCode || code === baseCode || code === `REPEATER-${baseCode}`)) {
         if (e.detail?.paper?.questions && e.detail.paper.questions.length === 180) {
           setSundayQuestions(e.detail.paper.questions);
+          setLastSyncedTime(e.detail.paper.updatedAt || new Date().toISOString());
           if (e.detail.paper.customChapters) {
             if (e.detail.paper.customChapters.physics?.length) setSundayPhyUnits(e.detail.paper.customChapters.physics);
             if (e.detail.paper.customChapters.chemistry?.length) setSundayChemUnits(e.detail.paper.customChapters.chemistry);
             if (e.detail.paper.customChapters.biology?.length) setSundayBioUnits(e.detail.paper.customChapters.biology);
-          }
-          if (e.detail.source === 'realtime') {
-            setActionSuccessBanner(`⚡ Master Default paper ${code} updated live from another admin device!`);
-            setTimeout(() => setActionSuccessBanner(null), 3500);
           }
         }
       }
@@ -358,6 +388,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     return () => {
       isMounted = false;
+      unsubscribeRealtime();
       window.removeEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
     };
   }, [selectedPlannerPreset]);
@@ -604,11 +635,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     setEditForm(null);
     setIsStudioLoadingPaper(true);
 
-    // 1. Check cloud database first for universal real-time consistency
+    // 1. Check authoritative cloud database first for universal real-time consistency
     try {
-      const cloudPaper = await fetchSundayPaperFromCloud(paperCode, true);
+      const cloudPaper = await fetchAuthoritativePaper(paperCode, true);
       if (cloudPaper && Array.isArray(cloudPaper.questions) && cloudPaper.questions.length === 180) {
         setSundayQuestions(cloudPaper.questions);
+        setLastSyncedTime(cloudPaper.updatedAt);
         if (cloudPaper.customChapters) {
           if (cloudPaper.customChapters.physics?.length) setSundayPhyUnits(cloudPaper.customChapters.physics);
           if (cloudPaper.customChapters.chemistry?.length) setSundayChemUnits(cloudPaper.customChapters.chemistry);
@@ -625,6 +657,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const saved = getSavedCustomSundayPaper(paperCode);
     if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
       setSundayQuestions(saved.questions);
+      setLastSyncedTime(saved.updatedAt || null);
       if (saved.customChapters) {
         if (saved.customChapters.physics?.length) setSundayPhyUnits(saved.customChapters.physics);
         if (saved.customChapters.chemistry?.length) setSundayChemUnits(saved.customChapters.chemistry);
@@ -651,8 +684,36 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     setIsStudioLoadingPaper(false);
   };
 
-  const handleSaveAndPublishSelectedPaper = () => {
-    saveCustomSundayPaper(selectedPlannerPreset, {
+  const handleForceResync = async () => {
+    setIsStudioLoadingPaper(true);
+    try {
+      const cloudPaper = await fetchAuthoritativePaper(selectedPlannerPreset, true);
+      if (cloudPaper && Array.isArray(cloudPaper.questions) && cloudPaper.questions.length === 180) {
+        setSundayQuestions(cloudPaper.questions);
+        setLastSyncedTime(cloudPaper.updatedAt);
+        if (cloudPaper.customChapters) {
+          if (cloudPaper.customChapters.physics?.length) setSundayPhyUnits(cloudPaper.customChapters.physics);
+          if (cloudPaper.customChapters.chemistry?.length) setSundayChemUnits(cloudPaper.customChapters.chemistry);
+          if (cloudPaper.customChapters.biology?.length) setSundayBioUnits(cloudPaper.customChapters.biology);
+        }
+        setActionSuccessBanner(`⚡ Master Default paper ${selectedPlannerPreset.toUpperCase()} force-synced from cloud!`);
+        setTimeout(() => setActionSuccessBanner(null), 3500);
+      } else {
+        setActionErrorBanner(`⚠️ No cloud record found for ${selectedPlannerPreset.toUpperCase()}.`);
+        setTimeout(() => setActionErrorBanner(null), 4000);
+      }
+    } catch (err: any) {
+      setActionErrorBanner(`⚠️ Force resync failed: ${err.message || 'Network error'}`);
+      setTimeout(() => setActionErrorBanner(null), 4000);
+    } finally {
+      setIsStudioLoadingPaper(false);
+    }
+  };
+
+  const handleSaveAndPublishSelectedPaper = async () => {
+    setIsSyncingAction(true);
+    const paperToSave = {
+      paperCode: selectedPlannerPreset,
       questions: sundayQuestions,
       customChapters: {
         physics: sundayPhyUnits,
@@ -661,17 +722,33 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
-    });
+    };
 
-    setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved as DEFAULT! All candidates across all devices will receive this exact paper.`);
-    setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} set as Master Default for all students!`);
-    setTimeout(() => {
-      setPublishSuccessMsg(null);
-      setActionSuccessBanner(null);
-    }, 4500);
+    saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
+
+    try {
+      const result = await commitAuthoritativePaperToCloud(paperToSave);
+      if (result.success && result.paper) {
+        setSundayQuestions(result.paper.questions);
+        setLastSyncedTime(result.paper.updatedAt);
+        setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved & committed to cloud as GLOBAL DEFAULT!`);
+        setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} set as Master Default across all devices!`);
+      } else {
+        setActionErrorBanner(`⚠️ Cloud sync notice: ${result.error || 'Saved locally, but cloud write encountered an issue.'}`);
+      }
+    } catch (e: any) {
+      setActionErrorBanner(`⚠️ Cloud sync failed: ${e.message}`);
+    } finally {
+      setIsSyncingAction(false);
+      setTimeout(() => {
+        setPublishSuccessMsg(null);
+        setActionSuccessBanner(null);
+        setActionErrorBanner(null);
+      }, 4500);
+    }
   };
 
-  const handleResetSelectedPaperToDefault = () => {
+  const handleResetSelectedPaperToDefault = async () => {
     deleteCustomSundayPaper(selectedPlannerPreset);
     handleApplyPreset(selectedPlannerPreset);
     const is11th = selectedPlannerPreset.toLowerCase().startsWith('11th-');
@@ -685,8 +762,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const defaultQs = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
     setSundayQuestions(defaultQs);
 
-    // Save default paper to cloud database so all other devices and student test sessions reflect the reset
-    saveCustomSundayPaper(selectedPlannerPreset, {
+    const paperToReset = {
+      paperCode: selectedPlannerPreset,
       questions: defaultQs,
       customChapters: {
         physics: sundayPhyUnits,
@@ -695,79 +772,39 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
-    });
+    };
 
-    setActionSuccessBanner(`✓ Paper ${selectedPlannerPreset.toUpperCase()} reset to standard planner default across all systems!`);
-    setTimeout(() => setActionSuccessBanner(null), 3000);
+    saveCustomSundayPaper(selectedPlannerPreset, paperToReset);
+    setIsSyncingAction(true);
+    try {
+      const result = await commitAuthoritativePaperToCloud(paperToReset);
+      if (result.success && result.paper) {
+        setSundayQuestions(result.paper.questions);
+        setLastSyncedTime(result.paper.updatedAt);
+        setActionSuccessBanner(`✓ Paper ${selectedPlannerPreset.toUpperCase()} reset to standard default and committed to cloud!`);
+      } else {
+        setActionErrorBanner(`⚠️ Reset saved locally, but cloud write encountered an issue: ${result.error}`);
+      }
+    } catch (e: any) {
+      setActionErrorBanner(`⚠️ Cloud reset failed: ${e.message}`);
+    } finally {
+      setIsSyncingAction(false);
+      setTimeout(() => {
+        setActionSuccessBanner(null);
+        setActionErrorBanner(null);
+      }, 4000);
+    }
   };
 
-  const handleExecuteTopicSwap = (fromTopic: string, toTopic: string, targetCount: number = 4) => {
-    // Determine subject of the target replacement topic
-    const phyList = ALL_PHYSICS_CHAPTERS;
-    const chemList = ALL_CHEMISTRY_CHAPTERS;
-    const isPhy = phyList.some(c => c.toLowerCase() === toTopic.toLowerCase()) || OFFICIAL_PHYSICS_UNITS.some(u => u.toLowerCase().includes(toTopic.toLowerCase()));
-    const isChem = chemList.some(c => c.toLowerCase() === toTopic.toLowerCase()) || OFFICIAL_CHEMISTRY_UNITS.some(u => u.toLowerCase().includes(toTopic.toLowerCase()));
-    const targetSubject: 'Physics' | 'Chemistry' | 'Biology' = isPhy ? 'Physics' : isChem ? 'Chemistry' : 'Biology';
+  const handleExecuteTopicSwap = async (fromTopic: string, toTopic: string, targetCount: number = 4) => {
+    if (isSyncingAction) return;
+    const backupQuestions = [...sundayQuestions];
+    const backupAllocations = [...topicAllocations];
+    setIsSyncingAction(true);
 
-    // Strictly fetch questions from toTopic
-    const cleanBank = getUnifiedQuestionBank(targetSubject, toTopic);
-    if (cleanBank.length === 0) {
-      setActionSuccessBanner(`⚠️ No questions found strictly in ${toTopic}`);
-      setTimeout(() => setActionSuccessBanner(null), 3000);
-      return;
-    }
-
-    const randPool = [...cleanBank].sort(() => 0.5 - Math.random());
-    const replacementQuestions: Question[] = [];
-    for (let i = 0; i < targetCount; i++) {
-      const q = randPool[i % randPool.length];
-      const hardDiag = (targetSubject === 'Physics' && q.difficulty === 'Hard') ? getHardPhysicsDiagram(q) : null;
-      replacementQuestions.push({
-        ...q,
-        id: `swap-${toTopic.toLowerCase().replace(/[^a-z0-9]/g, '')}-${Date.now()}-${i + 1}`,
-        subject: targetSubject,
-        chapter: toTopic,
-        diagramSvg: hardDiag || q.diagramSvg,
-        questionText: formatMathAndFormulas(q.questionText),
-        options: q.options.map(o => formatMathAndFormulas(o)),
-        explanation: formatMathAndFormulas(q.explanation)
-      });
-    }
-
-    // In sundayQuestions: replace matching questions from fromTopic
-    const normFrom = fromTopic.toLowerCase().replace(/[^a-z0-9]/g, '');
-    const currentList = [...sundayQuestions];
-    const matchingIndices: number[] = [];
-    for (let i = 0; i < currentList.length; i++) {
-      const qChNorm = (currentList[i].chapter || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-      if (qChNorm.includes(normFrom) || normFrom.includes(qChNorm)) {
-        matchingIndices.push(i);
-      }
-    }
-
-    if (matchingIndices.length > 0) {
-      for (let i = 0; i < matchingIndices.length && i < replacementQuestions.length; i++) {
-        currentList[matchingIndices[i]] = replacementQuestions[i];
-      }
-      for (let i = matchingIndices.length; i < replacementQuestions.length; i++) {
-        const insertIdx = matchingIndices[matchingIndices.length - 1] + 1;
-        currentList.splice(insertIdx, 0, replacementQuestions[i]);
-      }
-    } else {
-      let subStart = targetSubject === 'Physics' ? 0 : targetSubject === 'Chemistry' ? 45 : 90;
-      for (let i = 0; i < replacementQuestions.length; i++) {
-        const targetIdx = subStart + i;
-        if (targetIdx < currentList.length) {
-          currentList[targetIdx] = replacementQuestions[i];
-        }
-      }
-    }
-
-    setSundayQuestions(currentList);
-
-    // Auto-save as default so modifications immediately reflect across the platform as default for all students
-    saveCustomSundayPaper(selectedPlannerPreset, {
-      questions: currentList,
+    const currentPaper = {
+      paperCode: selectedPlannerPreset,
+      questions: sundayQuestions,
       customChapters: {
         physics: sundayPhyUnits,
         chemistry: sundayChemUnits,
@@ -775,20 +812,98 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
-    });
+    };
 
-    // Update topicAllocations state
-    setTopicAllocations(prev => {
-      const exists = prev.some(a => a.chapter.toLowerCase() === fromTopic.toLowerCase());
-      if (exists) {
-        return prev.map(a => a.chapter.toLowerCase() === fromTopic.toLowerCase() ? { ...a, chapter: toTopic, count: targetCount, subject: targetSubject } : a);
+    try {
+      const result = await swapTopics(
+        selectedPlannerPreset,
+        fromTopic,
+        toTopic,
+        targetCount,
+        currentPaper
+      );
+
+      if (result.success && result.paper) {
+        setSundayQuestions(result.paper.questions);
+        setLastSyncedTime(result.paper.updatedAt);
+
+        // Update and cloud-sync topic allocations matrix
+        const phyList = ALL_PHYSICS_CHAPTERS;
+        const chemList = ALL_CHEMISTRY_CHAPTERS;
+        const isPhy = phyList.some(c => c.toLowerCase() === toTopic.toLowerCase()) || OFFICIAL_PHYSICS_UNITS.some(u => u.toLowerCase().includes(toTopic.toLowerCase()));
+        const isChem = chemList.some(c => c.toLowerCase() === toTopic.toLowerCase()) || OFFICIAL_CHEMISTRY_UNITS.some(u => u.toLowerCase().includes(toTopic.toLowerCase()));
+        const targetSubject: 'Physics' | 'Chemistry' | 'Biology' = isPhy ? 'Physics' : isChem ? 'Chemistry' : 'Biology';
+
+        const updatedAllocations = topicAllocations.some(a => a.chapter.toLowerCase() === fromTopic.toLowerCase())
+          ? topicAllocations.map(a => a.chapter.toLowerCase() === fromTopic.toLowerCase() ? { ...a, chapter: toTopic, count: targetCount, subject: targetSubject } : a)
+          : [...topicAllocations, { id: `alloc-${Date.now()}`, subject: targetSubject, chapter: toTopic, count: targetCount }];
+
+        setTopicAllocations(updatedAllocations);
+        syncTopicAllocationsToCloud(updatedAllocations).catch(() => {});
+
+        setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") & committed to cloud as GLOBAL DEFAULT!`);
+        setTimeout(() => setActionSuccessBanner(null), 4000);
       } else {
-        return [...prev, { id: `alloc-${Date.now()}`, subject: targetSubject, chapter: toTopic, count: targetCount }];
+        setSundayQuestions(backupQuestions);
+        setTopicAllocations(backupAllocations);
+        setActionErrorBanner(`⚠️ Cloud sync failed: ${result.error || 'Write error'}. Topic swap rolled back.`);
+        setTimeout(() => setActionErrorBanner(null), 5000);
       }
-    });
+    } catch (err: any) {
+      setSundayQuestions(backupQuestions);
+      setTopicAllocations(backupAllocations);
+      setActionErrorBanner(`⚠️ Cloud write error: ${err.message || 'Unknown network error'}. Topic swap rolled back.`);
+      setTimeout(() => setActionErrorBanner(null), 5000);
+    } finally {
+      setIsSyncingAction(false);
+    }
+  };
 
-    setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") & set as DEFAULT for all students!`);
-    setTimeout(() => setActionSuccessBanner(null), 4000);
+  const handleSwapQuestionOrder = async (indexA: number, indexB: number) => {
+    if (indexA < 0 || indexA >= sundayQuestions.length || indexB < 0 || indexB >= sundayQuestions.length) return;
+    if (isSyncingAction) return;
+
+    const backupQuestions = [...sundayQuestions];
+    setIsSyncingAction(true);
+
+    // Optimistically reorder in UI
+    const optimistic = [...sundayQuestions];
+    const temp = optimistic[indexA];
+    optimistic[indexA] = optimistic[indexB];
+    optimistic[indexB] = temp;
+    setSundayQuestions(optimistic);
+
+    const currentPaper = {
+      paperCode: selectedPlannerPreset,
+      questions: sundayQuestions,
+      customChapters: {
+        physics: sundayPhyUnits,
+        chemistry: sundayChemUnits,
+        biology: sundayBioUnits
+      },
+      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      publishedBy: 'Institutional Master Admin'
+    };
+
+    try {
+      const result = await swapQuestions(selectedPlannerPreset, indexA, indexB, currentPaper);
+      if (result.success && result.paper) {
+        setSundayQuestions(result.paper.questions);
+        setLastSyncedTime(result.paper.updatedAt);
+        setActionSuccessBanner(`✓ Question order swapped (#${indexA + 1} ↔ #${indexB + 1}) & committed to cloud as GLOBAL DEFAULT!`);
+        setTimeout(() => setActionSuccessBanner(null), 3500);
+      } else {
+        setSundayQuestions(backupQuestions);
+        setActionErrorBanner(`⚠️ Cloud sync failed: ${result.error || 'Write error'}. Question order rolled back.`);
+        setTimeout(() => setActionErrorBanner(null), 5000);
+      }
+    } catch (err: any) {
+      setSundayQuestions(backupQuestions);
+      setActionErrorBanner(`⚠️ Cloud write error: ${err.message || 'Unknown error'}. Question order rolled back.`);
+      setTimeout(() => setActionErrorBanner(null), 5000);
+    } finally {
+      setIsSyncingAction(false);
+    }
   };
 
   const handleUpdateAllocationChapter = (id: string, newChapter: string) => {
@@ -819,7 +934,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     setTimeout(() => setActionSuccessBanner(null), 2500);
   };
 
-  const handleAssembleSundayStudio = () => {
+  const handleAssembleSundayStudio = async () => {
     // 1. Physics (45 Qs)
     let phyPool: Question[] = [];
     for (const unit of sundayPhyUnits) {
@@ -925,8 +1040,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const total180 = [...phy45, ...chem45, ...bot45, ...zoo45];
     setSundayQuestions(total180);
 
-    // Auto-save as default so modifications immediately reflect across the platform as master default
-    saveCustomSundayPaper(selectedPlannerPreset, {
+    const assembledPaper = {
+      paperCode: selectedPlannerPreset,
       questions: total180,
       customChapters: {
         physics: sundayPhyUnits,
@@ -935,59 +1050,41 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
-    });
+    };
 
-    setActionSuccessBanner('✓ Fresh 180-Question Sunday Test Paper assembled & set as DEFAULT for all students!');
-    setTimeout(() => setActionSuccessBanner(null), 3500);
+    saveCustomSundayPaper(selectedPlannerPreset, assembledPaper);
+    setIsSyncingAction(true);
+    try {
+      const res = await commitAuthoritativePaperToCloud(assembledPaper);
+      if (res.success && res.paper) {
+        setSundayQuestions(res.paper.questions);
+        setLastSyncedTime(res.paper.updatedAt);
+        setActionSuccessBanner('✓ Fresh 180-Question Sunday Test Paper assembled & committed to cloud as GLOBAL DEFAULT!');
+      } else {
+        setActionErrorBanner(`⚠️ Paper assembled locally, but cloud sync returned: ${res.error}`);
+      }
+    } catch (err: any) {
+      setActionErrorBanner(`⚠️ Assemble cloud commit failed: ${err.message}`);
+    } finally {
+      setIsSyncingAction(false);
+      setTimeout(() => {
+        setActionSuccessBanner(null);
+        setActionErrorBanner(null);
+      }, 4000);
+    }
   };
 
-  const handleSwapSundayQuestion = (questionIdx: number, targetChapterOverride?: string) => {
+  const handleSwapSundayQuestion = async (questionIdx: number, targetChapterOverride?: string) => {
+    if (isSyncingAction) return;
     const currentQ = sundayQuestions[questionIdx];
     if (!currentQ) return;
 
-    let sub = currentQ.subject || (questionIdx < 45 ? 'Physics' : questionIdx < 90 ? 'Chemistry' : 'Biology');
-    let ch = targetChapterOverride || currentQ.chapter || '';
+    const backupQuestions = [...sundayQuestions];
+    setIsSyncingAction(true);
 
-    if (targetChapterOverride) {
-      const isPhy = ALL_PHYSICS_CHAPTERS.some(c => c.toLowerCase() === targetChapterOverride.toLowerCase());
-      const isChem = ALL_CHEMISTRY_CHAPTERS.some(c => c.toLowerCase() === targetChapterOverride.toLowerCase());
-      sub = isPhy ? 'Physics' : isChem ? 'Chemistry' : 'Biology';
-      ch = targetChapterOverride;
-    }
-
-    const bank = getUnifiedQuestionBank(sub, ch.length > 0 ? ch : undefined);
-    const existingIds = new Set(sundayQuestions.map(q => q.id));
-    const candidates = bank.filter(q => !existingIds.has(q.id) && q.questionText !== currentQ.questionText);
-
-    const replacement = candidates.length > 0
-      ? candidates[Math.floor(Math.random() * candidates.length)]
-      : (bank.length > 0 ? bank[Math.floor(Math.random() * bank.length)] : currentQ);
-
-    if (!replacement) return;
-
-    const hardDiag = (replacement.difficulty === 'Hard') && sub === 'Physics'
-      ? getHardPhysicsDiagram(replacement)
-      : null;
-
-    const newQ: Question = {
-      ...replacement,
-      id: `sunday-${sub.toLowerCase()}-swap-${Date.now()}-${replacement.id}`,
-      subject: sub as any,
-      chapter: ch || replacement.chapter,
-      tags: currentQ.tags || replacement.tags,
-      diagramSvg: hardDiag || replacement.diagramSvg,
-      questionText: formatMathAndFormulas(replacement.questionText),
-      options: replacement.options.map(o => formatMathAndFormulas(o)),
-      explanation: formatMathAndFormulas(replacement.explanation)
-    };
-
-    const copy = [...sundayQuestions];
-    copy[questionIdx] = newQ;
-    setSundayQuestions(copy);
-
-    // Auto-save as default so modifications immediately reflect across the platform as master default
-    saveCustomSundayPaper(selectedPlannerPreset, {
-      questions: copy,
+    const currentPaper = {
+      paperCode: selectedPlannerPreset,
+      questions: sundayQuestions,
       customChapters: {
         physics: sundayPhyUnits,
         chemistry: sundayChemUnits,
@@ -995,10 +1092,33 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
-    });
+    };
 
-    setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped & set as DEFAULT for all students!`);
-    setTimeout(() => setActionSuccessBanner(null), 3500);
+    try {
+      const result = await swapSingleQuestionWithBank(
+        selectedPlannerPreset,
+        questionIdx,
+        targetChapterOverride,
+        currentPaper
+      );
+
+      if (result.success && result.paper) {
+        setSundayQuestions(result.paper.questions);
+        setLastSyncedTime(result.paper.updatedAt);
+        setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped & committed to cloud as GLOBAL DEFAULT!`);
+        setTimeout(() => setActionSuccessBanner(null), 3500);
+      } else {
+        setSundayQuestions(backupQuestions);
+        setActionErrorBanner(`⚠️ Cloud sync failed: ${result.error || 'Write error'}. Reverted question #${questionIdx + 1}.`);
+        setTimeout(() => setActionErrorBanner(null), 5000);
+      }
+    } catch (err: any) {
+      setSundayQuestions(backupQuestions);
+      setActionErrorBanner(`⚠️ Cloud write error: ${err.message || 'Unknown network error'}. Reverted question.`);
+      setTimeout(() => setActionErrorBanner(null), 5000);
+    } finally {
+      setIsSyncingAction(false);
+    }
   };
 
   const handleStartEditQuestion = (idx: number) => {
@@ -1012,21 +1132,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     });
   };
 
-  const handleSaveQuestionEdit = (idx: number) => {
-    if (!editForm) return;
-    const copy = [...sundayQuestions];
-    copy[idx] = {
-      ...copy[idx],
-      questionText: editForm.questionText,
-      options: editForm.options,
-      correctAnswer: editForm.correctAnswer,
-      explanation: editForm.explanation
-    };
-    setSundayQuestions(copy);
+  const handleSaveQuestionEdit = async (idx: number) => {
+    if (!editForm || isSyncingAction) return;
+    const backupQuestions = [...sundayQuestions];
+    const formSnapshot = { ...editForm };
+    setIsSyncingAction(true);
 
-    // Auto-save as default so modifications immediately reflect across the platform as master default
-    saveCustomSundayPaper(selectedPlannerPreset, {
-      questions: copy,
+    const currentPaper = {
+      paperCode: selectedPlannerPreset,
+      questions: sundayQuestions,
       customChapters: {
         physics: sundayPhyUnits,
         chemistry: sundayChemUnits,
@@ -1034,12 +1148,35 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin'
-    });
+    };
 
-    setEditingQuestionIdx(null);
-    setEditForm(null);
-    setActionSuccessBanner(`✓ Question #${idx + 1} updated & set as DEFAULT for all students!`);
-    setTimeout(() => setActionSuccessBanner(null), 3500);
+    try {
+      const result = await saveQuestionEdit(
+        selectedPlannerPreset,
+        idx,
+        formSnapshot,
+        currentPaper
+      );
+
+      if (result.success && result.paper) {
+        setSundayQuestions(result.paper.questions);
+        setLastSyncedTime(result.paper.updatedAt);
+        setEditingQuestionIdx(null);
+        setEditForm(null);
+        setActionSuccessBanner(`✓ Question #${idx + 1} updated & committed to cloud as GLOBAL DEFAULT!`);
+        setTimeout(() => setActionSuccessBanner(null), 3500);
+      } else {
+        setSundayQuestions(backupQuestions);
+        setActionErrorBanner(`⚠️ Cloud sync failed: ${result.error || 'Write error'}. Changes rolled back.`);
+        setTimeout(() => setActionErrorBanner(null), 5000);
+      }
+    } catch (err: any) {
+      setSundayQuestions(backupQuestions);
+      setActionErrorBanner(`⚠️ Cloud write error: ${err.message || 'Unknown network error'}. Changes rolled back.`);
+      setTimeout(() => setActionErrorBanner(null), 5000);
+    } finally {
+      setIsSyncingAction(false);
+    }
   };
 
   const handlePublishSundayPaper = () => {
@@ -1455,9 +1592,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {actionSuccessBanner && (
         <div className="px-4 py-3 bg-emerald-600 text-white text-xs font-bold rounded-xl flex items-center justify-between shadow-md animate-in slide-in-from-top">
           <span className="flex items-center gap-2">
-            <CheckCircle2 className="w-4 h-4" /> {actionSuccessBanner}
+            <CheckCircle2 className="w-4 h-4 shrink-0" /> {actionSuccessBanner}
           </span>
           <button onClick={() => setActionSuccessBanner(null)} className="text-white/80 hover:text-white">
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+      )}
+
+      {actionErrorBanner && (
+        <div className="px-4 py-3 bg-rose-600 text-white text-xs font-bold rounded-xl flex items-center justify-between shadow-md animate-in slide-in-from-top">
+          <span className="flex items-center gap-2">
+            <AlertTriangle className="w-4 h-4 shrink-0" /> {actionErrorBanner}
+          </span>
+          <button onClick={() => setActionErrorBanner(null)} className="text-white/80 hover:text-white">
             <X className="w-4 h-4" />
           </button>
         </div>
@@ -1857,16 +2005,34 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     <Layers className="w-4 h-4 text-blue-600" />
                     Step 1: Choose Sunday Paper & Topic Customization
                   </h4>
-                  {isStudioLoadingPaper ? (
+                  {isStudioLoadingPaper || isSyncingAction ? (
                     <span className="text-[10px] font-black text-amber-700 bg-amber-100 border border-amber-300 px-2.5 py-0.5 rounded-full animate-pulse flex items-center gap-1.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-ping" />
-                      Syncing Master Default from cloud...
+                      {isSyncingAction ? 'Writing to Cloud (Single Source of Truth)...' : 'Syncing Master Default from cloud...'}
                     </span>
                   ) : (
                     <span className="text-[10px] font-black text-emerald-700 bg-emerald-100 border border-emerald-300 px-2.5 py-0.5 rounded-full flex items-center gap-1">
                       ✓ Universal Default Active
                     </span>
                   )}
+                  {/* Last Synced Indicator */}
+                  {lastSyncedTime && (
+                    <span className="text-[10px] font-mono text-slate-500 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full flex items-center gap-1">
+                      <Clock className="w-3 h-3 text-slate-400" />
+                      Last synced: {new Date(lastSyncedTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })}
+                    </span>
+                  )}
+                  {/* Force Resync Button */}
+                  <button
+                    type="button"
+                    onClick={handleForceResync}
+                    disabled={isStudioLoadingPaper || isSyncingAction}
+                    className="text-[10px] font-bold text-blue-700 bg-blue-50 hover:bg-blue-100 border border-blue-200 px-2.5 py-0.5 rounded-full flex items-center gap-1 transition cursor-pointer disabled:opacity-50"
+                    title="Force refresh authoritative paper from Supabase cloud database"
+                  >
+                    <RefreshCw className={`w-2.5 h-2.5 ${isStudioLoadingPaper ? 'animate-spin' : ''}`} />
+                    Force Resync
+                  </button>
                 </div>
                 <p className="text-[11px] text-slate-500">
                   Select which Sunday test paper you are editing, customize syllabus topics, and re-assemble 180 questions with zero cross-chapter mixing.
@@ -2443,6 +2609,28 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                         {/* Action Buttons */}
                         <div className="flex flex-wrap items-center gap-2">
+                          {/* Reorder Buttons (Atomic Cloud Swap) */}
+                          <div className="flex items-center gap-0.5 bg-slate-100 p-0.5 rounded-lg border border-slate-200">
+                            <button
+                              type="button"
+                              onClick={() => handleSwapQuestionOrder(originalIdx, originalIdx - 1)}
+                              disabled={originalIdx === 0 || isSyncingAction}
+                              className="p-1 text-slate-700 hover:text-blue-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
+                              title="Move Question Up (Atomic Cloud Swap)"
+                            >
+                              <ArrowUp className="w-3.5 h-3.5" />
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => handleSwapQuestionOrder(originalIdx, originalIdx + 1)}
+                              disabled={originalIdx === sundayQuestions.length - 1 || isSyncingAction}
+                              className="p-1 text-slate-700 hover:text-blue-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
+                              title="Move Question Down (Atomic Cloud Swap)"
+                            >
+                              <ArrowDown className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+
                           <button
                             onClick={() => handleSwapSundayQuestion(originalIdx)}
                             className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 transition flex items-center gap-1 cursor-pointer"
