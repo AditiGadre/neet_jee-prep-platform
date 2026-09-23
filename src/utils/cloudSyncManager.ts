@@ -12,7 +12,13 @@ export interface SyncedSundayPaper {
   questions: Question[];
   updatedAt: string;
   publishedBy?: string;
+  revision?: number;
 }
+
+import {
+  commitAuthoritativePaperToCloud,
+  fetchAuthoritativePaper
+} from '../services/authoritativeCloudService';
 
 export interface SyncedAdminConfig {
   platformWideSundayAccess: boolean;
@@ -122,197 +128,14 @@ async function insertSystemRow(row: {
   }
 }
 
-// 1. SUNDAY TEST PAPER PERSISTENCE
+// 1. SUNDAY TEST PAPER PERSISTENCE (Authoritative Cloud Delegation)
 export async function syncSundayPaperToCloud(paper: SyncedSundayPaper): Promise<boolean> {
-  const cleanCode = paper.paperCode.toUpperCase().trim();
-  const baseCode = cleanCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
-  const is11th = cleanCode.startsWith('11TH-');
-  const is12th = cleanCode.startsWith('12TH-');
-  const now = Date.now();
-  const rowId = SUNDAY_PAPER_PREFIX + cleanCode + '__' + now;
-
-  // Ensure valid updatedAt timestamp
-  if (!paper.updatedAt || isNaN(new Date(paper.updatedAt).getTime())) {
-    paper.updatedAt = new Date(now).toISOString();
-  }
-  paper.paperCode = cleanCode;
-
-  // Update in-memory cache across all key aliases
-  memorySundayPaperCache.set(cleanCode, paper);
-  memorySundayPaperCache.set(baseCode, paper);
-  if (!is11th && !is12th) {
-    memorySundayPaperCache.set('REPEATER-' + baseCode, paper);
-    memorySundayPaperCache.set('DROPPER-' + baseCode, paper);
-  }
-
-  // Update localStorage immediately across all key aliases
-  try {
-    const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
-    const localPapers = localPapersRaw ? JSON.parse(localPapersRaw) : {};
-    localPapers[cleanCode.toLowerCase()] = paper;
-    localPapers[cleanCode] = paper;
-    localPapers[baseCode.toLowerCase()] = paper;
-    localPapers[baseCode] = paper;
-    if (!is11th && !is12th) {
-      localPapers['repeater-' + baseCode.toLowerCase()] = paper;
-      localPapers['repeater-' + baseCode] = paper;
-      localPapers['dropper-' + baseCode.toLowerCase()] = paper;
-      localPapers['dropper-' + baseCode] = paper;
-    }
-    localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
-  } catch {}
-
-  if (!supabase) return false;
-
-  try {
-    const payloadJson = JSON.stringify(paper);
-    const success = await insertSystemRow({
-      id: rowId,
-      subject: '__SYSTEM_SYNC__',
-      chapter: 'SUNDAY_TEST_PAPERS',
-      topic: cleanCode,
-      difficulty: 'System',
-      question_text: payloadJson,
-      options: ['SYNC_PAYLOAD_V2', cleanCode],
-      correct_answer: 0,
-      explanation: 'Global Synced Sunday Paper: ' + cleanCode
-    });
-
-    // Also persist aliases so any batch queries (e.g. 11th, 12th, dropper) find the exact same master paper
-    if (!is11th && !is12th) {
-      const aliasCodes = [baseCode, 'REPEATER-' + baseCode, 'DROPPER-' + baseCode].filter(c => c !== cleanCode);
-      for (const alias of aliasCodes) {
-        await insertSystemRow({
-          id: SUNDAY_PAPER_PREFIX + alias + '__' + now,
-          subject: '__SYSTEM_SYNC__',
-          chapter: 'SUNDAY_TEST_PAPERS',
-          topic: alias,
-          difficulty: 'System',
-          question_text: payloadJson,
-          options: ['SYNC_PAYLOAD_V2', alias],
-          correct_answer: 0,
-          explanation: 'Global Synced Sunday Paper: ' + alias
-        });
-      }
-    }
-
-    if (success) {
-      window.dispatchEvent(
-        new CustomEvent('neet_cloud_sunday_paper_synced', { detail: { paperCode: cleanCode, paper } })
-      );
-      return true;
-    }
-    return false;
-  } catch (err) {
-    console.warn('Error syncing Sunday paper ' + cleanCode + ' to cloud:', err);
-    return false;
-  }
+  const result = await commitAuthoritativePaperToCloud(paper);
+  return result.success;
 }
 
 export async function fetchSundayPaperFromCloud(paperCode: string, forceCloud = true): Promise<SyncedSundayPaper | null> {
-  if (!paperCode) return null;
-  const cleanCode = paperCode.toUpperCase().trim();
-  const is11th = cleanCode.startsWith('11TH-');
-  const is12th = cleanCode.startsWith('12TH-');
-  const baseCode = cleanCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
-
-  // 1. Check in-memory cache ONLY IF not forced
-  if (!forceCloud) {
-    if (memorySundayPaperCache.has(cleanCode)) return memorySundayPaperCache.get(cleanCode)!;
-    if (!is11th && !is12th && memorySundayPaperCache.has(baseCode)) return memorySundayPaperCache.get(baseCode)!;
-  }
-
-  // 2. Query Supabase cloud database
-  if (supabase) {
-    try {
-      let targetTopics: string[];
-      let orFilter: string;
-      if (is11th) {
-        targetTopics = ['11TH-' + baseCode, cleanCode, '11th-' + baseCode.toLowerCase()];
-        orFilter = `topic.in.(${targetTopics.join(',')}),id.ilike.${SUNDAY_PAPER_PREFIX}11TH-${baseCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}${cleanCode}%`;
-      } else if (is12th) {
-        targetTopics = ['12TH-' + baseCode, cleanCode, '12th-' + baseCode.toLowerCase()];
-        orFilter = `topic.in.(${targetTopics.join(',')}),id.ilike.${SUNDAY_PAPER_PREFIX}12TH-${baseCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}${cleanCode}%`;
-      } else {
-        targetTopics = [cleanCode, baseCode, 'REPEATER-' + baseCode, 'DROPPER-' + baseCode, cleanCode.toLowerCase(), baseCode.toLowerCase()];
-        orFilter = `topic.in.(${targetTopics.join(',')}),id.ilike.${SUNDAY_PAPER_PREFIX}${cleanCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}${baseCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}REPEATER-${baseCode}%,id.ilike.${SUNDAY_PAPER_PREFIX}DROPPER-${baseCode}%`;
-      }
-
-      const { data, error } = await supabase
-        .from('questions')
-        .select('id, topic, question_text')
-        .eq('subject', '__SYSTEM_SYNC__')
-        .eq('chapter', 'SUNDAY_TEST_PAPERS')
-        .or(orFilter);
-
-      if (!error && data && data.length > 0) {
-        let latest: SyncedSundayPaper | null = null;
-        let latestTs = -1;
-        for (const row of data) {
-          try {
-            const paper = JSON.parse(row.question_text) as SyncedSundayPaper;
-            if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
-              let ts = new Date(paper.updatedAt || 0).getTime();
-              if (isNaN(ts) || ts <= 0) ts = 0;
-              const idMatch = (row.id || '').match(/__(\d{12,})$/);
-              if (idMatch) {
-                ts = Math.max(ts, parseInt(idMatch[1], 10));
-              }
-              if (ts > latestTs || !latest) {
-                latestTs = ts;
-                latest = paper;
-              }
-            }
-          } catch {}
-        }
-
-        if (latest) {
-          memorySundayPaperCache.set(cleanCode, latest);
-          memorySundayPaperCache.set(baseCode, latest);
-          if (!is11th && !is12th) {
-            memorySundayPaperCache.set('REPEATER-' + baseCode, latest);
-            memorySundayPaperCache.set('DROPPER-' + baseCode, latest);
-          }
-          try {
-            const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
-            const localPapers = localPapersRaw ? JSON.parse(localPapersRaw) : {};
-            localPapers[cleanCode.toLowerCase()] = latest;
-            localPapers[cleanCode] = latest;
-            localPapers[baseCode.toLowerCase()] = latest;
-            localPapers[baseCode] = latest;
-            if (!is11th && !is12th) {
-              localPapers['repeater-' + baseCode.toLowerCase()] = latest;
-              localPapers['repeater-' + baseCode] = latest;
-              localPapers['dropper-' + baseCode.toLowerCase()] = latest;
-              localPapers['dropper-' + baseCode] = latest;
-            }
-            localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
-          } catch {}
-          return latest;
-        }
-      }
-    } catch (err) {
-      console.warn('Error fetching Sunday paper ' + cleanCode + ' from cloud:', err);
-    }
-  }
-
-  // 3. Fallback to localStorage if offline
-  try {
-    const localPapersRaw = localStorage.getItem('neet_custom_sunday_papers');
-    if (localPapersRaw) {
-      const localPapers = JSON.parse(localPapersRaw);
-      const matched =
-        localPapers[cleanCode.toLowerCase()] ||
-        localPapers[cleanCode] ||
-        (!is11th && !is12th ? (localPapers[baseCode.toLowerCase()] || localPapers[baseCode] || localPapers['repeater-' + baseCode.toLowerCase()]) : undefined);
-      if (matched && Array.isArray(matched.questions) && matched.questions.length === 180) {
-        memorySundayPaperCache.set(cleanCode, matched);
-        return matched;
-      }
-    }
-  } catch {}
-
-  return null;
+  return await fetchAuthoritativePaper(paperCode, forceCloud);
 }
 
 export async function deleteSundayPaperFromCloud(paperCode: string): Promise<boolean> {

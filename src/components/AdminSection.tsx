@@ -114,6 +114,10 @@ import {
   subscribeToPaperRealtime,
   getLastSyncedTimestamp,
   setLastSyncedTimestamp,
+  getLastSyncedRevision,
+  setLastSyncedRevision,
+  getServerMaxRevision,
+  getCanonicalPaperCode,
   syncTopicAllocationsToCloud
 } from '../services/authoritativeCloudService';
 
@@ -301,6 +305,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [isStudioLoadingPaper, setIsStudioLoadingPaper] = useState<boolean>(false);
   const [isSyncingAction, setIsSyncingAction] = useState<boolean>(false);
   const [lastSyncedTime, setLastSyncedTime] = useState<string | null>(() => getLastSyncedTimestamp());
+  const [paperRevision, setPaperRevision] = useState<number>(() => getLastSyncedRevision() || 0);
   const [sundayQuestions, setSundayQuestions] = useState<Question[]>(() => {
     try {
       const savedPaper = getSavedCustomSundayPaper('CWT-01');
@@ -336,6 +341,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         if (Array.isArray(paper.questions) && paper.questions.length === 180) {
           setSundayQuestions(paper.questions);
           setLastSyncedTime(paper.updatedAt);
+          setPaperRevision(paper.revision || 1);
           if (paper.customChapters) {
             if (paper.customChapters.physics?.length) setSundayPhyUnits(paper.customChapters.physics);
             if (paper.customChapters.chemistry?.length) setSundayChemUnits(paper.customChapters.chemistry);
@@ -357,12 +363,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       if (!isMounted) return;
       setSundayQuestions(incomingPaper.questions);
       setLastSyncedTime(incomingPaper.updatedAt);
+      setPaperRevision(incomingPaper.revision || 1);
       if (incomingPaper.customChapters) {
         if (incomingPaper.customChapters.physics?.length) setSundayPhyUnits(incomingPaper.customChapters.physics);
         if (incomingPaper.customChapters.chemistry?.length) setSundayChemUnits(incomingPaper.customChapters.chemistry);
         if (incomingPaper.customChapters.biology?.length) setSundayBioUnits(incomingPaper.customChapters.biology);
       }
-      setActionSuccessBanner(`⚡ Master Default paper ${incomingPaper.paperCode} updated live from another admin device!`);
+      setActionSuccessBanner(`⚡ Master Default paper ${incomingPaper.paperCode} updated live (rev ${incomingPaper.revision || 1})!`);
       setTimeout(() => setActionSuccessBanner(null), 3500);
     });
 
@@ -375,6 +382,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         if (e.detail?.paper?.questions && e.detail.paper.questions.length === 180) {
           setSundayQuestions(e.detail.paper.questions);
           setLastSyncedTime(e.detail.paper.updatedAt || new Date().toISOString());
+          setPaperRevision(e.detail?.revision || e.detail?.paper?.revision || 1);
           if (e.detail.paper.customChapters) {
             if (e.detail.paper.customChapters.physics?.length) setSundayPhyUnits(e.detail.paper.customChapters.physics);
             if (e.detail.paper.customChapters.chemistry?.length) setSundayChemUnits(e.detail.paper.customChapters.chemistry);
@@ -384,14 +392,46 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       }
     };
 
+    // Self-healing tab focus / visibility listener: auto-pulls if server revision advanced
+    const handleWindowFocus = async () => {
+      if (typeof document !== 'undefined' && document.visibilityState === 'visible') {
+        try {
+          const canonical = getCanonicalPaperCode(selectedPlannerPreset);
+          const serverRev = await getServerMaxRevision(canonical);
+          if (serverRev > paperRevision) {
+            console.log(`[SYNC-DEBUG] Focus sync check: server rev ${serverRev} > local rev ${paperRevision}. Pulling fresh paper...`);
+            const latest = await fetchAuthoritativePaper(selectedPlannerPreset, true);
+            if (isMounted && latest && Array.isArray(latest.questions) && latest.questions.length === 180) {
+              setSundayQuestions(latest.questions);
+              setLastSyncedTime(latest.updatedAt);
+              setPaperRevision(latest.revision || serverRev);
+              if (latest.customChapters) {
+                if (latest.customChapters.physics?.length) setSundayPhyUnits(latest.customChapters.physics);
+                if (latest.customChapters.chemistry?.length) setSundayChemUnits(latest.customChapters.chemistry);
+                if (latest.customChapters.biology?.length) setSundayBioUnits(latest.customChapters.biology);
+              }
+              setActionSuccessBanner(`⚡ Master Default paper ${selectedPlannerPreset.toUpperCase()} auto-updated to rev ${serverRev} from cloud!`);
+              setTimeout(() => setActionSuccessBanner(null), 3000);
+            }
+          }
+        } catch (e) {
+          console.warn('Focus sync check notice:', e);
+        }
+      }
+    };
+
     window.addEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
+    window.addEventListener('focus', handleWindowFocus);
+    window.addEventListener('visibilitychange', handleWindowFocus);
 
     return () => {
       isMounted = false;
       unsubscribeRealtime();
       window.removeEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
+      window.removeEventListener('focus', handleWindowFocus);
+      window.removeEventListener('visibilitychange', handleWindowFocus);
     };
-  }, [selectedPlannerPreset]);
+  }, [selectedPlannerPreset, paperRevision]);
 
   // Student Unlock Requests State
   const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(() => {
@@ -641,6 +681,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       if (cloudPaper && Array.isArray(cloudPaper.questions) && cloudPaper.questions.length === 180) {
         setSundayQuestions(cloudPaper.questions);
         setLastSyncedTime(cloudPaper.updatedAt);
+        setPaperRevision(cloudPaper.revision || 1);
         if (cloudPaper.customChapters) {
           if (cloudPaper.customChapters.physics?.length) setSundayPhyUnits(cloudPaper.customChapters.physics);
           if (cloudPaper.customChapters.chemistry?.length) setSundayChemUnits(cloudPaper.customChapters.chemistry);
@@ -658,6 +699,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
       setSundayQuestions(saved.questions);
       setLastSyncedTime(saved.updatedAt || null);
+      setPaperRevision((saved as any).revision || 0);
       if (saved.customChapters) {
         if (saved.customChapters.physics?.length) setSundayPhyUnits(saved.customChapters.physics);
         if (saved.customChapters.chemistry?.length) setSundayChemUnits(saved.customChapters.chemistry);
@@ -681,6 +723,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         || SUNDAY_DROPPER_PLANNER_TESTS[0]);
     const defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
     setSundayQuestions(defaultQuestions);
+    setPaperRevision(0);
     setIsStudioLoadingPaper(false);
   };
 
@@ -691,12 +734,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       if (cloudPaper && Array.isArray(cloudPaper.questions) && cloudPaper.questions.length === 180) {
         setSundayQuestions(cloudPaper.questions);
         setLastSyncedTime(cloudPaper.updatedAt);
+        setPaperRevision(cloudPaper.revision || 1);
         if (cloudPaper.customChapters) {
           if (cloudPaper.customChapters.physics?.length) setSundayPhyUnits(cloudPaper.customChapters.physics);
           if (cloudPaper.customChapters.chemistry?.length) setSundayChemUnits(cloudPaper.customChapters.chemistry);
           if (cloudPaper.customChapters.biology?.length) setSundayBioUnits(cloudPaper.customChapters.biology);
         }
-        setActionSuccessBanner(`⚡ Master Default paper ${selectedPlannerPreset.toUpperCase()} force-synced from cloud!`);
+        setActionSuccessBanner(`⚡ Master Default paper ${selectedPlannerPreset.toUpperCase()} force-synced (rev ${cloudPaper.revision || 1})!`);
         setTimeout(() => setActionSuccessBanner(null), 3500);
       } else {
         setActionErrorBanner(`⚠️ No cloud record found for ${selectedPlannerPreset.toUpperCase()}.`);
@@ -714,6 +758,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     setIsSyncingAction(true);
     const paperToSave = {
       paperCode: selectedPlannerPreset,
+      revision: paperRevision,
       questions: sundayQuestions,
       customChapters: {
         physics: sundayPhyUnits,
@@ -727,11 +772,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
 
     try {
-      const result = await commitAuthoritativePaperToCloud(paperToSave);
+      const result = await commitAuthoritativePaperToCloud(paperToSave, paperRevision);
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setLastSyncedTime(result.paper.updatedAt);
-        setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved & committed to cloud as GLOBAL DEFAULT!`);
+        setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
+        setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved & committed (rev ${result.revision || paperRevision + 1}) as GLOBAL DEFAULT!`);
         setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} set as Master Default across all devices!`);
       } else {
         setActionErrorBanner(`⚠️ Cloud sync notice: ${result.error || 'Saved locally, but cloud write encountered an issue.'}`);
@@ -764,6 +810,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const paperToReset = {
       paperCode: selectedPlannerPreset,
+      revision: paperRevision,
       questions: defaultQs,
       customChapters: {
         physics: sundayPhyUnits,
@@ -777,10 +824,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     saveCustomSundayPaper(selectedPlannerPreset, paperToReset);
     setIsSyncingAction(true);
     try {
-      const result = await commitAuthoritativePaperToCloud(paperToReset);
+      const result = await commitAuthoritativePaperToCloud(paperToReset, paperRevision);
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setLastSyncedTime(result.paper.updatedAt);
+        setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
         setActionSuccessBanner(`✓ Paper ${selectedPlannerPreset.toUpperCase()} reset to standard default and committed to cloud!`);
       } else {
         setActionErrorBanner(`⚠️ Reset saved locally, but cloud write encountered an issue: ${result.error}`);
@@ -804,6 +852,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const currentPaper = {
       paperCode: selectedPlannerPreset,
+      revision: paperRevision,
       questions: sundayQuestions,
       customChapters: {
         physics: sundayPhyUnits,
@@ -826,6 +875,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setLastSyncedTime(result.paper.updatedAt);
+        setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
 
         // Update and cloud-sync topic allocations matrix
         const phyList = ALL_PHYSICS_CHAPTERS;
@@ -841,7 +891,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         setTopicAllocations(updatedAllocations);
         syncTopicAllocationsToCloud(updatedAllocations).catch(() => {});
 
-        setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") & committed to cloud as GLOBAL DEFAULT!`);
+        setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") & committed to cloud as GLOBAL DEFAULT (rev ${result.revision || paperRevision + 1})!`);
         setTimeout(() => setActionSuccessBanner(null), 4000);
       } else {
         setSundayQuestions(backupQuestions);
@@ -875,6 +925,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const currentPaper = {
       paperCode: selectedPlannerPreset,
+      revision: paperRevision,
       questions: sundayQuestions,
       customChapters: {
         physics: sundayPhyUnits,
@@ -890,7 +941,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setLastSyncedTime(result.paper.updatedAt);
-        setActionSuccessBanner(`✓ Question order swapped (#${indexA + 1} ↔ #${indexB + 1}) & committed to cloud as GLOBAL DEFAULT!`);
+        setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
+        setActionSuccessBanner(`✓ Question order swapped (#${indexA + 1} ↔ #${indexB + 1}) & committed to cloud (rev ${result.revision || paperRevision + 1})!`);
         setTimeout(() => setActionSuccessBanner(null), 3500);
       } else {
         setSundayQuestions(backupQuestions);
@@ -1042,6 +1094,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const assembledPaper = {
       paperCode: selectedPlannerPreset,
+      revision: paperRevision,
       questions: total180,
       customChapters: {
         physics: sundayPhyUnits,
@@ -1055,11 +1108,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     saveCustomSundayPaper(selectedPlannerPreset, assembledPaper);
     setIsSyncingAction(true);
     try {
-      const res = await commitAuthoritativePaperToCloud(assembledPaper);
+      const res = await commitAuthoritativePaperToCloud(assembledPaper, paperRevision);
       if (res.success && res.paper) {
         setSundayQuestions(res.paper.questions);
         setLastSyncedTime(res.paper.updatedAt);
-        setActionSuccessBanner('✓ Fresh 180-Question Sunday Test Paper assembled & committed to cloud as GLOBAL DEFAULT!');
+        setPaperRevision(res.revision || res.paper.revision || paperRevision + 1);
+        setActionSuccessBanner(`✓ Fresh 180-Question Sunday Test Paper assembled & committed (rev ${res.revision || paperRevision + 1}) as GLOBAL DEFAULT!`);
       } else {
         setActionErrorBanner(`⚠️ Paper assembled locally, but cloud sync returned: ${res.error}`);
       }
@@ -1084,6 +1138,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const currentPaper = {
       paperCode: selectedPlannerPreset,
+      revision: paperRevision,
       questions: sundayQuestions,
       customChapters: {
         physics: sundayPhyUnits,
@@ -1105,7 +1160,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setLastSyncedTime(result.paper.updatedAt);
-        setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped & committed to cloud as GLOBAL DEFAULT!`);
+        setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
+        setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped & committed to cloud (rev ${result.revision || paperRevision + 1})!`);
         setTimeout(() => setActionSuccessBanner(null), 3500);
       } else {
         setSundayQuestions(backupQuestions);
@@ -1140,6 +1196,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const currentPaper = {
       paperCode: selectedPlannerPreset,
+      revision: paperRevision,
       questions: sundayQuestions,
       customChapters: {
         physics: sundayPhyUnits,
@@ -1161,9 +1218,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setLastSyncedTime(result.paper.updatedAt);
+        setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
         setEditingQuestionIdx(null);
         setEditForm(null);
-        setActionSuccessBanner(`✓ Question #${idx + 1} updated & committed to cloud as GLOBAL DEFAULT!`);
+        setActionSuccessBanner(`✓ Question #${idx + 1} updated & committed to cloud (rev ${result.revision || paperRevision + 1})!`);
         setTimeout(() => setActionSuccessBanner(null), 3500);
       } else {
         setSundayQuestions(backupQuestions);
@@ -2008,11 +2066,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   {isStudioLoadingPaper || isSyncingAction ? (
                     <span className="text-[10px] font-black text-amber-700 bg-amber-100 border border-amber-300 px-2.5 py-0.5 rounded-full animate-pulse flex items-center gap-1.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-ping" />
-                      {isSyncingAction ? 'Writing to Cloud (Single Source of Truth)...' : 'Syncing Master Default from cloud...'}
+                      {isSyncingAction ? `Writing rev ${paperRevision + 1} to Cloud...` : 'Syncing from Cloud...'}
                     </span>
                   ) : (
                     <span className="text-[10px] font-black text-emerald-700 bg-emerald-100 border border-emerald-300 px-2.5 py-0.5 rounded-full flex items-center gap-1">
-                      ✓ Universal Default Active
+                      ✓ Synced (rev {paperRevision || 1})
                     </span>
                   )}
                   {/* Last Synced Indicator */}

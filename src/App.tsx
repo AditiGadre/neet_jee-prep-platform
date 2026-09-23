@@ -47,7 +47,7 @@ import {
   generateSundayTestQuestions,
   getSavedCustomSundayPaper
 } from './data/sundayPlannerTests';
-import { fetchSundayPaperFromCloud } from './utils/cloudSyncManager';
+import { fetchAuthoritativePaper } from './services/authoritativeCloudService';
 import { ExamType, TestItem, BookItem, UserTestResult } from './types';
 
 export default function App() {
@@ -496,8 +496,7 @@ export default function App() {
 
   const handleQuickMockTest = async () => {
     const plannerTest = SUNDAY_DROPPER_PLANNER_TESTS[0];
-    const cloudPaper = await fetchSundayPaperFromCloud('CWT-01');
-    const customPaper = cloudPaper || getSavedCustomSundayPaper('CWT-01');
+    const customPaper = await fetchAuthoritativePaper('CWT-01', true);
     const questions = (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180)
       ? customPaper.questions
       : generateSundayTestQuestions(plannerTest, undefined, false, 'repeater');
