@@ -21,7 +21,11 @@ import {
 } from '../utils/questionDatabase';
 import {
   OFFICIAL_PHYSICS_UNITS,
-  OFFICIAL_CHEMISTRY_UNITS
+  OFFICIAL_CHEMISTRY_UNITS,
+  SUNDAY_DROPPER_PLANNER_TESTS,
+  SUNDAY_11TH_PLANNER_TESTS,
+  PLANNER_12TH_TESTS,
+  generateSundayTestQuestions
 } from '../data/sundayPlannerTests';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
@@ -317,6 +321,49 @@ export async function commitAuthoritativePaperToCloud(
  * - Guarantees highest revision with zero clock skew.
  * - Single JSON parse on 1 object (zero main-thread freezing).
  */
+/**
+ * Returns the official, deterministic base 180-question Sunday test paper.
+ * Guarantees 100% uniformity across all PCs and client sessions when no custom
+ * cloud revision has been committed yet.
+ */
+export function getOfficialBaseSundayPaper(paperCode: string): SyncedSundayPaper {
+  const canonicalCode = getCanonicalPaperCode(paperCode);
+  const is11th = canonicalCode.startsWith('11TH-');
+  const is12th = canonicalCode.startsWith('12TH-');
+  const pureCode = canonicalCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim().toUpperCase();
+
+  const planner = is11th
+    ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) || SUNDAY_11TH_PLANNER_TESTS[0])
+    : is12th
+    ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) || PLANNER_12TH_TESTS[0])
+    : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) || SUNDAY_DROPPER_PLANNER_TESTS[0]);
+
+  const batch: 'repeater' | '12th' | '11th' = is11th ? '11th' : is12th ? '12th' : 'repeater';
+  const questions = generateSundayTestQuestions(planner, undefined, false, batch);
+
+  return {
+    paperCode: canonicalCode,
+    revision: 1,
+    questions: normalizeToAuthoritativeRecords(questions, 'Official Master Default'),
+    customChapters: {
+      physics: [planner.physicsUnit],
+      chemistry: [planner.chemistryUnit],
+      biology: [`[Botany] ${planner.botanyBlock}`, `[Zoology] ${planner.zoologyBlock}`]
+    },
+    testTitle: `Official Default Sunday Paper: ${canonicalCode}`,
+    updatedAt: new Date(1788000000000).toISOString(),
+    publishedBy: 'Institutional Master Admin'
+  };
+}
+
+/**
+ * Fetches the authoritative paper directly from Supabase Cloud.
+ * Queries `.order('correct_answer', { ascending: false }).limit(1)`:
+ * - Downloads exactly ONE row (350 KB instead of 14 MB).
+ * - Guarantees highest revision with zero clock skew.
+ * - Single JSON parse on 1 object (zero main-thread freezing).
+ * - Falls back to the 100% deterministic NCERT base paper so every PC has identical baseline.
+ */
 export async function fetchAuthoritativePaper(
   paperCode: string,
   forceServer: boolean = true
@@ -324,10 +371,10 @@ export async function fetchAuthoritativePaper(
   if (!paperCode) return null;
   const canonicalCode = getCanonicalPaperCode(paperCode);
 
-  // Return fresh in-memory cache if not forced and < 5s old
+  // Return fresh in-memory cache if not forced and < 2s old
   if (!forceServer) {
     const cached = runtimePaperCache.get(canonicalCode);
-    if (cached && (Date.now() - cached.fetchedAt < 5000)) {
+    if (cached && (Date.now() - cached.fetchedAt < 2000)) {
       return cached.paper;
     }
   }
@@ -342,13 +389,20 @@ export async function fetchAuthoritativePaper(
         .eq('chapter', 'SUNDAY_TEST_PAPERS')
         .eq('topic', canonicalCode)
         .order('correct_answer', { ascending: false })
+        .order('id', { ascending: true })
         .limit(1);
 
       if (!error && data && data.length > 0) {
         const row = data[0];
         try {
           const parsed = JSON.parse(row.question_text) as SyncedSundayPaper;
-          if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180) {
+          const isScratchTestArtifact =
+            (parsed.questions?.[0]?.questionText || '').includes('[TOPIC SWAP TEST') ||
+            (parsed.questions?.[0]?.questionText || '').includes('[SYSTEM A SWAPPED') ||
+            (parsed.questions?.[0]?.questionText || '').includes('[EDITED BY CLIENT B') ||
+            (parsed.questions?.[4]?.questionText || '').includes('HEARTBEAT_SAFEGUARD_');
+
+          if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180 && !isScratchTestArtifact) {
             const rev = Number(row.correct_answer) || parsed.revision || 1;
             parsed.revision = rev;
             parsed.paperCode = canonicalCode;
@@ -372,51 +426,27 @@ export async function fetchAuthoritativePaper(
           console.error('[SYNC-DEBUG] Failed to parse latest cloud paper row:', parseErr);
         }
       }
-
-      // 2. Legacy Fallback: check rows with legacy topic or alias filter if no canonical row found
-      const { data: legacyData, error: legacyErr } = await supabase
-        .from('questions')
-        .select('id, topic, question_text')
-        .eq('subject', '__SYSTEM_SYNC__')
-        .eq('chapter', 'SUNDAY_TEST_PAPERS')
-        .or(`topic.eq.${canonicalCode},topic.eq.${paperCode.toUpperCase()},id.ilike.${SUNDAY_PAPER_PREFIX}${canonicalCode}%`)
-        .order('id', { ascending: false })
-        .limit(3);
-
-      if (!legacyErr && legacyData && legacyData.length > 0) {
-        for (const row of legacyData) {
-          try {
-            const paper = JSON.parse(row.question_text) as SyncedSundayPaper;
-            if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
-              paper.revision = paper.revision || 1;
-              paper.paperCode = canonicalCode;
-              runtimePaperCache.set(canonicalCode, { paper, fetchedAt: Date.now() });
-              globalLastSyncedTimestamp = paper.updatedAt || new Date().toISOString();
-              globalLastSyncedRevision = paper.revision;
-              return paper;
-            }
-          } catch {}
-        }
-      }
     } catch (err) {
       console.warn('[SYNC-DEBUG] Network error during authoritative fetch for ' + canonicalCode + ':', err);
     }
   }
 
-  // Fallback to offline localStorage if completely disconnected
+  // 2. Deterministic Canonical Base Template fallback:
+  // Guarantees every single PC, session, and student sees the EXACT same 180 questions
+  const basePaper = getOfficialBaseSundayPaper(canonicalCode);
+  runtimePaperCache.set(canonicalCode, { paper: basePaper, fetchedAt: Date.now() });
+  globalLastSyncedTimestamp = basePaper.updatedAt;
+  globalLastSyncedRevision = 1;
+
   try {
     const raw = localStorage.getItem('neet_custom_sunday_papers');
-    if (raw) {
-      const localPapers = JSON.parse(raw);
-      const matched = localPapers[canonicalCode] || localPapers[canonicalCode.toLowerCase()] || localPapers[paperCode.toLowerCase()];
-      if (matched && Array.isArray(matched.questions) && matched.questions.length === 180) {
-        runtimePaperCache.set(canonicalCode, { paper: matched, fetchedAt: Date.now() });
-        return matched;
-      }
-    }
+    const localPapers = raw ? JSON.parse(raw) : {};
+    localPapers[canonicalCode] = basePaper;
+    localPapers[canonicalCode.toLowerCase()] = basePaper;
+    localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
   } catch {}
 
-  return null;
+  return basePaper;
 }
 
 /**

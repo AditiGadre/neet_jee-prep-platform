@@ -309,7 +309,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [sundayQuestions, setSundayQuestions] = useState<Question[]>(() => {
     try {
       const savedPaper = getSavedCustomSundayPaper('CWT-01');
-      if (savedPaper && Array.isArray(savedPaper.questions) && savedPaper.questions.length === 180) {
+      if (savedPaper && (savedPaper as any).revision > 0 && Array.isArray(savedPaper.questions) && savedPaper.questions.length === 180) {
         return savedPaper.questions;
       }
     } catch {}
@@ -420,6 +420,33 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       }
     };
 
+    // 3-second active sync heartbeat for up to 3 admin devices
+    const heartbeatInterval = setInterval(async () => {
+      if (!isMounted || isStudioLoadingPaper || isSyncingAction) return;
+      try {
+        const canonical = getCanonicalPaperCode(selectedPlannerPreset);
+        const serverRev = await getServerMaxRevision(canonical);
+        if (serverRev > paperRevision) {
+          console.log(`[SYNC-DEBUG] Heartbeat sync: server rev ${serverRev} > local rev ${paperRevision}. Pulling latest paper...`);
+          const latest = await fetchAuthoritativePaper(selectedPlannerPreset, true);
+          if (isMounted && latest && Array.isArray(latest.questions) && latest.questions.length === 180) {
+            setSundayQuestions(latest.questions);
+            setLastSyncedTime(latest.updatedAt);
+            setPaperRevision(latest.revision || serverRev);
+            if (latest.customChapters) {
+              if (latest.customChapters.physics?.length) setSundayPhyUnits(latest.customChapters.physics);
+              if (latest.customChapters.chemistry?.length) setSundayChemUnits(latest.customChapters.chemistry);
+              if (latest.customChapters.biology?.length) setSundayBioUnits(latest.customChapters.biology);
+            }
+            setActionSuccessBanner(`⚡ Live Sync: Master Default ${selectedPlannerPreset.toUpperCase()} updated to rev ${serverRev} across devices!`);
+            setTimeout(() => setActionSuccessBanner(null), 3000);
+          }
+        }
+      } catch (e) {
+        // silent heartbeat
+      }
+    }, 3000);
+
     window.addEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
     window.addEventListener('focus', handleWindowFocus);
     window.addEventListener('visibilitychange', handleWindowFocus);
@@ -427,6 +454,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     return () => {
       isMounted = false;
       unsubscribeRealtime();
+      clearInterval(heartbeatInterval);
       window.removeEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
       window.removeEventListener('focus', handleWindowFocus);
       window.removeEventListener('visibilitychange', handleWindowFocus);
