@@ -144,6 +144,14 @@ export async function registerDeviceSession(
       ) {
         startSessionHeartbeat(adminId);
         subscribeSessionControl(adminId, deviceId);
+        saveFallbackSession(adminId, {
+          id: `sess-${deviceId}`,
+          admin_id: adminId,
+          device_id: deviceId,
+          device_label: deviceLabel,
+          last_active_at: now,
+          created_at: now
+        }).catch(() => {});
         broadcastSessionUpdate(adminId);
         const activeSessions = await getActiveAdminSessions(adminId);
         return {
@@ -320,6 +328,7 @@ async function handleFallbackSessionRegistration(
 
     startSessionHeartbeat(adminId);
     subscribeSessionControl(adminId, deviceId);
+    broadcastSessionUpdate(adminId);
 
     return {
       status: 'refreshed',
@@ -347,6 +356,7 @@ async function handleFallbackSessionRegistration(
 
       startSessionHeartbeat(adminId);
       subscribeSessionControl(adminId, deviceId);
+      broadcastSessionUpdate(adminId);
 
       return {
         status: 'admitted_with_eviction',
@@ -377,6 +387,7 @@ async function handleFallbackSessionRegistration(
 
   startSessionHeartbeat(adminId);
   subscribeSessionControl(adminId, deviceId);
+  broadcastSessionUpdate(adminId);
 
   return {
     status: 'admitted',
@@ -458,6 +469,15 @@ export function broadcastSessionUpdate(adminId: string = 'admin') {
       payload: { adminId, timestamp: Date.now() }
     }).catch(() => {});
   } catch {}
+
+  try {
+    const platformChannel = supabase.channel('platform_sync_broadcast');
+    platformChannel.send({
+      type: 'broadcast',
+      event: 'sessions_updated',
+      payload: { adminId, timestamp: Date.now() }
+    }).catch(() => {});
+  } catch {}
 }
 
 /**
@@ -473,25 +493,35 @@ export function subscribeAdminSessionUpdates(
   if (!sessionSyncChannel && supabase) {
     sessionSyncChannel = supabase.channel('admin_session_sync');
 
-    sessionSyncChannel.on('broadcast', { event: 'sessions_updated' }, async () => {
+    const handleSessionChange = async () => {
       const fresh = await getActiveAdminSessions(adminId);
       sessionUpdateListeners.forEach(cb => {
         try { cb(fresh); } catch {}
       });
-    });
+    };
+
+    sessionSyncChannel.on('broadcast', { event: 'sessions_updated' }, handleSessionChange);
 
     sessionSyncChannel.on(
       'postgres_changes',
       { event: '*', schema: 'public', table: 'admin_sessions' },
-      async () => {
-        const fresh = await getActiveAdminSessions(adminId);
-        sessionUpdateListeners.forEach(cb => {
-          try { cb(fresh); } catch {}
-        });
-      }
+      handleSessionChange
+    );
+
+    sessionSyncChannel.on(
+      'postgres_changes',
+      { event: '*', schema: 'public', table: 'questions', filter: `subject=eq.__ADMIN_SESSION__` },
+      handleSessionChange
     );
 
     sessionSyncChannel.subscribe();
+
+    // Also listen on platform_sync_broadcast channel
+    try {
+      const pChan = supabase.channel('platform_sync_broadcast');
+      pChan.on('broadcast', { event: 'sessions_updated' }, handleSessionChange);
+      pChan.subscribe();
+    } catch {}
   }
 
   return () => {
@@ -585,6 +615,7 @@ export function stopSessionHeartbeat() {
 export async function getActiveAdminSessions(adminId: string = 'admin'): Promise<AdminDeviceSession[]> {
   const currentDeviceId = getOrCreateDeviceId();
   const now = new Date();
+  const sessionMap = new Map<string, AdminDeviceSession>();
 
   if (!supabase) {
     return [{
@@ -598,6 +629,7 @@ export async function getActiveAdminSessions(adminId: string = 'admin'): Promise
     }];
   }
 
+  // 1. Layer 1: Dedicated admin_sessions table
   try {
     const { data, error } = await supabase
       .from('admin_sessions')
@@ -606,16 +638,20 @@ export async function getActiveAdminSessions(adminId: string = 'admin'): Promise
       .order('last_active_at', { ascending: false });
 
     if (!error && data && data.length > 0) {
-      const active = data
-        .filter(s => now.getTime() - new Date(s.last_active_at).getTime() < SESSION_EXPIRY_MS)
-        .map(s => ({ ...s, is_current: s.device_id === currentDeviceId }));
-      if (active.length > 0) {
-        return active;
+      for (const s of data) {
+        if (now.getTime() - new Date(s.last_active_at).getTime() < SESSION_EXPIRY_MS) {
+          sessionMap.set(s.device_id, {
+            ...s,
+            is_current: s.device_id === currentDeviceId
+          });
+        }
       }
     }
-  } catch {}
+  } catch (err) {
+    console.warn('[SESSION] admin_sessions query notice:', err);
+  }
 
-  // Fallback
+  // 2. Layer 2: Resilient questions fallback table (__ADMIN_SESSION__)
   try {
     const { data } = await supabase
       .from('questions')
@@ -625,20 +661,30 @@ export async function getActiveAdminSessions(adminId: string = 'admin'): Promise
       .order('correct_answer', { ascending: false });
 
     if (data && data.length > 0) {
-      const list: AdminDeviceSession[] = [];
       for (const r of data) {
         try {
           const parsed = JSON.parse(r.question_text) as AdminDeviceSession;
           if (now.getTime() - new Date(parsed.last_active_at).getTime() < SESSION_EXPIRY_MS) {
-            list.push({ ...parsed, is_current: parsed.device_id === currentDeviceId });
+            const existing = sessionMap.get(parsed.device_id);
+            if (!existing || new Date(parsed.last_active_at).getTime() > new Date(existing.last_active_at).getTime()) {
+              sessionMap.set(parsed.device_id, {
+                ...parsed,
+                is_current: parsed.device_id === currentDeviceId
+              });
+            }
           }
         } catch {}
       }
-      if (list.length > 0) {
-        return list;
-      }
     }
   } catch {}
+
+  const merged = Array.from(sessionMap.values()).sort(
+    (a, b) => new Date(b.last_active_at).getTime() - new Date(a.last_active_at).getTime()
+  );
+
+  if (merged.length > 0) {
+    return merged;
+  }
 
   return [{
     id: currentDeviceId,
