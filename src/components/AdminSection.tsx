@@ -120,6 +120,26 @@ import {
   getCanonicalPaperCode,
   syncTopicAllocationsToCloud
 } from '../services/authoritativeCloudService';
+import {
+  AdminDeviceSession,
+  getActiveAdminSessions,
+  getOrCreateDeviceId,
+  onDeviceEvicted,
+  startSessionHeartbeat,
+  stopSessionHeartbeat
+} from '../services/adminSessionService';
+import {
+  initAdminRealtimeSync,
+  onAdminSyncEvent,
+  syncDebouncedQuestionReorder,
+  syncAtomicQuestionSwap,
+  syncEditQuestion,
+  syncChangeCorrectOption,
+  syncUpdateMarkingRules,
+  syncAddQuestion,
+  syncDeleteQuestion
+} from '../services/adminSyncService';
+import { AdminMultiDeviceModal } from './AdminMultiDeviceModal';
 
 interface AdminSectionProps {
   onClose?: () => void;
@@ -330,10 +350,84 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     explanation: string;
   } | null>(null);
 
+  // Multi-Device & Realtime Optimistic Sync State
+  const [activeSessions, setActiveSessions] = useState<AdminDeviceSession[]>([]);
+  const [showDevicesModal, setShowDevicesModal] = useState<boolean>(false);
+  const currentDeviceId = useMemo(() => getOrCreateDeviceId(), []);
+  const [isDebouncingReorder, setIsDebouncingReorder] = useState<boolean>(false);
+  const [testMarks, setTestMarks] = useState<number>(4);
+  const [testNegativeMarks, setTestNegativeMarks] = useState<number>(1);
+
   // Synchronize Sunday Studio paper & question bank from Supabase Cloud directly
   useEffect(() => {
     let isMounted = true;
     setIsStudioLoadingPaper(true);
+
+    // 1. Fetch active admin sessions and start device heartbeat
+    getActiveAdminSessions('admin').then(sessions => {
+      if (isMounted) setActiveSessions(sessions);
+    });
+    startSessionHeartbeat('admin');
+
+    // 2. Handle remote eviction if this device is logged out from another device
+    onDeviceEvicted(() => {
+      setActionErrorBanner('⚠️ Session Terminated: Your admin session was disconnected from another device (3-device limit).');
+      if (onClose) {
+        setTimeout(onClose, 2500);
+      }
+    });
+
+    // 3. Initialize Realtime Admin Sync channel
+    const unsubSync = initAdminRealtimeSync(currentDeviceId);
+
+    // 4. Handle incoming Realtime events from other devices
+    const unsubEvents = onAdminSyncEvent((event) => {
+      if (!isMounted) return;
+      if (event.type === 'test_set_updated') {
+        const payload = event.payload;
+        if (payload.action === 'reorder' && Array.isArray(payload.newQuestionIds)) {
+          setSundayQuestions(prev => {
+            const map = new Map(prev.map(q => [q.id, q]));
+            const reordered: Question[] = [];
+            payload.newQuestionIds.forEach((id: string) => {
+              const q = map.get(id);
+              if (q) reordered.push(q);
+            });
+            prev.forEach(q => {
+              if (!reordered.find(r => r.id === q.id)) reordered.push(q);
+            });
+            return reordered;
+          });
+          setActionSuccessBanner(`⚡ Live Sync: Question order reordered across devices!`);
+          setTimeout(() => setActionSuccessBanner(null), 3000);
+        } else if (payload.action === 'swap' && payload.newQuestion) {
+          setSundayQuestions(prev => prev.map(q => q.id === payload.oldQuestionId ? payload.newQuestion : q));
+          setActionSuccessBanner(`⚡ Live Sync: Question swapped across devices!`);
+          setTimeout(() => setActionSuccessBanner(null), 3000);
+        }
+      } else if (event.type === 'question_updated') {
+        const payload = event.payload;
+        setSundayQuestions(prev => prev.map(q => {
+          if (q.id === payload.id) {
+            return {
+              ...q,
+              ...payload,
+              questionText: payload.question_text || payload.questionText || q.questionText,
+              correctAnswer: payload.correct_option ?? payload.correctAnswer ?? q.correctAnswer
+            };
+          }
+          return q;
+        }));
+        setActionSuccessBanner(`⚡ Live Sync: Question updated across devices!`);
+        setTimeout(() => setActionSuccessBanner(null), 3000);
+      } else if (event.type === 'marking_rules_updated') {
+        const payload = event.payload;
+        if (payload.marks !== undefined) setTestMarks(payload.marks);
+        if (payload.negativeMarks !== undefined) setTestNegativeMarks(payload.negativeMarks);
+        setActionSuccessBanner(`⚡ Live Sync: Marking rules updated (+${payload.marks}, -${payload.negativeMarks})!`);
+        setTimeout(() => setActionSuccessBanner(null), 3000);
+      }
+    });
 
     fetchAuthoritativePaper(selectedPlannerPreset, true)
       .then(paper => {
@@ -454,6 +548,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     return () => {
       isMounted = false;
       unsubscribeRealtime();
+      if (unsubSync) unsubSync();
+      if (unsubEvents) unsubEvents();
       clearInterval(heartbeatInterval);
       window.removeEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
       window.removeEventListener('focus', handleWindowFocus);
@@ -937,53 +1033,37 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
   };
 
-  const handleSwapQuestionOrder = async (indexA: number, indexB: number) => {
+  const handleSwapQuestionOrder = (indexA: number, indexB: number) => {
     if (indexA < 0 || indexA >= sundayQuestions.length || indexB < 0 || indexB >= sundayQuestions.length) return;
-    if (isSyncingAction) return;
 
     const backupQuestions = [...sundayQuestions];
-    setIsSyncingAction(true);
-
-    // Optimistically reorder in UI
     const optimistic = [...sundayQuestions];
     const temp = optimistic[indexA];
     optimistic[indexA] = optimistic[indexB];
     optimistic[indexB] = temp;
+
+    // 1. INSTANT optimistic visual feedback (0ms latency, never hung)
     setSundayQuestions(optimistic);
+    setIsDebouncingReorder(true);
 
-    const currentPaper = {
-      paperCode: selectedPlannerPreset,
-      revision: paperRevision,
-      questions: sundayQuestions,
-      customChapters: {
-        physics: sundayPhyUnits,
-        chemistry: sundayChemUnits,
-        biology: sundayBioUnits
+    const newQuestionIds = optimistic.map(q => q.id);
+
+    // 2. Debounced batch commit to Supabase (~400ms) - UI never waits
+    syncDebouncedQuestionReorder(
+      selectedPlannerPreset,
+      newQuestionIds,
+      currentDeviceId,
+      'Institutional Master Admin',
+      () => {
+        setIsDebouncingReorder(false);
       },
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
-      publishedBy: 'Institutional Master Admin'
-    };
-
-    try {
-      const result = await swapQuestions(selectedPlannerPreset, indexA, indexB, currentPaper);
-      if (result.success && result.paper) {
-        setSundayQuestions(result.paper.questions);
-        setLastSyncedTime(result.paper.updatedAt);
-        setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
-        setActionSuccessBanner(`✓ Question order swapped (#${indexA + 1} ↔ #${indexB + 1}) & committed to cloud (rev ${result.revision || paperRevision + 1})!`);
-        setTimeout(() => setActionSuccessBanner(null), 3500);
-      } else {
+      (error) => {
+        setIsDebouncingReorder(false);
         setSundayQuestions(backupQuestions);
-        setActionErrorBanner(`⚠️ Cloud sync failed: ${result.error || 'Write error'}. Question order rolled back.`);
-        setTimeout(() => setActionErrorBanner(null), 5000);
+        setActionErrorBanner(`⚠️ Question reorder failed: ${error}. Order restored.`);
+        setTimeout(() => setActionErrorBanner(null), 4000);
       }
-    } catch (err: any) {
-      setSundayQuestions(backupQuestions);
-      setActionErrorBanner(`⚠️ Cloud write error: ${err.message || 'Unknown error'}. Question order rolled back.`);
-      setTimeout(() => setActionErrorBanner(null), 5000);
-    } finally {
-      setIsSyncingAction(false);
-    }
+    );
   };
 
   const handleUpdateAllocationChapter = (id: string, newChapter: string) => {
@@ -1164,10 +1244,49 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const backupQuestions = [...sundayQuestions];
     setIsSyncingAction(true);
 
+    let sub = currentQ.subject || (questionIdx < 45 ? 'Physics' : questionIdx < 90 ? 'Chemistry' : 'Biology');
+    let ch = targetChapterOverride || currentQ.chapter || '';
+
+    if (targetChapterOverride) {
+      const isPhy = ALL_PHYSICS_CHAPTERS.some(c => c.toLowerCase() === targetChapterOverride.toLowerCase());
+      const isChem = ALL_CHEMISTRY_CHAPTERS.some(c => c.toLowerCase() === targetChapterOverride.toLowerCase());
+      sub = isPhy ? 'Physics' : isChem ? 'Chemistry' : 'Biology';
+      ch = targetChapterOverride;
+    }
+
+    const bank = getUnifiedQuestionBank(sub, ch.length > 0 ? ch : undefined);
+    const existingIds = new Set(sundayQuestions.map(q => q.id));
+    const candidates = bank.filter(q => !existingIds.has(q.id) && q.questionText !== currentQ.questionText);
+
+    const replacement = candidates.length > 0
+      ? candidates[Math.floor(Math.random() * candidates.length)]
+      : (bank.length > 0 ? bank[Math.floor(Math.random() * bank.length)] : currentQ);
+
+    const hardDiag = (replacement.difficulty === 'Hard') && sub === 'Physics'
+      ? getHardPhysicsDiagram(replacement)
+      : null;
+
+    const newQ: Question = {
+      ...replacement,
+      id: `sunday-${sub.toLowerCase()}-swap-${Date.now()}-${replacement.id}`,
+      subject: sub as any,
+      chapter: ch || replacement.chapter,
+      tags: currentQ.tags || replacement.tags,
+      diagramSvg: hardDiag || replacement.diagramSvg,
+      questionText: formatMathAndFormulas(replacement.questionText),
+      options: replacement.options.map(o => formatMathAndFormulas(o)),
+      explanation: formatMathAndFormulas(replacement.explanation)
+    };
+
+    // 1. INSTANT OPTIMISTIC UI UPDATE (0ms)
+    const optimistic = [...sundayQuestions];
+    optimistic[questionIdx] = newQ;
+    setSundayQuestions(optimistic);
+
     const currentPaper = {
       paperCode: selectedPlannerPreset,
       revision: paperRevision,
-      questions: sundayQuestions,
+      questions: optimistic,
       customChapters: {
         physics: sundayPhyUnits,
         chemistry: sundayChemUnits,
@@ -1178,22 +1297,33 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     };
 
     try {
-      const result = await swapSingleQuestionWithBank(
+      // 2. Atomic swap via single transaction (never delete-then-insert)
+      const atomicPromise = syncAtomicQuestionSwap(
+        selectedPlannerPreset,
+        currentQ.id,
+        newQ,
+        currentDeviceId,
+        sundayQuestions
+      );
+
+      const paperPromise = swapSingleQuestionWithBank(
         selectedPlannerPreset,
         questionIdx,
         targetChapterOverride,
         currentPaper
       );
 
+      const [atomicRes, result] = await Promise.all([atomicPromise, paperPromise]);
+
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setLastSyncedTime(result.paper.updatedAt);
         setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
-        setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped & committed to cloud (rev ${result.revision || paperRevision + 1})!`);
+        setActionSuccessBanner(`✓ Question #${questionIdx + 1} atomically swapped & synced live (rev ${result.revision || paperRevision + 1})!`);
         setTimeout(() => setActionSuccessBanner(null), 3500);
-      } else {
+      } else if (!atomicRes.success) {
         setSundayQuestions(backupQuestions);
-        setActionErrorBanner(`⚠️ Cloud sync failed: ${result.error || 'Write error'}. Reverted question #${questionIdx + 1}.`);
+        setActionErrorBanner(`⚠️ Cloud sync failed: ${result.error || atomicRes.error || 'Write error'}. Reverted question #${questionIdx + 1}.`);
         setTimeout(() => setActionErrorBanner(null), 5000);
       }
     } catch (err: any) {
@@ -1220,12 +1350,28 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     if (!editForm || isSyncingAction) return;
     const backupQuestions = [...sundayQuestions];
     const formSnapshot = { ...editForm };
-    setIsSyncingAction(true);
+    const targetQ = sundayQuestions[idx];
+    if (!targetQ) return;
+
+    // 1. INSTANT OPTIMISTIC UPDATE (0ms)
+    const updatedQ: Question = {
+      ...targetQ,
+      questionText: formSnapshot.questionText,
+      options: [...formSnapshot.options],
+      correctAnswer: formSnapshot.correctAnswer,
+      explanation: formSnapshot.explanation
+    };
+
+    const optimistic = [...sundayQuestions];
+    optimistic[idx] = updatedQ;
+    setSundayQuestions(optimistic);
+    setEditingQuestionIdx(null);
+    setEditForm(null);
 
     const currentPaper = {
       paperCode: selectedPlannerPreset,
       revision: paperRevision,
-      questions: sundayQuestions,
+      questions: optimistic,
       customChapters: {
         physics: sundayPhyUnits,
         chemistry: sundayChemUnits,
@@ -1235,21 +1381,35 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       publishedBy: 'Institutional Master Admin'
     };
 
+    // 2. Background Sync
     try {
-      const result = await saveQuestionEdit(
+      const syncQPromise = syncEditQuestion({
+        id: targetQ.id,
+        subject: targetQ.subject,
+        chapter: targetQ.chapter,
+        difficulty: targetQ.difficulty || 'Medium',
+        question_text: formSnapshot.questionText,
+        options: formSnapshot.options,
+        correct_option: formSnapshot.correctAnswer,
+        marks: testMarks,
+        negative_marks: testNegativeMarks,
+        explanation: formSnapshot.explanation
+      }, currentDeviceId);
+
+      const paperPromise = saveQuestionEdit(
         selectedPlannerPreset,
         idx,
         formSnapshot,
         currentPaper
       );
 
+      const [, result] = await Promise.all([syncQPromise, paperPromise]);
+
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setLastSyncedTime(result.paper.updatedAt);
         setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
-        setEditingQuestionIdx(null);
-        setEditForm(null);
-        setActionSuccessBanner(`✓ Question #${idx + 1} updated & committed to cloud (rev ${result.revision || paperRevision + 1})!`);
+        setActionSuccessBanner(`✓ Question #${idx + 1} updated & synced across all admin devices (rev ${result.revision || paperRevision + 1})!`);
         setTimeout(() => setActionSuccessBanner(null), 3500);
       } else {
         setSundayQuestions(backupQuestions);
@@ -1260,9 +1420,40 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       setSundayQuestions(backupQuestions);
       setActionErrorBanner(`⚠️ Cloud write error: ${err.message || 'Unknown network error'}. Changes rolled back.`);
       setTimeout(() => setActionErrorBanner(null), 5000);
-    } finally {
-      setIsSyncingAction(false);
     }
+  };
+
+  const handleQuickChangeCorrectOption = async (idx: number, optIdx: number) => {
+    const targetQ = sundayQuestions[idx];
+    if (!targetQ || targetQ.correctAnswer === optIdx) return;
+    const backupQuestions = [...sundayQuestions];
+
+    // Optimistic UI update
+    const optimistic = [...sundayQuestions];
+    optimistic[idx] = { ...targetQ, correctAnswer: optIdx };
+    setSundayQuestions(optimistic);
+    setActionSuccessBanner(`✓ Option ${String.fromCharCode(65 + optIdx)} set as key for Q#${idx + 1}`);
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+
+    const res = await syncChangeCorrectOption(targetQ.id, optIdx, currentDeviceId);
+    if (!res.success) {
+      setSundayQuestions(backupQuestions);
+      setActionErrorBanner(`⚠️ Failed to update correct option: ${res.error}`);
+      setTimeout(() => setActionErrorBanner(null), 4000);
+    }
+  };
+
+  const handleUpdateMarking = async (marks: number, negMarks: number) => {
+    setTestMarks(marks);
+    setTestNegativeMarks(negMarks);
+    setActionSuccessBanner(`✓ Marking rules set to +${marks} / -${negMarks}!`);
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+
+    await syncUpdateMarkingRules({
+      testSetId: selectedPlannerPreset,
+      marks,
+      negativeMarks: negMarks
+    }, currentDeviceId);
   };
 
   const handlePublishSundayPaper = () => {
@@ -1595,6 +1786,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </>
               )}
             </div>
+
+            {/* Multi-Device Sync Indicator (Capped at 3 Devices) */}
+            <button
+              onClick={() => {
+                getActiveAdminSessions('admin').then(setActiveSessions);
+                setShowDevicesModal(true);
+              }}
+              className="px-3.5 py-2.5 rounded-xl text-xs font-bold font-mono transition flex items-center space-x-2 cursor-pointer bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shadow-md"
+              title="Manage Active Admin Devices (Max 3 Devices Capped)"
+            >
+              <Smartphone className="w-4 h-4 text-indigo-400" />
+              <span>{activeSessions.length || 1}/3 Devices</span>
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            </button>
 
             <button
               onClick={handleToggleAdminTestAccess}
@@ -2227,6 +2432,30 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   Class 12
                 </button>
 
+                {/* Marking Rules (+4 / -1) */}
+                <div className="flex items-center gap-1.5 bg-slate-100 p-1.5 rounded-xl border border-slate-200">
+                  <span className="text-[11px] font-extrabold text-slate-700 px-1">Marking:</span>
+                  <div className="flex items-center gap-1 bg-white px-2 py-0.5 rounded-lg border border-slate-300">
+                    <span className="text-[10px] text-emerald-700 font-bold">+</span>
+                    <input
+                      type="number"
+                      value={testMarks}
+                      onChange={e => handleUpdateMarking(Number(e.target.value) || 4, testNegativeMarks)}
+                      className="w-6 text-xs font-mono font-bold text-center bg-transparent border-0 focus:outline-hidden text-emerald-800"
+                      title="Marks for correct answer"
+                    />
+                    <span className="text-slate-400 text-xs">/</span>
+                    <span className="text-[10px] text-rose-600 font-bold">-</span>
+                    <input
+                      type="number"
+                      value={testNegativeMarks}
+                      onChange={e => handleUpdateMarking(testMarks, Number(e.target.value) || 1)}
+                      className="w-6 text-xs font-mono font-bold text-center bg-transparent border-0 focus:outline-hidden text-rose-700"
+                      title="Negative marks for incorrect answer"
+                    />
+                  </div>
+                </div>
+
                 <button
                   onClick={handleAssembleSundayStudio}
                   className="px-3 py-1.5 text-xs font-extrabold rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white cursor-pointer flex items-center gap-1.5 shadow-xs ml-1"
@@ -2700,7 +2929,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             <button
                               type="button"
                               onClick={() => handleSwapQuestionOrder(originalIdx, originalIdx - 1)}
-                              disabled={originalIdx === 0 || isSyncingAction}
+                              disabled={originalIdx === 0}
                               className="p-1 text-slate-700 hover:text-blue-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
                               title="Move Question Up (Atomic Cloud Swap)"
                             >
@@ -2709,7 +2938,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             <button
                               type="button"
                               onClick={() => handleSwapQuestionOrder(originalIdx, originalIdx + 1)}
-                              disabled={originalIdx === sundayQuestions.length - 1 || isSyncingAction}
+                              disabled={originalIdx === sundayQuestions.length - 1}
                               className="p-1 text-slate-700 hover:text-blue-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
                               title="Move Question Down (Atomic Cloud Swap)"
                             >
@@ -2866,23 +3095,29 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                               return (
                                 <div
                                   key={optIdx}
-                                  className={`p-2.5 rounded-xl text-xs flex items-center justify-between border ${
+                                  onClick={() => handleQuickChangeCorrectOption(originalIdx, optIdx)}
+                                  className={`p-2.5 rounded-xl text-xs flex items-center justify-between border cursor-pointer select-none transition ${
                                     isCorrect
-                                      ? 'bg-emerald-50 border-emerald-300 text-emerald-950 font-bold'
-                                      : 'bg-slate-50 border-slate-200 text-slate-700'
+                                      ? 'bg-emerald-50 border-emerald-400 text-emerald-950 font-bold ring-2 ring-emerald-500/20 shadow-xs'
+                                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:border-emerald-300 hover:bg-emerald-50/40'
                                   }`}
+                                  title={`Click to set Option ${String.fromCharCode(65 + optIdx)} as the correct answer key`}
                                 >
                                   <span className="flex items-center gap-2">
                                     <span className={`w-5 h-5 rounded-full text-[10px] flex items-center justify-center font-bold ${
-                                      isCorrect ? 'bg-emerald-600 text-white' : 'bg-slate-200 text-slate-600'
+                                      isCorrect ? 'bg-emerald-600 text-white shadow-xs' : 'bg-slate-200 text-slate-600'
                                     }`}>
                                       {String.fromCharCode(65 + optIdx)}
                                     </span>
                                     <span>{opt}</span>
                                   </span>
-                                  {isCorrect && (
-                                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-emerald-200 text-emerald-800 font-bold">
-                                      Key
+                                  {isCorrect ? (
+                                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-emerald-200 text-emerald-800 font-bold flex items-center gap-1">
+                                      <CheckCircle2 className="w-3 h-3 text-emerald-700" /> Key
+                                    </span>
+                                  ) : (
+                                    <span className="text-[9px] text-slate-400 font-medium hover:text-emerald-700">
+                                      Set Key
                                     </span>
                                   )}
                                 </div>
@@ -4065,6 +4300,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
           )}
         </div>
+      )}
+
+      {/* Admin Multi-Device Session Modal */}
+      {showDevicesModal && (
+        <AdminMultiDeviceModal
+          isOpen={true}
+          sessions={activeSessions}
+          currentDeviceId={currentDeviceId}
+          adminId="admin"
+          onClose={() => setShowDevicesModal(false)}
+          onDeviceEvicted={(evictedId) => {
+            setActiveSessions(prev => prev.filter(s => s.device_id !== evictedId));
+          }}
+        />
       )}
     </div>
   );

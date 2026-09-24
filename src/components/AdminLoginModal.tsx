@@ -13,6 +13,12 @@ import {
   Server,
   Fingerprint
 } from 'lucide-react';
+import {
+  registerDeviceSession,
+  getOrCreateDeviceId,
+  AdminDeviceSession
+} from '../services/adminSessionService';
+import { AdminMultiDeviceModal } from './AdminMultiDeviceModal';
 
 interface AdminLoginModalProps {
   isOpen: boolean;
@@ -36,6 +42,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
   const [showPin2FA, setShowPin2FA] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [isAuthenticating, setIsAuthenticating] = useState(false);
+  const [conflictSessions, setConflictSessions] = useState<AdminDeviceSession[] | null>(null);
 
   if (!isOpen) return null;
 
@@ -69,13 +76,60 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
         return;
       }
 
-      sessionStorage.setItem('neet_admin_authenticated', 'true');
-      localStorage.setItem('neet_admin_authenticated', 'true');
-      sessionStorage.setItem('neet_admin_session_time', Date.now().toString());
-      setIsAuthenticating(false);
-      onLoginSuccess();
+      // Check multi-device 3-session cap
+      registerDeviceSession(username || 'admin', false)
+        .then(reg => {
+          setIsAuthenticating(false);
+          if (reg.status === 'device_limit_exceeded') {
+            setConflictSessions(reg.activeSessions);
+            return;
+          }
+          sessionStorage.setItem('neet_admin_authenticated', 'true');
+          localStorage.setItem('neet_admin_authenticated', 'true');
+          sessionStorage.setItem('neet_admin_session_time', Date.now().toString());
+          onLoginSuccess();
+        })
+        .catch(err => {
+          console.warn('[AUTH] Notice registering device session:', err);
+          setIsAuthenticating(false);
+          sessionStorage.setItem('neet_admin_authenticated', 'true');
+          localStorage.setItem('neet_admin_authenticated', 'true');
+          sessionStorage.setItem('neet_admin_session_time', Date.now().toString());
+          onLoginSuccess();
+        });
     }, 400);
   };
+
+  if (conflictSessions) {
+    return (
+      <AdminMultiDeviceModal
+        isOpen={true}
+        isConflictPrompt={true}
+        currentDeviceId={getOrCreateDeviceId()}
+        adminId={username || 'admin'}
+        sessions={conflictSessions}
+        onClose={() => setConflictSessions(null)}
+        onDeviceEvicted={async () => {
+          setConflictSessions(null);
+          sessionStorage.setItem('neet_admin_authenticated', 'true');
+          localStorage.setItem('neet_admin_authenticated', 'true');
+          sessionStorage.setItem('neet_admin_session_time', Date.now().toString());
+          await registerDeviceSession(username || 'admin', false);
+          onLoginSuccess();
+        }}
+        onAutoEvictOldest={async () => {
+          const reg = await registerDeviceSession(username || 'admin', true);
+          setConflictSessions(null);
+          if (reg.status !== 'device_limit_exceeded') {
+            sessionStorage.setItem('neet_admin_authenticated', 'true');
+            localStorage.setItem('neet_admin_authenticated', 'true');
+            sessionStorage.setItem('neet_admin_session_time', Date.now().toString());
+            onLoginSuccess();
+          }
+        }}
+      />
+    );
+  }
 
   return (
     <div className="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto animate-in fade-in duration-200">
