@@ -413,19 +413,20 @@ export async function syncAtomicQuestionSwap(
 
   try {
     // 2. Make sure the new question exists in questions table first
+    const anyQ = newQuestion as any;
     await supabase.from('questions').upsert({
-      id: newQuestion.id,
-      subject: newQuestion.subject,
-      chapter: newQuestion.chapter,
-      topic: (newQuestion as any).topic || null,
-      difficulty: newQuestion.difficulty || 'Medium',
-      question_text: newQuestion.questionText || (newQuestion as any).question_text,
-      options: newQuestion.options,
-      correct_option: newQuestion.correctAnswer ?? (newQuestion as any).correct_option ?? 0,
-      correct_answer: newQuestion.correctAnswer ?? (newQuestion as any).correct_option ?? 0,
+      id: anyQ.id,
+      subject: anyQ.subject,
+      chapter: anyQ.chapter,
+      topic: anyQ.topic || null,
+      difficulty: anyQ.difficulty || 'Medium',
+      question_text: anyQ.questionText || anyQ.question_text || '',
+      options: anyQ.options,
+      correct_option: anyQ.correctAnswer ?? anyQ.correct_option ?? 0,
+      correct_answer: anyQ.correctAnswer ?? anyQ.correct_option ?? 0,
       marks: 4,
       negative_marks: 1,
-      explanation: newQuestion.explanation || '',
+      explanation: anyQ.explanation || '',
       updated_at: now
     }, { onConflict: 'id' }).catch(() => {});
 

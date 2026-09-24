@@ -17,6 +17,7 @@ const LiveDoubtModal = lazy(() => import('./components/LiveDoubtModal').then(m =
 const BookReaderModal = lazy(() => import('./components/BookReaderModal').then(m => ({ default: m.BookReaderModal })));
 const AuthModal = lazy(() => import('./components/AuthModal').then(m => ({ default: m.AuthModal })));
 const DownloadsModal = lazy(() => import('./components/DownloadsModal').then(m => ({ default: m.DownloadsModal })));
+const TermsAndConditionsModal = lazy(() => import('./components/TermsAndConditionsModal').then(m => ({ default: m.TermsAndConditionsModal })));
 import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';

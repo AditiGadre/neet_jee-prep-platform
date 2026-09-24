@@ -55,7 +55,8 @@ import {
   Globe,
   ArrowUp,
   ArrowDown,
-  AlertTriangle
+  AlertTriangle,
+  Smartphone
 } from 'lucide-react';
 import {
   getUnifiedQuestionBank,
@@ -387,7 +388,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         const payload = event.payload;
         if (payload.action === 'reorder' && Array.isArray(payload.newQuestionIds)) {
           setSundayQuestions(prev => {
-            const map = new Map(prev.map(q => [q.id, q]));
+            const map = new Map<string, Question>(prev.map(q => [q.id, q]));
             const reordered: Question[] = [];
             payload.newQuestionIds.forEach((id: string) => {
               const q = map.get(id);
@@ -890,7 +891,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         biology: sundayBioUnits
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
-      publishedBy: 'Institutional Master Admin'
+      publishedBy: 'Institutional Master Admin',
+      updatedAt: new Date().toISOString()
     };
 
     saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
@@ -942,7 +944,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         biology: sundayBioUnits
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
-      publishedBy: 'Institutional Master Admin'
+      publishedBy: 'Institutional Master Admin',
+      updatedAt: new Date().toISOString()
     };
 
     saveCustomSundayPaper(selectedPlannerPreset, paperToReset);
@@ -984,7 +987,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         biology: sundayBioUnits
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
-      publishedBy: 'Institutional Master Admin'
+      publishedBy: 'Institutional Master Admin',
+      updatedAt: new Date().toISOString()
     };
 
     try {
@@ -1210,7 +1214,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         biology: sundayBioUnits
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
-      publishedBy: 'Institutional Master Admin'
+      publishedBy: 'Institutional Master Admin',
+      updatedAt: new Date().toISOString()
     };
 
     saveCustomSundayPaper(selectedPlannerPreset, assembledPaper);
@@ -1293,7 +1298,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         biology: sundayBioUnits
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
-      publishedBy: 'Institutional Master Admin'
+      publishedBy: 'Institutional Master Admin',
+      updatedAt: new Date().toISOString()
     };
 
     try {
@@ -1378,7 +1384,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         biology: sundayBioUnits
       },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
-      publishedBy: 'Institutional Master Admin'
+      publishedBy: 'Institutional Master Admin',
+      updatedAt: new Date().toISOString()
     };
 
     // 2. Background Sync
