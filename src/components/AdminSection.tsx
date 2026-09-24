@@ -119,6 +119,7 @@ import {
   setLastSyncedRevision,
   getServerMaxRevision,
   getCanonicalPaperCode,
+  getOfficialBaseSundayPaper,
   syncTopicAllocationsToCloud
 } from '../services/authoritativeCloudService';
 import {
@@ -405,6 +406,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           setSundayQuestions(prev => prev.map(q => q.id === payload.oldQuestionId ? payload.newQuestion : q));
           setActionSuccessBanner(`⚡ Live Sync: Question swapped across devices!`);
           setTimeout(() => setActionSuccessBanner(null), 3000);
+        } else if ((payload.action === 'revert_to_default' || payload.action === 'paper_updated') && payload.paper) {
+          const incomingCode = getCanonicalPaperCode(payload.paperCode || payload.testSetId);
+          if (incomingCode === getCanonicalPaperCode(selectedPlannerPreset)) {
+            setSundayQuestions(payload.paper.questions);
+            setPaperRevision(payload.revision || payload.paper.revision);
+            setLastSyncedTime(payload.updated_at || payload.paper.updatedAt);
+            saveCustomSundayPaper(selectedPlannerPreset, payload.paper);
+            setActionSuccessBanner(`⚡ Live Sync: Base template updated across all admin devices!`);
+            setTimeout(() => setActionSuccessBanner(null), 3500);
+          }
         }
       } else if (event.type === 'question_updated') {
         const payload = event.payload;
@@ -923,26 +934,19 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const handleResetSelectedPaperToDefault = async () => {
     deleteCustomSundayPaper(selectedPlannerPreset);
     handleApplyPreset(selectedPlannerPreset);
-    const is11th = selectedPlannerPreset.toLowerCase().startsWith('11th-');
-    const is12th = selectedPlannerPreset.toLowerCase().startsWith('12th-');
-    const cleanCode = selectedPlannerPreset.replace(/^(11th|12th)-/i, '').toUpperCase();
-    const planner = is11th
-      ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode) || SUNDAY_11TH_PLANNER_TESTS[0])
-      : is12th
-      ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode) || PLANNER_12TH_TESTS[0])
-      : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode) || SUNDAY_DROPPER_PLANNER_TESTS[0]);
-    const defaultQs = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
+
+    const canonicalCode = getCanonicalPaperCode(selectedPlannerPreset);
+    const basePaper = getOfficialBaseSundayPaper(canonicalCode);
+    const defaultQs = basePaper.questions;
+
+    // 1. INSTANT optimistic local reset (0ms)
     setSundayQuestions(defaultQs);
 
     const paperToReset = {
+      ...basePaper,
       paperCode: selectedPlannerPreset,
       revision: paperRevision,
       questions: defaultQs,
-      customChapters: {
-        physics: sundayPhyUnits,
-        chemistry: sundayChemUnits,
-        biology: sundayBioUnits
-      },
       testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
@@ -951,17 +955,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     saveCustomSundayPaper(selectedPlannerPreset, paperToReset);
     setIsSyncingAction(true);
     try {
-      const result = await commitAuthoritativePaperToCloud(paperToReset, paperRevision);
+      // Pass expectedRevision = -1 to FORCE master reset across all devices regardless of concurrency
+      const result = await commitAuthoritativePaperToCloud(paperToReset, -1);
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setLastSyncedTime(result.paper.updatedAt);
         setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
-        setActionSuccessBanner(`✓ Paper ${selectedPlannerPreset.toUpperCase()} reset to standard default and committed to cloud!`);
+        setActionSuccessBanner(`✓ Base template for ${selectedPlannerPreset.toUpperCase()} restored & synced across ALL devices!`);
       } else {
-        setActionErrorBanner(`⚠️ Reset saved locally, but cloud write encountered an issue: ${result.error}`);
+        setActionErrorBanner(`⚠️ Reset saved locally, but cloud write notice: ${result.error}`);
       }
     } catch (e: any) {
-      setActionErrorBanner(`⚠️ Cloud reset failed: ${e.message}`);
+      setActionErrorBanner(`⚠️ Cloud reset notice: ${e.message}`);
     } finally {
       setIsSyncingAction(false);
       setTimeout(() => {

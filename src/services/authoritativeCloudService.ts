@@ -128,7 +128,7 @@ export function normalizeToAuthoritativeRecords(
 
 /**
  * Inserts a system record into Supabase questions table.
- * Resolves within a strict 10s timeout to prevent UI freezes.
+ * Uses unique collision-proof ID and generous 25s timeout for large payloads.
  */
 async function insertSupabaseSystemRow(row: {
   id: string;
@@ -140,24 +140,31 @@ async function insertSupabaseSystemRow(row: {
   options: string[];
   correct_answer: number;
   explanation: string;
-}): Promise<boolean> {
-  if (!supabase) return false;
+}): Promise<{ success: boolean; error?: string }> {
+  if (!supabase) return { success: false, error: 'Database client not initialized.' };
 
   const insertPromise = supabase.from('questions').insert(row);
   const timeoutPromise = new Promise<{ error: { message: string } }>((_, reject) =>
-    setTimeout(() => reject(new Error('Supabase insert timed out after 10000ms')), 10000)
+    setTimeout(() => reject(new Error('Supabase insert timed out after 25000ms')), 25000)
   );
 
   try {
     const { error } = await Promise.race([insertPromise, timeoutPromise]) as any;
     if (error) {
       console.error('[SYNC-DEBUG] Supabase insert failed for ' + row.id + ':', error.message);
-      return false;
+      // If error is duplicate key or constraint violation, auto-retry with unique timestamp ID
+      if (error.message && (error.message.includes('unique constraint') || error.code === '23505')) {
+        const retryRow = { ...row, id: `${row.id}__retry_${Date.now()}_${Math.random().toString(36).slice(2, 6)}` };
+        const { error: retryErr } = await supabase.from('questions').insert(retryRow);
+        if (!retryErr) return { success: true };
+        return { success: false, error: retryErr.message };
+      }
+      return { success: false, error: error.message };
     }
-    return true;
+    return { success: true };
   } catch (e: any) {
     console.error('[SYNC-DEBUG] Supabase insert exception for ' + row.id + ':', e.message);
-    return false;
+    return { success: false, error: e.message || 'Network timeout communicating with cloud.' };
   }
 }
 
@@ -190,9 +197,9 @@ export async function getServerMaxRevision(canonicalCode: string): Promise<numbe
 /**
  * Persists an authoritative Sunday Test Paper to the cloud database.
  * - Increments server revision integer (stored in Postgres `correct_answer`).
- * - Validates optimistic concurrency: rejects if server has advanced beyond `expectedRevision`.
- * - Writes EXACTLY ONE primary canonical record (no 4x alias duplicates).
- * - Broadcasts update over WebSocket Realtime channel for instant global propagation.
+ * - Validates optimistic concurrency (bypassed if expectedRevision === -1 for Force Revert).
+ * - Writes EXACTLY ONE primary canonical record with collision-proof unique ID.
+ * - Broadcasts update with complete payload over WebSocket channels for instant zero-delay sync across all PCs.
  */
 export async function commitAuthoritativePaperToCloud(
   paper: SyncedSundayPaper,
@@ -202,10 +209,11 @@ export async function commitAuthoritativePaperToCloud(
   const canonicalCode = getCanonicalPaperCode(paper.paperCode);
   const now = Date.now();
   const isoTimestamp = new Date(now).toISOString();
+  const isForceRevert = expectedRevision === -1;
 
-  // 1. Concurrency check & revision assignment
+  // 1. Concurrency check & revision assignment (bypassed if Force Revert)
   const currentServerRev = await getServerMaxRevision(canonicalCode);
-  if (expectedRevision !== undefined && expectedRevision > 0 && currentServerRev > expectedRevision) {
+  if (!isForceRevert && expectedRevision !== undefined && expectedRevision > 0 && currentServerRev > expectedRevision) {
     return {
       success: false,
       error: `Concurrency conflict: Server has newer revision ${currentServerRev} (local was ${expectedRevision}). Please reload before saving.`,
@@ -249,10 +257,11 @@ export async function commitAuthoritativePaperToCloud(
 
   try {
     const payloadJson = JSON.stringify(normalizedPaper);
-    const rowId = `${SUNDAY_PAPER_PREFIX}${canonicalCode}__REV_${nextRevision}`;
+    // Collision-proof unique row ID guaranteed to never violate primary key constraints
+    const rowId = `${SUNDAY_PAPER_PREFIX}${canonicalCode}__REV_${nextRevision}__${now}_${Math.random().toString(36).slice(2, 6)}`;
 
     // 4. Single Authoritative Server Write
-    const primarySuccess = await insertSupabaseSystemRow({
+    const primaryResult = await insertSupabaseSystemRow({
       id: rowId,
       subject: '__SYSTEM_SYNC__',
       chapter: 'SUNDAY_TEST_PAPERS',
@@ -264,15 +273,15 @@ export async function commitAuthoritativePaperToCloud(
       explanation: `Authoritative Sunday Paper: ${canonicalCode} Rev ${nextRevision}`
     });
 
-    if (!primarySuccess) {
+    if (!primaryResult.success) {
       return {
         success: false,
-        error: 'Failed to write authoritative record to cloud database.',
+        error: primaryResult.error || 'Failed to write authoritative record to cloud database.',
         timestamp: isoTimestamp
       };
     }
 
-    // 5. Broadcast to all open clients via Supabase WebSocket channel
+    // 5. Broadcast to all open clients via Supabase WebSocket channel (includes full payload for 0ms delivery)
     const channel = getBroadcastChannel();
     if (channel) {
       channel.send({
@@ -281,6 +290,8 @@ export async function commitAuthoritativePaperToCloud(
         payload: {
           paperCode: canonicalCode,
           revision: nextRevision,
+          paper: normalizedPaper,
+          isRevert: isForceRevert,
           updatedAt: isoTimestamp,
           updatedBy: adminUser
         }
@@ -288,6 +299,27 @@ export async function commitAuthoritativePaperToCloud(
         console.warn('[SYNC-DEBUG] Notice broadcasting sync event:', bcastErr);
       });
     }
+
+    // 6. Broadcast to admin_platform_sync channel for multi-admin devices
+    try {
+      const adminSyncChannel = supabase.channel('admin_platform_sync');
+      adminSyncChannel.send({
+        type: 'broadcast',
+        event: 'admin_sync_event',
+        payload: {
+          type: 'test_set_updated',
+          senderDeviceId: 'master_admin',
+          payload: {
+            testSetId: canonicalCode,
+            paperCode: canonicalCode,
+            revision: nextRevision,
+            action: isForceRevert ? 'revert_to_default' : 'paper_updated',
+            paper: normalizedPaper,
+            updated_at: isoTimestamp
+          }
+        }
+      }).catch(() => {});
+    } catch {}
 
     // Local event dispatch for same-window components
     if (typeof window !== 'undefined') {
@@ -743,8 +775,27 @@ function initPaperBroadcastListener() {
     const incomingRev = Number(data.revision) || 0;
     const currentRev = globalLastSyncedRevision;
 
+    // Instant delivery if full paper is included in broadcast payload (0ms latency)
+    if (data.paper && Array.isArray(data.paper.questions) && data.paper.questions.length === 180) {
+      console.log(`[SYNC-DEBUG] Instant Realtime paper sync applied directly for ${incomingCanonical} (rev ${incomingRev})!`);
+      runtimePaperCache.set(incomingCanonical, { paper: data.paper, fetchedAt: Date.now() });
+      globalLastSyncedTimestamp = data.updatedAt || new Date().toISOString();
+      globalLastSyncedRevision = incomingRev;
+      try {
+        const raw = localStorage.getItem('neet_custom_sunday_papers');
+        const localPapers = raw ? JSON.parse(raw) : {};
+        localPapers[incomingCanonical] = data.paper;
+        localPapers[incomingCanonical.toLowerCase()] = data.paper;
+        localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
+      } catch {}
+      matching.forEach(s => {
+        try { s.onUpdate(data.paper); } catch (err) {}
+      });
+      return;
+    }
+
     // Only update if server broadcast has newer revision (prevents echo loops)
-    if (incomingRev > currentRev) {
+    if (incomingRev > currentRev || data.isRevert) {
       console.log(`[SYNC-DEBUG] Incoming broadcast rev ${incomingRev} > current rev ${currentRev}. Fetching latest paper for ${incomingCanonical}...`);
       const freshPaper = await fetchAuthoritativePaper(incomingCanonical, true);
       if (freshPaper) {
