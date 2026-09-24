@@ -174,37 +174,30 @@ export async function fetchAllSundayPapersFromCloud(): Promise<Record<string, Sy
   try {
     const { data, error } = await supabase
       .from('questions')
-      .select('id, topic, question_text')
+      .select('id, topic, correct_answer, question_text')
       .eq('subject', '__SYSTEM_SYNC__')
-      .eq('chapter', 'SUNDAY_TEST_PAPERS');
+      .eq('chapter', 'SUNDAY_TEST_PAPERS')
+      .order('correct_answer', { ascending: false });
 
     if (error || !data) return result;
 
     for (const row of data) {
       try {
-        const paper = JSON.parse(row.question_text) as SyncedSundayPaper;
-        if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
-          const rawCode = (row.id || '')
-            .replace(/^__SUNDAY_PAPER__/, '')
-            .replace(/__\d+$/, '')
-            .toUpperCase()
-            .trim();
-          const topicCode = (row.topic || '').toUpperCase().trim();
-          const pCode = (paper.paperCode || '').toUpperCase().trim();
+        const canonical = (row.topic || '').toUpperCase().trim();
+        if (!canonical || result[canonical]) continue; // Already have highest revision
 
-          const candidateKeys = [topicCode, rawCode, pCode].filter(Boolean);
-          for (const key of candidateKeys) {
-            const existing = result[key];
-            if (!existing || new Date(paper.updatedAt).getTime() >= new Date(existing.updatedAt).getTime()) {
-              result[key] = paper;
-              memorySundayPaperCache.set(key, paper);
-              if (key.startsWith('REPEATER-')) {
-                const baseKey = key.replace(/^REPEATER-/, '');
-                result[baseKey] = paper;
-                memorySundayPaperCache.set(baseKey, paper);
-              }
-            }
-          }
+        let paper: SyncedSundayPaper | null = null;
+        try {
+          paper = JSON.parse(row.question_text) as SyncedSundayPaper;
+        } catch {
+          continue;
+        }
+
+        if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
+          paper.paperCode = canonical;
+          paper.revision = Number(row.correct_answer) || paper.revision || 1;
+          result[canonical] = paper;
+          memorySundayPaperCache.set(canonical, paper);
         }
       } catch {}
     }

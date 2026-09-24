@@ -2031,21 +2031,30 @@ export function saveCustomSundayPaper(
     if (cleanKey) {
       all[cleanKey] = payload;
       all[cleanKey.toUpperCase()] = payload;
-      all[`11th-${cleanKey}`] = payload;
-      all[`12th-${cleanKey}`] = payload;
-      all[`repeater-${cleanKey}`] = payload;
-      all[`dropper-${cleanKey}`] = payload;
-      all[`11TH-${cleanKey.toUpperCase()}`] = payload;
-      all[`12TH-${cleanKey.toUpperCase()}`] = payload;
-      all[`REPEATER-${cleanKey.toUpperCase()}`] = payload;
-      all[`DROPPER-${cleanKey.toUpperCase()}`] = payload;
     }
-    localStorage.setItem(SUNDAY_CUSTOM_PAPERS_KEY, JSON.stringify(all));
+    // Clean up bloated legacy duplicate keys to keep storage lean (<500 KB)
+    for (const k of Object.keys(all)) {
+      if (k.startsWith('11th-') || k.startsWith('12th-') || k.startsWith('repeater-') || k.startsWith('dropper-') ||
+          k.startsWith('11TH-') || k.startsWith('12TH-') || k.startsWith('REPEATER-') || k.startsWith('DROPPER-')) {
+        delete all[k];
+      }
+    }
+    all[paperCode.toUpperCase()] = payload;
+    if (cleanKey) {
+      all[cleanKey.toUpperCase()] = payload;
+    }
 
-    // Synchronize to Supabase Cloud so all 1,000 systems receive it immediately!
-    syncSundayPaperToCloud(payload).catch(e => {
-      console.warn('Cloud sync notification for Sunday paper:', e);
-    });
+    try {
+      localStorage.setItem(SUNDAY_CUSTOM_PAPERS_KEY, JSON.stringify(all));
+    } catch (quotaErr) {
+      console.warn('LocalStorage quota limit reached, saving minimal current paper:', quotaErr);
+      try {
+        const minimal: Record<string, SavedSundayPaper> = {};
+        minimal[paperCode.toUpperCase()] = payload;
+        if (cleanKey) minimal[cleanKey.toUpperCase()] = payload;
+        localStorage.setItem(SUNDAY_CUSTOM_PAPERS_KEY, JSON.stringify(minimal));
+      } catch {}
+    }
 
     // Also sync legacy neet_published_sunday_test
     try {

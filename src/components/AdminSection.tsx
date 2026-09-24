@@ -396,13 +396,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       }
     });
 
-    // Fallback 15s polling to keep session list ultra-fresh
+    // Fallback 3s polling to keep multi-device session list ultra-fresh
     const sessionPollTimer = setInterval(() => {
       if (!isMounted) return;
       getActiveAdminSessions('admin').then(sessions => {
         if (isMounted) setActiveSessions(sessions);
       });
-    }, 15000);
+    }, 3000);
 
     // 2. Handle remote eviction if this device is logged out from another device
     onDeviceEvicted(() => {
@@ -422,6 +422,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         const payload = event.payload;
         if (payload.action === 'reorder' && Array.isArray(payload.newQuestionIds)) {
           setSundayQuestions(prev => {
+            if (!Array.isArray(prev)) return prev;
             const map = new Map<string, Question>(prev.map(q => [q.id, q]));
             const reordered: Question[] = [];
             payload.newQuestionIds.forEach((id: string) => {
@@ -436,23 +437,32 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           setActionSuccessBanner(`⚡ Live Sync: Question order reordered across devices!`);
           setTimeout(() => setActionSuccessBanner(null), 3000);
         } else if (payload.action === 'swap' && payload.newQuestion) {
-          setSundayQuestions(prev => prev.map(q => q.id === payload.oldQuestionId ? payload.newQuestion : q));
+          setSundayQuestions(prev => Array.isArray(prev) ? prev.map(q => q.id === payload.oldQuestionId ? payload.newQuestion : q) : prev);
           setActionSuccessBanner(`⚡ Live Sync: Question swapped across devices!`);
           setTimeout(() => setActionSuccessBanner(null), 3000);
-        } else if ((payload.action === 'revert_to_default' || payload.action === 'paper_updated') && payload.paper) {
+        } else if (payload.action === 'revert_to_default' || payload.action === 'paper_updated') {
           const incomingCode = getCanonicalPaperCode(payload.paperCode || payload.testSetId);
           if (incomingCode === getCanonicalPaperCode(selectedPlannerPreset)) {
-            setSundayQuestions(payload.paper.questions);
-            setPaperRevision(payload.revision || payload.paper.revision);
-            setLastSyncedTime(payload.updated_at || payload.paper.updatedAt);
-            saveCustomSundayPaper(selectedPlannerPreset, payload.paper);
-            setActionSuccessBanner(`⚡ Live Sync: Base template updated across all admin devices!`);
-            setTimeout(() => setActionSuccessBanner(null), 3500);
+            fetchAuthoritativePaper(selectedPlannerPreset, true).then(cloudPaper => {
+              if (cloudPaper && Array.isArray(cloudPaper.questions) && cloudPaper.questions.length === 180) {
+                setSundayQuestions(cloudPaper.questions);
+                setPaperRevision(cloudPaper.revision || payload.revision || 1);
+                setLastSyncedTime(cloudPaper.updatedAt || payload.updated_at || new Date().toISOString());
+                saveCustomSundayPaper(selectedPlannerPreset, cloudPaper);
+                setActionSuccessBanner(payload.action === 'revert_to_default'
+                  ? `⚡ Live Sync: Base template updated across all admin devices!`
+                  : `⚡ Live Sync: Master paper (rev ${cloudPaper.revision || payload.revision || 1}) updated across all admin devices!`
+                );
+                setTimeout(() => setActionSuccessBanner(null), 3500);
+              }
+            }).catch(err => {
+              console.warn('[SYNC] Notice pulling live updated paper:', err);
+            });
           }
         }
       } else if (event.type === 'question_updated') {
         const payload = event.payload;
-        setSundayQuestions(prev => prev.map(q => {
+        setSundayQuestions(prev => Array.isArray(prev) ? prev.map(q => {
           if (q.id === payload.id) {
             return {
               ...q,
@@ -462,7 +472,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             };
           }
           return q;
-        }));
+        }) : prev);
         setActionSuccessBanner(`⚡ Live Sync: Question updated across devices!`);
         setTimeout(() => setActionSuccessBanner(null), 3000);
       } else if (event.type === 'marking_rules_updated') {
@@ -566,7 +576,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       }
     };
 
-    // 5-second active sync heartbeat for up to 3 admin devices
+    // 3-second active sync heartbeat for instant multi-device reflection
     const heartbeatInterval = setInterval(async () => {
       if (!isMounted || isStudioLoadingPaper || isSyncingAction || editingQuestionIdxRef.current !== null) return;
       try {
@@ -2283,23 +2293,33 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               <div className="flex flex-wrap items-center gap-2.5">
                 <button
                   onClick={handleSaveAndPublishSelectedPaper}
-                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-xl text-xs font-black transition flex items-center gap-2 shadow-md cursor-pointer"
+                  disabled={isSyncingAction}
+                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-xl text-xs font-black transition flex items-center gap-2 shadow-md cursor-pointer disabled:opacity-50"
                   title="Save this specific Sunday Paper as Master Default for all students"
                 >
                   <CheckCheck className="w-4 h-4" />
                   Save as Master Default ({selectedPlannerPreset.toUpperCase()})
                 </button>
 
-                {isCurrentPaperCustomized && (
-                  <button
-                    onClick={handleResetSelectedPaperToDefault}
-                    className="px-3 py-2.5 bg-rose-500/20 hover:bg-rose-500/40 text-rose-200 border border-rose-400/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer"
-                    title="Revert this paper back to original base syllabus template"
-                  >
-                    <RotateCcw className="w-3.5 h-3.5" />
-                    Revert to Base Template
-                  </button>
-                )}
+                <button
+                  onClick={handleForceResync}
+                  disabled={isStudioLoadingPaper || isSyncingAction}
+                  className="px-3.5 py-2.5 bg-indigo-600/90 hover:bg-indigo-600 text-white border border-indigo-400/40 rounded-xl text-xs font-bold transition flex items-center gap-1.5 shadow-md cursor-pointer disabled:opacity-50"
+                  title="Pull latest synchronized paper from Supabase Cloud database"
+                >
+                  <RefreshCw className={`w-3.5 h-3.5 ${isStudioLoadingPaper ? 'animate-spin' : ''}`} />
+                  Sync Latest from Cloud
+                </button>
+
+                <button
+                  onClick={handleResetSelectedPaperToDefault}
+                  disabled={isSyncingAction}
+                  className="px-3 py-2.5 bg-rose-500/20 hover:bg-rose-500/40 text-rose-200 border border-rose-400/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                  title="Revert this paper back to original base syllabus template across all devices"
+                >
+                  <RotateCcw className="w-3.5 h-3.5" />
+                  Revert to Base Template
+                </button>
 
                 <button
                   onClick={handleLaunchSundayInCBT}

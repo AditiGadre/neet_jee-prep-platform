@@ -32,7 +32,7 @@ export type SessionRegistrationResult =
 const DEVICE_ID_KEY = 'neet_admin_device_id';
 const DEVICE_LABEL_KEY = 'neet_admin_device_label';
 const MAX_ACTIVE_DEVICES = 3;
-const HEARTBEAT_INTERVAL_MS = 60 * 1000; // 60 seconds
+const HEARTBEAT_INTERVAL_MS = 30 * 1000; // 30 seconds
 const SESSION_EXPIRY_MS = 24 * 60 * 60 * 1000; // 24 hours
 
 let heartbeatTimer: any = null;
@@ -94,6 +94,7 @@ export async function registerDeviceSession(
   adminId: string = 'admin',
   autoEvict: boolean = false
 ): Promise<SessionRegistrationResult> {
+  const cleanAdminId = (adminId || 'admin').toString().trim().toLowerCase() || 'admin';
   const deviceId = getOrCreateDeviceId();
   const deviceLabel = getDeviceLabel();
   const now = new Date().toISOString();
@@ -105,7 +106,7 @@ export async function registerDeviceSession(
       activeSessions: [
         {
           id: deviceId,
-          admin_id: adminId,
+          admin_id: cleanAdminId,
           device_id: deviceId,
           device_label: deviceLabel,
           last_active_at: now,
@@ -119,7 +120,7 @@ export async function registerDeviceSession(
   // 1. Attempt Primary Layer: Dedicated RPC / admin_sessions Table
   try {
     const { data: rpcData, error: rpcErr } = await supabase.rpc('register_admin_device_session', {
-      p_admin_id: adminId,
+      p_admin_id: cleanAdminId,
       p_device_id: deviceId,
       p_device_label: deviceLabel,
       p_auto_evict: autoEvict
@@ -127,7 +128,7 @@ export async function registerDeviceSession(
 
     if (!rpcErr && rpcData) {
       if (rpcData.status === 'device_limit_exceeded') {
-        const activeSessions = await getActiveAdminSessions(adminId);
+        const activeSessions = await getActiveAdminSessions(cleanAdminId);
         return {
           status: 'device_limit_exceeded',
           message: rpcData.message || '3 devices are already active for this admin account.',
@@ -142,18 +143,18 @@ export async function registerDeviceSession(
         rpcData.status === 'admitted_with_eviction' ||
         rpcData.success
       ) {
-        startSessionHeartbeat(adminId);
-        subscribeSessionControl(adminId, deviceId);
-        saveFallbackSession(adminId, {
+        startSessionHeartbeat(cleanAdminId);
+        subscribeSessionControl(cleanAdminId, deviceId);
+        saveFallbackSession(cleanAdminId, {
           id: `sess-${deviceId}`,
-          admin_id: adminId,
+          admin_id: cleanAdminId,
           device_id: deviceId,
           device_label: deviceLabel,
           last_active_at: now,
           created_at: now
         }).catch(() => {});
-        broadcastSessionUpdate(adminId);
-        const activeSessions = await getActiveAdminSessions(adminId);
+        broadcastSessionUpdate(cleanAdminId);
+        const activeSessions = await getActiveAdminSessions(cleanAdminId);
         return {
           status: rpcData.status === 'admitted_with_eviction' ? 'admitted_with_eviction' : (rpcData.status === 'refreshed' ? 'refreshed' : 'admitted'),
           evictedDeviceLabel: rpcData.evicted_label || rpcData.evicted_device || '',
@@ -613,6 +614,7 @@ export function stopSessionHeartbeat() {
  * Queries active sessions for an admin.
  */
 export async function getActiveAdminSessions(adminId: string = 'admin'): Promise<AdminDeviceSession[]> {
+  const cleanAdminId = (adminId || 'admin').toString().trim().toLowerCase() || 'admin';
   const currentDeviceId = getOrCreateDeviceId();
   const now = new Date();
   const sessionMap = new Map<string, AdminDeviceSession>();
@@ -620,7 +622,7 @@ export async function getActiveAdminSessions(adminId: string = 'admin'): Promise
   if (!supabase) {
     return [{
       id: currentDeviceId,
-      admin_id: adminId,
+      admin_id: cleanAdminId,
       device_id: currentDeviceId,
       device_label: getDeviceLabel(),
       last_active_at: now.toISOString(),
@@ -634,7 +636,7 @@ export async function getActiveAdminSessions(adminId: string = 'admin'): Promise
     const { data, error } = await supabase
       .from('admin_sessions')
       .select('*')
-      .eq('admin_id', adminId)
+      .eq('admin_id', cleanAdminId)
       .order('last_active_at', { ascending: false });
 
     if (!error && data && data.length > 0) {
@@ -657,7 +659,7 @@ export async function getActiveAdminSessions(adminId: string = 'admin'): Promise
       .from('questions')
       .select('question_text')
       .eq('subject', '__ADMIN_SESSION__')
-      .eq('chapter', adminId)
+      .eq('chapter', cleanAdminId)
       .order('correct_answer', { ascending: false });
 
     if (data && data.length > 0) {
@@ -678,21 +680,22 @@ export async function getActiveAdminSessions(adminId: string = 'admin'): Promise
     }
   } catch {}
 
+  // Always ensure the current device is included in the active sessions
+  if (!sessionMap.has(currentDeviceId)) {
+    sessionMap.set(currentDeviceId, {
+      id: `sess_${currentDeviceId}`,
+      admin_id: cleanAdminId,
+      device_id: currentDeviceId,
+      device_label: getDeviceLabel(),
+      last_active_at: now.toISOString(),
+      created_at: now.toISOString(),
+      is_current: true
+    });
+  }
+
   const merged = Array.from(sessionMap.values()).sort(
     (a, b) => new Date(b.last_active_at).getTime() - new Date(a.last_active_at).getTime()
   );
 
-  if (merged.length > 0) {
-    return merged;
-  }
-
-  return [{
-    id: currentDeviceId,
-    admin_id: adminId,
-    device_id: currentDeviceId,
-    device_label: getDeviceLabel(),
-    last_active_at: now.toISOString(),
-    created_at: now.toISOString(),
-    is_current: true
-  }];
+  return merged;
 }

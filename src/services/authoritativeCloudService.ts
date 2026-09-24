@@ -340,7 +340,6 @@ export function broadcastAuthoritativePaperUpdate(
         payload: {
           paperCode: canonicalCode,
           revision: nextRevision,
-          paper: normalizedPaper,
           isRevert: isForceRevert,
           updatedAt: isoTimestamp,
           updatedBy: adminUser
@@ -366,7 +365,6 @@ export function broadcastAuthoritativePaperUpdate(
             paperCode: canonicalCode,
             revision: nextRevision,
             action: isForceRevert ? 'revert_to_default' : 'paper_updated',
-            paper: normalizedPaper,
             updated_at: isoTimestamp
           }
         }
@@ -592,14 +590,23 @@ export async function fetchAuthoritativePaper(
         for (const row of data) {
           try {
             if (!row.question_text) continue;
-            const parsed = JSON.parse(row.question_text) as SyncedSundayPaper;
-            const isScratchTestArtifact =
-              (parsed.questions?.[0]?.questionText || '').includes('[TOPIC SWAP TEST') ||
-              (parsed.questions?.[0]?.questionText || '').includes('[SYSTEM A SWAPPED') ||
-              (parsed.questions?.[0]?.questionText || '').includes('[EDITED BY CLIENT B') ||
-              (parsed.questions?.[4]?.questionText || '').includes('HEARTBEAT_SAFEGUARD_');
+            let parsed: SyncedSundayPaper | null = null;
+            try {
+              parsed = JSON.parse(row.question_text) as SyncedSundayPaper;
+            } catch {
+              continue;
+            }
+            if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.questions)) continue;
 
-            if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180 && !isScratchTestArtifact) {
+            const firstQ = String(parsed.questions[0]?.questionText || '');
+            const fifthQ = String(parsed.questions[4]?.questionText || '');
+            const isScratchTestArtifact =
+              firstQ.includes('[TOPIC SWAP TEST') ||
+              firstQ.includes('[SYSTEM A SWAPPED') ||
+              firstQ.includes('[EDITED BY CLIENT B') ||
+              fifthQ.includes('HEARTBEAT_SAFEGUARD_');
+
+            if (parsed.questions.length === 180 && !isScratchTestArtifact) {
               const rev = Number(row.correct_answer) || parsed.revision || 1;
               parsed.revision = rev;
               parsed.paperCode = canonicalCode;
@@ -972,11 +979,11 @@ function initPaperBroadcastListener() {
       return;
     }
 
-    // Only update if server broadcast has newer revision (prevents echo loops)
-    if (incomingRev > currentRev || data.isRevert) {
-      console.log(`[SYNC-DEBUG] Incoming broadcast rev ${incomingRev} > current rev ${currentRev}. Fetching latest paper for ${incomingCanonical}...`);
+    // Always update if server broadcast has newer revision or force revert
+    if (incomingRev > currentRev || data.isRevert || currentRev === 0 || incomingRev === 0) {
+      console.log(`[SYNC-DEBUG] Incoming broadcast rev ${incomingRev} (current: ${currentRev}). Fetching latest paper for ${incomingCanonical}...`);
       const freshPaper = await fetchAuthoritativePaper(incomingCanonical, true);
-      if (freshPaper) {
+      if (freshPaper && Array.isArray(freshPaper.questions) && freshPaper.questions.length === 180) {
         matching.forEach(s => {
           try {
             s.onUpdate(freshPaper);
