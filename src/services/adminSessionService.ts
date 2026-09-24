@@ -37,7 +37,9 @@ const SESSION_EXPIRY_MS = 24 * 60 * 60 * 1000; // 24 hours
 
 let heartbeatTimer: any = null;
 let realtimeChannel: any = null;
+let sessionSyncChannel: any = null;
 let onEvictedCallback: (() => void) | null = null;
+const sessionUpdateListeners = new Set<(sessions: AdminDeviceSession[]) => void>();
 
 /**
  * Returns or generates a persistent unique device identifier.
@@ -124,24 +126,29 @@ export async function registerDeviceSession(
     });
 
     if (!rpcErr && rpcData) {
-      const activeSessions: AdminDeviceSession[] = (rpcData.active_sessions || []).map((s: any) => ({
-        ...s,
-        is_current: s.device_id === deviceId
-      }));
-
-      if (rpcData.success) {
-        startSessionHeartbeat(adminId);
-        subscribeSessionControl(adminId, deviceId);
-        return {
-          status: rpcData.status === 'admitted_with_eviction' ? 'admitted_with_eviction' : 'admitted',
-          evictedDeviceLabel: rpcData.evicted_device || '',
-          deviceId,
-          activeSessions
-        };
-      } else if (rpcData.status === 'device_limit_exceeded') {
+      if (rpcData.status === 'device_limit_exceeded') {
+        const activeSessions = await getActiveAdminSessions(adminId);
         return {
           status: 'device_limit_exceeded',
           message: rpcData.message || '3 devices are already active for this admin account.',
+          deviceId,
+          activeSessions
+        };
+      }
+
+      if (
+        rpcData.status === 'admitted' ||
+        rpcData.status === 'refreshed' ||
+        rpcData.status === 'admitted_with_eviction' ||
+        rpcData.success
+      ) {
+        startSessionHeartbeat(adminId);
+        subscribeSessionControl(adminId, deviceId);
+        broadcastSessionUpdate(adminId);
+        const activeSessions = await getActiveAdminSessions(adminId);
+        return {
+          status: rpcData.status === 'admitted_with_eviction' ? 'admitted_with_eviction' : (rpcData.status === 'refreshed' ? 'refreshed' : 'admitted'),
+          evictedDeviceLabel: rpcData.evicted_label || rpcData.evicted_device || '',
           deviceId,
           activeSessions
         };
@@ -198,6 +205,7 @@ async function handleTableSessionRegistration(
 
     startSessionHeartbeat(adminId);
     subscribeSessionControl(adminId, deviceId);
+    broadcastSessionUpdate(adminId);
 
     return {
       status: 'refreshed',
@@ -217,20 +225,22 @@ async function handleTableSessionRegistration(
       await supabase.from('admin_sessions').delete().eq('id', oldest.id);
       broadcastEviction(adminId, oldest.device_id);
 
-      // Insert new
+      // Insert new with guaranteed unique ID
       const newSession = {
+        id: `sess_${deviceId}`,
         admin_id: adminId,
         device_id: deviceId,
         device_label: deviceLabel,
         last_active_at: now.toISOString()
       };
-      const { data: inserted } = await supabase.from('admin_sessions').insert(newSession).select().single();
+      await supabase.from('admin_sessions').upsert(newSession, { onConflict: 'admin_id,device_id' });
 
       const remaining = active.filter(s => s.id !== oldest.id);
-      const updatedList = [inserted || { ...newSession, id: deviceId }, ...remaining];
+      const updatedList = [newSession, ...remaining];
 
       startSessionHeartbeat(adminId);
       subscribeSessionControl(adminId, deviceId);
+      broadcastSessionUpdate(adminId);
 
       return {
         status: 'admitted_with_eviction',
@@ -248,18 +258,20 @@ async function handleTableSessionRegistration(
     };
   }
 
-  // Under limit: insert directly
+  // Under limit: upsert directly
   const newSession = {
+    id: `sess_${deviceId}`,
     admin_id: adminId,
     device_id: deviceId,
     device_label: deviceLabel,
     last_active_at: now.toISOString()
   };
-  const { data: inserted } = await supabase.from('admin_sessions').insert(newSession).select().single();
+  await supabase.from('admin_sessions').upsert(newSession, { onConflict: 'admin_id,device_id' });
 
-  const fullList = [inserted || { ...newSession, id: deviceId }, ...active];
+  const fullList = [newSession, ...active];
   startSessionHeartbeat(adminId);
   subscribeSessionControl(adminId, deviceId);
+  broadcastSessionUpdate(adminId);
 
   return {
     status: 'admitted',
@@ -375,18 +387,31 @@ async function handleFallbackSessionRegistration(
 
 async function saveFallbackSession(adminId: string, session: AdminDeviceSession) {
   if (!supabase) return;
+  // Always update admin_sessions table directly first
+  try {
+    await supabase.from('admin_sessions').upsert({
+      id: `sess_${session.device_id}`,
+      admin_id: adminId,
+      device_id: session.device_id,
+      device_label: session.device_label,
+      last_active_at: session.last_active_at
+    }, { onConflict: 'admin_id,device_id' });
+  } catch {}
+
   const rowId = `__ADMIN_SESSION__${adminId}__${session.device_id}`;
-  await supabase.from('questions').upsert({
-    id: rowId,
-    subject: '__ADMIN_SESSION__',
-    chapter: adminId,
-    topic: session.device_id,
-    difficulty: 'System',
-    question_text: JSON.stringify(session),
-    options: ['SESSION', session.device_id, session.device_label],
-    correct_answer: Math.floor(new Date(session.last_active_at).getTime() / 1000),
-    explanation: `Admin session for ${session.device_label}`
-  }, { onConflict: 'id' }).catch(() => {});
+  try {
+    await supabase.from('questions').upsert({
+      id: rowId,
+      subject: '__ADMIN_SESSION__',
+      chapter: adminId,
+      topic: session.device_id,
+      difficulty: 'System',
+      question_text: JSON.stringify(session),
+      options: ['SESSION', session.device_id, session.device_label],
+      correct_answer: Math.floor(new Date(session.last_active_at).getTime() / 1000),
+      explanation: `Admin session for ${session.device_label}`
+    }, { onConflict: 'id' });
+  } catch {}
 }
 
 /**
@@ -399,6 +424,7 @@ export async function revokeDeviceSession(adminId: string, deviceIdToRevoke: str
       await supabase.from('questions').delete().eq('id', `__ADMIN_SESSION__${adminId}__${deviceIdToRevoke}`);
     }
     broadcastEviction(adminId, deviceIdToRevoke);
+    broadcastSessionUpdate(adminId);
     return true;
   } catch (err) {
     console.error('Failed to revoke session:', err);
@@ -417,6 +443,60 @@ function broadcastEviction(adminId: string, evictedDeviceId: string) {
     event: 'session_evicted',
     payload: { adminId, evictedDeviceId, timestamp: new Date().toISOString() }
   }).catch(() => {});
+}
+
+/**
+ * Broadcasts a lightweight session update notification so all open devices refresh their active device count immediately.
+ */
+export function broadcastSessionUpdate(adminId: string = 'admin') {
+  if (!supabase) return;
+  try {
+    const channel = supabase.channel('admin_session_sync');
+    channel.send({
+      type: 'broadcast',
+      event: 'sessions_updated',
+      payload: { adminId, timestamp: Date.now() }
+    }).catch(() => {});
+  } catch {}
+}
+
+/**
+ * Subscribes to real-time session list updates across all admin devices.
+ * Fires immediately when any device connects, heartbeats, or disconnects.
+ */
+export function subscribeAdminSessionUpdates(
+  adminId: string = 'admin',
+  callback: (sessions: AdminDeviceSession[]) => void
+): () => void {
+  sessionUpdateListeners.add(callback);
+
+  if (!sessionSyncChannel && supabase) {
+    sessionSyncChannel = supabase.channel('admin_session_sync');
+
+    sessionSyncChannel.on('broadcast', { event: 'sessions_updated' }, async () => {
+      const fresh = await getActiveAdminSessions(adminId);
+      sessionUpdateListeners.forEach(cb => {
+        try { cb(fresh); } catch {}
+      });
+    });
+
+    sessionSyncChannel.on(
+      'postgres_changes',
+      { event: '*', schema: 'public', table: 'admin_sessions' },
+      async () => {
+        const fresh = await getActiveAdminSessions(adminId);
+        sessionUpdateListeners.forEach(cb => {
+          try { cb(fresh); } catch {}
+        });
+      }
+    );
+
+    sessionSyncChannel.subscribe();
+  }
+
+  return () => {
+    sessionUpdateListeners.delete(callback);
+  };
 }
 
 /**
@@ -450,21 +530,26 @@ export function onDeviceEvicted(callback: () => void) {
 
 /**
  * Starts a 60-second heartbeat to update `last_active_at`.
+ * Sends an immediate heartbeat on invocation.
  */
 export function startSessionHeartbeat(adminId: string) {
   stopSessionHeartbeat();
   const deviceId = getOrCreateDeviceId();
   const deviceLabel = getDeviceLabel();
 
-  heartbeatTimer = setInterval(async () => {
+  const doHeartbeat = async () => {
     if (!supabase) return;
     const now = new Date().toISOString();
     try {
       await supabase
         .from('admin_sessions')
-        .update({ last_active_at: now, device_label: deviceLabel })
-        .eq('admin_id', adminId)
-        .eq('device_id', deviceId);
+        .upsert({
+          id: `sess_${deviceId}`,
+          admin_id: adminId,
+          device_id: deviceId,
+          device_label: deviceLabel,
+          last_active_at: now
+        }, { onConflict: 'admin_id,device_id' });
     } catch {}
 
     try {
@@ -477,7 +562,11 @@ export function startSessionHeartbeat(adminId: string) {
         created_at: now
       });
     } catch {}
-  }, HEARTBEAT_INTERVAL_MS);
+  };
+
+  // Immediate heartbeat on start
+  doHeartbeat();
+  heartbeatTimer = setInterval(doHeartbeat, HEARTBEAT_INTERVAL_MS);
 }
 
 /**
@@ -517,9 +606,12 @@ export async function getActiveAdminSessions(adminId: string = 'admin'): Promise
       .order('last_active_at', { ascending: false });
 
     if (!error && data && data.length > 0) {
-      return data
+      const active = data
         .filter(s => now.getTime() - new Date(s.last_active_at).getTime() < SESSION_EXPIRY_MS)
         .map(s => ({ ...s, is_current: s.device_id === currentDeviceId }));
+      if (active.length > 0) {
+        return active;
+      }
     }
   } catch {}
 
@@ -542,7 +634,9 @@ export async function getActiveAdminSessions(adminId: string = 'admin'): Promise
           }
         } catch {}
       }
-      return list;
+      if (list.length > 0) {
+        return list;
+      }
     }
   } catch {}
 

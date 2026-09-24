@@ -18,7 +18,7 @@ WHERE correct_option IS NULL AND correct_answer IS NOT NULL;
 
 -- 2. CREATE ADMIN_SESSIONS TABLE (For 3-device concurrency cap)
 CREATE TABLE IF NOT EXISTS public.admin_sessions (
-  id TEXT PRIMARY KEY,
+  id TEXT PRIMARY KEY DEFAULT ('sess_' || substr(md5(random()::text || clock_timestamp()::text), 1, 12)),
   admin_id TEXT NOT NULL DEFAULT 'admin',
   device_id TEXT NOT NULL,
   device_label TEXT NOT NULL,
@@ -26,6 +26,9 @@ CREATE TABLE IF NOT EXISTS public.admin_sessions (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   CONSTRAINT unique_admin_device UNIQUE (admin_id, device_id)
 );
+
+ALTER TABLE IF EXISTS public.admin_sessions
+  ALTER COLUMN id SET DEFAULT ('sess_' || substr(md5(random()::text || clock_timestamp()::text), 1, 12));
 
 CREATE INDEX IF NOT EXISTS idx_admin_sessions_last_active 
   ON public.admin_sessions (admin_id, last_active_at DESC);
@@ -134,6 +137,7 @@ BEGIN
     WHERE admin_id = p_admin_id AND device_id = p_device_id;
 
     RETURN jsonb_build_object(
+      'success', true,
       'status', 'refreshed',
       'active_count', (SELECT COUNT(*) FROM public.admin_sessions WHERE admin_id = p_admin_id)
     );
@@ -148,6 +152,7 @@ BEGIN
   IF v_active_count >= 3 THEN
     IF NOT p_auto_evict THEN
       RETURN jsonb_build_object(
+        'success', false,
         'status', 'device_limit_exceeded',
         'message', 'Maximum 3 active admin devices reached.',
         'active_count', v_active_count
@@ -176,6 +181,7 @@ BEGIN
   );
 
   RETURN jsonb_build_object(
+    'success', true,
     'status', CASE WHEN v_evicted_label IS NOT NULL THEN 'admitted_with_eviction' ELSE 'admitted' END,
     'evicted_label', v_evicted_label,
     'active_count', (SELECT COUNT(*) FROM public.admin_sessions WHERE admin_id = p_admin_id)

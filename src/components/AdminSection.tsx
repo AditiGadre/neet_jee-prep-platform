@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   ShieldCheck,
   KeyRound,
@@ -125,6 +125,8 @@ import {
 import {
   AdminDeviceSession,
   getActiveAdminSessions,
+  registerDeviceSession,
+  subscribeAdminSessionUpdates,
   getOrCreateDeviceId,
   onDeviceEvicted,
   startSessionHeartbeat,
@@ -360,16 +362,47 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [testMarks, setTestMarks] = useState<number>(4);
   const [testNegativeMarks, setTestNegativeMarks] = useState<number>(1);
 
+  const paperRevisionRef = useRef(paperRevision);
+  paperRevisionRef.current = paperRevision;
+  const editingQuestionIdxRef = useRef(editingQuestionIdx);
+  editingQuestionIdxRef.current = editingQuestionIdx;
+
   // Synchronize Sunday Studio paper & question bank from Supabase Cloud directly
   useEffect(() => {
     let isMounted = true;
     setIsStudioLoadingPaper(true);
 
-    // 1. Fetch active admin sessions and start device heartbeat
-    getActiveAdminSessions('admin').then(sessions => {
-      if (isMounted) setActiveSessions(sessions);
-    });
+    // 1. Immediately register current device session (guarantees multi-device sync detects this device)
+    registerDeviceSession('admin', false)
+      .then(reg => {
+        if (!isMounted) return;
+        setActiveSessions(reg.activeSessions);
+        if (reg.status === 'device_limit_exceeded') {
+          setShowDevicesModal(true);
+        }
+      })
+      .catch(() => {
+        getActiveAdminSessions('admin').then(sessions => {
+          if (isMounted) setActiveSessions(sessions);
+        });
+      });
+
     startSessionHeartbeat('admin');
+
+    // Subscribe to live multi-device session updates across all open tabs/PCs (<50ms)
+    const unsubSessionUpdates = subscribeAdminSessionUpdates('admin', (sessions) => {
+      if (isMounted) {
+        setActiveSessions(sessions);
+      }
+    });
+
+    // Fallback 15s polling to keep session list ultra-fresh
+    const sessionPollTimer = setInterval(() => {
+      if (!isMounted) return;
+      getActiveAdminSessions('admin').then(sessions => {
+        if (isMounted) setActiveSessions(sessions);
+      });
+    }, 15000);
 
     // 2. Handle remote eviction if this device is logged out from another device
     onDeviceEvicted(() => {
@@ -504,10 +537,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         try {
           const canonical = getCanonicalPaperCode(selectedPlannerPreset);
           const serverRev = await getServerMaxRevision(canonical);
-          if (serverRev > paperRevision) {
-            console.log(`[SYNC-DEBUG] Focus sync check: server rev ${serverRev} > local rev ${paperRevision}. Pulling fresh paper...`);
+          if (serverRev > paperRevisionRef.current && editingQuestionIdxRef.current === null) {
+            console.log(`[SYNC-DEBUG] Focus sync check: server rev ${serverRev} > local rev ${paperRevisionRef.current}. Pulling fresh paper...`);
             const latest = await fetchAuthoritativePaper(selectedPlannerPreset, true);
-            if (isMounted && latest && Array.isArray(latest.questions) && latest.questions.length === 180) {
+            if (isMounted && latest && Array.isArray(latest.questions) && latest.questions.length === 180 && (latest.revision || 0) >= serverRev) {
               setSundayQuestions(latest.questions);
               setLastSyncedTime(latest.updatedAt);
               setPaperRevision(latest.revision || serverRev);
@@ -526,16 +559,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       }
     };
 
-    // 3-second active sync heartbeat for up to 3 admin devices
+    // 5-second active sync heartbeat for up to 3 admin devices
     const heartbeatInterval = setInterval(async () => {
-      if (!isMounted || isStudioLoadingPaper || isSyncingAction) return;
+      if (!isMounted || isStudioLoadingPaper || isSyncingAction || editingQuestionIdxRef.current !== null) return;
       try {
         const canonical = getCanonicalPaperCode(selectedPlannerPreset);
         const serverRev = await getServerMaxRevision(canonical);
-        if (serverRev > paperRevision) {
-          console.log(`[SYNC-DEBUG] Heartbeat sync: server rev ${serverRev} > local rev ${paperRevision}. Pulling latest paper...`);
+        if (serverRev > paperRevisionRef.current) {
+          console.log(`[SYNC-DEBUG] Heartbeat sync: server rev ${serverRev} > local rev ${paperRevisionRef.current}. Pulling latest paper...`);
           const latest = await fetchAuthoritativePaper(selectedPlannerPreset, true);
-          if (isMounted && latest && Array.isArray(latest.questions) && latest.questions.length === 180) {
+          if (isMounted && latest && Array.isArray(latest.questions) && latest.questions.length === 180 && (latest.revision || 0) >= serverRev) {
             setSundayQuestions(latest.questions);
             setLastSyncedTime(latest.updatedAt);
             setPaperRevision(latest.revision || serverRev);
@@ -551,7 +584,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       } catch (e) {
         // silent heartbeat
       }
-    }, 3000);
+    }, 5000);
 
     window.addEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
     window.addEventListener('focus', handleWindowFocus);
@@ -562,12 +595,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       unsubscribeRealtime();
       if (unsubSync) unsubSync();
       if (unsubEvents) unsubEvents();
+      if (unsubSessionUpdates) unsubSessionUpdates();
       clearInterval(heartbeatInterval);
+      clearInterval(sessionPollTimer);
       window.removeEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
       window.removeEventListener('focus', handleWindowFocus);
       window.removeEventListener('visibilitychange', handleWindowFocus);
     };
-  }, [selectedPlannerPreset, paperRevision]);
+  }, [selectedPlannerPreset]);
 
   // Student Unlock Requests State
   const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(() => {
@@ -891,6 +926,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   };
 
   const handleSaveAndPublishSelectedPaper = async () => {
+    if (isSyncingAction) return;
+    if (!sundayQuestions || !Array.isArray(sundayQuestions) || sundayQuestions.length === 0) {
+      setActionErrorBanner('⚠️ Cannot publish: paper questions are not loaded yet.');
+      return;
+    }
     setIsSyncingAction(true);
     const paperToSave = {
       paperCode: selectedPlannerPreset,
@@ -920,7 +960,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         setActionErrorBanner(`⚠️ Cloud sync notice: ${result.error || 'Saved locally, but cloud write encountered an issue.'}`);
       }
     } catch (e: any) {
-      setActionErrorBanner(`⚠️ Cloud sync failed: ${e.message}`);
+      setActionErrorBanner(`⚠️ Cloud sync failed: ${e?.message || 'Unknown network error'}`);
     } finally {
       setIsSyncingAction(false);
       setTimeout(() => {

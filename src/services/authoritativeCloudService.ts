@@ -25,7 +25,8 @@ import {
   SUNDAY_DROPPER_PLANNER_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
   PLANNER_12TH_TESTS,
-  generateSundayTestQuestions
+  generateSundayTestQuestions,
+  getSavedCustomSundayPaper
 } from '../data/sundayPlannerTests';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
@@ -115,15 +116,21 @@ export function normalizeToAuthoritativeRecords(
   questions: Question[],
   updatedBy: string = 'Institutional Master Admin'
 ): Question[] {
+  if (!Array.isArray(questions)) return [];
   const now = new Date().toISOString();
-  return questions.map((q, idx) => ({
-    ...q,
-    order: idx + 1,
-    difficulty: q.difficulty || 'Hard',
-    updatedAt: (q as any).updatedAt || now,
-    updatedBy: (q as any).updatedBy || updatedBy,
-    version: ((q as any).version || 0) + 1
-  }));
+  return questions
+    .filter(Boolean)
+    .map((q, idx) => ({
+      ...q,
+      order: idx + 1,
+      difficulty: q.difficulty || 'Hard',
+      questionText: (q.questionText || '').toString(),
+      options: Array.isArray(q.options) ? q.options.map(o => (o || '').toString()) : [],
+      explanation: (q.explanation || '').toString(),
+      updatedAt: (q as any)?.updatedAt || now,
+      updatedBy: (q as any)?.updatedBy || updatedBy,
+      version: ((q as any)?.version || 0) + 1
+    }));
 }
 
 /**
@@ -210,6 +217,14 @@ export async function commitAuthoritativePaperToCloud(
   const now = Date.now();
   const isoTimestamp = new Date(now).toISOString();
   const isForceRevert = expectedRevision === -1;
+
+  if (!paper || !Array.isArray(paper.questions) || paper.questions.length === 0) {
+    return {
+      success: false,
+      error: 'Invalid paper payload: paper questions cannot be empty.',
+      timestamp: isoTimestamp
+    };
+  }
 
   // 1. Concurrency check & revision assignment (bypassed if Force Revert)
   const currentServerRev = await getServerMaxRevision(canonicalCode);
@@ -413,7 +428,7 @@ export async function fetchAuthoritativePaper(
 
   if (supabase) {
     try {
-      // 1. Primary Query: Fetch highest revision by integer column correct_answer
+      // 1. Primary Query: Fetch top 5 revisions by integer column correct_answer
       const { data, error } = await supabase
         .from('questions')
         .select('id, topic, correct_answer, question_text')
@@ -421,41 +436,42 @@ export async function fetchAuthoritativePaper(
         .eq('chapter', 'SUNDAY_TEST_PAPERS')
         .eq('topic', canonicalCode)
         .order('correct_answer', { ascending: false })
-        .order('id', { ascending: true })
-        .limit(1);
+        .limit(5);
 
       if (!error && data && data.length > 0) {
-        const row = data[0];
-        try {
-          const parsed = JSON.parse(row.question_text) as SyncedSundayPaper;
-          const isScratchTestArtifact =
-            (parsed.questions?.[0]?.questionText || '').includes('[TOPIC SWAP TEST') ||
-            (parsed.questions?.[0]?.questionText || '').includes('[SYSTEM A SWAPPED') ||
-            (parsed.questions?.[0]?.questionText || '').includes('[EDITED BY CLIENT B') ||
-            (parsed.questions?.[4]?.questionText || '').includes('HEARTBEAT_SAFEGUARD_');
+        for (const row of data) {
+          try {
+            if (!row.question_text) continue;
+            const parsed = JSON.parse(row.question_text) as SyncedSundayPaper;
+            const isScratchTestArtifact =
+              (parsed.questions?.[0]?.questionText || '').includes('[TOPIC SWAP TEST') ||
+              (parsed.questions?.[0]?.questionText || '').includes('[SYSTEM A SWAPPED') ||
+              (parsed.questions?.[0]?.questionText || '').includes('[EDITED BY CLIENT B') ||
+              (parsed.questions?.[4]?.questionText || '').includes('HEARTBEAT_SAFEGUARD_');
 
-          if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180 && !isScratchTestArtifact) {
-            const rev = Number(row.correct_answer) || parsed.revision || 1;
-            parsed.revision = rev;
-            parsed.paperCode = canonicalCode;
+            if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180 && !isScratchTestArtifact) {
+              const rev = Number(row.correct_answer) || parsed.revision || 1;
+              parsed.revision = rev;
+              parsed.paperCode = canonicalCode;
 
-            runtimePaperCache.set(canonicalCode, { paper: parsed, fetchedAt: Date.now() });
-            globalLastSyncedTimestamp = parsed.updatedAt || new Date().toISOString();
-            globalLastSyncedRevision = rev;
+              runtimePaperCache.set(canonicalCode, { paper: parsed, fetchedAt: Date.now() });
+              globalLastSyncedTimestamp = parsed.updatedAt || new Date().toISOString();
+              globalLastSyncedRevision = rev;
 
-            // Mirror into local storage
-            try {
-              const raw = localStorage.getItem('neet_custom_sunday_papers');
-              const localPapers = raw ? JSON.parse(raw) : {};
-              localPapers[canonicalCode] = parsed;
-              localPapers[canonicalCode.toLowerCase()] = parsed;
-              localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
-            } catch {}
+              // Mirror into local storage
+              try {
+                const raw = localStorage.getItem('neet_custom_sunday_papers');
+                const localPapers = raw ? JSON.parse(raw) : {};
+                localPapers[canonicalCode] = parsed;
+                localPapers[canonicalCode.toLowerCase()] = parsed;
+                localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
+              } catch {}
 
-            return parsed;
+              return parsed;
+            }
+          } catch (parseErr) {
+            console.error('[SYNC-DEBUG] Failed to parse latest cloud paper row:', parseErr);
           }
-        } catch (parseErr) {
-          console.error('[SYNC-DEBUG] Failed to parse latest cloud paper row:', parseErr);
         }
       }
     } catch (err) {
@@ -463,20 +479,26 @@ export async function fetchAuthoritativePaper(
     }
   }
 
-  // 2. Deterministic Canonical Base Template fallback:
-  // Guarantees every single PC, session, and student sees the EXACT same 180 questions
+  // 2. CHECK LOCAL STORAGE: If local storage already has a saved paper with questions, NEVER overwrite with base template!
+  try {
+    const savedLocal = getSavedCustomSundayPaper(canonicalCode);
+    if (savedLocal && Array.isArray(savedLocal.questions) && savedLocal.questions.length === 180) {
+      const synPaper: SyncedSundayPaper = {
+        ...savedLocal,
+        paperCode: canonicalCode,
+        revision: (savedLocal as any).revision || 1
+      };
+      runtimePaperCache.set(canonicalCode, { paper: synPaper, fetchedAt: Date.now() });
+      return synPaper;
+    }
+  } catch {}
+
+  // 3. Deterministic Canonical Base Template fallback ONLY if user has NEVER customized or saved a paper:
   const basePaper = getOfficialBaseSundayPaper(canonicalCode);
   runtimePaperCache.set(canonicalCode, { paper: basePaper, fetchedAt: Date.now() });
   globalLastSyncedTimestamp = basePaper.updatedAt;
   globalLastSyncedRevision = 1;
-
-  try {
-    const raw = localStorage.getItem('neet_custom_sunday_papers');
-    const localPapers = raw ? JSON.parse(raw) : {};
-    localPapers[canonicalCode] = basePaper;
-    localPapers[canonicalCode.toLowerCase()] = basePaper;
-    localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
-  } catch {}
+  // NOTE: We intentionally DO NOT overwrite localStorage here to preserve user state!
 
   return basePaper;
 }
@@ -558,14 +580,14 @@ export async function swapSingleQuestionWithBank(
 
   const newQ: Question = {
     ...replacement,
-    id: `sunday-${sub.toLowerCase()}-swap-${Date.now()}-${replacement.id}`,
+    id: `sunday-${sub.toLowerCase()}-swap-${Date.now()}-${replacement.id || Math.random().toString(36).slice(2, 6)}`,
     subject: sub as any,
     chapter: ch || replacement.chapter,
     tags: currentQ.tags || replacement.tags,
     diagramSvg: hardDiag || replacement.diagramSvg,
-    questionText: formatMathAndFormulas(replacement.questionText),
-    options: replacement.options.map(o => formatMathAndFormulas(o)),
-    explanation: formatMathAndFormulas(replacement.explanation)
+    questionText: formatMathAndFormulas(replacement.questionText || ''),
+    options: (Array.isArray(replacement.options) ? replacement.options : []).map(o => formatMathAndFormulas(o || '')),
+    explanation: formatMathAndFormulas(replacement.explanation || '')
   };
 
   const copy = [...currentPaper.questions];
@@ -594,7 +616,7 @@ export async function saveQuestionEdit(
   currentPaper: SyncedSundayPaper,
   adminUser: string = 'Institutional Master Admin'
 ): Promise<SyncOperationResult> {
-  if (questionIdx < 0 || questionIdx >= currentPaper.questions.length) {
+  if (!currentPaper || !Array.isArray(currentPaper.questions) || questionIdx < 0 || questionIdx >= currentPaper.questions.length) {
     return {
       success: false,
       error: `Question index #${questionIdx + 1} out of range.`,
@@ -603,15 +625,21 @@ export async function saveQuestionEdit(
   }
 
   const copy = [...currentPaper.questions];
+  const qText = (updatedFields?.questionText ?? copy[questionIdx]?.questionText ?? '').toString().trim();
+  const qExpl = (updatedFields?.explanation ?? copy[questionIdx]?.explanation ?? '').toString().trim();
+  const rawOpts = Array.isArray(updatedFields?.options) ? updatedFields.options : copy[questionIdx]?.options || [];
+  const qOpts = rawOpts.map((opt: any) => formatMathAndFormulas((opt ?? '').toString().trim()));
+  const qAns = typeof updatedFields?.correctAnswer === 'number' ? updatedFields.correctAnswer : (copy[questionIdx]?.correctAnswer ?? 0);
+
   copy[questionIdx] = {
     ...copy[questionIdx],
-    questionText: formatMathAndFormulas(updatedFields.questionText.trim()),
-    options: updatedFields.options.map(opt => formatMathAndFormulas(opt.trim())),
-    correctAnswer: updatedFields.correctAnswer,
-    explanation: formatMathAndFormulas(updatedFields.explanation.trim()),
+    questionText: formatMathAndFormulas(qText),
+    options: qOpts,
+    correctAnswer: qAns,
+    explanation: formatMathAndFormulas(qExpl),
     updatedAt: new Date().toISOString(),
     updatedBy: adminUser,
-    version: ((copy[questionIdx] as any).version || 0) + 1
+    version: ((copy[questionIdx] as any)?.version || 0) + 1
   };
 
   const updatedPaper: SyncedSundayPaper = {
@@ -659,9 +687,9 @@ export async function swapTopics(
       subject: targetSubject,
       chapter: toTopic,
       diagramSvg: hardDiag || q.diagramSvg,
-      questionText: formatMathAndFormulas(q.questionText),
-      options: q.options.map(o => formatMathAndFormulas(o)),
-      explanation: formatMathAndFormulas(q.explanation)
+      questionText: formatMathAndFormulas(q.questionText || ''),
+      options: (Array.isArray(q.options) ? q.options : []).map(o => formatMathAndFormulas(o || '')),
+      explanation: formatMathAndFormulas(q.explanation || '')
     });
   }
 
