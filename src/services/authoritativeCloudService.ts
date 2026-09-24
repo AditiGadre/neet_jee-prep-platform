@@ -167,7 +167,7 @@ async function insertSupabaseSystemRow(
     });
 
     try {
-      const insertPromise = supabase.from('questions').insert(currentRow);
+      const insertPromise = supabase.from('questions').upsert(currentRow, { onConflict: 'id' });
       const res = await Promise.race([insertPromise, timeoutPromise]) as any;
       if (timer) clearTimeout(timer);
 
@@ -414,21 +414,17 @@ export async function commitAuthoritativePaperToCloud(
     };
   }
 
-  // 1. Concurrency check & revision assignment (bypassed if Force Revert)
+  // 1. Monotonic server revision assignment (guaranteed to advance past any existing server revision)
   let currentServerRev = 0;
   try {
     currentServerRev = await getServerMaxRevision(canonicalCode);
   } catch {}
 
-  if (!isForceRevert && expectedRevision !== undefined && expectedRevision > 0 && currentServerRev > expectedRevision) {
-    return {
-      success: false,
-      error: `Concurrency conflict: Server has newer revision ${currentServerRev} (local was ${expectedRevision}). Please reload before saving.`,
-      timestamp: isoTimestamp
-    };
-  }
-
-  const nextRevision = Math.max(currentServerRev, paper.revision || 0) + 1;
+  const nextRevision = Math.max(
+    currentServerRev,
+    paper.revision || 0,
+    (expectedRevision && expectedRevision > 0) ? expectedRevision : 0
+  ) + 1;
 
   // 2. Normalize paper with strict 1..180 order and server revision
   const orderedQuestions = normalizeToAuthoritativeRecords(paper.questions, adminUser);
