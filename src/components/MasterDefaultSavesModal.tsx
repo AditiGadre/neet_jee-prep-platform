@@ -30,6 +30,9 @@ import {
   saveCustomSundayPaper,
   SavedSundayPaper,
   SUNDAY_DROPPER_PLANNER_TESTS,
+  SUNDAY_DROPPER_TRACK1_TESTS,
+  SUNDAY_DROPPER_TRACK2_TESTS,
+  SUNDAY_DROPPER_PC_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
   PLANNER_12TH_TESTS
 } from '../data/sundayPlannerTests';
@@ -257,7 +260,9 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
   // Combine standard presets with custom saved papers for the selector
   const allAvailablePresets = useMemo(() => {
     const set = new Set<string>();
-    SUNDAY_DROPPER_PLANNER_TESTS.forEach(t => set.add(t.code.toUpperCase()));
+    SUNDAY_DROPPER_TRACK1_TESTS.forEach(t => set.add(t.code.toUpperCase()));
+    SUNDAY_DROPPER_TRACK2_TESTS.forEach(t => set.add(t.code.toUpperCase()));
+    SUNDAY_DROPPER_PC_TESTS.forEach(t => set.add(t.code.toUpperCase()));
     SUNDAY_11TH_PLANNER_TESTS.forEach(t => set.add(`11TH-${t.code.toUpperCase()}`));
     PLANNER_12TH_TESTS.forEach(t => set.add(`12TH-${t.code.toUpperCase()}`));
     savedPaperKeys.forEach(k => set.add(k.toUpperCase()));

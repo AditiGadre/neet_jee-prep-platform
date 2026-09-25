@@ -40,6 +40,9 @@ import { fetchSundayPaperFromCloud } from '../utils/cloudSyncManager';
 import { fetchAuthoritativePaper } from '../services/authoritativeCloudService';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
+  SUNDAY_DROPPER_TRACK1_TESTS,
+  SUNDAY_DROPPER_TRACK2_TESTS,
+  SUNDAY_DROPPER_PC_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
   PLANNER_12TH_TESTS,
   REVISION_ANALYSIS_BUFFER_12TH,
@@ -63,6 +66,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   onOpenAdmin
 }) => {
   const [activeBatch, setActiveBatch] = useState<'repeater' | '12th' | '11th'>('repeater');
+  const [repeaterTrack, setRepeaterTrack] = useState<'track1' | 'track2' | 'pc'>('track1');
   const [activePhaseFilter, setActivePhaseFilter] = useState<'all' | 'cwt' | 'cumulative' | 'part' | 'full' | 'mock'>('all');
   const [showRevisionBuffer, setShowRevisionBuffer] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -154,9 +158,15 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   // Sunday tests unlock ON SUNDAYS and AFTER ADMIN APPROVAL (Faculty preview bypasses schedule)
   const isSundayTestUnlocked = (isSundayToday && isAdminAccessGranted) || isAdminInSession;
 
+  const activeRepeaterTests = useMemo(() => {
+    if (repeaterTrack === 'track1') return SUNDAY_DROPPER_TRACK1_TESTS;
+    if (repeaterTrack === 'track2') return SUNDAY_DROPPER_TRACK2_TESTS;
+    return SUNDAY_DROPPER_PC_TESTS;
+  }, [repeaterTrack]);
+
   // Filter Dropper / Repeater tests based on Phase Filter & Search Query
   const filteredDropperTests = useMemo(() => {
-    return SUNDAY_DROPPER_PLANNER_TESTS.filter(t => {
+    return activeRepeaterTests.filter(t => {
       // Phase Filter
       if (activePhaseFilter === 'cwt' && t.phaseGroup !== 'cwt') return false;
       if (activePhaseFilter === 'cumulative' && t.phaseGroup !== 'cumulative') return false;
@@ -177,7 +187,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       }
       return true;
     });
-  }, [activePhaseFilter, searchQuery]);
+  }, [activeRepeaterTests, activePhaseFilter, searchQuery]);
 
   // Class 12th Batch Scheduled Tests (23 Tests from PDF Planner: 8 Part, 10 Complete Syllabus, 5 NEET Mocks)
   const filtered12thTests = useMemo(() => {
@@ -241,16 +251,24 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       return;
     }
 
+    const isPCTest = plannerTest.code.startsWith('PC-') || plannerTest.totalQuestions === 100;
+    const targetQCount = isPCTest ? 100 : (plannerTest.totalQuestions || 180);
+    const targetMarks = isPCTest ? 400 : (plannerTest.totalMarks || 720);
+    const targetDuration = isPCTest ? 120 : (plannerTest.durationMinutes || 180);
+
     // Query authoritative cloud paper directly (single source of truth with highest server revision)
     const paperLookupKey = activeBatch !== 'repeater' ? `${activeBatch}-${plannerTest.code}` : plannerTest.code;
     const customPaper = await fetchAuthoritativePaper(paperLookupKey, true);
     let testQuestions: Question[] = [];
-    let syllabusStr = `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`;
+    let syllabusStr = isPCTest
+      ? `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit}`
+      : `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`;
 
-    if (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180) {
+    if (customPaper && Array.isArray(customPaper.questions) && (customPaper.questions.length === targetQCount || customPaper.questions.length === 180 || customPaper.questions.length === 100)) {
       testQuestions = assertNoDuplicateQuestions(customPaper.questions);
       if (customPaper.customChapters) {
-        syllabusStr = `Physics: ${customPaper.customChapters.physics.join(', ')} | Chemistry: ${customPaper.customChapters.chemistry.join(', ')} | Biology: ${customPaper.customChapters.biology.join(', ')}`;
+        const bioPart = customPaper.customChapters.biology?.length ? ` | Biology: ${customPaper.customChapters.biology.join(', ')}` : '';
+        syllabusStr = `Physics: ${(customPaper.customChapters.physics || []).join(', ')} | Chemistry: ${(customPaper.customChapters.chemistry || []).join(', ')}${bioPart}`;
       }
     } else {
       testQuestions = generateSundayTestQuestions(plannerTest, undefined, false, activeBatch);
@@ -262,13 +280,18 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       category: 'neet_mock',
       exam: 'NEET',
       syllabus: syllabusStr,
-      totalQuestions: 180,
-      durationMinutes: 180,
-      totalMarks: 720,
-      negativeMarking: '+4 for correct, -1 for incorrect, 0 for unattempted (Total 720 Marks)',
+      totalQuestions: targetQCount,
+      durationMinutes: targetDuration,
+      totalMarks: targetMarks,
+      negativeMarking: `+4 for correct, -1 for incorrect, 0 for unattempted (Total ${targetMarks} Marks)`,
       difficulty: 'Mixed',
       cbtMode: true,
-      features: [
+      features: isPCTest ? [
+        '100 Questions (50 Physics + 50 Chemistry)',
+        '120 Minutes (2.0 Hours NTA Timer)',
+        '400 Marks (+4 / -1 NTA Official Standard)',
+        'Dual-Subject Speed & Accuracy Breakdown'
+      ] : [
         '180 Questions (45 Phys + 45 Chem + 45 Bot + 45 Zoo)',
         '180 Minutes (3.0 Hours NTA Timer)',
         '720 Marks (+4 / -1 NTA Official Standard)',
@@ -321,10 +344,15 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       return;
     }
 
+    const isPCTest = plannerTest.code.startsWith('PC-') || plannerTest.totalQuestions === 100;
+    const targetQCount = isPCTest ? 100 : (plannerTest.totalQuestions || 180);
+    const targetMarks = isPCTest ? 400 : (plannerTest.totalMarks || 720);
+    const targetDuration = isPCTest ? 120 : (plannerTest.durationMinutes || 180);
+
     const paperLookupKey = activeBatch !== 'repeater' ? `${activeBatch}-${plannerTest.code}` : plannerTest.code;
     const customPaper = await fetchAuthoritativePaper(paperLookupKey, true);
 
-    const questions = (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180)
+    const questions = (customPaper && Array.isArray(customPaper.questions) && (customPaper.questions.length === targetQCount || customPaper.questions.length === 180 || customPaper.questions.length === 100))
       ? assertNoDuplicateQuestions(customPaper.questions)
       : generateSundayTestQuestions(plannerTest, undefined, false, activeBatch);
 
@@ -333,13 +361,15 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       title: `${plannerTest.code}: ${plannerTest.title}`,
       category: 'neet_mock',
       exam: 'NEET',
-      syllabus: customPaper?.customChapters
-        ? `Physics: ${customPaper.customChapters.physics.join(', ')} | Chemistry: ${customPaper.customChapters.chemistry.join(', ')} | Biology: ${customPaper.customChapters.biology.join(', ')}`
+      syllabus: isPCTest
+        ? `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit}`
+        : customPaper?.customChapters
+        ? `Physics: ${(customPaper.customChapters.physics || []).join(', ')} | Chemistry: ${(customPaper.customChapters.chemistry || []).join(', ')}${customPaper.customChapters.biology?.length ? ` | Biology: ${customPaper.customChapters.biology.join(', ')}` : ''}`
         : `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`,
-      totalQuestions: 180,
-      durationMinutes: 180,
-      totalMarks: 720,
-      negativeMarking: '+4 for correct, -1 for incorrect (Total 720 Marks)',
+      totalQuestions: targetQCount,
+      durationMinutes: targetDuration,
+      totalMarks: targetMarks,
+      negativeMarking: `+4 for correct, -1 for incorrect, 0 for unattempted (Total ${targetMarks} Marks)`,
       difficulty: 'Mixed',
       cbtMode: true,
       questions
@@ -373,7 +403,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             <Zap className="w-4 h-4 text-amber-300" />
             <span>Repeater / Dropper Batch</span>
             <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
-              33 Sunday Planner Tests
+              Starts 04 Oct 2026
             </span>
           </button>
 
@@ -441,7 +471,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           <div>
             <h1 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
               {activeBatch === 'repeater'
-                ? 'NEET 2027 Dropper Sunday Test Series (Official 33-Sunday Cycle)'
+                ? repeaterTrack === 'track1'
+                  ? 'NEET 2026–27 Dropper Batch: Track 1 (20-Week Chapterwise • 46 Tests)'
+                  : repeaterTrack === 'track2'
+                  ? 'NEET 2026–27 Dropper Batch: Track 2 (17-Week Fast-Track • 46 Tests)'
+                  : 'NEET 2026–27 Dropper Batch: Track 3 (Physics & Chemistry Series • 27 Tests)'
                 : activeBatch === '12th'
                 ? 'Class 12th Complete Syllabus Test Series (Official 23-Test Cycle + Buffer)'
                 : 'Class 11th Foundation Sunday All-India Test Series (Official 20-Sunday Cycle)'}
@@ -455,9 +489,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 <>
                   Structured 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1–8)</strong> every 5 days covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> every 4 days focusing on baseline, error tagging, NCERT retention, reactions, and pacing; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> every 2 days with full analytics; followed by a <strong>7-Stage Revision &amp; Analysis Buffer</strong> through 03 Feb 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                 </>
+              ) : repeaterTrack === 'track1' ? (
+                <>
+                  Starting <strong>04 October 2026</strong>: <strong>20 Chapter-Wise Tests (CW-01 to CW-20)</strong> every Sunday with zero chapter repeats &rarr; <strong>8 Part-Wise Cumulative Tests (PT-01 to PT-08)</strong> every 4 days &rarr; <strong>18 Full Syllabus Tests (FS-01 to FS-18)</strong> every 3 and 2 days through 30 April 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                </>
+              ) : repeaterTrack === 'track2' ? (
+                <>
+                  Starting <strong>04 October 2026</strong>: <strong>17 Chapter-Wise Tests (T01 to T17)</strong> every Sunday with standalone high-yield focus &rarr; <strong>8 Part-Wise Tests (P01 to P08)</strong> every 4 days &rarr; <strong>21 Full Syllabus Tests (F01 to F21)</strong> every 3 days through 29 April 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                </>
               ) : (
                 <>
-                  Strictly aligned to official NMC/NTA NEET syllabus: <strong>180 Questions &bull; 180 Minutes (3.0 Hours) &bull; 720 Marks (Physics 180, Chemistry 180, Biology 360)</strong>. Every Sunday test follows the prescribed chapter progression: <strong>CWT (Chapter-Wise 1-19) &rarr; Cumulative (CUM 1-5) &rarr; Part Tests (PART 1-3) &rarr; Full Syllabus (FST 1-6)</strong>.
+                  Dedicated Full-Syllabus Physics &amp; Chemistry Series from <strong>10 February to 29 April 2027</strong>: <strong>27 Tests (PC-01 to PC-27)</strong> scheduled every 3 days covering 100% of Physics and Chemistry syllabus. <strong>100 Questions (50 Physics + 50 Chemistry) • 120 Minutes • 400 Marks</strong>.
                 </>
               )}
             </p>
@@ -470,6 +512,65 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             </span>
           </div>
         </div>
+
+        {/* Track Switcher Segmented Control for Repeater / Dropper Batch */}
+        {activeBatch === 'repeater' && (
+          <div className="mt-4 p-2 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-2 items-center">
+            <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider px-1">
+              Select Track:
+            </span>
+            <button
+              onClick={() => {
+                setRepeaterTrack('track1');
+                setActivePhaseFilter('all');
+              }}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
+                repeaterTrack === 'track1'
+                  ? 'bg-blue-600 text-white shadow-sm'
+                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+              }`}
+            >
+              <span>Track 1: 20-Week Chapterwise (46 Tests)</span>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'track1' ? 'bg-white/20 text-white' : 'bg-blue-100 text-blue-800'}`}>
+                Starts 04 Oct
+              </span>
+            </button>
+
+            <button
+              onClick={() => {
+                setRepeaterTrack('track2');
+                setActivePhaseFilter('all');
+              }}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
+                repeaterTrack === 'track2'
+                  ? 'bg-indigo-600 text-white shadow-sm'
+                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+              }`}
+            >
+              <span>Track 2: 17-Week Fast-Track (46 Tests)</span>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'track2' ? 'bg-white/20 text-white' : 'bg-indigo-100 text-indigo-800'}`}>
+                Starts 04 Oct
+              </span>
+            </button>
+
+            <button
+              onClick={() => {
+                setRepeaterTrack('pc');
+                setActivePhaseFilter('all');
+              }}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
+                repeaterTrack === 'pc'
+                  ? 'bg-emerald-600 text-white shadow-sm'
+                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+              }`}
+            >
+              <span>Track 3: Physics &amp; Chemistry (27 Tests)</span>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'pc' ? 'bg-white/20 text-white' : 'bg-emerald-100 text-emerald-800'}`}>
+                10 Feb – 29 Apr
+              </span>
+            </button>
+          </div>
+        )}
 
         {/* High Density Metric Cards */}
         <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -518,27 +619,73 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">7 Repair Cycles</div>
               </div>
             </>
+          ) : repeaterTrack === 'track1' ? (
+            <>
+              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Chapter-Wise</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">20 Tests (04 Oct - 14 Feb)</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-indigo-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-indigo-700 tracking-wider">Phase 2: Part-Wise</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (18 Feb - 18 Mar)</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 3: Full Syllabus</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">18 Tests (22 Mar - 30 Apr)</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 1 Total Cycle</div>
+                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">46 Tests (8,280 Qs)</div>
+                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
+              </div>
+            </>
+          ) : repeaterTrack === 'track2' ? (
+            <>
+              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Fast-Track</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">17 Tests (04 Oct - 24 Jan)</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-indigo-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-indigo-700 tracking-wider">Phase 2: Part-Wise</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (28 Jan - 25 Feb)</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 3: Full Syllabus</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">21 Tests (28 Feb - 29 Apr)</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 2 Total Cycle</div>
+                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">46 Tests (8,280 Qs)</div>
+                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
+              </div>
+            </>
           ) : (
             <>
-              <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 1: CWT & Cumulative</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">24 Sunday Tests</div>
+              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Subject 1: Physics</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">20 Official Units (50 Qs)</div>
               </div>
 
-              <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 2: Part Tests</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">3 Sunday Tests</div>
+              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Subject 2: Chemistry</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">20 Official Units (50 Qs)</div>
               </div>
 
-              <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 3: Full Syllabus</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">6 Sunday Tests</div>
+              <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Cadence</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">Every 3 Days (10 Feb - 29 Apr)</div>
               </div>
 
-              <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Total Sunday Cycle</div>
-                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">33 Tests (5,940 Qs)</div>
-                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 180 Marks CBT</div>
+              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 3 Total Cycle</div>
+                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">27 Tests (2,700 Qs)</div>
+                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">120 Mins &bull; 400 Marks CBT</div>
               </div>
             </>
           )}
@@ -577,12 +724,23 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 { id: 'full', label: 'Phase 2: Complete Syllabus (10)' },
                 { id: 'mock', label: 'Phase 3: NEET Mocks (5)' }
               ]
+            : repeaterTrack === 'track1'
+            ? [
+                { id: 'all', label: `All (${SUNDAY_DROPPER_TRACK1_TESTS.length})` },
+                { id: 'cwt', label: 'Phase 1: Chapter-Wise (20)' },
+                { id: 'part', label: 'Phase 2: Part-Wise (8)' },
+                { id: 'full', label: 'Phase 3: Full Syllabus (18)' }
+              ]
+            : repeaterTrack === 'track2'
+            ? [
+                { id: 'all', label: `All (${SUNDAY_DROPPER_TRACK2_TESTS.length})` },
+                { id: 'cwt', label: 'Phase 1: Fast-Track (17)' },
+                { id: 'part', label: 'Phase 2: Part-Wise (8)' },
+                { id: 'full', label: 'Phase 3: Full Syllabus (21)' }
+              ]
             : [
-                { id: 'all', label: `All (${SUNDAY_DROPPER_PLANNER_TESTS.length})` },
-                { id: 'cwt', label: 'Phase 1: CWT (19)' },
-                { id: 'cumulative', label: 'Phase 1: Cumulative (5)' },
-                { id: 'part', label: 'Phase 2: Part-Wise (3)' },
-                { id: 'full', label: 'Phase 3: Full Syllabus (6)' }
+                { id: 'all', label: `All (${SUNDAY_DROPPER_PC_TESTS.length} Tests)` },
+                { id: 'full', label: 'Full Syllabus PC Series (27)' }
               ]
           ).map(f => (
             <button
@@ -688,7 +846,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             <span>Showing {currentDisplayTests.length} {activeBatch === '12th' ? 'Scheduled Tests' : 'Scheduled Sunday Tests'}</span>
           </h2>
           <span className="text-xs font-mono font-semibold text-slate-500">
-            Official NTA NEET Standard &bull; 720 Marks
+            {activeBatch === 'repeater' && repeaterTrack === 'pc' ? 'Physics & Chemistry Full Syllabus • 400 Marks' : 'Official NTA NEET Standard • 720 Marks'}
           </span>
         </div>
 
@@ -742,7 +900,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     })()}
 
                     <span className="text-xs font-mono text-slate-600 bg-slate-50 border border-slate-200 px-2 py-0.5 rounded-lg">
-                      720 Marks &bull; 180 Mins &bull; 180 Qs
+                      {mock.totalMarks || 720} Marks &bull; {mock.durationMinutes || 180} Mins &bull; {mock.totalQuestions || 180} Qs
                     </span>
 
                     {isSundayTestUnlocked ? (
@@ -770,48 +928,72 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     </p>
                   </div>
 
-                  {/* 4-Subject Exact Syllabus Breakdown Grid (180 Marks Each) */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 pt-1.5">
-                    <div className="p-2.5 rounded-xl bg-blue-50/70 border border-blue-200 text-xs">
-                      <div className="text-[10px] font-bold text-blue-800 uppercase flex items-center justify-between">
-                        <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-blue-600" /> Physics</span>
-                        <span className="font-mono text-blue-600">45 Qs &bull; 180M</span>
+                  {/* Exact Syllabus Breakdown Grid (2 Cols for PC, 4 Cols for 4 Subjects) */}
+                  {mock.code.startsWith('PC-') ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1.5">
+                      <div className="p-2.5 rounded-xl bg-blue-50/70 border border-blue-200 text-xs">
+                        <div className="text-[10px] font-bold text-blue-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-blue-600" /> Physics</span>
+                          <span className="font-mono text-blue-600">50 Qs &bull; 200M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-blue-950 mt-1 leading-snug">
+                          {mock.physicsUnit}
+                        </div>
                       </div>
-                      <div className="text-[11px] font-semibold text-blue-950 mt-1 leading-snug">
-                        {mock.physicsUnit}
-                      </div>
-                    </div>
 
-                    <div className="p-2.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
-                      <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
-                        <span className="flex items-center gap-1"><Atom className="w-3 h-3 text-emerald-600" /> Chemistry</span>
-                        <span className="font-mono text-emerald-600">45 Qs &bull; 180M</span>
-                      </div>
-                      <div className="text-[11px] font-semibold text-emerald-950 mt-1 leading-snug">
-                        {mock.chemistryUnit}
+                      <div className="p-2.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
+                        <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Atom className="w-3 h-3 text-emerald-600" /> Chemistry</span>
+                          <span className="font-mono text-emerald-600">50 Qs &bull; 200M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-emerald-950 mt-1 leading-snug">
+                          {mock.chemistryUnit}
+                        </div>
                       </div>
                     </div>
+                  ) : (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 pt-1.5">
+                      <div className="p-2.5 rounded-xl bg-blue-50/70 border border-blue-200 text-xs">
+                        <div className="text-[10px] font-bold text-blue-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-blue-600" /> Physics</span>
+                          <span className="font-mono text-blue-600">45 Qs &bull; 180M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-blue-950 mt-1 leading-snug">
+                          {mock.physicsUnit}
+                        </div>
+                      </div>
 
-                    <div className="p-2.5 rounded-xl bg-teal-50/70 border border-teal-200 text-xs">
-                      <div className="text-[10px] font-bold text-teal-800 uppercase flex items-center justify-between">
-                        <span className="flex items-center gap-1"><BookOpen className="w-3 h-3 text-teal-600" /> Botany</span>
-                        <span className="font-mono text-teal-600">45 Qs &bull; 180M</span>
+                      <div className="p-2.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
+                        <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Atom className="w-3 h-3 text-emerald-600" /> Chemistry</span>
+                          <span className="font-mono text-emerald-600">45 Qs &bull; 180M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-emerald-950 mt-1 leading-snug">
+                          {mock.chemistryUnit}
+                        </div>
                       </div>
-                      <div className="text-[11px] font-semibold text-teal-950 mt-1 leading-snug">
-                        {mock.botanyBlock}
-                      </div>
-                    </div>
 
-                    <div className="p-2.5 rounded-xl bg-purple-50/70 border border-purple-200 text-xs">
-                      <div className="text-[10px] font-bold text-purple-800 uppercase flex items-center justify-between">
-                        <span className="flex items-center gap-1"><Dna className="w-3 h-3 text-purple-600" /> Zoology</span>
-                        <span className="font-mono text-purple-600">45 Qs &bull; 180M</span>
+                      <div className="p-2.5 rounded-xl bg-teal-50/70 border border-teal-200 text-xs">
+                        <div className="text-[10px] font-bold text-teal-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><BookOpen className="w-3 h-3 text-teal-600" /> Botany</span>
+                          <span className="font-mono text-teal-600">45 Qs &bull; 180M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-teal-950 mt-1 leading-snug">
+                          {mock.botanyBlock}
+                        </div>
                       </div>
-                      <div className="text-[11px] font-semibold text-purple-950 mt-1 leading-snug">
-                        {mock.zoologyBlock}
+
+                      <div className="p-2.5 rounded-xl bg-purple-50/70 border border-purple-200 text-xs">
+                        <div className="text-[10px] font-bold text-purple-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Dna className="w-3 h-3 text-purple-600" /> Zoology</span>
+                          <span className="font-mono text-purple-600">45 Qs &bull; 180M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-purple-950 mt-1 leading-snug">
+                          {mock.zoologyBlock}
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  )}
                 </div>
 
                 {/* Action CTAs */}
@@ -832,7 +1014,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       <>
                         <Play className="w-4 h-4 fill-current" />
                         <span>
-                          {isLive
+                          {mock.code.startsWith('PC-')
+                            ? 'Start Physics & Chemistry Test (400M)'
+                            : isLive
                             ? 'Start Live Sunday Test (720M)'
                             : activeBatch === '12th'
                             ? 'Start Scheduled Test (720M)'

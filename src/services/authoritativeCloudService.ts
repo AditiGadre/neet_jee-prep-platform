@@ -23,6 +23,9 @@ import {
   OFFICIAL_PHYSICS_UNITS,
   OFFICIAL_CHEMISTRY_UNITS,
   SUNDAY_DROPPER_PLANNER_TESTS,
+  SUNDAY_DROPPER_TRACK1_TESTS,
+  SUNDAY_DROPPER_TRACK2_TESTS,
+  SUNDAY_DROPPER_PC_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
   PLANNER_12TH_TESTS,
   generateSundayTestQuestions,
@@ -443,7 +446,10 @@ export function getOfficialBaseSundayPaper(paperCode: string): SyncedSundayPaper
     ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) || SUNDAY_11TH_PLANNER_TESTS[0])
     : is12th
     ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) || PLANNER_12TH_TESTS[0])
-    : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) || SUNDAY_DROPPER_PLANNER_TESTS[0]);
+    : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
+       SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
+       SUNDAY_DROPPER_PC_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
+       SUNDAY_DROPPER_PLANNER_TESTS[0]);
 
   const batch: 'repeater' | '12th' | '11th' = is11th ? '11th' : is12th ? '12th' : 'repeater';
   const questions = generateSundayTestQuestions(planner, undefined, false, batch);
@@ -455,7 +461,7 @@ export function getOfficialBaseSundayPaper(paperCode: string): SyncedSundayPaper
     customChapters: {
       physics: [planner.physicsUnit],
       chemistry: [planner.chemistryUnit],
-      biology: [`[Botany] ${planner.botanyBlock}`, `[Zoology] ${planner.zoologyBlock}`]
+      biology: planner.code.startsWith('PC-') ? [] : [`[Botany] ${planner.botanyBlock}`, `[Zoology] ${planner.zoologyBlock}`]
     },
     testTitle: `Official Default Sunday Paper: ${canonicalCode}`,
     updatedAt: new Date(1788000000000).toISOString(),

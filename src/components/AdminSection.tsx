@@ -88,6 +88,9 @@ import {
 } from '../utils/cloudSyncManager';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
+  SUNDAY_DROPPER_TRACK1_TESTS,
+  SUNDAY_DROPPER_TRACK2_TESTS,
+  SUNDAY_DROPPER_PC_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
   PLANNER_12TH_TESTS,
   SundayPlannerTest,
@@ -591,7 +594,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey) || SUNDAY_11TH_PLANNER_TESTS[0])
         : is12th
         ? (PLANNER_12TH_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey) || PLANNER_12TH_TESTS[0])
-        : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+        : (SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_DROPPER_PC_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
           || SUNDAY_11TH_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
           || PLANNER_12TH_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey));
       if (planner) {
@@ -627,10 +633,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     setEditForm(null);
     setIsStudioLoadingPaper(true);
 
+    const isPCTest = paperCode.toUpperCase().startsWith('PC-');
+    const targetCount = isPCTest ? 100 : 180;
+
     // 1. Check authoritative cloud database first for universal real-time consistency
     try {
       const cloudPaper = await fetchAuthoritativePaper(paperCode, true);
-      if (cloudPaper && Array.isArray(cloudPaper.questions) && cloudPaper.questions.length === 180) {
+      if (cloudPaper && Array.isArray(cloudPaper.questions) && (cloudPaper.questions.length === targetCount || cloudPaper.questions.length === 180 || cloudPaper.questions.length === 100)) {
         setSundayQuestions(cloudPaper.questions);
         setLastSyncedTime(cloudPaper.updatedAt);
         setPaperRevision(cloudPaper.revision || 1);
@@ -648,7 +657,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     // 2. Saved custom paper from localStorage
     const saved = getSavedCustomSundayPaper(paperCode);
-    if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
+    if (saved && Array.isArray(saved.questions) && (saved.questions.length === targetCount || saved.questions.length === 180 || saved.questions.length === 100)) {
       setSundayQuestions(saved.questions);
       setLastSyncedTime(saved.updatedAt || null);
       setPaperRevision((saved as any).revision || 0);
@@ -669,7 +678,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || SUNDAY_11TH_PLANNER_TESTS[0])
       : is12th
       ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || PLANNER_12TH_TESTS[0])
-      : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+      : (SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_DROPPER_PC_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
         || SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
         || PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode)
         || SUNDAY_DROPPER_PLANNER_TESTS[0]);
@@ -2065,29 +2077,50 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     onChange={(e) => handleSelectSundayPaper(e.target.value)}
                     className="bg-white text-slate-900 font-black text-xs px-3 py-1 rounded-lg border border-slate-300 focus:outline-hidden focus:ring-2 focus:ring-blue-500 cursor-pointer"
                   >
-                    <optgroup label="Phase 1: Chapter-Wise Tests (CWT 01 - 19)">
-                      {SUNDAY_DROPPER_PLANNER_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
+                    <optgroup label="Repeater Track 1: 20-Wk Chapterwise (CW-01 to CW-20)">
+                      {SUNDAY_DROPPER_TRACK1_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
                         <option key={t.code} value={t.code}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
-                    <optgroup label="Phase 1: Cumulative Revision Tests (CUM 01 - 05)">
-                      {SUNDAY_DROPPER_PLANNER_TESTS.filter(t => t.phaseGroup === 'cumulative').map(t => (
+                    <optgroup label="Repeater Track 1: Part-Wise Tests (PT-01 to PT-08)">
+                      {SUNDAY_DROPPER_TRACK1_TESTS.filter(t => t.phaseGroup === 'part').map(t => (
                         <option key={t.code} value={t.code}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
-                    <optgroup label="Phase 2: Part-Wise Tests (PART 01 - 03)">
-                      {SUNDAY_DROPPER_PLANNER_TESTS.filter(t => t.phaseGroup === 'part').map(t => (
+                    <optgroup label="Repeater Track 1: Full Syllabus Tests (FS-01 to FS-18)">
+                      {SUNDAY_DROPPER_TRACK1_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
                         <option key={t.code} value={t.code}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
-                    <optgroup label="Dropper Phase 3: Full Syllabus Tests (FST 01 - 06)">
-                      {SUNDAY_DROPPER_PLANNER_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
+                    <optgroup label="Repeater Track 2: 17-Wk Fast-Track Chapterwise (T01 to T17)">
+                      {SUNDAY_DROPPER_TRACK2_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
+                        <option key={t.code} value={t.code}>
+                          {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="Repeater Track 2: Part-Wise Tests (P01 to P08)">
+                      {SUNDAY_DROPPER_TRACK2_TESTS.filter(t => t.phaseGroup === 'part').map(t => (
+                        <option key={t.code} value={t.code}>
+                          {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="Repeater Track 2: Full Syllabus Tests (F01 to F21)">
+                      {SUNDAY_DROPPER_TRACK2_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
+                        <option key={t.code} value={t.code}>
+                          {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="Repeater Track 3: Physics & Chemistry Full Syllabus (PC-01 to PC-27)">
+                      {SUNDAY_DROPPER_PC_TESTS.map(t => (
                         <option key={t.code} value={t.code}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
