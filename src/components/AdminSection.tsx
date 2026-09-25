@@ -1955,10 +1955,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   onClick={handleSaveAndPublishSelectedPaper}
                   disabled={isSyncingAction}
                   className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-xl text-xs font-black transition flex items-center gap-2 shadow-md cursor-pointer disabled:opacity-50"
-                  title="Save this specific Sunday Paper as Master Default for all students"
+                  title="Confirm and lock this Sunday Paper as the authoritative Final Master Default across all student systems"
                 >
-                  <CheckCheck className="w-4 h-4" />
-                  Save as Master Default ({selectedPlannerPreset.toUpperCase()})
+                  <ShieldCheck className="w-4 h-4 text-slate-950" />
+                  Confirm as Final Master Default ({selectedPlannerPreset.toUpperCase()})
                 </button>
 
                 <button
@@ -4035,6 +4035,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         activeQuestions={sundayQuestions}
         activeRevision={paperRevision}
         onSelectPaperToLoad={(paperCode) => handleSelectSundayPaper(paperCode)}
+        onConfirmAsMasterDefault={async (paperCode, questions, rev) => {
+          setSelectedPlannerPreset(paperCode);
+          setSundayQuestions(questions);
+          setPaperRevision(rev);
+          setActionSuccessBanner(`✓ Confirmed ${paperCode.toUpperCase()} as Final Master Default (Rev #${rev}) across all systems!`);
+          setTimeout(() => setActionSuccessBanner(null), 4000);
+        }}
       />
 
     </div>

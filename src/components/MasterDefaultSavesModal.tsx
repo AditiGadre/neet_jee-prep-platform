@@ -26,6 +26,7 @@ import {
 import { Question } from '../types';
 import {
   getAllSavedCustomSundayPapers,
+  saveCustomSundayPaper,
   SavedSundayPaper,
   SUNDAY_DROPPER_PLANNER_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
@@ -34,6 +35,7 @@ import {
 import {
   getCanonicalPaperCode,
   getOfficialBaseSundayPaper,
+  commitAuthoritativePaperToCloud,
   SyncedSundayPaper
 } from '../services/authoritativeCloudService';
 import { supabase } from '../supabaseClient';
@@ -46,6 +48,7 @@ interface MasterDefaultSavesModalProps {
   activeQuestions: Question[];
   activeRevision: number;
   onSelectPaperToLoad?: (paperCode: string) => void;
+  onConfirmAsMasterDefault?: (paperCode: string, questions: Question[], revision: number) => Promise<void> | void;
 }
 
 interface CloudCommitRow {
@@ -62,7 +65,8 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
   activePaperCode,
   activeQuestions,
   activeRevision,
-  onSelectPaperToLoad
+  onSelectPaperToLoad,
+  onConfirmAsMasterDefault
 }) => {
   const [activeTab, setActiveTab] = useState<'all_saves' | 'inspect_questions' | 'cloud_history'>('all_saves');
   const [selectedInspectCode, setSelectedInspectCode] = useState<string>(activePaperCode);
@@ -70,6 +74,11 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
   const [subjectFilter, setSubjectFilter] = useState<'All' | 'Physics' | 'Chemistry' | 'Botany' | 'Zoology'>('All');
   const [diffFilter, setDiffFilter] = useState<'all' | 'modified_only'>('all');
   const [copiedNotification, setCopiedNotification] = useState<string | null>(null);
+
+  // Confirmation of Final Master Default across all systems state
+  const [confirmingPaperCode, setConfirmingPaperCode] = useState<string | null>(null);
+  const [isConfirmingFinal, setIsConfirmingFinal] = useState<boolean>(false);
+  const [confirmSuccessMsg, setConfirmSuccessMsg] = useState<string | null>(null);
 
   // Cloud Commits State
   const [cloudCommits, setCloudCommits] = useState<CloudCommitRow[]>([]);
@@ -117,8 +126,6 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
       loadCloudCommits();
     }
   }, [isOpen, activePaperCode]);
-
-  if (!isOpen) return null;
 
   // Retrieve data for the paper currently being inspected
   const canonicalInspectCode = getCanonicalPaperCode(selectedInspectCode);
@@ -234,6 +241,63 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
     return Array.from(set).sort();
   }, [savedPaperKeys]);
 
+  // Execute confirmation of a chosen paper as Final Master Default across all student systems
+  const handleExecuteConfirmFinal = async (codeToConfirm: string) => {
+    setIsConfirmingFinal(true);
+    try {
+      const canonical = getCanonicalPaperCode(codeToConfirm);
+      const isInspecting = canonical === canonicalInspectCode;
+      
+      let questionsToSave: Question[] = [];
+      let customUnits = undefined;
+
+      if (isInspecting) {
+        questionsToSave = inspectedQuestions;
+        customUnits = localSavedData?.customChapters || basePaper.customChapters;
+      } else {
+        const saved = savedPapersRecord[canonical] || savedPapersRecord[canonical.toLowerCase()];
+        if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
+          questionsToSave = saved.questions;
+          customUnits = saved.customChapters;
+        } else {
+          const bp = getOfficialBaseSundayPaper(canonical);
+          questionsToSave = bp.questions;
+          customUnits = bp.customChapters;
+        }
+      }
+
+      const currentRev = isInspecting ? inspectedRevision : ((savedPapersRecord[canonical] as any)?.revision || 1);
+      const paperObj: SyncedSundayPaper = {
+        paperCode: canonical,
+        revision: currentRev,
+        questions: questionsToSave,
+        customChapters: customUnits,
+        testTitle: `Official Default Sunday Paper: ${canonical}`,
+        publishedBy: 'Institutional Master Admin',
+        updatedAt: new Date().toISOString()
+      };
+
+      saveCustomSundayPaper(canonical, paperObj);
+      const commitRes = await commitAuthoritativePaperToCloud(paperObj, currentRev);
+      const finalRev = commitRes.revision || (currentRev + 1);
+
+      setConfirmSuccessMsg(`✓ Confirmed ${canonical} as Final Master Default (Rev #${finalRev}) across all systems!`);
+      setTimeout(() => setConfirmSuccessMsg(null), 5000);
+
+      if (onConfirmAsMasterDefault) {
+        await onConfirmAsMasterDefault(canonical, questionsToSave, finalRev);
+      }
+      loadCloudCommits();
+      setConfirmingPaperCode(null);
+    } catch (err: any) {
+      setConfirmSuccessMsg(`⚠️ Error confirming paper: ${err?.message || err}`);
+    } finally {
+      setIsConfirmingFinal(false);
+    }
+  };
+
+  if (!isOpen) return null;
+
   return (
     <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-2 sm:p-4 overflow-y-auto animate-in fade-in duration-200">
       <div className="bg-slate-900 border border-slate-700/80 rounded-3xl shadow-2xl max-w-5xl w-full max-h-[92vh] flex flex-col text-slate-100 overflow-hidden animate-in zoom-in-95 duration-200">
@@ -258,6 +322,12 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
           </div>
 
           <div className="flex items-center gap-2">
+            {confirmSuccessMsg && (
+              <span className="text-xs font-black text-emerald-300 bg-emerald-950/90 border border-emerald-500/80 px-3 py-1.5 rounded-xl animate-in fade-in flex items-center gap-1.5 shadow-lg">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                {confirmSuccessMsg}
+              </span>
+            )}
             {copiedNotification && (
               <span className="text-xs font-bold text-emerald-400 bg-emerald-950/80 border border-emerald-700/60 px-3 py-1.5 rounded-xl animate-in fade-in">
                 {copiedNotification}
@@ -312,7 +382,16 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
             )}
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
+            <button
+              onClick={() => setConfirmingPaperCode(canonicalInspectCode)}
+              className="px-3 py-1.5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black rounded-xl text-xs transition flex items-center gap-1.5 shadow-md cursor-pointer border border-emerald-300/40"
+              title="Confirm and lock this paper as Final Master Default across all student systems"
+            >
+              <ShieldCheck className="w-4 h-4 text-slate-950" />
+              Confirm as Final Paper (All Systems)
+            </button>
+
             <button
               onClick={handleCopySummary}
               className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl text-xs font-bold transition flex items-center gap-1.5 border border-slate-700 cursor-pointer"
@@ -324,10 +403,10 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
 
             <button
               onClick={handleExportJson}
-              className="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 shadow-sm cursor-pointer"
+              className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl text-xs font-bold transition flex items-center gap-1.5 border border-slate-700 cursor-pointer"
               title="Download full JSON file of this paper"
             >
-              <FileJson className="w-3.5 h-3.5" />
+              <FileJson className="w-3.5 h-3.5 text-slate-400" />
               Export JSON
             </button>
 
@@ -485,17 +564,28 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                             Inspect 180 Questions →
                           </button>
 
-                          {onSelectPaperToLoad && !isCurrentlyLoaded && (
+                          <div className="flex items-center gap-1.5">
+                            {onSelectPaperToLoad && !isCurrentlyLoaded && (
+                              <button
+                                onClick={() => {
+                                  onSelectPaperToLoad(canonical);
+                                  onClose();
+                                }}
+                                className="px-2.5 py-1 text-[11px] font-bold rounded-lg bg-blue-600/30 hover:bg-blue-600 text-blue-200 hover:text-white border border-blue-500/30 transition cursor-pointer"
+                              >
+                                Load in Studio
+                              </button>
+                            )}
+
                             <button
-                              onClick={() => {
-                                onSelectPaperToLoad(canonical);
-                                onClose();
-                              }}
-                              className="px-2.5 py-1 text-[11px] font-bold rounded-lg bg-blue-600/30 hover:bg-blue-600 text-blue-200 hover:text-white border border-blue-500/30 transition cursor-pointer"
+                              onClick={() => setConfirmingPaperCode(canonical)}
+                              className="px-2.5 py-1 text-[11px] font-black rounded-lg bg-emerald-600/30 hover:bg-emerald-600 text-emerald-300 hover:text-white border border-emerald-500/40 transition cursor-pointer flex items-center gap-1"
+                              title="Confirm this paper as Final Master Default across all systems"
                             >
-                              Load in Studio
+                              <ShieldCheck className="w-3 h-3" />
+                              Confirm as Final
                             </button>
-                          )}
+                          </div>
                         </div>
                       </div>
                     );
@@ -763,6 +853,61 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
             Close Viewer
           </button>
         </div>
+
+        {/* Confirm Final Master Default Across All Systems Modal Dialog */}
+        {confirmingPaperCode && (
+          <div className="fixed inset-0 z-60 bg-black/80 backdrop-blur-xs flex items-center justify-center p-4 animate-in fade-in duration-150">
+            <div className="bg-slate-900 border border-emerald-500/60 rounded-3xl p-6 max-w-lg w-full shadow-2xl space-y-4 animate-in zoom-in-95 duration-150">
+              <div className="flex items-center gap-3">
+                <div className="p-3 bg-emerald-500/20 text-emerald-400 rounded-2xl border border-emerald-500/30">
+                  <ShieldCheck className="w-7 h-7" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-black text-white">Confirm as Final Master Default</h4>
+                  <p className="text-xs font-mono text-emerald-400 font-bold">Paper: {confirmingPaperCode.toUpperCase()}</p>
+                </div>
+              </div>
+
+              <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2 leading-relaxed">
+                <p>
+                  You are about to establish <strong>{confirmingPaperCode.toUpperCase()}</strong> as the authoritative <strong>Final Master Default</strong> paper across all student systems.
+                </p>
+                <ul className="list-disc pl-4 space-y-1 text-slate-400 text-[11px]">
+                  <li>All 180 questions will be committed to Supabase Cloud Database (`__SYSTEM_SYNC__`).</li>
+                  <li>Realtime broadcast will instantly update all 1,000+ student CBT machines without requiring student logouts.</li>
+                  <li>Syllabus units and topic configurations will be set universally.</li>
+                </ul>
+              </div>
+
+              <div className="flex items-center justify-end gap-3 pt-2">
+                <button
+                  onClick={() => setConfirmingPaperCode(null)}
+                  disabled={isConfirmingFinal}
+                  className="px-4 py-2.5 rounded-xl text-xs font-bold text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 transition cursor-pointer"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={() => handleExecuteConfirmFinal(confirmingPaperCode)}
+                  disabled={isConfirmingFinal}
+                  className="px-5 py-2.5 rounded-xl text-xs font-black text-slate-950 bg-emerald-400 hover:bg-emerald-300 transition flex items-center gap-2 shadow-lg cursor-pointer disabled:opacity-50"
+                >
+                  {isConfirmingFinal ? (
+                    <>
+                      <RefreshCw className="w-4 h-4 animate-spin text-slate-950" />
+                      Publishing to All Systems...
+                    </>
+                  ) : (
+                    <>
+                      <CheckCheck className="w-4 h-4 text-slate-950" />
+                      Yes, Confirm Across All Systems
+                    </>
+                  )}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
       </div>
     </div>
