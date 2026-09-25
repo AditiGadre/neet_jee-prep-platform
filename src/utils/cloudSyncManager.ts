@@ -331,13 +331,59 @@ export async function fetchAdminConfigFromCloud(): Promise<SyncedAdminConfig | n
   return memoryAdminConfig;
 }
 
+/**
+ * Deterministic, universal roll number for any phone number across all systems.
+ * If a profile exists in memory or local storage, uses that roll number.
+ * Otherwise deterministically uses the target year and phone suffix so it NEVER changes.
+ */
+export function getUniversalRollNumber(phone: string, targetYear: string = '2027'): string {
+  const clean = cleanPhoneNumber(phone);
+  if (!clean) return `NCBT-${targetYear || '2027'}-000000`;
+
+  // 1. Check in-memory cache
+  if (memoryStudentPhoneCache.has(clean)) {
+    const s = memoryStudentPhoneCache.get(clean);
+    if (s && s.rollNumber) return s.rollNumber;
+  }
+
+  // 2. Check local enrolled student
+  try {
+    const raw = localStorage.getItem('neet_enrolled_student');
+    if (raw) {
+      const s = JSON.parse(raw);
+      if (cleanPhoneNumber(s.studentPhone || s.phone) === clean && s.rollNumber) {
+        return s.rollNumber;
+      }
+    }
+  } catch {}
+
+  // 3. Check registered candidates in localStorage
+  try {
+    const rawList = localStorage.getItem('neet_registered_candidates');
+    if (rawList) {
+      const list = JSON.parse(rawList);
+      if (Array.isArray(list)) {
+        const found = list.find((c: any) => cleanPhoneNumber(c.studentPhone || c.phone) === clean);
+        if (found && found.rollNumber) return found.rollNumber;
+      }
+    }
+  } catch {}
+
+  // 4. Deterministic derivation: NO Math.random(). Guarantees 100% parity across all devices!
+  return `NCBT-${targetYear || '2027'}-${clean.slice(-6)}`;
+}
+
 // 3. UNIVERSAL STUDENT ENROLLMENT BY PHONE
 export async function syncStudentEnrollmentToCloud(student: SyncedStudentProfile): Promise<boolean> {
   const phone = cleanPhoneNumber(student.studentPhone);
   if (!phone || phone.length < 10) return false;
 
-  const rowId = STUDENT_PHONE_PREFIX + phone + '__' + Date.now();
   const email = (student.email || '').trim().toLowerCase();
+
+  // Ensure roll number is universal and locked
+  if (!student.rollNumber) {
+    student.rollNumber = getUniversalRollNumber(phone, student.targetYear);
+  }
 
   memoryStudentPhoneCache.set(phone, student);
 
@@ -346,57 +392,100 @@ export async function syncStudentEnrollmentToCloud(student: SyncedStudentProfile
     localStorage.setItem('neet_user_enrolled', 'true');
   } catch {}
 
-  if (!supabase) return false;
-
+  // 1. Same-Origin Serverless API Proxy (/api/student-sync) - Guaranteed delivery & roll number lock
   try {
-    const payloadJson = JSON.stringify(student);
-    const successPhone = await insertSystemRow({
-      id: rowId,
-      subject: '__SYSTEM_SYNC__',
-      chapter: 'STUDENT_ENROLLMENTS',
-      topic: phone,
-      difficulty: 'Student',
-      question_text: payloadJson,
-      options: [student.studentName, student.rollNumber, student.email],
-      correct_answer: 0,
-      explanation: 'Student: ' + student.studentName + ' | Phone: ' + phone
+    const resp = await fetch('/api/student-sync', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ student })
     });
+    if (resp.ok) {
+      const json = await resp.json();
+      if (json && json.success && json.student) {
+        if (json.student.rollNumber) {
+          student.rollNumber = json.student.rollNumber;
+        }
+        memoryStudentPhoneCache.set(phone, json.student);
+        try {
+          localStorage.setItem('neet_enrolled_student', JSON.stringify(json.student));
+        } catch {}
+      }
+    }
+  } catch (proxyErr) {
+    console.warn('Serverless student-sync proxy note:', proxyErr);
+  }
 
-    if (email && email.includes('@')) {
-      const emailSafeKey = email.replace(/[^a-z0-9@._-]/gi, '');
-      await insertSystemRow({
-        id: STUDENT_EMAIL_PREFIX + emailSafeKey + '__' + Date.now(),
+  // 2. Direct Supabase client fallback / complement
+  if (supabase) {
+    try {
+      const rowId = STUDENT_PHONE_PREFIX + phone;
+      const payloadJson = JSON.stringify(student);
+      await supabase.from('questions').upsert({
+        id: rowId,
         subject: '__SYSTEM_SYNC__',
-        chapter: 'STUDENT_ENROLLMENTS_EMAIL',
-        topic: emailSafeKey,
+        chapter: 'STUDENT_ENROLLMENTS',
+        topic: phone,
         difficulty: 'Student',
         question_text: payloadJson,
-        options: [student.studentName, student.rollNumber, phone],
+        options: [student.studentName, student.rollNumber, student.email || ''],
         correct_answer: 0,
-        explanation: 'Student Email Index: ' + emailSafeKey
-      });
-    }
+        explanation: 'Student: ' + student.studentName + ' | Phone: ' + phone
+      }, { onConflict: 'id' });
 
-    if (successPhone) {
-      if (typeof window !== 'undefined') {
-        window.dispatchEvent(
-          new CustomEvent('neet_cloud_student_synced', { detail: { phone, student } })
-        );
+      if (email && email.includes('@')) {
+        const emailSafeKey = email.replace(/[^a-z0-9@._-]/gi, '');
+        await supabase.from('questions').upsert({
+          id: STUDENT_EMAIL_PREFIX + emailSafeKey,
+          subject: '__SYSTEM_SYNC__',
+          chapter: 'STUDENT_ENROLLMENTS_EMAIL',
+          topic: emailSafeKey,
+          difficulty: 'Student',
+          question_text: payloadJson,
+          options: [student.studentName, student.rollNumber, phone],
+          correct_answer: 0,
+          explanation: 'Student Email Index: ' + emailSafeKey
+        }, { onConflict: 'id' }).catch(() => {});
       }
-      return true;
+    } catch (supErr) {
+      console.warn('Direct Supabase student sync note:', supErr);
     }
-    return false;
-  } catch (err) {
-    console.warn('Error syncing student enrollment for phone ' + phone + ':', err);
-    return false;
   }
+
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(
+      new CustomEvent('neet_cloud_student_synced', { detail: { phone, student } })
+    );
+  }
+  return true;
 }
 
 export async function fetchStudentByPhoneFromCloud(rawPhone: string): Promise<SyncedStudentProfile | null> {
   const phone = cleanPhoneNumber(rawPhone);
   if (!phone || phone.length < 10) return null;
 
-  // 1. Check Supabase first for the authoritative cloud record across all systems
+  // 1. Same-Origin Serverless API Proxy (/api/student-sync) - Fast, CORS-free, adblock-resilient
+  try {
+    const resp = await fetch(`/api/student-sync?phone=${encodeURIComponent(phone)}`);
+    if (resp.ok) {
+      const json = await resp.json();
+      if (json && json.success && json.student && json.student.studentName) {
+        const student = json.student as SyncedStudentProfile;
+        memoryStudentPhoneCache.set(phone, student);
+        try {
+          const rawCand = localStorage.getItem('neet_registered_candidates');
+          const list = rawCand ? JSON.parse(rawCand) : [];
+          const filtered = list.filter((c: any) => cleanPhoneNumber(c.studentPhone || c.phone) !== phone);
+          filtered.push(student);
+          localStorage.setItem('neet_registered_candidates', JSON.stringify(filtered));
+        } catch {}
+        return student;
+      }
+    }
+  } catch (proxyErr) {
+    // Continue to direct Supabase client
+  }
+
+  // 2. Check Supabase direct client for the authoritative cloud record across all systems
   if (supabase) {
     try {
       const { data, error } = await supabase

@@ -37,6 +37,7 @@ import { getPackageById, saveAdminNotification } from '../data/packagesData';
 import {
   syncStudentEnrollmentToCloud,
   fetchStudentByPhoneFromCloud,
+  getUniversalRollNumber,
   SyncedStudentProfile
 } from '../utils/cloudSyncManager';
 
@@ -353,7 +354,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       return;
     }
 
-    const rollNo = matchedCloudStudent?.rollNumber || `NCBT-${targetYear}-` + Math.floor(100000 + Math.random() * 900000);
+    const rollNo = matchedCloudStudent?.rollNumber || getUniversalRollNumber(studentPhone, targetYear);
     const dobPin = formatDobToPin(dob);
     const accountPassword = password.trim() || dobPin;
 
@@ -505,7 +506,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
   const handleDeauthorizeAndContinue = async (deviceToRemoveId: string) => {
     const updatedDevices = deauthorizeDevice(email.trim().toLowerCase(), deviceToRemoveId);
     setDeviceLimitError(null);
-    const rollNo = `NCBT-${targetYear}-` + Math.floor(100000 + Math.random() * 900000);
+    const rollNo = matchedCloudStudent?.rollNumber || getUniversalRollNumber(studentPhone, targetYear);
     const dobPin = formatDobToPin(dob);
     const accountPassword = password.trim() || dobPin;
 

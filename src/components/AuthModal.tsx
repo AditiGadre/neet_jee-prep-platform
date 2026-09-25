@@ -3,6 +3,7 @@ import { supabase } from '../supabaseClient';
 import {
   fetchStudentByPhoneFromCloud,
   syncStudentEnrollmentToCloud,
+  getUniversalRollNumber,
   cleanPhoneNumber
 } from '../utils/cloudSyncManager';
 import {
@@ -288,7 +289,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
       dobPin: '15082006',
       targetYear: '2027',
       enrolledAt: new Date().toISOString(),
-      rollNumber: `NCBT-2027-${cleanPhone.slice(-6)}`,
+      rollNumber: getUniversalRollNumber(cleanPhone, '2027'),
       devices: ['dev-current'],
       gender: 'Female',
       disabilityStatus: 'No Disability',

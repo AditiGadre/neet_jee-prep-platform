@@ -22,7 +22,7 @@ import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
-import { initCloudSync, fetchStudentByPhoneFromCloud, cleanPhoneNumber } from './utils/cloudSyncManager';
+import { initCloudSync, fetchStudentByPhoneFromCloud, syncStudentEnrollmentToCloud, cleanPhoneNumber } from './utils/cloudSyncManager';
 import { assertNoDuplicateQuestions } from './data/sundayPlannerTests';
 
 const SectionLoadingFallback = () => (
@@ -278,6 +278,9 @@ export default function App() {
         const parsed = JSON.parse(rawSaved);
         const clean = cleanPhoneNumber(parsed.studentPhone || parsed.phone || '');
         if (clean && clean.length === 10 && !clean.includes('9876543210')) {
+          // Immediately sync local student to cloud so other systems can access it
+          syncStudentEnrollmentToCloud(parsed).catch(() => {});
+
           fetchStudentByPhoneFromCloud(clean).then(cloudStudent => {
             if (cloudStudent && cloudStudent.studentName) {
               setEnrolledStudent(cloudStudent as any);
