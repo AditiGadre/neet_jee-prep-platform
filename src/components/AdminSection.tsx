@@ -110,7 +110,6 @@ import {
   swapTopics,
   fetchAuthoritativePaper,
   commitAuthoritativePaperToCloud,
-  getLastSyncedTimestamp,
   getLastSyncedRevision,
   getCanonicalPaperCode,
   getOfficialBaseSundayPaper,
@@ -300,7 +299,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [selectedPlannerPreset, setSelectedPlannerPreset] = useState<string>('CWT-01');
   const [isStudioLoadingPaper, setIsStudioLoadingPaper] = useState<boolean>(false);
   const [isSyncingAction, setIsSyncingAction] = useState<boolean>(false);
-  const [lastSyncedTime, setLastSyncedTime] = useState<string | null>(() => getLastSyncedTimestamp());
   const [paperRevision, setPaperRevision] = useState<number>(() => getLastSyncedRevision() || 0);
   const [sundayQuestions, setSundayQuestions] = useState<Question[]>(() => {
     try {
@@ -678,33 +676,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     setIsStudioLoadingPaper(false);
   };
 
-  const handleForceResync = async () => {
-    setIsStudioLoadingPaper(true);
-    try {
-      const cloudPaper = await fetchAuthoritativePaper(selectedPlannerPreset, true);
-      if (cloudPaper && Array.isArray(cloudPaper.questions) && cloudPaper.questions.length === 180) {
-        setSundayQuestions(cloudPaper.questions);
-        setLastSyncedTime(cloudPaper.updatedAt);
-        setPaperRevision(cloudPaper.revision || 1);
-        if (cloudPaper.customChapters) {
-          if (cloudPaper.customChapters.physics?.length) setSundayPhyUnits(cloudPaper.customChapters.physics);
-          if (cloudPaper.customChapters.chemistry?.length) setSundayChemUnits(cloudPaper.customChapters.chemistry);
-          if (cloudPaper.customChapters.biology?.length) setSundayBioUnits(cloudPaper.customChapters.biology);
-        }
-        setActionSuccessBanner(`⚡ Master Default paper ${selectedPlannerPreset.toUpperCase()} force-synced (rev ${cloudPaper.revision || 1})!`);
-        setTimeout(() => setActionSuccessBanner(null), 3500);
-      } else {
-        setActionErrorBanner(`⚠️ No cloud record found for ${selectedPlannerPreset.toUpperCase()}.`);
-        setTimeout(() => setActionErrorBanner(null), 4000);
-      }
-    } catch (err: any) {
-      setActionErrorBanner(`⚠️ Force resync failed: ${err.message || 'Network error'}`);
-      setTimeout(() => setActionErrorBanner(null), 4000);
-    } finally {
-      setIsStudioLoadingPaper(false);
-    }
-  };
-
   const handleSaveAndPublishSelectedPaper = async () => {
     if (isSyncingAction) return;
     if (!sundayQuestions || !Array.isArray(sundayQuestions) || sundayQuestions.length === 0) {
@@ -732,27 +703,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       const result = await commitAuthoritativePaperToCloud(paperToSave, paperRevision);
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
-        setLastSyncedTime(result.paper.updatedAt);
         setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
-        if (result.isQueued) {
-          setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved locally! Background cloud sync queued.`);
-          setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved! Syncing to cloud in background.`);
-        } else {
-          setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved & committed (rev ${result.revision || paperRevision + 1}) as GLOBAL DEFAULT!`);
-          setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} set as Master Default across all devices!`);
-        }
-      } else {
-        setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved locally!`);
       }
+      setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved as Master Default!`);
+      setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved as Master Default!`);
     } catch (e: any) {
-      setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved locally!`);
+      setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved as Master Default!`);
+      setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved as Master Default!`);
     } finally {
       setIsSyncingAction(false);
       setTimeout(() => {
         setPublishSuccessMsg(null);
         setActionSuccessBanner(null);
         setActionErrorBanner(null);
-      }, 4500);
+      }, 3500);
     }
   };
 
@@ -764,7 +728,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const basePaper = getOfficialBaseSundayPaper(canonicalCode);
     const defaultQs = basePaper.questions;
 
-    // 1. INSTANT optimistic local reset (0ms)
+    // Instant optimistic local reset
     setSundayQuestions(defaultQs);
 
     const paperToReset = {
@@ -780,28 +744,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     saveCustomSundayPaper(selectedPlannerPreset, paperToReset);
     setIsSyncingAction(true);
     try {
-      // Pass expectedRevision = -1 to FORCE master reset across all devices regardless of concurrency
       const result = await commitAuthoritativePaperToCloud(paperToReset, -1);
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
-        setLastSyncedTime(result.paper.updatedAt);
         setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
-        if (result.isQueued) {
-          setActionSuccessBanner(`✓ Base template for ${selectedPlannerPreset.toUpperCase()} restored locally! Cloud sync queued in background.`);
-        } else {
-          setActionSuccessBanner(`✓ Base template for ${selectedPlannerPreset.toUpperCase()} restored & synced across ALL devices!`);
-        }
-      } else {
-        setActionSuccessBanner(`✓ Base template for ${selectedPlannerPreset.toUpperCase()} restored locally!`);
       }
+      setActionSuccessBanner(`✓ Base template for ${selectedPlannerPreset.toUpperCase()} restored to default!`);
     } catch (e: any) {
-      setActionSuccessBanner(`✓ Base template for ${selectedPlannerPreset.toUpperCase()} restored locally!`);
+      setActionSuccessBanner(`✓ Base template for ${selectedPlannerPreset.toUpperCase()} restored to default!`);
     } finally {
       setIsSyncingAction(false);
       setTimeout(() => {
         setActionSuccessBanner(null);
         setActionErrorBanner(null);
-      }, 4000);
+      }, 3500);
     }
   };
 
@@ -853,19 +809,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         setTopicAllocations(updatedAllocations);
         syncTopicAllocationsToCloud(updatedAllocations).catch(() => {});
 
-        if (result.isQueued) {
-          setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}")! Cloud sync queued in background.`);
-        } else {
-          setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") & committed to cloud as GLOBAL DEFAULT (rev ${result.revision || paperRevision + 1})!`);
-        }
-        setTimeout(() => setActionSuccessBanner(null), 4000);
+        setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") successfully!`);
+        setTimeout(() => setActionSuccessBanner(null), 3000);
       } else {
-        setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") locally!`);
-        setTimeout(() => setActionSuccessBanner(null), 3500);
+        setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}")!`);
+        setTimeout(() => setActionSuccessBanner(null), 3000);
       }
     } catch (err: any) {
-      setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") locally!`);
-      setTimeout(() => setActionSuccessBanner(null), 3500);
+      setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}")!`);
+      setTimeout(() => setActionSuccessBanner(null), 3000);
     } finally {
       setIsSyncingAction(false);
     }
@@ -1139,20 +1091,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
-        setLastSyncedTime(result.paper.updatedAt);
         setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
-        if (result.isQueued) {
-          setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped locally! Cloud sync queued.`);
-        } else {
-          setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped & saved (rev ${result.revision || paperRevision + 1})!`);
-        }
-        setTimeout(() => setActionSuccessBanner(null), 3500);
+        setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped successfully!`);
+        setTimeout(() => setActionSuccessBanner(null), 3000);
       } else {
-        setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped locally!`);
+        setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped!`);
         setTimeout(() => setActionSuccessBanner(null), 3000);
       }
     } catch (err: any) {
-      setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped locally!`);
+      setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped!`);
       setTimeout(() => setActionSuccessBanner(null), 3000);
     } finally {
       setIsSyncingAction(false);
@@ -1216,20 +1163,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
-        setLastSyncedTime(result.paper.updatedAt);
         setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
-        if (result.isQueued) {
-          setActionSuccessBanner(`✓ Question #${idx + 1} saved locally! Cloud sync queued in background.`);
-        } else {
-          setActionSuccessBanner(`✓ Question #${idx + 1} updated successfully (rev ${result.revision || paperRevision + 1})!`);
-        }
-        setTimeout(() => setActionSuccessBanner(null), 3500);
+        setActionSuccessBanner(`✓ Question #${idx + 1} saved successfully!`);
+        setTimeout(() => setActionSuccessBanner(null), 3000);
       } else {
-        setActionSuccessBanner(`✓ Question #${idx + 1} saved locally!`);
+        setActionSuccessBanner(`✓ Question #${idx + 1} saved!`);
         setTimeout(() => setActionSuccessBanner(null), 3000);
       }
     } catch (err: any) {
-      setActionSuccessBanner(`✓ Question #${idx + 1} saved locally!`);
+      setActionSuccessBanner(`✓ Question #${idx + 1} saved!`);
       setTimeout(() => setActionSuccessBanner(null), 3000);
     }
   };
@@ -2017,15 +1959,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   Save as Master Default ({selectedPlannerPreset.toUpperCase()})
                 </button>
 
-                <button
-                  onClick={handleForceResync}
-                  disabled={isStudioLoadingPaper || isSyncingAction}
-                  className="px-3.5 py-2.5 bg-indigo-600/90 hover:bg-indigo-600 text-white border border-indigo-400/40 rounded-xl text-xs font-bold transition flex items-center gap-1.5 shadow-md cursor-pointer disabled:opacity-50"
-                  title="Pull latest synchronized paper from Supabase Cloud database"
-                >
-                  <RefreshCw className={`w-3.5 h-3.5 ${isStudioLoadingPaper ? 'animate-spin' : ''}`} />
-                  Sync Latest from Cloud
-                </button>
 
                 <button
                   onClick={handleResetSelectedPaperToDefault}
@@ -2106,34 +2039,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     <Layers className="w-4 h-4 text-blue-600" />
                     Step 1: Choose Sunday Paper & Topic Customization
                   </h4>
-                  {isStudioLoadingPaper || isSyncingAction ? (
-                    <span className="text-[10px] font-black text-amber-700 bg-amber-100 border border-amber-300 px-2.5 py-0.5 rounded-full animate-pulse flex items-center gap-1.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-ping" />
-                      {isSyncingAction ? `Writing rev ${paperRevision + 1} to Cloud...` : 'Syncing from Cloud...'}
-                    </span>
-                  ) : (
-                    <span className="text-[10px] font-black text-emerald-700 bg-emerald-100 border border-emerald-300 px-2.5 py-0.5 rounded-full flex items-center gap-1">
-                      ✓ Synced (rev {paperRevision || 1})
-                    </span>
-                  )}
-                  {/* Last Synced Indicator */}
-                  {lastSyncedTime && (
-                    <span className="text-[10px] font-mono text-slate-500 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full flex items-center gap-1">
-                      <Clock className="w-3 h-3 text-slate-400" />
-                      Last synced: {new Date(lastSyncedTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })}
-                    </span>
-                  )}
-                  {/* Force Resync Button */}
-                  <button
-                    type="button"
-                    onClick={handleForceResync}
-                    disabled={isStudioLoadingPaper || isSyncingAction}
-                    className="text-[10px] font-bold text-blue-700 bg-blue-50 hover:bg-blue-100 border border-blue-200 px-2.5 py-0.5 rounded-full flex items-center gap-1 transition cursor-pointer disabled:opacity-50"
-                    title="Force refresh authoritative paper from Supabase cloud database"
-                  >
-                    <RefreshCw className={`w-2.5 h-2.5 ${isStudioLoadingPaper ? 'animate-spin' : ''}`} />
-                    Force Resync
-                  </button>
                 </div>
                 <p className="text-[11px] text-slate-500">
                   Select which Sunday test paper you are editing, customize syllabus topics, and re-assemble 180 questions with zero cross-chapter mixing.

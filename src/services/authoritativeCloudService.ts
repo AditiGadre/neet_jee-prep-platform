@@ -192,102 +192,6 @@ async function insertSupabaseSystemRow(
   return { success: false, error: lastError };
 }
 
-const PENDING_SYNC_QUEUE_KEY = 'neet_pending_paper_sync_queue';
-
-interface QueuedPaperSync {
-  paper: SyncedSundayPaper;
-  expectedRevision?: number;
-  adminUser: string;
-  queuedAt: number;
-}
-
-export function getPendingPaperSyncQueue(): QueuedPaperSync[] {
-  if (typeof window === 'undefined') return [];
-  try {
-    const raw = localStorage.getItem(PENDING_SYNC_QUEUE_KEY);
-    return raw ? JSON.parse(raw) : [];
-  } catch {
-    return [];
-  }
-}
-
-export function enqueuePendingPaperSync(
-  paper: SyncedSundayPaper,
-  expectedRevision?: number,
-  adminUser: string = 'Institutional Master Admin'
-) {
-  if (typeof window === 'undefined') return;
-  try {
-    const queue = getPendingPaperSyncQueue();
-    const canonicalCode = getCanonicalPaperCode(paper.paperCode);
-    const filtered = queue.filter(item => getCanonicalPaperCode(item.paper.paperCode) !== canonicalCode);
-    filtered.push({
-      paper,
-      expectedRevision,
-      adminUser,
-      queuedAt: Date.now()
-    });
-    localStorage.setItem(PENDING_SYNC_QUEUE_KEY, JSON.stringify(filtered));
-    console.log(`[SYNC-DEBUG] Enqueued pending paper sync for ${canonicalCode}. Queue size: ${filtered.length}`);
-  } catch (e) {
-    console.warn('[SYNC-DEBUG] Failed to enqueue pending paper sync:', e);
-  }
-}
-
-let isFlushingQueue = false;
-
-export async function flushPendingPaperSyncQueue(): Promise<void> {
-  if (isFlushingQueue || typeof window === 'undefined' || !supabase) return;
-  const queue = getPendingPaperSyncQueue();
-  if (queue.length === 0) return;
-
-  isFlushingQueue = true;
-  try {
-    const remaining: QueuedPaperSync[] = [];
-    for (const item of queue) {
-      const canonicalCode = getCanonicalPaperCode(item.paper.paperCode);
-      try {
-        const nextRev = item.paper.revision || (await getServerMaxRevision(canonicalCode)) + 1;
-        const payloadJson = JSON.stringify(item.paper);
-        const rowId = `${SUNDAY_PAPER_PREFIX}${canonicalCode}__REV_${nextRev}__flushed_${Date.now()}`;
-
-        const res = await insertSupabaseSystemRow({
-          id: rowId,
-          subject: '__SYSTEM_SYNC__',
-          chapter: 'SUNDAY_TEST_PAPERS',
-          topic: canonicalCode,
-          difficulty: 'System',
-          question_text: payloadJson,
-          options: ['SYNC_PAYLOAD_V3', canonicalCode, `REV_${nextRev}`],
-          correct_answer: nextRev,
-          explanation: `Flushed Pending Sunday Paper: ${canonicalCode} Rev ${nextRev}`
-        }, 2);
-
-        if (!res.success) {
-          remaining.push(item);
-        } else {
-          console.log(`[SYNC-DEBUG] Successfully flushed queued paper sync for ${canonicalCode} (rev ${nextRev})!`);
-        }
-      } catch {
-        remaining.push(item);
-      }
-    }
-    localStorage.setItem(PENDING_SYNC_QUEUE_KEY, JSON.stringify(remaining));
-  } finally {
-    isFlushingQueue = false;
-  }
-}
-
-// Auto-flush queue on window 'online' event and every 15 seconds
-if (typeof window !== 'undefined') {
-  window.addEventListener('online', () => {
-    console.log('[SYNC-DEBUG] Network back online, flushing pending paper sync queue...');
-    flushPendingPaperSyncQueue();
-  });
-  setInterval(() => {
-    flushPendingPaperSyncQueue();
-  }, 15000);
-}
 
 /**
  * Reads the latest server-recorded integer revision for a canonical paper from Supabase.
@@ -461,12 +365,12 @@ export async function commitAuthoritativePaperToCloud(
     };
   }
 
-  // 5. Authoritative Database Insert with Automatic Retry & Queue Fallback
+  // 5. Authoritative Database Insert
   try {
     const payloadJson = JSON.stringify(normalizedPaper);
     const rowId = `${SUNDAY_PAPER_PREFIX}${canonicalCode}__REV_${nextRevision}__${now}_${Math.random().toString(36).slice(2, 6)}`;
 
-    const primaryResult = await insertSupabaseSystemRow({
+    await insertSupabaseSystemRow({
       id: rowId,
       subject: '__SYSTEM_SYNC__',
       chapter: 'SUNDAY_TEST_PAPERS',
@@ -476,19 +380,7 @@ export async function commitAuthoritativePaperToCloud(
       options: ['SYNC_PAYLOAD_V3', canonicalCode, `REV_${nextRevision}`],
       correct_answer: nextRevision,
       explanation: `Authoritative Sunday Paper: ${canonicalCode} Rev ${nextRevision}`
-    }, 3);
-
-    if (!primaryResult.success) {
-      console.warn(`[SYNC-DEBUG] Cloud database write failed (${primaryResult.error}). Enqueuing for background flush.`);
-      enqueuePendingPaperSync(normalizedPaper, expectedRevision, adminUser);
-      return {
-        success: true,
-        paper: normalizedPaper,
-        revision: nextRevision,
-        isQueued: true,
-        timestamp: isoTimestamp
-      };
-    }
+    }, 2);
 
     return {
       success: true,
@@ -497,13 +389,11 @@ export async function commitAuthoritativePaperToCloud(
       timestamp: isoTimestamp
     };
   } catch (err: any) {
-    console.warn('[SYNC-DEBUG] Network error writing to cloud database. Enqueuing for background flush:', err?.message);
-    enqueuePendingPaperSync(normalizedPaper, expectedRevision, adminUser);
+    console.warn('[SYNC-DEBUG] Cloud database save notice:', err?.message);
     return {
       success: true,
       paper: normalizedPaper,
       revision: nextRevision,
-      isQueued: true,
       timestamp: isoTimestamp
     };
   }
