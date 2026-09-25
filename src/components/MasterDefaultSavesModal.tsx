@@ -57,6 +57,7 @@ interface CloudCommitRow {
   topic: string;
   correct_answer: number;
   explanation: string;
+  updated_at?: string;
   created_at?: string;
 }
 
@@ -103,7 +104,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
     try {
       const { data, error } = await supabase
         .from('questions')
-        .select('id, topic, correct_answer, explanation, created_at')
+        .select('id, topic, correct_answer, explanation, updated_at')
         .eq('subject', '__SYSTEM_SYNC__')
         .eq('chapter', 'SUNDAY_TEST_PAPERS')
         .order('correct_answer', { ascending: false })
@@ -115,7 +116,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
         setCloudCommits(data as CloudCommitRow[]);
       }
     } catch (e: any) {
-      setCloudError(e?.message || 'Network error fetching cloud records');
+      setCloudError(e?.message || 'Remote database query notice');
     } finally {
       setIsLoadingCloud(false);
     }
@@ -124,9 +125,11 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
   useEffect(() => {
     if (isOpen) {
       setSelectedInspectCode(activePaperCode);
-      loadCloudCommits();
+      if (activeTab === 'cloud_history') {
+        loadCloudCommits();
+      }
     }
-  }, [isOpen, activePaperCode]);
+  }, [isOpen, activePaperCode, activeTab]);
 
   // Retrieve data for the paper currently being inspected
   const canonicalInspectCode = getCanonicalPaperCode(selectedInspectCode);
@@ -824,7 +827,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
 
                         <div className="text-right">
                           <span className="text-[10px] text-slate-500 font-mono block">
-                            {row.created_at ? new Date(row.created_at).toLocaleDateString() : 'Cloud Record'}
+                            {(row.updated_at || row.created_at) ? new Date((row.updated_at || row.created_at)!).toLocaleString() : 'Cloud Record'}
                           </span>
                           <span className="text-[9px] text-slate-600 font-mono block max-w-[150px] truncate" title={row.id}>
                             {row.id}
