@@ -115,6 +115,7 @@ import {
   getOfficialBaseSundayPaper,
   syncTopicAllocationsToCloud
 } from '../services/authoritativeCloudService';
+import { MasterDefaultSavesModal } from './MasterDefaultSavesModal';
 
 interface AdminSectionProps {
   onClose?: () => void;
@@ -323,6 +324,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     correctAnswer: number;
     explanation: string;
   } | null>(null);
+  const [showMasterSavesModal, setShowMasterSavesModal] = useState<boolean>(false);
 
   const [testMarks, setTestMarks] = useState<number>(4);
   const [testNegativeMarks, setTestNegativeMarks] = useState<number>(1);
@@ -1959,6 +1961,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   Save as Master Default ({selectedPlannerPreset.toUpperCase()})
                 </button>
 
+                <button
+                  onClick={() => setShowMasterSavesModal(true)}
+                  className="px-3.5 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-100 border border-slate-700 rounded-xl text-xs font-bold transition flex items-center gap-2 shadow-md cursor-pointer"
+                  title="View Committed Master Default Saves and History"
+                >
+                  <Eye className="w-4 h-4 text-emerald-400" />
+                  View Master Default Saves
+                </button>
 
                 <button
                   onClick={handleResetSelectedPaperToDefault}
@@ -4016,6 +4026,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           )}
         </div>
       )}
+
+      {/* Master Default Saves & Committed Changes Inspector Modal */}
+      <MasterDefaultSavesModal
+        isOpen={showMasterSavesModal}
+        onClose={() => setShowMasterSavesModal(false)}
+        activePaperCode={selectedPlannerPreset}
+        activeQuestions={sundayQuestions}
+        activeRevision={paperRevision}
+        onSelectPaperToLoad={(paperCode) => handleSelectSundayPaper(paperCode)}
+      />
 
     </div>
   );
