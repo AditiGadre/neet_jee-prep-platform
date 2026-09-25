@@ -198,6 +198,21 @@ async function insertSupabaseSystemRow(
  * Returns 0 if none exists.
  */
 export async function getServerMaxRevision(canonicalCode: string): Promise<number> {
+  // 1. Same-Origin Serverless API check
+  try {
+    const resp = await fetch('/api/sunday-paper?action=commits');
+    if (resp.ok) {
+      const json = await resp.json();
+      if (json && Array.isArray(json.commits)) {
+        const matching = json.commits.filter((c: any) => c.topic === canonicalCode);
+        if (matching.length > 0) {
+          const maxRev = Math.max(...matching.map((c: any) => Number(c.correct_answer) || 0));
+          if (maxRev > 0) return maxRev;
+        }
+      }
+    }
+  } catch {}
+
   if (!supabase) return 0;
   try {
     const { data, error } = await supabase
@@ -356,47 +371,54 @@ export async function commitAuthoritativePaperToCloud(
   // Sends full payload immediately to all other connected tabs/devices
   broadcastAuthoritativePaperUpdate(normalizedPaper, nextRevision, isForceRevert, adminUser, isoTimestamp);
 
-  if (!supabase) {
-    return {
-      success: true,
-      paper: normalizedPaper,
-      revision: nextRevision,
-      timestamp: isoTimestamp
-    };
-  }
-
-  // 5. Authoritative Database Insert
+  // 5. Authoritative Database Insert (Dual-path: Serverless Proxy + Direct Client)
+  // 5a. Same-Origin Serverless API (Bypasses CORS, client firewalls, and adblockers)
   try {
-    const payloadJson = JSON.stringify(normalizedPaper);
-    const rowId = `${SUNDAY_PAPER_PREFIX}${canonicalCode}__REV_${nextRevision}__${now}_${Math.random().toString(36).slice(2, 6)}`;
-
-    await insertSupabaseSystemRow({
-      id: rowId,
-      subject: '__SYSTEM_SYNC__',
-      chapter: 'SUNDAY_TEST_PAPERS',
-      topic: canonicalCode,
-      difficulty: 'System',
-      question_text: payloadJson,
-      options: ['SYNC_PAYLOAD_V3', canonicalCode, `REV_${nextRevision}`],
-      correct_answer: nextRevision,
-      explanation: `Authoritative Sunday Paper: ${canonicalCode} Rev ${nextRevision}`
-    }, 2);
-
-    return {
-      success: true,
-      paper: normalizedPaper,
-      revision: nextRevision,
-      timestamp: isoTimestamp
-    };
-  } catch (err: any) {
-    console.warn('[SYNC-DEBUG] Cloud database save notice:', err?.message);
-    return {
-      success: true,
-      paper: normalizedPaper,
-      revision: nextRevision,
-      timestamp: isoTimestamp
-    };
+    const proxyPromise = fetch('/api/sunday-paper', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        paper: normalizedPaper,
+        expectedRevision,
+        adminUser
+      })
+    });
+    const proxyTimeout = new Promise<Response>((_, reject) =>
+      setTimeout(() => reject(new Error('Serverless proxy timeout')), 6000)
+    );
+    await Promise.race([proxyPromise, proxyTimeout]);
+  } catch (proxyErr) {
+    console.warn('[SYNC-DEBUG] Same-origin serverless proxy commit note:', proxyErr);
   }
+
+  // 5b. Direct Supabase Client (if available)
+  if (supabase) {
+    try {
+      const payloadJson = JSON.stringify(normalizedPaper);
+      const rowId = `${SUNDAY_PAPER_PREFIX}${canonicalCode}__REV_${nextRevision}__${now}_${Math.random().toString(36).slice(2, 6)}`;
+
+      await insertSupabaseSystemRow({
+        id: rowId,
+        subject: '__SYSTEM_SYNC__',
+        chapter: 'SUNDAY_TEST_PAPERS',
+        topic: canonicalCode,
+        difficulty: 'System',
+        question_text: payloadJson,
+        options: ['SYNC_PAYLOAD_V3', canonicalCode, `REV_${nextRevision}`],
+        correct_answer: nextRevision,
+        explanation: `Authoritative Sunday Paper: ${canonicalCode} Rev ${nextRevision}`
+      }, 2);
+    } catch (err: any) {
+      console.warn('[SYNC-DEBUG] Cloud database save notice:', err?.message);
+    }
+  }
+
+  return {
+    success: true,
+    paper: normalizedPaper,
+    revision: nextRevision,
+    timestamp: isoTimestamp
+  };
 }
 
 /**
@@ -464,6 +486,37 @@ export async function fetchAuthoritativePaper(
     }
   }
 
+  // 1. Same-Origin Serverless Proxy (/api/sunday-paper) - Fast, CORS-free, adblock-resilient
+  try {
+    const resp = await fetch(`/api/sunday-paper?action=fetch&code=${encodeURIComponent(canonicalCode)}`);
+    if (resp.ok) {
+      const json = await resp.json();
+      if (json && json.success && json.paper && Array.isArray(json.paper.questions) && json.paper.questions.length === 180) {
+        const parsed = json.paper as SyncedSundayPaper;
+        parsed.revision = Number(parsed.revision) || 1;
+        parsed.paperCode = canonicalCode;
+
+        runtimePaperCache.set(canonicalCode, { paper: parsed, fetchedAt: Date.now() });
+        globalLastSyncedTimestamp = parsed.updatedAt || new Date().toISOString();
+        globalLastSyncedRevision = parsed.revision;
+
+        // Mirror into local storage
+        try {
+          const raw = localStorage.getItem('neet_custom_sunday_papers');
+          const localPapers = raw ? JSON.parse(raw) : {};
+          localPapers[canonicalCode] = parsed;
+          localPapers[canonicalCode.toLowerCase()] = parsed;
+          localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(localPapers));
+        } catch {}
+
+        return parsed;
+      }
+    }
+  } catch (proxyErr) {
+    // Continue to direct Supabase client
+  }
+
+  // 2. Direct Supabase Client
   if (supabase) {
     try {
       // 1. Primary Query: Fetch top 5 revisions by integer column correct_answer
@@ -782,7 +835,7 @@ export async function syncVaultChaptersToCloud(
   try {
     const payloadJson = JSON.stringify(chapters);
     const now = Date.now();
-    return await insertSupabaseSystemRow({
+    const res = await insertSupabaseSystemRow({
       id: `__VAULT_CHAPTERS__${now}`,
       subject: '__SYSTEM_SYNC__',
       chapter: 'VAULT_CHAPTERS',
@@ -793,6 +846,7 @@ export async function syncVaultChaptersToCloud(
       correct_answer: 0,
       explanation: 'Authoritative Vault Chapters'
     });
+    return res.success;
   } catch (e) {
     console.warn('[SYNC-DEBUG] Error syncing vault chapters to cloud:', e);
     return false;
@@ -809,7 +863,7 @@ export async function syncTopicAllocationsToCloud(
   try {
     const payloadJson = JSON.stringify(allocations);
     const now = Date.now();
-    return await insertSupabaseSystemRow({
+    const res = await insertSupabaseSystemRow({
       id: `__TOPIC_ALLOCATIONS__${now}`,
       subject: '__SYSTEM_SYNC__',
       chapter: 'TOPIC_ALLOCATIONS',
@@ -820,6 +874,7 @@ export async function syncTopicAllocationsToCloud(
       correct_answer: 0,
       explanation: 'Authoritative Topic Allocations'
     });
+    return res.success;
   } catch (e) {
     console.warn('[SYNC-DEBUG] Error syncing topic allocations to cloud:', e);
     return false;

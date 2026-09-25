@@ -98,22 +98,41 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
 
   // Load cloud commit logs from Supabase
   const loadCloudCommits = async () => {
-    if (!supabase) return;
     setIsLoadingCloud(true);
     setCloudError(null);
     try {
-      const { data, error } = await supabase
-        .from('questions')
-        .select('id, topic, correct_answer, explanation, updated_at')
-        .eq('subject', '__SYSTEM_SYNC__')
-        .eq('chapter', 'SUNDAY_TEST_PAPERS')
-        .order('correct_answer', { ascending: false })
-        .limit(30);
+      // 1. Same-Origin Serverless API (Guaranteed CORS-free & adblock-resilient)
+      try {
+        const resp = await fetch('/api/sunday-paper?action=commits');
+        if (resp.ok) {
+          const json = await resp.json();
+          if (json && Array.isArray(json.commits) && json.commits.length > 0) {
+            setCloudCommits(json.commits as CloudCommitRow[]);
+            setCloudError(null);
+            setIsLoadingCloud(false);
+            return;
+          }
+        }
+      } catch (proxyErr) {
+        console.warn('Same-origin proxy fetch error, falling back to direct client:', proxyErr);
+      }
 
-      if (error) {
-        setCloudError(error.message);
-      } else if (data) {
-        setCloudCommits(data as CloudCommitRow[]);
+      // 2. Direct Supabase Client fallback
+      if (supabase) {
+        const { data, error } = await supabase
+          .from('questions')
+          .select('id, topic, correct_answer, explanation, updated_at')
+          .eq('subject', '__SYSTEM_SYNC__')
+          .eq('chapter', 'SUNDAY_TEST_PAPERS')
+          .order('correct_answer', { ascending: false })
+          .limit(30);
+
+        if (error) {
+          setCloudError(error.message);
+        } else if (data) {
+          setCloudCommits(data as CloudCommitRow[]);
+          setCloudError(null);
+        }
       }
     } catch (e: any) {
       setCloudError(e?.message || 'Remote database query notice');
