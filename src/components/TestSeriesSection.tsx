@@ -44,6 +44,8 @@ import {
   SUNDAY_DROPPER_TRACK2_TESTS,
   SUNDAY_DROPPER_PC_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
+  PLANNER_12TH_COMPLETE_TESTS,
+  PLANNER_12TH_PC_TESTS,
   PLANNER_12TH_TESTS,
   REVISION_ANALYSIS_BUFFER_12TH,
   SundayPlannerTest,
@@ -67,6 +69,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 }) => {
   const [activeBatch, setActiveBatch] = useState<'repeater' | '12th' | '11th'>('repeater');
   const [repeaterTrack, setRepeaterTrack] = useState<'track1' | 'track2' | 'pc'>('track1');
+  const [class12Track, setClass12Track] = useState<'complete' | 'pc'>('complete');
   const [activePhaseFilter, setActivePhaseFilter] = useState<'all' | 'cwt' | 'cumulative' | 'part' | 'full' | 'mock'>('all');
   const [showRevisionBuffer, setShowRevisionBuffer] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -189,12 +192,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     });
   }, [activeRepeaterTests, activePhaseFilter, searchQuery]);
 
-  // Class 12th Batch Scheduled Tests (23 Tests from PDF Planner: 8 Part, 10 Complete Syllabus, 5 NEET Mocks)
+  const active12thTests = useMemo(() => {
+    if (class12Track === 'complete') return PLANNER_12TH_COMPLETE_TESTS;
+    return PLANNER_12TH_PC_TESTS;
+  }, [class12Track]);
+
+  // Class 12th Batch Scheduled Tests
   const filtered12thTests = useMemo(() => {
-    return PLANNER_12TH_TESTS.filter(t => {
+    return active12thTests.filter(t => {
       // Phase Filter
       if (activePhaseFilter === 'part' && !t.code.startsWith('PART')) return false;
-      if (activePhaseFilter === 'full' && !t.code.startsWith('FULL')) return false;
+      if (activePhaseFilter === 'full' && !t.code.startsWith('FULL') && !t.code.startsWith('PC-')) return false;
       if (activePhaseFilter === 'mock' && !t.code.startsWith('NEET MOCK')) return false;
 
       // Search Query
@@ -211,7 +219,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       }
       return true;
     });
-  }, [activePhaseFilter, searchQuery]);
+  }, [active12thTests, activePhaseFilter, searchQuery]);
 
   // Class 11th Batch Sunday Tests (Full 20-Sunday Cycle from Planner PDF)
   const filtered11thTests = useMemo(() => {
@@ -477,7 +485,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   ? 'NEET 2026–27 Dropper Batch: Track 2 (17-Week Fast-Track • 46 Tests)'
                   : 'NEET 2026–27 Dropper Batch: Track 3 (Physics & Chemistry Series • 27 Tests)'
                 : activeBatch === '12th'
-                ? 'Class 12th Complete Syllabus Test Series (Official 23-Test Cycle + Buffer)'
+                ? class12Track === 'complete'
+                  ? 'Class 12th Complete Syllabus Master Test Series (Starting 04 Oct 2026)'
+                  : 'Class 12th Physics & Chemistry Full-Syllabus Series (10 Mar – 30 Apr 2027)'
                 : 'Class 11th Foundation Sunday All-India Test Series (Official 20-Sunday Cycle)'}
             </h1>
             <p className="mt-1 text-xs text-slate-600 max-w-3xl leading-relaxed">
@@ -486,9 +496,15 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   Strictly aligned to official NMC/NTA NEET syllabus: <strong>Complete chapter-wise testing by the last week of February, followed by three complete Class 11 NEET syllabus tests</strong>. Chapter-wise tests (<strong>CWT-01 to CWT-12</strong>) scheduled every second Sunday, Cumulative tests (<strong>CUM-01 to CUM-05</strong>) placed after learning blocks, and Full Syllabus Tests (<strong>FST-01 to FST-03</strong>). <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                 </>
               ) : activeBatch === '12th' ? (
-                <>
-                  Structured 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1–8)</strong> every 5 days covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> every 4 days focusing on baseline, error tagging, NCERT retention, reactions, and pacing; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> every 2 days with full analytics; followed by a <strong>7-Stage Revision &amp; Analysis Buffer</strong> through 03 Feb 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
-                </>
+                class12Track === 'complete' ? (
+                  <>
+                    Starting <strong>04 October 2026</strong>: 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1–8)</strong> every 5 days covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> every 4 days focusing on baseline, error tagging, NCERT retention, reactions, and pacing; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> every 2 days with full analytics; followed by a <strong>7-Stage Revision &amp; Analysis Buffer</strong> through 17 Feb 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                  </>
+                ) : (
+                  <>
+                    Dedicated Full-Syllabus Physics &amp; Chemistry Series from <strong>10 March to 30 April 2027</strong> (post-Board Examinations): <strong>18 Tests (PC-01 to PC-18)</strong> scheduled every 3 days covering 100% of Physics and Chemistry syllabus. <strong>100 Questions (50 Physics + 50 Chemistry) • 120 Minutes • 400 Marks</strong>.
+                  </>
+                )
               ) : repeaterTrack === 'track1' ? (
                 <>
                   Starting <strong>04 October 2026</strong>: <strong>20 Chapter-Wise Tests (CW-01 to CW-20)</strong> every Sunday with zero chapter repeats &rarr; <strong>8 Part-Wise Cumulative Tests (PT-01 to PT-08)</strong> every 4 days &rarr; <strong>18 Full Syllabus Tests (FS-01 to FS-18)</strong> every 3 and 2 days through 30 April 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
@@ -512,6 +528,48 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             </span>
           </div>
         </div>
+
+        {/* Track Switcher Segmented Control for Class 12th Batch */}
+        {activeBatch === '12th' && (
+          <div className="mt-4 p-2 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-2 items-center">
+            <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider px-1">
+              Select Track:
+            </span>
+            <button
+              onClick={() => {
+                setClass12Track('complete');
+                setActivePhaseFilter('all');
+              }}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
+                class12Track === 'complete'
+                  ? 'bg-blue-600 text-white shadow-sm'
+                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+              }`}
+            >
+              <span>Track 1: Complete Syllabus Master Planner (23 Tests)</span>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class12Track === 'complete' ? 'bg-white/20 text-white' : 'bg-blue-100 text-blue-800'}`}>
+                Starts 04 Oct
+              </span>
+            </button>
+
+            <button
+              onClick={() => {
+                setClass12Track('pc');
+                setActivePhaseFilter('all');
+              }}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
+                class12Track === 'pc'
+                  ? 'bg-emerald-600 text-white shadow-sm'
+                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+              }`}
+            >
+              <span>Track 2: Physics &amp; Chemistry Full Syllabus (18 Tests)</span>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class12Track === 'pc' ? 'bg-white/20 text-white' : 'bg-emerald-100 text-emerald-800'}`}>
+                10 Mar – 30 Apr
+              </span>
+            </button>
+          </div>
+        )}
 
         {/* Track Switcher Segmented Control for Repeater / Dropper Batch */}
         {activeBatch === 'repeater' && (
@@ -598,27 +656,53 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               </div>
             </>
           ) : activeBatch === '12th' ? (
-            <>
-              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Part-Wise</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (Every 5d)</div>
-              </div>
+            class12Track === 'complete' ? (
+              <>
+                <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Part-Wise</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (04 Oct - 08 Nov)</div>
+                </div>
 
-              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 2: Complete Syllabus</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">10 Tests (Every 4d)</div>
-              </div>
+                <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 2: Complete Syllabus</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">10 Tests (12 Nov - 18 Dec)</div>
+                </div>
 
-              <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 3: NEET Mocks</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">5 Mocks (Every 2d)</div>
-              </div>
+                <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 3: NEET Mocks</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">5 Mocks (24 Dec - 01 Jan)</div>
+                </div>
 
-              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Buffer &amp; Analysis</div>
-                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">7 Repair Cycles</div>
-              </div>
-            </>
+                <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Buffer &amp; Analysis</div>
+                  <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">7 Repair Cycles</div>
+                  <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">Through 17 Feb 2027</div>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Subject Coverage</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">100% Physics (50 Qs)</div>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Subject Coverage</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">100% Chemistry (50 Qs)</div>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Cadence</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">Every 3 Days (10 Mar - 30 Apr)</div>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 2 Total Cycle</div>
+                  <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">18 Tests (1,800 Qs)</div>
+                  <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">120 Mins &bull; 400 Marks CBT</div>
+                </div>
+              </>
+            )
           ) : repeaterTrack === 'track1' ? (
             <>
               <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
@@ -718,12 +802,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 { id: 'full', label: 'Final Phase: Full Syllabus (3)' }
               ]
             : activeBatch === '12th'
-            ? [
-                { id: 'all', label: `All (23 Tests)` },
-                { id: 'part', label: 'Phase 1: Part-Wise (8)' },
-                { id: 'full', label: 'Phase 2: Complete Syllabus (10)' },
-                { id: 'mock', label: 'Phase 3: NEET Mocks (5)' }
-              ]
+            ? class12Track === 'complete'
+              ? [
+                  { id: 'all', label: `All (${PLANNER_12TH_COMPLETE_TESTS.length})` },
+                  { id: 'part', label: 'Phase 1: Part-Wise (8)' },
+                  { id: 'full', label: 'Phase 2: Complete Syllabus (10)' },
+                  { id: 'mock', label: 'Phase 3: NEET Mocks (5)' }
+                ]
+              : [
+                  { id: 'all', label: `All (${PLANNER_12TH_PC_TESTS.length} Tests)` },
+                  { id: 'full', label: 'Full Syllabus PC Series (18)' }
+                ]
             : repeaterTrack === 'track1'
             ? [
                 { id: 'all', label: `All (${SUNDAY_DROPPER_TRACK1_TESTS.length})` },

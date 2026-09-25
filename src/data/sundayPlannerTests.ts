@@ -3170,14 +3170,14 @@ export const REVISION_ANALYSIS_BUFFER_12TH: RevisionAnalysisBufferStage[] = [
  * 23 Total Tests: 8 Part-Wise (every 5 days), 10 Complete Syllabus (every 4 days), 5 NEET Mocks (every 2 days)
  * + Structured Revision & Analysis Buffer through 03 Feb 2027.
  */
-export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
+export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   // ==========================================
   // PHASE 1: 8 PART-WISE TESTS (Every 5 Days)
   // ==========================================
   {
     id: 'test-12th-part-01',
     code: 'PART 1',
-    dateStr: '2026-09-20',
+    dateStr: '2026-10-04',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 1: Measurement, Kinematics, Laws of Motion, Basic Concepts, Living World, Animal Kingdom',
@@ -3198,7 +3198,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-02',
     code: 'PART 2',
-    dateStr: '2026-09-25',
+    dateStr: '2026-10-09',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 2: Work Energy & Rotation, Bonding & Thermodynamics, Plant Anatomy & Cell, Digestion & Breathing',
@@ -3219,7 +3219,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-03',
     code: 'PART 3',
-    dateStr: '2026-09-30',
+    dateStr: '2026-10-14',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 3: Gravitation & Bulk Matter, Equilibrium & Redox, Plant Physiology, Circulation & Excretion',
@@ -3240,7 +3240,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-04',
     code: 'PART 4',
-    dateStr: '2026-10-05',
+    dateStr: '2026-10-19',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 4: Thermal, KTG, Waves & SHM, Organic Basics & Hydrocarbons, Plant Growth, Locomotion & Control',
@@ -3261,7 +3261,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-05',
     code: 'PART 5',
-    dateStr: '2026-10-10',
+    dateStr: '2026-10-24',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 5: Electrostatics & Current, Physical Chem (Solutions, Electrochem, Kinetics), Genetics & Reproduction',
@@ -3282,7 +3282,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-06',
     code: 'PART 6',
-    dateStr: '2026-10-15',
+    dateStr: '2026-10-29',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 6: Magnetism & EMI, Inorganic (d/f Block, Coordination, p-Block), Molecular Genetics & Evolution, Health',
@@ -3303,7 +3303,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-07',
     code: 'PART 7',
-    dateStr: '2026-10-20',
+    dateStr: '2026-11-03',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 7: AC, EM Waves & Ray Optics, Organic (Halogens, Oxygen Derivatives), Microbes & Biotechnology',
@@ -3324,7 +3324,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-08',
     code: 'PART 8',
-    dateStr: '2026-10-25',
+    dateStr: '2026-11-08',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 8: Modern Physics & Electronics, Nitrogen Derivatives & Practical Chem, Ecology & Complete Biology Revision',
@@ -3349,7 +3349,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-01',
     code: 'FULL-01',
-    dateStr: '2026-10-29',
+    dateStr: '2026-11-12',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-01: Complete Class 11 + 12 NEET Paper 1 (Baseline + Error Tagging)',
@@ -3370,7 +3370,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-02',
     code: 'FULL-02',
-    dateStr: '2026-11-02',
+    dateStr: '2026-11-16',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-02: Complete Class 11 + 12 NEET Paper 2 (NCERT Retention + Physics Focus)',
@@ -3391,7 +3391,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-03',
     code: 'FULL-03',
-    dateStr: '2026-11-06',
+    dateStr: '2026-11-20',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-03: Complete Class 11 + 12 NEET Paper 3 (Chemistry Calculation & Reactions)',
@@ -3412,7 +3412,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-04',
     code: 'FULL-04',
-    dateStr: '2026-11-10',
+    dateStr: '2026-11-24',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-04: Complete Class 11 + 12 NEET Paper 4 (Biology Precision & NCERT Line-by-Line)',
@@ -3433,7 +3433,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-05',
     code: 'FULL-05',
-    dateStr: '2026-11-14',
+    dateStr: '2026-11-28',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-05: Complete Class 11 + 12 NEET Paper 5 (Time Management & Pacing)',
@@ -3454,7 +3454,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-06',
     code: 'FULL-06',
-    dateStr: '2026-11-18',
+    dateStr: '2026-12-02',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-06: Complete Class 11 + 12 NEET Paper 6 (Negative-Mark Reduction Strategy)',
@@ -3475,7 +3475,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-07',
     code: 'FULL-07',
-    dateStr: '2026-11-22',
+    dateStr: '2026-12-06',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-07: Complete Class 11 + 12 NEET Paper 7 (Weak-Chapter Reinforcement)',
@@ -3496,7 +3496,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-08',
     code: 'FULL-08',
-    dateStr: '2026-11-26',
+    dateStr: '2026-12-10',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-08: Complete Class 11 + 12 NEET Paper 8 (Mixed Difficulty Simulation)',
@@ -3517,7 +3517,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-09',
     code: 'FULL-09',
-    dateStr: '2026-11-30',
+    dateStr: '2026-12-14',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-09: Complete Class 11 + 12 NEET Paper 9 (Rank Improvement Milestone)',
@@ -3538,7 +3538,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-10',
     code: 'FULL-10',
-    dateStr: '2026-12-04',
+    dateStr: '2026-12-18',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-10: Complete Class 11 + 12 NEET Paper 10 (Final Readiness Assessment)',
@@ -3563,7 +3563,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-01',
     code: 'NEET MOCK-01',
-    dateStr: '2026-12-10',
+    dateStr: '2026-12-24',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-01: All-India Examination Simulation 1',
@@ -3584,7 +3584,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-02',
     code: 'NEET MOCK-02',
-    dateStr: '2026-12-12',
+    dateStr: '2026-12-26',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-02: All-India Examination Simulation 2',
@@ -3605,7 +3605,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-03',
     code: 'NEET MOCK-03',
-    dateStr: '2026-12-14',
+    dateStr: '2026-12-28',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-03: All-India Examination Simulation 3',
@@ -3626,7 +3626,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-04',
     code: 'NEET MOCK-04',
-    dateStr: '2026-12-16',
+    dateStr: '2026-12-30',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-04: All-India Examination Simulation 4',
@@ -3647,7 +3647,7 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-05',
     code: 'NEET MOCK-05',
-    dateStr: '2026-12-18',
+    dateStr: '2027-01-01',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-05: All-India Final Grand Rehearsal 5',
@@ -3666,6 +3666,400 @@ export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
     totalMarks: 720
   }
 ];
+
+/**
+ * CLASS 12TH BATCH TRACK 2: PHYSICS & CHEMISTRY FULL-SYLLABUS SERIES (18 TESTS)
+ * 10 March to 30 April 2027: 18 Tests (PC-01 to PC-18), every 3 days, 100 questions (50 Phy + 50 Chem)
+ */
+export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
+  {
+    id: 'test-12th-pc-01',
+    code: 'PC-01',
+    dateStr: '2027-03-10',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-01: Physics & Chemistry Full Syllabus Test 1',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 1 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-02',
+    code: 'PC-02',
+    dateStr: '2027-03-13',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-02: Physics & Chemistry Full Syllabus Test 2',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 2 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-03',
+    code: 'PC-03',
+    dateStr: '2027-03-16',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-03: Physics & Chemistry Full Syllabus Test 3',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 3 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-04',
+    code: 'PC-04',
+    dateStr: '2027-03-19',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-04: Physics & Chemistry Full Syllabus Test 4',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 4 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-05',
+    code: 'PC-05',
+    dateStr: '2027-03-22',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-05: Physics & Chemistry Full Syllabus Test 5',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 5 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-06',
+    code: 'PC-06',
+    dateStr: '2027-03-25',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-06: Physics & Chemistry Full Syllabus Test 6',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 6 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-07',
+    code: 'PC-07',
+    dateStr: '2027-03-28',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-07: Physics & Chemistry Full Syllabus Test 7',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 7 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-08',
+    code: 'PC-08',
+    dateStr: '2027-03-31',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-08: Physics & Chemistry Full Syllabus Test 8',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 8 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-09',
+    code: 'PC-09',
+    dateStr: '2027-04-03',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-09: Physics & Chemistry Full Syllabus Test 9',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 9 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-10',
+    code: 'PC-10',
+    dateStr: '2027-04-06',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-10: Physics & Chemistry Full Syllabus Test 10',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 10 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-11',
+    code: 'PC-11',
+    dateStr: '2027-04-09',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-11: Physics & Chemistry Full Syllabus Test 11',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 11 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-12',
+    code: 'PC-12',
+    dateStr: '2027-04-12',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-12: Physics & Chemistry Full Syllabus Test 12',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 12 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-13',
+    code: 'PC-13',
+    dateStr: '2027-04-15',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-13: Physics & Chemistry Full Syllabus Test 13',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 13 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-14',
+    code: 'PC-14',
+    dateStr: '2027-04-18',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-14: Physics & Chemistry Full Syllabus Test 14',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 14 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-15',
+    code: 'PC-15',
+    dateStr: '2027-04-21',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-15: Physics & Chemistry Full Syllabus Test 15',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 15 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-16',
+    code: 'PC-16',
+    dateStr: '2027-04-24',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-16: Physics & Chemistry Full Syllabus Test 16',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 16 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-17',
+    code: 'PC-17',
+    dateStr: '2027-04-27',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-17: Physics & Chemistry Full Syllabus Test 17',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 17 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  },
+  {
+    id: 'test-12th-pc-18',
+    code: 'PC-18',
+    dateStr: '2027-04-30',
+    phase: 'Phase 4: Full Syllabus PC Series',
+    phaseGroup: 'full',
+    title: 'PC-18: Physics & Chemistry Full Syllabus Test 18',
+    description: 'Intensive Dual-Subject Full Syllabus Test: 50 Physics + 50 Chemistry Questions (100 Qs • 400 Marks • 120 Mins)',
+    objective: 'Dedicated Physics and Chemistry mastery test 18 of 18 covering 100% of both subject syllabi.',
+    physicsUnit: 'Complete NEET Physics Syllabus (20 Units)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (20 Units)',
+    botanyBlock: 'None (Physics & Chemistry Only)',
+    zoologyBlock: 'None (Physics & Chemistry Only)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: [],
+    zoologyKeywords: [],
+    totalQuestions: 100,
+    durationMinutes: 120,
+    totalMarks: 400
+  }
+];
+
+/**
+ * Combined Class 12 Tests (Track 1 Complete + Track 2 PC)
+ */
+export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
+  ...PLANNER_12TH_COMPLETE_TESTS,
+  ...PLANNER_12TH_PC_TESTS
+];
+
 
 /**
  * Official canonical NCERT Biology chapters split between Botany and Zoology
@@ -4102,7 +4496,7 @@ export function ensureAllSundayPapersGenerated(): void {
     ...SUNDAY_DROPPER_TRACK2_TESTS,
     ...SUNDAY_DROPPER_PC_TESTS
   ];
-  const totalExpectedTests = allDropperTests.length + PLANNER_12TH_TESTS.length + SUNDAY_11TH_PLANNER_TESTS.length;
+  const totalExpectedTests = allDropperTests.length + PLANNER_12TH_COMPLETE_TESTS.length + PLANNER_12TH_PC_TESTS.length + SUNDAY_11TH_PLANNER_TESTS.length;
   if (sundayBatchPaperCache.size >= totalExpectedTests) {
     return;
   }
@@ -4122,7 +4516,8 @@ export function ensureAllSundayPapersGenerated(): void {
     { batch: 'repeater', trackPrefix: 'track1_', tests: SUNDAY_DROPPER_TRACK1_TESTS },
     { batch: 'repeater', trackPrefix: 'track2_', tests: SUNDAY_DROPPER_TRACK2_TESTS },
     { batch: 'repeater', trackPrefix: 'pc_', tests: SUNDAY_DROPPER_PC_TESTS },
-    { batch: '12th', tests: PLANNER_12TH_TESTS },
+    { batch: '12th', trackPrefix: 'complete_', tests: PLANNER_12TH_COMPLETE_TESTS },
+    { batch: '12th', trackPrefix: 'pc_', tests: PLANNER_12TH_PC_TESTS },
     { batch: '11th', tests: SUNDAY_11TH_PLANNER_TESTS }
   ];
 
@@ -4211,10 +4606,12 @@ export function ensureAllSundayPapersGenerated(): void {
         sundayBatchPaperCache.set(trackPrefix + t.id, paper);
       }
 
-      // Plain codes:
-      sundayBatchPaperCache.set(t.code, paper);
-      sundayBatchPaperCache.set(cleanCode, paper);
-      sundayBatchPaperCache.set(t.id, paper);
+      // Plain codes: set for repeater or unique keys only
+      if (batch === 'repeater' || !sundayBatchPaperCache.has(cleanCode)) {
+        sundayBatchPaperCache.set(t.code, paper);
+        sundayBatchPaperCache.set(cleanCode, paper);
+        sundayBatchPaperCache.set(t.id, paper);
+      }
     }
   }
 }

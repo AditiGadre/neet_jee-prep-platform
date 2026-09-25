@@ -2168,6 +2168,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         </option>
                       ))}
                     </optgroup>
+                    <optgroup label="── Class 12 Batch: Track 2 Physics & Chemistry (PC-01 - 18) ──">
+                      {PLANNER_12TH_TESTS.filter(t => t.code.startsWith('PC-')).map(t => (
+                        <option key={`12TH-${t.code}`} value={`12TH-${t.code}`}>
+                          12th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
+                        </option>
+                      ))}
+                    </optgroup>
                   </select>
                 </div>
 
