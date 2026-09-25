@@ -16,6 +16,7 @@ import {
   RefreshCw,
   Copy,
   Check,
+  CheckCheck,
   FileText,
   FileJson,
   Calendar,
@@ -35,9 +36,9 @@ import {
 import {
   getCanonicalPaperCode,
   getOfficialBaseSundayPaper,
-  commitAuthoritativePaperToCloud,
-  SyncedSundayPaper
+  commitAuthoritativePaperToCloud
 } from '../services/authoritativeCloudService';
+import { SyncedSundayPaper } from '../utils/cloudSyncManager';
 import { supabase } from '../supabaseClient';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 

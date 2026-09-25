@@ -301,6 +301,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [isStudioLoadingPaper, setIsStudioLoadingPaper] = useState<boolean>(false);
   const [isSyncingAction, setIsSyncingAction] = useState<boolean>(false);
   const [paperRevision, setPaperRevision] = useState<number>(() => getLastSyncedRevision() || 0);
+  const [lastSyncedTime, setLastSyncedTime] = useState<string | null>(null);
   const [sundayQuestions, setSundayQuestions] = useState<Question[]>(() => {
     try {
       const savedPaper = getSavedCustomSundayPaper('CWT-01');
