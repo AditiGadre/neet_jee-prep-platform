@@ -44,6 +44,8 @@ import {
   SUNDAY_DROPPER_TRACK2_TESTS,
   SUNDAY_DROPPER_PC_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
+  SUNDAY_11TH_TRACK1_TESTS,
+  SUNDAY_11TH_TRACK2_TESTS,
   PLANNER_12TH_COMPLETE_TESTS,
   PLANNER_12TH_PC_TESTS,
   PLANNER_12TH_TESTS,
@@ -70,6 +72,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const [activeBatch, setActiveBatch] = useState<'repeater' | '12th' | '11th'>('repeater');
   const [repeaterTrack, setRepeaterTrack] = useState<'track1' | 'track2' | 'pc'>('track1');
   const [class12Track, setClass12Track] = useState<'complete' | 'pc'>('complete');
+  const [class11Track, setClass11Track] = useState<'track1' | 'track2'>('track1');
   const [activePhaseFilter, setActivePhaseFilter] = useState<'all' | 'cwt' | 'cumulative' | 'part' | 'full' | 'mock'>('all');
   const [showRevisionBuffer, setShowRevisionBuffer] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -221,9 +224,14 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     });
   }, [active12thTests, activePhaseFilter, searchQuery]);
 
-  // Class 11th Batch Sunday Tests (Full 20-Sunday Cycle from Planner PDF)
+  const active11thTests = useMemo(() => {
+    if (class11Track === 'track1') return SUNDAY_11TH_TRACK1_TESTS;
+    return SUNDAY_11TH_TRACK2_TESTS;
+  }, [class11Track]);
+
+  // Class 11th Batch Sunday Tests
   const filtered11thTests = useMemo(() => {
-    return SUNDAY_11TH_PLANNER_TESTS.filter(t => {
+    return active11thTests.filter(t => {
       // Phase Filter
       if (activePhaseFilter === 'cwt' && t.phaseGroup !== 'cwt') return false;
       if (activePhaseFilter === 'cumulative' && t.phaseGroup !== 'cumulative') return false;
@@ -244,7 +252,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       }
       return true;
     });
-  }, [activePhaseFilter, searchQuery]);
+  }, [active11thTests, activePhaseFilter, searchQuery]);
 
   const currentDisplayTests = activeBatch === 'repeater'
     ? filteredDropperTests
@@ -488,13 +496,21 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 ? class12Track === 'complete'
                   ? 'Class 12th Complete Syllabus Master Test Series (Starting 04 Oct 2026)'
                   : 'Class 12th Physics & Chemistry Full-Syllabus Series (10 Mar – 30 Apr 2027)'
-                : 'Class 11th Foundation Sunday All-India Test Series (Official 20-Sunday Cycle)'}
+                : class11Track === 'track1'
+                ? 'Class 11th 2026–27 Exam Planner: Track 1 (Chapterwise, Partwise & Full Syllabus • 20 Tests)'
+                : 'Class 11th Foundation Sunday Test Series: Track 2 (CWT & Cumulative • 20 Tests)'}
             </h1>
             <p className="mt-1 text-xs text-slate-600 max-w-3xl leading-relaxed">
               {activeBatch === '11th' ? (
-                <>
-                  Strictly aligned to official NMC/NTA NEET syllabus: <strong>Complete chapter-wise testing by the last week of February, followed by three complete Class 11 NEET syllabus tests</strong>. Chapter-wise tests (<strong>CWT-01 to CWT-12</strong>) scheduled every second Sunday, Cumulative tests (<strong>CUM-01 to CUM-05</strong>) placed after learning blocks, and Full Syllabus Tests (<strong>FST-01 to FST-03</strong>). <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
-                </>
+                class11Track === 'track1' ? (
+                  <>
+                    Starting <strong>04 October 2026</strong>: Official NEET (UG) Class 11 Exam Planner: <strong>11 Chapter-Wise Tests (CW-01 to CW-11)</strong> scheduled every 2nd Sunday through 21 Feb 2027 &rarr; <strong>6 Partwise Tests (PT-01 to PT-06)</strong> every 4 days covering complete Class 11 scope (01 Mar – 21 Mar 2027) &rarr; <strong>3 Full Syllabus Tests (FS-01 to FS-03)</strong> every 3 days through 30 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                  </>
+                ) : (
+                  <>
+                    Starting <strong>04 October 2026</strong>: <strong>12 Chapter-Wise Tests (CWT-01 to CWT-12)</strong> scheduled every second Sunday &rarr; <strong>5 Cumulative Checkpoints (CUM-01 to CUM-05)</strong> placed after learning blocks &rarr; <strong>3 Full Syllabus Tests (FST-01 to FST-03)</strong> through 28 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                  </>
+                )
               ) : activeBatch === '12th' ? (
                 class12Track === 'complete' ? (
                   <>
@@ -528,6 +544,48 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             </span>
           </div>
         </div>
+
+        {/* Track Switcher Segmented Control for Class 11th Batch */}
+        {activeBatch === '11th' && (
+          <div className="mt-4 p-2 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-2 items-center">
+            <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider px-1">
+              Select Track:
+            </span>
+            <button
+              onClick={() => {
+                setClass11Track('track1');
+                setActivePhaseFilter('all');
+              }}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
+                class11Track === 'track1'
+                  ? 'bg-blue-600 text-white shadow-sm'
+                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+              }`}
+            >
+              <span>Track 1: Chapterwise, Partwise &amp; Full Syllabus (20 Tests)</span>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class11Track === 'track1' ? 'bg-white/20 text-white' : 'bg-blue-100 text-blue-800'}`}>
+                Starts 04 Oct
+              </span>
+            </button>
+
+            <button
+              onClick={() => {
+                setClass11Track('track2');
+                setActivePhaseFilter('all');
+              }}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
+                class11Track === 'track2'
+                  ? 'bg-indigo-600 text-white shadow-sm'
+                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+              }`}
+            >
+              <span>Track 2: CWT &amp; Cumulative Master Planner (20 Tests)</span>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class11Track === 'track2' ? 'bg-white/20 text-white' : 'bg-indigo-100 text-indigo-800'}`}>
+                Starts 04 Oct
+              </span>
+            </button>
+          </div>
+        )}
 
         {/* Track Switcher Segmented Control for Class 12th Batch */}
         {activeBatch === '12th' && (
@@ -633,28 +691,53 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         {/* High Density Metric Cards */}
         <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
           {activeBatch === '11th' ? (
-            <>
-              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">12 Sunday Tests</div>
-              </div>
+            class11Track === 'track1' ? (
+              <>
+                <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Chapter-Wise</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">11 Tests (04 Oct - 21 Feb)</div>
+                </div>
 
-              <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 1: Cumulative</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">5 Sunday Tests</div>
-              </div>
+                <div className="p-3 rounded-xl bg-white border border-indigo-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-indigo-700 tracking-wider">Phase 2: Part-Wise</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">6 Tests (01 Mar - 21 Mar)</div>
+                </div>
 
-              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Final Phase: Full Syllabus</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">3 Sunday Tests</div>
-              </div>
+                <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 3: Full Syllabus</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">3 Tests (24 Mar - 30 Mar)</div>
+                </div>
 
-              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Total 11th Cycle</div>
-                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">20 Tests (3,600 Qs)</div>
-                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
-              </div>
-            </>
+                <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 1 Total Cycle</div>
+                  <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">20 Tests (3,600 Qs)</div>
+                  <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Chapter-Wise</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">12 Tests (04 Oct - 07 Mar)</div>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 1: Cumulative</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">5 Tests (08 Nov - 28 Feb)</div>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Final Phase: Full Syllabus</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">3 Tests (14 Mar - 28 Mar)</div>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 2 Total Cycle</div>
+                  <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">20 Tests (3,600 Qs)</div>
+                  <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
+                </div>
+              </>
+            )
           ) : activeBatch === '12th' ? (
             class12Track === 'complete' ? (
               <>
@@ -795,12 +878,19 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-3">
         <div className="flex flex-wrap items-center gap-1.5 overflow-x-auto pb-1 md:pb-0">
           {(activeBatch === '11th'
-            ? [
-                { id: 'all', label: `All (${SUNDAY_11TH_PLANNER_TESTS.length})` },
-                { id: 'cwt', label: 'Phase 1: CWT (12)' },
-                { id: 'cumulative', label: 'Phase 1: Cumulative (5)' },
-                { id: 'full', label: 'Final Phase: Full Syllabus (3)' }
-              ]
+            ? class11Track === 'track1'
+              ? [
+                  { id: 'all', label: `All (${SUNDAY_11TH_TRACK1_TESTS.length})` },
+                  { id: 'cwt', label: 'Phase 1: Chapter-Wise (11)' },
+                  { id: 'part', label: 'Phase 2: Part-Wise (6)' },
+                  { id: 'full', label: 'Phase 3: Full Syllabus (3)' }
+                ]
+              : [
+                  { id: 'all', label: `All (${SUNDAY_11TH_TRACK2_TESTS.length})` },
+                  { id: 'cwt', label: 'Phase 1: CWT (12)' },
+                  { id: 'cumulative', label: 'Phase 1: Cumulative (5)' },
+                  { id: 'full', label: 'Final Phase: Full Syllabus (3)' }
+                ]
             : activeBatch === '12th'
             ? class12Track === 'complete'
               ? [
@@ -966,9 +1056,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
                     {(() => {
                       const isMock = mock.code.startsWith('NEET MOCK');
-                      const isFull = mock.code.startsWith('FULL-') || mock.code.startsWith('FST-') || mock.phaseGroup === 'full';
+                      const isFull = mock.code.startsWith('FULL-') || mock.code.startsWith('FST-') || mock.code.startsWith('FS-') || mock.phaseGroup === 'full';
                       const isCum = mock.phaseGroup === 'cumulative' || mock.code.startsWith('CUM-');
-                      const isPart = mock.code.startsWith('PART');
+                      const isPart = mock.code.startsWith('PART') || mock.code.startsWith('PT-') || mock.phaseGroup === 'part';
                       
                       let badgeColorClass = 'text-blue-700 bg-blue-50 border-blue-200';
                       if (isMock) {

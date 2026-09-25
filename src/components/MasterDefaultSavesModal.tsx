@@ -34,6 +34,8 @@ import {
   SUNDAY_DROPPER_TRACK2_TESTS,
   SUNDAY_DROPPER_PC_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
+  SUNDAY_11TH_TRACK1_TESTS,
+  SUNDAY_11TH_TRACK2_TESTS,
   PLANNER_12TH_TESTS
 } from '../data/sundayPlannerTests';
 import {
@@ -263,7 +265,8 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
     SUNDAY_DROPPER_TRACK1_TESTS.forEach(t => set.add(t.code.toUpperCase()));
     SUNDAY_DROPPER_TRACK2_TESTS.forEach(t => set.add(t.code.toUpperCase()));
     SUNDAY_DROPPER_PC_TESTS.forEach(t => set.add(t.code.toUpperCase()));
-    SUNDAY_11TH_PLANNER_TESTS.forEach(t => set.add(`11TH-${t.code.toUpperCase()}`));
+    SUNDAY_11TH_TRACK1_TESTS.forEach(t => set.add(`11TH-${t.code.toUpperCase()}`));
+    SUNDAY_11TH_TRACK2_TESTS.forEach(t => set.add(`11TH-${t.code.toUpperCase()}`));
     PLANNER_12TH_TESTS.forEach(t => set.add(`12TH-${t.code.toUpperCase()}`));
     savedPaperKeys.forEach(k => set.add(k.toUpperCase()));
     return Array.from(set).sort();

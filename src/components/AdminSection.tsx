@@ -92,6 +92,8 @@ import {
   SUNDAY_DROPPER_TRACK2_TESTS,
   SUNDAY_DROPPER_PC_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
+  SUNDAY_11TH_TRACK1_TESTS,
+  SUNDAY_11TH_TRACK2_TESTS,
   PLANNER_12TH_TESTS,
   SundayPlannerTest,
   generateSundayTestQuestions,
@@ -591,7 +593,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       const is12th = presetKey.toLowerCase().startsWith('12th-');
       const cleanKey = presetKey.replace(/^(11th|12th)-/i, '').toLowerCase();
       const planner = is11th
-        ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey) || SUNDAY_11TH_PLANNER_TESTS[0])
+        ? (SUNDAY_11TH_TRACK1_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_11TH_TRACK2_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_11TH_PLANNER_TESTS[0])
         : is12th
         ? (PLANNER_12TH_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey) || PLANNER_12TH_TESTS[0])
         : (SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
@@ -675,7 +679,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const is12th = paperCode.toLowerCase().startsWith('12th-');
     const cleanCode = paperCode.replace(/^(11th|12th)-/i, '').toUpperCase();
     const planner = is11th
-      ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || SUNDAY_11TH_PLANNER_TESTS[0])
+      ? (SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_11TH_PLANNER_TESTS[0])
       : is12th
       ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || PLANNER_12TH_TESTS[0])
       : (SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
@@ -2126,22 +2132,43 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         </option>
                       ))}
                     </optgroup>
-                    <optgroup label="── Class 11 Foundation: Chapter-Wise Tests (CWT 01 - 12) ──">
-                      {SUNDAY_11TH_PLANNER_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
+                    <optgroup label="── Class 11 Track 1: Chapter-Wise Tests (CW-01 - 11) ──">
+                      {SUNDAY_11TH_TRACK1_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
                         <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
                           11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
-                    <optgroup label="── Class 11 Foundation: Cumulative Tests (CUM 01 - 05) ──">
-                      {SUNDAY_11TH_PLANNER_TESTS.filter(t => t.phaseGroup === 'cumulative').map(t => (
+                    <optgroup label="── Class 11 Track 1: Part-Wise Tests (PT-01 - 06) ──">
+                      {SUNDAY_11TH_TRACK1_TESTS.filter(t => t.phaseGroup === 'part').map(t => (
                         <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
                           11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
-                    <optgroup label="── Class 11 Foundation: Full Syllabus (FST 01 - 03) ──">
-                      {SUNDAY_11TH_PLANNER_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
+                    <optgroup label="── Class 11 Track 1: Full Syllabus (FS-01 - 03) ──">
+                      {SUNDAY_11TH_TRACK1_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
+                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                          11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="── Class 11 Track 2: CWT Tests (CWT 01 - 12) ──">
+                      {SUNDAY_11TH_TRACK2_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
+                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                          11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="── Class 11 Track 2: Cumulative Tests (CUM 01 - 05) ──">
+                      {SUNDAY_11TH_TRACK2_TESTS.filter(t => t.phaseGroup === 'cumulative').map(t => (
+                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                          11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="── Class 11 Track 2: Full Syllabus (FST 01 - 03) ──">
+                      {SUNDAY_11TH_TRACK2_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
                         <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
                           11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>

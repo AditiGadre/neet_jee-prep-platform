@@ -27,6 +27,8 @@ import {
   SUNDAY_DROPPER_TRACK2_TESTS,
   SUNDAY_DROPPER_PC_TESTS,
   SUNDAY_11TH_PLANNER_TESTS,
+  SUNDAY_11TH_TRACK1_TESTS,
+  SUNDAY_11TH_TRACK2_TESTS,
   PLANNER_12TH_TESTS,
   generateSundayTestQuestions,
   getSavedCustomSundayPaper
@@ -443,7 +445,9 @@ export function getOfficialBaseSundayPaper(paperCode: string): SyncedSundayPaper
   const pureCode = canonicalCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim().toUpperCase();
 
   const planner = is11th
-    ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) || SUNDAY_11TH_PLANNER_TESTS[0])
+    ? (SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
+       SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
+       SUNDAY_11TH_PLANNER_TESTS[0])
     : is12th
     ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) || PLANNER_12TH_TESTS[0])
     : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
