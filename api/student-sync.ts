@@ -175,34 +175,38 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       if (normalizedStudent.parentPhone) {
         const parentPhone = cleanPhoneNumber(normalizedStudent.parentPhone);
         if (parentPhone && parentPhone.length === 10 && parentPhone !== phone) {
-          await serverSupabase.from('questions').upsert({
-            id: `__STUDENT_PARENT__${parentPhone}`,
-            subject: '__SYSTEM_SYNC__',
-            chapter: 'STUDENT_ENROLLMENTS',
-            topic: parentPhone,
-            difficulty: 'Student',
-            question_text: payloadJson,
-            options: [normalizedStudent.studentName, lockedRollNumber, phone],
-            correct_answer: 0,
-            explanation: `Parent Index: ${parentPhone} -> Student: ${phone}`
-          }, { onConflict: 'id' }).catch(() => {});
+          try {
+            await serverSupabase.from('questions').upsert({
+              id: `__STUDENT_PARENT__${parentPhone}`,
+              subject: '__SYSTEM_SYNC__',
+              chapter: 'STUDENT_ENROLLMENTS',
+              topic: parentPhone,
+              difficulty: 'Student',
+              question_text: payloadJson,
+              options: [normalizedStudent.studentName, lockedRollNumber, phone],
+              correct_answer: 0,
+              explanation: `Parent Index: ${parentPhone} -> Student: ${phone}`
+            }, { onConflict: 'id' });
+          } catch {}
         }
       }
 
       // Index email if provided
       if (normalizedStudent.email && normalizedStudent.email.includes('@')) {
         const safeEmail = normalizedStudent.email.toLowerCase().trim().replace(/[^a-z0-9@._-]/gi, '');
-        await serverSupabase.from('questions').upsert({
-          id: `__STUDENT_EMAIL__${safeEmail}`,
-          subject: '__SYSTEM_SYNC__',
-          chapter: 'STUDENT_ENROLLMENTS_EMAIL',
-          topic: safeEmail,
-          difficulty: 'Student',
-          question_text: payloadJson,
-          options: [normalizedStudent.studentName, lockedRollNumber, phone],
-          correct_answer: 0,
-          explanation: `Student Email Index: ${safeEmail}`
-        }, { onConflict: 'id' }).catch(() => {});
+        try {
+          await serverSupabase.from('questions').upsert({
+            id: `__STUDENT_EMAIL__${safeEmail}`,
+            subject: '__SYSTEM_SYNC__',
+            chapter: 'STUDENT_ENROLLMENTS_EMAIL',
+            topic: safeEmail,
+            difficulty: 'Student',
+            question_text: payloadJson,
+            options: [normalizedStudent.studentName, lockedRollNumber, phone],
+            correct_answer: 0,
+            explanation: `Student Email Index: ${safeEmail}`
+          }, { onConflict: 'id' });
+        } catch {}
       }
 
       return res.status(200).json({
