@@ -55,8 +55,7 @@ import {
   Globe,
   ArrowUp,
   ArrowDown,
-  AlertTriangle,
-  Smartphone
+  AlertTriangle
 } from 'lucide-react';
 import {
   getUnifiedQuestionBank,
@@ -106,44 +105,17 @@ import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 import { DetailedSolutionViewer } from './DetailedSolutionViewer';
 import {
-  swapQuestions,
   swapSingleQuestionWithBank,
   saveQuestionEdit,
   swapTopics,
   fetchAuthoritativePaper,
   commitAuthoritativePaperToCloud,
-  subscribeToPaperRealtime,
   getLastSyncedTimestamp,
-  setLastSyncedTimestamp,
   getLastSyncedRevision,
-  setLastSyncedRevision,
-  getServerMaxRevision,
   getCanonicalPaperCode,
   getOfficialBaseSundayPaper,
   syncTopicAllocationsToCloud
 } from '../services/authoritativeCloudService';
-import {
-  AdminDeviceSession,
-  getActiveAdminSessions,
-  registerDeviceSession,
-  subscribeAdminSessionUpdates,
-  getOrCreateDeviceId,
-  onDeviceEvicted,
-  startSessionHeartbeat,
-  stopSessionHeartbeat
-} from '../services/adminSessionService';
-import {
-  initAdminRealtimeSync,
-  onAdminSyncEvent,
-  syncDebouncedQuestionReorder,
-  syncAtomicQuestionSwap,
-  syncEditQuestion,
-  syncChangeCorrectOption,
-  syncUpdateMarkingRules,
-  syncAddQuestion,
-  syncDeleteQuestion
-} from '../services/adminSyncService';
-import { AdminMultiDeviceModal } from './AdminMultiDeviceModal';
 
 interface AdminSectionProps {
   onClose?: () => void;
@@ -354,135 +326,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     explanation: string;
   } | null>(null);
 
-  // Multi-Device & Realtime Optimistic Sync State
-  const [activeSessions, setActiveSessions] = useState<AdminDeviceSession[]>([]);
-  const [showDevicesModal, setShowDevicesModal] = useState<boolean>(false);
-  const currentDeviceId = useMemo(() => getOrCreateDeviceId(), []);
-  const [isDebouncingReorder, setIsDebouncingReorder] = useState<boolean>(false);
   const [testMarks, setTestMarks] = useState<number>(4);
   const [testNegativeMarks, setTestNegativeMarks] = useState<number>(1);
-
-  const paperRevisionRef = useRef(paperRevision);
-  paperRevisionRef.current = paperRevision;
-  const editingQuestionIdxRef = useRef(editingQuestionIdx);
-  editingQuestionIdxRef.current = editingQuestionIdx;
 
   // Synchronize Sunday Studio paper & question bank from Supabase Cloud directly
   useEffect(() => {
     let isMounted = true;
     setIsStudioLoadingPaper(true);
-
-    // 1. Immediately register current device session (guarantees multi-device sync detects this device)
-    registerDeviceSession('admin', false)
-      .then(reg => {
-        if (!isMounted) return;
-        setActiveSessions(reg.activeSessions);
-        if (reg.status === 'device_limit_exceeded') {
-          setShowDevicesModal(true);
-        }
-      })
-      .catch(() => {
-        getActiveAdminSessions('admin').then(sessions => {
-          if (isMounted) setActiveSessions(sessions);
-        });
-      });
-
-    startSessionHeartbeat('admin');
-
-    // Subscribe to live multi-device session updates across all open tabs/PCs (<50ms)
-    const unsubSessionUpdates = subscribeAdminSessionUpdates('admin', (sessions) => {
-      if (isMounted) {
-        setActiveSessions(sessions);
-      }
-    });
-
-    // Fallback 3s polling to keep multi-device session list ultra-fresh
-    const sessionPollTimer = setInterval(() => {
-      if (!isMounted) return;
-      getActiveAdminSessions('admin').then(sessions => {
-        if (isMounted) setActiveSessions(sessions);
-      });
-    }, 3000);
-
-    // 2. Handle remote eviction if this device is logged out from another device
-    onDeviceEvicted(() => {
-      setActionErrorBanner('⚠️ Session Terminated: Your admin session was disconnected from another device (3-device limit).');
-      if (onClose) {
-        setTimeout(onClose, 2500);
-      }
-    });
-
-    // 3. Initialize Realtime Admin Sync channel
-    const unsubSync = initAdminRealtimeSync(currentDeviceId);
-
-    // 4. Handle incoming Realtime events from other devices
-    const unsubEvents = onAdminSyncEvent((event) => {
-      if (!isMounted) return;
-      if (event.type === 'test_set_updated') {
-        const payload = event.payload;
-        if (payload.action === 'reorder' && Array.isArray(payload.newQuestionIds)) {
-          setSundayQuestions(prev => {
-            if (!Array.isArray(prev)) return prev;
-            const map = new Map<string, Question>(prev.map(q => [q.id, q]));
-            const reordered: Question[] = [];
-            payload.newQuestionIds.forEach((id: string) => {
-              const q = map.get(id);
-              if (q) reordered.push(q);
-            });
-            prev.forEach(q => {
-              if (!reordered.find(r => r.id === q.id)) reordered.push(q);
-            });
-            return reordered;
-          });
-          setActionSuccessBanner(`⚡ Live Sync: Question order reordered across devices!`);
-          setTimeout(() => setActionSuccessBanner(null), 3000);
-        } else if (payload.action === 'swap' && payload.newQuestion) {
-          setSundayQuestions(prev => Array.isArray(prev) ? prev.map(q => q.id === payload.oldQuestionId ? payload.newQuestion : q) : prev);
-          setActionSuccessBanner(`⚡ Live Sync: Question swapped across devices!`);
-          setTimeout(() => setActionSuccessBanner(null), 3000);
-        } else if (payload.action === 'revert_to_default' || payload.action === 'paper_updated') {
-          const incomingCode = getCanonicalPaperCode(payload.paperCode || payload.testSetId);
-          if (incomingCode === getCanonicalPaperCode(selectedPlannerPreset)) {
-            fetchAuthoritativePaper(selectedPlannerPreset, true).then(cloudPaper => {
-              if (cloudPaper && Array.isArray(cloudPaper.questions) && cloudPaper.questions.length === 180) {
-                setSundayQuestions(cloudPaper.questions);
-                setPaperRevision(cloudPaper.revision || payload.revision || 1);
-                setLastSyncedTime(cloudPaper.updatedAt || payload.updated_at || new Date().toISOString());
-                saveCustomSundayPaper(selectedPlannerPreset, cloudPaper);
-                setActionSuccessBanner(payload.action === 'revert_to_default'
-                  ? `⚡ Live Sync: Base template updated across all admin devices!`
-                  : `⚡ Live Sync: Master paper (rev ${cloudPaper.revision || payload.revision || 1}) updated across all admin devices!`
-                );
-                setTimeout(() => setActionSuccessBanner(null), 3500);
-              }
-            }).catch(err => {
-              console.warn('[SYNC] Notice pulling live updated paper:', err);
-            });
-          }
-        }
-      } else if (event.type === 'question_updated') {
-        const payload = event.payload;
-        setSundayQuestions(prev => Array.isArray(prev) ? prev.map(q => {
-          if (q.id === payload.id) {
-            return {
-              ...q,
-              ...payload,
-              questionText: payload.question_text || payload.questionText || q.questionText,
-              correctAnswer: payload.correct_option ?? payload.correctAnswer ?? q.correctAnswer
-            };
-          }
-          return q;
-        }) : prev);
-        setActionSuccessBanner(`⚡ Live Sync: Question updated across devices!`);
-        setTimeout(() => setActionSuccessBanner(null), 3000);
-      } else if (event.type === 'marking_rules_updated') {
-        const payload = event.payload;
-        if (payload.marks !== undefined) setTestMarks(payload.marks);
-        if (payload.negativeMarks !== undefined) setTestNegativeMarks(payload.negativeMarks);
-        setActionSuccessBanner(`⚡ Live Sync: Marking rules updated (+${payload.marks}, -${payload.negativeMarks})!`);
-        setTimeout(() => setActionSuccessBanner(null), 3000);
-      }
-    });
 
     fetchAuthoritativePaper(selectedPlannerPreset, true)
       .then(paper => {
@@ -507,21 +357,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     fetchCustomQuestionsFromCloud().catch(() => {});
 
-    // Live Realtime Subscription to Supabase Channel
-    const unsubscribeRealtime = subscribeToPaperRealtime(selectedPlannerPreset, (incomingPaper) => {
-      if (!isMounted) return;
-      setSundayQuestions(incomingPaper.questions);
-      setLastSyncedTime(incomingPaper.updatedAt);
-      setPaperRevision(incomingPaper.revision || 1);
-      if (incomingPaper.customChapters) {
-        if (incomingPaper.customChapters.physics?.length) setSundayPhyUnits(incomingPaper.customChapters.physics);
-        if (incomingPaper.customChapters.chemistry?.length) setSundayChemUnits(incomingPaper.customChapters.chemistry);
-        if (incomingPaper.customChapters.biology?.length) setSundayBioUnits(incomingPaper.customChapters.biology);
-      }
-      setActionSuccessBanner(`⚡ Master Default paper ${incomingPaper.paperCode} updated live (rev ${incomingPaper.revision || 1})!`);
-      setTimeout(() => setActionSuccessBanner(null), 3500);
-    });
-
     const handleSundayPaperSynced = (e: any) => {
       if (!isMounted) return;
       const code = e.detail?.paperCode?.toUpperCase();
@@ -541,83 +376,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       }
     };
 
-    // Self-healing tab focus / visibility listener: auto-pulls if server revision advanced
-    const handleWindowFocus = async () => {
-      if (typeof document !== 'undefined' && document.visibilityState === 'visible') {
-        try {
-          const canonical = getCanonicalPaperCode(selectedPlannerPreset);
-          const serverRev = await getServerMaxRevision(canonical);
-          if (serverRev > paperRevisionRef.current && editingQuestionIdxRef.current === null) {
-            console.log(`[SYNC-DEBUG] Focus sync check: server rev ${serverRev} > local rev ${paperRevisionRef.current}. Pulling fresh paper...`);
-            const latest = await fetchAuthoritativePaper(selectedPlannerPreset, true);
-            if (isMounted && latest && Array.isArray(latest.questions) && latest.questions.length === 180 && (latest.revision || 0) >= serverRev) {
-              setSundayQuestions(latest.questions);
-              setLastSyncedTime(latest.updatedAt);
-              setPaperRevision(latest.revision || serverRev);
-              if (latest.customChapters) {
-                if (latest.customChapters.physics?.length) setSundayPhyUnits(latest.customChapters.physics);
-                if (latest.customChapters.chemistry?.length) setSundayChemUnits(latest.customChapters.chemistry);
-                if (latest.customChapters.biology?.length) setSundayBioUnits(latest.customChapters.biology);
-              }
-              setActionSuccessBanner(`⚡ Master Default paper ${selectedPlannerPreset.toUpperCase()} auto-updated to rev ${serverRev} from cloud!`);
-              setTimeout(() => setActionSuccessBanner(null), 3000);
-            }
-          }
-        } catch (e) {
-          console.warn('Focus sync check notice:', e);
-        }
-
-        try {
-          getActiveAdminSessions('admin').then(sessions => {
-            if (isMounted) setActiveSessions(sessions);
-          });
-          broadcastSessionUpdate('admin');
-        } catch {}
-      }
-    };
-
-    // 3-second active sync heartbeat for instant multi-device reflection
-    const heartbeatInterval = setInterval(async () => {
-      if (!isMounted || isStudioLoadingPaper || isSyncingAction || editingQuestionIdxRef.current !== null) return;
-      try {
-        const canonical = getCanonicalPaperCode(selectedPlannerPreset);
-        const serverRev = await getServerMaxRevision(canonical);
-        if (serverRev > paperRevisionRef.current) {
-          console.log(`[SYNC-DEBUG] Heartbeat sync: server rev ${serverRev} > local rev ${paperRevisionRef.current}. Pulling latest paper...`);
-          const latest = await fetchAuthoritativePaper(selectedPlannerPreset, true);
-          if (isMounted && latest && Array.isArray(latest.questions) && latest.questions.length === 180 && (latest.revision || 0) >= serverRev) {
-            setSundayQuestions(latest.questions);
-            setLastSyncedTime(latest.updatedAt);
-            setPaperRevision(latest.revision || serverRev);
-            if (latest.customChapters) {
-              if (latest.customChapters.physics?.length) setSundayPhyUnits(latest.customChapters.physics);
-              if (latest.customChapters.chemistry?.length) setSundayChemUnits(latest.customChapters.chemistry);
-              if (latest.customChapters.biology?.length) setSundayBioUnits(latest.customChapters.biology);
-            }
-            setActionSuccessBanner(`⚡ Live Sync: Master Default ${selectedPlannerPreset.toUpperCase()} updated to rev ${serverRev} across devices!`);
-            setTimeout(() => setActionSuccessBanner(null), 3000);
-          }
-        }
-      } catch (e) {
-        // silent heartbeat
-      }
-    }, 5000);
-
     window.addEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
-    window.addEventListener('focus', handleWindowFocus);
-    window.addEventListener('visibilitychange', handleWindowFocus);
 
     return () => {
       isMounted = false;
-      unsubscribeRealtime();
-      if (unsubSync) unsubSync();
-      if (unsubEvents) unsubEvents();
-      if (unsubSessionUpdates) unsubSessionUpdates();
-      clearInterval(heartbeatInterval);
-      clearInterval(sessionPollTimer);
       window.removeEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
-      window.removeEventListener('focus', handleWindowFocus);
-      window.removeEventListener('visibilitychange', handleWindowFocus);
     };
   }, [selectedPlannerPreset]);
 
@@ -1111,32 +874,27 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const handleSwapQuestionOrder = (indexA: number, indexB: number) => {
     if (indexA < 0 || indexA >= sundayQuestions.length || indexB < 0 || indexB >= sundayQuestions.length) return;
 
-    const backupQuestions = [...sundayQuestions];
     const optimistic = [...sundayQuestions];
     const temp = optimistic[indexA];
     optimistic[indexA] = optimistic[indexB];
     optimistic[indexB] = temp;
 
-    // 1. INSTANT optimistic visual feedback (0ms latency, never hung)
     setSundayQuestions(optimistic);
-    setIsDebouncingReorder(true);
 
-    const newQuestionIds = optimistic.map(q => q.id);
-
-    // 2. Debounced batch commit to Supabase (~400ms) - UI never waits
-    syncDebouncedQuestionReorder(
-      selectedPlannerPreset,
-      newQuestionIds,
-      currentDeviceId,
-      'Institutional Master Admin',
-      () => {
-        setIsDebouncingReorder(false);
+    const paperToSave = {
+      paperCode: selectedPlannerPreset,
+      revision: paperRevision,
+      questions: optimistic,
+      customChapters: {
+        physics: sundayPhyUnits,
+        chemistry: sundayChemUnits,
+        biology: sundayBioUnits
       },
-      (error) => {
-        setIsDebouncingReorder(false);
-        console.warn('syncDebouncedQuestionReorder notice:', error);
-      }
-    );
+      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      publishedBy: 'Institutional Master Admin',
+      updatedAt: new Date().toISOString()
+    };
+    saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
   };
 
   const handleUpdateAllocationChapter = (id: string, newChapter: string) => {
@@ -1372,26 +1130,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     };
 
     try {
-      // 2. Atomic swap via single transaction (never delete-then-insert)
-      const atomicPromise = syncAtomicQuestionSwap(
-        selectedPlannerPreset,
-        currentQ.id,
-        newQ,
-        currentDeviceId,
-        sundayQuestions
-      ).catch((err: any) => {
-        console.warn('syncAtomicQuestionSwap notice:', err);
-        return { success: true };
-      });
-
-      const paperPromise = swapSingleQuestionWithBank(
+      const result = await swapSingleQuestionWithBank(
         selectedPlannerPreset,
         questionIdx,
         targetChapterOverride,
         currentPaper
       );
-
-      const [, result] = await Promise.all([atomicPromise, paperPromise]);
 
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
@@ -1400,7 +1144,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         if (result.isQueued) {
           setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped locally! Cloud sync queued.`);
         } else {
-          setActionSuccessBanner(`✓ Question #${questionIdx + 1} atomically swapped & synced live (rev ${result.revision || paperRevision + 1})!`);
+          setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped & saved (rev ${result.revision || paperRevision + 1})!`);
         }
         setTimeout(() => setActionSuccessBanner(null), 3500);
       } else {
@@ -1462,32 +1206,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       updatedAt: new Date().toISOString()
     };
 
-    // 2. Background Sync
     try {
-      const syncQPromise = syncEditQuestion({
-        id: targetQ.id,
-        subject: targetQ.subject,
-        chapter: targetQ.chapter,
-        difficulty: targetQ.difficulty || 'Medium',
-        question_text: formSnapshot.questionText,
-        options: formSnapshot.options,
-        correct_option: formSnapshot.correctAnswer,
-        marks: testMarks,
-        negative_marks: testNegativeMarks,
-        explanation: formSnapshot.explanation
-      }, currentDeviceId).catch((err: any) => {
-        console.warn('syncEditQuestion notice:', err);
-        return { success: true };
-      });
-
-      const paperPromise = saveQuestionEdit(
+      const result = await saveQuestionEdit(
         selectedPlannerPreset,
         idx,
         formSnapshot,
         currentPaper
       );
-
-      const [, result] = await Promise.all([syncQPromise, paperPromise]);
 
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
@@ -1496,7 +1221,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         if (result.isQueued) {
           setActionSuccessBanner(`✓ Question #${idx + 1} saved locally! Cloud sync queued in background.`);
         } else {
-          setActionSuccessBanner(`✓ Question #${idx + 1} updated & synced across all admin devices (rev ${result.revision || paperRevision + 1})!`);
+          setActionSuccessBanner(`✓ Question #${idx + 1} updated successfully (rev ${result.revision || paperRevision + 1})!`);
         }
         setTimeout(() => setActionSuccessBanner(null), 3500);
       } else {
@@ -1509,35 +1234,38 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
   };
 
-  const handleQuickChangeCorrectOption = async (idx: number, optIdx: number) => {
+  const handleQuickChangeCorrectOption = (idx: number, optIdx: number) => {
     const targetQ = sundayQuestions[idx];
     if (!targetQ || targetQ.correctAnswer === optIdx) return;
-    const backupQuestions = [...sundayQuestions];
 
     // Optimistic UI update
     const optimistic = [...sundayQuestions];
     optimistic[idx] = { ...targetQ, correctAnswer: optIdx };
     setSundayQuestions(optimistic);
+
+    const paperToSave = {
+      paperCode: selectedPlannerPreset,
+      revision: paperRevision,
+      questions: optimistic,
+      customChapters: {
+        physics: sundayPhyUnits,
+        chemistry: sundayChemUnits,
+        biology: sundayBioUnits
+      },
+      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      publishedBy: 'Institutional Master Admin',
+      updatedAt: new Date().toISOString()
+    };
+    saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
     setActionSuccessBanner(`✓ Option ${String.fromCharCode(65 + optIdx)} set as key for Q#${idx + 1}`);
     setTimeout(() => setActionSuccessBanner(null), 2500);
-
-    const res = await syncChangeCorrectOption(targetQ.id, optIdx, currentDeviceId);
-    if (!res.success) {
-      console.warn('syncChangeCorrectOption notice:', res.error);
-    }
   };
 
-  const handleUpdateMarking = async (marks: number, negMarks: number) => {
+  const handleUpdateMarking = (marks: number, negMarks: number) => {
     setTestMarks(marks);
     setTestNegativeMarks(negMarks);
     setActionSuccessBanner(`✓ Marking rules set to +${marks} / -${negMarks}!`);
     setTimeout(() => setActionSuccessBanner(null), 2500);
-
-    await syncUpdateMarkingRules({
-      testSetId: selectedPlannerPreset,
-      marks,
-      negativeMarks: negMarks
-    }, currentDeviceId);
   };
 
   const handlePublishSundayPaper = () => {
@@ -1871,19 +1599,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               )}
             </div>
 
-            {/* Multi-Device Sync Indicator (Capped at 3 Devices) */}
-            <button
-              onClick={() => {
-                getActiveAdminSessions('admin').then(setActiveSessions);
-                setShowDevicesModal(true);
-              }}
-              className="px-3.5 py-2.5 rounded-xl text-xs font-bold font-mono transition flex items-center space-x-2 cursor-pointer bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shadow-md"
-              title="Manage Active Admin Devices (Max 3 Devices Capped)"
-            >
-              <Smartphone className="w-4 h-4 text-indigo-400" />
-              <span>{activeSessions.length || 1}/3 Devices</span>
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            </button>
+
 
             <button
               onClick={handleToggleAdminTestAccess}
@@ -4396,19 +4112,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         </div>
       )}
 
-      {/* Admin Multi-Device Session Modal */}
-      {showDevicesModal && (
-        <AdminMultiDeviceModal
-          isOpen={true}
-          sessions={activeSessions}
-          currentDeviceId={currentDeviceId}
-          adminId="admin"
-          onClose={() => setShowDevicesModal(false)}
-          onDeviceEvicted={(evictedId) => {
-            setActiveSessions(prev => prev.filter(s => s.device_id !== evictedId));
-          }}
-        />
-      )}
     </div>
   );
 };
