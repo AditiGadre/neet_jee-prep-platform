@@ -1431,7 +1431,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 {!isAdminAccessGranted && !accessRequestSent && (
                   <button
                     onClick={handleSendAccessRequest}
-                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-orange-600 to-indigo-600 hover:from-orange-700 hover:to-indigo-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
+                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-orange-600 to-indigo-600 hover:from-orange-700 hover:to-indigo-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   >
                     <Send className="w-4 h-4" />
                     <span>Send Access Request to Administrator</span>

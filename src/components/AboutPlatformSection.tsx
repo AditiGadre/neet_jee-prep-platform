@@ -47,7 +47,7 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
               <button
                 type="button"
                 onClick={onNavigateToTestSeries}
-                className="px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition flex items-center space-x-2 shadow-md cursor-pointer active:scale-95"
+                className="px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition flex items-center space-x-2 shadow-md cursor-pointer active:scale-95 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
               >
                 <span>Explore Sunday Mock Series</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -220,7 +220,7 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
           <button
             type="button"
             onClick={onNavigateToTestSeries}
-            className="px-4 py-2 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer active:scale-95 shrink-0"
+            className="px-4 py-2 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer active:scale-95 shrink-0 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
           >
             <span>Start Practice Now</span>
             <ArrowRight className="w-3.5 h-3.5" />

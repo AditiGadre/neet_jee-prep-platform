@@ -618,7 +618,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2.5">
-              <div className="w-9 h-9 bg-white/20 backdrop-blur-md rounded-xl flex items-center justify-center font-black text-base border border-white/30 shadow-inner">
+              <div className="w-9 h-9 bg-white/20 backdrop-blur-md rounded-xl flex items-center justify-center font-black text-base border border-white/30 shadow-inner transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
                 nc
               </div>
               <div>
@@ -645,7 +645,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                 <button
                   type="button"
                   onClick={onClose}
-                  className="w-8 h-8 rounded-xl bg-white/20 hover:bg-white/30 flex items-center justify-center text-white font-bold text-sm transition cursor-pointer"
+                  className="w-8 h-8 rounded-xl bg-white/20 hover:bg-white/30 flex items-center justify-center text-white font-bold text-sm transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   title="Explore as Guest Candidate"
                 >
                   ✕
@@ -1070,7 +1070,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                 <label className="block text-xs font-bold text-slate-700 mb-1">
                   Gender <span className="text-rose-500">*</span>
                 </label>
-                <div className="grid grid-cols-3 gap-1 bg-slate-50 p-1 border border-slate-200 rounded-xl">
+                <div className="grid grid-cols-3 gap-1 bg-slate-50 p-1 border border-slate-200 rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
                   {(['Female', 'Male', 'Third Gender'] as const).map(g => (
                     <button
                       key={g}
@@ -1286,7 +1286,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-orange-600 via-indigo-600 to-cyan-600 hover:from-orange-700 hover:to-cyan-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50"
+                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-orange-600 via-indigo-600 to-cyan-600 hover:from-orange-700 hover:to-cyan-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
               >
                 <Lock className="w-4 h-4" />
                 <span>{isSubmitting ? 'Verifying 2-Device Concurrency & DOB...' : 'Submit Enrollment & Enter NeetCbt Exam Test'}</span>
@@ -1298,7 +1298,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                   <button
                     type="button"
                     onClick={onClose}
-                    className="text-xs font-semibold text-slate-500 hover:text-slate-800 transition cursor-pointer"
+                    className="text-xs font-semibold text-slate-500 hover:text-slate-800 transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   >
                     Close Enrollment Form ✕
                   </button>
