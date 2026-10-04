@@ -1100,9 +1100,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         <div className="grid grid-cols-1 gap-3.5">
           {currentDisplayTests.map((mock: SundayPlannerTest) => {
-            const isLive = isSundayToday;
-            
-            const paperLookupKey = plannerTest.id;
+              const isLive = isSundayToday;
+              const paperLookupKey = mock.id;
             const customPaper = localCustomPapers[paperLookupKey] || localCustomPapers[mock.code] || localCustomPapers[paperLookupKey.toLowerCase()] || localCustomPapers[mock.code.toLowerCase()];
             
             const displayTitle = customPaper?.testTitle ? `${mock.code}: ${customPaper.testTitle}` : mock.title;
