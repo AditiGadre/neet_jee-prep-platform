@@ -440,8 +440,8 @@ export async function commitAuthoritativePaperToCloud(
  */
 export function getOfficialBaseSundayPaper(paperCode: string): SyncedSundayPaper {
   const canonicalCode = getCanonicalPaperCode(paperCode);
-  const is11th = canonicalCode.startsWith('11TH-');
-  const is12th = canonicalCode.startsWith('12TH-');
+  const is11th = canonicalCode.includes('11TH');
+  const is12th = canonicalCode.includes('12TH');
   const pureCode = canonicalCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim().toUpperCase();
 
   const planner = is11th

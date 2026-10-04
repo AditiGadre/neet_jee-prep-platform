@@ -306,7 +306,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     `[Botany] ${OFFICIAL_BOTANY_BLOCKS[0]}`,
     `[Zoology] ${OFFICIAL_ZOOLOGY_BLOCKS[0]}`
   ]);
-  const [selectedPlannerPreset, setSelectedPlannerPreset] = useState<string>('CW-01');
+  const [selectedPlannerPreset, setSelectedPlannerPreset] = useState<string>('test-dropper-cw-01');
   const [isStudioLoadingPaper, setIsStudioLoadingPaper] = useState<boolean>(false);
   const [isSyncingAction, setIsSyncingAction] = useState<boolean>(false);
   const [paperRevision, setPaperRevision] = useState<number>(() => getLastSyncedRevision() || 0);
