@@ -30,7 +30,7 @@ export const COMMUNICATION_AIIMS_AR_QUESTIONS: Question[] = [
     "chapter": "Communication Systems",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Television signals are received through sky-wave propagation.\nReason: The ionosphere reflects electromagnetic waves of frequencies greater than a certain critical frequency. [AIIMS 2005]",
+    "questionText": "Assertion: Television signals are received through orange-wave propagation.\nReason: The ionosphere reflects electromagnetic waves of frequencies greater than a certain critical frequency. [AIIMS 2005]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -620,7 +620,7 @@ export const ALL_COMMUNICATION_ADVANCED_QUESTIONS: Question[] = [
     "chapter": "Communication Systems",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Television signals are received through sky-wave propagation.\nReason: The ionosphere reflects electromagnetic waves of frequencies greater than a certain critical frequency. [AIIMS 2005]",
+    "questionText": "Assertion: Television signals are received through orange-wave propagation.\nReason: The ionosphere reflects electromagnetic waves of frequencies greater than a certain critical frequency. [AIIMS 2005]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",

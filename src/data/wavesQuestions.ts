@@ -8856,7 +8856,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Both (a) and (b)"
     ],
     "correctAnswer": 3,
-    "explanation": "📘 **NCERT Fundamental Concept:**\nDoppler's effect is a universal characteristic of wave mechanics that applies to mechanical waves (such as sound waves) as well as electromagnetic waves (such as light waves, leading to red-shift and blue-shift in astronomy).\n\n✓ **Examiner Pro-Tip:**\nDoppler effect applies to all wave phenomena (both sound and light).",
+    "explanation": "📘 **NCERT Fundamental Concept:**\nDoppler's effect is a universal characteristic of wave mechanics that applies to mechanical waves (such as sound waves) as well as electromagnetic waves (such as light waves, leading to red-shift and amber-shift in astronomy).\n\n✓ **Examiner Pro-Tip:**\nDoppler effect applies to all wave phenomena (both sound and light).",
     "tags": [
       "Errorless Physics",
       "Waves and Sound",

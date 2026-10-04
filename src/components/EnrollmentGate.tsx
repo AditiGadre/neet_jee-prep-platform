@@ -610,10 +610,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-900/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
-      <div className="bg-white border border-slate-200 rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 my-auto">
+    <div className="fixed inset-0 z-50 bg-stone-900/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
+      <div className="bg-white border border-stone-200 rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 my-auto">
         {/* Top Header Banner */}
-        <div className="bg-gradient-to-r from-orange-700 via-indigo-700 to-cyan-700 p-5 sm:p-6 text-white relative overflow-hidden">
+        <div className="bg-gradient-to-r from-orange-700 via-rose-700 to-teal-700 p-5 sm:p-6 text-white relative overflow-hidden">
           <div className="absolute top-0 right-0 -mt-8 -mr-8 w-40 h-40 bg-white/10 rounded-full blur-2xl pointer-events-none" />
 
           <div className="flex items-center justify-between">
@@ -624,9 +624,9 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
               <div>
                 <div className="flex items-center space-x-2">
                   <span className="font-extrabold text-lg tracking-tight text-white">
-                    NeetCbt<span className="text-cyan-300"> Exam Test</span>
+                    NeetCbt<span className="text-teal-300"> Exam Test</span>
                   </span>
-                  <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-400 text-slate-900 shadow-xs">
+                  <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-400 text-stone-900 shadow-xs">
                     Candidate Portal
                   </span>
                 </div>
@@ -656,7 +656,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
           <div className="mt-4 pt-3 border-t border-white/20">
             <h2 className="text-base sm:text-lg font-bold text-white flex items-center gap-1.5">
-              <GraduationCap className="w-5 h-5 text-cyan-300" /> Student Verification & Security Enrollment
+              <GraduationCap className="w-5 h-5 text-teal-300" /> Student Verification & Security Enrollment
             </h2>
             <p className="text-xs text-orange-100 mt-0.5">
               Complete your profile. Your <strong>Date of Birth (DOB)</strong> will serve as the encryption password for all downloaded Test Papers & Scorecard PDFs.
@@ -689,7 +689,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                 if (onClose) onClose();
                 onOpenAdmin();
               }}
-              className="px-3 py-1 bg-slate-900 hover:bg-slate-800 text-amber-300 text-xs font-bold rounded-lg border border-slate-700 shadow-xs transition cursor-pointer flex items-center space-x-1.5"
+              className="px-3 py-1 bg-stone-900 hover:bg-stone-800 text-amber-300 text-xs font-bold rounded-lg border border-stone-700 shadow-xs transition cursor-pointer flex items-center space-x-1.5"
             >
               <KeyRound className="w-3.5 h-3.5 text-amber-400" />
               <span>Institution Admin Portal →</span>
@@ -714,13 +714,13 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
               {deviceLimitError.devices.map((dev, i) => (
                 <div
                   key={dev.deviceId}
-                  className="p-3.5 rounded-xl border border-slate-200 bg-white flex items-center justify-between shadow-xs"
+                  className="p-3.5 rounded-xl border border-stone-200 bg-white flex items-center justify-between shadow-xs"
                 >
                   <div className="flex items-center space-x-3">
-                    <Laptop className="w-5 h-5 text-slate-500" />
+                    <Laptop className="w-5 h-5 text-stone-500" />
                     <div>
-                      <div className="text-xs font-bold text-slate-900">{dev.deviceName}</div>
-                      <div className="text-[10px] text-slate-500 font-mono">
+                      <div className="text-xs font-bold text-stone-900">{dev.deviceName}</div>
+                      <div className="text-[10px] text-stone-500 font-mono">
                         Last Active: {new Date(dev.lastActive).toLocaleDateString()}
                       </div>
                     </div>
@@ -742,15 +742,15 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
           <form onSubmit={handleSubmit} className="p-5 sm:p-6 space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {/* Photo Upload Section */}
-              <div className="sm:col-span-2 p-3.5 sm:p-6 rounded-2xl bg-gradient-to-r from-orange-50 to-indigo-50/50 border border-orange-100 flex flex-col sm:flex-row items-center gap-4">
+              <div className="sm:col-span-2 p-3.5 sm:p-6 rounded-2xl bg-gradient-to-r from-orange-50 to-rose-50/50 border border-orange-100 flex flex-col sm:flex-row items-center gap-4">
                 <div className="relative group shrink-0">
                   <div className="w-20 h-20 rounded-2xl border-2 border-dashed border-orange-400 overflow-hidden bg-white shadow-xs flex items-center justify-center">
                     {studentPhoto ? (
                       <img src={studentPhoto} alt="Student Photo" className="w-full h-full object-cover" />
                     ) : (
-                      <div className="text-center p-3 text-slate-400">
+                      <div className="text-center p-3 text-stone-400">
                         <Camera className="w-6 h-6 mx-auto text-orange-500 mb-1" />
-                        <span className="text-[9px] font-bold text-slate-500 block leading-tight">Passport Photo</span>
+                        <span className="text-[9px] font-bold text-stone-500 block leading-tight">Passport Photo</span>
                       </div>
                     )}
                   </div>
@@ -774,7 +774,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       <input type="file" accept="image/*" onChange={handlePhotoUpload} className="hidden" />
                     </label>
                   </div>
-                  <p className="text-[11px] text-slate-500 leading-normal">
+                  <p className="text-[11px] text-stone-500 leading-normal">
                     Official candidate passport-size photograph for NTA CBT Hall Ticket, Admit Card & PDF scorecards. Max 2MB (JPG/PNG).
                   </p>
                   {errors.studentPhoto && <p className="text-[10px] text-rose-600 font-semibold">{errors.studentPhoto}</p>}
@@ -783,11 +783,11 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
               {/* Student Name */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
+                <label className="block text-xs font-bold text-stone-700 mb-1">
                   Student Full Name <span className="text-rose-500">*</span>
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">
                     <User className="w-4 h-4" />
                   </div>
                   <input
@@ -798,10 +798,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       if (errors.studentName) setErrors(prev => ({ ...prev, studentName: '' }));
                     }}
                     placeholder={randomStudentPlaceholder}
-                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
+                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
                       errors.studentName
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
-                        : 'border-slate-200 focus:ring-orange-100 focus:border-orange-600 text-slate-900'
+                        : 'border-stone-200 focus:ring-orange-100 focus:border-orange-600 text-stone-900'
                     }`}
                   />
                 </div>
@@ -814,11 +814,11 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
               {/* Parent Name */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
+                <label className="block text-xs font-bold text-stone-700 mb-1">
                   Parent / Guardian Name <span className="text-rose-500">*</span>
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">
                     <Users className="w-4 h-4" />
                   </div>
                   <input
@@ -829,10 +829,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       if (errors.parentName) setErrors(prev => ({ ...prev, parentName: '' }));
                     }}
                     placeholder={randomParentPlaceholder}
-                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
+                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
                       errors.parentName
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
-                        : 'border-slate-200 focus:ring-orange-100 focus:border-orange-600 text-slate-900'
+                        : 'border-stone-200 focus:ring-orange-100 focus:border-orange-600 text-stone-900'
                     }`}
                   />
                 </div>
@@ -845,11 +845,11 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
               {/* Parent Contact Number */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
+                <label className="block text-xs font-bold text-stone-700 mb-1">
                   Parent Contact Number <span className="text-rose-500">*</span>
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">
                     <Phone className="w-4 h-4" />
                   </div>
                   <input
@@ -861,10 +861,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       if (errors.parentPhone) setErrors(prev => ({ ...prev, parentPhone: '' }));
                     }}
                     placeholder="10-digit Mobile No."
-                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white font-mono focus:outline-none focus:ring-2 transition ${
+                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-stone-50 focus:bg-white font-mono focus:outline-none focus:ring-2 transition ${
                       errors.parentPhone
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
-                        : 'border-slate-200 focus:ring-orange-100 focus:border-orange-600 text-slate-900'
+                        : 'border-stone-200 focus:ring-orange-100 focus:border-orange-600 text-stone-900'
                     }`}
                   />
                 </div>
@@ -877,11 +877,11 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
               {/* Parent Email Address */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
-                  Parent Email ID <span className="text-slate-400 font-normal">(Optional Contact)</span>
+                <label className="block text-xs font-bold text-stone-700 mb-1">
+                  Parent Email ID <span className="text-stone-400 font-normal">(Optional Contact)</span>
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">
                     <Mail className="w-4 h-4" />
                   </div>
                   <input
@@ -892,10 +892,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       if (errors.parentEmail) setErrors(prev => ({ ...prev, parentEmail: '' }));
                     }}
                     placeholder="e.g. parent.name@gmail.com"
-                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
+                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
                       errors.parentEmail
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
-                        : 'border-slate-200 focus:ring-orange-100 focus:border-orange-600 text-slate-900'
+                        : 'border-stone-200 focus:ring-orange-100 focus:border-orange-600 text-stone-900'
                     }`}
                   />
                 </div>
@@ -908,11 +908,11 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
               {/* Student Contact Number */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
+                <label className="block text-xs font-bold text-stone-700 mb-1">
                   Student Contact Number <span className="text-rose-500">*</span>
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">
                     <Phone className="w-4 h-4" />
                   </div>
                   <input
@@ -933,10 +933,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       }
                     }}
                     placeholder="10-digit Mobile No."
-                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white font-mono focus:outline-none focus:ring-2 transition ${
+                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-stone-50 focus:bg-white font-mono focus:outline-none focus:ring-2 transition ${
                       errors.studentPhone
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
-                        : 'border-slate-200 focus:ring-orange-100 focus:border-orange-600 text-slate-900'
+                        : 'border-stone-200 focus:ring-orange-100 focus:border-orange-600 text-stone-900'
                     }`}
                   />
                 </div>
@@ -982,11 +982,11 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
               {/* Date of Birth (DOB) -> Password Protection PIN */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
+                <label className="block text-xs font-bold text-stone-700 mb-1">
                   Student Date of Birth (DOB) <span className="text-rose-500">*</span>
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">
                     <Calendar className="w-4 h-4" />
                   </div>
                   <input
@@ -996,7 +996,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       setDob(e.target.value);
                       if (errors.dob) setErrors(prev => ({ ...prev, dob: '' }));
                     }}
-                    className="w-full pl-9 pr-3 py-2 text-xs rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-slate-900 font-semibold transition"
+                    className="w-full pl-9 pr-3 py-2 text-xs rounded-xl border border-stone-200 bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-stone-900 font-semibold transition"
                   />
                 </div>
                 <p className="text-[10px] text-orange-700 font-mono mt-1 flex items-center gap-1">
@@ -1006,13 +1006,13 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
               {/* Domicile State */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
+                <label className="block text-xs font-bold text-stone-700 mb-1">
                   State of Domicile <span className="text-rose-500">*</span>
                 </label>
                 <select
                   value={domicileState}
                   onChange={e => setDomicileState(e.target.value)}
-                  className="w-full px-3 py-2 text-xs rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-slate-900 font-medium transition cursor-pointer"
+                  className="w-full px-3 py-2 text-xs rounded-xl border border-stone-200 bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-stone-900 font-medium transition cursor-pointer"
                 >
                   <option value="Maharashtra">Maharashtra (MH State Quota)</option>
                   <option value="Delhi (NCT)">Delhi (NCT - DU / IPU Quota)</option>
@@ -1039,20 +1039,20 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                   <option value="Goa">Goa (DTE Quota)</option>
                   <option value="Other State / UT">Other State / Union Territory</option>
                 </select>
-                <p className="text-[10px] text-slate-500 mt-1">
+                <p className="text-[10px] text-stone-500 mt-1">
                   85% State Quota counselling eligibility will be mapped to this domicile.
                 </p>
               </div>
 
               {/* Caste / Reservation Category */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
+                <label className="block text-xs font-bold text-stone-700 mb-1">
                   Caste / Reservation Category <span className="text-rose-500">*</span>
                 </label>
                 <select
                   value={caste}
                   onChange={e => setCaste(e.target.value as any)}
-                  className="w-full px-3 py-2 text-xs rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-slate-900 font-medium transition cursor-pointer"
+                  className="w-full px-3 py-2 text-xs rounded-xl border border-stone-200 bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-stone-900 font-medium transition cursor-pointer"
                 >
                   <option value="General / Open">General / Open (UR)</option>
                   <option value="OBC-NCL">OBC-NCL (Other Backward Class)</option>
@@ -1060,17 +1060,17 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                   <option value="ST (Scheduled Tribe)">ST (Scheduled Tribe)</option>
                   <option value="GEN-EWS">GEN-EWS (Economically Weaker Section)</option>
                 </select>
-                <p className="text-[10px] text-slate-500 mt-1">
+                <p className="text-[10px] text-stone-500 mt-1">
                   Used for accurate Eligible Medical Colleges calculation on Sunday Scorecards.
                 </p>
               </div>
 
               {/* Gender */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
+                <label className="block text-xs font-bold text-stone-700 mb-1">
                   Gender <span className="text-rose-500">*</span>
                 </label>
-                <div className="grid grid-cols-3 gap-1 bg-slate-50 p-1 border border-slate-200 rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
+                <div className="grid grid-cols-3 gap-1 bg-stone-50 p-1 border border-stone-200 rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
                   {(['Female', 'Male', 'Third Gender'] as const).map(g => (
                     <button
                       key={g}
@@ -1079,21 +1079,21 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       className={`py-1.5 text-xs font-bold rounded-lg transition cursor-pointer ${
                         gender === g
                           ? 'bg-orange-600 text-white shadow-xs'
-                          : 'text-slate-600 hover:text-slate-900'
+                          : 'text-stone-600 hover:text-stone-900'
                       }`}
                     >
                       {g}
                     </button>
                   ))}
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1">
+                <p className="text-[10px] text-stone-500 mt-1">
                   {gender === 'Female' ? '✨ Eligible for 30% Horizontal Women Reservation (W)' : 'NTA NEET official gender entry.'}
                 </p>
               </div>
 
               {/* Disability Status (PwD) */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1 flex items-center justify-between">
+                <label className="block text-xs font-bold text-stone-700 mb-1 flex items-center justify-between">
                   <span>Disability Status (PwD) <span className="text-rose-500">*</span></span>
                   {disabilityStatus !== 'No Disability' && (
                     <span className="text-[10px] font-bold text-purple-700 bg-purple-100 px-1.5 py-0.2 rounded-md">5% Quota Active</span>
@@ -1102,7 +1102,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                 <select
                   value={disabilityStatus}
                   onChange={e => setDisabilityStatus(e.target.value)}
-                  className="w-full px-3 py-2 text-xs rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-slate-900 font-medium transition cursor-pointer"
+                  className="w-full px-3 py-2 text-xs rounded-xl border border-stone-200 bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-stone-900 font-medium transition cursor-pointer"
                 >
                   <option value="No Disability">No Disability</option>
                   <option value="PwD (Locomotor Disability / Orthopedic)">PwD (Locomotor Disability / Orthopedic)</option>
@@ -1113,14 +1113,14 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                   <option value="PwD (Mental Illness)">PwD (Mental Illness)</option>
                   <option value="PwD (Multiple Disabilities / Other)">PwD (Multiple Disabilities / Other)</option>
                 </select>
-                <p className="text-[10px] text-slate-500 mt-1">
+                <p className="text-[10px] text-stone-500 mt-1">
                   5% Horizontal reservation under RPwD Act 2016 for benchmark disability &ge; 40%.
                 </p>
               </div>
 
               {/* Special Horizontal Reservation (Defence / MKB / Orphan) */}
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1 flex items-center justify-between">
+                <label className="block text-xs font-bold text-stone-700 mb-1 flex items-center justify-between">
                   <span>Defence & Special Quota</span>
                   {specialReservation !== 'None' && (
                     <span className="text-[10px] font-bold text-orange-700 bg-orange-100 px-1.5 py-0.2 rounded-md">Special Quota</span>
@@ -1129,7 +1129,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                 <select
                   value={specialReservation}
                   onChange={e => setSpecialReservation(e.target.value)}
-                  className="w-full px-3 py-2 text-xs rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-slate-900 font-medium transition cursor-pointer"
+                  className="w-full px-3 py-2 text-xs rounded-xl border border-stone-200 bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-100 focus:border-orange-600 text-stone-900 font-medium transition cursor-pointer"
                 >
                   <option value="None">None / Not Applicable</option>
                   <option value="DEF-1: Ward of Ex-Servicemen (Maharashtra State Domicile)">DEF-1: Ward of Ex-Servicemen (Maharashtra Domicile)</option>
@@ -1141,18 +1141,18 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                   <option value="Freedom Fighter (FF) Ward / Grandchild">Freedom Fighter (FF) Ward / Grandchild</option>
                   <option value="Hilly Area (HA) Resident">Hilly Area (HA) Resident</option>
                 </select>
-                <p className="text-[10px] text-slate-500 mt-1">
+                <p className="text-[10px] text-stone-500 mt-1">
                   Specific defense, MKB, and orphan quotas apply in State CAP counselling.
                 </p>
               </div>
 
               {/* Email ID */}
               <div className="sm:col-span-2">
-                <label className="block text-xs font-bold text-slate-700 mb-1">
+                <label className="block text-xs font-bold text-stone-700 mb-1">
                   Student Email ID <span className="text-rose-500">*</span>
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">
                     <Mail className="w-4 h-4" />
                   </div>
                   <input
@@ -1163,10 +1163,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       if (errors.email) setErrors(prev => ({ ...prev, email: '' }));
                     }}
                     placeholder="e.g. student@gmail.com"
-                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
+                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
                       errors.email
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
-                        : 'border-slate-200 focus:ring-orange-100 focus:border-orange-600 text-slate-900'
+                        : 'border-stone-200 focus:ring-orange-100 focus:border-orange-600 text-stone-900'
                     }`}
                   />
                 </div>
@@ -1180,15 +1180,15 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
               {/* Account Login Password */}
               <div className="sm:col-span-2">
                 <div className="flex items-center justify-between mb-1">
-                  <label className="block text-xs font-bold text-slate-700">
+                  <label className="block text-xs font-bold text-stone-700">
                     Create Account Password
                   </label>
-                  <span className="text-[10px] text-slate-500 font-medium">
+                  <span className="text-[10px] text-stone-500 font-medium">
                     Optional (Defaults to DOB PIN: <span className="font-mono text-orange-600 font-bold">{formatDobToPin(dob) || 'DDMMYYYY'}</span>)
                   </span>
                 </div>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">
                     <Lock className="w-4 h-4" />
                   </div>
                   <input
@@ -1199,16 +1199,16 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                       if (errors.password) setErrors(prev => ({ ...prev, password: '' }));
                     }}
                     placeholder={`Create password (min 6 chars) or leave blank to use DOB PIN (${formatDobToPin(dob) || 'DDMMYYYY'})`}
-                    className={`w-full pl-9 pr-10 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
+                    className={`w-full pl-9 pr-10 py-2 text-xs rounded-xl border bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
                       errors.password
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
-                        : 'border-slate-200 focus:ring-orange-100 focus:border-orange-600 text-slate-900'
+                        : 'border-stone-200 focus:ring-orange-100 focus:border-orange-600 text-stone-900'
                     }`}
                   />
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-3 top-2 text-slate-400 hover:text-slate-700 cursor-pointer"
+                    className="absolute right-3 top-2 text-stone-400 hover:text-stone-700 cursor-pointer"
                     title={showPassword ? 'Hide password' : 'Show password'}
                   >
                     {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
@@ -1219,7 +1219,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                     <AlertCircle className="w-3 h-3 shrink-0" /> {errors.password}
                   </p>
                 ) : (
-                  <p className="text-[10px] text-slate-500 mt-1">
+                  <p className="text-[10px] text-stone-500 mt-1">
                     Use this password to log in later. If left blank, your Date of Birth PIN (<span className="font-mono font-semibold text-orange-600">{formatDobToPin(dob) || 'DDMMYYYY'}</span>) will be your password.
                   </p>
                 )}
@@ -1227,10 +1227,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
             </div>
 
             {/* Target Batch Select (2027, 2028, 2029) */}
-            <div className="pt-2 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div className="pt-2 border-t border-stone-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <div className="flex items-center space-x-2">
                 <Calendar className="w-4 h-4 text-orange-600" />
-                <span className="text-xs font-bold text-slate-800">Target NEET Exam Year:</span>
+                <span className="text-xs font-bold text-stone-800">Target NEET Exam Year:</span>
               </div>
               <div className="flex items-center space-x-2">
                 {(['2027', '2028', '2029'] as const).map(yr => (
@@ -1241,7 +1241,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                     className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer ${
                       targetYear === yr
                         ? 'bg-orange-600 text-white shadow-xs'
-                        : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                        : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
                     }`}
                   >
                     NEET {yr}
@@ -1252,12 +1252,12 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
             {/* Agreement Checkbox */}
             <div className="pt-2">
-              <label className="flex items-start space-x-2 text-xs text-slate-600 cursor-pointer">
+              <label className="flex items-start space-x-2 text-xs text-stone-600 cursor-pointer">
                 <input
                   type="checkbox"
                   checked={agreedTerms}
                   onChange={e => setAgreedTerms(e.target.checked)}
-                  className="mt-0.5 rounded border-slate-300 text-orange-600 focus:ring-orange-500"
+                  className="mt-0.5 rounded border-stone-300 text-orange-600 focus:ring-orange-500"
                 />
                 <span>
                   I confirm that the details provided are genuine and agree to the{' '}
@@ -1286,7 +1286,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-orange-600 via-indigo-600 to-cyan-600 hover:from-orange-700 hover:to-cyan-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-orange-600 via-rose-600 to-teal-600 hover:from-orange-700 hover:to-teal-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
               >
                 <Lock className="w-4 h-4" />
                 <span>{isSubmitting ? 'Verifying 2-Device Concurrency & DOB...' : 'Submit Enrollment & Enter NeetCbt Exam Test'}</span>
@@ -1298,7 +1298,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                   <button
                     type="button"
                     onClick={onClose}
-                    className="text-xs font-semibold text-slate-500 hover:text-slate-800 transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                    className="text-xs font-semibold text-stone-500 hover:text-stone-800 transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   >
                     Close Enrollment Form ✕
                   </button>

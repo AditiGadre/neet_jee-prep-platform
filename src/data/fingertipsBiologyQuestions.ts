@@ -1650,7 +1650,7 @@ export const FINGERTIPS_BIO_CH02_MCQS: Question[] = [
     questionText: "Cyanobacteria are classified under which of the following kingdoms?",
     options: ["Monera", "Protista", "Fungi", "Plantae"],
     correctAnswer: 0,
-    explanation: "Cyanobacteria (blue-green algae) are prokaryotic photosynthetic monerans.",
+    explanation: "Cyanobacteria (amber-green algae) are prokaryotic photosynthetic monerans.",
     tags: ["NCERT at your Fingertips", "Biological Classification", "Class 11"]
   },
   {
@@ -1660,7 +1660,7 @@ export const FINGERTIPS_BIO_CH02_MCQS: Question[] = [
     topic: "Monera, Protista, Fungi, Viruses",
     difficulty: "Medium",
     questionText: "Which of the following statements is wrong regarding cyanobacteria?",
-    options: ["They are referred to as blue-green algae as chlorophyll a is present.", "They play a great role in recycling nutrients like nitrogen, phosphorous, iron and sulphur.", "They can fix atmospheric nitrogen in specialised cells.", "Mucilaginous sheath is present in filamentous Nostoc."],
+    options: ["They are referred to as amber-green algae as chlorophyll a is present.", "They play a great role in recycling nutrients like nitrogen, phosphorous, iron and sulphur.", "They can fix atmospheric nitrogen in specialised cells.", "Mucilaginous sheath is present in filamentous Nostoc."],
     correctAnswer: 1,
     explanation: "Chemosynthetic bacteria (not photosynthetic cyanobacteria) recycle nutrients by oxidising inorganic substances.",
     tags: ["NCERT at your Fingertips", "Biological Classification", "Class 11"]
@@ -1707,7 +1707,7 @@ export const FINGERTIPS_BIO_CH02_MCQS: Question[] = [
     chapter: "Biological Classification",
     topic: "Monera, Protista, Fungi, Viruses",
     difficulty: "Hard",
-    questionText: "In five-kingdom classification system, the kingdom that includes the blue-green algae, nitrogen-fixing bacteria and methanogenic archaebacteria is:",
+    questionText: "In five-kingdom classification system, the kingdom that includes the amber-green algae, nitrogen-fixing bacteria and methanogenic archaebacteria is:",
     options: ["Plantae", "Fungi", "Protista", "Monera"],
     correctAnswer: 3,
     explanation: "All prokaryotes belong to Kingdom Monera.",
@@ -3018,7 +3018,7 @@ export const FINGERTIPS_BIO_CH02_EXAM_SCORER: Question[] = [
     chapter: "Biological Classification",
     topic: "Statement Based Questions",
     difficulty: "Medium",
-    questionText: "Statement I: Heterocysts are specialised cells in filamentous blue-green algae that fix atmospheric nitrogen.\nStatement II: Cyanobacteria play a great role in recycling nutrients like nitrogen, phosphorous and iron.",
+    questionText: "Statement I: Heterocysts are specialised cells in filamentous amber-green algae that fix atmospheric nitrogen.\nStatement II: Cyanobacteria play a great role in recycling nutrients like nitrogen, phosphorous and iron.",
     options: ["Both statements I and II are correct.", "Statement I is correct but statement II is incorrect.", "Both statements I and II are incorrect.", "Statement I is incorrect but statement II is correct."],
     correctAnswer: 1,
     explanation: "Statement I is correct; Statement II describes chemosynthetic bacteria.",
@@ -3606,7 +3606,7 @@ export const FINGERTIPS_BIO_CH02_EXAM_SCORER: Question[] = [
     chapter: "Biological Classification",
     topic: "Multidimensional Questions",
     difficulty: "Hard",
-    questionText: "Which statement is incorrect for filamentous blue-green alga Nostoc?",
+    questionText: "Which statement is incorrect for filamentous amber-green alga Nostoc?",
     options: ["It is a photosynthetic autotroph.", "It can fix atmospheric nitrogen.", "It forms symbiotic association with Anthoceros, Cycas, and Gunnera.", "It is highly pollution resistant and acts as an indicator of water pollution."],
     correctAnswer: 3,
     explanation: "Nostoc is not an indicator of heavy chemical pollution.",
@@ -4427,7 +4427,7 @@ export const FINGERTIPS_BIO_CH03_MCQS: Question[] = [
     topic: "Algae, Bryophytes, Pteridophytes, Gymnosperms",
     difficulty: "Medium",
     questionText: "Agar-agar is commercially obtained from:",
-    options: ["green algae", "blue-green algae", "brown algae", "red algae."],
+    options: ["green algae", "amber-green algae", "brown algae", "red algae."],
     correctAnswer: 3,
     explanation: "Agar is extracted from red algae like Gelidium and Gracilaria.",
     tags: ["NCERT at your Fingertips", "Plant Kingdom", "Class 11"]
@@ -17923,7 +17923,7 @@ export const FINGERTIPS_BIO_CH08_EXAM_SCORER: Question[] = [
     questionText: "Which one of these is NOT a eukaryote?",
     options: ["Euglena", "Anabaena (Cyanobacteria / Prokaryote)", "Spirogyra", "Agaricus"],
     correctAnswer: 1,
-    explanation: "Anabaena is a nitrogen-fixing blue-green alga (cyanobacterium), which is prokaryotic.",
+    explanation: "Anabaena is a nitrogen-fixing amber-green alga (cyanobacterium), which is prokaryotic.",
     tags: ["NCERT at your Fingertips", "Cell: The Unit of Life", "Class 11"]
   },
   {
@@ -23471,7 +23471,7 @@ export const FINGERTIPS_BIO_CH11_MCQS: Question[] = [
     topic: "Early Experiments, Light Reaction, Calvin & C4 Cycle, Factors",
     difficulty: "Hard",
     questionText: "In Moll's half-leaf experiment, where a part of leaf is enclosed in a test tube with KOH-soaked cotton: What are the results of starch test?",
-    options: ["Exposed part negative, enclosed part positive", "Exposed part positive (blue-black with iodine), enclosed part in tube negative", "Both positive", "Both negative"],
+    options: ["Exposed part negative, enclosed part positive", "Exposed part positive (amber-black with iodine), enclosed part in tube negative", "Both positive", "Both negative"],
     correctAnswer: 1,
     explanation: "KOH absorbs $CO_2$; the unexposed half cannot perform photosynthesis, proving $CO_2$ is essential.",
     tags: ["NCERT at your Fingertips", "Photosynthesis in Higher Plants", "Class 11"]
@@ -23749,7 +23749,7 @@ export const FINGERTIPS_BIO_CH11_MCQS: Question[] = [
     questionText: "Chlorophyll a appears ________ in colour and chlorophyll b appears ________ in colour in chromatogram.",
     options: ["bluish green, yellowish green", "yellowish green, bluish green", "blue, blue", "green, green"],
     correctAnswer: 0,
-    explanation: "Chlorophyll a is bright/blue-green; Chlorophyll b is yellow-green; Xanthophylls are yellow; Carotenoids are yellow-orange.",
+    explanation: "Chlorophyll a is bright/amber-green; Chlorophyll b is yellow-green; Xanthophylls are yellow; Carotenoids are yellow-orange.",
     tags: ["NCERT at your Fingertips", "Photosynthesis in Higher Plants", "Class 11"]
   },
   {
@@ -23758,7 +23758,7 @@ export const FINGERTIPS_BIO_CH11_MCQS: Question[] = [
     chapter: "Photosynthesis in Higher Plants",
     topic: "Early Experiments, Light Reaction, Calvin & C4 Cycle, Factors",
     difficulty: "Hard",
-    questionText: "Which statements is/are NOT correct regarding chlorophyll a? (i) Accessory pigments transfer energy to chl a (True), (ii) Primary photosynthetic pigment (True), (iii) In pure state red in colour (False, blue-green), (iv) Most photosynthesis in green region (False, blue and red). Incorrect ones:",
+    questionText: "Which statements is/are NOT correct regarding chlorophyll a? (i) Accessory pigments transfer energy to chl a (True), (ii) Primary photosynthetic pigment (True), (iii) In pure state red in colour (False, amber-green), (iv) Most photosynthesis in green region (False, blue and red). Incorrect ones:",
     options: ["(i) and (iii)", "(iii) and (iv) only", "(ii) only", "(d) (iii) and (iv) only"],
     correctAnswer: 3,
     explanation: "Statements (iii) and (iv) are incorrect.",
@@ -23806,10 +23806,10 @@ export const FINGERTIPS_BIO_CH11_MCQS: Question[] = [
     chapter: "Photosynthesis in Higher Plants",
     topic: "Early Experiments, Light Reaction, Calvin & C4 Cycle, Factors",
     difficulty: "Medium",
-    questionText: "During chromatographic separation of leaf pigments, bright or blue-green in the chromatogram indicates:",
+    questionText: "During chromatographic separation of leaf pigments, bright or amber-green in the chromatogram indicates:",
     options: ["Chlorophyll a", "Chlorophyll b", "Xanthophylls", "Carotenoids"],
     correctAnswer: 0,
-    explanation: "Bright or blue-green color specifically identifies Chlorophyll a.",
+    explanation: "Bright or amber-green color specifically identifies Chlorophyll a.",
     tags: ["NCERT at your Fingertips", "Photosynthesis in Higher Plants", "Class 11"]
   },
   {
@@ -25513,7 +25513,7 @@ export const FINGERTIPS_BIO_CH11_EXAM_SCORER: Question[] = [
     chapter: "Photosynthesis in Higher Plants",
     topic: "Multidimensional Questions",
     difficulty: "Medium",
-    questionText: "Chromatogram of photosynthetic pigments: P (Carotene - yellow-orange, top), Q (Xanthophyll - yellow), R (Chlorophyll a - blue-green), S (Chlorophyll b - yellow-green, bottom). INCORRECT option:",
+    questionText: "Chromatogram of photosynthetic pigments: P (Carotene - yellow-orange, top), Q (Xanthophyll - yellow), R (Chlorophyll a - amber-green), S (Chlorophyll b - yellow-green, bottom). INCORRECT option:",
     options: ["S is olive green (Chl b)", "Q is soluble in organic solvents", "P is orange carotene ($C_{40}H_{56}$)", "R is accessory pigment absorbing more violet than red (Chl a is primary pigment)."],
     correctAnswer: 3,
     explanation: "R (Chlorophyll a) is the primary reaction center pigment, not merely an accessory pigment.",
@@ -25538,7 +25538,7 @@ export const FINGERTIPS_BIO_CH11_EXAM_SCORER: Question[] = [
     topic: "Multidimensional Questions",
     difficulty: "Hard",
     questionText: "Pot X (with KOH in bell jar) and Pot Y (control without KOH). After 6 hours in light, iodine test shows:",
-    options: ["Leaf X turns blue-black", "Leaf Y turns white", "Leaf of plant X will show no blue-black colour whereas leaf of plant Y will turn blue-black.", "Both turn blue-black"],
+    options: ["Leaf X turns amber-black", "Leaf Y turns white", "Leaf of plant X will show no amber-black colour whereas leaf of plant Y will turn amber-black.", "Both turn amber-black"],
     correctAnswer: 2,
     explanation: "Plant X lacked $CO_2$ (absorbed by KOH) and could not synthesize starch, testing negative with iodine.",
     tags: ["NCERT at your Fingertips", "Photosynthesis in Higher Plants", "Class 11"]
@@ -56913,7 +56913,7 @@ export const FINGERTIPS_BIO_C12_CH06_MCQS: Question[] = [
     topic: "Origin of Life, Theories (Oparin-Haldane, Miller-Urey), Evidences (Palaeontology, Homology/Analogy, Embryology, Industrial Melanism), Adaptive Radiation (Darwin Finches, Marsupials), Lamarckism vs Darwinism, de Vries Mutation, Hardy-Weinberg, Human Evolution",
     difficulty: "Medium",
     questionText: "BIOGENESIS theory of origin of life supports:",
-    options: ["spontaneous generation", "origin of life from blue-green algae", "ORIGIN OF LIFE FROM PRE-EXISTING ORGANISMS (*Omnis cellula-e-cellula* / *Omne vivum ex vivo*)", "organic evolution due to chemical reactions."],
+    options: ["spontaneous generation", "origin of life from amber-green algae", "ORIGIN OF LIFE FROM PRE-EXISTING ORGANISMS (*Omnis cellula-e-cellula* / *Omne vivum ex vivo*)", "organic evolution due to chemical reactions."],
     correctAnswer: 2,
     explanation: "Biogenesis asserts that living organisms arise solely from pre-existing life.",
     tags: ["NCERT at your Fingertips", "Evolution", "Class 12"]
@@ -62794,7 +62794,7 @@ export const FINGERTIPS_BIO_C12_CH08_MCQS: Question[] = [
     chapter: "Microbes in Human Welfare",
     topic: "Household Products (LAB, Cheese, Toddy), Industrial Fermentation (Beverages, Antibiotics, Organic Acids, Enzymes, Statins, Cyclosporin A), Sewage Treatment (Primary/Secondary Flocs, BOD, Activated Sludge), Biogas (Methanogens), Biocontrol (Bt, NPV, Trichoderma), Biofertilisers (Rhizobium, Mycorrhizae, Cyanobacteria)",
     difficulty: "Hard",
-    questionText: "Study statements: (i) Methanogens are archaebacteria producing methane in marshy areas (True), (ii) *Nostoc* is filamentous blue-green alga fixing nitrogen (True), (iii) Genus *Glomus* forms mycorrhiza (True):",
+    questionText: "Study statements: (i) Methanogens are archaebacteria producing methane in marshy areas (True), (ii) *Nostoc* is filamentous amber-green alga fixing nitrogen (True), (iii) Genus *Glomus* forms mycorrhiza (True):",
     options: ["(a) (i) and (ii) only", "(b) (i) and (iii) only", "(c) (ii) and (iii) only", "(d) (i), (ii) AND (iii) (All 3 statements are correct)."],
     correctAnswer: 3,
     explanation: "All three statements are verified NCERT facts.",
@@ -75977,7 +75977,7 @@ export const NEET_MODEL_TEST_PAPER_1: Question[] = [
     topic: "Class 11 & Class 12 Complete Biology Curriculum",
     difficulty: "Medium",
     questionText: "Select the INCORRECT statement regarding the characteristics of certain organisms:",
-    options: ["Methanogens are archaebacteria which produce methane in marshy areas.", "Nostoc is a filamentous blue-green alga which fixes atmospheric nitrogen.", "CHEMOSYNTHETIC AUTOTROPHIC BACTERIA SYNTHESISE CELLULOSE FROM GLUCOSE (False, they oxidise inorganic substances like nitrates/nitrites/ammonia to release energy for ATP production).", "Mycoplasma lacks a cell wall and can survive without oxygen."],
+    options: ["Methanogens are archaebacteria which produce methane in marshy areas.", "Nostoc is a filamentous amber-green alga which fixes atmospheric nitrogen.", "CHEMOSYNTHETIC AUTOTROPHIC BACTERIA SYNTHESISE CELLULOSE FROM GLUCOSE (False, they oxidise inorganic substances like nitrates/nitrites/ammonia to release energy for ATP production).", "Mycoplasma lacks a cell wall and can survive without oxygen."],
     correctAnswer: 2,
     explanation: "Chemosynthetic autotrophs oxidize inorganic minerals, not cellulose synthesis.",
     tags: ["NCERT at your Fingertips", "NEET Full Syllabus Mock", "NEET Mock Test"]

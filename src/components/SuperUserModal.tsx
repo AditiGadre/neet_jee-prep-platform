@@ -567,7 +567,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
       case 'DPP':
         return { bg: 'bg-amber-50 text-amber-700 border-amber-200', icon: FileSpreadsheet };
       default:
-        return { bg: 'bg-gray-50 text-gray-700 border-gray-200', icon: Download };
+        return { bg: 'bg-stone-50 text-stone-700 border-stone-200', icon: Download };
     }
   };
 
@@ -581,11 +581,11 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
   })();
 
   return (
-    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-150">
-      <div className="w-full max-w-5xl bg-white border border-gray-200 rounded-xl shadow-2xl flex flex-col max-h-[94vh] text-gray-900 relative animate-in zoom-in-95 duration-150 overflow-hidden">
+    <div className="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-150">
+      <div className="w-full max-w-5xl bg-white border border-stone-200 rounded-xl shadow-2xl flex flex-col max-h-[94vh] text-stone-900 relative animate-in zoom-in-95 duration-150 overflow-hidden">
         
         {/* Modal Header */}
-        <div className="p-6 sm:p-5 border-b border-gray-200 bg-slate-900 text-white flex items-center justify-between">
+        <div className="p-6 sm:p-5 border-b border-stone-200 bg-stone-900 text-white flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="w-9 h-9 rounded-lg bg-orange-600 flex items-center justify-center text-white shadow-md">
               <ShieldCheck className="w-5 h-5" />
@@ -599,7 +599,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                   FACULTY & ADMIN PORTAL
                 </span>
               </div>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-stone-400">
                 Custom Test Generator, automated PDF paper builder, live telemetry, and student access controls.
               </p>
             </div>
@@ -607,7 +607,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
           <button
             onClick={onClose}
-            className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
+            className="p-1.5 rounded-lg text-stone-400 hover:text-white hover:bg-stone-800 transition-colors cursor-pointer"
             title="Close"
           >
             <X className="w-5 h-5" />
@@ -627,7 +627,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
         )}
 
         {/* Primary Admin Navigation Tabs + Quick Test Access Switch */}
-        <div className="flex flex-wrap items-center justify-between px-4 py-2.5 bg-slate-100 border-b border-gray-200 gap-4">
+        <div className="flex flex-wrap items-center justify-between px-4 py-2.5 bg-stone-100 border-b border-stone-200 gap-4">
           <div className="flex items-center space-x-2 overflow-x-auto">
             {/* TAB 1: STUDENT UNLOCK REQUESTS */}
             <button
@@ -635,7 +635,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
                 adminTab === 'requests'
                   ? 'bg-orange-600 text-white shadow-xs'
-                  : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-200 border border-stone-200'
               }`}
             >
               <KeyRound className="w-3.5 h-3.5 text-amber-500" />
@@ -653,7 +653,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
                 adminTab === 'generator'
                   ? 'bg-orange-600 text-white shadow-xs'
-                  : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-200 border border-stone-200'
               }`}
             >
               <Sliders className="w-3.5 h-3.5" />
@@ -666,7 +666,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
                 adminTab === 'inventory'
                   ? 'bg-orange-600 text-white shadow-xs'
-                  : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-200 border border-stone-200'
               }`}
             >
               <Database className="w-3.5 h-3.5 text-orange-500" />
@@ -682,13 +682,13 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
                 adminTab === 'telemetry'
                   ? 'bg-orange-600 text-white shadow-xs'
-                  : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-200 border border-stone-200'
               }`}
             >
               <Activity className="w-3.5 h-3.5" />
               <span>Download Telemetry & Audit</span>
               {metrics.unreadCount > 0 && (
-                <span className="px-1.5 py-0.2 rounded-full bg-amber-400 text-slate-900 text-[10px] font-mono font-bold">
+                <span className="px-1.5 py-0.2 rounded-full bg-amber-400 text-stone-900 text-[10px] font-mono font-bold">
                   {metrics.unreadCount}
                 </span>
               )}
@@ -700,7 +700,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
                 adminTab === 'students'
                   ? 'bg-orange-600 text-white shadow-xs'
-                  : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-200 border border-stone-200'
               }`}
             >
               <Users className="w-3.5 h-3.5" />
@@ -715,7 +715,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               className={`px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition flex items-center space-x-1.5 cursor-pointer shadow-xs ${
                 isAdminTestAccessGranted
                   ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
-                  : 'bg-amber-500 hover:bg-amber-600 text-slate-950'
+                  : 'bg-amber-500 hover:bg-amber-600 text-stone-950'
               }`}
               title="Toggle Student Sunday Test Series Access"
             >
@@ -740,13 +740,13 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
         {adminTab === 'requests' && (
           <div className="flex-1 p-6 sm:p-6 overflow-y-auto space-y-4 bg-[#f8fafc]">
             {/* Header / Summary Bar */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-200 gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-200 gap-4">
               <div>
-                <h3 className="text-base font-bold text-gray-900 flex items-center space-x-2">
+                <h3 className="text-base font-bold text-stone-900 flex items-center space-x-2">
                   <KeyRound className="w-5 h-5 text-amber-500" />
                   <span>Student Test Unlock Approval Queue</span>
                 </h3>
-                <p className="text-xs text-gray-500 mt-0.5">
+                <p className="text-xs text-stone-500 mt-0.5">
                   Review student requests to unlock 720-Marks Sunday CBT Tests. Approving grants real-time CBT access to the candidate.
                 </p>
               </div>
@@ -765,7 +765,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             </div>
 
             {/* Filter & Search Toolbar */}
-            <div className="flex flex-wrap items-center justify-between gap-4.5 bg-white p-3.5 rounded-xl border border-gray-200 shadow-2xs">
+            <div className="flex flex-wrap items-center justify-between gap-4.5 bg-white p-3.5 rounded-xl border border-stone-200 shadow-2xs">
               <div className="flex items-center space-x-1.5">
                 {(['all', 'pending', 'approved', 'rejected'] as const).map(status => (
                   <button
@@ -774,7 +774,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize transition cursor-pointer ${
                       requestStatusFilter === status
                         ? 'bg-orange-600 text-white shadow-2xs'
-                        : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                        : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
                     }`}
                   >
                     {status === 'all' ? 'All Requests' : status}
@@ -784,22 +784,22 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               </div>
 
               <div className="relative w-full sm:w-72">
-                <Search className="w-4 h-4 absolute left-3 top-2.5 text-gray-400" />
+                <Search className="w-4 h-4 absolute left-3 top-2.5 text-stone-400" />
                 <input
                   type="text"
                   placeholder="Search student, roll no, phone, parent email..."
                   value={requestSearch}
                   onChange={e => setRequestSearch(e.target.value)}
-                  className="w-full pl-9 pr-3 py-1.5 rounded-lg bg-slate-50 border border-gray-200 text-xs text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none focus:border-orange-500"
+                  className="w-full pl-9 pr-3 py-1.5 rounded-lg bg-stone-50 border border-stone-200 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:outline-none focus:border-orange-500"
                 />
               </div>
             </div>
 
             {/* Requests Table */}
-            <div className="bg-white rounded-xl border border-gray-200 shadow-2xs overflow-hidden">
+            <div className="bg-white rounded-xl border border-stone-200 shadow-2xs overflow-hidden">
               <div className="overflow-x-auto">
                 <table className="w-full text-left text-xs">
-                  <thead className="bg-slate-900 text-white font-bold">
+                  <thead className="bg-stone-900 text-white font-bold">
                     <tr>
                       <th className="p-3">Requested At</th>
                       <th className="p-3">Candidate & Roll #</th>
@@ -810,7 +810,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                       <th className="p-3 text-right">Action</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-gray-100">
+                  <tbody className="divide-y divide-stone-100">
                     {filteredUnlockRequests.length > 0 ? (
                       filteredUnlockRequests.map(req => {
                         const isPending = req.status === 'pending';
@@ -818,22 +818,22 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                         const isRejected = req.status === 'rejected';
 
                         return (
-                          <tr key={req.id} className="hover:bg-slate-50 transition">
-                            <td className="p-3 font-mono text-gray-500 whitespace-nowrap">
+                          <tr key={req.id} className="hover:bg-stone-50 transition">
+                            <td className="p-3 font-mono text-stone-500 whitespace-nowrap">
                               <div className="flex items-center space-x-1">
-                                <Clock className="w-3.5 h-3.5 text-slate-400" />
+                                <Clock className="w-3.5 h-3.5 text-stone-400" />
                                 <span>{new Date(req.requestedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
                               </div>
-                              <span className="text-[10px] text-slate-400">{new Date(req.requestedAt).toLocaleDateString()}</span>
+                              <span className="text-[10px] text-stone-400">{new Date(req.requestedAt).toLocaleDateString()}</span>
                             </td>
 
                             <td className="p-3">
-                              <div className="font-bold text-gray-900">{req.studentName}</div>
+                              <div className="font-bold text-stone-900">{req.studentName}</div>
                               <div className="text-[11px] font-mono text-orange-700 font-semibold">{req.rollNumber}</div>
-                              <div className="text-[10px] text-gray-400">{req.targetBatch}</div>
+                              <div className="text-[10px] text-stone-400">{req.targetBatch}</div>
                             </td>
 
-                            <td className="p-3 font-mono text-gray-700">
+                            <td className="p-3 font-mono text-stone-700">
                               <div className="flex items-center space-x-1 font-semibold">
                                 <Phone className="w-3 h-3 text-orange-600" />
                                 <span>+91 {req.studentPhone}</span>
@@ -841,21 +841,21 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                             </td>
 
                             <td className="p-3 space-y-0.5">
-                              <div className="flex items-center space-x-1 text-gray-800 font-mono text-[11px]">
+                              <div className="flex items-center space-x-1 text-stone-800 font-mono text-[11px]">
                                 <Mail className="w-3 h-3 text-emerald-600" />
                                 <span className="font-semibold">{req.parentEmail}</span>
                               </div>
-                              <div className="flex items-center space-x-1 text-gray-600 font-mono text-[11px]">
+                              <div className="flex items-center space-x-1 text-stone-600 font-mono text-[11px]">
                                 <Phone className="w-3 h-3 text-amber-600" />
                                 <span>+91 {req.parentPhone}</span>
                               </div>
                             </td>
 
                             <td className="p-3">
-                              <span className="font-bold text-slate-900 bg-orange-50 border border-orange-200 px-2 py-0.5 rounded text-[11px]">
+                              <span className="font-bold text-stone-900 bg-orange-50 border border-orange-200 px-2 py-0.5 rounded text-[11px]">
                                 {req.testCode}
                               </span>
-                              <div className="text-[10px] text-gray-500 mt-1 max-w-xs truncate">
+                              <div className="text-[10px] text-stone-500 mt-1 max-w-xs truncate">
                                 {req.testTitle}
                               </div>
                             </td>
@@ -890,7 +890,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                                   </button>
                                   <button
                                     onClick={() => handleRejectRequest(req.id)}
-                                    className="p-1.5 rounded-lg bg-slate-100 hover:bg-rose-100 text-slate-600 hover:text-rose-700 transition cursor-pointer"
+                                    className="p-1.5 rounded-lg bg-stone-100 hover:bg-rose-100 text-stone-600 hover:text-rose-700 transition cursor-pointer"
                                     title="Reject Request"
                                   >
                                     <X className="w-4 h-4" />
@@ -903,7 +903,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                               ) : (
                                 <button
                                   onClick={() => handleApproveRequest(req.id)}
-                                  className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-emerald-100 text-slate-700 hover:text-emerald-800 text-xs font-semibold transition cursor-pointer"
+                                  className="px-2.5 py-1 rounded-lg bg-stone-100 hover:bg-emerald-100 text-stone-700 hover:text-emerald-800 text-xs font-semibold transition cursor-pointer"
                                 >
                                   Re-Approve
                                 </button>
@@ -914,10 +914,10 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                       })
                     ) : (
                       <tr>
-                        <td colSpan={7} className="text-center py-10 text-gray-500">
-                          <Inbox className="w-8 h-8 mx-auto text-gray-400 mb-2" />
+                        <td colSpan={7} className="text-center py-10 text-stone-500">
+                          <Inbox className="w-8 h-8 mx-auto text-stone-400 mb-2" />
                           <div className="font-semibold text-sm">No Test Unlock Requests Found</div>
-                          <p className="text-xs text-gray-400 mt-0.5">
+                          <p className="text-xs text-stone-400 mt-0.5">
                             When candidates request authorization to start locked Sunday tests, they will appear here.
                           </p>
                         </td>
@@ -929,12 +929,12 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             </div>
 
             {/* Candidate Verification & Session Telemetry Banner */}
-            <div className="p-6 rounded-xl bg-gradient-to-r from-orange-900 to-slate-900 text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div className="p-6 rounded-xl bg-gradient-to-r from-orange-900 to-stone-900 text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div className="space-y-0.5">
                 <div className="text-[10px] uppercase font-mono font-bold text-emerald-300 flex items-center gap-1">
                   <ShieldCheck className="w-3.5 h-3.5" /> Candidate CBT Verification & Test Access Engine
                 </div>
-                <p className="text-xs text-slate-300">
+                <p className="text-xs text-stone-300">
                   Real-time CBT unlock with verified roll number validation, time tracking, and NTA-standard scoring telemetry.
                 </p>
               </div>
@@ -950,13 +950,13 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
         {/* ========================================================================= */}
         {adminTab === 'generator' && (
           <div className="flex-1 p-6 sm:p-6 overflow-y-auto space-y-4 bg-[#f8fafc]">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-200 gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-200 gap-4">
               <div>
-                <h3 className="text-base font-bold text-gray-900 flex items-center space-x-2">
+                <h3 className="text-base font-bold text-stone-900 flex items-center space-x-2">
                   <Sliders className="w-4 h-4 text-orange-600" />
                   <span>Admin Custom Test Paper Generator</span>
                 </h3>
-                <p className="text-xs text-gray-500 mt-0.5">
+                <p className="text-xs text-stone-500 mt-0.5">
                   Configure custom difficulty, duration, question pool, and export PDF test papers or launch CBT simulation.
                 </p>
               </div>
@@ -976,15 +976,15 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             )}
 
             {/* Mode Switcher */}
-            <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 rounded-xl border border-gray-200 shadow-2xs">
-              <div className="flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl">
+            <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 rounded-xl border border-stone-200 shadow-2xs">
+              <div className="flex items-center gap-1.5 bg-stone-100 p-1 rounded-xl">
                 <button
                   type="button"
                   onClick={() => setGeneratorMode('single')}
                   className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                     generatorMode === 'single'
-                      ? 'bg-white text-slate-900 shadow-xs'
-                      : 'text-slate-600 hover:text-slate-900'
+                      ? 'bg-white text-stone-900 shadow-xs'
+                      : 'text-stone-600 hover:text-stone-900'
                   }`}
                 >
                   Single Chapter Focus (15-90 Qs)
@@ -995,7 +995,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                   className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
                     generatorMode === 'topic_matrix'
                       ? 'bg-orange-600 text-white shadow-xs'
-                      : 'text-slate-600 hover:text-slate-900'
+                      : 'text-stone-600 hover:text-stone-900'
                   }`}
                 >
                   <ArrowRightLeft className="w-3.5 h-3.5" />
@@ -1015,7 +1015,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             {generatorMode === 'topic_matrix' && (
               <div className="space-y-4">
                 {/* Quick Topic Swapper Bar */}
-                <div className="p-6 rounded-xl bg-gradient-to-r from-purple-50 via-indigo-50 to-orange-50 border border-purple-200 space-y-3">
+                <div className="p-6 rounded-xl bg-gradient-to-r from-purple-50 via-rose-50 to-orange-50 border border-purple-200 space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                     <div>
                       <h4 className="text-sm font-extrabold text-purple-950 flex items-center gap-1.5">
@@ -1033,11 +1033,11 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
                   <div className="grid grid-cols-1 sm:grid-cols-4 gap-4.5 items-end bg-white/90 p-3 rounded-xl border border-purple-200">
                     <div className="space-y-1">
-                      <label className="text-[10px] font-bold text-slate-500 uppercase">1. Swap Out (From Topic)</label>
+                      <label className="text-[10px] font-bold text-stone-500 uppercase">1. Swap Out (From Topic)</label>
                       <select
                         value={swapSourceTopic}
                         onChange={e => setSwapSourceTopic(e.target.value)}
-                        className="w-full p-3 text-xs bg-white border border-slate-300 rounded-lg font-semibold"
+                        className="w-full p-3 text-xs bg-white border border-stone-300 rounded-lg font-semibold"
                       >
                         <optgroup label="⚡ Physics">
                           {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -1052,11 +1052,11 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     </div>
 
                     <div className="space-y-1">
-                      <label className="text-[10px] font-bold text-slate-500 uppercase">2. Swap In (To Topic)</label>
+                      <label className="text-[10px] font-bold text-stone-500 uppercase">2. Swap In (To Topic)</label>
                       <select
                         value={swapTargetTopic}
                         onChange={e => setSwapTargetTopic(e.target.value)}
-                        className="w-full p-3 text-xs bg-white border border-slate-300 rounded-lg font-semibold"
+                        className="w-full p-3 text-xs bg-white border border-stone-300 rounded-lg font-semibold"
                       >
                         <optgroup label="⚡ Physics">
                           {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -1071,12 +1071,12 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     </div>
 
                     <div className="space-y-1">
-                      <label className="text-[10px] font-bold text-slate-500 uppercase">3. Number of Questions</label>
+                      <label className="text-[10px] font-bold text-stone-500 uppercase">3. Number of Questions</label>
                       <div className="flex items-center gap-1">
                         <button
                           type="button"
                           onClick={() => setSwapQuestionCount(c => Math.max(1, c - 1))}
-                          className="w-8 h-8 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold flex items-center justify-center cursor-pointer"
+                          className="w-8 h-8 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 font-bold flex items-center justify-center cursor-pointer"
                         >
                           <Minus className="w-3.5 h-3.5" />
                         </button>
@@ -1086,12 +1086,12 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                           max={45}
                           value={swapQuestionCount}
                           onChange={e => setSwapQuestionCount(Math.max(1, Math.min(45, parseInt(e.target.value) || 1)))}
-                          className="w-16 h-8 text-center bg-white border border-slate-300 rounded-lg text-xs font-bold font-mono"
+                          className="w-16 h-8 text-center bg-white border border-stone-300 rounded-lg text-xs font-bold font-mono"
                         />
                         <button
                           type="button"
                           onClick={() => setSwapQuestionCount(c => Math.min(45, c + 1))}
-                          className="w-8 h-8 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold flex items-center justify-center cursor-pointer"
+                          className="w-8 h-8 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 font-bold flex items-center justify-center cursor-pointer"
                         >
                           <Plus className="w-3.5 h-3.5" />
                         </button>
@@ -1110,13 +1110,13 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 </div>
 
                 {/* Topic Allocation Table / List */}
-                <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-2xs space-y-3">
-                  <div className="flex flex-wrap items-center justify-between gap-4 border-b border-gray-100 pb-2.5">
+                <div className="bg-white p-6 rounded-xl border border-stone-200 shadow-2xs space-y-3">
+                  <div className="flex flex-wrap items-center justify-between gap-4 border-b border-stone-100 pb-2.5">
                     <div>
-                      <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
+                      <h4 className="text-xs font-bold text-stone-900 uppercase tracking-wider">
                         Configured Topics & Question Allocation Matrix ({topicAllocations.length} Topics)
                       </h4>
-                      <p className="text-[11px] text-slate-500">
+                      <p className="text-[11px] text-stone-500">
                         Customize question counts per chapter or swap any chapter using the dropdowns below.
                       </p>
                     </div>
@@ -1129,10 +1129,10 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     {topicAllocations.map((alloc, idx) => (
                       <div
                         key={alloc.id}
-                        className="flex flex-wrap items-center justify-between gap-4 p-3.5 rounded-xl border border-slate-200 bg-slate-50/60 hover:bg-slate-50 transition"
+                        className="flex flex-wrap items-center justify-between gap-4 p-3.5 rounded-xl border border-stone-200 bg-stone-50/60 hover:bg-stone-50 transition"
                       >
                         <div className="flex items-center gap-4 flex-1 min-w-[260px]">
-                          <span className="w-6 h-6 rounded-lg bg-slate-800 text-white text-[11px] font-mono font-bold flex items-center justify-center">
+                          <span className="w-6 h-6 rounded-lg bg-stone-800 text-white text-[11px] font-mono font-bold flex items-center justify-center">
                             {idx + 1}
                           </span>
                           <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
@@ -1145,7 +1145,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                           <select
                             value={alloc.chapter}
                             onChange={e => handleUpdateAllocationChapter(alloc.id, e.target.value)}
-                            className="flex-1 p-1.5 text-xs bg-white border border-slate-300 rounded-lg font-semibold text-slate-900"
+                            className="flex-1 p-1.5 text-xs bg-white border border-stone-300 rounded-lg font-semibold text-stone-900"
                           >
                             <optgroup label="⚡ Physics">
                               {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -1161,34 +1161,34 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
                         {/* Question count controls */}
                         <div className="flex items-center gap-4">
-                          <div className="flex items-center gap-1 bg-white border border-slate-200 rounded-lg p-0.5">
+                          <div className="flex items-center gap-1 bg-white border border-stone-200 rounded-lg p-0.5">
                             <button
                               type="button"
                               onClick={() => handleUpdateAllocationCount(alloc.id, -1)}
-                              className="w-6 h-6 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold flex items-center justify-center cursor-pointer"
+                              className="w-6 h-6 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs font-bold flex items-center justify-center cursor-pointer"
                             >
                               <Minus className="w-3 h-3" />
                             </button>
-                            <span className="w-12 text-center text-xs font-bold font-mono text-slate-900">
+                            <span className="w-12 text-center text-xs font-bold font-mono text-stone-900">
                               {alloc.count} Qs
                             </span>
                             <button
                               type="button"
                               onClick={() => handleUpdateAllocationCount(alloc.id, 1)}
-                              className="w-6 h-6 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold flex items-center justify-center cursor-pointer"
+                              className="w-6 h-6 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs font-bold flex items-center justify-center cursor-pointer"
                             >
                               <Plus className="w-3 h-3" />
                             </button>
                           </div>
 
-                          <span className="text-[11px] font-mono text-slate-500 w-16 text-right">
+                          <span className="text-[11px] font-mono text-stone-500 w-16 text-right">
                             {alloc.count * 4} Marks
                           </span>
 
                           <button
                             type="button"
                             onClick={() => handleRemoveAllocation(alloc.id)}
-                            className="p-1.5 text-slate-400 hover:text-rose-600 rounded-lg hover:bg-rose-50 transition cursor-pointer"
+                            className="p-1.5 text-stone-400 hover:text-rose-600 rounded-lg hover:bg-rose-50 transition cursor-pointer"
                             title="Remove this topic from test"
                           >
                             <X className="w-4 h-4" />
@@ -1199,12 +1199,12 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                   </div>
 
                   {/* Add Topic Bar */}
-                  <div className="flex flex-wrap items-center gap-4 pt-2 border-t border-slate-100">
+                  <div className="flex flex-wrap items-center gap-4 pt-2 border-t border-stone-100">
                     <div className="flex-1 min-w-[200px]">
                       <select
                         value={newAllocChapter}
                         onChange={e => setNewAllocChapter(e.target.value)}
-                        className="w-full p-3 text-xs bg-slate-50 border border-slate-300 rounded-xl font-semibold"
+                        className="w-full p-3 text-xs bg-stone-50 border border-stone-300 rounded-xl font-semibold"
                       >
                         <optgroup label="⚡ Physics">
                           {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -1225,16 +1225,16 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                         max={45}
                         value={newAllocCount}
                         onChange={e => setNewAllocCount(Math.max(1, Math.min(45, parseInt(e.target.value) || 1)))}
-                        className="w-16 p-3 bg-slate-50 border border-slate-300 rounded-xl text-xs font-bold font-mono text-center"
+                        className="w-16 p-3 bg-stone-50 border border-stone-300 rounded-xl text-xs font-bold font-mono text-center"
                         title="Number of questions to allocate"
                       />
-                      <span className="text-xs text-slate-500 font-semibold">Qs</span>
+                      <span className="text-xs text-stone-500 font-semibold">Qs</span>
                     </div>
 
                     <button
                       type="button"
                       onClick={() => handleAddAllocation(newAllocChapter, newAllocCount)}
-                      className="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 cursor-pointer shadow-xs"
+                      className="px-4 py-2 bg-stone-900 hover:bg-stone-800 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 cursor-pointer shadow-xs"
                     >
                       <Plus className="w-3.5 h-3.5" />
                       <span>Add Topic</span>
@@ -1243,12 +1243,12 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 </div>
 
                 {/* Multi-Topic Action Card */}
-                <div className="p-5 rounded-xl bg-gradient-to-r from-orange-50 via-indigo-50 to-purple-50 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="p-5 rounded-xl bg-gradient-to-r from-orange-50 via-rose-50 to-purple-50 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-4">
                   <div className="space-y-1 text-xs text-center sm:text-left">
-                    <div className="text-gray-900 font-bold text-sm">
+                    <div className="text-stone-900 font-bold text-sm">
                       Multi-Topic Custom Test ({topicAllocations.length} Topics Selected)
                     </div>
-                    <div className="text-gray-600 font-mono">
+                    <div className="text-stone-600 font-mono">
                       {topicAllocations.reduce((acc, a) => acc + a.count, 0)} Questions • {topicAllocations.reduce((acc, a) => acc + a.count, 0) * 4} Marks • {Math.max(15, topicAllocations.reduce((acc, a) => acc + a.count, 0))} Minutes
                     </div>
                   </div>
@@ -1257,16 +1257,16 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     <button
                       type="button"
                       onClick={() => handleExportCustomPdf(false)}
-                      className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
+                      className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-white hover:bg-stone-100 text-stone-800 font-bold text-xs border border-stone-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
                     >
-                      <Printer className="w-4 h-4 text-gray-600" />
+                      <Printer className="w-4 h-4 text-stone-600" />
                       <span>Export Paper</span>
                     </button>
 
                     <button
                       type="button"
                       onClick={() => handleExportCustomPdf(true)}
-                      className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
+                      className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-white hover:bg-stone-100 text-stone-800 font-bold text-xs border border-stone-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
                     >
                       <FileText className="w-4 h-4 text-emerald-600" />
                       <span>Paper + Solutions</span>
@@ -1291,10 +1291,10 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             {generatorMode === 'single' && (
               <div className="space-y-4">
                 {/* Builder Configuration Form */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 bg-white p-6 rounded-xl border border-gray-200 shadow-2xs">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 bg-white p-6 rounded-xl border border-stone-200 shadow-2xs">
                   {/* Subject Selector */}
                   <div className="space-y-1">
-                    <label className="text-[10px] font-bold text-gray-500 uppercase">1. Select Subject</label>
+                    <label className="text-[10px] font-bold text-stone-500 uppercase">1. Select Subject</label>
                     <select
                       value={customSubject}
                       onChange={e => {
@@ -1304,7 +1304,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                         else if (sub === 'Chemistry') setCustomChapter(chemistryChapters[0]);
                         else setCustomChapter(physicsChapters[0]);
                       }}
-                      className="w-full p-3.5 rounded-lg bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-orange-500 font-semibold"
+                      className="w-full p-3.5 rounded-lg bg-stone-50 border border-stone-300 text-xs text-stone-900 focus:bg-white focus:border-orange-500 font-semibold"
                     >
                       <option value="Biology">🧬 Biology (All 38 Chapters)</option>
                       <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
@@ -1314,11 +1314,11 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
                   {/* Chapter Selector */}
                   <div className="space-y-1">
-                    <label className="text-[10px] font-bold text-gray-500 uppercase">2. Select Chapter ({currentChapterList.length} Units)</label>
+                    <label className="text-[10px] font-bold text-stone-500 uppercase">2. Select Chapter ({currentChapterList.length} Units)</label>
                     <select
                       value={customChapter}
                       onChange={e => setCustomChapter(e.target.value)}
-                      className="w-full p-3.5 rounded-lg bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-orange-500 font-semibold"
+                      className="w-full p-3.5 rounded-lg bg-stone-50 border border-stone-300 text-xs text-stone-900 focus:bg-white focus:border-orange-500 font-semibold"
                     >
                       {currentChapterList.map((ch, idx) => (
                         <option key={idx} value={ch}>
@@ -1331,7 +1331,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                   {/* Difficulty Standard (Multi-Select Support) */}
                   <div className="space-y-1">
                     <div className="flex items-center justify-between">
-                      <label className="text-[10px] font-bold text-gray-500 uppercase">3. Difficulty Standards (Select 1 or More)</label>
+                      <label className="text-[10px] font-bold text-stone-500 uppercase">3. Difficulty Standards (Select 1 or More)</label>
                       <span className="text-[10px] font-semibold text-orange-600 bg-orange-50 px-1.5 py-0.5 rounded border border-orange-100">
                         {customDifficulties.length} Selected
                       </span>
@@ -1352,18 +1352,18 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                             className={`p-3 rounded-lg text-left border transition-all cursor-pointer flex flex-col justify-between ${
                               isSelected
                                 ? 'bg-orange-50/90 border-orange-500 ring-1 ring-orange-500/30 text-orange-900 shadow-2xs'
-                                : 'bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100 hover:border-gray-300'
+                                : 'bg-stone-50 border-stone-200 text-stone-600 hover:bg-stone-100 hover:border-stone-300'
                             }`}
                           >
                             <div className="flex items-center justify-between w-full">
                               <span className="text-xs font-bold">{item.id}</span>
                               <span className={`w-3.5 h-3.5 rounded-full flex items-center justify-center text-[9px] font-bold ${
-                                isSelected ? 'bg-orange-600 text-white' : 'border border-gray-300 bg-white'
+                                isSelected ? 'bg-orange-600 text-white' : 'border border-stone-300 bg-white'
                               }`}>
                                 {isSelected ? '✓' : ''}
                               </span>
                             </div>
-                            <span className="text-[9px] text-gray-500 mt-0.5">{item.desc}</span>
+                            <span className="text-[9px] text-stone-500 mt-0.5">{item.desc}</span>
                           </button>
                         );
                       })}
@@ -1372,7 +1372,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
                   {/* Questions Count Preset */}
                   <div className="space-y-1">
-                    <label className="text-[10px] font-bold text-gray-500 uppercase">4. Number of Questions</label>
+                    <label className="text-[10px] font-bold text-stone-500 uppercase">4. Number of Questions</label>
                     <div className="grid grid-cols-4 gap-1.5">
                       {[15, 30, 45, 90].map(cnt => (
                         <button
@@ -1385,7 +1385,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                           className={`py-2 rounded-lg text-xs font-bold font-mono transition-colors cursor-pointer ${
                             customQCount === cnt
                               ? 'bg-orange-600 text-white shadow-xs'
-                              : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                              : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                           }`}
                         >
                           {cnt} Qs
@@ -1396,7 +1396,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
                   {/* Duration Preset */}
                   <div className="space-y-1">
-                    <label className="text-[10px] font-bold text-gray-500 uppercase">5. Allotted Time Limit</label>
+                    <label className="text-[10px] font-bold text-stone-500 uppercase">5. Allotted Time Limit</label>
                     <div className="grid grid-cols-4 gap-1.5">
                       {[15, 30, 45, 90].map(mins => (
                         <button
@@ -1406,7 +1406,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                           className={`py-2 rounded-lg text-xs font-bold font-mono transition-colors cursor-pointer ${
                             customDuration === mins
                               ? 'bg-purple-600 text-white shadow-xs'
-                              : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                              : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                           }`}
                         >
                           {mins} Mins
@@ -1417,8 +1417,8 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
                   {/* Bank Pool Telemetry */}
                   <div className="space-y-1">
-                    <label className="text-[10px] font-bold text-gray-500 uppercase">6. Question Pool Health</label>
-                    <div className="p-3 rounded-lg bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
+                    <label className="text-[10px] font-bold text-stone-500 uppercase">6. Question Pool Health</label>
+                    <div className="p-3 rounded-lg bg-stone-50 border border-stone-200 text-xs font-mono font-semibold text-stone-800 flex items-center justify-between">
                       <span>Available: <strong className="text-emerald-700">{currentPoolStats.remainingUnused}</strong></span>
                       <span>Total Unit: <strong className="text-orange-700">{currentPoolStats.totalInBank}</strong></span>
                     </div>
@@ -1426,14 +1426,14 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 </div>
 
                 {/* Test Actions & Launchers */}
-                <div className="p-5 rounded-xl bg-gradient-to-r from-orange-50 via-indigo-50 to-purple-50 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="p-5 rounded-xl bg-gradient-to-r from-orange-50 via-rose-50 to-purple-50 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-4">
                   <div className="space-y-1 text-xs">
-                    <div className="text-gray-900 font-bold text-sm">
+                    <div className="text-stone-900 font-bold text-sm">
                       Configured Test: {customSubject} &bull; {customChapter}
                     </div>
-                    <div className="text-gray-600 font-mono">
+                    <div className="text-stone-600 font-mono">
                       {customQCount} Questions &bull; {customQCount * 4} Marks &bull; {customDuration} Minutes &bull; Level:{' '}
-                      <span className="text-indigo-700 font-bold">{customDifficulties.join(' + ')}</span>
+                      <span className="text-rose-700 font-bold">{customDifficulties.join(' + ')}</span>
                     </div>
                   </div>
 
@@ -1441,9 +1441,9 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     <button
                       type="button"
                       onClick={() => handleExportCustomPdf(false)}
-                      className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer"
+                      className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-white hover:bg-stone-100 text-stone-800 font-bold text-xs border border-stone-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer"
                     >
-                      <Printer className="w-4 h-4 text-gray-600" />
+                      <Printer className="w-4 h-4 text-stone-600" />
                       <span>Export Test PDF</span>
                     </button>
 
@@ -1481,13 +1481,13 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
         {/* TAB 3: QUESTION BANK & REMAINING TEST DATA INVENTORY (ADMIN ONLY) */}
         {/* ========================================================================= */}
         {adminTab === 'inventory' && (
-          <div className="flex-1 flex flex-col overflow-hidden bg-slate-50">
+          <div className="flex-1 flex flex-col overflow-hidden bg-stone-50">
             {/* Top Inventory Controls & KPI Header */}
-            <div className="p-6 sm:p-5 bg-white border-b border-gray-200">
+            <div className="p-6 sm:p-5 bg-white border-b border-stone-200">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-4">
                 <div>
                   <div className="flex items-center space-x-2">
-                    <h3 className="text-base font-bold text-slate-900 flex items-center gap-4">
+                    <h3 className="text-base font-bold text-stone-900 flex items-center gap-4">
                       <Database className="w-5 h-5 text-orange-600" />
                       <span>Remaining Test Data & Question Bank Telemetry</span>
                     </h3>
@@ -1495,7 +1495,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                       ADMIN ONLY
                     </span>
                   </div>
-                  <p className="text-xs text-slate-500 mt-0.5">
+                  <p className="text-xs text-stone-500 mt-0.5">
                     Real-time audit of total master questions, student consumption rates, remaining pool availability, and Planner Mock test series capacity.
                   </p>
                 </div>
@@ -1503,7 +1503,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 <div className="flex items-center space-x-2 shrink-0">
                   <button
                     onClick={handleAuditAndNotifyAdmin}
-                    className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-orange-600 to-indigo-600 hover:from-orange-700 hover:to-indigo-700 text-white text-xs font-bold shadow-xs flex items-center space-x-1.5 transition cursor-pointer"
+                    className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-orange-600 to-rose-600 hover:from-orange-700 hover:to-rose-700 text-white text-xs font-bold shadow-xs flex items-center space-x-1.5 transition cursor-pointer"
                   >
                     <Bell className="w-3.5 h-3.5" />
                     <span>Audit & Dispatch Alert</span>
@@ -1511,10 +1511,10 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
                   <button
                     onClick={handleResetAllConsumption}
-                    className="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer"
+                    className="px-3.5 py-2 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300 text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer"
                     title="Reset all consumption history across chapters"
                   >
-                    <RefreshCw className="w-3.5 h-3.5 text-slate-500" />
+                    <RefreshCw className="w-3.5 h-3.5 text-stone-500" />
                     <span>Reset All</span>
                   </button>
                 </div>
@@ -1522,26 +1522,26 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
               {/* KPI Cards */}
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-                <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
-                  <div className="flex items-center justify-between text-[11px] font-bold text-slate-500 uppercase">
+                <div className="p-3.5 bg-stone-50 border border-stone-200 rounded-xl">
+                  <div className="flex items-center justify-between text-[11px] font-bold text-stone-500 uppercase">
                     <span>Total Question Bank</span>
                     <Database className="w-4 h-4 text-orange-600" />
                   </div>
-                  <div className="text-xl sm:text-2xl font-black text-slate-900 font-mono mt-1">
+                  <div className="text-xl sm:text-2xl font-black text-stone-900 font-mono mt-1">
                     {inventoryTelemetry.totalBankQuestions.toLocaleString()}
                   </div>
-                  <p className="text-[10px] text-slate-400 mt-0.5">Across PCB Syllabus</p>
+                  <p className="text-[10px] text-stone-400 mt-0.5">Across PCB Syllabus</p>
                 </div>
 
-                <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
-                  <div className="flex items-center justify-between text-[11px] font-bold text-slate-500 uppercase">
+                <div className="p-3.5 bg-stone-50 border border-stone-200 rounded-xl">
+                  <div className="flex items-center justify-between text-[11px] font-bold text-stone-500 uppercase">
                     <span>Consumed by Students</span>
                     <Activity className="w-4 h-4 text-amber-600" />
                   </div>
                   <div className="text-xl sm:text-2xl font-black text-amber-700 font-mono mt-1">
                     {inventoryTelemetry.totalConsumed.toLocaleString()}
                   </div>
-                  <p className="text-[10px] text-slate-400 mt-0.5">Attempted in Practice/Tests</p>
+                  <p className="text-[10px] text-stone-400 mt-0.5">Attempted in Practice/Tests</p>
                 </div>
 
                 <div className="p-3.5 bg-emerald-50/70 border border-emerald-200 rounded-xl">
@@ -1580,20 +1580,20 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               {/* Subject Breakdown Cards */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-3">
                 {inventoryTelemetry.subjectBreakdown.map((sb, idx) => (
-                  <div key={idx} className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
+                  <div key={idx} className="p-3 rounded-xl bg-white border border-stone-200 shadow-2xs">
                     <div className="flex items-center justify-between">
-                      <span className="font-bold text-xs text-slate-800">
+                      <span className="font-bold text-xs text-stone-800">
                         {sb.subject === 'Biology' ? '🧬 Biology' : sb.subject === 'Chemistry' ? '🧪 Chemistry' : '⚡ Physics'}
                       </span>
                       <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-orange-50 text-orange-700 border border-orange-200">
                         {sb.percent}% Avail
                       </span>
                     </div>
-                    <div className="flex items-center justify-between text-xs mt-2 font-mono text-slate-600">
+                    <div className="flex items-center justify-between text-xs mt-2 font-mono text-stone-600">
                       <span>Total: <strong>{sb.total.toLocaleString()}</strong></span>
                       <span>Remaining: <strong className="text-emerald-700">{sb.remaining.toLocaleString()}</strong></span>
                     </div>
-                    <div className="w-full bg-slate-100 rounded-full h-1.5 mt-2 overflow-hidden">
+                    <div className="w-full bg-stone-100 rounded-full h-1.5 mt-2 overflow-hidden">
                       <div
                         className={`h-full rounded-full ${
                           sb.percent >= 50 ? 'bg-emerald-500' : sb.percent >= 20 ? 'bg-amber-500' : 'bg-rose-500'
@@ -1607,7 +1607,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             </div>
 
             {/* Filter & Search Bar */}
-            <div className="p-3.5 bg-slate-100 border-b border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4.5">
+            <div className="p-3.5 bg-stone-100 border-b border-stone-200 flex flex-col sm:flex-row items-center justify-between gap-4.5">
               <div className="flex items-center space-x-1.5 w-full sm:w-auto">
                 {(['All', 'Biology', 'Chemistry', 'Physics'] as const).map(sub => (
                   <button
@@ -1616,7 +1616,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
                       inventorySubjectFilter === sub
                         ? 'bg-orange-600 text-white shadow-2xs'
-                        : 'bg-white text-slate-700 hover:bg-slate-200 border border-slate-200'
+                        : 'bg-white text-stone-700 hover:bg-stone-200 border border-stone-200'
                     }`}
                   >
                     {sub}
@@ -1625,22 +1625,22 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               </div>
 
               <div className="relative w-full sm:w-72">
-                <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-2.5" />
+                <Search className="w-3.5 h-3.5 text-stone-400 absolute left-3 top-2.5" />
                 <input
                   type="text"
                   value={inventorySearch}
                   onChange={e => setInventorySearch(e.target.value)}
                   placeholder="Search chapter inventory..."
-                  className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-white border border-slate-300 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-orange-500 font-medium"
+                  className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-white border border-stone-300 text-xs text-stone-800 placeholder-stone-400 focus:outline-none focus:border-orange-500 font-medium"
                 />
               </div>
             </div>
 
             {/* Chapter Breakdown Table */}
             <div className="flex-1 overflow-y-auto p-6">
-              <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-2xs">
+              <div className="bg-white border border-stone-200 rounded-xl overflow-hidden shadow-2xs">
                 <table className="w-full text-left text-xs">
-                  <thead className="bg-slate-100/80 border-b border-gray-200 text-slate-600 font-bold uppercase text-[10px] tracking-wider">
+                  <thead className="bg-stone-100/80 border-b border-stone-200 text-stone-600 font-bold uppercase text-[10px] tracking-wider">
                     <tr>
                       <th className="py-2.5 px-3.5">Subject</th>
                       <th className="py-2.5 px-3.5">Chapter Unit</th>
@@ -1651,7 +1651,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                       <th className="py-2.5 px-3 text-right">Admin Action</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-slate-100 font-medium text-slate-800">
+                  <tbody className="divide-y divide-stone-100 font-medium text-stone-800">
                     {inventoryTelemetry.chapterInventory
                       .filter(item => {
                         if (inventorySubjectFilter !== 'All' && item.subject !== inventorySubjectFilter) return false;
@@ -1661,7 +1661,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                         return true;
                       })
                       .map((item, idx) => (
-                        <tr key={idx} className="hover:bg-slate-50 transition">
+                        <tr key={idx} className="hover:bg-stone-50 transition">
                           <td className="py-2 px-3.5 font-bold">
                             <span className={`px-2 py-0.5 rounded text-[10px] ${
                               item.subject === 'Biology'
@@ -1673,10 +1673,10 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                               {item.subject}
                             </span>
                           </td>
-                          <td className="py-2 px-3.5 font-semibold text-slate-900">
+                          <td className="py-2 px-3.5 font-semibold text-stone-900">
                             {item.chapter}
                           </td>
-                          <td className="py-2 px-3 text-center font-mono font-bold text-slate-700">
+                          <td className="py-2 px-3 text-center font-mono font-bold text-stone-700">
                             {item.totalInBank}
                           </td>
                           <td className="py-2 px-3 text-center font-mono text-amber-700">
@@ -1699,7 +1699,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                           <td className="py-2 px-3 text-right">
                             <button
                               onClick={() => handleResetSpecificChapter(item.subject, item.chapter)}
-                              className="px-2 py-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 text-[10px] font-semibold border border-slate-200 transition cursor-pointer"
+                              className="px-2 py-1 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 text-[10px] font-semibold border border-stone-200 transition cursor-pointer"
                               title="Reset consumption for this chapter"
                             >
                               Reset Unit
@@ -1720,54 +1720,54 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
         {adminTab === 'telemetry' && (
           <div className="flex-1 flex flex-col overflow-hidden">
             {/* Top Summary Metrics Cards */}
-            <div className="p-6 sm:p-5 bg-slate-50 border-b border-gray-200 grid grid-cols-2 sm:grid-cols-4 gap-3">
-              <div className="p-3 bg-white rounded-xl border border-gray-200 shadow-2xs">
-                <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 uppercase">
+            <div className="p-6 sm:p-5 bg-stone-50 border-b border-stone-200 grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <div className="p-3 bg-white rounded-xl border border-stone-200 shadow-2xs">
+                <div className="flex items-center justify-between text-[11px] font-bold text-stone-500 uppercase">
                   <span>Total Volume</span>
                   <HardDrive className="w-4 h-4 text-orange-600" />
                 </div>
                 <div className="text-xl sm:text-2xl font-black text-orange-700 font-mono mt-1">
                   {metrics.totalVolumeFormatted}
                 </div>
-                <p className="text-[10px] text-gray-400 mt-0.5 font-medium">Content Downloaded</p>
+                <p className="text-[10px] text-stone-400 mt-0.5 font-medium">Content Downloaded</p>
               </div>
 
-              <div className="p-3 bg-white rounded-xl border border-gray-200 shadow-2xs">
-                <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 uppercase">
+              <div className="p-3 bg-white rounded-xl border border-stone-200 shadow-2xs">
+                <div className="flex items-center justify-between text-[11px] font-bold text-stone-500 uppercase">
                   <span>Total Downloads</span>
                   <ArrowDownToLine className="w-4 h-4 text-emerald-600" />
                 </div>
                 <div className="text-xl sm:text-2xl font-black text-emerald-700 font-mono mt-1">
                   {metrics.totalDownloads}
                 </div>
-                <p className="text-[10px] text-gray-400 mt-0.5 font-medium">Verified PDF Actions</p>
+                <p className="text-[10px] text-stone-400 mt-0.5 font-medium">Verified PDF Actions</p>
               </div>
 
-              <div className="p-3 bg-white rounded-xl border border-gray-200 shadow-2xs">
-                <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 uppercase">
+              <div className="p-3 bg-white rounded-xl border border-stone-200 shadow-2xs">
+                <div className="flex items-center justify-between text-[11px] font-bold text-stone-500 uppercase">
                   <span>Active Students</span>
                   <Users className="w-4 h-4 text-purple-600" />
                 </div>
                 <div className="text-xl sm:text-2xl font-black text-purple-700 font-mono mt-1">
                   {metrics.uniqueStudents}
                 </div>
-                <p className="text-[10px] text-gray-400 mt-0.5 font-medium">With Verified Phone/Email</p>
+                <p className="text-[10px] text-stone-400 mt-0.5 font-medium">With Verified Phone/Email</p>
               </div>
 
-              <div className="p-3 bg-white rounded-xl border border-gray-200 shadow-2xs">
-                <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 uppercase">
+              <div className="p-3 bg-white rounded-xl border border-stone-200 shadow-2xs">
+                <div className="flex items-center justify-between text-[11px] font-bold text-stone-500 uppercase">
                   <span>Unread Alerts</span>
                   <Bell className="w-4 h-4 text-amber-500" />
                 </div>
                 <div className="text-xl sm:text-2xl font-black text-amber-700 font-mono mt-1">
                   {metrics.unreadCount}
                 </div>
-                <p className="text-[10px] text-gray-400 mt-0.5 font-medium">New Notifications</p>
+                <p className="text-[10px] text-stone-400 mt-0.5 font-medium">New Notifications</p>
               </div>
             </div>
 
             {/* Filter & Action Toolbar */}
-            <div className="p-3 sm:p-6 border-b border-gray-200 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4.5 bg-white">
+            <div className="p-3 sm:p-6 border-b border-stone-200 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4.5 bg-white">
               <div className="flex flex-wrap items-center gap-1.5">
                 {['All', 'Test Paper', 'Book', 'Scorecard', 'DPP'].map(cat => (
                   <button
@@ -1776,7 +1776,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
                       categoryFilter === cat
                         ? 'bg-orange-600 text-white shadow-xs'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                        : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                     }`}
                   >
                     {cat === 'All' ? 'All Alerts' : cat}
@@ -1786,19 +1786,19 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
               <div className="flex items-center space-x-2">
                 <div className="relative flex-1 sm:w-60">
-                  <Search className="absolute left-2.5 top-2 w-3.5 h-3.5 text-gray-400" />
+                  <Search className="absolute left-2.5 top-2 w-3.5 h-3.5 text-stone-400" />
                   <input
                     type="text"
                     placeholder="Search student, phone, or title..."
                     value={searchQuery}
                     onChange={e => setSearchQuery(e.target.value)}
-                    className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-orange-500"
+                    className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:outline-none focus:border-orange-500"
                   />
                 </div>
 
                 <button
                   onClick={handleMarkAllRead}
-                  className="px-2.5 py-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold flex items-center space-x-1 border border-gray-200 transition cursor-pointer"
+                  className="px-2.5 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs font-semibold flex items-center space-x-1 border border-stone-200 transition cursor-pointer"
                   title="Mark All as Read"
                 >
                   <CheckCheck className="w-3.5 h-3.5 text-emerald-600" />
@@ -1817,7 +1817,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 {notifications.length > 0 && (
                   <button
                     onClick={handleClear}
-                    className="p-1.5 rounded-lg bg-gray-100 hover:bg-rose-50 text-gray-400 hover:text-rose-600 border border-gray-200 transition cursor-pointer"
+                    className="p-1.5 rounded-lg bg-stone-100 hover:bg-rose-50 text-stone-400 hover:text-rose-600 border border-stone-200 transition cursor-pointer"
                     title="Clear All Notifications"
                   >
                     <Trash2 className="w-4 h-4" />
@@ -1837,7 +1837,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     <div
                       key={item.id}
                       className={`p-3.5 sm:p-6 rounded-xl border transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs ${
-                        !item.read ? 'bg-white border-orange-300 ring-1 ring-orange-100' : 'bg-white border-gray-200'
+                        !item.read ? 'bg-white border-orange-300 ring-1 ring-orange-100' : 'bg-white border-stone-200'
                       }`}
                     >
                       <div className="flex items-start space-x-3 min-w-0">
@@ -1855,8 +1855,8 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                                 NEW
                               </span>
                             )}
-                            <span className="text-[11px] text-gray-500 font-mono flex items-center space-x-1">
-                              <Calendar className="w-3 h-3 text-gray-400" />
+                            <span className="text-[11px] text-stone-500 font-mono flex items-center space-x-1">
+                              <Calendar className="w-3 h-3 text-stone-400" />
                               <span>{new Date(item.timestamp).toLocaleString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
                             </span>
                             <span
@@ -1867,7 +1867,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                             </span>
                           </div>
 
-                          <h4 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug">
+                          <h4 className="text-xs sm:text-sm font-bold text-stone-900 leading-snug">
                             {item.contentTitle}
                           </h4>
 
@@ -1881,8 +1881,8 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                               <Phone className="w-3 h-3 text-emerald-600" />
                               <span>{item.userPhone}</span>
                             </span>
-                            <span className="inline-flex items-center space-x-1 text-gray-500 font-mono text-[11px]">
-                              <Mail className="w-3 h-3 text-gray-400" />
+                            <span className="inline-flex items-center space-x-1 text-stone-500 font-mono text-[11px]">
+                              <Mail className="w-3 h-3 text-stone-400" />
                               <span>{item.userEmail}</span>
                             </span>
                           </div>
@@ -1903,8 +1903,8 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     <Bell className="w-6 h-6" />
                   </div>
                   <div className="space-y-0.5">
-                    <h3 className="text-sm font-bold text-gray-900">No Super User download alerts at this time</h3>
-                    <p className="text-xs text-gray-500">
+                    <h3 className="text-sm font-bold text-stone-900">No Super User download alerts at this time</h3>
+                    <p className="text-xs text-stone-500">
                       When students download test papers, NCERT books, scorecards, or DPPs, records stream here in real-time.
                     </p>
                   </div>
@@ -1919,30 +1919,30 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
         {/* ========================================================================= */}
         {adminTab === 'students' && (
           <div className="flex-1 p-6 sm:p-6 overflow-y-auto space-y-4 bg-[#f8fafc]">
-            <div className="flex items-center justify-between pb-3 border-b border-gray-200">
+            <div className="flex items-center justify-between pb-3 border-b border-stone-200">
               <div>
-                <h3 className="text-base font-bold text-gray-900 flex items-center space-x-2">
+                <h3 className="text-base font-bold text-stone-900 flex items-center space-x-2">
                   <Users className="w-4 h-4 text-orange-600" />
                   <span>Enrolled Student Database & Test Access Control</span>
                 </h3>
-                <p className="text-xs text-gray-500 mt-0.5">
+                <p className="text-xs text-stone-500 mt-0.5">
                   Real-time database of registered candidates with category, domicile state, contact numbers, and Sunday test authorizations.
                 </p>
               </div>
             </div>
 
             {/* Institutional Test Access Management Master Card */}
-            <div className="bg-gradient-to-r from-orange-900 via-indigo-900 to-slate-900 p-5 rounded-2xl text-white shadow-md space-y-4">
+            <div className="bg-gradient-to-r from-orange-900 via-rose-900 to-stone-900 p-5 rounded-2xl text-white shadow-md space-y-4">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-3">
                 <div className="space-y-0.5">
                   <div className="flex items-center space-x-2">
-                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-amber-400 text-slate-900 uppercase">
+                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-amber-400 text-stone-900 uppercase">
                       Admin Access Authority
                     </span>
                     <span className="text-xs text-orange-200 font-mono">Test Series Master Switch</span>
                   </div>
                   <h4 className="text-base font-bold text-white mt-1 flex items-center gap-4">
-                    <ShieldCheck className="w-5 h-5 text-cyan-300" />
+                    <ShieldCheck className="w-5 h-5 text-teal-300" />
                     <span>Institution Sunday Test Series Authorization</span>
                   </h4>
                 </div>
@@ -1994,20 +1994,20 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             </div>
 
             {enrolledStudent ? (
-              <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-2xs space-y-4">
-                <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-gray-100">
+              <div className="bg-white p-5 rounded-xl border border-stone-200 shadow-2xs space-y-4">
+                <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-stone-100">
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-orange-600 to-indigo-600 text-white font-black text-base flex items-center justify-center shadow-xs">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-orange-600 to-rose-600 text-white font-black text-base flex items-center justify-center shadow-xs">
                       {enrolledStudent.studentName?.charAt(0) || 'S'}
                     </div>
                     <div>
                       <div className="flex items-center space-x-2">
-                        <h4 className="text-base font-bold text-gray-900">{enrolledStudent.studentName}</h4>
+                        <h4 className="text-base font-bold text-stone-900">{enrolledStudent.studentName}</h4>
                         <span className="px-2 py-0.5 rounded bg-orange-100 text-orange-800 text-[10px] font-bold">
                           {enrolledStudent.caste || 'General / Open'}
                         </span>
                       </div>
-                      <p className="text-xs text-gray-500 font-mono">
+                      <p className="text-xs text-stone-500 font-mono">
                         Roll: {enrolledStudent.rollNumber} &bull; Target: {enrolledStudent.targetExam || 'NEET (UG)'} {enrolledStudent.targetYear || '2027'}
                       </p>
                     </div>
@@ -2026,39 +2026,39 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
-                  <div className="p-3 bg-gray-50 rounded-lg border border-gray-200">
-                    <div className="text-[10px] uppercase font-bold text-gray-500">Student Contact</div>
-                    <div className="font-mono font-bold text-gray-900 mt-0.5">+91 {enrolledStudent.studentPhone}</div>
+                  <div className="p-3 bg-stone-50 rounded-lg border border-stone-200">
+                    <div className="text-[10px] uppercase font-bold text-stone-500">Student Contact</div>
+                    <div className="font-mono font-bold text-stone-900 mt-0.5">+91 {enrolledStudent.studentPhone}</div>
                   </div>
 
-                  <div className="p-3 bg-gray-50 rounded-lg border border-gray-200">
-                    <div className="text-[10px] uppercase font-bold text-gray-500">Parent / Emergency Phone</div>
+                  <div className="p-3 bg-stone-50 rounded-lg border border-stone-200">
+                    <div className="text-[10px] uppercase font-bold text-stone-500">Parent / Emergency Phone</div>
                     <div className="font-mono font-bold text-emerald-800 mt-0.5">+91 {enrolledStudent.parentPhone || enrolledStudent.studentPhone}</div>
                   </div>
 
-                  <div className="p-3 bg-gray-50 rounded-lg border border-gray-200">
-                    <div className="text-[10px] uppercase font-bold text-gray-500">Parent Email ID</div>
-                    <div className="font-mono font-semibold text-gray-900 mt-0.5 truncate">{enrolledStudent.parentEmail || enrolledStudent.email}</div>
+                  <div className="p-3 bg-stone-50 rounded-lg border border-stone-200">
+                    <div className="text-[10px] uppercase font-bold text-stone-500">Parent Email ID</div>
+                    <div className="font-mono font-semibold text-stone-900 mt-0.5 truncate">{enrolledStudent.parentEmail || enrolledStudent.email}</div>
                   </div>
 
-                  <div className="p-3 bg-gray-50 rounded-lg border border-gray-200">
-                    <div className="text-[10px] uppercase font-bold text-gray-500">State Domicile (85% Quota)</div>
+                  <div className="p-3 bg-stone-50 rounded-lg border border-stone-200">
+                    <div className="text-[10px] uppercase font-bold text-stone-500">State Domicile (85% Quota)</div>
                     <div className="font-bold text-orange-700 mt-0.5">{enrolledStudent.domicileState || 'Maharashtra'}</div>
                   </div>
                 </div>
               </div>
             ) : (
-              <div className="text-center py-12 px-4 bg-white rounded-xl border border-gray-200 space-y-2">
-                <Users className="w-10 h-10 text-gray-400 mx-auto" />
-                <h4 className="text-sm font-bold text-gray-700">No Local Student Profile Enrolled</h4>
-                <p className="text-xs text-gray-500">Active students registering on this device will appear here.</p>
+              <div className="text-center py-12 px-4 bg-white rounded-xl border border-stone-200 space-y-2">
+                <Users className="w-10 h-10 text-stone-400 mx-auto" />
+                <h4 className="text-sm font-bold text-stone-700">No Local Student Profile Enrolled</h4>
+                <p className="text-xs text-stone-500">Active students registering on this device will appear here.</p>
               </div>
             )}
           </div>
         )}
 
         {/* Modal Footer */}
-        <div className="p-3 sm:p-6 border-t border-gray-200 bg-white flex items-center justify-between text-xs text-gray-500">
+        <div className="p-3 sm:p-6 border-t border-stone-200 bg-white flex items-center justify-between text-xs text-stone-500">
           <div className="flex items-center space-x-1.5 font-mono text-[11px]">
             <Activity className="w-3.5 h-3.5 text-green-600" />
             <span>Admin Control Sync: Online & Protected</span>
@@ -2066,7 +2066,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
           <button
             onClick={onClose}
-            className="px-4 py-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold text-xs transition cursor-pointer"
+            className="px-4 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-800 font-bold text-xs transition cursor-pointer"
           >
             Close Admin Panel
           </button>

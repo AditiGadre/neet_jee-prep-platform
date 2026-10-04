@@ -32,8 +32,8 @@ const SectionLoadingFallback = () => (
       <div className="absolute inset-0 rounded-full border-4 border-orange-200 animate-ping opacity-75"></div>
       <div className="w-12 h-12 rounded-full border-4 border-orange-600 border-t-transparent animate-spin"></div>
     </div>
-    <p className="text-sm font-semibold text-slate-700">Loading module...</p>
-    <p className="text-xs text-slate-400 mt-1">Preparing high-speed NCERT resources</p>
+    <p className="text-sm font-semibold text-stone-700">Loading module...</p>
+    <p className="text-xs text-stone-400 mt-1">Preparing high-speed NCERT resources</p>
   </div>
 );
 
@@ -546,10 +546,10 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-800 flex flex-col font-sans selection:bg-orange-600 selection:text-white">
+    <div className="min-h-screen bg-stone-100 text-stone-800 flex flex-col font-sans selection:bg-orange-600 selection:text-white">
       {/* Sign Out Confirmation Toast */}
       {signOutNotification && (
-        <div className="fixed bottom-5 right-5 z-50 bg-slate-900 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2.5 text-xs font-semibold animate-in fade-in slide-in-from-bottom-3 duration-200 border border-slate-700">
+        <div className="fixed bottom-5 right-5 z-50 bg-stone-900 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2.5 text-xs font-semibold animate-in fade-in slide-in-from-bottom-3 duration-200 border border-stone-700">
           <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
           <span>✓ Signed out successfully. Complete candidate enrollment below.</span>
         </div>
@@ -598,19 +598,19 @@ export default function App() {
 
       {/* ROUTE 1: Dedicated Standalone /about Page View */}
       {currentPath === '/about' ? (
-        <div className="flex-1 flex flex-col w-full bg-slate-100 min-h-[calc(100vh-3.5rem)] animate-in fade-in duration-150">
+        <div className="flex-1 flex flex-col w-full bg-stone-100 min-h-[calc(100vh-3.5rem)] animate-in fade-in duration-150">
           {/* Sub-header Navigation Strip */}
-          <div className="bg-white border-b border-slate-200 px-4 sm:px-8 py-3 flex items-center justify-between shadow-2xs">
+          <div className="bg-white border-b border-stone-200 px-4 sm:px-8 py-3 flex items-center justify-between shadow-2xs">
             <div className="flex items-center space-x-2">
               <button
                 type="button"
                 onClick={() => navigateTo('/')}
-                className="px-3.5 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-2xs"
+                className="px-3.5 py-1.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-800 text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-2xs"
               >
                 <span>← Back to Test Series & Sunday Mocks</span>
               </button>
-              <span className="text-slate-300">/</span>
-              <span className="text-xs font-semibold text-slate-500">About Platform</span>
+              <span className="text-stone-300">/</span>
+              <span className="text-xs font-semibold text-stone-500">About Platform</span>
             </div>
             <div className="hidden sm:flex items-center space-x-2 text-xs font-semibold text-orange-700 bg-orange-50 px-3 py-1 rounded-full border border-orange-200 font-mono">
               <span>https://neetcbtexam.com/about</span>
@@ -627,15 +627,15 @@ export default function App() {
             </Suspense>
 
             {/* Institutional Platform Footer on /about */}
-            <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4.5">
-              <div className="text-[11px] text-slate-500">
+            <footer className="mt-8 pt-4 pb-3 border-t border-stone-200/80 text-center text-xs text-stone-500 flex flex-col sm:flex-row items-center justify-between gap-4.5">
+              <div className="text-[11px] text-stone-500">
                 © 2026 NeetCbt Exam Test. Built exclusively for NEET-UG Exam Aspirants.
               </div>
               <div className="flex items-center space-x-3 text-[11px]">
                 <button
                   type="button"
                   onClick={() => navigateTo('/')}
-                  className="text-slate-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
+                  className="text-stone-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
                 >
                   ← Test Series Dashboard
                 </button>
@@ -643,14 +643,14 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => setIsTermsModalOpen(true)}
-                  className="text-slate-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
+                  className="text-stone-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
                 >
                   Terms & Conditions
                 </button>
                 <span>•</span>
-                <span className="text-slate-400">2-Device Protected</span>
+                <span className="text-stone-400">2-Device Protected</span>
                 <span>•</span>
-                <span className="text-slate-400">DOB PIN Encrypted</span>
+                <span className="text-stone-400">DOB PIN Encrypted</span>
               </div>
             </footer>
           </main>
@@ -668,7 +668,7 @@ export default function App() {
           />
 
           {/* Dynamic Content Area */}
-          <main className="flex-1 p-6 sm:p-5 lg:p-6 overflow-y-auto bg-slate-100 min-w-0">
+          <main className="flex-1 p-6 sm:p-5 lg:p-6 overflow-y-auto bg-stone-100 min-w-0">
             <Suspense fallback={<SectionLoadingFallback />}>
               {activeTab === 'test-series' && (
                 <TestSeriesSection
@@ -699,8 +699,8 @@ export default function App() {
             </Suspense>
 
             {/* Institutional Platform Footer */}
-            <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4.5">
-              <div className="text-[11px] text-slate-500">
+            <footer className="mt-8 pt-4 pb-3 border-t border-stone-200/80 text-center text-xs text-stone-500 flex flex-col sm:flex-row items-center justify-between gap-4.5">
+              <div className="text-[11px] text-stone-500">
                 © 2026 NeetCbt Exam Test. All rights reserved. Academic CBT Examination Simulator.
               </div>
               <div className="flex items-center space-x-3 text-[11px]">
@@ -710,7 +710,7 @@ export default function App() {
                     e.preventDefault();
                     navigateTo('/about');
                   }}
-                  className="text-slate-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
+                  className="text-stone-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
                 >
                   About Platform (NEET Aspirants)
                 </a>
@@ -718,14 +718,14 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => setIsTermsModalOpen(true)}
-                  className="text-slate-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
+                  className="text-stone-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
                 >
                   Terms & Conditions
                 </button>
                 <span>•</span>
-                <span className="text-slate-400">2-Device Protected</span>
+                <span className="text-stone-400">2-Device Protected</span>
                 <span>•</span>
-                <span className="text-slate-400">DOB PIN Encrypted</span>
+                <span className="text-stone-400">DOB PIN Encrypted</span>
               </div>
             </footer>
           </main>
@@ -805,8 +805,8 @@ export default function App() {
 
         {/* Super User & Admin Control Center (Custom Test Generator & Telemetry) */}
         {isSuperUserModalOpen && (
-          <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-150">
-            <div className="w-full max-w-6xl bg-slate-100 border border-slate-700 rounded-3xl shadow-2xl flex flex-col max-h-[96vh] text-gray-900 relative animate-in zoom-in-95 duration-150 overflow-hidden">
+          <div className="fixed inset-0 z-50 bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-150">
+            <div className="w-full max-w-6xl bg-stone-100 border border-stone-700 rounded-3xl shadow-2xl flex flex-col max-h-[96vh] text-stone-900 relative animate-in zoom-in-95 duration-150 overflow-hidden">
               <div className="flex-1 overflow-y-auto p-3 sm:p-5">
                 <ErrorBoundary
                   fallbackTitle="Admin & Faculty Studio Session"

@@ -2421,7 +2421,7 @@ export const EM_WAVES_QUESTIONS: Question[] = [
       "Mesosphere"
     ],
     "correctAnswer": 0,
-    "explanation": "The ionosphere contains free electrons and ions that refract and reflect sky-wave radio frequencies below the critical plasma frequency (~ 30 MHz).",
+    "explanation": "The ionosphere contains free electrons and ions that refract and reflect orange-wave radio frequencies below the critical plasma frequency (~ 30 MHz).",
     "tags": [
       "Electromagnetic Waves",
       "Electromagnetic Waves (EM Waves)"

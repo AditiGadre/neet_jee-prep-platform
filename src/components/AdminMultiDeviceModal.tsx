@@ -87,16 +87,16 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
   const isAtLimit = activeCount >= 3;
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
-      <div className="bg-slate-900 border border-slate-700/80 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden text-slate-100 animate-in zoom-in-95 duration-200">
+    <div className="fixed inset-0 z-50 bg-stone-950/85 backdrop-blur-md flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
+      <div className="bg-stone-900 border border-stone-700/80 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden text-stone-100 animate-in zoom-in-95 duration-200">
         
         {/* Header */}
-        <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 p-5 border-b border-slate-800 flex items-center justify-between">
+        <div className="bg-gradient-to-r from-stone-900 via-rose-950 to-stone-900 p-5 border-b border-stone-800 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className={`w-10 h-10 rounded-2xl flex items-center justify-center shadow-lg ${
               isConflictPrompt
                 ? 'bg-gradient-to-tr from-amber-500 to-rose-600 shadow-rose-500/20'
-                : 'bg-gradient-to-tr from-orange-500 to-indigo-600 shadow-indigo-500/20'
+                : 'bg-gradient-to-tr from-orange-500 to-rose-600 shadow-rose-500/20'
             }`}>
               {isConflictPrompt ? (
                 <ShieldAlert className="w-5 h-5 text-white" />
@@ -106,7 +106,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-4">
-                <span className="text-[10px] uppercase tracking-widest font-mono font-bold bg-indigo-500/20 text-indigo-400 px-2 py-0.5 rounded-full border border-indigo-500/30">
+                <span className="text-[10px] uppercase tracking-widest font-mono font-bold bg-rose-500/20 text-rose-400 px-2 py-0.5 rounded-full border border-rose-500/30">
                   Multi-Device Sync
                 </span>
                 <span className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-full border ${
@@ -126,7 +126,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
           {!isConflictPrompt && (
             <button
               onClick={onClose}
-              className="p-3 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
+              className="p-3 rounded-xl text-stone-400 hover:text-white hover:bg-stone-800 transition cursor-pointer"
             >
               <X className="w-5 h-5" />
             </button>
@@ -143,8 +143,8 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
               </p>
             </div>
           ) : (
-            <div className="p-3.5 rounded-2xl bg-slate-800/80 border border-slate-700/70 text-xs text-slate-300 flex items-start space-x-2.5">
-              <Zap className="w-4 h-4 text-indigo-400 shrink-0 mt-0.5" />
+            <div className="p-3.5 rounded-2xl bg-stone-800/80 border border-stone-700/70 text-xs text-stone-300 flex items-start space-x-2.5">
+              <Zap className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
               <p className="leading-relaxed">
                 All active devices receive realtime question swaps and edits concurrently (&lt;50ms) with zero page reloads.
               </p>
@@ -170,12 +170,12 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
                 key={session.device_id}
                 className={`p-3.5 rounded-2xl border transition flex items-center justify-between ${
                   isCurrent
-                    ? 'bg-indigo-950/40 border-indigo-500/50 ring-1 ring-indigo-500/20'
-                    : 'bg-slate-800/60 border-slate-700/70 hover:border-slate-600'
+                    ? 'bg-rose-950/40 border-rose-500/50 ring-1 ring-rose-500/20'
+                    : 'bg-stone-800/60 border-stone-700/70 hover:border-stone-600'
                 }`}
               >
                 <div className="flex items-center space-x-3 min-w-0">
-                  <div className="p-3.5 rounded-xl bg-slate-900 border border-slate-700 shrink-0">
+                  <div className="p-3.5 rounded-xl bg-stone-900 border border-stone-700 shrink-0">
                     {getDeviceIcon(session.device_label)}
                   </div>
                   <div className="min-w-0">
@@ -184,16 +184,16 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
                         {session.device_label}
                       </span>
                       {isCurrent && (
-                        <span className="text-[9px] uppercase font-mono font-bold bg-indigo-500/30 text-indigo-300 px-1.5 py-0.5 rounded border border-indigo-500/40 shrink-0">
+                        <span className="text-[9px] uppercase font-mono font-bold bg-rose-500/30 text-rose-300 px-1.5 py-0.5 rounded border border-rose-500/40 shrink-0">
                           This Device
                         </span>
                       )}
                     </div>
-                    <div className="flex items-center gap-1.5 text-[11px] text-slate-400 mt-0.5">
-                      <Clock className="w-3 h-3 text-slate-500" />
+                    <div className="flex items-center gap-1.5 text-[11px] text-stone-400 mt-0.5">
+                      <Clock className="w-3 h-3 text-stone-500" />
                       <span>{formatLastActive(session.last_active_at)}</span>
-                      <span className="text-slate-600">&bull;</span>
-                      <span className="font-mono text-[10px] text-slate-500 truncate">
+                      <span className="text-stone-600">&bull;</span>
+                      <span className="font-mono text-[10px] text-stone-500 truncate">
                         ID: {session.device_id.slice(0, 10)}...
                       </span>
                     </div>
@@ -228,8 +228,8 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
         </div>
 
         {/* Footer Actions */}
-        <div className="px-6 py-4 bg-slate-950/60 border-t border-slate-800 flex items-center justify-between">
-          <div className="text-[10px] text-slate-500 font-mono">
+        <div className="px-6 py-4 bg-stone-950/60 border-t border-stone-800 flex items-center justify-between">
+          <div className="text-[10px] text-stone-500 font-mono">
             Heartbeat: 60s &bull; Auto-clean: 24h
           </div>
 
@@ -249,7 +249,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
               <button
                 type="button"
                 onClick={onClose}
-                className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 transition cursor-pointer"
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-stone-800 hover:bg-stone-700 text-stone-200 transition cursor-pointer"
               >
                 Close
               </button>

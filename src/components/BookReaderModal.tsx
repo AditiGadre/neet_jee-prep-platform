@@ -30,26 +30,26 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-6 overflow-y-auto">
-      <div className="w-full max-w-2xl bg-white border border-gray-200 rounded-lg shadow-xl overflow-hidden flex flex-col text-gray-900 animate-in zoom-in-95 duration-150">
+    <div className="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-xs flex items-center justify-center p-6 overflow-y-auto">
+      <div className="w-full max-w-2xl bg-white border border-stone-200 rounded-lg shadow-xl overflow-hidden flex flex-col text-stone-900 animate-in zoom-in-95 duration-150">
         {/* Header */}
-        <div className="px-5 py-3.5 bg-gray-50 border-b border-gray-200 flex items-center justify-between">
+        <div className="px-5 py-3.5 bg-stone-50 border-b border-stone-200 flex items-center justify-between">
           <div className="flex items-center space-x-2.5">
             <div className="w-8 h-8 rounded bg-orange-50 text-orange-700 flex items-center justify-center border border-orange-200">
               <BookMarked className="w-4 h-4" />
             </div>
             <div>
-              <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-gray-100 text-gray-700 uppercase border border-gray-200">
+              <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-stone-100 text-stone-700 uppercase border border-stone-200">
                 {book.category} &bull; {book.subject}
               </span>
-              <h2 className="text-xs sm:text-sm font-bold text-gray-900 truncate max-w-md mt-0.5">
+              <h2 className="text-xs sm:text-sm font-bold text-stone-900 truncate max-w-md mt-0.5">
                 {book.title}
               </h2>
             </div>
           </div>
           <button
             onClick={onClose}
-            className="p-1 rounded text-gray-400 hover:text-gray-700 hover:bg-gray-100 transition-colors"
+            className="p-1 rounded text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition-colors"
           >
             <X className="w-4 h-4" />
           </button>
@@ -57,13 +57,13 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
 
         {/* Reader Preview Content */}
         <div className="p-5 space-y-4 max-h-[65vh] overflow-y-auto custom-scrollbar">
-          <div className="p-3.5 rounded bg-gray-50 border border-gray-200 space-y-1.5">
-            <div className="flex items-center justify-between text-xs text-gray-600">
-              <span>Pages: <strong className="text-gray-900">{book.pages}</strong></span>
-              <span>File Size: <strong className="text-gray-900">{book.size}</strong></span>
+          <div className="p-3.5 rounded bg-stone-50 border border-stone-200 space-y-1.5">
+            <div className="flex items-center justify-between text-xs text-stone-600">
+              <span>Pages: <strong className="text-stone-900">{book.pages}</strong></span>
+              <span>File Size: <strong className="text-stone-900">{book.size}</strong></span>
               <span className="text-amber-700 font-bold">★ {book.rating} / 5.0</span>
             </div>
-            <p className="text-xs text-gray-600 leading-relaxed">{book.description}</p>
+            <p className="text-xs text-stone-600 leading-relaxed">{book.description}</p>
           </div>
 
           {/* Chapter Sample Section */}
@@ -73,24 +73,24 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
             </h3>
 
             <div className="space-y-2">
-              <div className="p-3.5 rounded bg-white border border-gray-200 space-y-1.5">
-                <div className="flex items-center justify-between text-xs font-bold text-gray-900">
+              <div className="p-3.5 rounded bg-white border border-stone-200 space-y-1.5">
+                <div className="flex items-center justify-between text-xs font-bold text-stone-900">
                   <span>Chapter 01: Core Principles & High-Yield NCERT Highlights</span>
                   <span className="text-emerald-700 text-[10px] px-1.5 py-0.2 rounded bg-emerald-50 border border-emerald-200">Verified 2027</span>
                 </div>
-                <p className="text-xs text-gray-600 leading-relaxed">
+                <p className="text-xs text-stone-600 leading-relaxed">
                   &bull; Complete NCERT text with examiner-marked traps and exceptions highlighted in color codes.
                   <br />
                   &bull; Includes 45 high-frequency previous year questions linked with exact page references.
                 </p>
               </div>
 
-              <div className="p-3.5 rounded bg-white border border-gray-200 space-y-1.5">
-                <div className="flex items-center justify-between text-xs font-bold text-gray-900">
+              <div className="p-3.5 rounded bg-white border border-stone-200 space-y-1.5">
+                <div className="flex items-center justify-between text-xs font-bold text-stone-900">
                   <span>Chapter 02: Formulas, Reagents & Reaction Flowcharts</span>
                   <span className="text-orange-700 text-[10px] px-1.5 py-0.2 rounded bg-orange-50 border border-orange-200">Rapid Memory Tables</span>
                 </div>
-                <p className="text-xs text-gray-600 leading-relaxed">
+                <p className="text-xs text-stone-600 leading-relaxed">
                   &bull; 1-Page cheat sheets for quick morning revision before every mock test.
                   <br />
                   &bull; Mnemonic memory hooks to memorize exceptions without confusion.
@@ -101,8 +101,8 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
         </div>
 
         {/* Footer Actions */}
-        <div className="px-5 py-3 bg-gray-50 border-t border-gray-200 flex items-center justify-between">
-          <div className="text-xs text-gray-500">
+        <div className="px-5 py-3 bg-stone-50 border-t border-stone-200 flex items-center justify-between">
+          <div className="text-xs text-stone-500">
             PDF ready for offline reading and printing.
           </div>
           <button

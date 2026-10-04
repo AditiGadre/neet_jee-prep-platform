@@ -298,12 +298,12 @@ export const AdminPublishingCenter: React.FC<Props> = ({
   };
 
   return (
-    <div className="bg-slate-900 text-slate-100 rounded-2xl border border-slate-800 shadow-2xl overflow-hidden my-6">
+    <div className="bg-stone-900 text-stone-100 rounded-2xl border border-stone-800 shadow-2xl overflow-hidden my-6">
       {/* Top Universal Publishing Header */}
-      <div className="bg-gradient-to-r from-slate-950 via-slate-900 to-indigo-950 border-b border-slate-800 p-6">
+      <div className="bg-gradient-to-r from-stone-950 via-stone-900 to-rose-950 border-b border-stone-800 p-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-xl bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center text-indigo-400 shadow-inner">
+            <div className="w-12 h-12 rounded-xl bg-rose-500/20 border border-rose-500/40 flex items-center justify-center text-rose-400 shadow-inner">
               <Globe className="w-6 h-6 animate-pulse" />
             </div>
             <div>
@@ -314,7 +314,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   Single Source of Truth
                 </span>
               </div>
-              <p className="text-xs text-slate-400 mt-0.5">
+              <p className="text-xs text-stone-400 mt-0.5">
                 Authoritative Central Database &bull; Optimistic Concurrency &bull; 1,000,000+ Student CDN Distribution Layer
               </p>
             </div>
@@ -322,8 +322,8 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
           <div className="flex items-center gap-3">
             {/* Active Live Version Badge */}
-            <div className="bg-slate-800/80 border border-slate-700/80 rounded-xl px-3 py-2 text-right">
-              <div className="text-[10px] uppercase font-bold text-slate-400">Current Production Set</div>
+            <div className="bg-stone-800/80 border border-stone-700/80 rounded-xl px-3 py-2 text-right">
+              <div className="text-[10px] uppercase font-bold text-stone-400">Current Production Set</div>
               <div className="text-sm font-bold text-emerald-400 flex items-center justify-end gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
                 {currentVersion ? currentVersion.versionTag : 'v1.0.0 (Live)'}
@@ -342,7 +342,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             {onClose && (
               <button 
                 onClick={onClose}
-                className="p-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition"
+                className="p-3 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-400 hover:text-white transition"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -364,14 +364,14 @@ export const AdminPublishingCenter: React.FC<Props> = ({
         )}
 
         {/* Navigation Tabs */}
-        <div className="flex items-center justify-between mt-6 pt-4 border-t border-slate-800/60">
+        <div className="flex items-center justify-between mt-6 pt-4 border-t border-stone-800/60">
           <div className="flex items-center gap-4">
             <button
               onClick={() => setActiveTab('editor')}
               className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-4 ${
                 activeTab === 'editor'
-                  ? 'bg-indigo-600 text-white shadow-md'
-                  : 'bg-slate-800/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
+                  ? 'bg-rose-600 text-white shadow-md'
+                  : 'bg-stone-800/60 text-stone-400 hover:text-stone-200 hover:bg-stone-800'
               }`}
             >
               <FileText className="w-3.5 h-3.5" />
@@ -381,8 +381,8 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               onClick={() => setActiveTab('history')}
               className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-4 ${
                 activeTab === 'history'
-                  ? 'bg-indigo-600 text-white shadow-md'
-                  : 'bg-slate-800/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
+                  ? 'bg-rose-600 text-white shadow-md'
+                  : 'bg-stone-800/60 text-stone-400 hover:text-stone-200 hover:bg-stone-800'
               }`}
             >
               <History className="w-3.5 h-3.5" />
@@ -392,8 +392,8 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               onClick={() => setActiveTab('simulator')}
               className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-4 ${
                 activeTab === 'simulator'
-                  ? 'bg-indigo-600 text-white shadow-md'
-                  : 'bg-slate-800/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
+                  ? 'bg-rose-600 text-white shadow-md'
+                  : 'bg-stone-800/60 text-stone-400 hover:text-stone-200 hover:bg-stone-800'
               }`}
             >
               <Gauge className="w-3.5 h-3.5" />
@@ -405,9 +405,9 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             <button
               onClick={loadData}
               disabled={isLoading}
-              className="text-xs text-slate-400 hover:text-indigo-400 flex items-center gap-1.5 transition"
+              className="text-xs text-stone-400 hover:text-rose-400 flex items-center gap-1.5 transition"
             >
-              <RefreshCw className={`w-3.5 h-3.5 ${isLoading ? 'animate-spin text-indigo-400' : ''}`} />
+              <RefreshCw className={`w-3.5 h-3.5 ${isLoading ? 'animate-spin text-rose-400' : ''}`} />
               Sync Central DB
             </button>
           </div>
@@ -423,21 +423,21 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6">
               <div className="flex items-center gap-4 w-full sm:w-auto">
                 <div className="relative flex-1 sm:w-72">
-                  <Search className="w-4 h-4 absolute left-3 top-2.5 text-slate-500" />
+                  <Search className="w-4 h-4 absolute left-3 top-2.5 text-stone-500" />
                   <input
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     placeholder="Search questions by text or chapter..."
-                    className="w-full bg-slate-800/80 border border-slate-700 rounded-xl pl-9 pr-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                    className="w-full bg-stone-800/80 border border-stone-700 rounded-xl pl-9 pr-3 py-2 text-xs text-white placeholder-stone-500 focus:outline-none focus:border-rose-500"
                   />
                 </div>
 
-                <div className="flex items-center bg-slate-800 border border-slate-700 rounded-xl p-0.5 text-xs">
+                <div className="flex items-center bg-stone-800 border border-stone-700 rounded-xl p-0.5 text-xs">
                   <button
                     onClick={() => setFilterStatus('all')}
                     className={`px-3 py-1.5 rounded-lg font-medium transition ${
-                      filterStatus === 'all' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+                      filterStatus === 'all' ? 'bg-rose-600 text-white' : 'text-stone-400 hover:text-white'
                     }`}
                   >
                     All ({counts.total})
@@ -445,7 +445,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   <button
                     onClick={() => setFilterStatus('draft')}
                     className={`px-3 py-1.5 rounded-lg font-medium transition flex items-center gap-1 ${
-                      filterStatus === 'draft' ? 'bg-amber-500 text-slate-950 font-bold' : 'text-slate-400 hover:text-white'
+                      filterStatus === 'draft' ? 'bg-amber-500 text-stone-950 font-bold' : 'text-stone-400 hover:text-white'
                     }`}
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
@@ -454,7 +454,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   <button
                     onClick={() => setFilterStatus('published')}
                     className={`px-3 py-1.5 rounded-lg font-medium transition flex items-center gap-1 ${
-                      filterStatus === 'published' ? 'bg-emerald-600 text-white font-bold' : 'text-slate-400 hover:text-white'
+                      filterStatus === 'published' ? 'bg-emerald-600 text-white font-bold' : 'text-stone-400 hover:text-white'
                     }`}
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
@@ -479,7 +479,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   setIsCreatingNew(true);
                   setConflictError(null);
                 }}
-                className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 transition shadow"
+                className="px-3.5 py-2 bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 transition shadow"
               >
                 <Plus className="w-4 h-4" />
                 Add New Question (Draft)
@@ -488,12 +488,12 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
             {/* Questions Table */}
             {isLoading && questions.length === 0 ? (
-              <div className="py-20 text-center text-slate-500 text-xs flex flex-col items-center gap-4">
-                <RefreshCw className="w-6 h-6 animate-spin text-indigo-400" />
+              <div className="py-20 text-center text-stone-500 text-xs flex flex-col items-center gap-4">
+                <RefreshCw className="w-6 h-6 animate-spin text-rose-400" />
                 <span>Loading authoritative questions from central database...</span>
               </div>
             ) : filteredQuestions.length === 0 ? (
-              <div className="py-16 text-center text-slate-500 text-xs bg-slate-800/30 rounded-xl border border-slate-800">
+              <div className="py-16 text-center text-stone-500 text-xs bg-stone-800/30 rounded-xl border border-stone-800">
                 No questions match your current filter. Click "Add New Question" to author one.
               </div>
             ) : (
@@ -501,7 +501,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 {filteredQuestions.map((q, idx) => (
                   <div
                     key={q.id}
-                    className="p-6 rounded-xl bg-slate-800/60 border border-slate-700/60 hover:border-slate-600 transition flex flex-col md:flex-row items-start md:items-center justify-between gap-4"
+                    className="p-6 rounded-xl bg-stone-800/60 border border-stone-700/60 hover:border-stone-600 transition flex flex-col md:flex-row items-start md:items-center justify-between gap-4"
                   >
                     <div className="flex items-start gap-3 flex-1 min-w-0">
                       {/* Reorder Buttons */}
@@ -510,16 +510,16 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                           onClick={() => handleMoveOrder(idx, 'up')}
                           disabled={idx === 0}
                           title="Move Up in Exam Order"
-                          className="p-1 rounded hover:bg-slate-700 text-slate-400 hover:text-white disabled:opacity-30"
+                          className="p-1 rounded hover:bg-stone-700 text-stone-400 hover:text-white disabled:opacity-30"
                         >
                           <ArrowUp className="w-3.5 h-3.5" />
                         </button>
-                        <span className="text-[10px] font-mono text-slate-500 font-bold">#{idx + 1}</span>
+                        <span className="text-[10px] font-mono text-stone-500 font-bold">#{idx + 1}</span>
                         <button
                           onClick={() => handleMoveOrder(idx, 'down')}
                           disabled={idx === filteredQuestions.length - 1}
                           title="Move Down in Exam Order"
-                          className="p-1 rounded hover:bg-slate-700 text-slate-400 hover:text-white disabled:opacity-30"
+                          className="p-1 rounded hover:bg-stone-700 text-stone-400 hover:text-white disabled:opacity-30"
                         >
                           <ArrowDown className="w-3.5 h-3.5" />
                         </button>
@@ -528,8 +528,8 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                       {/* Question Content */}
                       <div className="flex-1 min-w-0">
                         <div className="flex flex-wrap items-center gap-4 mb-1.5">
-                          <span className="font-mono text-xs text-indigo-400 font-bold">{q.id}</span>
-                          <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-700 text-slate-300">
+                          <span className="font-mono text-xs text-rose-400 font-bold">{q.id}</span>
+                          <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-stone-700 text-stone-300">
                             {q.subject} &bull; {q.chapter}
                           </span>
                           
@@ -547,12 +547,12 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                           )}
 
                           {/* Concurrency token */}
-                          <span className="text-[10px] font-mono text-slate-500" title="Optimistic Concurrency Version Token">
+                          <span className="text-[10px] font-mono text-stone-500" title="Optimistic Concurrency Version Token">
                             v{q.version}
                           </span>
                         </div>
 
-                        <p className="text-xs text-slate-200 line-clamp-2 leading-relaxed">
+                        <p className="text-xs text-stone-200 line-clamp-2 leading-relaxed">
                           {q.questionText}
                         </p>
 
@@ -564,7 +564,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                               className={`px-2 py-1 rounded text-[11px] truncate ${
                                 oIdx === q.correctAnswer
                                   ? 'bg-emerald-950/60 border border-emerald-500/40 text-emerald-300 font-bold'
-                                  : 'bg-slate-900/60 border border-slate-800 text-slate-400'
+                                  : 'bg-stone-900/60 border border-stone-800 text-stone-400'
                               }`}
                             >
                               <span className="opacity-60 mr-1">({String.fromCharCode(65 + oIdx)})</span>
@@ -583,9 +583,9 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                           setIsCreatingNew(false);
                           setConflictError(null);
                         }}
-                        className="px-2.5 py-1.5 rounded-lg bg-slate-700/80 hover:bg-slate-700 text-slate-200 text-xs font-medium flex items-center gap-1 transition"
+                        className="px-2.5 py-1.5 rounded-lg bg-stone-700/80 hover:bg-stone-700 text-stone-200 text-xs font-medium flex items-center gap-1 transition"
                       >
-                        <Edit3 className="w-3.5 h-3.5 text-indigo-400" />
+                        <Edit3 className="w-3.5 h-3.5 text-rose-400" />
                         Edit Draft
                       </button>
                       <button
@@ -609,14 +609,14 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             <div className="flex items-center justify-between mb-4">
               <div>
                 <h3 className="text-sm font-bold text-white">Immutable Published Snapshots</h3>
-                <p className="text-xs text-slate-400">
+                <p className="text-xs text-stone-400">
                   Every publish event creates an immutable, SHA-256 verified snapshot serving 1M+ students. Rollback instantly restores any historical version.
                 </p>
               </div>
             </div>
 
             {history.length === 0 ? (
-              <div className="py-16 text-center text-slate-500 text-xs bg-slate-800/30 rounded-xl border border-slate-800">
+              <div className="py-16 text-center text-stone-500 text-xs bg-stone-800/30 rounded-xl border border-stone-800">
                 No publication history found yet. Publish your first version using the "Publish Live" button above.
               </div>
             ) : (
@@ -627,15 +627,15 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                     className={`p-6 rounded-xl border transition flex flex-col md:flex-row items-start md:items-center justify-between gap-4 ${
                       ver.isCurrent
                         ? 'bg-emerald-950/20 border-emerald-500/50 shadow-lg shadow-emerald-950/30'
-                        : 'bg-slate-800/60 border-slate-700/60'
+                        : 'bg-stone-800/60 border-stone-700/60'
                     }`}
                   >
                     <div className="flex items-start gap-3">
                       <div
                         className={`w-9 h-9 rounded-lg flex items-center justify-center font-bold text-xs ${
                           ver.isCurrent
-                            ? 'bg-emerald-500 text-slate-950'
-                            : 'bg-slate-700 text-slate-300'
+                            ? 'bg-emerald-500 text-stone-950'
+                            : 'bg-stone-700 text-stone-300'
                         }`}
                       >
                         {ver.versionTag}
@@ -650,14 +650,14 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                             </span>
                           )}
                         </div>
-                        <div className="text-xs text-slate-400 mt-0.5 flex flex-wrap items-center gap-3">
+                        <div className="text-xs text-stone-400 mt-0.5 flex flex-wrap items-center gap-3">
                           <span>{ver.questionCount} Questions</span>
                           <span>&bull;</span>
                           <span>Published by {ver.publishedBy}</span>
                           <span>&bull;</span>
                           <span>{new Date(ver.publishedAt).toLocaleString()}</span>
                           <span>&bull;</span>
-                          <span className="font-mono text-[10px] text-slate-500">SHA: {ver.checksum.slice(0, 16)}...</span>
+                          <span className="font-mono text-[10px] text-stone-500">SHA: {ver.checksum.slice(0, 16)}...</span>
                         </div>
                       </div>
                     </div>
@@ -683,13 +683,13 @@ export const AdminPublishingCenter: React.FC<Props> = ({
         {/* TAB 3: 1M STUDENT READ CDN SIMULATOR */}
         {activeTab === 'simulator' && (
           <div className="space-y-6">
-            <div className="bg-slate-800/60 border border-slate-700/60 rounded-xl p-6">
+            <div className="bg-stone-800/60 border border-stone-700/60 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-2">
-                <Gauge className="w-5 h-5 text-indigo-400" />
+                <Gauge className="w-5 h-5 text-rose-400" />
                 <h3 className="text-sm font-bold text-white">Mass Read Architecture & Load Verification (1,000,000+ Students)</h3>
               </div>
-              <p className="text-xs text-slate-300 leading-relaxed max-w-3xl">
-                Students access published questions strictly through Edge CDN and In-Memory caches (<code className="text-indigo-300 font-mono text-[11px]">s-maxage=60, stale-while-revalidate=300</code>).
+              <p className="text-xs text-stone-300 leading-relaxed max-w-3xl">
+                Students access published questions strictly through Edge CDN and In-Memory caches (<code className="text-rose-300 font-mono text-[11px]">s-maxage=60, stale-while-revalidate=300</code>).
                 This ensures that during peak CBT exam bursts, 10,00,000+ students receive answers with sub-25ms latency while the central write database experiences <strong>0 connection overhead</strong>.
               </p>
 
@@ -697,7 +697,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 <button
                   onClick={run1MStudentReadSimulation}
                   disabled={isSimulating}
-                  className="px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow flex items-center gap-4 transition"
+                  className="px-4 py-2.5 bg-rose-600 hover:bg-rose-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow flex items-center gap-4 transition"
                 >
                   <Zap className="w-4 h-4" />
                   {isSimulating ? 'Simulating 100 Concurrent Student Reads...' : 'Run 100-Read Edge Benchmark'}
@@ -707,28 +707,28 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
             {simResults && (
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                <div className="p-6 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
-                  <div className="text-[10px] uppercase font-bold text-slate-400">Edge Cache Hit Ratio</div>
+                <div className="p-6 rounded-xl bg-stone-800/80 border border-stone-700 text-center">
+                  <div className="text-[10px] uppercase font-bold text-stone-400">Edge Cache Hit Ratio</div>
                   <div className="text-2xl font-bold text-emerald-400 mt-1">{simResults.cacheHitRatio.toFixed(1)}%</div>
-                  <div className="text-[10px] text-slate-500 mt-0.5">Offloaded from Origin DB</div>
+                  <div className="text-[10px] text-stone-500 mt-0.5">Offloaded from Origin DB</div>
                 </div>
 
-                <div className="p-6 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
-                  <div className="text-[10px] uppercase font-bold text-slate-400">Average Read Latency</div>
-                  <div className="text-2xl font-bold text-indigo-400 mt-1">{simResults.avgLatencyMs} ms</div>
-                  <div className="text-[10px] text-slate-500 mt-0.5">Min: {simResults.minLatencyMs}ms / Max: {simResults.maxLatencyMs}ms</div>
+                <div className="p-6 rounded-xl bg-stone-800/80 border border-stone-700 text-center">
+                  <div className="text-[10px] uppercase font-bold text-stone-400">Average Read Latency</div>
+                  <div className="text-2xl font-bold text-rose-400 mt-1">{simResults.avgLatencyMs} ms</div>
+                  <div className="text-[10px] text-stone-500 mt-0.5">Min: {simResults.minLatencyMs}ms / Max: {simResults.maxLatencyMs}ms</div>
                 </div>
 
-                <div className="p-6 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
-                  <div className="text-[10px] uppercase font-bold text-slate-400">Database Load Under Test</div>
+                <div className="p-6 rounded-xl bg-stone-800/80 border border-stone-700 text-center">
+                  <div className="text-[10px] uppercase font-bold text-stone-400">Database Load Under Test</div>
                   <div className="text-2xl font-bold text-emerald-400 mt-1">{simResults.dbConnectionsUsed} Conns</div>
-                  <div className="text-[10px] text-slate-500 mt-0.5">Zero DB strain at 1M scale</div>
+                  <div className="text-[10px] text-stone-500 mt-0.5">Zero DB strain at 1M scale</div>
                 </div>
 
-                <div className="p-6 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
-                  <div className="text-[10px] uppercase font-bold text-slate-400">Propagation Window SLA</div>
+                <div className="p-6 rounded-xl bg-stone-800/80 border border-stone-700 text-center">
+                  <div className="text-[10px] uppercase font-bold text-stone-400">Propagation Window SLA</div>
                   <div className="text-2xl font-bold text-amber-400 mt-1">&le; {simResults.staleWindowSeconds}s</div>
-                  <div className="text-[10px] text-slate-500 mt-0.5">Global sync guarantee</div>
+                  <div className="text-[10px] text-stone-500 mt-0.5">Global sync guarantee</div>
                 </div>
               </div>
             )}
@@ -738,18 +738,18 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
       {/* MODAL: EDIT / CREATE DRAFT QUESTION */}
       {editingQuestion && (
-        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-6">
-          <div className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-2xl p-6">
-            <div className="flex items-center justify-between border-b border-slate-800 pb-4 mb-4">
+        <div className="fixed inset-0 z-50 bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-6">
+          <div className="bg-stone-900 border border-stone-700 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-2xl p-6">
+            <div className="flex items-center justify-between border-b border-stone-800 pb-4 mb-4">
               <div>
                 <h3 className="text-base font-bold text-white">
                   {isCreatingNew ? 'Create New Question (Draft)' : `Edit Draft Question (${editingQuestion.id})`}
                 </h3>
-                <p className="text-xs text-slate-400">
+                <p className="text-xs text-stone-400">
                   Edits are saved into DRAFT state and will only go live to students upon atomic Publish.
                 </p>
               </div>
-              <button onClick={() => setEditingQuestion(null)} className="text-slate-400 hover:text-white">
+              <button onClick={() => setEditingQuestion(null)} className="text-stone-400 hover:text-white">
                 <X className="w-5 h-5" />
               </button>
             </div>
@@ -767,11 +767,11 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             <form onSubmit={handleSaveQuestion} className="space-y-4 text-xs">
               <div className="grid grid-cols-3 gap-3">
                 <div>
-                  <label className="block text-slate-400 mb-1 font-semibold">Subject</label>
+                  <label className="block text-stone-400 mb-1 font-semibold">Subject</label>
                   <select
                     value={editingQuestion.subject || 'Physics'}
                     onChange={(e) => setEditingQuestion({ ...editingQuestion, subject: e.target.value as any })}
-                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
+                    className="w-full bg-stone-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
                   >
                     <option value="Physics">Physics</option>
                     <option value="Chemistry">Chemistry</option>
@@ -779,21 +779,21 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   </select>
                 </div>
                 <div>
-                  <label className="block text-slate-400 mb-1 font-semibold">Chapter</label>
+                  <label className="block text-stone-400 mb-1 font-semibold">Chapter</label>
                   <input
                     type="text"
                     value={editingQuestion.chapter || ''}
                     onChange={(e) => setEditingQuestion({ ...editingQuestion, chapter: e.target.value })}
-                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
+                    className="w-full bg-stone-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
                     required
                   />
                 </div>
                 <div>
-                  <label className="block text-slate-400 mb-1 font-semibold">Difficulty</label>
+                  <label className="block text-stone-400 mb-1 font-semibold">Difficulty</label>
                   <select
                     value={editingQuestion.difficulty || 'Medium'}
                     onChange={(e) => setEditingQuestion({ ...editingQuestion, difficulty: e.target.value as any })}
-                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
+                    className="w-full bg-stone-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
                   >
                     <option value="Easy">Easy</option>
                     <option value="Medium">Medium</option>
@@ -803,19 +803,19 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               </div>
 
               <div>
-                <label className="block text-slate-400 mb-1 font-semibold">Question Text</label>
+                <label className="block text-stone-400 mb-1 font-semibold">Question Text</label>
                 <textarea
                   value={editingQuestion.questionText || ''}
                   onChange={(e) => setEditingQuestion({ ...editingQuestion, questionText: e.target.value })}
                   rows={3}
-                  className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-stone-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
                   required
                 />
               </div>
 
               {/* 4 Options */}
               <div>
-                <label className="block text-slate-400 mb-1 font-semibold">Options & Correct Answer</label>
+                <label className="block text-stone-400 mb-1 font-semibold">Options & Correct Answer</label>
                 <div className="space-y-2">
                   {(editingQuestion.options || ['', '', '', '']).map((opt, i) => (
                     <div key={i} className="flex items-center gap-4">
@@ -824,9 +824,9 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                         name="correctAnswer"
                         checked={editingQuestion.correctAnswer === i}
                         onChange={() => setEditingQuestion({ ...editingQuestion, correctAnswer: i })}
-                        className="text-indigo-600 focus:ring-0"
+                        className="text-rose-600 focus:ring-0"
                       />
-                      <span className="font-bold text-slate-400 w-6">({String.fromCharCode(65 + i)})</span>
+                      <span className="font-bold text-stone-400 w-6">({String.fromCharCode(65 + i)})</span>
                       <input
                         type="text"
                         value={opt}
@@ -836,7 +836,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                           setEditingQuestion({ ...editingQuestion, options: newOpts });
                         }}
                         placeholder={`Option ${String.fromCharCode(65 + i)} text`}
-                        className="flex-1 bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
+                        className="flex-1 bg-stone-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
                         required
                       />
                     </div>
@@ -845,27 +845,27 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               </div>
 
               <div>
-                <label className="block text-slate-400 mb-1 font-semibold">Explanation</label>
+                <label className="block text-stone-400 mb-1 font-semibold">Explanation</label>
                 <textarea
                   value={editingQuestion.explanation || ''}
                   onChange={(e) => setEditingQuestion({ ...editingQuestion, explanation: e.target.value })}
                   rows={2}
-                  className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-stone-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
                 />
               </div>
 
-              <div className="flex items-center justify-end gap-3 pt-4 border-t border-slate-800">
+              <div className="flex items-center justify-end gap-3 pt-4 border-t border-stone-800">
                 <button
                   type="button"
                   onClick={() => setEditingQuestion(null)}
-                  className="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold transition"
+                  className="px-4 py-2 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 font-bold transition"
                 >
                   Cancel
                 </button>
                 <button
                   type="submit"
                   disabled={isSaving}
-                  className="px-5 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-bold transition flex items-center gap-4"
+                  className="px-5 py-2 rounded-lg bg-rose-600 hover:bg-rose-500 text-white font-bold transition flex items-center gap-4"
                 >
                   {isSaving ? 'Saving to Central DB...' : isCreatingNew ? 'Create Draft' : 'Save Draft Edits'}
                 </button>
@@ -877,39 +877,39 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
       {/* MODAL: PUBLISH TO 1,000,000+ STUDENTS */}
       {isPublishModalOpen && (
-        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-6">
-          <div className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-lg shadow-2xl p-6">
-            <div className="flex items-center gap-3 border-b border-slate-800 pb-4 mb-4">
+        <div className="fixed inset-0 z-50 bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-6">
+          <div className="bg-stone-900 border border-stone-700 rounded-2xl w-full max-w-lg shadow-2xl p-6">
+            <div className="flex items-center gap-3 border-b border-stone-800 pb-4 mb-4">
               <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400">
                 <Send className="w-5 h-5" />
               </div>
               <div>
                 <h3 className="text-base font-bold text-white">Publish Question Set to Production</h3>
-                <p className="text-xs text-slate-400">Atomic promotion of all draft questions into live version</p>
+                <p className="text-xs text-stone-400">Atomic promotion of all draft questions into live version</p>
               </div>
             </div>
 
-            <div className="bg-slate-800/60 rounded-xl p-6 border border-slate-700/60 mb-4 text-xs space-y-2">
+            <div className="bg-stone-800/60 rounded-xl p-6 border border-stone-700/60 mb-4 text-xs space-y-2">
               <div className="flex justify-between">
-                <span className="text-slate-400">Total Questions to Publish:</span>
+                <span className="text-stone-400">Total Questions to Publish:</span>
                 <span className="font-bold text-white">{counts.total} Questions</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-slate-400">Pending Draft Changes:</span>
+                <span className="text-stone-400">Pending Draft Changes:</span>
                 <span className="font-bold text-amber-400">{counts.draft} Draft Items</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-slate-400">Distribution Audience:</span>
+                <span className="text-stone-400">Distribution Audience:</span>
                 <span className="font-bold text-emerald-400">10,00,000+ Students</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-slate-400">Max Staleness Guarantee:</span>
-                <span className="font-bold text-indigo-400">&le; 60 seconds (or instant CDN purge)</span>
+                <span className="text-stone-400">Max Staleness Guarantee:</span>
+                <span className="font-bold text-rose-400">&le; 60 seconds (or instant CDN purge)</span>
               </div>
             </div>
 
             <div className="mb-4">
-              <label className="block text-xs font-semibold text-slate-300 mb-1">
+              <label className="block text-xs font-semibold text-stone-300 mb-1">
                 Publication Summary / Changelog <span className="text-rose-400">*</span>
               </label>
               <input
@@ -917,14 +917,14 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 value={publishSummary}
                 onChange={(e) => setPublishSummary(e.target.value)}
                 placeholder="e.g., Updated Laws of Motion questions and official answer keys"
-                className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                className="w-full bg-stone-800 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white placeholder-stone-500 focus:outline-none focus:border-rose-500"
               />
             </div>
 
             <div className="flex items-center justify-end gap-3">
               <button
                 onClick={() => setIsPublishModalOpen(false)}
-                className="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold transition"
+                className="px-4 py-2 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-bold transition"
               >
                 Cancel
               </button>
@@ -942,17 +942,17 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
       {/* MODAL: ROLLBACK CONFIRMATION */}
       {rollbackTarget && (
-        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-6">
-          <div className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-md shadow-2xl p-6">
-            <div className="flex items-center gap-3 border-b border-slate-800 pb-4 mb-4 text-amber-400">
+        <div className="fixed inset-0 z-50 bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-6">
+          <div className="bg-stone-900 border border-stone-700 rounded-2xl w-full max-w-md shadow-2xl p-6">
+            <div className="flex items-center gap-3 border-b border-stone-800 pb-4 mb-4 text-amber-400">
               <RotateCcw className="w-6 h-6" />
               <div>
                 <h3 className="text-base font-bold text-white">Confirm Version Rollback</h3>
-                <p className="text-xs text-slate-400">Rollback to {rollbackTarget.versionTag}</p>
+                <p className="text-xs text-stone-400">Rollback to {rollbackTarget.versionTag}</p>
               </div>
             </div>
 
-            <p className="text-xs text-slate-300 leading-relaxed mb-4">
+            <p className="text-xs text-stone-300 leading-relaxed mb-4">
               Are you sure you want to revert the live platform to <strong>{rollbackTarget.versionTag}</strong> ({rollbackTarget.questionCount} questions)?
               This will atomically switch the active production pointer and invalidate the student edge cache immediately.
             </p>
@@ -960,14 +960,14 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             <div className="flex items-center justify-end gap-3">
               <button
                 onClick={() => setRollbackTarget(null)}
-                className="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold transition"
+                className="px-4 py-2 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-bold transition"
               >
                 Cancel
               </button>
               <button
                 onClick={handleRollback}
                 disabled={isRollingBack}
-                className="px-5 py-2 rounded-lg bg-amber-600 hover:bg-amber-500 text-slate-950 text-xs font-bold transition"
+                className="px-5 py-2 rounded-lg bg-amber-600 hover:bg-amber-500 text-stone-950 text-xs font-bold transition"
               >
                 {isRollingBack ? 'Restoring Snapshot...' : `Rollback to ${rollbackTarget.versionTag}`}
               </button>

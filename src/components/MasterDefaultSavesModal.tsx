@@ -330,11 +330,11 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-200">
-      <div className="bg-slate-900 border border-slate-700/80 rounded-3xl shadow-2xl max-w-5xl w-full max-h-[92vh] flex flex-col text-slate-100 overflow-hidden animate-in zoom-in-95 duration-200">
+    <div className="fixed inset-0 z-50 bg-stone-950/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-200">
+      <div className="bg-stone-900 border border-stone-700/80 rounded-3xl shadow-2xl max-w-5xl w-full max-h-[92vh] flex flex-col text-stone-100 overflow-hidden animate-in zoom-in-95 duration-200">
         
         {/* Header */}
-        <div className="p-6 sm:p-6 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 border-b border-slate-700/80 flex items-center justify-between">
+        <div className="p-6 sm:p-6 bg-gradient-to-r from-stone-900 via-rose-950/40 to-stone-900 border-b border-stone-700/80 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="p-3.5 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
               <Database className="w-6 h-6" />
@@ -346,7 +346,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                   Universal Admin Registry
                 </span>
               </div>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-stone-400">
                 Authoritative paper snapshots committed to database and local mirror for institutional testing.
               </p>
             </div>
@@ -366,7 +366,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
             )}
             <button
               onClick={onClose}
-              className="p-3 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
+              className="p-3 rounded-xl text-stone-400 hover:text-white hover:bg-stone-800 transition cursor-pointer"
               title="Close modal"
             >
               <X className="w-5 h-5" />
@@ -375,13 +375,13 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
         </div>
 
         {/* Paper Quick Bar */}
-        <div className="px-4 sm:px-6 py-3 bg-slate-950/60 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs">
+        <div className="px-4 sm:px-6 py-3 bg-stone-950/60 border-b border-stone-800 flex flex-wrap items-center justify-between gap-3 text-xs">
           <div className="flex items-center gap-4 flex-wrap">
-            <span className="text-slate-400 font-bold">Inspect Paper:</span>
+            <span className="text-stone-400 font-bold">Inspect Paper:</span>
             <select
               value={selectedInspectCode}
               onChange={(e) => setSelectedInspectCode(e.target.value)}
-              className="bg-slate-800 text-white font-bold px-3 py-1.5 rounded-xl border border-slate-700 focus:outline-hidden focus:ring-2 focus:ring-emerald-500 cursor-pointer text-xs"
+              className="bg-stone-800 text-white font-bold px-3 py-1.5 rounded-xl border border-stone-700 focus:outline-hidden focus:ring-2 focus:ring-emerald-500 cursor-pointer text-xs"
             >
               {allAvailablePresets.map(code => {
                 const isCustom = Boolean(savedPapersRecord[code] || savedPapersRecord[code.toLowerCase()]);
@@ -395,8 +395,8 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
 
             <span className={`px-2.5 py-1 rounded-lg text-[11px] font-mono font-bold border ${
               localSavedData
-                ? 'bg-indigo-500/10 text-indigo-300 border-indigo-500/30'
-                : 'bg-slate-800 text-slate-400 border-slate-700'
+                ? 'bg-rose-500/10 text-rose-300 border-rose-500/30'
+                : 'bg-stone-800 text-stone-400 border-stone-700'
             }`}>
               {localSavedData ? `Rev ${inspectedRevision} (Committed Save)` : 'Official Base Syllabus Template'}
             </span>
@@ -416,28 +416,28 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
           <div className="flex items-center gap-4 flex-wrap">
             <button
               onClick={() => setConfirmingPaperCode(canonicalInspectCode)}
-              className="px-3 py-1.5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black rounded-xl text-xs transition flex items-center gap-1.5 shadow-md cursor-pointer border border-emerald-300/40"
+              className="px-3 py-1.5 bg-emerald-500 hover:bg-emerald-400 text-stone-950 font-black rounded-xl text-xs transition flex items-center gap-1.5 shadow-md cursor-pointer border border-emerald-300/40"
               title="Confirm and lock this paper as Final Master Default across all student systems"
             >
-              <ShieldCheck className="w-4 h-4 text-slate-950" />
+              <ShieldCheck className="w-4 h-4 text-stone-950" />
               Confirm as Final Paper (All Systems)
             </button>
 
             <button
               onClick={handleCopySummary}
-              className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl text-xs font-bold transition flex items-center gap-1.5 border border-slate-700 cursor-pointer"
+              className="px-3 py-1.5 bg-stone-800 hover:bg-stone-700 text-stone-200 rounded-xl text-xs font-bold transition flex items-center gap-1.5 border border-stone-700 cursor-pointer"
               title="Copy details summary"
             >
-              <Copy className="w-3.5 h-3.5 text-slate-400" />
+              <Copy className="w-3.5 h-3.5 text-stone-400" />
               Copy Summary
             </button>
 
             <button
               onClick={handleExportJson}
-              className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl text-xs font-bold transition flex items-center gap-1.5 border border-slate-700 cursor-pointer"
+              className="px-3 py-1.5 bg-stone-800 hover:bg-stone-700 text-stone-200 rounded-xl text-xs font-bold transition flex items-center gap-1.5 border border-stone-700 cursor-pointer"
               title="Download full JSON file of this paper"
             >
-              <FileJson className="w-3.5 h-3.5 text-slate-400" />
+              <FileJson className="w-3.5 h-3.5 text-stone-400" />
               Export JSON
             </button>
 
@@ -457,13 +457,13 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
         </div>
 
         {/* Navigation Tabs */}
-        <div className="flex border-b border-slate-800 bg-slate-900/50 px-4 sm:px-6">
+        <div className="flex border-b border-stone-800 bg-stone-900/50 px-4 sm:px-6">
           <button
             onClick={() => setActiveTab('all_saves')}
             className={`py-3 px-4 text-xs font-bold border-b-2 transition flex items-center gap-4 cursor-pointer ${
               activeTab === 'all_saves'
                 ? 'border-emerald-400 text-emerald-400'
-                : 'border-transparent text-slate-400 hover:text-slate-200'
+                : 'border-transparent text-stone-400 hover:text-stone-200'
             }`}
           >
             <Layers className="w-4 h-4" />
@@ -475,7 +475,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
             className={`py-3 px-4 text-xs font-bold border-b-2 transition flex items-center gap-4 cursor-pointer ${
               activeTab === 'inspect_questions'
                 ? 'border-emerald-400 text-emerald-400'
-                : 'border-transparent text-slate-400 hover:text-slate-200'
+                : 'border-transparent text-stone-400 hover:text-stone-200'
             }`}
           >
             <Eye className="w-4 h-4" />
@@ -493,7 +493,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
             className={`py-3 px-4 text-xs font-bold border-b-2 transition flex items-center gap-4 cursor-pointer ${
               activeTab === 'cloud_history'
                 ? 'border-emerald-400 text-emerald-400'
-                : 'border-transparent text-slate-400 hover:text-slate-200'
+                : 'border-transparent text-stone-400 hover:text-stone-200'
             }`}
           >
             <Database className="w-4 h-4" />
@@ -507,20 +507,20 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
           {/* TAB 1: ALL SAVED MASTER PAPERS */}
           {activeTab === 'all_saves' && (
             <div className="space-y-4">
-              <div className="flex items-center justify-between text-xs text-slate-400">
+              <div className="flex items-center justify-between text-xs text-stone-400">
                 <span>
                   Showing all customized papers saved as Master Default across institutional test batches.
                 </span>
-                <span className="font-mono font-bold text-slate-300">
+                <span className="font-mono font-bold text-stone-300">
                   {savedPaperKeys.length} Custom Master Paper{savedPaperKeys.length === 1 ? '' : 's'} Registered
                 </span>
               </div>
 
               {savedPaperKeys.length === 0 ? (
-                <div className="text-center py-16 bg-slate-950/40 rounded-2xl border border-slate-800 space-y-3">
-                  <ShieldCheck className="w-12 h-12 text-slate-500 mx-auto" />
-                  <h4 className="text-sm font-bold text-slate-300">No Custom Master Default Paper Saved Yet</h4>
-                  <p className="text-xs text-slate-500 max-w-md mx-auto">
+                <div className="text-center py-16 bg-stone-950/40 rounded-2xl border border-stone-800 space-y-3">
+                  <ShieldCheck className="w-12 h-12 text-stone-500 mx-auto" />
+                  <h4 className="text-sm font-bold text-stone-300">No Custom Master Default Paper Saved Yet</h4>
+                  <p className="text-xs text-stone-500 max-w-md mx-auto">
                     All test papers are currently running the standard official syllabus template. Any edits or topic swaps you save with "Save as Master Default" in Sunday Studio will be recorded here.
                   </p>
                 </div>
@@ -538,15 +538,15 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                         key={key}
                         className={`p-6 rounded-2xl border transition space-y-3 ${
                           isSelected
-                            ? 'bg-slate-800/90 border-emerald-500/60 shadow-lg ring-1 ring-emerald-500/30'
-                            : 'bg-slate-950/60 border-slate-800 hover:border-slate-700'
+                            ? 'bg-stone-800/90 border-emerald-500/60 shadow-lg ring-1 ring-emerald-500/30'
+                            : 'bg-stone-950/60 border-stone-800 hover:border-stone-700'
                         }`}
                       >
                         <div className="flex items-start justify-between">
                           <div className="space-y-1">
                             <div className="flex items-center gap-4">
                               <span className="text-base font-black text-white font-mono">{canonical}</span>
-                              <span className="px-2 py-0.5 rounded-md text-[10px] font-mono font-bold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                              <span className="px-2 py-0.5 rounded-md text-[10px] font-mono font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30">
                                 Rev {(paper as any).revision || 1}
                               </span>
                               {isCurrentlyLoaded && (
@@ -555,35 +555,35 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                                 </span>
                               )}
                             </div>
-                            <p className="text-xs text-slate-400 font-medium line-clamp-1">
+                            <p className="text-xs text-stone-400 font-medium line-clamp-1">
                               {paper.testTitle || `Official Default Sunday Paper: ${canonical}`}
                             </p>
                           </div>
 
                           <div className="text-right">
-                            <span className="text-[11px] font-mono text-slate-400 block">{dateStr}</span>
-                            <span className="text-[10px] text-slate-500 font-mono">180 Questions</span>
+                            <span className="text-[11px] font-mono text-stone-400 block">{dateStr}</span>
+                            <span className="text-[10px] text-stone-500 font-mono">180 Questions</span>
                           </div>
                         </div>
 
                         {/* Units list */}
                         {paper.customChapters && (
-                          <div className="p-3.5 bg-slate-900/80 rounded-xl border border-slate-800 text-[11px] space-y-1">
-                            <div className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Configured Syllabus Units:</div>
-                            <div className="text-slate-300 line-clamp-1 font-mono text-[10px]">
-                              <span className="text-sky-400 font-bold">PHY:</span> {(paper.customChapters.physics || []).join(', ') || 'Standard'}
+                          <div className="p-3.5 bg-stone-900/80 rounded-xl border border-stone-800 text-[11px] space-y-1">
+                            <div className="text-stone-400 font-bold text-[10px] uppercase tracking-wider">Configured Syllabus Units:</div>
+                            <div className="text-stone-300 line-clamp-1 font-mono text-[10px]">
+                              <span className="text-orange-400 font-bold">PHY:</span> {(paper.customChapters.physics || []).join(', ') || 'Standard'}
                             </div>
-                            <div className="text-slate-300 line-clamp-1 font-mono text-[10px]">
+                            <div className="text-stone-300 line-clamp-1 font-mono text-[10px]">
                               <span className="text-amber-400 font-bold">CHEM:</span> {(paper.customChapters.chemistry || []).join(', ') || 'Standard'}
                             </div>
-                            <div className="text-slate-300 line-clamp-1 font-mono text-[10px]">
+                            <div className="text-stone-300 line-clamp-1 font-mono text-[10px]">
                               <span className="text-emerald-400 font-bold">BIO:</span> {(paper.customChapters.biology || []).join(', ') || 'Standard'}
                             </div>
                           </div>
                         )}
 
                         {/* Card Actions */}
-                        <div className="flex items-center justify-between pt-1 border-t border-slate-800/80">
+                        <div className="flex items-center justify-between pt-1 border-t border-stone-800/80">
                           <button
                             onClick={() => {
                               setSelectedInspectCode(canonical);
@@ -630,28 +630,28 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
           {activeTab === 'inspect_questions' && (
             <div className="space-y-4">
               {/* Filter controls */}
-              <div className="p-3.5 bg-slate-950/60 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs">
+              <div className="p-3.5 bg-stone-950/60 rounded-2xl border border-stone-800 flex flex-wrap items-center justify-between gap-3 text-xs">
                 <div className="flex items-center gap-4 flex-wrap flex-1">
                   <div className="relative min-w-[200px] flex-1 max-w-xs">
-                    <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                    <Search className="w-3.5 h-3.5 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
                     <input
                       type="text"
                       placeholder="Search questions, chapter, Q#..."
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className="w-full bg-slate-900 border border-slate-700 rounded-xl pl-9 pr-3 py-1.5 text-xs text-white placeholder-slate-500 focus:outline-hidden focus:ring-1 focus:ring-emerald-500"
+                      className="w-full bg-stone-900 border border-stone-700 rounded-xl pl-9 pr-3 py-1.5 text-xs text-white placeholder-stone-500 focus:outline-hidden focus:ring-1 focus:ring-emerald-500"
                     />
                   </div>
 
-                  <div className="flex items-center gap-1 bg-slate-900 p-1 rounded-xl border border-slate-800">
+                  <div className="flex items-center gap-1 bg-stone-900 p-1 rounded-xl border border-stone-800">
                     {(['All', 'Physics', 'Chemistry', 'Botany', 'Zoology'] as const).map(sub => (
                       <button
                         key={sub}
                         onClick={() => setSubjectFilter(sub)}
                         className={`px-2.5 py-1 rounded-lg text-[11px] font-bold transition cursor-pointer ${
                           subjectFilter === sub
-                            ? 'bg-indigo-600 text-white shadow-xs'
-                            : 'text-slate-400 hover:text-white'
+                            ? 'bg-rose-600 text-white shadow-xs'
+                            : 'text-stone-400 hover:text-white'
                         }`}
                       >
                         {sub}
@@ -664,7 +664,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                     className={`px-3 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border ${
                       diffFilter === 'modified_only'
                         ? 'bg-amber-500/20 text-amber-300 border-amber-500/40'
-                        : 'bg-slate-900 text-slate-400 border-slate-700 hover:text-white'
+                        : 'bg-stone-900 text-stone-400 border-stone-700 hover:text-white'
                     }`}
                   >
                     <Sparkles className="w-3.5 h-3.5 text-amber-400" />
@@ -672,7 +672,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                   </button>
                 </div>
 
-                <div className="text-slate-400 font-mono text-[11px]">
+                <div className="text-stone-400 font-mono text-[11px]">
                   Showing <strong className="text-white">{filteredQuestions.length}</strong> of 180 Questions
                 </div>
               </div>
@@ -680,7 +680,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
               {/* Questions List */}
               <div className="space-y-3">
                 {filteredQuestions.length === 0 ? (
-                  <div className="text-center py-12 bg-slate-950/40 rounded-2xl border border-slate-800 text-slate-400 text-xs">
+                  <div className="text-center py-12 bg-stone-950/40 rounded-2xl border border-stone-800 text-stone-400 text-xs">
                     No questions match the current filter criteria.
                   </div>
                 ) : (
@@ -692,17 +692,17 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                         className={`p-6 rounded-2xl border transition space-y-2.5 ${
                           isModified
                             ? 'bg-amber-950/20 border-amber-500/40'
-                            : 'bg-slate-950/60 border-slate-800/80 hover:border-slate-700'
+                            : 'bg-stone-950/60 border-stone-800/80 hover:border-stone-700'
                         }`}
                       >
                         {/* Question Header Meta */}
                         <div className="flex items-center justify-between flex-wrap gap-4 text-xs">
                           <div className="flex items-center gap-4">
-                            <span className="px-2.5 py-0.5 rounded-lg bg-slate-800 text-white font-mono font-black text-xs">
+                            <span className="px-2.5 py-0.5 rounded-lg bg-stone-800 text-white font-mono font-black text-xs">
                               Q#{index + 1}
                             </span>
                             <span className={`px-2 py-0.5 rounded-md text-[10px] font-bold ${
-                              question.subject === 'Physics' ? 'bg-sky-500/20 text-sky-300 border border-sky-500/30' :
+                              question.subject === 'Physics' ? 'bg-orange-500/20 text-orange-300 border border-orange-500/30' :
                               question.subject === 'Chemistry' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :
                               'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                             }`}>
@@ -710,11 +710,11 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                               {question.tags?.includes('Botany') ? ' (Botany)' : ''}
                               {question.tags?.includes('Zoology') ? ' (Zoology)' : ''}
                             </span>
-                            <span className="text-slate-400 font-medium text-xs">
+                            <span className="text-stone-400 font-medium text-xs">
                               {question.chapter}
                             </span>
                             {question.topic && question.topic !== question.chapter && (
-                              <span className="text-slate-500 text-[11px]">
+                              <span className="text-stone-500 text-[11px]">
                                 • {question.topic}
                               </span>
                             )}
@@ -730,7 +730,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                             </span>
 
                             {isModified && (
-                              <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-amber-400 text-slate-950 font-mono">
+                              <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-amber-400 text-stone-950 font-mono">
                                 Modified vs Base
                               </span>
                             )}
@@ -738,7 +738,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                         </div>
 
                         {/* Question Text */}
-                        <div className="text-slate-200 text-xs sm:text-sm font-medium leading-relaxed bg-slate-900/60 p-3 rounded-xl border border-slate-800">
+                        <div className="text-stone-200 text-xs sm:text-sm font-medium leading-relaxed bg-stone-900/60 p-3 rounded-xl border border-stone-800">
                           {formatMathAndFormulas(question.questionText)}
                         </div>
 
@@ -752,11 +752,11 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                                 className={`p-3.5 rounded-xl border flex items-start space-x-2 ${
                                   isCorrect
                                     ? 'bg-emerald-500/15 border-emerald-500/50 text-emerald-200 font-bold'
-                                    : 'bg-slate-900/40 border-slate-800/80 text-slate-300'
+                                    : 'bg-stone-900/40 border-stone-800/80 text-stone-300'
                                 }`}
                               >
                                 <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold shrink-0 ${
-                                  isCorrect ? 'bg-emerald-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+                                  isCorrect ? 'bg-emerald-500 text-stone-950' : 'bg-stone-800 text-stone-400'
                                 }`}>
                                   {optLetters[optIdx]}
                                 </span>
@@ -773,8 +773,8 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
 
                         {/* Explanation snippet if present */}
                         {question.explanation && (
-                          <div className="text-[11px] text-slate-400 bg-slate-900/30 p-3 rounded-lg border border-slate-800/50">
-                            <strong className="text-slate-300">Explanation:</strong> {formatMathAndFormulas(question.explanation)}
+                          <div className="text-[11px] text-stone-400 bg-stone-900/30 p-3 rounded-lg border border-stone-800/50">
+                            <strong className="text-stone-300">Explanation:</strong> {formatMathAndFormulas(question.explanation)}
                           </div>
                         )}
                       </div>
@@ -788,14 +788,14 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
           {/* TAB 3: CLOUD DATABASE COMMITS */}
           {activeTab === 'cloud_history' && (
             <div className="space-y-4">
-              <div className="flex items-center justify-between text-xs text-slate-400">
+              <div className="flex items-center justify-between text-xs text-stone-400">
                 <span>
                   Live record rows written to Supabase Cloud database table (<code className="text-emerald-400">questions</code> where <code className="text-emerald-400">subject='__SYSTEM_SYNC__'</code>).
                 </span>
                 <button
                   onClick={loadCloudCommits}
                   disabled={isLoadingCloud}
-                  className="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                  className="px-3 py-1 bg-stone-800 hover:bg-stone-700 text-stone-200 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
                 >
                   <RefreshCw className={`w-3.5 h-3.5 ${isLoadingCloud ? 'animate-spin' : ''}`} />
                   Refresh Cloud Log
@@ -809,35 +809,35 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
               )}
 
               {isLoadingCloud ? (
-                <div className="text-center py-16 text-slate-400 text-xs space-y-2">
+                <div className="text-center py-16 text-stone-400 text-xs space-y-2">
                   <RefreshCw className="w-6 h-6 animate-spin text-emerald-400 mx-auto" />
                   <p>Querying Supabase database commit records...</p>
                 </div>
               ) : cloudCommits.length === 0 ? (
-                <div className="text-center py-16 bg-slate-950/40 rounded-2xl border border-slate-800 space-y-2">
-                  <Database className="w-10 h-10 text-slate-500 mx-auto" />
-                  <h4 className="text-sm font-bold text-slate-300">No Remote Cloud Commit Rows Found</h4>
-                  <p className="text-xs text-slate-500">Commits written with "Save as Master Default" will reflect here.</p>
+                <div className="text-center py-16 bg-stone-950/40 rounded-2xl border border-stone-800 space-y-2">
+                  <Database className="w-10 h-10 text-stone-500 mx-auto" />
+                  <h4 className="text-sm font-bold text-stone-300">No Remote Cloud Commit Rows Found</h4>
+                  <p className="text-xs text-stone-500">Commits written with "Save as Master Default" will reflect here.</p>
                 </div>
               ) : (
-                <div className="divide-y divide-slate-800/80 rounded-2xl border border-slate-800 bg-slate-950/60 overflow-hidden">
+                <div className="divide-y divide-stone-800/80 rounded-2xl border border-stone-800 bg-stone-950/60 overflow-hidden">
                   {cloudCommits.map((row) => {
                     const isMatchesActive = row.topic.toUpperCase() === canonicalInspectCode;
                     return (
                       <div
                         key={row.id}
                         className={`p-3.5 flex items-center justify-between gap-3 text-xs transition ${
-                          isMatchesActive ? 'bg-emerald-950/20' : 'hover:bg-slate-900/40'
+                          isMatchesActive ? 'bg-emerald-950/20' : 'hover:bg-stone-900/40'
                         }`}
                       >
                         <div className="flex items-center space-x-3">
                           <span className={`w-2.5 h-2.5 rounded-full ${
-                            isMatchesActive ? 'bg-emerald-400 shadow-sm shadow-emerald-400' : 'bg-slate-600'
+                            isMatchesActive ? 'bg-emerald-400 shadow-sm shadow-emerald-400' : 'bg-stone-600'
                           }`} />
                           <div>
                             <div className="flex items-center gap-4">
                               <span className="font-mono font-black text-white text-sm">{row.topic}</span>
-                              <span className="px-2 py-0.5 rounded-md text-[10px] font-mono font-bold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                              <span className="px-2 py-0.5 rounded-md text-[10px] font-mono font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30">
                                 Rev {row.correct_answer}
                               </span>
                               {isMatchesActive && (
@@ -846,17 +846,17 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                                 </span>
                               )}
                             </div>
-                            <p className="text-[11px] text-slate-400 font-mono mt-0.5">
+                            <p className="text-[11px] text-stone-400 font-mono mt-0.5">
                               {row.explanation || row.id}
                             </p>
                           </div>
                         </div>
 
                         <div className="text-right">
-                          <span className="text-[10px] text-slate-500 font-mono block">
+                          <span className="text-[10px] text-stone-500 font-mono block">
                             {(row.updated_at || row.created_at) ? new Date((row.updated_at || row.created_at)!).toLocaleString() : 'Cloud Record'}
                           </span>
-                          <span className="text-[9px] text-slate-600 font-mono block max-w-[150px] truncate" title={row.id}>
+                          <span className="text-[9px] text-stone-600 font-mono block max-w-[150px] truncate" title={row.id}>
                             {row.id}
                           </span>
                         </div>
@@ -871,7 +871,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
         </div>
 
         {/* Footer */}
-        <div className="p-6 bg-slate-950/80 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+        <div className="p-6 bg-stone-950/80 border-t border-stone-800 flex items-center justify-between text-xs text-stone-400">
           <div className="flex items-center gap-4">
             <span className="w-2 h-2 rounded-full bg-emerald-400" />
             <span>Master Default Architecture: Direct Institutional Baseline</span>
@@ -879,7 +879,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
 
           <button
             onClick={onClose}
-            className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-bold transition cursor-pointer"
+            className="px-4 py-2 bg-stone-800 hover:bg-stone-700 text-white rounded-xl text-xs font-bold transition cursor-pointer"
           >
             Close Viewer
           </button>
@@ -887,8 +887,8 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
 
         {/* Confirm Final Master Default Across All Systems Modal Dialog */}
         {confirmingPaperCode && (
-          <div className="fixed inset-0 z-60 bg-black/80 backdrop-blur-xs flex items-center justify-center p-6 animate-in fade-in duration-150">
-            <div className="bg-slate-900 border border-emerald-500/60 rounded-3xl p-6 max-w-lg w-full shadow-2xl space-y-4 animate-in zoom-in-95 duration-150">
+          <div className="fixed inset-0 z-60 bg-stone-950/80 backdrop-blur-xs flex items-center justify-center p-6 animate-in fade-in duration-150">
+            <div className="bg-stone-900 border border-emerald-500/60 rounded-3xl p-6 max-w-lg w-full shadow-2xl space-y-4 animate-in zoom-in-95 duration-150">
               <div className="flex items-center gap-3">
                 <div className="p-3 bg-emerald-500/20 text-emerald-400 rounded-2xl border border-emerald-500/30">
                   <ShieldCheck className="w-7 h-7" />
@@ -899,11 +899,11 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                 </div>
               </div>
 
-              <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2 leading-relaxed">
+              <div className="p-3.5 bg-stone-950/80 rounded-xl border border-stone-800 text-xs text-stone-300 space-y-2 leading-relaxed">
                 <p>
                   You are about to establish <strong>{confirmingPaperCode.toUpperCase()}</strong> as the authoritative <strong>Final Master Default</strong> paper across all student systems.
                 </p>
-                <ul className="list-disc pl-4 space-y-1 text-slate-400 text-[11px]">
+                <ul className="list-disc pl-4 space-y-1 text-stone-400 text-[11px]">
                   <li>All 180 questions will be committed to Supabase Cloud Database (`__SYSTEM_SYNC__`).</li>
                   <li>Realtime broadcast will instantly update all 1,000+ student CBT machines without requiring student logouts.</li>
                   <li>Syllabus units and topic configurations will be set universally.</li>
@@ -914,23 +914,23 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                 <button
                   onClick={() => setConfirmingPaperCode(null)}
                   disabled={isConfirmingFinal}
-                  className="px-4 py-2.5 rounded-xl text-xs font-bold text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 transition cursor-pointer"
+                  className="px-4 py-2.5 rounded-xl text-xs font-bold text-stone-400 hover:text-white bg-stone-800 hover:bg-stone-700 transition cursor-pointer"
                 >
                   Cancel
                 </button>
                 <button
                   onClick={() => handleExecuteConfirmFinal(confirmingPaperCode)}
                   disabled={isConfirmingFinal}
-                  className="px-5 py-2.5 rounded-xl text-xs font-black text-slate-950 bg-emerald-400 hover:bg-emerald-300 transition flex items-center gap-4 shadow-lg cursor-pointer disabled:opacity-50"
+                  className="px-5 py-2.5 rounded-xl text-xs font-black text-stone-950 bg-emerald-400 hover:bg-emerald-300 transition flex items-center gap-4 shadow-lg cursor-pointer disabled:opacity-50"
                 >
                   {isConfirmingFinal ? (
                     <>
-                      <RefreshCw className="w-4 h-4 animate-spin text-slate-950" />
+                      <RefreshCw className="w-4 h-4 animate-spin text-stone-950" />
                       Publishing to All Systems...
                     </>
                   ) : (
                     <>
-                      <CheckCheck className="w-4 h-4 text-slate-950" />
+                      <CheckCheck className="w-4 h-4 text-stone-950" />
                       Yes, Confirm Across All Systems
                     </>
                   )}

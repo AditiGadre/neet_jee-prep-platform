@@ -74,12 +74,12 @@ export const DobVerificationModal: React.FC<DobVerificationModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-[100] bg-slate-900/80 backdrop-blur-xs flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
-      <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-md w-full overflow-hidden animate-in zoom-in-95 duration-200 text-slate-900">
+    <div className="fixed inset-0 z-[100] bg-stone-900/80 backdrop-blur-xs flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
+      <div className="bg-white border border-stone-200 rounded-3xl shadow-2xl max-w-md w-full overflow-hidden animate-in zoom-in-95 duration-200 text-stone-900">
         {/* Header */}
-        <div className="bg-gradient-to-r from-orange-700 via-indigo-700 to-cyan-700 p-5 text-white flex items-center justify-between">
+        <div className="bg-gradient-to-r from-orange-700 via-rose-700 to-teal-700 p-5 text-white flex items-center justify-between">
           <div className="space-y-1">
-            <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-400 text-slate-900 uppercase font-mono tracking-wider">
+            <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-400 text-stone-900 uppercase font-mono tracking-wider">
               DOB Security Verification
             </span>
             <h3 className="text-base sm:text-lg font-black flex items-center gap-4">
@@ -102,18 +102,18 @@ export const DobVerificationModal: React.FC<DobVerificationModalProps> = ({
               <FileText className="w-4 h-4 text-orange-600 shrink-0" />
               <span className="truncate">{documentTitle || 'Examination Document'}</span>
             </div>
-            <div className="text-slate-600 flex justify-between pt-1">
-              <span>Candidate: <strong className="text-slate-900">{studentInfo.studentName}</strong></span>
+            <div className="text-stone-600 flex justify-between pt-1">
+              <span>Candidate: <strong className="text-stone-900">{studentInfo.studentName}</strong></span>
               <span className="font-mono text-orange-700 font-bold uppercase">{category}</span>
             </div>
           </div>
 
           <div className="space-y-2">
-            <label className="block text-xs font-bold text-slate-700">
+            <label className="block text-xs font-bold text-stone-700">
               Enter Date of Birth (DDMMYYYY) <span className="text-rose-500">*</span>
             </label>
-            <p className="text-[11px] text-slate-500">
-              Enter your 8-digit DOB (e.g., <code className="bg-slate-100 px-1.5 py-0.5 rounded font-mono text-orange-600 font-bold">15082006</code> for 15 Aug 2006) to generate your official PDF directly:
+            <p className="text-[11px] text-stone-500">
+              Enter your 8-digit DOB (e.g., <code className="bg-stone-100 px-1.5 py-0.5 rounded font-mono text-orange-600 font-bold">15082006</code> for 15 Aug 2006) to generate your official PDF directly:
             </p>
 
             <div className="relative">
@@ -127,9 +127,9 @@ export const DobVerificationModal: React.FC<DobVerificationModalProps> = ({
                 placeholder="DDMMYYYY"
                 maxLength={8}
                 autoFocus
-                className="w-full px-4 py-3 bg-slate-50 border-2 border-orange-400 focus:border-orange-600 rounded-xl text-center text-xl font-mono font-bold tracking-widest text-orange-900 outline-hidden transition shadow-inner"
+                className="w-full px-4 py-3 bg-stone-50 border-2 border-orange-400 focus:border-orange-600 rounded-xl text-center text-xl font-mono font-bold tracking-widest text-orange-900 outline-hidden transition shadow-inner"
               />
-              <div className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs font-mono font-bold">
+              <div className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 text-xs font-mono font-bold">
                 {pin.length}/8
               </div>
             </div>
@@ -146,21 +146,21 @@ export const DobVerificationModal: React.FC<DobVerificationModalProps> = ({
             <button
               type="button"
               onClick={onClose}
-              className="flex-1 py-2.5 rounded-xl border border-slate-300 text-slate-700 text-xs font-bold hover:bg-slate-100 transition cursor-pointer"
+              className="flex-1 py-2.5 rounded-xl border border-stone-300 text-stone-700 text-xs font-bold hover:bg-stone-100 transition cursor-pointer"
             >
               Cancel
             </button>
             <button
               type="submit"
               disabled={isSubmitting || pin.length < 8}
-              className="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-orange-600 to-indigo-600 hover:from-orange-700 hover:to-indigo-700 text-white text-xs font-bold shadow-md hover:shadow-lg transition flex items-center justify-center space-x-1.5 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-orange-600 to-rose-600 hover:from-orange-700 hover:to-rose-700 text-white text-xs font-bold shadow-md hover:shadow-lg transition flex items-center justify-center space-x-1.5 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <ShieldCheck className="w-4 h-4 text-amber-300" />
               <span>{isSubmitting ? 'Generating PDF...' : 'Verify & Download PDF'}</span>
             </button>
           </div>
 
-          <p className="text-[10px] text-center text-slate-400 font-mono">
+          <p className="text-[10px] text-center text-stone-400 font-mono">
             Secured direct client-side PDF synthesis &bull; Watermarked for neetcbtexam.com
           </p>
         </form>

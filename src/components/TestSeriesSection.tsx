@@ -474,7 +474,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   return (
     <div className="space-y-4">
       {/* 3 Dedicated Batch Tabs: Repeater / Dropper Batch, 12th Batch, 11th Batch */}
-      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 sm:p-3.5 rounded-2xl border border-slate-200 shadow-xs">
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 sm:p-3.5 rounded-2xl border border-stone-200 shadow-xs">
         <div className="flex flex-wrap items-center gap-1.5">
           <button
             onClick={() => {
@@ -483,8 +483,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             }}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
               activeBatch === 'repeater'
-                ? 'bg-gradient-to-r from-orange-600 via-indigo-600 to-cyan-600 text-white shadow-md'
-                : 'bg-slate-50 text-slate-700 hover:bg-slate-100 border border-slate-200'
+                ? 'bg-gradient-to-r from-orange-600 via-rose-600 to-teal-600 text-white shadow-md'
+                : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
             }`}
           >
             <Zap className="w-4 h-4 text-amber-300" />
@@ -502,8 +502,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             }}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
               activeBatch === '12th'
-                ? 'bg-gradient-to-r from-orange-600 to-indigo-600 text-white shadow-md'
-                : 'bg-slate-50 text-slate-700 hover:bg-slate-100 border border-slate-200'
+                ? 'bg-gradient-to-r from-orange-600 to-rose-600 text-white shadow-md'
+                : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
             }`}
           >
             <GraduationCap className="w-4 h-4" />
@@ -521,8 +521,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             }}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
               activeBatch === '11th'
-                ? 'bg-gradient-to-r from-orange-600 to-indigo-600 text-white shadow-md'
-                : 'bg-slate-50 text-slate-700 hover:bg-slate-100 border border-slate-200'
+                ? 'bg-gradient-to-r from-orange-600 to-rose-600 text-white shadow-md'
+                : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
             }`}
           >
             <Atom className="w-4 h-4" />
@@ -553,10 +553,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       </div>
 
       {/* Header Banner for Current Batch */}
-      <div className="bg-gradient-to-br from-white via-slate-50 to-orange-50/50 border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-xs">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200/80 pb-4">
+      <div className="bg-gradient-to-br from-white via-stone-50 to-orange-50/50 border border-stone-200 rounded-2xl p-5 sm:p-6 shadow-xs">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-stone-200/80 pb-4">
           <div>
-            <h1 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
+            <h1 className="text-xl sm:text-2xl font-extrabold text-stone-900 tracking-tight">
               {activeBatch === 'repeater'
                 ? repeaterTrack === 'track1'
                   ? 'NEET 2026–27 Dropper Batch: Track 1 (20-Week Chapterwise • 46 Tests)'
@@ -571,7 +571,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 ? 'Class 11th 2026–27 Exam Planner: Track 1 (Chapterwise, Partwise & Full Syllabus • 20 Tests)'
                 : 'Class 11th Foundation Sunday Test Series: Track 2 (CWT & Cumulative • 20 Tests)'}
             </h1>
-            <p className="mt-1 text-xs text-slate-600 max-w-3xl leading-relaxed">
+            <p className="mt-1 text-xs text-stone-600 max-w-3xl leading-relaxed">
               {activeBatch === '11th' ? (
                 class11Track === 'track1' ? (
                   <>
@@ -618,8 +618,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* Track Switcher Segmented Control for Class 11th Batch */}
         {activeBatch === '11th' && (
-          <div className="mt-4 p-3 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-4 items-center">
-            <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider px-1">
+          <div className="mt-4 p-3 bg-stone-100/90 rounded-2xl border border-stone-200 flex flex-wrap gap-4 items-center">
+            <span className="text-[11px] font-black text-stone-500 uppercase tracking-wider px-1">
               Select Track:
             </span>
             <button
@@ -630,7 +630,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 class11Track === 'track1'
                   ? 'bg-orange-600 text-white shadow-sm'
-                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
               }`}
             >
               <span>Track 1: Chapterwise, Partwise &amp; Full Syllabus (20 Tests)</span>
@@ -646,12 +646,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               }}
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 class11Track === 'track2'
-                  ? 'bg-indigo-600 text-white shadow-sm'
-                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+                  ? 'bg-rose-600 text-white shadow-sm'
+                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
               }`}
             >
               <span>Track 2: CWT &amp; Cumulative Master Planner (20 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class11Track === 'track2' ? 'bg-white/20 text-white' : 'bg-indigo-100 text-indigo-800'}`}>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class11Track === 'track2' ? 'bg-white/20 text-white' : 'bg-rose-100 text-rose-800'}`}>
                 Starts 11 Oct
               </span>
             </button>
@@ -660,8 +660,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* Track Switcher Segmented Control for Class 12th Batch */}
         {activeBatch === '12th' && (
-          <div className="mt-4 p-3 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-4 items-center">
-            <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider px-1">
+          <div className="mt-4 p-3 bg-stone-100/90 rounded-2xl border border-stone-200 flex flex-wrap gap-4 items-center">
+            <span className="text-[11px] font-black text-stone-500 uppercase tracking-wider px-1">
               Select Track:
             </span>
             <button
@@ -672,7 +672,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 class12Track === 'complete'
                   ? 'bg-orange-600 text-white shadow-sm'
-                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
               }`}
             >
               <span>Track 1: Complete Syllabus Master Planner (23 Tests)</span>
@@ -689,7 +689,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 class12Track === 'pc'
                   ? 'bg-emerald-600 text-white shadow-sm'
-                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
               }`}
             >
               <span>Track 2: Physics &amp; Chemistry Full Syllabus (18 Tests)</span>
@@ -702,8 +702,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* Track Switcher Segmented Control for Repeater / Dropper Batch */}
         {activeBatch === 'repeater' && (
-          <div className="mt-4 p-3 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-4 items-center">
-            <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider px-1">
+          <div className="mt-4 p-3 bg-stone-100/90 rounded-2xl border border-stone-200 flex flex-wrap gap-4 items-center">
+            <span className="text-[11px] font-black text-stone-500 uppercase tracking-wider px-1">
               Select Track:
             </span>
             <button
@@ -714,7 +714,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 repeaterTrack === 'track1'
                   ? 'bg-orange-600 text-white shadow-sm'
-                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
               }`}
             >
               <span>Track 1: 20-Week Chapterwise (46 Tests)</span>
@@ -730,12 +730,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               }}
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 repeaterTrack === 'track2'
-                  ? 'bg-indigo-600 text-white shadow-sm'
-                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+                  ? 'bg-rose-600 text-white shadow-sm'
+                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
               }`}
             >
               <span>Track 2: 17-Week Fast-Track (46 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'track2' ? 'bg-white/20 text-white' : 'bg-indigo-100 text-indigo-800'}`}>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'track2' ? 'bg-white/20 text-white' : 'bg-rose-100 text-rose-800'}`}>
                 Starts 11 Oct
               </span>
             </button>
@@ -748,7 +748,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 repeaterTrack === 'pc'
                   ? 'bg-emerald-600 text-white shadow-sm'
-                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
               }`}
             >
               <span>Track 3: Physics &amp; Chemistry (27 Tests)</span>
@@ -766,17 +766,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               <>
                 <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">11 Tests (11 Oct - 21 Feb)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">11 Tests (11 Oct - 21 Feb)</div>
                 </div>
 
-                <div className="p-3 rounded-xl bg-white border border-indigo-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-indigo-700 tracking-wider">Phase 2: Part-Wise</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">6 Tests (01 Mar - 21 Mar)</div>
+                <div className="p-3 rounded-xl bg-white border border-rose-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-rose-700 tracking-wider">Phase 2: Part-Wise</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">6 Tests (01 Mar - 21 Mar)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 3: Full Syllabus</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">3 Tests (24 Mar - 30 Mar)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">3 Tests (24 Mar - 30 Mar)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
@@ -789,17 +789,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               <>
                 <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">12 Tests (11 Oct - 07 Mar)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">12 Tests (11 Oct - 07 Mar)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 1: Cumulative</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">5 Tests (08 Nov - 28 Feb)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">5 Tests (08 Nov - 28 Feb)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Final Phase: Full Syllabus</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">3 Tests (14 Mar - 28 Mar)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">3 Tests (14 Mar - 28 Mar)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
@@ -814,17 +814,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               <>
                 <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Part-Wise</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (11 Oct - 08 Nov)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">8 Tests (11 Oct - 08 Nov)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 2: Complete Syllabus</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">10 Tests (12 Nov - 18 Dec)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">10 Tests (12 Nov - 18 Dec)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 3: NEET Mocks</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">5 Mocks (24 Dec - 01 Jan)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">5 Mocks (24 Dec - 01 Jan)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
@@ -837,17 +837,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               <>
                 <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Subject Coverage</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">100% Physics (50 Qs)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">100% Physics (50 Qs)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Subject Coverage</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">100% Chemistry (50 Qs)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">100% Chemistry (50 Qs)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
                   <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Cadence</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">Every 3 Days (10 Mar - 30 Apr)</div>
+                  <div className="text-xl font-bold text-stone-900 mt-0.5">Every 3 Days (10 Mar - 30 Apr)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
@@ -861,17 +861,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             <>
               <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">20 Tests (11 Oct - 14 Feb)</div>
+                <div className="text-xl font-bold text-stone-900 mt-0.5">20 Tests (11 Oct - 14 Feb)</div>
               </div>
 
-              <div className="p-3 rounded-xl bg-white border border-indigo-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-indigo-700 tracking-wider">Phase 2: Part-Wise</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (18 Feb - 18 Mar)</div>
+              <div className="p-3 rounded-xl bg-white border border-rose-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-rose-700 tracking-wider">Phase 2: Part-Wise</div>
+                <div className="text-xl font-bold text-stone-900 mt-0.5">8 Tests (18 Feb - 18 Mar)</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 3: Full Syllabus</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">18 Tests (22 Mar - 30 Apr)</div>
+                <div className="text-xl font-bold text-stone-900 mt-0.5">18 Tests (22 Mar - 30 Apr)</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
@@ -884,17 +884,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             <>
               <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Fast-Track</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">17 Tests (11 Oct - 24 Jan)</div>
+                <div className="text-xl font-bold text-stone-900 mt-0.5">17 Tests (11 Oct - 24 Jan)</div>
               </div>
 
-              <div className="p-3 rounded-xl bg-white border border-indigo-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-indigo-700 tracking-wider">Phase 2: Part-Wise</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (28 Jan - 25 Feb)</div>
+              <div className="p-3 rounded-xl bg-white border border-rose-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-rose-700 tracking-wider">Phase 2: Part-Wise</div>
+                <div className="text-xl font-bold text-stone-900 mt-0.5">8 Tests (28 Jan - 25 Feb)</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 3: Full Syllabus</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">21 Tests (28 Feb - 29 Apr)</div>
+                <div className="text-xl font-bold text-stone-900 mt-0.5">21 Tests (28 Feb - 29 Apr)</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
@@ -907,17 +907,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             <>
               <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Subject 1: Physics</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">20 Official Units (50 Qs)</div>
+                <div className="text-xl font-bold text-stone-900 mt-0.5">20 Official Units (50 Qs)</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Subject 2: Chemistry</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">20 Official Units (50 Qs)</div>
+                <div className="text-xl font-bold text-stone-900 mt-0.5">20 Official Units (50 Qs)</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Cadence</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">Every 3 Days (10 Feb - 29 Apr)</div>
+                <div className="text-xl font-bold text-stone-900 mt-0.5">Every 3 Days (10 Feb - 29 Apr)</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
@@ -946,7 +946,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       )}
 
       {/* PHASE FILTER PILLS & SEARCH BAR */}
-      <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-3">
+      <div className="bg-white p-3 rounded-2xl border border-stone-200 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-3">
         <div className="flex flex-wrap items-center gap-1.5 overflow-x-auto pb-1 md:pb-0">
           {(activeBatch === '11th'
             ? class11Track === 'track1'
@@ -1002,7 +1002,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition cursor-pointer ${
                 activePhaseFilter === f.id && !showRevisionBuffer
                   ? 'bg-orange-600 text-white shadow-xs'
-                  : 'bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200'
+                  : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
               }`}
             >
               {f.label}
@@ -1026,37 +1026,37 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* Search Bar */}
         <div className="relative w-full md:w-72 shrink-0">
-          <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+          <Search className="w-3.5 h-3.5 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
           <input
             type="text"
             placeholder="Search test code or chapter..."
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
-            className="w-full pl-8 pr-3 py-1.5 rounded-xl bg-slate-50 border border-slate-300 text-xs text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none focus:border-orange-500"
+            className="w-full pl-8 pr-3 py-1.5 rounded-xl bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:outline-none focus:border-orange-500"
           />
         </div>
       </div>
 
       {/* 12th BATCH REVISION & ANALYSIS BUFFER PANEL */}
       {activeBatch === '12th' && showRevisionBuffer && (
-        <div className="p-5 rounded-2xl bg-gradient-to-br from-purple-50/80 via-white to-indigo-50/50 border border-purple-200 shadow-xs space-y-4 animate-in fade-in duration-200">
+        <div className="p-5 rounded-2xl bg-gradient-to-br from-purple-50/80 via-white to-rose-50/50 border border-purple-200 shadow-xs space-y-4 animate-in fade-in duration-200">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-purple-100 pb-3">
             <div className="flex items-center gap-4.5">
               <span className="p-3 rounded-xl bg-purple-600 text-white shadow-2xs">
                 <Sparkles className="w-4 h-4 text-amber-300" />
               </span>
               <div>
-                <h3 className="text-sm font-bold text-slate-900">
+                <h3 className="text-sm font-bold text-stone-900">
                   Revision &amp; Analysis Buffer (11 December 2026 – 03 February 2027)
                 </h3>
-                <p className="text-xs text-slate-600">
+                <p className="text-xs text-stone-600">
                   Structured 7-cycle post-mock remediation program to eliminate errors and cement 720-mark mastery.
                 </p>
               </div>
             </div>
             <button
               onClick={() => setShowRevisionBuffer(false)}
-              className="px-3 py-1 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 self-start sm:self-auto cursor-pointer"
+              className="px-3 py-1 text-xs font-semibold rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 self-start sm:self-auto cursor-pointer"
             >
               Hide Buffer
             </button>
@@ -1072,14 +1072,14 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   <span className="text-[10px] font-bold uppercase tracking-wider text-purple-700 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded-md font-mono">
                     Stage {idx + 1}
                   </span>
-                  <span className="text-[11px] font-semibold text-slate-500 font-mono">
+                  <span className="text-[11px] font-semibold text-stone-500 font-mono">
                     {stage.period}
                   </span>
                 </div>
-                <div className="text-xs font-bold text-slate-900">
+                <div className="text-xs font-bold text-stone-900">
                   {stage.action}
                 </div>
-                <div className="text-[11px] text-slate-600 leading-relaxed bg-purple-50/40 p-3 rounded-lg border border-purple-100/60">
+                <div className="text-[11px] text-stone-600 leading-relaxed bg-purple-50/40 p-3 rounded-lg border border-purple-100/60">
                   <span className="font-bold text-purple-900">Output:</span> {stage.output}
                 </div>
               </div>
@@ -1091,11 +1091,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       {/* SCHEDULED SUNDAYS CALENDAR LIST */}
       <div className="space-y-3">
         <div className="flex items-center justify-between px-1">
-          <h2 className="text-sm font-bold text-slate-800 flex items-center gap-1.5">
+          <h2 className="text-sm font-bold text-stone-800 flex items-center gap-1.5">
             <Calendar className="w-4 h-4 text-orange-600" />
             <span>Showing {currentDisplayTests.length} {activeBatch === '12th' ? 'Scheduled Tests' : 'Scheduled Sunday Tests'}</span>
           </h2>
-          <span className="text-xs font-mono font-semibold text-slate-500">
+          <span className="text-xs font-mono font-semibold text-stone-500">
             {activeBatch === 'repeater' && repeaterTrack === 'pc' ? 'Physics & Chemistry Full Syllabus • 400 Marks' : 'Official NTA NEET Standard • 720 Marks'}
           </span>
         </div>
@@ -1146,8 +1146,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 key={mock.id}
                 className={`p-5 rounded-2xl border transition hover:shadow-md flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 ${
                   isLive && isAdminAccessGranted
-                    ? 'bg-gradient-to-br from-orange-50/70 via-white to-cyan-50/40 border-orange-400 shadow-sm'
-                    : 'bg-white border-slate-200'
+                    ? 'bg-gradient-to-br from-orange-50/70 via-white to-teal-50/40 border-orange-400 shadow-sm'
+                    : 'bg-white border-stone-200'
                 }`}
               >
                 <div className="space-y-2 flex-1 w-full">
@@ -1157,7 +1157,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase font-mono tracking-wider flex items-center gap-1 ${
                         isLive && isAdminAccessGranted
                           ? 'bg-rose-600 text-white animate-pulse'
-                          : 'bg-slate-100 text-slate-700'
+                          : 'bg-stone-100 text-stone-700'
                       }`}
                     >
                       {isLive && isAdminAccessGranted ? '🔴 LIVE TODAY (SUNDAY)' : `📅 ${mock.dateStr}`}
@@ -1177,7 +1177,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       } else if (isCum) {
                         badgeColorClass = 'text-amber-800 bg-amber-50 border-amber-300';
                       } else if (isPart) {
-                        badgeColorClass = 'text-indigo-800 bg-indigo-50 border-indigo-200';
+                        badgeColorClass = 'text-rose-800 bg-rose-50 border-rose-200';
                       }
 
                       return (
@@ -1187,7 +1187,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       );
                     })()}
 
-                    <span className="text-xs font-mono text-slate-600 bg-slate-50 border border-slate-200 px-2 py-0.5 rounded-lg">
+                    <span className="text-xs font-mono text-stone-600 bg-stone-50 border border-stone-200 px-2 py-0.5 rounded-lg">
                       {totalDynamicMarks} Marks &bull; {dynamicDuration} Mins &bull; {totalDynamicQs} Qs
                       {hasEdits && <span className="ml-1.5 text-orange-600 font-bold">(Edited by Admin)</span>}
                     </span>
@@ -1197,8 +1197,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         <CheckCircle2 className="w-3 h-3 text-emerald-600" /> ✓ Sunday Test Active
                       </span>
                     ) : isAdminAccessGranted && !isSundayToday ? (
-                      <span className="text-[10px] font-bold bg-cyan-100 text-cyan-900 border border-cyan-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
-                        <Calendar className="w-3 h-3 text-cyan-700" /> Authorized • Unlocks on Sunday
+                      <span className="text-[10px] font-bold bg-teal-100 text-teal-900 border border-teal-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
+                        <Calendar className="w-3 h-3 text-teal-700" /> Authorized • Unlocks on Sunday
                       </span>
                     ) : (
                       <span className="text-[10px] font-bold bg-amber-100 text-amber-900 border border-amber-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
@@ -1209,10 +1209,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
                   {/* Title & Objective */}
                   <div>
-                    <h3 className="text-base font-bold text-slate-900 leading-snug">
+                    <h3 className="text-base font-bold text-stone-900 leading-snug">
                       {displayTitle}
                     </h3>
-                    <p className="text-xs text-slate-600 mt-0.5 leading-relaxed">
+                    <p className="text-xs text-stone-600 mt-0.5 leading-relaxed">
                       {displayDesc}
                     </p>
                   </div>
@@ -1292,11 +1292,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     className={`px-5 py-3 rounded-xl text-white text-xs font-bold shadow-md transition flex items-center justify-center space-x-2 cursor-pointer w-full sm:w-auto ${
                       isSundayTestUnlocked
                         ? isLive
-                          ? 'bg-gradient-to-r from-orange-600 via-indigo-600 to-cyan-600 hover:from-orange-700 hover:to-cyan-700 shadow-blue-500/20'
+                          ? 'bg-gradient-to-r from-orange-600 via-rose-600 to-teal-600 hover:from-orange-700 hover:to-teal-700 shadow-amber-500/20'
                           : 'bg-orange-600 hover:bg-orange-700'
                         : isAdminAccessGranted && !isSundayToday
-                        ? 'bg-slate-700 hover:bg-slate-800 border border-slate-600'
-                        : 'bg-slate-800 hover:bg-slate-900 border border-slate-700'
+                        ? 'bg-stone-700 hover:bg-stone-800 border border-stone-600'
+                        : 'bg-stone-800 hover:bg-stone-900 border border-stone-700'
                     }`}
                   >
                     {isSundayTestUnlocked ? (
@@ -1306,7 +1306,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       </>
                     ) : isAdminAccessGranted && !isSundayToday ? (
                       <>
-                        <Calendar className="w-4 h-4 text-cyan-400" />
+                        <Calendar className="w-4 h-4 text-teal-400" />
                         <span>Authorized &bull; Unlocks on Sunday</span>
                       </>
                     ) : isSundayToday && !isAdminAccessGranted ? (
@@ -1330,26 +1330,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
       {/* Admin Authorization Required Modal */}
       {showAdminApprovalModal && (
-        <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
-          <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-in zoom-in-95 duration-200 text-slate-900">
+        <div className="fixed inset-0 z-50 bg-stone-900/80 backdrop-blur-sm flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
+          <div className="bg-white border border-stone-200 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-in zoom-in-95 duration-200 text-stone-900">
             {/* Header */}
             <div className={`p-5 text-white flex items-center justify-between ${
               isAdminAccessGranted && !isSundayToday
-                ? 'bg-gradient-to-r from-cyan-700 via-orange-800 to-slate-900'
-                : 'bg-gradient-to-r from-orange-700 via-indigo-700 to-slate-900'
+                ? 'bg-gradient-to-r from-teal-700 via-orange-800 to-stone-900'
+                : 'bg-gradient-to-r from-orange-700 via-rose-700 to-stone-900'
             }`}>
               <div className="space-y-1">
                 <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase font-mono ${
                   isAdminAccessGranted && !isSundayToday
-                    ? 'bg-emerald-400 text-slate-900'
-                    : 'bg-amber-400 text-slate-900'
+                    ? 'bg-emerald-400 text-stone-900'
+                    : 'bg-amber-400 text-stone-900'
                 }`}>
                   {isAdminAccessGranted && !isSundayToday ? '✓ Candidate Authorized' : 'Administrator Authorization Required'}
                 </span>
                 <h3 className="text-lg font-bold flex items-center gap-4">
                   {isAdminAccessGranted && !isSundayToday ? (
                     <>
-                      <Calendar className="w-5 h-5 text-cyan-300" />
+                      <Calendar className="w-5 h-5 text-teal-300" />
                       <span>Scheduled for Sunday (720M CBT)</span>
                     </>
                   ) : (
@@ -1373,7 +1373,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
             {/* Content */}
             <div className="p-6 space-y-4">
-              <p className="text-xs text-slate-600 leading-relaxed">
+              <p className="text-xs text-stone-600 leading-relaxed">
                 {isAdminAccessGranted && !isSundayToday ? (
                   <>
                     Your candidate registration has been verified and authorized by the institution administrator! Sunday All-India Mock Tests (720 Marks) are conducted on Sundays according to the academic planner. This test room will open automatically on Sunday.
@@ -1390,22 +1390,22 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               </p>
 
               {/* Student Identification Card */}
-              <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-xs">
-                <div className="font-bold text-slate-800 flex items-center gap-1.5">
+              <div className="p-6 rounded-2xl bg-stone-50 border border-stone-200 space-y-2 text-xs">
+                <div className="font-bold text-stone-800 flex items-center gap-1.5">
                   <KeyRound className="w-4 h-4 text-orange-600" /> Candidate Verification Details:
                 </div>
                 <div className="grid grid-cols-2 gap-4 text-[11px] font-mono">
                   <div>
-                    <span className="text-slate-500">Student:</span> <span className="font-bold text-slate-900">{studentName || 'Registered Student'}</span>
+                    <span className="text-stone-500">Student:</span> <span className="font-bold text-stone-900">{studentName || 'Registered Student'}</span>
                   </div>
                   <div>
-                    <span className="text-slate-500">Roll No:</span> <span className="font-bold text-orange-700">{rollNumber || 'Enrolled'}</span>
+                    <span className="text-stone-500">Roll No:</span> <span className="font-bold text-orange-700">{rollNumber || 'Enrolled'}</span>
                   </div>
                   <div>
-                    <span className="text-slate-500">Contact:</span> <span className="font-bold text-slate-800">{studentPhone ? `+91 ${studentPhone}` : 'Enrolled Profile'}</span>
+                    <span className="text-stone-500">Contact:</span> <span className="font-bold text-stone-800">{studentPhone ? `+91 ${studentPhone}` : 'Enrolled Profile'}</span>
                   </div>
                   <div>
-                    <span className="text-slate-500">Status:</span>{' '}
+                    <span className="text-stone-500">Status:</span>{' '}
                     {isAdminAccessGranted ? (
                       <span className="font-bold text-emerald-700">✓ Approved by Admin</span>
                     ) : (
@@ -1432,7 +1432,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 {!isAdminAccessGranted && !accessRequestSent && (
                   <button
                     onClick={handleSendAccessRequest}
-                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-orange-600 to-indigo-600 hover:from-orange-700 hover:to-indigo-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-orange-600 to-rose-600 hover:from-orange-700 hover:to-rose-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   >
                     <Send className="w-4 h-4" />
                     <span>Send Access Request to Administrator</span>
@@ -1444,7 +1444,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     setShowAdminApprovalModal(false);
                     setAccessRequestSent(false);
                   }}
-                  className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold text-xs transition cursor-pointer"
+                  className="w-full py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 font-semibold text-xs transition cursor-pointer"
                 >
                   {isAdminAccessGranted && !isSundayToday ? 'OK, Got It' : 'Close'}
                 </button>

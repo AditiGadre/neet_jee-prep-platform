@@ -322,11 +322,11 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-150">
-      <div className="w-full max-w-md bg-white border border-gray-200 rounded-xl shadow-2xl p-5 sm:p-6 space-y-4 text-gray-900 relative animate-in zoom-in-95 duration-150 max-h-[95vh] overflow-y-auto custom-scrollbar">
+    <div className="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-xs flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-150">
+      <div className="w-full max-w-md bg-white border border-stone-200 rounded-xl shadow-2xl p-5 sm:p-6 space-y-4 text-stone-900 relative animate-in zoom-in-95 duration-150 max-h-[95vh] overflow-y-auto custom-scrollbar">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 p-1.5 rounded-full text-gray-400 hover:text-gray-700 hover:bg-gray-100 transition-colors cursor-pointer"
+          className="absolute top-4 right-4 p-1.5 rounded-full text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition-colors cursor-pointer"
           title="Close"
         >
           <X className="w-4 h-4" />
@@ -337,10 +337,10 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
           <div className="w-11 h-11 bg-emerald-600 rounded-xl flex items-center justify-center text-white font-black text-xl shadow-md tracking-tight">
             <WhatsAppIcon className="w-6 h-6 text-white" />
           </div>
-          <h2 className="text-xl font-bold text-gray-900">
+          <h2 className="text-xl font-bold text-stone-900">
             Student WhatsApp OTP Sign In
           </h2>
-          <p className="text-xs text-gray-500 max-w-xs">
+          <p className="text-xs text-stone-500 max-w-xs">
             {step === 'enter_phone'
               ? 'Enter your 10-digit WhatsApp mobile number to receive your login OTP directly on WhatsApp.'
               : `Enter the 6-digit OTP sent to your WhatsApp (+91 ${cleanPhone}).`}
@@ -382,7 +382,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
                 onClose();
                 onOpenAdminLogin();
               }}
-              className="w-full py-2 px-3 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-amber-300 font-bold text-xs flex items-center justify-center space-x-2 shadow-xs transition cursor-pointer"
+              className="w-full py-2 px-3 rounded-lg bg-stone-900 hover:bg-stone-800 border border-stone-700 text-amber-300 font-bold text-xs flex items-center justify-center space-x-2 shadow-xs transition cursor-pointer"
             >
               <KeyRound className="w-4 h-4 text-amber-400" />
               <span>Institutional Master Admin & Director Portal →</span>
@@ -391,8 +391,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
         )}
 
         <div className="relative flex items-center justify-center">
-          <div className="border-t border-gray-200 w-full"></div>
-          <span className="bg-white px-2 text-[10px] font-bold text-gray-400 uppercase tracking-wider">
+          <div className="border-t border-stone-200 w-full"></div>
+          <span className="bg-white px-2 text-[10px] font-bold text-stone-400 uppercase tracking-wider">
             or sign in with WhatsApp OTP
           </span>
         </div>
@@ -425,12 +425,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
         {step === 'enter_phone' ? (
           <form onSubmit={handleSendOtp} className="space-y-3">
             <div className="space-y-1">
-              <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
+              <label className="text-[11px] font-bold text-stone-700 uppercase tracking-wider flex items-center justify-between">
                 <span>WhatsApp Mobile Number</span>
-                <span className="text-[10px] text-gray-400 font-normal">10-digit Indian Mobile</span>
+                <span className="text-[10px] text-stone-400 font-normal">10-digit Indian Mobile</span>
               </label>
               <div className="relative flex rounded-lg shadow-2xs">
-                <div className="inline-flex items-center px-2.5 rounded-l-lg border border-r-0 border-gray-300 bg-gray-100 text-gray-700 text-xs font-bold font-mono">
+                <div className="inline-flex items-center px-2.5 rounded-l-lg border border-r-0 border-stone-300 bg-stone-100 text-stone-700 text-xs font-bold font-mono">
                   🇮🇳 +91
                 </div>
                 <input
@@ -439,12 +439,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
                   value={phone}
                   onChange={(e) => setPhone(e.target.value.replace(/\D/g, '').slice(0, 10))}
                   maxLength={10}
-                  className={`w-full px-3 py-2 rounded-r-lg bg-gray-50 border text-xs text-gray-900 font-mono tracking-wider focus:bg-white focus:outline-none transition ${
+                  className={`w-full px-3 py-2 rounded-r-lg bg-stone-50 border text-xs text-stone-900 font-mono tracking-wider focus:bg-white focus:outline-none transition ${
                     phone && !isPhoneValid
                       ? 'border-rose-400 focus:border-rose-500'
                       : phone && isPhoneValid
                       ? 'border-emerald-400 focus:border-emerald-500'
-                      : 'border-gray-300 focus:border-emerald-600'
+                      : 'border-stone-300 focus:border-emerald-600'
                   }`}
                   required
                   autoFocus
@@ -455,7 +455,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
                   </div>
                 )}
               </div>
-              <p className="text-[10px] text-gray-500 flex items-center space-x-1">
+              <p className="text-[10px] text-stone-500 flex items-center space-x-1">
                 <WhatsAppIcon className="w-3 h-3 text-emerald-600 shrink-0" />
                 <span>A 6-digit login OTP will be sent directly to your WhatsApp.</span>
               </p>
@@ -488,7 +488,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
                 <WhatsAppIcon className="w-4 h-4 text-emerald-600 shrink-0" />
                 <div>
                   <div className="text-[10px] text-emerald-700 font-semibold uppercase">WhatsApp Mobile</div>
-                  <span className="font-mono font-bold text-slate-800">+91 {cleanPhone}</span>
+                  <span className="font-mono font-bold text-stone-800">+91 {cleanPhone}</span>
                 </div>
               </div>
               <button
@@ -517,19 +517,19 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
             )}
 
             <div className="space-y-1">
-              <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
+              <label className="text-[11px] font-bold text-stone-700 uppercase tracking-wider flex items-center justify-between">
                 <span>Enter 6-Digit WhatsApp OTP</span>
-                <span className="text-[10px] text-gray-400 font-normal">Check your WhatsApp</span>
+                <span className="text-[10px] text-stone-400 font-normal">Check your WhatsApp</span>
               </label>
               <div className="relative">
-                <KeyRound className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
+                <KeyRound className="absolute left-3 top-2.5 w-4 h-4 text-stone-400" />
                 <input
                   type="text"
                   placeholder="• • • • • •"
                   value={otp}
                   onChange={(e) => setOtp(e.target.value.replace(/\D/g, '').slice(0, 6))}
                   maxLength={6}
-                  className="w-full pl-9 pr-3 py-2 rounded-lg bg-gray-50 border border-gray-300 text-base text-gray-900 font-mono tracking-widest text-center focus:bg-white focus:outline-none focus:border-emerald-600 transition"
+                  className="w-full pl-9 pr-3 py-2 rounded-lg bg-stone-50 border border-stone-300 text-base text-stone-900 font-mono tracking-widest text-center focus:bg-white focus:outline-none focus:border-emerald-600 transition"
                   required
                   autoFocus
                 />
@@ -554,8 +554,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
             {/* Resend OTP button & timer */}
             <div className="text-center pt-1 space-y-1">
               {countdown > 0 ? (
-                <p className="text-[11px] text-gray-400">
-                  Resend OTP in <strong className="text-gray-600 font-mono">{countdown}s</strong>
+                <p className="text-[11px] text-stone-400">
+                  Resend OTP in <strong className="text-stone-600 font-mono">{countdown}s</strong>
                 </p>
               ) : (
                 <button
@@ -568,7 +568,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
                   <span>Resend OTP on WhatsApp</span>
                 </button>
               )}
-              <p className="text-[10px] text-gray-400">
+              <p className="text-[10px] text-stone-400">
                 Didn't receive WhatsApp OTP? You can also enter your enrolled Date of Birth PIN (DDMMYY).
               </p>
             </div>
@@ -576,7 +576,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
         )}
 
         {/* Footer */}
-        <div className="flex items-center justify-between pt-2 border-t border-gray-200 text-xs">
+        <div className="flex items-center justify-between pt-2 border-t border-stone-200 text-xs">
           <button
             type="button"
             onClick={() => {
@@ -588,7 +588,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
             <span>New student? Enroll First →</span>
           </button>
 
-          <div className="flex items-center space-x-1 text-gray-400 text-[11px]">
+          <div className="flex items-center space-x-1 text-stone-400 text-[11px]">
             <ShieldCheck className="w-3.5 h-3.5 text-green-600" />
             <span>256-Bit Encrypted</span>
           </div>

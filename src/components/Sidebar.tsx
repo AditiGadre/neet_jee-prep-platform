@@ -81,19 +81,19 @@ export const Sidebar: React.FC<SidebarProps> = ({
   ];
 
   return (
-    <aside className="w-full lg:w-64 bg-slate-900 border-r border-slate-800 flex flex-col shrink-0 text-white select-none">
+    <aside className="w-full lg:w-64 bg-stone-900 border-r border-stone-800 flex flex-col shrink-0 text-white select-none">
       {/* Platform Header in Sidebar */}
-      <div className="p-6 border-b border-slate-800/80 bg-slate-950/40">
+      <div className="p-6 border-b border-stone-800/80 bg-stone-950/40">
         <div className="flex items-center space-x-2">
-          <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-orange-600 to-cyan-500 flex items-center justify-center font-black text-xs shadow-xs">
+          <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-orange-600 to-teal-500 flex items-center justify-center font-black text-xs shadow-xs">
             nc
           </div>
           <div>
-            <div className="text-xs font-bold uppercase tracking-wider text-slate-400">
+            <div className="text-xs font-bold uppercase tracking-wider text-stone-400">
               Platform Modules
             </div>
             <div className="text-sm font-extrabold text-white">
-              NeetCbt<span className="text-cyan-400"> Exam Test</span>
+              NeetCbt<span className="text-teal-400"> Exam Test</span>
             </div>
           </div>
         </div>
@@ -111,19 +111,19 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 onClick={() => onSelectTab(item.id)}
                 className={`w-full text-left p-3.5 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                   isActive
-                    ? 'bg-gradient-to-r from-orange-600 to-indigo-600 text-white font-bold shadow-md shadow-blue-900/20'
-                    : 'text-slate-300 hover:bg-slate-800/70 hover:text-white'
+                    ? 'bg-gradient-to-r from-orange-600 to-rose-600 text-white font-bold shadow-md shadow-amber-900/20'
+                    : 'text-stone-300 hover:bg-stone-800/70 hover:text-white'
                 }`}
               >
                 <div className="flex items-center space-x-2.5 min-w-0">
                   <Icon
                     className={`w-4 h-4 shrink-0 ${
-                      isActive ? 'text-white' : item.highlight ? 'text-amber-400' : 'text-slate-400'
+                      isActive ? 'text-white' : item.highlight ? 'text-amber-400' : 'text-stone-400'
                     }`}
                   />
                   <div className="min-w-0">
                     <div className="truncate font-semibold">{item.label}</div>
-                    <div className="text-[10px] text-slate-400 truncate font-normal">
+                    <div className="text-[10px] text-stone-400 truncate font-normal">
                       {item.sublabel}
                     </div>
                   </div>
@@ -136,7 +136,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         ? 'bg-white/20 text-white'
                         : item.highlight
                         ? 'bg-amber-400/20 text-amber-300 border border-amber-400/30'
-                        : 'bg-slate-800 text-slate-400'
+                        : 'bg-stone-800 text-stone-400'
                     }`}
                   >
                     {item.badge}
@@ -159,11 +159,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         }}
                         className={`w-full text-left px-2 py-1.5 rounded-lg text-[11px] transition flex items-center space-x-2 cursor-pointer ${
                           isSubActive
-                            ? 'bg-white/10 text-cyan-300 font-bold'
-                            : 'text-slate-400 hover:bg-white/5 hover:text-slate-200'
+                            ? 'bg-white/10 text-teal-300 font-bold'
+                            : 'text-stone-400 hover:bg-white/5 hover:text-stone-200'
                         }`}
                       >
-                        <SubIcon className="w-3 h-3 text-slate-400" />
+                        <SubIcon className="w-3 h-3 text-stone-400" />
                         <span className="truncate">{sub.label}</span>
                       </button>
                     );
@@ -176,13 +176,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
       </div>
 
       {/* Verified Banner in Bottom Sidebar */}
-      <div className="p-3 bg-slate-950/60 border-t border-slate-800/80">
-        <div className="p-3.5 rounded-xl bg-gradient-to-br from-orange-900/40 to-slate-900 border border-orange-800/40 space-y-1">
-          <div className="flex items-center space-x-1.5 text-xs font-bold text-cyan-300">
-            <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />
+      <div className="p-3 bg-stone-950/60 border-t border-stone-800/80">
+        <div className="p-3.5 rounded-xl bg-gradient-to-br from-orange-900/40 to-stone-900 border border-orange-800/40 space-y-1">
+          <div className="flex items-center space-x-1.5 text-xs font-bold text-teal-300">
+            <ShieldCheck className="w-3.5 h-3.5 text-teal-400" />
             <span>NeetCbt Verified</span>
           </div>
-          <p className="text-[10px] text-slate-400 font-mono">
+          <p className="text-[10px] text-stone-400 font-mono">
             Target Batch 2027–2029 &bull; 100% NCERT Authenticated
           </p>
         </div>
@@ -193,7 +193,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               e.preventDefault();
               if (onNavigateToAbout) onNavigateToAbout();
             }}
-            className="text-[10.5px] font-semibold text-slate-400 hover:text-cyan-300 transition inline-flex items-center gap-1 cursor-pointer"
+            className="text-[10.5px] font-semibold text-stone-400 hover:text-teal-300 transition inline-flex items-center gap-1 cursor-pointer"
           >
             <span>About NeetCbt Platform</span>
             <span>&rarr;</span>

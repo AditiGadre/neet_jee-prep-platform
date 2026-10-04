@@ -512,16 +512,16 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   return (
     <div className="space-y-4">
       {/* Header Banner */}
-      <div className="bg-white border border-gray-200 rounded-lg p-5 shadow-xs">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-100 pb-4">
+      <div className="bg-white border border-stone-200 rounded-lg p-5 shadow-xs">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-stone-100 pb-4">
           <div>
             <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-orange-50 border border-orange-200 text-orange-700 text-[10px] font-bold uppercase tracking-wider mb-1.5">
               <Sparkles className="w-3 h-3 text-orange-600" /> High-Yield Academic Edge Suite
             </div>
-            <h1 className="text-xl sm:text-2xl font-bold text-gray-900 tracking-tight">
+            <h1 className="text-xl sm:text-2xl font-bold text-stone-900 tracking-tight">
               2. What Extra We Offer (Precision Student Suite)
             </h1>
-            <p className="mt-1 text-xs text-gray-600 max-w-3xl">
+            <p className="mt-1 text-xs text-stone-600 max-w-3xl">
               Custom Practice Test Generator, Sub-Topic DPPs, Student Performance Analytics, and Tracked PDF Download Vault.
             </p>
           </div>
@@ -539,7 +539,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 className={`flex items-center space-x-1.5 px-3 py-2 rounded text-xs font-semibold whitespace-nowrap transition-colors cursor-pointer ${
                   isActive
                     ? 'bg-orange-600 text-white shadow-xs'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                    : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                 }`}
               >
                 <Icon className="w-3.5 h-3.5" />
@@ -557,14 +557,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
       {/* 1. CUSTOM PRACTICE TEST GENERATOR (INSTANT 0MS BUILDER) */}
       {activeSubTab === 'custom-test' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-100 gap-4">
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
+              <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
                 <Sliders className="w-4 h-4 text-orange-600" />
                 <span>Custom Practice Test Generator</span>
               </h2>
-              <p className="text-xs text-gray-500 mt-0.5">
+              <p className="text-xs text-stone-500 mt-0.5">
                 Customize subject, chapter, difficulty standard, and question count to launch a personalized CBT test or export a printable test paper.
               </p>
             </div>
@@ -587,7 +587,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {/* Subject Selector */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">1. Select Subject</label>
+              <label className="text-[10px] font-bold text-stone-500 uppercase">1. Select Subject</label>
               <select
                 value={customSubject}
                 onChange={e => {
@@ -597,7 +597,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   else if (sub === 'Chemistry') setCustomChapter(chemistryChapters[0]);
                   else setCustomChapter(physicsChapters[0]);
                 }}
-                className="w-full p-3 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-orange-500 font-semibold"
+                className="w-full p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 focus:bg-white focus:border-orange-500 font-semibold"
               >
                 <option value="Biology">🧬 Biology (All 38 Chapters)</option>
                 <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
@@ -607,11 +607,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* Chapter Selector */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">2. Select Chapter ({currentChapterList.length} Units)</label>
+              <label className="text-[10px] font-bold text-stone-500 uppercase">2. Select Chapter ({currentChapterList.length} Units)</label>
               <select
                 value={customChapter}
                 onChange={e => setCustomChapter(e.target.value)}
-                className="w-full p-3 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-orange-500 font-semibold"
+                className="w-full p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 focus:bg-white focus:border-orange-500 font-semibold"
               >
                 {currentChapterList.map((ch, idx) => (
                   <option key={idx} value={ch}>
@@ -624,7 +624,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             {/* Difficulty Level (Multi-Select Support) */}
             <div className="space-y-1">
               <div className="flex items-center justify-between">
-                <label className="text-[10px] font-bold text-gray-500 uppercase">3. Difficulty Standards (Select 1 or More)</label>
+                <label className="text-[10px] font-bold text-stone-500 uppercase">3. Difficulty Standards (Select 1 or More)</label>
                 <span className="text-[10px] font-semibold text-orange-600 bg-orange-50 px-1.5 py-0.5 rounded border border-orange-100">
                   {customDifficulties.length} Selected
                 </span>
@@ -645,18 +645,18 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       className={`p-3 rounded text-left border transition-all cursor-pointer flex flex-col justify-between ${
                         isSelected
                           ? 'bg-orange-50/90 border-orange-500 ring-1 ring-orange-500/30 text-orange-900 shadow-2xs'
-                          : 'bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100 hover:border-gray-300'
+                          : 'bg-stone-50 border-stone-200 text-stone-600 hover:bg-stone-100 hover:border-stone-300'
                       }`}
                     >
                       <div className="flex items-center justify-between w-full">
                         <span className="text-xs font-bold">{item.id}</span>
                         <span className={`w-3.5 h-3.5 rounded-full flex items-center justify-center text-[9px] font-bold ${
-                          isSelected ? 'bg-orange-600 text-white' : 'border border-gray-300 bg-white'
+                          isSelected ? 'bg-orange-600 text-white' : 'border border-stone-300 bg-white'
                         }`}>
                           {isSelected ? '✓' : ''}
                         </span>
                       </div>
-                      <span className="text-[9px] text-gray-500 mt-0.5">{item.desc}</span>
+                      <span className="text-[9px] text-stone-500 mt-0.5">{item.desc}</span>
                     </button>
                   );
                 })}
@@ -665,7 +665,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* Questions Count Preset */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">4. Number of Questions</label>
+              <label className="text-[10px] font-bold text-stone-500 uppercase">4. Number of Questions</label>
               <div className="grid grid-cols-4 gap-1.5">
                 {[15, 30, 45, 60].map(cnt => (
                   <button
@@ -677,7 +677,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     className={`py-1.5 rounded text-xs font-bold font-mono transition-colors cursor-pointer ${
                       customQCount === cnt
                         ? 'bg-orange-600 text-white shadow-xs'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                        : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                     }`}
                   >
                     {cnt} Qs
@@ -688,7 +688,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* Duration Preset */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">5. Allotted Time Limit</label>
+              <label className="text-[10px] font-bold text-stone-500 uppercase">5. Allotted Time Limit</label>
               <div className="grid grid-cols-4 gap-1.5">
                 {[15, 30, 45, 60].map(mins => (
                   <button
@@ -697,7 +697,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     className={`py-1.5 rounded text-xs font-bold font-mono transition-colors cursor-pointer ${
                       customDuration === mins
                         ? 'bg-purple-600 text-white shadow-xs'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                        : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                     }`}
                   >
                     {mins} Mins
@@ -708,8 +708,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* Marking Scheme */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">6. Exam Standard & Marking</label>
-              <div className="p-3 rounded bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
+              <label className="text-[10px] font-bold text-stone-500 uppercase">6. Exam Standard & Marking</label>
+              <div className="p-3 rounded bg-stone-50 border border-stone-200 text-xs font-mono font-semibold text-stone-800 flex items-center justify-between">
                 <span>Correct: <strong className="text-emerald-700">+4 Marks</strong></span>
                 <span>Incorrect: <strong className="text-rose-700">-1 Mark</strong></span>
               </div>
@@ -719,26 +719,26 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
           {/* Test Summary Preview & Launch Button */}
           <div className="p-6 rounded bg-orange-50/60 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div className="space-y-0.5 text-xs">
-              <div className="text-gray-700">
+              <div className="text-stone-700">
                 Configured Custom Test:{' '}
-                <strong className="text-gray-900">
+                <strong className="text-stone-900">
                   {customSubject} &bull; {customChapter}
                 </strong>
               </div>
-              <div className="text-gray-600 font-mono text-[11px]">
+              <div className="text-stone-600 font-mono text-[11px]">
                 Format:{' '}
                 <span className="text-orange-700 font-bold">{customQCount} Questions ({customQCount * 4} Marks)</span> &bull;{' '}
                 <span className="text-purple-700 font-bold">{customDuration} Minutes</span> &bull; Level:{' '}
-                <span className="text-indigo-700 font-bold">{customDifficulties.join(' + ')}</span>
+                <span className="text-rose-700 font-bold">{customDifficulties.join(' + ')}</span>
               </div>
             </div>
 
             <div className="flex flex-wrap items-center gap-4 w-full sm:w-auto">
               <button
                 onClick={handleDownloadCustomTestPdf}
-                className="flex-1 sm:flex-initial px-4 py-2.5 rounded bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                className="flex-1 sm:flex-initial px-4 py-2.5 rounded bg-white hover:bg-stone-100 text-stone-800 font-bold text-xs border border-stone-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
               >
-                <Download className="w-3.5 h-3.5 text-gray-600" />
+                <Download className="w-3.5 h-3.5 text-stone-600" />
                 <span>Export Test PDF</span>
               </button>
 
@@ -756,19 +756,19 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
       {/* 2. FLASH CARDS (30+ RICH CARDS) */}
       {activeSubTab === 'flash-cards' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-100 gap-4">
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
+              <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
                 <Layers className="w-4 h-4 text-orange-600" />
                 <span>Interactive High-Yield Revision Flashcards ({filteredFlashcards.length} Cards)</span>
               </h2>
-              <p className="text-xs text-gray-500 mt-0.5">
+              <p className="text-xs text-stone-500 mt-0.5">
                 Formulas, reaction mechanisms, NCERT diagrams, mnemonics & high-yield points for instant recall.
               </p>
             </div>
             <div className="flex items-center space-x-2">
-              <span className="text-xs text-gray-500 font-mono font-bold">
+              <span className="text-xs text-stone-500 font-mono font-bold">
                 Card {activeFcIndex + 1} of {filteredFlashcards.length}
               </span>
             </div>
@@ -777,7 +777,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
           {/* Filter Bar & Search */}
           <div className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center justify-between">
             <div className="flex flex-wrap items-center gap-1.5">
-              <span className="text-xs text-gray-500 font-semibold mr-1">Subject:</span>
+              <span className="text-xs text-stone-500 font-semibold mr-1">Subject:</span>
               {['All', 'Biology', 'Chemistry', 'Physics'].map(sub => (
                 <button
                   key={sub}
@@ -789,14 +789,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                     fcSubjectFilter === sub
                       ? 'bg-orange-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                   }`}
                 >
                   {sub}
                 </button>
               ))}
 
-              <span className="text-xs text-gray-500 font-semibold ml-2 mr-1">Type:</span>
+              <span className="text-xs text-stone-500 font-semibold ml-2 mr-1">Type:</span>
               {['All', 'Formulas', 'Reactions', 'Diagrams', 'Concepts'].map(cat => (
                 <button
                   key={cat}
@@ -808,7 +808,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                     fcCategoryFilter === cat
                       ? 'bg-purple-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                   }`}
                 >
                   {cat}
@@ -825,7 +825,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   setFcSearchQuery(e.target.value);
                   setActiveFcIndex(0);
                 }}
-                className="w-full px-2.5 py-1 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-orange-500"
+                className="w-full px-2.5 py-1 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:outline-none focus:border-orange-500"
               />
             </div>
           </div>
@@ -844,12 +844,12 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 {/* Card Top Tag */}
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-2">
-                    <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-white text-orange-700 border border-gray-200 font-mono">
+                    <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-white text-orange-700 border border-stone-200 font-mono">
                       {currentFlashcard.subject} &bull; {currentFlashcard.category}
                     </span>
-                    <span className="text-xs text-gray-600 font-medium">{currentFlashcard.topic}</span>
+                    <span className="text-xs text-stone-600 font-medium">{currentFlashcard.topic}</span>
                   </div>
-                  <span className="text-xs text-gray-600 flex items-center space-x-1 bg-white px-2 py-0.5 rounded border border-gray-200 font-mono text-[11px]">
+                  <span className="text-xs text-stone-600 flex items-center space-x-1 bg-white px-2 py-0.5 rounded border border-stone-200 font-mono text-[11px]">
                     <RotateCcw className="w-3 h-3 text-orange-600" />
                     <span>Click to Flip Card</span>
                   </span>
@@ -859,10 +859,10 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <div className="my-5 text-center">
                   {!isFlipped ? (
                     <div className="space-y-3">
-                      <h3 className="text-base sm:text-lg font-bold text-gray-900">
+                      <h3 className="text-base sm:text-lg font-bold text-stone-900">
                         {currentFlashcard.frontTitle}
                       </h3>
-                      <p className="text-xs sm:text-sm text-gray-700 leading-relaxed max-w-lg mx-auto">
+                      <p className="text-xs sm:text-sm text-stone-700 leading-relaxed max-w-lg mx-auto">
                         {currentFlashcard.frontContent}
                       </p>
 
@@ -884,13 +884,13 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       <div className="text-[10px] font-bold text-purple-700 uppercase tracking-wider">
                         High-Yield Breakdown & Detailed Explanation
                       </div>
-                      <p className="text-xs text-gray-800 whitespace-pre-line leading-relaxed font-medium">
+                      <p className="text-xs text-stone-800 whitespace-pre-line leading-relaxed font-medium">
                         {currentFlashcard.backExplanation}
                       </p>
 
                       <div className="space-y-1 pt-2 border-t border-purple-200">
                         {currentFlashcard.backKeyPoints.map((pt, i) => (
-                          <div key={i} className="text-xs text-gray-700 flex items-start space-x-1.5">
+                          <div key={i} className="text-xs text-stone-700 flex items-start space-x-1.5">
                             <CheckCircle2 className="w-3.5 h-3.5 text-purple-600 shrink-0 mt-0.5" />
                             <span>{pt}</span>
                           </div>
@@ -910,19 +910,19 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 </div>
 
                 {/* Card Bottom Controls */}
-                <div className="flex items-center justify-between pt-3 border-t border-gray-200/80">
+                <div className="flex items-center justify-between pt-3 border-t border-stone-200/80">
                   <button
                     onClick={e => {
                       e.stopPropagation();
                       setIsFlipped(false);
                       setActiveFcIndex(prev => (prev > 0 ? prev - 1 : filteredFlashcards.length - 1));
                     }}
-                    className="px-3 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-700 text-xs font-semibold border border-gray-200 shadow-xs cursor-pointer"
+                    className="px-3 py-1.5 rounded bg-white hover:bg-stone-100 text-stone-700 text-xs font-semibold border border-stone-200 shadow-xs cursor-pointer"
                   >
                     &larr; Previous Card
                   </button>
 
-                  <div className="text-[11px] text-gray-500 font-mono">
+                  <div className="text-[11px] text-stone-500 font-mono">
                     {activeFcIndex + 1} / {filteredFlashcards.length}
                   </div>
 
@@ -932,7 +932,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       setIsFlipped(false);
                       setActiveFcIndex(prev => (prev < filteredFlashcards.length - 1 ? prev + 1 : 0));
                     }}
-                    className="px-3 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-700 text-xs font-semibold border border-gray-200 shadow-xs cursor-pointer"
+                    className="px-3 py-1.5 rounded bg-white hover:bg-stone-100 text-stone-700 text-xs font-semibold border border-stone-200 shadow-xs cursor-pointer"
                   >
                     Next Card &rarr;
                   </button>
@@ -945,14 +945,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
       {/* 3. MIND MAPS */}
       {activeSubTab === 'mind-maps' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-100 gap-4">
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
+              <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
                 <Network className="w-4 h-4 text-orange-600" />
                 <span>Interactive NCERT Concept Mind Maps</span>
               </h2>
-              <p className="text-xs text-gray-500 mt-0.5">
+              <p className="text-xs text-stone-500 mt-0.5">
                 Deep hierarchical concept branches with high-yield key notes and subtopics.
               </p>
             </div>
@@ -964,7 +964,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                     selectedMindMapId === mm.id
                       ? 'bg-orange-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                   }`}
                 >
                   {mm.title}
@@ -980,21 +980,21 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             return (
               <div className="space-y-3">
                 <div className="p-3.5 rounded bg-orange-50/50 border border-orange-200">
-                  <h3 className="text-sm font-bold text-gray-900">{activeMap.title} ({activeMap.subject})</h3>
-                  <p className="text-xs text-gray-600 mt-0.5">{activeMap.description}</p>
+                  <h3 className="text-sm font-bold text-stone-900">{activeMap.title} ({activeMap.subject})</h3>
+                  <p className="text-xs text-stone-600 mt-0.5">{activeMap.description}</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                   {activeMap.children?.map((child, cIdx) => (
                     <div
                       key={cIdx}
-                      className="rounded-lg bg-gray-50 border border-gray-200 p-6 space-y-2.5 hover:border-gray-300 transition-colors"
+                      className="rounded-lg bg-stone-50 border border-stone-200 p-6 space-y-2.5 hover:border-stone-300 transition-colors"
                     >
-                      <h4 className="text-xs font-bold text-orange-800 border-b border-gray-200 pb-1.5 flex items-center justify-between">
+                      <h4 className="text-xs font-bold text-orange-800 border-b border-stone-200 pb-1.5 flex items-center justify-between">
                         <span>{child.title}</span>
                       </h4>
 
-                      <div className="space-y-1 text-xs text-gray-700">
+                      <div className="space-y-1 text-xs text-stone-700">
                         {child.details?.map((d, dIdx) => (
                           <div key={dIdx} className="flex items-start space-x-1.5">
                             <span className="text-orange-600 font-bold">&bull;</span>
@@ -1004,12 +1004,12 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       </div>
 
                       {child.subTopics && child.subTopics.length > 0 && (
-                        <div className="pt-2 border-t border-gray-200/80 space-y-1">
+                        <div className="pt-2 border-t border-stone-200/80 space-y-1">
                           <div className="text-[10px] font-bold text-purple-700 uppercase tracking-wider">
                             Key High-Yield Highlights & Notes:
                           </div>
                           {child.subTopics.map((st, sIdx) => (
-                            <div key={sIdx} className="text-[11px] text-gray-600 flex items-start space-x-1.5">
+                            <div key={sIdx} className="text-[11px] text-stone-600 flex items-start space-x-1.5">
                               <CheckCircle2 className="w-3 h-3 text-purple-600 shrink-0 mt-0.5" />
                               <span>{st}</span>
                             </div>
@@ -1027,14 +1027,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
       {/* 4. STUDENT ANALYTICS */}
       {activeSubTab === 'analytics' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex items-center justify-between pb-3 border-b border-gray-100">
+        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+          <div className="flex items-center justify-between pb-3 border-b border-stone-100">
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
+              <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
                 <LineChart className="w-4 h-4 text-orange-600" />
                 <span>Performance & Weak Chapter Analytics</span>
               </h2>
-              <p className="text-xs text-gray-500 mt-0.5">
+              <p className="text-xs text-stone-500 mt-0.5">
                 Live performance score breakdown, speed metrics, accuracy rates, and AI recommendations.
               </p>
             </div>
@@ -1044,8 +1044,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
-              <div className="text-[10px] font-bold text-gray-500 uppercase">Avg NEET Score</div>
+            <div className="p-3 rounded bg-stone-50 border border-stone-200 text-center">
+              <div className="text-[10px] font-bold text-stone-500 uppercase">Avg NEET Score</div>
               <div className="text-xl font-bold text-emerald-700 font-mono mt-0.5">
                 {completedTests.length > 0
                   ? Math.round(completedTests.reduce((acc, t) => acc + t.score, 0) / completedTests.length)
@@ -1054,8 +1054,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <div className="text-[10px] text-emerald-600 font-semibold mt-0.5">Target: &gt; 160</div>
             </div>
 
-            <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
-              <div className="text-[10px] font-bold text-gray-500 uppercase">Overall Accuracy</div>
+            <div className="p-3 rounded bg-stone-50 border border-stone-200 text-center">
+              <div className="text-[10px] font-bold text-stone-500 uppercase">Overall Accuracy</div>
               <div className="text-xl font-bold text-orange-700 font-mono mt-0.5">
                 {completedTests.length > 0
                   ? Math.round(completedTests.reduce((acc, t) => acc + t.accuracyPercentage, 0) / completedTests.length)
@@ -1064,8 +1064,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <div className="text-[10px] text-orange-600 font-semibold mt-0.5">Top 5% National Percentile</div>
             </div>
 
-            <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
-              <div className="text-[10px] font-bold text-gray-500 uppercase">Time per Question</div>
+            <div className="p-3 rounded bg-stone-50 border border-stone-200 text-center">
+              <div className="text-[10px] font-bold text-stone-500 uppercase">Time per Question</div>
               <div className="text-xl font-bold text-purple-700 font-mono mt-0.5">46s / Q</div>
               <div className="text-[10px] text-purple-600 font-semibold mt-0.5">Optimal Speed (&lt; 60s)</div>
             </div>
@@ -1075,14 +1075,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
       {/* 5. DPP (SUB-TOPIC PRACTICE PAPERS WITH 10-15 QS & SOLUTIONS) */}
       {activeSubTab === 'dpp-generator' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-100 gap-4">
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
+              <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
                 <FileSpreadsheet className="w-4 h-4 text-orange-600" />
                 <span>DPP</span>
               </h2>
-              <p className="text-xs text-gray-500 mt-0.5">
+              <p className="text-xs text-stone-500 mt-0.5">
                 Select a subject, topic, and sub-topic to generate 10–15 practice questions with verified answers and step-by-step solutions. Download as printable offline PDF or attempt live.
               </p>
             </div>
@@ -1094,11 +1094,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
             {/* 1. Subject */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">1. Subject</label>
+              <label className="text-[10px] font-bold text-stone-500 uppercase">1. Subject</label>
               <select
                 value={dppSubject}
                 onChange={e => setDppSubject(e.target.value as 'Physics' | 'Chemistry' | 'Biology')}
-                className="w-full p-3 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 font-medium focus:bg-white focus:border-orange-500"
+                className="w-full p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 font-medium focus:bg-white focus:border-orange-500"
               >
                 <option value="Physics">⚛️ Physics</option>
                 <option value="Chemistry">🧪 Chemistry</option>
@@ -1108,11 +1108,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* 2. Topic */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">2. Topic</label>
+              <label className="text-[10px] font-bold text-stone-500 uppercase">2. Topic</label>
               <select
                 value={dppChapter}
                 onChange={e => setDppChapter(e.target.value)}
-                className="w-full p-3 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 font-medium focus:bg-white focus:border-orange-500"
+                className="w-full p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 font-medium focus:bg-white focus:border-orange-500"
               >
                 {dppChapterList.map(ch => (
                   <option key={ch} value={ch}>{ch}</option>
@@ -1122,11 +1122,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* 3. Sub-Topic */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">3. Sub-Topic</label>
+              <label className="text-[10px] font-bold text-stone-500 uppercase">3. Sub-Topic</label>
               <select
                 value={dppSubtopic}
                 onChange={e => setDppSubtopic(e.target.value)}
-                className="w-full p-3 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 font-medium focus:bg-white focus:border-orange-500"
+                className="w-full p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 font-medium focus:bg-white focus:border-orange-500"
               >
                 {availableDppSubtopics.map(st => (
                   <option key={st} value={st}>{st}</option>
@@ -1136,7 +1136,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* 4. Question Count (10-15 Qs) */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">4. Question Count</label>
+              <label className="text-[10px] font-bold text-stone-500 uppercase">4. Question Count</label>
               <div className="grid grid-cols-2 gap-1.5">
                 {[10, 15].map(cnt => (
                   <button
@@ -1146,7 +1146,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     className={`py-1.5 px-2 rounded text-xs font-bold border transition-colors cursor-pointer text-center ${
                       dppQCount === cnt
                         ? 'bg-orange-600 text-white border-orange-600 shadow-xs'
-                        : 'bg-gray-50 hover:bg-gray-100 text-gray-700 border-gray-300'
+                        : 'bg-stone-50 hover:bg-stone-100 text-stone-700 border-stone-300'
                     }`}
                   >
                     {cnt} Questions
@@ -1157,11 +1157,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* 5. Target Standard */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">5. Target Standard</label>
+              <label className="text-[10px] font-bold text-stone-500 uppercase">5. Target Standard</label>
               <select
                 value={dppLevel}
                 onChange={e => setDppLevel(e.target.value)}
-                className="w-full p-3 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 font-medium focus:bg-white focus:border-orange-500"
+                className="w-full p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 font-medium focus:bg-white focus:border-orange-500"
               >
                 <option value="CBT Standard Level">CBT Standard Level</option>
                 <option value="AIIMS Rankers Booster">AIIMS Rankers Booster</option>
@@ -1170,7 +1170,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </div>
           </div>
 
-          <div className="p-6 rounded bg-gray-50 border border-gray-200 space-y-3">
+          <div className="p-6 rounded bg-stone-50 border border-stone-200 space-y-3">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
                 <div className="flex items-center space-x-2 flex-wrap gap-y-1">
@@ -1184,15 +1184,15 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     {dppLevel}
                   </span>
                   {dppSubtopic !== 'All Sub-Topics' && (
-                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase font-mono">
+                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-rose-100 text-rose-800 uppercase font-mono">
                       Sub-Topic: {dppSubtopic}
                     </span>
                   )}
                 </div>
-                <h3 className="text-sm font-bold text-gray-900 mt-1.5">
+                <h3 className="text-sm font-bold text-stone-900 mt-1.5">
                   {dppSubject}: {dppChapter} {dppSubtopic !== 'All Sub-Topics' ? `› ${dppSubtopic}` : ''}
                 </h3>
-                <p className="text-xs text-gray-500 font-mono mt-0.5">
+                <p className="text-xs text-stone-500 font-mono mt-0.5">
                   {dppQCount} Questions strictly from {dppChapter}{dppSubtopic !== 'All Sub-Topics' ? ` (${dppSubtopic})` : ''} &bull; Official Answer Key & Step Solutions &bull; +4 / -1 Marking
                 </p>
               </div>
@@ -1201,7 +1201,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <button
                   onClick={handleDownloadDpp}
                   disabled={isGeneratingDpp}
-                  className="px-3.5 py-2 rounded bg-white hover:bg-gray-100 text-gray-800 text-xs font-semibold flex items-center space-x-1.5 border border-gray-300 shadow-xs cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                  className="px-3.5 py-2 rounded bg-white hover:bg-stone-100 text-stone-800 text-xs font-semibold flex items-center space-x-1.5 border border-stone-300 shadow-xs cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                 >
                   <Download className="w-3.5 h-3.5 text-orange-600" />
                   <span>{isGeneratingDpp ? 'Generating PDF...' : 'Download DPP PDF'}</span>
@@ -1228,14 +1228,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
       {/* 6. BOOKS & NOTES LIBRARY */}
       {activeSubTab === 'books' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-100 gap-4">
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
+              <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
                 <BookMarked className="w-4 h-4 text-orange-600" />
                 <span>Books, NCERT Notes & eBooks Library</span>
               </h2>
-              <p className="text-xs text-gray-500 mt-0.5">
+              <p className="text-xs text-stone-500 mt-0.5">
                 NCERT notes, revision notes, formula books, eBooks and downloadable PDFs.
               </p>
             </div>
@@ -1247,7 +1247,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   className={`px-2.5 py-1 rounded text-xs font-semibold whitespace-nowrap transition-colors cursor-pointer ${
                     bookCategory === cat
                       ? 'bg-orange-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                   }`}
                 >
                   {cat}
@@ -1261,21 +1261,21 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               {filteredBooks.map(book => (
                 <div
                   key={book.id}
-                  className="p-6 rounded-lg bg-gray-50 border border-gray-200 flex flex-col justify-between hover:border-orange-300 transition-all space-y-3"
+                  className="p-6 rounded-lg bg-stone-50 border border-stone-200 flex flex-col justify-between hover:border-orange-300 transition-all space-y-3"
                 >
                   <div className="space-y-1.5">
                     <div className="flex items-center justify-between">
                       <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-orange-100 text-orange-800 font-mono">
                         {book.subject} &bull; {book.category}
                       </span>
-                      <span className="text-[10px] text-gray-500 font-mono">{book.size}</span>
+                      <span className="text-[10px] text-stone-500 font-mono">{book.size}</span>
                     </div>
-                    <h3 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug">{book.title}</h3>
-                    <p className="text-xs text-gray-600 line-clamp-2">{book.description}</p>
+                    <h3 className="text-xs sm:text-sm font-bold text-stone-900 leading-snug">{book.title}</h3>
+                    <p className="text-xs text-stone-600 line-clamp-2">{book.description}</p>
                   </div>
 
-                  <div className="space-y-2 pt-2 border-t border-gray-200">
-                    <div className="flex items-center justify-between text-[11px] text-gray-500 font-mono">
+                  <div className="space-y-2 pt-2 border-t border-stone-200">
+                    <div className="flex items-center justify-between text-[11px] text-stone-500 font-mono">
                       <span>{book.pages} Pages</span>
                       <span>★ {book.rating} / 5.0</span>
                     </div>
@@ -1283,9 +1283,9 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     <div className="flex items-center space-x-2">
                       <button
                         onClick={() => onOpenBook(book)}
-                        className="flex-1 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-800 text-xs font-semibold border border-gray-300 flex items-center justify-center space-x-1 cursor-pointer"
+                        className="flex-1 py-1.5 rounded bg-white hover:bg-stone-100 text-stone-800 text-xs font-semibold border border-stone-300 flex items-center justify-center space-x-1 cursor-pointer"
                       >
-                        <Eye className="w-3.5 h-3.5 text-gray-600" />
+                        <Eye className="w-3.5 h-3.5 text-stone-600" />
                         <span>Read Online</span>
                       </button>
                       <button
@@ -1308,14 +1308,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
       {/* 7. PYQS BANK */}
       {activeSubTab === 'pyqs' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-100 gap-4">
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
+              <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
                 <HelpCircle className="w-4 h-4 text-orange-600" />
                 <span>NEET / JEE Previous Year Questions (PYQs 2018–2025)</span>
               </h2>
-              <p className="text-xs text-gray-500 mt-0.5">
+              <p className="text-xs text-stone-500 mt-0.5">
                 Chapter, topic and year-wise authentic previous year examination questions with step solutions.
               </p>
             </div>
@@ -1325,7 +1325,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 placeholder="Search PYQ topic or question..."
                 value={pyqSearch}
                 onChange={e => setPyqSearch(e.target.value)}
-                className="w-full px-3 py-1.5 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-orange-500"
+                className="w-full px-3 py-1.5 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:outline-none focus:border-orange-500"
               />
             </div>
           </div>
@@ -1334,20 +1334,20 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             {filteredPYQs.map(pyq => {
               const isExpanded = expandedSolutionId === pyq.id;
               return (
-                <div key={pyq.id} className="p-6 rounded-lg bg-gray-50 border border-gray-200 space-y-3">
+                <div key={pyq.id} className="p-6 rounded-lg bg-stone-50 border border-stone-200 space-y-3">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                       <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-100 text-amber-900 font-mono">
                         {pyq.exam} {pyq.year}
                       </span>
-                      <span className="text-xs font-semibold text-gray-700">{pyq.subject} &bull; {pyq.chapter}</span>
+                      <span className="text-xs font-semibold text-stone-700">{pyq.subject} &bull; {pyq.chapter}</span>
                     </div>
-                    <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-white text-gray-600 border border-gray-200 font-bold">
+                    <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-white text-stone-600 border border-stone-200 font-bold">
                       {pyq.difficulty}
                     </span>
                   </div>
 
-                  <p className="text-xs sm:text-sm text-gray-900 font-medium leading-relaxed">
+                  <p className="text-xs sm:text-sm text-stone-900 font-medium leading-relaxed">
                     {pyq.question.questionText}
                   </p>
 
@@ -1358,7 +1358,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                         className={`p-3 rounded text-xs border ${
                           isExpanded && oIdx === pyq.question.correctAnswer
                             ? 'bg-emerald-50 border-emerald-300 text-emerald-900 font-bold'
-                            : 'bg-white border-gray-200 text-gray-700'
+                            : 'bg-white border-stone-200 text-stone-700'
                         }`}
                       >
                         <span className="font-bold mr-1.5">({String.fromCharCode(65 + oIdx)})</span>
@@ -1367,7 +1367,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     ))}
                   </div>
 
-                  <div className="pt-2 border-t border-gray-200 flex items-center justify-between">
+                  <div className="pt-2 border-t border-stone-200 flex items-center justify-between">
                     <button
                       onClick={() => setExpandedSolutionId(isExpanded ? null : pyq.id)}
                       className="text-xs text-orange-600 font-semibold hover:underline flex items-center space-x-1 cursor-pointer"
@@ -1404,14 +1404,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
       {/* 8. MY DOWNLOADS VAULT */}
       {activeSubTab === 'my-downloads' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-100 gap-4">
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
+              <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
                 <ArrowDownToLine className="w-4 h-4 text-orange-600" />
                 <span>My Downloaded Test Papers & Scorecards</span>
               </h2>
-              <p className="text-xs text-gray-500 mt-0.5">
+              <p className="text-xs text-stone-500 mt-0.5">
                 View your complete download history, test papers, scorecards, and re-download PDFs anytime.
               </p>
             </div>
@@ -1428,8 +1428,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <User className="w-3.5 h-3.5 text-orange-600" />
                 <span>{dlUser?.name || dlUser?.user_metadata?.name || 'Enrolled Student'}</span>
               </div>
-              <div className="flex items-center space-x-1.5 text-gray-600 font-mono text-[11px]">
-                <Mail className="w-3.5 h-3.5 text-gray-400" />
+              <div className="flex items-center space-x-1.5 text-stone-600 font-mono text-[11px]">
+                <Mail className="w-3.5 h-3.5 text-stone-400" />
                 <span>{dlUser?.email || 'student.target2027@neetprep.in'}</span>
               </div>
               {(dlUser?.phone || dlUser?.user_metadata?.phone) && (
@@ -1462,7 +1462,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                     dlCategory === cat
                       ? 'bg-orange-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
                   }`}
                 >
                   {cat === 'All' ? 'All' : cat}
@@ -1472,13 +1472,13 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             <div className="flex items-center space-x-2">
               <div className="relative flex-1 sm:w-60">
-                <Search className="absolute left-2.5 top-2 w-3.5 h-3.5 text-gray-400" />
+                <Search className="absolute left-2.5 top-2 w-3.5 h-3.5 text-stone-400" />
                 <input
                   type="text"
                   placeholder="Search downloads..."
                   value={dlSearch}
                   onChange={e => setDlSearch(e.target.value)}
-                  className="w-full pl-8 pr-3 py-1 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-orange-500"
+                  className="w-full pl-8 pr-3 py-1 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:outline-none focus:border-orange-500"
                 />
               </div>
 
@@ -1490,7 +1490,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       reloadDownloads();
                     }
                   }}
-                  className="p-1.5 rounded bg-gray-100 hover:bg-rose-50 text-gray-500 hover:text-rose-600 border border-gray-200 transition cursor-pointer shrink-0"
+                  className="p-1.5 rounded bg-stone-100 hover:bg-rose-50 text-stone-500 hover:text-rose-600 border border-stone-200 transition cursor-pointer shrink-0"
                   title="Clear Download History"
                 >
                   <Trash2 className="w-4 h-4" />
@@ -1504,28 +1504,28 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               {filteredDownloads.map(item => (
                 <div
                   key={item.id}
-                  className="p-3.5 rounded-lg bg-gray-50 border border-gray-200 hover:border-gray-300 transition-colors flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3"
+                  className="p-3.5 rounded-lg bg-stone-50 border border-stone-200 hover:border-stone-300 transition-colors flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3"
                 >
                   <div className="space-y-1 min-w-0">
                     <div className="flex items-center space-x-2 flex-wrap gap-y-1">
                       <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-orange-100 text-orange-800 border border-orange-200 uppercase font-mono">
                         {item.category}
                       </span>
-                      <span className="text-[11px] text-gray-500 font-mono">
+                      <span className="text-[11px] text-stone-500 font-mono">
                         {new Date(item.timestamp).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
                       </span>
-                      <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-white text-gray-600 border border-gray-200">
+                      <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-white text-stone-600 border border-stone-200">
                         {item.fileSize || '1.8 MB'} &bull; {item.format || 'PDF'}
                       </span>
                     </div>
 
-                    <h4 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug">
+                    <h4 className="text-xs sm:text-sm font-bold text-stone-900 leading-snug">
                       {item.title}
                     </h4>
 
                     {item.subject && (
-                      <p className="text-[11px] text-gray-500 truncate">
-                        Syllabus: <span className="font-medium text-gray-700">{item.subject}</span>
+                      <p className="text-[11px] text-stone-500 truncate">
+                        Syllabus: <span className="font-medium text-stone-700">{item.subject}</span>
                       </p>
                     )}
                   </div>
@@ -1541,7 +1541,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
                     <button
                       onClick={() => handleRemoveDownload(item.id)}
-                      className="p-1.5 rounded text-gray-400 hover:text-rose-600 hover:bg-rose-50 transition cursor-pointer"
+                      className="p-1.5 rounded text-stone-400 hover:text-rose-600 hover:bg-rose-50 transition cursor-pointer"
                       title="Remove record"
                     >
                       <Trash2 className="w-3.5 h-3.5" />
@@ -1551,11 +1551,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               ))}
             </div>
           ) : (
-            <div className="text-center py-8 px-4 space-y-3 bg-gray-50 rounded-lg border border-dashed border-gray-200">
-              <HardDrive className="w-8 h-8 text-gray-400 mx-auto" />
+            <div className="text-center py-8 px-4 space-y-3 bg-stone-50 rounded-lg border border-dashed border-stone-200">
+              <HardDrive className="w-8 h-8 text-stone-400 mx-auto" />
               <div className="space-y-0.5">
-                <p className="text-xs font-bold text-gray-700">No downloads tracked in this session</p>
-                <p className="text-[11px] text-gray-500">Download any test paper, scorecard, book or DPP to view it here.</p>
+                <p className="text-xs font-bold text-stone-700">No downloads tracked in this session</p>
+                <p className="text-[11px] text-stone-500">Download any test paper, scorecard, book or DPP to view it here.</p>
               </div>
             </div>
           )}

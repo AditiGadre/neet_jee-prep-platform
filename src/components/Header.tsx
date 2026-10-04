@@ -118,7 +118,7 @@ export const Header: React.FC<HeaderProps> = ({
   const neetPackages: any[] = [];
 
   return (
-    <header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/80 text-slate-800 shadow-xs">
+    <header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-stone-200/80 text-stone-800 shadow-xs">
       <div className="w-full px-3 sm:px-6">
         <div className="flex items-center justify-between h-14">
           {/* Logo & Brand */}
@@ -127,12 +127,12 @@ export const Header: React.FC<HeaderProps> = ({
             className={`flex items-center space-x-2.5 ${onNavigateHome ? 'cursor-pointer hover:opacity-90 transition' : ''}`}
             title="NeetCbt Exam Platform"
           >
-            <div className="w-8 h-8 bg-gradient-to-tr from-orange-600 to-indigo-600 rounded-lg flex items-center justify-center text-white font-black text-sm shadow-xs tracking-tight">
+            <div className="w-8 h-8 bg-gradient-to-tr from-orange-600 to-rose-600 rounded-lg flex items-center justify-center text-white font-black text-sm shadow-xs tracking-tight">
               nc
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <span className="font-extrabold text-base tracking-tight text-slate-900">
+                <span className="font-extrabold text-base tracking-tight text-stone-900">
                   NeetCbt<span className="text-orange-600"> Exam Test</span>
                 </span>
                 <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-50 text-amber-900 border border-amber-200">
@@ -144,7 +144,7 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Target Year Selector Bar: 2027, 2028, 2029 + Packages Dropdown */}
           <div className="flex items-center space-x-2">
-            <div className="flex items-center bg-slate-100/90 p-1 rounded-xl border border-slate-200 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
+            <div className="flex items-center bg-stone-100/90 p-1 rounded-xl border border-stone-200 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
               {(['2027', '2028', '2029'] as const).map(yr => (
                 <button
                   key={yr}
@@ -152,7 +152,7 @@ export const Header: React.FC<HeaderProps> = ({
                   className={`px-2.5 sm:px-3.5 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
                     targetYear === yr
                       ? 'bg-orange-600 text-white shadow-xs'
-                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                      : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200'
                   }`}
                   title={`Select NEET Target Year ${yr}`}
                 >
@@ -168,8 +168,8 @@ export const Header: React.FC<HeaderProps> = ({
                 onClick={() => setPackagesDropdownOpen(!packagesDropdownOpen)}
                 className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition border cursor-pointer ${
                   packagesDropdownOpen
-                    ? 'bg-gradient-to-r from-orange-600 to-indigo-600 text-white border-orange-600 shadow-xs'
-                    : 'bg-white hover:bg-slate-50 text-slate-700 border-slate-200 hover:border-slate-300 shadow-2xs'
+                    ? 'bg-gradient-to-r from-orange-600 to-rose-600 text-white border-orange-600 shadow-xs'
+                    : 'bg-white hover:bg-stone-50 text-stone-700 border-stone-200 hover:border-stone-300 shadow-2xs'
                 }`}
                 title="View NEET Preparation Packages"
               >
@@ -182,28 +182,28 @@ export const Header: React.FC<HeaderProps> = ({
               {packagesDropdownOpen && (
                 <>
                   <div
-                    className="fixed inset-0 z-40 bg-black/10 backdrop-blur-[1px]"
+                    className="fixed inset-0 z-40 bg-stone-950/10 backdrop-blur-[1px]"
                     onClick={() => setPackagesDropdownOpen(false)}
                   />
-                  <div className="absolute left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-auto sm:right-0 mt-2 w-88 sm:w-[410px] bg-white border border-slate-200/90 rounded-2xl shadow-2xl p-3.5 z-50 animate-in fade-in zoom-in-95 duration-150 text-slate-900">
-                    <div className="px-3 py-2 border-b border-slate-100 flex items-center justify-between">
+                  <div className="absolute left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-auto sm:right-0 mt-2 w-88 sm:w-[410px] bg-white border border-stone-200/90 rounded-2xl shadow-2xl p-3.5 z-50 animate-in fade-in zoom-in-95 duration-150 text-stone-900">
+                    <div className="px-3 py-2 border-b border-stone-100 flex items-center justify-between">
                       <div>
-                        <p className="text-xs font-extrabold text-slate-900 flex items-center gap-1.5">
+                        <p className="text-xs font-extrabold text-stone-900 flex items-center gap-1.5">
                           <Package className="w-3.5 h-3.5 text-orange-600" /> NEET Prep Packages
                         </p>
-                        <p className="text-[10px] text-slate-500">CBT, Jumbo Question Banks & Hybrid Tests</p>
+                        <p className="text-[10px] text-stone-500">CBT, Jumbo Question Banks & Hybrid Tests</p>
                       </div>
                       <button
                         type="button"
                         onClick={() => setPackagesDropdownOpen(false)}
-                        className="text-slate-400 hover:text-slate-600 text-xs p-1.5 rounded-lg hover:bg-slate-100 transition cursor-pointer"
+                        className="text-stone-400 hover:text-stone-600 text-xs p-1.5 rounded-lg hover:bg-stone-100 transition cursor-pointer"
                         title="Close"
                       >
                         ✕
                       </button>
                     </div>
 
-                    <div className="p-1 space-y-2 max-h-[min(540px,78vh)] overflow-y-auto mt-1 pr-1 [scrollbar-width:thin] [scrollbar-color:#cbd5e1_transparent] [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:bg-slate-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-transparent">
+                    <div className="p-1 space-y-2 max-h-[min(540px,78vh)] overflow-y-auto mt-1 pr-1 [scrollbar-width:thin] [scrollbar-color:#cbd5e1_transparent] [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:bg-stone-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-transparent">
                       {neetPackages.map(pkg => {
                         const IconComp = pkg.icon;
                         return (
@@ -213,7 +213,7 @@ export const Header: React.FC<HeaderProps> = ({
                               setSelectedPackage(pkg);
                               setPackagesDropdownOpen(false);
                             }}
-                            className="p-3.5 rounded-xl border border-slate-200/80 hover:border-orange-400 hover:bg-orange-50/50 hover:shadow-xs transition cursor-pointer group bg-white"
+                            className="p-3.5 rounded-xl border border-stone-200/80 hover:border-orange-400 hover:bg-orange-50/50 hover:shadow-xs transition cursor-pointer group bg-white"
                           >
                             <div className="flex items-start justify-between gap-4">
                               <div className="flex items-start space-x-2.5">
@@ -221,10 +221,10 @@ export const Header: React.FC<HeaderProps> = ({
                                   <IconComp className="w-4 h-4" />
                                 </div>
                                 <div>
-                                  <h4 className="text-xs font-bold text-slate-900 group-hover:text-orange-600 transition flex items-center gap-1.5">
+                                  <h4 className="text-xs font-bold text-stone-900 group-hover:text-orange-600 transition flex items-center gap-1.5">
                                     {pkg.name}
                                   </h4>
-                                  <p className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
+                                  <p className="text-[10px] text-stone-500 line-clamp-1 mt-0.5">
                                     {pkg.tagline}
                                   </p>
                                 </div>
@@ -233,10 +233,10 @@ export const Header: React.FC<HeaderProps> = ({
                                 {pkg.badge}
                               </span>
                             </div>
-                            <div className="mt-2 pt-1.5 border-t border-slate-100 flex items-center justify-between text-[11px]">
+                            <div className="mt-2 pt-1.5 border-t border-stone-100 flex items-center justify-between text-[11px]">
                               <div className="flex items-baseline space-x-1.5">
                                 <span className="font-extrabold text-orange-900 text-xs">{pkg.price}</span>
-                                <span className="text-[10px] text-slate-400 line-through">{pkg.originalPrice}</span>
+                                <span className="text-[10px] text-stone-400 line-through">{pkg.originalPrice}</span>
                               </div>
                               <span className="text-[10px] font-bold text-orange-600 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
                                 View Details →
@@ -247,14 +247,14 @@ export const Header: React.FC<HeaderProps> = ({
                       })}
                     </div>
 
-                    <div className="p-3 border-t border-slate-100 bg-slate-50/90 rounded-xl mt-1 text-center transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
+                    <div className="p-3 border-t border-stone-100 bg-stone-50/90 rounded-xl mt-1 text-center transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
                       <button
                         type="button"
                         onClick={() => {
                           setPackagesDropdownOpen(false);
                           if (onOpenEnrollment) onOpenEnrollment();
                         }}
-                        className="w-full py-2 px-3 rounded-lg bg-gradient-to-r from-orange-600 to-indigo-600 hover:from-orange-700 hover:to-indigo-700 text-white font-bold text-xs shadow-xs hover:shadow-md transition cursor-pointer"
+                        className="w-full py-2 px-3 rounded-lg bg-gradient-to-r from-orange-600 to-rose-600 hover:from-orange-700 hover:to-rose-700 text-white font-bold text-xs shadow-xs hover:shadow-md transition cursor-pointer"
                       >
                         Instant Enrollment & Access →
                       </button>
@@ -275,7 +275,7 @@ export const Header: React.FC<HeaderProps> = ({
                   e.preventDefault();
                   onNavigateAbout();
                 }}
-                className="hidden sm:flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold border border-slate-200 shadow-2xs transition cursor-pointer"
+                className="hidden sm:flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-semibold border border-stone-200 shadow-2xs transition cursor-pointer"
                 title="About NeetCbt Platform (Exclusively for NEET Exam Aspirants)"
               >
                 <span>About</span>
@@ -286,7 +286,7 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               id="header-ask-doubt-btn"
               onClick={onOpenDoubtModal}
-              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-xs font-medium border border-slate-200 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95  transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-medium border border-stone-200 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95  transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
               title="Instant 24/7 Subject Doubt Resolution"
             >
               <MessageCircleQuestion className="w-3.5 h-3.5 text-orange-600" />
@@ -301,7 +301,7 @@ export const Header: React.FC<HeaderProps> = ({
               className={`flex items-center space-x-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer shadow-2xs ${
                 isAdmin
                   ? 'bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white shadow-amber-500/20'
-                  : 'bg-slate-900 hover:bg-slate-800 text-amber-400 border border-slate-700'
+                  : 'bg-stone-900 hover:bg-stone-800 text-amber-400 border border-stone-700'
               }`}
               title={isAdmin ? 'Institutional Master Admin Session Active (Click to open Admin Vault)' : 'Institution Director & Master Admin Security Portal'}
             >
@@ -316,7 +316,7 @@ export const Header: React.FC<HeaderProps> = ({
                   onClick={() => {
                     setProfileDropdownOpen(!profileDropdownOpen);
                   }}
-                  className="flex items-center space-x-1.5 sm:space-x-2 bg-slate-50 hover:bg-slate-100 border border-slate-200 px-2 sm:px-2.5 py-1 rounded-xl transition cursor-pointer"
+                  className="flex items-center space-x-1.5 sm:space-x-2 bg-stone-50 hover:bg-stone-100 border border-stone-200 px-2 sm:px-2.5 py-1 rounded-xl transition cursor-pointer"
                 >
                   {enrolledStudent?.studentPhoto ? (
                     <img
@@ -325,20 +325,20 @@ export const Header: React.FC<HeaderProps> = ({
                       className="w-7 h-7 rounded-full object-cover border border-orange-400 shrink-0"
                     />
                   ) : (
-                    <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-orange-600 to-indigo-600 text-white font-bold text-xs flex items-center justify-center shrink-0 uppercase shadow-2xs">
+                    <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-orange-600 to-rose-600 text-white font-bold text-xs flex items-center justify-center shrink-0 uppercase shadow-2xs">
                       {userName.charAt(0)}
                     </div>
                   )}
                   <div className="text-left hidden sm:block max-w-[110px] truncate">
-                    <p className="text-[11px] font-bold text-slate-900 truncate leading-none">{userName}</p>
-                    <p className="text-[9px] text-slate-500 font-mono truncate">{userPhone}</p>
+                    <p className="text-[11px] font-bold text-stone-900 truncate leading-none">{userName}</p>
+                    <p className="text-[9px] text-stone-500 font-mono truncate">{userPhone}</p>
                   </div>
-                  <ChevronDown className="w-3 h-3 text-slate-400" />
+                  <ChevronDown className="w-3 h-3 text-stone-400" />
                 </button>
 
                 {profileDropdownOpen && (
-                  <div className="absolute right-0 mt-1.5 w-84 rounded-2xl bg-white border border-slate-200 shadow-2xl py-2 z-50 animate-in fade-in zoom-in-95 duration-100 text-slate-900">
-                    <div className="px-4 py-3 border-b border-slate-100 space-y-2 bg-slate-50/70">
+                  <div className="absolute right-0 mt-1.5 w-84 rounded-2xl bg-white border border-stone-200 shadow-2xl py-2 z-50 animate-in fade-in zoom-in-95 duration-100 text-stone-900">
+                    <div className="px-4 py-3 border-b border-stone-100 space-y-2 bg-stone-50/70">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-1.5">
                           <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
@@ -359,15 +359,15 @@ export const Header: React.FC<HeaderProps> = ({
                             className="w-11 h-11 rounded-xl object-cover border-2 border-orange-400 shadow-xs shrink-0"
                           />
                         ) : (
-                          <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-orange-600 to-indigo-600 text-white font-bold text-base flex items-center justify-center shrink-0 uppercase shadow-xs">
+                          <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-orange-600 to-rose-600 text-white font-bold text-base flex items-center justify-center shrink-0 uppercase shadow-xs">
                             {userName.charAt(0)}
                           </div>
                         )}
                         <div className="min-w-0 flex-1">
-                          <p className="text-xs font-bold text-slate-900 truncate">{userName}</p>
-                          <p className="text-[10px] text-slate-600">Parent: <strong>{parentName}</strong></p>
+                          <p className="text-xs font-bold text-stone-900 truncate">{userName}</p>
+                          <p className="text-[10px] text-stone-600">Parent: <strong>{parentName}</strong></p>
                           {enrolledStudent?.gender && (
-                            <p className="text-[10px] text-slate-500">Gender: <strong>{enrolledStudent.gender}</strong></p>
+                            <p className="text-[10px] text-stone-500">Gender: <strong>{enrolledStudent.gender}</strong></p>
                           )}
                         </div>
                       </div>
@@ -389,9 +389,9 @@ export const Header: React.FC<HeaderProps> = ({
                         </div>
                       )}
 
-                      <div className="space-y-0.5 font-mono text-[10px] text-slate-500 pt-0.5">
+                      <div className="space-y-0.5 font-mono text-[10px] text-stone-500 pt-0.5">
                         <div className="flex items-center space-x-1">
-                          <Mail className="w-3 h-3 text-slate-400 shrink-0" />
+                          <Mail className="w-3 h-3 text-stone-400 shrink-0" />
                           <span className="truncate">{userEmail || enrolledStudent?.email}</span>
                         </div>
                         <div className="flex items-center space-x-1 text-emerald-700 font-semibold">
@@ -407,7 +407,7 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           if (onOpenDownloads) onOpenDownloads();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center justify-between text-slate-700 hover:bg-orange-50 hover:text-orange-700 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center justify-between text-stone-700 hover:bg-orange-50 hover:text-orange-700 transition cursor-pointer"
                       >
                         <div className="flex items-center space-x-2">
                           <Download className="w-4 h-4 text-orange-600" />
@@ -423,9 +423,9 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           if (onOpenEnrollment) onOpenEnrollment();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-slate-700 hover:bg-indigo-50 hover:text-indigo-900 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-stone-700 hover:bg-rose-50 hover:text-rose-900 transition cursor-pointer"
                       >
-                        <GraduationCap className="w-4 h-4 text-indigo-600" />
+                        <GraduationCap className="w-4 h-4 text-rose-600" />
                         <span className="font-semibold">Candidate Enrollment Form</span>
                       </button>
 
@@ -434,7 +434,7 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           if (onOpenSuperUser) onOpenSuperUser();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-slate-700 hover:bg-amber-50 hover:text-amber-900 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-stone-700 hover:bg-amber-50 hover:text-amber-900 transition cursor-pointer"
                       >
                         <ShieldCheck className="w-4 h-4 text-amber-600" />
                         <span className="font-semibold">Super User & Admin Vault</span>
@@ -445,9 +445,9 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           onOpenQuickTest();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-slate-700 hover:bg-slate-50 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-stone-700 hover:bg-stone-50 transition cursor-pointer"
                       >
-                        <Play className="w-4 h-4 text-slate-400" />
+                        <Play className="w-4 h-4 text-stone-400" />
                         <span>Launch Sunday Mock (180 Qs)</span>
                       </button>
 
@@ -456,14 +456,14 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           onOpenDoubtModal();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-slate-700 hover:bg-slate-50 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-stone-700 hover:bg-stone-50 transition cursor-pointer"
                       >
-                        <MessageCircleQuestion className="w-4 h-4 text-slate-400" />
+                        <MessageCircleQuestion className="w-4 h-4 text-stone-400" />
                         <span>Ask 24/7 Academic Doubt</span>
                       </button>
                     </div>
 
-                    <div className="pt-1.5 border-t border-slate-100 px-2">
+                    <div className="pt-1.5 border-t border-stone-100 px-2">
                       <button
                         onClick={() => {
                           setProfileDropdownOpen(false);
