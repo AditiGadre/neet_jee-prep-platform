@@ -473,65 +473,108 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
   return (
     <div className="space-y-4">
-      {/* 3 Dedicated Batch Tabs: Repeater / Dropper Batch, 12th Batch, 11th Batch */}
-      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 sm:p-3.5 rounded-2xl border border-stone-200 shadow-xs">
-        <div className="flex flex-wrap items-center gap-1.5">
-          <button
-            onClick={() => {
-              setActiveBatch('repeater');
-              setActivePhaseFilter('all');
-            }}
-            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
-              activeBatch === 'repeater'
-                ? 'bg-gradient-to-r from-orange-600 via-rose-600 to-teal-600 text-white shadow-md'
-                : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
-            }`}
-          >
-            <Zap className="w-4 h-4 text-amber-300" />
-            <span>Repeater / Dropper Batch</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
-              Starts 11 Oct 2026
-            </span>
-          </button>
+      {/* 3 Dedicated Batch Tabs with Dropdowns */}
+        <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 sm:p-3.5 rounded-2xl border border-stone-200 shadow-xs relative z-30">
+          <div className="flex flex-wrap items-center gap-1.5">
+            
+            {/* Repeater Batch */}
+            <div className="relative group">
+              <button
+                onClick={() => {
+                  setActiveBatch('repeater');
+                  setActivePhaseFilter('all');
+                }}
+                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
+                  activeBatch === 'repeater'
+                    ? 'bg-orange-600 text-white shadow-md'
+                    : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
+                }`}
+              >
+                <Zap className={`w-4 h-4 ${activeBatch === 'repeater' ? 'text-amber-300' : 'text-stone-400'}`} />
+                <span>Repeater / Dropper Batch</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
+                  Starts 11 Oct
+                </span>
+              </button>
+              
+              <div className="absolute left-0 top-full mt-2 w-72 bg-white border border-stone-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
+                <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
+                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track1'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track1' && activeBatch === 'repeater' ? 'bg-orange-50 text-orange-700' : 'text-stone-600 hover:bg-stone-50 hover:text-orange-600'}`}>
+                  Track 1: Chapterwise, Partwise & Full (46 Tests)
+                </button>
+                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-orange-50 text-orange-700' : 'text-stone-600 hover:bg-stone-50 hover:text-orange-600'}`}>
+                  Track 2: 17-Week Fast-Track (46 Tests)
+                </button>
+                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-orange-50 text-orange-700' : 'text-stone-600 hover:bg-stone-50 hover:text-orange-600'}`}>
+                  Track 3: Physics & Chemistry Only (27 Tests)
+                </button>
+              </div>
+            </div>
 
-          <button
-            onClick={() => {
-              setActiveBatch('12th');
-              setActivePhaseFilter('all');
-              setShowRevisionBuffer(false);
-            }}
-            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
-              activeBatch === '12th'
-                ? 'bg-gradient-to-r from-orange-600 to-rose-600 text-white shadow-md'
-                : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
-            }`}
-          >
-            <GraduationCap className="w-4 h-4" />
-            <span>12th Batch</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
-              23 Tests + Buffer
-            </span>
-          </button>
+            {/* 12th Batch */}
+            <div className="relative group">
+              <button
+                onClick={() => {
+                  setActiveBatch('12th');
+                  setActivePhaseFilter('all');
+                  setShowRevisionBuffer(false);
+                }}
+                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
+                  activeBatch === '12th'
+                    ? 'bg-amber-500 text-white shadow-md'
+                    : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
+                }`}
+              >
+                <GraduationCap className={`w-4 h-4 ${activeBatch === '12th' ? 'text-white' : 'text-stone-400'}`} />
+                <span>12th Batch</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
+                  23 Tests
+                </span>
+              </button>
+              
+              <div className="absolute left-0 top-full mt-2 w-72 bg-white border border-stone-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
+                <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
+                <button onClick={() => { setActiveBatch('12th'); setClass12Track('complete'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class12Track === 'complete' && activeBatch === '12th' ? 'bg-amber-50 text-amber-700' : 'text-stone-600 hover:bg-stone-50 hover:text-amber-600'}`}>
+                  Track 1: Complete Syllabus Master Series
+                </button>
+                <button onClick={() => { setActiveBatch('12th'); setClass12Track('pc'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class12Track === 'pc' && activeBatch === '12th' ? 'bg-amber-50 text-amber-700' : 'text-stone-600 hover:bg-stone-50 hover:text-amber-600'}`}>
+                  Track 2: Physics & Chemistry Series
+                </button>
+              </div>
+            </div>
 
-          <button
-            onClick={() => {
-              setActiveBatch('11th');
-              setActivePhaseFilter('all');
-              setShowRevisionBuffer(false);
-            }}
-            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
-              activeBatch === '11th'
-                ? 'bg-gradient-to-r from-orange-600 to-rose-600 text-white shadow-md'
-                : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
-            }`}
-          >
-            <Atom className="w-4 h-4" />
-            <span>11th Batch</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
-              20 Sunday Tests
-            </span>
-          </button>
-        </div>
+            {/* 11th Batch */}
+            <div className="relative group">
+              <button
+                onClick={() => {
+                  setActiveBatch('11th');
+                  setActivePhaseFilter('all');
+                  setShowRevisionBuffer(false);
+                }}
+                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
+                  activeBatch === '11th'
+                    ? 'bg-rose-500 text-white shadow-md'
+                    : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
+                }`}
+              >
+                <Atom className={`w-4 h-4 ${activeBatch === '11th' ? 'text-white' : 'text-stone-400'}`} />
+                <span>11th Batch</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
+                  20 Tests
+                </span>
+              </button>
+              
+              <div className="absolute left-0 top-full mt-2 w-72 bg-white border border-stone-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
+                <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
+                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-rose-50 text-rose-700' : 'text-stone-600 hover:bg-stone-50 hover:text-rose-600'}`}>
+                  Track 1: Chapterwise, Partwise & Full
+                </button>
+                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-rose-50 text-rose-700' : 'text-stone-600 hover:bg-stone-50 hover:text-rose-600'}`}>
+                  Track 2: CWT & Cumulative Master
+                </button>
+              </div>
+            </div>
+          </div>
 
         {/* Admin Authorization Status Badge */}
         <div className="flex items-center space-x-2">
@@ -616,433 +659,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           </div>
         </div>
 
-        {/* Track Switcher Segmented Control for Class 11th Batch */}
-        {activeBatch === '11th' && (
-          <div className="mt-4 p-3 bg-stone-100/90 rounded-2xl border border-stone-200 flex flex-wrap gap-4 items-center">
-            <span className="text-[11px] font-black text-stone-500 uppercase tracking-wider px-1">
-              Select Track:
-            </span>
-            <button
-              onClick={() => {
-                setClass11Track('track1');
-                setActivePhaseFilter('all');
-              }}
-              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
-                class11Track === 'track1'
-                  ? 'bg-orange-600 text-white shadow-sm'
-                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
-              }`}
-            >
-              <span>Track 1: Chapterwise, Partwise &amp; Full Syllabus (20 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class11Track === 'track1' ? 'bg-white/20 text-white' : 'bg-orange-100 text-orange-800'}`}>
-                Starts 11 Oct
-              </span>
-            </button>
-
-            <button
-              onClick={() => {
-                setClass11Track('track2');
-                setActivePhaseFilter('all');
-              }}
-              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
-                class11Track === 'track2'
-                  ? 'bg-rose-600 text-white shadow-sm'
-                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
-              }`}
-            >
-              <span>Track 2: CWT &amp; Cumulative Master Planner (20 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class11Track === 'track2' ? 'bg-white/20 text-white' : 'bg-rose-100 text-rose-800'}`}>
-                Starts 11 Oct
-              </span>
-            </button>
-          </div>
-        )}
-
-        {/* Track Switcher Segmented Control for Class 12th Batch */}
-        {activeBatch === '12th' && (
-          <div className="mt-4 p-3 bg-stone-100/90 rounded-2xl border border-stone-200 flex flex-wrap gap-4 items-center">
-            <span className="text-[11px] font-black text-stone-500 uppercase tracking-wider px-1">
-              Select Track:
-            </span>
-            <button
-              onClick={() => {
-                setClass12Track('complete');
-                setActivePhaseFilter('all');
-              }}
-              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
-                class12Track === 'complete'
-                  ? 'bg-orange-600 text-white shadow-sm'
-                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
-              }`}
-            >
-              <span>Track 1: Complete Syllabus Master Planner (23 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class12Track === 'complete' ? 'bg-white/20 text-white' : 'bg-orange-100 text-orange-800'}`}>
-                Starts 11 Oct
-              </span>
-            </button>
-
-            <button
-              onClick={() => {
-                setClass12Track('pc');
-                setActivePhaseFilter('all');
-              }}
-              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
-                class12Track === 'pc'
-                  ? 'bg-emerald-600 text-white shadow-sm'
-                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
-              }`}
-            >
-              <span>Track 2: Physics &amp; Chemistry Full Syllabus (18 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class12Track === 'pc' ? 'bg-white/20 text-white' : 'bg-emerald-100 text-emerald-800'}`}>
-                10 Mar – 30 Apr
-              </span>
-            </button>
-          </div>
-        )}
-
-        {/* Track Switcher Segmented Control for Repeater / Dropper Batch */}
-        {activeBatch === 'repeater' && (
-          <div className="mt-4 p-3 bg-stone-100/90 rounded-2xl border border-stone-200 flex flex-wrap gap-4 items-center">
-            <span className="text-[11px] font-black text-stone-500 uppercase tracking-wider px-1">
-              Select Track:
-            </span>
-            <button
-              onClick={() => {
-                setRepeaterTrack('track1');
-                setActivePhaseFilter('all');
-              }}
-              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
-                repeaterTrack === 'track1'
-                  ? 'bg-orange-600 text-white shadow-sm'
-                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
-              }`}
-            >
-              <span>Track 1: 20-Week Chapterwise (46 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'track1' ? 'bg-white/20 text-white' : 'bg-orange-100 text-orange-800'}`}>
-                Starts 11 Oct
-              </span>
-            </button>
-
-            <button
-              onClick={() => {
-                setRepeaterTrack('track2');
-                setActivePhaseFilter('all');
-              }}
-              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
-                repeaterTrack === 'track2'
-                  ? 'bg-rose-600 text-white shadow-sm'
-                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
-              }`}
-            >
-              <span>Track 2: 17-Week Fast-Track (46 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'track2' ? 'bg-white/20 text-white' : 'bg-rose-100 text-rose-800'}`}>
-                Starts 11 Oct
-              </span>
-            </button>
-
-            <button
-              onClick={() => {
-                setRepeaterTrack('pc');
-                setActivePhaseFilter('all');
-              }}
-              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
-                repeaterTrack === 'pc'
-                  ? 'bg-emerald-600 text-white shadow-sm'
-                  : 'bg-white text-stone-700 hover:bg-stone-50 border border-stone-200'
-              }`}
-            >
-              <span>Track 3: Physics &amp; Chemistry (27 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'pc' ? 'bg-white/20 text-white' : 'bg-emerald-100 text-emerald-800'}`}>
-                10 Feb – 29 Apr
-              </span>
-            </button>
-          </div>
-        )}
-
-        {/* High Density Metric Cards */}
-        <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
-          {activeBatch === '11th' ? (
-            class11Track === 'track1' ? (
-              <>
-                <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">11 Tests (11 Oct - 21 Feb)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-rose-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-rose-700 tracking-wider">Phase 2: Part-Wise</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">6 Tests (01 Mar - 21 Mar)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 3: Full Syllabus</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">3 Tests (24 Mar - 30 Mar)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 1 Total Cycle</div>
-                  <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">20 Tests (3,600 Qs)</div>
-                  <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
-                </div>
-              </>
-            ) : (
-              <>
-                <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">12 Tests (11 Oct - 07 Mar)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 1: Cumulative</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">5 Tests (08 Nov - 28 Feb)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Final Phase: Full Syllabus</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">3 Tests (14 Mar - 28 Mar)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 2 Total Cycle</div>
-                  <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">20 Tests (3,600 Qs)</div>
-                  <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
-                </div>
-              </>
-            )
-          ) : activeBatch === '12th' ? (
-            class12Track === 'complete' ? (
-              <>
-                <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Part-Wise</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">8 Tests (11 Oct - 08 Nov)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 2: Complete Syllabus</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">10 Tests (12 Nov - 18 Dec)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 3: NEET Mocks</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">5 Mocks (24 Dec - 01 Jan)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Buffer &amp; Analysis</div>
-                  <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">7 Repair Cycles</div>
-                  <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">Through 17 Feb 2027</div>
-                </div>
-              </>
-            ) : (
-              <>
-                <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Subject Coverage</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">100% Physics (50 Qs)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Subject Coverage</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">100% Chemistry (50 Qs)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Cadence</div>
-                  <div className="text-xl font-bold text-stone-900 mt-0.5">Every 3 Days (10 Mar - 30 Apr)</div>
-                </div>
-
-                <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 2 Total Cycle</div>
-                  <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">18 Tests (1,800 Qs)</div>
-                  <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">120 Mins &bull; 400 Marks CBT</div>
-                </div>
-              </>
-            )
-          ) : repeaterTrack === 'track1' ? (
-            <>
-              <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                <div className="text-xl font-bold text-stone-900 mt-0.5">20 Tests (11 Oct - 14 Feb)</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-white border border-rose-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-rose-700 tracking-wider">Phase 2: Part-Wise</div>
-                <div className="text-xl font-bold text-stone-900 mt-0.5">8 Tests (18 Feb - 18 Mar)</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 3: Full Syllabus</div>
-                <div className="text-xl font-bold text-stone-900 mt-0.5">18 Tests (22 Mar - 30 Apr)</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 1 Total Cycle</div>
-                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">46 Tests (8,280 Qs)</div>
-                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
-              </div>
-            </>
-          ) : repeaterTrack === 'track2' ? (
-            <>
-              <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Fast-Track</div>
-                <div className="text-xl font-bold text-stone-900 mt-0.5">17 Tests (11 Oct - 24 Jan)</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-white border border-rose-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-rose-700 tracking-wider">Phase 2: Part-Wise</div>
-                <div className="text-xl font-bold text-stone-900 mt-0.5">8 Tests (28 Jan - 25 Feb)</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 3: Full Syllabus</div>
-                <div className="text-xl font-bold text-stone-900 mt-0.5">21 Tests (28 Feb - 29 Apr)</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 2 Total Cycle</div>
-                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">46 Tests (8,280 Qs)</div>
-                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Subject 1: Physics</div>
-                <div className="text-xl font-bold text-stone-900 mt-0.5">20 Official Units (50 Qs)</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Subject 2: Chemistry</div>
-                <div className="text-xl font-bold text-stone-900 mt-0.5">20 Official Units (50 Qs)</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Cadence</div>
-                <div className="text-xl font-bold text-stone-900 mt-0.5">Every 3 Days (10 Feb - 29 Apr)</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Track 3 Total Cycle</div>
-                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">27 Tests (2,700 Qs)</div>
-                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">120 Mins &bull; 400 Marks CBT</div>
-              </div>
-            </>
-          )}
-        </div>
-      </div>
-
-      {/* REMINDER SUCCESS TOAST */}
-      {reminderSetFor && (
-        <div className="p-6 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-900 flex items-start space-x-3 shadow-md animate-in slide-in-from-top-2 duration-200">
-          <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-          <div className="space-y-0.5 text-xs">
-            <div className="font-bold text-emerald-900">
-              🔔 Automated Sunday Test Reminder Activated for {reminderSetFor}!
-            </div>
-            <p className="text-emerald-800">
-              Test reminder scheduled for Sunday at <strong>8:00 AM</strong>. Candidate alert will be sent to <strong>{studentPhone ? `+91 ${studentPhone}` : 'registered mobile'}</strong>. Exam window opens at 9:00 AM.
-            </p>
-          </div>
-        </div>
-      )}
-
-      {/* PHASE FILTER PILLS & SEARCH BAR */}
-      <div className="bg-white p-3 rounded-2xl border border-stone-200 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-3">
-        <div className="flex flex-wrap items-center gap-1.5 overflow-x-auto pb-1 md:pb-0">
-          {(activeBatch === '11th'
-            ? class11Track === 'track1'
-              ? [
-                  { id: 'all', label: `All (${SUNDAY_11TH_TRACK1_TESTS.length})` },
-                  { id: 'cwt', label: 'Phase 1: Chapter-Wise (11)' },
-                  { id: 'part', label: 'Phase 2: Part-Wise (6)' },
-                  { id: 'full', label: 'Phase 3: Full Syllabus (3)' }
-                ]
-              : [
-                  { id: 'all', label: `All (${SUNDAY_11TH_TRACK2_TESTS.length})` },
-                  { id: 'cwt', label: 'Phase 1: CWT (12)' },
-                  { id: 'cumulative', label: 'Phase 1: Cumulative (5)' },
-                  { id: 'full', label: 'Final Phase: Full Syllabus (3)' }
-                ]
-            : activeBatch === '12th'
-            ? class12Track === 'complete'
-              ? [
-                  { id: 'all', label: `All (${PLANNER_12TH_COMPLETE_TESTS.length})` },
-                  { id: 'part', label: 'Phase 1: Part-Wise (8)' },
-                  { id: 'full', label: 'Phase 2: Complete Syllabus (10)' },
-                  { id: 'mock', label: 'Phase 3: NEET Mocks (5)' }
-                ]
-              : [
-                  { id: 'all', label: `All (${PLANNER_12TH_PC_TESTS.length} Tests)` },
-                  { id: 'full', label: 'Full Syllabus PC Series (18)' }
-                ]
-            : repeaterTrack === 'track1'
-            ? [
-                { id: 'all', label: `All (${SUNDAY_DROPPER_TRACK1_TESTS.length})` },
-                { id: 'cwt', label: 'Phase 1: Chapter-Wise (20)' },
-                { id: 'part', label: 'Phase 2: Part-Wise (8)' },
-                { id: 'full', label: 'Phase 3: Full Syllabus (18)' }
-              ]
-            : repeaterTrack === 'track2'
-            ? [
-                { id: 'all', label: `All (${SUNDAY_DROPPER_TRACK2_TESTS.length})` },
-                { id: 'cwt', label: 'Phase 1: Fast-Track (17)' },
-                { id: 'part', label: 'Phase 2: Part-Wise (8)' },
-                { id: 'full', label: 'Phase 3: Full Syllabus (21)' }
-              ]
-            : [
-                { id: 'all', label: `All (${SUNDAY_DROPPER_PC_TESTS.length} Tests)` },
-                { id: 'full', label: 'Full Syllabus PC Series (27)' }
-              ]
-          ).map(f => (
-            <button
-              key={f.id}
-              onClick={() => {
-                setActivePhaseFilter(f.id as any);
-                setShowRevisionBuffer(false);
-              }}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition cursor-pointer ${
-                activePhaseFilter === f.id && !showRevisionBuffer
-                  ? 'bg-orange-600 text-white shadow-xs'
-                  : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
-              }`}
-            >
-              {f.label}
-            </button>
-          ))}
-
-          {activeBatch === '12th' && (
-            <button
-              onClick={() => setShowRevisionBuffer(!showRevisionBuffer)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition cursor-pointer flex items-center gap-1.5 ${
-                showRevisionBuffer
-                  ? 'bg-purple-600 text-white shadow-xs'
-                  : 'bg-purple-50 text-purple-800 hover:bg-purple-100 border border-purple-200'
-              }`}
-            >
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>Revision &amp; Analysis Buffer (7 Stages)</span>
-            </button>
-          )}
-        </div>
-
-        {/* Search Bar */}
-        <div className="relative w-full md:w-72 shrink-0">
-          <Search className="w-3.5 h-3.5 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
-          <input
-            type="text"
-            placeholder="Search test code or chapter..."
-            value={searchQuery}
-            onChange={e => setSearchQuery(e.target.value)}
-            className="w-full pl-8 pr-3 py-1.5 rounded-xl bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:outline-none focus:border-orange-500"
-          />
-        </div>
-      </div>
-
-      {/* 12th BATCH REVISION & ANALYSIS BUFFER PANEL */}
+        {/* 12th BATCH REVISION & ANALYSIS BUFFER PANEL */}
       {activeBatch === '12th' && showRevisionBuffer && (
-        <div className="p-5 rounded-2xl bg-gradient-to-br from-purple-50/80 via-white to-rose-50/50 border border-purple-200 shadow-xs space-y-4 animate-in fade-in duration-200">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-purple-100 pb-3">
+        <div className="p-5 rounded-2xl bg-gradient-to-br from-amber-50/80 via-white to-orange-50/50 border border-amber-200 shadow-xs space-y-4 animate-in fade-in duration-200">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-amber-100 pb-3">
             <div className="flex items-center gap-4.5">
-              <span className="p-3 rounded-xl bg-purple-600 text-white shadow-2xs">
+              <span className="p-3 rounded-xl bg-amber-500 text-white shadow-2xs">
                 <Sparkles className="w-4 h-4 text-amber-300" />
               </span>
               <div>
@@ -1066,7 +688,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {REVISION_ANALYSIS_BUFFER_12TH.map((stage, idx) => (
               <div
                 key={idx}
-                className="p-3.5 rounded-xl bg-white border border-purple-100 shadow-2xs hover:border-purple-300 transition space-y-2"
+                className="p-3.5 rounded-xl bg-white border border-amber-100 shadow-2xs hover:border-purple-300 transition space-y-2"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-purple-700 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded-md font-mono">
@@ -1079,7 +701,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 <div className="text-xs font-bold text-stone-900">
                   {stage.action}
                 </div>
-                <div className="text-[11px] text-stone-600 leading-relaxed bg-purple-50/40 p-3 rounded-lg border border-purple-100/60">
+                <div className="text-[11px] text-stone-600 leading-relaxed bg-purple-50/40 p-3 rounded-lg border border-amber-100/60">
                   <span className="font-bold text-purple-900">Output:</span> {stage.output}
                 </div>
               </div>
@@ -1453,6 +1075,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 };
