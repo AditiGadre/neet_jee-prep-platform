@@ -1102,7 +1102,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           {currentDisplayTests.map((mock: SundayPlannerTest) => {
               const isLive = isSundayToday;
               const paperLookupKey = mock.id;
-            const customPaper = localCustomPapers[paperLookupKey] || localCustomPapers[mock.code] || localCustomPapers[paperLookupKey.toLowerCase()] || localCustomPapers[mock.code.toLowerCase()];
+            const customPaper = localCustomPapers[paperLookupKey] || localCustomPapers[paperLookupKey.toLowerCase()];
             
             const displayTitle = customPaper?.testTitle ? `${mock.code}: ${customPaper.testTitle}` : mock.title;
             const displayDesc = customPaper?.description || mock.objective || mock.description;

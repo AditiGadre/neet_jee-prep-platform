@@ -5120,8 +5120,8 @@ export function generateSundayTestQuestions(
   if (!customChapters) {
     const saved =
       batch !== 'repeater'
-        ? (getSavedCustomSundayPaper(batch + '-' + test.code) || getSavedCustomSundayPaper(batch + '-' + test.id))
-        : (getSavedCustomSundayPaper(batch + '-' + test.code) || getSavedCustomSundayPaper(test.code) || getSavedCustomSundayPaper(test.id));
+        ? (getSavedCustomSundayPaper(test.id) || getSavedCustomSundayPaper(batch + '-' + test.code))
+        : (getSavedCustomSundayPaper(test.id) || getSavedCustomSundayPaper(test.code));
     if (saved && Array.isArray(saved.questions) && (saved.questions.length === targetCount || saved.questions.length === test.totalQuestions)) {
       return assertNoDuplicateQuestions(saved.questions.map(q => ({ ...q, difficulty: 'Hard' as const })));
     }
