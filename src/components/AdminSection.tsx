@@ -706,8 +706,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         ...OFFICIAL_ZOOLOGY_BLOCKS.slice(5).map(z => `[Zoology] ${z}`)
       ]);
     } else {
-      const is11th = presetKey.toLowerCase().startsWith('11th-');
-      const is12th = presetKey.toLowerCase().startsWith('12th-');
+      const is11th = presetKey.toLowerCase().includes('11th');
+      const is12th = presetKey.toLowerCase().includes('12th');
       const cleanKey = presetKey.replace(/^(11th|12th)-/i, '').toLowerCase();
       const planner = is11th
         ? (SUNDAY_11TH_TRACK1_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
@@ -792,8 +792,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
 
     // 3. Fallback to generated Sunday paper
-    const is11th = paperCode.toLowerCase().startsWith('11th-');
-    const is12th = paperCode.toLowerCase().startsWith('12th-');
+    const is11th = paperCode.toLowerCase().includes('11th');
+    const is12th = paperCode.toLowerCase().includes('12th');
     const cleanCode = paperCode.replace(/^(11th|12th)-/i, '').toUpperCase();
     const planner = is11th
       ? (SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
