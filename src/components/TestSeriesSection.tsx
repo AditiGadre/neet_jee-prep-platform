@@ -1,3 +1,4 @@
+import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
 import React, { useState, useEffect, useMemo } from 'react';
 import {
   FileCheck2,
@@ -411,6 +412,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       const list = raw ? JSON.parse(raw) : [];
       list.unshift(newRequest);
       localStorage.setItem('neet_unlock_requests', JSON.stringify(list));
+      syncUnlockRequestsToCloud(list);
       window.dispatchEvent(new Event('neet_unlock_request_sent'));
     } catch {}
 

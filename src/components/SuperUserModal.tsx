@@ -1,3 +1,4 @@
+import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
 import React, { useState, useEffect, useMemo } from 'react';
 import {
   X,
@@ -84,7 +85,11 @@ export interface StudentUnlockRequest {
   status: 'pending' | 'approved' | 'rejected';
 }
 
-export function getStoredUnlockRequests(): StudentUnlockRequest[] {
+export async function fetchAllUnlockRequests(): Promise<StudentUnlockRequest[]> {
+  const cloud = await fetchUnlockRequestsFromCloud();
+  if (cloud && cloud.length > 0) return cloud;
+  
+  export function getStoredUnlockRequests(): StudentUnlockRequest[] {
   try {
     const raw = localStorage.getItem('neet_unlock_requests');
     if (raw) {
@@ -155,6 +160,11 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
   // Student Unlock Requests State
   const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(getStoredUnlockRequests());
+  useEffect(() => {
+    fetchAllUnlockRequests().then(reqs => {
+      if (reqs && reqs.length > 0) setUnlockRequests(reqs);
+    });
+  }, []);
   const [requestStatusFilter, setRequestStatusFilter] = useState<'all' | 'pending' | 'approved' | 'rejected'>('all');
   const [requestSearch, setRequestSearch] = useState<string>('');
   const [actionSuccessBanner, setActionSuccessBanner] = useState<string | null>(null);
@@ -268,6 +278,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
     const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
     setUnlockRequests(updated);
     localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncUnlockRequestsToCloud(updated);
     localStorage.setItem('neet_admin_test_access', 'true');
     setIsAdminTestAccessGranted(true);
     window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
@@ -279,6 +290,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
     const updated = unlockRequests.map(r => ({ ...r, status: 'approved' as const }));
     setUnlockRequests(updated);
     localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncUnlockRequestsToCloud(updated);
     localStorage.setItem('neet_admin_test_access', 'true');
     setIsAdminTestAccessGranted(true);
     window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
@@ -290,6 +302,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
     const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'rejected' as const } : r);
     setUnlockRequests(updated);
     localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncUnlockRequestsToCloud(updated);
     setActionSuccessBanner('Request Rejected.');
     setTimeout(() => setActionSuccessBanner(null), 2500);
   };
