@@ -4967,7 +4967,7 @@ export function ensureAllSundayPapersGenerated(): void {
 
         // Deterministically shuffle matched to ensure a mix of chapters
         let shuffledMatched = [...matched];
-        let seed = t.code.split('').reduce((a, b) => a + b.charCodeAt(0), 0) + subject.charCodeAt(0);
+        let seed = t.id.split('').reduce((a, b) => a + b.charCodeAt(0), 0) + subject.charCodeAt(0);
         for (let i = shuffledMatched.length - 1; i > 0; i--) {
           const j = (seed = (seed * 16807) % 2147483647) % (i + 1);
           [shuffledMatched[i], shuffledMatched[j]] = [shuffledMatched[j], shuffledMatched[i]];
@@ -4992,7 +4992,7 @@ export function ensureAllSundayPapersGenerated(): void {
 
         // 2. If matched didn't reach count, fill remainder strictly from matched questions (repeating if necessary)
         if (picked.length < count && matched.length > 0) {
-          let i = (t.code.split('').reduce((a, b) => a + b.charCodeAt(0), 0) * 7 + picked.length) % matched.length;
+          let i = (t.id.split('').reduce((a, b) => a + b.charCodeAt(0), 0) * 7 + picked.length) % matched.length;
           while (picked.length < count) {
             const q = matched[i % matched.length];
             picked.push({

@@ -2434,119 +2434,119 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   >
                     <optgroup label="Repeater Track 1: 20-Wk Chapterwise (CW-01 to CW-20)">
                       {SUNDAY_DROPPER_TRACK1_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
-                        <option key={t.code} value={t.code}>
+                        <option key={t.id} value={t.id}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="Repeater Track 1: Part-Wise Tests (PT-01 to PT-08)">
                       {SUNDAY_DROPPER_TRACK1_TESTS.filter(t => t.phaseGroup === 'part').map(t => (
-                        <option key={t.code} value={t.code}>
+                        <option key={t.id} value={t.id}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="Repeater Track 1: Full Syllabus Tests (FS-01 to FS-18)">
                       {SUNDAY_DROPPER_TRACK1_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
-                        <option key={t.code} value={t.code}>
+                        <option key={t.id} value={t.id}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="Repeater Track 2: 17-Wk Fast-Track Chapterwise (T01 to T17)">
                       {SUNDAY_DROPPER_TRACK2_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
-                        <option key={t.code} value={t.code}>
+                        <option key={t.id} value={t.id}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="Repeater Track 2: Part-Wise Tests (P01 to P08)">
                       {SUNDAY_DROPPER_TRACK2_TESTS.filter(t => t.phaseGroup === 'part').map(t => (
-                        <option key={t.code} value={t.code}>
+                        <option key={t.id} value={t.id}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="Repeater Track 2: Full Syllabus Tests (F01 to F21)">
                       {SUNDAY_DROPPER_TRACK2_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
-                        <option key={t.code} value={t.code}>
+                        <option key={t.id} value={t.id}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="Repeater Track 3: Physics & Chemistry Full Syllabus (PC-01 to PC-27)">
                       {SUNDAY_DROPPER_PC_TESTS.map(t => (
-                        <option key={t.code} value={t.code}>
+                        <option key={t.id} value={t.id}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 11 Track 1: Chapter-Wise Tests (CW-01 - 11) ──">
                       {SUNDAY_11TH_TRACK1_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
-                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 11 Track 1: Part-Wise Tests (PT-01 - 06) ──">
                       {SUNDAY_11TH_TRACK1_TESTS.filter(t => t.phaseGroup === 'part').map(t => (
-                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 11 Track 1: Full Syllabus (FS-01 - 03) ──">
                       {SUNDAY_11TH_TRACK1_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
-                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 11 Track 2: CWT Tests (CWT 01 - 12) ──">
                       {SUNDAY_11TH_TRACK2_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
-                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 11 Track 2: Cumulative Tests (CUM 01 - 05) ──">
                       {SUNDAY_11TH_TRACK2_TESTS.filter(t => t.phaseGroup === 'cumulative').map(t => (
-                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 11 Track 2: Full Syllabus (FST 01 - 03) ──">
                       {SUNDAY_11TH_TRACK2_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
-                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 12 Batch: Phase 1 Part-Wise (PART 1 - 8) ──">
                       {PLANNER_12TH_TESTS.filter(t => t.code.startsWith('PART')).map(t => (
-                        <option key={`12TH-${t.code}`} value={`12TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           12th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 12 Batch: Phase 2 Complete Syllabus (FULL 01 - 10) ──">
                       {PLANNER_12TH_TESTS.filter(t => t.code.startsWith('FULL-')).map(t => (
-                        <option key={`12TH-${t.code}`} value={`12TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           12th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 12 Batch: Phase 3 NEET Mocks (01 - 05) ──">
                       {PLANNER_12TH_TESTS.filter(t => t.code.startsWith('NEET MOCK')).map(t => (
-                        <option key={`12TH-${t.code}`} value={`12TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           12th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>
                     <optgroup label="── Class 12 Batch: Track 2 Physics & Chemistry (PC-01 - 18) ──">
                       {PLANNER_12TH_TESTS.filter(t => t.code.startsWith('PC-')).map(t => (
-                        <option key={`12TH-${t.code}`} value={`12TH-${t.code}`}>
+                        <option key={t.id} value={t.id}>
                           12th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}

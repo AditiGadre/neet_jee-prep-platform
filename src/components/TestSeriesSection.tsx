@@ -342,7 +342,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     const targetDuration = isPCTest ? 120 : (plannerTest.durationMinutes || 180);
 
     // Query authoritative cloud paper directly (single source of truth with highest server revision)
-    const paperLookupKey = activeBatch !== 'repeater' ? `${activeBatch}-${plannerTest.code}` : plannerTest.code;
+    const paperLookupKey = plannerTest.id;
     let customPaper = await fetchAuthoritativePaper(paperLookupKey, true);
     let testQuestions: Question[] = [];
     let syllabusStr = isPCTest
@@ -434,7 +434,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     const targetMarks = isPCTest ? 400 : (plannerTest.totalMarks || 720);
     const targetDuration = isPCTest ? 120 : (plannerTest.durationMinutes || 180);
 
-    const paperLookupKey = activeBatch !== 'repeater' ? `${activeBatch}-${plannerTest.code}` : plannerTest.code;
+    const paperLookupKey = plannerTest.id;
     let customPaper = await fetchAuthoritativePaper(paperLookupKey, true);
 
     const questions = (customPaper && Array.isArray(customPaper.questions) )
@@ -1102,7 +1102,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           {currentDisplayTests.map((mock: SundayPlannerTest) => {
             const isLive = isSundayToday;
             
-            const paperLookupKey = activeBatch !== 'repeater' ? `${activeBatch}-${mock.code}` : mock.code;
+            const paperLookupKey = plannerTest.id;
             const customPaper = localCustomPapers[paperLookupKey] || localCustomPapers[mock.code] || localCustomPapers[paperLookupKey.toLowerCase()] || localCustomPapers[mock.code.toLowerCase()];
             
             const displayTitle = customPaper?.testTitle ? `${mock.code}: ${customPaper.testTitle}` : mock.title;
