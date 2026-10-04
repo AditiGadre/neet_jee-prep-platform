@@ -88,8 +88,10 @@ export interface StudentUnlockRequest {
 export async function fetchAllUnlockRequests(): Promise<StudentUnlockRequest[]> {
   const cloud = await fetchUnlockRequestsFromCloud();
   if (cloud && cloud.length > 0) return cloud;
-  
-  export function getStoredUnlockRequests(): StudentUnlockRequest[] {
+  return getStoredUnlockRequests();
+}
+
+export function getStoredUnlockRequests(): StudentUnlockRequest[] {
   try {
     const raw = localStorage.getItem('neet_unlock_requests');
     if (raw) {
