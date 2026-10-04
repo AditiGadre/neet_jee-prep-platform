@@ -16,7 +16,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
     <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-in fade-in duration-200">
       <div className="bg-white border border-slate-200 rounded-2xl sm:rounded-3xl shadow-2xl max-w-3xl w-full max-h-[90vh] flex flex-col overflow-hidden animate-in zoom-in-95 duration-200 text-slate-900 my-auto">
         {/* Modal Header */}
-        <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-slate-900 p-5 sm:p-6 text-white flex items-center justify-between shrink-0">
+        <div className="bg-gradient-to-r from-orange-700 via-indigo-700 to-slate-900 p-5 sm:p-6 text-white flex items-center justify-between shrink-0">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-white/15 backdrop-blur-md rounded-xl flex items-center justify-center border border-white/25">
               <Scale className="w-5 h-5 text-cyan-300" />
@@ -28,7 +28,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
                   v2.4
                 </span>
               </div>
-              <p className="text-xs text-blue-100 mt-0.5">
+              <p className="text-xs text-orange-100 mt-0.5">
                 NeetCbt Exam Test — Official Academic & Computer-Based Testing Portal
               </p>
             </div>
@@ -44,18 +44,18 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
         {/* Scrollable Terms Content */}
         <div className="p-5 sm:p-6 overflow-y-auto space-y-6 text-xs text-slate-700 leading-relaxed">
-          <div className="p-4 rounded-xl bg-blue-50/80 border border-blue-200 text-blue-950 space-y-1">
-            <p className="font-bold flex items-center gap-1.5 text-blue-900">
-              <FileText className="w-4 h-4 text-blue-600" /> Standard Institutional Agreement
+          <div className="p-6 rounded-xl bg-orange-50/80 border border-orange-200 text-orange-950 space-y-1">
+            <p className="font-bold flex items-center gap-1.5 text-orange-900">
+              <FileText className="w-4 h-4 text-orange-600" /> Standard Institutional Agreement
             </p>
-            <p className="text-[11px] text-blue-800">
+            <p className="text-[11px] text-orange-800">
               Please read these Terms and Conditions carefully before using the NeetCbt Exam Platform. By enrolling, registering, logging in, or attempting any Computer-Based Test (CBT), you agree to be bound by these terms.
             </p>
           </div>
 
           {/* Section 1 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-4">
               <span className="w-5 h-5 rounded-md bg-slate-100 text-slate-700 flex items-center justify-center font-mono text-[11px]">1</span>
               Acceptance of Terms & Educational Purpose
             </h3>
@@ -66,7 +66,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 2 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-4">
               <span className="w-5 h-5 rounded-md bg-slate-100 text-slate-700 flex items-center justify-center font-mono text-[11px]">2</span>
               User Accounts & 2-Device Concurrency Policy
             </h3>
@@ -82,7 +82,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 3 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-4">
               <span className="w-5 h-5 rounded-md bg-slate-100 text-slate-700 flex items-center justify-center font-mono text-[11px]">3</span>
               Intellectual Property Rights & PDF Encryption
             </h3>
@@ -96,7 +96,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 4 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-4">
               <span className="w-5 h-5 rounded-md bg-slate-100 text-slate-700 flex items-center justify-center font-mono text-[11px]">4</span>
               Sunday Proctored Test Series & Unlock Protocol
             </h3>
@@ -112,7 +112,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 5 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-4">
               <span className="w-5 h-5 rounded-md bg-slate-100 text-slate-700 flex items-center justify-center font-mono text-[11px]">5</span>
               CBT Code of Conduct & Anti-Cheating Policy
             </h3>
@@ -123,7 +123,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 6 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-4">
               <span className="w-5 h-5 rounded-md bg-slate-100 text-slate-700 flex items-center justify-center font-mono text-[11px]">6</span>
               Subscriptions, Packages & Refund Policy
             </h3>
@@ -134,7 +134,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 7 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-4">
               <span className="w-5 h-5 rounded-md bg-slate-100 text-slate-700 flex items-center justify-center font-mono text-[11px]">7</span>
               AIR Predictions & Forecast Disclaimers
             </h3>
@@ -145,7 +145,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 8 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-4">
               <span className="w-5 h-5 rounded-md bg-slate-100 text-slate-700 flex items-center justify-center font-mono text-[11px]">8</span>
               Privacy & Student Data Security
             </h3>
@@ -156,7 +156,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 9 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-slate-900 flex items-center gap-4">
               <span className="w-5 h-5 rounded-md bg-slate-100 text-slate-700 flex items-center justify-center font-mono text-[11px]">9</span>
               Governing Law & Jurisdiction
             </h3>
@@ -167,14 +167,14 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
         </div>
 
         {/* Modal Footer */}
-        <div className="p-4 sm:p-5 bg-slate-50 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 shrink-0">
+        <div className="p-6 sm:p-5 bg-slate-50 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 shrink-0">
           <div className="flex items-center space-x-2 text-[11px] text-slate-500">
             <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
             <span>Last Updated: September 2026 • Compliant with IT Act 2000 & NEP Guidelines</span>
           </div>
           <button
             onClick={onClose}
-            className="w-full sm:w-auto px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
+            className="w-full sm:w-auto px-5 py-2 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
           >
             I Understand & Agree
           </button>

@@ -46,16 +46,16 @@ function estimateRankFromScore(score: number): number {
   if (score >= 680) return 8500;
   if (score >= 670) return 14000;
   if (score >= 665) return 18500;
-  if (score >= 655) return 26178; // Official AIQ Round 3 Open/OBC Govt MBBS cutoff boundary
+  if (score >= 655) return 26178; // Official AIQ Round 1 & 2 Open/OBC Govt MBBS cutoff boundary
   if (score >= 645) return 35000;
   if (score >= 635) return 44000;
-  if (score >= 630) return 49462; // Official AIQ Round 3 Govt BDS Open cutoff boundary
+  if (score >= 630) return 49462; // Official AIQ Round 1 & 2 Govt BDS Open cutoff boundary
   if (score >= 620) return 62000;
   if (score >= 610) return 77000;
   if (score >= 600) return 95000;
   if (score >= 585) return 120000;
-  if (score >= 575) return 135684; // Official AIQ Round 3 SC Govt MBBS cutoff boundary
-  if (score >= 552) return 163285; // Official AIQ Round 3 ST Govt MBBS cutoff boundary
+  if (score >= 575) return 135684; // Official AIQ Round 1 & 2 SC Govt MBBS cutoff boundary
+  if (score >= 552) return 163285; // Official AIQ Round 1 & 2 ST Govt MBBS cutoff boundary
   if (score >= 535) return 195000;
   if (score >= 500) return 295000;
   if (score >= 450) return 450000;
@@ -383,7 +383,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
   const [gender, setGender] = useState<'ALL' | 'FEMALE' | 'MALE'>(defaultGender);
   const [counselingScope, setCounselingScope] = useState<'ALL' | 'AIQ' | 'STATE'>('ALL');
   const [includeOpenMerit, setIncludeOpenMerit] = useState<boolean>(true);
-  const [selectedRound, setSelectedRound] = useState<'ALL' | 'Round 1' | 'Round 2' | 'Round 3'>('ALL');
+  const [selectedRound, setSelectedRound] = useState<'ALL' | 'Round 1' | 'Round 2'>('ALL');
   const [collegeTypeFilter, setCollegeTypeFilter] = useState<'ALL' | 'GOVT' | 'PRIVATE'>('ALL');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [stateFilter, setStateFilter] = useState<string>('ALL');
@@ -417,6 +417,23 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
     setRankInput(val);
   };
 
+  // Memoize aggregated closing cutoffs per college seat option (taking max closing AIR per seat option)
+  const aggregatedCutoffsData = useMemo(() => {
+    const grouped = new Map<string, NeetCutoffEntry>();
+    for (const entry of NEET_CUTOFFS_DATA) {
+      const key = `${entry.collegeCode}_${entry.collegeName}_${entry.course}_${entry.quota}_${entry.categoryGroup}_${entry.counselingType}_${entry.round}_${entry.year}_${entry.isWomen}_${entry.isPwD}`;
+      const existing = grouped.get(key);
+      if (!existing) {
+        grouped.set(key, { ...entry });
+      } else {
+        if (entry.closingAir > existing.closingAir) {
+          existing.closingAir = entry.closingAir;
+        }
+      }
+    }
+    return Array.from(grouped.values());
+  }, []);
+
   // Filter and compute cleared vs close-not-cleared
   const { clearedList, closeList, stats } = useMemo(() => {
     if (userAir <= 0) {
@@ -438,7 +455,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
     const cleared: Array<NeetCutoffEntry & { margin: number; probability: 'HIGH' | 'MODERATE' | 'BORDERLINE' }> = [];
     const close: Array<NeetCutoffEntry & { margin: number }> = [];
 
-    const filteredRecords = NEET_CUTOFFS_DATA.filter(entry => {
+    const filteredRecords = aggregatedCutoffsData.filter(entry => {
       // 1. Quota Scope Filter (AIQ vs State)
       if (counselingScope === 'AIQ' && entry.counselingType !== 'AIQ') return false;
       if (counselingScope === 'STATE' && entry.counselingType !== 'STATE') return false;
@@ -534,7 +551,8 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
     collegeTypeFilter,
     searchQuery,
     stateFilter,
-    missedToleranceRanks
+    missedToleranceRanks,
+    aggregatedCutoffsData
   ]);
 
   // Export to CSV
@@ -583,10 +601,10 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
   };
 
   return (
-    <div className={`space-y-6 ${isInsideScorecard ? 'w-full text-slate-100' : 'max-w-7xl mx-auto p-2 sm:p-4 lg:p-6 text-slate-100'} animate-in fade-in duration-300`}>
+    <div className={`space-y-6 ${isInsideScorecard ? 'w-full text-slate-100' : 'max-w-7xl mx-auto p-3 sm:p-6 lg:p-6 text-slate-100'} animate-in fade-in duration-300`}>
       {/* 1. Header Banner & Official MCC 113-Page Attribution */}
       <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-500/30 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-        <div className="absolute -right-10 -bottom-10 w-64 h-64 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div className="absolute -right-10 -bottom-10 w-64 h-64 bg-orange-600/10 rounded-full blur-3xl pointer-events-none"></div>
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-1.5">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold border border-indigo-500/30">
@@ -597,15 +615,15 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               {isInsideScorecard ? (
                 <>SECTION 7: Predicted Medical Colleges & AIQ Seat Allotment Matrix (2026)</>
               ) : (
-                <>NEET MBBS & BDS <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">College Predictor Matrix (2026)</span></>
+                <>NEET MBBS & BDS <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-orange-400">College Predictor Matrix (2026)</span></>
               )}
             </h2>
             <p className="text-sm text-slate-300 max-w-3xl leading-relaxed">
-              Admission viability calibrated dynamically for All India Rank <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong> across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 21,447 verified Maharashtra 2026 State CAP Round 1 & Round 2 allotments and 3,706 Official MCC All-India Quota, AIIMS, Central Universities & Deemed Medical Colleges).
+              Admission viability calibrated dynamically for All India Rank <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong> across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 21,447 verified Maharashtra 2026 State CAP Round 1 & Round 2 allotments and Official MCC All-India Quota (Round 1 & 2), AIIMS, Central Universities & Deemed Medical Colleges).
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2 shrink-0">
+          <div className="flex flex-wrap items-center gap-4 shrink-0">
             <button
               onClick={handleExportCSV}
               disabled={clearedList.length === 0}
@@ -618,18 +636,18 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
         </div>
 
         {/* Tab Switcher Buttons */}
-        <div className="mt-5 flex flex-wrap gap-2 border-t border-slate-800/80 pt-4">
+        <div className="mt-5 flex flex-wrap gap-4 border-t border-slate-800/80 pt-4">
           <button
             onClick={() => setActiveTab('forecaster')}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
               activeTab === 'forecaster'
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+                ? 'bg-orange-600 text-white shadow-lg shadow-blue-600/30'
                 : 'bg-slate-800/70 text-slate-300 hover:bg-slate-800 hover:text-white'
             }`}
           >
             <SlidersHorizontal className="w-4 h-4 text-cyan-400" />
             <span>Interactive Seat Forecaster</span>
-            <span className="ml-1 px-2 py-0.5 rounded-full text-[10px] bg-blue-900/60 text-blue-200 border border-blue-500/30 font-mono">
+            <span className="ml-1 px-2 py-0.5 rounded-full text-[10px] bg-orange-900/60 text-orange-200 border border-orange-500/30 font-mono">
               {stats.totalCleared} Options
             </span>
           </button>
@@ -638,7 +656,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             onClick={() => setActiveTab('matrix')}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
               activeTab === 'matrix'
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+                ? 'bg-orange-600 text-white shadow-lg shadow-blue-600/30'
                 : 'bg-slate-800/70 text-slate-300 hover:bg-slate-800 hover:text-white'
             }`}
           >
@@ -653,7 +671,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             onClick={() => setActiveTab('benchmarks')}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
               activeTab === 'benchmarks'
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+                ? 'bg-orange-600 text-white shadow-lg shadow-blue-600/30'
                 : 'bg-slate-800/70 text-slate-300 hover:bg-slate-800 hover:text-white'
             }`}
           >
@@ -666,14 +684,14 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
         </div>
 
         {/* Caveat Callout Box */}
-        <div className="mt-4 p-4 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-200 text-xs leading-relaxed flex items-start space-x-3">
+        <div className="mt-4 p-6 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-200 text-xs leading-relaxed flex items-start space-x-3">
           <AlertCircle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
           <div className="space-y-1">
             <div className="font-bold text-amber-300 uppercase tracking-wide">
               Official MCC All India Quota & State Selection Attributions:
             </div>
             <div>
-              1. <strong>MCC AIQ Round 3 Reconstructed Cutoffs:</strong> Includes all 3,706 closing cutoffs across AIIMS, Central Institutes, AFMC, ESIC, State GMCs (15% AIQ), and Deemed Universities from the official 113-page allotment release.
+              1. <strong>MCC AIQ Round 1 & 2 Reconstructed Cutoffs:</strong> Includes all closing cutoffs across AIIMS, Central Institutes, AFMC, ESIC, State GMCs (15% AIQ), and Deemed Universities from the official 113-page allotment release.
             </div>
             <div>
               2. <strong>Round 3 Absolute Boundary:</strong> Open/OBC Govt MBBS closed at <strong>AIR 26,178</strong>, SC Govt MBBS closed at <strong>AIR 1,35,684</strong>, ST at <strong>AIR 1,63,285</strong>, and Govt BDS at <strong>AIR 49,462</strong>.
@@ -699,7 +717,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   onClick={() => setCounselingScope('ALL')}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
                     counselingScope === 'ALL'
-                      ? 'bg-blue-600 text-white shadow-xs'
+                      ? 'bg-orange-600 text-white shadow-xs'
                       : 'text-slate-400 hover:text-white'
                   }`}
                 >
@@ -713,7 +731,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       : 'text-slate-400 hover:text-white'
                   }`}
                 >
-                  AIQ 15% / Central / Deemed (3.7k)
+                  AIQ 15% / Central / Deemed (All)
                 </button>
                 <button
                   onClick={() => setCounselingScope('STATE')}
@@ -772,7 +790,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     id="includeOpen"
                     checked={includeOpenMerit}
                     onChange={e => setIncludeOpenMerit(e.target.checked)}
-                    className="rounded-sm border-slate-700 text-blue-600 focus:ring-0 cursor-pointer"
+                    className="rounded-sm border-slate-700 text-orange-600 focus:ring-0 cursor-pointer"
                   />
                   <label htmlFor="includeOpen" className="text-[11px] text-slate-400 cursor-pointer">
                     Include OPEN/UR seats if rank qualifies
@@ -790,7 +808,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       onClick={() => setSelectedCourse(c)}
                       className={`py-1.5 text-xs font-bold rounded-lg transition cursor-pointer ${
                         selectedCourse === c
-                          ? 'bg-blue-600 text-white shadow-xs'
+                          ? 'bg-orange-600 text-white shadow-xs'
                           : 'text-slate-400 hover:text-white'
                       }`}
                     >
@@ -813,9 +831,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white focus:border-cyan-400 focus:outline-hidden"
                 >
                   <option value="ALL">Predict Across All Rounds (Recommended)</option>
-                  <option value="Round 1">Round 1 (2026 Maharashtra State CAP Allotment)</option>
-                  <option value="Round 3">Round 3 (2026 MCC AIQ & Central Allotment)</option>
-                  <option value="Round 2">Round 2</option>
+                  <option value="Round 1">Round 1 (State CAP & MCC AIQ)</option>
+                  <option value="Round 2">Round 2 (State CAP & MCC AIQ)</option>
+                  
                 </select>
               </div>
 
@@ -866,7 +884,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
 
           {/* Summary Metric Badges */}
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center space-x-3">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 flex items-center space-x-3">
               <div className="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
                 <CheckCircle2 className="w-5 h-5" />
               </div>
@@ -876,7 +894,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               </div>
             </div>
 
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center space-x-3">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 flex items-center space-x-3">
               <div className="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center shrink-0">
                 <Globe className="w-5 h-5" />
               </div>
@@ -886,17 +904,17 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               </div>
             </div>
 
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center shrink-0">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 flex items-center space-x-3">
+              <div className="w-10 h-10 rounded-xl bg-orange-500/20 text-orange-400 flex items-center justify-center shrink-0">
                 <Building2 className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-2xl font-black text-blue-400">{stats.govtMbbsCleared}</div>
+                <div className="text-2xl font-black text-orange-400">{stats.govtMbbsCleared}</div>
                 <div className="text-xs text-slate-400 font-semibold">Govt MBBS Seats</div>
               </div>
             </div>
 
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center space-x-3">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 flex items-center space-x-3">
               <div className="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center shrink-0">
                 <GraduationCap className="w-5 h-5" />
               </div>
@@ -906,7 +924,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               </div>
             </div>
 
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center space-x-3 col-span-2 sm:col-span-1">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 flex items-center space-x-3 col-span-2 sm:col-span-1">
               <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
                 <Flame className="w-5 h-5" />
               </div>
@@ -919,7 +937,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
 
           {/* Cleared Colleges List */}
           <div className="space-y-4">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-3">
               <div className="flex items-center space-x-2">
                 <CheckCircle2 className="w-5 h-5 text-emerald-400" />
                 <h2 className="text-lg font-black text-white">
@@ -952,15 +970,15 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 {clearedList.slice(0, 90).map(entry => (
                   <div
                     key={entry.id}
-                    className="bg-slate-900/90 border border-slate-800 hover:border-slate-700 rounded-2xl p-4.5 shadow-md flex flex-col justify-between transition group hover:shadow-xl hover:shadow-blue-950/20"
+                    className="bg-slate-900/90 border border-slate-800 hover:border-slate-700 rounded-2xl p-6.5 shadow-md flex flex-col justify-between transition group hover:shadow-xl hover:shadow-blue-950/20"
                   >
                     <div className="space-y-3">
                       {/* Top badges */}
-                      <div className="flex items-center justify-between gap-2 flex-wrap">
+                      <div className="flex items-center justify-between gap-4 flex-wrap">
                         <span
                           className={`px-2.5 py-0.5 rounded-full text-[11px] font-black uppercase tracking-wider ${
                             entry.course === 'MBBS'
-                              ? 'bg-blue-600/20 text-blue-400 border border-blue-500/30'
+                              ? 'bg-orange-600/20 text-orange-400 border border-orange-500/30'
                               : 'bg-teal-600/20 text-teal-400 border border-teal-500/30'
                           }`}
                         >
@@ -994,7 +1012,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                             entry.probability === 'HIGH'
                               ? 'bg-emerald-500/10 text-emerald-400'
                               : entry.probability === 'MODERATE'
-                              ? 'bg-blue-500/10 text-cyan-400'
+                              ? 'bg-orange-500/10 text-cyan-400'
                               : 'bg-amber-500/10 text-amber-400'
                           }`}
                         >
@@ -1050,7 +1068,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                         </span>
                       </div>
                       <span className="text-[10px] font-mono text-cyan-400/80 font-semibold">
-                        {entry.counselingType === 'AIQ' ? 'MCC AIQ Round 3' : 'CET Cell Verified'}
+                        {entry.counselingType === 'AIQ' ? 'MCC AIQ (R1/R2)' : 'CET Cell Verified'}
                       </span>
                     </div>
                   </div>
@@ -1066,7 +1084,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
 
           {/* Near Miss Watchlist */}
           <div className="space-y-4 pt-6 border-t border-slate-800">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="flex items-center space-x-2">
                 <Flame className="w-5 h-5 text-amber-400" />
                 <h2 className="text-lg font-black text-white">
@@ -1097,7 +1115,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 {closeList.slice(0, 24).map(entry => (
                   <div
                     key={entry.id}
-                    className="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-4.5 flex flex-col justify-between hover:border-amber-500/40 transition"
+                    className="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6.5 flex flex-col justify-between hover:border-amber-500/40 transition"
                   >
                     <div className="space-y-2.5">
                       <div className="flex items-center justify-between">
@@ -1112,7 +1130,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                         <div className="text-sm font-bold text-slate-200 line-clamp-2">{entry.collegeName}</div>
                       </div>
 
-                      <div className="bg-slate-950/60 rounded-xl p-2.5 text-xs space-y-1 font-mono">
+                      <div className="bg-slate-950/60 rounded-xl p-3.5 text-xs space-y-1 font-mono">
                         <div className="flex justify-between text-slate-400">
                           <span>Quota:</span>
                           <span className="text-slate-200 truncate max-w-[170px]">{entry.quota}</span>
@@ -1129,7 +1147,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     </div>
 
                     <div className="mt-3 pt-2 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
-                      <span>{entry.counselingType === 'AIQ' ? 'MCC AIQ Round 3' : 'State CAP'}</span>
+                      <span>{entry.counselingType === 'AIQ' ? 'MCC AIQ (R1/R2)' : 'State CAP'}</span>
                       <span className="text-[10px] font-mono text-slate-500 font-semibold">{formatYearDisplay(entry.year)}</span>
                     </div>
                   </div>
@@ -1144,7 +1162,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
       {activeTab === 'matrix' && (
         <div className="space-y-6 animate-in fade-in duration-200">
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-4">
               <div className="space-y-1">
                 <div className="flex items-center space-x-2">
                   <Table className="w-5 h-5 text-amber-400" />
@@ -1198,7 +1216,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                         key={idx}
                         className={`transition ${
                           isCandidateRow
-                            ? 'bg-blue-600/15 border-l-4 border-l-cyan-400 font-semibold'
+                            ? 'bg-orange-600/15 border-l-4 border-l-cyan-400 font-semibold'
                             : 'hover:bg-slate-800/40'
                         }`}
                       >
@@ -1242,7 +1260,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
 
             {/* Explanatory Matrix Insights */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
-              <div className="bg-slate-950/70 border border-slate-800 rounded-xl p-4 space-y-1.5">
+              <div className="bg-slate-950/70 border border-slate-800 rounded-xl p-6 space-y-1.5">
                 <div className="text-xs font-bold text-cyan-400 uppercase tracking-wide">
                   1. Govt MBBS Open/OBC Cutoff
                 </div>
@@ -1252,7 +1270,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 </p>
               </div>
 
-              <div className="bg-slate-950/70 border border-slate-800 rounded-xl p-4 space-y-1.5">
+              <div className="bg-slate-950/70 border border-slate-800 rounded-xl p-6 space-y-1.5">
                 <div className="text-xs font-bold text-amber-400 uppercase tracking-wide">
                   2. Govt BDS (Dental) Final Cutoff
                 </div>
@@ -1262,7 +1280,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 </p>
               </div>
 
-              <div className="bg-slate-950/70 border border-slate-800 rounded-xl p-4 space-y-1.5">
+              <div className="bg-slate-950/70 border border-slate-800 rounded-xl p-6 space-y-1.5">
                 <div className="text-xs font-bold text-emerald-400 uppercase tracking-wide">
                   3. Reserved Category Closing Limits
                 </div>
@@ -1281,31 +1299,31 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
         <div className="space-y-6 animate-in fade-in duration-200">
           {/* Category Benchmarks Cards */}
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">OPEN / UR (Govt MBBS)</span>
               <div className="text-xl font-black text-cyan-400 font-mono">AIR 26,178</div>
               <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
             </div>
 
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">OBC (Govt MBBS)</span>
-              <div className="text-xl font-black text-blue-400 font-mono">AIR 26,167</div>
+              <div className="text-xl font-black text-orange-400 font-mono">AIR 26,167</div>
               <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
             </div>
 
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">EWS (Govt MBBS)</span>
               <div className="text-xl font-black text-teal-400 font-mono">AIR 27,243</div>
               <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
             </div>
 
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">SC (Govt MBBS)</span>
               <div className="text-xl font-black text-amber-400 font-mono">AIR 1,35,684</div>
               <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
             </div>
 
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1 col-span-2 sm:col-span-1">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-1 col-span-2 sm:col-span-1">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">ST (Govt MBBS)</span>
               <div className="text-xl font-black text-rose-400 font-mono">AIR 1,63,285</div>
               <div className="text-xs text-slate-400">Closing Cutoff Rank</div>
@@ -1345,7 +1363,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 space-y-3.5 flex flex-col justify-between"
                 >
                   <div className="space-y-2">
-                    <div className="flex items-center justify-between gap-2">
+                    <div className="flex items-center justify-between gap-4">
                       <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-purple-600/20 text-purple-300 border border-purple-500/30">
                         {tier.tier}
                       </span>
@@ -1365,7 +1383,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       {filteredColleges.map((col, cIdx) => (
                         <div
                           key={cIdx}
-                          className="flex items-center justify-between p-2 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs"
+                          className="flex items-center justify-between p-3 rounded-lg bg-slate-950/60 border border-slate-800/80 text-xs"
                         >
                           <span className="font-semibold text-slate-200 line-clamp-1">{col.name}</span>
                           <span className="font-mono font-bold text-emerald-400 shrink-0 ml-2">

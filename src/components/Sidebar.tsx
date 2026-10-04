@@ -21,6 +21,7 @@ export type TabType =
   | 'test-series'
   | 'what-extra'
   | 'about-exam'
+
   | 'support';
 
 interface SidebarProps {
@@ -82,9 +83,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
   return (
     <aside className="w-full lg:w-64 bg-slate-900 border-r border-slate-800 flex flex-col shrink-0 text-white select-none">
       {/* Platform Header in Sidebar */}
-      <div className="p-4 border-b border-slate-800/80 bg-slate-950/40">
+      <div className="p-6 border-b border-slate-800/80 bg-slate-950/40">
         <div className="flex items-center space-x-2">
-          <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center font-black text-xs shadow-xs">
+          <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-orange-600 to-cyan-500 flex items-center justify-center font-black text-xs shadow-xs">
             nc
           </div>
           <div>
@@ -99,7 +100,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       </div>
 
       {/* Main Nav Items */}
-      <div className="p-2 space-y-1 flex-1 overflow-y-auto">
+      <div className="p-3 space-y-1 flex-1 overflow-y-auto">
         {menuItems.map(item => {
           const Icon = item.icon;
           const isActive = activeTab === item.id;
@@ -108,9 +109,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <div key={item.id} className="space-y-1">
               <button
                 onClick={() => onSelectTab(item.id)}
-                className={`w-full text-left p-2.5 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
+                className={`w-full text-left p-3.5 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                   isActive
-                    ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold shadow-md shadow-blue-900/20'
+                    ? 'bg-gradient-to-r from-orange-600 to-indigo-600 text-white font-bold shadow-md shadow-blue-900/20'
                     : 'text-slate-300 hover:bg-slate-800/70 hover:text-white'
                 }`}
               >
@@ -145,7 +146,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
               {/* Collapsible Sub-modules under What Extra We Offer */}
               {item.id === 'what-extra' && isActive && (
-                <div className="pl-4 pr-1 py-1 space-y-0.5 border-l-2 border-blue-500/40 ml-4 animate-in fade-in slide-in-from-top-1 duration-150">
+                <div className="pl-4 pr-1 py-1 space-y-0.5 border-l-2 border-orange-500/40 ml-4 animate-in fade-in slide-in-from-top-1 duration-150">
                   {extraSubModules.map(sub => {
                     const SubIcon = sub.icon;
                     const isSubActive = extraSubTab === sub.id;
@@ -176,7 +177,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
       {/* Verified Banner in Bottom Sidebar */}
       <div className="p-3 bg-slate-950/60 border-t border-slate-800/80">
-        <div className="p-2.5 rounded-xl bg-gradient-to-br from-blue-900/40 to-slate-900 border border-blue-800/40 space-y-1">
+        <div className="p-3.5 rounded-xl bg-gradient-to-br from-orange-900/40 to-slate-900 border border-orange-800/40 space-y-1">
           <div className="flex items-center space-x-1.5 text-xs font-bold text-cyan-300">
             <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />
             <span>NeetCbt Verified</span>

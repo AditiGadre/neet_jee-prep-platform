@@ -50,6 +50,7 @@ import { getUniqueDiagramForQuestion } from '../utils/diagramEngine';
 import { ErrorBoundary } from './ErrorBoundary';
 import { DetailedSolutionViewer } from './DetailedSolutionViewer';
 import { resolveQuestionSubtopic, normalizeChapterForDisplay } from '../utils/subtopicResolver';
+import { CollegePredictorSection } from './CollegePredictorSection';
 import { NeetCollegePredictor } from './NeetCollegePredictor';
 
 interface CBTTestModalProps {
@@ -272,7 +273,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
       if (!subjectsMap.has(subName)) {
         let icon = ZapIcon;
-        let activeClass = 'bg-blue-600 text-white shadow-xs';
+        let activeClass = 'bg-orange-600 text-white shadow-xs';
         if (subName === 'Chemistry') {
           icon = AtomIcon;
           activeClass = 'bg-emerald-600 text-white shadow-xs';
@@ -323,17 +324,34 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     }
   };
 
-  // NEET AIR Calculation on 720-Marks Standard Scale
+  // NEET AIR Calculation on 720-Marks Standard Scale (Calibrated to NEET 2026 All India & State Cutoffs)
   const calculateNEETAIR = (score: number): number => {
-    if (score >= 715) return Math.max(1, Math.round(1 + (720 - score) * 12));
-    if (score >= 700) return Math.max(65, Math.round(65 + (715 - score) * 22));
-    if (score >= 670) return Math.max(400, Math.round(400 + (700 - score) * 45));
-    if (score >= 640) return Math.max(1700, Math.round(1700 + (670 - score) * 140));
-    if (score >= 600) return Math.max(5900, Math.round(5900 + (640 - score) * 320));
-    if (score >= 550) return Math.max(18500, Math.round(18500 + (600 - score) * 480));
-    if (score >= 500) return Math.max(42000, Math.round(42000 + (550 - score) * 850));
-    if (score >= 400) return Math.max(85000, Math.round(85000 + (500 - score) * 1100));
-    return Math.max(200000, Math.round(200000 + Math.max(0, 400 - score) * 1700));
+    if (score >= 720) return 1;
+    if (score >= 715) return Math.round(1 + (720 - score) * 15.8);
+    if (score >= 710) return Math.round(80 + (715 - score) * 54);
+    if (score >= 705) return Math.round(350 + (710 - score) * 110);
+    if (score >= 700) return Math.round(900 + (705 - score) * 180);
+    if (score >= 690) return Math.round(1800 + (700 - score) * 270);
+    if (score >= 680) return Math.round(4500 + (690 - score) * 400);
+    if (score >= 670) return Math.round(8500 + (680 - score) * 550);
+    if (score >= 665) return Math.round(14000 + (670 - score) * 900);
+    if (score >= 655) return Math.round(18500 + (665 - score) * 767.8);
+    if (score >= 645) return Math.round(26178 + (655 - score) * 882.2);
+    if (score >= 635) return Math.round(35000 + (645 - score) * 900);
+    if (score >= 630) return Math.round(44000 + (635 - score) * 1092.4);
+    if (score >= 620) return Math.round(49462 + (630 - score) * 1253.8);
+    if (score >= 610) return Math.round(62000 + (620 - score) * 1500);
+    if (score >= 600) return Math.round(77000 + (610 - score) * 1800);
+    if (score >= 585) return Math.round(95000 + (600 - score) * 1666.7);
+    if (score >= 575) return Math.round(120000 + (585 - score) * 1568.4);
+    if (score >= 552) return Math.round(135684 + (575 - score) * 1200);
+    if (score >= 500) return Math.round(163285 + (552 - score) * 2533);
+    if (score >= 450) return Math.round(295000 + (500 - score) * 3100);
+    if (score >= 400) return Math.round(450000 + (450 - score) * 3200);
+    if (score >= 350) return Math.round(610000 + (400 - score) * 3000);
+    if (score >= 300) return Math.round(760000 + (350 - score) * 3800);
+    if (score >= 200) return Math.round(950000 + (300 - score) * 3500);
+    return Math.round(1300000 + Math.max(0, 200 - score) * 4000);
   };
 
   const handleSubmitTest = () => {
@@ -543,7 +561,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
       return 'bg-red-500 text-white font-bold';
     }
     return isCur
-      ? 'bg-blue-100 text-blue-800 border border-blue-400 font-bold'
+      ? 'bg-orange-100 text-orange-800 border border-orange-400 font-bold'
       : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200';
   };
 
@@ -584,7 +602,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   key={pIdx}
                   className={`p-3 rounded-xl border text-xs sm:text-sm font-medium leading-relaxed ${
                     isAss
-                      ? 'bg-blue-50/80 border-blue-200 text-blue-950 font-semibold'
+                      ? 'bg-orange-50/80 border-orange-200 text-orange-950 font-semibold'
                       : isReas
                       ? 'bg-amber-50/80 border-amber-200 text-amber-950 font-semibold'
                       : 'bg-indigo-50/80 border-indigo-200 text-indigo-950 font-semibold'
@@ -620,6 +638,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
         chapter={chapter}
         topic={topic}
         questionText={questionText}
+        solutionImage={typeof q === 'object' ? q.solutionImage : undefined}
       />
     );
   };
@@ -739,7 +758,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
         <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-4">
             <div>
-              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-800 text-xs font-extrabold uppercase tracking-wider">
+              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-orange-50 border border-orange-200 text-orange-800 text-xs font-extrabold uppercase tracking-wider">
                 <span>Custom Practice Test</span>
                 <span>&bull;</span>
                 <span>Self-Paced Performance Review</span>
@@ -761,7 +780,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
           {/* Top Score Cards */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-200 text-center">
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-200 text-center">
               <span className="text-[10px] font-bold text-slate-500 uppercase">Score Obtained</span>
               <div className="text-2xl font-black text-emerald-700 font-mono mt-0.5">
                 {result.score} <span className="text-xs text-slate-400 font-normal">/ {result.totalMarks}</span>
@@ -771,17 +790,17 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               </span>
             </div>
 
-            <div className="p-4 rounded-2xl bg-blue-50 border border-blue-200 text-center">
+            <div className="p-6 rounded-2xl bg-orange-50 border border-orange-200 text-center">
               <span className="text-[10px] font-bold text-slate-500 uppercase">Accuracy</span>
-              <div className="text-2xl font-black text-blue-700 font-mono mt-0.5">
+              <div className="text-2xl font-black text-orange-700 font-mono mt-0.5">
                 {result.accuracyPercentage}%
               </div>
-              <span className="text-[11px] text-blue-600 font-medium">
+              <span className="text-[11px] text-orange-600 font-medium">
                 {result.correctAnswers} of {attemptedQ} correct
               </span>
             </div>
 
-            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-center">
+            <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 text-center">
               <span className="text-[10px] font-bold text-slate-500 uppercase">Attempt Rate</span>
               <div className="text-2xl font-black text-slate-800 font-mono mt-0.5">
                 {attemptedQ} <span className="text-xs text-slate-400 font-normal">/ {totalQ}</span>
@@ -791,7 +810,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               </span>
             </div>
 
-            <div className="p-4 rounded-2xl bg-purple-50 border border-purple-200 text-center">
+            <div className="p-6 rounded-2xl bg-purple-50 border border-purple-200 text-center">
               <span className="text-[10px] font-bold text-slate-500 uppercase">Time Spent</span>
               <div className="text-2xl font-black text-purple-800 font-mono mt-0.5">
                 {formatTimer(result.timeSpentSeconds)}
@@ -803,7 +822,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
           </div>
 
           {/* Outcome Breakdown Visual Bar */}
-          <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+          <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
             <div className="flex items-center justify-between text-xs font-bold text-slate-800">
               <span>Question Attempt Breakdown</span>
               <span className="font-mono text-slate-500">{totalQ} Questions</span>
@@ -827,16 +846,16 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               />
             </div>
 
-            <div className="grid grid-cols-3 gap-2 text-center text-xs pt-1">
-              <div className="p-2.5 rounded-xl bg-emerald-50 border border-emerald-200">
+            <div className="grid grid-cols-3 gap-4 text-center text-xs pt-1">
+              <div className="p-3.5 rounded-xl bg-emerald-50 border border-emerald-200">
                 <span className="text-emerald-800 font-black text-base font-mono block">+{result.correctAnswers * 4} Marks</span>
                 <span className="text-[11px] text-emerald-700 font-bold">✓ {result.correctAnswers} Correct</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-rose-50 border border-rose-200">
+              <div className="p-3.5 rounded-xl bg-rose-50 border border-rose-200">
                 <span className="text-rose-700 font-black text-base font-mono block">-{result.wrongAnswers * 1} Marks</span>
                 <span className="text-[11px] text-rose-600 font-bold">✗ {result.wrongAnswers} Incorrect</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-slate-100 border border-slate-200">
+              <div className="p-3.5 rounded-xl bg-slate-100 border border-slate-200">
                 <span className="text-slate-600 font-black text-base font-mono block">0 Marks</span>
                 <span className="text-[11px] text-slate-500 font-bold">— {result.unattempted} Left</span>
               </div>
@@ -848,8 +867,8 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
         <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
           <div className="border-b border-slate-100 pb-2 flex items-center justify-between">
             <div>
-              <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
-                <Activity className="w-5 h-5 text-blue-600" />
+              <h3 className="text-base font-bold text-slate-900 flex items-center gap-4">
+                <Activity className="w-5 h-5 text-orange-600" />
                 <span>Subject & Domain Performance</span>
               </h3>
               <p className="text-xs text-slate-500">
@@ -858,7 +877,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
             </div>
             <button
               onClick={() => setActiveSolutionTab('solutions')}
-              className="px-3.5 py-1.5 rounded-xl bg-blue-50 text-blue-700 hover:bg-blue-100 text-xs font-bold border border-blue-200 transition cursor-pointer flex items-center gap-1"
+              className="px-3.5 py-1.5 rounded-xl bg-orange-50 text-orange-700 hover:bg-orange-100 text-xs font-bold border border-orange-200 transition cursor-pointer flex items-center gap-1"
             >
               <span>View Solutions</span> &rarr;
             </button>
@@ -886,7 +905,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       <td className="p-3 text-center text-emerald-700 font-bold">{sub.correct}</td>
                       <td className="p-3 text-center text-rose-600 font-bold">{sub.wrong}</td>
                       <td className="p-3 text-center text-slate-400">{sub.unattempted}</td>
-                      <td className="p-3 text-center font-bold text-blue-700">{sub.score} / {sub.maxMarks}</td>
+                      <td className="p-3 text-center font-bold text-orange-700">{sub.score} / {sub.maxMarks}</td>
                       <td className="p-3 text-center font-bold text-slate-800">{acc}%</td>
                     </tr>
                   );
@@ -899,7 +918,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
           {result.chapterAnalytics && result.chapterAnalytics.length > 0 && (
             <div className="pt-3 border-t border-slate-100 space-y-2">
               <h4 className="text-xs font-bold text-slate-700 uppercase tracking-wider">Chapter-Wise Performance:</h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4.5">
                 {result.chapterAnalytics.map((ch, idx) => (
                   <div key={idx} className="p-3 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-between text-xs">
                     <div className="space-y-0.5 truncate pr-2">
@@ -922,14 +941,14 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
         </div>
 
         {/* Quick Review CTA */}
-        <div className="p-5 rounded-3xl bg-gradient-to-r from-blue-600 to-indigo-700 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-md">
+        <div className="p-5 rounded-3xl bg-gradient-to-r from-orange-600 to-indigo-700 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-md">
           <div className="space-y-1">
             <h4 className="font-bold text-sm sm:text-base">Review Step-by-Step Question Solutions</h4>
-            <p className="text-xs text-blue-100">Examine verified solutions, key formulas, and rationale for all {questions.length} questions.</p>
+            <p className="text-xs text-orange-100">Examine verified solutions, key formulas, and rationale for all {questions.length} questions.</p>
           </div>
           <button
             onClick={() => setActiveSolutionTab('solutions')}
-            className="px-5 py-2.5 rounded-xl bg-white text-blue-700 hover:bg-blue-50 font-bold text-xs transition cursor-pointer shadow-xs shrink-0"
+            className="px-5 py-2.5 rounded-xl bg-white text-orange-700 hover:bg-orange-50 font-bold text-xs transition cursor-pointer shadow-xs shrink-0"
           >
             Review Solutions &rarr;
           </button>
@@ -942,7 +961,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
   // Sunday tests can NEVER be unlocked individually except on Sundays AND after admin approval
   if (isSundayTest && !isSundayTestUnlockedByAdmin && !isSubmitted) {
     return (
-      <div className="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md flex items-center justify-center p-4 text-slate-900 animate-in fade-in duration-200">
+      <div className="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md flex items-center justify-center p-6 text-slate-900 animate-in fade-in duration-200">
         <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-md w-full p-6 text-center space-y-5 animate-in zoom-in-95 duration-200">
           <div className="w-16 h-16 rounded-2xl bg-amber-50 border border-amber-200 text-amber-600 flex items-center justify-center mx-auto shadow-xs">
             <Lock className="w-8 h-8" />
@@ -967,7 +986,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
           <div className="pt-2">
             <button
               onClick={onClose}
-              className="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
+              className="w-full py-2.5 px-4 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
             >
               Return to Platform Dashboard
             </button>
@@ -981,7 +1000,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     <div className="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md flex flex-col overflow-hidden text-slate-900">
       <div className="w-full h-full bg-slate-50 flex flex-col overflow-hidden">
         {/* Top Navbar */}
-        <div className="px-4 sm:px-6 py-2.5 bg-gradient-to-r from-blue-700 via-indigo-700 to-cyan-700 text-white flex items-center justify-between shadow-md shrink-0">
+        <div className="px-4 sm:px-6 py-2.5 bg-gradient-to-r from-orange-700 via-indigo-700 to-cyan-700 text-white flex items-center justify-between shadow-md shrink-0">
           <div className="flex items-center space-x-3">
             <div className="w-8 h-8 rounded-xl bg-white/20 backdrop-blur-md flex items-center justify-center font-black text-sm border border-white/30">
               nc
@@ -995,7 +1014,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   {isSundayTest ? 'Sunday 180-Question Mock (720M)' : activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Custom Test (${maxTotalMarks}M)` : `CBT Practice (${maxTotalMarks}M)`}
                 </span>
               </div>
-              <p className="text-[11px] text-blue-100 font-mono truncate max-w-xs sm:max-w-md">
+              <p className="text-[11px] text-orange-100 font-mono truncate max-w-xs sm:max-w-md">
                 {test.title} &bull; +4 for Correct, -1 for Incorrect (Total {maxTotalMarks} Marks)
               </p>
             </div>
@@ -1029,11 +1048,11 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
         {!isSubmitted ? (
           <div className="flex-1 grid grid-cols-1 lg:grid-cols-4 overflow-hidden">
             {/* Question Workspace */}
-            <div className="lg:col-span-3 p-4 sm:p-6 flex flex-col justify-between overflow-y-auto border-b lg:border-b-0 lg:border-r border-slate-200 bg-white">
+            <div className="lg:col-span-3 p-6 sm:p-6 flex flex-col justify-between overflow-y-auto border-b lg:border-b-0 lg:border-r border-slate-200 bg-white">
               {currentQ && (
                 <div className="space-y-4">
                   {/* Subject Switcher Header Tabs */}
-                  <div className="flex flex-wrap items-center justify-between pb-3 border-b border-slate-100 gap-2">
+                  <div className="flex flex-wrap items-center justify-between pb-3 border-b border-slate-100 gap-4">
                     <div className="flex flex-wrap items-center gap-1.5">
                       {activeTestSubjects.map((subItem) => {
                         const IconComponent = subItem.icon;
@@ -1055,7 +1074,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       })}
                     </div>
 
-                    <div className="text-xs font-mono font-bold text-blue-700 bg-blue-50 border border-blue-200 px-2.5 py-1 rounded-lg">
+                    <div className="text-xs font-mono font-bold text-orange-700 bg-orange-50 border border-orange-200 px-2.5 py-1 rounded-lg">
                       Question {currentQuestionIdx + 1} of {questions.length}
                     </div>
                   </div>
@@ -1076,13 +1095,13 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   </div>
 
                   {/* Aspirational Stats & Speed Badge */}
-                  <div className="flex flex-wrap items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-4">
                     <span className="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-bold flex items-center gap-1 font-mono">
                       <TargetIcon className="w-3 h-3 text-emerald-600" />
                       <span>78% Aspirants Solved Correctly</span>
                     </span>
-                    <span className="px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-800 border border-blue-200 text-[10px] font-bold flex items-center gap-1 font-mono">
-                      <ClockIcon className="w-3 h-3 text-blue-600" />
+                    <span className="px-2.5 py-0.5 rounded-full bg-orange-50 text-orange-800 border border-orange-200 text-[10px] font-bold flex items-center gap-1 font-mono">
+                      <ClockIcon className="w-3 h-3 text-orange-600" />
                       <span>NTA Target Time: 45s</span>
                     </span>
                     <span className="px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-bold flex items-center gap-1 font-mono">
@@ -1092,23 +1111,23 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   </div>
 
                   {/* Question Text */}
-                  <div className="text-sm sm:text-base font-semibold text-slate-900 leading-relaxed p-4 rounded-2xl bg-slate-50/70 border border-slate-200/80 shadow-2xs">
+                  <div className="text-sm sm:text-base font-semibold text-slate-900 leading-relaxed p-6 rounded-2xl bg-slate-50/70 border border-slate-200/80 shadow-2xs">
                     {renderFormattedQuestionText(currentQ.questionText || (currentQ as any).question || '')}
                   </div>
 
                   {/* Visual / Authentic Image or SVG Diagram in Question */}
                   {currentQ.image ? (
-                    <div className="my-3 p-2 bg-white border border-slate-200 rounded-2xl flex justify-center items-center shadow-xs">
+                    <div className="my-3 p-3 bg-white border border-slate-200 rounded-2xl flex justify-center items-center shadow-xs">
                       <img src={currentQ.image} alt="Question Diagram" className="max-h-72 rounded-xl object-contain" />
                     </div>
                   ) : currentQ.diagramSvg ? (
                     <div
-                      className="my-3 p-4 bg-white border border-slate-200 rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
+                      className="my-3 p-6 bg-white border border-slate-200 rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
                       dangerouslySetInnerHTML={{ __html: currentQ.diagramSvg }}
                     />
                   ) : questionDiagramMap.get(currentQuestionIdx) ? (
                     <div
-                      className="my-3 p-4 bg-white border border-slate-200 rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
+                      className="my-3 p-6 bg-white border border-slate-200 rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
                       dangerouslySetInnerHTML={{ __html: questionDiagramMap.get(currentQuestionIdx) || '' }}
                     />
                   ) : null}
@@ -1121,16 +1140,16 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         <div
                           key={optIdx}
                           onClick={() => handleSelectOption(optIdx)}
-                          className={`p-4 rounded-2xl border-2 cursor-pointer flex items-center space-x-3.5 transition-all duration-150 ${
+                          className={`p-6 rounded-2xl border-2 cursor-pointer flex items-center space-x-3.5 transition-all duration-150 ${
                             isSelected
-                              ? 'bg-blue-50/80 border-blue-600 text-blue-950 font-semibold shadow-md ring-2 ring-blue-400/30'
+                              ? 'bg-orange-50/80 border-orange-600 text-orange-950 font-semibold shadow-md ring-2 ring-orange-400/30'
                               : 'bg-white border-slate-200/80 text-slate-700 hover:bg-slate-50 hover:border-slate-300'
                           }`}
                         >
                           <div
                             className={`w-7 h-7 rounded-xl flex items-center justify-center text-xs font-extrabold shrink-0 transition ${
                               isSelected
-                                ? 'bg-gradient-to-tr from-blue-600 to-indigo-600 text-white shadow-xs'
+                                ? 'bg-gradient-to-tr from-orange-600 to-indigo-600 text-white shadow-xs'
                                 : 'bg-slate-100 text-slate-600 border border-slate-300'
                             }`}
                           >
@@ -1138,7 +1157,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           </div>
                           <span className="text-xs sm:text-sm flex-1 leading-relaxed">{formatMathAndFormulas(cleanOcrText(option))}</span>
                           {isSelected && (
-                            <CheckIcon className="w-5 h-5 text-blue-600 shrink-0 stroke-[3]" />
+                            <CheckIcon className="w-5 h-5 text-orange-600 shrink-0 stroke-[3]" />
                           )}
                         </div>
                       );
@@ -1148,7 +1167,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               )}
 
               {/* Bottom Test Controls */}
-              <div className="pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 mt-6">
+              <div className="pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-4 mt-6">
                 <div className="flex items-center space-x-2">
                   <button
                     onClick={handleToggleMarkReview}
@@ -1184,7 +1203,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   {currentQuestionIdx < questions.length - 1 ? (
                     <button
                       onClick={handleSaveAndNext}
-                      className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition cursor-pointer"
+                      className="px-4 py-2 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-semibold shadow-xs transition cursor-pointer"
                     >
                       Save & Next &rarr;
                     </button>
@@ -1201,7 +1220,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
             </div>
 
             {/* Question Palette Sidebar */}
-            <div className="p-4 bg-slate-50 flex flex-col justify-between space-y-4 overflow-y-auto">
+            <div className="p-6 bg-slate-50 flex flex-col justify-between space-y-4 overflow-y-auto">
               <div>
                 <div className="flex items-center justify-between pb-2 border-b border-slate-200">
                   <h3 className="text-xs font-bold text-slate-800 uppercase tracking-wider">
@@ -1262,15 +1281,15 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
             fallbackMessage="Your score has been safely calculated and saved. Click below to refresh the scorecard view or review your test solutions."
           >
             {testResult && (
-            <div className="p-4 sm:p-6 space-y-6 overflow-y-auto flex-1 bg-slate-100/90 text-slate-900">
+            <div className="p-6 sm:p-6 space-y-6 overflow-y-auto flex-1 bg-slate-100/90 text-slate-900">
               {/* Header Navigation Tabs */}
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-200 bg-white p-4 rounded-2xl shadow-xs">
-                <div className="flex flex-wrap items-center gap-2">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-200 bg-white p-6 rounded-2xl shadow-xs">
+                <div className="flex flex-wrap items-center gap-4">
                   <button
                     onClick={() => setActiveSolutionTab('scorecard')}
                     className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
                       activeSolutionTab === 'scorecard'
-                        ? 'bg-blue-600 text-white shadow-xs'
+                        ? 'bg-orange-600 text-white shadow-xs'
                         : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                     }`}
                   >
@@ -1282,7 +1301,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     onClick={() => setActiveSolutionTab('solutions')}
                     className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
                       activeSolutionTab === 'solutions'
-                        ? 'bg-blue-600 text-white shadow-xs'
+                        ? 'bg-orange-600 text-white shadow-xs'
                         : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                     }`}
                   >
@@ -1291,7 +1310,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   </button>
                 </div>
 
-                <div className="flex items-center flex-wrap gap-2">
+                <div className="flex items-center flex-wrap gap-4">
                   <button
                     onClick={() => downloadTestScorecardPDF({ ...testResult, questions })}
                     className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-xs font-bold text-white flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
@@ -1314,7 +1333,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       };
                       downloadTestPaperPDF(paperItem, false);
                     }}
-                    className="px-3 py-2 rounded-xl bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
+                    className="px-3 py-2 rounded-xl bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
                   >
                     <Download className="w-3.5 h-3.5" />
                     <span>Test Paper (PDF)</span>
@@ -1359,7 +1378,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-5">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 pb-5">
                       <div className="space-y-1">
-                        <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-800 text-xs font-extrabold uppercase tracking-wider">
+                        <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-orange-50 border border-orange-200 text-orange-800 text-xs font-extrabold uppercase tracking-wider">
                           <span>Institutional Diagnostic Report</span>
                           <span>&bull;</span>
                           <span>NEET (UG) 720 Marks Model</span>
@@ -1380,7 +1399,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     </div>
 
                     {/* Candidate Info Grid */}
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-slate-50 p-4 rounded-2xl border border-slate-200 text-xs">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-slate-50 p-6 rounded-2xl border border-slate-200 text-xs">
                       <div>
                         <span className="text-slate-400 block uppercase font-bold text-[10px]">Candidate Name</span>
                         <strong className="text-slate-900 text-sm">{studentName}</strong>
@@ -1401,7 +1420,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                     {/* Executive Top-Level KPI Summary */}
                     <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
-                      <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-200 text-center">
+                      <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Current Score</span>
                         <div className="text-2xl font-black text-emerald-700 font-mono mt-0.5">
                           {testResult.score} <span className="text-xs text-slate-400 font-normal">/ {testResult.totalMarks || 720}</span>
@@ -1411,7 +1430,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         </span>
                       </div>
 
-                      <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-center">
+                      <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Attempted</span>
                         <div className="text-2xl font-black text-slate-800 font-mono mt-0.5">
                           {testResult.correctAnswers + testResult.wrongAnswers} <span className="text-xs text-slate-400 font-normal">/ {testResult.totalMarks ? Math.round(testResult.totalMarks / 4) : 180}</span>
@@ -1421,17 +1440,17 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         </span>
                       </div>
 
-                      <div className="p-4 rounded-2xl bg-blue-50 border border-blue-200 text-center">
+                      <div className="p-6 rounded-2xl bg-orange-50 border border-orange-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Accuracy Rate</span>
-                        <div className="text-2xl font-black font-mono mt-0.5 text-blue-700">
+                        <div className="text-2xl font-black font-mono mt-0.5 text-orange-700">
                           {testResult.accuracyPercentage}%
                         </div>
-                        <span className="text-[11px] text-blue-700 font-bold">
+                        <span className="text-[11px] text-orange-700 font-bold">
                           +{testResult.correctAnswers} Correct • -{testResult.wrongAnswers} Wrong
                         </span>
                       </div>
 
-                      <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-center">
+                      <div className="p-6 rounded-2xl bg-amber-50 border border-amber-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Batch Rank</span>
                         <div className="text-2xl font-black text-amber-800 font-mono mt-0.5">
                           {testResult.batchRank?.rank && testResult.batchRank.rank > 0
@@ -1448,7 +1467,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         </span>
                       </div>
 
-                      <div className="p-4 rounded-2xl bg-indigo-50 border border-indigo-200 text-center">
+                      <div className="p-6 rounded-2xl bg-indigo-50 border border-indigo-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">City Rank</span>
                         <div className="text-2xl font-black text-indigo-800 font-mono mt-0.5">
                           {testResult.cityRank?.rank && testResult.cityRank.rank > 0
@@ -1463,7 +1482,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         </span>
                       </div>
 
-                      <div className="p-4 rounded-2xl bg-purple-50 border border-purple-200 text-center">
+                      <div className="p-6 rounded-2xl bg-purple-50 border border-purple-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Simulated AIR</span>
                         <div className="text-2xl font-black text-purple-800 font-mono mt-0.5">
                           {testResult.score > 0 && (testResult.predictedAIR || 0) > 0
@@ -1480,8 +1499,8 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   {/* SECTION 1 */}
                   <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
                     <div className="border-b border-slate-100 pb-3">
-                      <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2">
-                        <Activity className="w-5 h-5 text-blue-600" />
+                      <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-4">
+                        <Activity className="w-5 h-5 text-orange-600" />
                         <span>SECTION 1: Subject-Wise Performance Breakdown</span>
                       </h3>
                       <p className="text-xs text-slate-500">
@@ -1524,14 +1543,14 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                               badgeClass = 'bg-amber-100 text-amber-800 border-amber-300';
                             } else if (sub.score >= 165) {
                               statusBadge = 'Exceptional (>90%)';
-                              badgeClass = 'bg-blue-100 text-blue-800 border-blue-300 font-bold';
+                              badgeClass = 'bg-orange-100 text-orange-800 border-orange-300 font-bold';
                             }
 
                             return (
                               <tr key={sIdx} className="hover:bg-slate-50 transition">
                                 <td className="p-3.5 font-bold font-sans text-slate-900 flex items-center space-x-2">
                                   <span className={`w-2.5 h-2.5 rounded-full ${
-                                    sub.subject === 'Physics' ? 'bg-blue-600' :
+                                    sub.subject === 'Physics' ? 'bg-orange-600' :
                                     sub.subject === 'Chemistry' ? 'bg-emerald-600' :
                                     sub.subject === 'Botany' ? 'bg-purple-600' : 'bg-amber-600'
                                   }`} />
@@ -1554,25 +1573,25 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                             );
                           })}
 
-                          <tr className="bg-blue-50/70 border-t-2 border-blue-400 font-bold">
-                            <td className="p-3.5 font-sans text-blue-950 font-black text-sm">Overall Total</td>
-                            <td className="p-3.5 text-center text-blue-900 font-black">
+                          <tr className="bg-orange-50/70 border-t-2 border-orange-400 font-bold">
+                            <td className="p-3.5 font-sans text-orange-950 font-black text-sm">Overall Total</td>
+                            <td className="p-3.5 text-center text-orange-900 font-black">
                               {testResult.subjectBreakdown.reduce((sum, s) => sum + (s.correct || 0) + (s.wrong || 0) + (s.unattempted || 0), 0) || (testResult.totalMarks ? Math.round(testResult.totalMarks / 4) : 180)}
                             </td>
-                            <td className="p-3.5 text-center text-blue-900 font-black">
+                            <td className="p-3.5 text-center text-orange-900 font-black">
                               {testResult.correctAnswers + testResult.wrongAnswers}
                             </td>
                             <td className="p-3.5 text-center text-emerald-700 font-black">+{testResult.correctAnswers}</td>
                             <td className="p-3.5 text-center text-rose-600 font-black">-{testResult.wrongAnswers}</td>
                             <td className="p-3.5 text-center text-slate-600 font-black">{testResult.unattempted}</td>
-                            <td className="p-3.5 text-center text-blue-900 font-black">{testResult.totalMarks || 720}</td>
+                            <td className="p-3.5 text-center text-orange-900 font-black">{testResult.totalMarks || 720}</td>
                             <td className="p-3.5 text-center text-emerald-800 font-black text-sm">{testResult.score}</td>
-                            <td className="p-3.5 text-center text-blue-900 font-black">{testResult.accuracyPercentage}%</td>
+                            <td className="p-3.5 text-center text-orange-900 font-black">{testResult.accuracyPercentage}%</td>
                             <td className="p-3.5 text-center font-sans">
                               <span className={`px-3 py-1 rounded-full text-xs font-bold shadow-xs ${
                                 testResult.score <= 0 ? 'bg-rose-600 text-white' :
                                 testResult.score >= 600 ? 'bg-emerald-600 text-white' :
-                                testResult.score >= 500 ? 'bg-blue-600 text-white' : 'bg-amber-600 text-white'
+                                testResult.score >= 500 ? 'bg-orange-600 text-white' : 'bg-amber-600 text-white'
                               }`}>
                                 {testResult.score <= 0 ? '0 Marks / Remedial Required' :
                                  testResult.score >= 650 ? 'Top Tier GMC Safe Zone' :
@@ -1584,9 +1603,9 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       </table>
                     </div>
 
-                    <div className="p-4 rounded-2xl bg-blue-50/50 border border-blue-200 text-xs text-slate-700 leading-relaxed space-y-1">
-                      <strong className="text-blue-900 font-bold block flex items-center gap-1.5">
-                        <SparkleIcon className="w-4 h-4 text-blue-600" />
+                    <div className="p-6 rounded-2xl bg-orange-50/50 border border-orange-200 text-xs text-slate-700 leading-relaxed space-y-1">
+                      <strong className="text-orange-900 font-bold block flex items-center gap-1.5">
+                        <SparkleIcon className="w-4 h-4 text-orange-600" />
                         Academic Interpretation & Performance Assessment:
                       </strong>
                       <p>
@@ -1615,7 +1634,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         </span>
                       </div>
 
-                      <div className="w-full bg-slate-50 p-4 rounded-2xl border border-slate-200 flex flex-col items-center justify-center">
+                      <div className="w-full bg-slate-50 p-6 rounded-2xl border border-slate-200 flex flex-col items-center justify-center">
                         <svg viewBox="0 0 420 180" className="w-full h-44" xmlns="http://www.w3.org/2000/svg">
                           <line x1="30" y1="20" x2="390" y2="20" stroke="#e2e8f0" strokeWidth="1" strokeDasharray="3,3" />
                           <text x="15" y="24" fontSize="9" fill="#94a3b8" fontFamily="monospace">180</text>
@@ -1660,7 +1679,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       <div className="flex items-center justify-between border-b border-slate-100 pb-2">
                         <div>
                           <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-1.5">
-                            <BarIcon className="w-4 h-4 text-blue-600" />
+                            <BarIcon className="w-4 h-4 text-orange-600" />
                             <span>Subject Accuracy & Attempt Distribution</span>
                           </h4>
                           <p className="text-[11px] text-slate-500">Correct, incorrect, and unattempted counts</p>
@@ -1672,7 +1691,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           const attempted = (sub.correct || 0) + (sub.wrong || 0);
                           const totalQs = attempted + (sub.unattempted || 0);
                           const acc = attempted > 0 ? Math.round(((sub.correct || 0) / attempted) * 100) : 0;
-                          const colorClass = sub.subject === 'Physics' ? 'bg-blue-600' :
+                          const colorClass = sub.subject === 'Physics' ? 'bg-orange-600' :
                                             sub.subject === 'Chemistry' ? 'bg-emerald-600' :
                                             sub.subject === 'Botany' ? 'bg-purple-600' : 'bg-amber-600';
 
@@ -1683,7 +1702,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                   <span className={`w-2.5 h-2.5 rounded-full ${colorClass}`} />
                                   {sub.subject}
                                 </span>
-                                <div className="flex items-center gap-2 text-xs font-mono">
+                                <div className="flex items-center gap-4 text-xs font-mono">
                                   <span className="text-emerald-700 font-bold">+{sub.correct || 0}C</span>
                                   <span className="text-rose-600 font-bold">-{sub.wrong || 0}W</span>
                                   <span className="text-slate-400 font-medium">{sub.unattempted || 0}U</span>
@@ -1707,7 +1726,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   {/* SECTION 3 */}
                   <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
                     <div className="border-b border-slate-100 pb-2">
-                      <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2">
+                      <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-4">
                         <Percent className="w-5 h-5 text-indigo-600" />
                         <span>SECTION 3: Subject Performance Trend & Marks Contribution (25% Weightage Each)</span>
                       </h3>
@@ -1724,10 +1743,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         const pctOfSub = (((score / (subMax || 1))) * 100).toFixed(1);
 
                         return (
-                          <div key={i} className="p-4 rounded-2xl border border-slate-200 bg-slate-50 space-y-3">
+                          <div key={i} className="p-6 rounded-2xl border border-slate-200 bg-slate-50 space-y-3">
                             <div className="flex items-center justify-between">
                               <span className="font-extrabold text-sm text-slate-900">{sub.subject}</span>
-                              <span className="text-xs font-mono font-bold text-blue-700 bg-blue-100/70 px-2 py-0.5 rounded-lg">
+                              <span className="text-xs font-mono font-bold text-orange-700 bg-orange-100/70 px-2 py-0.5 rounded-lg">
                                 {score} / {subMax}
                               </span>
                             </div>
@@ -1740,7 +1759,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                               <div className="w-full bg-slate-200 h-2.5 rounded-full overflow-hidden">
                                 <div
                                   className={`h-full rounded-full ${
-                                    i === 0 ? 'bg-blue-600' :
+                                    i === 0 ? 'bg-orange-600' :
                                     i === 1 ? 'bg-emerald-600' :
                                     i === 2 ? 'bg-purple-600' : 'bg-amber-600'
                                   }`}
@@ -1773,7 +1792,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   {/* SECTION 4 & 5 */}
                   <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-5">
                     <div className="border-b border-slate-100 pb-2">
-                      <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2">
+                      <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-4">
                         <FileIcon className="w-5 h-5 text-purple-600" />
                         <span>SECTION 4: Exam-by-Exam Statistical Record & History</span>
                       </h3>
@@ -1803,12 +1822,12 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           {longitudinalExamHistory.map((row, rIdx) => (
                             <tr
                               key={rIdx}
-                              className={row.isCurrent ? 'bg-blue-50/80 font-bold border-t-2 border-blue-400' : 'hover:bg-slate-50'}
+                              className={row.isCurrent ? 'bg-orange-50/80 font-bold border-t-2 border-orange-400' : 'hover:bg-slate-50'}
                             >
                               <td className="p-3 font-sans font-bold text-slate-900 flex items-center gap-1.5">
                                 <span>{row.code}</span>
                                 {row.isCurrent && (
-                                  <span className="text-[9px] font-extrabold uppercase px-1.5 py-0.2 rounded bg-blue-600 text-white">Current</span>
+                                  <span className="text-[9px] font-extrabold uppercase px-1.5 py-0.2 rounded bg-orange-600 text-white">Current</span>
                                 )}
                               </td>
                               <td className="p-3 text-slate-500">{row.date}</td>
@@ -1820,7 +1839,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                               <td className="p-3 text-center text-amber-800 font-bold">{row.rank}</td>
                               <td className="p-3 text-center text-indigo-800">{row.cityRank}</td>
                               <td className="p-3 text-center font-bold text-purple-800">#{row.air}</td>
-                              <td className="p-3 text-center text-blue-700">{row.acc}%</td>
+                              <td className="p-3 text-center text-orange-700">{row.acc}%</td>
                             </tr>
                           ))}
                         </tbody>
@@ -1887,9 +1906,9 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                   {/* SECTION 6 */}
                   <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
-                    <div className="border-b border-slate-100 pb-2 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                    <div className="border-b border-slate-100 pb-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                       <div>
-                        <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2">
+                        <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-4">
                           <Flame className="w-5 h-5 text-amber-500" />
                           <span>SECTION 6: Topic / Chapter Improvement Engine (Error Analysis)</span>
                         </h3>
@@ -1931,7 +1950,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                 <span className={`inline-flex items-center justify-center w-6 h-6 rounded-full font-bold text-xs ${
                                   row.priority === 1 ? 'bg-rose-500 text-white' :
                                   row.priority === 2 ? 'bg-amber-500 text-white' :
-                                  row.priority === 3 ? 'bg-blue-500 text-white' : 'bg-slate-200 text-slate-700'
+                                  row.priority === 3 ? 'bg-orange-500 text-white' : 'bg-slate-200 text-slate-700'
                                 }`}>
                                   P{row.priority}
                                 </span>
@@ -1943,7 +1962,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                 <span className="text-rose-600 font-bold">{row.wrong}</span> /{' '}
                                 <span className="text-slate-400">{row.unattempted}</span>
                               </td>
-                              <td className="p-3 text-center font-mono font-bold text-blue-700">{row.accuracy}%</td>
+                              <td className="p-3 text-center font-mono font-bold text-orange-700">{row.accuracy}%</td>
                               <td className="p-3 text-rose-800 font-semibold text-[11px]">{row.errorType}</td>
                               <td className="p-3 text-slate-600 text-[11px] leading-relaxed">{row.actionPlan}</td>
                             </tr>
@@ -1953,7 +1972,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     </div>
                   </div>
 
-                  {/* SECTION 7: Official Maharashtra State CAP Medical College Forecaster (2026 Allotments) */}
+                  {/* SECTION 7A: Official Maharashtra State CAP Medical College Forecaster (2026 Allotments) */}
                   <div className="space-y-4">
                     <NeetCollegePredictor
                       initialScore={testResult.score}
@@ -1967,10 +1986,18 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     />
                   </div>
 
+                  {/* SECTION 7B: Official AIQ Medical College Predictor (2026 Allotments) */}
+                  <div className="space-y-4 mt-6">
+                    <CollegePredictorSection
+                      initialAir={testResult.predictedAIR}
+                      isInsideScorecard={true}
+                    />
+                  </div>
+
                   {/* SECTION 8 */}
                   <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
                     <div className="border-b border-slate-100 pb-2">
-                      <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2">
+                      <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-4">
                         <Calendar className="w-5 h-5 text-emerald-600" />
                         <span>SECTION 8: Personalized Improvement Plan & 21-Day Strategic Roadmap</span>
                       </h3>
@@ -1980,17 +2007,17 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <div className="p-4 rounded-2xl bg-blue-50/70 border border-blue-200 space-y-2">
+                      <div className="p-6 rounded-2xl bg-orange-50/70 border border-orange-200 space-y-2">
                         <div className="flex items-center justify-between">
-                          <strong className="text-xs font-bold text-blue-900 uppercase">Next 7 Days (Sprint 1)</strong>
-                          <span className="text-[10px] px-2 py-0.5 rounded bg-blue-200 text-blue-900 font-bold">Immediate</span>
+                          <strong className="text-xs font-bold text-orange-900 uppercase">Next 7 Days (Sprint 1)</strong>
+                          <span className="text-[10px] px-2 py-0.5 rounded bg-orange-200 text-orange-900 font-bold">Immediate</span>
                         </div>
                         <p className="text-xs text-slate-700 leading-relaxed">
                           Focus exclusively on Priority 1 & 2 weak chapters. Re-read NCERT theory and solve 35 targeted DPP MCQs daily.
                         </p>
                       </div>
 
-                      <div className="p-4 rounded-2xl bg-purple-50/70 border border-purple-200 space-y-2">
+                      <div className="p-6 rounded-2xl bg-purple-50/70 border border-purple-200 space-y-2">
                         <div className="flex items-center justify-between">
                           <strong className="text-xs font-bold text-purple-900 uppercase">Next 14 Days (Sprint 2)</strong>
                           <span className="text-[10px] px-2 py-0.5 rounded bg-purple-200 text-purple-900 font-bold">Consolidation</span>
@@ -2000,7 +2027,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         </p>
                       </div>
 
-                      <div className="p-4 rounded-2xl bg-emerald-50/70 border border-emerald-200 space-y-2">
+                      <div className="p-6 rounded-2xl bg-emerald-50/70 border border-emerald-200 space-y-2">
                         <div className="flex items-center justify-between">
                           <strong className="text-xs font-bold text-emerald-900 uppercase">Next 21 Days (Sprint 3)</strong>
                           <span className="text-[10px] px-2 py-0.5 rounded bg-emerald-200 text-emerald-900 font-bold">Simulation</span>
@@ -2064,7 +2091,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                         {/* Visual / Authentic Image or SVG Diagram in Review */}
                         {q.image ? (
-                          <div className="my-3 p-2 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center">
+                          <div className="my-3 p-3 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center">
                             <img src={q.image} alt="Question Diagram" className="max-h-60 rounded-lg object-contain" />
                           </div>
                         ) : q.diagramSvg ? (
@@ -2079,11 +2106,11 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           />
                         ) : null}
 
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 my-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-3">
                           {q.options.map((opt, oIdx) => (
                             <div
                               key={oIdx}
-                              className={`p-2.5 rounded-xl border text-xs flex items-center space-x-2 ${
+                              className={`p-3.5 rounded-xl border text-xs flex items-center space-x-2 ${
                                 oIdx === q.correctAnswer
                                   ? 'bg-emerald-50 border-emerald-300 text-emerald-900 font-bold'
                                   : oIdx === userOption
@@ -2107,6 +2134,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                             chapter={q.chapter || test.title}
                             topic={q.topic || (q as any).subtopic}
                             questionText={q.questionText}
+                            solutionImage={q.solutionImage}
                           />
                         </div>
                       </div>

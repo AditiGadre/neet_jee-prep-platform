@@ -501,7 +501,7 @@ export async function fetchAuthoritativePaper(
     const resp = await fetch(`/api/sunday-paper?action=fetch&code=${encodeURIComponent(canonicalCode)}`);
     if (resp.ok) {
       const json = await resp.json();
-      if (json && json.success && json.paper && Array.isArray(json.paper.questions) && json.paper.questions.length === 180) {
+      if (json && json.success && json.paper && Array.isArray(json.paper.questions) ) {
         const parsed = json.paper as SyncedSundayPaper;
         parsed.revision = Number(parsed.revision) || 1;
         parsed.paperCode = canonicalCode;
@@ -559,7 +559,7 @@ export async function fetchAuthoritativePaper(
               firstQ.includes('[EDITED BY CLIENT B') ||
               fifthQ.includes('HEARTBEAT_SAFEGUARD_');
 
-            if (parsed.questions.length === 180 && !isScratchTestArtifact) {
+            if (!isScratchTestArtifact) {
               const rev = Number(row.correct_answer) || parsed.revision || 1;
               parsed.revision = rev;
               parsed.paperCode = canonicalCode;
@@ -592,7 +592,7 @@ export async function fetchAuthoritativePaper(
   // 2. CHECK LOCAL STORAGE: If local storage already has a saved paper with questions, NEVER overwrite with base template!
   try {
     const savedLocal = getSavedCustomSundayPaper(canonicalCode);
-    if (savedLocal && Array.isArray(savedLocal.questions) && savedLocal.questions.length === 180) {
+    if (savedLocal && Array.isArray(savedLocal.questions) ) {
       const synPaper: SyncedSundayPaper = {
         ...savedLocal,
         paperCode: canonicalCode,
@@ -655,6 +655,7 @@ export async function swapSingleQuestionWithBank(
   questionIdx: number,
   targetChapterOverride: string | undefined,
   currentPaper: SyncedSundayPaper,
+  specificReplacementId?: string,
   adminUser: string = 'Institutional Master Admin'
 ): Promise<SyncOperationResult> {
   const currentQ = currentPaper.questions[questionIdx];
@@ -677,12 +678,18 @@ export async function swapSingleQuestionWithBank(
   }
 
   const bank = getUnifiedQuestionBank(sub, ch.length > 0 ? ch : undefined);
+  const fullSubjectBank = getUnifiedQuestionBank(sub);
   const existingIds = new Set(currentPaper.questions.map(q => q.id));
   const candidates = bank.filter(q => !existingIds.has(q.id) && q.questionText !== currentQ.questionText);
 
-  const replacement = candidates.length > 0
-    ? candidates[Math.floor(Math.random() * candidates.length)]
-    : (bank.length > 0 ? bank[Math.floor(Math.random() * bank.length)] : currentQ);
+  let replacement = null;
+  if (specificReplacementId) {
+    replacement = fullSubjectBank.find(q => q.id === specificReplacementId) || currentQ;
+  } else {
+    replacement = candidates.length > 0
+      ? candidates[Math.floor(Math.random() * candidates.length)]
+      : (bank.length > 0 ? bank[Math.floor(Math.random() * bank.length)] : currentQ);
+  }
 
   const hardDiag = (replacement.difficulty === 'Hard') && sub === 'Physics'
     ? getHardPhysicsDiagram(replacement)
@@ -916,7 +923,7 @@ function initPaperBroadcastListener() {
     const currentRev = globalLastSyncedRevision;
 
     // Instant delivery if full paper is included in broadcast payload (0ms latency)
-    if (data.paper && Array.isArray(data.paper.questions) && data.paper.questions.length === 180) {
+    if (data.paper && Array.isArray(data.paper.questions) ) {
       console.log(`[SYNC-DEBUG] Instant Realtime paper sync applied directly for ${incomingCanonical} (rev ${incomingRev})!`);
       runtimePaperCache.set(incomingCanonical, { paper: data.paper, fetchedAt: Date.now() });
       globalLastSyncedTimestamp = data.updatedAt || new Date().toISOString();
@@ -938,7 +945,7 @@ function initPaperBroadcastListener() {
     if (incomingRev > currentRev || data.isRevert || currentRev === 0 || incomingRev === 0) {
       console.log(`[SYNC-DEBUG] Incoming broadcast rev ${incomingRev} (current: ${currentRev}). Fetching latest paper for ${incomingCanonical}...`);
       const freshPaper = await fetchAuthoritativePaper(incomingCanonical, true);
-      if (freshPaper && Array.isArray(freshPaper.questions) && freshPaper.questions.length === 180) {
+      if (freshPaper && Array.isArray(freshPaper.questions) ) {
         matching.forEach(s => {
           try {
             s.onUpdate(freshPaper);

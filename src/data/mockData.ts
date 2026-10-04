@@ -314,7 +314,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-yct-motion-plane-circular',
     title: 'YCT CBT: Circular Motion & Dynamics (213 Qs)',
-    category: 'chapter',
+    category: 'minor',
     exam: 'NEET',
     syllabus: 'Section (e): Uniform & Non-Uniform Circular Motion, Banking of Roads, Vertical Circles & Centripetal Forces (Q503 - Q715)',
     totalQuestions: 213,
@@ -334,7 +334,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-yct-motion-plane-vectors',
     title: 'YCT CBT: Vectors & Plane Kinematics (244 Qs)',
-    category: 'chapter',
+    category: 'minor',
     exam: 'NEET',
     syllabus: 'Sections (a), (b), (c): Scalar & Vector Quantities, Plane Motion Analysis & Relative Velocity (Q1 - Q244)',
     totalQuestions: 244,
@@ -398,7 +398,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-smart-booklet-motion-ncert-pyq',
     title: 'Smart Booklet CBT: NCERT Line-by-Line & NEET PYQs (62 Qs)',
-    category: 'chapter',
+    category: 'minor',
     exam: 'NEET',
     syllabus: 'NCERT Line-by-Line (20 Qs) + NCERT Based Practice (34 Qs) + NEET PYQs (8 Qs)',
     totalQuestions: 62,

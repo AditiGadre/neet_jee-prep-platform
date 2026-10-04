@@ -14,6 +14,7 @@ export interface DetailedSolutionViewerProps {
   topic?: string;
   subtopic?: string;
   questionText?: string;
+  solutionImage?: string;
 }
 
 interface ParsedSection {
@@ -108,7 +109,7 @@ function organizeUnstructuredExplanation(text: string): ParsedSection[] {
       {
         type: 'concept',
         title: 'NCERT Fundamental Concept',
-        icon: <BookOpen className="w-4 h-4 text-blue-600 shrink-0" />,
+        icon: <BookOpen className="w-4 h-4 text-orange-600 shrink-0" />,
         lines: [text]
       }
     ];
@@ -139,7 +140,7 @@ function organizeUnstructuredExplanation(text: string): ParsedSection[] {
     sections.push({
       type: 'concept',
       title: 'NCERT Fundamental Concept',
-      icon: <BookOpen className="w-4 h-4 text-blue-600 shrink-0" />,
+      icon: <BookOpen className="w-4 h-4 text-orange-600 shrink-0" />,
       lines: conceptLines
     });
   }
@@ -162,7 +163,7 @@ function organizeUnstructuredExplanation(text: string): ParsedSection[] {
         {
           type: 'general',
           title: 'Detailed Solution',
-          icon: <BookOpen className="w-4 h-4 text-blue-500 shrink-0" />,
+          icon: <BookOpen className="w-4 h-4 text-orange-500 shrink-0" />,
           lines: [text]
         }
       ];
@@ -204,7 +205,7 @@ function parseExplanation(rawText: string): ParsedSection[] {
 
     let type: 'concept' | 'derivation' | 'protip' | 'general' = 'general';
     let title = 'NCERT Fundamental Concept';
-    let icon: React.ReactNode = <BookOpen className="w-4 h-4 text-blue-600 shrink-0" />;
+    let icon: React.ReactNode = <BookOpen className="w-4 h-4 text-orange-600 shrink-0" />;
 
     if (
       headerLower.includes('concept') ||
@@ -215,7 +216,7 @@ function parseExplanation(rawText: string): ParsedSection[] {
     ) {
       type = 'concept';
       title = 'NCERT Fundamental Concept';
-      icon = <BookOpen className="w-4 h-4 text-blue-600 shrink-0" />;
+      icon = <BookOpen className="w-4 h-4 text-orange-600 shrink-0" />;
     } else if (
       headerLower.includes('derivation') ||
       headerLower.includes('calculation') ||
@@ -287,12 +288,21 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
   chapter,
   topic,
   subtopic,
-  questionText
+  questionText,
+  solutionImage
 }) => {
   const sections = useMemo(
-    () => parseExplanation(explanation || '').filter(s => s.type !== 'protip'),
-    [explanation]
-  );
+      () => {
+        let parsed = parseExplanation(explanation || '').filter(s => s.type !== 'protip');
+        // Cap step-by-step solution to exactly 5 lines max per user request
+        parsed = parsed.map(s => ({
+            ...s,
+            lines: s.lines.slice(0, 5)
+        }));
+        return parsed;
+      },
+      [explanation]
+    );
 
   const conceptSection = sections.find(s => s.type === 'concept');
   const conceptText = conceptSection && conceptSection.lines.length > 0 ? conceptSection.lines[0] : '';
@@ -309,9 +319,14 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
 
   return (
     <div className={`space-y-3 font-sans ${className}`}>
+      {solutionImage && (
+        <div className="mb-4 p-3 bg-white border border-slate-200 rounded-2xl flex justify-center items-center shadow-xs">
+          <img src={solutionImage} alt="Detailed Solution" className="max-h-72 rounded-xl object-contain" />
+        </div>
+      )}
       {/* Optional Correct Answer Header Banner */}
       {showCorrectOptionHeader && typeof correctAnswer === 'number' && options && options[correctAnswer] && (
-        <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-emerald-50 border border-emerald-200 text-xs text-emerald-900 font-medium">
+        <div className="flex items-center gap-4 px-3 py-2 rounded-xl bg-emerald-50 border border-emerald-200 text-xs text-emerald-900 font-medium">
           <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
           <span>
             Correct Option: <strong className="font-bold font-mono">({String.fromCharCode(65 + correctAnswer)})</strong> {options[correctAnswer]}
@@ -325,15 +340,15 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
           return (
             <div
               key={sIdx}
-              className="rounded-2xl border border-blue-200 bg-gradient-to-br from-blue-50/80 via-indigo-50/30 to-white p-3.5 sm:p-4 space-y-2 shadow-xs"
+              className="rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50/80 via-indigo-50/30 to-white p-3.5 sm:p-6 space-y-2 shadow-xs"
             >
-              <div className="flex items-center gap-2 text-xs font-bold text-blue-900 uppercase tracking-wider border-b border-blue-100 pb-1.5">
+              <div className="flex items-center gap-4 text-xs font-bold text-orange-900 uppercase tracking-wider border-b border-orange-100 pb-1.5">
                 {sec.icon}
                 <span>{sec.title}</span>
               </div>
               <div className="space-y-1.5 text-xs sm:text-sm text-slate-800 leading-relaxed font-normal">
                 {sec.lines.map((line, lIdx) => (
-                  <p key={lIdx} className="m-0 font-medium text-slate-900 bg-white/70 p-2.5 rounded-xl border border-blue-100/90 shadow-2xs">
+                  <p key={lIdx} className="m-0 font-medium text-slate-900 bg-white/70 p-3.5 rounded-xl border border-orange-100/90 shadow-2xs">
                     {line.endsWith('.') || line.endsWith(';') || line.endsWith(':') || line.endsWith(')') ? line : `${line}.`}
                   </p>
                 ))}
@@ -346,10 +361,10 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
           return (
             <div
               key={sIdx}
-              className="rounded-2xl border border-amber-200/90 bg-gradient-to-br from-amber-50/60 via-orange-50/20 to-white p-3.5 sm:p-4 space-y-3 shadow-xs"
+              className="rounded-2xl border border-amber-200/90 bg-gradient-to-br from-amber-50/60 via-orange-50/20 to-white p-3.5 sm:p-6 space-y-3 shadow-xs"
             >
               <div className="flex items-center justify-between border-b border-amber-200/60 pb-1.5">
-                <div className="flex items-center gap-2 text-xs font-bold text-amber-950 uppercase tracking-wider">
+                <div className="flex items-center gap-4 text-xs font-bold text-amber-950 uppercase tracking-wider">
                   {sec.icon}
                   <span>{sec.title}</span>
                 </div>
@@ -361,14 +376,14 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
               {/* Step-by-Step Distinct Lines with Visual Flow */}
               <div className="space-y-2 relative">
                 {sec.lines.map((line, lIdx) => (
-                  <div key={lIdx} className="relative flex items-start gap-2.5 sm:gap-3 group">
+                  <div key={lIdx} className="relative flex items-start gap-4.5 sm:gap-3 group">
                     {/* Step Badge */}
                     <div className="shrink-0 flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-amber-100/90 border border-amber-300 text-amber-900 font-mono text-[10px] sm:text-xs font-bold shadow-2xs mt-0.5">
                       {lIdx + 1}
                     </div>
 
                     {/* Step Equation / Calculation Box */}
-                    <div className="flex-1 min-w-0 p-2.5 sm:p-3 rounded-xl bg-white border border-amber-200/60 text-xs sm:text-sm text-slate-900 font-mono leading-relaxed overflow-x-auto shadow-2xs font-semibold">
+                    <div className="flex-1 min-w-0 p-3.5 sm:p-3 rounded-xl bg-white border border-amber-200/60 text-xs sm:text-sm text-slate-900 font-mono leading-relaxed overflow-x-auto shadow-2xs font-semibold">
                       {line}
                     </div>
                   </div>
@@ -382,9 +397,9 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
         return (
           <div
             key={sIdx}
-            className="rounded-2xl border border-slate-200 bg-slate-50/80 p-3.5 sm:p-4 space-y-2"
+            className="rounded-2xl border border-slate-200 bg-slate-50/80 p-3.5 sm:p-6 space-y-2"
           >
-            <div className="flex items-center gap-2 text-xs font-bold text-slate-800 uppercase tracking-wider border-b border-slate-200 pb-1.5">
+            <div className="flex items-center gap-4 text-xs font-bold text-slate-800 uppercase tracking-wider border-b border-slate-200 pb-1.5">
               {sec.icon}
               <span>{sec.title}</span>
             </div>

@@ -27,15 +27,15 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
   return (
     <div className="space-y-6 max-w-5xl mx-auto pb-10 animate-in fade-in duration-200">
       {/* 1. Hero Banner */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 p-6 sm:p-8 text-white shadow-lg border border-blue-800/40">
+      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-orange-950 to-indigo-950 p-6 sm:p-8 text-white shadow-lg border border-orange-800/40">
         <div className="relative z-10 max-w-3xl space-y-3">
-          <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-bold uppercase tracking-wider border border-blue-400/30">
+          <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-orange-500/20 text-orange-300 text-xs font-bold uppercase tracking-wider border border-orange-400/30">
             <Stethoscope className="w-3.5 h-3.5 text-cyan-400" />
             <span>100% Dedicated Platform</span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight leading-tight">
-            Exclusively Engineered for <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">NEET-UG Exam Aspirants</span>
+            Exclusively Engineered for <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-orange-400">NEET-UG Exam Aspirants</span>
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
@@ -47,7 +47,7 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
               <button
                 type="button"
                 onClick={onNavigateToTestSeries}
-                className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition flex items-center space-x-2 shadow-md cursor-pointer active:scale-95"
+                className="px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition flex items-center space-x-2 shadow-md cursor-pointer active:scale-95"
               >
                 <span>Explore Sunday Mock Series</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -61,13 +61,13 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
         </div>
 
         {/* Decorative Background Glow */}
-        <div className="absolute -right-10 -bottom-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute -right-10 -bottom-10 w-72 h-72 bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
       </div>
 
       {/* 2. Core Identity & Manifesto */}
       <div className="bg-white border border-gray-200 rounded-2xl p-5 sm:p-6 shadow-xs space-y-4">
-        <div className="flex items-center space-x-2.5 text-blue-700">
-          <Target className="w-5 h-5 text-blue-600" />
+        <div className="flex items-center space-x-2.5 text-orange-700">
+          <Target className="w-5 h-5 text-orange-600" />
           <h2 className="text-base sm:text-lg font-bold text-gray-900">
             Why We Are 100% NEET-Exclusive
           </h2>
@@ -78,8 +78,8 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
-          <div className="p-3.5 rounded-xl bg-blue-50/60 border border-blue-100 flex items-start space-x-3">
-            <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
+          <div className="p-3.5 rounded-xl bg-orange-50/60 border border-orange-100 flex items-start space-x-3">
+            <CheckCircle2 className="w-4 h-4 text-orange-600 shrink-0 mt-0.5" />
             <div>
               <div className="text-xs font-bold text-gray-900">Strict PCB Blueprint</div>
               <div className="text-[11px] text-gray-600 mt-0.5">
@@ -118,8 +118,8 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {/* Pillar 1 */}
-          <div className="p-5 rounded-2xl bg-white border border-gray-200 shadow-xs hover:border-blue-300 transition space-y-2">
-            <div className="w-8 h-8 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm">
+          <div className="p-5 rounded-2xl bg-white border border-gray-200 shadow-xs hover:border-orange-300 transition space-y-2">
+            <div className="w-8 h-8 rounded-xl bg-orange-100 text-orange-700 flex items-center justify-center font-bold text-sm">
               <Calendar className="w-4 h-4" />
             </div>
             <h4 className="text-sm font-bold text-gray-900">
@@ -131,7 +131,7 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
           </div>
 
           {/* Pillar 2 */}
-          <div className="p-5 rounded-2xl bg-white border border-gray-200 shadow-xs hover:border-blue-300 transition space-y-2">
+          <div className="p-5 rounded-2xl bg-white border border-gray-200 shadow-xs hover:border-orange-300 transition space-y-2">
             <div className="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm">
               <BookOpen className="w-4 h-4" />
             </div>
@@ -144,7 +144,7 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
           </div>
 
           {/* Pillar 3 */}
-          <div className="p-5 rounded-2xl bg-white border border-gray-200 shadow-xs hover:border-blue-300 transition space-y-2">
+          <div className="p-5 rounded-2xl bg-white border border-gray-200 shadow-xs hover:border-orange-300 transition space-y-2">
             <div className="w-8 h-8 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-sm">
               <Award className="w-4 h-4" />
             </div>
@@ -157,7 +157,7 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
           </div>
 
           {/* Pillar 4 */}
-          <div className="p-5 rounded-2xl bg-white border border-gray-200 shadow-xs hover:border-blue-300 transition space-y-2">
+          <div className="p-5 rounded-2xl bg-white border border-gray-200 shadow-xs hover:border-orange-300 transition space-y-2">
             <div className="w-8 h-8 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold text-sm">
               <Building2 className="w-4 h-4" />
             </div>
@@ -174,7 +174,7 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
       {/* 4. Who This Platform Is For */}
       <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5 sm:p-6 space-y-3">
         <div className="flex items-center space-x-2 text-slate-900">
-          <GraduationCap className="w-5 h-5 text-blue-600" />
+          <GraduationCap className="w-5 h-5 text-orange-600" />
           <h3 className="text-sm font-bold text-gray-900 uppercase tracking-wider">
             Who Is This Platform Built For?
           </h3>
@@ -182,7 +182,7 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
           <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-2xs">
-            <div className="text-xs font-bold text-blue-700">Class 11 Medical Students</div>
+            <div className="text-xs font-bold text-orange-700">Class 11 Medical Students</div>
             <p className="text-[11px] text-gray-600 mt-1">
               Building foundational conceptual mastery through chapter tests, biological classification, and mechanics drills.
             </p>
@@ -205,9 +205,9 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
       </div>
 
       {/* 5. Quick Stats Footer Strip */}
-      <div className="p-4 rounded-xl bg-blue-50 border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+      <div className="p-6 rounded-xl bg-orange-50 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
         <div className="flex items-center space-x-3">
-          <div className="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-sm shrink-0">
+          <div className="w-9 h-9 rounded-xl bg-orange-600 text-white flex items-center justify-center font-black text-sm shrink-0">
             NEET
           </div>
           <div>
@@ -220,7 +220,7 @@ export const AboutPlatformSection: React.FC<AboutPlatformSectionProps> = ({
           <button
             type="button"
             onClick={onNavigateToTestSeries}
-            className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer active:scale-95 shrink-0"
+            className="px-4 py-2 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer active:scale-95 shrink-0"
           >
             <span>Start Practice Now</span>
             <ArrowRight className="w-3.5 h-3.5" />

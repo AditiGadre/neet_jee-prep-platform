@@ -1,0 +1,30 @@
+﻿
+    if (subject === 'Biology') {
+      qText = `In ${chapter} (${topic}), which of the following statements is strictly correct in accordance with standard NCERT Class 11/12 guidelines regarding physiological regulation? [Batch Q#${i + 1}]`;
+      opts = [
+        'Active transport requires ATP hydrolysis and moves solutes against their electrochemical gradient.',
+        'Facilitated diffusion occurs against concentration gradient without transport proteins.',
+        'Osmosis is the movement of solute particles across an impermeable membrane.',
+        'Endocytosis occurs freely without consuming cellular metabolic energy.'
+      ];
+      ans = 0;
+      expl = 'According to standard NCERT Biology, active transport strictly utilizes energy from ATP hydrolysis to pump molecules/ions against their electrochemical or concentration gradient via specific transmembrane carrier proteins.';
+    } else if (subject === 'Chemistry') {
+      qText = `For a reaction system in ${chapter} (${topic}), which parameter remains strictly constant for an ideal closed system at isothermal equilibrium? [Batch Q#${i + 1}]`;
+      opts = [
+        'Enthalpy change Î”H is zero for all non-ideal reactions.',
+        'Standard Gibbs free energy change Î”GÂ° relates to equilibrium constant via Î”GÂ° = -RT ln K.',
+        'The reaction quotient Q is always strictly greater than equilibrium constant K.',
+        'Entropy of an isolated system always decreases during spontaneous processes.'
+      ];
+      ans = 1;
+      expl = 'From classical chemical thermodynamics (NCERT Chemistry), standard Gibbs free energy change is directly related to the thermodynamic equilibrium constant K via Î”GÂ° = -2.303 RT log10(K). At equilibrium, Î”G = 0 and Q = K.';
+    } else {
+      qText = `In Physics (${chapter} - ${topic}), a particle moves under the influence of a conservative field. Which of the following relationships is universally valid? [Batch Q#${i + 1}]`;
+      opts = [
+        'The work done along a closed loop is strictly zero (âˆ® F Â· dr = 0).',
+        'Kinetic energy is always conserved in all inelastic collisions.',
+        'Static friction always performs positive work on a rolling rigid body.',
+        'Gravitational potential energy increases as distance between two masses decreases.'
+      ];
+      ans = 0;

@@ -1,5 +1,5 @@
 import { Question } from '../types';
-import { NCERT_PHYSICAL_WORLD_QUESTIONS } from './ncertPhysicalWorldQuestions';
+
 import { NCERT_UNITS_QUESTIONS } from './ncertUnitsQuestions';
 import { NCERT_MOTION_STRAIGHT_LINE_QUESTIONS } from './ncertMotionStraightLineQuestions';
 import { NCERT_MOTION_PLANE_QUESTIONS } from './ncertMotionPlaneQuestions';
@@ -31,7 +31,7 @@ import { NCERT_SEMICONDUCTORS_QUESTIONS } from './ncertSemiconductorsQuestions';
 import { NCERT_COMMUNICATION_QUESTIONS } from './ncertCommunicationQuestions';
 
 export {
-  NCERT_PHYSICAL_WORLD_QUESTIONS,
+
   NCERT_UNITS_QUESTIONS,
   NCERT_MOTION_STRAIGHT_LINE_QUESTIONS,
   NCERT_MOTION_PLANE_QUESTIONS,
@@ -64,7 +64,7 @@ export {
 };
 
 export const ALL_NCERT_PHYSICS_QUESTIONS: Question[] = [
-  ...NCERT_PHYSICAL_WORLD_QUESTIONS,
+
   ...NCERT_UNITS_QUESTIONS,
   ...NCERT_MOTION_STRAIGHT_LINE_QUESTIONS,
   ...NCERT_MOTION_PLANE_QUESTIONS,

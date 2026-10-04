@@ -66,7 +66,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
     if (l.includes('ipad') || l.includes('tablet')) {
       return <Tablet className="w-5 h-5 text-purple-400" />;
     }
-    return <Laptop className="w-5 h-5 text-blue-400" />;
+    return <Laptop className="w-5 h-5 text-orange-400" />;
   };
 
   const formatLastActive = (isoString: string) => {
@@ -87,7 +87,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
   const isAtLimit = activeCount >= 3;
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
       <div className="bg-slate-900 border border-slate-700/80 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden text-slate-100 animate-in zoom-in-95 duration-200">
         
         {/* Header */}
@@ -96,7 +96,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
             <div className={`w-10 h-10 rounded-2xl flex items-center justify-center shadow-lg ${
               isConflictPrompt
                 ? 'bg-gradient-to-tr from-amber-500 to-rose-600 shadow-rose-500/20'
-                : 'bg-gradient-to-tr from-blue-500 to-indigo-600 shadow-indigo-500/20'
+                : 'bg-gradient-to-tr from-orange-500 to-indigo-600 shadow-indigo-500/20'
             }`}>
               {isConflictPrompt ? (
                 <ShieldAlert className="w-5 h-5 text-white" />
@@ -105,7 +105,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
               )}
             </div>
             <div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-4">
                 <span className="text-[10px] uppercase tracking-widest font-mono font-bold bg-indigo-500/20 text-indigo-400 px-2 py-0.5 rounded-full border border-indigo-500/30">
                   Multi-Device Sync
                 </span>
@@ -126,7 +126,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
           {!isConflictPrompt && (
             <button
               onClick={onClose}
-              className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
+              className="p-3 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
             >
               <X className="w-5 h-5" />
             </button>
@@ -175,11 +175,11 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
                 }`}
               >
                 <div className="flex items-center space-x-3 min-w-0">
-                  <div className="p-2.5 rounded-xl bg-slate-900 border border-slate-700 shrink-0">
+                  <div className="p-3.5 rounded-xl bg-slate-900 border border-slate-700 shrink-0">
                     {getDeviceIcon(session.device_label)}
                   </div>
                   <div className="min-w-0">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-4">
                       <span className="text-xs font-bold text-white truncate">
                         {session.device_label}
                       </span>

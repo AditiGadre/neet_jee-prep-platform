@@ -1303,12 +1303,37 @@ export function downloadTestScorecardPDF(result: UserTestResult, skipDob: boolea
 
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
         <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 10px; font-size: 11px;">
-          <strong style="color: #166534; font-size: 12px; display: block; margin-bottom: 4px;">Top Allotment Forecasts (AIR #${result.predictedAIR.toLocaleString()}):</strong>
+          <strong style="color: #166534; font-size: 12px; display: block; margin-bottom: 4px;">Top Allotment Forecasts (AIR #${(result.predictedAIR || 26178).toLocaleString()}):</strong>
           <ul style="margin: 0; padding-left: 16px; color: #14532d; line-height: 1.6;">
-            <li><strong>Seth GS Medical College & KEM, Mumbai:</strong> Highly Likely (96%)</li>
-            <li><strong>King George’s Medical University, Lucknow:</strong> Highly Likely (94%)</li>
-            <li><strong>Madras Medical College (MMC), Chennai:</strong> Competitive / Eligible (78%)</li>
-            <li><strong>Top State Government Medical Colleges (State Quota):</strong> 99% Round 1 Allotment</li>
+            ${(result.predictedAIR || 26178) <= 2500 ? `
+              <li><strong>Seth GS Medical College & KEM, Mumbai:</strong> Highly Likely (96%)</li>
+              <li><strong>BJ Medical College, Pune:</strong> Highly Likely (98%)</li>
+              <li><strong>AIIMS Bhopal / Jodhpur / Rishikesh:</strong> Highly Likely (94%)</li>
+              <li><strong>Top State Govt Medical Colleges (State Quota):</strong> 99% Round 1 Allotment</li>
+            ` : (result.predictedAIR || 26178) <= 10000 ? `
+              <li><strong>Grant Government Medical College, Mumbai:</strong> Highly Likely (92%)</li>
+              <li><strong>BJ Medical College, Pune / GMC Nagpur:</strong> Highly Likely (90%)</li>
+              <li><strong>Top State Government Medical Colleges:</strong> 95% Round 1 Allotment</li>
+              <li><strong>All India Quota (AIQ 15%) Govt MBBS:</strong> Guaranteed Allotment</li>
+            ` : (result.predictedAIR || 26178) <= 26178 ? `
+              <li><strong>State Govt Medical Colleges (Maharashtra 85% CAP):</strong> Highly Likely (90%)</li>
+              <li><strong>AIQ Round 3 Closing Boundary Govt MBBS:</strong> Competitive / Eligible (85%)</li>
+              <li><strong>Government BDS Dental Colleges:</strong> Guaranteed Allotment (98%)</li>
+              <li><strong>Top Private / Deemed Medical Colleges:</strong> High Merit Scholarship</li>
+            ` : (result.predictedAIR || 26178) <= 50000 ? `
+              <li><strong>Government BDS Dental Colleges (AIQ / State):</strong> Highly Likely (90%)</li>
+              <li><strong>Deemed Medical Universities (KMC Manipal / Symbiosis):</strong> Highly Likely (92%)</li>
+              <li><strong>State Private Medical Colleges (Merit Quota):</strong> Competitive / Eligible (85%)</li>
+              <li><strong>Mop-Up / Stray Vacancy Upgrade:</strong> High Probability</li>
+            ` : (result.predictedAIR || 26178) <= 150000 ? `
+              <li><strong>Deemed Medical Universities (KMC Mangalore, Loni, MGM):</strong> Highly Likely (90%)</li>
+              <li><strong>Government BDS (Reserved Category Quotas):</strong> Highly Likely (95%)</li>
+              <li><strong>State Private Medical Colleges (Management Seats):</strong> Eligible (88%)</li>
+            ` : `
+              <li><strong>Deemed Medical Universities (DY Patil, Bharati Vidyapeeth, MGM):</strong> High Chance (90%+)</li>
+              <li><strong>Private BDS Dental Institutions:</strong> Highly Likely (95%)</li>
+              <li><strong>Management & NRI Quota Medical Seats:</strong> Eligible</li>
+            `}
           </ul>
         </div>
 

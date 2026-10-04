@@ -322,7 +322,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-4 overflow-y-auto animate-in fade-in duration-150">
+    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-150">
       <div className="w-full max-w-md bg-white border border-gray-200 rounded-xl shadow-2xl p-5 sm:p-6 space-y-4 text-gray-900 relative animate-in zoom-in-95 duration-150 max-h-[95vh] overflow-y-auto custom-scrollbar">
         <button
           onClick={onClose}
@@ -483,7 +483,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
         ) : (
           /* Step 2: OTP Verification Form */
           <form onSubmit={handleVerifyOtp} className="space-y-3">
-            <div className="flex items-center justify-between p-2.5 rounded-lg bg-emerald-50/80 border border-emerald-200 text-xs">
+            <div className="flex items-center justify-between p-3.5 rounded-lg bg-emerald-50/80 border border-emerald-200 text-xs">
               <div className="flex items-center space-x-2">
                 <WhatsAppIcon className="w-4 h-4 text-emerald-600 shrink-0" />
                 <div>
@@ -583,7 +583,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
               onClose();
               if (onOpenEnrollment) onOpenEnrollment();
             }}
-            className="text-blue-600 hover:text-blue-800 font-bold cursor-pointer flex items-center space-x-1"
+            className="text-orange-600 hover:text-orange-800 font-bold cursor-pointer flex items-center space-x-1"
           >
             <span>New student? Enroll First →</span>
           </button>

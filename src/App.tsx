@@ -21,6 +21,7 @@ const TermsAndConditionsModal = lazy(() => import('./components/TermsAndConditio
 import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
+
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
 import { initCloudSync, fetchStudentByPhoneFromCloud, syncStudentEnrollmentToCloud, cleanPhoneNumber } from './utils/cloudSyncManager';
 import { assertNoDuplicateQuestions } from './data/sundayPlannerTests';
@@ -28,8 +29,8 @@ import { assertNoDuplicateQuestions } from './data/sundayPlannerTests';
 const SectionLoadingFallback = () => (
   <div className="flex flex-col items-center justify-center min-h-[350px] w-full p-8 text-center animate-in fade-in duration-200">
     <div className="relative w-12 h-12 mb-4">
-      <div className="absolute inset-0 rounded-full border-4 border-blue-200 animate-ping opacity-75"></div>
-      <div className="w-12 h-12 rounded-full border-4 border-blue-600 border-t-transparent animate-spin"></div>
+      <div className="absolute inset-0 rounded-full border-4 border-orange-200 animate-ping opacity-75"></div>
+      <div className="w-12 h-12 rounded-full border-4 border-orange-600 border-t-transparent animate-spin"></div>
     </div>
     <p className="text-sm font-semibold text-slate-700">Loading module...</p>
     <p className="text-xs text-slate-400 mt-1">Preparing high-speed NCERT resources</p>
@@ -395,12 +396,7 @@ export default function App() {
   }, [user]);
 
   const handleStartTest = (test: TestItem, chapters?: SundayChapterSelection) => {
-    // Strict zero-duplication guarantee across all tests before CBT simulation begins
-    const validatedTest: TestItem = {
-      ...test,
-      questions: test.questions && test.questions.length > 0 ? assertNoDuplicateQuestions(test.questions) : test.questions
-    };
-    setActiveTestForCBT(validatedTest);
+    setActiveTestForCBT(test);
     setSelectedSundayChapters(chapters);
   };
 
@@ -550,7 +546,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-800 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
+    <div className="min-h-screen bg-slate-100 text-slate-800 flex flex-col font-sans selection:bg-orange-600 selection:text-white">
       {/* Sign Out Confirmation Toast */}
       {signOutNotification && (
         <div className="fixed bottom-5 right-5 z-50 bg-slate-900 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2.5 text-xs font-semibold animate-in fade-in slide-in-from-bottom-3 duration-200 border border-slate-700">
@@ -616,13 +612,13 @@ export default function App() {
               <span className="text-slate-300">/</span>
               <span className="text-xs font-semibold text-slate-500">About Platform</span>
             </div>
-            <div className="hidden sm:flex items-center space-x-2 text-xs font-semibold text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-200 font-mono">
+            <div className="hidden sm:flex items-center space-x-2 text-xs font-semibold text-orange-700 bg-orange-50 px-3 py-1 rounded-full border border-orange-200 font-mono">
               <span>https://neetcbtexam.com/about</span>
             </div>
           </div>
 
           {/* About Platform Content Container */}
-          <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-6xl mx-auto w-full">
+          <main className="flex-1 p-6 sm:p-6 lg:p-8 max-w-6xl mx-auto w-full">
             <Suspense fallback={<SectionLoadingFallback />}>
               <AboutPlatformSection
                 onNavigateToTestSeries={() => navigateTo('/')}
@@ -631,7 +627,7 @@ export default function App() {
             </Suspense>
 
             {/* Institutional Platform Footer on /about */}
-            <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2.5">
+            <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4.5">
               <div className="text-[11px] text-slate-500">
                 © 2026 NeetCbt Exam Test. Built exclusively for NEET-UG Exam Aspirants.
               </div>
@@ -639,7 +635,7 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => navigateTo('/')}
-                  className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+                  className="text-slate-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
                 >
                   ← Test Series Dashboard
                 </button>
@@ -647,7 +643,7 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => setIsTermsModalOpen(true)}
-                  className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+                  className="text-slate-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
                 >
                   Terms & Conditions
                 </button>
@@ -672,7 +668,7 @@ export default function App() {
           />
 
           {/* Dynamic Content Area */}
-          <main className="flex-1 p-4 sm:p-5 lg:p-6 overflow-y-auto bg-slate-100 min-w-0">
+          <main className="flex-1 p-6 sm:p-5 lg:p-6 overflow-y-auto bg-slate-100 min-w-0">
             <Suspense fallback={<SectionLoadingFallback />}>
               {activeTab === 'test-series' && (
                 <TestSeriesSection
@@ -698,10 +694,12 @@ export default function App() {
               )}
 
               {activeTab === 'about-exam' && <AboutExamSection />}
+
+
             </Suspense>
 
             {/* Institutional Platform Footer */}
-            <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2.5">
+            <footer className="mt-8 pt-4 pb-3 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4.5">
               <div className="text-[11px] text-slate-500">
                 © 2026 NeetCbt Exam Test. All rights reserved. Academic CBT Examination Simulator.
               </div>
@@ -712,7 +710,7 @@ export default function App() {
                     e.preventDefault();
                     navigateTo('/about');
                   }}
-                  className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+                  className="text-slate-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
                 >
                   About Platform (NEET Aspirants)
                 </a>
@@ -720,7 +718,7 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => setIsTermsModalOpen(true)}
-                  className="text-slate-600 hover:text-blue-600 font-semibold underline transition cursor-pointer"
+                  className="text-slate-600 hover:text-orange-600 font-semibold underline transition cursor-pointer"
                 >
                   Terms & Conditions
                 </button>
@@ -807,7 +805,7 @@ export default function App() {
 
         {/* Super User & Admin Control Center (Custom Test Generator & Telemetry) */}
         {isSuperUserModalOpen && (
-          <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 overflow-y-auto animate-in fade-in duration-150">
+          <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-150">
             <div className="w-full max-w-6xl bg-slate-100 border border-slate-700 rounded-3xl shadow-2xl flex flex-col max-h-[96vh] text-gray-900 relative animate-in zoom-in-95 duration-150 overflow-hidden">
               <div className="flex-1 overflow-y-auto p-3 sm:p-5">
                 <ErrorBoundary

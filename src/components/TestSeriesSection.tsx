@@ -36,7 +36,7 @@ import {
 import { TestItem, TestCategory, Question } from '../types';
 import { downloadTestPaperPDF } from '../utils/pdfDownloader';
 import { recordSuperUserNotification } from '../utils/superUserNotifier';
-import { fetchSundayPaperFromCloud } from '../utils/cloudSyncManager';
+import { fetchSundayPaperFromCloud, fetchAllSundayPapersFromCloud } from '../utils/cloudSyncManager';
 import { fetchAuthoritativePaper } from '../services/authoritativeCloudService';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
@@ -70,6 +70,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   onOpenAdmin
 }) => {
   const [activeBatch, setActiveBatch] = useState<'repeater' | '12th' | '11th'>('repeater');
+  const [localCustomPapers, setLocalCustomPapers] = useState<Record<string, any>>(() => {
+    try {
+      const raw = localStorage.getItem('neet_custom_sunday_papers');
+      return raw ? JSON.parse(raw) : {};
+    } catch { return {}; }
+  });
   const [repeaterTrack, setRepeaterTrack] = useState<'track1' | 'track2' | 'pc'>('track1');
   const [class12Track, setClass12Track] = useState<'complete' | 'pc'>('complete');
   const [class11Track, setClass11Track] = useState<'track1' | 'track2'>('track1');
@@ -95,6 +101,69 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const studentPhone = enrolledStudent?.studentPhone || '';
   const parentPhone = enrolledStudent?.parentPhone || '';
   const parentName = enrolledStudent?.parentName || '';
+
+  useEffect(() => {
+    let isMounted = true;
+    const fetchCloudPapers = async () => {
+      try {
+        const cloudPapers = await fetchAllSundayPapersFromCloud();
+        if (!isMounted || !cloudPapers || Object.keys(cloudPapers).length === 0) return;
+        
+        setLocalCustomPapers(prev => {
+          const merged = { ...prev };
+          let changed = false;
+          for (const [key, paper] of Object.entries(cloudPapers)) {
+            // Check if cloud paper is newer than local or if local doesn't exist
+            if (!merged[key] || (paper.revision && merged[key].revision && paper.revision > merged[key].revision) || !merged[key].revision) {
+              merged[key] = paper;
+              merged[key.toLowerCase()] = paper;
+              changed = true;
+            }
+          }
+          if (changed) {
+            try {
+              localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(merged));
+            } catch {}
+            return merged;
+          }
+          return prev;
+        });
+      } catch (err) {
+        console.warn('Failed to fetch custom cloud papers:', err);
+      }
+    };
+    
+    fetchCloudPapers();
+
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key === 'neet_custom_sunday_papers' && e.newValue) {
+        try {
+          setLocalCustomPapers(JSON.parse(e.newValue));
+        } catch {}
+      }
+    };
+
+    const handleLocalSync = (e: any) => {
+      const detail = e?.detail;
+      if (detail && detail.paperCode && detail.paper) {
+        setLocalCustomPapers(prev => {
+          const merged = { ...prev };
+          merged[detail.paperCode] = detail.paper;
+          merged[detail.paperCode.toLowerCase()] = detail.paper;
+          return merged;
+        });
+      }
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    window.addEventListener('neet_cloud_sunday_paper_synced', handleLocalSync);
+
+    return () => { 
+      isMounted = false; 
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('neet_cloud_sunday_paper_synced', handleLocalSync);
+    };
+  }, []);
 
   // Check whether Admin has approved Sunday test access
   const checkAdminAccess = () => {
@@ -274,14 +343,14 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
     // Query authoritative cloud paper directly (single source of truth with highest server revision)
     const paperLookupKey = activeBatch !== 'repeater' ? `${activeBatch}-${plannerTest.code}` : plannerTest.code;
-    const customPaper = await fetchAuthoritativePaper(paperLookupKey, true);
+    let customPaper = await fetchAuthoritativePaper(paperLookupKey, true);
     let testQuestions: Question[] = [];
     let syllabusStr = isPCTest
       ? `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit}`
       : `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`;
 
-    if (customPaper && Array.isArray(customPaper.questions) && (customPaper.questions.length === targetQCount || customPaper.questions.length === 180 || customPaper.questions.length === 100)) {
-      testQuestions = assertNoDuplicateQuestions(customPaper.questions);
+    if (customPaper && Array.isArray(customPaper.questions) ) {
+      testQuestions = customPaper.questions;
       if (customPaper.customChapters) {
         const bioPart = customPaper.customChapters.biology?.length ? ` | Biology: ${customPaper.customChapters.biology.join(', ')}` : '';
         syllabusStr = `Physics: ${(customPaper.customChapters.physics || []).join(', ')} | Chemistry: ${(customPaper.customChapters.chemistry || []).join(', ')}${bioPart}`;
@@ -292,7 +361,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
     const testItem: TestItem = {
       id: plannerTest.id,
-      title: `${plannerTest.code}: ${plannerTest.title}`,
+      title: customPaper?.testTitle ? `${plannerTest.code}: ${customPaper.testTitle}` : `${plannerTest.code}: ${plannerTest.title}`,
       category: 'neet_mock',
       exam: 'NEET',
       syllabus: syllabusStr,
@@ -366,15 +435,15 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     const targetDuration = isPCTest ? 120 : (plannerTest.durationMinutes || 180);
 
     const paperLookupKey = activeBatch !== 'repeater' ? `${activeBatch}-${plannerTest.code}` : plannerTest.code;
-    const customPaper = await fetchAuthoritativePaper(paperLookupKey, true);
+    let customPaper = await fetchAuthoritativePaper(paperLookupKey, true);
 
-    const questions = (customPaper && Array.isArray(customPaper.questions) && (customPaper.questions.length === targetQCount || customPaper.questions.length === 180 || customPaper.questions.length === 100))
-      ? assertNoDuplicateQuestions(customPaper.questions)
+    const questions = (customPaper && Array.isArray(customPaper.questions) )
+      ? customPaper.questions
       : generateSundayTestQuestions(plannerTest, undefined, false, activeBatch);
 
     const testItem: TestItem = {
       id: plannerTest.id,
-      title: `${plannerTest.code}: ${plannerTest.title}`,
+      title: customPaper?.testTitle ? `${plannerTest.code}: ${customPaper.testTitle}` : `${plannerTest.code}: ${plannerTest.title}`,
       category: 'neet_mock',
       exam: 'NEET',
       syllabus: isPCTest
@@ -403,7 +472,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   return (
     <div className="space-y-4">
       {/* 3 Dedicated Batch Tabs: Repeater / Dropper Batch, 12th Batch, 11th Batch */}
-      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-2 sm:p-2.5 rounded-2xl border border-slate-200 shadow-xs">
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 sm:p-3.5 rounded-2xl border border-slate-200 shadow-xs">
         <div className="flex flex-wrap items-center gap-1.5">
           <button
             onClick={() => {
@@ -412,14 +481,14 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             }}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
               activeBatch === 'repeater'
-                ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-orange-600 via-indigo-600 to-cyan-600 text-white shadow-md'
                 : 'bg-slate-50 text-slate-700 hover:bg-slate-100 border border-slate-200'
             }`}
           >
             <Zap className="w-4 h-4 text-amber-300" />
             <span>Repeater / Dropper Batch</span>
             <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
-              Starts 04 Oct 2026
+              Starts 11 Oct 2026
             </span>
           </button>
 
@@ -431,7 +500,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             }}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
               activeBatch === '12th'
-                ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-orange-600 to-indigo-600 text-white shadow-md'
                 : 'bg-slate-50 text-slate-700 hover:bg-slate-100 border border-slate-200'
             }`}
           >
@@ -450,7 +519,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             }}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
               activeBatch === '11th'
-                ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-orange-600 to-indigo-600 text-white shadow-md'
                 : 'bg-slate-50 text-slate-700 hover:bg-slate-100 border border-slate-200'
             }`}
           >
@@ -482,7 +551,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       </div>
 
       {/* Header Banner for Current Batch */}
-      <div className="bg-gradient-to-br from-white via-slate-50 to-blue-50/50 border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-xs">
+      <div className="bg-gradient-to-br from-white via-slate-50 to-orange-50/50 border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-xs">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200/80 pb-4">
           <div>
             <h1 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
@@ -494,7 +563,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   : 'NEET 2026–27 Dropper Batch: Track 3 (Physics & Chemistry Series • 27 Tests)'
                 : activeBatch === '12th'
                 ? class12Track === 'complete'
-                  ? 'Class 12th Complete Syllabus Master Test Series (Starting 04 Oct 2026)'
+                  ? 'Class 12th Complete Syllabus Master Test Series (Starting 11 Oct 2026)'
                   : 'Class 12th Physics & Chemistry Full-Syllabus Series (10 Mar – 30 Apr 2027)'
                 : class11Track === 'track1'
                 ? 'Class 11th 2026–27 Exam Planner: Track 1 (Chapterwise, Partwise & Full Syllabus • 20 Tests)'
@@ -504,17 +573,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               {activeBatch === '11th' ? (
                 class11Track === 'track1' ? (
                   <>
-                    Starting <strong>04 October 2026</strong>: Official NEET (UG) Class 11 Exam Planner: <strong>11 Chapter-Wise Tests (CW-01 to CW-11)</strong> scheduled every 2nd Sunday through 21 Feb 2027 &rarr; <strong>6 Partwise Tests (PT-01 to PT-06)</strong> every 4 days covering complete Class 11 scope (01 Mar – 21 Mar 2027) &rarr; <strong>3 Full Syllabus Tests (FS-01 to FS-03)</strong> every 3 days through 30 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                    Starting <strong>11 October 2026</strong>: Official NEET (UG) Class 11 Exam Planner: <strong>11 Chapter-Wise Tests (CW-01 to CW-11)</strong> scheduled every 2nd Sunday through 21 Feb 2027 &rarr; <strong>6 Partwise Tests (PT-01 to PT-06)</strong> every 4 days covering complete Class 11 scope (01 Mar – 21 Mar 2027) &rarr; <strong>3 Full Syllabus Tests (FS-01 to FS-03)</strong> every 3 days through 30 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                   </>
                 ) : (
                   <>
-                    Starting <strong>04 October 2026</strong>: <strong>12 Chapter-Wise Tests (CWT-01 to CWT-12)</strong> scheduled every second Sunday &rarr; <strong>5 Cumulative Checkpoints (CUM-01 to CUM-05)</strong> placed after learning blocks &rarr; <strong>3 Full Syllabus Tests (FST-01 to FST-03)</strong> through 28 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                    Starting <strong>11 October 2026</strong>: <strong>12 Chapter-Wise Tests (CWT-01 to CWT-12)</strong> scheduled every second Sunday &rarr; <strong>5 Cumulative Checkpoints (CUM-01 to CUM-05)</strong> placed after learning blocks &rarr; <strong>3 Full Syllabus Tests (FST-01 to FST-03)</strong> through 28 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                   </>
                 )
               ) : activeBatch === '12th' ? (
                 class12Track === 'complete' ? (
                   <>
-                    Starting <strong>04 October 2026</strong>: 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1–8)</strong> every 5 days covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> every 4 days focusing on baseline, error tagging, NCERT retention, reactions, and pacing; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> every 2 days with full analytics; followed by a <strong>7-Stage Revision &amp; Analysis Buffer</strong> through 17 Feb 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                    Starting <strong>11 October 2026</strong>: 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1–8)</strong> every 5 days covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> every 4 days focusing on baseline, error tagging, NCERT retention, reactions, and pacing; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> every 2 days with full analytics; followed by a <strong>7-Stage Revision &amp; Analysis Buffer</strong> through 17 Feb 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                   </>
                 ) : (
                   <>
@@ -523,11 +592,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 )
               ) : repeaterTrack === 'track1' ? (
                 <>
-                  Starting <strong>04 October 2026</strong>: <strong>20 Chapter-Wise Tests (CW-01 to CW-20)</strong> every Sunday with zero chapter repeats &rarr; <strong>8 Part-Wise Cumulative Tests (PT-01 to PT-08)</strong> every 4 days &rarr; <strong>18 Full Syllabus Tests (FS-01 to FS-18)</strong> every 3 and 2 days through 30 April 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                  Starting <strong>11 October 2026</strong>: <strong>20 Chapter-Wise Tests (CW-01 to CW-20)</strong> every Sunday with zero chapter repeats &rarr; <strong>8 Part-Wise Cumulative Tests (PT-01 to PT-08)</strong> every 4 days &rarr; <strong>18 Full Syllabus Tests (FS-01 to FS-18)</strong> every 3 and 2 days through 30 April 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                 </>
               ) : repeaterTrack === 'track2' ? (
                 <>
-                  Starting <strong>04 October 2026</strong>: <strong>17 Chapter-Wise Tests (T01 to T17)</strong> every Sunday with standalone high-yield focus &rarr; <strong>8 Part-Wise Tests (P01 to P08)</strong> every 4 days &rarr; <strong>21 Full Syllabus Tests (F01 to F21)</strong> every 3 days through 29 April 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                  Starting <strong>11 October 2026</strong>: <strong>17 Chapter-Wise Tests (T01 to T17)</strong> every Sunday with standalone high-yield focus &rarr; <strong>8 Part-Wise Tests (P01 to P08)</strong> every 4 days &rarr; <strong>21 Full Syllabus Tests (F01 to F21)</strong> every 3 days through 29 April 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                 </>
               ) : (
                 <>
@@ -537,9 +606,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             </p>
           </div>
 
-          <div className="flex items-center gap-2 self-start md:self-auto shrink-0">
-            <span className="px-3.5 py-2 rounded-xl bg-blue-50 border border-blue-200 text-blue-800 text-xs font-mono font-bold flex items-center space-x-1.5">
-              <ShieldCheck className="w-4 h-4 text-blue-600" />
+          <div className="flex items-center gap-4 self-start md:self-auto shrink-0">
+            <span className="px-3.5 py-2 rounded-xl bg-orange-50 border border-orange-200 text-orange-800 text-xs font-mono font-bold flex items-center space-x-1.5">
+              <ShieldCheck className="w-4 h-4 text-orange-600" />
               <span>{isAdminAccessGranted ? '✓ Authorized by Admin' : '🔒 Admin Managed'}</span>
             </span>
           </div>
@@ -547,7 +616,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* Track Switcher Segmented Control for Class 11th Batch */}
         {activeBatch === '11th' && (
-          <div className="mt-4 p-2 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-2 items-center">
+          <div className="mt-4 p-3 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-4 items-center">
             <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider px-1">
               Select Track:
             </span>
@@ -558,13 +627,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               }}
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 class11Track === 'track1'
-                  ? 'bg-blue-600 text-white shadow-sm'
+                  ? 'bg-orange-600 text-white shadow-sm'
                   : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
               }`}
             >
               <span>Track 1: Chapterwise, Partwise &amp; Full Syllabus (20 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class11Track === 'track1' ? 'bg-white/20 text-white' : 'bg-blue-100 text-blue-800'}`}>
-                Starts 04 Oct
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class11Track === 'track1' ? 'bg-white/20 text-white' : 'bg-orange-100 text-orange-800'}`}>
+                Starts 11 Oct
               </span>
             </button>
 
@@ -581,7 +650,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             >
               <span>Track 2: CWT &amp; Cumulative Master Planner (20 Tests)</span>
               <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class11Track === 'track2' ? 'bg-white/20 text-white' : 'bg-indigo-100 text-indigo-800'}`}>
-                Starts 04 Oct
+                Starts 11 Oct
               </span>
             </button>
           </div>
@@ -589,7 +658,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* Track Switcher Segmented Control for Class 12th Batch */}
         {activeBatch === '12th' && (
-          <div className="mt-4 p-2 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-2 items-center">
+          <div className="mt-4 p-3 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-4 items-center">
             <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider px-1">
               Select Track:
             </span>
@@ -600,13 +669,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               }}
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 class12Track === 'complete'
-                  ? 'bg-blue-600 text-white shadow-sm'
+                  ? 'bg-orange-600 text-white shadow-sm'
                   : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
               }`}
             >
               <span>Track 1: Complete Syllabus Master Planner (23 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class12Track === 'complete' ? 'bg-white/20 text-white' : 'bg-blue-100 text-blue-800'}`}>
-                Starts 04 Oct
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${class12Track === 'complete' ? 'bg-white/20 text-white' : 'bg-orange-100 text-orange-800'}`}>
+                Starts 11 Oct
               </span>
             </button>
 
@@ -631,7 +700,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* Track Switcher Segmented Control for Repeater / Dropper Batch */}
         {activeBatch === 'repeater' && (
-          <div className="mt-4 p-2 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-2 items-center">
+          <div className="mt-4 p-3 bg-slate-100/90 rounded-2xl border border-slate-200 flex flex-wrap gap-4 items-center">
             <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider px-1">
               Select Track:
             </span>
@@ -642,13 +711,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               }}
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                 repeaterTrack === 'track1'
-                  ? 'bg-blue-600 text-white shadow-sm'
+                  ? 'bg-orange-600 text-white shadow-sm'
                   : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
               }`}
             >
               <span>Track 1: 20-Week Chapterwise (46 Tests)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'track1' ? 'bg-white/20 text-white' : 'bg-blue-100 text-blue-800'}`}>
-                Starts 04 Oct
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'track1' ? 'bg-white/20 text-white' : 'bg-orange-100 text-orange-800'}`}>
+                Starts 11 Oct
               </span>
             </button>
 
@@ -665,7 +734,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             >
               <span>Track 2: 17-Week Fast-Track (46 Tests)</span>
               <span className={`text-[10px] px-2 py-0.5 rounded-full font-mono ${repeaterTrack === 'track2' ? 'bg-white/20 text-white' : 'bg-indigo-100 text-indigo-800'}`}>
-                Starts 04 Oct
+                Starts 11 Oct
               </span>
             </button>
 
@@ -693,9 +762,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           {activeBatch === '11th' ? (
             class11Track === 'track1' ? (
               <>
-                <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">11 Tests (04 Oct - 21 Feb)</div>
+                <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Chapter-Wise</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">11 Tests (11 Oct - 21 Feb)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-indigo-200 shadow-2xs">
@@ -716,9 +785,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               </>
             ) : (
               <>
-                <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">12 Tests (04 Oct - 07 Mar)</div>
+                <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Chapter-Wise</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">12 Tests (11 Oct - 07 Mar)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
@@ -741,9 +810,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           ) : activeBatch === '12th' ? (
             class12Track === 'complete' ? (
               <>
-                <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Part-Wise</div>
-                  <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (04 Oct - 08 Nov)</div>
+                <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Part-Wise</div>
+                  <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (11 Oct - 08 Nov)</div>
                 </div>
 
                 <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
@@ -764,8 +833,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               </>
             ) : (
               <>
-                <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
-                  <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Subject Coverage</div>
+                <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
+                  <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Subject Coverage</div>
                   <div className="text-xl font-bold text-slate-900 mt-0.5">100% Physics (50 Qs)</div>
                 </div>
 
@@ -788,9 +857,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             )
           ) : repeaterTrack === 'track1' ? (
             <>
-              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Chapter-Wise</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">20 Tests (04 Oct - 14 Feb)</div>
+              <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Chapter-Wise</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">20 Tests (11 Oct - 14 Feb)</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-indigo-200 shadow-2xs">
@@ -811,9 +880,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             </>
           ) : repeaterTrack === 'track2' ? (
             <>
-              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Fast-Track</div>
-                <div className="text-xl font-bold text-slate-900 mt-0.5">17 Tests (04 Oct - 24 Jan)</div>
+              <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Phase 1: Fast-Track</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">17 Tests (11 Oct - 24 Jan)</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-indigo-200 shadow-2xs">
@@ -834,8 +903,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             </>
           ) : (
             <>
-              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
-                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Subject 1: Physics</div>
+              <div className="p-3 rounded-xl bg-white border border-orange-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-orange-700 tracking-wider">Subject 1: Physics</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">20 Official Units (50 Qs)</div>
               </div>
 
@@ -861,7 +930,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
       {/* REMINDER SUCCESS TOAST */}
       {reminderSetFor && (
-        <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-900 flex items-start space-x-3 shadow-md animate-in slide-in-from-top-2 duration-200">
+        <div className="p-6 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-900 flex items-start space-x-3 shadow-md animate-in slide-in-from-top-2 duration-200">
           <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
           <div className="space-y-0.5 text-xs">
             <div className="font-bold text-emerald-900">
@@ -930,7 +999,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition cursor-pointer ${
                 activePhaseFilter === f.id && !showRevisionBuffer
-                  ? 'bg-blue-600 text-white shadow-xs'
+                  ? 'bg-orange-600 text-white shadow-xs'
                   : 'bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200'
               }`}
             >
@@ -961,7 +1030,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             placeholder="Search test code or chapter..."
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
-            className="w-full pl-8 pr-3 py-1.5 rounded-xl bg-slate-50 border border-slate-300 text-xs text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none focus:border-blue-500"
+            className="w-full pl-8 pr-3 py-1.5 rounded-xl bg-slate-50 border border-slate-300 text-xs text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none focus:border-orange-500"
           />
         </div>
       </div>
@@ -969,9 +1038,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       {/* 12th BATCH REVISION & ANALYSIS BUFFER PANEL */}
       {activeBatch === '12th' && showRevisionBuffer && (
         <div className="p-5 rounded-2xl bg-gradient-to-br from-purple-50/80 via-white to-indigo-50/50 border border-purple-200 shadow-xs space-y-4 animate-in fade-in duration-200">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-purple-100 pb-3">
-            <div className="flex items-center gap-2.5">
-              <span className="p-2 rounded-xl bg-purple-600 text-white shadow-2xs">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-purple-100 pb-3">
+            <div className="flex items-center gap-4.5">
+              <span className="p-3 rounded-xl bg-purple-600 text-white shadow-2xs">
                 <Sparkles className="w-4 h-4 text-amber-300" />
               </span>
               <div>
@@ -1008,7 +1077,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 <div className="text-xs font-bold text-slate-900">
                   {stage.action}
                 </div>
-                <div className="text-[11px] text-slate-600 leading-relaxed bg-purple-50/40 p-2 rounded-lg border border-purple-100/60">
+                <div className="text-[11px] text-slate-600 leading-relaxed bg-purple-50/40 p-3 rounded-lg border border-purple-100/60">
                   <span className="font-bold text-purple-900">Output:</span> {stage.output}
                 </div>
               </div>
@@ -1021,7 +1090,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       <div className="space-y-3">
         <div className="flex items-center justify-between px-1">
           <h2 className="text-sm font-bold text-slate-800 flex items-center gap-1.5">
-            <Calendar className="w-4 h-4 text-blue-600" />
+            <Calendar className="w-4 h-4 text-orange-600" />
             <span>Showing {currentDisplayTests.length} {activeBatch === '12th' ? 'Scheduled Tests' : 'Scheduled Sunday Tests'}</span>
           </h2>
           <span className="text-xs font-mono font-semibold text-slate-500">
@@ -1032,18 +1101,57 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         <div className="grid grid-cols-1 gap-3.5">
           {currentDisplayTests.map((mock: SundayPlannerTest) => {
             const isLive = isSundayToday;
+            
+            const paperLookupKey = activeBatch !== 'repeater' ? `${activeBatch}-${mock.code}` : mock.code;
+            const customPaper = localCustomPapers[paperLookupKey] || localCustomPapers[mock.code] || localCustomPapers[paperLookupKey.toLowerCase()] || localCustomPapers[mock.code.toLowerCase()];
+            
+            const displayTitle = customPaper?.testTitle ? `${mock.code}: ${customPaper.testTitle}` : mock.title;
+            const displayDesc = customPaper?.description || mock.objective || mock.description;
+            
+            const displayPhysics = customPaper?.customChapters?.physics?.length ? customPaper.customChapters.physics.join(', ') : mock.physicsUnit;
+            const displayChemistry = customPaper?.customChapters?.chemistry?.length ? customPaper.customChapters.chemistry.join(', ') : mock.chemistryUnit;
+            const displayBotany = customPaper?.customChapters?.biology?.length ? customPaper.customChapters.biology.join(', ') : mock.botanyBlock;
+            const displayZoology = customPaper?.customChapters?.biology?.length ? "Combined with Botany above" : mock.zoologyBlock;
+
+            // Compute dynamic questions if custom paper is loaded
+            let phyCount = 0, chemCount = 0, botCount = 0, zooCount = 0;
+            const isPCTest = mock.code.startsWith('PC-');
+            if (customPaper && Array.isArray(customPaper.questions)) {
+              customPaper.questions.forEach(q => {
+                if (q.subject === 'Physics') phyCount++;
+                if (q.subject === 'Chemistry') chemCount++;
+                if (q.subject === 'Botany') botCount++;
+                if (q.subject === 'Zoology') zooCount++;
+                if (q.subject === 'Biology') {
+                  if (q.chapter && q.chapter.toLowerCase().includes('zoology')) zooCount++;
+                  else botCount++;
+                }
+              });
+            } else {
+              phyCount = isPCTest ? 50 : 45;
+              chemCount = isPCTest ? 50 : 45;
+              botCount = isPCTest ? 0 : 45;
+              zooCount = isPCTest ? 0 : 45;
+            }
+            
+            const totalDynamicQs = phyCount + chemCount + botCount + zooCount;
+            const totalDynamicMarks = totalDynamicQs * 4;
+            const dynamicDuration = mock.durationMinutes || (isPCTest ? 120 : 180);
+
+            const hasEdits = !!customPaper;
+
             return (
               <div
                 key={mock.id}
                 className={`p-5 rounded-2xl border transition hover:shadow-md flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 ${
                   isLive && isAdminAccessGranted
-                    ? 'bg-gradient-to-br from-blue-50/70 via-white to-cyan-50/40 border-blue-400 shadow-sm'
+                    ? 'bg-gradient-to-br from-orange-50/70 via-white to-cyan-50/40 border-orange-400 shadow-sm'
                     : 'bg-white border-slate-200'
                 }`}
               >
                 <div className="space-y-2 flex-1 w-full">
                   {/* Test Badges Row */}
-                  <div className="flex flex-wrap items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-4">
                     <span
                       className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase font-mono tracking-wider flex items-center gap-1 ${
                         isLive && isAdminAccessGranted
@@ -1060,7 +1168,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       const isCum = mock.phaseGroup === 'cumulative' || mock.code.startsWith('CUM-');
                       const isPart = mock.code.startsWith('PART') || mock.code.startsWith('PT-') || mock.phaseGroup === 'part';
                       
-                      let badgeColorClass = 'text-blue-700 bg-blue-50 border-blue-200';
+                      let badgeColorClass = 'text-orange-700 bg-orange-50 border-orange-200';
                       if (isMock) {
                         badgeColorClass = 'text-amber-800 bg-amber-50 border-amber-300';
                       } else if (isFull && !isMock) {
@@ -1079,7 +1187,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     })()}
 
                     <span className="text-xs font-mono text-slate-600 bg-slate-50 border border-slate-200 px-2 py-0.5 rounded-lg">
-                      {mock.totalMarks || 720} Marks &bull; {mock.durationMinutes || 180} Mins &bull; {mock.totalQuestions || 180} Qs
+                      {totalDynamicMarks} Marks &bull; {dynamicDuration} Mins &bull; {totalDynamicQs} Qs
+                      {hasEdits && <span className="ml-1.5 text-orange-600 font-bold">(Edited by Admin)</span>}
                     </span>
 
                     {isSundayTestUnlocked ? (
@@ -1100,75 +1209,75 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   {/* Title & Objective */}
                   <div>
                     <h3 className="text-base font-bold text-slate-900 leading-snug">
-                      {mock.title}
+                      {displayTitle}
                     </h3>
                     <p className="text-xs text-slate-600 mt-0.5 leading-relaxed">
-                      {mock.objective || mock.description}
+                      {displayDesc}
                     </p>
                   </div>
 
                   {/* Exact Syllabus Breakdown Grid (2 Cols for PC, 4 Cols for 4 Subjects) */}
                   {mock.code.startsWith('PC-') ? (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1.5">
-                      <div className="p-2.5 rounded-xl bg-blue-50/70 border border-blue-200 text-xs">
-                        <div className="text-[10px] font-bold text-blue-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-blue-600" /> Physics</span>
-                          <span className="font-mono text-blue-600">50 Qs &bull; 200M</span>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1.5">
+                      <div className="p-3.5 rounded-xl bg-orange-50/70 border border-orange-200 text-xs">
+                        <div className="text-[10px] font-bold text-orange-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-orange-600" /> Physics</span>
+                          <span className="font-mono text-orange-600">{phyCount} Qs &bull; {phyCount * 4}M</span>
                         </div>
-                        <div className="text-[11px] font-semibold text-blue-950 mt-1 leading-snug">
-                          {mock.physicsUnit}
+                        <div className="text-[11px] font-semibold text-orange-950 mt-1 leading-snug">
+                          {displayPhysics}
                         </div>
                       </div>
 
-                      <div className="p-2.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
+                      <div className="p-3.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
                         <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
                           <span className="flex items-center gap-1"><Atom className="w-3 h-3 text-emerald-600" /> Chemistry</span>
-                          <span className="font-mono text-emerald-600">50 Qs &bull; 200M</span>
+                          <span className="font-mono text-emerald-600">{chemCount} Qs &bull; {chemCount * 4}M</span>
                         </div>
                         <div className="text-[11px] font-semibold text-emerald-950 mt-1 leading-snug">
-                          {mock.chemistryUnit}
+                          {displayChemistry}
                         </div>
                       </div>
                     </div>
                   ) : (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 pt-1.5">
-                      <div className="p-2.5 rounded-xl bg-blue-50/70 border border-blue-200 text-xs">
-                        <div className="text-[10px] font-bold text-blue-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-blue-600" /> Physics</span>
-                          <span className="font-mono text-blue-600">45 Qs &bull; 180M</span>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-1.5">
+                      <div className="p-3.5 rounded-xl bg-orange-50/70 border border-orange-200 text-xs">
+                        <div className="text-[10px] font-bold text-orange-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-orange-600" /> Physics</span>
+                          <span className="font-mono text-orange-600">{phyCount} Qs &bull; {phyCount * 4}M</span>
                         </div>
-                        <div className="text-[11px] font-semibold text-blue-950 mt-1 leading-snug">
-                          {mock.physicsUnit}
+                        <div className="text-[11px] font-semibold text-orange-950 mt-1 leading-snug">
+                          {displayPhysics}
                         </div>
                       </div>
 
-                      <div className="p-2.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
+                      <div className="p-3.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
                         <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
                           <span className="flex items-center gap-1"><Atom className="w-3 h-3 text-emerald-600" /> Chemistry</span>
-                          <span className="font-mono text-emerald-600">45 Qs &bull; 180M</span>
+                          <span className="font-mono text-emerald-600">{chemCount} Qs &bull; {chemCount * 4}M</span>
                         </div>
                         <div className="text-[11px] font-semibold text-emerald-950 mt-1 leading-snug">
-                          {mock.chemistryUnit}
+                          {displayChemistry}
                         </div>
                       </div>
 
-                      <div className="p-2.5 rounded-xl bg-teal-50/70 border border-teal-200 text-xs">
+                      <div className="p-3.5 rounded-xl bg-teal-50/70 border border-teal-200 text-xs">
                         <div className="text-[10px] font-bold text-teal-800 uppercase flex items-center justify-between">
                           <span className="flex items-center gap-1"><BookOpen className="w-3 h-3 text-teal-600" /> Botany</span>
-                          <span className="font-mono text-teal-600">45 Qs &bull; 180M</span>
+                          <span className="font-mono text-teal-600">{botCount} Qs &bull; {botCount * 4}M</span>
                         </div>
                         <div className="text-[11px] font-semibold text-teal-950 mt-1 leading-snug">
-                          {mock.botanyBlock}
+                          {displayBotany}
                         </div>
                       </div>
 
-                      <div className="p-2.5 rounded-xl bg-purple-50/70 border border-purple-200 text-xs">
+                      <div className="p-3.5 rounded-xl bg-purple-50/70 border border-purple-200 text-xs">
                         <div className="text-[10px] font-bold text-purple-800 uppercase flex items-center justify-between">
                           <span className="flex items-center gap-1"><Dna className="w-3 h-3 text-purple-600" /> Zoology</span>
-                          <span className="font-mono text-purple-600">45 Qs &bull; 180M</span>
+                          <span className="font-mono text-purple-600">{zooCount} Qs &bull; {zooCount * 4}M</span>
                         </div>
                         <div className="text-[11px] font-semibold text-purple-950 mt-1 leading-snug">
-                          {mock.zoologyBlock}
+                          {displayZoology}
                         </div>
                       </div>
                     </div>
@@ -1176,14 +1285,14 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 </div>
 
                 {/* Action CTAs */}
-                <div className="flex flex-wrap lg:flex-col items-stretch sm:items-center lg:items-end gap-2 shrink-0 self-stretch lg:self-center">
+                <div className="flex flex-wrap lg:flex-col items-stretch sm:items-center lg:items-end gap-4 shrink-0 self-stretch lg:self-center">
                   <button
                     onClick={() => handleLaunchDirectSundayTest(mock)}
                     className={`px-5 py-3 rounded-xl text-white text-xs font-bold shadow-md transition flex items-center justify-center space-x-2 cursor-pointer w-full sm:w-auto ${
                       isSundayTestUnlocked
                         ? isLive
-                          ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 shadow-blue-500/20'
-                          : 'bg-blue-600 hover:bg-blue-700'
+                          ? 'bg-gradient-to-r from-orange-600 via-indigo-600 to-cyan-600 hover:from-orange-700 hover:to-cyan-700 shadow-blue-500/20'
+                          : 'bg-orange-600 hover:bg-orange-700'
                         : isAdminAccessGranted && !isSundayToday
                         ? 'bg-slate-700 hover:bg-slate-800 border border-slate-600'
                         : 'bg-slate-800 hover:bg-slate-900 border border-slate-700'
@@ -1191,16 +1300,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   >
                     {isSundayTestUnlocked ? (
                       <>
-                        <Play className="w-4 h-4 fill-current" />
-                        <span>
-                          {mock.code.startsWith('PC-')
-                            ? 'Start Physics & Chemistry Test (400M)'
-                            : isLive
-                            ? 'Start Live Sunday Test (720M)'
-                            : activeBatch === '12th'
-                            ? 'Start Scheduled Test (720M)'
-                            : 'Start Sunday Test (720M)'}
-                        </span>
+                        <Play className="w-4 h-4" />
+                        <span>Test in CBT</span>
                       </>
                     ) : isAdminAccessGranted && !isSundayToday ? (
                       <>
@@ -1228,13 +1329,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
       {/* Admin Authorization Required Modal */}
       {showAdminApprovalModal && (
-        <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto animate-in fade-in duration-200">
+        <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
           <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-in zoom-in-95 duration-200 text-slate-900">
             {/* Header */}
             <div className={`p-5 text-white flex items-center justify-between ${
               isAdminAccessGranted && !isSundayToday
-                ? 'bg-gradient-to-r from-cyan-700 via-blue-800 to-slate-900'
-                : 'bg-gradient-to-r from-blue-700 via-indigo-700 to-slate-900'
+                ? 'bg-gradient-to-r from-cyan-700 via-orange-800 to-slate-900'
+                : 'bg-gradient-to-r from-orange-700 via-indigo-700 to-slate-900'
             }`}>
               <div className="space-y-1">
                 <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase font-mono ${
@@ -1244,7 +1345,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 }`}>
                   {isAdminAccessGranted && !isSundayToday ? '✓ Candidate Authorized' : 'Administrator Authorization Required'}
                 </span>
-                <h3 className="text-lg font-bold flex items-center gap-2">
+                <h3 className="text-lg font-bold flex items-center gap-4">
                   {isAdminAccessGranted && !isSundayToday ? (
                     <>
                       <Calendar className="w-5 h-5 text-cyan-300" />
@@ -1288,16 +1389,16 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               </p>
 
               {/* Student Identification Card */}
-              <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-xs">
+              <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-xs">
                 <div className="font-bold text-slate-800 flex items-center gap-1.5">
-                  <KeyRound className="w-4 h-4 text-blue-600" /> Candidate Verification Details:
+                  <KeyRound className="w-4 h-4 text-orange-600" /> Candidate Verification Details:
                 </div>
-                <div className="grid grid-cols-2 gap-2 text-[11px] font-mono">
+                <div className="grid grid-cols-2 gap-4 text-[11px] font-mono">
                   <div>
                     <span className="text-slate-500">Student:</span> <span className="font-bold text-slate-900">{studentName || 'Registered Student'}</span>
                   </div>
                   <div>
-                    <span className="text-slate-500">Roll No:</span> <span className="font-bold text-blue-700">{rollNumber || 'Enrolled'}</span>
+                    <span className="text-slate-500">Roll No:</span> <span className="font-bold text-orange-700">{rollNumber || 'Enrolled'}</span>
                   </div>
                   <div>
                     <span className="text-slate-500">Contact:</span> <span className="font-bold text-slate-800">{studentPhone ? `+91 ${studentPhone}` : 'Enrolled Profile'}</span>
@@ -1314,7 +1415,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               </div>
 
               {accessRequestSent ? (
-                <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-900 flex items-start space-x-3 animate-in fade-in">
+                <div className="p-6 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-900 flex items-start space-x-3 animate-in fade-in">
                   <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div className="space-y-0.5 text-xs">
                     <div className="font-bold text-emerald-950">✓ Access Request Sent to Admin Portal!</div>
@@ -1330,7 +1431,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 {!isAdminAccessGranted && !accessRequestSent && (
                   <button
                     onClick={handleSendAccessRequest}
-                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
+                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-orange-600 to-indigo-600 hover:from-orange-700 hover:to-indigo-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
                   >
                     <Send className="w-4 h-4" />
                     <span>Send Access Request to Administrator</span>

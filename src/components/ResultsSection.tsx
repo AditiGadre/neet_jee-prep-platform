@@ -24,7 +24,7 @@ export const ResultsSection: React.FC = () => {
     <div className="space-y-4">
       {/* Header Banner */}
       <div className="bg-white border border-gray-200 rounded-lg p-5 shadow-xs">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-amber-50 text-amber-800 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-amber-200">
               <Trophy className="w-3 h-3 text-amber-600" />
@@ -40,20 +40,20 @@ export const ResultsSection: React.FC = () => {
         </div>
 
         {/* Admission Statistics Numbers */}
-        <div className="mt-4 pt-3 border-t border-gray-100 grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-          <div className="p-2.5 rounded bg-gray-50 border border-gray-200 text-center">
+        <div className="mt-4 pt-3 border-t border-gray-100 grid grid-cols-2 sm:grid-cols-4 gap-4.5">
+          <div className="p-3.5 rounded bg-gray-50 border border-gray-200 text-center">
             <div className="text-base sm:text-lg font-bold text-amber-600 font-mono">AIR 1</div>
             <div className="text-[11px] text-gray-500">All India Rank 1 (NEET)</div>
           </div>
-          <div className="p-2.5 rounded bg-gray-50 border border-gray-200 text-center">
+          <div className="p-3.5 rounded bg-gray-50 border border-gray-200 text-center">
             <div className="text-base sm:text-lg font-bold text-emerald-600 font-mono">94.8%</div>
             <div className="text-[11px] text-gray-500">Qualification Rate</div>
           </div>
-          <div className="p-2.5 rounded bg-gray-50 border border-gray-200 text-center">
-            <div className="text-base sm:text-lg font-bold text-blue-600 font-mono">14,200+</div>
+          <div className="p-3.5 rounded bg-gray-50 border border-gray-200 text-center">
+            <div className="text-base sm:text-lg font-bold text-orange-600 font-mono">14,200+</div>
             <div className="text-[11px] text-gray-500">Govt MBBS & IIT Admits</div>
           </div>
-          <div className="p-2.5 rounded bg-gray-50 border border-gray-200 text-center">
+          <div className="p-3.5 rounded bg-gray-50 border border-gray-200 text-center">
             <div className="text-base sm:text-lg font-bold text-purple-600 font-mono">450+</div>
             <div className="text-[11px] text-gray-500">AIIMS & JIPMER Selections</div>
           </div>
@@ -68,7 +68,7 @@ export const ResultsSection: React.FC = () => {
             onClick={() => setFilterExam(f as any)}
             className={`px-3 py-1.5 rounded text-xs font-semibold transition-colors ${
               filterExam === f
-                ? 'bg-blue-600 text-white shadow-xs'
+                ? 'bg-orange-600 text-white shadow-xs'
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
             }`}
           >
@@ -82,7 +82,7 @@ export const ResultsSection: React.FC = () => {
         {filteredRankers.map(ranker => (
           <div
             key={ranker.id}
-            className="rounded-lg bg-white border border-gray-200 p-4 flex flex-col justify-between hover:border-gray-300 transition-colors shadow-xs"
+            className="rounded-lg bg-white border border-gray-200 p-6 flex flex-col justify-between hover:border-gray-300 transition-colors shadow-xs"
           >
             <div>
               <div className="flex items-start justify-between gap-3 mb-3">
@@ -96,7 +96,7 @@ export const ResultsSection: React.FC = () => {
                   <div>
                     <h3 className="text-xs sm:text-sm font-bold text-gray-900">{ranker.name}</h3>
                     <div className="text-[11px] text-gray-500 flex items-center space-x-1 mt-0.5">
-                      <Building2 className="w-3 h-3 text-blue-600" />
+                      <Building2 className="w-3 h-3 text-orange-600" />
                       <span className="text-gray-700 font-semibold">{ranker.college}</span>
                     </div>
                   </div>
@@ -147,9 +147,9 @@ export const ResultsSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-1">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4.5 pt-1">
           {[
-            { title: 'AIIMS Delhi Felicitation', sub: 'Class of 2024 Honours' },
+            { title: 'AIIMS Delhi Felicitation', sub: 'Class of 2026 Honours' },
             { title: 'IIT Bombay Batch Meet', sub: '120+ Selections' },
             { title: 'Annual Toppers Award', sub: 'Cash Grants & Medals' },
             { title: 'Parent & Mentor Summit', sub: 'National Convention' }

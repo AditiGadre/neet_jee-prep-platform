@@ -30,12 +30,12 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-4 overflow-y-auto">
+    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-6 overflow-y-auto">
       <div className="w-full max-w-2xl bg-white border border-gray-200 rounded-lg shadow-xl overflow-hidden flex flex-col text-gray-900 animate-in zoom-in-95 duration-150">
         {/* Header */}
         <div className="px-5 py-3.5 bg-gray-50 border-b border-gray-200 flex items-center justify-between">
           <div className="flex items-center space-x-2.5">
-            <div className="w-8 h-8 rounded bg-blue-50 text-blue-700 flex items-center justify-center border border-blue-200">
+            <div className="w-8 h-8 rounded bg-orange-50 text-orange-700 flex items-center justify-center border border-orange-200">
               <BookMarked className="w-4 h-4" />
             </div>
             <div>
@@ -68,7 +68,7 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
 
           {/* Chapter Sample Section */}
           <div className="space-y-2.5">
-            <h3 className="text-xs font-bold text-blue-700 uppercase tracking-wider">
+            <h3 className="text-xs font-bold text-orange-700 uppercase tracking-wider">
               High-Yield Key Chapters & Notes Preview
             </h3>
 
@@ -88,7 +88,7 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
               <div className="p-3.5 rounded bg-white border border-gray-200 space-y-1.5">
                 <div className="flex items-center justify-between text-xs font-bold text-gray-900">
                   <span>Chapter 02: Formulas, Reagents & Reaction Flowcharts</span>
-                  <span className="text-blue-700 text-[10px] px-1.5 py-0.2 rounded bg-blue-50 border border-blue-200">Rapid Memory Tables</span>
+                  <span className="text-orange-700 text-[10px] px-1.5 py-0.2 rounded bg-orange-50 border border-orange-200">Rapid Memory Tables</span>
                 </div>
                 <p className="text-xs text-gray-600 leading-relaxed">
                   &bull; 1-Page cheat sheets for quick morning revision before every mock test.
@@ -107,7 +107,7 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
           </div>
           <button
             onClick={handleDownload}
-            className="px-4 py-2 rounded bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs flex items-center space-x-1.5 shadow-xs transition-colors"
+            className="px-4 py-2 rounded bg-orange-600 hover:bg-orange-700 text-white font-semibold text-xs flex items-center space-x-1.5 shadow-xs transition-colors"
           >
             {downloaded ? (
               <>

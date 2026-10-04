@@ -307,7 +307,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               <Globe className="w-6 h-6 animate-pulse" />
             </div>
             <div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-4">
                 <h2 className="text-xl font-bold text-white tracking-tight">Central Question-Bank Publishing System</h2>
                 <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
                   <CheckCircle2 className="w-3 h-3" />
@@ -333,7 +333,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             {/* Publish Action Button */}
             <button
               onClick={() => setIsPublishModalOpen(true)}
-              className="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-emerald-950/50 flex items-center gap-2 transition active:scale-95"
+              className="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-emerald-950/50 flex items-center gap-4 transition active:scale-95"
             >
               <Send className="w-4 h-4" />
               Publish Live to 1M+ Students
@@ -342,7 +342,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             {onClose && (
               <button 
                 onClick={onClose}
-                className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition"
+                className="p-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -353,7 +353,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
         {/* Global Notifications */}
         {publishSuccessMsg && (
           <div className="mt-4 p-3 bg-emerald-500/20 border border-emerald-500/40 rounded-xl text-emerald-200 text-xs flex items-center justify-between">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-4">
               <CheckCircle2 className="w-4 h-4 text-emerald-400" />
               <span>{publishSuccessMsg}</span>
             </div>
@@ -365,10 +365,10 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
         {/* Navigation Tabs */}
         <div className="flex items-center justify-between mt-6 pt-4 border-t border-slate-800/60">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             <button
               onClick={() => setActiveTab('editor')}
-              className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 ${
+              className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-4 ${
                 activeTab === 'editor'
                   ? 'bg-indigo-600 text-white shadow-md'
                   : 'bg-slate-800/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
@@ -379,7 +379,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             </button>
             <button
               onClick={() => setActiveTab('history')}
-              className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 ${
+              className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-4 ${
                 activeTab === 'history'
                   ? 'bg-indigo-600 text-white shadow-md'
                   : 'bg-slate-800/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
@@ -390,7 +390,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             </button>
             <button
               onClick={() => setActiveTab('simulator')}
-              className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 ${
+              className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-4 ${
                 activeTab === 'simulator'
                   ? 'bg-indigo-600 text-white shadow-md'
                   : 'bg-slate-800/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
@@ -421,7 +421,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
           <div>
             {/* Sub-header Filter & Actions Bar */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6">
-              <div className="flex items-center gap-2 w-full sm:w-auto">
+              <div className="flex items-center gap-4 w-full sm:w-auto">
                 <div className="relative flex-1 sm:w-72">
                   <Search className="w-4 h-4 absolute left-3 top-2.5 text-slate-500" />
                   <input
@@ -488,7 +488,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
             {/* Questions Table */}
             {isLoading && questions.length === 0 ? (
-              <div className="py-20 text-center text-slate-500 text-xs flex flex-col items-center gap-2">
+              <div className="py-20 text-center text-slate-500 text-xs flex flex-col items-center gap-4">
                 <RefreshCw className="w-6 h-6 animate-spin text-indigo-400" />
                 <span>Loading authoritative questions from central database...</span>
               </div>
@@ -501,7 +501,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 {filteredQuestions.map((q, idx) => (
                   <div
                     key={q.id}
-                    className="p-4 rounded-xl bg-slate-800/60 border border-slate-700/60 hover:border-slate-600 transition flex flex-col md:flex-row items-start md:items-center justify-between gap-4"
+                    className="p-6 rounded-xl bg-slate-800/60 border border-slate-700/60 hover:border-slate-600 transition flex flex-col md:flex-row items-start md:items-center justify-between gap-4"
                   >
                     <div className="flex items-start gap-3 flex-1 min-w-0">
                       {/* Reorder Buttons */}
@@ -527,7 +527,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
                       {/* Question Content */}
                       <div className="flex-1 min-w-0">
-                        <div className="flex flex-wrap items-center gap-2 mb-1.5">
+                        <div className="flex flex-wrap items-center gap-4 mb-1.5">
                           <span className="font-mono text-xs text-indigo-400 font-bold">{q.id}</span>
                           <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-700 text-slate-300">
                             {q.subject} &bull; {q.chapter}
@@ -557,7 +557,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                         </p>
 
                         {/* Options preview */}
-                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-2">
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
                           {q.options.map((opt, oIdx) => (
                             <div
                               key={oIdx}
@@ -576,7 +576,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                     </div>
 
                     {/* Action Buttons */}
-                    <div className="flex items-center gap-2 self-end md:self-center">
+                    <div className="flex items-center gap-4 self-end md:self-center">
                       <button
                         onClick={() => {
                           setEditingQuestion({ ...q });
@@ -624,7 +624,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 {history.map((ver) => (
                   <div
                     key={ver.versionId}
-                    className={`p-4 rounded-xl border transition flex flex-col md:flex-row items-start md:items-center justify-between gap-4 ${
+                    className={`p-6 rounded-xl border transition flex flex-col md:flex-row items-start md:items-center justify-between gap-4 ${
                       ver.isCurrent
                         ? 'bg-emerald-950/20 border-emerald-500/50 shadow-lg shadow-emerald-950/30'
                         : 'bg-slate-800/60 border-slate-700/60'
@@ -642,7 +642,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                       </div>
 
                       <div>
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-4">
                           <span className="font-bold text-sm text-white">{ver.summary}</span>
                           {ver.isCurrent && (
                             <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
@@ -697,7 +697,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 <button
                   onClick={run1MStudentReadSimulation}
                   disabled={isSimulating}
-                  className="px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow flex items-center gap-2 transition"
+                  className="px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow flex items-center gap-4 transition"
                 >
                   <Zap className="w-4 h-4" />
                   {isSimulating ? 'Simulating 100 Concurrent Student Reads...' : 'Run 100-Read Edge Benchmark'}
@@ -707,25 +707,25 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
             {simResults && (
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                <div className="p-4 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
+                <div className="p-6 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
                   <div className="text-[10px] uppercase font-bold text-slate-400">Edge Cache Hit Ratio</div>
                   <div className="text-2xl font-bold text-emerald-400 mt-1">{simResults.cacheHitRatio.toFixed(1)}%</div>
                   <div className="text-[10px] text-slate-500 mt-0.5">Offloaded from Origin DB</div>
                 </div>
 
-                <div className="p-4 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
+                <div className="p-6 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
                   <div className="text-[10px] uppercase font-bold text-slate-400">Average Read Latency</div>
                   <div className="text-2xl font-bold text-indigo-400 mt-1">{simResults.avgLatencyMs} ms</div>
                   <div className="text-[10px] text-slate-500 mt-0.5">Min: {simResults.minLatencyMs}ms / Max: {simResults.maxLatencyMs}ms</div>
                 </div>
 
-                <div className="p-4 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
+                <div className="p-6 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
                   <div className="text-[10px] uppercase font-bold text-slate-400">Database Load Under Test</div>
                   <div className="text-2xl font-bold text-emerald-400 mt-1">{simResults.dbConnectionsUsed} Conns</div>
                   <div className="text-[10px] text-slate-500 mt-0.5">Zero DB strain at 1M scale</div>
                 </div>
 
-                <div className="p-4 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
+                <div className="p-6 rounded-xl bg-slate-800/80 border border-slate-700 text-center">
                   <div className="text-[10px] uppercase font-bold text-slate-400">Propagation Window SLA</div>
                   <div className="text-2xl font-bold text-amber-400 mt-1">&le; {simResults.staleWindowSeconds}s</div>
                   <div className="text-[10px] text-slate-500 mt-0.5">Global sync guarantee</div>
@@ -738,7 +738,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
       {/* MODAL: EDIT / CREATE DRAFT QUESTION */}
       {editingQuestion && (
-        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-6">
           <div className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-2xl p-6">
             <div className="flex items-center justify-between border-b border-slate-800 pb-4 mb-4">
               <div>
@@ -755,7 +755,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             </div>
 
             {conflictError && (
-              <div className="p-3 mb-4 bg-rose-500/20 border border-rose-500/40 rounded-xl text-rose-200 text-xs flex items-start gap-2">
+              <div className="p-3 mb-4 bg-rose-500/20 border border-rose-500/40 rounded-xl text-rose-200 text-xs flex items-start gap-4">
                 <AlertTriangle className="w-4 h-4 text-rose-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="font-bold">Concurrency Protection Notice</div>
@@ -771,7 +771,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   <select
                     value={editingQuestion.subject || 'Physics'}
                     onChange={(e) => setEditingQuestion({ ...editingQuestion, subject: e.target.value as any })}
-                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white focus:outline-none focus:border-indigo-500"
+                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
                   >
                     <option value="Physics">Physics</option>
                     <option value="Chemistry">Chemistry</option>
@@ -784,7 +784,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                     type="text"
                     value={editingQuestion.chapter || ''}
                     onChange={(e) => setEditingQuestion({ ...editingQuestion, chapter: e.target.value })}
-                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white focus:outline-none focus:border-indigo-500"
+                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
                     required
                   />
                 </div>
@@ -793,7 +793,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   <select
                     value={editingQuestion.difficulty || 'Medium'}
                     onChange={(e) => setEditingQuestion({ ...editingQuestion, difficulty: e.target.value as any })}
-                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white focus:outline-none focus:border-indigo-500"
+                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
                   >
                     <option value="Easy">Easy</option>
                     <option value="Medium">Medium</option>
@@ -808,7 +808,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   value={editingQuestion.questionText || ''}
                   onChange={(e) => setEditingQuestion({ ...editingQuestion, questionText: e.target.value })}
                   rows={3}
-                  className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
                   required
                 />
               </div>
@@ -818,7 +818,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 <label className="block text-slate-400 mb-1 font-semibold">Options & Correct Answer</label>
                 <div className="space-y-2">
                   {(editingQuestion.options || ['', '', '', '']).map((opt, i) => (
-                    <div key={i} className="flex items-center gap-2">
+                    <div key={i} className="flex items-center gap-4">
                       <input
                         type="radio"
                         name="correctAnswer"
@@ -836,7 +836,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                           setEditingQuestion({ ...editingQuestion, options: newOpts });
                         }}
                         placeholder={`Option ${String.fromCharCode(65 + i)} text`}
-                        className="flex-1 bg-slate-800 border border-slate-700 rounded-lg p-2 text-white focus:outline-none focus:border-indigo-500"
+                        className="flex-1 bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
                         required
                       />
                     </div>
@@ -850,7 +850,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   value={editingQuestion.explanation || ''}
                   onChange={(e) => setEditingQuestion({ ...editingQuestion, explanation: e.target.value })}
                   rows={2}
-                  className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-indigo-500"
                 />
               </div>
 
@@ -865,7 +865,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 <button
                   type="submit"
                   disabled={isSaving}
-                  className="px-5 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-bold transition flex items-center gap-2"
+                  className="px-5 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-bold transition flex items-center gap-4"
                 >
                   {isSaving ? 'Saving to Central DB...' : isCreatingNew ? 'Create Draft' : 'Save Draft Edits'}
                 </button>
@@ -877,7 +877,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
       {/* MODAL: PUBLISH TO 1,000,000+ STUDENTS */}
       {isPublishModalOpen && (
-        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-6">
           <div className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-lg shadow-2xl p-6">
             <div className="flex items-center gap-3 border-b border-slate-800 pb-4 mb-4">
               <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400">
@@ -889,7 +889,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               </div>
             </div>
 
-            <div className="bg-slate-800/60 rounded-xl p-4 border border-slate-700/60 mb-4 text-xs space-y-2">
+            <div className="bg-slate-800/60 rounded-xl p-6 border border-slate-700/60 mb-4 text-xs space-y-2">
               <div className="flex justify-between">
                 <span className="text-slate-400">Total Questions to Publish:</span>
                 <span className="font-bold text-white">{counts.total} Questions</span>
@@ -931,7 +931,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               <button
                 onClick={handlePublish}
                 disabled={isPublishing}
-                className="px-5 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center gap-2"
+                className="px-5 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center gap-4"
               >
                 {isPublishing ? 'Promoting Snapshot...' : 'Confirm & Publish Live'}
               </button>
@@ -942,7 +942,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
       {/* MODAL: ROLLBACK CONFIRMATION */}
       {rollbackTarget && (
-        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-6">
           <div className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-md shadow-2xl p-6">
             <div className="flex items-center gap-3 border-b border-slate-800 pb-4 mb-4 text-amber-400">
               <RotateCcw className="w-6 h-6" />

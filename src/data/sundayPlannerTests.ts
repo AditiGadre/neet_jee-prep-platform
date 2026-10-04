@@ -155,7 +155,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-01',
     code: 'CW-01',
-    dateStr: '2026-10-04',
+    dateStr: '2026-10-11',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-01: Unit & Measurement, Some Basic Concepts in Chemistry, The Living World",
@@ -176,7 +176,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-02',
     code: 'CW-02',
-    dateStr: '2026-10-11',
+    dateStr: '2026-10-18',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-02: Motion in 1D & 2D, Atomic Structure, Biological Classification",
@@ -197,7 +197,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-03',
     code: 'CW-03',
-    dateStr: '2026-10-18',
+    dateStr: '2026-10-25',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-03: Laws of Motion, Periodicity, Plant Kingdom",
@@ -218,7 +218,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-04',
     code: 'CW-04',
-    dateStr: '2026-10-25',
+    dateStr: '2026-11-01',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-04: Work, Energy and Power, Chemical Bonding, Animal Kingdom",
@@ -239,7 +239,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-05',
     code: 'CW-05',
-    dateStr: '2026-11-01',
+    dateStr: '2026-11-08',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-05: Rotational Motion, Thermodynamics, Morphology of Flowering Plants",
@@ -260,7 +260,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-06',
     code: 'CW-06',
-    dateStr: '2026-11-08',
+    dateStr: '2026-11-15',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-06: Gravitation, Equilibrium, Anatomy of Flowering Plants",
@@ -281,7 +281,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-07',
     code: 'CW-07',
-    dateStr: '2026-11-15',
+    dateStr: '2026-11-22',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-07: Properties of Solids & Fluids, Redox & Electrochemistry, Structural Organisation",
@@ -302,7 +302,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-08',
     code: 'CW-08',
-    dateStr: '2026-11-22',
+    dateStr: '2026-11-29',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-08: Thermal Properties of Matter, Chemical Kinetics, Cell: The Unit of Life",
@@ -323,7 +323,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-09',
     code: 'CW-09',
-    dateStr: '2026-11-29',
+    dateStr: '2026-12-06',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-09: Thermodynamics & KTG, p-Block, Biomolecules, Cell Cycle",
@@ -344,7 +344,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-10',
     code: 'CW-10',
-    dateStr: '2026-12-06',
+    dateStr: '2026-12-13',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-10: Oscillations & Waves, d- and f-Block, Photosynthesis & Respiration",
@@ -365,7 +365,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-11',
     code: 'CW-11',
-    dateStr: '2026-12-13',
+    dateStr: '2026-12-20',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-11: Electric Charges & Fields, Coordination Compounds, Plant Growth, Breathing",
@@ -386,7 +386,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-12',
     code: 'CW-12',
-    dateStr: '2026-12-20',
+    dateStr: '2026-12-27',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-12: Electrostatic Potential & Capacitance, Organic Purification, Body Fluids & Excretion",
@@ -407,7 +407,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-13',
     code: 'CW-13',
-    dateStr: '2026-12-27',
+    dateStr: '2027-01-03',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-13: Current Electricity, GOC, Locomotion & Neural Control",
@@ -428,7 +428,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-14',
     code: 'CW-14',
-    dateStr: '2027-01-03',
+    dateStr: '2027-01-10',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-14: Magnetism & Moving Charges, Hydrocarbons, Chemical Coordination, Flower Reproduction",
@@ -449,7 +449,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-15',
     code: 'CW-15',
-    dateStr: '2027-01-10',
+    dateStr: '2027-01-17',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-15: EMI, Haloalkanes & Haloarenes, Human Reproduction & Health",
@@ -470,7 +470,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-16',
     code: 'CW-16',
-    dateStr: '2027-01-17',
+    dateStr: '2027-01-24',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-16: AC & EM Waves, Alcohols, Phenols & Ethers, Genetics (Principles & Molecular)",
@@ -491,7 +491,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-17',
     code: 'CW-17',
-    dateStr: '2027-01-24',
+    dateStr: '2027-01-31',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-17: Ray Optics, Aldehydes, Ketones & Carboxylic Acids, Evolution, Health & Disease",
@@ -512,7 +512,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-18',
     code: 'CW-18',
-    dateStr: '2027-01-31',
+    dateStr: '2027-02-07',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-18: Wave Optics, Amines, Microbes, Biotechnology Principles",
@@ -533,7 +533,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-19',
     code: 'CW-19',
-    dateStr: '2027-02-07',
+    dateStr: '2027-02-14',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-19: Modern Physics (Dual Nature, Atoms, Nuclei), Biomolecules, Biotech Apps, Ecology",
@@ -554,7 +554,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-cw-20',
     code: 'CW-20',
-    dateStr: '2027-02-14',
+    dateStr: '2027-02-21',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-20: Semiconductor Electronics, Practical Chemistry, Ecosystem, Biodiversity",
@@ -575,7 +575,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pt-01',
     code: 'PT-01',
-    dateStr: '2027-02-18',
+    dateStr: '2027-02-25',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-01: Partwise 1: Mechanics 1 & Basic Chem + Foundations",
@@ -596,7 +596,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pt-02',
     code: 'PT-02',
-    dateStr: '2027-02-22',
+    dateStr: '2027-03-01',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-02: Partwise 2: Mechanics 2, Periodicity, Bonding, Plant & Animal Tissues",
@@ -617,7 +617,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pt-03',
     code: 'PT-03',
-    dateStr: '2027-02-26',
+    dateStr: '2027-03-05',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-03: Partwise 3: Fluids, Heat, Thermodynamics, Plant Physiology",
@@ -638,7 +638,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pt-04',
     code: 'PT-04',
-    dateStr: '2027-03-02',
+    dateStr: '2027-03-09',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-04: Partwise 4: Oscillations, Waves, Electrostatics, Human Physiology 1",
@@ -659,7 +659,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pt-05',
     code: 'PT-05',
-    dateStr: '2027-03-06',
+    dateStr: '2027-03-13',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-05: Partwise 5: Current Electricity, Magnetism, Inorganic Blocks, Physiology 2",
@@ -680,7 +680,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pt-06',
     code: 'PT-06',
-    dateStr: '2027-03-10',
+    dateStr: '2027-03-17',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-06: Partwise 6: Induction, AC, EM Waves, Organic Foundations, Reproduction & Genetics",
@@ -701,7 +701,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pt-07',
     code: 'PT-07',
-    dateStr: '2027-03-14',
+    dateStr: '2027-03-21',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-07: Partwise 7: Optics, Modern Physics 1, Organic Halogens/Oxygen, Evolution & Health",
@@ -722,7 +722,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pt-08',
     code: 'PT-08',
-    dateStr: '2027-03-18',
+    dateStr: '2027-03-25',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-08: Partwise 8: Modern Physics 2, Semiconductors, Amines, Biotech & Ecology",
@@ -743,7 +743,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-01',
     code: 'FS-01',
-    dateStr: '2027-03-22',
+    dateStr: '2027-03-29',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-01: All-India Full Syllabus Simulation Test 1",
@@ -764,7 +764,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-02',
     code: 'FS-02',
-    dateStr: '2027-03-25',
+    dateStr: '2027-04-01',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-02: All-India Full Syllabus Simulation Test 2",
@@ -785,7 +785,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-03',
     code: 'FS-03',
-    dateStr: '2027-03-28',
+    dateStr: '2027-04-04',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-03: All-India Full Syllabus Simulation Test 3",
@@ -806,7 +806,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-04',
     code: 'FS-04',
-    dateStr: '2027-03-31',
+    dateStr: '2027-04-07',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-04: All-India Full Syllabus Simulation Test 4",
@@ -827,7 +827,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-05',
     code: 'FS-05',
-    dateStr: '2027-04-03',
+    dateStr: '2027-04-10',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-05: All-India Full Syllabus Simulation Test 5",
@@ -848,7 +848,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-06',
     code: 'FS-06',
-    dateStr: '2027-04-06',
+    dateStr: '2027-04-13',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-06: All-India Full Syllabus Simulation Test 6",
@@ -869,7 +869,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-07',
     code: 'FS-07',
-    dateStr: '2027-04-08',
+    dateStr: '2027-04-15',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-07: All-India Full Syllabus Simulation Test 7",
@@ -890,7 +890,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-08',
     code: 'FS-08',
-    dateStr: '2027-04-10',
+    dateStr: '2027-04-17',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-08: All-India Full Syllabus Simulation Test 8",
@@ -911,7 +911,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-09',
     code: 'FS-09',
-    dateStr: '2027-04-12',
+    dateStr: '2027-04-19',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-09: All-India Full Syllabus Simulation Test 9",
@@ -932,7 +932,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-10',
     code: 'FS-10',
-    dateStr: '2027-04-14',
+    dateStr: '2027-04-21',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-10: All-India Full Syllabus Simulation Test 10",
@@ -953,7 +953,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-11',
     code: 'FS-11',
-    dateStr: '2027-04-16',
+    dateStr: '2027-04-23',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-11: All-India Full Syllabus Simulation Test 11",
@@ -974,7 +974,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-12',
     code: 'FS-12',
-    dateStr: '2027-04-18',
+    dateStr: '2027-04-25',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-12: All-India Full Syllabus Simulation Test 12",
@@ -995,7 +995,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-13',
     code: 'FS-13',
-    dateStr: '2027-04-20',
+    dateStr: '2027-04-27',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-13: All-India Full Syllabus Simulation Test 13",
@@ -1016,7 +1016,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-14',
     code: 'FS-14',
-    dateStr: '2027-04-22',
+    dateStr: '2027-04-29',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-14: All-India Full Syllabus Simulation Test 14",
@@ -1037,7 +1037,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-15',
     code: 'FS-15',
-    dateStr: '2027-04-24',
+    dateStr: '2027-05-01',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-15: All-India Full Syllabus Simulation Test 15",
@@ -1058,7 +1058,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-16',
     code: 'FS-16',
-    dateStr: '2027-04-26',
+    dateStr: '2027-05-03',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-16: All-India Full Syllabus Simulation Test 16",
@@ -1079,7 +1079,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-17',
     code: 'FS-17',
-    dateStr: '2027-04-28',
+    dateStr: '2027-05-05',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-17: All-India Full Syllabus Simulation Test 17",
@@ -1100,7 +1100,7 @@ export const SUNDAY_DROPPER_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-fs-18',
     code: 'FS-18',
-    dateStr: '2027-04-30',
+    dateStr: '2027-05-07',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-18: All-India Full Syllabus Simulation Test 18",
@@ -1128,7 +1128,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t01',
     code: 'T01',
-    dateStr: '2026-10-04',
+    dateStr: '2026-10-11',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T01: Units & Measurements, Motion 1D & 2D, Mole Concept, Atom, Living Foundations",
@@ -1149,7 +1149,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t02',
     code: 'T02',
-    dateStr: '2026-10-11',
+    dateStr: '2026-10-18',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T02: Laws of Motion, Periodicity, Plant Anatomy & Morphology",
@@ -1170,7 +1170,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t03',
     code: 'T03',
-    dateStr: '2026-10-18',
+    dateStr: '2026-10-25',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T03: Work, Energy & Power, Chemical Bonding, Animal Tissues & Cell",
@@ -1191,7 +1191,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t04',
     code: 'T04',
-    dateStr: '2026-10-25',
+    dateStr: '2026-11-01',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T04: Rotational Motion, Thermodynamics (Chem), Biomolecules, Cell Cycle",
@@ -1212,7 +1212,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t05',
     code: 'T05',
-    dateStr: '2026-11-01',
+    dateStr: '2026-11-08',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T05: Gravitation, Solids, Redox & GOC, Plant Transport & Minerals",
@@ -1233,7 +1233,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t06',
     code: 'T06',
-    dateStr: '2026-11-08',
+    dateStr: '2026-11-15',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T06: Fluids, Equilibrium, Photosynthesis in Plants",
@@ -1254,7 +1254,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t07',
     code: 'T07',
-    dateStr: '2026-11-15',
+    dateStr: '2026-11-22',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T07: Thermal Properties & KTG, Hydrocarbons, Respiration & Plant Growth",
@@ -1275,7 +1275,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t08',
     code: 'T08',
-    dateStr: '2026-11-22',
+    dateStr: '2026-11-29',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T08: Thermodynamics (Phy), Solutions, Digestion & Breathing",
@@ -1296,7 +1296,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t09',
     code: 'T09',
-    dateStr: '2026-11-29',
+    dateStr: '2026-12-06',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T09: Oscillations & Waves, Electrochemistry, Body Fluids & Circulation",
@@ -1317,7 +1317,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t10',
     code: 'T10',
-    dateStr: '2026-12-06',
+    dateStr: '2026-12-13',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T10: Electric Charges & Fields, Chemical Kinetics, Excretory Products",
@@ -1338,7 +1338,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t11',
     code: 'T11',
-    dateStr: '2026-12-13',
+    dateStr: '2026-12-20',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T11: Capacitance, p-Block & Metallurgy, Locomotion & Neural Control",
@@ -1359,7 +1359,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t12',
     code: 'T12',
-    dateStr: '2026-12-20',
+    dateStr: '2026-12-27',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T12: Current Electricity, d- and f-Block, Coordination Compounds, Endocrine",
@@ -1380,7 +1380,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t13',
     code: 'T13',
-    dateStr: '2026-12-27',
+    dateStr: '2027-01-03',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T13: Magnetism, Haloalkanes, Alcohols & Phenols, Flower Reproduction",
@@ -1401,7 +1401,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t14',
     code: 'T14',
-    dateStr: '2027-01-03',
+    dateStr: '2027-01-10',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T14: EMI & AC, Aldehydes & Ketones, Human Reproduction & Health",
@@ -1422,7 +1422,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t15',
     code: 'T15',
-    dateStr: '2027-01-10',
+    dateStr: '2027-01-17',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T15: EM Waves, Ray Optics, Amines, Biomolecules, Principles of Inheritance",
@@ -1443,7 +1443,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t16',
     code: 'T16',
-    dateStr: '2027-01-17',
+    dateStr: '2027-01-24',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T16: Wave Optics, Chemistry Syllabus Completion, Molecular Basis of Inheritance",
@@ -1464,7 +1464,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-t17',
     code: 'T17',
-    dateStr: '2027-01-24',
+    dateStr: '2027-01-31',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "T17: Modern Physics, Semiconductors, Chemistry Audit, Evolution, Biotech & Ecology",
@@ -1485,7 +1485,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-p01',
     code: 'P01',
-    dateStr: '2027-01-28',
+    dateStr: '2027-02-04',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "P01: Partwise 1: Mechanics 1, Atomic & Periodicity, Living Foundations",
@@ -1506,7 +1506,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-p02',
     code: 'P02',
-    dateStr: '2027-02-01',
+    dateStr: '2027-02-08',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "P02: Partwise 2: Mechanics 2, Bonding & Thermo, Plant/Animal Tissues & Cell",
@@ -1527,7 +1527,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-p03',
     code: 'P03',
-    dateStr: '2027-02-05',
+    dateStr: '2027-02-12',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "P03: Partwise 3: Solids, Fluids, Thermal, Redox, GOC, Hydrocarbons, Biomolecules & Cell Cycle",
@@ -1548,7 +1548,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-p04',
     code: 'P04',
-    dateStr: '2027-02-09',
+    dateStr: '2027-02-16',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "P04: Partwise 4: Thermodynamics, KTG, Waves, Solutions, Kinetics, Photosynthesis & Respiration",
@@ -1569,7 +1569,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-p05',
     code: 'P05',
-    dateStr: '2027-02-13',
+    dateStr: '2027-02-20',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "P05: Partwise 5: Electrostatics, Current, Inorganic Blocks, Human Physiology 1",
@@ -1590,7 +1590,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-p06',
     code: 'P06',
-    dateStr: '2027-02-17',
+    dateStr: '2027-02-24',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "P06: Partwise 6: Magnetism, EMI, AC, Coordination, Organic Halogens/Oxygen, Physiology 2 & Reproduction",
@@ -1611,7 +1611,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-p07',
     code: 'P07',
-    dateStr: '2027-02-21',
+    dateStr: '2027-02-28',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "P07: Partwise 7: EM Waves, Optics, Carbonyls, Amines, Human Reproduction & Genetics",
@@ -1632,7 +1632,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-p08',
     code: 'P08',
-    dateStr: '2027-02-25',
+    dateStr: '2027-03-04',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "P08: Partwise 8: Modern Physics, Semiconductors, Chemistry Synthesis, Evolution, Biotech & Ecology",
@@ -1653,7 +1653,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f01',
     code: 'F01',
-    dateStr: '2027-02-28',
+    dateStr: '2027-03-07',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F01: Full Syllabus Mock Test 1",
@@ -1674,7 +1674,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f02',
     code: 'F02',
-    dateStr: '2027-03-03',
+    dateStr: '2027-03-10',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F02: Full Syllabus Mock Test 2",
@@ -1695,7 +1695,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f03',
     code: 'F03',
-    dateStr: '2027-03-06',
+    dateStr: '2027-03-13',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F03: Full Syllabus Mock Test 3",
@@ -1716,7 +1716,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f04',
     code: 'F04',
-    dateStr: '2027-03-09',
+    dateStr: '2027-03-16',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F04: Full Syllabus Mock Test 4",
@@ -1737,7 +1737,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f05',
     code: 'F05',
-    dateStr: '2027-03-12',
+    dateStr: '2027-03-19',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F05: Full Syllabus Mock Test 5",
@@ -1758,7 +1758,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f06',
     code: 'F06',
-    dateStr: '2027-03-15',
+    dateStr: '2027-03-22',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F06: Full Syllabus Mock Test 6",
@@ -1779,7 +1779,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f07',
     code: 'F07',
-    dateStr: '2027-03-18',
+    dateStr: '2027-03-25',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F07: Full Syllabus Mock Test 7",
@@ -1800,7 +1800,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f08',
     code: 'F08',
-    dateStr: '2027-03-21',
+    dateStr: '2027-03-28',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F08: Full Syllabus Mock Test 8",
@@ -1821,7 +1821,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f09',
     code: 'F09',
-    dateStr: '2027-03-24',
+    dateStr: '2027-03-31',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F09: Full Syllabus Mock Test 9",
@@ -1842,7 +1842,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f10',
     code: 'F10',
-    dateStr: '2027-03-27',
+    dateStr: '2027-04-03',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F10: Full Syllabus Mock Test 10",
@@ -1863,7 +1863,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f11',
     code: 'F11',
-    dateStr: '2027-03-30',
+    dateStr: '2027-04-06',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F11: Full Syllabus Mock Test 11",
@@ -1884,7 +1884,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f12',
     code: 'F12',
-    dateStr: '2027-04-02',
+    dateStr: '2027-04-09',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F12: Full Syllabus Mock Test 12",
@@ -1905,7 +1905,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f13',
     code: 'F13',
-    dateStr: '2027-04-05',
+    dateStr: '2027-04-12',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F13: Full Syllabus Mock Test 13",
@@ -1926,7 +1926,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f14',
     code: 'F14',
-    dateStr: '2027-04-08',
+    dateStr: '2027-04-15',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F14: Full Syllabus Mock Test 14",
@@ -1947,7 +1947,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f15',
     code: 'F15',
-    dateStr: '2027-04-11',
+    dateStr: '2027-04-18',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F15: Full Syllabus Mock Test 15",
@@ -1968,7 +1968,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f16',
     code: 'F16',
-    dateStr: '2027-04-14',
+    dateStr: '2027-04-21',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F16: Full Syllabus Mock Test 16",
@@ -1989,7 +1989,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f17',
     code: 'F17',
-    dateStr: '2027-04-17',
+    dateStr: '2027-04-24',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F17: Full Syllabus Mock Test 17",
@@ -2010,7 +2010,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f18',
     code: 'F18',
-    dateStr: '2027-04-20',
+    dateStr: '2027-04-27',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F18: Full Syllabus Mock Test 18",
@@ -2031,7 +2031,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f19',
     code: 'F19',
-    dateStr: '2027-04-23',
+    dateStr: '2027-04-30',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F19: Full Syllabus Mock Test 19",
@@ -2052,7 +2052,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f20',
     code: 'F20',
-    dateStr: '2027-04-26',
+    dateStr: '2027-05-03',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F20: Full Syllabus Mock Test 20",
@@ -2073,7 +2073,7 @@ export const SUNDAY_DROPPER_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-track2-f21',
     code: 'F21',
-    dateStr: '2027-04-29',
+    dateStr: '2027-05-06',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "F21: Full Syllabus Mock Test 21",
@@ -2101,7 +2101,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-01',
     code: 'PC-01',
-    dateStr: '2027-02-10',
+    dateStr: '2027-02-17',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-01: Physics & Chemistry Full Syllabus Test 1",
@@ -2122,7 +2122,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-02',
     code: 'PC-02',
-    dateStr: '2027-02-13',
+    dateStr: '2027-02-20',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-02: Physics & Chemistry Full Syllabus Test 2",
@@ -2143,7 +2143,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-03',
     code: 'PC-03',
-    dateStr: '2027-02-16',
+    dateStr: '2027-02-23',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-03: Physics & Chemistry Full Syllabus Test 3",
@@ -2164,7 +2164,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-04',
     code: 'PC-04',
-    dateStr: '2027-02-19',
+    dateStr: '2027-02-26',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-04: Physics & Chemistry Full Syllabus Test 4",
@@ -2185,7 +2185,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-05',
     code: 'PC-05',
-    dateStr: '2027-02-22',
+    dateStr: '2027-03-01',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-05: Physics & Chemistry Full Syllabus Test 5",
@@ -2206,7 +2206,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-06',
     code: 'PC-06',
-    dateStr: '2027-02-25',
+    dateStr: '2027-03-04',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-06: Physics & Chemistry Full Syllabus Test 6",
@@ -2227,7 +2227,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-07',
     code: 'PC-07',
-    dateStr: '2027-02-28',
+    dateStr: '2027-03-07',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-07: Physics & Chemistry Full Syllabus Test 7",
@@ -2248,7 +2248,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-08',
     code: 'PC-08',
-    dateStr: '2027-03-03',
+    dateStr: '2027-03-10',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-08: Physics & Chemistry Full Syllabus Test 8",
@@ -2269,7 +2269,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-09',
     code: 'PC-09',
-    dateStr: '2027-03-06',
+    dateStr: '2027-03-13',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-09: Physics & Chemistry Full Syllabus Test 9",
@@ -2290,7 +2290,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-10',
     code: 'PC-10',
-    dateStr: '2027-03-09',
+    dateStr: '2027-03-16',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-10: Physics & Chemistry Full Syllabus Test 10",
@@ -2311,7 +2311,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-11',
     code: 'PC-11',
-    dateStr: '2027-03-12',
+    dateStr: '2027-03-19',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-11: Physics & Chemistry Full Syllabus Test 11",
@@ -2332,7 +2332,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-12',
     code: 'PC-12',
-    dateStr: '2027-03-15',
+    dateStr: '2027-03-22',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-12: Physics & Chemistry Full Syllabus Test 12",
@@ -2353,7 +2353,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-13',
     code: 'PC-13',
-    dateStr: '2027-03-18',
+    dateStr: '2027-03-25',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-13: Physics & Chemistry Full Syllabus Test 13",
@@ -2374,7 +2374,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-14',
     code: 'PC-14',
-    dateStr: '2027-03-21',
+    dateStr: '2027-03-28',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-14: Physics & Chemistry Full Syllabus Test 14",
@@ -2395,7 +2395,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-15',
     code: 'PC-15',
-    dateStr: '2027-03-24',
+    dateStr: '2027-03-31',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-15: Physics & Chemistry Full Syllabus Test 15",
@@ -2416,7 +2416,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-16',
     code: 'PC-16',
-    dateStr: '2027-03-27',
+    dateStr: '2027-04-03',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-16: Physics & Chemistry Full Syllabus Test 16",
@@ -2437,7 +2437,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-17',
     code: 'PC-17',
-    dateStr: '2027-03-30',
+    dateStr: '2027-04-06',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-17: Physics & Chemistry Full Syllabus Test 17",
@@ -2458,7 +2458,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-18',
     code: 'PC-18',
-    dateStr: '2027-04-02',
+    dateStr: '2027-04-09',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-18: Physics & Chemistry Full Syllabus Test 18",
@@ -2479,7 +2479,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-19',
     code: 'PC-19',
-    dateStr: '2027-04-05',
+    dateStr: '2027-04-12',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-19: Physics & Chemistry Full Syllabus Test 19",
@@ -2500,7 +2500,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-20',
     code: 'PC-20',
-    dateStr: '2027-04-08',
+    dateStr: '2027-04-15',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-20: Physics & Chemistry Full Syllabus Test 20",
@@ -2521,7 +2521,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-21',
     code: 'PC-21',
-    dateStr: '2027-04-11',
+    dateStr: '2027-04-18',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-21: Physics & Chemistry Full Syllabus Test 21",
@@ -2542,7 +2542,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-22',
     code: 'PC-22',
-    dateStr: '2027-04-14',
+    dateStr: '2027-04-21',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-22: Physics & Chemistry Full Syllabus Test 22",
@@ -2563,7 +2563,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-23',
     code: 'PC-23',
-    dateStr: '2027-04-17',
+    dateStr: '2027-04-24',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-23: Physics & Chemistry Full Syllabus Test 23",
@@ -2584,7 +2584,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-24',
     code: 'PC-24',
-    dateStr: '2027-04-20',
+    dateStr: '2027-04-27',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-24: Physics & Chemistry Full Syllabus Test 24",
@@ -2605,7 +2605,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-25',
     code: 'PC-25',
-    dateStr: '2027-04-23',
+    dateStr: '2027-04-30',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-25: Physics & Chemistry Full Syllabus Test 25",
@@ -2626,7 +2626,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-26',
     code: 'PC-26',
-    dateStr: '2027-04-26',
+    dateStr: '2027-05-03',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-26: Physics & Chemistry Full Syllabus Test 26",
@@ -2647,7 +2647,7 @@ export const SUNDAY_DROPPER_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-dropper-pc-27',
     code: 'PC-27',
-    dateStr: '2027-04-29',
+    dateStr: '2027-05-06',
     phase: 'Full Syllabus PC Series',
     phaseGroup: 'full',
     title: "PC-27: Physics & Chemistry Full Syllabus Test 27",
@@ -2677,7 +2677,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-01',
     code: 'CW-01',
-    dateStr: '2026-10-04',
+    dateStr: '2026-10-11',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-01: Units and Measurements, Some Basic Concepts of Chemistry, The Living World, Animal Kingdom",
@@ -2698,7 +2698,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-02',
     code: 'CW-02',
-    dateStr: '2026-10-18',
+    dateStr: '2026-10-25',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-02: Motion in a Straight Line; Motion in a Plane, Structure of Atom, Biological Classification, Structural Organisation in Animals",
@@ -2719,7 +2719,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-03',
     code: 'CW-03',
-    dateStr: '2026-11-01',
+    dateStr: '2026-11-08',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-03: Laws of Motion, Classification of Elements and Periodicity in Properties, Plant Kingdom, Breathing and Exchange of Gases",
@@ -2740,7 +2740,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-04',
     code: 'CW-04',
-    dateStr: '2026-11-15',
+    dateStr: '2026-11-22',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-04: Work, Energy and Power, Chemical Bonding and Molecular Structure, Morphology of Flowering Plants, Body Fluids and Circulation",
@@ -2761,7 +2761,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-05',
     code: 'CW-05',
-    dateStr: '2026-11-29',
+    dateStr: '2026-12-06',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-05: System of Particles and Rotational Motion, Thermodynamics, Anatomy of Flowering Plants, Excretory Products and Their Elimination",
@@ -2782,7 +2782,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-06',
     code: 'CW-06',
-    dateStr: '2026-12-13',
+    dateStr: '2026-12-20',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-06: Gravitation, Equilibrium, Cell: The Unit of Life, Locomotion and Movement",
@@ -2803,7 +2803,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-07',
     code: 'CW-07',
-    dateStr: '2026-12-27',
+    dateStr: '2027-01-03',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-07: Mechanical Properties of Solids; Mechanical Properties of Fluids, Redox Reactions, Biomolecules, Neural Control and Coordination",
@@ -2824,7 +2824,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-08',
     code: 'CW-08',
-    dateStr: '2027-01-10',
+    dateStr: '2027-01-17',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-08: Thermal Properties of Matter, Organic Chemistry \u2013 Some Basic Principles and Techniques, Cell Cycle and Cell Division, Chemical Coordination and Integration",
@@ -2845,7 +2845,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-09',
     code: 'CW-09',
-    dateStr: '2027-01-24',
+    dateStr: '2027-01-31',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-09: Thermodynamics; Kinetic Theory, Hydrocarbons, Photosynthesis in Plants, Body Fluids and Circulation",
@@ -2866,7 +2866,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-10',
     code: 'CW-10',
-    dateStr: '2027-02-07',
+    dateStr: '2027-02-14',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-10: Oscillations, Chemical Bonding and Molecular Structure, Respiration in Plants, Excretory Products and Their Elimination",
@@ -2887,7 +2887,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-cw-11',
     code: 'CW-11',
-    dateStr: '2027-02-21',
+    dateStr: '2027-02-28',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: "CW-11: Waves, Equilibrium, Plant Growth and Development, Chemical Coordination and Integration",
@@ -2908,7 +2908,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-pt-01',
     code: 'PT-01',
-    dateStr: '2027-03-01',
+    dateStr: '2027-03-08',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-01: Units and Measurements; Motion in a Straight Line; Motion in a Plane, Some Basic Concepts of Chemistry; Structure of Atom, The Living World; Biological Classification, Animal Kingdom",
@@ -2929,7 +2929,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-pt-02',
     code: 'PT-02',
-    dateStr: '2027-03-05',
+    dateStr: '2027-03-12',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-02: Laws of Motion; Work, Energy and Power, Classification of Elements and Periodicity in Properties; Chemical Bonding and Molecular Structure, Plant Kingdom; Morphology of Flowering Plants, Structural Organisation in Animals",
@@ -2950,7 +2950,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-pt-03',
     code: 'PT-03',
-    dateStr: '2027-03-09',
+    dateStr: '2027-03-16',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-03: System of Particles and Rotational Motion; Gravitation, Thermodynamics, Anatomy of Flowering Plants; Cell: The Unit of Life, Breathing and Exchange of Gases; Body Fluids and Circulation",
@@ -2971,7 +2971,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-pt-04',
     code: 'PT-04',
-    dateStr: '2027-03-13',
+    dateStr: '2027-03-20',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-04: Mechanical Properties of Solids; Mechanical Properties of Fluids, Equilibrium, Biomolecules; Cell Cycle and Cell Division, Excretory Products and Their Elimination; Locomotion and Movement",
@@ -2992,7 +2992,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-pt-05',
     code: 'PT-05',
-    dateStr: '2027-03-17',
+    dateStr: '2027-03-24',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-05: Thermal Properties of Matter; Thermodynamics; Kinetic Theory, Redox Reactions; Organic Chemistry \u2013 Some Basic Principles and Techniques, Photosynthesis in Plants; Respiration in Plants, Neural Control and Coordination",
@@ -3013,7 +3013,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-pt-06',
     code: 'PT-06',
-    dateStr: '2027-03-21',
+    dateStr: '2027-03-28',
     phase: 'Phase 2: Part-Wise',
     phaseGroup: 'part',
     title: "PT-06: Oscillations; Waves, Hydrocarbons, Plant Growth and Development, Chemical Coordination and Integration",
@@ -3034,7 +3034,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-fs-01',
     code: 'FS-01',
-    dateStr: '2027-03-24',
+    dateStr: '2027-03-31',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-01: Complete Class 11 Grand Test 01 (Physics, Chemistry, Botany, Zoology)",
@@ -3055,7 +3055,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-fs-02',
     code: 'FS-02',
-    dateStr: '2027-03-27',
+    dateStr: '2027-04-03',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-02: Complete Class 11 Grand Test 02 (Physics, Chemistry, Botany, Zoology)",
@@ -3076,7 +3076,7 @@ export const SUNDAY_11TH_TRACK1_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-t1-fs-03',
     code: 'FS-03',
-    dateStr: '2027-03-30',
+    dateStr: '2027-04-06',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: "FS-03: Complete Class 11 Grand Test 03 (Physics, Chemistry, Botany, Zoology)",
@@ -3101,7 +3101,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-01',
     code: 'CWT-01',
-    dateStr: '2026-10-04',
+    dateStr: '2026-10-11',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-01: Units & Measurements, Some Basic Concepts of Chemistry, The Living World, Animal Kingdom',
@@ -3123,7 +3123,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-02',
     code: 'CWT-02',
-    dateStr: '2026-10-18',
+    dateStr: '2026-10-25',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-02: Kinematics, Structure of Atom, Biological Classification, Structural Organisation in Animals',
@@ -3145,7 +3145,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-03',
     code: 'CWT-03',
-    dateStr: '2026-11-01',
+    dateStr: '2026-11-08',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-03: Laws of Motion, Classification of Elements & Periodicity, Plant Kingdom, Cell Cycle & Cell Division',
@@ -3167,7 +3167,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cum-01',
     code: 'CUM-01',
-    dateStr: '2026-11-08',
+    dateStr: '2026-11-15',
     phase: 'Phase 1: Cumulative',
     phaseGroup: 'cumulative',
     title: 'CUM-01: Cumulative Checkpoint Test 1 (CWT-01 to CWT-02 Coverage)',
@@ -3189,7 +3189,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-04',
     code: 'CWT-04',
-    dateStr: '2026-11-15',
+    dateStr: '2026-11-22',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-04: Work, Energy & Power, Chemical Bonding & Molecular Structure, Morphology of Flowering Plants, Breathing & Exchange of Gases',
@@ -3211,7 +3211,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-05',
     code: 'CWT-05',
-    dateStr: '2026-11-29',
+    dateStr: '2026-12-06',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-05: Rotational Motion, Thermodynamics (Chem), Anatomy of Flowering Plants, Body Fluids & Circulation',
@@ -3233,7 +3233,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cum-02',
     code: 'CUM-02',
-    dateStr: '2026-12-06',
+    dateStr: '2026-12-13',
     phase: 'Phase 1: Cumulative',
     phaseGroup: 'cumulative',
     title: 'CUM-02: Cumulative Checkpoint Test 2 (CWT-01 to CWT-04 Coverage)',
@@ -3255,7 +3255,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-06',
     code: 'CWT-06',
-    dateStr: '2026-12-13',
+    dateStr: '2026-12-20',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-06: Gravitation, Equilibrium, Cell: The Unit of Life, Excretory Products & Elimination',
@@ -3277,7 +3277,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-07',
     code: 'CWT-07',
-    dateStr: '2026-12-27',
+    dateStr: '2027-01-03',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-07: Properties of Solids & Liquids, Redox Reactions, Biomolecules, Locomotion & Movement',
@@ -3299,7 +3299,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cum-03',
     code: 'CUM-03',
-    dateStr: '2027-01-03',
+    dateStr: '2027-01-10',
     phase: 'Phase 1: Cumulative',
     phaseGroup: 'cumulative',
     title: 'CUM-03: Cumulative Checkpoint Test 3 (CWT-01 to CWT-06 Coverage)',
@@ -3321,7 +3321,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-08',
     code: 'CWT-08',
-    dateStr: '2027-01-10',
+    dateStr: '2027-01-17',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-08: Thermodynamics (Phy), Organic Chemistry: Basic Principles & Techniques, Photosynthesis in Plants, Neural Control & Coordination',
@@ -3343,7 +3343,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-09',
     code: 'CWT-09',
-    dateStr: '2027-01-24',
+    dateStr: '2027-01-31',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-09: Kinetic Theory of Gases, Hydrocarbons, Respiration in Plants, Chemical Coordination & Integration',
@@ -3365,7 +3365,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cum-04',
     code: 'CUM-04',
-    dateStr: '2027-01-31',
+    dateStr: '2027-02-07',
     phase: 'Phase 1: Cumulative',
     phaseGroup: 'cumulative',
     title: 'CUM-04: Cumulative Checkpoint Test 4 (CWT-01 to CWT-08 Coverage)',
@@ -3387,7 +3387,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-10',
     code: 'CWT-10',
-    dateStr: '2027-02-07',
+    dateStr: '2027-02-14',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-10: Oscillations & Waves, Hydrocarbons — Mastery, Plant Growth & Development, Animal Tissues & Frog / Supporting NEET Coverage',
@@ -3409,7 +3409,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-11',
     code: 'CWT-11',
-    dateStr: '2027-02-21',
+    dateStr: '2027-02-28',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-11: Class 11 Physics — NEET Mastery / Experimental Skills, Practical Chemistry, Botany & Zoology Mastery Revision',
@@ -3431,7 +3431,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cum-05',
     code: 'CUM-05',
-    dateStr: '2027-02-28',
+    dateStr: '2027-03-07',
     phase: 'Phase 1: Cumulative',
     phaseGroup: 'cumulative',
     title: 'CUM-05: Final Cumulative Checkpoint (CWT-01 to CWT-10 Complete Coverage)',
@@ -3453,7 +3453,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-cwt-12',
     code: 'CWT-12',
-    dateStr: '2027-03-07',
+    dateStr: '2027-03-14',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
     title: 'CWT-12: Class 11 NEET Mastery & Experimental Skills Final Reinforcement',
@@ -3475,7 +3475,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-fst-01',
     code: 'FST-01',
-    dateStr: '2027-03-14',
+    dateStr: '2027-03-21',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: 'FST-01: Complete Class 11 NEET Full Syllabus Benchmark Test 1',
@@ -3497,7 +3497,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-fst-02',
     code: 'FST-02',
-    dateStr: '2027-03-21',
+    dateStr: '2027-03-28',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: 'FST-02: Complete Class 11 NEET Full Syllabus Test 2 (Speed & Accuracy)',
@@ -3519,7 +3519,7 @@ export const SUNDAY_11TH_TRACK2_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-11th-fst-03',
     code: 'FST-03',
-    dateStr: '2027-03-28',
+    dateStr: '2027-04-04',
     phase: 'Phase 3: Full Syllabus',
     phaseGroup: 'full',
     title: 'FST-03: Complete Class 11 NEET Grand Test 3 (Final Revision)',
@@ -3606,7 +3606,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-01',
     code: 'PART 1',
-    dateStr: '2026-10-04',
+    dateStr: '2026-10-11',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 1: Measurement, Kinematics, Laws of Motion, Basic Concepts, Living World, Animal Kingdom',
@@ -3627,7 +3627,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-02',
     code: 'PART 2',
-    dateStr: '2026-10-09',
+    dateStr: '2026-10-16',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 2: Work Energy & Rotation, Bonding & Thermodynamics, Plant Anatomy & Cell, Digestion & Breathing',
@@ -3648,7 +3648,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-03',
     code: 'PART 3',
-    dateStr: '2026-10-14',
+    dateStr: '2026-10-21',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 3: Gravitation & Bulk Matter, Equilibrium & Redox, Plant Physiology, Circulation & Excretion',
@@ -3669,7 +3669,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-04',
     code: 'PART 4',
-    dateStr: '2026-10-19',
+    dateStr: '2026-10-26',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 4: Thermal, KTG, Waves & SHM, Organic Basics & Hydrocarbons, Plant Growth, Locomotion & Control',
@@ -3690,7 +3690,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-05',
     code: 'PART 5',
-    dateStr: '2026-10-24',
+    dateStr: '2026-10-31',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 5: Electrostatics & Current, Physical Chem (Solutions, Electrochem, Kinetics), Genetics & Reproduction',
@@ -3711,7 +3711,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-06',
     code: 'PART 6',
-    dateStr: '2026-10-29',
+    dateStr: '2026-11-05',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 6: Magnetism & EMI, Inorganic (d/f Block, Coordination, p-Block), Molecular Genetics & Evolution, Health',
@@ -3732,7 +3732,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-07',
     code: 'PART 7',
-    dateStr: '2026-11-03',
+    dateStr: '2026-11-10',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 7: AC, EM Waves & Ray Optics, Organic (Halogens, Oxygen Derivatives), Microbes & Biotechnology',
@@ -3753,7 +3753,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-08',
     code: 'PART 8',
-    dateStr: '2026-11-08',
+    dateStr: '2026-11-15',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 8: Modern Physics & Electronics, Nitrogen Derivatives & Practical Chem, Ecology & Complete Biology Revision',
@@ -3778,7 +3778,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-01',
     code: 'FULL-01',
-    dateStr: '2026-11-12',
+    dateStr: '2026-11-19',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-01: Complete Class 11 + 12 NEET Paper 1 (Baseline + Error Tagging)',
@@ -3799,7 +3799,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-02',
     code: 'FULL-02',
-    dateStr: '2026-11-16',
+    dateStr: '2026-11-23',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-02: Complete Class 11 + 12 NEET Paper 2 (NCERT Retention + Physics Focus)',
@@ -3820,7 +3820,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-03',
     code: 'FULL-03',
-    dateStr: '2026-11-20',
+    dateStr: '2026-11-27',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-03: Complete Class 11 + 12 NEET Paper 3 (Chemistry Calculation & Reactions)',
@@ -3841,7 +3841,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-04',
     code: 'FULL-04',
-    dateStr: '2026-11-24',
+    dateStr: '2026-12-01',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-04: Complete Class 11 + 12 NEET Paper 4 (Biology Precision & NCERT Line-by-Line)',
@@ -3862,7 +3862,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-05',
     code: 'FULL-05',
-    dateStr: '2026-11-28',
+    dateStr: '2026-12-05',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-05: Complete Class 11 + 12 NEET Paper 5 (Time Management & Pacing)',
@@ -3883,7 +3883,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-06',
     code: 'FULL-06',
-    dateStr: '2026-12-02',
+    dateStr: '2026-12-09',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-06: Complete Class 11 + 12 NEET Paper 6 (Negative-Mark Reduction Strategy)',
@@ -3904,7 +3904,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-07',
     code: 'FULL-07',
-    dateStr: '2026-12-06',
+    dateStr: '2026-12-13',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-07: Complete Class 11 + 12 NEET Paper 7 (Weak-Chapter Reinforcement)',
@@ -3925,7 +3925,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-08',
     code: 'FULL-08',
-    dateStr: '2026-12-10',
+    dateStr: '2026-12-17',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-08: Complete Class 11 + 12 NEET Paper 8 (Mixed Difficulty Simulation)',
@@ -3946,7 +3946,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-09',
     code: 'FULL-09',
-    dateStr: '2026-12-14',
+    dateStr: '2026-12-21',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-09: Complete Class 11 + 12 NEET Paper 9 (Rank Improvement Milestone)',
@@ -3967,7 +3967,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-10',
     code: 'FULL-10',
-    dateStr: '2026-12-18',
+    dateStr: '2026-12-25',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-10: Complete Class 11 + 12 NEET Paper 10 (Final Readiness Assessment)',
@@ -3992,7 +3992,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-01',
     code: 'NEET MOCK-01',
-    dateStr: '2026-12-24',
+    dateStr: '2026-12-31',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-01: All-India Examination Simulation 1',
@@ -4013,7 +4013,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-02',
     code: 'NEET MOCK-02',
-    dateStr: '2026-12-26',
+    dateStr: '2027-01-02',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-02: All-India Examination Simulation 2',
@@ -4034,7 +4034,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-03',
     code: 'NEET MOCK-03',
-    dateStr: '2026-12-28',
+    dateStr: '2027-01-04',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-03: All-India Examination Simulation 3',
@@ -4055,7 +4055,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-04',
     code: 'NEET MOCK-04',
-    dateStr: '2026-12-30',
+    dateStr: '2027-01-06',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-04: All-India Examination Simulation 4',
@@ -4076,7 +4076,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-05',
     code: 'NEET MOCK-05',
-    dateStr: '2027-01-01',
+    dateStr: '2027-01-08',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-05: All-India Final Grand Rehearsal 5',
@@ -4104,7 +4104,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-01',
     code: 'PC-01',
-    dateStr: '2027-03-10',
+    dateStr: '2027-03-17',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-01: Physics & Chemistry Full Syllabus Test 1',
@@ -4125,7 +4125,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-02',
     code: 'PC-02',
-    dateStr: '2027-03-13',
+    dateStr: '2027-03-20',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-02: Physics & Chemistry Full Syllabus Test 2',
@@ -4146,7 +4146,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-03',
     code: 'PC-03',
-    dateStr: '2027-03-16',
+    dateStr: '2027-03-23',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-03: Physics & Chemistry Full Syllabus Test 3',
@@ -4167,7 +4167,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-04',
     code: 'PC-04',
-    dateStr: '2027-03-19',
+    dateStr: '2027-03-26',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-04: Physics & Chemistry Full Syllabus Test 4',
@@ -4188,7 +4188,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-05',
     code: 'PC-05',
-    dateStr: '2027-03-22',
+    dateStr: '2027-03-29',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-05: Physics & Chemistry Full Syllabus Test 5',
@@ -4209,7 +4209,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-06',
     code: 'PC-06',
-    dateStr: '2027-03-25',
+    dateStr: '2027-04-01',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-06: Physics & Chemistry Full Syllabus Test 6',
@@ -4230,7 +4230,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-07',
     code: 'PC-07',
-    dateStr: '2027-03-28',
+    dateStr: '2027-04-04',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-07: Physics & Chemistry Full Syllabus Test 7',
@@ -4251,7 +4251,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-08',
     code: 'PC-08',
-    dateStr: '2027-03-31',
+    dateStr: '2027-04-07',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-08: Physics & Chemistry Full Syllabus Test 8',
@@ -4272,7 +4272,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-09',
     code: 'PC-09',
-    dateStr: '2027-04-03',
+    dateStr: '2027-04-10',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-09: Physics & Chemistry Full Syllabus Test 9',
@@ -4293,7 +4293,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-10',
     code: 'PC-10',
-    dateStr: '2027-04-06',
+    dateStr: '2027-04-13',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-10: Physics & Chemistry Full Syllabus Test 10',
@@ -4314,7 +4314,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-11',
     code: 'PC-11',
-    dateStr: '2027-04-09',
+    dateStr: '2027-04-16',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-11: Physics & Chemistry Full Syllabus Test 11',
@@ -4335,7 +4335,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-12',
     code: 'PC-12',
-    dateStr: '2027-04-12',
+    dateStr: '2027-04-19',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-12: Physics & Chemistry Full Syllabus Test 12',
@@ -4356,7 +4356,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-13',
     code: 'PC-13',
-    dateStr: '2027-04-15',
+    dateStr: '2027-04-22',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-13: Physics & Chemistry Full Syllabus Test 13',
@@ -4377,7 +4377,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-14',
     code: 'PC-14',
-    dateStr: '2027-04-18',
+    dateStr: '2027-04-25',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-14: Physics & Chemistry Full Syllabus Test 14',
@@ -4398,7 +4398,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-15',
     code: 'PC-15',
-    dateStr: '2027-04-21',
+    dateStr: '2027-04-28',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-15: Physics & Chemistry Full Syllabus Test 15',
@@ -4419,7 +4419,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-16',
     code: 'PC-16',
-    dateStr: '2027-04-24',
+    dateStr: '2027-05-01',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-16: Physics & Chemistry Full Syllabus Test 16',
@@ -4440,7 +4440,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-17',
     code: 'PC-17',
-    dateStr: '2027-04-27',
+    dateStr: '2027-05-04',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-17: Physics & Chemistry Full Syllabus Test 17',
@@ -4461,7 +4461,7 @@ export const PLANNER_12TH_PC_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-pc-18',
     code: 'PC-18',
-    dateStr: '2027-04-30',
+    dateStr: '2027-05-07',
     phase: 'Phase 4: Full Syllabus PC Series',
     phaseGroup: 'full',
     title: 'PC-18: Physics & Chemistry Full Syllabus Test 18',
@@ -4591,7 +4591,7 @@ export function filterQuestionsByKeywords(
     const qCh = normalizeK(q.chapter || '');
     if (!qCh) return false;
     for (const target of targetChapters) {
-      if (qCh === target || qCh.includes(target) || target.includes(qCh)) {
+      if (qCh === target) {
         return true;
       }
     }
@@ -4684,13 +4684,7 @@ export function saveCustomSundayPaper(
       all[cleanKey] = payload;
       all[cleanKey.toUpperCase()] = payload;
     }
-    // Clean up bloated legacy duplicate keys to keep storage lean (<500 KB)
-    for (const k of Object.keys(all)) {
-      if (k.startsWith('11th-') || k.startsWith('12th-') || k.startsWith('repeater-') || k.startsWith('dropper-') ||
-          k.startsWith('11TH-') || k.startsWith('12TH-') || k.startsWith('REPEATER-') || k.startsWith('DROPPER-')) {
-        delete all[k];
-      }
-    }
+
     all[paperCode.toUpperCase()] = payload;
     if (cleanKey) {
       all[cleanKey.toUpperCase()] = payload;
@@ -4951,11 +4945,12 @@ export function ensureAllSundayPapersGenerated(): void {
     { batch: '11th', trackPrefix: 'track2_', tests: SUNDAY_11TH_TRACK2_TESTS }
   ];
 
+  const globalUsedIds = new Set<string>();
+  const globalUsedTexts = new Set<string>();
+
   for (const cfg of trackConfigs) {
     const { batch, trackPrefix, tests } = cfg;
     const batchKeyPrefix = `${batch}_`;
-    const trackUsedIds = new Set<string>();
-    const trackUsedTexts = new Set<string>();
 
     for (let tIdx = 0; tIdx < tests.length; tIdx++) {
       const t = tests[tIdx];
@@ -4970,13 +4965,21 @@ export function ensureAllSundayPapersGenerated(): void {
         const matched = filterQuestionsByKeywords(bank, keywords, subject);
         const picked: Question[] = [];
 
+        // Deterministically shuffle matched to ensure a mix of chapters
+        let shuffledMatched = [...matched];
+        let seed = t.code.split('').reduce((a, b) => a + b.charCodeAt(0), 0) + subject.charCodeAt(0);
+        for (let i = shuffledMatched.length - 1; i > 0; i--) {
+          const j = (seed = (seed * 16807) % 2147483647) % (i + 1);
+          [shuffledMatched[i], shuffledMatched[j]] = [shuffledMatched[j], shuffledMatched[i]];
+        }
+
         // 1. Try to pick from matched syllabus keywords first
-        for (const q of matched) {
+        for (const q of shuffledMatched) {
           const baseId = getBaseQuestionId(q);
           const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
-          if (!trackUsedIds.has(baseId) && (normText.length <= 15 || !trackUsedTexts.has(normText))) {
-            trackUsedIds.add(baseId);
-            if (normText.length > 15) trackUsedTexts.add(normText);
+          if (!globalUsedIds.has(baseId) && (normText.length <= 15 || !globalUsedTexts.has(normText))) {
+            globalUsedIds.add(baseId);
+            if (normText.length > 15) globalUsedTexts.add(normText);
             picked.push({
               ...q,
               subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
@@ -4987,22 +4990,19 @@ export function ensureAllSundayPapersGenerated(): void {
           }
         }
 
-        // 2. If matched didn't reach count, fill remainder from general subject bank without repeating!
-        if (picked.length < count) {
-          for (const q of bank) {
-            const baseId = getBaseQuestionId(q);
-            const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
-            if (!trackUsedIds.has(baseId) && (normText.length <= 15 || !trackUsedTexts.has(normText))) {
-              trackUsedIds.add(baseId);
-              if (normText.length > 15) trackUsedTexts.add(normText);
-              picked.push({
-                ...q,
-                subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
-                tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
-                difficulty: 'Hard' as const
-              });
-              if (picked.length === count) break;
-            }
+        // 2. If matched didn't reach count, fill remainder strictly from matched questions (repeating if necessary)
+        if (picked.length < count && matched.length > 0) {
+          let i = (t.code.split('').reduce((a, b) => a + b.charCodeAt(0), 0) * 7 + picked.length) % matched.length;
+          while (picked.length < count) {
+            const q = matched[i % matched.length];
+            picked.push({
+              ...q,
+              subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+              tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+              difficulty: 'Hard' as const,
+              id: `${q.id}-dup-${picked.length}-${Date.now()}`
+            });
+            i++;
           }
         }
 
@@ -5147,7 +5147,12 @@ export function generateSundayTestQuestions(
     ): Question[] => {
       const matched = filterQuestionsByKeywords(bank, kws, subject);
       const picked: Question[] = [];
-      for (const q of matched) {
+      let shuffledMatched = [...matched];
+      for (let i = shuffledMatched.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledMatched[i], shuffledMatched[j]] = [shuffledMatched[j], shuffledMatched[i]];
+      }
+      for (const q of shuffledMatched) {
         const sig = getQuestionSignature(q);
         const baseId = getBaseQuestionId(q);
         const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
@@ -5165,24 +5170,19 @@ export function generateSundayTestQuestions(
         }
       }
 
-      // STRICT ZERO-DUPLICATION: Fill remaining quota from bank without repeating any question
-      if (picked.length < count) {
-        for (const q of bank) {
-          const sig = getQuestionSignature(q);
-          const baseId = getBaseQuestionId(q);
-          const normText = normalizeQuestionText(q.questionText || (q as any).question || '');
-          if (!paperSignatures.has(sig) && !paperIds.has(baseId) && (normText.length <= 15 || !paperTexts.has(normText))) {
-            paperSignatures.add(sig);
-            paperIds.add(baseId);
-            if (normText.length > 15) paperTexts.add(normText);
-            picked.push({
-              ...q,
-              subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
-              tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
-              difficulty: 'Hard' as const
-            });
-            if (picked.length === count) break;
-          }
+      // FILL REMAINDER STRICTLY FROM MATCHED (repeating if necessary to respect chapter boundaries)
+      if (picked.length < count && matched.length > 0) {
+        let i = Math.floor(Math.random() * matched.length);
+        while (picked.length < count) {
+          const q = matched[i % matched.length];
+          picked.push({
+            ...q,
+            subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+            tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+            difficulty: 'Hard' as const,
+            id: `${q.id}-dup-${picked.length}-${Date.now()}`
+          });
+          i++;
         }
       }
       return picked;
@@ -5226,3 +5226,4 @@ export function generateSundayTestQuestions(
 
   return [];
 }
+

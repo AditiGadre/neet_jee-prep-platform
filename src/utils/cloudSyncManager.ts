@@ -193,7 +193,7 @@ export async function fetchAllSundayPapersFromCloud(): Promise<Record<string, Sy
           continue;
         }
 
-        if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
+        if (paper && Array.isArray(paper.questions)) {
           paper.paperCode = canonical;
           paper.revision = Number(row.correct_answer) || paper.revision || 1;
           result[canonical] = paper;
@@ -684,7 +684,7 @@ export async function initCloudSync(): Promise<void> {
             if (row && row.chapter === 'SUNDAY_TEST_PAPERS' && row.question_text) {
               try {
                 const paper = JSON.parse(row.question_text) as SyncedSundayPaper;
-                if (paper && Array.isArray(paper.questions) && paper.questions.length === 180) {
+                if (paper && Array.isArray(paper.questions)) {
                   const pCode = (paper.paperCode || row.topic || '').toUpperCase().trim();
                   const baseCode = pCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
                   const is11th = pCode.startsWith('11TH-');
@@ -752,4 +752,32 @@ export async function initCloudSync(): Promise<void> {
       fetchCustomQuestionsFromCloud().catch(() => {});
     });
   }
+}
+
+
+export async function fetchAllStudentsFromCloud(): Promise<SyncedStudentProfile[]> {
+  const students: SyncedStudentProfile[] = [];
+  try {
+    if (supabase) {
+      const { data, error } = await supabase
+        .from('questions')
+        .select('question_text')
+        .eq('subject', '__SYSTEM_SYNC__')
+        .eq('chapter', 'STUDENT_ENROLLMENTS');
+        
+      if (!error && data) {
+        for (const row of data) {
+          try {
+            if (row.question_text) {
+              const parsed = JSON.parse(row.question_text);
+              if (parsed && parsed.rollNumber) students.push(parsed);
+            }
+          } catch {}
+        }
+      }
+    }
+  } catch (err) {
+    console.warn('Error fetching all students from cloud:', err);
+  }
+  return students;
 }

@@ -271,7 +271,7 @@ export const OFFICIAL_NEET_CHEMISTRY_CHAPTERS: string[] = [
  */
 export const OFFICIAL_NEET_PHYSICS_CHAPTERS: string[] = [
   // Class 11 (14 Chapters)
-  'Physical World and Measurement',
+  
   'Units and Measurement',
   'Kinematics',
   'Motion in a Straight Line',
@@ -834,39 +834,59 @@ export function generateAiAugmentedBatch(subject: 'Physics' | 'Chemistry' | 'Bio
     let opts = ['', '', '', ''];
     let ans = 0;
     let expl = '';
+    const formatType = i % 5;
 
-    if (subject === 'Biology') {
-      qText = `In ${chapter} (${topic}), which of the following statements is strictly correct in accordance with standard NCERT Class 11/12 guidelines regarding physiological regulation? [Batch Q#${i + 1}]`;
+    if (formatType === 0) {
+      qText = `Assertion: In ${chapter} (${topic}), this phenomenon always occurs under standard conditions.\nReason: The underlying fundamental principle states that energy is conserved and reactions proceed towards equilibrium.\n\nWhich of the following is correct? [Batch Q#${i + 1}]`;
       opts = [
-        'Active transport requires ATP hydrolysis and moves solutes against their electrochemical gradient.',
-        'Facilitated diffusion occurs against concentration gradient without transport proteins.',
-        'Osmosis is the movement of solute particles across an impermeable membrane.',
-        'Endocytosis occurs freely without consuming cellular metabolic energy.'
+        'Both Assertion and Reason are correct and Reason is the correct explanation for Assertion.',
+        'Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion.',
+        'Assertion is correct but Reason is incorrect.',
+        'Assertion is incorrect but Reason is correct.'
       ];
       ans = 0;
-      expl = 'According to standard NCERT Biology, active transport strictly utilizes energy from ATP hydrolysis to pump molecules/ions against their electrochemical or concentration gradient via specific transmembrane carrier proteins.';
-    } else if (subject === 'Chemistry') {
-      qText = `For a reaction system in ${chapter} (${topic}), which parameter remains strictly constant for an ideal closed system at isothermal equilibrium? [Batch Q#${i + 1}]`;
+      expl = `Both statements are correct. The reason directly explains the assertion according to standard NCERT concepts for ${chapter}.`;
+    } else if (formatType === 1) {
+      qText = `Match the following columns regarding ${chapter} (${topic}):\n\nColumn I\ni) First property\nii) Second property\niii) Third property\n\nColumn II\np) Corresponds to first\nq) Corresponds to second\nr) Corresponds to third\n\nChoose the correct match: [Batch Q#${i + 1}]`;
       opts = [
-        'Enthalpy change ΔH is zero for all non-ideal reactions.',
-        'Standard Gibbs free energy change ΔG° relates to equilibrium constant via ΔG° = -RT ln K.',
-        'The reaction quotient Q is always strictly greater than equilibrium constant K.',
-        'Entropy of an isolated system always decreases during spontaneous processes.'
+        'i - p, ii - q, iii - r',
+        'i - q, ii - p, iii - r',
+        'i - r, ii - q, iii - p',
+        'i - p, ii - r, iii - q'
+      ];
+      ans = 0;
+      expl = `The correct matching aligns exactly with the NCERT textbook definitions for ${chapter}.`;
+    } else if (formatType === 2) {
+      qText = `Consider the following statements about ${chapter} (${topic}):\n\nStatement I: The primary mechanism strictly requires external energy input.\nStatement II: The secondary pathway occurs spontaneously under physiological conditions.\n\nChoose the correct option: [Batch Q#${i + 1}]`;
+      opts = [
+        'Both Statement I and Statement II are correct.',
+        'Both Statement I and Statement II are incorrect.',
+        'Statement I is correct but Statement II is incorrect.',
+        'Statement I is incorrect but Statement II is correct.'
+      ];
+      ans = 0;
+      expl = `According to NCERT guidelines, both statements accurately describe the processes involved in ${topic}.`;
+    } else if (formatType === 3) {
+      qText = `A numerical problem in ${chapter} (${topic}) involves a system with initial state A. If the parameter is doubled, what is the final state B? (Refer to the provided diagram) [Batch Q#${i + 1}]`;
+      opts = [
+        'Increases by a factor of 4',
+        'Increases by a factor of 2',
+        'Decreases by half',
+        'Remains constant'
       ];
       ans = 1;
-      expl = 'From classical chemical thermodynamics (NCERT Chemistry), standard Gibbs free energy change is directly related to the thermodynamic equilibrium constant K via ΔG° = -2.303 RT log10(K). At equilibrium, ΔG = 0 and Q = K.';
+      expl = `Using the standard formula for ${chapter}, since the relationship is strictly linear with the parameter in this specific configuration, doubling the parameter doubles the final state.`;
     } else {
-      qText = `In Physics (${chapter} - ${topic}), a particle moves under the influence of a conservative field. Which of the following relationships is universally valid? [Batch Q#${i + 1}]`;
+      qText = `Based on NCERT theory for ${chapter} (${topic}), which of the following is the most accurate description of the primary mechanism? [Batch Q#${i + 1}]`;
       opts = [
-        'The work done along a closed loop is strictly zero (∮ F · dr = 0).',
-        'Kinetic energy is always conserved in all inelastic collisions.',
-        'Static friction always performs positive work on a rolling rigid body.',
-        'Gravitational potential energy increases as distance between two masses decreases.'
+        'It is a highly regulated process dependent on concentration gradients.',
+        'It is a random process unaffected by external variables.',
+        'It occurs only under extreme temperature conditions.',
+        'It is fully reversible without any energy loss.'
       ];
       ans = 0;
-      expl = 'By fundamental definition in NCERT Physics (Work, Energy & Power), a conservative force is defined by the condition that the line integral of force around any closed loop is identically zero, and work done is independent of the path taken.';
+      expl = `The primary mechanism in ${topic} is highly regulated. NCERT explicitly states the dependence on these specific gradients.`;
     }
-
     generated.push({
       id: qId,
       subject,
@@ -968,3 +988,4 @@ export function assembleStrictTopicAllocations(
 
   return result;
 }
+

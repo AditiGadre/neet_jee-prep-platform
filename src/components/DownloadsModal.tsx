@@ -166,7 +166,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
   const getCategoryBadge = (category: DownloadRecord['category']) => {
     switch (category) {
       case 'Test Paper':
-        return { bg: 'bg-blue-50 text-blue-700 border-blue-200', icon: FileText, label: 'Test Paper' };
+        return { bg: 'bg-orange-50 text-orange-700 border-orange-200', icon: FileText, label: 'Test Paper' };
       case 'Book':
         return { bg: 'bg-emerald-50 text-emerald-700 border-emerald-200', icon: BookOpen, label: 'Book / Notes' };
       case 'Scorecard':
@@ -195,20 +195,20 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4 overflow-y-auto animate-in fade-in duration-150">
+    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-150">
       <div className="w-full max-w-3xl bg-white border border-gray-200 rounded-xl shadow-2xl flex flex-col max-h-[90vh] text-gray-900 relative animate-in zoom-in-95 duration-150 overflow-hidden">
         
         {/* Header Bar */}
-        <div className="p-4 sm:p-5 border-b border-gray-200 bg-gray-50/80 flex items-start justify-between">
+        <div className="p-6 sm:p-5 border-b border-gray-200 bg-gray-50/80 flex items-start justify-between">
           <div>
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center shadow-xs">
+              <div className="w-8 h-8 rounded-lg bg-orange-600 text-white flex items-center justify-center shadow-xs">
                 <ArrowDownToLine className="w-4 h-4" />
               </div>
               <div>
-                <h2 className="text-base sm:text-lg font-bold text-gray-900 flex items-center gap-2">
+                <h2 className="text-base sm:text-lg font-bold text-gray-900 flex items-center gap-4">
                   <span>My Download History & Vault</span>
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">
+                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-full bg-orange-100 text-orange-800">
                     {downloads.length} Files Tracked
                   </span>
                 </h2>
@@ -229,10 +229,10 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
         </div>
 
         {/* User Session Info Card */}
-        <div className="px-4 sm:px-5 py-2.5 bg-blue-50/60 border-b border-blue-100 flex flex-wrap items-center justify-between gap-2 text-xs">
+        <div className="px-4 sm:px-5 py-2.5 bg-orange-50/60 border-b border-orange-100 flex flex-wrap items-center justify-between gap-4 text-xs">
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-            <div className="flex items-center space-x-1.5 text-blue-900 font-semibold">
-              <User className="w-3.5 h-3.5 text-blue-600" />
+            <div className="flex items-center space-x-1.5 text-orange-900 font-semibold">
+              <User className="w-3.5 h-3.5 text-orange-600" />
               <span>{user?.name || user?.user_metadata?.name || 'Enrolled Student'}</span>
             </div>
             <div className="flex items-center space-x-1.5 text-gray-600 font-mono text-[11px]">
@@ -267,7 +267,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
         )}
 
         {/* Filter & Search Bar */}
-        <div className="p-3 sm:p-4 border-b border-gray-200 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5 bg-white">
+        <div className="p-3 sm:p-6 border-b border-gray-200 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4.5 bg-white">
           <div className="flex flex-wrap items-center gap-1.5">
             {['All', 'Test Paper', 'Book', 'Scorecard', 'DPP'].map(cat => (
               <button
@@ -275,7 +275,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
                 onClick={() => setActiveCategory(cat)}
                 className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                   activeCategory === cat
-                    ? 'bg-blue-600 text-white shadow-xs'
+                    ? 'bg-orange-600 text-white shadow-xs'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                 }`}
               >
@@ -292,7 +292,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
                 placeholder="Search downloaded files..."
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
-                className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:border-blue-500 focus:outline-none"
+                className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:border-orange-500 focus:outline-none"
               />
             </div>
 
@@ -309,7 +309,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
         </div>
 
         {/* Main Content List */}
-        <div className="flex-1 p-4 sm:p-5 overflow-y-auto custom-scrollbar space-y-3 bg-[#f9fafb]">
+        <div className="flex-1 p-6 sm:p-5 overflow-y-auto custom-scrollbar space-y-3 bg-[#f9fafb]">
           {filteredDownloads.length > 0 ? (
             <div className="space-y-2.5">
               {filteredDownloads.map(item => {
@@ -319,7 +319,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
                 return (
                   <div
                     key={item.id}
-                    className="p-3.5 sm:p-4 rounded-xl bg-white border border-gray-200 shadow-2xs hover:border-gray-300 transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 group"
+                    className="p-3.5 sm:p-6 rounded-xl bg-white border border-gray-200 shadow-2xs hover:border-gray-300 transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 group"
                   >
                     <div className="flex items-start space-x-3 min-w-0">
                       <div className={`w-9 h-9 rounded-lg flex items-center justify-center shrink-0 border ${badge.bg}`}>
@@ -355,7 +355,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
                     <div className="flex items-center space-x-2 self-end sm:self-center shrink-0">
                       <button
                         onClick={() => handleReDownload(item)}
-                        className="px-3 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer active:scale-95 shadow-2xs"
+                        className="px-3 py-1.5 rounded-lg bg-orange-50 hover:bg-orange-100 text-orange-700 border border-orange-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer active:scale-95 shadow-2xs"
                         title="Re-download PDF"
                       >
                         <Download className="w-3.5 h-3.5" />
@@ -376,7 +376,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
             </div>
           ) : (
             <div className="text-center py-10 px-4 space-y-4">
-              <div className="w-14 h-14 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center mx-auto">
+              <div className="w-14 h-14 rounded-2xl bg-orange-50 border border-orange-100 text-orange-600 flex items-center justify-center mx-auto">
                 <HardDrive className="w-7 h-7" />
               </div>
               <div className="space-y-1">
@@ -388,10 +388,10 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
                 </p>
               </div>
 
-              <div className="pt-2 flex flex-wrap items-center justify-center gap-2">
+              <div className="pt-2 flex flex-wrap items-center justify-center gap-4">
                 <button
                   onClick={handleDownloadSamplePaper}
-                  className="px-3 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                  className="px-3 py-2 rounded-lg bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
                 >
                   <FileText className="w-3.5 h-3.5" />
                   <span>Download Sample NEET Test PDF</span>
@@ -416,7 +416,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
         </div>
 
         {/* Footer */}
-        <div className="p-3 sm:p-4 border-t border-gray-200 bg-white flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-500">
+        <div className="p-3 sm:p-6 border-t border-gray-200 bg-white flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <div className="flex items-center space-x-2">
             <HardDrive className="w-3.5 h-3.5 text-gray-400" />
             <span>Encrypted local and cloud storage synced</span>

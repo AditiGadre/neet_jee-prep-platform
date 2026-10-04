@@ -153,13 +153,13 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4 overflow-y-auto animate-in fade-in duration-150">
+    <div className="fixed inset-0 z-50 bg-gray-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-150">
       <div className="w-full max-w-2xl bg-white border border-gray-200 rounded-xl shadow-2xl flex flex-col max-h-[92vh] text-gray-900 relative animate-in zoom-in-95 duration-150 overflow-hidden">
         
         {/* Header */}
-        <div className="p-4 sm:p-5 border-b border-gray-200 bg-slate-900 text-white flex items-start justify-between">
+        <div className="p-6 sm:p-5 border-b border-gray-200 bg-slate-900 text-white flex items-start justify-between">
           <div className="flex items-start space-x-3">
-            <div className="w-9 h-9 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shrink-0">
+            <div className="w-9 h-9 rounded-xl bg-orange-600 flex items-center justify-center text-white shadow-md shrink-0">
               <Upload className="w-5 h-5" />
             </div>
             <div>
@@ -187,14 +187,14 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
         </div>
 
         {/* Database Live Stats Banner */}
-        <div className="px-4 sm:px-5 py-2.5 bg-slate-50 border-b border-gray-200 grid grid-cols-4 gap-2 text-center text-xs font-mono">
+        <div className="px-4 sm:px-5 py-2.5 bg-slate-50 border-b border-gray-200 grid grid-cols-4 gap-4 text-center text-xs font-mono">
           <div className="p-1.5 bg-white rounded-lg border border-gray-200">
             <span className="text-[10px] text-gray-500 block">Biology</span>
             <strong className="text-emerald-700">{dbStats.biologyCount} Qs</strong>
           </div>
           <div className="p-1.5 bg-white rounded-lg border border-gray-200">
             <span className="text-[10px] text-gray-500 block">Chemistry</span>
-            <strong className="text-blue-700">{dbStats.chemistryCount} Qs</strong>
+            <strong className="text-orange-700">{dbStats.chemistryCount} Qs</strong>
           </div>
           <div className="p-1.5 bg-white rounded-lg border border-gray-200">
             <span className="text-[10px] text-gray-500 block">Physics</span>
@@ -212,7 +212,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
             onClick={() => { setActiveTab('ai_gen'); setErrorMessage(null); setSuccessMessage(null); }}
             className={`pb-2 px-3 text-xs font-bold border-b-2 transition flex items-center space-x-1.5 cursor-pointer ${
               activeTab === 'ai_gen'
-                ? 'border-blue-600 text-blue-600'
+                ? 'border-orange-600 text-orange-600'
                 : 'border-transparent text-gray-500 hover:text-gray-900'
             }`}
           >
@@ -224,7 +224,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
             onClick={() => { setActiveTab('json'); setErrorMessage(null); setSuccessMessage(null); }}
             className={`pb-2 px-3 text-xs font-bold border-b-2 transition flex items-center space-x-1.5 cursor-pointer ${
               activeTab === 'json'
-                ? 'border-blue-600 text-blue-600'
+                ? 'border-orange-600 text-orange-600'
                 : 'border-transparent text-gray-500 hover:text-gray-900'
             }`}
           >
@@ -236,7 +236,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
             onClick={() => { setActiveTab('text'); setErrorMessage(null); setSuccessMessage(null); }}
             className={`pb-2 px-3 text-xs font-bold border-b-2 transition flex items-center space-x-1.5 cursor-pointer ${
               activeTab === 'text'
-                ? 'border-blue-600 text-blue-600'
+                ? 'border-orange-600 text-orange-600'
                 : 'border-transparent text-gray-500 hover:text-gray-900'
             }`}
           >
@@ -246,7 +246,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
         </div>
 
         {/* Form Body */}
-        <div className="flex-1 p-4 sm:p-5 overflow-y-auto custom-scrollbar space-y-4 bg-white">
+        <div className="flex-1 p-6 sm:p-5 overflow-y-auto custom-scrollbar space-y-4 bg-white">
           
           {/* Target Subject & Chapter Inputs */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 p-3 rounded-xl bg-slate-50 border border-slate-200">
@@ -255,7 +255,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
               <select
                 value={subject}
                 onChange={e => setSubject(e.target.value as any)}
-                className="w-full p-2 rounded-lg bg-white border border-gray-300 text-xs font-semibold text-gray-900 focus:outline-none focus:border-blue-500"
+                className="w-full p-3 rounded-lg bg-white border border-gray-300 text-xs font-semibold text-gray-900 focus:outline-none focus:border-orange-500"
               >
                 <option value="Biology">🧬 Biology</option>
                 <option value="Chemistry">🧪 Chemistry</option>
@@ -271,7 +271,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
                 value={chapter}
                 onChange={e => setChapter(e.target.value)}
                 placeholder="Select or type chapter name..."
-                className="w-full p-2 rounded-lg bg-white border border-gray-300 text-xs font-semibold text-gray-900 focus:outline-none focus:border-blue-500"
+                className="w-full p-3 rounded-lg bg-white border border-gray-300 text-xs font-semibold text-gray-900 focus:outline-none focus:border-orange-500"
                 required
               />
               <datalist id="vault-chapters-datalist">
@@ -300,9 +300,9 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
           {/* MODE 1: AI BATCH GENERATOR */}
           {activeTab === 'ai_gen' && (
             <div className="space-y-3.5">
-              <div className="p-3.5 rounded-xl bg-blue-50/70 border border-blue-200 text-xs text-gray-700 space-y-1">
-                <div className="font-bold text-blue-900 flex items-center space-x-1.5">
-                  <Sparkles className="w-4 h-4 text-blue-600" />
+              <div className="p-3.5 rounded-xl bg-orange-50/70 border border-orange-200 text-xs text-gray-700 space-y-1">
+                <div className="font-bold text-orange-900 flex items-center space-x-1.5">
+                  <Sparkles className="w-4 h-4 text-orange-600" />
                   <span>On-Demand NCERT Question Generator</span>
                 </div>
                 <p>
@@ -312,7 +312,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
 
               <div className="space-y-1.5">
                 <label className="text-[11px] font-bold text-gray-600 uppercase">Batch Size</label>
-                <div className="grid grid-cols-3 gap-2">
+                <div className="grid grid-cols-3 gap-4">
                   {[15, 30, 45].map(cnt => (
                     <button
                       key={cnt}
@@ -320,7 +320,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
                       onClick={() => setGenCount(cnt)}
                       className={`py-2 rounded-lg text-xs font-bold font-mono transition cursor-pointer ${
                         genCount === cnt
-                          ? 'bg-blue-600 text-white shadow-xs'
+                          ? 'bg-orange-600 text-white shadow-xs'
                           : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                       }`}
                     >
@@ -334,7 +334,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
                 type="button"
                 onClick={handleGenerateAndIngestAI}
                 disabled={loading || !chapter.trim()}
-                className="w-full py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-2 shadow-xs transition disabled:opacity-50 cursor-pointer active:scale-98"
+                className="w-full py-2.5 rounded-lg bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center justify-center space-x-2 shadow-xs transition disabled:opacity-50 cursor-pointer active:scale-98"
               >
                 {loading ? (
                   <>
@@ -369,7 +369,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
                         }
                       ], null, 2));
                     }}
-                    className="text-blue-600 hover:underline font-medium cursor-pointer"
+                    className="text-orange-600 hover:underline font-medium cursor-pointer"
                   >
                     Load Sample Format
                   </button>
@@ -379,7 +379,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
                   placeholder={`[\n  {\n    "questionText": "...",\n    "options": ["A", "B", "C", "D"],\n    "correctAnswer": 0,\n    "explanation": "..."\n  }\n]`}
                   value={jsonInput}
                   onChange={e => setJsonInput(e.target.value)}
-                  className="w-full p-2.5 rounded-lg bg-slate-900 text-emerald-400 font-mono text-xs border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                  className="w-full p-3.5 rounded-lg bg-slate-900 text-emerald-400 font-mono text-xs border border-gray-300 focus:outline-none focus:ring-1 focus:ring-orange-500"
                 />
               </div>
 
@@ -406,7 +406,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
                   placeholder={`Q1. What is the unit of electric dipole moment?\nA) Coulomb-meter\nB) Debye\nC) Volt/meter\nD) Ampere\n\nQ2. Which cell organelle is called the suicidal bag?\nA) Ribosome\nB) Lysosome\nC) Mitochondria\nD) Chloroplast`}
                   value={rawTextInput}
                   onChange={e => setRawTextInput(e.target.value)}
-                  className="w-full p-2.5 rounded-lg bg-gray-50 text-gray-900 text-xs border border-gray-300 focus:bg-white focus:outline-none focus:border-blue-500"
+                  className="w-full p-3.5 rounded-lg bg-gray-50 text-gray-900 text-xs border border-gray-300 focus:bg-white focus:outline-none focus:border-orange-500"
                 />
               </div>
 
@@ -424,9 +424,9 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
         </div>
 
         {/* Footer */}
-        <div className="p-3 sm:p-4 border-t border-gray-200 bg-slate-50 flex items-center justify-between text-xs text-gray-500">
+        <div className="p-3 sm:p-6 border-t border-gray-200 bg-slate-50 flex items-center justify-between text-xs text-gray-500">
           <div className="flex items-center space-x-1.5 font-mono text-[11px]">
-            <Brain className="w-3.5 h-3.5 text-blue-600" />
+            <Brain className="w-3.5 h-3.5 text-orange-600" />
             <span>AI Knowledge Engine & Test Series Automatically Synced</span>
           </div>
 

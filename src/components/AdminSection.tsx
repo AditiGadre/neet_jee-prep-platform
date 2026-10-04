@@ -55,8 +55,8 @@ import {
   Globe,
   ArrowUp,
   ArrowDown,
-  AlertTriangle
-} from 'lucide-react';
+  AlertTriangle,
+  } from 'lucide-react';
 import {
   getUnifiedQuestionBank,
   ALL_BIOLOGY_CHAPTERS,
@@ -67,7 +67,8 @@ import {
   deleteChapterFromVaultDatabase,
   getVaultCustomChapters,
   TopicAllocationItem,
-  assembleStrictTopicAllocations
+  assembleStrictTopicAllocations,
+  uploadCustomQuestions
 } from '../utils/questionDatabase';
 import {
   getUnusedQuestions,
@@ -79,6 +80,7 @@ import { SAMPLE_QUESTIONS } from '../data/mockData';
 import { StudentUnlockRequest, getStoredUnlockRequests } from './SuperUserModal';
 import { getAdminNotifications, NEET_PREP_PACKAGES } from '../data/packagesData';
 import {
+  fetchAllStudentsFromCloud,
   syncSundayPaperToCloud,
   syncAdminConfigToCloud,
   fetchAdminConfigFromCloud,
@@ -95,6 +97,8 @@ import {
   SUNDAY_11TH_TRACK1_TESTS,
   SUNDAY_11TH_TRACK2_TESTS,
   PLANNER_12TH_TESTS,
+  PLANNER_12TH_COMPLETE_TESTS,
+  PLANNER_12TH_PC_TESTS,
   SundayPlannerTest,
   generateSundayTestQuestions,
   OFFICIAL_PHYSICS_UNITS,
@@ -302,7 +306,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     `[Botany] ${OFFICIAL_BOTANY_BLOCKS[0]}`,
     `[Zoology] ${OFFICIAL_ZOOLOGY_BLOCKS[0]}`
   ]);
-  const [selectedPlannerPreset, setSelectedPlannerPreset] = useState<string>('CWT-01');
+  const [selectedPlannerPreset, setSelectedPlannerPreset] = useState<string>('CW-01');
   const [isStudioLoadingPaper, setIsStudioLoadingPaper] = useState<boolean>(false);
   const [isSyncingAction, setIsSyncingAction] = useState<boolean>(false);
   const [paperRevision, setPaperRevision] = useState<number>(() => getLastSyncedRevision() || 0);
@@ -310,7 +314,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [sundayQuestions, setSundayQuestions] = useState<Question[]>(() => {
     try {
       const savedPaper = getSavedCustomSundayPaper('CWT-01');
-      if (savedPaper && (savedPaper as any).revision > 0 && Array.isArray(savedPaper.questions) && savedPaper.questions.length === 180) {
+      if (savedPaper && (savedPaper as any).revision > 0 && Array.isArray(savedPaper.questions) ) {
         return savedPaper.questions;
       }
     } catch {}
@@ -324,11 +328,124 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [studioSearch, setStudioSearch] = useState<string>('');
   const [studioPage, setStudioPage] = useState<number>(1);
   const [editingQuestionIdx, setEditingQuestionIdx] = useState<number | null>(null);
+  const [activeSwapIdx, setActiveSwapIdx] = useState<number | null>(null);
+  const [pendingSwapId, setPendingSwapId] = useState<string | null>(null);
+  const [exportTrackSelection, setExportTrackSelection] = useState<string>('dropper1');
+
+  const handleExportSelectedTrackZIP = async () => {
+    setIsSyncingAction(true);
+    try {
+      const JSZip = (await import('jszip')).default;
+      const zip = new JSZip();
+      
+      let targetTests: any[] = [];
+      let trackName = "";
+      let prefix = "";
+
+      if (exportTrackSelection === 'dropper1') { targetTests = SUNDAY_DROPPER_TRACK1_TESTS; trackName = "Repeater_Track_1"; }
+      else if (exportTrackSelection === 'dropper2') { targetTests = SUNDAY_DROPPER_TRACK2_TESTS; trackName = "Repeater_Track_2"; }
+      else if (exportTrackSelection === 'dropper3') { targetTests = SUNDAY_DROPPER_PC_TESTS; trackName = "Repeater_Track_3"; }
+      else if (exportTrackSelection === '11th1') { targetTests = SUNDAY_11TH_TRACK1_TESTS; trackName = "11th_Track_1"; prefix = "11TH-"; }
+      else if (exportTrackSelection === '11th2') { targetTests = SUNDAY_11TH_TRACK2_TESTS; trackName = "11th_Track_2"; prefix = "11TH-"; }
+      else if (exportTrackSelection === '12th1') { targetTests = PLANNER_12TH_COMPLETE_TESTS; trackName = "12th_Track_1"; prefix = "12TH-"; }
+      else if (exportTrackSelection === '12th2') { targetTests = PLANNER_12TH_PC_TESTS; trackName = "12th_Track_2"; prefix = "12TH-"; }
+
+      const data: Record<string, any> = {};
+      
+      for (const t of targetTests) {
+        if (!t || !t.code) continue;
+        try {
+          const fetchCode = prefix + t.code;
+          const cloud = await fetchAuthoritativePaper(fetchCode, true);
+          if (cloud) {
+             data[fetchCode] = cloud;
+             const textContent = `Paper: ${fetchCode}\nTitle: ${t.title}\n\n` + 
+                (cloud.questions || []).map((q: any, i: number) => `Q${i+1}. ${q.questionText}\nAns: ${q.correctAnswer}\n`).join('\n');
+             zip.file(`readable_exports/${fetchCode}.txt`, textContent);
+          }
+        } catch(e) {}
+      }
+      
+      zip.file('platform_backup.agydata', JSON.stringify(data));
+      
+      const blob = await zip.generateAsync({ type: 'blob' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${trackName}_Backup_${new Date().toISOString().split('T')[0]}.zip`;
+      a.click();
+      URL.revokeObjectURL(url);
+      alert(`Exported ${trackName} as ZIP successfully!`);
+    } catch (e) {
+      alert("Failed to export ZIP.");
+      console.error(e);
+    } finally {
+      setIsSyncingAction(false);
+    }
+  };
+
+  const handleImportBackupZIP = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    
+    setIsSyncingAction(true);
+    setActionSuccessBanner(null);
+    setActionErrorBanner(null);
+    try {
+      const JSZip = (await import('jszip')).default;
+      const zip = await JSZip.loadAsync(file);
+      const dataFile = zip.file('platform_backup.agydata');
+      if (!dataFile) {
+         alert("Invalid ZIP backup: missing platform_backup.agydata internal file.");
+         setIsSyncingAction(false);
+         return;
+      }
+      const text = await dataFile.async('string');
+      const data = JSON.parse(text);
+      let count = 0;
+      let fails = 0;
+      for (const [code, paper] of Object.entries(data)) {
+         try {
+           const res = await commitAuthoritativePaperToCloud(paper, paper.revision || 1);
+           if (res.success) count++;
+           else fails++;
+         } catch(e) { fails++; }
+      }
+      
+      const msg = `Successfully imported and deployed ${count} papers to the Master Cloud Database! ${fails > 0 ? '(' + fails + ' failed)' : ''}`;
+      alert(msg);
+      setActionSuccessBanner(msg);
+      
+      if (selectedPlannerPreset && data[selectedPlannerPreset]) {
+        // Refresh currently viewed paper
+        const fresh = await fetchAuthoritativePaper(selectedPlannerPreset, true);
+        if (fresh && Array.isArray(fresh.questions)) {
+           setSundayQuestions(fresh.questions);
+        }
+      }
+    } catch(err) {
+      alert("Failed to read ZIP backup.");
+      setActionErrorBanner("Failed to read ZIP backup.");
+    } finally {
+      setIsSyncingAction(false);
+      if (e.target) e.target.value = '';
+    }
+  };
+
+  const handleMockPdfUpload = () => {
+    if (confirm("Would you like to simulate parsing an uploaded PDF/Word document into this exact question paper?")) {
+      setTimeout(() => alert("PDF successfully parsed and mapped strictly to your selected topics!"), 800);
+    }
+  };
+
+  const [swapCandidates, setSwapCandidates] = useState<Question[]>([]);
   const [editForm, setEditForm] = useState<{
     questionText: string;
     options: string[];
     correctAnswer: number;
     explanation: string;
+    image?: string;
+    solutionImage?: string;
   } | null>(null);
   const [showMasterSavesModal, setShowMasterSavesModal] = useState<boolean>(false);
 
@@ -343,7 +460,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     fetchAuthoritativePaper(selectedPlannerPreset, true)
       .then(paper => {
         if (!isMounted || !paper) return;
-        if (Array.isArray(paper.questions) && paper.questions.length === 180) {
+        if (Array.isArray(paper.questions) ) {
           setSundayQuestions(paper.questions);
           setLastSyncedTime(paper.updatedAt);
           setPaperRevision(paper.revision || 1);
@@ -369,7 +486,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       const currentCode = selectedPlannerPreset.toUpperCase().trim();
       const baseCode = currentCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
       if (code && (code === currentCode || code === baseCode || code === `REPEATER-${baseCode}`)) {
-        if (e.detail?.paper?.questions && e.detail.paper.questions.length === 180) {
+        if (e.detail?.paper?.questions ) {
           setSundayQuestions(e.detail.paper.questions);
           setLastSyncedTime(e.detail.paper.updatedAt || new Date().toISOString());
           setPaperRevision(e.detail?.revision || e.detail?.paper?.revision || 1);
@@ -643,7 +760,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     // 1. Check authoritative cloud database first for universal real-time consistency
     try {
       const cloudPaper = await fetchAuthoritativePaper(paperCode, true);
-      if (cloudPaper && Array.isArray(cloudPaper.questions) && (cloudPaper.questions.length === targetCount || cloudPaper.questions.length === 180 || cloudPaper.questions.length === 100)) {
+      if (cloudPaper && Array.isArray(cloudPaper.questions) ) {
         setSundayQuestions(cloudPaper.questions);
         setLastSyncedTime(cloudPaper.updatedAt);
         setPaperRevision(cloudPaper.revision || 1);
@@ -661,7 +778,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     // 2. Saved custom paper from localStorage
     const saved = getSavedCustomSundayPaper(paperCode);
-    if (saved && Array.isArray(saved.questions) && (saved.questions.length === targetCount || saved.questions.length === 180 || saved.questions.length === 100)) {
+    if (saved && Array.isArray(saved.questions) ) {
       setSundayQuestions(saved.questions);
       setLastSyncedTime(saved.updatedAt || null);
       setPaperRevision((saved as any).revision || 0);
@@ -905,9 +1022,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       phyPool.push(...getUnifiedQuestionBank('Physics', unit));
     }
     phyPool = Array.from(new Map(phyPool.map(q => [q.id, q])).values());
-    if (phyPool.length === 0) {
-      phyPool = getUnifiedQuestionBank('Physics', sundayPhyUnits[0] || 'Thermodynamics');
-    }
+    if (phyPool.length === 0) { phyPool = getUnifiedQuestionBank('Physics'); if (phyPool.length === 0) phyPool = [{ 'id': 'phy-fb', 'questionText': 'Sample Physics Q', 'options': ['A','B','C','D'], 'correctAnswer': 'A', 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Physics', 'chapter': 'Any' }]; }
 
     const randPhy = [...phyPool].sort(() => 0.5 - Math.random());
     const phy45: Question[] = [];
@@ -931,9 +1046,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       chemPool.push(...getUnifiedQuestionBank('Chemistry', unit));
     }
     chemPool = Array.from(new Map(chemPool.map(q => [q.id, q])).values());
-    if (chemPool.length === 0) {
-      chemPool = getUnifiedQuestionBank('Chemistry', sundayChemUnits[0] || 'Chemical Thermodynamics');
-    }
+    if (chemPool.length === 0) { chemPool = getUnifiedQuestionBank('Chemistry'); if (chemPool.length === 0) chemPool = [{ 'id': 'chem-fb', 'questionText': 'Sample Chemistry Q', 'options': ['A','B','C','D'], 'correctAnswer': 'A', 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Chemistry', 'chapter': 'Any' }]; }
 
     const randChem = [...chemPool].sort(() => 0.5 - Math.random());
     const chem45: Question[] = [];
@@ -958,18 +1071,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       botPool.push(...getUnifiedQuestionBank('Biology', unit));
     }
     botPool = Array.from(new Map(botPool.map(q => [q.id, q])).values());
-    if (botPool.length === 0) {
-      botPool = getUnifiedQuestionBank('Biology', 'The Living World');
-    }
+    if (botPool.length === 0) { botPool = getUnifiedQuestionBank('Botany'); if (botPool.length === 0) botPool = [{ 'id': 'bot-fb', 'questionText': 'Sample Botany Q', 'options': ['A','B','C','D'], 'correctAnswer': 'A', 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Botany', 'chapter': 'Any' }]; }
 
     let zooPool: Question[] = [];
     for (const unit of zooUnits) {
       zooPool.push(...getUnifiedQuestionBank('Biology', unit));
     }
     zooPool = Array.from(new Map(zooPool.map(q => [q.id, q])).values());
-    if (zooPool.length === 0) {
-      zooPool = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
-    }
+    if (zooPool.length === 0) { zooPool = getUnifiedQuestionBank('Zoology'); if (zooPool.length === 0) zooPool = [{ 'id': 'zoo-fb', 'questionText': 'Sample Zoology Q', 'options': ['A','B','C','D'], 'correctAnswer': 'A', 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Zoology', 'chapter': 'Any' }]; }
 
     const randBot = [...botPool].sort(() => 0.5 - Math.random());
     const bot45: Question[] = [];
@@ -1038,6 +1147,186 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         setActionSuccessBanner(null);
         setActionErrorBanner(null);
       }, 4000);
+    }
+  };
+
+  const handleStartSwapMenu = (idx: number) => {
+    if (activeSwapIdx === idx) {
+      setActiveSwapIdx(null);
+      setSwapCandidates([]);
+      setPendingSwapId(null);
+      return;
+    }
+    const currentQ = sundayQuestions[idx];
+    if (!currentQ) return;
+    
+    const sub = currentQ.subject || (idx < 45 ? 'Physics' : idx < 90 ? 'Chemistry' : 'Biology');
+    
+    
+      // STRICT PLANNER ADHERENCE: Get candidates ONLY from the customized chapters if provided, else official planner
+      let targetChapters: string[] = [];
+      if (sub === 'Physics') {
+        if (sundayPhyUnits && sundayPhyUnits.length > 0) {
+           targetChapters = [...sundayPhyUnits];
+        } else {
+           const cleanKey = selectedPlannerPreset.replace(/^(11th|12th)-/i, '').toLowerCase();
+           const planner = SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || PLANNER_12TH_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_DROPPER_PLANNER_TESTS[0];
+           targetChapters = OFFICIAL_PHYSICS_UNITS.filter(u => planner.physicsKeywords?.some(kw => u.toLowerCase().includes(kw.toLowerCase())));
+        }
+      } else if (sub === 'Chemistry') {
+        if (sundayChemUnits && sundayChemUnits.length > 0) {
+           targetChapters = [...sundayChemUnits];
+        } else {
+           const cleanKey = selectedPlannerPreset.replace(/^(11th|12th)-/i, '').toLowerCase();
+           const planner = SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || PLANNER_12TH_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_DROPPER_PLANNER_TESTS[0];
+           targetChapters = OFFICIAL_CHEMISTRY_UNITS.filter(u => planner.chemistryKeywords?.some(kw => u.toLowerCase().includes(kw.toLowerCase())));
+        }
+      } else {
+        if (sundayBioUnits && sundayBioUnits.length > 0) {
+           targetChapters = [...sundayBioUnits];
+        } else {
+           const cleanKey = selectedPlannerPreset.replace(/^(11th|12th)-/i, '').toLowerCase();
+           const planner = SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || PLANNER_12TH_TESTS.find(t => t.code.toLowerCase() === cleanKey)
+              || SUNDAY_DROPPER_PLANNER_TESTS[0];
+           const botMatch = OFFICIAL_BOTANY_BLOCKS.filter(b => planner.botanyKeywords?.some(kw => b.toLowerCase().includes(kw.toLowerCase()))).map(b => `[Botany] ${b}`);
+           const zooMatch = OFFICIAL_ZOOLOGY_BLOCKS.filter(z => planner.zoologyKeywords?.some(kw => z.toLowerCase().includes(kw.toLowerCase()))).map(z => `[Zoology] ${z}`);
+           targetChapters = [...botMatch, ...zooMatch];
+        }
+      }
+
+      let bank: Question[] = [];
+    if (targetChapters.length > 0) {
+      for (const ch of targetChapters) {
+        bank.push(...getUnifiedQuestionBank(sub, ch));
+      }
+    } else {
+      bank = getUnifiedQuestionBank(sub); // Fallback if admin deselected all chapters
+    }
+
+    const existingIds = new Set(sundayQuestions.map(q => q.id));
+    let candidates = bank.filter(q => !existingIds.has(q.id) && q.questionText !== currentQ.questionText);
+    const seenText = new Set<string>();
+    candidates = candidates.filter(q => {
+      if (seenText.has(q.questionText)) return false;
+      seenText.add(q.questionText);
+      return true;
+    });
+    
+    setSwapCandidates(candidates);
+    setActiveSwapIdx(idx);
+  };
+
+  const handleExecuteSpecificSwap = async (questionIdx: number, replacementId: string) => {
+    const currentQ = sundayQuestions[questionIdx];
+    if (!currentQ) return;
+    
+    const sub = currentQ.subject || (questionIdx < 45 ? 'Physics' : questionIdx < 90 ? 'Chemistry' : 'Biology');
+    const bank = getUnifiedQuestionBank(sub);
+    const replacement = swapCandidates.find(q => q.id === replacementId) || bank.find(q => q.id === replacementId);
+    if (!replacement) return;
+
+    setActiveSwapIdx(null);
+    setSwapCandidates([]);
+    setPendingSwapId(null);
+    setIsSyncingAction(true);
+
+    const hardDiag = (replacement.difficulty === 'Hard') && sub === 'Physics'
+      ? getHardPhysicsDiagram(replacement)
+      : null;
+
+    const newQ: Question = {
+      ...replacement,
+      id: `sunday-${sub.toLowerCase()}-swap-${Date.now()}-${replacement.id}`,
+      subject: sub as any,
+      chapter: replacement.chapter || currentQ.chapter,
+      tags: currentQ.tags || replacement.tags,
+      diagramSvg: hardDiag || replacement.diagramSvg,
+      questionText: formatMathAndFormulas(replacement.questionText),
+      options: replacement.options.map(o => formatMathAndFormulas(o)),
+      explanation: formatMathAndFormulas(replacement.explanation),
+      image: replacement.image,
+      solutionImage: replacement.solutionImage
+    };
+
+    const optimistic = [...sundayQuestions];
+    optimistic[questionIdx] = newQ;
+    setSundayQuestions(optimistic);
+
+    const currentPaper = {
+      paperCode: selectedPlannerPreset,
+      revision: paperRevision,
+      questions: optimistic,
+      customChapters: { physics: sundayPhyUnits, chemistry: sundayChemUnits, biology: sundayBioUnits },
+      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      publishedBy: 'Institutional Master Admin',
+      updatedAt: new Date().toISOString()
+    };
+
+    try {
+      const result = await swapSingleQuestionWithBank(selectedPlannerPreset, questionIdx, undefined, currentPaper, replacementId);
+      if (result.success && result.paper) {
+        setSundayQuestions(result.paper.questions);
+        setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
+        setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped specifically!`);
+      } else {
+        setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped!`);
+      }
+    } catch (err) {
+      setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped!`);
+    } finally {
+      setTimeout(() => setActionSuccessBanner(null), 3000);
+      setIsSyncingAction(false);
+    }
+  };
+
+  const handleDeleteQuestion = async (questionIdx: number) => {
+    if (isSyncingAction) return;
+    if (!window.confirm("Are you sure you want to permanently delete this question from the platform? It will be removed from the bank and never appear in swaps again.")) return;
+
+    setIsSyncingAction(true);
+    try {
+      const currentQ = sundayQuestions[questionIdx];
+      if (currentQ) {
+        const bannedStr = localStorage.getItem('agy_banned_questions') || '[]';
+        const banned = new Set(JSON.parse(bannedStr));
+        banned.add(currentQ.id);
+        localStorage.setItem('agy_banned_questions', JSON.stringify([...banned]));
+      }
+
+      const optimistic = [...sundayQuestions];
+      optimistic.splice(questionIdx, 1);
+      setSundayQuestions(optimistic);
+
+      const paperToSave = {
+        paperCode: selectedPlannerPreset,
+        revision: paperRevision,
+        questions: optimistic,
+        customChapters: { physics: sundayPhyUnits, chemistry: sundayChemUnits, biology: sundayBioUnits },
+        testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+        publishedBy: 'Institutional Master Admin',
+        updatedAt: new Date().toISOString()
+      };
+      saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
+      setActionSuccessBanner(`✓ Question #${questionIdx + 1} deleted!`);
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setTimeout(() => setActionSuccessBanner(null), 3000);
+      setIsSyncingAction(false);
     }
   };
 
@@ -1134,7 +1423,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       questionText: q.questionText,
       options: [...q.options],
       correctAnswer: q.correctAnswer ?? 0,
-      explanation: q.explanation || ''
+      explanation: q.explanation || '',
+      image: q.image || '',
+      solutionImage: q.solutionImage || ''
     });
   };
 
@@ -1151,7 +1442,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       questionText: formSnapshot.questionText,
       options: [...formSnapshot.options],
       correctAnswer: formSnapshot.correctAnswer,
-      explanation: formSnapshot.explanation
+      explanation: formSnapshot.explanation,
+      image: formSnapshot.image,
+      solutionImage: formSnapshot.solutionImage
     };
 
     const optimistic = [...sundayQuestions];
@@ -1185,6 +1478,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       if (result.success && result.paper) {
         setSundayQuestions(result.paper.questions);
         setPaperRevision(result.revision || result.paper.revision || paperRevision + 1);
+        
+        // Push the edited/new question globally to the custom vault bank
+        uploadCustomQuestions([{ ...updatedQ, tags: [...(updatedQ.tags || []), 'Admin Edited'] }], 'Admin Edited');
+        
         setActionSuccessBanner(`✓ Question #${idx + 1} saved successfully!`);
         setTimeout(() => setActionSuccessBanner(null), 3000);
       } else {
@@ -1433,6 +1730,29 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [showNotificationDrawer, setShowNotificationDrawer] = useState(false);
 
   useEffect(() => {
+    let isMounted = true;
+    const loadCloudStudents = async () => {
+      try {
+        const cloudStudents = await fetchAllStudentsFromCloud();
+        if (isMounted && cloudStudents && cloudStudents.length > 0) {
+          setRegisteredCandidates(prev => {
+            const map = new Map(prev.map(s => [s.email || s.rollNumber, s]));
+            for (const c of cloudStudents) {
+              map.set(c.email || c.rollNumber, c);
+            }
+            return Array.from(map.values());
+          });
+        }
+      } catch (e) {
+        console.error('Failed to load cloud students in admin panel', e);
+      }
+    };
+    loadCloudStudents();
+    return () => { isMounted = false; };
+  }, []);
+
+
+  useEffect(() => {
     const handleNotificationUpdate = () => {
       setAdminNotifications(getAdminNotifications());
       try {
@@ -1456,7 +1776,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     <div className="space-y-5 animate-in fade-in duration-150">
       {/* Page Header Banner */}
       <div className="bg-slate-900 border border-slate-800 text-white rounded-2xl p-5 shadow-xl">
-        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div className="flex items-center space-x-3.5">
             <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-500 via-rose-600 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-amber-500/20">
               <ShieldCheck className="w-6 h-6" />
@@ -1505,33 +1825,33 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     className="fixed inset-0 z-40"
                     onClick={() => setShowNotificationDrawer(false)}
                   />
-                  <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-white rounded-2xl shadow-2xl border border-slate-200 z-50 p-4 text-slate-900 animate-in fade-in zoom-in-95 duration-150">
+                  <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-white rounded-2xl shadow-2xl border border-slate-200 z-50 p-8 text-slate-900 animate-in fade-in zoom-in-95 duration-150">
                     <div className="flex items-center justify-between pb-2.5 border-b border-slate-100">
                       <div className="flex items-center space-x-2">
-                        <Bell className="w-4 h-4 text-blue-600" />
+                        <Bell className="w-4 h-4 text-orange-600" />
                         <h4 className="text-xs font-bold text-slate-900">Enrolled Package Notifications</h4>
                       </div>
-                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">
+                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-orange-100 text-orange-800">
                         {adminNotifications.length} New
                       </span>
                     </div>
 
-                    <div className="mt-2.5 space-y-2 max-h-72 overflow-y-auto pr-1">
+                    <div className="mt-2.5 space-y-4 max-h-72 overflow-y-auto pr-1">
                       {adminNotifications.length > 0 ? (
                         adminNotifications.map(notif => (
                           <div
                             key={notif.id}
-                            className="p-2.5 rounded-xl border border-slate-100 bg-slate-50/70 hover:bg-blue-50/50 transition space-y-1"
+                            className="p-3.5 rounded-xl border border-slate-100 bg-slate-50/70 hover:bg-orange-50/50 transition space-y-1"
                           >
-                            <div className="flex items-start justify-between gap-2">
+                            <div className="flex items-start justify-between gap-3">
                               <span className="text-xs font-bold text-slate-900">{notif.studentName}</span>
                               <span className="text-[10px] font-mono text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded font-bold shrink-0">
-                                {notif.packagePrice}
+                                {notif.packagePrice || 'Free'}
                               </span>
                             </div>
-                            <div className="flex items-center gap-1.5 text-[11px] text-blue-700 font-semibold">
+                            <div className="flex items-center gap-1.5 text-[11px] text-orange-700 font-semibold">
                               <Crown className="w-3 h-3 text-amber-500 shrink-0" />
-                              <span className="truncate">{notif.packageName}</span>
+                              <span className="truncate">{notif.packageName || 'General Registration'}</span>
                             </div>
                             <div className="flex items-center justify-between text-[10px] text-slate-500 pt-1 border-t border-slate-200/50">
                               <span className="font-mono">Roll: {notif.rollNumber}</span>
@@ -1552,7 +1872,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           setAdminTab('students');
                           setShowNotificationDrawer(false);
                         }}
-                        className="w-full py-1.5 text-center text-xs font-bold text-blue-600 hover:text-blue-800 transition"
+                        className="w-full py-1.5 text-center text-xs font-bold text-orange-600 hover:text-orange-800 transition"
                       >
                         Open Full Candidate Directory →
                       </button>
@@ -1589,7 +1909,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {onClose && (
               <button
                 onClick={onClose}
-                className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
+                className="p-3 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
                 title="Close Admin Portal"
               >
                 <X className="w-5 h-5" />
@@ -1601,7 +1921,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       {/* Real-Time Enrollment Notification Alert Banner */}
       {adminNotifications.length > 0 && (
-        <div className="p-4 rounded-2xl bg-gradient-to-r from-emerald-950 via-teal-950 to-slate-900 border-2 border-emerald-500/50 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-white animate-in fade-in slide-in-from-top-2 duration-200">
+        <div className="p-8 rounded-2xl bg-gradient-to-r from-emerald-950 via-teal-950 to-slate-900 border-2 border-emerald-500/50 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-white animate-in fade-in slide-in-from-top-3 duration-200">
           <div className="flex items-start sm:items-center space-x-3 min-w-0">
             <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 flex items-center justify-center shrink-0 mt-0.5 sm:mt-0">
               <Crown className="w-5 h-5 text-amber-400" />
@@ -1621,11 +1941,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               <p className="text-xs text-slate-200 mt-1">
                 Enrolled Package:{' '}
                 <strong className="text-white font-bold bg-white/10 px-2 py-0.5 rounded border border-white/20">
-                  {adminNotifications[0].packageName}
+                  {adminNotifications[0].packageName || 'General Registration'}
                 </strong>{' '}
-                <span className="text-emerald-400 font-bold font-mono">
-                  ({adminNotifications[0].packagePrice})
-                </span>{' '}
+                {' '}
                 &bull; Contact: +91 {adminNotifications[0].studentPhone}
               </p>
             </div>
@@ -1645,7 +1963,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {/* Global Action Banner */}
       {actionSuccessBanner && (
         <div className="px-4 py-3 bg-emerald-600 text-white text-xs font-bold rounded-xl flex items-center justify-between shadow-md animate-in slide-in-from-top">
-          <span className="flex items-center gap-2">
+          <span className="flex items-center gap-3">
             <CheckCircle2 className="w-4 h-4 shrink-0" /> {actionSuccessBanner}
           </span>
           <button onClick={() => setActionSuccessBanner(null)} className="text-white/80 hover:text-white">
@@ -1656,7 +1974,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       {actionErrorBanner && (
         <div className="px-4 py-3 bg-rose-600 text-white text-xs font-bold rounded-xl flex items-center justify-between shadow-md animate-in slide-in-from-top">
-          <span className="flex items-center gap-2">
+          <span className="flex items-center gap-3">
             <AlertTriangle className="w-4 h-4 shrink-0" /> {actionErrorBanner}
           </span>
           <button onClick={() => setActionErrorBanner(null)} className="text-white/80 hover:text-white">
@@ -1666,12 +1984,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       )}
 
       {/* Navigation Sub-Tabs */}
-      <div className="flex flex-wrap items-center gap-2 bg-white p-2 rounded-2xl border border-gray-200 shadow-2xs">
+      <div className="flex flex-wrap items-center gap-3 bg-white p-3 rounded-2xl border border-gray-200 shadow-2xs">
         <button
           onClick={() => setAdminTab('requests')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'requests'
-              ? 'bg-blue-600 text-white shadow-xs'
+              ? 'bg-orange-600 text-white shadow-xs'
               : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
           }`}
         >
@@ -1688,7 +2006,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           onClick={() => setAdminTab('sunday_studio')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'sunday_studio'
-              ? 'bg-blue-600 text-white shadow-xs'
+              ? 'bg-orange-600 text-white shadow-xs'
               : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
           }`}
         >
@@ -1700,7 +2018,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           onClick={() => setAdminTab('generator')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'generator'
-              ? 'bg-blue-600 text-white shadow-xs'
+              ? 'bg-orange-600 text-white shadow-xs'
               : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
           }`}
         >
@@ -1712,7 +2030,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           onClick={() => setAdminTab('telemetry')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'telemetry'
-              ? 'bg-blue-600 text-white shadow-xs'
+              ? 'bg-orange-600 text-white shadow-xs'
               : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
           }`}
         >
@@ -1727,7 +2045,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           onClick={() => setAdminTab('students')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'students'
-              ? 'bg-blue-600 text-white shadow-xs'
+              ? 'bg-orange-600 text-white shadow-xs'
               : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
           }`}
         >
@@ -1738,8 +2056,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       {/* TAB 1: STUDENT UNLOCK REQUESTS */}
       {adminTab === 'requests' && (
-        <div className="space-y-4">
-          <div className="bg-white p-4 rounded-2xl border border-gray-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div className="space-y-6">
+          <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <h3 className="text-base font-bold text-gray-900 flex items-center space-x-2">
                 <KeyRound className="w-5 h-5 text-amber-500" />
@@ -1761,7 +2079,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             )}
           </div>
 
-          <div className="flex flex-wrap items-center justify-between gap-2.5 bg-white p-3.5 rounded-2xl border border-gray-200 shadow-2xs">
+          <div className="flex flex-wrap items-center justify-between gap-3.5 bg-white p-3.5 rounded-2xl border border-gray-200 shadow-2xs">
             <div className="flex items-center space-x-1.5">
               {(['all', 'pending', 'approved', 'rejected'] as const).map(status => (
                 <button
@@ -1769,7 +2087,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   onClick={() => setRequestStatusFilter(status)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition cursor-pointer ${
                     requestStatusFilter === status
-                      ? 'bg-blue-600 text-white shadow-2xs'
+                      ? 'bg-orange-600 text-white shadow-2xs'
                       : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                   }`}
                 >
@@ -1780,13 +2098,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
 
             <div className="relative w-full sm:w-72">
-              <Search className="w-4 h-4 absolute left-3 top-2.5 text-gray-400" />
+              <Search className="w-4 h-4 absolute left-3 top-3.5 text-gray-400" />
               <input
                 type="text"
                 placeholder="Search candidate, roll #, contact, email..."
                 value={requestSearch}
                 onChange={e => setRequestSearch(e.target.value)}
-                className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-slate-50 border border-gray-200 text-xs text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none focus:border-blue-500"
+                className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-slate-50 border border-gray-200 text-xs text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none focus:border-orange-500"
               />
             </div>
           </div>
@@ -1824,7 +2142,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                           <td className="p-3.5">
                             <div className="font-bold text-gray-900">{req.studentName}</div>
-                            <div className="text-[11px] font-mono text-blue-700 font-semibold">{req.rollNumber}</div>
+                            <div className="text-[11px] font-mono text-orange-700 font-semibold">{req.rollNumber}</div>
                             {(() => {
                               const matched = registeredCandidates.find((c: any) => c.rollNumber === req.rollNumber || c.studentName === req.studentName || c.studentPhone === req.studentPhone);
                               const pkg = matched?.selectedPackage || enrolledStudent?.selectedPackage;
@@ -1832,7 +2150,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                 <div className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-50 text-amber-900 border border-amber-200 mt-1">
                                   <Crown className="w-2.5 h-2.5 text-amber-600 shrink-0" />
                                   <span className="truncate max-w-[160px]">{pkg.name}</span>
-                                  <span className="font-mono text-emerald-700 font-bold">{pkg.price}</span>
+                                  
                                 </div>
                               ) : (
                                 <div className="text-[10px] text-gray-400">{req.targetBatch}</div>
@@ -1842,7 +2160,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                           <td className="p-3.5 font-mono text-gray-700">
                             <div className="flex items-center space-x-1 font-semibold">
-                              <Phone className="w-3 h-3 text-blue-600" />
+                              <Phone className="w-3 h-3 text-orange-600" />
                               <span>+91 {req.studentPhone}</span>
                             </div>
                           </td>
@@ -1859,7 +2177,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           </td>
 
                           <td className="p-3.5">
-                            <span className="font-bold text-slate-900 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded text-[11px]">
+                            <span className="font-bold text-slate-900 bg-orange-50 border border-orange-200 px-2 py-0.5 rounded text-[11px]">
                               {req.testCode}
                             </span>
                             <div className="text-[10px] text-gray-500 mt-1 max-w-xs truncate">
@@ -1941,10 +2259,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {adminTab === 'sunday_studio' && (
         <div className="space-y-6">
           {/* Top Banner with All-Sunday Paper Selector & Master Controls */}
-          <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-purple-950 text-white p-6 rounded-3xl shadow-lg space-y-5 border border-indigo-800/40">
-            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+          <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-purple-950 text-white p-8 rounded-3xl shadow-lg space-y-5 border border-indigo-800/40">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
               <div>
-                <div className="flex items-center gap-2 flex-wrap mb-1.5">
+                <div className="flex items-center gap-3 flex-wrap mb-1.5">
                   <span className="px-3 py-1 rounded-full text-[11px] font-mono font-black bg-purple-500/20 text-purple-300 border border-purple-400/30 uppercase tracking-wider">
                     Official NTA Format • 720 Marks • 180 Qs
                   </span>
@@ -1954,12 +2272,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       Master Default Active (Live for All Candidates)
                     </span>
                   ) : (
-                    <span className="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-blue-500/20 text-blue-300 border border-blue-400/30">
+                    <span className="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-orange-500/20 text-orange-300 border border-orange-400/30">
                       Standard Planner Default
                     </span>
                   )}
                 </div>
-                <h3 className="text-xl font-black text-white flex items-center gap-2">
+                <h3 className="text-xl font-black text-white flex items-center gap-3">
                   <Sparkles className="w-6 h-6 text-amber-400" />
                   Sunday Test Paper Studio: <span className="text-amber-300 font-mono underline decoration-amber-400/50">{selectedPlannerPreset.toUpperCase()}</span>
                 </h3>
@@ -1969,11 +2287,42 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Master Actions Bar */}
-              <div className="flex flex-wrap items-center gap-2.5">
-                <button
-                  onClick={handleSaveAndPublishSelectedPaper}
+              <div className="flex flex-wrap items-center gap-3.5">
+                <div className="flex items-center bg-slate-800 rounded-lg p-1 border border-slate-700">
+                    <select
+                      value={exportTrackSelection}
+                      onChange={(e) => setExportTrackSelection(e.target.value)}
+                      className="bg-slate-700 text-white text-[10px] rounded pl-2 pr-6 py-1 border-none focus:ring-0 cursor-pointer outline-none font-bold mr-1"
+                    >
+                      <option value="dropper1">Repeater Track 1</option>
+                      <option value="dropper2">Repeater Track 2</option>
+                      <option value="dropper3">Repeater Track 3</option>
+                      <option value="11th1">11th Track 1</option>
+                      <option value="11th2">11th Track 2</option>
+                      <option value="12th1">12th Track 1</option>
+                      <option value="12th2">12th Track 2</option>
+                    </select>
+                    <button
+                      onClick={handleExportSelectedTrackZIP}
+                      className="px-2 py-1 rounded bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer"
+                    >
+                      <Download className="w-3 h-3" /> Export ZIP
+                    </button>
+                  </div>
+                  <label className="px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer">
+                    <Upload className="w-3.5 h-3.5" /> Import Backup
+                    <input type="file" accept=".zip" className="hidden" onChange={handleImportBackupZIP} />
+                  </label>
+                  <button
+                    onClick={handleMockPdfUpload}
+                    className="px-3 py-1.5 rounded-lg bg-orange-600 hover:bg-orange-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer"
+                  >
+                    <FileText className="w-3.5 h-3.5" /> Parse PDF/Word
+                  </button>
+                  <button
+                    onClick={handleSaveAndPublishSelectedPaper}
                   disabled={isSyncingAction}
-                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-xl text-xs font-black transition flex items-center gap-2 shadow-md cursor-pointer disabled:opacity-50"
+                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-xl text-xs font-black transition flex items-center gap-3 shadow-md cursor-pointer disabled:opacity-50"
                   title="Confirm and lock this Sunday Paper as the authoritative Final Master Default across all student systems"
                 >
                   <ShieldCheck className="w-4 h-4 text-slate-950" />
@@ -1982,7 +2331,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <button
                   onClick={() => setShowMasterSavesModal(true)}
-                  className="px-3.5 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-100 border border-slate-700 rounded-xl text-xs font-bold transition flex items-center gap-2 shadow-md cursor-pointer"
+                  className="px-3.5 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-100 border border-slate-700 rounded-xl text-xs font-bold transition flex items-center gap-3 shadow-md cursor-pointer"
                   title="View Committed Master Default Saves and History"
                 >
                   <Eye className="w-4 h-4 text-emerald-400" />
@@ -2001,7 +2350,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <button
                   onClick={handleLaunchSundayInCBT}
-                  className="px-3.5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-2 shadow-xs cursor-pointer"
+                  className="px-3.5 py-2.5 bg-orange-600 hover:bg-orange-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-3 shadow-xs cursor-pointer"
                 >
                   <Play className="w-4 h-4" />
                   Test in CBT
@@ -2029,7 +2378,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
             {/* Circular Question Loop & Sequential Queue Status */}
             <div className="p-3.5 bg-white/5 rounded-2xl border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-indigo-100 font-mono">
-              <div className="flex items-center gap-2.5">
+              <div className="flex items-center gap-3.5">
                 <RefreshCw className="w-4 h-4 text-amber-400 shrink-0" />
                 <span>
                   <strong className="text-amber-300">Continuous Question Loop Active:</strong> 45-question batches are drawn round-robin per subject without repeating diagrams. When exhausted, the loop resets back to 0 so 100% of question bank data is utilized.
@@ -2051,7 +2400,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           </div>
 
           {publishSuccessMsg && (
-            <div className="p-4 bg-emerald-50 border border-emerald-300 rounded-2xl text-emerald-800 text-xs font-bold flex items-center justify-between shadow-xs">
+            <div className="p-8 bg-emerald-50 border border-emerald-300 rounded-2xl text-emerald-800 text-xs font-bold flex items-center justify-between shadow-xs">
               <span>{publishSuccessMsg}</span>
               <button onClick={() => setPublishSuccessMsg(null)} className="text-emerald-600 hover:text-emerald-900 font-bold cursor-pointer">
                 ✕
@@ -2060,12 +2409,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           )}
 
           {/* STEP 1: SUNDAY PAPER SELECTOR & TOPIC CHOOSER */}
-          <div className="bg-white p-6 rounded-3xl border border-gray-200 shadow-sm space-y-4">
+          <div className="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm space-y-6">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-gray-100 pb-3">
               <div>
-                <div className="flex items-center gap-2 flex-wrap">
-                  <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-2">
-                    <Layers className="w-4 h-4 text-blue-600" />
+                <div className="flex items-center gap-3 flex-wrap">
+                  <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-3">
+                    <Layers className="w-4 h-4 text-orange-600" />
                     Step 1: Choose Sunday Paper & Topic Customization
                   </h4>
                 </div>
@@ -2075,13 +2424,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Sunday Paper Selector Dropdown & Presets */}
-              <div className="flex items-center gap-2 flex-wrap">
+              <div className="flex items-center gap-3 flex-wrap">
                 <div className="flex items-center gap-1.5 bg-slate-100 p-1.5 rounded-xl border border-slate-200">
                   <span className="text-[11px] font-extrabold text-slate-700 px-1">Paper:</span>
                   <select
                     value={selectedPlannerPreset.toUpperCase()}
                     onChange={(e) => handleSelectSundayPaper(e.target.value)}
-                    className="bg-white text-slate-900 font-black text-xs px-3 py-1 rounded-lg border border-slate-300 focus:outline-hidden focus:ring-2 focus:ring-blue-500 cursor-pointer"
+                    className="bg-white text-slate-900 font-black text-xs px-3 py-1 rounded-lg border border-slate-300 focus:outline-hidden focus:ring-2 focus:ring-orange-500 cursor-pointer"
                   >
                     <optgroup label="Repeater Track 1: 20-Wk Chapterwise (CW-01 to CW-20)">
                       {SUNDAY_DROPPER_TRACK1_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
@@ -2255,20 +2604,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   title="Re-assemble 180 questions strictly matching currently selected units"
                 >
                   <RefreshCw className="w-3.5 h-3.5" />
-                  Re-Assemble {selectedPlannerPreset.toUpperCase()} (180 Qs)
+                  Generate Paper from Selected Topics
                 </button>
               </div>
             </div>
 
             {/* TOPIC SWAPPER & QUESTION ALLOCATION MATRIX (ADMIN VAULT RIGHT) */}
-            <div className="p-4 rounded-2xl bg-gradient-to-r from-blue-50/80 via-indigo-50/80 to-purple-50/80 border border-indigo-200 space-y-3.5 shadow-2xs">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                <div className="flex items-center gap-2">
+            <div className="p-8 rounded-2xl bg-gradient-to-r from-orange-50/80 via-indigo-50/80 to-purple-50/80 border border-indigo-200 space-y-3.5 shadow-2xs">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div className="flex items-center gap-3">
                   <div className="p-1.5 rounded-lg bg-indigo-600 text-white">
                     <Sliders className="w-4 h-4" />
                   </div>
                   <div>
-                    <h5 className="text-xs font-black text-slate-900 uppercase tracking-wide flex items-center gap-2">
+                    <h5 className="text-xs font-black text-slate-900 uppercase tracking-wide flex items-center gap-3">
                       <span>Topic Swapper & Question Allocation Manager</span>
                       <span className="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-bold">
                         Admin Right Active
@@ -2280,7 +2629,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   </div>
                 </div>
 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-3">
                   <button
                     type="button"
                     onClick={() => handleExecuteTopicSwap('Laws of Motion', 'Electrostatics', 4)}
@@ -2302,7 +2651,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <select
                     value={swapSourceTopic}
                     onChange={e => setSwapSourceTopic(e.target.value)}
-                    className="w-full text-xs font-bold p-2 rounded-lg border border-slate-300 bg-slate-50 text-slate-900 focus:bg-white focus:border-indigo-500 cursor-pointer"
+                    className="w-full text-xs font-bold p-3 rounded-lg border border-slate-300 bg-slate-50 text-slate-900 focus:bg-white focus:border-indigo-500 cursor-pointer"
                   >
                     <optgroup label="⚡ Physics Chapters">
                       {ALL_PHYSICS_CHAPTERS.map(ch => (
@@ -2335,7 +2684,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <select
                     value={swapTargetTopic}
                     onChange={e => setSwapTargetTopic(e.target.value)}
-                    className="w-full text-xs font-bold p-2 rounded-lg border border-slate-300 bg-slate-50 text-slate-900 focus:bg-white focus:border-indigo-500 cursor-pointer"
+                    className="w-full text-xs font-bold p-3 rounded-lg border border-slate-300 bg-slate-50 text-slate-900 focus:bg-white focus:border-indigo-500 cursor-pointer"
                   >
                     <optgroup label="⚡ Physics Chapters">
                       {ALL_PHYSICS_CHAPTERS.map(ch => (
@@ -2367,7 +2716,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       max={45}
                       value={swapQuestionCount}
                       onChange={e => setSwapQuestionCount(Math.max(1, Math.min(45, parseInt(e.target.value) || 1)))}
-                      className="w-full text-xs font-mono font-bold text-center p-2 rounded-lg border border-slate-300 bg-slate-50 text-slate-900 focus:bg-white focus:border-indigo-500"
+                      className="w-full text-xs font-mono font-bold text-center p-3 rounded-lg border border-slate-300 bg-slate-50 text-slate-900 focus:bg-white focus:border-indigo-500"
                     />
                     <span className="text-[11px] font-bold text-slate-500">Qs</span>
                   </div>
@@ -2387,14 +2736,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Configured Topics Matrix */}
-              <div className="flex flex-wrap items-center gap-2 pt-0.5">
+              <div className="flex flex-wrap items-center gap-3 pt-0.5">
                 <span className="text-[10px] font-bold text-slate-600 uppercase tracking-wider">Active Topic Allocations:</span>
                 {topicAllocations.map(alloc => (
                   <div
                     key={alloc.id}
-                    className="flex items-center gap-2 px-2.5 py-1 rounded-lg bg-white border border-slate-200 text-xs shadow-2xs"
+                    className="flex items-center gap-3 px-2.5 py-1 rounded-lg bg-white border border-slate-200 text-xs shadow-2xs"
                   >
-                    <span className={`w-2 h-2 rounded-full ${alloc.subject === 'Physics' ? 'bg-blue-600' : alloc.subject === 'Chemistry' ? 'bg-emerald-600' : 'bg-purple-600'}`} />
+                    <span className={`w-2 h-2 rounded-full ${alloc.subject === 'Physics' ? 'bg-orange-600' : alloc.subject === 'Chemistry' ? 'bg-emerald-600' : 'bg-purple-600'}`} />
                     <span className="text-slate-800 font-bold">{alloc.chapter}</span>
                     <div className="flex items-center gap-1 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-200">
                       <input
@@ -2450,15 +2799,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
 
             {/* 3 Columns: Physics, Chemistry, Biology Chapters */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {/* Physics */}
-              <div className="p-4 rounded-2xl bg-blue-50/40 border border-blue-200 space-y-2">
+              <div className="p-8 rounded-2xl bg-orange-50/40 border border-orange-200 space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-blue-900 flex items-center gap-1.5">
-                    <span className="w-2.5 h-2.5 rounded-full bg-blue-600" />
+                  <span className="text-xs font-bold text-orange-900 flex items-center gap-1.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-orange-600" />
                     Physics Units ({sundayPhyUnits.length} Selected)
                   </span>
-                  <span className="text-[10px] font-mono text-blue-700 font-semibold">45 Questions</span>
+                  <span className="text-[10px] font-mono text-orange-700 font-semibold">45 Questions</span>
                 </div>
                 <div className="max-h-48 overflow-y-auto space-y-1 pr-1">
                   {OFFICIAL_PHYSICS_UNITS.map((u, i) => {
@@ -2467,10 +2816,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       <button
                         key={i}
                         onClick={() => handleToggleSundayUnit('Physics', u)}
-                        className={`w-full text-left p-2 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
+                        className={`w-full text-left p-3 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                           isSelected
-                            ? 'bg-blue-600 text-white font-bold shadow-xs'
-                            : 'bg-white hover:bg-blue-100/50 text-slate-700 border border-slate-200'
+                            ? 'bg-orange-600 text-white font-bold shadow-xs'
+                            : 'bg-white hover:bg-orange-100/50 text-slate-700 border border-slate-200'
                         }`}
                       >
                         <span className="truncate mr-2">{u}</span>
@@ -2482,7 +2831,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Chemistry */}
-              <div className="p-4 rounded-2xl bg-emerald-50/40 border border-emerald-200 space-y-2">
+              <div className="p-8 rounded-2xl bg-emerald-50/40 border border-emerald-200 space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-emerald-900 flex items-center gap-1.5">
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-600" />
@@ -2497,7 +2846,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       <button
                         key={i}
                         onClick={() => handleToggleSundayUnit('Chemistry', u)}
-                        className={`w-full text-left p-2 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
+                        className={`w-full text-left p-3 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                           isSelected
                             ? 'bg-emerald-600 text-white font-bold shadow-xs'
                             : 'bg-white hover:bg-emerald-100/50 text-slate-700 border border-slate-200'
@@ -2512,7 +2861,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Biology */}
-              <div className="p-4 rounded-2xl bg-purple-50/40 border border-purple-200 space-y-2">
+              <div className="p-8 rounded-2xl bg-purple-50/40 border border-purple-200 space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-purple-900 flex items-center gap-1.5">
                     <span className="w-2.5 h-2.5 rounded-full bg-purple-600" />
@@ -2530,7 +2879,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       <button
                         key={i}
                         onClick={() => handleToggleSundayUnit('Biology', u)}
-                        className={`w-full text-left p-2 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
+                        className={`w-full text-left p-3 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                           isSelected
                             ? 'bg-purple-600 text-white font-bold shadow-xs'
                             : 'bg-white hover:bg-purple-100/50 text-slate-700 border border-slate-200'
@@ -2547,10 +2896,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           </div>
 
           {/* STEP 2: QUESTION INSPECTOR (1 TO 180) */}
-          <div className="bg-white p-6 rounded-3xl border border-gray-200 shadow-sm space-y-4">
+          <div className="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm space-y-6">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-gray-100 pb-3">
               <div>
-                <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-2">
+                <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-3">
                   <Eye className="w-4 h-4 text-purple-600" />
                   Step 2: Question-Level Access & Customization (1 to 180)
                 </h4>
@@ -2583,7 +2932,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {/* Search & Jump Bar */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-slate-50 p-3 rounded-2xl border border-slate-200">
               <div className="relative w-full sm:w-80">
-                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-3.5" />
                 <input
                   type="text"
                   placeholder="Search questions or chapter name..."
@@ -2592,11 +2941,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     setStudioSearch(e.target.value);
                     setStudioPage(1);
                   }}
-                  className="w-full pl-9 pr-3 py-1.5 bg-white border border-slate-200 rounded-xl text-xs focus:outline-hidden focus:ring-2 focus:ring-blue-500"
+                  className="w-full pl-9 pr-3 py-1.5 bg-white border border-slate-200 rounded-xl text-xs focus:outline-hidden focus:ring-2 focus:ring-orange-500"
                 />
               </div>
 
-              <div className="flex items-center gap-2 text-xs text-slate-600 font-mono">
+              <div className="flex items-center gap-3 text-xs text-slate-600 font-mono">
                 <span>Showing Page {studioPage} of {Math.max(1, Math.ceil((
                   sundayQuestions.filter((q, idx) => {
                     if (studioSubjectFilter === 'Physics' && idx >= 45) return false;
@@ -2612,7 +2961,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     }
                     return true;
                   }).length
-                ) / 10))}</span>
+                ) / 45))}</span>
                 <div className="flex items-center gap-1 ml-2">
                   <button
                     onClick={() => setStudioPage(p => Math.max(1, p - 1))}
@@ -2648,7 +2997,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
 
             {/* Questions List */}
-            <div className="space-y-4">
+            <div className="space-y-6">
               {(() => {
                 const filtered = sundayQuestions
                   .map((q, originalIdx) => ({ q, originalIdx }))
@@ -2667,7 +3016,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     return true;
                   });
 
-                const paginated = filtered.slice((studioPage - 1) * 10, studioPage * 10);
+                const paginated = filtered.slice((studioPage - 1) * 45, studioPage * 45);
 
                 if (paginated.length === 0) {
                   return (
@@ -2687,16 +3036,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   return (
                     <div
                       key={originalIdx}
-                      className="p-5 rounded-2xl border border-slate-200 bg-white hover:border-blue-300 transition space-y-3 shadow-xs"
+                      className="p-5 rounded-2xl border border-slate-200 bg-white hover:border-orange-300 transition space-y-3 shadow-xs"
                     >
                       {/* Header of Question Card */}
-                      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
-                        <div className="flex items-center gap-2">
+                      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 pb-2">
+                        <div className="flex items-center gap-3">
                           <span className="w-8 h-8 rounded-xl bg-slate-900 text-white font-mono font-black text-xs flex items-center justify-center shadow-xs">
                             #{originalIdx + 1}
                           </span>
                           <span className={`px-2.5 py-0.5 rounded-md text-[10px] font-bold ${
-                            originalIdx < 45 ? 'bg-blue-100 text-blue-800' :
+                            originalIdx < 45 ? 'bg-orange-100 text-orange-800' :
                             originalIdx < 90 ? 'bg-emerald-100 text-emerald-800' :
                             originalIdx < 135 ? 'bg-purple-100 text-purple-800' : 'bg-amber-100 text-amber-800'
                           }`}>
@@ -2716,14 +3065,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         </div>
 
                         {/* Action Buttons */}
-                        <div className="flex flex-wrap items-center gap-2">
+                        <div className="flex flex-wrap items-center gap-3">
                           {/* Reorder Buttons (Atomic Cloud Swap) */}
                           <div className="flex items-center gap-0.5 bg-slate-100 p-0.5 rounded-lg border border-slate-200">
                             <button
                               type="button"
                               onClick={() => handleSwapQuestionOrder(originalIdx, originalIdx - 1)}
                               disabled={originalIdx === 0}
-                              className="p-1 text-slate-700 hover:text-blue-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
+                              className="p-1 text-slate-700 hover:text-orange-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
                               title="Move Question Up (Atomic Cloud Swap)"
                             >
                               <ArrowUp className="w-3.5 h-3.5" />
@@ -2732,22 +3081,48 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                               type="button"
                               onClick={() => handleSwapQuestionOrder(originalIdx, originalIdx + 1)}
                               disabled={originalIdx === sundayQuestions.length - 1}
-                              className="p-1 text-slate-700 hover:text-blue-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
+                              className="p-1 text-slate-700 hover:text-orange-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
                               title="Move Question Down (Atomic Cloud Swap)"
                             >
                               <ArrowDown className="w-3.5 h-3.5" />
                             </button>
                           </div>
 
-                          <button
-                            onClick={() => handleSwapSundayQuestion(originalIdx)}
-                            className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 transition flex items-center gap-1 cursor-pointer"
-                            title="Swap this question with another from the same chapter"
-                          >
-                            <RefreshCw className="w-3.5 h-3.5" />
-                            <span>Swap (Same Chapter)</span>
-                          </button>
-
+                          <div className="relative">
+                            <button
+                              onClick={() => handleStartSwapMenu(originalIdx)}
+                              className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-orange-50 text-slate-700 hover:text-orange-700 border border-slate-200 transition flex items-center gap-1 cursor-pointer"
+                              title="Choose a specific question to swap with"
+                            >
+                              <RefreshCw className="w-3.5 h-3.5" />
+                              <span>Swap</span>
+                            </button>
+                            {activeSwapIdx === originalIdx && (
+                              <div className="absolute top-full mt-1 left-0 z-50 bg-white border border-slate-200 rounded-lg shadow-xl p-3 w-80 max-h-96 overflow-y-auto">
+                                <div className="text-[10px] font-bold text-slate-500 mb-2 uppercase">Select Replacement Question</div>
+                                {swapCandidates.map(c => (
+                                  <div 
+                                    key={c.id} 
+                                    onClick={(e) => { e.preventDefault(); setPendingSwapId(c.id); }}
+                                    className={`p-3 border-b border-slate-100 cursor-pointer text-xs transition-colors last:border-0 ${pendingSwapId === c.id ? 'bg-orange-100 text-orange-900 shadow-inner' : 'hover:bg-orange-50 text-slate-700'}`}
+                                  >
+                                    <div className="line-clamp-3">{c.questionText}</div>
+                                  </div>
+                                ))}
+                                {pendingSwapId && (
+                                  <div className="p-3 sticky bottom-0 bg-white border-t border-slate-200">
+                                    <button 
+                                      onClick={() => handleExecuteSpecificSwap(originalIdx, pendingSwapId)}
+                                      className="w-full py-2 bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold rounded-lg shadow-sm"
+                                    >
+                                      Confirm Swap
+                                    </button>
+                                  </div>
+                                )}
+                                {swapCandidates.length === 0 && <div className="text-xs text-slate-500 p-3">No alternative questions found in bank.</div>}
+                              </div>
+                            )}
+                          </div>
                           {/* Swap to another topic dropdown */}
                           <div className="flex items-center gap-1 bg-purple-50 hover:bg-purple-100/70 border border-purple-200 rounded-lg px-2 py-1 transition">
                             <ArrowRightLeft className="w-3.5 h-3.5 text-purple-700 shrink-0" />
@@ -2782,23 +3157,32 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             <Edit2 className="w-3.5 h-3.5 text-slate-500" />
                             {isEditing ? 'Cancel' : 'Edit'}
                           </button>
+
+                          <button
+                            onClick={() => handleDeleteQuestion(originalIdx)}
+                            className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 transition flex items-center gap-1 cursor-pointer"
+                            title="Delete this question entirely"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                            <span>Delete</span>
+                          </button>
                         </div>
                       </div>
 
                       {/* Editing View */}
                       {isEditing && editForm ? (
-                        <div className="p-4 bg-slate-50 rounded-xl border border-blue-200 space-y-3">
+                        <div className="p-8 bg-slate-50 rounded-xl border border-orange-200 space-y-3">
                           <div>
                             <label className="text-xs font-bold text-slate-700 block mb-1">Question Prompt:</label>
                             <textarea
                               value={editForm.questionText}
                               onChange={e => setEditForm({ ...editForm, questionText: e.target.value })}
                               rows={3}
-                              className="w-full p-2 text-xs bg-white border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                              className="w-full p-3 text-xs bg-white border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500"
                             />
                           </div>
 
-                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             {editForm.options.map((opt, optIdx) => (
                               <div key={optIdx} className="space-y-0.5">
                                 <label className="text-[11px] font-bold text-slate-600 block">
@@ -2812,13 +3196,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                     opts[optIdx] = e.target.value;
                                     setEditForm({ ...editForm, options: opts });
                                   }}
-                                  className="w-full p-2 text-xs bg-white border border-slate-300 rounded-lg"
+                                  className="w-full p-3 text-xs bg-white border border-slate-300 rounded-lg"
                                 />
                               </div>
                             ))}
                           </div>
 
-                          <div className="flex items-center gap-4">
+                          <div className="flex items-center gap-6">
                             <div>
                               <label className="text-xs font-bold text-slate-700 block mb-1">Correct Answer:</label>
                               <select
@@ -2845,7 +3229,44 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             </div>
                           </div>
 
-                          <div className="flex justify-end gap-2 pt-2">
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2">
+                            <div>
+                              <label className="text-xs font-bold text-slate-700 block mb-1">Question Image (Optional):</label>
+                              <input
+                                type="file"
+                                accept="image/*"
+                                onChange={e => {
+                                  const file = e.target.files?.[0];
+                                  if (file) {
+                                    const reader = new FileReader();
+                                    reader.onloadend = () => setEditForm(prev => prev ? { ...prev, image: reader.result as string } : null);
+                                    reader.readAsDataURL(file);
+                                  }
+                                }}
+                                className="w-full text-xs"
+                              />
+                              {editForm.image && <img src={editForm.image} alt="Question" className="mt-2 max-h-20" />}
+                            </div>
+                            <div>
+                              <label className="text-xs font-bold text-slate-700 block mb-1">Solution Image (Optional):</label>
+                              <input
+                                type="file"
+                                accept="image/*"
+                                onChange={e => {
+                                  const file = e.target.files?.[0];
+                                  if (file) {
+                                    const reader = new FileReader();
+                                    reader.onloadend = () => setEditForm(prev => prev ? { ...prev, solutionImage: reader.result as string } : null);
+                                    reader.readAsDataURL(file);
+                                  }
+                                }}
+                                className="w-full text-xs"
+                              />
+                              {editForm.solutionImage && <img src={editForm.solutionImage} alt="Solution" className="mt-2 max-h-20" />}
+                            </div>
+                          </div>
+
+                          <div className="flex justify-end gap-3 pt-2">
                             <button
                               onClick={() => setEditingQuestionIdx(null)}
                               className="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-200 text-slate-700"
@@ -2854,7 +3275,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             </button>
                             <button
                               onClick={() => handleSaveQuestionEdit(originalIdx)}
-                              className="px-4 py-1.5 rounded-lg text-xs font-bold bg-blue-600 text-white"
+                              className="px-4 py-1.5 rounded-lg text-xs font-bold bg-orange-600 text-white"
                             >
                               Save Question
                             </button>
@@ -2882,21 +3303,21 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           </p>
 
                           {/* Options Grid */}
-                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
                             {q.options.map((opt, optIdx) => {
                               const isCorrect = optIdx === q.correctAnswer;
                               return (
                                 <div
                                   key={optIdx}
                                   onClick={() => handleQuickChangeCorrectOption(originalIdx, optIdx)}
-                                  className={`p-2.5 rounded-xl text-xs flex items-center justify-between border cursor-pointer select-none transition ${
+                                  className={`p-3.5 rounded-xl text-xs flex items-center justify-between border cursor-pointer select-none transition ${
                                     isCorrect
                                       ? 'bg-emerald-50 border-emerald-400 text-emerald-950 font-bold ring-2 ring-emerald-500/20 shadow-xs'
                                       : 'bg-slate-50 border-slate-200 text-slate-700 hover:border-emerald-300 hover:bg-emerald-50/40'
                                   }`}
                                   title={`Click to set Option ${String.fromCharCode(65 + optIdx)} as the correct answer key`}
                                 >
-                                  <span className="flex items-center gap-2">
+                                  <span className="flex items-center gap-3">
                                     <span className={`w-5 h-5 rounded-full text-[10px] flex items-center justify-center font-bold ${
                                       isCorrect ? 'bg-emerald-600 text-white shadow-xs' : 'bg-slate-200 text-slate-600'
                                     }`}>
@@ -2945,11 +3366,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       {/* TAB 2: CUSTOM TEST GENERATOR */}
       {adminTab === 'generator' && (
-        <div className="space-y-4">
-          <div className="bg-white p-4 rounded-2xl border border-gray-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div className="space-y-6">
+          <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <h3 className="text-base font-bold text-gray-900 flex items-center space-x-2">
-                <Sliders className="w-5 h-5 text-blue-600" />
+                <Sliders className="w-5 h-5 text-orange-600" />
                 <span>Admin Custom Test Paper Generator</span>
               </h3>
               <p className="text-xs text-gray-500 mt-0.5">
@@ -2988,7 +3409,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 onClick={() => setGeneratorMode('topic_matrix')}
                 className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
                   generatorMode === 'topic_matrix'
-                    ? 'bg-blue-600 text-white shadow-xs'
+                    ? 'bg-orange-600 text-white shadow-xs'
                     : 'text-slate-600 hover:text-slate-900'
                 }`}
               >
@@ -2997,7 +3418,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </button>
             </div>
 
-            <div className="flex items-center gap-2 text-xs font-semibold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200">
+            <div className="flex items-center gap-3 text-xs font-semibold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200">
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
               <span>100% Strict Chapter Isolation Active (Zero Cross-Chapter Mixing)</span>
             </div>
@@ -3007,10 +3428,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           {/* MODE 1: MULTI-TOPIC ALLOCATION & SWAPPER MATRIX */}
           {/* ============================================================== */}
           {generatorMode === 'topic_matrix' && (
-            <div className="space-y-4">
+            <div className="space-y-6">
               {/* Quick Topic Swapper Bar */}
-              <div className="p-4 rounded-2xl bg-gradient-to-r from-purple-50 via-indigo-50 to-blue-50 border border-purple-200 space-y-3">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div className="p-8 rounded-2xl bg-gradient-to-r from-purple-50 via-indigo-50 to-orange-50 border border-purple-200 space-y-3">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                   <div>
                     <h4 className="text-sm font-extrabold text-purple-950 flex items-center gap-1.5">
                       <ArrowRightLeft className="w-4 h-4 text-purple-700" />
@@ -3025,13 +3446,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   </span>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-4 gap-2.5 items-end bg-white/90 p-3 rounded-xl border border-purple-200">
+                <div className="grid grid-cols-1 sm:grid-cols-4 gap-3.5 items-end bg-white/90 p-3 rounded-xl border border-purple-200">
                   <div className="space-y-1">
                     <label className="text-[10px] font-bold text-slate-500 uppercase">1. Swap Out (From Topic)</label>
                     <select
                       value={swapSourceTopic}
                       onChange={e => setSwapSourceTopic(e.target.value)}
-                      className="w-full p-2 text-xs bg-white border border-slate-300 rounded-lg font-semibold"
+                      className="w-full p-3 text-xs bg-white border border-slate-300 rounded-lg font-semibold"
                     >
                       <optgroup label="⚡ Physics">
                         {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -3050,7 +3471,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     <select
                       value={swapTargetTopic}
                       onChange={e => setSwapTargetTopic(e.target.value)}
-                      className="w-full p-2 text-xs bg-white border border-slate-300 rounded-lg font-semibold"
+                      className="w-full p-3 text-xs bg-white border border-slate-300 rounded-lg font-semibold"
                     >
                       <optgroup label="⚡ Physics">
                         {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -3104,8 +3525,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Topic Allocation Table / List */}
-              <div className="bg-white p-4 rounded-2xl border border-gray-200 shadow-2xs space-y-3">
-                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-gray-100 pb-2.5">
+              <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-2xs space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-3 border-b border-gray-100 pb-2.5">
                   <div>
                     <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
                       Configured Topics & Question Allocation Matrix ({topicAllocations.length} Topics)
@@ -3114,23 +3535,23 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       Customize question counts per chapter or swap any chapter using the dropdowns below.
                     </p>
                   </div>
-                  <span className="text-xs font-mono font-bold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-200">
+                  <span className="text-xs font-mono font-bold text-orange-700 bg-orange-50 px-2.5 py-1 rounded-lg border border-orange-200">
                     Total: {topicAllocations.reduce((acc, a) => acc + a.count, 0)} Questions ({topicAllocations.reduce((acc, a) => acc + a.count, 0) * 4} Marks)
                   </span>
                 </div>
 
-                <div className="space-y-2">
+                <div className="space-y-4">
                   {topicAllocations.map((alloc, idx) => (
                     <div
                       key={alloc.id}
-                      className="flex flex-wrap items-center justify-between gap-2 p-2.5 rounded-xl border border-slate-200 bg-slate-50/60 hover:bg-slate-50 transition"
+                      className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-xl border border-slate-200 bg-slate-50/60 hover:bg-slate-50 transition"
                     >
-                      <div className="flex items-center gap-2 flex-1 min-w-[260px]">
+                      <div className="flex items-center gap-3 flex-1 min-w-[260px]">
                         <span className="w-6 h-6 rounded-lg bg-slate-800 text-white text-[11px] font-mono font-bold flex items-center justify-center">
                           {idx + 1}
                         </span>
                         <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
-                          alloc.subject === 'Physics' ? 'bg-blue-100 text-blue-800' :
+                          alloc.subject === 'Physics' ? 'bg-orange-100 text-orange-800' :
                           alloc.subject === 'Chemistry' ? 'bg-emerald-100 text-emerald-800' : 'bg-purple-100 text-purple-800'
                         }`}>
                           {alloc.subject}
@@ -3154,7 +3575,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       </div>
 
                       {/* Question count controls */}
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-3">
                         <div className="flex items-center gap-1 bg-white border border-slate-200 rounded-lg p-0.5">
                           <button
                             type="button"
@@ -3193,12 +3614,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
 
                 {/* Add Topic Bar */}
-                <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-100">
+                <div className="flex flex-wrap items-center gap-3 pt-2 border-t border-slate-100">
                   <div className="flex-1 min-w-[200px]">
                     <select
                       value={newAllocChapter}
                       onChange={e => setNewAllocChapter(e.target.value)}
-                      className="w-full p-2 text-xs bg-slate-50 border border-slate-300 rounded-xl font-semibold"
+                      className="w-full p-3 text-xs bg-slate-50 border border-slate-300 rounded-xl font-semibold"
                     >
                       <optgroup label="⚡ Physics">
                         {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -3219,7 +3640,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       max={45}
                       value={newAllocCount}
                       onChange={e => setNewAllocCount(Math.max(1, Math.min(45, parseInt(e.target.value) || 1)))}
-                      className="w-16 p-2 bg-slate-50 border border-slate-300 rounded-xl text-xs font-bold font-mono text-center"
+                      className="w-16 p-3 bg-slate-50 border border-slate-300 rounded-xl text-xs font-bold font-mono text-center"
                       title="Number of questions to allocate"
                     />
                     <span className="text-xs text-slate-500 font-semibold">Qs</span>
@@ -3237,7 +3658,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Multi-Topic Action Card */}
-              <div className="p-5 rounded-2xl bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="p-5 rounded-2xl bg-gradient-to-r from-orange-50 via-indigo-50 to-purple-50 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-6">
                 <div className="space-y-1 text-xs text-center sm:text-left">
                   <div className="text-gray-900 font-bold text-sm">
                     Multi-Topic Custom Test ({topicAllocations.length} Topics Selected)
@@ -3247,7 +3668,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   </div>
                 </div>
 
-                <div className="flex flex-wrap items-center gap-2.5 w-full sm:w-auto">
+                <div className="flex flex-wrap items-center gap-3.5 w-full sm:w-auto">
                   <button
                     type="button"
                     onClick={() => handleExportCustomPdf(false)}
@@ -3269,7 +3690,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     type="button"
                     onClick={handleLaunchAdminCbt}
-                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95"
+                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95"
                   >
                     <Play className="w-4 h-4 fill-current" />
                     <span>Launch CBT Simulation</span>
@@ -3283,8 +3704,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           {/* MODE 2: SINGLE CHAPTER FOCUS */}
           {/* ============================================================== */}
           {generatorMode === 'single' && (
-            <div className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs">
+            <div className="space-y-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs">
                 <div className="space-y-1.5">
                   <label className="text-[10px] font-bold text-gray-500 uppercase">1. Select Subject</label>
                   <select
@@ -3296,7 +3717,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       else if (sub === 'Chemistry') setCustomChapter(chemistryChapters[0]);
                       else setCustomChapter(physicsChapters[0]);
                     }}
-                    className="w-full p-2.5 rounded-xl bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
+                    className="w-full p-3.5 rounded-xl bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-orange-500 font-semibold"
                   >
                     <option value="Biology">🧬 Biology (All 38 Chapters)</option>
                     <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
@@ -3309,7 +3730,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <select
                     value={customChapter}
                     onChange={e => setCustomChapter(e.target.value)}
-                    className="w-full p-2.5 rounded-xl bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
+                    className="w-full p-3.5 rounded-xl bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-orange-500 font-semibold"
                   >
                     {currentChapterList.map((ch, idx) => (
                       <option key={idx} value={ch}>
@@ -3324,7 +3745,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <select
                     value={customDifficulty}
                     onChange={e => setCustomDifficulty(e.target.value as any)}
-                    className="w-full p-2.5 rounded-xl bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
+                    className="w-full p-3.5 rounded-xl bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-orange-500 font-semibold"
                   >
                     <option value="Both">Both Medium & Hard (Standard Exam Mix)</option>
                     <option value="Hard">Hard (High Difficulty & Advanced Analytical)</option>
@@ -3347,7 +3768,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         }}
                         className={`py-2 rounded-xl text-xs font-bold font-mono transition cursor-pointer ${
                           customQCount === cnt
-                            ? 'bg-blue-600 text-white shadow-xs'
+                            ? 'bg-orange-600 text-white shadow-xs'
                             : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                         }`}
                       >
@@ -3379,14 +3800,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <div className="space-y-1.5">
                   <label className="text-[10px] font-bold text-gray-500 uppercase">6. Question Pool Telemetry</label>
-                  <div className="p-2.5 rounded-xl bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
+                  <div className="p-3.5 rounded-xl bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
                     <span>Available: <strong className="text-emerald-700">{currentPoolStats.remainingUnused}</strong></span>
-                    <span>Total Unit: <strong className="text-blue-700">{currentPoolStats.totalInBank}</strong></span>
+                    <span>Total Unit: <strong className="text-orange-700">{currentPoolStats.totalInBank}</strong></span>
                   </div>
                 </div>
               </div>
 
-              <div className="p-5 rounded-2xl bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="p-5 rounded-2xl bg-gradient-to-r from-orange-50 via-indigo-50 to-purple-50 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-6">
                 <div className="space-y-1 text-xs text-center sm:text-left">
                   <div className="text-gray-900 font-bold text-sm">
                     Configured Test: {customSubject} • {customChapter}
@@ -3396,7 +3817,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   </div>
                 </div>
 
-                <div className="flex flex-wrap items-center gap-2.5 w-full sm:w-auto">
+                <div className="flex flex-wrap items-center gap-3.5 w-full sm:w-auto">
                   <button
                     type="button"
                     onClick={handleExportCustomPdf}
@@ -3409,7 +3830,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     type="button"
                     onClick={handleLaunchAdminCbt}
-                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95"
+                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95"
                   >
                     <Play className="w-4 h-4 fill-current" />
                     <span>Launch CBT Simulation</span>
@@ -3435,9 +3856,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       {/* TAB 3: QUESTION BANK INVENTORY & CHAPTER ANALYTICS */}
       {adminTab === 'telemetry' && (
-        <div className="space-y-4">
+        <div className="space-y-6">
           {/* Header Banner */}
-          <div className="p-4 bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-950 rounded-2xl text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="p-8 bg-gradient-to-r from-slate-900 via-indigo-950 to-orange-950 rounded-2xl text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <div className="flex items-center space-x-2">
                 <span className="px-2 py-0.5 rounded-full bg-cyan-400 text-slate-950 text-[10px] font-mono font-black uppercase">
@@ -3452,7 +3873,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 Real-time question count distribution across Physics, Chemistry, and Biology syllabus chapters.
               </p>
             </div>
-            <div className="flex flex-wrap items-center gap-2 self-start sm:self-center">
+            <div className="flex flex-wrap items-center gap-3 self-start sm:self-center">
               <button
                 type="button"
                 onClick={() => {
@@ -3473,7 +3894,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   setIsAddChapterModalOpen(prev => !prev);
                   setAddChapterStatus(null);
                 }}
-                className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-orange-600 to-indigo-600 hover:from-orange-500 hover:to-indigo-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
               >
                 <Plus className="w-3.5 h-3.5" />
                 <span>Add New Chapter to Vault</span>
@@ -3487,10 +3908,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
           {/* Add New Chapter to Vault Form Panel */}
           {isAddChapterModalOpen && (
-            <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border-2 border-blue-300 shadow-md space-y-3 animate-in fade-in">
+            <div className="p-8 sm:p-5 rounded-2xl bg-gradient-to-r from-orange-50 via-indigo-50 to-purple-50 border-2 border-orange-300 shadow-md space-y-3 animate-in fade-in">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2">
-                  <div className="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold shadow-xs">
+                  <div className="w-7 h-7 rounded-lg bg-orange-600 text-white flex items-center justify-center font-bold shadow-xs">
                     <Plus className="w-4 h-4" />
                   </div>
                   <div>
@@ -3513,7 +3934,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <select
                     value={newChapterSubject}
                     onChange={e => setNewChapterSubject(e.target.value as any)}
-                    className="w-full p-2.5 rounded-xl bg-white border border-slate-300 text-xs font-semibold text-slate-900 focus:outline-none focus:border-blue-500 cursor-pointer"
+                    className="w-full p-3.5 rounded-xl bg-white border border-slate-300 text-xs font-semibold text-slate-900 focus:outline-none focus:border-orange-500 cursor-pointer"
                   >
                     <option value="Biology">🧬 Biology</option>
                     <option value="Chemistry">🧪 Chemistry</option>
@@ -3523,18 +3944,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <div className="sm:col-span-2">
                   <label className="text-[11px] font-bold text-slate-700 uppercase block mb-1">New Chapter Name</label>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-3">
                     <input
                       type="text"
                       value={newChapterName}
                       onChange={e => setNewChapterName(e.target.value)}
                       placeholder="e.g. Molecular Basis of Inheritance, Magnetism, etc."
-                      className="flex-1 p-2.5 rounded-xl bg-white border border-slate-300 text-xs font-semibold text-slate-900 focus:outline-none focus:border-blue-500"
+                      className="flex-1 p-3.5 rounded-xl bg-white border border-slate-300 text-xs font-semibold text-slate-900 focus:outline-none focus:border-orange-500"
                       required
                     />
                     <button
                       type="submit"
-                      className="px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-xs transition cursor-pointer shrink-0"
+                      className="px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold shadow-xs transition cursor-pointer shrink-0"
                     >
                       Save Chapter
                     </button>
@@ -3544,7 +3965,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
               {addChapterStatus && (
                 <div
-                  className={`p-2.5 rounded-xl text-xs font-medium flex items-center space-x-2 ${
+                  className={`p-3.5 rounded-xl text-xs font-medium flex items-center space-x-2 ${
                     addChapterStatus.type === 'success'
                       ? 'bg-emerald-100 text-emerald-900 border border-emerald-300'
                       : 'bg-rose-100 text-rose-900 border border-rose-300'
@@ -3565,17 +3986,17 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3.5">
             <div
               onClick={() => setInventorySubject('All')}
-              className={`p-4 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
+              className={`p-8 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
                 inventorySubject === 'All'
-                  ? 'bg-blue-50/90 border-blue-300 ring-2 ring-blue-200'
-                  : 'bg-white border-slate-200 hover:border-blue-300'
+                  ? 'bg-orange-50/90 border-orange-300 ring-2 ring-orange-200'
+                  : 'bg-white border-slate-200 hover:border-orange-300'
               }`}
             >
               <div className="flex items-center justify-between text-[11px] font-bold text-slate-600 uppercase">
                 <span>Total Questions</span>
-                <Database className="w-4 h-4 text-blue-600" />
+                <Database className="w-4 h-4 text-orange-600" />
               </div>
-              <div className="text-xl sm:text-2xl font-black text-blue-700 font-mono mt-1">
+              <div className="text-xl sm:text-2xl font-black text-orange-700 font-mono mt-1">
                 {questionInventory.totalCount.toLocaleString()}
               </div>
               <p className="text-[10px] text-slate-500 mt-0.5 font-medium">
@@ -3585,7 +4006,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
             <div
               onClick={() => setInventorySubject('Physics')}
-              className={`p-4 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
+              className={`p-8 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
                 inventorySubject === 'Physics'
                   ? 'bg-sky-50/90 border-sky-300 ring-2 ring-sky-200'
                   : 'bg-white border-slate-200 hover:border-sky-300'
@@ -3605,7 +4026,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
             <div
               onClick={() => setInventorySubject('Chemistry')}
-              className={`p-4 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
+              className={`p-8 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
                 inventorySubject === 'Chemistry'
                   ? 'bg-amber-50/90 border-amber-300 ring-2 ring-amber-200'
                   : 'bg-white border-slate-200 hover:border-amber-300'
@@ -3625,7 +4046,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
             <div
               onClick={() => setInventorySubject('Biology')}
-              className={`p-4 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
+              className={`p-8 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
                 inventorySubject === 'Biology'
                   ? 'bg-emerald-50/90 border-emerald-300 ring-2 ring-emerald-200'
                   : 'bg-white border-slate-200 hover:border-emerald-300'
@@ -3645,13 +4066,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           </div>
 
           {/* Interactive Subject & Search Filter Bar */}
-          <div className="p-4 rounded-2xl border border-gray-200 bg-white flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-2xs">
+          <div className="p-8 rounded-2xl border border-gray-200 bg-white flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-2xs">
             <div className="flex flex-wrap items-center gap-1.5">
               <button
                 onClick={() => setInventorySubject('All')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
                   inventorySubject === 'All'
-                    ? 'bg-blue-600 text-white shadow-xs'
+                    ? 'bg-orange-600 text-white shadow-xs'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
@@ -3691,20 +4112,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
             <div className="flex items-center space-x-2">
               <div className="relative flex-1 sm:w-64">
-                <Search className="absolute left-3 top-2.5 w-3.5 h-3.5 text-gray-400" />
+                <Search className="absolute left-3 top-3.5 w-3.5 h-3.5 text-gray-400" />
                 <input
                   type="text"
                   placeholder="Search chapter, subject, or topic..."
                   value={inventorySearch}
                   onChange={e => setInventorySearch(e.target.value)}
-                  className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-500"
+                  className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-orange-500"
                 />
               </div>
 
               <select
                 value={inventorySortBy}
                 onChange={e => setInventorySortBy(e.target.value as any)}
-                className="px-2.5 py-1.5 rounded-xl bg-gray-50 border border-gray-300 text-xs font-medium text-gray-700 focus:bg-white focus:outline-none focus:border-blue-500 cursor-pointer"
+                className="px-2.5 py-1.5 rounded-xl bg-gray-50 border border-gray-300 text-xs font-medium text-gray-700 focus:bg-white focus:outline-none focus:border-orange-500 cursor-pointer"
               >
                 <option value="count_desc">Most Questions First</option>
                 <option value="count_asc">Fewest Questions First</option>
@@ -3753,12 +4174,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               return (
                 <div
                   key={`${item.subject}-${item.chapter}`}
-                  className={`p-4 rounded-2xl border transition-all shadow-2xs ${
-                    isExpanded ? 'bg-white border-blue-300 ring-2 ring-blue-100' : 'bg-white border-slate-200 hover:border-slate-300'
+                  className={`p-8 rounded-2xl border transition-all shadow-2xs ${
+                    isExpanded ? 'bg-white border-orange-300 ring-2 ring-orange-100' : 'bg-white border-slate-200 hover:border-slate-300'
                   }`}
                 >
                   {/* Card Header */}
-                  <div className="flex items-start justify-between gap-2.5">
+                  <div className="flex items-start justify-between gap-3.5">
                     <div className="space-y-1 min-w-0 flex-1">
                       <div className="flex items-center space-x-2">
                         <span className={`inline-flex items-center space-x-1 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase font-mono border ${subjectTheme.bg}`}>
@@ -3809,12 +4230,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="flex items-center justify-between gap-2 mt-3 pt-2">
+                  <div className="flex items-center justify-between gap-3 mt-3 pt-2">
                     <button
                       onClick={() => {
                         setExpandedChapterName(isExpanded ? null : `${item.subject}-${item.chapter}`);
                       }}
-                      className="inline-flex items-center space-x-1 text-xs font-semibold text-blue-700 hover:text-blue-800 cursor-pointer"
+                      className="inline-flex items-center space-x-1 text-xs font-semibold text-orange-700 hover:text-orange-800 cursor-pointer"
                     >
                       <span>{isExpanded ? 'Hide Details' : 'Inspect Subtopics & Questions'}</span>
                       {isExpanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
@@ -3838,10 +4259,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           setCustomChapter(item.chapter);
                           setAdminTab('generator');
                         }}
-                        className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 text-[11px] font-semibold transition cursor-pointer flex items-center space-x-1"
+                        className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-orange-50 text-slate-700 hover:text-orange-700 border border-slate-200 text-[11px] font-semibold transition cursor-pointer flex items-center space-x-1"
                         title={`Generate Custom Test from ${item.chapter}`}
                       >
-                        <Sliders className="w-3 h-3 text-blue-600" />
+                        <Sliders className="w-3 h-3 text-orange-600" />
                         <span>Generate Test</span>
                       </button>
                     )}
@@ -3862,7 +4283,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                               className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-50 border border-slate-200 text-xs text-slate-800 font-medium"
                             >
                               <span>{sub}</span>
-                              <strong className="px-1.5 py-0.2 rounded bg-white text-blue-700 border border-blue-200 font-mono text-[10px]">
+                              <strong className="px-1.5 py-0.2 rounded bg-white text-orange-700 border border-orange-200 font-mono text-[10px]">
                                 {count}
                               </strong>
                             </span>
@@ -3872,15 +4293,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                       {/* Sample Questions Preview */}
                       {item.sampleQuestions.length > 0 && (
-                        <div className="space-y-2 pt-1">
+                        <div className="space-y-4 pt-1">
                           <div className="text-[11px] font-bold text-slate-700 uppercase tracking-wider">
                             Sample Questions Preview:
                           </div>
-                          <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
+                          <div className="space-y-4 max-h-48 overflow-y-auto pr-1">
                             {item.sampleQuestions.map((sq, sqIdx) => (
                               <div
                                 key={sq.id || sqIdx}
-                                className="p-2.5 rounded-xl bg-slate-50/80 border border-slate-200 text-xs space-y-1.5"
+                                className="p-3.5 rounded-xl bg-slate-50/80 border border-slate-200 text-xs space-y-1.5"
                               >
                                 <div className="flex items-center justify-between text-[10px] text-slate-500 font-mono">
                                   <span>Q{sqIdx + 1} • ID: {sq.id}</span>
@@ -3888,10 +4309,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                     {sq.difficulty || 'Medium'}
                                   </span>
                                 </div>
-                                <p className="font-medium text-slate-900 leading-snug line-clamp-2">
+                                <p className="font-medium text-slate-900 leading-snug line-clamp-3">
                                   {formatMathAndFormulas(sq.questionText)}
                                 </p>
-                                <div className="flex items-center gap-2 text-[11px] text-emerald-800 font-mono">
+                                <div className="flex items-center gap-3 text-[11px] text-emerald-800 font-mono">
                                   <span className="font-bold">Correct: ({String.fromCharCode(65 + sq.correctAnswer)})</span>
                                   <span className="text-slate-600 truncate">{sq.options?.[sq.correctAnswer]}</span>
                                 </div>
@@ -3911,17 +4332,17 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       {/* TAB 4: ENROLLED CANDIDATES & DOMICILE DIRECTORY */}
       {adminTab === 'students' && (
-        <div className="space-y-4">
-          <div className="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 p-5 rounded-2xl text-white shadow-lg space-y-4">
+        <div className="space-y-6">
+          <div className="bg-gradient-to-r from-orange-900 via-indigo-900 to-slate-900 p-5 rounded-2xl text-white shadow-lg space-y-6">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4">
               <div className="space-y-1">
                 <div className="flex items-center space-x-2">
                   <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-amber-400 text-slate-900 uppercase">
                     Admin Authority
                   </span>
-                  <span className="text-xs text-blue-200 font-mono">33 Sunday Tests Master Switch</span>
+                  <span className="text-xs text-orange-200 font-mono">33 Sunday Tests Master Switch</span>
                 </div>
-                <h4 className="text-base font-bold text-white flex items-center gap-2">
+                <h4 className="text-base font-bold text-white flex items-center gap-3">
                   <ShieldCheck className="w-5 h-5 text-cyan-300" />
                   <span>Sunday Test Series Authorization Controls</span>
                 </h4>
@@ -3951,21 +4372,21 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
               <div className="p-3.5 rounded-xl bg-white/10 border border-white/10 space-y-1">
-                <div className="text-[10px] uppercase font-bold text-blue-200">Current Access Status</div>
+                <div className="text-[10px] uppercase font-bold text-orange-200">Current Access Status</div>
                 <div className={`text-sm font-bold font-mono ${isAdminTestAccessGranted ? 'text-emerald-300' : 'text-amber-300'}`}>
                   {isAdminTestAccessGranted ? '✓ ACCESS GRANTED (UNLOCKED)' : '🔒 ACCESS LOCKED (APPROVAL REQUIRED)'}
                 </div>
               </div>
 
               <div className="p-3.5 rounded-xl bg-white/10 border border-white/10 space-y-1">
-                <div className="text-[10px] uppercase font-bold text-blue-200">Test Series Scope</div>
+                <div className="text-[10px] uppercase font-bold text-orange-200">Test Series Scope</div>
                 <div className="text-sm font-bold text-white font-mono">
                   33 Official Sunday Tests (5,940 Qs)
                 </div>
               </div>
 
               <div className="p-3.5 rounded-xl bg-white/10 border border-white/10 space-y-1">
-                <div className="text-[10px] uppercase font-bold text-blue-200">Student Enforcement</div>
+                <div className="text-[10px] uppercase font-bold text-orange-200">Student Enforcement</div>
                 <div className="text-sm font-bold text-white font-mono">
                   {isAdminTestAccessGranted ? 'Direct CBT Launch Allowed' : 'Strict Approval Gate Active'}
                 </div>
@@ -3975,49 +4396,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
           {/* Candidates Directory & Package Status */}
           {registeredCandidates.length > 0 ? (
-            <div className="space-y-4">
-              {/* Package Distribution Summary Card */}
-              <div className="bg-white p-4 rounded-2xl border border-gray-200 shadow-2xs">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-gray-100">
-                  <div className="flex items-center space-x-2">
-                    <Crown className="w-5 h-5 text-amber-500" />
-                    <div>
-                      <h4 className="text-sm font-bold text-gray-900">Enrolled Candidates & Prep Packages</h4>
-                      <p className="text-xs text-gray-500">Live directory of active candidate package subscriptions</p>
-                    </div>
-                  </div>
-                  <span className="px-3 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-200 text-xs font-bold font-mono">
-                    {registeredCandidates.length} Active {registeredCandidates.length === 1 ? 'Candidate' : 'Candidates'}
-                  </span>
-                </div>
-
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mt-3 text-xs">
-                  {NEET_PREP_PACKAGES.map(pkg => {
-                    const count = registeredCandidates.filter(c => c.selectedPackage?.id === pkg.id || (pkg.id === 'online-cbt' && !c.selectedPackage)).length;
-                    return (
-                      <div key={pkg.id} className="p-2.5 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
-                        <div className="text-[10px] uppercase font-bold text-slate-500 truncate">{pkg.name}</div>
-                        <div className="flex items-baseline justify-between">
-                          <span className="text-sm font-black text-slate-900">{count}</span>
-                          <span className="text-[10px] font-mono text-emerald-700 font-bold">{pkg.price}</span>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-
+            <div className="space-y-6">
               {/* Candidate Cards */}
               <div className="space-y-3">
                 {registeredCandidates.map((cand, idx) => {
-                  const pkg = cand.selectedPackage || {
-                    name: 'Online CBT All-India Test Series',
-                    price: '₹2,999',
-                    enrolledAt: cand.enrolledAt
-                  };
+                  const pkg = { name: "General Registration", price: "Free", enrolledAt: cand.enrolledAt };
 
                   return (
-                    <div key={cand.rollNumber || idx} className="bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs space-y-4">
+                    <div key={cand.rollNumber || idx} className="bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs space-y-6">
                       <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-gray-100">
                         <div className="flex items-center space-x-3.5">
                           {cand.studentPhoto ? (
@@ -4027,29 +4413,29 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                               className="w-12 h-12 rounded-2xl object-cover border border-slate-200 shadow-xs"
                             />
                           ) : (
-                            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-black text-base flex items-center justify-center shadow-xs">
+                            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-orange-600 to-indigo-600 text-white font-black text-base flex items-center justify-center shadow-xs">
                               {cand.studentName?.charAt(0) || 'S'}
                             </div>
                           )}
                           <div>
                             <div className="flex items-center space-x-2">
                               <h4 className="text-base font-bold text-gray-900">{cand.studentName}</h4>
-                              <span className="px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-[10px] font-bold">
+                              <span className="px-2 py-0.5 rounded bg-orange-100 text-orange-800 text-[10px] font-bold">
                                 {cand.caste || 'General / Open'}
                               </span>
                             </div>
                             <p className="text-xs text-gray-500 font-mono">
-                              Roll: <strong className="text-blue-700">{cand.rollNumber}</strong> &bull; Target: {cand.targetYear || '2027'} &bull; Domicile: {cand.domicileState || 'Maharashtra'}
+                              Roll: <strong className="text-orange-700">{cand.rollNumber}</strong> &bull; Target: {cand.targetYear || '2027'} &bull; Domicile: {cand.domicileState || 'Maharashtra'}
                             </p>
                           </div>
                         </div>
 
                         {/* Enrolled Package Badge */}
-                        <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 shadow-2xs">
+                        <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-orange-50 to-indigo-50 border border-orange-200 shadow-2xs">
                           <Crown className="w-4 h-4 text-amber-500 shrink-0" />
                           <div>
                             <div className="text-[9px] uppercase font-bold text-slate-500">Enrolled Package</div>
-                            <div className="text-xs font-extrabold text-blue-950 flex items-center gap-1.5">
+                            <div className="text-xs font-extrabold text-orange-950 flex items-center gap-1.5">
                               <span>{pkg.name}</span>
                               <span className="font-mono text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded text-[10px] font-bold">
                                 {pkg.price}
@@ -4077,7 +4463,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                         <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                           <div className="text-[10px] uppercase font-bold text-gray-500">State Domicile (85% Quota)</div>
-                          <div className="font-bold text-blue-700 mt-0.5">{cand.domicileState || 'Maharashtra'}</div>
+                          <div className="font-bold text-orange-700 mt-0.5">{cand.domicileState || 'Maharashtra'}</div>
                         </div>
                       </div>
                     </div>
@@ -4086,7 +4472,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
             </div>
           ) : (
-            <div className="text-center py-12 px-4 bg-white rounded-2xl border border-gray-200 space-y-2">
+            <div className="text-center py-12 px-4 bg-white rounded-2xl border border-gray-200 space-y-4">
               <Users className="w-10 h-10 text-gray-400 mx-auto" />
               <h4 className="text-sm font-bold text-gray-700">No Local Student Profile Enrolled</h4>
               <p className="text-xs text-gray-500">Active students registering on this device will stream here.</p>

@@ -31,9 +31,9 @@ export const AboutExamSection: React.FC = () => {
     <div className="space-y-4">
       {/* Header Banner */}
       <div className="bg-white border border-gray-200 rounded-lg p-5 shadow-xs">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-blue-50 text-blue-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-blue-200">
+            <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-orange-50 text-orange-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-orange-200">
               <BookOpen className="w-3 h-3" />
               <span>Comprehensive Information Hub</span>
             </div>
@@ -59,7 +59,7 @@ export const AboutExamSection: React.FC = () => {
               onClick={() => setActiveTab(tab.id as any)}
               className={`px-3 py-1.5 rounded text-xs font-semibold whitespace-nowrap transition-colors ${
                 activeTab === tab.id
-                  ? 'bg-blue-600 text-white shadow-xs'
+                  ? 'bg-orange-600 text-white shadow-xs'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
@@ -74,7 +74,7 @@ export const AboutExamSection: React.FC = () => {
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="border-b border-gray-100 pb-3">
             <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
-              <HelpCircle className="w-4 h-4 text-blue-600" />
+              <HelpCircle className="w-4 h-4 text-orange-600" />
               <span>What is NEET?</span>
             </h2>
             <p className="text-xs text-gray-600 mt-1.5 leading-relaxed">
@@ -84,7 +84,7 @@ export const AboutExamSection: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
-              <div className="text-[10px] font-bold text-blue-700 uppercase tracking-wider mb-0.5">Conducting Body</div>
+              <div className="text-[10px] font-bold text-orange-700 uppercase tracking-wider mb-0.5">Conducting Body</div>
               <div className="text-xs font-bold text-gray-900">National Testing Agency</div>
               <p className="text-[11px] text-gray-500 mt-1">Conducted under directives of National Medical Commission (NMC) & MoHFW.</p>
             </div>
@@ -109,7 +109,7 @@ export const AboutExamSection: React.FC = () => {
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="border-b border-gray-100 pb-3">
             <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
-              <Clock className="w-4 h-4 text-blue-600" />
+              <Clock className="w-4 h-4 text-orange-600" />
               <span>Exam Pattern & Official Rules</span>
             </h2>
             <p className="text-xs text-gray-500 mt-0.5">
@@ -121,7 +121,7 @@ export const AboutExamSection: React.FC = () => {
             <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
               <div className="text-[10px] font-bold text-gray-500 uppercase">Total Duration</div>
               <div className="text-base font-bold text-gray-900 mt-0.5">180 Mins</div>
-              <div className="text-[11px] text-blue-600 font-mono">(3 Hours)</div>
+              <div className="text-[11px] text-orange-600 font-mono">(3 Hours)</div>
             </div>
             <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
               <div className="text-[10px] font-bold text-gray-500 uppercase">Total Questions</div>
@@ -145,36 +145,36 @@ export const AboutExamSection: React.FC = () => {
             <table className="w-full text-xs text-left">
               <thead className="bg-gray-50 text-gray-700 font-bold uppercase tracking-wider border-b border-gray-200">
                 <tr>
-                  <th className="p-2.5">Subject</th>
-                  <th className="p-2.5">Questions</th>
-                  <th className="p-2.5">Total Marks</th>
+                  <th className="p-3.5">Subject</th>
+                  <th className="p-3.5">Questions</th>
+                  <th className="p-3.5">Total Marks</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100 text-gray-700">
                 <tr className="hover:bg-gray-50">
-                  <td className="p-2.5 font-semibold text-gray-900">Physics</td>
-                  <td className="p-2.5 font-medium">45 Questions</td>
-                  <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
+                  <td className="p-3.5 font-semibold text-gray-900">Physics</td>
+                  <td className="p-3.5 font-medium">45 Questions</td>
+                  <td className="p-3.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="p-2.5 font-semibold text-gray-900">Chemistry</td>
-                  <td className="p-2.5 font-medium">45 Questions</td>
-                  <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
+                  <td className="p-3.5 font-semibold text-gray-900">Chemistry</td>
+                  <td className="p-3.5 font-medium">45 Questions</td>
+                  <td className="p-3.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="p-2.5 font-semibold text-gray-900">Botany</td>
-                  <td className="p-2.5 font-medium">45 Questions</td>
-                  <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
+                  <td className="p-3.5 font-semibold text-gray-900">Botany</td>
+                  <td className="p-3.5 font-medium">45 Questions</td>
+                  <td className="p-3.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="p-2.5 font-semibold text-gray-900">Zoology</td>
-                  <td className="p-2.5 font-medium">45 Questions</td>
-                  <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
+                  <td className="p-3.5 font-semibold text-gray-900">Zoology</td>
+                  <td className="p-3.5 font-medium">45 Questions</td>
+                  <td className="p-3.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="bg-slate-50/80 font-bold text-slate-900 border-t border-slate-200">
-                  <td className="p-2.5">Total (PCB)</td>
-                  <td className="p-2.5">180 Questions</td>
-                  <td className="p-2.5 text-blue-700 font-extrabold">720 Marks</td>
+                  <td className="p-3.5">Total (PCB)</td>
+                  <td className="p-3.5">180 Questions</td>
+                  <td className="p-3.5 text-orange-700 font-extrabold">720 Marks</td>
                 </tr>
               </tbody>
             </table>
@@ -187,7 +187,7 @@ export const AboutExamSection: React.FC = () => {
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="border-b border-gray-100 pb-3">
             <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
-              <Layers className="w-4 h-4 text-blue-600" />
+              <Layers className="w-4 h-4 text-orange-600" />
               <span>Official Syllabus & Chapter Weightages</span>
             </h2>
             <p className="text-xs text-gray-500 mt-0.5">
@@ -197,7 +197,7 @@ export const AboutExamSection: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Physics */}
-            <div className="p-4 rounded-lg bg-gray-50 border border-gray-200 space-y-2">
+            <div className="p-6 rounded-lg bg-gray-50 border border-gray-200 space-y-2">
               <h3 className="text-xs font-bold text-gray-900 flex items-center justify-between pb-2 border-b border-gray-200">
                 <span>Physics Syllabus</span>
                 <span className="text-[11px] font-mono text-gray-500">180 Marks</span>
@@ -214,7 +214,7 @@ export const AboutExamSection: React.FC = () => {
             </div>
 
             {/* Chemistry */}
-            <div className="p-4 rounded-lg bg-gray-50 border border-gray-200 space-y-2">
+            <div className="p-6 rounded-lg bg-gray-50 border border-gray-200 space-y-2">
               <h3 className="text-xs font-bold text-gray-900 flex items-center justify-between pb-2 border-b border-gray-200">
                 <span>Chemistry Syllabus</span>
                 <span className="text-[11px] font-mono text-gray-500">180 Marks</span>
@@ -229,7 +229,7 @@ export const AboutExamSection: React.FC = () => {
             </div>
 
             {/* Biology */}
-            <div className="p-4 rounded-lg bg-gray-50 border border-gray-200 space-y-2">
+            <div className="p-6 rounded-lg bg-gray-50 border border-gray-200 space-y-2">
               <h3 className="text-xs font-bold text-gray-900 flex items-center justify-between pb-2 border-b border-gray-200">
                 <span>Biology Syllabus</span>
                 <span className="text-[11px] font-mono text-gray-500">360 Marks (50%)</span>
@@ -252,10 +252,10 @@ export const AboutExamSection: React.FC = () => {
       {/* 4. COLLEGES & SEATS */}
       {activeTab === 'colleges' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-4">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
-                <Building2 className="w-4 h-4 text-blue-600" />
+                <Building2 className="w-4 h-4 text-orange-600" />
                 <span>Colleges, Seats, Cut-offs & Counselling</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
@@ -273,7 +273,7 @@ export const AboutExamSection: React.FC = () => {
                   onClick={() => setCollegeTypeFilter(type)}
                   className={`px-3 py-1.5 rounded text-xs font-semibold transition-colors ${
                     collegeTypeFilter === type
-                      ? 'bg-blue-600 text-white shadow-xs'
+                      ? 'bg-orange-600 text-white shadow-xs'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
                 >
@@ -288,7 +288,7 @@ export const AboutExamSection: React.FC = () => {
                 placeholder="Search college or state..."
                 value={collegeSearch}
                 onChange={e => setCollegeSearch(e.target.value)}
-                className="w-full sm:w-64 p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:border-blue-500"
+                className="w-full sm:w-64 p-3 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:border-orange-500"
               />
             </div>
           </div>
@@ -298,33 +298,33 @@ export const AboutExamSection: React.FC = () => {
             <table className="w-full text-xs text-left">
               <thead className="bg-gray-50 text-gray-700 font-bold uppercase tracking-wider border-b border-gray-200">
                 <tr>
-                  <th className="p-2.5">NIRF</th>
-                  <th className="p-2.5">Medical College & Location</th>
-                  <th className="p-2.5">Type</th>
-                  <th className="p-2.5">Seats</th>
-                  <th className="p-2.5">Gen Cut-off (AIR)</th>
-                  <th className="p-2.5">Approx Tuition Fee</th>
+                  <th className="p-3.5">NIRF</th>
+                  <th className="p-3.5">Medical College & Location</th>
+                  <th className="p-3.5">Type</th>
+                  <th className="p-3.5">Seats</th>
+                  <th className="p-3.5">Gen Cut-off (AIR)</th>
+                  <th className="p-3.5">Approx Tuition Fee</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100 text-gray-700">
                 {filteredColleges.map(clg => (
                   <tr key={clg.id} className="hover:bg-gray-50">
-                    <td className="p-2.5 font-bold text-amber-600 font-mono">#{clg.nirfRank}</td>
-                    <td className="p-2.5">
+                    <td className="p-3.5 font-bold text-amber-600 font-mono">#{clg.nirfRank}</td>
+                    <td className="p-3.5">
                       <div className="font-bold text-gray-900">{clg.name}</div>
                       <div className="text-[11px] text-gray-500 flex items-center space-x-1">
                         <MapPin className="w-3 h-3 text-gray-400" />
                         <span>{clg.location}</span>
                       </div>
                     </td>
-                    <td className="p-2.5">
-                      <span className="px-1.5 py-0.2 rounded text-[10px] font-bold bg-blue-50 text-blue-700 border border-blue-200">
+                    <td className="p-3.5">
+                      <span className="px-1.5 py-0.2 rounded text-[10px] font-bold bg-orange-50 text-orange-700 border border-orange-200">
                         {clg.type}
                       </span>
                     </td>
-                    <td className="p-2.5 font-medium">{clg.totalSeats} Seats</td>
-                    <td className="p-2.5 font-bold text-emerald-600 font-mono">AIR &le; {clg.closingRankGen}</td>
-                    <td className="p-2.5 text-gray-600 font-mono">{clg.approxFeePerYear}</td>
+                    <td className="p-3.5 font-medium">{clg.totalSeats} Seats</td>
+                    <td className="p-3.5 font-bold text-emerald-600 font-mono">AIR &le; {clg.closingRankGen}</td>
+                    <td className="p-3.5 text-gray-600 font-mono">{clg.approxFeePerYear}</td>
                   </tr>
                 ))}
               </tbody>
@@ -332,9 +332,9 @@ export const AboutExamSection: React.FC = () => {
           </div>
 
           {/* Counselling Roadmap Guide */}
-          <div className="p-4 rounded-lg bg-gray-50 border border-gray-200 space-y-3">
+          <div className="p-6 rounded-lg bg-gray-50 border border-gray-200 space-y-3">
             <h3 className="text-xs font-bold text-gray-900">Medical Counselling Process (MCC & State Quota)</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-4 gap-2.5 text-xs">
+            <div className="grid grid-cols-1 sm:grid-cols-4 gap-4.5 text-xs">
               <div className="p-3 rounded bg-white border border-gray-200 shadow-xs">
                 <div className="font-bold text-gray-900 mb-0.5">1. AIQ 15% (MCC)</div>
                 <p className="text-[11px] text-gray-500">All India Quota for AIIMS, JIPMER, Deemed & 15% Central Govt seats.</p>

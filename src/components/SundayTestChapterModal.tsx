@@ -209,18 +209,18 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
     <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
       <div className="bg-white border border-slate-200 rounded-2xl shadow-2xl w-full max-w-3xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 my-auto flex flex-col max-h-[90vh]">
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-cyan-700 p-4 sm:p-5 text-white flex items-center justify-between shrink-0">
+        <div className="bg-gradient-to-r from-orange-700 via-indigo-700 to-cyan-700 p-6 sm:p-5 text-white flex items-center justify-between shrink-0">
           <div>
             <div className="flex items-center space-x-2">
               <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-400 text-slate-900">
                 180 Marks &bull; 180 Mins &bull; 180 Qs
               </span>
-              <span className="text-[11px] text-blue-100 font-mono">Sunday Calendar Syllabus Selector</span>
+              <span className="text-[11px] text-orange-100 font-mono">Sunday Calendar Syllabus Selector</span>
             </div>
             <h2 className="text-base sm:text-lg font-bold text-white mt-1 flex items-center gap-1.5">
               <Sparkles className="w-4 h-4 text-cyan-300" /> Sunday Test Series: Syllabus & Chapter Customizer
             </h2>
-            <p className="text-xs text-blue-100">
+            <p className="text-xs text-orange-100">
               {initialTest ? initialTest.title : 'Configure official NEET units for Physics (45 Qs), Chemistry (45 Qs), and Biology (90 Qs).'}
             </p>
           </div>
@@ -234,16 +234,16 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
         </div>
 
         {/* Quick Presets Bar */}
-        <div className="px-4 py-2.5 bg-slate-50 border-b border-slate-200 flex flex-wrap items-center justify-between gap-2 shrink-0">
+        <div className="px-4 py-2.5 bg-slate-50 border-b border-slate-200 flex flex-wrap items-center justify-between gap-4 shrink-0">
           <div className="flex items-center space-x-1.5 text-xs text-slate-600 font-semibold">
-            <Filter className="w-3.5 h-3.5 text-blue-600" />
+            <Filter className="w-3.5 h-3.5 text-orange-600" />
             <span>Quick Syllabus Presets:</span>
           </div>
 
           <div className="flex items-center space-x-1.5">
             <button
               onClick={() => applyPreset('all')}
-              className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition cursor-pointer"
+              className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200 transition cursor-pointer"
             >
               Full NEET Syllabus
             </button>
@@ -268,7 +268,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
             onClick={() => setActiveSubjectTab('Physics')}
             className={`flex-1 py-3 px-4 text-xs sm:text-sm font-bold flex items-center justify-center space-x-2 border-b-2 transition cursor-pointer ${
               activeSubjectTab === 'Physics'
-                ? 'border-blue-600 text-blue-600 bg-blue-50/50'
+                ? 'border-orange-600 text-orange-600 bg-orange-50/50'
                 : 'border-transparent text-slate-500 hover:text-slate-800'
             }`}
           >
@@ -302,21 +302,21 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
         </div>
 
         {/* Selection Content Area */}
-        <div className="p-4 sm:p-5 overflow-y-auto flex-1 space-y-3">
+        <div className="p-6 sm:p-5 overflow-y-auto flex-1 space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-xs font-bold text-slate-700">
               Select {activeSubjectTab} chapters to include in test pool:
             </span>
             <button
               onClick={() => selectAllSubject(activeSubjectTab)}
-              className="text-xs font-semibold text-blue-600 hover:underline flex items-center space-x-1 cursor-pointer"
+              className="text-xs font-semibold text-orange-600 hover:underline flex items-center space-x-1 cursor-pointer"
             >
               <Check className="w-3.5 h-3.5" />
               <span>Select All {activeSubjectTab}</span>
             </button>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {activeSubjectTab === 'Physics' &&
               OFFICIAL_PHYSICS_UNITS.map(ch => {
                 const isSelected = selectedPhysics.includes(ch);
@@ -324,9 +324,9 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
                   <button
                     key={ch}
                     onClick={() => toggleChapter('Physics', ch)}
-                    className={`p-2.5 rounded-xl text-left text-xs font-semibold border transition flex items-center justify-between cursor-pointer ${
+                    className={`p-3.5 rounded-xl text-left text-xs font-semibold border transition flex items-center justify-between cursor-pointer ${
                       isSelected
-                        ? 'bg-blue-50/80 border-blue-400 text-blue-900 shadow-2xs font-bold'
+                        ? 'bg-orange-50/80 border-orange-400 text-orange-900 shadow-2xs font-bold'
                         : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
                     }`}
                   >
@@ -334,7 +334,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
                     <div
                       className={`w-4 h-4 rounded-md flex items-center justify-center shrink-0 border ${
                         isSelected
-                          ? 'bg-blue-600 border-blue-600 text-white'
+                          ? 'bg-orange-600 border-orange-600 text-white'
                           : 'border-slate-300 bg-white'
                       }`}
                     >
@@ -351,7 +351,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
                   <button
                     key={ch}
                     onClick={() => toggleChapter('Chemistry', ch)}
-                    className={`p-2.5 rounded-xl text-left text-xs font-semibold border transition flex items-center justify-between cursor-pointer ${
+                    className={`p-3.5 rounded-xl text-left text-xs font-semibold border transition flex items-center justify-between cursor-pointer ${
                       isSelected
                         ? 'bg-emerald-50/80 border-emerald-400 text-emerald-900 shadow-2xs font-bold'
                         : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
@@ -378,7 +378,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
                   <button
                     key={ch}
                     onClick={() => toggleChapter('Biology', ch)}
-                    className={`p-2.5 rounded-xl text-left text-xs font-semibold border transition flex items-center justify-between cursor-pointer ${
+                    className={`p-3.5 rounded-xl text-left text-xs font-semibold border transition flex items-center justify-between cursor-pointer ${
                       isSelected
                         ? 'bg-purple-50/80 border-purple-400 text-purple-900 shadow-2xs font-bold'
                         : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
@@ -401,7 +401,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
         </div>
 
         {/* Footer Actions */}
-        <div className="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 shrink-0">
+        <div className="p-6 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 shrink-0">
           <div className="flex items-center space-x-3 text-xs text-slate-600 font-mono">
             <span>
               Selected: <strong>{selectedPhysics.length}</strong> Phys + <strong>{selectedChemistry.length}</strong> Chem + <strong>{selectedBiology.length}</strong> Bio
@@ -417,7 +417,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
             </button>
             <button
               onClick={handleLaunch}
-              className="px-5 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white shadow-md transition flex items-center space-x-1.5 cursor-pointer"
+              className="px-5 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-orange-600 via-indigo-600 to-cyan-600 hover:from-orange-700 hover:to-cyan-700 text-white shadow-md transition flex items-center space-x-1.5 cursor-pointer"
             >
               <Sparkles className="w-4 h-4 text-cyan-300" />
               <span>Launch 180-Question Sunday CBT</span>

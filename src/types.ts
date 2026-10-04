@@ -14,6 +14,7 @@ export interface Question {
   options: string[];
   correctAnswer: number; // 0-indexed
   explanation: string;
+  solutionImage?: string;
   pyqYear?: number;
   tags?: string[];
   [key: string]: any;
