@@ -2428,7 +2428,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 <div className="flex items-center gap-1.5 bg-slate-100 p-1.5 rounded-xl border border-slate-200">
                   <span className="text-[11px] font-extrabold text-slate-700 px-1">Paper:</span>
                   <select
-                    value={selectedPlannerPreset.toUpperCase()}
+                    value={selectedPlannerPreset}
                     onChange={(e) => handleSelectSundayPaper(e.target.value)}
                     className="bg-white text-slate-900 font-black text-xs px-3 py-1 rounded-lg border border-slate-300 focus:outline-hidden focus:ring-2 focus:ring-orange-500 cursor-pointer"
                   >
