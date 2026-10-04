@@ -247,7 +247,7 @@ export const Header: React.FC<HeaderProps> = ({
                       })}
                     </div>
 
-                    <div className="p-3 border-t border-slate-100 bg-slate-50/90 rounded-xl mt-1 text-center">
+                    <div className="p-3 border-t border-slate-100 bg-slate-50/90 rounded-xl mt-1 text-center transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
                       <button
                         type="button"
                         onClick={() => {
@@ -286,7 +286,7 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               id="header-ask-doubt-btn"
               onClick={onOpenDoubtModal}
-              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-xs font-medium border border-slate-200 shadow-2xs transition cursor-pointer"
+              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-xs font-medium border border-slate-200 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
               title="Instant 24/7 Subject Doubt Resolution"
             >
               <MessageCircleQuestion className="w-3.5 h-3.5 text-orange-600" />
@@ -481,7 +481,7 @@ export const Header: React.FC<HeaderProps> = ({
             ) : (
               <button
                 onClick={onOpenAuth}
-                className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold shadow-xs transition cursor-pointer"
+                className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold shadow-xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
               >
                 <UserIcon className="w-3.5 h-3.5" />
                 <span>Sign In</span>

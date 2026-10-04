@@ -1909,7 +1909,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {onClose && (
               <button
                 onClick={onClose}
-                className="p-3 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
+                className="p-3 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                 title="Close Admin Portal"
               >
                 <X className="w-5 h-5" />
@@ -2071,7 +2071,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {pendingRequestsCount > 0 && (
               <button
                 onClick={handleApproveAllRequests}
-                className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-bold shadow-md transition flex items-center space-x-1.5 cursor-pointer self-start sm:self-auto"
+                className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-bold shadow-md transition flex items-center space-x-1.5 cursor-pointer self-start sm:self-auto transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
               >
                 <CheckCheck className="w-4 h-4" />
                 <span>Approve All Pending Requests ({pendingRequestsCount})</span>
@@ -2304,7 +2304,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     </select>
                     <button
                       onClick={handleExportSelectedTrackZIP}
-                      className="px-2 py-1 rounded bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer"
+                      className="px-2 py-1 rounded bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                     >
                       <Download className="w-3 h-3" /> Export ZIP
                     </button>
@@ -2315,14 +2315,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   </label>
                   <button
                     onClick={handleMockPdfUpload}
-                    className="px-3 py-1.5 rounded-lg bg-orange-600 hover:bg-orange-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer"
+                    className="px-3 py-1.5 rounded-lg bg-orange-600 hover:bg-orange-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   >
                     <FileText className="w-3.5 h-3.5" /> Parse PDF/Word
                   </button>
                   <button
                     onClick={handleSaveAndPublishSelectedPaper}
                   disabled={isSyncingAction}
-                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-xl text-xs font-black transition flex items-center gap-3 shadow-md cursor-pointer disabled:opacity-50"
+                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-xl text-xs font-black transition flex items-center gap-3 shadow-md cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   title="Confirm and lock this Sunday Paper as the authoritative Final Master Default across all student systems"
                 >
                   <ShieldCheck className="w-4 h-4 text-slate-950" />
@@ -2341,7 +2341,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 <button
                   onClick={handleResetSelectedPaperToDefault}
                   disabled={isSyncingAction}
-                  className="px-3 py-2.5 bg-rose-500/20 hover:bg-rose-500/40 text-rose-200 border border-rose-400/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                  className="px-3 py-2.5 bg-rose-500/20 hover:bg-rose-500/40 text-rose-200 border border-rose-400/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   title="Revert this paper back to original base syllabus template across all devices"
                 >
                   <RotateCcw className="w-3.5 h-3.5" />
@@ -2350,7 +2350,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <button
                   onClick={handleLaunchSundayInCBT}
-                  className="px-3.5 py-2.5 bg-orange-600 hover:bg-orange-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-3 shadow-xs cursor-pointer"
+                  className="px-3.5 py-2.5 bg-orange-600 hover:bg-orange-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-3 shadow-xs cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                 >
                   <Play className="w-4 h-4" />
                   Test in CBT
@@ -2600,7 +2600,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <button
                   onClick={handleAssembleSundayStudio}
-                  className="px-3 py-1.5 text-xs font-extrabold rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white cursor-pointer flex items-center gap-1.5 shadow-xs ml-1"
+                  className="px-3 py-1.5 text-xs font-extrabold rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white cursor-pointer flex items-center gap-1.5 shadow-xs ml-1 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   title="Re-assemble 180 questions strictly matching currently selected units"
                 >
                   <RefreshCw className="w-3.5 h-3.5" />
@@ -2642,7 +2642,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Topic Swapper Controls Bar */}
-              <div className="bg-white p-3.5 rounded-xl border border-indigo-100 shadow-xs flex flex-wrap items-center gap-3">
+              <div className="bg-white p-3.5 rounded-xl border border-indigo-100 shadow-xs flex flex-wrap items-center gap-3 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
                 {/* 1. Source Topic Dropdown */}
                 <div className="flex-1 min-w-[210px] space-y-1">
                   <label className="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">
@@ -3171,7 +3171,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                       {/* Editing View */}
                       {isEditing && editForm ? (
-                        <div className="p-8 bg-slate-50 rounded-xl border border-orange-200 space-y-3">
+                        <div className="p-8 bg-slate-50 rounded-xl border border-orange-200 space-y-3 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
                           <div>
                             <label className="text-xs font-bold text-slate-700 block mb-1">Question Prompt:</label>
                             <textarea
@@ -3286,7 +3286,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         <>
                           {/* Vector Diagram if Available */}
                           {diagramSvg && (
-                            <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center">
+                            <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
                               <span className="text-[10px] font-mono font-bold text-slate-400 uppercase tracking-wider mb-1">
                                 High-Quality Technical Schematic
                               </span>
@@ -3446,7 +3446,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   </span>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-4 gap-3.5 items-end bg-white/90 p-3 rounded-xl border border-purple-200">
+                <div className="grid grid-cols-1 sm:grid-cols-4 gap-3.5 items-end bg-white/90 p-3 rounded-xl border border-purple-200 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
                   <div className="space-y-1">
                     <label className="text-[10px] font-bold text-slate-500 uppercase">1. Swap Out (From Topic)</label>
                     <select
@@ -3690,7 +3690,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     type="button"
                     onClick={handleLaunchAdminCbt}
-                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95"
+                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   >
                     <Play className="w-4 h-4 fill-current" />
                     <span>Launch CBT Simulation</span>
@@ -3821,7 +3821,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     type="button"
                     onClick={handleExportCustomPdf}
-                    className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer"
+                    className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   >
                     <Printer className="w-4 h-4 text-gray-600" />
                     <span>Export Test PDF</span>
@@ -3830,7 +3830,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     type="button"
                     onClick={handleLaunchAdminCbt}
-                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95"
+                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                   >
                     <Play className="w-4 h-4 fill-current" />
                     <span>Launch CBT Simulation</span>
@@ -3955,7 +3955,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     />
                     <button
                       type="submit"
-                      className="px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold shadow-xs transition cursor-pointer shrink-0"
+                      className="px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold shadow-xs transition cursor-pointer shrink-0 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
                     >
                       Save Chapter
                     </button>
