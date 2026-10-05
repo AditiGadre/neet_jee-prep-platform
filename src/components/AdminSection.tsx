@@ -680,6 +680,30 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     setTimeout(() => setActionSuccessBanner(null), 3500);
   };
 
+  
+  const handleGrantAccessDirectly = (cand: any) => {
+    const newReq = {
+      id: 'req-' + Date.now() + '-' + Math.random().toString(36).substring(7),
+      studentName: cand.studentName,
+      rollNumber: cand.rollNumber,
+      studentPhone: cand.studentPhone || cand.phone,
+      parentPhone: cand.parentPhone || cand.phone,
+      parentEmail: cand.parentEmail || cand.email,
+      targetExam: 'NEET',
+      targetBatch: cand.targetYear || '2027',
+      testCode: 'ALL SUNDAY TESTS',
+      testTitle: 'Full Planner Series Access',
+      status: 'approved' as const,
+      requestedAt: new Date().toISOString()
+    };
+    const updated = [newReq, ...unlockRequests];
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncAdminConfigToCloud({ approvedStudentRequests: updated as any }).catch(() => {});
+    setActionSuccessBanner('Test Access explicitly granted for ' + cand.studentName + '!');
+    setTimeout(() => setActionSuccessBanner(null), 3500);
+  };
+
   const handleApproveAllRequests = () => {
     const updated = unlockRequests.map(r => ({ ...r, status: 'approved' as const }));
     setUnlockRequests(updated);
@@ -4445,18 +4469,30 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           </div>
                         </div>
 
-                        {/* Enrolled Package Badge */}
-                        <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-50 to-sky-50 border border-sky-200 shadow-2xs">
-                          <Crown className="w-4 h-4 text-cyan-500 shrink-0" />
-                          <div>
-                            <div className="text-[9px] uppercase font-bold text-sky-600">Enrolled Package</div>
-                            <div className="text-xs font-extrabold text-sky-950 flex items-center gap-1.5">
-                              <span>{pkg.name}</span>
-                              <span className="font-mono text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded text-[10px] font-bold">
-                                {pkg.price}
-                              </span>
+                                                <div className="flex items-center gap-3">
+                          {/* Enrolled Package Badge */}
+                          <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-50 to-sky-50 border border-sky-200 shadow-2xs">
+                            <Crown className="w-4 h-4 text-cyan-500 shrink-0" />
+                            <div>
+                              <div className="text-[9px] uppercase font-bold text-sky-600">Enrolled Package</div>
+                              <div className="text-xs font-extrabold text-sky-950 flex items-center gap-1.5">
+                                <span>{pkg.name}</span>
+                                <span className="font-mono text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded text-[10px] font-bold">
+                                  {pkg.price}
+                                </span>
+                              </div>
                             </div>
                           </div>
+                          
+                          {/* Manual Unlock Button */}
+                          <button
+                            onClick={() => handleGrantAccessDirectly(cand)}
+                            className="flex flex-col items-center justify-center px-4 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-700 font-bold transition shadow-xs cursor-pointer active:scale-95"
+                            title="Directly grant this student access to Sunday Tests without waiting for them to request it."
+                          >
+                            <span className="text-[10px] uppercase tracking-wider font-extrabold">Grant Access</span>
+                            <span className="text-[10px] flex items-center gap-1"><CheckCircle2 className="w-3 h-3" /> Sunday Tests</span>
+                          </button>
                         </div>
                       </div>
 
@@ -4516,6 +4552,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     </div>
   );
 };
+
+
 
 
 
