@@ -30,36 +30,19 @@ interface ParsedSection {
  * ensuring each mathematical equation is on its own separate line with clear numbering.
  */
 function splitDerivationSteps(text: string): string[] {
-  if (!text) return [];
-
-  // Split on real linebreaks first
-  const rawLines = text
-    .split(/\r?\n+/)
-    .map(l => l.trim())
-    .filter(l => l.length > 0);
-
-  const steps: string[] = [];
-
-  for (const line of rawLines) {
-    // Strip leading bullet or step indicator if present
-    const cleanLine = line.replace(/^[•\-\*]\s*/, '').trim();
-
-    // Check if multiple equations or steps are joined on a single line
-    // e.g. "W = ∫ ... dV W = n R T ... W = n R T ln..." or "; " or "⟹" or "Step 1: ... Step 2: ..."
-    const subEquations = cleanLine
-      .split(/\s*(?:⟹|⇒)\s*|(?<=[^\s=+\-*/(])\s+(?=[A-Za-z]\s*=\s*|Step\s*\d+:|\bHence,|\bTherefore,|\bFormula:|\bApply:|\bNow,|\bThus,|\bSubstituting|\bPutting)/)
-      .map(s => s.trim())
-      .filter(s => s.length > 0);
-
-    if (subEquations.length > 1) {
-      steps.push(...subEquations);
-    } else {
+    if (!text) return [];
+    const rawLines = text
+      .split(/\r?\n+/)
+      .map(l => l.trim())
+      .filter(l => l.length > 0);
+  
+    const steps: string[] = [];
+    for (const line of rawLines) {
+      const cleanLine = line.replace(/^[-\*]\s*/, '').trim();
       steps.push(cleanLine);
     }
+    return steps.filter(s => s.length > 0);
   }
-
-  return steps.filter(s => s.length > 0);
-}
 
 /**
  * Normalizes explanations ensuring headings and bodies are cleanly separated by line breaks,
@@ -416,4 +399,5 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
     </div>
   );
 };
+
 
