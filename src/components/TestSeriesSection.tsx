@@ -170,8 +170,6 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const checkAdminAccess = () => {
     try {
       if (localStorage.getItem('neet_admin_test_access') === 'true') return true;
-      if (sessionStorage.getItem('neet_admin_authenticated') === 'true') return true;
-
       const rawReqs = localStorage.getItem('neet_unlock_requests');
       if (rawReqs) {
         const reqs = JSON.parse(rawReqs);
@@ -1084,6 +1082,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     </div>
   );
 };
+
 
 
 

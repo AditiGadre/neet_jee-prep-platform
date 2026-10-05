@@ -674,9 +674,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
     setUnlockRequests(updated);
     localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
-    localStorage.setItem('neet_admin_test_access', 'true');
-    setIsAdminTestAccessGranted(true);
-    syncAdminConfigToCloud({ platformWideSundayAccess: true, approvedStudentRequests: updated as any }).catch(() => {});
+    syncAdminConfigToCloud({ approvedStudentRequests: updated as any }).catch(() => {});
     window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
     setActionSuccessBanner('✓ Test Access Approved & Unlocked for Candidate!');
     setTimeout(() => setActionSuccessBanner(null), 3500);
@@ -686,9 +684,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const updated = unlockRequests.map(r => ({ ...r, status: 'approved' as const }));
     setUnlockRequests(updated);
     localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
-    localStorage.setItem('neet_admin_test_access', 'true');
-    setIsAdminTestAccessGranted(true);
-    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: false } }));
     setActionSuccessBanner('✓ All Pending Test Requests Approved & Unlocked Platform-Wide!');
     setTimeout(() => setActionSuccessBanner(null), 3500);
   };
@@ -4520,6 +4516,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     </div>
   );
 };
+
+
 
 
 
