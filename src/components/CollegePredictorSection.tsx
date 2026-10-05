@@ -75,8 +75,8 @@ export const CollegePredictorSection: React.FC<{ initialAir?: number; isInsideSc
 
   const getProbability = (rank: number, closing: number) => {
     if (rank <= closing * 0.6) return { label: 'High', color: 'bg-emerald-100 text-emerald-700 border-emerald-200' };
-    if (rank <= closing * 0.85) return { label: 'Good', color: 'bg-orange-100 text-orange-700 border-orange-200' };
-    return { label: 'Borderline', color: 'bg-amber-100 text-amber-700 border-amber-200' };
+    if (rank <= closing * 0.85) return { label: 'Good', color: 'bg-sky-100 text-sky-700 border-sky-200' };
+    return { label: 'Borderline', color: 'bg-sky-100 text-sky-700 border-sky-200' };
   };
 
   // Trigger search dynamically when data, userRank, or filters change
@@ -93,8 +93,8 @@ export const CollegePredictorSection: React.FC<{ initialAir?: number; isInsideSc
     <div className="max-w-6xl mx-auto space-y-6 animate-in fade-in duration-300">
       <div className="bg-sky-50/60 p-6 rounded-2xl shadow-sm border border-sky-200">
         <div className="flex items-center space-x-3 mb-4">
-          <div className="p-3 bg-orange-100 rounded-lg">
-            <Trophy className="w-6 h-6 text-orange-600" />
+          <div className="p-3 bg-sky-100 rounded-lg">
+            <Trophy className="w-6 h-6 text-sky-600" />
           </div>
           <h2 className="text-2xl font-bold text-sky-900">All India Rank College Predictor</h2>
         </div>
@@ -111,7 +111,7 @@ export const CollegePredictorSection: React.FC<{ initialAir?: number; isInsideSc
               value={userRank}
               onChange={e => setUserRank(e.target.value)}
               placeholder="e.g. 450"
-              className="w-full p-3 rounded-xl border border-sky-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition"
+              className="w-full p-3 rounded-xl border border-sky-200 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 outline-none transition"
             />
           </div>
           <div className="space-y-2">
@@ -119,7 +119,7 @@ export const CollegePredictorSection: React.FC<{ initialAir?: number; isInsideSc
             <select 
               value={userCategory}
               onChange={e => setUserCategory(e.target.value)}
-              className="w-full p-3 rounded-xl border border-sky-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition bg-sky-50/60"
+              className="w-full p-3 rounded-xl border border-sky-200 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 outline-none transition bg-sky-50/60"
             >
               {uniqueCategories.map(cat => (
                 <option key={cat} value={cat}>{cat}</option>
@@ -131,7 +131,7 @@ export const CollegePredictorSection: React.FC<{ initialAir?: number; isInsideSc
             <select 
               value={userQuota}
               onChange={e => setUserQuota(e.target.value)}
-              className="w-full p-3 rounded-xl border border-sky-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition bg-sky-50/60"
+              className="w-full p-3 rounded-xl border border-sky-200 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 outline-none transition bg-sky-50/60"
             >
               <option value="All">All Quotas</option>
               {uniqueQuotas.map(q => (
@@ -146,14 +146,14 @@ export const CollegePredictorSection: React.FC<{ initialAir?: number; isInsideSc
               value={searchInstitute}
               onChange={e => setSearchInstitute(e.target.value)}
               placeholder="e.g. AIIMS"
-              className="w-full p-3 rounded-xl border border-sky-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition"
+              className="w-full p-3 rounded-xl border border-sky-200 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 outline-none transition"
             />
           </div>
           <div className="flex items-end">
             <button
               onClick={handlePredict}
               disabled={!userRank || loading}
-              className="w-full p-3 bg-orange-600 hover:bg-orange-700 disabled:opacity-50 text-white font-bold rounded-xl transition shadow-md shadow-amber-200 flex justify-center items-center gap-4"
+              className="w-full p-3 bg-sky-600 hover:bg-sky-700 disabled:opacity-50 text-white font-bold rounded-xl transition shadow-md shadow-amber-200 flex justify-center items-center gap-4"
             >
               <Search className="w-5 h-5" />
               <span>Predict Colleges</span>
@@ -165,7 +165,7 @@ export const CollegePredictorSection: React.FC<{ initialAir?: number; isInsideSc
       {results !== null && (
         <div className="bg-sky-50/60 p-6 rounded-2xl shadow-sm border border-sky-200">
           <h3 className="text-lg font-bold text-sky-900 mb-4 flex items-center gap-4">
-            <Building2 className="w-5 h-5 text-rose-500" />
+            <Building2 className="w-5 h-5 text-sky-500" />
             <span>Predicted Colleges ({results.length})</span>
           </h3>
           
@@ -190,7 +190,7 @@ export const CollegePredictorSection: React.FC<{ initialAir?: number; isInsideSc
                   {results.map((r, idx) => {
                     const prob = getProbability(parseInt(userRank, 10), r.closing_rank);
                     return (
-                      <tr key={idx} className="hover:bg-orange-50/50 transition">
+                      <tr key={idx} className="hover:bg-sky-50/50 transition">
                         <td className="p-3">
                           <div className="font-semibold text-sm text-sky-900">{r.institute}</div>
                         </td>

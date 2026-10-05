@@ -567,7 +567,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
                   activeBatch === '11th'
-                    ? 'bg-rose-500 text-white shadow-md'
+                    ? 'bg-sky-500 text-white shadow-md'
                     : 'bg-sky-50 text-sky-800 hover:bg-sky-50 border border-sky-200'
                 }`}
               >
@@ -580,10 +580,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               
               <div className="absolute left-0 top-[calc(100%-8px)] pt-2 w-72 bg-sky-50/60 border border-sky-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
                 <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-rose-50 text-rose-700' : 'text-sky-700 hover:bg-sky-50 hover:text-rose-600'}`}>
+                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
                   Track 1: Chapterwise, Partwise & Full
                 </button>
-                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-rose-50 text-rose-700' : 'text-sky-700 hover:bg-sky-50 hover:text-rose-600'}`}>
+                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
                   Track 2: CWT & Cumulative Master
                 </button>
               </div>
@@ -702,10 +702,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {REVISION_ANALYSIS_BUFFER_12TH.map((stage, idx) => (
               <div
                 key={idx}
-                className="p-3.5 rounded-xl bg-sky-50/60 border border-cyan-100 shadow-2xs hover:border-purple-300 transition space-y-2"
+                className="p-3.5 rounded-xl bg-sky-50/60 border border-cyan-100 shadow-2xs hover:border-sky-300 transition space-y-2"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-purple-700 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded-md font-mono">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-sky-700 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded-md font-mono">
                     Stage {idx + 1}
                   </span>
                   <span className="text-[11px] font-semibold text-sky-600 font-mono">
@@ -715,8 +715,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 <div className="text-xs font-bold text-sky-950">
                   {stage.action}
                 </div>
-                <div className="text-[11px] text-sky-700 leading-relaxed bg-purple-50/40 p-3 rounded-lg border border-cyan-100/60">
-                  <span className="font-bold text-purple-900">Output:</span> {stage.output}
+                <div className="text-[11px] text-sky-700 leading-relaxed bg-sky-50/40 p-3 rounded-lg border border-cyan-100/60">
+                  <span className="font-bold text-sky-900">Output:</span> {stage.output}
                 </div>
               </div>
             ))}
@@ -792,7 +792,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     <span
                       className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase font-mono tracking-wider flex items-center gap-1 ${
                         isLive && isAdminAccessGranted
-                          ? 'bg-rose-600 text-white animate-pulse'
+                          ? 'bg-sky-600 text-white animate-pulse'
                           : 'bg-sky-50 text-sky-800'
                       }`}
                     >
@@ -813,7 +813,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       } else if (isCum) {
                         badgeColorClass = 'text-cyan-800 bg-cyan-50 border-cyan-300';
                       } else if (isPart) {
-                        badgeColorClass = 'text-rose-800 bg-rose-50 border-rose-200';
+                        badgeColorClass = 'text-sky-800 bg-sky-50 border-sky-200';
                       }
 
                       return (
@@ -908,12 +908,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="p-3.5 rounded-xl bg-purple-50/70 border border-purple-200 text-xs">
-                        <div className="text-[10px] font-bold text-purple-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Dna className="w-3 h-3 text-purple-600" /> Zoology</span>
-                          <span className="font-mono text-purple-600">{zooCount} Qs &bull; {zooCount * 4}M</span>
+                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
+                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Dna className="w-3 h-3 text-sky-600" /> Zoology</span>
+                          <span className="font-mono text-sky-600">{zooCount} Qs &bull; {zooCount * 4}M</span>
                         </div>
-                        <div className="text-[11px] font-semibold text-purple-950 mt-1 leading-snug">
+                        <div className="text-[11px] font-semibold text-sky-950 mt-1 leading-snug">
                           {displayZoology}
                         </div>
                       </div>

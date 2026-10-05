@@ -178,7 +178,7 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
         {/* Modal Header */}
         <div className="flex items-start justify-between pb-3 border-b border-sky-200">
           <div className="flex items-start space-x-3">
-            <div className="w-9 h-9 rounded-xl bg-orange-600 text-white flex items-center justify-center shadow-xs shrink-0 mt-0.5">
+            <div className="w-9 h-9 rounded-xl bg-sky-600 text-white flex items-center justify-center shadow-xs shrink-0 mt-0.5">
               <Brain className="w-5 h-5" />
             </div>
             <div>
@@ -206,10 +206,10 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
         </div>
 
         {/* Dynamic Learning Stats Banner */}
-        <div className="p-3.5 rounded-lg bg-orange-50/70 border border-orange-100 flex flex-wrap items-center justify-between gap-4 text-[11px]">
+        <div className="p-3.5 rounded-lg bg-sky-50/70 border border-sky-100 flex flex-wrap items-center justify-between gap-4 text-[11px]">
           <div className="flex items-center space-x-3 font-mono">
-            <span className="flex items-center space-x-1 text-orange-900 font-semibold">
-              <Database className="w-3.5 h-3.5 text-orange-600" />
+            <span className="flex items-center space-x-1 text-sky-900 font-semibold">
+              <Database className="w-3.5 h-3.5 text-sky-600" />
               <span>Learned Concepts: <strong>{aiStats.totalLearnedConcepts}</strong></span>
             </span>
             <span className="flex items-center space-x-1 text-emerald-800 font-semibold">
@@ -235,7 +235,7 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
                   onClick={() => setSubject(s)}
                   className={`py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
                     subject === s
-                      ? 'bg-orange-600 text-white shadow-xs'
+                      ? 'bg-sky-600 text-white shadow-xs'
                       : 'bg-sky-50 text-sky-800 hover:bg-sky-100 border border-sky-200'
                   }`}
                 >
@@ -254,7 +254,7 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
               placeholder="e.g. In Photoelectric Effect, why does increasing light intensity not change the kinetic energy of emitted electrons?..."
               value={doubtText}
               onChange={e => setDoubtText(e.target.value)}
-              className="w-full p-3 rounded-lg bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:outline-none focus:border-orange-500"
+              className="w-full p-3 rounded-lg bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:outline-none focus:border-sky-500"
               required
             />
           </div>
@@ -273,7 +273,7 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
                     setDoubtText(qPrompt);
                     handleAskDoubt(null as any, qPrompt);
                   }}
-                  className="text-[11px] px-2.5 py-1 bg-orange-50 hover:bg-orange-100 text-orange-800 rounded-lg border border-orange-200 text-left transition-colors truncate max-w-full cursor-pointer"
+                  className="text-[11px] px-2.5 py-1 bg-sky-50 hover:bg-sky-100 text-sky-800 rounded-lg border border-sky-200 text-left transition-colors truncate max-w-full cursor-pointer"
                   title={qPrompt}
                 >
                   ⚡ {qPrompt}
@@ -291,7 +291,7 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
             <button
               type="submit"
               disabled={isSolving || !doubtText.trim()}
-              className="px-4 py-2 rounded-lg bg-orange-600 hover:bg-orange-700 disabled:opacity-50 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs cursor-pointer active:scale-95 transition"
+              className="px-4 py-2 rounded-lg bg-sky-600 hover:bg-sky-700 disabled:opacity-50 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs cursor-pointer active:scale-95 transition"
             >
               {isSolving ? (
                 <>
@@ -316,7 +316,7 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
                 <UserCheck className="w-4 h-4 text-emerald-600" />
                 <span>Expert Faculty & Knowledge Engine Resolution:</span>
               </div>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-orange-100 text-orange-800 font-bold">
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-sky-100 text-sky-800 font-bold">
                 {solvedResult.engineUsed}
               </span>
             </div>
@@ -329,7 +329,7 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
             {solvedResult.citations && solvedResult.citations.length > 0 && (
               <div className="pt-2 border-t border-sky-200/80 space-y-1">
                 <div className="text-[10px] font-bold text-sky-600 uppercase flex items-center space-x-1 font-mono">
-                  <BookOpen className="w-3 h-3 text-orange-600" />
+                  <BookOpen className="w-3 h-3 text-sky-600" />
                   <span>Retrieved Knowledge Citations:</span>
                 </div>
                 <div className="flex flex-wrap gap-1">
@@ -366,8 +366,8 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
                   disabled={feedbackGiven !== null}
                   className={`px-3 py-1 rounded-lg border text-xs font-bold flex items-center space-x-1 transition cursor-pointer ${
                     feedbackGiven === 'unhelpful'
-                      ? 'bg-rose-600 text-white border-rose-600'
-                      : 'bg-sky-50/60 hover:bg-rose-50 text-rose-700 border-rose-200'
+                      ? 'bg-sky-600 text-white border-sky-600'
+                      : 'bg-sky-50/60 hover:bg-sky-50 text-sky-700 border-sky-200'
                   }`}
                 >
                   <ThumbsDown className="w-3.5 h-3.5" />
@@ -397,7 +397,7 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
               {pastDoubts.map((d) => (
                 <div key={d.id} className="p-3.5 rounded-lg bg-sky-50 border border-sky-200 text-xs space-y-1">
                   <div className="flex justify-between items-center text-[10px] font-bold text-sky-600">
-                    <span className="text-orange-700 font-semibold">{d.subject}</span>
+                    <span className="text-sky-700 font-semibold">{d.subject}</span>
                     <span>{new Date(d.created_at).toLocaleDateString()}</span>
                   </div>
                   <p className="font-semibold text-sky-900 line-clamp-2">{d.doubt_text}</p>

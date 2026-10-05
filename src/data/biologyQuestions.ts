@@ -4279,7 +4279,7 @@ export const MICROBES_IN_HUMAN_WELFARE_V2_QUESTIONS: Question[] = [
     chapter: "Microbes in Human Welfare",
     topic: "Biology in Human Welfare",
     difficulty: "Medium",
-    questionText: "Which amber-green algae (Cyanobacteria) serve as biofertilizers in waterlogged paddy (rice) fields?",
+    questionText: "Which blue-green algae (Cyanobacteria) serve as biofertilizers in waterlogged paddy (rice) fields?",
     options: ["Rhizobium and Glomus", "Anabaena, Nostoc, and Oscillatoria", "Lactobacillus and Acetobacter", "Trichoderma and Spirulina"],
     correctAnswer: 1,
     explanation: "Cyanobacteria like Anabaena, Nostoc, and Oscillatoria fix nitrogen in rice paddies.",

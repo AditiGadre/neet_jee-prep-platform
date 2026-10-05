@@ -93,7 +93,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               Platform Modules
             </div>
             <div className="text-sm font-extrabold text-sky-950">
-              NeetCbt<span className="text-orange-600"> Exam Test</span>
+              NeetCbt<span className="text-sky-600"> Exam Test</span>
             </div>
           </div>
         </div>
@@ -112,18 +112,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 className={`w-full text-left p-3.5 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                   isActive
                     ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold shadow-md shadow-orange-900/10'
-                    : 'text-sky-700 hover:bg-orange-50 hover:text-orange-700'
+                    : 'text-sky-700 hover:bg-sky-50 hover:text-sky-700'
                 }`}
               >
                 <div className="flex items-center space-x-2.5 min-w-0">
                   <Icon
                     className={`w-4 h-4 shrink-0 ${
-                      isActive ? 'text-white' : item.highlight ? 'text-orange-500' : 'text-stone-400'
+                      isActive ? 'text-white' : item.highlight ? 'text-sky-500' : 'text-stone-400'
                     }`}
                   />
                   <div className="min-w-0">
                     <div className="truncate font-semibold">{item.label}</div>
-                    <div className="text-[10px] text-sky-600 truncate font-normal group-hover:text-orange-600/70">
+                    <div className="text-[10px] text-sky-600 truncate font-normal group-hover:text-sky-600/70">
                       {item.sublabel}
                     </div>
                   </div>
@@ -135,7 +135,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       isActive
                         ? 'bg-sky-50/60/20 text-white'
                         : item.highlight
-                        ? 'bg-amber-100 text-amber-700 border border-amber-200'
+                        ? 'bg-sky-100 text-sky-700 border border-sky-200'
                         : 'bg-sky-50 text-sky-600 border border-sky-200'
                     }`}
                   >
@@ -146,7 +146,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
               {/* Collapsible Sub-modules under What Extra We Offer */}
               {item.id === 'what-extra' && isActive && (
-                <div className="pl-4 pr-1 py-1 space-y-0.5 border-l-2 border-orange-200 ml-4 animate-in fade-in slide-in-from-top-1 duration-150">
+                <div className="pl-4 pr-1 py-1 space-y-0.5 border-l-2 border-sky-200 ml-4 animate-in fade-in slide-in-from-top-1 duration-150">
                   {extraSubModules.map(sub => {
                     const SubIcon = sub.icon;
                     const isSubActive = extraSubTab === sub.id;
@@ -159,11 +159,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         }}
                         className={`w-full text-left px-2 py-1.5 rounded-lg text-[11px] transition flex items-center space-x-2 cursor-pointer ${
                           isSubActive
-                            ? 'bg-orange-50 text-orange-700 font-bold border border-orange-100'
+                            ? 'bg-sky-50 text-sky-700 font-bold border border-sky-100'
                             : 'text-sky-600 hover:bg-sky-50 hover:text-sky-900'
                         }`}
                       >
-                        <SubIcon className={`w-3 h-3 ${isSubActive ? 'text-orange-500' : 'text-stone-400'}`} />
+                        <SubIcon className={`w-3 h-3 ${isSubActive ? 'text-sky-500' : 'text-stone-400'}`} />
                         <span className="truncate">{sub.label}</span>
                       </button>
                     );
@@ -177,9 +177,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
       {/* Verified Banner in Bottom Sidebar */}
       <div className="p-3 bg-sky-50/80 border-t border-sky-200">
-        <div className="p-3.5 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200/60 space-y-1">
-          <div className="flex items-center space-x-1.5 text-xs font-bold text-orange-700">
-            <ShieldCheck className="w-3.5 h-3.5 text-orange-500" />
+        <div className="p-3.5 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50 border border-sky-200/60 space-y-1">
+          <div className="flex items-center space-x-1.5 text-xs font-bold text-sky-700">
+            <ShieldCheck className="w-3.5 h-3.5 text-sky-500" />
             <span>NeetCbt Verified</span>
           </div>
           <p className="text-[10px] text-sky-600 font-mono">
@@ -193,7 +193,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               e.preventDefault();
               if (onNavigateToAbout) onNavigateToAbout();
             }}
-            className="text-[10.5px] font-semibold text-sky-600 hover:text-orange-600 transition inline-flex items-center gap-1 cursor-pointer"
+            className="text-[10.5px] font-semibold text-sky-600 hover:text-sky-600 transition inline-flex items-center gap-1 cursor-pointer"
           >
             <span>About NeetCbt Platform</span>
             <span>&rarr;</span>

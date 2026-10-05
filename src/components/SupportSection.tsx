@@ -59,7 +59,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
       <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 shadow-xs">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-orange-50 text-orange-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-orange-200">
+            <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-sky-50 text-sky-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-sky-200">
               <Headphones className="w-3 h-3" />
               <span>24/7 Student Assistance</span>
             </div>
@@ -110,11 +110,11 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
         {/* 2. Technical Support */}
         <div className="rounded-lg bg-sky-50/60 border border-sky-200 p-6 space-y-3 flex flex-col justify-between shadow-xs">
           <div className="space-y-2">
-            <div className="w-8 h-8 rounded bg-orange-50 text-orange-700 flex items-center justify-center border border-orange-200">
+            <div className="w-8 h-8 rounded bg-sky-50 text-sky-700 flex items-center justify-center border border-sky-200">
               <Laptop className="w-4 h-4" />
             </div>
             <div>
-              <span className="text-[10px] font-bold text-orange-700 uppercase tracking-wider">
+              <span className="text-[10px] font-bold text-sky-700 uppercase tracking-wider">
                 2. Technical Support
               </span>
               <h3 className="text-xs sm:text-sm font-bold text-sky-950 leading-snug">
@@ -127,8 +127,8 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
           </div>
 
           {techTicketSubmitted ? (
-            <div className="p-3.5 rounded bg-orange-50 border border-orange-200 text-orange-800 text-xs font-bold text-center flex items-center justify-center space-x-1.5">
-              <CheckCircle2 className="w-3.5 h-3.5 text-orange-600" />
+            <div className="p-3.5 rounded bg-sky-50 border border-sky-200 text-sky-800 text-xs font-bold text-center flex items-center justify-center space-x-1.5">
+              <CheckCircle2 className="w-3.5 h-3.5 text-sky-600" />
               <span>Ticket #9842 Raised! Agent Connecting</span>
             </div>
           ) : (
@@ -138,11 +138,11 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
                 placeholder="Describe tech issue (e.g. CBT loading)..."
                 value={techIssue}
                 onChange={e => setTechIssue(e.target.value)}
-                className="w-full p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-orange-500"
+                className="w-full p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-sky-500"
               />
               <button
                 type="submit"
-                className="w-full py-2 rounded bg-orange-600 hover:bg-orange-700 text-white font-semibold text-xs flex items-center justify-center space-x-1.5 shadow-xs"
+                className="w-full py-2 rounded bg-sky-600 hover:bg-sky-700 text-white font-semibold text-xs flex items-center justify-center space-x-1.5 shadow-xs"
               >
                 <Send className="w-3.5 h-3.5" />
                 <span>Submit Tech Ticket</span>
@@ -154,11 +154,11 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
         {/* 3. Counselling */}
         <div className="rounded-lg bg-sky-50/60 border border-sky-200 p-6 space-y-3 flex flex-col justify-between shadow-xs">
           <div className="space-y-2">
-            <div className="w-8 h-8 rounded bg-purple-50 text-purple-700 flex items-center justify-center border border-purple-200">
+            <div className="w-8 h-8 rounded bg-sky-50 text-sky-700 flex items-center justify-center border border-sky-200">
               <Users className="w-4 h-4" />
             </div>
             <div>
-              <span className="text-[10px] font-bold text-purple-700 uppercase tracking-wider">
+              <span className="text-[10px] font-bold text-sky-700 uppercase tracking-wider">
                 3. Counselling
               </span>
               <h3 className="text-xs sm:text-sm font-bold text-sky-950 leading-snug">
@@ -171,8 +171,8 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
           </div>
 
           {counsellingFormSubmitted ? (
-            <div className="p-3.5 rounded bg-purple-50 border border-purple-200 text-purple-800 text-xs font-bold text-center flex items-center justify-center space-x-1.5">
-              <CheckCircle2 className="w-3.5 h-3.5 text-purple-600" />
+            <div className="p-3.5 rounded bg-sky-50 border border-sky-200 text-sky-800 text-xs font-bold text-center flex items-center justify-center space-x-1.5">
+              <CheckCircle2 className="w-3.5 h-3.5 text-sky-600" />
               <span>Session Scheduled! Callback in 15 Mins</span>
             </div>
           ) : (
@@ -183,7 +183,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
                   placeholder="Your Name"
                   value={counsellingName}
                   onChange={e => setCounsellingName(e.target.value)}
-                  className="p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-orange-500"
+                  className="p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-sky-500"
                   required
                 />
                 <input
@@ -191,13 +191,13 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
                   placeholder="Phone Number"
                   value={counsellingPhone}
                   onChange={e => setCounsellingPhone(e.target.value)}
-                  className="p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-orange-500"
+                  className="p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-sky-500"
                   required
                 />
               </div>
               <button
                 type="submit"
-                className="w-full py-2 rounded bg-purple-600 hover:bg-purple-700 text-white font-semibold text-xs flex items-center justify-center space-x-1.5 shadow-xs"
+                className="w-full py-2 rounded bg-sky-600 hover:bg-sky-700 text-white font-semibold text-xs flex items-center justify-center space-x-1.5 shadow-xs"
               >
                 <span>Book 1-on-1 Counselling</span>
               </button>
@@ -209,7 +209,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
       {/* 4. Contact Channels (Exact List from Document) */}
       <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-4 shadow-xs">
         <div className="border-b border-stone-100 pb-3">
-          <span className="text-[10px] font-bold text-orange-700 uppercase tracking-wider">
+          <span className="text-[10px] font-bold text-sky-700 uppercase tracking-wider">
             Direct Helpdesk
           </span>
           <h2 className="text-sm sm:text-base font-bold text-sky-950 mt-0.5">
@@ -230,7 +230,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
 
           {/* Email */}
           <div className="p-3.5 rounded bg-sky-50 border border-sky-200 space-y-1">
-            <div className="flex items-center space-x-1.5 text-orange-700">
+            <div className="flex items-center space-x-1.5 text-sky-700">
               <Mail className="w-3.5 h-3.5" />
               <span className="font-bold text-[10px] uppercase">Official Email</span>
             </div>
@@ -250,7 +250,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
 
           {/* Live Chat */}
           <div className="p-3.5 rounded bg-sky-50 border border-sky-200 space-y-1">
-            <div className="flex items-center space-x-1.5 text-amber-700">
+            <div className="flex items-center space-x-1.5 text-sky-700">
               <Sparkles className="w-3.5 h-3.5" />
               <span className="font-bold text-[10px] uppercase">Live Chat</span>
             </div>
@@ -265,7 +265,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
         <div className="flex items-center justify-between border-b border-stone-100 pb-3">
           <div>
             <h2 className="text-xs sm:text-sm font-bold text-sky-950 flex items-center space-x-1.5">
-              <HelpCircle className="w-4 h-4 text-orange-600" />
+              <HelpCircle className="w-4 h-4 text-sky-600" />
               <span>Frequently Asked Questions (FAQ)</span>
             </h2>
             <p className="text-xs text-sky-600 mt-0.5">
@@ -287,7 +287,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
                   className="w-full text-left p-3 flex items-center justify-between hover:bg-sky-50 transition-colors"
                 >
                   <div className="flex items-center space-x-2.5">
-                    <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-orange-50 text-orange-700 border border-orange-200">
+                    <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-sky-50 text-sky-700 border border-sky-200">
                       {faq.category}
                     </span>
                     <span className="text-xs font-semibold text-sky-950">
@@ -296,7 +296,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
                   </div>
                   <ChevronDown
                     className={`w-3.5 h-3.5 text-sky-600 shrink-0 transition-transform ${
-                      isOpen ? 'rotate-180 text-orange-600' : ''
+                      isOpen ? 'rotate-180 text-sky-600' : ''
                     }`}
                   />
                 </button>

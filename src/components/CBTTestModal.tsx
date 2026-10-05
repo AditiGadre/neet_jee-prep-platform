@@ -280,7 +280,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
           activeClass = 'bg-emerald-600 text-white shadow-xs';
         } else if (subName === 'Botany' || subName === 'Biology') {
           icon = DnaIcon;
-          activeClass = 'bg-purple-600 text-white shadow-xs';
+          activeClass = 'bg-sky-600 text-white shadow-xs';
         } else if (subName === 'Zoology') {
           icon = GradIcon;
           activeClass = 'bg-cyan-600 text-white shadow-xs';
@@ -550,7 +550,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     const isCur = idx === currentQuestionIdx;
 
     if (isAnswered && isMarked) {
-      return 'bg-purple-600 text-white font-bold ring-2 ring-purple-400';
+      return 'bg-sky-600 text-white font-bold ring-2 ring-sky-400';
     }
     if (isMarked) {
       return 'bg-cyan-500 text-white font-bold';
@@ -559,7 +559,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
       return 'bg-emerald-600 text-white font-bold';
     }
     if (visited[idx]) {
-      return 'bg-red-500 text-white font-bold';
+      return 'bg-sky-500 text-white font-bold';
     }
     return isCur
       ? 'bg-sky-100 text-sky-800 border border-sky-400 font-bold'
@@ -608,7 +608,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       ? 'bg-sky-50/80 border-sky-200 text-sky-950 font-semibold'
                       : isReas
                       ? 'bg-cyan-50/80 border-cyan-200 text-cyan-950 font-semibold'
-                      : 'bg-rose-50/80 border-rose-200 text-rose-950 font-semibold'
+                      : 'bg-sky-50/80 border-sky-200 text-sky-950 font-semibold'
                   }`}
                 >
                   {p}
@@ -820,12 +820,12 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               </span>
             </div>
 
-            <div className="p-6 rounded-2xl bg-purple-50 border border-purple-200 text-center">
+            <div className="p-6 rounded-2xl bg-sky-50 border border-sky-200 text-center">
               <span className="text-[10px] font-bold text-sky-600 uppercase">Time Spent</span>
-              <div className="text-2xl font-black text-purple-800 font-mono mt-0.5">
+              <div className="text-2xl font-black text-sky-800 font-mono mt-0.5">
                 {formatTimer(result.timeSpentSeconds)}
               </div>
-              <span className="text-[11px] text-purple-700 font-bold">
+              <span className="text-[11px] text-sky-700 font-bold">
                 ~{Math.round(result.timeSpentSeconds / totalQ)}s / Question
               </span>
             </div>
@@ -845,7 +845,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                 title={`Correct: ${result.correctAnswers}`}
               />
               <div
-                className="bg-rose-500 h-full transition-all"
+                className="bg-sky-500 h-full transition-all"
                 style={{ width: `${totalQ > 0 ? (result.wrongAnswers / totalQ) * 100 : 0}%` }}
                 title={`Wrong: ${result.wrongAnswers}`}
               />
@@ -861,9 +861,9 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                 <span className="text-emerald-800 font-black text-base font-mono block">+{result.correctAnswers * 4} Marks</span>
                 <span className="text-[11px] text-emerald-700 font-bold">✓ {result.correctAnswers} Correct</span>
               </div>
-              <div className="p-3.5 rounded-xl bg-rose-50 border border-rose-200">
-                <span className="text-rose-700 font-black text-base font-mono block">-{result.wrongAnswers * 1} Marks</span>
-                <span className="text-[11px] text-rose-600 font-bold">✗ {result.wrongAnswers} Incorrect</span>
+              <div className="p-3.5 rounded-xl bg-sky-50 border border-sky-200">
+                <span className="text-sky-700 font-black text-base font-mono block">-{result.wrongAnswers * 1} Marks</span>
+                <span className="text-[11px] text-sky-600 font-bold">✗ {result.wrongAnswers} Incorrect</span>
               </div>
               <div className="p-3.5 rounded-xl bg-sky-50 border border-sky-200">
                 <span className="text-sky-700 font-black text-base font-mono block">0 Marks</span>
@@ -913,7 +913,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     <tr key={sIdx} className="hover:bg-sky-50 transition">
                       <td className="p-3 font-bold font-sans text-sky-950">{sub.subject}</td>
                       <td className="p-3 text-center text-emerald-700 font-bold">{sub.correct}</td>
-                      <td className="p-3 text-center text-rose-600 font-bold">{sub.wrong}</td>
+                      <td className="p-3 text-center text-sky-600 font-bold">{sub.wrong}</td>
                       <td className="p-3 text-center text-stone-400">{sub.unattempted}</td>
                       <td className="p-3 text-center font-bold text-sky-700">{sub.score} / {sub.maxMarks}</td>
                       <td className="p-3 text-center font-bold text-sky-900">{acc}%</td>
@@ -938,7 +938,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     <div className="text-right shrink-0">
                       <span className={`px-2.5 py-1 rounded-xl text-xs font-mono font-bold border ${
                         ch.accuracy >= 75 ? 'bg-emerald-50 text-emerald-800 border-emerald-200' :
-                        ch.accuracy >= 50 ? 'bg-cyan-50 text-cyan-800 border-cyan-200' : 'bg-rose-50 text-rose-800 border-rose-200'
+                        ch.accuracy >= 50 ? 'bg-cyan-50 text-cyan-800 border-cyan-200' : 'bg-sky-50 text-sky-800 border-sky-200'
                       }`}>
                         {ch.accuracy}%
                       </span>
@@ -1035,7 +1035,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               <div
                 className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl border text-xs font-mono font-bold shadow-xs ${
                   timeLeftSeconds < 600
-                    ? 'bg-rose-500 border-rose-400 text-white animate-pulse'
+                    ? 'bg-sky-500 border-sky-400 text-white animate-pulse'
                     : 'bg-sky-50/60/20 backdrop-blur-md border-white/30 text-white'
                 }`}
               >
@@ -1183,8 +1183,8 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     onClick={handleToggleMarkReview}
                     className={`px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer ${
                       markedForReview[currentQuestionIdx]
-                        ? 'bg-purple-600 text-white shadow-xs'
-                        : 'bg-sky-50 text-purple-700 hover:bg-purple-50 border border-purple-200'
+                        ? 'bg-sky-600 text-white shadow-xs'
+                        : 'bg-sky-50 text-sky-700 hover:bg-sky-50 border border-sky-200'
                     }`}
                   >
                     <FlagIcon className="w-3.5 h-3.5" />
@@ -1248,11 +1248,11 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     <span>Answered (+4)</span>
                   </div>
                   <div className="flex items-center space-x-1.5">
-                    <span className="w-2.5 h-2.5 rounded-full bg-red-500 inline-block" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-sky-500 inline-block" />
                     <span>Not Answered</span>
                   </div>
                   <div className="flex items-center space-x-1.5">
-                    <span className="w-2.5 h-2.5 rounded-full bg-purple-600 inline-block" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-sky-600 inline-block" />
                     <span>Marked Review</span>
                   </div>
                   <div className="flex items-center space-x-1.5">
@@ -1363,7 +1363,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       };
                       downloadTestPaperPDF(paperItem, true);
                     }}
-                    className="px-3 py-2 rounded-xl bg-rose-50 text-rose-700 hover:bg-rose-100 border border-rose-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
+                    className="px-3 py-2 rounded-xl bg-sky-50 text-sky-700 hover:bg-sky-100 border border-sky-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
                   >
                     <FileText className="w-3.5 h-3.5" />
                     <span>Solutions (PDF)</span>
@@ -1477,9 +1477,9 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         </span>
                       </div>
 
-                      <div className="p-6 rounded-2xl bg-rose-50 border border-rose-200 text-center">
+                      <div className="p-6 rounded-2xl bg-sky-50 border border-sky-200 text-center">
                         <span className="text-[10px] font-bold text-sky-600 uppercase">City Rank</span>
-                        <div className="text-2xl font-black text-rose-800 font-mono mt-0.5">
+                        <div className="text-2xl font-black text-sky-800 font-mono mt-0.5">
                           {testResult.cityRank?.rank && testResult.cityRank.rank > 0
                             ? `${testResult.cityRank.rank}`
                             : 'Unranked'}
@@ -1487,19 +1487,19 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                             <span className="text-xs text-stone-400 font-normal"> / {testResult.cityRank.total}</span>
                           )}
                         </div>
-                        <span className="text-[11px] text-rose-700 font-bold">
+                        <span className="text-[11px] text-sky-700 font-bold">
                           {testResult.score <= 0 ? 'Score <= 0' : 'Regional Zone'}
                         </span>
                       </div>
 
-                      <div className="p-6 rounded-2xl bg-purple-50 border border-purple-200 text-center">
+                      <div className="p-6 rounded-2xl bg-sky-50 border border-sky-200 text-center">
                         <span className="text-[10px] font-bold text-sky-600 uppercase">Simulated AIR</span>
-                        <div className="text-2xl font-black text-purple-800 font-mono mt-0.5">
+                        <div className="text-2xl font-black text-sky-800 font-mono mt-0.5">
                           {testResult.score > 0 && (testResult.predictedAIR || 0) > 0
                             ? `#${testResult.predictedAIR.toLocaleString()}`
                             : 'N/A'}
                         </div>
-                        <span className="text-[11px] text-purple-700 font-bold">
+                        <span className="text-[11px] text-sky-700 font-bold">
                           {testResult.score > 0 ? `${testResult.nationalPercentile}%ile` : 'Unqualified (0 Marks)'}
                         </span>
                       </div>
@@ -1544,10 +1544,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                             let badgeClass = 'bg-emerald-100 text-emerald-800 border-emerald-300';
                             if (sub.score <= 0) {
                               statusBadge = 'No Score (0 Marks)';
-                              badgeClass = 'bg-rose-100 text-rose-800 border-rose-300';
+                              badgeClass = 'bg-sky-100 text-sky-800 border-sky-300';
                             } else if (sub.score < 100) {
                               statusBadge = 'Needs Revision (<55%)';
-                              badgeClass = 'bg-rose-100 text-rose-800 border-rose-300';
+                              badgeClass = 'bg-sky-100 text-sky-800 border-sky-300';
                             } else if (sub.score < 145) {
                               statusBadge = 'Moderate (55-80%)';
                               badgeClass = 'bg-cyan-100 text-cyan-800 border-cyan-300';
@@ -1562,14 +1562,14 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                   <span className={`w-2.5 h-2.5 rounded-full ${
                                     sub.subject === 'Physics' ? 'bg-sky-600' :
                                     sub.subject === 'Chemistry' ? 'bg-emerald-600' :
-                                    sub.subject === 'Botany' ? 'bg-purple-600' : 'bg-cyan-600'
+                                    sub.subject === 'Botany' ? 'bg-sky-600' : 'bg-cyan-600'
                                   }`} />
                                   <span>{sub.subject}</span>
                                 </td>
                                 <td className="p-3.5 text-center text-sky-700">{subTotalQs || (sub.maxMarks ? Math.round(sub.maxMarks / 4) : 45)}</td>
                                 <td className="p-3.5 text-center text-sky-900 font-semibold">{subAttempted}</td>
                                 <td className="p-3.5 text-center text-emerald-600 font-bold">+{sub.correct || 0}</td>
-                                <td className="p-3.5 text-center text-rose-600 font-bold">-{sub.wrong || 0}</td>
+                                <td className="p-3.5 text-center text-sky-600 font-bold">-{sub.wrong || 0}</td>
                                 <td className="p-3.5 text-center text-stone-400">{sub.unattempted || 0}</td>
                                 <td className="p-3.5 text-center text-sky-700">{sub.maxMarks || 180}</td>
                                 <td className="p-3.5 text-center font-bold text-sky-950">{sub.score}</td>
@@ -1592,14 +1592,14 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                               {testResult.correctAnswers + testResult.wrongAnswers}
                             </td>
                             <td className="p-3.5 text-center text-emerald-700 font-black">+{testResult.correctAnswers}</td>
-                            <td className="p-3.5 text-center text-rose-600 font-black">-{testResult.wrongAnswers}</td>
+                            <td className="p-3.5 text-center text-sky-600 font-black">-{testResult.wrongAnswers}</td>
                             <td className="p-3.5 text-center text-sky-700 font-black">{testResult.unattempted}</td>
                             <td className="p-3.5 text-center text-sky-900 font-black">{testResult.totalMarks || 720}</td>
                             <td className="p-3.5 text-center text-emerald-800 font-black text-sm">{testResult.score}</td>
                             <td className="p-3.5 text-center text-sky-900 font-black">{testResult.accuracyPercentage}%</td>
                             <td className="p-3.5 text-center font-sans">
                               <span className={`px-3 py-1 rounded-full text-xs font-bold shadow-xs ${
-                                testResult.score <= 0 ? 'bg-rose-600 text-white' :
+                                testResult.score <= 0 ? 'bg-sky-600 text-white' :
                                 testResult.score >= 600 ? 'bg-emerald-600 text-white' :
                                 testResult.score >= 500 ? 'bg-sky-600 text-white' : 'bg-cyan-600 text-white'
                               }`}>
@@ -1703,7 +1703,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           const acc = attempted > 0 ? Math.round(((sub.correct || 0) / attempted) * 100) : 0;
                           const colorClass = sub.subject === 'Physics' ? 'bg-sky-600' :
                                             sub.subject === 'Chemistry' ? 'bg-emerald-600' :
-                                            sub.subject === 'Botany' ? 'bg-purple-600' : 'bg-cyan-600';
+                                            sub.subject === 'Botany' ? 'bg-sky-600' : 'bg-cyan-600';
 
                           return (
                             <div key={idx} className="p-3 bg-sky-50 rounded-2xl border border-sky-200 space-y-1.5">
@@ -1714,7 +1714,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                 </span>
                                 <div className="flex items-center gap-4 text-xs font-mono">
                                   <span className="text-emerald-700 font-bold">+{sub.correct || 0}C</span>
-                                  <span className="text-rose-600 font-bold">-{sub.wrong || 0}W</span>
+                                  <span className="text-sky-600 font-bold">-{sub.wrong || 0}W</span>
                                   <span className="text-stone-400 font-medium">{sub.unattempted || 0}U</span>
                                   <span className="font-bold text-sky-800 px-1.5 py-0.5 rounded bg-sky-50/60 border border-sky-200 ml-1">
                                     {acc}% Acc
@@ -1723,7 +1723,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                               </div>
                               <div className="w-full bg-sky-100 rounded-full h-2 overflow-hidden flex">
                                 <div className="bg-emerald-500 h-2" style={{ width: `${totalQs > 0 ? ((sub.correct || 0) / totalQs) * 100 : 0}%` }} title="Correct" />
-                                <div className="bg-rose-500 h-2" style={{ width: `${totalQs > 0 ? ((sub.wrong || 0) / totalQs) * 100 : 0}%` }} title="Wrong" />
+                                <div className="bg-sky-500 h-2" style={{ width: `${totalQs > 0 ? ((sub.wrong || 0) / totalQs) * 100 : 0}%` }} title="Wrong" />
                                 <div className="bg-stone-300 h-2" style={{ width: `${totalQs > 0 ? ((sub.unattempted || 0) / totalQs) * 100 : 0}%` }} title="Unattempted" />
                               </div>
                             </div>
@@ -1737,7 +1737,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   <div className="bg-sky-50/60 border border-sky-200 rounded-3xl p-6 shadow-sm space-y-4">
                     <div className="border-b border-stone-100 pb-2">
                       <h3 className="text-base font-extrabold text-sky-950 flex items-center gap-4">
-                        <Percent className="w-5 h-5 text-rose-600" />
+                        <Percent className="w-5 h-5 text-sky-600" />
                         <span>SECTION 3: Subject Performance Trend & Marks Contribution (25% Weightage Each)</span>
                       </h3>
                       <p className="text-xs text-sky-600">
@@ -1771,7 +1771,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                   className={`h-full rounded-full ${
                                     i === 0 ? 'bg-sky-600' :
                                     i === 1 ? 'bg-emerald-600' :
-                                    i === 2 ? 'bg-purple-600' : 'bg-cyan-600'
+                                    i === 2 ? 'bg-sky-600' : 'bg-cyan-600'
                                   }`}
                                   style={{ width: `${Math.min(100, +pctOfSub)}%` }}
                                 />
@@ -1783,7 +1783,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                 <span className="text-emerald-700 font-bold block">{sub.correct}</span> Correct
                               </div>
                               <div>
-                                <span className="text-rose-600 font-bold block">{sub.wrong}</span> Wrong
+                                <span className="text-sky-600 font-bold block">{sub.wrong}</span> Wrong
                               </div>
                               <div>
                                 <span className="text-sky-600 block">{sub.unattempted}</span> Left
@@ -1803,7 +1803,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   <div className="bg-sky-50/60 border border-sky-200 rounded-3xl p-6 shadow-sm space-y-5">
                     <div className="border-b border-stone-100 pb-2">
                       <h3 className="text-base font-extrabold text-sky-950 flex items-center gap-4">
-                        <FileIcon className="w-5 h-5 text-purple-600" />
+                        <FileIcon className="w-5 h-5 text-sky-600" />
                         <span>SECTION 4: Exam-by-Exam Statistical Record & History</span>
                       </h3>
                       <p className="text-xs text-sky-600">
@@ -1847,8 +1847,8 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                               <td className="p-3 text-center">{row.zoo}</td>
                               <td className="p-3 text-center font-extrabold text-emerald-800 text-xs">{row.total}</td>
                               <td className="p-3 text-center text-cyan-800 font-bold">{row.rank}</td>
-                              <td className="p-3 text-center text-rose-800">{row.cityRank}</td>
-                              <td className="p-3 text-center font-bold text-purple-800">#{row.air}</td>
+                              <td className="p-3 text-center text-sky-800">{row.cityRank}</td>
+                              <td className="p-3 text-center font-bold text-sky-800">#{row.air}</td>
                               <td className="p-3 text-center text-sky-700">{row.acc}%</td>
                             </tr>
                           ))}
@@ -1958,7 +1958,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                             <tr key={idx} className="hover:bg-sky-50 transition">
                               <td className="p-3 text-center">
                                 <span className={`inline-flex items-center justify-center w-6 h-6 rounded-full font-bold text-xs ${
-                                  row.priority === 1 ? 'bg-rose-500 text-white' :
+                                  row.priority === 1 ? 'bg-sky-500 text-white' :
                                   row.priority === 2 ? 'bg-cyan-500 text-white' :
                                   row.priority === 3 ? 'bg-sky-500 text-white' : 'bg-sky-100 text-sky-800'
                                 }`}>
@@ -1969,11 +1969,11 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                               <td className="p-3 font-semibold text-sky-950">{row.chapter}</td>
                               <td className="p-3 text-center font-mono text-[11px]">
                                 <span className="text-emerald-700 font-bold">{row.correct}</span> /{' '}
-                                <span className="text-rose-600 font-bold">{row.wrong}</span> /{' '}
+                                <span className="text-sky-600 font-bold">{row.wrong}</span> /{' '}
                                 <span className="text-stone-400">{row.unattempted}</span>
                               </td>
                               <td className="p-3 text-center font-mono font-bold text-sky-700">{row.accuracy}%</td>
-                              <td className="p-3 text-rose-800 font-semibold text-[11px]">{row.errorType}</td>
+                              <td className="p-3 text-sky-800 font-semibold text-[11px]">{row.errorType}</td>
                               <td className="p-3 text-sky-700 text-[11px] leading-relaxed">{row.actionPlan}</td>
                             </tr>
                           ))}
@@ -2027,10 +2027,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         </p>
                       </div>
 
-                      <div className="p-6 rounded-2xl bg-purple-50/70 border border-purple-200 space-y-2">
+                      <div className="p-6 rounded-2xl bg-sky-50/70 border border-sky-200 space-y-2">
                         <div className="flex items-center justify-between">
-                          <strong className="text-xs font-bold text-purple-900 uppercase">Next 14 Days (Sprint 2)</strong>
-                          <span className="text-[10px] px-2 py-0.5 rounded bg-purple-200 text-purple-900 font-bold">Consolidation</span>
+                          <strong className="text-xs font-bold text-sky-900 uppercase">Next 14 Days (Sprint 2)</strong>
+                          <span className="text-[10px] px-2 py-0.5 rounded bg-sky-200 text-sky-900 font-bold">Consolidation</span>
                         </div>
                         <p className="text-xs text-sky-800 leading-relaxed">
                           Conduct timed speed-runs (45s/Q) on mixed assertion-reason and diagrammatic MCQs. Re-solve previous test errors without solutions.
@@ -2068,7 +2068,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                             ? 'bg-sky-50/60 border-emerald-300 shadow-xs'
                             : isUnattempted
                             ? 'bg-sky-50/60 border-sky-200'
-                            : 'bg-sky-50/60 border-rose-300 shadow-xs'
+                            : 'bg-sky-50/60 border-sky-300 shadow-xs'
                         }`}
                       >
                         <div className="flex items-center justify-between mb-2">
@@ -2084,7 +2084,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                 ? 'bg-emerald-100 text-emerald-800 border border-emerald-200'
                                 : isUnattempted
                                 ? 'bg-sky-50 text-sky-700 border border-sky-200'
-                                : 'bg-rose-100 text-rose-800 border border-rose-200'
+                                : 'bg-sky-100 text-sky-800 border border-sky-200'
                             }`}
                           >
                             {isCorrect
@@ -2124,7 +2124,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                 oIdx === q.correctAnswer
                                   ? 'bg-emerald-50 border-emerald-300 text-emerald-900 font-bold'
                                   : oIdx === userOption
-                                  ? 'bg-rose-50 border-rose-300 text-rose-900 font-semibold'
+                                  ? 'bg-sky-50 border-sky-300 text-sky-900 font-semibold'
                                   : 'bg-sky-50 border-sky-200 text-sky-700'
                               }`}
                             >

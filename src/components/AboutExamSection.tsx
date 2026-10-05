@@ -33,7 +33,7 @@ export const AboutExamSection: React.FC = () => {
       <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 shadow-xs">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-orange-50 text-orange-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-orange-200">
+            <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-sky-50 text-sky-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-sky-200">
               <BookOpen className="w-3 h-3" />
               <span>Comprehensive Information Hub</span>
             </div>
@@ -59,7 +59,7 @@ export const AboutExamSection: React.FC = () => {
               onClick={() => setActiveTab(tab.id as any)}
               className={`px-3 py-1.5 rounded text-xs font-semibold whitespace-nowrap transition-colors ${
                 activeTab === tab.id
-                  ? 'bg-orange-600 text-white shadow-xs'
+                  ? 'bg-sky-600 text-white shadow-xs'
                   : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
               }`}
             >
@@ -74,7 +74,7 @@ export const AboutExamSection: React.FC = () => {
         <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="border-b border-stone-100 pb-3">
             <h2 className="text-sm sm:text-base font-bold text-sky-950 flex items-center space-x-1.5">
-              <HelpCircle className="w-4 h-4 text-orange-600" />
+              <HelpCircle className="w-4 h-4 text-sky-600" />
               <span>What is NEET?</span>
             </h2>
             <p className="text-xs text-sky-700 mt-1.5 leading-relaxed">
@@ -84,7 +84,7 @@ export const AboutExamSection: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
-              <div className="text-[10px] font-bold text-orange-700 uppercase tracking-wider mb-0.5">Conducting Body</div>
+              <div className="text-[10px] font-bold text-sky-700 uppercase tracking-wider mb-0.5">Conducting Body</div>
               <div className="text-xs font-bold text-sky-950">National Testing Agency</div>
               <p className="text-[11px] text-sky-600 mt-1">Conducted under directives of National Medical Commission (NMC) & MoHFW.</p>
             </div>
@@ -96,7 +96,7 @@ export const AboutExamSection: React.FC = () => {
             </div>
 
             <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
-              <div className="text-[10px] font-bold text-amber-700 uppercase tracking-wider mb-0.5">Annual Applicants</div>
+              <div className="text-[10px] font-bold text-sky-700 uppercase tracking-wider mb-0.5">Annual Applicants</div>
               <div className="text-xs font-bold text-sky-950">2.4+ Million Aspirants</div>
               <p className="text-[11px] text-sky-600 mt-1">Largest single competitive exam in the world.</p>
             </div>
@@ -109,7 +109,7 @@ export const AboutExamSection: React.FC = () => {
         <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="border-b border-stone-100 pb-3">
             <h2 className="text-sm sm:text-base font-bold text-sky-950 flex items-center space-x-1.5">
-              <Clock className="w-4 h-4 text-orange-600" />
+              <Clock className="w-4 h-4 text-sky-600" />
               <span>Exam Pattern & Official Rules</span>
             </h2>
             <p className="text-xs text-sky-600 mt-0.5">
@@ -121,7 +121,7 @@ export const AboutExamSection: React.FC = () => {
             <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
               <div className="text-[10px] font-bold text-sky-600 uppercase">Total Duration</div>
               <div className="text-base font-bold text-sky-950 mt-0.5">180 Mins</div>
-              <div className="text-[11px] text-orange-600 font-mono">(3 Hours)</div>
+              <div className="text-[11px] text-sky-600 font-mono">(3 Hours)</div>
             </div>
             <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
               <div className="text-[10px] font-bold text-sky-600 uppercase">Total Questions</div>
@@ -136,7 +136,7 @@ export const AboutExamSection: React.FC = () => {
             <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
               <div className="text-[10px] font-bold text-sky-600 uppercase">Marking Scheme</div>
               <div className="text-base font-bold text-sky-950 mt-0.5">+4 / -1 / 0</div>
-              <div className="text-[11px] text-amber-700 font-mono">Negative marking applies</div>
+              <div className="text-[11px] text-sky-700 font-mono">Negative marking applies</div>
             </div>
           </div>
 
@@ -174,7 +174,7 @@ export const AboutExamSection: React.FC = () => {
                 <tr className="bg-sky-50/80 font-bold text-sky-950 border-t border-sky-200">
                   <td className="p-3.5">Total (PCB)</td>
                   <td className="p-3.5">180 Questions</td>
-                  <td className="p-3.5 text-orange-700 font-extrabold">720 Marks</td>
+                  <td className="p-3.5 text-sky-700 font-extrabold">720 Marks</td>
                 </tr>
               </tbody>
             </table>
@@ -187,7 +187,7 @@ export const AboutExamSection: React.FC = () => {
         <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="border-b border-stone-100 pb-3">
             <h2 className="text-sm sm:text-base font-bold text-sky-950 flex items-center space-x-1.5">
-              <Layers className="w-4 h-4 text-orange-600" />
+              <Layers className="w-4 h-4 text-sky-600" />
               <span>Official Syllabus & Chapter Weightages</span>
             </h2>
             <p className="text-xs text-sky-600 mt-0.5">
@@ -255,7 +255,7 @@ export const AboutExamSection: React.FC = () => {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-100 gap-4">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-sky-950 flex items-center space-x-1.5">
-                <Building2 className="w-4 h-4 text-orange-600" />
+                <Building2 className="w-4 h-4 text-sky-600" />
                 <span>Colleges, Seats, Cut-offs & Counselling</span>
               </h2>
               <p className="text-xs text-sky-600 mt-0.5">
@@ -273,7 +273,7 @@ export const AboutExamSection: React.FC = () => {
                   onClick={() => setCollegeTypeFilter(type)}
                   className={`px-3 py-1.5 rounded text-xs font-semibold transition-colors ${
                     collegeTypeFilter === type
-                      ? 'bg-orange-600 text-white shadow-xs'
+                      ? 'bg-sky-600 text-white shadow-xs'
                       : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
                   }`}
                 >
@@ -288,7 +288,7 @@ export const AboutExamSection: React.FC = () => {
                 placeholder="Search college or state..."
                 value={collegeSearch}
                 onChange={e => setCollegeSearch(e.target.value)}
-                className="w-full sm:w-64 p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-orange-500"
+                className="w-full sm:w-64 p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-sky-500"
               />
             </div>
           </div>
@@ -309,7 +309,7 @@ export const AboutExamSection: React.FC = () => {
               <tbody className="divide-y divide-stone-100 text-sky-800">
                 {filteredColleges.map(clg => (
                   <tr key={clg.id} className="hover:bg-sky-50">
-                    <td className="p-3.5 font-bold text-amber-600 font-mono">#{clg.nirfRank}</td>
+                    <td className="p-3.5 font-bold text-sky-600 font-mono">#{clg.nirfRank}</td>
                     <td className="p-3.5">
                       <div className="font-bold text-sky-950">{clg.name}</div>
                       <div className="text-[11px] text-sky-600 flex items-center space-x-1">
@@ -318,7 +318,7 @@ export const AboutExamSection: React.FC = () => {
                       </div>
                     </td>
                     <td className="p-3.5">
-                      <span className="px-1.5 py-0.2 rounded text-[10px] font-bold bg-orange-50 text-orange-700 border border-orange-200">
+                      <span className="px-1.5 py-0.2 rounded text-[10px] font-bold bg-sky-50 text-sky-700 border border-sky-200">
                         {clg.type}
                       </span>
                     </td>

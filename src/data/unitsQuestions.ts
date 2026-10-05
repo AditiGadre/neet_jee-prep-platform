@@ -2185,7 +2185,7 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
       "2348123.73"
     ],
     "correctAnswer": 1,
-    "explanation": "📘 **NCERT Concept**: $1\\text{ metre} = 1650763.73$ wavelengths in vacuum of orange-red light of Krypton-86.",
+    "explanation": "📘 **NCERT Concept**: $1\\text{ metre} = 1650763.73$ wavelengths in vacuum of blue-red light of Krypton-86.",
     "tags": [
       "MNR 1985",
       "UPSEAT 2000",

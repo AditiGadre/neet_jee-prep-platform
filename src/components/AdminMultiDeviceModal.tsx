@@ -64,9 +64,9 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
       return <Smartphone className="w-5 h-5 text-emerald-400" />;
     }
     if (l.includes('ipad') || l.includes('tablet')) {
-      return <Tablet className="w-5 h-5 text-purple-400" />;
+      return <Tablet className="w-5 h-5 text-sky-400" />;
     }
-    return <Laptop className="w-5 h-5 text-orange-400" />;
+    return <Laptop className="w-5 h-5 text-sky-400" />;
   };
 
   const formatLastActive = (isoString: string) => {
@@ -106,12 +106,12 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-4">
-                <span className="text-[10px] uppercase tracking-widest font-mono font-bold bg-rose-500/20 text-rose-400 px-2 py-0.5 rounded-full border border-rose-500/30">
+                <span className="text-[10px] uppercase tracking-widest font-mono font-bold bg-sky-500/20 text-sky-400 px-2 py-0.5 rounded-full border border-sky-500/30">
                   Multi-Device Sync
                 </span>
                 <span className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-full border ${
                   isAtLimit
-                    ? 'bg-amber-500/20 text-amber-300 border-amber-500/30'
+                    ? 'bg-sky-500/20 text-sky-300 border-sky-500/30'
                     : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30'
                 }`}>
                   {activeCount} / 3 Devices Active
@@ -136,15 +136,15 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
         {/* Notice Banner */}
         <div className="px-6 pt-4 pb-2">
           {isConflictPrompt ? (
-            <div className="p-3.5 rounded-2xl bg-amber-950/70 border border-amber-600/50 text-amber-200 text-xs flex items-start space-x-2.5">
-              <AlertTriangle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+            <div className="p-3.5 rounded-2xl bg-sky-950/70 border border-sky-600/50 text-sky-200 text-xs flex items-start space-x-2.5">
+              <AlertTriangle className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
               <p className="leading-relaxed">
                 Your account is currently active on <strong>3 devices</strong>. Under security policy, log out one existing session below to grant access to this device.
               </p>
             </div>
           ) : (
             <div className="p-3.5 rounded-2xl bg-sky-800/80 border border-stone-700/70 text-xs text-stone-300 flex items-start space-x-2.5">
-              <Zap className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
+              <Zap className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
               <p className="leading-relaxed">
                 All active devices receive realtime question swaps and edits concurrently (&lt;50ms) with zero page reloads.
               </p>
@@ -170,7 +170,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
                 key={session.device_id}
                 className={`p-3.5 rounded-2xl border transition flex items-center justify-between ${
                   isCurrent
-                    ? 'bg-rose-950/40 border-rose-500/50 ring-1 ring-rose-500/20'
+                    ? 'bg-sky-950/40 border-sky-500/50 ring-1 ring-sky-500/20'
                     : 'bg-sky-800/60 border-stone-700/70 hover:border-stone-600'
                 }`}
               >
@@ -184,7 +184,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
                         {session.device_label}
                       </span>
                       {isCurrent && (
-                        <span className="text-[9px] uppercase font-mono font-bold bg-rose-500/30 text-rose-300 px-1.5 py-0.5 rounded border border-rose-500/40 shrink-0">
+                        <span className="text-[9px] uppercase font-mono font-bold bg-sky-500/30 text-sky-300 px-1.5 py-0.5 rounded border border-sky-500/40 shrink-0">
                           This Device
                         </span>
                       )}
@@ -210,7 +210,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
                     <button
                       onClick={() => handleRevoke(session.device_id)}
                       disabled={isRevoking}
-                      className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-rose-950/60 hover:bg-rose-900 border border-rose-700/60 text-rose-200 transition flex items-center space-x-1.5 cursor-pointer disabled:opacity-50"
+                      className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-sky-950/60 hover:bg-sky-900 border border-sky-700/60 text-sky-200 transition flex items-center space-x-1.5 cursor-pointer disabled:opacity-50"
                       title="Log out this device"
                     >
                       {isRevoking ? (
@@ -238,7 +238,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
               <button
                 type="button"
                 onClick={onAutoEvictOldest}
-                className="px-3.5 py-2 rounded-xl text-xs font-bold bg-amber-600 hover:bg-amber-500 text-white transition flex items-center space-x-1.5 cursor-pointer shadow-md shadow-amber-600/20"
+                className="px-3.5 py-2 rounded-xl text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white transition flex items-center space-x-1.5 cursor-pointer shadow-md shadow-amber-600/20"
               >
                 <Zap className="w-3.5 h-3.5" />
                 <span>Auto-Evict Oldest & Continue</span>

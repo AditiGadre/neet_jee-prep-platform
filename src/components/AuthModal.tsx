@@ -382,9 +382,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
                 onClose();
                 onOpenAdminLogin();
               }}
-              className="w-full py-2 px-3 rounded-lg bg-sky-900 hover:bg-sky-800 border border-stone-700 text-amber-300 font-bold text-xs flex items-center justify-center space-x-2 shadow-xs transition cursor-pointer"
+              className="w-full py-2 px-3 rounded-lg bg-sky-900 hover:bg-sky-800 border border-stone-700 text-sky-300 font-bold text-xs flex items-center justify-center space-x-2 shadow-xs transition cursor-pointer"
             >
-              <KeyRound className="w-4 h-4 text-amber-400" />
+              <KeyRound className="w-4 h-4 text-sky-400" />
               <span>Institutional Master Admin & Director Portal →</span>
             </button>
           </div>
@@ -402,7 +402,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
           <div
             className={`p-3 rounded-lg text-xs font-semibold border flex items-start space-x-2 ${
               message.type === 'error'
-                ? 'bg-rose-50 border-rose-200 text-rose-800'
+                ? 'bg-sky-50 border-sky-200 text-sky-800'
                 : message.type === 'success'
                 ? 'bg-emerald-50 border-emerald-300 text-emerald-800'
                 : 'bg-emerald-50 border-emerald-200 text-emerald-950'
@@ -411,7 +411,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
             {message.type === 'success' ? (
               <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
             ) : message.type === 'error' ? (
-              <AlertCircle className="w-4 h-4 text-rose-600 shrink-0 mt-0.5" />
+              <AlertCircle className="w-4 h-4 text-sky-600 shrink-0 mt-0.5" />
             ) : (
               <WhatsAppIcon className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
             )}
@@ -441,7 +441,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
                   maxLength={10}
                   className={`w-full px-3 py-2 rounded-r-lg bg-sky-50 border text-xs text-sky-950 font-mono tracking-wider focus:bg-sky-50/60 focus:outline-none transition ${
                     phone && !isPhoneValid
-                      ? 'border-rose-400 focus:border-rose-500'
+                      ? 'border-sky-400 focus:border-sky-500'
                       : phone && isPhoneValid
                       ? 'border-emerald-400 focus:border-emerald-500'
                       : 'border-sky-300 focus:border-emerald-600'
@@ -583,7 +583,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
               onClose();
               if (onOpenEnrollment) onOpenEnrollment();
             }}
-            className="text-orange-600 hover:text-orange-800 font-bold cursor-pointer flex items-center space-x-1"
+            className="text-sky-600 hover:text-sky-800 font-bold cursor-pointer flex items-center space-x-1"
           >
             <span>New student? Enroll First →</span>
           </button>

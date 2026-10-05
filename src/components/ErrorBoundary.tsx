@@ -44,7 +44,7 @@ export class ErrorBoundary extends Component<Props, State> {
       return (
         <div className="min-h-[400px] w-full flex items-center justify-center p-6 bg-sky-50 text-sky-950 rounded-2xl border border-sky-200 shadow-sm my-4">
           <div className="max-w-lg text-center space-y-4">
-            <div className="w-14 h-14 mx-auto rounded-2xl bg-amber-100 border border-amber-200 flex items-center justify-center text-amber-600">
+            <div className="w-14 h-14 mx-auto rounded-2xl bg-sky-100 border border-sky-200 flex items-center justify-center text-sky-600">
               <AlertTriangle className="w-8 h-8" />
             </div>
 
@@ -60,7 +60,7 @@ export class ErrorBoundary extends Component<Props, State> {
 
             {this.state.error && (
               <div className="p-3 bg-sky-50 rounded-xl text-left border border-sky-200">
-                <p className="text-[11px] font-mono text-rose-700 font-semibold truncate">
+                <p className="text-[11px] font-mono text-sky-700 font-semibold truncate">
                   {this.state.error.name}: {this.state.error.message}
                 </p>
               </div>
@@ -69,7 +69,7 @@ export class ErrorBoundary extends Component<Props, State> {
             <div className="flex items-center justify-center gap-3 pt-2">
               <button
                 onClick={this.handleReload}
-                className="px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold transition flex items-center gap-4 cursor-pointer shadow-sm"
+                className="px-4 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold transition flex items-center gap-4 cursor-pointer shadow-sm"
               >
                 <RotateCcw className="w-4 h-4" />
                 <span>Try Again</span>

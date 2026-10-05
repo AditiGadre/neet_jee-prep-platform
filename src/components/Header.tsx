@@ -377,7 +377,7 @@ export const Header: React.FC<HeaderProps> = ({
                         enrolledStudent?.specialReservation && enrolledStudent.specialReservation !== 'None') && (
                         <div className="flex flex-wrap gap-1 pt-1">
                           {enrolledStudent.disabilityStatus !== 'No Disability' && (
-                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-md bg-purple-100 text-purple-800 border border-purple-200 truncate max-w-full">
+                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-md bg-sky-100 text-sky-800 border border-sky-200 truncate max-w-full">
                               ♿ {enrolledStudent.disabilityStatus}
                             </span>
                           )}
@@ -423,9 +423,9 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           if (onOpenEnrollment) onOpenEnrollment();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-sky-800 hover:bg-rose-50 hover:text-rose-900 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-sky-800 hover:bg-sky-50 hover:text-sky-900 transition cursor-pointer"
                       >
-                        <GraduationCap className="w-4 h-4 text-rose-600" />
+                        <GraduationCap className="w-4 h-4 text-sky-600" />
                         <span className="font-semibold">Candidate Enrollment Form</span>
                       </button>
 
@@ -469,7 +469,7 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           onSignOut();
                         }}
-                        className="w-full text-left px-3 py-1.5 rounded-xl text-xs font-semibold text-rose-600 hover:bg-rose-50 flex items-center space-x-2 transition cursor-pointer"
+                        className="w-full text-left px-3 py-1.5 rounded-xl text-xs font-semibold text-sky-600 hover:bg-sky-50 flex items-center space-x-2 transition cursor-pointer"
                       >
                         <LogOut className="w-3.5 h-3.5" />
                         <span>Sign Out / Switch Profile</span>

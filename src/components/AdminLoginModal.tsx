@@ -89,7 +89,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <span className="text-[10px] uppercase tracking-widest font-mono font-bold bg-amber-500/20 text-amber-400 px-2 py-0.5 rounded-full border border-amber-500/30">
+                <span className="text-[10px] uppercase tracking-widest font-mono font-bold bg-sky-500/20 text-sky-400 px-2 py-0.5 rounded-full border border-sky-500/30">
                   Institutional Auth
                 </span>
               </div>
@@ -107,7 +107,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
         {/* Security Notice */}
         <div className="px-6 pt-5 pb-2">
           <div className="p-3.5 rounded-2xl bg-sky-800/80 border border-stone-700/70 text-xs text-stone-300 flex items-start space-x-2.5">
-            <Server className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
+            <Server className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
             <p className="leading-relaxed">
               Restricted Area. Authorized institution administrators & exam directors only. All Sunday test unlocking requests and telemetry are audited under AES-256 protocol.
             </p>
@@ -117,8 +117,8 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
         {/* Form */}
         <form onSubmit={handleLogin} className="p-6 space-y-4">
           {errorMsg && (
-            <div className="p-3.5 rounded-2xl bg-rose-950/80 border border-rose-700/80 text-rose-200 text-xs flex items-start space-x-2 animate-in fade-in">
-              <AlertTriangle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
+            <div className="p-3.5 rounded-2xl bg-sky-950/80 border border-sky-700/80 text-sky-200 text-xs flex items-start space-x-2 animate-in fade-in">
+              <AlertTriangle className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
               <div className="leading-relaxed font-medium">{errorMsg}</div>
             </div>
           )}
@@ -126,7 +126,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
           {/* Admin Username */}
           <div className="space-y-1.5">
             <label className="text-xs font-semibold text-stone-300 flex items-center gap-1.5">
-              <Fingerprint className="w-3.5 h-3.5 text-rose-400" />
+              <Fingerprint className="w-3.5 h-3.5 text-sky-400" />
               <span>Admin Username / ID</span>
             </label>
             <input
@@ -136,7 +136,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
               value={username}
               onChange={e => setUsername(e.target.value)}
               placeholder="e.g. admin or institution.admin@neetprep.in"
-              className="w-full px-3.5 py-2.5 rounded-xl bg-sky-950 border border-stone-700 text-white placeholder-stone-500 text-xs focus:outline-none focus:border-rose-500 focus:ring-1 focus:ring-rose-500 font-mono disabled:opacity-50"
+              className="w-full px-3.5 py-2.5 rounded-xl bg-sky-950 border border-stone-700 text-white placeholder-stone-500 text-xs focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 font-mono disabled:opacity-50"
             />
           </div>
 
@@ -144,10 +144,10 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
           <div className="space-y-1.5">
             <div className="flex items-center justify-between">
               <label className="text-xs font-semibold text-stone-300 flex items-center gap-1.5">
-                <Lock className="w-3.5 h-3.5 text-amber-400" />
+                <Lock className="w-3.5 h-3.5 text-sky-400" />
                 <span>Master Admin Password</span>
               </label>
-              <span className="text-[10px] text-amber-400/90 font-mono font-bold">
+              <span className="text-[10px] text-sky-400/90 font-mono font-bold">
                 Institutional Grade Key
               </span>
             </div>
@@ -159,7 +159,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
                 value={password}
                 onChange={e => setPassword(e.target.value)}
                 placeholder="Enter confidential administrator key..."
-                className="w-full pl-3.5 pr-10 py-2.5 rounded-xl bg-sky-950 border border-stone-700 text-white placeholder-stone-500 text-xs focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 font-mono tracking-wider disabled:opacity-50"
+                className="w-full pl-3.5 pr-10 py-2.5 rounded-xl bg-sky-950 border border-stone-700 text-white placeholder-stone-500 text-xs focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 font-mono tracking-wider disabled:opacity-50"
               />
               <button
                 type="button"

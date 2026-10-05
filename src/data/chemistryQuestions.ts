@@ -58967,7 +58967,7 @@ export const ALL_CHEMISTRY_MASTER_QUESTIONS: Question[] = [
     "chapter": "Aldehydes, Ketones and Carboxylic Acids",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "A compound C5H10O forms orange-red precipitate upon reaction with 2,4-DNP , but does not give positive Tollen's test and iodoform test. Possible compound is",
+    "questionText": "A compound C5H10O forms blue-red precipitate upon reaction with 2,4-DNP , but does not give positive Tollen's test and iodoform test. Possible compound is",
     "options": [
       ", 2-dimethylpropanal",
       "-methylbutan-2-one",
@@ -124061,7 +124061,7 @@ export const ALDEHYDES__KETONES_AND_CARBOXYLIC_ACIDS_QUESTIONS: Question[] = [
     "chapter": "Aldehydes, Ketones and Carboxylic Acids",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "A compound C5H10O forms orange-red precipitate upon reaction with 2,4-DNP , but does not give positive Tollen's test and iodoform test. Possible compound is",
+    "questionText": "A compound C5H10O forms blue-red precipitate upon reaction with 2,4-DNP , but does not give positive Tollen's test and iodoform test. Possible compound is",
     "options": [
       ", 2-dimethylpropanal",
       "-methylbutan-2-one",

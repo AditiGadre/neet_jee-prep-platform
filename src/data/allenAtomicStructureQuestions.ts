@@ -4970,7 +4970,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
       "No colour"
     ],
     "correctAnswer": 1,
-    "explanation": "📘 NCERT Concept: Spectral series and visible colors in hydrogen spectrum.\n⚡ Step-by-Step Derivation:\n1. Jump n = 4 → n = 1 is in the Lyman series (ultraviolet).\n2. Jump n = 4 → n = 2 belongs to the Balmer series (visible spectrum).\n3. Specifically, n = 4 → n = 2 is the H_β line with wavelength λ = 486.1 nm.\n4. 486 nm corresponds to the amber-green (green) color of the visible spectrum.\n💡 Examiner Pro-Tip: Balmer lines: 3→2 is Red (656 nm), 4→2 is Blue-Green/Green (486 nm), 5→2 is Blue (434 nm), 6→2 is Violet (410 nm).",
+    "explanation": "📘 NCERT Concept: Spectral series and visible colors in hydrogen spectrum.\n⚡ Step-by-Step Derivation:\n1. Jump n = 4 → n = 1 is in the Lyman series (ultraviolet).\n2. Jump n = 4 → n = 2 belongs to the Balmer series (visible spectrum).\n3. Specifically, n = 4 → n = 2 is the H_β line with wavelength λ = 486.1 nm.\n4. 486 nm corresponds to the blue-green (green) color of the visible spectrum.\n💡 Examiner Pro-Tip: Balmer lines: 3→2 is Red (656 nm), 4→2 is Blue-Green/Green (486 nm), 5→2 is Blue (434 nm), 6→2 is Violet (410 nm).",
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",

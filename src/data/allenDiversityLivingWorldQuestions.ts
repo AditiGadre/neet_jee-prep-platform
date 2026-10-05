@@ -8609,8 +8609,8 @@ export const ALLEN_DLW_EXERCISE_2_QUESTIONS: Question[] = [
       "2028",
       "2029"
     ],
-    "questionText": "[AIPMT 2010] Select the correct combination of the statement (a-d) regarding the characteristics of certain organisms : (a) Methanogens are Archaebacteria which produce methane in marshy areas (b) Nostoc is filamentous amber-green alga which fixes atmospheric nitrogen (c) Chemoysynthetic autotrophic bacteria synthesize cellulose from glucose (d) Mycoplasma lack a cell wall and can survive without oxygen The correct statements are :",
-    "question": "[AIPMT 2010] Select the correct combination of the statement (a-d) regarding the characteristics of certain organisms : (a) Methanogens are Archaebacteria which produce methane in marshy areas (b) Nostoc is filamentous amber-green alga which fixes atmospheric nitrogen (c) Chemoysynthetic autotrophic bacteria synthesize cellulose from glucose (d) Mycoplasma lack a cell wall and can survive without oxygen The correct statements are :",
+    "questionText": "[AIPMT 2010] Select the correct combination of the statement (a-d) regarding the characteristics of certain organisms : (a) Methanogens are Archaebacteria which produce methane in marshy areas (b) Nostoc is filamentous blue-green alga which fixes atmospheric nitrogen (c) Chemoysynthetic autotrophic bacteria synthesize cellulose from glucose (d) Mycoplasma lack a cell wall and can survive without oxygen The correct statements are :",
+    "question": "[AIPMT 2010] Select the correct combination of the statement (a-d) regarding the characteristics of certain organisms : (a) Methanogens are Archaebacteria which produce methane in marshy areas (b) Nostoc is filamentous blue-green alga which fixes atmospheric nitrogen (c) Chemoysynthetic autotrophic bacteria synthesize cellulose from glucose (d) Mycoplasma lack a cell wall and can survive without oxygen The correct statements are :",
     "options": [
       "(a), (b), (c)",
       "(b), (c), (d)",
@@ -10488,7 +10488,7 @@ export const ALLEN_DLW_EXERCISE_2_QUESTIONS: Question[] = [
     "questionText": "[NEET-I 2016] Which one of the following statements is wrong ?",
     "question": "[NEET-I 2016] Which one of the following statements is wrong ?",
     "options": [
-      "Cyanobacteria are also called amber- green algae",
+      "Cyanobacteria are also called blue-green algae",
       "Golden algae are also called desmids",
       "Eubacteria are also called false bacteria",
       "Phycomycetes are also called algal fungi"
@@ -12035,8 +12035,8 @@ export const ALLEN_DLW_EXERCISE_2_QUESTIONS: Question[] = [
       "2028",
       "2029"
     ],
-    "questionText": "[NEET(UG) 2020 (COVID-19)] Inclusion bodies of amber- green, purple and green photosynthetic bacteria are :",
-    "question": "[NEET(UG) 2020 (COVID-19)] Inclusion bodies of amber- green, purple and green photosynthetic bacteria are :",
+    "questionText": "[NEET(UG) 2020 (COVID-19)] Inclusion bodies of blue-green, purple and green photosynthetic bacteria are :",
+    "question": "[NEET(UG) 2020 (COVID-19)] Inclusion bodies of blue-green, purple and green photosynthetic bacteria are :",
     "options": [
       "Contractile vacuoles",
       "Gas vacuoles",

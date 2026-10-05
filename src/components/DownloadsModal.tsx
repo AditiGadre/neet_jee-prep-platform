@@ -166,13 +166,13 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
   const getCategoryBadge = (category: DownloadRecord['category']) => {
     switch (category) {
       case 'Test Paper':
-        return { bg: 'bg-orange-50 text-orange-700 border-orange-200', icon: FileText, label: 'Test Paper' };
+        return { bg: 'bg-sky-50 text-sky-700 border-sky-200', icon: FileText, label: 'Test Paper' };
       case 'Book':
         return { bg: 'bg-emerald-50 text-emerald-700 border-emerald-200', icon: BookOpen, label: 'Book / Notes' };
       case 'Scorecard':
-        return { bg: 'bg-purple-50 text-purple-700 border-purple-200', icon: Award, label: 'Scorecard' };
+        return { bg: 'bg-sky-50 text-sky-700 border-sky-200', icon: Award, label: 'Scorecard' };
       case 'DPP':
-        return { bg: 'bg-amber-50 text-amber-700 border-amber-200', icon: FileSpreadsheet, label: 'Daily DPP' };
+        return { bg: 'bg-sky-50 text-sky-700 border-sky-200', icon: FileSpreadsheet, label: 'Daily DPP' };
       default:
         return { bg: 'bg-sky-50 text-sky-800 border-sky-200', icon: Download, label: category || 'PDF Document' };
     }
@@ -202,13 +202,13 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
         <div className="p-6 sm:p-5 border-b border-sky-200 bg-sky-50/80 flex items-start justify-between">
           <div>
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-lg bg-orange-600 text-white flex items-center justify-center shadow-xs">
+              <div className="w-8 h-8 rounded-lg bg-sky-600 text-white flex items-center justify-center shadow-xs">
                 <ArrowDownToLine className="w-4 h-4" />
               </div>
               <div>
                 <h2 className="text-base sm:text-lg font-bold text-sky-950 flex items-center gap-4">
                   <span>My Download History & Vault</span>
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-full bg-orange-100 text-orange-800">
+                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-full bg-sky-100 text-sky-800">
                     {downloads.length} Files Tracked
                   </span>
                 </h2>
@@ -229,10 +229,10 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
         </div>
 
         {/* User Session Info Card */}
-        <div className="px-4 sm:px-5 py-2.5 bg-orange-50/60 border-b border-orange-100 flex flex-wrap items-center justify-between gap-4 text-xs">
+        <div className="px-4 sm:px-5 py-2.5 bg-sky-50/60 border-b border-sky-100 flex flex-wrap items-center justify-between gap-4 text-xs">
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-            <div className="flex items-center space-x-1.5 text-orange-900 font-semibold">
-              <User className="w-3.5 h-3.5 text-orange-600" />
+            <div className="flex items-center space-x-1.5 text-sky-900 font-semibold">
+              <User className="w-3.5 h-3.5 text-sky-600" />
               <span>{user?.name || user?.user_metadata?.name || 'Enrolled Student'}</span>
             </div>
             <div className="flex items-center space-x-1.5 text-sky-700 font-mono text-[11px]">
@@ -275,7 +275,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
                 onClick={() => setActiveCategory(cat)}
                 className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                   activeCategory === cat
-                    ? 'bg-orange-600 text-white shadow-xs'
+                    ? 'bg-sky-600 text-white shadow-xs'
                     : 'bg-sky-50 text-sky-800 hover:bg-sky-100 border border-sky-200'
                 }`}
               >
@@ -292,14 +292,14 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
                 placeholder="Search downloaded files..."
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
-                className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-orange-500 focus:outline-none"
+                className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-sky-500 focus:outline-none"
               />
             </div>
 
             {downloads.length > 0 && (
               <button
                 onClick={handleClearAll}
-                className="p-1.5 rounded-lg bg-sky-50 hover:bg-rose-50 text-sky-600 hover:text-rose-600 border border-sky-200 transition cursor-pointer shrink-0"
+                className="p-1.5 rounded-lg bg-sky-50 hover:bg-sky-50 text-sky-600 hover:text-sky-600 border border-sky-200 transition cursor-pointer shrink-0"
                 title="Clear All Download History"
               >
                 <Trash2 className="w-4 h-4" />
@@ -355,7 +355,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
                     <div className="flex items-center space-x-2 self-end sm:self-center shrink-0">
                       <button
                         onClick={() => handleReDownload(item)}
-                        className="px-3 py-1.5 rounded-lg bg-orange-50 hover:bg-orange-100 text-orange-700 border border-orange-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer active:scale-95 shadow-2xs"
+                        className="px-3 py-1.5 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-700 border border-sky-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer active:scale-95 shadow-2xs"
                         title="Re-download PDF"
                       >
                         <Download className="w-3.5 h-3.5" />
@@ -364,7 +364,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
 
                       <button
                         onClick={() => handleRemoveItem(item.id)}
-                        className="p-1.5 rounded-lg text-stone-400 hover:text-rose-600 hover:bg-rose-50 transition cursor-pointer"
+                        className="p-1.5 rounded-lg text-stone-400 hover:text-sky-600 hover:bg-sky-50 transition cursor-pointer"
                         title="Remove from history"
                       >
                         <Trash2 className="w-3.5 h-3.5" />
@@ -376,7 +376,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
             </div>
           ) : (
             <div className="text-center py-10 px-4 space-y-4">
-              <div className="w-14 h-14 rounded-2xl bg-orange-50 border border-orange-100 text-orange-600 flex items-center justify-center mx-auto">
+              <div className="w-14 h-14 rounded-2xl bg-sky-50 border border-sky-100 text-sky-600 flex items-center justify-center mx-auto">
                 <HardDrive className="w-7 h-7" />
               </div>
               <div className="space-y-1">
@@ -391,7 +391,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
               <div className="pt-2 flex flex-wrap items-center justify-center gap-4">
                 <button
                   onClick={handleDownloadSamplePaper}
-                  className="px-3 py-2 rounded-lg bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                  className="px-3 py-2 rounded-lg bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
                 >
                   <FileText className="w-3.5 h-3.5" />
                   <span>Download Sample NEET Test PDF</span>
@@ -405,7 +405,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
                 </button>
                 <button
                   onClick={handleDownloadSampleDpp}
-                  className="px-3 py-2 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                  className="px-3 py-2 rounded-lg bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
                 >
                   <FileSpreadsheet className="w-3.5 h-3.5" />
                   <span>Download Today&apos;s DPP</span>

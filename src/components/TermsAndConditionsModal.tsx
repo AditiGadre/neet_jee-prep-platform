@@ -28,7 +28,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
                   v2.4
                 </span>
               </div>
-              <p className="text-xs text-orange-100 mt-0.5">
+              <p className="text-xs text-sky-100 mt-0.5">
                 NeetCbt Exam Test — Official Academic & Computer-Based Testing Portal
               </p>
             </div>
@@ -44,11 +44,11 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
         {/* Scrollable Terms Content */}
         <div className="p-5 sm:p-6 overflow-y-auto space-y-6 text-xs text-sky-800 leading-relaxed">
-          <div className="p-6 rounded-xl bg-orange-50/80 border border-orange-200 text-orange-950 space-y-1">
-            <p className="font-bold flex items-center gap-1.5 text-orange-900">
-              <FileText className="w-4 h-4 text-orange-600" /> Standard Institutional Agreement
+          <div className="p-6 rounded-xl bg-sky-50/80 border border-sky-200 text-sky-950 space-y-1">
+            <p className="font-bold flex items-center gap-1.5 text-sky-900">
+              <FileText className="w-4 h-4 text-sky-600" /> Standard Institutional Agreement
             </p>
-            <p className="text-[11px] text-orange-800">
+            <p className="text-[11px] text-sky-800">
               Please read these Terms and Conditions carefully before using the NeetCbt Exam Platform. By enrolling, registering, logging in, or attempting any Computer-Based Test (CBT), you agree to be bound by these terms.
             </p>
           </div>
@@ -174,7 +174,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
           </div>
           <button
             onClick={onClose}
-            className="w-full sm:w-auto px-5 py-2 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
+            className="w-full sm:w-auto px-5 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs shadow-xs transition cursor-pointer"
           >
             I Understand & Agree
           </button>

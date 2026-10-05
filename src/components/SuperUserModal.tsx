@@ -566,7 +566,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
       case 'Book':
         return { bg: 'bg-emerald-50 text-emerald-700 border-emerald-200', icon: BookOpen };
       case 'Scorecard':
-        return { bg: 'bg-purple-50 text-purple-700 border-purple-200', icon: Award };
+        return { bg: 'bg-sky-50 text-sky-700 border-sky-200', icon: Award };
       case 'DPP':
         return { bg: 'bg-cyan-50 text-cyan-700 border-cyan-200', icon: FileSpreadsheet };
       default:
@@ -644,7 +644,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               <KeyRound className="w-3.5 h-3.5 text-cyan-500" />
               <span>Student Unlock Requests</span>
               {pendingRequestsCount > 0 && (
-                <span className="px-1.5 py-0.2 rounded-full bg-rose-600 text-white text-[10px] font-mono font-bold animate-pulse">
+                <span className="px-1.5 py-0.2 rounded-full bg-sky-600 text-white text-[10px] font-mono font-bold animate-pulse">
                   {pendingRequestsCount} New
                 </span>
               )}
@@ -875,7 +875,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                                 </span>
                               )}
                               {isRejected && (
-                                <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-rose-100 text-rose-900 border border-rose-300 flex items-center gap-1 w-fit">
+                                <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-sky-100 text-sky-900 border border-sky-300 flex items-center gap-1 w-fit">
                                   <X className="w-3 h-3" /> Rejected
                                 </span>
                               )}
@@ -893,7 +893,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                                   </button>
                                   <button
                                     onClick={() => handleRejectRequest(req.id)}
-                                    className="p-1.5 rounded-lg bg-sky-50 hover:bg-rose-100 text-sky-700 hover:text-rose-700 transition cursor-pointer"
+                                    className="p-1.5 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-700 hover:text-sky-700 transition cursor-pointer"
                                     title="Reject Request"
                                   >
                                     <X className="w-4 h-4" />
@@ -1018,23 +1018,23 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             {generatorMode === 'topic_matrix' && (
               <div className="space-y-4">
                 {/* Quick Topic Swapper Bar */}
-                <div className="p-6 rounded-xl bg-gradient-to-r from-purple-50 via-rose-50 to-sky-50 border border-purple-200 space-y-3">
+                <div className="p-6 rounded-xl bg-gradient-to-r from-purple-50 via-rose-50 to-sky-50 border border-sky-200 space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                     <div>
-                      <h4 className="text-sm font-extrabold text-purple-950 flex items-center gap-1.5">
-                        <ArrowRightLeft className="w-4 h-4 text-purple-700" />
+                      <h4 className="text-sm font-extrabold text-sky-950 flex items-center gap-1.5">
+                        <ArrowRightLeft className="w-4 h-4 text-sky-700" />
                         <span>Quick Topic Swapper & Allocation</span>
                       </h4>
-                      <p className="text-[11px] text-purple-800">
+                      <p className="text-[11px] text-sky-800">
                         Swap one topic for another (e.g. Laws of Motion with Electrostatics) and set custom question counts.
                       </p>
                     </div>
-                    <span className="text-[10px] font-mono font-bold px-2.5 py-1 bg-sky-50/60/80 border border-purple-300 text-purple-900 rounded-lg self-start sm:self-auto">
+                    <span className="text-[10px] font-mono font-bold px-2.5 py-1 bg-sky-50/60/80 border border-sky-300 text-sky-900 rounded-lg self-start sm:self-auto">
                       Pure Chapter Pools Only
                     </span>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-4 gap-4.5 items-end bg-sky-50/60/90 p-3 rounded-xl border border-purple-200">
+                  <div className="grid grid-cols-1 sm:grid-cols-4 gap-4.5 items-end bg-sky-50/60/90 p-3 rounded-xl border border-sky-200">
                     <div className="space-y-1">
                       <label className="text-[10px] font-bold text-sky-600 uppercase">1. Swap Out (From Topic)</label>
                       <select
@@ -1104,7 +1104,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     <button
                       type="button"
                       onClick={() => handleExecuteTopicSwap(swapSourceTopic, swapTargetTopic, swapQuestionCount)}
-                      className="h-8 px-4 bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold rounded-lg flex items-center justify-center gap-1.5 shadow-xs transition cursor-pointer active:scale-95"
+                      className="h-8 px-4 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold rounded-lg flex items-center justify-center gap-1.5 shadow-xs transition cursor-pointer active:scale-95"
                     >
                       <ArrowRightLeft className="w-3.5 h-3.5" />
                       <span>Execute Swap</span>
@@ -1140,7 +1140,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                           </span>
                           <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
                             alloc.subject === 'Physics' ? 'bg-sky-100 text-sky-800' :
-                            alloc.subject === 'Chemistry' ? 'bg-emerald-100 text-emerald-800' : 'bg-purple-100 text-purple-800'
+                            alloc.subject === 'Chemistry' ? 'bg-emerald-100 text-emerald-800' : 'bg-sky-100 text-sky-800'
                           }`}>
                             {alloc.subject}
                           </span>
@@ -1191,7 +1191,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                           <button
                             type="button"
                             onClick={() => handleRemoveAllocation(alloc.id)}
-                            className="p-1.5 text-stone-400 hover:text-rose-600 rounded-lg hover:bg-rose-50 transition cursor-pointer"
+                            className="p-1.5 text-stone-400 hover:text-sky-600 rounded-lg hover:bg-sky-50 transition cursor-pointer"
                             title="Remove this topic from test"
                           >
                             <X className="w-4 h-4" />
@@ -1408,7 +1408,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                           onClick={() => setCustomDuration(mins)}
                           className={`py-2 rounded-lg text-xs font-bold font-mono transition-colors cursor-pointer ${
                             customDuration === mins
-                              ? 'bg-purple-600 text-white shadow-xs'
+                              ? 'bg-sky-600 text-white shadow-xs'
                               : 'bg-sky-50 text-sky-800 hover:bg-sky-100 border border-sky-200'
                           }`}
                         >
@@ -1436,7 +1436,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     </div>
                     <div className="text-sky-700 font-mono">
                       {customQCount} Questions &bull; {customQCount * 4} Marks &bull; {customDuration} Minutes &bull; Level:{' '}
-                      <span className="text-rose-700 font-bold">{customDifficulties.join(' + ')}</span>
+                      <span className="text-sky-700 font-bold">{customDifficulties.join(' + ')}</span>
                     </div>
                   </div>
 
@@ -1466,7 +1466,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                           onClose();
                           onOpenUploadModal(customSubject, customChapter);
                         }}
-                        className="px-3.5 py-2.5 rounded-xl bg-purple-50 hover:bg-purple-100 text-purple-800 font-bold text-xs border border-purple-300 flex items-center justify-center space-x-1 transition cursor-pointer"
+                        className="px-3.5 py-2.5 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-800 font-bold text-xs border border-sky-300 flex items-center justify-center space-x-1 transition cursor-pointer"
                         title="Upload more questions"
                       >
                         <Upload className="w-3.5 h-3.5" />
@@ -1568,15 +1568,15 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                   </div>
                 </div>
 
-                <div className="p-3.5 bg-purple-50/70 border border-purple-200 rounded-xl">
-                  <div className="flex items-center justify-between text-[11px] font-bold text-purple-800 uppercase">
+                <div className="p-3.5 bg-sky-50/70 border border-sky-200 rounded-xl">
+                  <div className="flex items-center justify-between text-[11px] font-bold text-sky-800 uppercase">
                     <span>Sunday Mock Series</span>
-                    <Award className="w-4 h-4 text-purple-600" />
+                    <Award className="w-4 h-4 text-sky-600" />
                   </div>
-                  <div className="text-xl sm:text-2xl font-black text-purple-700 font-mono mt-1">
+                  <div className="text-xl sm:text-2xl font-black text-sky-700 font-mono mt-1">
                     201 Papers
                   </div>
-                  <p className="text-[10px] text-purple-600 mt-0.5 font-bold">180 Qs Combined PCB Ready</p>
+                  <p className="text-[10px] text-sky-600 mt-0.5 font-bold">180 Qs Combined PCB Ready</p>
                 </div>
               </div>
 
@@ -1599,7 +1599,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     <div className="w-full bg-sky-50 rounded-full h-1.5 mt-2 overflow-hidden">
                       <div
                         className={`h-full rounded-full ${
-                          sb.percent >= 50 ? 'bg-emerald-500' : sb.percent >= 20 ? 'bg-cyan-500' : 'bg-rose-500'
+                          sb.percent >= 50 ? 'bg-emerald-500' : sb.percent >= 20 ? 'bg-cyan-500' : 'bg-sky-500'
                         }`}
                         style={{ width: `${sb.percent}%` }}
                       />
@@ -1694,7 +1694,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                                 ? 'bg-emerald-100 text-emerald-800'
                                 : item.status === 'Adequate'
                                 ? 'bg-cyan-100 text-cyan-800'
-                                : 'bg-rose-100 text-rose-800 animate-pulse'
+                                : 'bg-sky-100 text-sky-800 animate-pulse'
                             }`}>
                               {item.status} ({item.percentageRemaining}%)
                             </span>
@@ -1749,9 +1749,9 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               <div className="p-3 bg-sky-50/60 rounded-xl border border-sky-200 shadow-2xs">
                 <div className="flex items-center justify-between text-[11px] font-bold text-sky-600 uppercase">
                   <span>Active Students</span>
-                  <Users className="w-4 h-4 text-purple-600" />
+                  <Users className="w-4 h-4 text-sky-600" />
                 </div>
-                <div className="text-xl sm:text-2xl font-black text-purple-700 font-mono mt-1">
+                <div className="text-xl sm:text-2xl font-black text-sky-700 font-mono mt-1">
                   {metrics.uniqueStudents}
                 </div>
                 <p className="text-[10px] text-stone-400 mt-0.5 font-medium">With Verified Phone/Email</p>
@@ -1820,7 +1820,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 {notifications.length > 0 && (
                   <button
                     onClick={handleClear}
-                    className="p-1.5 rounded-lg bg-sky-50 hover:bg-rose-50 text-stone-400 hover:text-rose-600 border border-sky-200 transition cursor-pointer"
+                    className="p-1.5 rounded-lg bg-sky-50 hover:bg-sky-50 text-stone-400 hover:text-sky-600 border border-sky-200 transition cursor-pointer"
                     title="Clear All Notifications"
                   >
                     <Trash2 className="w-4 h-4" />
@@ -1954,7 +1954,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                   onClick={handleToggleAdminTestAccess}
                   className={`px-4 py-2 rounded-xl font-bold text-xs transition flex items-center justify-center space-x-2 cursor-pointer shadow-md ${
                     isAdminTestAccessGranted
-                      ? 'bg-rose-600 hover:bg-rose-700 text-white'
+                      ? 'bg-sky-600 hover:bg-sky-700 text-white'
                       : 'bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white'
                   }`}
                 >

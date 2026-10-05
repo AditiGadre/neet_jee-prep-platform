@@ -35,7 +35,7 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
         {/* Header */}
         <div className="px-5 py-3.5 bg-sky-50 border-b border-sky-200 flex items-center justify-between">
           <div className="flex items-center space-x-2.5">
-            <div className="w-8 h-8 rounded bg-orange-50 text-orange-700 flex items-center justify-center border border-orange-200">
+            <div className="w-8 h-8 rounded bg-sky-50 text-sky-700 flex items-center justify-center border border-sky-200">
               <BookMarked className="w-4 h-4" />
             </div>
             <div>
@@ -61,14 +61,14 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
             <div className="flex items-center justify-between text-xs text-sky-700">
               <span>Pages: <strong className="text-sky-950">{book.pages}</strong></span>
               <span>File Size: <strong className="text-sky-950">{book.size}</strong></span>
-              <span className="text-amber-700 font-bold">★ {book.rating} / 5.0</span>
+              <span className="text-sky-700 font-bold">★ {book.rating} / 5.0</span>
             </div>
             <p className="text-xs text-sky-700 leading-relaxed">{book.description}</p>
           </div>
 
           {/* Chapter Sample Section */}
           <div className="space-y-2.5">
-            <h3 className="text-xs font-bold text-orange-700 uppercase tracking-wider">
+            <h3 className="text-xs font-bold text-sky-700 uppercase tracking-wider">
               High-Yield Key Chapters & Notes Preview
             </h3>
 
@@ -88,7 +88,7 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
               <div className="p-3.5 rounded bg-sky-50/60 border border-sky-200 space-y-1.5">
                 <div className="flex items-center justify-between text-xs font-bold text-sky-950">
                   <span>Chapter 02: Formulas, Reagents & Reaction Flowcharts</span>
-                  <span className="text-orange-700 text-[10px] px-1.5 py-0.2 rounded bg-orange-50 border border-orange-200">Rapid Memory Tables</span>
+                  <span className="text-sky-700 text-[10px] px-1.5 py-0.2 rounded bg-sky-50 border border-sky-200">Rapid Memory Tables</span>
                 </div>
                 <p className="text-xs text-sky-700 leading-relaxed">
                   &bull; 1-Page cheat sheets for quick morning revision before every mock test.
@@ -107,7 +107,7 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
           </div>
           <button
             onClick={handleDownload}
-            className="px-4 py-2 rounded bg-orange-600 hover:bg-orange-700 text-white font-semibold text-xs flex items-center space-x-1.5 shadow-xs transition-colors"
+            className="px-4 py-2 rounded bg-sky-600 hover:bg-sky-700 text-white font-semibold text-xs flex items-center space-x-1.5 shadow-xs transition-colors"
           >
             {downloaded ? (
               <>

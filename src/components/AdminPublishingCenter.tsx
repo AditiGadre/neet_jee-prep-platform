@@ -303,7 +303,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
       <div className="bg-gradient-to-r from-stone-950 via-stone-900 to-rose-950 border-b border-stone-800 p-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-xl bg-rose-500/20 border border-rose-500/40 flex items-center justify-center text-rose-400 shadow-inner">
+            <div className="w-12 h-12 rounded-xl bg-sky-500/20 border border-sky-500/40 flex items-center justify-center text-sky-400 shadow-inner">
               <Globe className="w-6 h-6 animate-pulse" />
             </div>
             <div>
@@ -370,7 +370,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               onClick={() => setActiveTab('editor')}
               className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-4 ${
                 activeTab === 'editor'
-                  ? 'bg-rose-600 text-white shadow-md'
+                  ? 'bg-sky-600 text-white shadow-md'
                   : 'bg-sky-800/60 text-stone-400 hover:text-stone-200 hover:bg-sky-800'
               }`}
             >
@@ -381,7 +381,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               onClick={() => setActiveTab('history')}
               className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-4 ${
                 activeTab === 'history'
-                  ? 'bg-rose-600 text-white shadow-md'
+                  ? 'bg-sky-600 text-white shadow-md'
                   : 'bg-sky-800/60 text-stone-400 hover:text-stone-200 hover:bg-sky-800'
               }`}
             >
@@ -392,7 +392,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               onClick={() => setActiveTab('simulator')}
               className={`px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-4 ${
                 activeTab === 'simulator'
-                  ? 'bg-rose-600 text-white shadow-md'
+                  ? 'bg-sky-600 text-white shadow-md'
                   : 'bg-sky-800/60 text-stone-400 hover:text-stone-200 hover:bg-sky-800'
               }`}
             >
@@ -405,9 +405,9 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             <button
               onClick={loadData}
               disabled={isLoading}
-              className="text-xs text-stone-400 hover:text-rose-400 flex items-center gap-1.5 transition"
+              className="text-xs text-stone-400 hover:text-sky-400 flex items-center gap-1.5 transition"
             >
-              <RefreshCw className={`w-3.5 h-3.5 ${isLoading ? 'animate-spin text-rose-400' : ''}`} />
+              <RefreshCw className={`w-3.5 h-3.5 ${isLoading ? 'animate-spin text-sky-400' : ''}`} />
               Sync Central DB
             </button>
           </div>
@@ -429,7 +429,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     placeholder="Search questions by text or chapter..."
-                    className="w-full bg-sky-800/80 border border-stone-700 rounded-xl pl-9 pr-3 py-2 text-xs text-white placeholder-stone-500 focus:outline-none focus:border-rose-500"
+                    className="w-full bg-sky-800/80 border border-stone-700 rounded-xl pl-9 pr-3 py-2 text-xs text-white placeholder-stone-500 focus:outline-none focus:border-sky-500"
                   />
                 </div>
 
@@ -437,7 +437,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   <button
                     onClick={() => setFilterStatus('all')}
                     className={`px-3 py-1.5 rounded-lg font-medium transition ${
-                      filterStatus === 'all' ? 'bg-rose-600 text-white' : 'text-stone-400 hover:text-white'
+                      filterStatus === 'all' ? 'bg-sky-600 text-white' : 'text-stone-400 hover:text-white'
                     }`}
                   >
                     All ({counts.total})
@@ -445,10 +445,10 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   <button
                     onClick={() => setFilterStatus('draft')}
                     className={`px-3 py-1.5 rounded-lg font-medium transition flex items-center gap-1 ${
-                      filterStatus === 'draft' ? 'bg-amber-500 text-stone-950 font-bold' : 'text-stone-400 hover:text-white'
+                      filterStatus === 'draft' ? 'bg-sky-500 text-stone-950 font-bold' : 'text-stone-400 hover:text-white'
                     }`}
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-sky-400" />
                     Drafts ({counts.draft})
                   </button>
                   <button
@@ -479,7 +479,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   setIsCreatingNew(true);
                   setConflictError(null);
                 }}
-                className="px-3.5 py-2 bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 transition shadow"
+                className="px-3.5 py-2 bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 transition shadow"
               >
                 <Plus className="w-4 h-4" />
                 Add New Question (Draft)
@@ -489,7 +489,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             {/* Questions Table */}
             {isLoading && questions.length === 0 ? (
               <div className="py-20 text-center text-sky-600 text-xs flex flex-col items-center gap-4">
-                <RefreshCw className="w-6 h-6 animate-spin text-rose-400" />
+                <RefreshCw className="w-6 h-6 animate-spin text-sky-400" />
                 <span>Loading authoritative questions from central database...</span>
               </div>
             ) : filteredQuestions.length === 0 ? (
@@ -528,15 +528,15 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                       {/* Question Content */}
                       <div className="flex-1 min-w-0">
                         <div className="flex flex-wrap items-center gap-4 mb-1.5">
-                          <span className="font-mono text-xs text-rose-400 font-bold">{q.id}</span>
+                          <span className="font-mono text-xs text-sky-400 font-bold">{q.id}</span>
                           <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-sky-700 text-stone-300">
                             {q.subject} &bull; {q.chapter}
                           </span>
                           
                           {/* Two-stage lifecycle status badge */}
                           {q.status === 'draft' ? (
-                            <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
-                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+                            <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-sky-500/20 text-sky-300 border border-sky-500/40 flex items-center gap-1">
+                              <span className="w-1.5 h-1.5 rounded-full bg-sky-400 animate-pulse" />
                               Draft (Pending Publish)
                             </span>
                           ) : (
@@ -585,12 +585,12 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                         }}
                         className="px-2.5 py-1.5 rounded-lg bg-sky-700/80 hover:bg-sky-700 text-stone-200 text-xs font-medium flex items-center gap-1 transition"
                       >
-                        <Edit3 className="w-3.5 h-3.5 text-rose-400" />
+                        <Edit3 className="w-3.5 h-3.5 text-sky-400" />
                         Edit Draft
                       </button>
                       <button
                         onClick={() => handleDeleteQuestion(q.id)}
-                        className="p-1.5 rounded-lg bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 transition"
+                        className="p-1.5 rounded-lg bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 transition"
                         title="Delete Question"
                       >
                         <Trash2 className="w-3.5 h-3.5" />
@@ -666,7 +666,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                       {!ver.isCurrent && (
                         <button
                           onClick={() => setRollbackTarget(ver)}
-                          className="px-3 py-1.5 bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 text-amber-300 text-xs font-bold rounded-lg flex items-center gap-1.5 transition"
+                          className="px-3 py-1.5 bg-sky-500/20 hover:bg-sky-500/30 border border-sky-500/40 text-sky-300 text-xs font-bold rounded-lg flex items-center gap-1.5 transition"
                         >
                           <RotateCcw className="w-3.5 h-3.5" />
                           Rollback to {ver.versionTag}
@@ -685,11 +685,11 @@ export const AdminPublishingCenter: React.FC<Props> = ({
           <div className="space-y-6">
             <div className="bg-sky-800/60 border border-stone-700/60 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-2">
-                <Gauge className="w-5 h-5 text-rose-400" />
+                <Gauge className="w-5 h-5 text-sky-400" />
                 <h3 className="text-sm font-bold text-white">Mass Read Architecture & Load Verification (1,000,000+ Students)</h3>
               </div>
               <p className="text-xs text-stone-300 leading-relaxed max-w-3xl">
-                Students access published questions strictly through Edge CDN and In-Memory caches (<code className="text-rose-300 font-mono text-[11px]">s-maxage=60, stale-while-revalidate=300</code>).
+                Students access published questions strictly through Edge CDN and In-Memory caches (<code className="text-sky-300 font-mono text-[11px]">s-maxage=60, stale-while-revalidate=300</code>).
                 This ensures that during peak CBT exam bursts, 10,00,000+ students receive answers with sub-25ms latency while the central write database experiences <strong>0 connection overhead</strong>.
               </p>
 
@@ -697,7 +697,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 <button
                   onClick={run1MStudentReadSimulation}
                   disabled={isSimulating}
-                  className="px-4 py-2.5 bg-rose-600 hover:bg-rose-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow flex items-center gap-4 transition"
+                  className="px-4 py-2.5 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow flex items-center gap-4 transition"
                 >
                   <Zap className="w-4 h-4" />
                   {isSimulating ? 'Simulating 100 Concurrent Student Reads...' : 'Run 100-Read Edge Benchmark'}
@@ -715,7 +715,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
                 <div className="p-6 rounded-xl bg-sky-800/80 border border-stone-700 text-center">
                   <div className="text-[10px] uppercase font-bold text-stone-400">Average Read Latency</div>
-                  <div className="text-2xl font-bold text-rose-400 mt-1">{simResults.avgLatencyMs} ms</div>
+                  <div className="text-2xl font-bold text-sky-400 mt-1">{simResults.avgLatencyMs} ms</div>
                   <div className="text-[10px] text-sky-600 mt-0.5">Min: {simResults.minLatencyMs}ms / Max: {simResults.maxLatencyMs}ms</div>
                 </div>
 
@@ -727,7 +727,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
 
                 <div className="p-6 rounded-xl bg-sky-800/80 border border-stone-700 text-center">
                   <div className="text-[10px] uppercase font-bold text-stone-400">Propagation Window SLA</div>
-                  <div className="text-2xl font-bold text-amber-400 mt-1">&le; {simResults.staleWindowSeconds}s</div>
+                  <div className="text-2xl font-bold text-sky-400 mt-1">&le; {simResults.staleWindowSeconds}s</div>
                   <div className="text-[10px] text-sky-600 mt-0.5">Global sync guarantee</div>
                 </div>
               </div>
@@ -755,8 +755,8 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             </div>
 
             {conflictError && (
-              <div className="p-3 mb-4 bg-rose-500/20 border border-rose-500/40 rounded-xl text-rose-200 text-xs flex items-start gap-4">
-                <AlertTriangle className="w-4 h-4 text-rose-400 mt-0.5 flex-shrink-0" />
+              <div className="p-3 mb-4 bg-sky-500/20 border border-sky-500/40 rounded-xl text-sky-200 text-xs flex items-start gap-4">
+                <AlertTriangle className="w-4 h-4 text-sky-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="font-bold">Concurrency Protection Notice</div>
                   <div>{conflictError}</div>
@@ -771,7 +771,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   <select
                     value={editingQuestion.subject || 'Physics'}
                     onChange={(e) => setEditingQuestion({ ...editingQuestion, subject: e.target.value as any })}
-                    className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
+                    className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-sky-500"
                   >
                     <option value="Physics">Physics</option>
                     <option value="Chemistry">Chemistry</option>
@@ -784,7 +784,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                     type="text"
                     value={editingQuestion.chapter || ''}
                     onChange={(e) => setEditingQuestion({ ...editingQuestion, chapter: e.target.value })}
-                    className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
+                    className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-sky-500"
                     required
                   />
                 </div>
@@ -793,7 +793,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   <select
                     value={editingQuestion.difficulty || 'Medium'}
                     onChange={(e) => setEditingQuestion({ ...editingQuestion, difficulty: e.target.value as any })}
-                    className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
+                    className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-sky-500"
                   >
                     <option value="Easy">Easy</option>
                     <option value="Medium">Medium</option>
@@ -808,7 +808,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   value={editingQuestion.questionText || ''}
                   onChange={(e) => setEditingQuestion({ ...editingQuestion, questionText: e.target.value })}
                   rows={3}
-                  className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
+                  className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-sky-500"
                   required
                 />
               </div>
@@ -824,7 +824,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                         name="correctAnswer"
                         checked={editingQuestion.correctAnswer === i}
                         onChange={() => setEditingQuestion({ ...editingQuestion, correctAnswer: i })}
-                        className="text-rose-600 focus:ring-0"
+                        className="text-sky-600 focus:ring-0"
                       />
                       <span className="font-bold text-stone-400 w-6">({String.fromCharCode(65 + i)})</span>
                       <input
@@ -836,7 +836,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                           setEditingQuestion({ ...editingQuestion, options: newOpts });
                         }}
                         placeholder={`Option ${String.fromCharCode(65 + i)} text`}
-                        className="flex-1 bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
+                        className="flex-1 bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-sky-500"
                         required
                       />
                     </div>
@@ -850,7 +850,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                   value={editingQuestion.explanation || ''}
                   onChange={(e) => setEditingQuestion({ ...editingQuestion, explanation: e.target.value })}
                   rows={2}
-                  className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-rose-500"
+                  className="w-full bg-sky-800 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-sky-500"
                 />
               </div>
 
@@ -865,7 +865,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
                 <button
                   type="submit"
                   disabled={isSaving}
-                  className="px-5 py-2 rounded-lg bg-rose-600 hover:bg-rose-500 text-white font-bold transition flex items-center gap-4"
+                  className="px-5 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-bold transition flex items-center gap-4"
                 >
                   {isSaving ? 'Saving to Central DB...' : isCreatingNew ? 'Create Draft' : 'Save Draft Edits'}
                 </button>
@@ -896,7 +896,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               </div>
               <div className="flex justify-between">
                 <span className="text-stone-400">Pending Draft Changes:</span>
-                <span className="font-bold text-amber-400">{counts.draft} Draft Items</span>
+                <span className="font-bold text-sky-400">{counts.draft} Draft Items</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-stone-400">Distribution Audience:</span>
@@ -904,20 +904,20 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               </div>
               <div className="flex justify-between">
                 <span className="text-stone-400">Max Staleness Guarantee:</span>
-                <span className="font-bold text-rose-400">&le; 60 seconds (or instant CDN purge)</span>
+                <span className="font-bold text-sky-400">&le; 60 seconds (or instant CDN purge)</span>
               </div>
             </div>
 
             <div className="mb-4">
               <label className="block text-xs font-semibold text-stone-300 mb-1">
-                Publication Summary / Changelog <span className="text-rose-400">*</span>
+                Publication Summary / Changelog <span className="text-sky-400">*</span>
               </label>
               <input
                 type="text"
                 value={publishSummary}
                 onChange={(e) => setPublishSummary(e.target.value)}
                 placeholder="e.g., Updated Laws of Motion questions and official answer keys"
-                className="w-full bg-sky-800 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white placeholder-stone-500 focus:outline-none focus:border-rose-500"
+                className="w-full bg-sky-800 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white placeholder-stone-500 focus:outline-none focus:border-sky-500"
               />
             </div>
 
@@ -944,7 +944,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
       {rollbackTarget && (
         <div className="fixed inset-0 z-50 bg-sky-950/80 backdrop-blur-sm flex items-center justify-center p-6">
           <div className="bg-sky-900 border border-stone-700 rounded-2xl w-full max-w-md shadow-2xl p-6">
-            <div className="flex items-center gap-3 border-b border-stone-800 pb-4 mb-4 text-amber-400">
+            <div className="flex items-center gap-3 border-b border-stone-800 pb-4 mb-4 text-sky-400">
               <RotateCcw className="w-6 h-6" />
               <div>
                 <h3 className="text-base font-bold text-white">Confirm Version Rollback</h3>
@@ -967,7 +967,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
               <button
                 onClick={handleRollback}
                 disabled={isRollingBack}
-                className="px-5 py-2 rounded-lg bg-amber-600 hover:bg-amber-500 text-stone-950 text-xs font-bold transition"
+                className="px-5 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-stone-950 text-xs font-bold transition"
               >
                 {isRollingBack ? 'Restoring Snapshot...' : `Rollback to ${rollbackTarget.versionTag}`}
               </button>
