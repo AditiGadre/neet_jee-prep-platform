@@ -287,11 +287,12 @@ export function triggerDirectPdfPrint(filename: string, title: string, htmlBody:
   doc.open();
   doc.write(printDocumentHtml);
   doc.close();
-
-  setTimeout(() => {
-    try {
-      iframe.contentWindow?.focus();
-      iframe.contentWindow?.print();
+    
+    // Wait for images to load before printing
+    setTimeout(() => {
+      try {
+        iframe.contentWindow?.focus();
+        iframe.contentWindow?.print();
     } catch (err) {
       console.error('Error triggering direct PDF print:', err);
     } finally {
@@ -301,7 +302,7 @@ export function triggerDirectPdfPrint(filename: string, title: string, htmlBody:
         }
       }, 60000);
     }
-  }, 350);
+  }, 2000);
 }
 
 /**
@@ -1531,5 +1532,6 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
 
   return true;
 }
+
 
 

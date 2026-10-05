@@ -434,26 +434,45 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
   const handleMockPdfUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
-      const fileName = e.target.files[0].name;
+      const file = e.target.files[0];
+      const fileName = file.name;
       setIsSyncingAction(true);
-      setTimeout(() => {
-        const cleanCode = selectedPlannerPreset.toUpperCase().trim();
-        const paperCode = selectedPlannerPreset;
-        const is11th = cleanCode.includes('11TH') || cleanCode.startsWith('11-');
-        const is12th = cleanCode.includes('12TH') || cleanCode.startsWith('12-');
-        const planner = (
-             SUNDAY_DROPPER_PC_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
-          || SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
-          || SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
-          || PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode)
-          || SUNDAY_DROPPER_PLANNER_TESTS[0]
-        );
-        const defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
-        setSundayQuestions(defaultQuestions);
-        setPaperRevision(prev => prev + 1);
-        setIsSyncingAction(false);
-        alert(`Successfully parsed and extracted ${defaultQuestions.length} questions from ${fileName} using OCR!`);
-      }, 1500);
+
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        try {
+          const content = ev.target?.result as string;
+          let parsedQs = JSON.parse(content);
+          if (Array.isArray(parsedQs) && parsedQs.length > 0) {
+            setSundayQuestions(parsedQs);
+            setPaperRevision(prev => prev + 1);
+            setIsSyncingAction(false);
+            alert(`Successfully loaded ${parsedQs.length} questions directly from ${fileName} (As-is)!`);
+            return;
+          }
+        } catch (err) {}
+        
+        // Fallback to extraction simulation if it's not a JSON array
+        setTimeout(() => {
+          const cleanCode = selectedPlannerPreset.toUpperCase().trim();
+          const paperCode = selectedPlannerPreset;
+          const is11th = cleanCode.includes('11TH') || cleanCode.startsWith('11-');
+          const is12th = cleanCode.includes('12TH') || cleanCode.startsWith('12-');
+          const planner = (
+               SUNDAY_DROPPER_PC_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+            || SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+            || SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+            || PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+            || SUNDAY_DROPPER_PLANNER_TESTS[0]
+          );
+          const defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
+          setSundayQuestions(defaultQuestions);
+          setPaperRevision(prev => prev + 1);
+          setIsSyncingAction(false);
+          alert(`Successfully parsed and extracted ${defaultQuestions.length} questions from ${fileName} using OCR!`);
+        }, 1500);
+      };
+      reader.readAsText(file);
       e.target.value = '';
     }
   };
@@ -4469,6 +4488,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     </div>
   );
 };
+
 
 
 
