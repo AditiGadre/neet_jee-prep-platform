@@ -246,7 +246,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const isAdminInSession = typeof sessionStorage !== 'undefined' && sessionStorage.getItem('neet_admin_authenticated') === 'true';
 
   // Sunday tests unlock ON SUNDAYS and AFTER ADMIN APPROVAL (Faculty preview bypasses schedule)
-  const isSundayTestUnlocked = (isSundayToday && isAdminAccessGranted) || isAdminInSession;
+  const isSundayTestUnlocked = isAdminAccessGranted;
 
   const activeRepeaterTests = useMemo(() => {
     if (repeaterTrack === 'track1') return SUNDAY_DROPPER_TRACK1_TESTS;
@@ -832,10 +832,6 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       <span className="text-[10px] font-bold bg-emerald-100 text-emerald-900 border border-emerald-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
                         <CheckCircle2 className="w-3 h-3 text-emerald-600" /> ✓ Sunday Test Active
                       </span>
-                    ) : isAdminAccessGranted && !isSundayToday ? (
-                      <span className="text-[10px] font-bold bg-sky-100 text-sky-900 border border-sky-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
-                        <Calendar className="w-3 h-3 text-sky-700" /> Authorized • Unlocks on Sunday
-                      </span>
                     ) : (
                       <span className="text-[10px] font-bold bg-cyan-100 text-cyan-900 border border-cyan-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
                         <Lock className="w-3 h-3" /> Admin Approval Required
@@ -939,11 +935,6 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       <>
                         <Play className="w-4 h-4" />
                         <span>Test in CBT</span>
-                      </>
-                    ) : isAdminAccessGranted && !isSundayToday ? (
-                      <>
-                        <Calendar className="w-4 h-4 text-sky-400" />
-                        <span>Authorized &bull; Unlocks on Sunday</span>
                       </>
                     ) : isSundayToday && !isAdminAccessGranted ? (
                       <>
@@ -1093,6 +1084,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     </div>
   );
 };
+
+
 
 
 

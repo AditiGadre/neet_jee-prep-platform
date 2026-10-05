@@ -276,25 +276,17 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
     }
 
     // 3. If student profile found in cloud/local, use authentic profile; otherwise generate candidate profile & sync to cloud
-    const studentToSave = matchedStudent || {
-      studentName: `Candidate ${cleanPhone.slice(-4)}`,
-      parentName: 'Parent / Guardian',
-      parentPhone: cleanPhone,
-      parentEmail: `student.${cleanPhone}@neetcbt.in`,
-      studentPhone: cleanPhone,
-      domicileState: 'Maharashtra',
-      caste: 'General / Open',
-      email: `student.${cleanPhone}@neetcbt.in`,
-      dob: '2006-08-15',
-      dobPin: '15082006',
-      targetYear: '2027',
-      enrolledAt: new Date().toISOString(),
-      rollNumber: getUniversalRollNumber(cleanPhone, '2027'),
-      devices: ['dev-current'],
-      gender: 'Female',
-      disabilityStatus: 'No Disability',
-      specialReservation: 'None'
-    };
+    
+      if (!matchedStudent) {
+        setMessage({
+          text: 'Candidate profile not found. Please complete the Enrollment Registration first, or wait for admin approval if recently registered.',
+          type: 'error'
+        });
+        return;
+      }
+      
+      const studentToSave = matchedStudent;
+
 
     saveLocalUserSession(studentToSave.email, cleanPhone, studentToSave.studentName, studentToSave);
 
@@ -597,4 +589,5 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
     </div>
   );
 };
+
 
