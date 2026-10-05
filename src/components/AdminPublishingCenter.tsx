@@ -300,7 +300,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
   return (
     <div className="bg-sky-900 text-stone-100 rounded-2xl border border-stone-800 shadow-2xl overflow-hidden my-6">
       {/* Top Universal Publishing Header */}
-      <div className="bg-gradient-to-r from-stone-950 via-stone-900 to-rose-950 border-b border-stone-800 p-6">
+      <div className="bg-gradient-to-r from-stone-950 via-stone-900 to-sky-950 border-b border-stone-800 p-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 rounded-xl bg-sky-500/20 border border-sky-500/40 flex items-center justify-center text-sky-400 shadow-inner">
@@ -333,7 +333,7 @@ export const AdminPublishingCenter: React.FC<Props> = ({
             {/* Publish Action Button */}
             <button
               onClick={() => setIsPublishModalOpen(true)}
-              className="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-emerald-950/50 flex items-center gap-4 transition active:scale-95"
+              className="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-sky-600 hover:from-emerald-500 hover:to-sky-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-emerald-950/50 flex items-center gap-4 transition active:scale-95"
             >
               <Send className="w-4 h-4" />
               Publish Live to 1M+ Students

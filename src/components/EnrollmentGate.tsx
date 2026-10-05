@@ -613,18 +613,18 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
     <div className="fixed inset-0 z-50 bg-sky-900/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
       <div className="bg-sky-50/60 border border-sky-200 rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 my-auto">
         {/* Top Header Banner */}
-        <div className="bg-gradient-to-r from-orange-700 via-rose-700 to-teal-700 p-5 sm:p-6 text-white relative overflow-hidden">
+        <div className="bg-gradient-to-r from-sky-700 via-sky-700 to-sky-700 p-5 sm:p-6 text-white relative overflow-hidden">
           <div className="absolute top-0 right-0 -mt-8 -mr-8 w-40 h-40 bg-sky-50/60/10 rounded-full blur-2xl pointer-events-none" />
 
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2.5">
-              <div className="w-9 h-9 bg-sky-50/60/20 backdrop-blur-md rounded-xl flex items-center justify-center font-black text-base border border-white/30 shadow-inner transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
+              <div className="w-9 h-9 bg-sky-50/60/20 backdrop-blur-md rounded-xl flex items-center justify-center font-black text-base border border-white/30 shadow-inner transition-all duration-500 hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
                 nc
               </div>
               <div>
                 <div className="flex items-center space-x-2">
                   <span className="font-extrabold text-lg tracking-tight text-white">
-                    NeetCbt<span className="text-teal-300"> Exam Test</span>
+                    NeetCbt<span className="text-sky-300"> Exam Test</span>
                   </span>
                   <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-sky-400 text-sky-950 shadow-xs">
                     Candidate Portal
@@ -645,7 +645,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                 <button
                   type="button"
                   onClick={onClose}
-                  className="w-8 h-8 rounded-xl bg-sky-50/60/20 hover:bg-sky-50/60/30 flex items-center justify-center text-white font-bold text-sm transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                  className="w-8 h-8 rounded-xl bg-sky-50/60/20 hover:bg-sky-50/60/30 flex items-center justify-center text-white font-bold text-sm transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   title="Explore as Guest Candidate"
                 >
                   ✕
@@ -656,7 +656,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
           <div className="mt-4 pt-3 border-t border-white/20">
             <h2 className="text-base sm:text-lg font-bold text-white flex items-center gap-1.5">
-              <GraduationCap className="w-5 h-5 text-teal-300" /> Student Verification & Security Enrollment
+              <GraduationCap className="w-5 h-5 text-sky-300" /> Student Verification & Security Enrollment
             </h2>
             <p className="text-xs text-sky-100 mt-0.5">
               Complete your profile. Your <strong>Date of Birth (DOB)</strong> will serve as the encryption password for all downloaded Test Papers & Scorecard PDFs.
@@ -742,7 +742,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
           <form onSubmit={handleSubmit} className="p-5 sm:p-6 space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {/* Photo Upload Section */}
-              <div className="sm:col-span-2 p-3.5 sm:p-6 rounded-2xl bg-gradient-to-r from-orange-50 to-rose-50/50 border border-sky-100 flex flex-col sm:flex-row items-center gap-4">
+              <div className="sm:col-span-2 p-3.5 sm:p-6 rounded-2xl bg-gradient-to-r from-sky-50 to-sky-50/50 border border-sky-100 flex flex-col sm:flex-row items-center gap-4">
                 <div className="relative group shrink-0">
                   <div className="w-20 h-20 rounded-2xl border-2 border-dashed border-sky-400 overflow-hidden bg-sky-50/60 shadow-xs flex items-center justify-center">
                     {studentPhoto ? (
@@ -1070,7 +1070,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                 <label className="block text-xs font-bold text-sky-800 mb-1">
                   Gender <span className="text-sky-500">*</span>
                 </label>
-                <div className="grid grid-cols-3 gap-1 bg-sky-50 p-1 border border-sky-200 rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
+                <div className="grid grid-cols-3 gap-1 bg-sky-50 p-1 border border-sky-200 rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
                   {(['Female', 'Male', 'Third Gender'] as const).map(g => (
                     <button
                       key={g}
@@ -1286,7 +1286,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-orange-600 via-rose-600 to-teal-600 hover:from-orange-700 hover:to-teal-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-sky-600 via-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
               >
                 <Lock className="w-4 h-4" />
                 <span>{isSubmitting ? 'Verifying 2-Device Concurrency & DOB...' : 'Submit Enrollment & Enter NeetCbt Exam Test'}</span>
@@ -1298,7 +1298,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
                   <button
                     type="button"
                     onClick={onClose}
-                    className="text-xs font-semibold text-sky-600 hover:text-sky-900 transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                    className="text-xs font-semibold text-sky-600 hover:text-sky-900 transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   >
                     Close Enrollment Form ✕
                   </button>

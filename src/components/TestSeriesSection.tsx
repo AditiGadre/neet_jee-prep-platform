@@ -782,7 +782,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 key={mock.id}
                 className={`p-5 rounded-2xl border transition hover:shadow-md flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 ${
                   isLive && isAdminAccessGranted
-                    ? 'bg-gradient-to-br from-sky-50/70 via-white to-teal-50/40 border-sky-400 shadow-sm'
+                    ? 'bg-gradient-to-br from-sky-50/70 via-white to-sky-50/40 border-sky-400 shadow-sm'
                     : 'bg-sky-50/60 border-sky-200'
                 }`}
               >
@@ -833,8 +833,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         <CheckCircle2 className="w-3 h-3 text-emerald-600" /> ✓ Sunday Test Active
                       </span>
                     ) : isAdminAccessGranted && !isSundayToday ? (
-                      <span className="text-[10px] font-bold bg-teal-100 text-teal-900 border border-teal-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
-                        <Calendar className="w-3 h-3 text-teal-700" /> Authorized • Unlocks on Sunday
+                      <span className="text-[10px] font-bold bg-sky-100 text-sky-900 border border-sky-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
+                        <Calendar className="w-3 h-3 text-sky-700" /> Authorized • Unlocks on Sunday
                       </span>
                     ) : (
                       <span className="text-[10px] font-bold bg-cyan-100 text-cyan-900 border border-cyan-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
@@ -898,12 +898,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="p-3.5 rounded-xl bg-teal-50/70 border border-teal-200 text-xs">
-                        <div className="text-[10px] font-bold text-teal-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><BookOpen className="w-3 h-3 text-teal-600" /> Botany</span>
-                          <span className="font-mono text-teal-600">{botCount} Qs &bull; {botCount * 4}M</span>
+                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
+                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><BookOpen className="w-3 h-3 text-sky-600" /> Botany</span>
+                          <span className="font-mono text-sky-600">{botCount} Qs &bull; {botCount * 4}M</span>
                         </div>
-                        <div className="text-[11px] font-semibold text-teal-950 mt-1 leading-snug">
+                        <div className="text-[11px] font-semibold text-sky-950 mt-1 leading-snug">
                           {displayBotany}
                         </div>
                       </div>
@@ -928,7 +928,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     className={`px-5 py-3 rounded-xl text-white text-xs font-bold shadow-md transition flex items-center justify-center space-x-2 cursor-pointer w-full sm:w-auto ${
                       isSundayTestUnlocked
                         ? isLive
-                          ? 'bg-gradient-to-r from-sky-600 via-rose-600 to-teal-600 hover:from-sky-700 hover:to-teal-700 shadow-cyan-500/20'
+                          ? 'bg-gradient-to-r from-sky-600 via-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 shadow-cyan-500/20'
                           : 'bg-sky-600 hover:bg-sky-700'
                         : isAdminAccessGranted && !isSundayToday
                         ? 'bg-sky-700 hover:bg-sky-800 border border-stone-600'
@@ -942,7 +942,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       </>
                     ) : isAdminAccessGranted && !isSundayToday ? (
                       <>
-                        <Calendar className="w-4 h-4 text-teal-400" />
+                        <Calendar className="w-4 h-4 text-sky-400" />
                         <span>Authorized &bull; Unlocks on Sunday</span>
                       </>
                     ) : isSundayToday && !isAdminAccessGranted ? (
@@ -971,8 +971,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {/* Header */}
             <div className={`p-5 text-white flex items-center justify-between ${
               isAdminAccessGranted && !isSundayToday
-                ? 'bg-gradient-to-r from-teal-700 via-sky-800 to-stone-900'
-                : 'bg-gradient-to-r from-sky-700 via-rose-700 to-stone-900'
+                ? 'bg-gradient-to-r from-sky-700 via-sky-800 to-stone-900'
+                : 'bg-gradient-to-r from-sky-700 via-sky-700 to-stone-900'
             }`}>
               <div className="space-y-1">
                 <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase font-mono ${
@@ -985,7 +985,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 <h3 className="text-lg font-bold flex items-center gap-4">
                   {isAdminAccessGranted && !isSundayToday ? (
                     <>
-                      <Calendar className="w-5 h-5 text-teal-300" />
+                      <Calendar className="w-5 h-5 text-sky-300" />
                       <span>Scheduled for Sunday (720M CBT)</span>
                     </>
                   ) : (
@@ -1068,7 +1068,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 {!isAdminAccessGranted && !accessRequestSent && (
                   <button
                     onClick={handleSendAccessRequest}
-                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-sky-600 to-rose-600 hover:from-sky-700 hover:to-rose-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
+                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   >
                     <Send className="w-4 h-4" />
                     <span>Send Access Request to Administrator</span>

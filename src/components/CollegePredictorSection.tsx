@@ -153,7 +153,7 @@ export const CollegePredictorSection: React.FC<{ initialAir?: number; isInsideSc
             <button
               onClick={handlePredict}
               disabled={!userRank || loading}
-              className="w-full p-3 bg-sky-600 hover:bg-sky-700 disabled:opacity-50 text-white font-bold rounded-xl transition shadow-md shadow-amber-200 flex justify-center items-center gap-4"
+              className="w-full p-3 bg-sky-600 hover:bg-sky-700 disabled:opacity-50 text-white font-bold rounded-xl transition shadow-md shadow-sky-200 flex justify-center items-center gap-4"
             >
               <Search className="w-5 h-5" />
               <span>Predict Colleges</span>

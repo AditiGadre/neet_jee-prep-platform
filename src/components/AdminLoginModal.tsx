@@ -82,9 +82,9 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
     <div className="fixed inset-0 z-50 bg-sky-950/85 backdrop-blur-md flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
       <div className="bg-sky-900 border border-stone-700/80 rounded-3xl shadow-2xl max-w-md w-full overflow-hidden text-stone-100 animate-in zoom-in-95 duration-200">
         {/* Top Header */}
-        <div className="bg-gradient-to-r from-stone-900 via-rose-950 to-stone-900 p-5 border-b border-stone-800 flex items-center justify-between">
+        <div className="bg-gradient-to-r from-stone-900 via-sky-950 to-stone-900 p-5 border-b border-stone-800 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 to-rose-600 flex items-center justify-center shadow-lg shadow-amber-500/20">
+            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-sky-500 to-sky-600 flex items-center justify-center shadow-lg shadow-sky-500/20">
               <ShieldAlert className="w-5 h-5 text-white" />
             </div>
             <div>
@@ -209,7 +209,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
             <button
               type="submit"
               disabled={isAuthenticating}
-              className="w-full py-3 rounded-2xl bg-gradient-to-r from-amber-500 via-rose-600 to-rose-600 hover:from-amber-600 hover:to-rose-700 text-white text-xs font-bold shadow-lg shadow-rose-900/30 transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full py-3 rounded-2xl bg-gradient-to-r from-sky-500 via-sky-600 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white text-xs font-bold shadow-lg shadow-sky-900/30 transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <ShieldCheck className="w-4 h-4" />
               <span>

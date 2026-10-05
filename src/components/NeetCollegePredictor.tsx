@@ -603,19 +603,19 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
   return (
     <div className={`space-y-6 ${isInsideScorecard ? 'w-full text-stone-100' : 'max-w-7xl mx-auto p-3 sm:p-6 lg:p-6 text-stone-100'} animate-in fade-in duration-300`}>
       {/* 1. Header Banner & Official MCC 113-Page Attribution */}
-      <div className="bg-gradient-to-r from-stone-900 via-rose-950 to-stone-900 border border-sky-500/30 rounded-2xl p-6 shadow-xl relative overflow-hidden">
+      <div className="bg-gradient-to-r from-stone-900 via-sky-950 to-stone-900 border border-sky-500/30 rounded-2xl p-6 shadow-xl relative overflow-hidden">
         <div className="absolute -right-10 -bottom-10 w-64 h-64 bg-sky-600/10 rounded-full blur-3xl pointer-events-none"></div>
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-1.5">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-sky-500/20 text-sky-300 text-xs font-semibold border border-sky-500/30">
-              <Sparkles className="w-3.5 h-3.5 text-teal-400" />
+              <Sparkles className="w-3.5 h-3.5 text-sky-400" />
               <span>Official NEET-UG 2026 Maharashtra State CAP (21,447 Round 1 & Round 2 Allotments) & AIQ Selection Dataset</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
               {isInsideScorecard ? (
                 <>SECTION 7: Predicted Medical Colleges & AIQ Seat Allotment Matrix (2026)</>
               ) : (
-                <>NEET MBBS & BDS <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-orange-400">College Predictor Matrix (2026)</span></>
+                <>NEET MBBS & BDS <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-sky-400">College Predictor Matrix (2026)</span></>
               )}
             </h2>
             <p className="text-sm text-stone-300 max-w-3xl leading-relaxed">
@@ -641,11 +641,11 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             onClick={() => setActiveTab('forecaster')}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
               activeTab === 'forecaster'
-                ? 'bg-sky-600 text-white shadow-lg shadow-amber-600/30'
+                ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/30'
                 : 'bg-sky-800/70 text-stone-300 hover:bg-sky-800 hover:text-white'
             }`}
           >
-            <SlidersHorizontal className="w-4 h-4 text-teal-400" />
+            <SlidersHorizontal className="w-4 h-4 text-sky-400" />
             <span>Interactive Seat Forecaster</span>
             <span className="ml-1 px-2 py-0.5 rounded-full text-[10px] bg-sky-900/60 text-sky-200 border border-sky-500/30 font-mono">
               {stats.totalCleared} Options
@@ -656,7 +656,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             onClick={() => setActiveTab('matrix')}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
               activeTab === 'matrix'
-                ? 'bg-sky-600 text-white shadow-lg shadow-amber-600/30'
+                ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/30'
                 : 'bg-sky-800/70 text-stone-300 hover:bg-sky-800 hover:text-white'
             }`}
           >
@@ -671,7 +671,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             onClick={() => setActiveTab('benchmarks')}
             className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
               activeTab === 'benchmarks'
-                ? 'bg-sky-600 text-white shadow-lg shadow-amber-600/30'
+                ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/30'
                 : 'bg-sky-800/70 text-stone-300 hover:bg-sky-800 hover:text-white'
             }`}
           >
@@ -707,7 +707,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
           <div className="bg-sky-900/90 border border-stone-800 rounded-2xl p-5 sm:p-6 shadow-md backdrop-blur-sm space-y-5">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-800 pb-3">
               <div className="flex items-center space-x-2 text-white font-bold text-sm">
-                <SlidersHorizontal className="w-4 h-4 text-teal-400" />
+                <SlidersHorizontal className="w-4 h-4 text-sky-400" />
                 <span>Candidate Credentials & Prediction Filters</span>
               </div>
 
@@ -727,7 +727,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   onClick={() => setCounselingScope('AIQ')}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
                     counselingScope === 'AIQ'
-                      ? 'bg-teal-600 text-white shadow-xs'
+                      ? 'bg-sky-600 text-white shadow-xs'
                       : 'text-stone-400 hover:text-white'
                   }`}
                 >
@@ -761,7 +761,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     value={rankInput}
                     onChange={e => handleRankChange(e.target.value)}
                     placeholder="e.g. 26178"
-                    className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3.5 py-2.5 text-sm text-white font-mono focus:border-teal-400 focus:outline-hidden focus:ring-1 focus:ring-teal-400"
+                    className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3.5 py-2.5 text-sm text-white font-mono focus:border-sky-400 focus:outline-hidden focus:ring-1 focus:ring-sky-400"
                   />
                   <span className="absolute right-3 top-2.5 text-xs text-sky-600 font-semibold">AIR</span>
                 </div>
@@ -776,7 +776,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <select
                   value={selectedCategory}
                   onChange={e => setSelectedCategory(e.target.value)}
-                  className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:border-teal-400 focus:outline-hidden focus:ring-1 focus:ring-teal-400 cursor-pointer"
+                  className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:border-sky-400 focus:outline-hidden focus:ring-1 focus:ring-sky-400 cursor-pointer"
                 >
                   {CATEGORY_OPTIONS.map(opt => (
                     <option key={opt.value} value={opt.value}>
@@ -828,7 +828,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <select
                   value={selectedRound}
                   onChange={e => setSelectedRound(e.target.value as any)}
-                  className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white focus:border-teal-400 focus:outline-hidden"
+                  className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white focus:border-sky-400 focus:outline-hidden"
                 >
                   <option value="ALL">Predict Across All Rounds (Recommended)</option>
                   <option value="Round 1">Round 1 (State CAP & MCC AIQ)</option>
@@ -843,7 +843,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <select
                   value={collegeTypeFilter}
                   onChange={e => setCollegeTypeFilter(e.target.value as any)}
-                  className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white focus:border-teal-400 focus:outline-hidden"
+                  className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white focus:border-sky-400 focus:outline-hidden"
                 >
                   <option value="ALL">All Institutions (Govt + Deemed + Private)</option>
                   <option value="GOVT">Government / AIIMS / Central / ESIC Only</option>
@@ -857,7 +857,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <select
                   value={gender}
                   onChange={e => setGender(e.target.value as any)}
-                  className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white focus:border-teal-400 focus:outline-hidden"
+                  className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white focus:border-sky-400 focus:outline-hidden"
                 >
                   <option value="ALL">Both Open & Women Quota (All)</option>
                   <option value="FEMALE">Female Candidate (Includes Women Quotas)</option>
@@ -875,7 +875,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     value={searchQuery}
                     onChange={e => setSearchQuery(e.target.value)}
                     placeholder="e.g. AIIMS Delhi, MAMC, Pune, KGMU..."
-                    className="w-full bg-sky-950 border border-stone-700 rounded-xl pl-8 pr-3 py-2 text-xs text-white focus:border-teal-400 focus:outline-hidden"
+                    className="w-full bg-sky-950 border border-stone-700 rounded-xl pl-8 pr-3 py-2 text-xs text-white focus:border-sky-400 focus:outline-hidden"
                   />
                 </div>
               </div>
@@ -895,11 +895,11 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             </div>
 
             <div className="bg-sky-900 border border-stone-800 rounded-xl p-6 flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center shrink-0">
+              <div className="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center shrink-0">
                 <Globe className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-2xl font-black text-teal-400">{stats.aiqCleared}</div>
+                <div className="text-2xl font-black text-sky-400">{stats.aiqCleared}</div>
                 <div className="text-xs text-stone-400 font-semibold">All India (AIQ) Seats</div>
               </div>
             </div>
@@ -970,7 +970,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 {clearedList.slice(0, 90).map(entry => (
                   <div
                     key={entry.id}
-                    className="bg-sky-900/90 border border-stone-800 hover:border-stone-700 rounded-2xl p-6.5 shadow-md flex flex-col justify-between transition group hover:shadow-xl hover:shadow-amber-950/20"
+                    className="bg-sky-900/90 border border-stone-800 hover:border-stone-700 rounded-2xl p-6.5 shadow-md flex flex-col justify-between transition group hover:shadow-xl hover:shadow-sky-950/20"
                   >
                     <div className="space-y-3">
                       {/* Top badges */}
@@ -979,7 +979,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                           className={`px-2.5 py-0.5 rounded-full text-[11px] font-black uppercase tracking-wider ${
                             entry.course === 'MBBS'
                               ? 'bg-sky-600/20 text-sky-400 border border-sky-500/30'
-                              : 'bg-teal-600/20 text-teal-400 border border-teal-500/30'
+                              : 'bg-sky-600/20 text-sky-400 border border-sky-500/30'
                           }`}
                         >
                           {entry.course}
@@ -988,7 +988,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                         <span
                           className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
                             entry.counselingType === 'AIQ'
-                              ? 'bg-teal-500/20 text-teal-300 border border-teal-500/30'
+                              ? 'bg-sky-500/20 text-sky-300 border border-sky-500/30'
                               : 'bg-sky-500/20 text-sky-300 border border-sky-500/30'
                           }`}
                         >
@@ -1012,7 +1012,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                             entry.probability === 'HIGH'
                               ? 'bg-emerald-500/10 text-emerald-400'
                               : entry.probability === 'MODERATE'
-                              ? 'bg-sky-500/10 text-teal-400'
+                              ? 'bg-sky-500/10 text-sky-400'
                               : 'bg-sky-500/10 text-sky-400'
                           }`}
                         >
@@ -1023,7 +1023,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       {/* College title */}
                       <div>
                         <div className="text-xs text-sky-600 font-mono">Code: {entry.collegeCode}</div>
-                        <div className="text-sm font-extrabold text-white group-hover:text-teal-300 transition line-clamp-2">
+                        <div className="text-sm font-extrabold text-white group-hover:text-sky-300 transition line-clamp-2">
                           {entry.collegeName}
                         </div>
                         {entry.state && (
@@ -1067,7 +1067,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                           {entry.round} ({formatYearDisplay(entry.year)})
                         </span>
                       </div>
-                      <span className="text-[10px] font-mono text-teal-400/80 font-semibold">
+                      <span className="text-[10px] font-mono text-sky-400/80 font-semibold">
                         {entry.counselingType === 'AIQ' ? 'MCC AIQ (R1/R2)' : 'CET Cell Verified'}
                       </span>
                     </div>
@@ -1176,7 +1176,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               </div>
 
               {userAir > 0 && (
-                <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-xl bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs font-mono shrink-0">
+                <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-xl bg-sky-500/10 border border-sky-500/30 text-sky-300 text-xs font-mono shrink-0">
                   <span>Candidate Rank: <strong className="text-emerald-300 font-bold">AIR #{userAir.toLocaleString()}</strong></span>
                 </div>
               )}
@@ -1220,10 +1220,10 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                             : 'hover:bg-sky-800/40'
                         }`}
                       >
-                        <td className="p-3.5 font-mono font-bold text-teal-300 whitespace-nowrap">
+                        <td className="p-3.5 font-mono font-bold text-sky-300 whitespace-nowrap">
                           {row.airRange}
                           {isCandidateRow && (
-                            <span className="ml-2 px-1.5 py-0.5 rounded text-[10px] bg-teal-500 text-stone-950 font-black">
+                            <span className="ml-2 px-1.5 py-0.5 rounded text-[10px] bg-sky-500 text-stone-950 font-black">
                               YOUR RANK
                             </span>
                           )}
@@ -1249,7 +1249,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                           )}
                         </td>
                         <td className="p-3.5 text-sky-300">{row.centralAiims}</td>
-                        <td className="p-3.5 text-teal-300">{row.govtBds}</td>
+                        <td className="p-3.5 text-sky-300">{row.govtBds}</td>
                         <td className="p-3.5 text-stone-400">{row.deemedPvt}</td>
                       </tr>
                     );
@@ -1261,7 +1261,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             {/* Explanatory Matrix Insights */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
               <div className="bg-sky-950/70 border border-stone-800 rounded-xl p-6 space-y-1.5">
-                <div className="text-xs font-bold text-teal-400 uppercase tracking-wide">
+                <div className="text-xs font-bold text-sky-400 uppercase tracking-wide">
                   1. Govt MBBS Open/OBC Cutoff
                 </div>
                 <div className="text-sm font-black text-white">AIR 26,178 (Closing Boundary)</div>
@@ -1301,7 +1301,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
             <div className="bg-sky-900 border border-stone-800 rounded-xl p-6 space-y-1">
               <span className="text-[10px] font-bold text-stone-400 uppercase tracking-wider">OPEN / UR (Govt MBBS)</span>
-              <div className="text-xl font-black text-teal-400 font-mono">AIR 26,178</div>
+              <div className="text-xl font-black text-sky-400 font-mono">AIR 26,178</div>
               <div className="text-xs text-stone-400">Closing Cutoff Rank</div>
             </div>
 
@@ -1313,7 +1313,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
 
             <div className="bg-sky-900 border border-stone-800 rounded-xl p-6 space-y-1">
               <span className="text-[10px] font-bold text-stone-400 uppercase tracking-wider">EWS (Govt MBBS)</span>
-              <div className="text-xl font-black text-teal-400 font-mono">AIR 27,243</div>
+              <div className="text-xl font-black text-sky-400 font-mono">AIR 27,243</div>
               <div className="text-xs text-stone-400">Closing Cutoff Rank</div>
             </div>
 
@@ -1367,7 +1367,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-sky-600/20 text-sky-300 border border-sky-500/30">
                         {tier.tier}
                       </span>
-                      <span className="text-xs font-mono font-bold text-teal-400">
+                      <span className="text-xs font-mono font-bold text-sky-400">
                         {tier.airRange}
                       </span>
                     </div>
@@ -1375,7 +1375,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     <h4 className="text-base font-black text-white">{tier.name}</h4>
                     <p className="text-xs text-stone-400 leading-relaxed">{tier.description}</p>
                     <div className="text-[11px] font-semibold text-stone-300">
-                      Typical Qualifying Rank: <span className="text-teal-400 font-mono">{tier.airRange}</span>
+                      Typical Qualifying Rank: <span className="text-sky-400 font-mono">{tier.airRange}</span>
                     </div>
 
                     {/* Colleges list */}

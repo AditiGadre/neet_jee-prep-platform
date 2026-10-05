@@ -83,9 +83,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
   return (
     <aside className="w-full lg:w-64 bg-sky-50/60 border-r border-sky-200 flex flex-col shrink-0 text-sky-950 select-none">
       {/* Platform Header in Sidebar */}
-      <div className="p-6 border-b border-stone-100 bg-gradient-to-b from-amber-50/50 to-white">
+      <div className="p-6 border-b border-stone-100 bg-gradient-to-b from-sky-50/50 to-white">
         <div className="flex items-center space-x-2">
-          <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-orange-600 to-teal-500 flex items-center justify-center font-black text-xs shadow-xs">
+          <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-sky-600 to-sky-500 flex items-center justify-center font-black text-xs shadow-xs">
             nc
           </div>
           <div>
@@ -111,7 +111,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 onClick={() => onSelectTab(item.id)}
                 className={`w-full text-left p-3.5 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                   isActive
-                    ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold shadow-md shadow-orange-900/10'
+                    ? 'bg-gradient-to-r from-sky-500 to-sky-500 text-white font-bold shadow-md shadow-sky-900/10'
                     : 'text-sky-700 hover:bg-sky-50 hover:text-sky-700'
                 }`}
               >
@@ -177,7 +177,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
       {/* Verified Banner in Bottom Sidebar */}
       <div className="p-3 bg-sky-50/80 border-t border-sky-200">
-        <div className="p-3.5 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50 border border-sky-200/60 space-y-1">
+        <div className="p-3.5 rounded-xl bg-gradient-to-br from-sky-50 to-sky-50 border border-sky-200/60 space-y-1">
           <div className="flex items-center space-x-1.5 text-xs font-bold text-sky-700">
             <ShieldCheck className="w-3.5 h-3.5 text-sky-500" />
             <span>NeetCbt Verified</span>

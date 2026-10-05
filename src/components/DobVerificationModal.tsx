@@ -77,7 +77,7 @@ export const DobVerificationModal: React.FC<DobVerificationModalProps> = ({
     <div className="fixed inset-0 z-[100] bg-sky-900/80 backdrop-blur-xs flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
       <div className="bg-sky-50/60 border border-sky-200 rounded-3xl shadow-2xl max-w-md w-full overflow-hidden animate-in zoom-in-95 duration-200 text-sky-950">
         {/* Header */}
-        <div className="bg-gradient-to-r from-orange-700 via-rose-700 to-teal-700 p-5 text-white flex items-center justify-between">
+        <div className="bg-gradient-to-r from-sky-700 via-sky-700 to-sky-700 p-5 text-white flex items-center justify-between">
           <div className="space-y-1">
             <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-sky-400 text-sky-950 uppercase font-mono tracking-wider">
               DOB Security Verification
@@ -153,7 +153,7 @@ export const DobVerificationModal: React.FC<DobVerificationModalProps> = ({
             <button
               type="submit"
               disabled={isSubmitting || pin.length < 8}
-              className="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-orange-600 to-rose-600 hover:from-orange-700 hover:to-rose-700 text-white text-xs font-bold shadow-md hover:shadow-lg transition flex items-center justify-center space-x-1.5 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white text-xs font-bold shadow-md hover:shadow-lg transition flex items-center justify-center space-x-1.5 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <ShieldCheck className="w-4 h-4 text-sky-300" />
               <span>{isSubmitting ? 'Generating PDF...' : 'Verify & Download PDF'}</span>

@@ -790,7 +790,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
           {/* Top Score Cards */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-200 text-center">
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-sky-500/10 border border-emerald-200 text-center">
               <span className="text-[10px] font-bold text-sky-600 uppercase">Score Obtained</span>
               <div className="text-2xl font-black text-emerald-700 font-mono mt-0.5">
                 {result.score} <span className="text-xs text-stone-400 font-normal">/ {result.totalMarks}</span>
@@ -951,7 +951,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
         </div>
 
         {/* Quick Review CTA */}
-        <div className="p-5 rounded-3xl bg-gradient-to-r from-sky-600 to-rose-700 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-md">
+        <div className="p-5 rounded-3xl bg-gradient-to-r from-sky-600 to-sky-700 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-md">
           <div className="space-y-1">
             <h4 className="font-bold text-sm sm:text-base">Review Step-by-Step Question Solutions</h4>
             <p className="text-xs text-sky-100">Examine verified solutions, key formulas, and rationale for all {questions.length} questions.</p>
@@ -1010,7 +1010,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     <div className="fixed inset-0 z-50 bg-sky-950/90 backdrop-blur-md flex flex-col overflow-hidden text-sky-950">
       <div className="w-full h-full bg-sky-50 flex flex-col overflow-hidden">
         {/* Top Navbar */}
-        <div className="px-4 sm:px-6 py-2.5 bg-gradient-to-r from-sky-700 via-rose-700 to-teal-700 text-white flex items-center justify-between shadow-md shrink-0">
+        <div className="px-4 sm:px-6 py-2.5 bg-gradient-to-r from-sky-700 via-sky-700 to-sky-700 text-white flex items-center justify-between shadow-md shrink-0">
           <div className="flex items-center space-x-3">
             <div className="w-8 h-8 rounded-xl bg-sky-50/60/20 backdrop-blur-md flex items-center justify-center font-black text-sm border border-white/30">
               nc
@@ -1018,7 +1018,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
             <div>
               <div className="flex items-center space-x-2">
                 <span className="font-extrabold text-sm sm:text-base tracking-tight text-white">
-                  NeetCbt<span className="text-teal-300"> {activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Test` : 'Exam Test'} ({maxTotalMarks} Marks)</span>
+                  NeetCbt<span className="text-sky-300"> {activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Test` : 'Exam Test'} ({maxTotalMarks} Marks)</span>
                 </span>
                 <span className="px-2 py-0.2 rounded-full text-[10px] font-bold bg-cyan-400 text-sky-950">
                   {isSundayTest ? 'Sunday 180-Question Mock (720M)' : activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Custom Test (${maxTotalMarks}M)` : `CBT Practice (${maxTotalMarks}M)`}
@@ -1039,7 +1039,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     : 'bg-sky-50/60/20 backdrop-blur-md border-white/30 text-white'
                 }`}
               >
-                <ClockIcon className="w-4 h-4 text-teal-300" />
+                <ClockIcon className="w-4 h-4 text-sky-300" />
                 <span>Time Left: {formatTimer(timeLeftSeconds)}</span>
               </div>
             )}
@@ -1159,7 +1159,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           <div
                             className={`w-7 h-7 rounded-xl flex items-center justify-center text-xs font-extrabold shrink-0 transition ${
                               isSelected
-                                ? 'bg-gradient-to-tr from-sky-600 to-rose-600 text-white shadow-xs'
+                                ? 'bg-gradient-to-tr from-sky-600 to-sky-600 text-white shadow-xs'
                                 : 'bg-sky-50 text-sky-700 border border-sky-300'
                             }`}
                           >
@@ -1278,7 +1278,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               {/* Submit Button in Sidebar */}
               <button
                 onClick={handleSubmitTest}
-                className="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold text-xs shadow-md transition cursor-pointer"
+                className="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-sky-600 hover:from-emerald-700 hover:to-sky-700 text-white font-bold text-xs shadow-md transition cursor-pointer"
               >
                 Submit {activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Test` : 'Complete CBT'} ({maxTotalMarks}M)
               </button>
@@ -1323,7 +1323,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                 <div className="flex items-center flex-wrap gap-4">
                   <button
                     onClick={() => downloadTestScorecardPDF({ ...testResult, questions })}
-                    className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-xs font-bold text-white flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                    className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-sky-600 hover:from-emerald-700 hover:to-sky-700 text-xs font-bold text-white flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
                   >
                     <FileIcon className="w-4 h-4" />
                     <span>Scorecard (PDF)</span>
@@ -1430,7 +1430,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                     {/* Executive Top-Level KPI Summary */}
                     <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
-                      <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-200 text-center">
+                      <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-sky-500/10 border border-emerald-200 text-center">
                         <span className="text-[10px] font-bold text-sky-600 uppercase">Current Score</span>
                         <div className="text-2xl font-black text-emerald-700 font-mono mt-0.5">
                           {testResult.score} <span className="text-xs text-stone-400 font-normal">/ {testResult.totalMarks || 720}</span>

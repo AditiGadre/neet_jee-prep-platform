@@ -16,10 +16,10 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
     <div className="fixed inset-0 z-50 bg-sky-900/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-in fade-in duration-200">
       <div className="bg-sky-50/60 border border-sky-200 rounded-2xl sm:rounded-3xl shadow-2xl max-w-3xl w-full max-h-[90vh] flex flex-col overflow-hidden animate-in zoom-in-95 duration-200 text-sky-950 my-auto">
         {/* Modal Header */}
-        <div className="bg-gradient-to-r from-orange-700 via-rose-700 to-stone-900 p-5 sm:p-6 text-white flex items-center justify-between shrink-0">
+        <div className="bg-gradient-to-r from-sky-700 via-sky-700 to-stone-900 p-5 sm:p-6 text-white flex items-center justify-between shrink-0">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-sky-50/60/15 backdrop-blur-md rounded-xl flex items-center justify-center border border-white/25">
-              <Scale className="w-5 h-5 text-teal-300" />
+              <Scale className="w-5 h-5 text-sky-300" />
             </div>
             <div>
               <div className="flex items-center space-x-2">

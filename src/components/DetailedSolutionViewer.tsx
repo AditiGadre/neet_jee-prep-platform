@@ -340,7 +340,7 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
           return (
             <div
               key={sIdx}
-              className="rounded-2xl border border-sky-200 bg-gradient-to-br from-orange-50/80 via-rose-50/30 to-white p-3.5 sm:p-6 space-y-2 shadow-xs"
+              className="rounded-2xl border border-sky-200 bg-gradient-to-br from-sky-50/80 via-sky-50/30 to-white p-3.5 sm:p-6 space-y-2 shadow-xs"
             >
               <div className="flex items-center gap-4 text-xs font-bold text-sky-900 uppercase tracking-wider border-b border-sky-100 pb-1.5">
                 {sec.icon}
@@ -361,7 +361,7 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
           return (
             <div
               key={sIdx}
-              className="rounded-2xl border border-sky-200/90 bg-gradient-to-br from-amber-50/60 via-orange-50/20 to-white p-3.5 sm:p-6 space-y-3 shadow-xs"
+              className="rounded-2xl border border-sky-200/90 bg-gradient-to-br from-sky-50/60 via-sky-50/20 to-white p-3.5 sm:p-6 space-y-3 shadow-xs"
             >
               <div className="flex items-center justify-between border-b border-sky-200/60 pb-1.5">
                 <div className="flex items-center gap-4 text-xs font-bold text-sky-950 uppercase tracking-wider">

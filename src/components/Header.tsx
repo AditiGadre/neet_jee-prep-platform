@@ -127,7 +127,7 @@ export const Header: React.FC<HeaderProps> = ({
             className={`flex items-center space-x-2.5 ${onNavigateHome ? 'cursor-pointer hover:opacity-90 transition' : ''}`}
             title="NeetCbt Exam Platform"
           >
-            <div className="w-8 h-8 bg-gradient-to-tr from-sky-600 to-rose-600 rounded-lg flex items-center justify-center text-white font-black text-sm shadow-xs tracking-tight">
+            <div className="w-8 h-8 bg-gradient-to-tr from-sky-600 to-sky-600 rounded-lg flex items-center justify-center text-white font-black text-sm shadow-xs tracking-tight">
               nc
             </div>
             <div>
@@ -168,7 +168,7 @@ export const Header: React.FC<HeaderProps> = ({
                 onClick={() => setPackagesDropdownOpen(!packagesDropdownOpen)}
                 className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition border cursor-pointer ${
                   packagesDropdownOpen
-                    ? 'bg-gradient-to-r from-sky-600 to-rose-600 text-white border-sky-600 shadow-xs'
+                    ? 'bg-gradient-to-r from-sky-600 to-sky-600 text-white border-sky-600 shadow-xs'
                     : 'bg-sky-50/60 hover:bg-sky-50 text-sky-800 border-sky-200 hover:border-sky-300 shadow-2xs'
                 }`}
                 title="View NEET Preparation Packages"
@@ -254,7 +254,7 @@ export const Header: React.FC<HeaderProps> = ({
                           setPackagesDropdownOpen(false);
                           if (onOpenEnrollment) onOpenEnrollment();
                         }}
-                        className="w-full py-2 px-3 rounded-lg bg-gradient-to-r from-sky-600 to-rose-600 hover:from-sky-700 hover:to-rose-700 text-white font-bold text-xs shadow-xs hover:shadow-md transition cursor-pointer"
+                        className="w-full py-2 px-3 rounded-lg bg-gradient-to-r from-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white font-bold text-xs shadow-xs hover:shadow-md transition cursor-pointer"
                       >
                         Instant Enrollment & Access →
                       </button>
@@ -325,7 +325,7 @@ export const Header: React.FC<HeaderProps> = ({
                       className="w-7 h-7 rounded-full object-cover border border-sky-400 shrink-0"
                     />
                   ) : (
-                    <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-sky-600 to-rose-600 text-white font-bold text-xs flex items-center justify-center shrink-0 uppercase shadow-2xs">
+                    <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-sky-600 to-sky-600 text-white font-bold text-xs flex items-center justify-center shrink-0 uppercase shadow-2xs">
                       {userName.charAt(0)}
                     </div>
                   )}
@@ -359,7 +359,7 @@ export const Header: React.FC<HeaderProps> = ({
                             className="w-11 h-11 rounded-xl object-cover border-2 border-sky-400 shadow-xs shrink-0"
                           />
                         ) : (
-                          <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-sky-600 to-rose-600 text-white font-bold text-base flex items-center justify-center shrink-0 uppercase shadow-xs">
+                          <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-sky-600 to-sky-600 text-white font-bold text-base flex items-center justify-center shrink-0 uppercase shadow-xs">
                             {userName.charAt(0)}
                           </div>
                         )}

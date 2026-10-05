@@ -334,7 +334,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
       <div className="bg-sky-900 border border-stone-700/80 rounded-3xl shadow-2xl max-w-5xl w-full max-h-[92vh] flex flex-col text-stone-100 overflow-hidden animate-in zoom-in-95 duration-200">
         
         {/* Header */}
-        <div className="p-6 sm:p-6 bg-gradient-to-r from-stone-900 via-rose-950/40 to-stone-900 border-b border-stone-700/80 flex items-center justify-between">
+        <div className="p-6 sm:p-6 bg-gradient-to-r from-stone-900 via-sky-950/40 to-stone-900 border-b border-stone-700/80 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="p-3.5 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
               <Database className="w-6 h-6" />

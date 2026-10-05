@@ -1737,7 +1737,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       <div className="bg-sky-900 border border-stone-800 text-white rounded-2xl p-5 shadow-xl">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div className="flex items-center space-x-3.5">
-            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-500 via-rose-600 to-rose-600 flex items-center justify-center text-white shadow-lg shadow-cyan-500/20">
+            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-500 via-sky-600 to-sky-600 flex items-center justify-center text-white shadow-lg shadow-cyan-500/20">
               <ShieldCheck className="w-6 h-6" />
             </div>
             <div>
@@ -1848,7 +1848,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               className={`px-4 py-2.5 rounded-xl text-xs font-bold font-mono transition flex items-center space-x-2 cursor-pointer shadow-md ${
                 isAdminTestAccessGranted
                   ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
-                  : 'bg-gradient-to-r from-cyan-500 to-rose-600 hover:from-cyan-600 hover:to-rose-700 text-white'
+                  : 'bg-gradient-to-r from-cyan-500 to-sky-600 hover:from-cyan-600 hover:to-sky-700 text-white'
               }`}
               title="Toggle Student Sunday Test Series Access Platform-Wide"
             >
@@ -1880,7 +1880,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       {/* Real-Time Enrollment Notification Alert Banner */}
       {adminNotifications.length > 0 && (
-        <div className="p-8 rounded-2xl bg-gradient-to-r from-emerald-950 via-teal-950 to-stone-900 border-2 border-emerald-500/50 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-white animate-in fade-in slide-in-from-top-3 duration-200">
+        <div className="p-8 rounded-2xl bg-gradient-to-r from-emerald-950 via-sky-950 to-stone-900 border-2 border-emerald-500/50 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-white animate-in fade-in slide-in-from-top-3 duration-200">
           <div className="flex items-start sm:items-center space-x-3 min-w-0">
             <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 flex items-center justify-center shrink-0 mt-0.5 sm:mt-0">
               <Crown className="w-5 h-5 text-cyan-400" />
@@ -1993,9 +1993,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
           }`}
         >
-          <BarChart3 className="w-4 h-4 text-teal-400" />
+          <BarChart3 className="w-4 h-4 text-sky-400" />
           <span>Question Bank & Chapter Analytics</span>
-          <span className="px-1.5 py-0.5 rounded-full bg-teal-400 text-sky-950 text-[10px] font-mono font-bold">
+          <span className="px-1.5 py-0.5 rounded-full bg-sky-400 text-sky-950 text-[10px] font-mono font-bold">
             {questionInventory.totalCount.toLocaleString()} Qs
           </span>
         </button>
@@ -2030,7 +2030,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {pendingRequestsCount > 0 && (
               <button
                 onClick={handleApproveAllRequests}
-                className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-bold shadow-md transition flex items-center space-x-1.5 cursor-pointer self-start sm:self-auto transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
+                className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-sky-600 hover:from-emerald-700 hover:to-sky-700 text-white text-xs font-bold shadow-md transition flex items-center space-x-1.5 cursor-pointer self-start sm:self-auto transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
               >
                 <CheckCheck className="w-4 h-4" />
                 <span>Approve All Pending Requests ({pendingRequestsCount})</span>
@@ -2218,7 +2218,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {adminTab === 'sunday_studio' && (
         <div className="space-y-6">
           {/* Top Banner with All-Sunday Paper Selector & Master Controls */}
-          <div className="bg-gradient-to-r from-stone-900 via-rose-950 to-purple-950 text-white p-8 rounded-3xl shadow-lg space-y-5 border border-sky-800/40">
+          <div className="bg-gradient-to-r from-stone-900 via-sky-950 to-sky-950 text-white p-8 rounded-3xl shadow-lg space-y-5 border border-sky-800/40">
             <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
               <div>
                 <div className="flex items-center gap-3 flex-wrap mb-1.5">
@@ -2268,7 +2268,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       <Download className="w-3 h-3" /> Export ZIP
                     </button>
                   </div>
-                  <label className="px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer">
+                  <label className="px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer">
                     <Upload className="w-3.5 h-3.5" /> Import Backup
                     <input type="file" accept=".zip" className="hidden" onChange={handleImportBackupZIP} />
                   </label>
@@ -2564,7 +2564,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
 
             {/* TOPIC SWAPPER & QUESTION ALLOCATION MATRIX (ADMIN VAULT RIGHT) */}
-            <div className="p-8 rounded-2xl bg-gradient-to-r from-sky-50/80 via-rose-50/80 to-purple-50/80 border border-sky-200 space-y-3.5 shadow-2xs">
+            <div className="p-8 rounded-2xl bg-gradient-to-r from-sky-50/80 via-sky-50/80 to-sky-50/80 border border-sky-200 space-y-3.5 shadow-2xs">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div className="flex items-center gap-3">
                   <div className="p-1.5 rounded-lg bg-sky-600 text-white">
@@ -2681,7 +2681,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     type="button"
                     onClick={() => handleExecuteTopicSwap(swapSourceTopic, swapTargetTopic, swapQuestionCount)}
-                    className="px-4 py-2 bg-gradient-to-r from-rose-600 to-purple-600 hover:from-rose-700 hover:to-purple-700 text-white text-xs font-bold rounded-lg transition flex items-center gap-1.5 cursor-pointer shadow-sm"
+                    className="px-4 py-2 bg-gradient-to-r from-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white text-xs font-bold rounded-lg transition flex items-center gap-1.5 cursor-pointer shadow-sm"
                   >
                     <RefreshCw className="w-3.5 h-3.5" />
                     <span>Execute Swap & Rebalance</span>
@@ -3379,7 +3379,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           {generatorMode === 'topic_matrix' && (
             <div className="space-y-6">
               {/* Quick Topic Swapper Bar */}
-              <div className="p-8 rounded-2xl bg-gradient-to-r from-purple-50 via-rose-50 to-sky-50 border border-sky-200 space-y-3">
+              <div className="p-8 rounded-2xl bg-gradient-to-r from-sky-50 via-sky-50 to-sky-50 border border-sky-200 space-y-3">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                   <div>
                     <h4 className="text-sm font-extrabold text-sky-950 flex items-center gap-1.5">
@@ -3607,7 +3607,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Multi-Topic Action Card */}
-              <div className="p-5 rounded-2xl bg-gradient-to-r from-sky-50 via-rose-50 to-purple-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-6">
+              <div className="p-5 rounded-2xl bg-gradient-to-r from-sky-50 via-sky-50 to-sky-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-6">
                 <div className="space-y-1 text-xs text-center sm:text-left">
                   <div className="text-sky-950 font-bold text-sm">
                     Multi-Topic Custom Test ({topicAllocations.length} Topics Selected)
@@ -3756,7 +3756,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
               </div>
 
-              <div className="p-5 rounded-2xl bg-gradient-to-r from-sky-50 via-rose-50 to-purple-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-6">
+              <div className="p-5 rounded-2xl bg-gradient-to-r from-sky-50 via-sky-50 to-sky-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-6">
                 <div className="space-y-1 text-xs text-center sm:text-left">
                   <div className="text-sky-950 font-bold text-sm">
                     Configured Test: {customSubject} • {customChapter}
@@ -3807,14 +3807,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {adminTab === 'telemetry' && (
         <div className="space-y-6">
           {/* Header Banner */}
-          <div className="p-8 bg-gradient-to-r from-stone-900 via-rose-950 to-sky-950 rounded-2xl text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="p-8 bg-gradient-to-r from-stone-900 via-sky-950 to-sky-950 rounded-2xl text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <div className="flex items-center space-x-2">
-                <span className="px-2 py-0.5 rounded-full bg-teal-400 text-stone-950 text-[10px] font-mono font-black uppercase">
+                <span className="px-2 py-0.5 rounded-full bg-sky-400 text-stone-950 text-[10px] font-mono font-black uppercase">
                   Verified Audit
                 </span>
                 <h3 className="text-base font-bold text-white flex items-center space-x-2">
-                  <BarChart3 className="w-5 h-5 text-teal-400" />
+                  <BarChart3 className="w-5 h-5 text-sky-400" />
                   <span>Question Bank Inventory & Chapter Analytics</span>
                 </h3>
               </div>
@@ -3830,7 +3830,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   setActionSuccessBanner('Database chapters & inventory audited successfully.');
                   setTimeout(() => setActionSuccessBanner(null), 2000);
                 }}
-                className="px-3 py-1.5 rounded-xl bg-sky-50/60/10 hover:bg-sky-50/60/20 border border-white/20 text-teal-200 text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer"
+                className="px-3 py-1.5 rounded-xl bg-sky-50/60/10 hover:bg-sky-50/60/20 border border-white/20 text-sky-200 text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer"
                 title="Force audit and refresh database"
               >
                 <RefreshCw className="w-3.5 h-3.5" />
@@ -3843,13 +3843,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   setIsAddChapterModalOpen(prev => !prev);
                   setAddChapterStatus(null);
                 }}
-                className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-sky-600 to-rose-600 hover:from-sky-500 hover:to-rose-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-sky-600 to-sky-600 hover:from-sky-500 hover:to-sky-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
               >
                 <Plus className="w-3.5 h-3.5" />
                 <span>Add New Chapter to Vault</span>
               </button>
 
-              <span className="px-3 py-1.5 rounded-xl bg-sky-50/60/10 border border-white/20 text-teal-300 font-mono text-xs font-bold">
+              <span className="px-3 py-1.5 rounded-xl bg-sky-50/60/10 border border-white/20 text-sky-300 font-mono text-xs font-bold">
                 {questionInventory.totalCount.toLocaleString()} Total Questions
               </span>
             </div>
@@ -3857,7 +3857,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
           {/* Add New Chapter to Vault Form Panel */}
           {isAddChapterModalOpen && (
-            <div className="p-8 sm:p-5 rounded-2xl bg-gradient-to-r from-sky-50 via-rose-50 to-purple-50 border-2 border-sky-300 shadow-md space-y-3 animate-in fade-in">
+            <div className="p-8 sm:p-5 rounded-2xl bg-gradient-to-r from-sky-50 via-sky-50 to-sky-50 border-2 border-sky-300 shadow-md space-y-3 animate-in fade-in">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2">
                   <div className="w-7 h-7 rounded-lg bg-sky-600 text-white flex items-center justify-center font-bold shadow-xs">
@@ -4282,7 +4282,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {/* TAB 4: ENROLLED CANDIDATES & DOMICILE DIRECTORY */}
       {adminTab === 'students' && (
         <div className="space-y-6">
-          <div className="bg-gradient-to-r from-sky-900 via-rose-900 to-stone-900 p-5 rounded-2xl text-white shadow-lg space-y-6">
+          <div className="bg-gradient-to-r from-sky-900 via-sky-900 to-stone-900 p-5 rounded-2xl text-white shadow-lg space-y-6">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4">
               <div className="space-y-1">
                 <div className="flex items-center space-x-2">
@@ -4292,7 +4292,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <span className="text-xs text-sky-200 font-mono">33 Sunday Tests Master Switch</span>
                 </div>
                 <h4 className="text-base font-bold text-white flex items-center gap-3">
-                  <ShieldCheck className="w-5 h-5 text-teal-300" />
+                  <ShieldCheck className="w-5 h-5 text-sky-300" />
                   <span>Sunday Test Series Authorization Controls</span>
                 </h4>
               </div>
@@ -4302,7 +4302,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 className={`px-4 py-2.5 rounded-xl font-bold text-xs transition flex items-center justify-center space-x-2 cursor-pointer shadow-md ${
                   isAdminTestAccessGranted
                     ? 'bg-sky-600 hover:bg-sky-700 text-white'
-                    : 'bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white'
+                    : 'bg-gradient-to-r from-emerald-500 to-sky-500 hover:from-emerald-600 hover:to-sky-600 text-white'
                 }`}
               >
                 {isAdminTestAccessGranted ? (
@@ -4362,7 +4362,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                               className="w-12 h-12 rounded-2xl object-cover border border-sky-200 shadow-xs"
                             />
                           ) : (
-                            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-sky-600 to-rose-600 text-white font-black text-base flex items-center justify-center shadow-xs">
+                            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-sky-600 to-sky-600 text-white font-black text-base flex items-center justify-center shadow-xs">
                               {cand.studentName?.charAt(0) || 'S'}
                             </div>
                           )}
@@ -4380,7 +4380,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         </div>
 
                         {/* Enrolled Package Badge */}
-                        <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-50 to-rose-50 border border-sky-200 shadow-2xs">
+                        <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-50 to-sky-50 border border-sky-200 shadow-2xs">
                           <Crown className="w-4 h-4 text-cyan-500 shrink-0" />
                           <div>
                             <div className="text-[9px] uppercase font-bold text-sky-600">Enrolled Package</div>

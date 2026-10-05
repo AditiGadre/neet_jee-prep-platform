@@ -91,12 +91,12 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
       <div className="bg-sky-900 border border-stone-700/80 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden text-stone-100 animate-in zoom-in-95 duration-200">
         
         {/* Header */}
-        <div className="bg-gradient-to-r from-stone-900 via-rose-950 to-stone-900 p-5 border-b border-stone-800 flex items-center justify-between">
+        <div className="bg-gradient-to-r from-stone-900 via-sky-950 to-stone-900 p-5 border-b border-stone-800 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className={`w-10 h-10 rounded-2xl flex items-center justify-center shadow-lg ${
               isConflictPrompt
-                ? 'bg-gradient-to-tr from-amber-500 to-rose-600 shadow-rose-500/20'
-                : 'bg-gradient-to-tr from-orange-500 to-rose-600 shadow-rose-500/20'
+                ? 'bg-gradient-to-tr from-sky-500 to-sky-600 shadow-sky-500/20'
+                : 'bg-gradient-to-tr from-sky-500 to-sky-600 shadow-sky-500/20'
             }`}>
               {isConflictPrompt ? (
                 <ShieldAlert className="w-5 h-5 text-white" />
@@ -238,7 +238,7 @@ export const AdminMultiDeviceModal: React.FC<AdminMultiDeviceModalProps> = ({
               <button
                 type="button"
                 onClick={onAutoEvictOldest}
-                className="px-3.5 py-2 rounded-xl text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white transition flex items-center space-x-1.5 cursor-pointer shadow-md shadow-amber-600/20"
+                className="px-3.5 py-2 rounded-xl text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white transition flex items-center space-x-1.5 cursor-pointer shadow-md shadow-sky-600/20"
               >
                 <Zap className="w-3.5 h-3.5" />
                 <span>Auto-Evict Oldest & Continue</span>

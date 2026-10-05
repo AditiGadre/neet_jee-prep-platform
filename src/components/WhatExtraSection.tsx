@@ -736,7 +736,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             <div className="flex flex-wrap items-center gap-4 w-full sm:w-auto">
               <button
                 onClick={handleDownloadCustomTestPdf}
-                className="flex-1 sm:flex-initial px-4 py-2.5 rounded bg-sky-50/60 hover:bg-sky-50 text-sky-900 font-bold text-xs border border-sky-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                className="flex-1 sm:flex-initial px-4 py-2.5 rounded bg-sky-50/60 hover:bg-sky-50 text-sky-900 font-bold text-xs border border-sky-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
               >
                 <Download className="w-3.5 h-3.5 text-sky-700" />
                 <span>Export Test PDF</span>
@@ -744,7 +744,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
               <button
                 onClick={handleLaunchCustomCbtTest}
-                className="flex-1 sm:flex-initial px-5 py-2.5 rounded bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition-colors active:scale-95 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                className="flex-1 sm:flex-initial px-5 py-2.5 rounded bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition-colors active:scale-95 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
               >
                 <Play className="w-3.5 h-3.5 fill-current" />
                 <span>Launch {customQCount}-Question CBT Test</span>
@@ -1201,14 +1201,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <button
                   onClick={handleDownloadDpp}
                   disabled={isGeneratingDpp}
-                  className="px-3.5 py-2 rounded bg-sky-50/60 hover:bg-sky-50 text-sky-900 text-xs font-semibold flex items-center space-x-1.5 border border-sky-300 shadow-xs cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                  className="px-3.5 py-2 rounded bg-sky-50/60 hover:bg-sky-50 text-sky-900 text-xs font-semibold flex items-center space-x-1.5 border border-sky-300 shadow-xs cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                 >
                   <Download className="w-3.5 h-3.5 text-sky-600" />
                   <span>{isGeneratingDpp ? 'Generating PDF...' : 'Download DPP PDF'}</span>
                 </button>
                 <button
                   onClick={handleAttemptDppLive}
-                  className="px-3.5 py-2 rounded bg-sky-600 hover:bg-sky-700 text-white text-xs font-semibold flex items-center space-x-1.5 shadow-xs cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                  className="px-3.5 py-2 rounded bg-sky-600 hover:bg-sky-700 text-white text-xs font-semibold flex items-center space-x-1.5 shadow-xs cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                 >
                   <Play className="w-3.5 h-3.5 fill-current" />
                   <span>Attempt DPP Live</span>

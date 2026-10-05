@@ -209,7 +209,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
     <div className="fixed inset-0 z-50 bg-sky-900/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
       <div className="bg-sky-50/60 border border-sky-200 rounded-2xl shadow-2xl w-full max-w-3xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 my-auto flex flex-col max-h-[90vh]">
         {/* Header */}
-        <div className="bg-gradient-to-r from-orange-700 via-rose-700 to-teal-700 p-6 sm:p-5 text-white flex items-center justify-between shrink-0">
+        <div className="bg-gradient-to-r from-sky-700 via-sky-700 to-sky-700 p-6 sm:p-5 text-white flex items-center justify-between shrink-0">
           <div>
             <div className="flex items-center space-x-2">
               <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-sky-400 text-sky-950">
@@ -218,7 +218,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
               <span className="text-[11px] text-sky-100 font-mono">Sunday Calendar Syllabus Selector</span>
             </div>
             <h2 className="text-base sm:text-lg font-bold text-white mt-1 flex items-center gap-1.5">
-              <Sparkles className="w-4 h-4 text-teal-300" /> Sunday Test Series: Syllabus & Chapter Customizer
+              <Sparkles className="w-4 h-4 text-sky-300" /> Sunday Test Series: Syllabus & Chapter Customizer
             </h2>
             <p className="text-xs text-sky-100">
               {initialTest ? initialTest.title : 'Configure official NEET units for Physics (45 Qs), Chemistry (45 Qs), and Biology (90 Qs).'}
@@ -417,9 +417,9 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
             </button>
             <button
               onClick={handleLaunch}
-              className="px-5 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-orange-600 via-rose-600 to-teal-600 hover:from-orange-700 hover:to-teal-700 text-white shadow-md transition flex items-center space-x-1.5 cursor-pointer"
+              className="px-5 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-sky-600 via-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white shadow-md transition flex items-center space-x-1.5 cursor-pointer"
             >
-              <Sparkles className="w-4 h-4 text-teal-300" />
+              <Sparkles className="w-4 h-4 text-sky-300" />
               <span>Launch 180-Question Sunday CBT</span>
             </button>
           </div>

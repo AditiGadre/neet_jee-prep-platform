@@ -758,7 +758,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 {pendingRequestsCount > 0 && (
                   <button
                     onClick={handleApproveAllRequests}
-                    className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-bold shadow-md transition flex items-center space-x-1.5 cursor-pointer"
+                    className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-sky-600 hover:from-emerald-700 hover:to-sky-700 text-white text-xs font-bold shadow-md transition flex items-center space-x-1.5 cursor-pointer"
                   >
                     <CheckCheck className="w-4 h-4" />
                     <span>Approve All Pending Requests ({pendingRequestsCount})</span>
@@ -1018,7 +1018,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             {generatorMode === 'topic_matrix' && (
               <div className="space-y-4">
                 {/* Quick Topic Swapper Bar */}
-                <div className="p-6 rounded-xl bg-gradient-to-r from-purple-50 via-rose-50 to-sky-50 border border-sky-200 space-y-3">
+                <div className="p-6 rounded-xl bg-gradient-to-r from-sky-50 via-sky-50 to-sky-50 border border-sky-200 space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                     <div>
                       <h4 className="text-sm font-extrabold text-sky-950 flex items-center gap-1.5">
@@ -1246,7 +1246,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 </div>
 
                 {/* Multi-Topic Action Card */}
-                <div className="p-5 rounded-xl bg-gradient-to-r from-sky-50 via-rose-50 to-purple-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="p-5 rounded-xl bg-gradient-to-r from-sky-50 via-sky-50 to-sky-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-4">
                   <div className="space-y-1 text-xs text-center sm:text-left">
                     <div className="text-sky-950 font-bold text-sm">
                       Multi-Topic Custom Test ({topicAllocations.length} Topics Selected)
@@ -1429,7 +1429,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 </div>
 
                 {/* Test Actions & Launchers */}
-                <div className="p-5 rounded-xl bg-gradient-to-r from-sky-50 via-rose-50 to-purple-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="p-5 rounded-xl bg-gradient-to-r from-sky-50 via-sky-50 to-sky-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-4">
                   <div className="space-y-1 text-xs">
                     <div className="text-sky-950 font-bold text-sm">
                       Configured Test: {customSubject} &bull; {customChapter}
@@ -1506,7 +1506,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 <div className="flex items-center space-x-2 shrink-0">
                   <button
                     onClick={handleAuditAndNotifyAdmin}
-                    className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-600 to-rose-600 hover:from-sky-700 hover:to-rose-700 text-white text-xs font-bold shadow-xs flex items-center space-x-1.5 transition cursor-pointer"
+                    className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white text-xs font-bold shadow-xs flex items-center space-x-1.5 transition cursor-pointer"
                   >
                     <Bell className="w-3.5 h-3.5" />
                     <span>Audit & Dispatch Alert</span>
@@ -1935,7 +1935,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             </div>
 
             {/* Institutional Test Access Management Master Card */}
-            <div className="bg-gradient-to-r from-sky-900 via-rose-900 to-stone-900 p-5 rounded-2xl text-white shadow-md space-y-4">
+            <div className="bg-gradient-to-r from-sky-900 via-sky-900 to-stone-900 p-5 rounded-2xl text-white shadow-md space-y-4">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-3">
                 <div className="space-y-0.5">
                   <div className="flex items-center space-x-2">
@@ -1945,7 +1945,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                     <span className="text-xs text-sky-200 font-mono">Test Series Master Switch</span>
                   </div>
                   <h4 className="text-base font-bold text-white mt-1 flex items-center gap-4">
-                    <ShieldCheck className="w-5 h-5 text-teal-300" />
+                    <ShieldCheck className="w-5 h-5 text-sky-300" />
                     <span>Institution Sunday Test Series Authorization</span>
                   </h4>
                 </div>
@@ -1955,7 +1955,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                   className={`px-4 py-2 rounded-xl font-bold text-xs transition flex items-center justify-center space-x-2 cursor-pointer shadow-md ${
                     isAdminTestAccessGranted
                       ? 'bg-sky-600 hover:bg-sky-700 text-white'
-                      : 'bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white'
+                      : 'bg-gradient-to-r from-emerald-500 to-sky-500 hover:from-emerald-600 hover:to-sky-600 text-white'
                   }`}
                 >
                   {isAdminTestAccessGranted ? (
@@ -2000,7 +2000,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               <div className="bg-sky-50/60 p-5 rounded-xl border border-sky-200 shadow-2xs space-y-4">
                 <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-stone-100">
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-sky-600 to-rose-600 text-white font-black text-base flex items-center justify-center shadow-xs">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-sky-600 to-sky-600 text-white font-black text-base flex items-center justify-center shadow-xs">
                       {enrolledStudent.studentName?.charAt(0) || 'S'}
                     </div>
                     <div>
