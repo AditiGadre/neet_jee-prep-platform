@@ -427,3 +427,4 @@ export const NCERT_EMI_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Electromagnetic Induction", "DC Motor"]
   }
 ];
+

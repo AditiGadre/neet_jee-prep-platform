@@ -427,3 +427,4 @@ export const NCERT_ELECTRIC_CHARGES_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Electric Charges and Fields", "Coulomb's Law", "NEET PYQ"]
   }
 ];
+

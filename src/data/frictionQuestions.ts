@@ -2629,3 +2629,4 @@ export const FRICTION_QUESTIONS: Question[] = [
 ];
 
 export const FRICTION_BOOK_QUESTIONS = FRICTION_QUESTIONS;
+

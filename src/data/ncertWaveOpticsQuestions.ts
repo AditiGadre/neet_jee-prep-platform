@@ -427,3 +427,4 @@ export const NCERT_WAVE_OPTICS_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Wave Optics", "Diffraction"]
   }
 ];
+

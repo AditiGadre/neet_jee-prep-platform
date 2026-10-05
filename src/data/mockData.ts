@@ -4837,3 +4837,4 @@ export const FAQS_DATA: any[] = [
     category: 'Academic Doubts'
   }
 ];
+

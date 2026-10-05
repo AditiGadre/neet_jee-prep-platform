@@ -632,3 +632,4 @@ export const NCERT_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     ]
   }
 ];
+

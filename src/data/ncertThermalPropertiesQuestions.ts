@@ -527,3 +527,4 @@ export const NCERT_THERMAL_PROPERTIES_QUESTIONS: Question[] = [
     ]
   }
 ];
+

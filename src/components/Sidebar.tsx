@@ -81,7 +81,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   ];
 
   return (
-    <aside className="w-full lg:w-64 bg-white border-r border-stone-200 flex flex-col shrink-0 text-stone-900 select-none">
+    <aside className="w-full lg:w-64 bg-sky-50/60 border-r border-sky-200 flex flex-col shrink-0 text-sky-950 select-none">
       {/* Platform Header in Sidebar */}
       <div className="p-6 border-b border-stone-100 bg-gradient-to-b from-amber-50/50 to-white">
         <div className="flex items-center space-x-2">
@@ -92,7 +92,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <div className="text-xs font-bold uppercase tracking-wider text-stone-400">
               Platform Modules
             </div>
-            <div className="text-sm font-extrabold text-stone-900">
+            <div className="text-sm font-extrabold text-sky-950">
               NeetCbt<span className="text-orange-600"> Exam Test</span>
             </div>
           </div>
@@ -112,7 +112,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 className={`w-full text-left p-3.5 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                   isActive
                     ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold shadow-md shadow-orange-900/10'
-                    : 'text-stone-600 hover:bg-orange-50 hover:text-orange-700'
+                    : 'text-sky-700 hover:bg-orange-50 hover:text-orange-700'
                 }`}
               >
                 <div className="flex items-center space-x-2.5 min-w-0">
@@ -123,7 +123,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   />
                   <div className="min-w-0">
                     <div className="truncate font-semibold">{item.label}</div>
-                    <div className="text-[10px] text-stone-500 truncate font-normal group-hover:text-orange-600/70">
+                    <div className="text-[10px] text-sky-600 truncate font-normal group-hover:text-orange-600/70">
                       {item.sublabel}
                     </div>
                   </div>
@@ -133,10 +133,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   <span
                     className={`text-[9px] px-1.5 py-0.2 rounded font-mono font-bold uppercase shrink-0 ${
                       isActive
-                        ? 'bg-white/20 text-white'
+                        ? 'bg-sky-50/60/20 text-white'
                         : item.highlight
                         ? 'bg-amber-100 text-amber-700 border border-amber-200'
-                        : 'bg-stone-100 text-stone-500 border border-stone-200'
+                        : 'bg-sky-50 text-sky-600 border border-sky-200'
                     }`}
                   >
                     {item.badge}
@@ -160,7 +160,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         className={`w-full text-left px-2 py-1.5 rounded-lg text-[11px] transition flex items-center space-x-2 cursor-pointer ${
                           isSubActive
                             ? 'bg-orange-50 text-orange-700 font-bold border border-orange-100'
-                            : 'text-stone-500 hover:bg-stone-50 hover:text-stone-800'
+                            : 'text-sky-600 hover:bg-sky-50 hover:text-sky-900'
                         }`}
                       >
                         <SubIcon className={`w-3 h-3 ${isSubActive ? 'text-orange-500' : 'text-stone-400'}`} />
@@ -176,13 +176,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
       </div>
 
       {/* Verified Banner in Bottom Sidebar */}
-      <div className="p-3 bg-stone-50/80 border-t border-stone-200">
+      <div className="p-3 bg-sky-50/80 border-t border-sky-200">
         <div className="p-3.5 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200/60 space-y-1">
           <div className="flex items-center space-x-1.5 text-xs font-bold text-orange-700">
             <ShieldCheck className="w-3.5 h-3.5 text-orange-500" />
             <span>NeetCbt Verified</span>
           </div>
-          <p className="text-[10px] text-stone-500 font-mono">
+          <p className="text-[10px] text-sky-600 font-mono">
             Target Batch 2027–2029 &bull; 100% NCERT Authenticated
           </p>
         </div>
@@ -193,7 +193,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               e.preventDefault();
               if (onNavigateToAbout) onNavigateToAbout();
             }}
-            className="text-[10.5px] font-semibold text-stone-500 hover:text-orange-600 transition inline-flex items-center gap-1 cursor-pointer"
+            className="text-[10.5px] font-semibold text-sky-600 hover:text-orange-600 transition inline-flex items-center gap-1 cursor-pointer"
           >
             <span>About NeetCbt Platform</span>
             <span>&rarr;</span>
@@ -203,3 +203,4 @@ export const Sidebar: React.FC<SidebarProps> = ({
     </aside>
   );
 };
+

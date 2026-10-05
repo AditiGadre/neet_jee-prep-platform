@@ -427,3 +427,4 @@ export const NCERT_EM_WAVES_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Electromagnetic Waves", "Wave Intensity"]
   }
 ];
+

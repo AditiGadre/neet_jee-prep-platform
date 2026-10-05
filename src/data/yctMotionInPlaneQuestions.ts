@@ -13457,3 +13457,4 @@ export const YCT_MOTION_IN_PLANE_QUESTIONS: Question[] = [
     "image": "/images/yct_motion_plane/p174_img1_xref1420.png"
   }
 ];
+

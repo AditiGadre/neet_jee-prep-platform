@@ -842,3 +842,4 @@ export const NCERT_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     ]
   }
 ];
+

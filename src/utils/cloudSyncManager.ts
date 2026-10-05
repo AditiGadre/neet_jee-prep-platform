@@ -781,3 +781,4 @@ export async function fetchAllStudentsFromCloud(): Promise<SyncedStudentProfile[
   }
   return students;
 }
+

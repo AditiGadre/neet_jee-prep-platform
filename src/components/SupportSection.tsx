@@ -56,17 +56,17 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
   return (
     <div className="space-y-4">
       {/* Header Banner */}
-      <div className="bg-white border border-stone-200 rounded-lg p-5 shadow-xs">
+      <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 shadow-xs">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-orange-50 text-orange-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-orange-200">
               <Headphones className="w-3 h-3" />
               <span>24/7 Student Assistance</span>
             </div>
-            <h1 className="text-base sm:text-lg font-bold text-stone-900">
+            <h1 className="text-base sm:text-lg font-bold text-sky-950">
               6. Our Support Team
             </h1>
-            <p className="mt-0.5 text-xs text-stone-500 max-w-3xl">
+            <p className="mt-0.5 text-xs text-sky-600 max-w-3xl">
               Academic Support, Technical Support, Counselling, Contact Channels (Phone, Email, WhatsApp, Live Chat) and FAQs.
             </p>
           </div>
@@ -76,7 +76,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
       {/* 4 Support Pillars Grid from Document */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
         {/* 1. Academic Support */}
-        <div className="rounded-lg bg-white border border-stone-200 p-6 space-y-3 flex flex-col justify-between shadow-xs">
+        <div className="rounded-lg bg-sky-50/60 border border-sky-200 p-6 space-y-3 flex flex-col justify-between shadow-xs">
           <div className="space-y-2">
             <div className="w-8 h-8 rounded bg-emerald-50 text-emerald-700 flex items-center justify-center border border-emerald-200">
               <GraduationCap className="w-4 h-4" />
@@ -85,14 +85,14 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
               <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider">
                 1. Academic Support
               </span>
-              <h3 className="text-xs sm:text-sm font-bold text-stone-900 leading-snug">
+              <h3 className="text-xs sm:text-sm font-bold text-sky-950 leading-snug">
                 Subject Experts & Doubt Resolution
               </h3>
             </div>
-            <p className="text-xs text-stone-600 leading-relaxed">
+            <p className="text-xs text-sky-700 leading-relaxed">
               Stuck on a tricky organic mechanism or Physics numerical? Submit your question to our senior academic panel for sub-10 minute verified step-by-step solutions.
             </p>
-            <div className="text-[11px] text-stone-500 flex items-center space-x-1.5 pt-0.5">
+            <div className="text-[11px] text-sky-600 flex items-center space-x-1.5 pt-0.5">
               <Clock className="w-3.5 h-3.5 text-emerald-600" />
               <span>Available 24/7 &bull; AIIMS & IIT Faculty</span>
             </div>
@@ -108,7 +108,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
         </div>
 
         {/* 2. Technical Support */}
-        <div className="rounded-lg bg-white border border-stone-200 p-6 space-y-3 flex flex-col justify-between shadow-xs">
+        <div className="rounded-lg bg-sky-50/60 border border-sky-200 p-6 space-y-3 flex flex-col justify-between shadow-xs">
           <div className="space-y-2">
             <div className="w-8 h-8 rounded bg-orange-50 text-orange-700 flex items-center justify-center border border-orange-200">
               <Laptop className="w-4 h-4" />
@@ -117,11 +117,11 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
               <span className="text-[10px] font-bold text-orange-700 uppercase tracking-wider">
                 2. Technical Support
               </span>
-              <h3 className="text-xs sm:text-sm font-bold text-stone-900 leading-snug">
+              <h3 className="text-xs sm:text-sm font-bold text-sky-950 leading-snug">
                 Platform, Login & Payment Assistance
               </h3>
             </div>
-            <p className="text-xs text-stone-600 leading-relaxed">
+            <p className="text-xs text-sky-700 leading-relaxed">
               Instant help with CBT simulator test submission, course video playback, OTP login, or payment receipt verification.
             </p>
           </div>
@@ -138,7 +138,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
                 placeholder="Describe tech issue (e.g. CBT loading)..."
                 value={techIssue}
                 onChange={e => setTechIssue(e.target.value)}
-                className="w-full p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:border-orange-500"
+                className="w-full p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-orange-500"
               />
               <button
                 type="submit"
@@ -152,7 +152,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
         </div>
 
         {/* 3. Counselling */}
-        <div className="rounded-lg bg-white border border-stone-200 p-6 space-y-3 flex flex-col justify-between shadow-xs">
+        <div className="rounded-lg bg-sky-50/60 border border-sky-200 p-6 space-y-3 flex flex-col justify-between shadow-xs">
           <div className="space-y-2">
             <div className="w-8 h-8 rounded bg-purple-50 text-purple-700 flex items-center justify-center border border-purple-200">
               <Users className="w-4 h-4" />
@@ -161,11 +161,11 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
               <span className="text-[10px] font-bold text-purple-700 uppercase tracking-wider">
                 3. Counselling
               </span>
-              <h3 className="text-xs sm:text-sm font-bold text-stone-900 leading-snug">
+              <h3 className="text-xs sm:text-sm font-bold text-sky-950 leading-snug">
                 Course Guidance & Exam Strategy
               </h3>
             </div>
-            <p className="text-xs text-stone-600 leading-relaxed">
+            <p className="text-xs text-sky-700 leading-relaxed">
               Book a 1-on-1 strategy session with senior counsellors to formulate your customized 6-month study timetable and batch selection.
             </p>
           </div>
@@ -183,7 +183,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
                   placeholder="Your Name"
                   value={counsellingName}
                   onChange={e => setCounsellingName(e.target.value)}
-                  className="p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:border-orange-500"
+                  className="p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-orange-500"
                   required
                 />
                 <input
@@ -191,7 +191,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
                   placeholder="Phone Number"
                   value={counsellingPhone}
                   onChange={e => setCounsellingPhone(e.target.value)}
-                  className="p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:border-orange-500"
+                  className="p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-orange-500"
                   required
                 />
               </div>
@@ -207,68 +207,68 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
       </div>
 
       {/* 4. Contact Channels (Exact List from Document) */}
-      <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs">
+      <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-4 shadow-xs">
         <div className="border-b border-stone-100 pb-3">
           <span className="text-[10px] font-bold text-orange-700 uppercase tracking-wider">
             Direct Helpdesk
           </span>
-          <h2 className="text-sm sm:text-base font-bold text-stone-900 mt-0.5">
+          <h2 className="text-sm sm:text-base font-bold text-sky-950 mt-0.5">
             Contact Channels (Phone, Email, WhatsApp & Live Chat)
           </h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {/* Phone */}
-          <div className="p-3.5 rounded bg-stone-50 border border-stone-200 space-y-1">
+          <div className="p-3.5 rounded bg-sky-50 border border-sky-200 space-y-1">
             <div className="flex items-center space-x-1.5 text-emerald-700">
               <Phone className="w-3.5 h-3.5" />
               <span className="font-bold text-[10px] uppercase">Phone Toll-Free</span>
             </div>
-            <div className="text-xs sm:text-sm font-bold text-stone-900 font-mono">1800-890-7200</div>
-            <div className="text-[11px] text-stone-500">Mon - Sun (8:00 AM - 10:00 PM)</div>
+            <div className="text-xs sm:text-sm font-bold text-sky-950 font-mono">1800-890-7200</div>
+            <div className="text-[11px] text-sky-600">Mon - Sun (8:00 AM - 10:00 PM)</div>
           </div>
 
           {/* Email */}
-          <div className="p-3.5 rounded bg-stone-50 border border-stone-200 space-y-1">
+          <div className="p-3.5 rounded bg-sky-50 border border-sky-200 space-y-1">
             <div className="flex items-center space-x-1.5 text-orange-700">
               <Mail className="w-3.5 h-3.5" />
               <span className="font-bold text-[10px] uppercase">Official Email</span>
             </div>
-            <div className="text-xs sm:text-sm font-bold text-stone-900 font-mono">support@neetcbt.com</div>
-            <div className="text-[11px] text-stone-500">Sub-2 hour ticket turnaround</div>
+            <div className="text-xs sm:text-sm font-bold text-sky-950 font-mono">support@neetcbt.com</div>
+            <div className="text-[11px] text-sky-600">Sub-2 hour ticket turnaround</div>
           </div>
 
           {/* WhatsApp */}
-          <div className="p-3.5 rounded bg-stone-50 border border-stone-200 space-y-1">
+          <div className="p-3.5 rounded bg-sky-50 border border-sky-200 space-y-1">
             <div className="flex items-center space-x-1.5 text-emerald-700">
               <MessageSquare className="w-3.5 h-3.5" />
               <span className="font-bold text-[10px] uppercase">WhatsApp Desk</span>
             </div>
-            <div className="text-xs sm:text-sm font-bold text-stone-900 font-mono">+91 98234 56789</div>
-            <div className="text-[11px] text-stone-500">Instant PDF DPPs & Test Alerts</div>
+            <div className="text-xs sm:text-sm font-bold text-sky-950 font-mono">+91 98234 56789</div>
+            <div className="text-[11px] text-sky-600">Instant PDF DPPs & Test Alerts</div>
           </div>
 
           {/* Live Chat */}
-          <div className="p-3.5 rounded bg-stone-50 border border-stone-200 space-y-1">
+          <div className="p-3.5 rounded bg-sky-50 border border-sky-200 space-y-1">
             <div className="flex items-center space-x-1.5 text-amber-700">
               <Sparkles className="w-3.5 h-3.5" />
               <span className="font-bold text-[10px] uppercase">Live Chat</span>
             </div>
             <div className="text-xs sm:text-sm font-bold text-emerald-700">Online Now (0m Wait)</div>
-            <div className="text-[11px] text-stone-500">Connected with Senior Mentor</div>
+            <div className="text-[11px] text-sky-600">Connected with Senior Mentor</div>
           </div>
         </div>
       </div>
 
       {/* 5. Interactive FAQs Accordion */}
-      <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-3 shadow-xs">
+      <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-3 shadow-xs">
         <div className="flex items-center justify-between border-b border-stone-100 pb-3">
           <div>
-            <h2 className="text-xs sm:text-sm font-bold text-stone-900 flex items-center space-x-1.5">
+            <h2 className="text-xs sm:text-sm font-bold text-sky-950 flex items-center space-x-1.5">
               <HelpCircle className="w-4 h-4 text-orange-600" />
               <span>Frequently Asked Questions (FAQ)</span>
             </h2>
-            <p className="text-xs text-stone-500 mt-0.5">
+            <p className="text-xs text-sky-600 mt-0.5">
               Instant clarity on test series, CBT mode, syllabus, and enrolment.
             </p>
           </div>
@@ -280,28 +280,28 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
             return (
               <div
                 key={idx}
-                className="rounded bg-stone-50 border border-stone-200 overflow-hidden"
+                className="rounded bg-sky-50 border border-sky-200 overflow-hidden"
               >
                 <button
                   onClick={() => setOpenFaqIndex(isOpen ? null : idx)}
-                  className="w-full text-left p-3 flex items-center justify-between hover:bg-stone-100 transition-colors"
+                  className="w-full text-left p-3 flex items-center justify-between hover:bg-sky-50 transition-colors"
                 >
                   <div className="flex items-center space-x-2.5">
                     <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-orange-50 text-orange-700 border border-orange-200">
                       {faq.category}
                     </span>
-                    <span className="text-xs font-semibold text-stone-900">
+                    <span className="text-xs font-semibold text-sky-950">
                       {faq.question}
                     </span>
                   </div>
                   <ChevronDown
-                    className={`w-3.5 h-3.5 text-stone-500 shrink-0 transition-transform ${
+                    className={`w-3.5 h-3.5 text-sky-600 shrink-0 transition-transform ${
                       isOpen ? 'rotate-180 text-orange-600' : ''
                     }`}
                   />
                 </button>
                 {isOpen && (
-                  <div className="p-3 pt-0 text-xs text-stone-600 leading-relaxed border-t border-stone-200 bg-white">
+                  <div className="p-3 pt-0 text-xs text-sky-700 leading-relaxed border-t border-sky-200 bg-sky-50/60">
                     {faq.answer}
                   </div>
                 )}
@@ -313,3 +313,4 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
     </div>
   );
 };
+

@@ -427,3 +427,4 @@ export const NCERT_CURRENT_ELECTRICITY_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Current Electricity", "Electrical Power", "NEET PYQ"]
   }
 ];
+

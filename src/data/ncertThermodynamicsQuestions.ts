@@ -380,3 +380,4 @@ export const NCERT_THERMODYNAMICS_QUESTIONS: Question[] = [
     ]
   }
 ];
+

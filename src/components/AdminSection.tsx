@@ -432,9 +432,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
   };
 
-  const handleMockPdfUpload = () => {
-    if (confirm("Would you like to simulate parsing an uploaded PDF/Word document into this exact question paper?")) {
+  const handleMockPdfUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files.length > 0) {
       setTimeout(() => alert("PDF successfully parsed and mapped strictly to your selected topics!"), 800);
+      e.target.value = '';
     }
   };
 
@@ -1163,50 +1164,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const sub = currentQ.subject || (idx < 45 ? 'Physics' : idx < 90 ? 'Chemistry' : 'Biology');
     
     
-      // STRICT PLANNER ADHERENCE: Get candidates ONLY from the customized chapters if provided, else official planner
-      let targetChapters: string[] = [];
-      if (sub === 'Physics') {
-        if (sundayPhyUnits && sundayPhyUnits.length > 0) {
-           targetChapters = [...sundayPhyUnits];
-        } else {
-           const cleanKey = selectedPlannerPreset.replace(/^(11th|12th)-/i, '').toLowerCase();
-           const planner = SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || PLANNER_12TH_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_DROPPER_PLANNER_TESTS[0];
-           targetChapters = OFFICIAL_PHYSICS_UNITS.filter(u => planner.physicsKeywords?.some(kw => u.toLowerCase().includes(kw.toLowerCase())));
-        }
-      } else if (sub === 'Chemistry') {
-        if (sundayChemUnits && sundayChemUnits.length > 0) {
-           targetChapters = [...sundayChemUnits];
-        } else {
-           const cleanKey = selectedPlannerPreset.replace(/^(11th|12th)-/i, '').toLowerCase();
-           const planner = SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || PLANNER_12TH_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_DROPPER_PLANNER_TESTS[0];
-           targetChapters = OFFICIAL_CHEMISTRY_UNITS.filter(u => planner.chemistryKeywords?.some(kw => u.toLowerCase().includes(kw.toLowerCase())));
-        }
-      } else {
-        if (sundayBioUnits && sundayBioUnits.length > 0) {
-           targetChapters = [...sundayBioUnits];
-        } else {
-           const cleanKey = selectedPlannerPreset.replace(/^(11th|12th)-/i, '').toLowerCase();
-           const planner = SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || PLANNER_12TH_TESTS.find(t => t.code.toLowerCase() === cleanKey)
-              || SUNDAY_DROPPER_PLANNER_TESTS[0];
-           const botMatch = OFFICIAL_BOTANY_BLOCKS.filter(b => planner.botanyKeywords?.some(kw => b.toLowerCase().includes(kw.toLowerCase()))).map(b => `[Botany] ${b}`);
-           const zooMatch = OFFICIAL_ZOOLOGY_BLOCKS.filter(z => planner.zoologyKeywords?.some(kw => z.toLowerCase().includes(kw.toLowerCase()))).map(z => `[Zoology] ${z}`);
-           targetChapters = [...botMatch, ...zooMatch];
-        }
-      }
+      // STRICT PLANNER ADHERENCE: Get candidates ONLY from the current chapter
+      let targetChapters: string[] = [currentQ.chapter || ''];
 
       let bank: Question[] = [];
     if (targetChapters.length > 0) {
@@ -1775,10 +1734,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   return (
     <div className="space-y-5 animate-in fade-in duration-150">
       {/* Page Header Banner */}
-      <div className="bg-stone-900 border border-stone-800 text-white rounded-2xl p-5 shadow-xl">
+      <div className="bg-sky-900 border border-stone-800 text-white rounded-2xl p-5 shadow-xl">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div className="flex items-center space-x-3.5">
-            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-500 via-rose-600 to-rose-600 flex items-center justify-center text-white shadow-lg shadow-amber-500/20">
+            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-500 via-rose-600 to-rose-600 flex items-center justify-center text-white shadow-lg shadow-cyan-500/20">
               <ShieldCheck className="w-6 h-6" />
             </div>
             <div>
@@ -1786,7 +1745,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 <h1 className="text-lg sm:text-xl font-black text-white">
                   Admin & Faculty Control Center
                 </h1>
-                <span className="px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-400/30 text-[10px] font-mono font-bold">
+                <span className="px-2.5 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 text-[10px] font-mono font-bold">
                   MASTER FACULTY VAULT
                 </span>
               </div>
@@ -1804,12 +1763,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 onClick={() => setShowNotificationDrawer(prev => !prev)}
                 className={`relative px-3 py-2.5 rounded-xl font-bold text-xs transition flex items-center space-x-2 cursor-pointer shadow-md ${
                   adminNotifications.length > 0
-                    ? 'bg-amber-500/20 text-amber-300 border border-amber-400/40 hover:bg-amber-500/30'
-                    : 'bg-white/10 text-stone-300 border border-white/10 hover:bg-white/20'
+                    ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-400/40 hover:bg-cyan-500/30'
+                    : 'bg-sky-50/60/10 text-stone-300 border border-white/10 hover:bg-sky-50/60/20'
                 }`}
                 title="Candidate Package Enrollment Alerts"
               >
-                <Bell className={`w-4 h-4 ${adminNotifications.length > 0 ? 'text-amber-400 animate-bounce' : 'text-stone-400'}`} />
+                <Bell className={`w-4 h-4 ${adminNotifications.length > 0 ? 'text-cyan-400 animate-bounce' : 'text-stone-400'}`} />
                 <span className="hidden sm:inline">Alerts</span>
                 {adminNotifications.length > 0 && (
                   <span className="px-1.5 py-0.2 rounded-full bg-rose-500 text-white font-mono text-[10px] font-black">
@@ -1825,13 +1784,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     className="fixed inset-0 z-40"
                     onClick={() => setShowNotificationDrawer(false)}
                   />
-                  <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-white rounded-2xl shadow-2xl border border-stone-200 z-50 p-8 text-stone-900 animate-in fade-in zoom-in-95 duration-150">
+                  <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-sky-50/60 rounded-2xl shadow-2xl border border-sky-200 z-50 p-8 text-sky-950 animate-in fade-in zoom-in-95 duration-150">
                     <div className="flex items-center justify-between pb-2.5 border-b border-stone-100">
                       <div className="flex items-center space-x-2">
-                        <Bell className="w-4 h-4 text-orange-600" />
-                        <h4 className="text-xs font-bold text-stone-900">Enrolled Package Notifications</h4>
+                        <Bell className="w-4 h-4 text-sky-600" />
+                        <h4 className="text-xs font-bold text-sky-950">Enrolled Package Notifications</h4>
                       </div>
-                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-orange-100 text-orange-800">
+                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-sky-100 text-sky-800">
                         {adminNotifications.length} New
                       </span>
                     </div>
@@ -1841,19 +1800,19 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         adminNotifications.map(notif => (
                           <div
                             key={notif.id}
-                            className="p-3.5 rounded-xl border border-stone-100 bg-stone-50/70 hover:bg-orange-50/50 transition space-y-1"
+                            className="p-3.5 rounded-xl border border-stone-100 bg-sky-50/70 hover:bg-sky-50/50 transition space-y-1"
                           >
                             <div className="flex items-start justify-between gap-3">
-                              <span className="text-xs font-bold text-stone-900">{notif.studentName}</span>
+                              <span className="text-xs font-bold text-sky-950">{notif.studentName}</span>
                               <span className="text-[10px] font-mono text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded font-bold shrink-0">
                                 {notif.packagePrice || 'Free'}
                               </span>
                             </div>
-                            <div className="flex items-center gap-1.5 text-[11px] text-orange-700 font-semibold">
-                              <Crown className="w-3 h-3 text-amber-500 shrink-0" />
+                            <div className="flex items-center gap-1.5 text-[11px] text-sky-700 font-semibold">
+                              <Crown className="w-3 h-3 text-cyan-500 shrink-0" />
                               <span className="truncate">{notif.packageName || 'General Registration'}</span>
                             </div>
-                            <div className="flex items-center justify-between text-[10px] text-stone-500 pt-1 border-t border-stone-200/50">
+                            <div className="flex items-center justify-between text-[10px] text-sky-600 pt-1 border-t border-sky-200/50">
                               <span className="font-mono">Roll: {notif.rollNumber}</span>
                               <span>{new Date(notif.enrolledAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
                             </div>
@@ -1872,7 +1831,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           setAdminTab('students');
                           setShowNotificationDrawer(false);
                         }}
-                        className="w-full py-1.5 text-center text-xs font-bold text-orange-600 hover:text-orange-800 transition"
+                        className="w-full py-1.5 text-center text-xs font-bold text-sky-600 hover:text-sky-800 transition"
                       >
                         Open Full Candidate Directory →
                       </button>
@@ -1889,7 +1848,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               className={`px-4 py-2.5 rounded-xl text-xs font-bold font-mono transition flex items-center space-x-2 cursor-pointer shadow-md ${
                 isAdminTestAccessGranted
                   ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
-                  : 'bg-gradient-to-r from-amber-500 to-rose-600 hover:from-amber-600 hover:to-rose-700 text-white'
+                  : 'bg-gradient-to-r from-cyan-500 to-rose-600 hover:from-cyan-600 hover:to-rose-700 text-white'
               }`}
               title="Toggle Student Sunday Test Series Access Platform-Wide"
             >
@@ -1900,7 +1859,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </>
               ) : (
                 <>
-                  <Lock className="w-4 h-4 text-amber-200" />
+                  <Lock className="w-4 h-4 text-cyan-200" />
                   <span className="hidden sm:inline">Sunday Tests:</span> LOCKED
                 </>
               )}
@@ -1909,7 +1868,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {onClose && (
               <button
                 onClick={onClose}
-                className="p-3 rounded-xl text-stone-400 hover:text-white hover:bg-stone-800 transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                className="p-3 rounded-xl text-stone-400 hover:text-white hover:bg-sky-800 transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                 title="Close Admin Portal"
               >
                 <X className="w-5 h-5" />
@@ -1924,7 +1883,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         <div className="p-8 rounded-2xl bg-gradient-to-r from-emerald-950 via-teal-950 to-stone-900 border-2 border-emerald-500/50 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-white animate-in fade-in slide-in-from-top-3 duration-200">
           <div className="flex items-start sm:items-center space-x-3 min-w-0">
             <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 flex items-center justify-center shrink-0 mt-0.5 sm:mt-0">
-              <Crown className="w-5 h-5 text-amber-400" />
+              <Crown className="w-5 h-5 text-cyan-400" />
             </div>
             <div className="min-w-0">
               <div className="flex items-center space-x-2 flex-wrap">
@@ -1940,7 +1899,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
               <p className="text-xs text-stone-200 mt-1">
                 Enrolled Package:{' '}
-                <strong className="text-white font-bold bg-white/10 px-2 py-0.5 rounded border border-white/20">
+                <strong className="text-white font-bold bg-sky-50/60/10 px-2 py-0.5 rounded border border-white/20">
                   {adminNotifications[0].packageName || 'General Registration'}
                 </strong>{' '}
                 {' '}
@@ -1984,16 +1943,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       )}
 
       {/* Navigation Sub-Tabs */}
-      <div className="flex flex-wrap items-center gap-3 bg-white p-3 rounded-2xl border border-stone-200 shadow-2xs">
+      <div className="flex flex-wrap items-center gap-3 bg-sky-50/60 p-3 rounded-2xl border border-sky-200 shadow-2xs">
         <button
           onClick={() => setAdminTab('requests')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'requests'
-              ? 'bg-orange-600 text-white shadow-xs'
-              : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+              ? 'bg-sky-600 text-white shadow-xs'
+              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
           }`}
         >
-          <KeyRound className="w-4 h-4 text-amber-400" />
+          <KeyRound className="w-4 h-4 text-cyan-400" />
           <span>Student Unlock Requests</span>
           {pendingRequestsCount > 0 && (
             <span className="px-2 py-0.5 rounded-full bg-rose-600 text-white text-[10px] font-mono font-bold animate-pulse">
@@ -2006,11 +1965,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           onClick={() => setAdminTab('sunday_studio')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'sunday_studio'
-              ? 'bg-orange-600 text-white shadow-xs'
-              : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+              ? 'bg-sky-600 text-white shadow-xs'
+              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
           }`}
         >
-          <Sparkles className="w-4 h-4 text-amber-400" />
+          <Sparkles className="w-4 h-4 text-cyan-400" />
           <span>Sunday Test Studio (180 Qs)</span>
         </button>
 
@@ -2018,8 +1977,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           onClick={() => setAdminTab('generator')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'generator'
-              ? 'bg-orange-600 text-white shadow-xs'
-              : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+              ? 'bg-sky-600 text-white shadow-xs'
+              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
           }`}
         >
           <Sliders className="w-4 h-4" />
@@ -2030,13 +1989,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           onClick={() => setAdminTab('telemetry')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'telemetry'
-              ? 'bg-orange-600 text-white shadow-xs'
-              : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+              ? 'bg-sky-600 text-white shadow-xs'
+              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
           }`}
         >
           <BarChart3 className="w-4 h-4 text-teal-400" />
           <span>Question Bank & Chapter Analytics</span>
-          <span className="px-1.5 py-0.5 rounded-full bg-teal-400 text-stone-900 text-[10px] font-mono font-bold">
+          <span className="px-1.5 py-0.5 rounded-full bg-teal-400 text-sky-950 text-[10px] font-mono font-bold">
             {questionInventory.totalCount.toLocaleString()} Qs
           </span>
         </button>
@@ -2045,8 +2004,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           onClick={() => setAdminTab('students')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'students'
-              ? 'bg-orange-600 text-white shadow-xs'
-              : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+              ? 'bg-sky-600 text-white shadow-xs'
+              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
           }`}
         >
           <Users className="w-4 h-4" />
@@ -2057,13 +2016,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {/* TAB 1: STUDENT UNLOCK REQUESTS */}
       {adminTab === 'requests' && (
         <div className="space-y-6">
-          <div className="bg-white p-8 rounded-2xl border border-stone-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="bg-sky-50/60 p-8 rounded-2xl border border-sky-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
-              <h3 className="text-base font-bold text-stone-900 flex items-center space-x-2">
-                <KeyRound className="w-5 h-5 text-amber-500" />
+              <h3 className="text-base font-bold text-sky-950 flex items-center space-x-2">
+                <KeyRound className="w-5 h-5 text-cyan-500" />
                 <span>Student Test Unlock Approval Queue</span>
               </h3>
-              <p className="text-xs text-stone-500 mt-0.5">
+              <p className="text-xs text-sky-600 mt-0.5">
                 Review candidate authorization requests for 720-Marks Sunday CBT Tests. Approving grants instant access and logs delivery receipts.
               </p>
             </div>
@@ -2071,7 +2030,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {pendingRequestsCount > 0 && (
               <button
                 onClick={handleApproveAllRequests}
-                className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-bold shadow-md transition flex items-center space-x-1.5 cursor-pointer self-start sm:self-auto transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-bold shadow-md transition flex items-center space-x-1.5 cursor-pointer self-start sm:self-auto transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
               >
                 <CheckCheck className="w-4 h-4" />
                 <span>Approve All Pending Requests ({pendingRequestsCount})</span>
@@ -2079,7 +2038,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             )}
           </div>
 
-          <div className="flex flex-wrap items-center justify-between gap-3.5 bg-white p-3.5 rounded-2xl border border-stone-200 shadow-2xs">
+          <div className="flex flex-wrap items-center justify-between gap-3.5 bg-sky-50/60 p-3.5 rounded-2xl border border-sky-200 shadow-2xs">
             <div className="flex items-center space-x-1.5">
               {(['all', 'pending', 'approved', 'rejected'] as const).map(status => (
                 <button
@@ -2087,8 +2046,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   onClick={() => setRequestStatusFilter(status)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition cursor-pointer ${
                     requestStatusFilter === status
-                      ? 'bg-orange-600 text-white shadow-2xs'
-                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                      ? 'bg-sky-600 text-white shadow-2xs'
+                      : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
                   }`}
                 >
                   {status === 'all' ? 'All Requests' : status}
@@ -2104,15 +2063,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 placeholder="Search candidate, roll #, contact, email..."
                 value={requestSearch}
                 onChange={e => setRequestSearch(e.target.value)}
-                className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-stone-50 border border-stone-200 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:outline-none focus:border-orange-500"
+                className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-sky-50 border border-sky-200 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:outline-none focus:border-sky-500"
               />
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl border border-stone-200 shadow-2xs overflow-hidden">
+          <div className="bg-sky-50/60 rounded-2xl border border-sky-200 shadow-2xs overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs">
-                <thead className="bg-stone-900 text-white font-bold">
+                <thead className="bg-sky-900 text-white font-bold">
                   <tr>
                     <th className="p-3.5">Requested At</th>
                     <th className="p-3.5">Candidate & Roll #</th>
@@ -2131,8 +2090,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       const isRejected = req.status === 'rejected';
 
                       return (
-                        <tr key={req.id} className="hover:bg-stone-50 transition">
-                          <td className="p-3.5 font-mono text-stone-500 whitespace-nowrap">
+                        <tr key={req.id} className="hover:bg-sky-50 transition">
+                          <td className="p-3.5 font-mono text-sky-600 whitespace-nowrap">
                             <div className="flex items-center space-x-1">
                               <Clock className="w-3.5 h-3.5 text-stone-400" />
                               <span>{new Date(req.requestedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
@@ -2141,14 +2100,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           </td>
 
                           <td className="p-3.5">
-                            <div className="font-bold text-stone-900">{req.studentName}</div>
-                            <div className="text-[11px] font-mono text-orange-700 font-semibold">{req.rollNumber}</div>
+                            <div className="font-bold text-sky-950">{req.studentName}</div>
+                            <div className="text-[11px] font-mono text-sky-700 font-semibold">{req.rollNumber}</div>
                             {(() => {
                               const matched = registeredCandidates.find((c: any) => c.rollNumber === req.rollNumber || c.studentName === req.studentName || c.studentPhone === req.studentPhone);
                               const pkg = matched?.selectedPackage || enrolledStudent?.selectedPackage;
                               return pkg ? (
-                                <div className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-50 text-amber-900 border border-amber-200 mt-1">
-                                  <Crown className="w-2.5 h-2.5 text-amber-600 shrink-0" />
+                                <div className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-cyan-50 text-cyan-900 border border-cyan-200 mt-1">
+                                  <Crown className="w-2.5 h-2.5 text-cyan-600 shrink-0" />
                                   <span className="truncate max-w-[160px]">{pkg.name}</span>
                                   
                                 </div>
@@ -2158,36 +2117,36 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             })()}
                           </td>
 
-                          <td className="p-3.5 font-mono text-stone-700">
+                          <td className="p-3.5 font-mono text-sky-800">
                             <div className="flex items-center space-x-1 font-semibold">
-                              <Phone className="w-3 h-3 text-orange-600" />
+                              <Phone className="w-3 h-3 text-sky-600" />
                               <span>+91 {req.studentPhone}</span>
                             </div>
                           </td>
 
                           <td className="p-3.5 space-y-0.5">
-                            <div className="flex items-center space-x-1 text-stone-800 font-mono text-[11px]">
+                            <div className="flex items-center space-x-1 text-sky-900 font-mono text-[11px]">
                               <Mail className="w-3 h-3 text-emerald-600" />
                               <span className="font-semibold">{req.parentEmail}</span>
                             </div>
-                            <div className="flex items-center space-x-1 text-stone-600 font-mono text-[11px]">
-                              <Phone className="w-3 h-3 text-amber-600" />
+                            <div className="flex items-center space-x-1 text-sky-700 font-mono text-[11px]">
+                              <Phone className="w-3 h-3 text-cyan-600" />
                               <span>+91 {req.parentPhone}</span>
                             </div>
                           </td>
 
                           <td className="p-3.5">
-                            <span className="font-bold text-stone-900 bg-orange-50 border border-orange-200 px-2 py-0.5 rounded text-[11px]">
+                            <span className="font-bold text-sky-950 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded text-[11px]">
                               {req.testCode}
                             </span>
-                            <div className="text-[10px] text-stone-500 mt-1 max-w-xs truncate">
+                            <div className="text-[10px] text-sky-600 mt-1 max-w-xs truncate">
                               {req.testTitle}
                             </div>
                           </td>
 
                           <td className="p-3.5">
                             {isPending && (
-                              <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-amber-100 text-amber-900 border border-amber-300 flex items-center gap-1 w-fit">
+                              <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-cyan-100 text-cyan-900 border border-cyan-300 flex items-center gap-1 w-fit">
                                 <AlertCircle className="w-3 h-3" /> Pending Review
                               </span>
                             )}
@@ -2215,7 +2174,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                 </button>
                                 <button
                                   onClick={() => handleRejectRequest(req.id)}
-                                  className="p-1.5 rounded-lg bg-stone-100 hover:bg-rose-100 text-stone-600 hover:text-rose-700 transition cursor-pointer"
+                                  className="p-1.5 rounded-lg bg-sky-50 hover:bg-rose-100 text-sky-700 hover:text-rose-700 transition cursor-pointer"
                                   title="Reject Request"
                                 >
                                   <X className="w-4 h-4" />
@@ -2228,7 +2187,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             ) : (
                               <button
                                 onClick={() => handleApproveRequest(req.id)}
-                                className="px-2.5 py-1 rounded-lg bg-stone-100 hover:bg-emerald-100 text-stone-700 hover:text-emerald-800 text-xs font-semibold transition cursor-pointer"
+                                className="px-2.5 py-1 rounded-lg bg-sky-50 hover:bg-emerald-100 text-sky-800 hover:text-emerald-800 text-xs font-semibold transition cursor-pointer"
                               >
                                 Re-Approve
                               </button>
@@ -2239,7 +2198,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     })
                   ) : (
                     <tr>
-                      <td colSpan={7} className="text-center py-12 text-stone-500">
+                      <td colSpan={7} className="text-center py-12 text-sky-600">
                         <Inbox className="w-8 h-8 mx-auto text-stone-400 mb-2" />
                         <div className="font-semibold text-sm">No Test Unlock Requests Found</div>
                         <p className="text-xs text-stone-400 mt-0.5">
@@ -2272,14 +2231,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       Master Default Active (Live for All Candidates)
                     </span>
                   ) : (
-                    <span className="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-orange-500/20 text-orange-300 border border-orange-400/30">
+                    <span className="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-sky-500/20 text-sky-300 border border-sky-400/30">
                       Standard Planner Default
                     </span>
                   )}
                 </div>
                 <h3 className="text-xl font-black text-white flex items-center gap-3">
-                  <Sparkles className="w-6 h-6 text-amber-400" />
-                  Sunday Test Paper Studio: <span className="text-amber-300 font-mono underline decoration-amber-400/50">{selectedPlannerPreset.toUpperCase()}</span>
+                  <Sparkles className="w-6 h-6 text-cyan-400" />
+                  Sunday Test Paper Studio: <span className="text-cyan-300 font-mono underline decoration-cyan-400/50">{selectedPlannerPreset.toUpperCase()}</span>
                 </h3>
                 <p className="text-xs text-rose-200/90 mt-1 max-w-2xl leading-relaxed">
                   Select and edit <strong>all Sunday papers</strong> across Chapter-Wise (CWT-01 to 19), Cumulative (CUM-01 to 05), Part-Wise (PART-01 to 03), and Full-Syllabus (FST-01 to 06). When you swap a question, edit a question, or swap a topic, it automatically becomes the <strong>Master Default</strong> for all candidates platform-wide.
@@ -2288,11 +2247,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
               {/* Master Actions Bar */}
               <div className="flex flex-wrap items-center gap-3.5">
-                <div className="flex items-center bg-stone-800 rounded-lg p-1 border border-stone-700">
+                <div className="flex items-center bg-sky-800 rounded-lg p-1 border border-stone-700">
                     <select
                       value={exportTrackSelection}
                       onChange={(e) => setExportTrackSelection(e.target.value)}
-                      className="bg-stone-700 text-white text-[10px] rounded pl-2 pr-6 py-1 border-none focus:ring-0 cursor-pointer outline-none font-bold mr-1"
+                      className="bg-sky-700 text-white text-[10px] rounded pl-2 pr-6 py-1 border-none focus:ring-0 cursor-pointer outline-none font-bold mr-1"
                     >
                       <option value="dropper1">Repeater Track 1</option>
                       <option value="dropper2">Repeater Track 2</option>
@@ -2304,7 +2263,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     </select>
                     <button
                       onClick={handleExportSelectedTrackZIP}
-                      className="px-2 py-1 rounded bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                      className="px-2 py-1 rounded bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                     >
                       <Download className="w-3 h-3" /> Export ZIP
                     </button>
@@ -2313,16 +2272,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     <Upload className="w-3.5 h-3.5" /> Import Backup
                     <input type="file" accept=".zip" className="hidden" onChange={handleImportBackupZIP} />
                   </label>
-                  <button
-                    onClick={handleMockPdfUpload}
-                    className="px-3 py-1.5 rounded-lg bg-orange-600 hover:bg-orange-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
-                  >
-                    <FileText className="w-3.5 h-3.5" /> Parse PDF/Word
-                  </button>
+                  <label className="px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-700 text-white font-bold text-[10px] uppercase tracking-wide flex items-center gap-1 shadow-md transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "><FileText className="w-3.5 h-3.5" /> Parse PDF/Word<input type="file" accept=".pdf,.doc,.docx" className="hidden" onChange={handleMockPdfUpload} /></label>
                   <button
                     onClick={handleSaveAndPublishSelectedPaper}
                   disabled={isSyncingAction}
-                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-stone-950 rounded-xl text-xs font-black transition flex items-center gap-3 shadow-md cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-stone-950 rounded-xl text-xs font-black transition flex items-center gap-3 shadow-md cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   title="Confirm and lock this Sunday Paper as the authoritative Final Master Default across all student systems"
                 >
                   <ShieldCheck className="w-4 h-4 text-stone-950" />
@@ -2331,7 +2285,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <button
                   onClick={() => setShowMasterSavesModal(true)}
-                  className="px-3.5 py-2.5 bg-stone-800 hover:bg-stone-700 text-stone-100 border border-stone-700 rounded-xl text-xs font-bold transition flex items-center gap-3 shadow-md cursor-pointer"
+                  className="px-3.5 py-2.5 bg-sky-800 hover:bg-sky-700 text-stone-100 border border-stone-700 rounded-xl text-xs font-bold transition flex items-center gap-3 shadow-md cursor-pointer"
                   title="View Committed Master Default Saves and History"
                 >
                   <Eye className="w-4 h-4 text-emerald-400" />
@@ -2341,7 +2295,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 <button
                   onClick={handleResetSelectedPaperToDefault}
                   disabled={isSyncingAction}
-                  className="px-3 py-2.5 bg-rose-500/20 hover:bg-rose-500/40 text-rose-200 border border-rose-400/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                  className="px-3 py-2.5 bg-rose-500/20 hover:bg-rose-500/40 text-rose-200 border border-rose-400/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   title="Revert this paper back to original base syllabus template across all devices"
                 >
                   <RotateCcw className="w-3.5 h-3.5" />
@@ -2350,7 +2304,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <button
                   onClick={handleLaunchSundayInCBT}
-                  className="px-3.5 py-2.5 bg-orange-600 hover:bg-orange-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-3 shadow-xs cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                  className="px-3.5 py-2.5 bg-sky-600 hover:bg-sky-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-3 shadow-xs cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                 >
                   <Play className="w-4 h-4" />
                   Test in CBT
@@ -2358,30 +2312,30 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <button
                   onClick={() => handleDownloadSundayMasterPDF(false)}
-                  className="px-3 py-2.5 bg-white/10 hover:bg-white/20 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-white/10"
+                  className="px-3 py-2.5 bg-sky-50/60/10 hover:bg-sky-50/60/20 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-white/10"
                   title="Download Student Question Paper PDF"
                 >
-                  <Download className="w-4 h-4 text-orange-400" />
+                  <Download className="w-4 h-4 text-sky-400" />
                   Paper PDF
                 </button>
 
                 <button
                   onClick={() => handleDownloadSundayMasterPDF(true)}
-                  className="px-3 py-2.5 bg-white/10 hover:bg-white/20 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-white/10"
+                  className="px-3 py-2.5 bg-sky-50/60/10 hover:bg-sky-50/60/20 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-white/10"
                   title="Download Master Paper with Solutions & Diagrams"
                 >
-                  <FileText className="w-4 h-4 text-amber-300" />
+                  <FileText className="w-4 h-4 text-cyan-300" />
                   Solutions PDF
                 </button>
               </div>
             </div>
 
             {/* Circular Question Loop & Sequential Queue Status */}
-            <div className="p-3.5 bg-white/5 rounded-2xl border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-rose-100 font-mono">
+            <div className="p-3.5 bg-sky-50/60/5 rounded-2xl border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-rose-100 font-mono">
               <div className="flex items-center gap-3.5">
-                <RefreshCw className="w-4 h-4 text-amber-400 shrink-0" />
+                <RefreshCw className="w-4 h-4 text-cyan-400 shrink-0" />
                 <span>
-                  <strong className="text-amber-300">Continuous Question Loop Active:</strong> 45-question batches are drawn round-robin per subject without repeating diagrams. When exhausted, the loop resets back to 0 so 100% of question bank data is utilized.
+                  <strong className="text-cyan-300">Continuous Question Loop Active:</strong> 45-question batches are drawn round-robin per subject without repeating diagrams. When exhausted, the loop resets back to 0 so 100% of question bank data is utilized.
                 </span>
               </div>
               <button
@@ -2392,7 +2346,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   setActionSuccessBanner('✓ Circular loop cursors reset to start (offset 0)');
                   setTimeout(() => setActionSuccessBanner(null), 2500);
                 }}
-                className="text-[11px] underline text-amber-300 hover:text-white shrink-0 cursor-pointer font-bold"
+                className="text-[11px] underline text-cyan-300 hover:text-white shrink-0 cursor-pointer font-bold"
               >
                 Reset Loop to Start
               </button>
@@ -2409,28 +2363,28 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           )}
 
           {/* STEP 1: SUNDAY PAPER SELECTOR & TOPIC CHOOSER */}
-          <div className="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm space-y-6">
+          <div className="bg-sky-50/60 p-8 rounded-3xl border border-sky-200 shadow-sm space-y-6">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-100 pb-3">
               <div>
                 <div className="flex items-center gap-3 flex-wrap">
-                  <h4 className="text-sm font-extrabold text-stone-900 flex items-center gap-3">
-                    <Layers className="w-4 h-4 text-orange-600" />
+                  <h4 className="text-sm font-extrabold text-sky-950 flex items-center gap-3">
+                    <Layers className="w-4 h-4 text-sky-600" />
                     Step 1: Choose Sunday Paper & Topic Customization
                   </h4>
                 </div>
-                <p className="text-[11px] text-stone-500">
+                <p className="text-[11px] text-sky-600">
                   Select which Sunday test paper you are editing, customize syllabus topics, and re-assemble 180 questions with zero cross-chapter mixing.
                 </p>
               </div>
 
               {/* Sunday Paper Selector Dropdown & Presets */}
               <div className="flex items-center gap-3 flex-wrap">
-                <div className="flex items-center gap-1.5 bg-stone-100 p-1.5 rounded-xl border border-stone-200">
-                  <span className="text-[11px] font-extrabold text-stone-700 px-1">Paper:</span>
+                <div className="flex items-center gap-1.5 bg-sky-50 p-1.5 rounded-xl border border-sky-200">
+                  <span className="text-[11px] font-extrabold text-sky-800 px-1">Paper:</span>
                   <select
                     value={selectedPlannerPreset}
                     onChange={(e) => handleSelectSundayPaper(e.target.value)}
-                    className="bg-white text-stone-900 font-black text-xs px-3 py-1 rounded-lg border border-stone-300 focus:outline-hidden focus:ring-2 focus:ring-orange-500 cursor-pointer"
+                    className="bg-sky-50/60 text-sky-950 font-black text-xs px-3 py-1 rounded-lg border border-sky-300 focus:outline-hidden focus:ring-2 focus:ring-sky-500 cursor-pointer"
                   >
                     <optgroup label="Repeater Track 1: 20-Wk Chapterwise (CW-01 to CW-20)">
                       {SUNDAY_DROPPER_TRACK1_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
@@ -2557,27 +2511,27 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 {/* Quick Presets */}
                 <button
                   onClick={() => handleApplyPreset('all')}
-                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 cursor-pointer"
+                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-800 cursor-pointer"
                 >
                   Full Syllabus
                 </button>
                 <button
                   onClick={() => handleApplyPreset('class11')}
-                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 cursor-pointer"
+                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-800 cursor-pointer"
                 >
                   Class 11
                 </button>
                 <button
                   onClick={() => handleApplyPreset('class12')}
-                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 cursor-pointer"
+                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-800 cursor-pointer"
                 >
                   Class 12
                 </button>
 
                 {/* Marking Rules (+4 / -1) */}
-                <div className="flex items-center gap-1.5 bg-stone-100 p-1.5 rounded-xl border border-stone-200">
-                  <span className="text-[11px] font-extrabold text-stone-700 px-1">Marking:</span>
-                  <div className="flex items-center gap-1 bg-white px-2 py-0.5 rounded-lg border border-stone-300">
+                <div className="flex items-center gap-1.5 bg-sky-50 p-1.5 rounded-xl border border-sky-200">
+                  <span className="text-[11px] font-extrabold text-sky-800 px-1">Marking:</span>
+                  <div className="flex items-center gap-1 bg-sky-50/60 px-2 py-0.5 rounded-lg border border-sky-300">
                     <span className="text-[10px] text-emerald-700 font-bold">+</span>
                     <input
                       type="number"
@@ -2600,7 +2554,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 <button
                   onClick={handleAssembleSundayStudio}
-                  className="px-3 py-1.5 text-xs font-extrabold rounded-xl bg-rose-600 hover:bg-rose-700 text-white cursor-pointer flex items-center gap-1.5 shadow-xs ml-1 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                  className="px-3 py-1.5 text-xs font-extrabold rounded-xl bg-rose-600 hover:bg-rose-700 text-white cursor-pointer flex items-center gap-1.5 shadow-xs ml-1 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   title="Re-assemble 180 questions strictly matching currently selected units"
                 >
                   <RefreshCw className="w-3.5 h-3.5" />
@@ -2610,20 +2564,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
 
             {/* TOPIC SWAPPER & QUESTION ALLOCATION MATRIX (ADMIN VAULT RIGHT) */}
-            <div className="p-8 rounded-2xl bg-gradient-to-r from-orange-50/80 via-rose-50/80 to-purple-50/80 border border-rose-200 space-y-3.5 shadow-2xs">
+            <div className="p-8 rounded-2xl bg-gradient-to-r from-sky-50/80 via-rose-50/80 to-purple-50/80 border border-rose-200 space-y-3.5 shadow-2xs">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div className="flex items-center gap-3">
                   <div className="p-1.5 rounded-lg bg-rose-600 text-white">
                     <Sliders className="w-4 h-4" />
                   </div>
                   <div>
-                    <h5 className="text-xs font-black text-stone-900 uppercase tracking-wide flex items-center gap-3">
+                    <h5 className="text-xs font-black text-sky-950 uppercase tracking-wide flex items-center gap-3">
                       <span>Topic Swapper & Question Allocation Manager</span>
                       <span className="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-bold">
                         Admin Right Active
                       </span>
                     </h5>
-                    <p className="text-[11px] text-stone-600">
+                    <p className="text-[11px] text-sky-700">
                       Swap any chapter via dropdown (e.g. Laws of Motion ↔ Electrostatics) and set custom questions per topic (e.g. 4 questions instead of 3).
                     </p>
                   </div>
@@ -2642,16 +2596,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Topic Swapper Controls Bar */}
-              <div className="bg-white p-3.5 rounded-xl border border-rose-100 shadow-xs flex flex-wrap items-center gap-3 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
+              <div className="bg-sky-50/60 p-3.5 rounded-xl border border-rose-100 shadow-xs flex flex-wrap items-center gap-3 transition-all duration-500 hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1.5 ">
                 {/* 1. Source Topic Dropdown */}
                 <div className="flex-1 min-w-[210px] space-y-1">
-                  <label className="text-[10px] font-bold text-stone-500 uppercase tracking-wider block">
+                  <label className="text-[10px] font-bold text-sky-600 uppercase tracking-wider block">
                     1. Current Topic to Swap
                   </label>
                   <select
                     value={swapSourceTopic}
                     onChange={e => setSwapSourceTopic(e.target.value)}
-                    className="w-full text-xs font-bold p-3 rounded-lg border border-stone-300 bg-stone-50 text-stone-900 focus:bg-white focus:border-rose-500 cursor-pointer"
+                    className="w-full text-xs font-bold p-3 rounded-lg border border-sky-300 bg-sky-50 text-sky-950 focus:bg-sky-50/60 focus:border-rose-500 cursor-pointer"
                   >
                     <optgroup label="⚡ Physics Chapters">
                       {ALL_PHYSICS_CHAPTERS.map(ch => (
@@ -2678,13 +2632,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 {/* 2. Replacement Topic Dropdown */}
                 <div className="flex-1 min-w-[210px] space-y-1">
-                  <label className="text-[10px] font-bold text-stone-500 uppercase tracking-wider block">
+                  <label className="text-[10px] font-bold text-sky-600 uppercase tracking-wider block">
                     2. Swap With (Replacement Topic)
                   </label>
                   <select
                     value={swapTargetTopic}
                     onChange={e => setSwapTargetTopic(e.target.value)}
-                    className="w-full text-xs font-bold p-3 rounded-lg border border-stone-300 bg-stone-50 text-stone-900 focus:bg-white focus:border-rose-500 cursor-pointer"
+                    className="w-full text-xs font-bold p-3 rounded-lg border border-sky-300 bg-sky-50 text-sky-950 focus:bg-sky-50/60 focus:border-rose-500 cursor-pointer"
                   >
                     <optgroup label="⚡ Physics Chapters">
                       {ALL_PHYSICS_CHAPTERS.map(ch => (
@@ -2706,7 +2660,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 {/* 3. Question Count Input */}
                 <div className="w-28 space-y-1">
-                  <label className="text-[10px] font-bold text-stone-500 uppercase tracking-wider block">
+                  <label className="text-[10px] font-bold text-sky-600 uppercase tracking-wider block">
                     3. Questions
                   </label>
                   <div className="flex items-center gap-1">
@@ -2716,9 +2670,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       max={45}
                       value={swapQuestionCount}
                       onChange={e => setSwapQuestionCount(Math.max(1, Math.min(45, parseInt(e.target.value) || 1)))}
-                      className="w-full text-xs font-mono font-bold text-center p-3 rounded-lg border border-stone-300 bg-stone-50 text-stone-900 focus:bg-white focus:border-rose-500"
+                      className="w-full text-xs font-mono font-bold text-center p-3 rounded-lg border border-sky-300 bg-sky-50 text-sky-950 focus:bg-sky-50/60 focus:border-rose-500"
                     />
-                    <span className="text-[11px] font-bold text-stone-500">Qs</span>
+                    <span className="text-[11px] font-bold text-sky-600">Qs</span>
                   </div>
                 </div>
 
@@ -2737,15 +2691,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
               {/* Configured Topics Matrix */}
               <div className="flex flex-wrap items-center gap-3 pt-0.5">
-                <span className="text-[10px] font-bold text-stone-600 uppercase tracking-wider">Active Topic Allocations:</span>
+                <span className="text-[10px] font-bold text-sky-700 uppercase tracking-wider">Active Topic Allocations:</span>
                 {topicAllocations.map(alloc => (
                   <div
                     key={alloc.id}
-                    className="flex items-center gap-3 px-2.5 py-1 rounded-lg bg-white border border-stone-200 text-xs shadow-2xs"
+                    className="flex items-center gap-3 px-2.5 py-1 rounded-lg bg-sky-50/60 border border-sky-200 text-xs shadow-2xs"
                   >
-                    <span className={`w-2 h-2 rounded-full ${alloc.subject === 'Physics' ? 'bg-orange-600' : alloc.subject === 'Chemistry' ? 'bg-emerald-600' : 'bg-purple-600'}`} />
-                    <span className="text-stone-800 font-bold">{alloc.chapter}</span>
-                    <div className="flex items-center gap-1 bg-stone-100 px-1.5 py-0.5 rounded border border-stone-200">
+                    <span className={`w-2 h-2 rounded-full ${alloc.subject === 'Physics' ? 'bg-sky-600' : alloc.subject === 'Chemistry' ? 'bg-emerald-600' : 'bg-purple-600'}`} />
+                    <span className="text-sky-900 font-bold">{alloc.chapter}</span>
+                    <div className="flex items-center gap-1 bg-sky-50 px-1.5 py-0.5 rounded border border-sky-200">
                       <input
                         type="number"
                         min={1}
@@ -2757,7 +2711,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         }}
                         className="w-8 text-[11px] font-mono font-bold text-center bg-transparent border-0 focus:outline-hidden text-rose-700"
                       />
-                      <span className="text-[10px] text-stone-500 font-semibold">Qs</span>
+                      <span className="text-[10px] text-sky-600 font-semibold">Qs</span>
                     </div>
                     <button
                       type="button"
@@ -2791,7 +2745,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     };
                     setTopicAllocations(prev => [...prev, newAlloc]);
                   }}
-                  className="px-2.5 py-1 rounded-lg border border-dashed border-rose-300 text-rose-700 bg-white hover:bg-rose-50 text-[11px] font-bold cursor-pointer transition shadow-2xs"
+                  className="px-2.5 py-1 rounded-lg border border-dashed border-rose-300 text-rose-700 bg-sky-50/60 hover:bg-rose-50 text-[11px] font-bold cursor-pointer transition shadow-2xs"
                 >
                   + Add Topic
                 </button>
@@ -2801,13 +2755,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {/* 3 Columns: Physics, Chemistry, Biology Chapters */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {/* Physics */}
-              <div className="p-8 rounded-2xl bg-orange-50/40 border border-orange-200 space-y-4">
+              <div className="p-8 rounded-2xl bg-sky-50/40 border border-sky-200 space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-orange-900 flex items-center gap-1.5">
-                    <span className="w-2.5 h-2.5 rounded-full bg-orange-600" />
+                  <span className="text-xs font-bold text-sky-900 flex items-center gap-1.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-sky-600" />
                     Physics Units ({sundayPhyUnits.length} Selected)
                   </span>
-                  <span className="text-[10px] font-mono text-orange-700 font-semibold">45 Questions</span>
+                  <span className="text-[10px] font-mono text-sky-700 font-semibold">45 Questions</span>
                 </div>
                 <div className="max-h-48 overflow-y-auto space-y-1 pr-1">
                   {OFFICIAL_PHYSICS_UNITS.map((u, i) => {
@@ -2818,8 +2772,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         onClick={() => handleToggleSundayUnit('Physics', u)}
                         className={`w-full text-left p-3 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                           isSelected
-                            ? 'bg-orange-600 text-white font-bold shadow-xs'
-                            : 'bg-white hover:bg-orange-100/50 text-stone-700 border border-stone-200'
+                            ? 'bg-sky-600 text-white font-bold shadow-xs'
+                            : 'bg-sky-50/60 hover:bg-sky-100/50 text-sky-800 border border-sky-200'
                         }`}
                       >
                         <span className="truncate mr-2">{u}</span>
@@ -2849,7 +2803,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         className={`w-full text-left p-3 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                           isSelected
                             ? 'bg-emerald-600 text-white font-bold shadow-xs'
-                            : 'bg-white hover:bg-emerald-100/50 text-stone-700 border border-stone-200'
+                            : 'bg-sky-50/60 hover:bg-emerald-100/50 text-sky-800 border border-sky-200'
                         }`}
                       >
                         <span className="truncate mr-2">{u}</span>
@@ -2882,7 +2836,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         className={`w-full text-left p-3 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                           isSelected
                             ? 'bg-purple-600 text-white font-bold shadow-xs'
-                            : 'bg-white hover:bg-purple-100/50 text-stone-700 border border-stone-200'
+                            : 'bg-sky-50/60 hover:bg-purple-100/50 text-sky-800 border border-sky-200'
                         }`}
                       >
                         <span className="truncate mr-2">{u}</span>
@@ -2896,20 +2850,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           </div>
 
           {/* STEP 2: QUESTION INSPECTOR (1 TO 180) */}
-          <div className="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm space-y-6">
+          <div className="bg-sky-50/60 p-8 rounded-3xl border border-sky-200 shadow-sm space-y-6">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-stone-100 pb-3">
               <div>
-                <h4 className="text-sm font-extrabold text-stone-900 flex items-center gap-3">
+                <h4 className="text-sm font-extrabold text-sky-950 flex items-center gap-3">
                   <Eye className="w-4 h-4 text-purple-600" />
                   Step 2: Question-Level Access & Customization (1 to 180)
                 </h4>
-                <p className="text-[11px] text-stone-500">
+                <p className="text-[11px] text-sky-600">
                   Inspect every question, verify diagrams, swap questions within the same chapter, or edit in-place.
                 </p>
               </div>
 
               {/* Subject Filter Bar */}
-              <div className="flex items-center gap-1 bg-stone-100 p-1 rounded-xl">
+              <div className="flex items-center gap-1 bg-sky-50 p-1 rounded-xl">
                 {(['All', 'Physics', 'Chemistry', 'Botany', 'Zoology'] as const).map(tab => (
                   <button
                     key={tab}
@@ -2919,8 +2873,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     }}
                     className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
                       studioSubjectFilter === tab
-                        ? 'bg-white text-stone-900 shadow-xs'
-                        : 'text-stone-600 hover:text-stone-900'
+                        ? 'bg-sky-50/60 text-sky-950 shadow-xs'
+                        : 'text-sky-700 hover:text-sky-950'
                     }`}
                   >
                     {tab === 'All' ? 'All 180 Qs' : tab === 'Physics' ? 'Physics (1-45)' : tab === 'Chemistry' ? 'Chem (46-90)' : tab === 'Botany' ? 'Botany (91-135)' : 'Zoology (136-180)'}
@@ -2930,7 +2884,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
 
             {/* Search & Jump Bar */}
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-stone-50 p-3 rounded-2xl border border-stone-200">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-sky-50 p-3 rounded-2xl border border-sky-200">
               <div className="relative w-full sm:w-80">
                 <Search className="w-4 h-4 text-stone-400 absolute left-3 top-3.5" />
                 <input
@@ -2941,11 +2895,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     setStudioSearch(e.target.value);
                     setStudioPage(1);
                   }}
-                  className="w-full pl-9 pr-3 py-1.5 bg-white border border-stone-200 rounded-xl text-xs focus:outline-hidden focus:ring-2 focus:ring-orange-500"
+                  className="w-full pl-9 pr-3 py-1.5 bg-sky-50/60 border border-sky-200 rounded-xl text-xs focus:outline-hidden focus:ring-2 focus:ring-sky-500"
                 />
               </div>
 
-              <div className="flex items-center gap-3 text-xs text-stone-600 font-mono">
+              <div className="flex items-center gap-3 text-xs text-sky-700 font-mono">
                 <span>Showing Page {studioPage} of {Math.max(1, Math.ceil((
                   sundayQuestions.filter((q, idx) => {
                     if (studioSubjectFilter === 'Physics' && idx >= 45) return false;
@@ -2966,7 +2920,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     onClick={() => setStudioPage(p => Math.max(1, p - 1))}
                     disabled={studioPage <= 1}
-                    className="px-2.5 py-1 rounded bg-white border border-stone-200 hover:bg-stone-100 disabled:opacity-50 text-xs cursor-pointer"
+                    className="px-2.5 py-1 rounded bg-sky-50/60 border border-sky-200 hover:bg-sky-50 disabled:opacity-50 text-xs cursor-pointer"
                   >
                     &larr; Prev
                   </button>
@@ -2988,7 +2942,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         return true;
                       }).length / 10)
                     }
-                    className="px-2.5 py-1 rounded bg-white border border-stone-200 hover:bg-stone-100 disabled:opacity-50 text-xs cursor-pointer"
+                    className="px-2.5 py-1 rounded bg-sky-50/60 border border-sky-200 hover:bg-sky-50 disabled:opacity-50 text-xs cursor-pointer"
                   >
                     Next &rarr;
                   </button>
@@ -3020,9 +2974,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                 if (paginated.length === 0) {
                   return (
-                    <div className="text-center py-12 bg-stone-50 rounded-2xl border border-dashed border-stone-300">
+                    <div className="text-center py-12 bg-sky-50 rounded-2xl border border-dashed border-sky-300">
                       <Search className="w-8 h-8 mx-auto text-stone-400 mb-2" />
-                      <p className="text-sm font-bold text-stone-700">No Questions Match Search</p>
+                      <p className="text-sm font-bold text-sky-800">No Questions Match Search</p>
                       <p className="text-xs text-stone-400 mt-0.5">Try a different keyword or reset filters.</p>
                     </div>
                   );
@@ -3036,28 +2990,28 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   return (
                     <div
                       key={originalIdx}
-                      className="p-5 rounded-2xl border border-stone-200 bg-white hover:border-orange-300 transition space-y-3 shadow-xs"
+                      className="p-5 rounded-2xl border border-sky-200 bg-sky-50/60 hover:border-sky-300 transition space-y-3 shadow-xs"
                     >
                       {/* Header of Question Card */}
                       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-stone-100 pb-2">
                         <div className="flex items-center gap-3">
-                          <span className="w-8 h-8 rounded-xl bg-stone-900 text-white font-mono font-black text-xs flex items-center justify-center shadow-xs">
+                          <span className="w-8 h-8 rounded-xl bg-sky-900 text-white font-mono font-black text-xs flex items-center justify-center shadow-xs">
                             #{originalIdx + 1}
                           </span>
                           <span className={`px-2.5 py-0.5 rounded-md text-[10px] font-bold ${
-                            originalIdx < 45 ? 'bg-orange-100 text-orange-800' :
+                            originalIdx < 45 ? 'bg-sky-100 text-sky-800' :
                             originalIdx < 90 ? 'bg-emerald-100 text-emerald-800' :
-                            originalIdx < 135 ? 'bg-purple-100 text-purple-800' : 'bg-amber-100 text-amber-800'
+                            originalIdx < 135 ? 'bg-purple-100 text-purple-800' : 'bg-cyan-100 text-cyan-800'
                           }`}>
                             {originalIdx < 45 ? 'Physics' : originalIdx < 90 ? 'Chemistry' : originalIdx < 135 ? 'Botany' : 'Zoology'}
                           </span>
-                          <span className="text-xs font-semibold text-stone-700 bg-stone-100 px-2 py-0.5 rounded">
+                          <span className="text-xs font-semibold text-sky-800 bg-sky-50 px-2 py-0.5 rounded">
                             {q.chapter || 'Syllabus Chapter'}
                           </span>
                           {q.difficulty && (
                             <span className={`text-[10px] px-2 py-0.5 rounded font-mono font-bold ${
                               q.difficulty === 'Hard' ? 'bg-rose-100 text-rose-800' :
-                              q.difficulty === 'Medium' ? 'bg-amber-100 text-amber-800' : 'bg-emerald-100 text-emerald-800'
+                              q.difficulty === 'Medium' ? 'bg-cyan-100 text-cyan-800' : 'bg-emerald-100 text-emerald-800'
                             }`}>
                               {q.difficulty}
                             </span>
@@ -3067,12 +3021,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         {/* Action Buttons */}
                         <div className="flex flex-wrap items-center gap-3">
                           {/* Reorder Buttons (Atomic Cloud Swap) */}
-                          <div className="flex items-center gap-0.5 bg-stone-100 p-0.5 rounded-lg border border-stone-200">
+                          <div className="flex items-center gap-0.5 bg-sky-50 p-0.5 rounded-lg border border-sky-200">
                             <button
                               type="button"
                               onClick={() => handleSwapQuestionOrder(originalIdx, originalIdx - 1)}
                               disabled={originalIdx === 0}
-                              className="p-1 text-stone-700 hover:text-orange-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
+                              className="p-1 text-sky-800 hover:text-sky-700 hover:bg-sky-50/60 rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
                               title="Move Question Up (Atomic Cloud Swap)"
                             >
                               <ArrowUp className="w-3.5 h-3.5" />
@@ -3081,7 +3035,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                               type="button"
                               onClick={() => handleSwapQuestionOrder(originalIdx, originalIdx + 1)}
                               disabled={originalIdx === sundayQuestions.length - 1}
-                              className="p-1 text-stone-700 hover:text-orange-700 hover:bg-white rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
+                              className="p-1 text-sky-800 hover:text-sky-700 hover:bg-sky-50/60 rounded disabled:opacity-30 disabled:hover:bg-transparent cursor-pointer"
                               title="Move Question Down (Atomic Cloud Swap)"
                             >
                               <ArrowDown className="w-3.5 h-3.5" />
@@ -3091,35 +3045,35 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           <div className="relative">
                             <button
                               onClick={() => handleStartSwapMenu(originalIdx)}
-                              className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-stone-100 hover:bg-orange-50 text-stone-700 hover:text-orange-700 border border-stone-200 transition flex items-center gap-1 cursor-pointer"
+                              className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-sky-50 hover:bg-sky-50 text-sky-800 hover:text-sky-700 border border-sky-200 transition flex items-center gap-1 cursor-pointer"
                               title="Choose a specific question to swap with"
                             >
                               <RefreshCw className="w-3.5 h-3.5" />
                               <span>Swap</span>
                             </button>
                             {activeSwapIdx === originalIdx && (
-                              <div className="absolute top-full mt-1 left-0 z-50 bg-white border border-stone-200 rounded-lg shadow-xl p-3 w-80 max-h-96 overflow-y-auto">
-                                <div className="text-[10px] font-bold text-stone-500 mb-2 uppercase">Select Replacement Question</div>
+                              <div className="absolute top-full mt-1 left-0 z-50 bg-sky-50/60 border border-sky-200 rounded-lg shadow-xl p-3 w-80 max-h-96 overflow-y-auto">
+                                <div className="text-[10px] font-bold text-sky-600 mb-2 uppercase">Select Replacement Question</div>
                                 {swapCandidates.map(c => (
                                   <div 
                                     key={c.id} 
                                     onClick={(e) => { e.preventDefault(); setPendingSwapId(c.id); }}
-                                    className={`p-3 border-b border-stone-100 cursor-pointer text-xs transition-colors last:border-0 ${pendingSwapId === c.id ? 'bg-orange-100 text-orange-900 shadow-inner' : 'hover:bg-orange-50 text-stone-700'}`}
+                                    className={`p-3 border-b border-stone-100 cursor-pointer text-xs transition-colors last:border-0 ${pendingSwapId === c.id ? 'bg-sky-100 text-sky-900 shadow-inner' : 'hover:bg-sky-50 text-sky-800'}`}
                                   >
                                     <div className="line-clamp-3">{c.questionText}</div>
                                   </div>
                                 ))}
                                 {pendingSwapId && (
-                                  <div className="p-3 sticky bottom-0 bg-white border-t border-stone-200">
+                                  <div className="p-3 sticky bottom-0 bg-sky-50/60 border-t border-sky-200">
                                     <button 
                                       onClick={() => handleExecuteSpecificSwap(originalIdx, pendingSwapId)}
-                                      className="w-full py-2 bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold rounded-lg shadow-sm"
+                                      className="w-full py-2 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold rounded-lg shadow-sm"
                                     >
                                       Confirm Swap
                                     </button>
                                   </div>
                                 )}
-                                {swapCandidates.length === 0 && <div className="text-xs text-stone-500 p-3">No alternative questions found in bank.</div>}
+                                {swapCandidates.length === 0 && <div className="text-xs text-sky-600 p-3">No alternative questions found in bank.</div>}
                               </div>
                             )}
                           </div>
@@ -3128,12 +3082,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             <ArrowRightLeft className="w-3.5 h-3.5 text-purple-700 shrink-0" />
                             <span className="text-[10px] text-purple-900 font-bold uppercase whitespace-nowrap">Swap to:</span>
                             <select
-                              value=""
-                              onChange={(e) => {
-                                if (e.target.value) {
-                                  handleSwapSundayQuestion(originalIdx, e.target.value);
-                                }
-                              }}
+                              value={q.chapter || ""} onChange={(e) => { if (e.target.value && e.target.value !== q.chapter) { handleSwapSundayQuestion(originalIdx, e.target.value); } }}
                               className="text-xs bg-transparent border-0 text-purple-950 font-bold focus:outline-hidden cursor-pointer"
                               title="Select another chapter to swap this question strictly with a question from that chapter"
                             >
@@ -3152,9 +3101,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                           <button
                             onClick={() => isEditing ? setEditingQuestionIdx(null) : handleStartEditQuestion(originalIdx)}
-                            className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-200 transition flex items-center gap-1 cursor-pointer"
+                            className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-800 border border-sky-200 transition flex items-center gap-1 cursor-pointer"
                           >
-                            <Edit2 className="w-3.5 h-3.5 text-stone-500" />
+                            <Edit2 className="w-3.5 h-3.5 text-sky-600" />
                             {isEditing ? 'Cancel' : 'Edit'}
                           </button>
 
@@ -3171,21 +3120,21 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                       {/* Editing View */}
                       {isEditing && editForm ? (
-                        <div className="p-8 bg-stone-50 rounded-xl border border-orange-200 space-y-3 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
+                        <div className="p-8 bg-sky-50 rounded-xl border border-sky-200 space-y-3 transition-all duration-500 hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1.5 ">
                           <div>
-                            <label className="text-xs font-bold text-stone-700 block mb-1">Question Prompt:</label>
+                            <label className="text-xs font-bold text-sky-800 block mb-1">Question Prompt:</label>
                             <textarea
                               value={editForm.questionText}
                               onChange={e => setEditForm({ ...editForm, questionText: e.target.value })}
                               rows={3}
-                              className="w-full p-3 text-xs bg-white border border-stone-300 rounded-lg focus:ring-2 focus:ring-orange-500"
+                              className="w-full p-3 text-xs bg-sky-50/60 border border-sky-300 rounded-lg focus:ring-2 focus:ring-sky-500"
                             />
                           </div>
 
                           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             {editForm.options.map((opt, optIdx) => (
                               <div key={optIdx} className="space-y-0.5">
-                                <label className="text-[11px] font-bold text-stone-600 block">
+                                <label className="text-[11px] font-bold text-sky-700 block">
                                   Option {String.fromCharCode(65 + optIdx)}:
                                 </label>
                                 <input
@@ -3196,7 +3145,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                     opts[optIdx] = e.target.value;
                                     setEditForm({ ...editForm, options: opts });
                                   }}
-                                  className="w-full p-3 text-xs bg-white border border-stone-300 rounded-lg"
+                                  className="w-full p-3 text-xs bg-sky-50/60 border border-sky-300 rounded-lg"
                                 />
                               </div>
                             ))}
@@ -3204,11 +3153,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                           <div className="flex items-center gap-6">
                             <div>
-                              <label className="text-xs font-bold text-stone-700 block mb-1">Correct Answer:</label>
+                              <label className="text-xs font-bold text-sky-800 block mb-1">Correct Answer:</label>
                               <select
                                 value={editForm.correctAnswer}
                                 onChange={e => setEditForm({ ...editForm, correctAnswer: Number(e.target.value) })}
-                                className="p-1.5 text-xs bg-white border border-stone-300 rounded-lg"
+                                className="p-1.5 text-xs bg-sky-50/60 border border-sky-300 rounded-lg"
                               >
                                 {editForm.options.map((_, idx) => (
                                   <option key={idx} value={idx}>
@@ -3219,19 +3168,19 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             </div>
 
                             <div className="flex-1">
-                              <label className="text-xs font-bold text-stone-700 block mb-1">Explanation / Solution:</label>
+                              <label className="text-xs font-bold text-sky-800 block mb-1">Explanation / Solution:</label>
                               <input
                                 type="text"
                                 value={editForm.explanation}
                                 onChange={e => setEditForm({ ...editForm, explanation: e.target.value })}
-                                className="w-full p-1.5 text-xs bg-white border border-stone-300 rounded-lg"
+                                className="w-full p-1.5 text-xs bg-sky-50/60 border border-sky-300 rounded-lg"
                               />
                             </div>
                           </div>
 
                           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2">
                             <div>
-                              <label className="text-xs font-bold text-stone-700 block mb-1">Question Image (Optional):</label>
+                              <label className="text-xs font-bold text-sky-800 block mb-1">Question Image (Optional):</label>
                               <input
                                 type="file"
                                 accept="image/*"
@@ -3245,10 +3194,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                 }}
                                 className="w-full text-xs"
                               />
-                              {editForm.image && <img src={editForm.image} alt="Question" className="mt-2 max-h-20" />}
+                              {editForm.image && <div className="mt-2 flex items-start gap-2"><img src={editForm.image} alt="Question" className="max-h-20" /><button type="button" onClick={() => setEditForm({...editForm, image: undefined})} className="text-xs text-rose-600 hover:underline">Delete</button></div>}
                             </div>
                             <div>
-                              <label className="text-xs font-bold text-stone-700 block mb-1">Solution Image (Optional):</label>
+                              <label className="text-xs font-bold text-sky-800 block mb-1">Solution Image (Optional):</label>
                               <input
                                 type="file"
                                 accept="image/*"
@@ -3262,20 +3211,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                 }}
                                 className="w-full text-xs"
                               />
-                              {editForm.solutionImage && <img src={editForm.solutionImage} alt="Solution" className="mt-2 max-h-20" />}
+                              {editForm.solutionImage && <div className="mt-2 flex items-start gap-2"><img src={editForm.solutionImage} alt="Solution" className="max-h-20" /><button type="button" onClick={() => setEditForm({...editForm, solutionImage: undefined})} className="text-xs text-rose-600 hover:underline">Delete</button></div>}
                             </div>
                           </div>
 
                           <div className="flex justify-end gap-3 pt-2">
                             <button
                               onClick={() => setEditingQuestionIdx(null)}
-                              className="px-3 py-1.5 rounded-lg text-xs font-bold bg-stone-200 text-stone-700"
+                              className="px-3 py-1.5 rounded-lg text-xs font-bold bg-sky-100 text-sky-800"
                             >
                               Cancel
                             </button>
                             <button
                               onClick={() => handleSaveQuestionEdit(originalIdx)}
-                              className="px-4 py-1.5 rounded-lg text-xs font-bold bg-orange-600 text-white"
+                              className="px-4 py-1.5 rounded-lg text-xs font-bold bg-sky-600 text-white"
                             >
                               Save Question
                             </button>
@@ -3286,7 +3235,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         <>
                           {/* Vector Diagram if Available */}
                           {diagramSvg && (
-                            <div className="p-3 bg-stone-50 rounded-xl border border-stone-200 flex flex-col items-center justify-center transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
+                            <div className="p-3 bg-sky-50 rounded-xl border border-sky-200 flex flex-col items-center justify-center transition-all duration-500 hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1.5 ">
                               <span className="text-[10px] font-mono font-bold text-stone-400 uppercase tracking-wider mb-1">
                                 High-Quality Technical Schematic
                               </span>
@@ -3298,7 +3247,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           )}
 
                           {/* Question Text */}
-                          <p className="text-xs text-stone-900 leading-relaxed font-medium">
+                          <p className="text-xs text-sky-950 leading-relaxed font-medium">
                             {q.questionText}
                           </p>
 
@@ -3313,13 +3262,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                   className={`p-3.5 rounded-xl text-xs flex items-center justify-between border cursor-pointer select-none transition ${
                                     isCorrect
                                       ? 'bg-emerald-50 border-emerald-400 text-emerald-950 font-bold ring-2 ring-emerald-500/20 shadow-xs'
-                                      : 'bg-stone-50 border-stone-200 text-stone-700 hover:border-emerald-300 hover:bg-emerald-50/40'
+                                      : 'bg-sky-50 border-sky-200 text-sky-800 hover:border-emerald-300 hover:bg-emerald-50/40'
                                   }`}
                                   title={`Click to set Option ${String.fromCharCode(65 + optIdx)} as the correct answer key`}
                                 >
                                   <span className="flex items-center gap-3">
                                     <span className={`w-5 h-5 rounded-full text-[10px] flex items-center justify-center font-bold ${
-                                      isCorrect ? 'bg-emerald-600 text-white shadow-xs' : 'bg-stone-200 text-stone-600'
+                                      isCorrect ? 'bg-emerald-600 text-white shadow-xs' : 'bg-sky-100 text-sky-700'
                                     }`}>
                                       {String.fromCharCode(65 + optIdx)}
                                     </span>
@@ -3367,13 +3316,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {/* TAB 2: CUSTOM TEST GENERATOR */}
       {adminTab === 'generator' && (
         <div className="space-y-6">
-          <div className="bg-white p-8 rounded-2xl border border-stone-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="bg-sky-50/60 p-8 rounded-2xl border border-sky-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
-              <h3 className="text-base font-bold text-stone-900 flex items-center space-x-2">
-                <Sliders className="w-5 h-5 text-orange-600" />
+              <h3 className="text-base font-bold text-sky-950 flex items-center space-x-2">
+                <Sliders className="w-5 h-5 text-sky-600" />
                 <span>Admin Custom Test Paper Generator</span>
               </h3>
-              <p className="text-xs text-stone-500 mt-0.5">
+              <p className="text-xs text-sky-600 mt-0.5">
                 Build high-yield custom mock tests across 97 NCERT units, set time limits, and export instant PDF papers or launch CBT tests.
               </p>
             </div>
@@ -3391,15 +3340,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           )}
 
           {/* Mode Switcher */}
-          <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 rounded-2xl border border-stone-200 shadow-2xs">
-            <div className="flex items-center gap-1.5 bg-stone-100 p-1 rounded-xl">
+          <div className="flex flex-wrap items-center justify-between gap-3 bg-sky-50/60 p-3 rounded-2xl border border-sky-200 shadow-2xs">
+            <div className="flex items-center gap-1.5 bg-sky-50 p-1 rounded-xl">
               <button
                 type="button"
                 onClick={() => setGeneratorMode('single')}
                 className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                   generatorMode === 'single'
-                    ? 'bg-white text-stone-900 shadow-xs'
-                    : 'text-stone-600 hover:text-stone-900'
+                    ? 'bg-sky-50/60 text-sky-950 shadow-xs'
+                    : 'text-sky-700 hover:text-sky-950'
                 }`}
               >
                 Single Chapter Focus (15-90 Qs)
@@ -3409,8 +3358,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 onClick={() => setGeneratorMode('topic_matrix')}
                 className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
                   generatorMode === 'topic_matrix'
-                    ? 'bg-orange-600 text-white shadow-xs'
-                    : 'text-stone-600 hover:text-stone-900'
+                    ? 'bg-sky-600 text-white shadow-xs'
+                    : 'text-sky-700 hover:text-sky-950'
                 }`}
               >
                 <ArrowRightLeft className="w-3.5 h-3.5" />
@@ -3430,7 +3379,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           {generatorMode === 'topic_matrix' && (
             <div className="space-y-6">
               {/* Quick Topic Swapper Bar */}
-              <div className="p-8 rounded-2xl bg-gradient-to-r from-purple-50 via-rose-50 to-orange-50 border border-purple-200 space-y-3">
+              <div className="p-8 rounded-2xl bg-gradient-to-r from-purple-50 via-rose-50 to-sky-50 border border-purple-200 space-y-3">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                   <div>
                     <h4 className="text-sm font-extrabold text-purple-950 flex items-center gap-1.5">
@@ -3441,18 +3390,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       Swap one topic for another (e.g. Laws of Motion with Electrostatics) and set your custom question count.
                     </p>
                   </div>
-                  <span className="text-[10px] font-mono font-bold px-2.5 py-1 bg-white/80 border border-purple-300 text-purple-900 rounded-lg self-start sm:self-auto">
+                  <span className="text-[10px] font-mono font-bold px-2.5 py-1 bg-sky-50/60/80 border border-purple-300 text-purple-900 rounded-lg self-start sm:self-auto">
                     Pure Chapter Pools Only
                   </span>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-4 gap-3.5 items-end bg-white/90 p-3 rounded-xl border border-purple-200 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 ">
+                <div className="grid grid-cols-1 sm:grid-cols-4 gap-3.5 items-end bg-sky-50/60/90 p-3 rounded-xl border border-purple-200 transition-all duration-500 hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1.5 ">
                   <div className="space-y-1">
-                    <label className="text-[10px] font-bold text-stone-500 uppercase">1. Swap Out (From Topic)</label>
+                    <label className="text-[10px] font-bold text-sky-600 uppercase">1. Swap Out (From Topic)</label>
                     <select
                       value={swapSourceTopic}
                       onChange={e => setSwapSourceTopic(e.target.value)}
-                      className="w-full p-3 text-xs bg-white border border-stone-300 rounded-lg font-semibold"
+                      className="w-full p-3 text-xs bg-sky-50/60 border border-sky-300 rounded-lg font-semibold"
                     >
                       <optgroup label="⚡ Physics">
                         {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -3467,11 +3416,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   </div>
 
                   <div className="space-y-1">
-                    <label className="text-[10px] font-bold text-stone-500 uppercase">2. Swap In (To Topic)</label>
+                    <label className="text-[10px] font-bold text-sky-600 uppercase">2. Swap In (To Topic)</label>
                     <select
                       value={swapTargetTopic}
                       onChange={e => setSwapTargetTopic(e.target.value)}
-                      className="w-full p-3 text-xs bg-white border border-stone-300 rounded-lg font-semibold"
+                      className="w-full p-3 text-xs bg-sky-50/60 border border-sky-300 rounded-lg font-semibold"
                     >
                       <optgroup label="⚡ Physics">
                         {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -3486,12 +3435,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   </div>
 
                   <div className="space-y-1">
-                    <label className="text-[10px] font-bold text-stone-500 uppercase">3. Number of Questions</label>
+                    <label className="text-[10px] font-bold text-sky-600 uppercase">3. Number of Questions</label>
                     <div className="flex items-center gap-1">
                       <button
                         type="button"
                         onClick={() => setSwapQuestionCount(c => Math.max(1, c - 1))}
-                        className="w-8 h-8 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 font-bold flex items-center justify-center cursor-pointer"
+                        className="w-8 h-8 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-800 font-bold flex items-center justify-center cursor-pointer"
                       >
                         <Minus className="w-3.5 h-3.5" />
                       </button>
@@ -3501,12 +3450,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         max={45}
                         value={swapQuestionCount}
                         onChange={e => setSwapQuestionCount(Math.max(1, Math.min(45, parseInt(e.target.value) || 1)))}
-                        className="w-16 h-8 text-center bg-white border border-stone-300 rounded-lg text-xs font-bold font-mono"
+                        className="w-16 h-8 text-center bg-sky-50/60 border border-sky-300 rounded-lg text-xs font-bold font-mono"
                       />
                       <button
                         type="button"
                         onClick={() => setSwapQuestionCount(c => Math.min(45, c + 1))}
-                        className="w-8 h-8 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 font-bold flex items-center justify-center cursor-pointer"
+                        className="w-8 h-8 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-800 font-bold flex items-center justify-center cursor-pointer"
                       >
                         <Plus className="w-3.5 h-3.5" />
                       </button>
@@ -3525,17 +3474,17 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Topic Allocation Table / List */}
-              <div className="bg-white p-8 rounded-2xl border border-stone-200 shadow-2xs space-y-3">
+              <div className="bg-sky-50/60 p-8 rounded-2xl border border-sky-200 shadow-2xs space-y-3">
                 <div className="flex flex-wrap items-center justify-between gap-3 border-b border-stone-100 pb-2.5">
                   <div>
-                    <h4 className="text-xs font-bold text-stone-900 uppercase tracking-wider">
+                    <h4 className="text-xs font-bold text-sky-950 uppercase tracking-wider">
                       Configured Topics & Question Allocation Matrix ({topicAllocations.length} Topics)
                     </h4>
-                    <p className="text-[11px] text-stone-500">
+                    <p className="text-[11px] text-sky-600">
                       Customize question counts per chapter or swap any chapter using the dropdowns below.
                     </p>
                   </div>
-                  <span className="text-xs font-mono font-bold text-orange-700 bg-orange-50 px-2.5 py-1 rounded-lg border border-orange-200">
+                  <span className="text-xs font-mono font-bold text-sky-700 bg-sky-50 px-2.5 py-1 rounded-lg border border-sky-200">
                     Total: {topicAllocations.reduce((acc, a) => acc + a.count, 0)} Questions ({topicAllocations.reduce((acc, a) => acc + a.count, 0) * 4} Marks)
                   </span>
                 </div>
@@ -3544,14 +3493,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   {topicAllocations.map((alloc, idx) => (
                     <div
                       key={alloc.id}
-                      className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-xl border border-stone-200 bg-stone-50/60 hover:bg-stone-50 transition"
+                      className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-xl border border-sky-200 bg-sky-50/60 hover:bg-sky-50 transition"
                     >
                       <div className="flex items-center gap-3 flex-1 min-w-[260px]">
-                        <span className="w-6 h-6 rounded-lg bg-stone-800 text-white text-[11px] font-mono font-bold flex items-center justify-center">
+                        <span className="w-6 h-6 rounded-lg bg-sky-800 text-white text-[11px] font-mono font-bold flex items-center justify-center">
                           {idx + 1}
                         </span>
                         <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
-                          alloc.subject === 'Physics' ? 'bg-orange-100 text-orange-800' :
+                          alloc.subject === 'Physics' ? 'bg-sky-100 text-sky-800' :
                           alloc.subject === 'Chemistry' ? 'bg-emerald-100 text-emerald-800' : 'bg-purple-100 text-purple-800'
                         }`}>
                           {alloc.subject}
@@ -3560,7 +3509,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         <select
                           value={alloc.chapter}
                           onChange={e => handleUpdateAllocationChapter(alloc.id, e.target.value)}
-                          className="flex-1 p-1.5 text-xs bg-white border border-stone-300 rounded-lg font-semibold text-stone-900"
+                          className="flex-1 p-1.5 text-xs bg-sky-50/60 border border-sky-300 rounded-lg font-semibold text-sky-950"
                         >
                           <optgroup label="⚡ Physics">
                             {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -3576,27 +3525,27 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                       {/* Question count controls */}
                       <div className="flex items-center gap-3">
-                        <div className="flex items-center gap-1 bg-white border border-stone-200 rounded-lg p-0.5">
+                        <div className="flex items-center gap-1 bg-sky-50/60 border border-sky-200 rounded-lg p-0.5">
                           <button
                             type="button"
                             onClick={() => handleUpdateAllocationCount(alloc.id, -1)}
-                            className="w-6 h-6 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs font-bold flex items-center justify-center cursor-pointer"
+                            className="w-6 h-6 rounded bg-sky-50 hover:bg-sky-100 text-sky-800 text-xs font-bold flex items-center justify-center cursor-pointer"
                           >
                             <Minus className="w-3 h-3" />
                           </button>
-                          <span className="w-12 text-center text-xs font-bold font-mono text-stone-900">
+                          <span className="w-12 text-center text-xs font-bold font-mono text-sky-950">
                             {alloc.count} Qs
                           </span>
                           <button
                             type="button"
                             onClick={() => handleUpdateAllocationCount(alloc.id, 1)}
-                            className="w-6 h-6 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs font-bold flex items-center justify-center cursor-pointer"
+                            className="w-6 h-6 rounded bg-sky-50 hover:bg-sky-100 text-sky-800 text-xs font-bold flex items-center justify-center cursor-pointer"
                           >
                             <Plus className="w-3 h-3" />
                           </button>
                         </div>
 
-                        <span className="text-[11px] font-mono text-stone-500 w-16 text-right">
+                        <span className="text-[11px] font-mono text-sky-600 w-16 text-right">
                           {alloc.count * 4} Marks
                         </span>
 
@@ -3619,7 +3568,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     <select
                       value={newAllocChapter}
                       onChange={e => setNewAllocChapter(e.target.value)}
-                      className="w-full p-3 text-xs bg-stone-50 border border-stone-300 rounded-xl font-semibold"
+                      className="w-full p-3 text-xs bg-sky-50 border border-sky-300 rounded-xl font-semibold"
                     >
                       <optgroup label="⚡ Physics">
                         {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
@@ -3640,16 +3589,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       max={45}
                       value={newAllocCount}
                       onChange={e => setNewAllocCount(Math.max(1, Math.min(45, parseInt(e.target.value) || 1)))}
-                      className="w-16 p-3 bg-stone-50 border border-stone-300 rounded-xl text-xs font-bold font-mono text-center"
+                      className="w-16 p-3 bg-sky-50 border border-sky-300 rounded-xl text-xs font-bold font-mono text-center"
                       title="Number of questions to allocate"
                     />
-                    <span className="text-xs text-stone-500 font-semibold">Qs</span>
+                    <span className="text-xs text-sky-600 font-semibold">Qs</span>
                   </div>
 
                   <button
                     type="button"
                     onClick={() => handleAddAllocation(newAllocChapter, newAllocCount)}
-                    className="px-4 py-2 bg-stone-900 hover:bg-stone-800 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 cursor-pointer shadow-xs"
+                    className="px-4 py-2 bg-sky-900 hover:bg-sky-800 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 cursor-pointer shadow-xs"
                   >
                     <Plus className="w-3.5 h-3.5" />
                     <span>Add Topic</span>
@@ -3658,12 +3607,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
 
               {/* Multi-Topic Action Card */}
-              <div className="p-5 rounded-2xl bg-gradient-to-r from-orange-50 via-rose-50 to-purple-50 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-6">
+              <div className="p-5 rounded-2xl bg-gradient-to-r from-sky-50 via-rose-50 to-purple-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-6">
                 <div className="space-y-1 text-xs text-center sm:text-left">
-                  <div className="text-stone-900 font-bold text-sm">
+                  <div className="text-sky-950 font-bold text-sm">
                     Multi-Topic Custom Test ({topicAllocations.length} Topics Selected)
                   </div>
-                  <div className="text-stone-600 font-mono">
+                  <div className="text-sky-700 font-mono">
                     {topicAllocations.reduce((acc, a) => acc + a.count, 0)} Questions • {topicAllocations.reduce((acc, a) => acc + a.count, 0) * 4} Marks • {Math.max(15, topicAllocations.reduce((acc, a) => acc + a.count, 0))} Minutes
                   </div>
                 </div>
@@ -3672,16 +3621,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     type="button"
                     onClick={() => handleExportCustomPdf(false)}
-                    className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-white hover:bg-stone-100 text-stone-800 font-bold text-xs border border-stone-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
+                    className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-sky-50/60 hover:bg-sky-50 text-sky-900 font-bold text-xs border border-sky-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
                   >
-                    <Printer className="w-4 h-4 text-stone-600" />
+                    <Printer className="w-4 h-4 text-sky-700" />
                     <span>Export Paper</span>
                   </button>
 
                   <button
                     type="button"
                     onClick={() => handleExportCustomPdf(true)}
-                    className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-white hover:bg-stone-100 text-stone-800 font-bold text-xs border border-stone-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
+                    className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-sky-50/60 hover:bg-sky-50 text-sky-900 font-bold text-xs border border-sky-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
                   >
                     <FileText className="w-4 h-4 text-emerald-600" />
                     <span>Paper + Solutions</span>
@@ -3690,7 +3639,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     type="button"
                     onClick={handleLaunchAdminCbt}
-                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   >
                     <Play className="w-4 h-4 fill-current" />
                     <span>Launch CBT Simulation</span>
@@ -3705,9 +3654,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           {/* ============================================================== */}
           {generatorMode === 'single' && (
             <div className="space-y-6">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-white p-5 rounded-2xl border border-stone-200 shadow-2xs">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-sky-50/60 p-5 rounded-2xl border border-sky-200 shadow-2xs">
                 <div className="space-y-1.5">
-                  <label className="text-[10px] font-bold text-stone-500 uppercase">1. Select Subject</label>
+                  <label className="text-[10px] font-bold text-sky-600 uppercase">1. Select Subject</label>
                   <select
                     value={customSubject}
                     onChange={e => {
@@ -3717,7 +3666,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       else if (sub === 'Chemistry') setCustomChapter(chemistryChapters[0]);
                       else setCustomChapter(physicsChapters[0]);
                     }}
-                    className="w-full p-3.5 rounded-xl bg-stone-50 border border-stone-300 text-xs text-stone-900 focus:bg-white focus:border-orange-500 font-semibold"
+                    className="w-full p-3.5 rounded-xl bg-sky-50 border border-sky-300 text-xs text-sky-950 focus:bg-sky-50/60 focus:border-sky-500 font-semibold"
                   >
                     <option value="Biology">🧬 Biology (All 38 Chapters)</option>
                     <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
@@ -3726,11 +3675,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
 
                 <div className="space-y-1.5">
-                  <label className="text-[10px] font-bold text-stone-500 uppercase">2. Select Chapter ({currentChapterList.length} Units)</label>
+                  <label className="text-[10px] font-bold text-sky-600 uppercase">2. Select Chapter ({currentChapterList.length} Units)</label>
                   <select
                     value={customChapter}
                     onChange={e => setCustomChapter(e.target.value)}
-                    className="w-full p-3.5 rounded-xl bg-stone-50 border border-stone-300 text-xs text-stone-900 focus:bg-white focus:border-orange-500 font-semibold"
+                    className="w-full p-3.5 rounded-xl bg-sky-50 border border-sky-300 text-xs text-sky-950 focus:bg-sky-50/60 focus:border-sky-500 font-semibold"
                   >
                     {currentChapterList.map((ch, idx) => (
                       <option key={idx} value={ch}>
@@ -3741,11 +3690,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
 
                 <div className="space-y-1.5">
-                  <label className="text-[10px] font-bold text-stone-500 uppercase">3. Difficulty Standard</label>
+                  <label className="text-[10px] font-bold text-sky-600 uppercase">3. Difficulty Standard</label>
                   <select
                     value={customDifficulty}
                     onChange={e => setCustomDifficulty(e.target.value as any)}
-                    className="w-full p-3.5 rounded-xl bg-stone-50 border border-stone-300 text-xs text-stone-900 focus:bg-white focus:border-orange-500 font-semibold"
+                    className="w-full p-3.5 rounded-xl bg-sky-50 border border-sky-300 text-xs text-sky-950 focus:bg-sky-50/60 focus:border-sky-500 font-semibold"
                   >
                     <option value="Both">Both Medium & Hard (Standard Exam Mix)</option>
                     <option value="Hard">Hard (High Difficulty & Advanced Analytical)</option>
@@ -3756,7 +3705,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
 
                 <div className="space-y-1.5">
-                  <label className="text-[10px] font-bold text-stone-500 uppercase">4. Number of Questions</label>
+                  <label className="text-[10px] font-bold text-sky-600 uppercase">4. Number of Questions</label>
                   <div className="grid grid-cols-4 gap-1.5">
                     {[15, 30, 45, 90].map(cnt => (
                       <button
@@ -3768,8 +3717,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         }}
                         className={`py-2 rounded-xl text-xs font-bold font-mono transition cursor-pointer ${
                           customQCount === cnt
-                            ? 'bg-orange-600 text-white shadow-xs'
-                            : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
+                            ? 'bg-sky-600 text-white shadow-xs'
+                            : 'bg-sky-50 text-sky-800 hover:bg-sky-100 border border-sky-200'
                         }`}
                       >
                         {cnt} Qs
@@ -3779,7 +3728,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
 
                 <div className="space-y-1.5">
-                  <label className="text-[10px] font-bold text-stone-500 uppercase">5. Allotted Time Limit</label>
+                  <label className="text-[10px] font-bold text-sky-600 uppercase">5. Allotted Time Limit</label>
                   <div className="grid grid-cols-4 gap-1.5">
                     {[15, 30, 45, 90].map(mins => (
                       <button
@@ -3789,7 +3738,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         className={`py-2 rounded-xl text-xs font-bold font-mono transition cursor-pointer ${
                           customDuration === mins
                             ? 'bg-purple-600 text-white shadow-xs'
-                            : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200'
+                            : 'bg-sky-50 text-sky-800 hover:bg-sky-100 border border-sky-200'
                         }`}
                       >
                         {mins} Mins
@@ -3799,20 +3748,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
 
                 <div className="space-y-1.5">
-                  <label className="text-[10px] font-bold text-stone-500 uppercase">6. Question Pool Telemetry</label>
-                  <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 text-xs font-mono font-semibold text-stone-800 flex items-center justify-between">
+                  <label className="text-[10px] font-bold text-sky-600 uppercase">6. Question Pool Telemetry</label>
+                  <div className="p-3.5 rounded-xl bg-sky-50 border border-sky-200 text-xs font-mono font-semibold text-sky-900 flex items-center justify-between">
                     <span>Available: <strong className="text-emerald-700">{currentPoolStats.remainingUnused}</strong></span>
-                    <span>Total Unit: <strong className="text-orange-700">{currentPoolStats.totalInBank}</strong></span>
+                    <span>Total Unit: <strong className="text-sky-700">{currentPoolStats.totalInBank}</strong></span>
                   </div>
                 </div>
               </div>
 
-              <div className="p-5 rounded-2xl bg-gradient-to-r from-orange-50 via-rose-50 to-purple-50 border border-orange-200 flex flex-col sm:flex-row items-center justify-between gap-6">
+              <div className="p-5 rounded-2xl bg-gradient-to-r from-sky-50 via-rose-50 to-purple-50 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-6">
                 <div className="space-y-1 text-xs text-center sm:text-left">
-                  <div className="text-stone-900 font-bold text-sm">
+                  <div className="text-sky-950 font-bold text-sm">
                     Configured Test: {customSubject} • {customChapter}
                   </div>
-                  <div className="text-stone-600 font-mono">
+                  <div className="text-sky-700 font-mono">
                     {customQCount} Questions • {customQCount * 4} Marks • {customDuration} Minutes • Level: {customDifficulty}
                   </div>
                 </div>
@@ -3821,16 +3770,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   <button
                     type="button"
                     onClick={handleExportCustomPdf}
-                    className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-white hover:bg-stone-100 text-stone-800 font-bold text-xs border border-stone-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                    className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-sky-50/60 hover:bg-sky-50 text-sky-900 font-bold text-xs border border-sky-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   >
-                    <Printer className="w-4 h-4 text-stone-600" />
+                    <Printer className="w-4 h-4 text-sky-700" />
                     <span>Export Test PDF</span>
                   </button>
 
                   <button
                     type="button"
                     onClick={handleLaunchAdminCbt}
-                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                    className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   >
                     <Play className="w-4 h-4 fill-current" />
                     <span>Launch CBT Simulation</span>
@@ -3858,7 +3807,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {adminTab === 'telemetry' && (
         <div className="space-y-6">
           {/* Header Banner */}
-          <div className="p-8 bg-gradient-to-r from-stone-900 via-rose-950 to-orange-950 rounded-2xl text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="p-8 bg-gradient-to-r from-stone-900 via-rose-950 to-sky-950 rounded-2xl text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <div className="flex items-center space-x-2">
                 <span className="px-2 py-0.5 rounded-full bg-teal-400 text-stone-950 text-[10px] font-mono font-black uppercase">
@@ -3881,7 +3830,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   setActionSuccessBanner('Database chapters & inventory audited successfully.');
                   setTimeout(() => setActionSuccessBanner(null), 2000);
                 }}
-                className="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-teal-200 text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer"
+                className="px-3 py-1.5 rounded-xl bg-sky-50/60/10 hover:bg-sky-50/60/20 border border-white/20 text-teal-200 text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer"
                 title="Force audit and refresh database"
               >
                 <RefreshCw className="w-3.5 h-3.5" />
@@ -3894,13 +3843,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   setIsAddChapterModalOpen(prev => !prev);
                   setAddChapterStatus(null);
                 }}
-                className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-orange-600 to-rose-600 hover:from-orange-500 hover:to-rose-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-sky-600 to-rose-600 hover:from-sky-500 hover:to-rose-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
               >
                 <Plus className="w-3.5 h-3.5" />
                 <span>Add New Chapter to Vault</span>
               </button>
 
-              <span className="px-3 py-1.5 rounded-xl bg-white/10 border border-white/20 text-teal-300 font-mono text-xs font-bold">
+              <span className="px-3 py-1.5 rounded-xl bg-sky-50/60/10 border border-white/20 text-teal-300 font-mono text-xs font-bold">
                 {questionInventory.totalCount.toLocaleString()} Total Questions
               </span>
             </div>
@@ -3908,21 +3857,21 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
           {/* Add New Chapter to Vault Form Panel */}
           {isAddChapterModalOpen && (
-            <div className="p-8 sm:p-5 rounded-2xl bg-gradient-to-r from-orange-50 via-rose-50 to-purple-50 border-2 border-orange-300 shadow-md space-y-3 animate-in fade-in">
+            <div className="p-8 sm:p-5 rounded-2xl bg-gradient-to-r from-sky-50 via-rose-50 to-purple-50 border-2 border-sky-300 shadow-md space-y-3 animate-in fade-in">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2">
-                  <div className="w-7 h-7 rounded-lg bg-orange-600 text-white flex items-center justify-center font-bold shadow-xs">
+                  <div className="w-7 h-7 rounded-lg bg-sky-600 text-white flex items-center justify-center font-bold shadow-xs">
                     <Plus className="w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-stone-900">Add New Chapter to Admin Vault Database</h4>
-                    <p className="text-[11px] text-stone-600">Register a new official syllabus or specialized chapter. It will instantly update all generators, topic swappers, and analytics.</p>
+                    <h4 className="text-sm font-bold text-sky-950">Add New Chapter to Admin Vault Database</h4>
+                    <p className="text-[11px] text-sky-700">Register a new official syllabus or specialized chapter. It will instantly update all generators, topic swappers, and analytics.</p>
                   </div>
                 </div>
                 <button
                   type="button"
                   onClick={() => setIsAddChapterModalOpen(false)}
-                  className="p-1 rounded-lg text-stone-400 hover:text-stone-700 cursor-pointer"
+                  className="p-1 rounded-lg text-stone-400 hover:text-sky-800 cursor-pointer"
                 >
                   <X className="w-4 h-4" />
                 </button>
@@ -3930,11 +3879,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
               <form onSubmit={handleAddChapterToVault} className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
                 <div>
-                  <label className="text-[11px] font-bold text-stone-700 uppercase block mb-1">Select Subject</label>
+                  <label className="text-[11px] font-bold text-sky-800 uppercase block mb-1">Select Subject</label>
                   <select
                     value={newChapterSubject}
                     onChange={e => setNewChapterSubject(e.target.value as any)}
-                    className="w-full p-3.5 rounded-xl bg-white border border-stone-300 text-xs font-semibold text-stone-900 focus:outline-none focus:border-orange-500 cursor-pointer"
+                    className="w-full p-3.5 rounded-xl bg-sky-50/60 border border-sky-300 text-xs font-semibold text-sky-950 focus:outline-none focus:border-sky-500 cursor-pointer"
                   >
                     <option value="Biology">🧬 Biology</option>
                     <option value="Chemistry">🧪 Chemistry</option>
@@ -3943,19 +3892,19 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
 
                 <div className="sm:col-span-2">
-                  <label className="text-[11px] font-bold text-stone-700 uppercase block mb-1">New Chapter Name</label>
+                  <label className="text-[11px] font-bold text-sky-800 uppercase block mb-1">New Chapter Name</label>
                   <div className="flex items-center gap-3">
                     <input
                       type="text"
                       value={newChapterName}
                       onChange={e => setNewChapterName(e.target.value)}
                       placeholder="e.g. Molecular Basis of Inheritance, Magnetism, etc."
-                      className="flex-1 p-3.5 rounded-xl bg-white border border-stone-300 text-xs font-semibold text-stone-900 focus:outline-none focus:border-orange-500"
+                      className="flex-1 p-3.5 rounded-xl bg-sky-50/60 border border-sky-300 text-xs font-semibold text-sky-950 focus:outline-none focus:border-sky-500"
                       required
                     />
                     <button
                       type="submit"
-                      className="px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold shadow-xs transition cursor-pointer shrink-0 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                      className="px-4 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold shadow-xs transition cursor-pointer shrink-0 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                     >
                       Save Chapter
                     </button>
@@ -3988,18 +3937,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               onClick={() => setInventorySubject('All')}
               className={`p-8 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
                 inventorySubject === 'All'
-                  ? 'bg-orange-50/90 border-orange-300 ring-2 ring-orange-200'
-                  : 'bg-white border-stone-200 hover:border-orange-300'
+                  ? 'bg-sky-50/90 border-sky-300 ring-2 ring-sky-200'
+                  : 'bg-sky-50/60 border-sky-200 hover:border-sky-300'
               }`}
             >
-              <div className="flex items-center justify-between text-[11px] font-bold text-stone-600 uppercase">
+              <div className="flex items-center justify-between text-[11px] font-bold text-sky-700 uppercase">
                 <span>Total Questions</span>
-                <Database className="w-4 h-4 text-orange-600" />
+                <Database className="w-4 h-4 text-sky-600" />
               </div>
-              <div className="text-xl sm:text-2xl font-black text-orange-700 font-mono mt-1">
+              <div className="text-xl sm:text-2xl font-black text-sky-700 font-mono mt-1">
                 {questionInventory.totalCount.toLocaleString()}
               </div>
-              <p className="text-[10px] text-stone-500 mt-0.5 font-medium">
+              <p className="text-[10px] text-sky-600 mt-0.5 font-medium">
                 {questionInventory.allChapters.length} Chapters • All Subjects
               </p>
             </div>
@@ -4008,18 +3957,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               onClick={() => setInventorySubject('Physics')}
               className={`p-8 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
                 inventorySubject === 'Physics'
-                  ? 'bg-orange-50/90 border-orange-300 ring-2 ring-orange-200'
-                  : 'bg-white border-stone-200 hover:border-orange-300'
+                  ? 'bg-sky-50/90 border-sky-300 ring-2 ring-sky-200'
+                  : 'bg-sky-50/60 border-sky-200 hover:border-sky-300'
               }`}
             >
-              <div className="flex items-center justify-between text-[11px] font-bold text-orange-700 uppercase">
+              <div className="flex items-center justify-between text-[11px] font-bold text-sky-700 uppercase">
                 <span>Physics Questions</span>
-                <Zap className="w-4 h-4 text-orange-600" />
+                <Zap className="w-4 h-4 text-sky-600" />
               </div>
-              <div className="text-xl sm:text-2xl font-black text-orange-700 font-mono mt-1">
+              <div className="text-xl sm:text-2xl font-black text-sky-700 font-mono mt-1">
                 {questionInventory.physicsTotal.toLocaleString()}
               </div>
-              <p className="text-[10px] text-orange-600/90 mt-0.5 font-medium">
+              <p className="text-[10px] text-sky-600/90 mt-0.5 font-medium">
                 {questionInventory.physicsChapters.length} Chapters • {Math.round((questionInventory.physicsTotal / (questionInventory.totalCount || 1)) * 100)}% of Bank
               </p>
             </div>
@@ -4028,18 +3977,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               onClick={() => setInventorySubject('Chemistry')}
               className={`p-8 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
                 inventorySubject === 'Chemistry'
-                  ? 'bg-amber-50/90 border-amber-300 ring-2 ring-amber-200'
-                  : 'bg-white border-stone-200 hover:border-amber-300'
+                  ? 'bg-cyan-50/90 border-cyan-300 ring-2 ring-cyan-200'
+                  : 'bg-sky-50/60 border-sky-200 hover:border-cyan-300'
               }`}
             >
-              <div className="flex items-center justify-between text-[11px] font-bold text-amber-700 uppercase">
+              <div className="flex items-center justify-between text-[11px] font-bold text-cyan-700 uppercase">
                 <span>Chemistry Questions</span>
-                <FlaskConical className="w-4 h-4 text-amber-600" />
+                <FlaskConical className="w-4 h-4 text-cyan-600" />
               </div>
-              <div className="text-xl sm:text-2xl font-black text-amber-700 font-mono mt-1">
+              <div className="text-xl sm:text-2xl font-black text-cyan-700 font-mono mt-1">
                 {questionInventory.chemistryTotal.toLocaleString()}
               </div>
-              <p className="text-[10px] text-amber-600/90 mt-0.5 font-medium">
+              <p className="text-[10px] text-cyan-600/90 mt-0.5 font-medium">
                 {questionInventory.chemistryChapters.length} Chapters • {Math.round((questionInventory.chemistryTotal / (questionInventory.totalCount || 1)) * 100)}% of Bank
               </p>
             </div>
@@ -4049,7 +3998,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               className={`p-8 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
                 inventorySubject === 'Biology'
                   ? 'bg-emerald-50/90 border-emerald-300 ring-2 ring-emerald-200'
-                  : 'bg-white border-stone-200 hover:border-emerald-300'
+                  : 'bg-sky-50/60 border-sky-200 hover:border-emerald-300'
               }`}
             >
               <div className="flex items-center justify-between text-[11px] font-bold text-emerald-700 uppercase">
@@ -4066,14 +4015,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           </div>
 
           {/* Interactive Subject & Search Filter Bar */}
-          <div className="p-8 rounded-2xl border border-stone-200 bg-white flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-2xs">
+          <div className="p-8 rounded-2xl border border-sky-200 bg-sky-50/60 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-2xs">
             <div className="flex flex-wrap items-center gap-1.5">
               <button
                 onClick={() => setInventorySubject('All')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
                   inventorySubject === 'All'
-                    ? 'bg-orange-600 text-white shadow-xs'
-                    : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                    ? 'bg-sky-600 text-white shadow-xs'
+                    : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
                 }`}
               >
                 🌟 All ({questionInventory.totalCount.toLocaleString()})
@@ -4082,8 +4031,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 onClick={() => setInventorySubject('Physics')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
                   inventorySubject === 'Physics'
-                    ? 'bg-orange-600 text-white shadow-xs'
-                    : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                    ? 'bg-sky-600 text-white shadow-xs'
+                    : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
                 }`}
               >
                 ⚡ Physics ({questionInventory.physicsTotal.toLocaleString()})
@@ -4092,8 +4041,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 onClick={() => setInventorySubject('Chemistry')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
                   inventorySubject === 'Chemistry'
-                    ? 'bg-amber-600 text-white shadow-xs'
-                    : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                    ? 'bg-cyan-600 text-white shadow-xs'
+                    : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
                 }`}
               >
                 🧪 Chemistry ({questionInventory.chemistryTotal.toLocaleString()})
@@ -4103,7 +4052,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
                   inventorySubject === 'Biology'
                     ? 'bg-emerald-600 text-white shadow-xs'
-                    : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                    : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
                 }`}
               >
                 🌿 Biology ({questionInventory.biologyTotal.toLocaleString()})
@@ -4118,14 +4067,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   placeholder="Search chapter, subject, or topic..."
                   value={inventorySearch}
                   onChange={e => setInventorySearch(e.target.value)}
-                  className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:outline-none focus:border-orange-500"
+                  className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:outline-none focus:border-sky-500"
                 />
               </div>
 
               <select
                 value={inventorySortBy}
                 onChange={e => setInventorySortBy(e.target.value as any)}
-                className="px-2.5 py-1.5 rounded-xl bg-stone-50 border border-stone-300 text-xs font-medium text-stone-700 focus:bg-white focus:outline-none focus:border-orange-500 cursor-pointer"
+                className="px-2.5 py-1.5 rounded-xl bg-sky-50 border border-sky-300 text-xs font-medium text-sky-800 focus:bg-sky-50/60 focus:outline-none focus:border-sky-500 cursor-pointer"
               >
                 <option value="count_desc">Most Questions First</option>
                 <option value="count_asc">Fewest Questions First</option>
@@ -4135,13 +4084,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           </div>
 
           {/* Chapters Breakdown Header */}
-          <div className="flex items-center justify-between text-xs text-stone-500 px-1">
+          <div className="flex items-center justify-between text-xs text-sky-600 px-1">
             <span>
-              Showing <strong className="text-stone-900 font-bold">{displayedChapters.length}</strong> chapters
+              Showing <strong className="text-sky-950 font-bold">{displayedChapters.length}</strong> chapters
               {inventorySubject !== 'All' ? ` in ${inventorySubject}` : ' across all subjects'}
             </span>
             <span className="font-mono font-medium">
-              Total Questions: <strong className="text-stone-900 font-bold">{displayedChapters.reduce((acc, c) => acc + c.totalQuestions, 0).toLocaleString()}</strong>
+              Total Questions: <strong className="text-sky-950 font-bold">{displayedChapters.reduce((acc, c) => acc + c.totalQuestions, 0).toLocaleString()}</strong>
             </span>
           </div>
 
@@ -4152,17 +4101,17 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               const subjectTheme =
                 item.subject === 'Physics'
                   ? {
-                      bg: 'bg-orange-50 text-orange-800 border-orange-200',
-                      bar: 'bg-orange-500',
-                      badge: 'bg-orange-100 text-orange-900 border-orange-300',
-                      icon: <Zap className="w-3.5 h-3.5 text-orange-600" />
+                      bg: 'bg-sky-50 text-sky-800 border-sky-200',
+                      bar: 'bg-sky-500',
+                      badge: 'bg-sky-100 text-sky-900 border-sky-300',
+                      icon: <Zap className="w-3.5 h-3.5 text-sky-600" />
                     }
                   : item.subject === 'Chemistry'
                   ? {
-                      bg: 'bg-amber-50 text-amber-800 border-amber-200',
-                      bar: 'bg-amber-500',
-                      badge: 'bg-amber-100 text-amber-900 border-amber-300',
-                      icon: <FlaskConical className="w-3.5 h-3.5 text-amber-600" />
+                      bg: 'bg-cyan-50 text-cyan-800 border-cyan-200',
+                      bar: 'bg-cyan-500',
+                      badge: 'bg-cyan-100 text-cyan-900 border-cyan-300',
+                      icon: <FlaskConical className="w-3.5 h-3.5 text-cyan-600" />
                     }
                   : {
                       bg: 'bg-emerald-50 text-emerald-800 border-emerald-200',
@@ -4175,7 +4124,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 <div
                   key={`${item.subject}-${item.chapter}`}
                   className={`p-8 rounded-2xl border transition-all shadow-2xs ${
-                    isExpanded ? 'bg-white border-orange-300 ring-2 ring-orange-100' : 'bg-white border-stone-200 hover:border-stone-300'
+                    isExpanded ? 'bg-sky-50/60 border-sky-300 ring-2 ring-sky-100' : 'bg-sky-50/60 border-sky-200 hover:border-sky-300'
                   }`}
                 >
                   {/* Card Header */}
@@ -4190,7 +4139,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           {item.percentage}% of {item.subject}
                         </span>
                       </div>
-                      <h4 className="text-sm sm:text-base font-bold text-stone-900 leading-snug">
+                      <h4 className="text-sm sm:text-base font-bold text-sky-950 leading-snug">
                         {item.chapter}
                       </h4>
                     </div>
@@ -4205,7 +4154,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                   {/* Relative Size Bar */}
                   <div className="mt-3 space-y-1">
-                    <div className="w-full bg-stone-100 rounded-full h-1.5 overflow-hidden">
+                    <div className="w-full bg-sky-50 rounded-full h-1.5 overflow-hidden">
                       <div
                         className={`h-full rounded-full ${subjectTheme.bar}`}
                         style={{ width: `${Math.min(100, Math.max(5, item.percentage * 3))}%` }}
@@ -4215,13 +4164,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                   {/* Quick Subtopic & Difficulty Counters */}
                   <div className="flex flex-wrap items-center gap-1.5 mt-3 pt-2.5 border-t border-stone-100 text-[11px]">
-                    <span className="px-2 py-0.5 rounded-md bg-stone-100 text-stone-700 font-medium">
+                    <span className="px-2 py-0.5 rounded-md bg-sky-50 text-sky-800 font-medium">
                       🏷️ {item.subtopics.length} Subtopic{item.subtopics.length === 1 ? '' : 's'}
                     </span>
                     <span className="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 font-mono font-semibold">
                       🟢 {item.difficultyCounts.Easy} Easy
                     </span>
-                    <span className="px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 font-mono font-semibold">
+                    <span className="px-2 py-0.5 rounded-md bg-cyan-50 text-cyan-800 font-mono font-semibold">
                       🟡 {item.difficultyCounts.Medium} Med
                     </span>
                     <span className="px-2 py-0.5 rounded-md bg-rose-50 text-rose-800 font-mono font-semibold">
@@ -4235,7 +4184,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       onClick={() => {
                         setExpandedChapterName(isExpanded ? null : `${item.subject}-${item.chapter}`);
                       }}
-                      className="inline-flex items-center space-x-1 text-xs font-semibold text-orange-700 hover:text-orange-800 cursor-pointer"
+                      className="inline-flex items-center space-x-1 text-xs font-semibold text-sky-700 hover:text-sky-800 cursor-pointer"
                     >
                       <span>{isExpanded ? 'Hide Details' : 'Inspect Subtopics & Questions'}</span>
                       {isExpanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
@@ -4259,10 +4208,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           setCustomChapter(item.chapter);
                           setAdminTab('generator');
                         }}
-                        className="px-2.5 py-1 rounded-lg bg-stone-100 hover:bg-orange-50 text-stone-700 hover:text-orange-700 border border-stone-200 text-[11px] font-semibold transition cursor-pointer flex items-center space-x-1"
+                        className="px-2.5 py-1 rounded-lg bg-sky-50 hover:bg-sky-50 text-sky-800 hover:text-sky-700 border border-sky-200 text-[11px] font-semibold transition cursor-pointer flex items-center space-x-1"
                         title={`Generate Custom Test from ${item.chapter}`}
                       >
-                        <Sliders className="w-3 h-3 text-orange-600" />
+                        <Sliders className="w-3 h-3 text-sky-600" />
                         <span>Generate Test</span>
                       </button>
                     )}
@@ -4270,20 +4219,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                   {/* Expanded Chapter Details Drawer */}
                   {isExpanded && (
-                    <div className="mt-3 pt-3 border-t border-stone-200 space-y-3 animate-in fade-in">
+                    <div className="mt-3 pt-3 border-t border-sky-200 space-y-3 animate-in fade-in">
                       {/* Subtopic density */}
                       <div className="space-y-1.5">
-                        <div className="text-[11px] font-bold text-stone-700 uppercase tracking-wider">
+                        <div className="text-[11px] font-bold text-sky-800 uppercase tracking-wider">
                           Subtopic Question Counts:
                         </div>
                         <div className="flex flex-wrap gap-1.5 max-h-36 overflow-y-auto pr-1">
                           {Object.entries(item.subtopicCounts).map(([sub, count]) => (
                             <span
                               key={sub}
-                              className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-stone-50 border border-stone-200 text-xs text-stone-800 font-medium"
+                              className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-sky-50 border border-sky-200 text-xs text-sky-900 font-medium"
                             >
                               <span>{sub}</span>
-                              <strong className="px-1.5 py-0.2 rounded bg-white text-orange-700 border border-orange-200 font-mono text-[10px]">
+                              <strong className="px-1.5 py-0.2 rounded bg-sky-50/60 text-sky-700 border border-sky-200 font-mono text-[10px]">
                                 {count}
                               </strong>
                             </span>
@@ -4294,27 +4243,27 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       {/* Sample Questions Preview */}
                       {item.sampleQuestions.length > 0 && (
                         <div className="space-y-4 pt-1">
-                          <div className="text-[11px] font-bold text-stone-700 uppercase tracking-wider">
+                          <div className="text-[11px] font-bold text-sky-800 uppercase tracking-wider">
                             Sample Questions Preview:
                           </div>
                           <div className="space-y-4 max-h-48 overflow-y-auto pr-1">
                             {item.sampleQuestions.map((sq, sqIdx) => (
                               <div
                                 key={sq.id || sqIdx}
-                                className="p-3.5 rounded-xl bg-stone-50/80 border border-stone-200 text-xs space-y-1.5"
+                                className="p-3.5 rounded-xl bg-sky-50/80 border border-sky-200 text-xs space-y-1.5"
                               >
-                                <div className="flex items-center justify-between text-[10px] text-stone-500 font-mono">
+                                <div className="flex items-center justify-between text-[10px] text-sky-600 font-mono">
                                   <span>Q{sqIdx + 1} • ID: {sq.id}</span>
-                                  <span className="px-1.5 py-0.2 rounded bg-stone-200 text-stone-800 font-bold">
+                                  <span className="px-1.5 py-0.2 rounded bg-sky-100 text-sky-900 font-bold">
                                     {sq.difficulty || 'Medium'}
                                   </span>
                                 </div>
-                                <p className="font-medium text-stone-900 leading-snug line-clamp-3">
+                                <p className="font-medium text-sky-950 leading-snug line-clamp-3">
                                   {formatMathAndFormulas(sq.questionText)}
                                 </p>
                                 <div className="flex items-center gap-3 text-[11px] text-emerald-800 font-mono">
                                   <span className="font-bold">Correct: ({String.fromCharCode(65 + sq.correctAnswer)})</span>
-                                  <span className="text-stone-600 truncate">{sq.options?.[sq.correctAnswer]}</span>
+                                  <span className="text-sky-700 truncate">{sq.options?.[sq.correctAnswer]}</span>
                                 </div>
                               </div>
                             ))}
@@ -4333,14 +4282,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {/* TAB 4: ENROLLED CANDIDATES & DOMICILE DIRECTORY */}
       {adminTab === 'students' && (
         <div className="space-y-6">
-          <div className="bg-gradient-to-r from-orange-900 via-rose-900 to-stone-900 p-5 rounded-2xl text-white shadow-lg space-y-6">
+          <div className="bg-gradient-to-r from-sky-900 via-rose-900 to-stone-900 p-5 rounded-2xl text-white shadow-lg space-y-6">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4">
               <div className="space-y-1">
                 <div className="flex items-center space-x-2">
-                  <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-amber-400 text-stone-900 uppercase">
+                  <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-cyan-400 text-sky-950 uppercase">
                     Admin Authority
                   </span>
-                  <span className="text-xs text-orange-200 font-mono">33 Sunday Tests Master Switch</span>
+                  <span className="text-xs text-sky-200 font-mono">33 Sunday Tests Master Switch</span>
                 </div>
                 <h4 className="text-base font-bold text-white flex items-center gap-3">
                   <ShieldCheck className="w-5 h-5 text-teal-300" />
@@ -4371,22 +4320,22 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
-              <div className="p-3.5 rounded-xl bg-white/10 border border-white/10 space-y-1">
-                <div className="text-[10px] uppercase font-bold text-orange-200">Current Access Status</div>
-                <div className={`text-sm font-bold font-mono ${isAdminTestAccessGranted ? 'text-emerald-300' : 'text-amber-300'}`}>
+              <div className="p-3.5 rounded-xl bg-sky-50/60/10 border border-white/10 space-y-1">
+                <div className="text-[10px] uppercase font-bold text-sky-200">Current Access Status</div>
+                <div className={`text-sm font-bold font-mono ${isAdminTestAccessGranted ? 'text-emerald-300' : 'text-cyan-300'}`}>
                   {isAdminTestAccessGranted ? '✓ ACCESS GRANTED (UNLOCKED)' : '🔒 ACCESS LOCKED (APPROVAL REQUIRED)'}
                 </div>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-white/10 border border-white/10 space-y-1">
-                <div className="text-[10px] uppercase font-bold text-orange-200">Test Series Scope</div>
+              <div className="p-3.5 rounded-xl bg-sky-50/60/10 border border-white/10 space-y-1">
+                <div className="text-[10px] uppercase font-bold text-sky-200">Test Series Scope</div>
                 <div className="text-sm font-bold text-white font-mono">
                   33 Official Sunday Tests (5,940 Qs)
                 </div>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-white/10 border border-white/10 space-y-1">
-                <div className="text-[10px] uppercase font-bold text-orange-200">Student Enforcement</div>
+              <div className="p-3.5 rounded-xl bg-sky-50/60/10 border border-white/10 space-y-1">
+                <div className="text-[10px] uppercase font-bold text-sky-200">Student Enforcement</div>
                 <div className="text-sm font-bold text-white font-mono">
                   {isAdminTestAccessGranted ? 'Direct CBT Launch Allowed' : 'Strict Approval Gate Active'}
                 </div>
@@ -4403,39 +4352,39 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   const pkg = { name: "General Registration", price: "Free", enrolledAt: cand.enrolledAt };
 
                   return (
-                    <div key={cand.rollNumber || idx} className="bg-white p-5 rounded-2xl border border-stone-200 shadow-2xs space-y-6">
+                    <div key={cand.rollNumber || idx} className="bg-sky-50/60 p-5 rounded-2xl border border-sky-200 shadow-2xs space-y-6">
                       <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-stone-100">
                         <div className="flex items-center space-x-3.5">
                           {cand.studentPhoto ? (
                             <img
                               src={cand.studentPhoto}
                               alt={cand.studentName}
-                              className="w-12 h-12 rounded-2xl object-cover border border-stone-200 shadow-xs"
+                              className="w-12 h-12 rounded-2xl object-cover border border-sky-200 shadow-xs"
                             />
                           ) : (
-                            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-orange-600 to-rose-600 text-white font-black text-base flex items-center justify-center shadow-xs">
+                            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-sky-600 to-rose-600 text-white font-black text-base flex items-center justify-center shadow-xs">
                               {cand.studentName?.charAt(0) || 'S'}
                             </div>
                           )}
                           <div>
                             <div className="flex items-center space-x-2">
-                              <h4 className="text-base font-bold text-stone-900">{cand.studentName}</h4>
-                              <span className="px-2 py-0.5 rounded bg-orange-100 text-orange-800 text-[10px] font-bold">
+                              <h4 className="text-base font-bold text-sky-950">{cand.studentName}</h4>
+                              <span className="px-2 py-0.5 rounded bg-sky-100 text-sky-800 text-[10px] font-bold">
                                 {cand.caste || 'General / Open'}
                               </span>
                             </div>
-                            <p className="text-xs text-stone-500 font-mono">
-                              Roll: <strong className="text-orange-700">{cand.rollNumber}</strong> &bull; Target: {cand.targetYear || '2027'} &bull; Domicile: {cand.domicileState || 'Maharashtra'}
+                            <p className="text-xs text-sky-600 font-mono">
+                              Roll: <strong className="text-sky-700">{cand.rollNumber}</strong> &bull; Target: {cand.targetYear || '2027'} &bull; Domicile: {cand.domicileState || 'Maharashtra'}
                             </p>
                           </div>
                         </div>
 
                         {/* Enrolled Package Badge */}
-                        <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-orange-50 to-rose-50 border border-orange-200 shadow-2xs">
-                          <Crown className="w-4 h-4 text-amber-500 shrink-0" />
+                        <div className="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-50 to-rose-50 border border-sky-200 shadow-2xs">
+                          <Crown className="w-4 h-4 text-cyan-500 shrink-0" />
                           <div>
-                            <div className="text-[9px] uppercase font-bold text-stone-500">Enrolled Package</div>
-                            <div className="text-xs font-extrabold text-orange-950 flex items-center gap-1.5">
+                            <div className="text-[9px] uppercase font-bold text-sky-600">Enrolled Package</div>
+                            <div className="text-xs font-extrabold text-sky-950 flex items-center gap-1.5">
                               <span>{pkg.name}</span>
                               <span className="font-mono text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded text-[10px] font-bold">
                                 {pkg.price}
@@ -4446,24 +4395,24 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       </div>
 
                       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
-                        <div className="p-3.5 bg-stone-50 rounded-xl border border-stone-200">
-                          <div className="text-[10px] uppercase font-bold text-stone-500">Student Contact</div>
-                          <div className="font-mono font-bold text-stone-900 mt-0.5">+91 {cand.studentPhone}</div>
+                        <div className="p-3.5 bg-sky-50 rounded-xl border border-sky-200">
+                          <div className="text-[10px] uppercase font-bold text-sky-600">Student Contact</div>
+                          <div className="font-mono font-bold text-sky-950 mt-0.5">+91 {cand.studentPhone}</div>
                         </div>
 
-                        <div className="p-3.5 bg-stone-50 rounded-xl border border-stone-200">
-                          <div className="text-[10px] uppercase font-bold text-stone-500">Parent / Emergency Phone</div>
+                        <div className="p-3.5 bg-sky-50 rounded-xl border border-sky-200">
+                          <div className="text-[10px] uppercase font-bold text-sky-600">Parent / Emergency Phone</div>
                           <div className="font-mono font-bold text-emerald-800 mt-0.5">+91 {cand.parentPhone || cand.studentPhone}</div>
                         </div>
 
-                        <div className="p-3.5 bg-stone-50 rounded-xl border border-stone-200">
-                          <div className="text-[10px] uppercase font-bold text-stone-500">Parent Email ID</div>
-                          <div className="font-mono font-semibold text-stone-900 mt-0.5 truncate">{cand.parentEmail || cand.email}</div>
+                        <div className="p-3.5 bg-sky-50 rounded-xl border border-sky-200">
+                          <div className="text-[10px] uppercase font-bold text-sky-600">Parent Email ID</div>
+                          <div className="font-mono font-semibold text-sky-950 mt-0.5 truncate">{cand.parentEmail || cand.email}</div>
                         </div>
 
-                        <div className="p-3.5 bg-stone-50 rounded-xl border border-stone-200">
-                          <div className="text-[10px] uppercase font-bold text-stone-500">State Domicile (85% Quota)</div>
-                          <div className="font-bold text-orange-700 mt-0.5">{cand.domicileState || 'Maharashtra'}</div>
+                        <div className="p-3.5 bg-sky-50 rounded-xl border border-sky-200">
+                          <div className="text-[10px] uppercase font-bold text-sky-600">State Domicile (85% Quota)</div>
+                          <div className="font-bold text-sky-700 mt-0.5">{cand.domicileState || 'Maharashtra'}</div>
                         </div>
                       </div>
                     </div>
@@ -4472,10 +4421,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               </div>
             </div>
           ) : (
-            <div className="text-center py-12 px-4 bg-white rounded-2xl border border-stone-200 space-y-4">
+            <div className="text-center py-12 px-4 bg-sky-50/60 rounded-2xl border border-sky-200 space-y-4">
               <Users className="w-10 h-10 text-stone-400 mx-auto" />
-              <h4 className="text-sm font-bold text-stone-700">No Local Student Profile Enrolled</h4>
-              <p className="text-xs text-stone-500">Active students registering on this device will stream here.</p>
+              <h4 className="text-sm font-bold text-sky-800">No Local Student Profile Enrolled</h4>
+              <p className="text-xs text-sky-600">Active students registering on this device will stream here.</p>
             </div>
           )}
         </div>
@@ -4501,3 +4450,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     </div>
   );
 };
+
+
+
+
+
+

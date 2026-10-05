@@ -427,3 +427,4 @@ export const NCERT_ALTERNATING_CURRENT_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Alternating Current", "Units and Dimensions"]
   }
 ];
+

@@ -2283,3 +2283,4 @@ export const NARAYANA_MOTION_IN_PLANE_QUESTIONS: Question[] = [
     "examSource": "Narayana Medical Academy Day-20 Practice Assignment"
   }
 ];
+

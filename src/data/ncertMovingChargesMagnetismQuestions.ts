@@ -427,3 +427,4 @@ export const NCERT_MOVING_CHARGES_MAGNETISM_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Moving Charges and Magnetism", "Parallel Currents"]
   }
 ];
+

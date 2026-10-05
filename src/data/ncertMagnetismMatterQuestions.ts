@@ -427,3 +427,4 @@ export const NCERT_MAGNETISM_MATTER_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Magnetism and Matter", "Curie's Law", "NEET PYQ"]
   }
 ];
+

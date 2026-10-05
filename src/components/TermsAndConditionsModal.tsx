@@ -13,18 +13,18 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-stone-900/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-in fade-in duration-200">
-      <div className="bg-white border border-stone-200 rounded-2xl sm:rounded-3xl shadow-2xl max-w-3xl w-full max-h-[90vh] flex flex-col overflow-hidden animate-in zoom-in-95 duration-200 text-stone-900 my-auto">
+    <div className="fixed inset-0 z-50 bg-sky-900/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-in fade-in duration-200">
+      <div className="bg-sky-50/60 border border-sky-200 rounded-2xl sm:rounded-3xl shadow-2xl max-w-3xl w-full max-h-[90vh] flex flex-col overflow-hidden animate-in zoom-in-95 duration-200 text-sky-950 my-auto">
         {/* Modal Header */}
         <div className="bg-gradient-to-r from-orange-700 via-rose-700 to-stone-900 p-5 sm:p-6 text-white flex items-center justify-between shrink-0">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-white/15 backdrop-blur-md rounded-xl flex items-center justify-center border border-white/25">
+            <div className="w-10 h-10 bg-sky-50/60/15 backdrop-blur-md rounded-xl flex items-center justify-center border border-white/25">
               <Scale className="w-5 h-5 text-teal-300" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
                 <h2 className="text-lg font-bold">Terms & Conditions of Use</h2>
-                <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-white/20 text-white font-mono">
+                <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-sky-50/60/20 text-white font-mono">
                   v2.4
                 </span>
               </div>
@@ -35,7 +35,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
           </div>
           <button
             onClick={onClose}
-            className="w-8 h-8 rounded-xl bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition cursor-pointer"
+            className="w-8 h-8 rounded-xl bg-sky-50/60/10 hover:bg-sky-50/60/20 flex items-center justify-center text-white transition cursor-pointer"
             title="Close Terms & Conditions"
           >
             <X className="w-5 h-5" />
@@ -43,7 +43,7 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
         </div>
 
         {/* Scrollable Terms Content */}
-        <div className="p-5 sm:p-6 overflow-y-auto space-y-6 text-xs text-stone-700 leading-relaxed">
+        <div className="p-5 sm:p-6 overflow-y-auto space-y-6 text-xs text-sky-800 leading-relaxed">
           <div className="p-6 rounded-xl bg-orange-50/80 border border-orange-200 text-orange-950 space-y-1">
             <p className="font-bold flex items-center gap-1.5 text-orange-900">
               <FileText className="w-4 h-4 text-orange-600" /> Standard Institutional Agreement
@@ -55,8 +55,8 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 1 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center gap-4">
-              <span className="w-5 h-5 rounded-md bg-stone-100 text-stone-700 flex items-center justify-center font-mono text-[11px]">1</span>
+            <h3 className="text-sm font-bold text-sky-950 flex items-center gap-4">
+              <span className="w-5 h-5 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center font-mono text-[11px]">1</span>
               Acceptance of Terms & Educational Purpose
             </h3>
             <p>
@@ -66,14 +66,14 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 2 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center gap-4">
-              <span className="w-5 h-5 rounded-md bg-stone-100 text-stone-700 flex items-center justify-center font-mono text-[11px]">2</span>
+            <h3 className="text-sm font-bold text-sky-950 flex items-center gap-4">
+              <span className="w-5 h-5 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center font-mono text-[11px]">2</span>
               User Accounts & 2-Device Concurrency Policy
             </h3>
             <p>
               Each candidate account is individual and strictly non-transferable. To preserve system integrity and prevent unauthorized distribution of question papers, candidate accounts are cryptographically restricted to a <strong>maximum of two (2) authorized active devices</strong>. Simultaneous sessions from more than two devices will trigger an automated security lock requiring administrative re-verification.
             </p>
-            <ul className="list-disc pl-5 space-y-1 text-stone-600">
+            <ul className="list-disc pl-5 space-y-1 text-sky-700">
               <li>Candidates must provide authentic personal details including genuine phone numbers and date of birth.</li>
               <li>Providing placeholder or dummy contact numbers will lead to immediate account suspension.</li>
               <li>Candidates are solely responsible for maintaining the confidentiality of their login credentials.</li>
@@ -82,8 +82,8 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 3 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center gap-4">
-              <span className="w-5 h-5 rounded-md bg-stone-100 text-stone-700 flex items-center justify-center font-mono text-[11px]">3</span>
+            <h3 className="text-sm font-bold text-sky-950 flex items-center gap-4">
+              <span className="w-5 h-5 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center font-mono text-[11px]">3</span>
               Intellectual Property Rights & PDF Encryption
             </h3>
             <p>
@@ -96,14 +96,14 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 4 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center gap-4">
-              <span className="w-5 h-5 rounded-md bg-stone-100 text-stone-700 flex items-center justify-center font-mono text-[11px]">4</span>
+            <h3 className="text-sm font-bold text-sky-950 flex items-center gap-4">
+              <span className="w-5 h-5 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center font-mono text-[11px]">4</span>
               Sunday Proctored Test Series & Unlock Protocol
             </h3>
             <p>
               Sunday All-India Mock Tests (720 Marks, 180 Questions) strictly follow the scheduled academic planner. In order to simulate genuine competitive examination conditions:
             </p>
-            <ul className="list-disc pl-5 space-y-1 text-stone-600">
+            <ul className="list-disc pl-5 space-y-1 text-sky-700">
               <li><strong>Sunday Only Access:</strong> Scheduled Sunday test papers unlock exclusively on Sundays (Indian Standard Time).</li>
               <li><strong>Admin Approval Requirement:</strong> Papers unlock only upon institutional administrator verification and authorization. Test papers cannot be unlocked individually on weekdays.</li>
               <li><strong>Zero Duplicate Guarantee:</strong> All official Sunday tests are generated from isolated chapter pools with zero cross-paper question overlaps.</li>
@@ -112,8 +112,8 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 5 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center gap-4">
-              <span className="w-5 h-5 rounded-md bg-stone-100 text-stone-700 flex items-center justify-center font-mono text-[11px]">5</span>
+            <h3 className="text-sm font-bold text-sky-950 flex items-center gap-4">
+              <span className="w-5 h-5 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center font-mono text-[11px]">5</span>
               CBT Code of Conduct & Anti-Cheating Policy
             </h3>
             <p>
@@ -123,8 +123,8 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 6 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center gap-4">
-              <span className="w-5 h-5 rounded-md bg-stone-100 text-stone-700 flex items-center justify-center font-mono text-[11px]">6</span>
+            <h3 className="text-sm font-bold text-sky-950 flex items-center gap-4">
+              <span className="w-5 h-5 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center font-mono text-[11px]">6</span>
               Subscriptions, Packages & Refund Policy
             </h3>
             <p>
@@ -134,8 +134,8 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 7 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center gap-4">
-              <span className="w-5 h-5 rounded-md bg-stone-100 text-stone-700 flex items-center justify-center font-mono text-[11px]">7</span>
+            <h3 className="text-sm font-bold text-sky-950 flex items-center gap-4">
+              <span className="w-5 h-5 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center font-mono text-[11px]">7</span>
               AIR Predictions & Forecast Disclaimers
             </h3>
             <p>
@@ -145,8 +145,8 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 8 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center gap-4">
-              <span className="w-5 h-5 rounded-md bg-stone-100 text-stone-700 flex items-center justify-center font-mono text-[11px]">8</span>
+            <h3 className="text-sm font-bold text-sky-950 flex items-center gap-4">
+              <span className="w-5 h-5 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center font-mono text-[11px]">8</span>
               Privacy & Student Data Security
             </h3>
             <p>
@@ -156,8 +156,8 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
 
           {/* Section 9 */}
           <div className="space-y-2">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center gap-4">
-              <span className="w-5 h-5 rounded-md bg-stone-100 text-stone-700 flex items-center justify-center font-mono text-[11px]">9</span>
+            <h3 className="text-sm font-bold text-sky-950 flex items-center gap-4">
+              <span className="w-5 h-5 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center font-mono text-[11px]">9</span>
               Governing Law & Jurisdiction
             </h3>
             <p>
@@ -167,8 +167,8 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
         </div>
 
         {/* Modal Footer */}
-        <div className="p-6 sm:p-5 bg-stone-50 border-t border-stone-200 flex flex-col sm:flex-row items-center justify-between gap-3 shrink-0">
-          <div className="flex items-center space-x-2 text-[11px] text-stone-500">
+        <div className="p-6 sm:p-5 bg-sky-50 border-t border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-3 shrink-0">
+          <div className="flex items-center space-x-2 text-[11px] text-sky-600">
             <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
             <span>Last Updated: September 2026 • Compliant with IT Act 2000 & NEP Guidelines</span>
           </div>
@@ -183,3 +183,4 @@ export const TermsAndConditionsModal: React.FC<TermsAndConditionsModalProps> = (
     </div>
   );
 };
+

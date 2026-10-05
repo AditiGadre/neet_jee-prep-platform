@@ -427,3 +427,4 @@ export const NCERT_ELECTROSTATIC_POTENTIAL_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Electrostatic Potential and Capacitance", "Capacitors"]
   }
 ];
+

@@ -4445,3 +4445,4 @@ export const VECTORS_BOOK_QUESTIONS: Question[] = [
     ]
   }
 ];
+

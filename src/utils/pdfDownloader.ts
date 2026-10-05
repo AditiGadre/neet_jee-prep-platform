@@ -351,66 +351,23 @@ export function executeProtectedPdfDownload(options: {
 function formatExplanationParagraphs(explanation: string): string {
   if (!explanation) return '<p>Refer to standard NCERT textbook concept and derivation.</p>';
   const clean = formatMathAndFormulas(cleanOcrText(explanation));
-  
-  // Check if explanation has structured markdown sections
-  const tokens = clean.split(/(?=###|\b(?:📘|⚡|✓|💡)\s*\*\*)/i);
-  if (tokens.length > 1) {
-    return tokens.map(token => {
-      const trimmed = token.trim();
-      if (!trimmed) return '';
-      const lower = trimmed.toLowerCase();
-      let header = '';
-      let bg = '#f8fafc';
-      let border = '#e2e8f0';
-      let color = '#334155';
-
-      if (lower.includes('concept') || lower.includes('ncert') || lower.includes('theory')) {
-        header = '📘 NCERT Fundamental Concept';
-        bg = '#eff6ff'; border = '#bfdbfe'; color = '#1e3a8a';
-      } else if (lower.includes('derivation') || lower.includes('calculation') || lower.includes('step')) {
-        header = '⚡ Step-by-Step Derivation & Calculations';
-        bg = '#fffbeb'; border = '#fde68a'; color = '#78350f';
-      } else if (lower.includes('tip') || lower.includes('principle') || lower.includes('examiner') || lower.includes('takeaway')) {
-        header = '💡 Examiner Pro-Tip & Key Takeaway';
-        bg = '#ecfdf5'; border = '#a7f3d0'; color = '#065f46';
-      }
-
-      let body = trimmed
-        .replace(/^###\s*(?:📘|⚡|✓|💡)?\s*[^\n\r]+/i, '')
-        .replace(/^(?:📘|⚡|✓|💡)\s*\*\*[^*]+\*\*\s*:?/i, '')
-        .replace(/^\*\*[^*]+\*\*\s*:?/i, '')
-        .trim();
-
-      const lines = body.split(/\r?\n+/).map(l => l.trim()).filter(l => l.length > 0);
-
-      let contentHtml = '';
-      if (header.includes('Derivation')) {
-        const subLines: string[] = [];
-        for (const l of lines) {
-          const subs = l.split(/(?<=[^\s=+\-*/(])\s+(?=[A-Za-z]\s*=\s*|Step\s*\d+:|\bHence,|\bTherefore,|\bFormula:|\bApply:|\bNow,|\bThus)/);
-          subLines.push(...subs);
-        }
-        contentHtml = subLines.map((l, idx) => `
-          <div style="margin: 3px 0; font-family: monospace; font-size: 10px; color: #0f172a;">
-            <span style="font-weight: 700; color: #b45309; min-width: 44px; display: inline-block;">Step ${idx + 1}:</span> ${l}
-          </div>
-        `).join('');
-      } else {
-        contentHtml = lines.map(l => `<p style="margin: 2px 0; font-size: 10px; line-height: 1.4; color: #1e293b;">${l}</p>`).join('');
-      }
-
-      return `
-        <div style="margin-top: 6px; padding: 6px 10px; background: ${bg}; border: 1px solid ${border}; border-radius: 6px;">
-          ${header ? `<div style="font-weight: 800; font-size: 10px; color: ${color}; margin-bottom: 3px;">${header}</div>` : ''}
-          ${contentHtml}
-        </div>
-      `;
-    }).join('');
+  let lines = clean.split(/\r?\n+/).map(l => l.trim()).filter(l => l.length > 0);
+  lines = lines.slice(0, 5);
+  let html = '';
+  for (const l of lines) {
+    if (l.match(/^(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]).*ncert/i)) {
+      html += '<div style="font-weight: 800; font-size: 10px; color: #1e3a8a; background: #eff6ff; padding: 4px; border-radius: 4px; margin-top: 4px;">NCERT Concept: ' + l.replace(/.*NCERT[a-z ]*:/i, '').trim() + '</div>';
+    } else if (l.match(/^(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]).*derivation/i)) {
+      html += '<div style="font-weight: 800; font-size: 10px; color: #78350f; background: #fffbeb; padding: 4px; border-radius: 4px; margin-top: 4px;">Derivation: ' + l.replace(/.*Derivation[a-z &]*:/i, '').trim() + '</div>';
+    } else if (l.match(/^(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]).*tip/i)) {
+      html += '<div style="font-weight: 800; font-size: 10px; color: #065f46; background: #ecfdf5; padding: 4px; border-radius: 4px; margin-top: 4px;">Pro-Tip: ' + l.replace(/.*Tip[a-z &]*:/i, '').trim() + '</div>';
+    } else if (l.startsWith('###')) {
+      html += '<div style="font-weight: bold; margin-top: 4px; font-size: 10px;">' + l.replace(/^###\s*/, '') + '</div>';
+    } else {
+      html += '<p style="margin: 2px 0; font-size: 10px; line-height: 1.4; color: #1e293b;">' + l + '</p>';
+    }
   }
-
-  // Fallback for simple explanations
-  const lines = clean.split(/\r?\n+/).map(l => l.trim()).filter(l => l.length > 0);
-  return lines.map(l => `<p style="margin: 3px 0; color: #1e293b; font-size: 10px; line-height: 1.4;">${l}</p>`).join('');
+  return html;
 }
 
 /**
@@ -1574,4 +1531,5 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
 
   return true;
 }
+
 

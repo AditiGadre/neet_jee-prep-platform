@@ -32,3 +32,4 @@ if (isSupabaseConfigured) {
 }
 
 export const supabase = supabaseInstance;
+

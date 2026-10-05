@@ -427,3 +427,4 @@ export const NCERT_RAY_OPTICS_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Ray Optics and Optical Instruments", "Optical Instruments"]
   }
 ];
+

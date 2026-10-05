@@ -1696,3 +1696,4 @@ export const ALLEN_KINEMATICS_EXERCISE_3_QUESTIONS: Question[] = [
     ]
   }
 ];
+

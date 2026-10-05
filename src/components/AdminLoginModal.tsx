@@ -79,8 +79,8 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-stone-950/85 backdrop-blur-md flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
-      <div className="bg-stone-900 border border-stone-700/80 rounded-3xl shadow-2xl max-w-md w-full overflow-hidden text-stone-100 animate-in zoom-in-95 duration-200">
+    <div className="fixed inset-0 z-50 bg-sky-950/85 backdrop-blur-md flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
+      <div className="bg-sky-900 border border-stone-700/80 rounded-3xl shadow-2xl max-w-md w-full overflow-hidden text-stone-100 animate-in zoom-in-95 duration-200">
         {/* Top Header */}
         <div className="bg-gradient-to-r from-stone-900 via-rose-950 to-stone-900 p-5 border-b border-stone-800 flex items-center justify-between">
           <div className="flex items-center space-x-3">
@@ -98,7 +98,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
           </div>
           <button
             onClick={onClose}
-            className="p-3 rounded-xl text-stone-400 hover:text-white hover:bg-stone-800 transition cursor-pointer"
+            className="p-3 rounded-xl text-stone-400 hover:text-white hover:bg-sky-800 transition cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -106,7 +106,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
 
         {/* Security Notice */}
         <div className="px-6 pt-5 pb-2">
-          <div className="p-3.5 rounded-2xl bg-stone-800/80 border border-stone-700/70 text-xs text-stone-300 flex items-start space-x-2.5">
+          <div className="p-3.5 rounded-2xl bg-sky-800/80 border border-stone-700/70 text-xs text-stone-300 flex items-start space-x-2.5">
             <Server className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
             <p className="leading-relaxed">
               Restricted Area. Authorized institution administrators & exam directors only. All Sunday test unlocking requests and telemetry are audited under AES-256 protocol.
@@ -136,7 +136,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
               value={username}
               onChange={e => setUsername(e.target.value)}
               placeholder="e.g. admin or institution.admin@neetprep.in"
-              className="w-full px-3.5 py-2.5 rounded-xl bg-stone-950 border border-stone-700 text-white placeholder-stone-500 text-xs focus:outline-none focus:border-rose-500 focus:ring-1 focus:ring-rose-500 font-mono disabled:opacity-50"
+              className="w-full px-3.5 py-2.5 rounded-xl bg-sky-950 border border-stone-700 text-white placeholder-stone-500 text-xs focus:outline-none focus:border-rose-500 focus:ring-1 focus:ring-rose-500 font-mono disabled:opacity-50"
             />
           </div>
 
@@ -159,7 +159,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
                 value={password}
                 onChange={e => setPassword(e.target.value)}
                 placeholder="Enter confidential administrator key..."
-                className="w-full pl-3.5 pr-10 py-2.5 rounded-xl bg-stone-950 border border-stone-700 text-white placeholder-stone-500 text-xs focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 font-mono tracking-wider disabled:opacity-50"
+                className="w-full pl-3.5 pr-10 py-2.5 rounded-xl bg-sky-950 border border-stone-700 text-white placeholder-stone-500 text-xs focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 font-mono tracking-wider disabled:opacity-50"
               />
               <button
                 type="button"
@@ -191,7 +191,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
                 value={pin2FA}
                 onChange={e => setPin2FA(e.target.value.replace(/\D/g, ''))}
                 placeholder="••••••"
-                className="w-full pl-3.5 pr-10 py-2.5 rounded-xl bg-stone-950 border border-stone-700 text-emerald-400 placeholder-stone-600 text-center text-sm font-mono tracking-[0.4em] font-bold focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 disabled:opacity-50"
+                className="w-full pl-3.5 pr-10 py-2.5 rounded-xl bg-sky-950 border border-stone-700 text-emerald-400 placeholder-stone-600 text-center text-sm font-mono tracking-[0.4em] font-bold focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 disabled:opacity-50"
               />
               <button
                 type="button"
@@ -222,7 +222,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
             <button
               type="button"
               onClick={onClose}
-              className="w-full py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-semibold transition cursor-pointer"
+              className="w-full py-2.5 rounded-xl bg-sky-800 hover:bg-sky-700 text-stone-300 text-xs font-semibold transition cursor-pointer"
             >
               Cancel
             </button>
@@ -230,10 +230,11 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
         </form>
 
         {/* Footer */}
-        <div className="px-6 py-3.5 bg-stone-950/60 border-t border-stone-800 text-[10px] text-stone-500 font-mono text-center">
+        <div className="px-6 py-3.5 bg-sky-950/60 border-t border-stone-800 text-[10px] text-sky-600 font-mono text-center">
           NEET UG Institutional Test Delivery Architecture &bull; 256-Bit Vault Protocol
         </div>
       </div>
     </div>
   );
 };
+

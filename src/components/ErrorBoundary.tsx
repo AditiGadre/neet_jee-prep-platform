@@ -42,24 +42,24 @@ export class ErrorBoundary extends Component<Props, State> {
     const props = (this as any).props as Props;
     if (this.state.hasError) {
       return (
-        <div className="min-h-[400px] w-full flex items-center justify-center p-6 bg-stone-50 text-stone-900 rounded-2xl border border-stone-200 shadow-sm my-4">
+        <div className="min-h-[400px] w-full flex items-center justify-center p-6 bg-sky-50 text-sky-950 rounded-2xl border border-sky-200 shadow-sm my-4">
           <div className="max-w-lg text-center space-y-4">
             <div className="w-14 h-14 mx-auto rounded-2xl bg-amber-100 border border-amber-200 flex items-center justify-center text-amber-600">
               <AlertTriangle className="w-8 h-8" />
             </div>
 
             <div className="space-y-1">
-              <h3 className="text-lg font-bold text-stone-900">
+              <h3 className="text-lg font-bold text-sky-950">
                 {props?.fallbackTitle || 'Something went wrong displaying this view'}
               </h3>
-              <p className="text-xs text-stone-600 leading-relaxed">
+              <p className="text-xs text-sky-700 leading-relaxed">
                 {props?.fallbackMessage ||
                   'The view encountered a temporary rendering issue. Your answers and test results have been safely preserved.'}
               </p>
             </div>
 
             {this.state.error && (
-              <div className="p-3 bg-stone-100 rounded-xl text-left border border-stone-200">
+              <div className="p-3 bg-sky-50 rounded-xl text-left border border-sky-200">
                 <p className="text-[11px] font-mono text-rose-700 font-semibold truncate">
                   {this.state.error.name}: {this.state.error.message}
                 </p>
@@ -77,7 +77,7 @@ export class ErrorBoundary extends Component<Props, State> {
 
               <button
                 onClick={() => window.location.reload()}
-                className="px-4 py-2.5 rounded-xl bg-white hover:bg-stone-100 border border-stone-300 text-stone-700 text-xs font-bold transition flex items-center gap-4 cursor-pointer"
+                className="px-4 py-2.5 rounded-xl bg-sky-50/60 hover:bg-sky-50 border border-sky-300 text-sky-800 text-xs font-bold transition flex items-center gap-4 cursor-pointer"
               >
                 <Home className="w-4 h-4" />
                 <span>Reload Page</span>
@@ -91,3 +91,4 @@ export class ErrorBoundary extends Component<Props, State> {
     return (this as any).props?.children;
   }
 }
+

@@ -145,3 +145,4 @@ export function clearUserDownloads(userEmail?: string) {
     console.warn('Error clearing downloads:', err);
   }
 }
+

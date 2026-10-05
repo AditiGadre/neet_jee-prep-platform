@@ -130,3 +130,4 @@ export function deauthorizeDevice(userEmailOrRoll: string, deviceIdToRemove: str
   localStorage.setItem(storageKey, JSON.stringify(devices));
   return devices;
 }
+

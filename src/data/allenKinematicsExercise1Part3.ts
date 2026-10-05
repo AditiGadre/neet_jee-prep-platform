@@ -2540,3 +2540,4 @@ export const ALLEN_KINEMATICS_EXERCISE_1_PART3_QUESTIONS: Question[] = [
     "diagramSvg": "<svg viewBox=\"0 0 220 130\" class=\"w-full max-w-xs h-28 mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <line x1=\"30\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <line x1=\"30\" y1=\"100\" x2=\"70\" y2=\"65\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n  <text x=\"50\" y=\"55\" font-size=\"9\" fill=\"#2563eb\" font-weight=\"bold\">\u221a3 u (30\u00b0)</text>\n  <line x1=\"190\" y1=\"100\" x2=\"160\" y2=\"48\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n  <text x=\"165\" y=\"45\" font-size=\"9\" fill=\"#dc2626\" font-weight=\"bold\">u (60\u00b0)</text>\n  <text x=\"105\" y=\"115\" font-size=\"10\" font-weight=\"bold\">x</text>\n</svg>"
   }
 ];
+

@@ -125,3 +125,4 @@ export function saveAdminNotification(notification: AdminEnrollmentNotification)
     console.error('Failed to save admin notification:', err);
   }
 }
+

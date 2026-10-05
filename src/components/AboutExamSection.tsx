@@ -30,17 +30,17 @@ export const AboutExamSection: React.FC = () => {
   return (
     <div className="space-y-4">
       {/* Header Banner */}
-      <div className="bg-white border border-stone-200 rounded-lg p-5 shadow-xs">
+      <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 shadow-xs">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-orange-50 text-orange-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-orange-200">
               <BookOpen className="w-3 h-3" />
               <span>Comprehensive Information Hub</span>
             </div>
-            <h1 className="text-base sm:text-lg font-bold text-stone-900">
+            <h1 className="text-base sm:text-lg font-bold text-sky-950">
               3. About NEET Exam
             </h1>
-            <p className="mt-0.5 text-xs text-stone-500 max-w-3xl">
+            <p className="mt-0.5 text-xs text-sky-600 max-w-3xl">
               Everything you need to know about the National Eligibility cum Entrance Test (NEET-UG), Exam Pattern, Official Syllabus, and Medical Colleges Seat Matrix.
             </p>
           </div>
@@ -60,7 +60,7 @@ export const AboutExamSection: React.FC = () => {
               className={`px-3 py-1.5 rounded text-xs font-semibold whitespace-nowrap transition-colors ${
                 activeTab === tab.id
                   ? 'bg-orange-600 text-white shadow-xs'
-                  : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                  : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
               }`}
             >
               {tab.label}
@@ -71,34 +71,34 @@ export const AboutExamSection: React.FC = () => {
 
       {/* 1. WHAT IS NEET? */}
       {activeTab === 'what-is-neet' && (
-        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+        <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="border-b border-stone-100 pb-3">
-            <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
+            <h2 className="text-sm sm:text-base font-bold text-sky-950 flex items-center space-x-1.5">
               <HelpCircle className="w-4 h-4 text-orange-600" />
               <span>What is NEET?</span>
             </h2>
-            <p className="text-xs text-stone-600 mt-1.5 leading-relaxed">
+            <p className="text-xs text-sky-700 mt-1.5 leading-relaxed">
               <strong>National Eligibility cum Entrance Test (NEET-UG)</strong> is the single all-India entrance examination for admission into undergraduate medical courses across India, including <strong>MBBS, BDS, BAMS, BHMS, BUMS, BYNS, and BSMS</strong>, in all government, private, deemed medical universities and premier institutes like AIIMS and JIPMER.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            <div className="p-3.5 rounded bg-stone-50 border border-stone-200">
+            <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
               <div className="text-[10px] font-bold text-orange-700 uppercase tracking-wider mb-0.5">Conducting Body</div>
-              <div className="text-xs font-bold text-stone-900">National Testing Agency</div>
-              <p className="text-[11px] text-stone-500 mt-1">Conducted under directives of National Medical Commission (NMC) & MoHFW.</p>
+              <div className="text-xs font-bold text-sky-950">National Testing Agency</div>
+              <p className="text-[11px] text-sky-600 mt-1">Conducted under directives of National Medical Commission (NMC) & MoHFW.</p>
             </div>
 
-            <div className="p-3.5 rounded bg-stone-50 border border-stone-200">
+            <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
               <div className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider mb-0.5">Total MBBS Seats</div>
-              <div className="text-xs font-bold text-stone-900">108,000+ Seats</div>
-              <p className="text-[11px] text-stone-500 mt-1">Across 700+ Government and Private Medical Colleges in India.</p>
+              <div className="text-xs font-bold text-sky-950">108,000+ Seats</div>
+              <p className="text-[11px] text-sky-600 mt-1">Across 700+ Government and Private Medical Colleges in India.</p>
             </div>
 
-            <div className="p-3.5 rounded bg-stone-50 border border-stone-200">
+            <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
               <div className="text-[10px] font-bold text-amber-700 uppercase tracking-wider mb-0.5">Annual Applicants</div>
-              <div className="text-xs font-bold text-stone-900">2.4+ Million Aspirants</div>
-              <p className="text-[11px] text-stone-500 mt-1">Largest single competitive exam in the world.</p>
+              <div className="text-xs font-bold text-sky-950">2.4+ Million Aspirants</div>
+              <p className="text-[11px] text-sky-600 mt-1">Largest single competitive exam in the world.</p>
             </div>
           </div>
         </div>
@@ -106,72 +106,72 @@ export const AboutExamSection: React.FC = () => {
 
       {/* 2. EXAM PATTERN */}
       {activeTab === 'pattern' && (
-        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+        <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="border-b border-stone-100 pb-3">
-            <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
+            <h2 className="text-sm sm:text-base font-bold text-sky-950 flex items-center space-x-1.5">
               <Clock className="w-4 h-4 text-orange-600" />
               <span>Exam Pattern & Official Rules</span>
             </h2>
-            <p className="text-xs text-stone-500 mt-0.5">
+            <p className="text-xs text-sky-600 mt-0.5">
               Strict 45 questions per subject (180 total questions, 720 marks).
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            <div className="p-3.5 rounded bg-stone-50 border border-stone-200">
-              <div className="text-[10px] font-bold text-stone-500 uppercase">Total Duration</div>
-              <div className="text-base font-bold text-stone-900 mt-0.5">180 Mins</div>
+            <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
+              <div className="text-[10px] font-bold text-sky-600 uppercase">Total Duration</div>
+              <div className="text-base font-bold text-sky-950 mt-0.5">180 Mins</div>
               <div className="text-[11px] text-orange-600 font-mono">(3 Hours)</div>
             </div>
-            <div className="p-3.5 rounded bg-stone-50 border border-stone-200">
-              <div className="text-[10px] font-bold text-stone-500 uppercase">Total Questions</div>
-              <div className="text-base font-bold text-stone-900 mt-0.5">180 Questions</div>
+            <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
+              <div className="text-[10px] font-bold text-sky-600 uppercase">Total Questions</div>
+              <div className="text-base font-bold text-sky-950 mt-0.5">180 Questions</div>
               <div className="text-[11px] text-emerald-600 font-mono">(All 180 Compulsory)</div>
             </div>
-            <div className="p-3.5 rounded bg-stone-50 border border-stone-200">
-              <div className="text-[10px] font-bold text-stone-500 uppercase">Maximum Marks</div>
-              <div className="text-base font-bold text-stone-900 mt-0.5">720 Marks</div>
-              <div className="text-[11px] text-stone-500 font-mono">180 Questions x 4 Marks</div>
+            <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
+              <div className="text-[10px] font-bold text-sky-600 uppercase">Maximum Marks</div>
+              <div className="text-base font-bold text-sky-950 mt-0.5">720 Marks</div>
+              <div className="text-[11px] text-sky-600 font-mono">180 Questions x 4 Marks</div>
             </div>
-            <div className="p-3.5 rounded bg-stone-50 border border-stone-200">
-              <div className="text-[10px] font-bold text-stone-500 uppercase">Marking Scheme</div>
-              <div className="text-base font-bold text-stone-900 mt-0.5">+4 / -1 / 0</div>
+            <div className="p-3.5 rounded bg-sky-50 border border-sky-200">
+              <div className="text-[10px] font-bold text-sky-600 uppercase">Marking Scheme</div>
+              <div className="text-base font-bold text-sky-950 mt-0.5">+4 / -1 / 0</div>
               <div className="text-[11px] text-amber-700 font-mono">Negative marking applies</div>
             </div>
           </div>
 
           {/* Section Breakdown Table */}
-          <div className="overflow-x-auto border border-stone-200 rounded-lg">
+          <div className="overflow-x-auto border border-sky-200 rounded-lg">
             <table className="w-full text-xs text-left">
-              <thead className="bg-stone-50 text-stone-700 font-bold uppercase tracking-wider border-b border-stone-200">
+              <thead className="bg-sky-50 text-sky-800 font-bold uppercase tracking-wider border-b border-sky-200">
                 <tr>
                   <th className="p-3.5">Subject</th>
                   <th className="p-3.5">Questions</th>
                   <th className="p-3.5">Total Marks</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-stone-100 text-stone-700">
-                <tr className="hover:bg-stone-50">
-                  <td className="p-3.5 font-semibold text-stone-900">Physics</td>
+              <tbody className="divide-y divide-stone-100 text-sky-800">
+                <tr className="hover:bg-sky-50">
+                  <td className="p-3.5 font-semibold text-sky-950">Physics</td>
                   <td className="p-3.5 font-medium">45 Questions</td>
-                  <td className="p-3.5 font-bold text-stone-900">180 Marks</td>
+                  <td className="p-3.5 font-bold text-sky-950">180 Marks</td>
                 </tr>
-                <tr className="hover:bg-stone-50">
-                  <td className="p-3.5 font-semibold text-stone-900">Chemistry</td>
+                <tr className="hover:bg-sky-50">
+                  <td className="p-3.5 font-semibold text-sky-950">Chemistry</td>
                   <td className="p-3.5 font-medium">45 Questions</td>
-                  <td className="p-3.5 font-bold text-stone-900">180 Marks</td>
+                  <td className="p-3.5 font-bold text-sky-950">180 Marks</td>
                 </tr>
-                <tr className="hover:bg-stone-50">
-                  <td className="p-3.5 font-semibold text-stone-900">Botany</td>
+                <tr className="hover:bg-sky-50">
+                  <td className="p-3.5 font-semibold text-sky-950">Botany</td>
                   <td className="p-3.5 font-medium">45 Questions</td>
-                  <td className="p-3.5 font-bold text-stone-900">180 Marks</td>
+                  <td className="p-3.5 font-bold text-sky-950">180 Marks</td>
                 </tr>
-                <tr className="hover:bg-stone-50">
-                  <td className="p-3.5 font-semibold text-stone-900">Zoology</td>
+                <tr className="hover:bg-sky-50">
+                  <td className="p-3.5 font-semibold text-sky-950">Zoology</td>
                   <td className="p-3.5 font-medium">45 Questions</td>
-                  <td className="p-3.5 font-bold text-stone-900">180 Marks</td>
+                  <td className="p-3.5 font-bold text-sky-950">180 Marks</td>
                 </tr>
-                <tr className="bg-stone-50/80 font-bold text-stone-900 border-t border-stone-200">
+                <tr className="bg-sky-50/80 font-bold text-sky-950 border-t border-sky-200">
                   <td className="p-3.5">Total (PCB)</td>
                   <td className="p-3.5">180 Questions</td>
                   <td className="p-3.5 text-orange-700 font-extrabold">720 Marks</td>
@@ -184,25 +184,25 @@ export const AboutExamSection: React.FC = () => {
 
       {/* 3. SYLLABUS */}
       {activeTab === 'syllabus' && (
-        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+        <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="border-b border-stone-100 pb-3">
-            <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
+            <h2 className="text-sm sm:text-base font-bold text-sky-950 flex items-center space-x-1.5">
               <Layers className="w-4 h-4 text-orange-600" />
               <span>Official Syllabus & Chapter Weightages</span>
             </h2>
-            <p className="text-xs text-stone-500 mt-0.5">
+            <p className="text-xs text-sky-600 mt-0.5">
               Physics, Chemistry and Biology based on the latest official NMC updated syllabus.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Physics */}
-            <div className="p-6 rounded-lg bg-stone-50 border border-stone-200 space-y-2">
-              <h3 className="text-xs font-bold text-stone-900 flex items-center justify-between pb-2 border-b border-stone-200">
+            <div className="p-6 rounded-lg bg-sky-50 border border-sky-200 space-y-2">
+              <h3 className="text-xs font-bold text-sky-950 flex items-center justify-between pb-2 border-b border-sky-200">
                 <span>Physics Syllabus</span>
-                <span className="text-[11px] font-mono text-stone-500">180 Marks</span>
+                <span className="text-[11px] font-mono text-sky-600">180 Marks</span>
               </h3>
-              <ul className="text-xs text-stone-600 space-y-1.5 pt-1">
+              <ul className="text-xs text-sky-700 space-y-1.5 pt-1">
                 <li>&bull; Mechanics & Laws of Motion (22%)</li>
                 <li>&bull; Electrodynamics & Current Electricity (24%)</li>
                 <li>&bull; Optics: Ray & Wave Optics (10%)</li>
@@ -214,12 +214,12 @@ export const AboutExamSection: React.FC = () => {
             </div>
 
             {/* Chemistry */}
-            <div className="p-6 rounded-lg bg-stone-50 border border-stone-200 space-y-2">
-              <h3 className="text-xs font-bold text-stone-900 flex items-center justify-between pb-2 border-b border-stone-200">
+            <div className="p-6 rounded-lg bg-sky-50 border border-sky-200 space-y-2">
+              <h3 className="text-xs font-bold text-sky-950 flex items-center justify-between pb-2 border-b border-sky-200">
                 <span>Chemistry Syllabus</span>
-                <span className="text-[11px] font-mono text-stone-500">180 Marks</span>
+                <span className="text-[11px] font-mono text-sky-600">180 Marks</span>
               </h3>
-              <ul className="text-xs text-stone-600 space-y-1.5 pt-1">
+              <ul className="text-xs text-sky-700 space-y-1.5 pt-1">
                 <li>&bull; Organic Chemistry (Mechanisms & Named Rxns) (34%)</li>
                 <li>&bull; Chemical Bonding & Periodic Table (16%)</li>
                 <li>&bull; Coordination Compounds & d/f Block (14%)</li>
@@ -229,12 +229,12 @@ export const AboutExamSection: React.FC = () => {
             </div>
 
             {/* Biology */}
-            <div className="p-6 rounded-lg bg-stone-50 border border-stone-200 space-y-2">
-              <h3 className="text-xs font-bold text-stone-900 flex items-center justify-between pb-2 border-b border-stone-200">
+            <div className="p-6 rounded-lg bg-sky-50 border border-sky-200 space-y-2">
+              <h3 className="text-xs font-bold text-sky-950 flex items-center justify-between pb-2 border-b border-sky-200">
                 <span>Biology Syllabus</span>
-                <span className="text-[11px] font-mono text-stone-500">360 Marks (50%)</span>
+                <span className="text-[11px] font-mono text-sky-600">360 Marks (50%)</span>
               </h3>
-              <ul className="text-xs text-stone-600 space-y-1.5 pt-1">
+              <ul className="text-xs text-sky-700 space-y-1.5 pt-1">
                 <li>&bull; Genetics & Molecular Inheritance (20%)</li>
                 <li>&bull; Human Physiology Systems (18%)</li>
                 <li>&bull; Ecology and Environment (14%)</li>
@@ -251,14 +251,14 @@ export const AboutExamSection: React.FC = () => {
 
       {/* 4. COLLEGES & SEATS */}
       {activeTab === 'colleges' && (
-        <div className="bg-white border border-stone-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+        <div className="bg-sky-50/60 border border-sky-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-stone-100 gap-4">
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-stone-900 flex items-center space-x-1.5">
+              <h2 className="text-sm sm:text-base font-bold text-sky-950 flex items-center space-x-1.5">
                 <Building2 className="w-4 h-4 text-orange-600" />
                 <span>Colleges, Seats, Cut-offs & Counselling</span>
               </h2>
-              <p className="text-xs text-stone-500 mt-0.5">
+              <p className="text-xs text-sky-600 mt-0.5">
                 Government and private colleges, AIIMS, seat matrix, cut-offs and counselling information.
               </p>
             </div>
@@ -274,7 +274,7 @@ export const AboutExamSection: React.FC = () => {
                   className={`px-3 py-1.5 rounded text-xs font-semibold transition-colors ${
                     collegeTypeFilter === type
                       ? 'bg-orange-600 text-white shadow-xs'
-                      : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                      : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
                   }`}
                 >
                   {type}
@@ -288,15 +288,15 @@ export const AboutExamSection: React.FC = () => {
                 placeholder="Search college or state..."
                 value={collegeSearch}
                 onChange={e => setCollegeSearch(e.target.value)}
-                className="w-full sm:w-64 p-3 rounded bg-stone-50 border border-stone-300 text-xs text-stone-900 placeholder-stone-400 focus:bg-white focus:border-orange-500"
+                className="w-full sm:w-64 p-3 rounded bg-sky-50 border border-sky-300 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:border-orange-500"
               />
             </div>
           </div>
 
           {/* Colleges Table */}
-          <div className="overflow-x-auto border border-stone-200 rounded-lg">
+          <div className="overflow-x-auto border border-sky-200 rounded-lg">
             <table className="w-full text-xs text-left">
-              <thead className="bg-stone-50 text-stone-700 font-bold uppercase tracking-wider border-b border-stone-200">
+              <thead className="bg-sky-50 text-sky-800 font-bold uppercase tracking-wider border-b border-sky-200">
                 <tr>
                   <th className="p-3.5">NIRF</th>
                   <th className="p-3.5">Medical College & Location</th>
@@ -306,13 +306,13 @@ export const AboutExamSection: React.FC = () => {
                   <th className="p-3.5">Approx Tuition Fee</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-stone-100 text-stone-700">
+              <tbody className="divide-y divide-stone-100 text-sky-800">
                 {filteredColleges.map(clg => (
-                  <tr key={clg.id} className="hover:bg-stone-50">
+                  <tr key={clg.id} className="hover:bg-sky-50">
                     <td className="p-3.5 font-bold text-amber-600 font-mono">#{clg.nirfRank}</td>
                     <td className="p-3.5">
-                      <div className="font-bold text-stone-900">{clg.name}</div>
-                      <div className="text-[11px] text-stone-500 flex items-center space-x-1">
+                      <div className="font-bold text-sky-950">{clg.name}</div>
+                      <div className="text-[11px] text-sky-600 flex items-center space-x-1">
                         <MapPin className="w-3 h-3 text-stone-400" />
                         <span>{clg.location}</span>
                       </div>
@@ -324,7 +324,7 @@ export const AboutExamSection: React.FC = () => {
                     </td>
                     <td className="p-3.5 font-medium">{clg.totalSeats} Seats</td>
                     <td className="p-3.5 font-bold text-emerald-600 font-mono">AIR &le; {clg.closingRankGen}</td>
-                    <td className="p-3.5 text-stone-600 font-mono">{clg.approxFeePerYear}</td>
+                    <td className="p-3.5 text-sky-700 font-mono">{clg.approxFeePerYear}</td>
                   </tr>
                 ))}
               </tbody>
@@ -332,24 +332,24 @@ export const AboutExamSection: React.FC = () => {
           </div>
 
           {/* Counselling Roadmap Guide */}
-          <div className="p-6 rounded-lg bg-stone-50 border border-stone-200 space-y-3">
-            <h3 className="text-xs font-bold text-stone-900">Medical Counselling Process (MCC & State Quota)</h3>
+          <div className="p-6 rounded-lg bg-sky-50 border border-sky-200 space-y-3">
+            <h3 className="text-xs font-bold text-sky-950">Medical Counselling Process (MCC & State Quota)</h3>
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-4.5 text-xs">
-              <div className="p-3 rounded bg-white border border-stone-200 shadow-xs">
-                <div className="font-bold text-stone-900 mb-0.5">1. AIQ 15% (MCC)</div>
-                <p className="text-[11px] text-stone-500">All India Quota for AIIMS, JIPMER, Deemed & 15% Central Govt seats.</p>
+              <div className="p-3 rounded bg-sky-50/60 border border-sky-200 shadow-xs">
+                <div className="font-bold text-sky-950 mb-0.5">1. AIQ 15% (MCC)</div>
+                <p className="text-[11px] text-sky-600">All India Quota for AIIMS, JIPMER, Deemed & 15% Central Govt seats.</p>
               </div>
-              <div className="p-3 rounded bg-white border border-stone-200 shadow-xs">
-                <div className="font-bold text-stone-900 mb-0.5">2. State 85% Quota</div>
-                <p className="text-[11px] text-stone-500">State Domicile quota counselling conducted by respective state authority.</p>
+              <div className="p-3 rounded bg-sky-50/60 border border-sky-200 shadow-xs">
+                <div className="font-bold text-sky-950 mb-0.5">2. State 85% Quota</div>
+                <p className="text-[11px] text-sky-600">State Domicile quota counselling conducted by respective state authority.</p>
               </div>
-              <div className="p-3 rounded bg-white border border-stone-200 shadow-xs">
-                <div className="font-bold text-stone-900 mb-0.5">3. Choice Filling</div>
-                <p className="text-[11px] text-stone-500">Preference locking for colleges based on previous year closing ranks.</p>
+              <div className="p-3 rounded bg-sky-50/60 border border-sky-200 shadow-xs">
+                <div className="font-bold text-sky-950 mb-0.5">3. Choice Filling</div>
+                <p className="text-[11px] text-sky-600">Preference locking for colleges based on previous year closing ranks.</p>
               </div>
-              <div className="p-3 rounded bg-white border border-stone-200 shadow-xs">
-                <div className="font-bold text-stone-900 mb-0.5">4. Seat Allotment</div>
-                <p className="text-[11px] text-stone-500">Round 1, Round 2, Mop-Up round and physical document verification.</p>
+              <div className="p-3 rounded bg-sky-50/60 border border-sky-200 shadow-xs">
+                <div className="font-bold text-sky-950 mb-0.5">4. Seat Allotment</div>
+                <p className="text-[11px] text-sky-600">Round 1, Round 2, Mop-Up round and physical document verification.</p>
               </div>
             </div>
           </div>
@@ -358,3 +358,4 @@ export const AboutExamSection: React.FC = () => {
     </div>
   );
 };
+

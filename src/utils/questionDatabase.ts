@@ -479,7 +479,7 @@ export const STRICT_SYLLABUS_UNIT_MAPPINGS: Record<string, string[]> = {
   'unit4workenergyandpower': ['Work, Energy and Power'],
   'workenergyandpower': ['Work, Energy and Power'],
   'unit5rotationalmotion': ['Rotational Motion', 'Systems of Particles and Rotational Motion'],
-  'rotationalmotion': ['Rotational Motion', 'Systems of Particles and Rotational Motion'],
+  'rotationalmotion': ['Rotational Motion', 'Systems of Particles and Rotational Motion', 'System of Particles and Rotational Motion'],
   'unit6gravitation': ['Gravitation'],
   'gravitation': ['Gravitation'],
   'unit7propertiesofsolidsandliquids': ['Mechanical Properties of Solids', 'Mechanical Properties of Fluids', 'Thermal Properties of Matter', 'Elasticity'],
@@ -517,6 +517,7 @@ export const STRICT_SYLLABUS_UNIT_MAPPINGS: Record<string, string[]> = {
   'atomicstructure': ['Structure of Atom'],
   'unit3chemicalbondingandmolecularstructure': ['Chemical Bonding and Molecular Structure'],
   'chemicalbondingandmolecularstructure': ['Chemical Bonding and Molecular Structure'],
+    'chemicalbonding': ['Chemical Bonding and Molecular Structure'],
   'unit4chemicalthermodynamics': ['Thermodynamics'],
   'chemicalthermodynamics': ['Thermodynamics'],
   'unit5solutions': ['Solutions'],
@@ -529,6 +530,7 @@ export const STRICT_SYLLABUS_UNIT_MAPPINGS: Record<string, string[]> = {
   'chemicalkinetics': ['Chemical Kinetics'],
   'unit9classificationofelementsandperiodicity': ['Classification of Elements and Periodicity in Properties'],
   'classificationofelementsandperiodicity': ['Classification of Elements and Periodicity in Properties'],
+    'classificationofelements': ['Classification of Elements and Periodicity in Properties'],
   'unit10pblockelements': ['The p-Block Elements (Groups 13 and 14)', 'The p-Block Elements (Group 15, 16, 17 and 18)'],
   'pblockelements': ['The p-Block Elements (Groups 13 and 14)', 'The p-Block Elements (Group 15, 16, 17 and 18)'],
   'unit11dandfblockelements': ['The d- and f-Block Elements'],
@@ -988,4 +990,6 @@ export function assembleStrictTopicAllocations(
 
   return result;
 }
+
+
 

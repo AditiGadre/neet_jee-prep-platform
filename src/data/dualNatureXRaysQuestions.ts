@@ -7717,3 +7717,4 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     ]
   }
 ];
+

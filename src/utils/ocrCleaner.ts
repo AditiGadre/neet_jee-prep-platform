@@ -189,3 +189,4 @@ export function cleanOcrText(text: string): string {
 
   return cleaned.trim();
 }
+

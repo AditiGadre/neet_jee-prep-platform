@@ -427,3 +427,4 @@ export const NCERT_ATOMS_QUESTIONS: Question[] = [
     "tags": ["NCERT NEET Physics", "Atoms", "Photoelectric Effect"]
   }
 ];
+

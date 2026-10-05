@@ -640,3 +640,4 @@ export const NCERT_SEMICONDUCTORS_QUESTIONS: Question[] = [
     ]
   }
 ];
+

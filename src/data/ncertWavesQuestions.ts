@@ -422,3 +422,4 @@ export const NCERT_WAVES_QUESTIONS: Question[] = [
     ]
   }
 ];
+

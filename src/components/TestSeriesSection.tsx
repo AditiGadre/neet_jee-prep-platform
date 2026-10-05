@@ -196,6 +196,20 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   // Admin Portal Controlled Test Access State
   const [isAdminAccessGranted, setIsAdminAccessGranted] = useState<boolean>(() => checkAdminAccess());
 
+  useEffect(() => {
+    const loadCloudAccess = async () => {
+      const reqs = await fetchUnlockRequestsFromCloud();
+      if (reqs && reqs.length > 0) {
+        localStorage.setItem('neet_unlock_requests', JSON.stringify(reqs));
+        setIsAdminAccessGranted(checkAdminAccess());
+      }
+    };
+    loadCloudAccess();
+    // Poll every 5 seconds for approval
+    const interval = setInterval(loadCloudAccess, 5000);
+    return () => clearInterval(interval);
+  }, [rollNumber, studentPhone]);
+
   // Listen for Admin Portal real-time access updates
   useEffect(() => {
     const handleAccessChange = (e: any) => {
@@ -474,7 +488,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   return (
     <div className="space-y-4">
       {/* 3 Dedicated Batch Tabs with Dropdowns */}
-        <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 sm:p-3.5 rounded-2xl border border-stone-200 shadow-xs relative z-30">
+        <div className="flex flex-wrap items-center justify-between gap-3 bg-sky-50/60 p-3 sm:p-3.5 rounded-2xl border border-sky-200 shadow-xs relative z-30">
           <div className="flex flex-wrap items-center gap-1.5">
             
             {/* Repeater Batch */}
@@ -486,26 +500,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
                   activeBatch === 'repeater'
-                    ? 'bg-orange-600 text-white shadow-md'
-                    : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
+                    ? 'bg-sky-600 text-white shadow-md'
+                    : 'bg-sky-50 text-sky-800 hover:bg-sky-50 border border-sky-200'
                 }`}
               >
-                <Zap className={`w-4 h-4 ${activeBatch === 'repeater' ? 'text-amber-300' : 'text-stone-400'}`} />
+                <Zap className={`w-4 h-4 ${activeBatch === 'repeater' ? 'text-cyan-300' : 'text-stone-400'}`} />
                 <span>Repeater / Dropper Batch</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-sky-50/60/20 text-current font-mono">
                   Starts 11 Oct
                 </span>
               </button>
               
-              <div className="absolute left-0 top-full mt-2 w-72 bg-white border border-stone-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
+              <div className="absolute left-0 top-[calc(100%-8px)] pt-2 w-72 bg-sky-50/60 border border-sky-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
                 <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track1'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track1' && activeBatch === 'repeater' ? 'bg-orange-50 text-orange-700' : 'text-stone-600 hover:bg-stone-50 hover:text-orange-600'}`}>
+                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track1'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track1' && activeBatch === 'repeater' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
                   Track 1: Chapterwise, Partwise & Full (46 Tests)
                 </button>
-                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-orange-50 text-orange-700' : 'text-stone-600 hover:bg-stone-50 hover:text-orange-600'}`}>
+                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
                   Track 2: 17-Week Fast-Track (46 Tests)
                 </button>
-                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-orange-50 text-orange-700' : 'text-stone-600 hover:bg-stone-50 hover:text-orange-600'}`}>
+                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
                   Track 3: Physics & Chemistry Only (27 Tests)
                 </button>
               </div>
@@ -521,23 +535,23 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
                   activeBatch === '12th'
-                    ? 'bg-amber-500 text-white shadow-md'
-                    : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
+                    ? 'bg-cyan-500 text-white shadow-md'
+                    : 'bg-sky-50 text-sky-800 hover:bg-sky-50 border border-sky-200'
                 }`}
               >
                 <GraduationCap className={`w-4 h-4 ${activeBatch === '12th' ? 'text-white' : 'text-stone-400'}`} />
                 <span>12th Batch</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-sky-50/60/20 text-current font-mono">
                   23 Tests
                 </span>
               </button>
               
-              <div className="absolute left-0 top-full mt-2 w-72 bg-white border border-stone-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
+              <div className="absolute left-0 top-[calc(100%-8px)] pt-2 w-72 bg-sky-50/60 border border-sky-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
                 <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-                <button onClick={() => { setActiveBatch('12th'); setClass12Track('complete'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class12Track === 'complete' && activeBatch === '12th' ? 'bg-amber-50 text-amber-700' : 'text-stone-600 hover:bg-stone-50 hover:text-amber-600'}`}>
+                <button onClick={() => { setActiveBatch('12th'); setClass12Track('complete'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class12Track === 'complete' && activeBatch === '12th' ? 'bg-cyan-50 text-cyan-700' : 'text-sky-700 hover:bg-sky-50 hover:text-cyan-600'}`}>
                   Track 1: Complete Syllabus Master Series
                 </button>
-                <button onClick={() => { setActiveBatch('12th'); setClass12Track('pc'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class12Track === 'pc' && activeBatch === '12th' ? 'bg-amber-50 text-amber-700' : 'text-stone-600 hover:bg-stone-50 hover:text-amber-600'}`}>
+                <button onClick={() => { setActiveBatch('12th'); setClass12Track('pc'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class12Track === 'pc' && activeBatch === '12th' ? 'bg-cyan-50 text-cyan-700' : 'text-sky-700 hover:bg-sky-50 hover:text-cyan-600'}`}>
                   Track 2: Physics & Chemistry Series
                 </button>
               </div>
@@ -554,22 +568,22 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
                   activeBatch === '11th'
                     ? 'bg-rose-500 text-white shadow-md'
-                    : 'bg-stone-50 text-stone-700 hover:bg-stone-100 border border-stone-200'
+                    : 'bg-sky-50 text-sky-800 hover:bg-sky-50 border border-sky-200'
                 }`}
               >
                 <Atom className={`w-4 h-4 ${activeBatch === '11th' ? 'text-white' : 'text-stone-400'}`} />
                 <span>11th Batch</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-sky-50/60/20 text-current font-mono">
                   20 Tests
                 </span>
               </button>
               
-              <div className="absolute left-0 top-full mt-2 w-72 bg-white border border-stone-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
+              <div className="absolute left-0 top-[calc(100%-8px)] pt-2 w-72 bg-sky-50/60 border border-sky-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
                 <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-rose-50 text-rose-700' : 'text-stone-600 hover:bg-stone-50 hover:text-rose-600'}`}>
+                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-rose-50 text-rose-700' : 'text-sky-700 hover:bg-sky-50 hover:text-rose-600'}`}>
                   Track 1: Chapterwise, Partwise & Full
                 </button>
-                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-rose-50 text-rose-700' : 'text-stone-600 hover:bg-stone-50 hover:text-rose-600'}`}>
+                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-rose-50 text-rose-700' : 'text-sky-700 hover:bg-sky-50 hover:text-rose-600'}`}>
                   Track 2: CWT & Cumulative Master
                 </button>
               </div>
@@ -586,9 +600,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           ) : (
             <button
               onClick={() => setShowAdminApprovalModal(true)}
-              className="px-3.5 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-2xs"
+              className="px-3.5 py-1.5 rounded-xl bg-cyan-50 hover:bg-cyan-100 text-cyan-900 border border-cyan-300 text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-2xs"
             >
-              <Lock className="w-3.5 h-3.5 text-amber-700" />
+              <Lock className="w-3.5 h-3.5 text-cyan-700" />
               <span>Awaiting Admin Portal Approval</span>
             </button>
           )}
@@ -596,10 +610,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       </div>
 
       {/* Header Banner for Current Batch */}
-      <div className="bg-gradient-to-br from-white via-stone-50 to-orange-50/50 border border-stone-200 rounded-2xl p-5 sm:p-6 shadow-xs">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-stone-200/80 pb-4">
+      <div className="bg-gradient-to-br from-white via-stone-50 to-sky-50/50 border border-sky-200 rounded-2xl p-5 sm:p-6 shadow-xs">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-sky-200/80 pb-4">
           <div>
-            <h1 className="text-xl sm:text-2xl font-extrabold text-stone-900 tracking-tight">
+            <h1 className="text-xl sm:text-2xl font-extrabold text-sky-950 tracking-tight">
               {activeBatch === 'repeater'
                 ? repeaterTrack === 'track1'
                   ? 'NEET 2026–27 Dropper Batch: Track 1 (20-Week Chapterwise • 46 Tests)'
@@ -614,7 +628,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 ? 'Class 11th 2026–27 Exam Planner: Track 1 (Chapterwise, Partwise & Full Syllabus • 20 Tests)'
                 : 'Class 11th Foundation Sunday Test Series: Track 2 (CWT & Cumulative • 20 Tests)'}
             </h1>
-            <p className="mt-1 text-xs text-stone-600 max-w-3xl leading-relaxed">
+            <p className="mt-1 text-xs text-sky-700 max-w-3xl leading-relaxed">
               {activeBatch === '11th' ? (
                 class11Track === 'track1' ? (
                   <>
@@ -652,8 +666,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           </div>
 
           <div className="flex items-center gap-4 self-start md:self-auto shrink-0">
-            <span className="px-3.5 py-2 rounded-xl bg-orange-50 border border-orange-200 text-orange-800 text-xs font-mono font-bold flex items-center space-x-1.5">
-              <ShieldCheck className="w-4 h-4 text-orange-600" />
+            <span className="px-3.5 py-2 rounded-xl bg-sky-50 border border-sky-200 text-sky-800 text-xs font-mono font-bold flex items-center space-x-1.5">
+              <ShieldCheck className="w-4 h-4 text-sky-600" />
               <span>{isAdminAccessGranted ? '✓ Authorized by Admin' : '🔒 Admin Managed'}</span>
             </span>
           </div>
@@ -661,24 +675,24 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* 12th BATCH REVISION & ANALYSIS BUFFER PANEL */}
       {activeBatch === '12th' && showRevisionBuffer && (
-        <div className="p-5 rounded-2xl bg-gradient-to-br from-amber-50/80 via-white to-orange-50/50 border border-amber-200 shadow-xs space-y-4 animate-in fade-in duration-200">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-amber-100 pb-3">
+        <div className="p-5 rounded-2xl bg-gradient-to-br from-cyan-50/80 via-white to-sky-50/50 border border-cyan-200 shadow-xs space-y-4 animate-in fade-in duration-200">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-cyan-100 pb-3">
             <div className="flex items-center gap-4.5">
-              <span className="p-3 rounded-xl bg-amber-500 text-white shadow-2xs">
-                <Sparkles className="w-4 h-4 text-amber-300" />
+              <span className="p-3 rounded-xl bg-cyan-500 text-white shadow-2xs">
+                <Sparkles className="w-4 h-4 text-cyan-300" />
               </span>
               <div>
-                <h3 className="text-sm font-bold text-stone-900">
+                <h3 className="text-sm font-bold text-sky-950">
                   Revision &amp; Analysis Buffer (11 December 2026 – 03 February 2027)
                 </h3>
-                <p className="text-xs text-stone-600">
+                <p className="text-xs text-sky-700">
                   Structured 7-cycle post-mock remediation program to eliminate errors and cement 720-mark mastery.
                 </p>
               </div>
             </div>
             <button
               onClick={() => setShowRevisionBuffer(false)}
-              className="px-3 py-1 text-xs font-semibold rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 self-start sm:self-auto cursor-pointer"
+              className="px-3 py-1 text-xs font-semibold rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-800 self-start sm:self-auto cursor-pointer"
             >
               Hide Buffer
             </button>
@@ -688,20 +702,20 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {REVISION_ANALYSIS_BUFFER_12TH.map((stage, idx) => (
               <div
                 key={idx}
-                className="p-3.5 rounded-xl bg-white border border-amber-100 shadow-2xs hover:border-purple-300 transition space-y-2"
+                className="p-3.5 rounded-xl bg-sky-50/60 border border-cyan-100 shadow-2xs hover:border-purple-300 transition space-y-2"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-purple-700 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded-md font-mono">
                     Stage {idx + 1}
                   </span>
-                  <span className="text-[11px] font-semibold text-stone-500 font-mono">
+                  <span className="text-[11px] font-semibold text-sky-600 font-mono">
                     {stage.period}
                   </span>
                 </div>
-                <div className="text-xs font-bold text-stone-900">
+                <div className="text-xs font-bold text-sky-950">
                   {stage.action}
                 </div>
-                <div className="text-[11px] text-stone-600 leading-relaxed bg-purple-50/40 p-3 rounded-lg border border-amber-100/60">
+                <div className="text-[11px] text-sky-700 leading-relaxed bg-purple-50/40 p-3 rounded-lg border border-cyan-100/60">
                   <span className="font-bold text-purple-900">Output:</span> {stage.output}
                 </div>
               </div>
@@ -713,11 +727,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       {/* SCHEDULED SUNDAYS CALENDAR LIST */}
       <div className="space-y-3">
         <div className="flex items-center justify-between px-1">
-          <h2 className="text-sm font-bold text-stone-800 flex items-center gap-1.5">
-            <Calendar className="w-4 h-4 text-orange-600" />
+          <h2 className="text-sm font-bold text-sky-900 flex items-center gap-1.5">
+            <Calendar className="w-4 h-4 text-sky-600" />
             <span>Showing {currentDisplayTests.length} {activeBatch === '12th' ? 'Scheduled Tests' : 'Scheduled Sunday Tests'}</span>
           </h2>
-          <span className="text-xs font-mono font-semibold text-stone-500">
+          <span className="text-xs font-mono font-semibold text-sky-600">
             {activeBatch === 'repeater' && repeaterTrack === 'pc' ? 'Physics & Chemistry Full Syllabus • 400 Marks' : 'Official NTA NEET Standard • 720 Marks'}
           </span>
         </div>
@@ -768,8 +782,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 key={mock.id}
                 className={`p-5 rounded-2xl border transition hover:shadow-md flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 ${
                   isLive && isAdminAccessGranted
-                    ? 'bg-gradient-to-br from-orange-50/70 via-white to-teal-50/40 border-orange-400 shadow-sm'
-                    : 'bg-white border-stone-200'
+                    ? 'bg-gradient-to-br from-sky-50/70 via-white to-teal-50/40 border-sky-400 shadow-sm'
+                    : 'bg-sky-50/60 border-sky-200'
                 }`}
               >
                 <div className="space-y-2 flex-1 w-full">
@@ -779,7 +793,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase font-mono tracking-wider flex items-center gap-1 ${
                         isLive && isAdminAccessGranted
                           ? 'bg-rose-600 text-white animate-pulse'
-                          : 'bg-stone-100 text-stone-700'
+                          : 'bg-sky-50 text-sky-800'
                       }`}
                     >
                       {isLive && isAdminAccessGranted ? '🔴 LIVE TODAY (SUNDAY)' : `📅 ${mock.dateStr}`}
@@ -791,13 +805,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       const isCum = mock.phaseGroup === 'cumulative' || mock.code.startsWith('CUM-');
                       const isPart = mock.code.startsWith('PART') || mock.code.startsWith('PT-') || mock.phaseGroup === 'part';
                       
-                      let badgeColorClass = 'text-orange-700 bg-orange-50 border-orange-200';
+                      let badgeColorClass = 'text-sky-700 bg-sky-50 border-sky-200';
                       if (isMock) {
-                        badgeColorClass = 'text-amber-800 bg-amber-50 border-amber-300';
+                        badgeColorClass = 'text-cyan-800 bg-cyan-50 border-cyan-300';
                       } else if (isFull && !isMock) {
                         badgeColorClass = 'text-emerald-800 bg-emerald-50 border-emerald-300';
                       } else if (isCum) {
-                        badgeColorClass = 'text-amber-800 bg-amber-50 border-amber-300';
+                        badgeColorClass = 'text-cyan-800 bg-cyan-50 border-cyan-300';
                       } else if (isPart) {
                         badgeColorClass = 'text-rose-800 bg-rose-50 border-rose-200';
                       }
@@ -809,9 +823,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       );
                     })()}
 
-                    <span className="text-xs font-mono text-stone-600 bg-stone-50 border border-stone-200 px-2 py-0.5 rounded-lg">
+                    <span className="text-xs font-mono text-sky-700 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded-lg">
                       {totalDynamicMarks} Marks &bull; {dynamicDuration} Mins &bull; {totalDynamicQs} Qs
-                      {hasEdits && <span className="ml-1.5 text-orange-600 font-bold">(Edited by Admin)</span>}
+                      {hasEdits && <span className="ml-1.5 text-sky-600 font-bold">(Edited by Admin)</span>}
                     </span>
 
                     {isSundayTestUnlocked ? (
@@ -823,7 +837,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         <Calendar className="w-3 h-3 text-teal-700" /> Authorized • Unlocks on Sunday
                       </span>
                     ) : (
-                      <span className="text-[10px] font-bold bg-amber-100 text-amber-900 border border-amber-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
+                      <span className="text-[10px] font-bold bg-cyan-100 text-cyan-900 border border-cyan-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
                         <Lock className="w-3 h-3" /> Admin Approval Required
                       </span>
                     )}
@@ -831,10 +845,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
                   {/* Title & Objective */}
                   <div>
-                    <h3 className="text-base font-bold text-stone-900 leading-snug">
+                    <h3 className="text-base font-bold text-sky-950 leading-snug">
                       {displayTitle}
                     </h3>
-                    <p className="text-xs text-stone-600 mt-0.5 leading-relaxed">
+                    <p className="text-xs text-sky-700 mt-0.5 leading-relaxed">
                       {displayDesc}
                     </p>
                   </div>
@@ -842,12 +856,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   {/* Exact Syllabus Breakdown Grid (2 Cols for PC, 4 Cols for 4 Subjects) */}
                   {mock.code.startsWith('PC-') ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1.5">
-                      <div className="p-3.5 rounded-xl bg-orange-50/70 border border-orange-200 text-xs">
-                        <div className="text-[10px] font-bold text-orange-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-orange-600" /> Physics</span>
-                          <span className="font-mono text-orange-600">{phyCount} Qs &bull; {phyCount * 4}M</span>
+                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
+                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-sky-600" /> Physics</span>
+                          <span className="font-mono text-sky-600">{phyCount} Qs &bull; {phyCount * 4}M</span>
                         </div>
-                        <div className="text-[11px] font-semibold text-orange-950 mt-1 leading-snug">
+                        <div className="text-[11px] font-semibold text-sky-950 mt-1 leading-snug">
                           {displayPhysics}
                         </div>
                       </div>
@@ -864,12 +878,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     </div>
                   ) : (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-1.5">
-                      <div className="p-3.5 rounded-xl bg-orange-50/70 border border-orange-200 text-xs">
-                        <div className="text-[10px] font-bold text-orange-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-orange-600" /> Physics</span>
-                          <span className="font-mono text-orange-600">{phyCount} Qs &bull; {phyCount * 4}M</span>
+                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
+                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-sky-600" /> Physics</span>
+                          <span className="font-mono text-sky-600">{phyCount} Qs &bull; {phyCount * 4}M</span>
                         </div>
-                        <div className="text-[11px] font-semibold text-orange-950 mt-1 leading-snug">
+                        <div className="text-[11px] font-semibold text-sky-950 mt-1 leading-snug">
                           {displayPhysics}
                         </div>
                       </div>
@@ -914,11 +928,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     className={`px-5 py-3 rounded-xl text-white text-xs font-bold shadow-md transition flex items-center justify-center space-x-2 cursor-pointer w-full sm:w-auto ${
                       isSundayTestUnlocked
                         ? isLive
-                          ? 'bg-gradient-to-r from-orange-600 via-rose-600 to-teal-600 hover:from-orange-700 hover:to-teal-700 shadow-amber-500/20'
-                          : 'bg-orange-600 hover:bg-orange-700'
+                          ? 'bg-gradient-to-r from-sky-600 via-rose-600 to-teal-600 hover:from-sky-700 hover:to-teal-700 shadow-cyan-500/20'
+                          : 'bg-sky-600 hover:bg-sky-700'
                         : isAdminAccessGranted && !isSundayToday
-                        ? 'bg-stone-700 hover:bg-stone-800 border border-stone-600'
-                        : 'bg-stone-800 hover:bg-stone-900 border border-stone-700'
+                        ? 'bg-sky-700 hover:bg-sky-800 border border-stone-600'
+                        : 'bg-sky-800 hover:bg-sky-900 border border-stone-700'
                     }`}
                   >
                     {isSundayTestUnlocked ? (
@@ -933,12 +947,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       </>
                     ) : isSundayToday && !isAdminAccessGranted ? (
                       <>
-                        <Lock className="w-4 h-4 text-amber-400" />
+                        <Lock className="w-4 h-4 text-cyan-400" />
                         <span>Sunday Live &bull; Request Admin Approval</span>
                       </>
                     ) : (
                       <>
-                        <Lock className="w-4 h-4 text-amber-400" />
+                        <Lock className="w-4 h-4 text-cyan-400" />
                         <span>Unlocks on Sunday with Admin Approval</span>
                       </>
                     )}
@@ -952,19 +966,19 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
       {/* Admin Authorization Required Modal */}
       {showAdminApprovalModal && (
-        <div className="fixed inset-0 z-50 bg-stone-900/80 backdrop-blur-sm flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
-          <div className="bg-white border border-stone-200 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-in zoom-in-95 duration-200 text-stone-900">
+        <div className="fixed inset-0 z-50 bg-sky-900/80 backdrop-blur-sm flex items-center justify-center p-6 overflow-y-auto animate-in fade-in duration-200">
+          <div className="bg-sky-50/60 border border-sky-200 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-in zoom-in-95 duration-200 text-sky-950">
             {/* Header */}
             <div className={`p-5 text-white flex items-center justify-between ${
               isAdminAccessGranted && !isSundayToday
-                ? 'bg-gradient-to-r from-teal-700 via-orange-800 to-stone-900'
-                : 'bg-gradient-to-r from-orange-700 via-rose-700 to-stone-900'
+                ? 'bg-gradient-to-r from-teal-700 via-sky-800 to-stone-900'
+                : 'bg-gradient-to-r from-sky-700 via-rose-700 to-stone-900'
             }`}>
               <div className="space-y-1">
                 <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase font-mono ${
                   isAdminAccessGranted && !isSundayToday
-                    ? 'bg-emerald-400 text-stone-900'
-                    : 'bg-amber-400 text-stone-900'
+                    ? 'bg-emerald-400 text-sky-950'
+                    : 'bg-cyan-400 text-sky-950'
                 }`}>
                   {isAdminAccessGranted && !isSundayToday ? '✓ Candidate Authorized' : 'Administrator Authorization Required'}
                 </span>
@@ -976,7 +990,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     </>
                   ) : (
                     <>
-                      <Lock className="w-5 h-5 text-amber-300" />
+                      <Lock className="w-5 h-5 text-cyan-300" />
                       <span>{isSundayToday ? 'Sunday Live Test • Admin Approval' : 'Sunday Test Series Authorization'}</span>
                     </>
                   )}
@@ -987,7 +1001,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   setShowAdminApprovalModal(false);
                   setAccessRequestSent(false);
                 }}
-                className="p-1.5 rounded-xl hover:bg-white/10 text-white transition"
+                className="p-1.5 rounded-xl hover:bg-sky-50/60/10 text-white transition"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -995,7 +1009,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
             {/* Content */}
             <div className="p-6 space-y-4">
-              <p className="text-xs text-stone-600 leading-relaxed">
+              <p className="text-xs text-sky-700 leading-relaxed">
                 {isAdminAccessGranted && !isSundayToday ? (
                   <>
                     Your candidate registration has been verified and authorized by the institution administrator! Sunday All-India Mock Tests (720 Marks) are conducted on Sundays according to the academic planner. This test room will open automatically on Sunday.
@@ -1012,26 +1026,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               </p>
 
               {/* Student Identification Card */}
-              <div className="p-6 rounded-2xl bg-stone-50 border border-stone-200 space-y-2 text-xs">
-                <div className="font-bold text-stone-800 flex items-center gap-1.5">
-                  <KeyRound className="w-4 h-4 text-orange-600" /> Candidate Verification Details:
+              <div className="p-6 rounded-2xl bg-sky-50 border border-sky-200 space-y-2 text-xs">
+                <div className="font-bold text-sky-900 flex items-center gap-1.5">
+                  <KeyRound className="w-4 h-4 text-sky-600" /> Candidate Verification Details:
                 </div>
                 <div className="grid grid-cols-2 gap-4 text-[11px] font-mono">
                   <div>
-                    <span className="text-stone-500">Student:</span> <span className="font-bold text-stone-900">{studentName || 'Registered Student'}</span>
+                    <span className="text-sky-600">Student:</span> <span className="font-bold text-sky-950">{studentName || 'Registered Student'}</span>
                   </div>
                   <div>
-                    <span className="text-stone-500">Roll No:</span> <span className="font-bold text-orange-700">{rollNumber || 'Enrolled'}</span>
+                    <span className="text-sky-600">Roll No:</span> <span className="font-bold text-sky-700">{rollNumber || 'Enrolled'}</span>
                   </div>
                   <div>
-                    <span className="text-stone-500">Contact:</span> <span className="font-bold text-stone-800">{studentPhone ? `+91 ${studentPhone}` : 'Enrolled Profile'}</span>
+                    <span className="text-sky-600">Contact:</span> <span className="font-bold text-sky-900">{studentPhone ? `+91 ${studentPhone}` : 'Enrolled Profile'}</span>
                   </div>
                   <div>
-                    <span className="text-stone-500">Status:</span>{' '}
+                    <span className="text-sky-600">Status:</span>{' '}
                     {isAdminAccessGranted ? (
                       <span className="font-bold text-emerald-700">✓ Approved by Admin</span>
                     ) : (
-                      <span className="font-bold text-amber-700">Pending Admin Approval</span>
+                      <span className="font-bold text-cyan-700">Pending Admin Approval</span>
                     )}
                   </div>
                 </div>
@@ -1054,7 +1068,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 {!isAdminAccessGranted && !accessRequestSent && (
                   <button
                     onClick={handleSendAccessRequest}
-                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-orange-600 to-rose-600 hover:from-orange-700 hover:to-rose-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/20 active:scale-95 "
+                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-sky-600 to-rose-600 hover:from-sky-700 hover:to-rose-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
                   >
                     <Send className="w-4 h-4" />
                     <span>Send Access Request to Administrator</span>
@@ -1066,7 +1080,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     setShowAdminApprovalModal(false);
                     setAccessRequestSent(false);
                   }}
-                  className="w-full py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 font-semibold text-xs transition cursor-pointer"
+                  className="w-full py-2.5 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-800 font-semibold text-xs transition cursor-pointer"
                 >
                   {isAdminAccessGranted && !isSundayToday ? 'OK, Got It' : 'Close'}
                 </button>
@@ -1079,3 +1093,6 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     </div>
   );
 };
+
+
+
