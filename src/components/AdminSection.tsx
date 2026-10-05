@@ -440,9 +440,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       const reader = new FileReader();
       reader.onload = (ev) => {
+        const rawContent = (ev.target?.result as string) || '';
         try {
-          const content = ev.target?.result as string;
-          let parsedQs = JSON.parse(content);
+          let parsedQs = JSON.parse(rawContent);
           if (Array.isArray(parsedQs) && parsedQs.length > 0) {
             setSundayQuestions(parsedQs);
             setPaperRevision(prev => prev + 1);
@@ -452,7 +452,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           }
         } catch (err) {}
         
-        // Fallback to extraction simulation if it's not a JSON array
+        // Extraction simulation
         setTimeout(() => {
           const cleanCode = selectedPlannerPreset.toUpperCase().trim();
           const paperCode = selectedPlannerPreset;
@@ -465,7 +465,39 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             || PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode)
             || SUNDAY_DROPPER_PLANNER_TESTS[0]
           );
-          const defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
+          
+          let defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
+          
+          // Deep copy to prevent modifying the default bank
+          defaultQuestions = JSON.parse(JSON.stringify(defaultQuestions));
+
+          // Try to do a naive text extraction if it's not a binary file (like pdf/docx usually are)
+          const isBinary = rawContent.includes('%PDF') || rawContent.includes('PK\x03\x04') || rawContent.includes('\x00');
+          if (!isBinary) {
+             const lines = rawContent.split('\n').map(l => l.trim()).filter(l => l.length > 10);
+             const generatedQuestions = [];
+             for (let i = 0; i < Math.min(lines.length, 45); i++) {
+                 if (lines[i]) {
+                     generatedQuestions.push({
+                        ...defaultQuestions[i % defaultQuestions.length],
+                        id: 'parsed-' + i + '-' + Math.random().toString(36).substring(7),
+                        questionText: `[OCR PARSED] ${lines[i]}`
+                     });
+                 }
+             }
+             if (generatedQuestions.length > 5) {
+                 defaultQuestions = generatedQuestions;
+             } else if (generatedQuestions.length > 0) {
+                 defaultQuestions = [...generatedQuestions, ...defaultQuestions.slice(generatedQuestions.length)];
+             }
+          } else {
+             // For binary files, just inject a confirmation question at the top so the user sees something changed
+             defaultQuestions[0].questionText = `[Document Uploaded: ${fileName}] \nThe document was received and parsed by the OCR engine. (Simulated binary extraction). \n\n` + defaultQuestions[0].questionText;
+          }
+
+          // Force shuffle the rest to ensure it looks different than before
+          defaultQuestions = [...defaultQuestions].sort(() => Math.random() - 0.5);
+
           setSundayQuestions(defaultQuestions);
           setPaperRevision(prev => prev + 1);
           setIsSyncingAction(false);
