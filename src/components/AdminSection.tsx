@@ -3365,7 +3365,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             </div>
                           )}
 
-                          {/* Question Text */}
+                          {/* Modern Image Upload */}
+                            {q.image && (
+                              <div className="w-full max-w-sm mx-auto my-3 p-2 bg-sky-50 rounded-xl border border-sky-100 shadow-sm flex items-center justify-center">
+                                <img src={q.image} alt="Question Graphic" className="max-h-64 object-contain rounded-lg" />
+                              </div>
+                            )}
+                            
+                            {/* Question Text */}
                           <p className="text-xs text-sky-950 leading-relaxed font-medium whitespace-pre-line">
                             {q.questionText}
                           </p>
