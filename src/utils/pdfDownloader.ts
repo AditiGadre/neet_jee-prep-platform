@@ -444,7 +444,8 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
           ${includeSolutions ? `
             <div class="solution-box" style="margin-top: 8px; padding: 8px 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px;">
               ${formatExplanationParagraphs(q.explanation)}
-            </div>
+                ${q.solutionImage ? `<div style="margin-top: 8px; text-align: center;"><img src="${q.solutionImage}" style="max-height: 180px; border-radius: 6px;" /></div>` : ""}
+              </div>
           ` : ''}
         </div>
       `).join('')}
@@ -1498,8 +1499,9 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
               Q${idx + 1} Correct Answer: Option (${String.fromCharCode(65 + q.correctAnswer)}) &bull; ${formatMathAndFormulas(cleanOcrText(q.options[q.correctAnswer] || ''))}
             </div>
             <div style="color: #334155; white-space: pre-line;">
-              ${q.explanation ? formatMathAndFormulas(cleanOcrText(q.explanation)) : 'Verified answer per official NCERT curriculum.'}
-            </div>
+              ${q.explanation ? formatMathAndFormulas(cleanOcrText(q.explanation)) : "Verified answer per official NCERT curriculum."}
+              </div>
+              ${q.solutionImage ? `<div style="margin-top: 10px; text-align: center;"><img src="${q.solutionImage}" style="max-height: 200px; border-radius: 6px; border: 1px solid #e2e8f0;" /></div>` : ""}
           </div>
         `).join('')}
       </div>

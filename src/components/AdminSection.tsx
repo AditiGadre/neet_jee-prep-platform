@@ -517,6 +517,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     explanation: string;
     image?: string;
     solutionImage?: string;
+    hasLegacyDiagram?: boolean;
+    clearLegacyDiagram?: boolean;
   } | null>(null);
   const [showMasterSavesModal, setShowMasterSavesModal] = useState<boolean>(false);
 
@@ -3293,6 +3295,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                 className="w-full text-xs"
                               />
                               {editForm.image && <div className="mt-2 flex items-start gap-2"><img src={editForm.image} alt="Question" className="max-h-20" /><button type="button" onClick={() => setEditForm({...editForm, image: undefined})} className="text-xs text-sky-600 hover:underline">Delete</button></div>}
+                              {editForm.hasLegacyDiagram && !editForm.clearLegacyDiagram && (
+                                <div className="mt-2 flex items-start gap-2 p-2 bg-rose-50 border border-rose-200 rounded text-rose-800">
+                                  <span className="text-xs font-bold">Has Legacy Pre-existing Vector Diagram</span>
+                                  <button type="button" onClick={() => setEditForm({...editForm, clearLegacyDiagram: true})} className="text-xs text-rose-600 hover:underline font-bold">Delete Legacy Diagram</button>
+                                </div>
+                              )}
                             </div>
                             <div>
                               <label className="text-xs font-bold text-sky-800 block mb-1">Solution Image (Optional):</label>
