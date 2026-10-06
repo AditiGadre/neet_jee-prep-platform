@@ -3286,14 +3286,17 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                               <input
                                 type="file"
                                 accept="image/*"
-                                onChange={e => {
-                                  const file = e.target.files?.[0];
-                                  if (file) {
-                                    const reader = new FileReader();
-                                    reader.onloadend = () => setEditForm(prev => prev ? { ...prev, image: reader.result as string } : null);
-                                    reader.readAsDataURL(file);
-                                  }
-                                }}
+                                onChange={async e => {
+                                    const file = e.target.files?.[0];
+                                    if (file) {
+                                      try {
+                                        const compressedBase64 = await compressImage(file);
+                                        setEditForm(prev => prev ? { ...prev, image: compressedBase64 } : null);
+                                      } catch (err) {
+                                        alert("Failed to process image.");
+                                      }
+                                    }
+                                  }}
                                 className="w-full text-xs"
                               />
                               {editForm.image && <div className="mt-2 flex items-start gap-2"><img src={editForm.image} alt="Question" className="max-h-20" /><button type="button" onClick={() => setEditForm({...editForm, image: undefined})} className="text-xs text-sky-600 hover:underline">Delete</button></div>}
@@ -3314,14 +3317,17 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                               <input
                                 type="file"
                                 accept="image/*"
-                                onChange={e => {
-                                  const file = e.target.files?.[0];
-                                  if (file) {
-                                    const reader = new FileReader();
-                                    reader.onloadend = () => setEditForm(prev => prev ? { ...prev, solutionImage: reader.result as string } : null);
-                                    reader.readAsDataURL(file);
-                                  }
-                                }}
+                                onChange={async e => {
+                                    const file = e.target.files?.[0];
+                                    if (file) {
+                                      try {
+                                        const compressedBase64 = await compressImage(file);
+                                        setEditForm(prev => prev ? { ...prev, solutionImage: compressedBase64 } : null);
+                                      } catch (err) {
+                                        alert("Failed to process image.");
+                                      }
+                                    }
+                                  }}
                                 className="w-full text-xs"
                               />
                               {editForm.solutionImage && <div className="mt-2 flex items-start gap-2"><img src={editForm.solutionImage} alt="Solution" className="max-h-20" /><button type="button" onClick={() => setEditForm({...editForm, solutionImage: undefined})} className="text-xs text-sky-600 hover:underline">Delete</button></div>}
