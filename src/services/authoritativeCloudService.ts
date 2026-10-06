@@ -737,7 +737,7 @@ export async function swapSingleQuestionWithBank(
 export async function saveQuestionEdit(
   paperCode: string,
   questionIdx: number,
-  updatedFields: { questionText: string; options: string[]; correctAnswer: number; explanation: string; image?: string; solutionImage?: string; },
+  updatedFields: { questionText: string; options: string[]; correctAnswer: number; explanation: string; image?: string; solutionImage?: string; clearLegacyDiagram?: boolean; },
   currentPaper: SyncedSundayPaper,
   adminUser: string = 'Institutional Master Admin'
 ): Promise<SyncOperationResult> {
@@ -770,7 +770,17 @@ export async function saveQuestionEdit(
     version: ((copy[questionIdx] as any)?.version || 0) + 1
   };
 
-  const updatedPaper: SyncedSundayPaper = {
+  
+    if (updatedFields.clearLegacyDiagram || (updatedFields.hasOwnProperty("image") && updatedFields.image !== copy[questionIdx].image)) {
+      delete copy[questionIdx].diagramSvg;
+      delete (copy[questionIdx] as any).diagram;
+      delete (copy[questionIdx] as any).question_diagram;
+      delete (copy[questionIdx] as any).imageUrl;
+    }
+    
+    if (!copy[questionIdx].image) delete copy[questionIdx].image;
+    if (!copy[questionIdx].solutionImage) delete copy[questionIdx].solutionImage;
+const updatedPaper: SyncedSundayPaper = {
     ...currentPaper,
     questions: normalizeToAuthoritativeRecords(copy, adminUser)
   };
