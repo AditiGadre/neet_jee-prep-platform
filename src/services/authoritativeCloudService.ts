@@ -402,7 +402,7 @@ export async function commitAuthoritativePaperToCloud(
     if (supabase) {
       try {
         const payloadJson = JSON.stringify(normalizedPaper);
-        const rowId = ${SUNDAY_PAPER_PREFIX}__REV____;
+        const rowId = `${SUNDAY_PAPER_PREFIX}${canonicalCode}__REV_${nextRevision}__${now}_${Math.random().toString(36).slice(2, 6)}`;
 
         const res = await insertSupabaseSystemRow({
           id: rowId,
@@ -411,9 +411,9 @@ export async function commitAuthoritativePaperToCloud(
           topic: canonicalCode,
           difficulty: 'System',
           question_text: payloadJson,
-          options: ['SYNC_PAYLOAD_V3', canonicalCode, REV_],
+          options: ['SYNC_PAYLOAD_V3', canonicalCode, `REV_${nextRevision}`],
           correct_answer: nextRevision,
-          explanation: Authoritative Sunday Paper:  Rev 
+          explanation: `Authoritative Sunday Paper: ${canonicalCode} Rev ${nextRevision}`
         }, 2);
         
         if (res && res.success) {
