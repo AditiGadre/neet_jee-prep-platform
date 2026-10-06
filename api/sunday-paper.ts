@@ -77,7 +77,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         try {
           if (!row.question_text) continue;
           const parsed = JSON.parse(row.question_text);
-          if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180) {
+          if (parsed && Array.isArray(parsed.questions) ) {
             parsed.revision = Number(row.correct_answer) || parsed.revision || 1;
             parsed.paperCode = canonicalCode;
             return res.status(200).json({ success: true, paper: parsed });
