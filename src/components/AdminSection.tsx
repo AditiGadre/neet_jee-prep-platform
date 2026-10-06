@@ -111,6 +111,8 @@ import {
 } from '../data/sundayPlannerTests';
 import { getSequentialLoopQuestions, resetLoopCursor } from '../utils/questionLoopManager';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
+import { compressImage } from '../utils/imageCompressor';
+
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 import { DetailedSolutionViewer } from './DetailedSolutionViewer';
 import {
