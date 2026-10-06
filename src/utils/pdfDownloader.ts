@@ -1463,7 +1463,7 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
           </div>
 
           ${q.diagramSvg ? `<div style="margin: 10px 0; text-align: center;">${q.diagramSvg}</div>` : ''}
-          ${q.image && !q.diagramSvg ? `<div style="margin: 10px 0; text-align: center;"><img src="${q.image}" style="max-height: 200px; border-radius: 8px;" /></div>` : ''}
+          ${q.image ? `<div style="margin: 10px 0; text-align: center;"><img src="${q.image}" style="max-height: 200px; border-radius: 8px;" /></div>` : ''}
 
           <div class="options-grid">
             ${(q.options || []).map((opt, oIdx) => `
