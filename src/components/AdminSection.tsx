@@ -1267,7 +1267,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
 
     const existingIds = new Set(sundayQuestions.map(q => q.id));
-    let candidates = bank.filter(q => !existingIds.has(q.id) && q.questionText !== currentQ.questionText);
+      const bannedStr = localStorage.getItem('agy_banned_questions') || '[]';
+      const banned = new Set(JSON.parse(bannedStr));
+      let candidates = bank.filter(q => !existingIds.has(q.id) && !banned.has(q.id) && q.questionText !== currentQ.questionText);
     const seenText = new Set<string>();
     candidates = candidates.filter(q => {
       if (seenText.has(q.questionText)) return false;
@@ -1399,7 +1401,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const bank = getUnifiedQuestionBank(sub, ch.length > 0 ? ch : undefined);
     const existingIds = new Set(sundayQuestions.map(q => q.id));
-    const candidates = bank.filter(q => !existingIds.has(q.id) && q.questionText !== currentQ.questionText);
+      const bannedStr = localStorage.getItem('agy_banned_questions') || '[]';
+      const banned = new Set(JSON.parse(bannedStr));
+      const candidates = bank.filter(q => !existingIds.has(q.id) && !banned.has(q.id) && q.questionText !== currentQ.questionText);
 
     const replacement = candidates.length > 0
       ? candidates[Math.floor(Math.random() * candidates.length)]

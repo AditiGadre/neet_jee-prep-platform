@@ -724,12 +724,7 @@ export async function swapSingleQuestionWithBank(
 export async function saveQuestionEdit(
   paperCode: string,
   questionIdx: number,
-  updatedFields: {
-    questionText: string;
-    options: string[];
-    correctAnswer: number;
-    explanation: string;
-  },
+  updatedFields: { questionText: string; options: string[]; correctAnswer: number; explanation: string; image?: string; solutionImage?: string; },
   currentPaper: SyncedSundayPaper,
   adminUser: string = 'Institutional Master Admin'
 ): Promise<SyncOperationResult> {
@@ -747,13 +742,16 @@ export async function saveQuestionEdit(
   const rawOpts = Array.isArray(updatedFields?.options) ? updatedFields.options : copy[questionIdx]?.options || [];
   const qOpts = rawOpts.map((opt: any) => formatMathAndFormulas((opt ?? '').toString().trim()));
   const qAns = typeof updatedFields?.correctAnswer === 'number' ? updatedFields.correctAnswer : (copy[questionIdx]?.correctAnswer ?? 0);
-
+  const qImage = updatedFields.hasOwnProperty("image") ? updatedFields.image : copy[questionIdx]?.image;
+  const qSolImage = updatedFields.hasOwnProperty("solutionImage") ? updatedFields.solutionImage : copy[questionIdx]?.solutionImage;
   copy[questionIdx] = {
     ...copy[questionIdx],
     questionText: formatMathAndFormulas(qText),
     options: qOpts,
     correctAnswer: qAns,
     explanation: formatMathAndFormulas(qExpl),
+    image: qImage,
+    solutionImage: qSolImage,
     updatedAt: new Date().toISOString(),
     updatedBy: adminUser,
     version: ((copy[questionIdx] as any)?.version || 0) + 1
@@ -1026,4 +1024,5 @@ export async function fetchUnlockRequestsFromCloud(): Promise<any[] | null> {
     return null;
   }
 }
+
 
