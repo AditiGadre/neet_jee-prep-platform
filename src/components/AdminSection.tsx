@@ -1371,7 +1371,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         publishedBy: 'Institutional Master Admin',
         updatedAt: new Date().toISOString()
       };
-      saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
+        saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
+        await commitAuthoritativePaperToCloud(paperToSave, paperRevision);
+        setPaperRevision(prev => prev + 1);
       setActionSuccessBanner(`✓ Question #${questionIdx + 1} deleted!`);
     } catch (err) {
       console.error(err);
@@ -1569,7 +1571,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };
-    saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
+      saveCustomSundayPaper(selectedPlannerPreset, paperToSave);
+      commitAuthoritativePaperToCloud(paperToSave, paperRevision).catch(() => {});
+      setPaperRevision(prev => prev + 1);
     setActionSuccessBanner(`✓ Option ${String.fromCharCode(65 + optIdx)} set as key for Q#${idx + 1}`);
     setTimeout(() => setActionSuccessBanner(null), 2500);
   };
