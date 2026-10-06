@@ -3410,6 +3410,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                 chapter={q.chapter}
                                 topic={q.topic || (q as any).subtopic}
                                 questionText={q.questionText}
+                                  solutionImage={q.solutionImage}
                               />
                             </div>
                           )}
