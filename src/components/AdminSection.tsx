@@ -1267,8 +1267,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
 
     const existingIds = new Set(sundayQuestions.map(q => q.id));
-      const bannedStr = localStorage.getItem('agy_banned_questions') || '[]';
-      const banned = new Set(JSON.parse(bannedStr));
+      // removed
+      let banned = new Set(); try { const bStr = localStorage.getItem('agy_banned_questions'); if (bStr) banned = new Set(JSON.parse(bStr)); } catch(e) {}
       let candidates = bank.filter(q => !existingIds.has(q.id) && !banned.has(q.id) && q.questionText !== currentQ.questionText);
     const seenText = new Set<string>();
     candidates = candidates.filter(q => {
@@ -1352,8 +1352,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     try {
       const currentQ = sundayQuestions[questionIdx];
       if (currentQ) {
-        const bannedStr = localStorage.getItem('agy_banned_questions') || '[]';
-        const banned = new Set(JSON.parse(bannedStr));
+        // removed
+        let banned = new Set(); try { const bStr = localStorage.getItem('agy_banned_questions'); if (bStr) banned = new Set(JSON.parse(bStr)); } catch(e) {}
         banned.add(currentQ.id);
         localStorage.setItem('agy_banned_questions', JSON.stringify([...banned]));
       }
@@ -1403,8 +1403,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     const bank = getUnifiedQuestionBank(sub, ch.length > 0 ? ch : undefined);
     const existingIds = new Set(sundayQuestions.map(q => q.id));
-      const bannedStr = localStorage.getItem('agy_banned_questions') || '[]';
-      const banned = new Set(JSON.parse(bannedStr));
+      // removed
+      let banned = new Set(); try { const bStr = localStorage.getItem('agy_banned_questions'); if (bStr) banned = new Set(JSON.parse(bStr)); } catch(e) {}
       const candidates = bank.filter(q => !existingIds.has(q.id) && !banned.has(q.id) && q.questionText !== currentQ.questionText);
 
     const replacement = candidates.length > 0

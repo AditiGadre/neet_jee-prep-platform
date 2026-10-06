@@ -1,36 +1,22 @@
 import re
 
-with open("src/utils/questionDatabase.ts", "r", encoding="utf8") as f:
-    text = f.read()
+with open('src/components/AdminSection.tsx', 'r', encoding='utf-8') as f:
+    content = f.read()
 
-old_func_start = """export function getUnifiedQuestionBank(subject?: 'Physics' | 'Chemistry' | 'Biology' | 'Mathematics', chapter?: string): Question[] {
-  const customList = getCustomQuestions();
+def robust_banned_list(match):
+    return '''let banned = new Set();
+        try {
+          const bannedStr = localStorage.getItem('agy_banned_questions');
+          if (bannedStr) banned = new Set(JSON.parse(bannedStr));
+        } catch(e) {
+          localStorage.setItem('agy_banned_questions', '[]');
+        }'''
 
-  let builtin: Question[] = [];"""
+content = re.sub(
+    r'const bannedStr = localStorage\.getItem\(''agy_banned_questions''\) \|\| ''\[\]'';\s*const banned = new Set\(JSON\.parse\(bannedStr\)\);',
+    robust_banned_list,
+    content
+)
 
-new_func_start = """export function getUnifiedQuestionBank(subject?: 'Physics' | 'Chemistry' | 'Biology' | 'Mathematics', chapter?: string): Question[] {
-  const customList = getCustomQuestions();
-
-  let builtin: Question[] = [];"""
-
-# Wait, I can just filter before returning.
-old_return = """  return [...customListFiltered, ...builtin];
-}"""
-
-new_return = """  let combined = [...customListFiltered, ...builtin];
-  try {
-    const bannedStr = localStorage.getItem('agy_banned_questions') || '[]';
-    const banned = new Set(JSON.parse(bannedStr));
-    if (banned.size > 0) {
-      combined = combined.filter(q => !banned.has(q.id));
-    }
-  } catch (e) {}
-  return combined;
-}"""
-
-text = text.replace(old_return, new_return)
-
-with open("src/utils/questionDatabase.ts", "w", encoding="utf8") as f:
-    f.write(text)
-
-print("Updated questionDatabase to filter banned questions")
+with open('src/components/AdminSection.tsx', 'w', encoding='utf-8') as f:
+    f.write(content)
