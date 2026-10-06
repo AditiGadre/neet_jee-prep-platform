@@ -3158,7 +3158,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                     onClick={(e) => { e.preventDefault(); setPendingSwapId(c.id); }}
                                     className={`p-3 border-b border-stone-100 cursor-pointer text-xs transition-colors last:border-0 ${pendingSwapId === c.id ? 'bg-sky-100 text-sky-900 shadow-inner' : 'hover:bg-sky-50 text-sky-800'}`}
                                   >
-                                    <div className="line-clamp-3">{c.questionText}</div>
+                                    <div className="line-clamp-3 whitespace-pre-line">{c.questionText}</div>
                                   </div>
                                 ))}
                                 {pendingSwapId && (
@@ -3345,7 +3345,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           )}
 
                           {/* Question Text */}
-                          <p className="text-xs text-sky-950 leading-relaxed font-medium">
+                          <p className="text-xs text-sky-950 leading-relaxed font-medium whitespace-pre-line">
                             {q.questionText}
                           </p>
 
@@ -4356,7 +4356,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                     {sq.difficulty || 'Medium'}
                                   </span>
                                 </div>
-                                <p className="font-medium text-sky-950 leading-snug line-clamp-3">
+                                <p className="font-medium text-sky-950 leading-snug line-clamp-3 whitespace-pre-line">
                                   {formatMathAndFormulas(sq.questionText)}
                                 </p>
                                 <div className="flex items-center gap-3 text-[11px] text-emerald-800 font-mono">
