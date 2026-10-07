@@ -3247,16 +3247,22 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                     <div className="line-clamp-3 whitespace-pre-line">{c.questionText}</div>
                                   </div>
                                 ))}
-                                {pendingSwapId && (
-                                  <div className="p-3 sticky bottom-0 bg-sky-50/60 border-t border-sky-200">
+                                <div className="p-3 sticky bottom-0 bg-sky-50/60 border-t border-sky-200 flex flex-col gap-2">
+                                  {pendingSwapId && (
                                     <button 
                                       onClick={() => handleExecuteSpecificSwap(originalIdx, pendingSwapId)}
                                       className="w-full py-2 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold rounded-lg shadow-sm"
                                     >
                                       Confirm Swap
                                     </button>
-                                  </div>
-                                )}
+                                  )}
+                                  <button 
+                                    onClick={() => { handleDeleteQuestion(originalIdx); setActiveSwapIdx(null); setPendingSwapId(null); }}
+                                    className="w-full py-2 bg-red-500 hover:bg-red-600 text-white text-xs font-bold rounded-lg shadow-sm flex items-center justify-center gap-1 cursor-pointer"
+                                  >
+                                    <Trash2 className="w-3.5 h-3.5" /> Delete Forever
+                                  </button>
+                                </div>
                                 {swapCandidates.length === 0 && <div className="text-xs text-sky-600 p-3">No alternative questions found in bank.</div>}
                               </div>
                             )}
