@@ -195,14 +195,14 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
 
   // Admin Portal Controlled Test Access State
-  const [isAdminAccessGranted, setIsAdminAccessGranted] = useState<boolean>(() => checkAdminAccess());
+  const [isAdminAccessGranted, setIsAdminAccessGranted] = useState<boolean>(() => (getUnlockedTests().length > 0));
 
   useEffect(() => {
     const loadCloudAccess = async () => {
       const reqs = await fetchUnlockRequestsFromCloud();
       if (reqs && reqs.length > 0) {
         localStorage.setItem('neet_unlock_requests', JSON.stringify(reqs));
-        setIsAdminAccessGranted(checkAdminAccess());
+        setIsAdminAccessGranted((getUnlockedTests().length > 0));
       }
     };
     loadCloudAccess();
@@ -215,7 +215,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   useEffect(() => {
     const handleAccessChange = (e: any) => {
       try {
-        const granted = e?.detail?.accessGranted ?? checkAdminAccess();
+        const granted = e?.detail?.accessGranted ?? (getUnlockedTests().length > 0);
         setIsAdminAccessGranted(Boolean(granted));
       } catch {
         setIsAdminAccessGranted(false);
