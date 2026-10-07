@@ -1,13 +1,4 @@
-const handleApproveRequest = (reqId: string) => {
-    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
-    setUnlockRequests(updated);
-    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
-    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
-    setActionSuccessBanner('Request Approved & Unlocked!');
-    setTimeout(() => setActionSuccessBanner(null), 2500);
-  };
-
-  import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   ShieldCheck,
   KeyRound,
@@ -133,7 +124,9 @@ import {
   getLastSyncedRevision,
   getCanonicalPaperCode,
   getOfficialBaseSundayPaper,
-  syncTopicAllocationsToCloud
+  syncTopicAllocationsToCloud,
+  syncUnlockRequestsToCloud,
+  fetchUnlockRequestsFromCloud
 } from '../services/authoritativeCloudService';
 import { MasterDefaultSavesModal } from './MasterDefaultSavesModal';
 
@@ -551,6 +544,400 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
   };
 
+  const [swapCandidates, setSwapCandidates] = useState<Question[]>([]);
+  const [editForm, setEditForm] = useState<{
+    questionText: string;
+    options: string[];
+    correctAnswer: number;
+    explanation: string;
+    image?: string;
+    solutionImage?: string;
+    hasLegacyDiagram?: boolean;
+    clearLegacyDiagram?: boolean;
+  } | null>(null);
+  const [showMasterSavesModal, setShowMasterSavesModal] = useState<boolean>(false);
+
+  const [testMarks, setTestMarks] = useState<number>(4);
+  const [testNegativeMarks, setTestNegativeMarks] = useState<number>(1);
+
+  // Synchronize Sunday Studio paper & question bank from Supabase Cloud directly
+  useEffect(() => {
+    let isMounted = true;
+    setIsStudioLoadingPaper(true);
+
+    fetchAuthoritativePaper(selectedPlannerPreset, true)
+      .then(paper => {
+        if (!isMounted || !paper) return;
+        if (Array.isArray(paper.questions) ) {
+          setSundayQuestions(paper.questions);
+          setLastSyncedTime(paper.updatedAt);
+          setPaperRevision(paper.revision || 1);
+          if (paper.customChapters) {
+            if (paper.customChapters.physics?.length) setSundayPhyUnits(paper.customChapters.physics);
+            if (paper.customChapters.chemistry?.length) setSundayChemUnits(paper.customChapters.chemistry);
+            if (paper.customChapters.biology?.length) setSundayBioUnits(paper.customChapters.biology);
+          }
+        }
+      })
+      .catch(err => {
+        console.warn('Notice hydrating Sunday paper from cloud:', err);
+      })
+      .finally(() => {
+        if (isMounted) setIsStudioLoadingPaper(false);
+      });
+
+    fetchCustomQuestionsFromCloud().catch(() => {});
+
+    const handleSundayPaperSynced = (e: any) => {
+      if (!isMounted) return;
+      const code = e.detail?.paperCode?.toUpperCase();
+      const currentCode = selectedPlannerPreset.toUpperCase().trim();
+      const baseCode = currentCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim();
+      if (code && (code === currentCode || code === baseCode || code === `REPEATER-${baseCode}`)) {
+        if (e.detail?.paper?.questions ) {
+          setSundayQuestions(e.detail.paper.questions);
+          setLastSyncedTime(e.detail.paper.updatedAt || new Date().toISOString());
+          setPaperRevision(e.detail?.revision || e.detail?.paper?.revision || 1);
+          if (e.detail.paper.customChapters) {
+            if (e.detail.paper.customChapters.physics?.length) setSundayPhyUnits(e.detail.paper.customChapters.physics);
+            if (e.detail.paper.customChapters.chemistry?.length) setSundayChemUnits(e.detail.paper.customChapters.chemistry);
+            if (e.detail.paper.customChapters.biology?.length) setSundayBioUnits(e.detail.paper.customChapters.biology);
+          }
+        }
+      }
+    };
+
+    window.addEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
+
+    return () => {
+      isMounted = false;
+      window.removeEventListener('neet_cloud_sunday_paper_synced', handleSundayPaperSynced);
+    };
+  }, [selectedPlannerPreset]);
+
+  // Student Unlock Requests State
+  const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(() => {
+    try {
+      return getStoredUnlockRequests();
+    } catch {
+      return [];
+    }
+  });
+
+  useEffect(() => {
+     let isMounted = true;
+     const loadReqs = async () => {
+         try {
+             const reqs = await fetchUnlockRequestsFromCloud();
+             if (isMounted && reqs && reqs.length > 0) {
+                 setUnlockRequests(reqs);
+                 localStorage.setItem('neet_unlock_requests', JSON.stringify(reqs));
+             }
+         } catch {}
+     };
+     loadReqs();
+     const interval = setInterval(loadReqs, 10000);
+     return () => {
+        isMounted = false;
+        clearInterval(interval);
+     };
+  }, []);
+  const [requestStatusFilter, setRequestStatusFilter] = useState<'all' | 'pending' | 'approved' | 'rejected'>('all');
+  const [requestSearch, setRequestSearch] = useState<string>('');
+
+  // Custom Test Builder State (Admin Exclusive)
+  const [customSubject, setCustomSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Biology');
+  const [customChapter, setCustomChapter] = useState<string>('Molecular Basis of Inheritance');
+  const [customTopic, setCustomTopic] = useState<string>('All Topics');
+  const [customDifficulty, setCustomDifficulty] = useState<'Easy' | 'Medium' | 'Hard' | 'Both' | 'Adaptive'>('Hard');
+  const [customDuration, setCustomDuration] = useState<number>(45);
+  const [customQCount, setCustomQCount] = useState<number>(45);
+  const [consumptionVersion, setConsumptionVersion] = useState<number>(0);
+  const [exportSuccess, setExportSuccess] = useState<string | null>(null);
+
+  // Topic Swapping & Allocation Matrix State
+  const [swapSourceTopic, setSwapSourceTopic] = useState<string>('Laws of Motion');
+  const [swapTargetTopic, setSwapTargetTopic] = useState<string>('Electrostatics');
+  const [swapQuestionCount, setSwapQuestionCount] = useState<number>(4);
+  const [generatorMode, setGeneratorMode] = useState<'single' | 'topic_matrix'>('single');
+  const [topicAllocations, setTopicAllocations] = useState<TopicAllocationItem[]>([
+    { id: 'alloc-1', subject: 'Physics', chapter: 'Laws of Motion', count: 4 },
+    { id: 'alloc-2', subject: 'Physics', chapter: 'Electrostatics', count: 4 },
+    { id: 'alloc-3', subject: 'Physics', chapter: 'Thermodynamics', count: 4 },
+    { id: 'alloc-4', subject: 'Chemistry', chapter: 'Chemical Thermodynamics', count: 4 },
+    { id: 'alloc-5', subject: 'Biology', chapter: 'The Living World', count: 4 }
+  ]);
+  const [newAllocChapter, setNewAllocChapter] = useState<string>('Laws of Motion');
+  const [newAllocCount, setNewAllocCount] = useState<number>(4);
+
+  // Institution Sunday Test Access Control State
+  const [isAdminTestAccessGranted, setIsAdminTestAccessGranted] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem('neet_admin_test_access') === 'true';
+    } catch {
+      return false;
+    }
+  });
+
+  const handleToggleAdminTestAccess = () => {
+    const next = !isAdminTestAccessGranted;
+    localStorage.setItem('neet_admin_test_access', next ? 'true' : 'false');
+    setIsAdminTestAccessGranted(next);
+    // Sync platform-wide Sunday access across all 1,000 systems via cloud
+    syncAdminConfigToCloud({ platformWideSundayAccess: next }).catch(e => console.warn('Admin access cloud sync notice:', e));
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: next } }));
+    setActionSuccessBanner(next ? '✓ All Sunday Tests Unlocked Platform-Wide & Cloud Synced!' : '🔒 Sunday Tests Locked (Approval Required)');
+    setTimeout(() => setActionSuccessBanner(null), 3000);
+  };
+
+  const reloadData = () => {
+    try {
+      setUnlockRequests(getStoredUnlockRequests());
+    } catch (e) {
+      console.warn('Error reloading admin data:', e);
+    }
+    // Pull latest cloud admin settings from Supabase
+    fetchAdminConfigFromCloud().then(cfg => {
+      if (cfg) {
+        if (typeof cfg.platformWideSundayAccess === 'boolean') {
+          setIsAdminTestAccessGranted(cfg.platformWideSundayAccess);
+        }
+        if (Array.isArray(cfg.approvedStudentRequests)) {
+          setUnlockRequests(cfg.approvedStudentRequests as any);
+        }
+      }
+    }).catch(() => {});
+  };
+
+  useEffect(() => {
+    reloadData();
+
+    const handleAlert = () => reloadData();
+    const handleConsumption = () => setConsumptionVersion(v => v + 1);
+
+    window.addEventListener('neet_superuser_alert', handleAlert);
+    window.addEventListener('neet_consumption_updated', handleConsumption);
+    window.addEventListener('neet_unlock_request_sent', handleAlert);
+    return () => {
+      window.removeEventListener('neet_superuser_alert', handleAlert);
+      window.removeEventListener('neet_consumption_updated', handleConsumption);
+      window.removeEventListener('neet_unlock_request_sent', handleAlert);
+    };
+  }, []);
+
+  // Request Management Handlers
+  const handleApproveRequest = (reqId: string) => {
+    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncUnlockRequestsToCloud(updated);
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+    setActionSuccessBanner('Request Approved & Unlocked!');
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };
+
+  const handleApproveAllRequests = () => {
+    const updated = unlockRequests.map(r => ({ ...r, status: 'approved' as const }));
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: false } }));
+    setActionSuccessBanner('✓ All Pending Test Requests Approved & Unlocked Platform-Wide!');
+    setTimeout(() => setActionSuccessBanner(null), 3500);
+  };
+
+  const handleRejectRequest = (reqId: string) => {
+    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'rejected' as const } : r);
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncUnlockRequestsToCloud(updated);
+    setActionSuccessBanner('Request Rejected.');
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };
+
+  const safeRequests = Array.isArray(unlockRequests) ? unlockRequests : [];
+  const pendingRequestsCount = safeRequests.filter(r => r.status === 'pending').length;
+
+  const filteredUnlockRequests = safeRequests.filter(r => {
+    if (requestStatusFilter !== 'all' && r.status !== requestStatusFilter) return false;
+    if (requestSearch.trim()) {
+      const q = requestSearch.toLowerCase().trim();
+      return (
+        r.studentName?.toLowerCase().includes(q) ||
+        r.rollNumber?.toLowerCase().includes(q) ||
+        r.studentPhone?.includes(q) ||
+        r.parentPhone?.includes(q) ||
+        r.parentEmail?.toLowerCase().includes(q) ||
+        r.testCode?.toLowerCase().includes(q)
+      );
+    }
+    return true;
+  });
+
+  const biologyChapters = useMemo(() => getVaultDatabaseChapters('Biology'), [vaultRefreshVersion]);
+  const chemistryChapters = useMemo(() => getVaultDatabaseChapters('Chemistry'), [vaultRefreshVersion]);
+  const physicsChapters = useMemo(() => getVaultDatabaseChapters('Physics'), [vaultRefreshVersion]);
+
+  const currentChapterList = customSubject === 'Biology'
+    ? biologyChapters
+    : customSubject === 'Chemistry'
+    ? chemistryChapters
+    : physicsChapters;
+
+  useEffect(() => {
+    if (currentChapterList.length > 0 && !currentChapterList.includes(customChapter)) {
+      setCustomChapter(currentChapterList[0]);
+    }
+  }, [customSubject, currentChapterList, customChapter]);
+
+  // Sunday Studio Handlers
+  const handleToggleSundayUnit = (subject: 'Physics' | 'Chemistry' | 'Biology', unit: string) => {
+    if (subject === 'Physics') {
+      setSundayPhyUnits(prev =>
+        prev.includes(unit) ? (prev.length > 1 ? prev.filter(u => u !== unit) : prev) : [...prev, unit]
+      );
+    } else if (subject === 'Chemistry') {
+      setSundayChemUnits(prev =>
+        prev.includes(unit) ? (prev.length > 1 ? prev.filter(u => u !== unit) : prev) : [...prev, unit]
+      );
+    } else {
+      setSundayBioUnits(prev =>
+        prev.includes(unit) ? (prev.length > 1 ? prev.filter(u => u !== unit) : prev) : [...prev, unit]
+      );
+    }
+  };
+
+  const handleApplyPreset = (presetKey: string) => {
+    setSelectedPlannerPreset(presetKey);
+    if (presetKey === 'all') {
+      setSundayPhyUnits([...OFFICIAL_PHYSICS_UNITS]);
+      setSundayChemUnits([...OFFICIAL_CHEMISTRY_UNITS]);
+      setSundayBioUnits([
+        ...OFFICIAL_BOTANY_BLOCKS.map(b => `[Botany] ${b}`),
+        ...OFFICIAL_ZOOLOGY_BLOCKS.map(z => `[Zoology] ${z}`)
+      ]);
+    } else if (presetKey === 'class11') {
+      setSundayPhyUnits(OFFICIAL_PHYSICS_UNITS.slice(0, 10));
+      setSundayChemUnits(OFFICIAL_CHEMISTRY_UNITS.slice(0, 10));
+      setSundayBioUnits([
+        ...OFFICIAL_BOTANY_BLOCKS.slice(0, 5).map(b => `[Botany] ${b}`),
+        ...OFFICIAL_ZOOLOGY_BLOCKS.slice(0, 5).map(z => `[Zoology] ${z}`)
+      ]);
+    } else if (presetKey === 'class12') {
+      setSundayPhyUnits(OFFICIAL_PHYSICS_UNITS.slice(10));
+      setSundayChemUnits(OFFICIAL_CHEMISTRY_UNITS.slice(10));
+      setSundayBioUnits([
+        ...OFFICIAL_BOTANY_BLOCKS.slice(5).map(b => `[Botany] ${b}`),
+        ...OFFICIAL_ZOOLOGY_BLOCKS.slice(5).map(z => `[Zoology] ${z}`)
+      ]);
+    } else {
+      const is11th = presetKey.toLowerCase().includes('11th');
+      const is12th = presetKey.toLowerCase().includes('12th');
+      const cleanKey = presetKey.replace(/^(11th|12th)-/i, '').toLowerCase();
+      const planner = is11th
+        ? (SUNDAY_11TH_TRACK1_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_11TH_TRACK2_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_11TH_PLANNER_TESTS[0])
+        : is12th
+        ? (PLANNER_12TH_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey) || PLANNER_12TH_TESTS[0])
+        : (SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_DROPPER_PC_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_11TH_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || PLANNER_12TH_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey));
+      if (planner) {
+        const phyMatch = OFFICIAL_PHYSICS_UNITS.filter(u =>
+          planner.physicsUnit.toLowerCase().includes(u.split(':')[0].toLowerCase()) ||
+          planner.physicsKeywords.some(kw => u.toLowerCase().includes(kw.toLowerCase()))
+        );
+        const chemMatch = OFFICIAL_CHEMISTRY_UNITS.filter(u =>
+          planner.chemistryUnit.toLowerCase().includes(u.split(':')[0].toLowerCase()) ||
+          planner.chemistryKeywords.some(kw => u.toLowerCase().includes(kw.toLowerCase()))
+        );
+        const botMatch = OFFICIAL_BOTANY_BLOCKS.filter(b =>
+          planner.botanyBlock.toLowerCase().includes(b.toLowerCase()) ||
+          planner.botanyKeywords.some(kw => b.toLowerCase().includes(kw.toLowerCase()))
+        ).map(b => `[Botany] ${b}`);
+        const zooMatch = OFFICIAL_ZOOLOGY_BLOCKS.filter(z =>
+          planner.zoologyBlock.toLowerCase().includes(z.toLowerCase()) ||
+          planner.zoologyKeywords.some(kw => z.toLowerCase().includes(kw.toLowerCase()))
+        ).map(z => `[Zoology] ${z}`);
+
+        if (phyMatch.length > 0) setSundayPhyUnits(phyMatch);
+        if (chemMatch.length > 0) setSundayChemUnits(chemMatch);
+        if (botMatch.length > 0 || zooMatch.length > 0) setSundayBioUnits([...botMatch, ...zooMatch]);
+      }
+    }
+  };
+
+  const handleSelectSundayPaper = async (paperCode: string) => {
+    setSelectedPlannerPreset(paperCode);
+    handleApplyPreset(paperCode);
+    setStudioPage(1);
+    setEditingQuestionIdx(null);
+    setEditForm(null);
+    setIsStudioLoadingPaper(true);
+
+    const isPCTest = paperCode.toUpperCase().startsWith('PC-');
+    const targetCount = isPCTest ? 100 : 180;
+
+    // 1. Check authoritative cloud database first for universal real-time consistency
+    try {
+      const cloudPaper = await fetchAuthoritativePaper(paperCode, true);
+      if (cloudPaper && Array.isArray(cloudPaper.questions) ) {
+        setSundayQuestions(cloudPaper.questions);
+        setLastSyncedTime(cloudPaper.updatedAt);
+        setPaperRevision(cloudPaper.revision || 1);
+        if (cloudPaper.customChapters) {
+          if (cloudPaper.customChapters.physics?.length) setSundayPhyUnits(cloudPaper.customChapters.physics);
+          if (cloudPaper.customChapters.chemistry?.length) setSundayChemUnits(cloudPaper.customChapters.chemistry);
+          if (cloudPaper.customChapters.biology?.length) setSundayBioUnits(cloudPaper.customChapters.biology);
+        }
+        setIsStudioLoadingPaper(false);
+        return;
+      }
+    } catch (err) {
+      console.warn('Notice fetching Sunday paper from cloud:', err);
+    }
+
+    // 2. Saved custom paper from localStorage
+    const saved = getSavedCustomSundayPaper(paperCode);
+    if (saved && Array.isArray(saved.questions) ) {
+      setSundayQuestions(saved.questions);
+      setLastSyncedTime(saved.updatedAt || null);
+      setPaperRevision((saved as any).revision || 0);
+      if (saved.customChapters) {
+        if (saved.customChapters.physics?.length) setSundayPhyUnits(saved.customChapters.physics);
+        if (saved.customChapters.chemistry?.length) setSundayChemUnits(saved.customChapters.chemistry);
+        if (saved.customChapters.biology?.length) setSundayBioUnits(saved.customChapters.biology);
+      }
+      setIsStudioLoadingPaper(false);
+      return;
+    }
+
+    // 3. Fallback to generated Sunday paper
+    const is11th = paperCode.toLowerCase().includes('11th');
+    const is12th = paperCode.toLowerCase().includes('12th');
+    const cleanCode = paperCode.replace(/^(11th|12th)-/i, '').toUpperCase();
+    const planner = is11th
+      ? (SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_11TH_PLANNER_TESTS[0])
+      : is12th
+      ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || PLANNER_12TH_TESTS[0])
+      : (SUNDAY_DROPPER_TRACK1_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_DROPPER_PC_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode)
+        || SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+        || SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+        || PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+        || SUNDAY_DROPPER_PLANNER_TESTS[0]);
+    const defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
+    setSundayQuestions(defaultQuestions);
+    setPaperRevision(0);
+    setIsStudioLoadingPaper(false);
+  };
+
   const handleSaveAndPublishSelectedPaper = async () => {
     if (isSyncingAction) return;
     if (!sundayQuestions || !Array.isArray(sundayQuestions) || sundayQuestions.length === 0) {
@@ -682,7 +1069,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           : [...topicAllocations, { id: `alloc-${Date.now()}`, subject: targetSubject, chapter: toTopic, count: targetCount }];
 
         setTopicAllocations(updatedAllocations);
-        syncTopicAllocationsToCloud(updatedAllocations).catch(() => {});
+        syncTopicAllocationsToCloud,
+  syncUnlockRequestsToCloud,
+  fetchUnlockRequestsFromCloud(updatedAllocations).catch(() => {});
 
         setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") successfully!`);
         setTimeout(() => setActionSuccessBanner(null), 3000);

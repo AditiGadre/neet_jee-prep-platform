@@ -1,59 +1,107 @@
 ﻿import re
 
-with open('src/services/authoritativeCloudService.ts', 'r', encoding='utf-8') as f:
+with open('src/components/AdminSection.tsx', 'r', encoding='utf-8') as f:
     content = f.read()
 
-old_signature = '''  export async function saveQuestionEdit(
-    paperCode: string,
-    questionIdx: number,
-    updatedFields: { questionText: string; options: string[]; correctAnswer: number; explanation: string; image?: string; solutionImage?: string; },
-    currentPaper: SyncedSundayPaper,'''
+# Add imports
+import_target = "syncTopicAllocationsToCloud"
+content = content.replace(import_target, f"{import_target},\n  syncUnlockRequestsToCloud,\n  fetchUnlockRequestsFromCloud")
 
-new_signature = '''  export async function saveQuestionEdit(
-    paperCode: string,
-    questionIdx: number,
-    updatedFields: { questionText: string; options: string[]; correctAnswer: number; explanation: string; image?: string; solutionImage?: string; clearLegacyDiagram?: boolean; },
-    currentPaper: SyncedSundayPaper,'''
-
-content = content.replace(old_signature, new_signature)
-
-old_body = '''    copy[questionIdx] = {
-      ...copy[questionIdx],
-      questionText: formatMathAndFormulas(qText),
-      options: qOpts,
-      correctAnswer: qAns,
-      explanation: formatMathAndFormulas(qExpl),
-      image: qImage,
-      solutionImage: qSolImage,
-      updatedAt: new Date().toISOString(),
-      updatedBy: adminUser
-    };'''
-
-new_body = '''    copy[questionIdx] = {
-      ...copy[questionIdx],
-      questionText: formatMathAndFormulas(qText),
-      options: qOpts,
-      correctAnswer: qAns,
-      explanation: formatMathAndFormulas(qExpl),
-      image: qImage,
-      solutionImage: qSolImage,
-      updatedAt: new Date().toISOString(),
-      updatedBy: adminUser
-    };
-    
-    // Explicitly delete legacy diagrams if requested or if image was replaced
-    if (updatedFields.clearLegacyDiagram || (updatedFields.hasOwnProperty("image") && updatedFields.image !== copy[questionIdx].image)) {
-      delete copy[questionIdx].diagramSvg;
-      delete (copy[questionIdx] as any).diagram;
-      delete (copy[questionIdx] as any).question_diagram;
-      delete (copy[questionIdx] as any).imageUrl;
+# Update state fetch
+state_target = '''  const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(() => {
+    try {
+      return getStoredUnlockRequests();
+    } catch {
+      return [];
     }
-    
-    if (!copy[questionIdx].image) delete copy[questionIdx].image;
-    if (!copy[questionIdx].solutionImage) delete copy[questionIdx].solutionImage;'''
+  });'''
+state_new = '''  const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(() => {
+    try {
+      return getStoredUnlockRequests();
+    } catch {
+      return [];
+    }
+  });
 
-content = content.replace(old_body, new_body)
+  useEffect(() => {
+     let isMounted = true;
+     const loadReqs = async () => {
+         try {
+             const reqs = await fetchUnlockRequestsFromCloud();
+             if (isMounted && reqs && reqs.length > 0) {
+                 setUnlockRequests(reqs);
+                 localStorage.setItem('neet_unlock_requests', JSON.stringify(reqs));
+             }
+         } catch {}
+     };
+     loadReqs();
+     const interval = setInterval(loadReqs, 10000);
+     return () => {
+        isMounted = false;
+        clearInterval(interval);
+     };
+  }, []);'''
+content = content.replace(state_target, state_new)
 
-with open('src/services/authoritativeCloudService.ts', 'w', encoding='utf-8') as f:
+# Update handleApproveRequest
+appr_req = '''const handleApproveRequest = (reqId: string) => {
+    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+    setActionSuccessBanner('Request Approved & Unlocked!');
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };'''
+appr_req_new = '''const handleApproveRequest = (reqId: string) => {
+    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncUnlockRequestsToCloud(updated);
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+    setActionSuccessBanner('Request Approved & Unlocked!');
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };'''
+content = content.replace(appr_req, appr_req_new)
+
+# Update handleApproveAllRequests
+appr_all = '''const handleApproveAllRequests = () => {
+    const updated = unlockRequests.map(r => ({ ...r, status: 'approved' as const }));
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    localStorage.setItem('neet_admin_test_access', 'true');
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+    setActionSuccessBanner('✨ All Pending Test Requests Approved & Unlocked Platform-Wide!');
+    setTimeout(() => setActionSuccessBanner(null), 3500);
+  };'''
+appr_all_new = '''const handleApproveAllRequests = () => {
+    const updated = unlockRequests.map(r => ({ ...r, status: 'approved' as const }));
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncUnlockRequestsToCloud(updated);
+    localStorage.setItem('neet_admin_test_access', 'true');
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+    setActionSuccessBanner('✨ All Pending Test Requests Approved & Unlocked Platform-Wide!');
+    setTimeout(() => setActionSuccessBanner(null), 3500);
+  };'''
+content = content.replace(appr_all, appr_all_new)
+
+# Update handleRejectRequest
+rej = '''const handleRejectRequest = (reqId: string) => {
+    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'rejected' as const } : r);
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    setActionSuccessBanner('Request Rejected.');
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };'''
+rej_new = '''const handleRejectRequest = (reqId: string) => {
+    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'rejected' as const } : r);
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncUnlockRequestsToCloud(updated);
+    setActionSuccessBanner('Request Rejected.');
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };'''
+content = content.replace(rej, rej_new)
+
+with open('src/components/AdminSection.tsx', 'w', encoding='utf-8') as f:
     f.write(content)
-print("Updated authoritativeCloudService")
