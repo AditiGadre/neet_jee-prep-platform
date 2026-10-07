@@ -637,6 +637,29 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       </div>
     );
   }
+  if (initialData?.status === 'rejected') {
+    return (
+      <div className="fixed inset-0 z-50 bg-sky-900/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-5">
+        <div className="bg-red-50 border border-red-200 rounded-2xl shadow-2xl w-full max-w-md p-8 text-center animate-in fade-in zoom-in-95">
+          <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <Lock className="w-8 h-8 text-red-600" />
+          </div>
+          <h2 className="text-2xl font-black text-red-950 mb-2">Registration Rejected</h2>
+          <p className="text-red-700 mb-6 text-sm">
+            Your registration request was declined by the administrator. 
+            Please contact support or try registering again with valid credentials.
+          </p>
+          <button onClick={() => {
+              localStorage.removeItem('neet_enrolled_student');
+              window.location.reload();
+          }} className="px-6 py-2.5 bg-red-600 text-white font-bold rounded-xl shadow-md hover:bg-red-700 transition">
+            Register Again
+          </button>
+        </div>
+      </div>
+    );
+  }
+
 
   return (
     <div className="fixed inset-0 z-50 bg-sky-900/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 overflow-y-auto">

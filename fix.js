@@ -1,7 +1,15 @@
+﻿const fs = require('fs');
+const text = fs.readFileSync('src/components/AdminSection.tsx', 'utf-8');
+const search = 'className={p-2 rounded-lg border }';
+const replace = 'className={p-2 rounded-lg border }';
 
-const fs = require('fs');
-let content = fs.readFileSync('src/data/sundayPlannerTests.ts', 'utf8');
-content = content.replace(/let i = \\(t\\.code\\.split.*?;/, 'let i = (t.code.split(\\'\\').reduce((a, b) => a + b.charCodeAt(0), 0) * 7 + picked.length) % matched.length;');
-fs.writeFileSync('src/data/sundayPlannerTests.ts', content);
-console.log('Fixed');
-
+if (text.includes(search)) {
+    console.log('Found it!');
+    fs.writeFileSync('src/components/AdminSection.tsx', text.replace(search, replace), 'utf-8');
+} else {
+    console.log('Not found! Looking for lines containing rounded-lg border');
+    const lines = text.split('\\n');
+    lines.forEach(l => {
+        if (l.includes('rounded-lg border')) console.log(l);
+    });
+}

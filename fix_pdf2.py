@@ -1,8 +1,9 @@
-﻿with open('src/utils/pdfDownloader.ts', 'r', encoding='utf-8') as f:
-    content = f.read()
+﻿import re
 
-content = content.replace('q.image && !q.diagramSvg', 'q.image')
+with open('src/components/AdminSection.tsx', 'r', encoding='utf-8') as f:
+    script = f.read()
 
-with open('src/utils/pdfDownloader.ts', 'w', encoding='utf-8') as f:
-    f.write(content)
-print("Done pdfDownloader")
+script = script.replace('Math.min(lines.length, 45)', 'Math.min(lines.length, 200)')
+
+with open('src/components/AdminSection.tsx', 'w', encoding='utf-8') as f:
+    f.write(script)

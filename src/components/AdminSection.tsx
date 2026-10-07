@@ -513,7 +513,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           let generatedQuestions: any[] = [];
           if (!isBinary) {
              const lines = rawContent.split('\n').map(l => l.trim()).filter(l => l.length > 10);
-             for (let i = 0; i < Math.min(lines.length, 45); i++) {
+             for (let i = 0; i < Math.min(lines.length, 200); i++) {
                  if (lines[i]) {
                      generatedQuestions.push({
                         ...defaultQuestions[i % defaultQuestions.length],
@@ -4628,6 +4628,66 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           setTimeout(() => setActionSuccessBanner(null), 4000);
         }}
       />
+
+
+      {isQuestionBankModalOpen && (
+        <div className="fixed inset-0 z-[100] bg-sky-900/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
+          <div className="bg-sky-50 border border-sky-200 rounded-2xl shadow-2xl w-full max-w-5xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 my-auto flex flex-col max-h-[90vh]">
+            <div className="bg-gradient-to-r from-sky-700 via-sky-700 to-sky-700 p-4 sm:p-5 flex justify-between items-center text-white shrink-0">
+              <div className="flex items-center gap-3">
+                 <div className="w-10 h-10 bg-sky-50/20 backdrop-blur-md rounded-xl flex items-center justify-center border border-white/30">
+                    <FileText className="w-5 h-5 text-sky-100" />
+                 </div>
+                 <div>
+                    <h2 className="text-xl font-black tracking-tight">Question Bank Vault</h2>
+                    <p className="text-xs text-sky-200 font-medium">Browse, Edit, or Delete parsed questions</p>
+                 </div>
+              </div>
+              <button onClick={() => setIsQuestionBankModalOpen(false)} className="p-2 bg-sky-600 hover:bg-sky-500 rounded-xl transition text-white">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-5 flex-1 overflow-y-auto bg-stone-50">
+               {storedQuestions.length === 0 ? (
+                 <div className="text-center py-10">
+                   <div className="w-16 h-16 bg-sky-100 text-sky-400 rounded-full flex items-center justify-center mx-auto mb-3">
+                     <FileText className="w-8 h-8" />
+                   </div>
+                   <p className="text-stone-500 font-bold">No questions parsed yet.</p>
+                 </div>
+               ) : (
+                 <div className="space-y-4">
+                   {storedQuestions.map((q, i) => (
+                     <div key={q.id || i} className="bg-white p-4 rounded-xl border border-stone-200 shadow-sm relative group">
+                        <button onClick={() => {
+                            const newBank = [...storedQuestions];
+                            newBank.splice(i, 1);
+                            setStoredQuestions(newBank);
+                            localStorage.setItem('admin_question_bank', JSON.stringify(newBank));
+                        }} className="absolute top-3 right-3 p-1.5 text-stone-400 hover:text-red-500 hover:bg-red-50 rounded-lg opacity-0 group-hover:opacity-100 transition">
+                           <Trash2 className="w-4 h-4" />
+                        </button>
+                        <div className="flex items-center justify-between mb-2">
+                           <span className="text-[10px] font-bold tracking-wider uppercase text-sky-600 bg-sky-50 px-2 py-0.5 rounded-md border border-sky-100">Q{i + 1} • {q.subject || 'Unknown'}</span>
+                        </div>
+                        <p className="text-sm font-semibold text-stone-800 mb-3" dangerouslySetInnerHTML={{ __html: q.questionText || '' }}></p>
+                        {q.options && Array.isArray(q.options) && (
+                          <div className="grid grid-cols-2 gap-2 text-xs">
+                             {q.options.map((opt: any, oi: number) => (
+                                 <div key={oi} className={`p-2 rounded-lg border ${q.correctAnswer === oi ? "bg-emerald-50 border-emerald-200 font-bold text-emerald-800" : "bg-stone-50 border-stone-100 text-stone-600"}`}>
+                                  <span className="font-bold mr-1">{String.fromCharCode(65 + oi)}.</span> {opt}
+                               </div>
+                             ))}
+                          </div>
+                        )}
+                     </div>
+                   ))}
+                 </div>
+               )}
+            </div>
+          </div>
+        </div>
+      )}
 
     </div>
   );
