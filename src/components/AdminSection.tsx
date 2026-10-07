@@ -129,6 +129,8 @@ import {
   fetchUnlockRequestsFromCloud
 } from '../services/authoritativeCloudService';
 import { MasterDefaultSavesModal } from './MasterDefaultSavesModal';
+import { syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud } from '../utils/cloudSyncManager';
+import { formatQuestionText } from '../utils/textFormatter';
 
 interface AdminSectionProps {
   onClose?: () => void;
@@ -629,9 +631,46 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
      const loadReqs = async () => {
          try {
              const reqs = await fetchUnlockRequestsFromCloud();
-             if (isMounted && reqs && reqs.length > 0) {
-                 setUnlockRequests(reqs);
-                 localStorage.setItem('neet_unlock_requests', JSON.stringify(reqs));
+             let activeReqs = reqs ? [...reqs] : [];
+             
+             try {
+                const notifsRaw = localStorage.getItem('admin_notifications');
+                if (notifsRaw) {
+                   let notifs = JSON.parse(notifsRaw);
+                   let needsMigration = false;
+                   notifs.forEach((n: any) => {
+                      if (n.type === 'PACKAGE_ENROLLMENT') {
+                         const existing = activeReqs.find(r => r.studentPhone === n.studentPhone && r.testCode === 'REGISTRATION');
+                         if (!existing) {
+                            activeReqs.unshift({
+                               id: 'req-mig-' + Date.now() + '-' + Math.random().toString(36).slice(2,6),
+                               studentName: n.studentName,
+                               rollNumber: n.rollNumber,
+                               studentPhone: n.studentPhone,
+                               parentPhone: n.parentPhone || '',
+                               parentEmail: n.email || '',
+                               targetExam: 'NEET',
+                               targetBatch: n.targetYear || '2027',
+                               testCode: 'REGISTRATION',
+                               testTitle: 'Full Platform Access & Registration',
+                               requestedAt: n.enrolledAt || new Date().toISOString(),
+                               status: 'pending'
+                            });
+                            needsMigration = true;
+                         }
+                         n.type = 'MIGRATED_PACKAGE';
+                      }
+                   });
+                   if (needsMigration) {
+                      localStorage.setItem('admin_notifications', JSON.stringify(notifs));
+                      syncUnlockRequestsToCloud(activeReqs);
+                   }
+                }
+             } catch(e) {}
+             
+             if (isMounted && activeReqs.length > 0) {
+                 setUnlockRequests(activeReqs);
+                 localStorage.setItem('neet_unlock_requests', JSON.stringify(activeReqs));
              }
          } catch {}
      };
@@ -4670,7 +4709,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         <div className="flex items-center justify-between mb-2">
                            <span className="text-[10px] font-bold tracking-wider uppercase text-sky-600 bg-sky-50 px-2 py-0.5 rounded-md border border-sky-100">Q{i + 1} • {q.subject || 'Unknown'}</span>
                         </div>
-                        <p className="text-sm font-semibold text-stone-800 mb-3" dangerouslySetInnerHTML={{ __html: q.questionText || '' }}></p>
+                        <p className="text-sm font-semibold text-stone-800 mb-3" dangerouslySetInnerHTML={{ __html: formatQuestionText(q.questionText || '') }}></p>
                         {q.options && Array.isArray(q.options) && (
                           <div className="grid grid-cols-2 gap-2 text-xs">
                              {q.options.map((opt: any, oi: number) => (

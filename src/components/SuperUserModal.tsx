@@ -1,4 +1,5 @@
-import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud, syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud } from '../services/authoritativeCloudService';
+import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
+import { syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud } from '../utils/cloudSyncManager';
 import React, { useState, useEffect, useMemo } from 'react';
 import {
   X,
@@ -279,38 +280,71 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
   }, []);
 
   // Request Management Handlers
-  const handleApproveRequest = (reqId: string) => {
-    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
-    setUnlockRequests(updated);
-    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
-    syncUnlockRequestsToCloud(updated);
-    localStorage.setItem('neet_admin_test_access', 'true');
-    setIsAdminTestAccessGranted(true);
-    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
-    setActionSuccessBanner('✓ Test Access Approved & Unlocked for Candidate!');
-    setTimeout(() => setActionSuccessBanner(null), 3500);
-  };
+  const handleApproveRequest = async (reqId: string) => {
+      const reqToApprove = unlockRequests.find(r => r.id === reqId);
+      const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
+      setUnlockRequests(updated);
+      localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+      syncUnlockRequestsToCloud(updated);
+      
+      if (reqToApprove && reqToApprove.testCode === 'REGISTRATION') {
+          try {
+             const student = await fetchStudentByPhoneFromCloud(reqToApprove.studentPhone);
+             if (student) {
+                await syncStudentEnrollmentToCloud({ ...student, status: 'approved' });
+             }
+          } catch {}
+      }
+      
+      localStorage.setItem('neet_admin_test_access', 'true');
+      setIsAdminTestAccessGranted(true);
+      window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+      setActionSuccessBanner('Test Access Approved & Unlocked for Candidate!');
+      setTimeout(() => setActionSuccessBanner(null), 3500);
+    };
 
-  const handleApproveAllRequests = () => {
-    const updated = unlockRequests.map(r => ({ ...r, status: 'approved' as const }));
-    setUnlockRequests(updated);
-    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
-    syncUnlockRequestsToCloud(updated);
-    localStorage.setItem('neet_admin_test_access', 'true');
-    setIsAdminTestAccessGranted(true);
-    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
-    setActionSuccessBanner('✓ All Pending Test Requests Approved & Unlocked Platform-Wide!');
-    setTimeout(() => setActionSuccessBanner(null), 3500);
-  };
+  const handleApproveAllRequests = async () => {
+      const pendingRegs = unlockRequests.filter(r => r.status === 'pending' && r.testCode === 'REGISTRATION');
+      const updated = unlockRequests.map(r => ({ ...r, status: 'approved' as const }));
+      setUnlockRequests(updated);
+      localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+      syncUnlockRequestsToCloud(updated);
+      
+      for (const req of pendingRegs) {
+          try {
+             const student = await fetchStudentByPhoneFromCloud(req.studentPhone);
+             if (student) {
+                await syncStudentEnrollmentToCloud({ ...student, status: 'approved' });
+             }
+          } catch {}
+      }
+      
+      localStorage.setItem('neet_admin_test_access', 'true');
+      setIsAdminTestAccessGranted(true);
+      window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+      setActionSuccessBanner('All Pending Test Requests Approved & Unlocked Platform-Wide!');
+      setTimeout(() => setActionSuccessBanner(null), 3500);
+    };
 
-  const handleRejectRequest = (reqId: string) => {
-    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'rejected' as const } : r);
-    setUnlockRequests(updated);
-    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
-    syncUnlockRequestsToCloud(updated);
-    setActionSuccessBanner('Request Rejected.');
-    setTimeout(() => setActionSuccessBanner(null), 2500);
-  };
+  const handleRejectRequest = async (reqId: string) => {
+      const reqToReject = unlockRequests.find(r => r.id === reqId);
+      const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'rejected' as const } : r);
+      setUnlockRequests(updated);
+      localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+      syncUnlockRequestsToCloud(updated);
+      
+      if (reqToReject && reqToReject.testCode === 'REGISTRATION') {
+          try {
+             const student = await fetchStudentByPhoneFromCloud(reqToReject.studentPhone);
+             if (student) {
+                await syncStudentEnrollmentToCloud({ ...student, status: 'rejected' });
+             }
+          } catch {}
+      }
+      
+      setActionSuccessBanner('Request Rejected.');
+      setTimeout(() => setActionSuccessBanner(null), 2500);
+    };
 
   const pendingRequestsCount = unlockRequests.filter(r => r.status === 'pending').length;
 
