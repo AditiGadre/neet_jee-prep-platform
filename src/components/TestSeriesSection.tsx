@@ -167,29 +167,32 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   }, []);
 
   // Check whether Admin has approved Sunday test access
-  const checkAdminAccess = () => {
+  const getUnlockedTests = () => {
     try {
-      if (localStorage.getItem('neet_admin_test_access') === 'true') return true;
+      if (localStorage.getItem('neet_admin_test_access') === 'true') return ['ALL'];
       const rawReqs = localStorage.getItem('neet_unlock_requests');
       if (rawReqs) {
         const reqs = JSON.parse(rawReqs);
         if (Array.isArray(reqs)) {
-          return reqs.some((r: any) => {
-            if (r.status !== 'approved') return false;
-            const rCode = (r.testCode || '').toUpperCase();
-            return (
-              rCode === 'ALL SUNDAY TESTS' ||
-              (rollNumber && r.rollNumber === rollNumber) ||
-              (studentPhone && r.studentPhone === studentPhone)
-            );
-          });
+          return reqs
+            .filter((r: any) => r.status === 'approved' && (
+               (rollNumber && r.rollNumber === rollNumber) || 
+               (studentPhone && r.studentPhone === studentPhone) ||
+               (!rollNumber && !studentPhone) // fallback if user isn't fully enrolled but has an approved req on this device
+            ))
+            .map((r: any) => (r.testCode || '').toUpperCase());
         }
       }
-    } catch {
-      return false;
-    }
-    return false;
+    } catch {}
+    return [];
   };
+  
+  const isTestSpecificallyUnlocked = (testCode: string) => {
+     const unlocked = getUnlockedTests();
+     if (unlocked.includes('ALL') || unlocked.includes('ALL SUNDAY TESTS')) return true;
+     return unlocked.includes((testCode || '').toUpperCase());
+  };
+
 
   // Admin Portal Controlled Test Access State
   const [isAdminAccessGranted, setIsAdminAccessGranted] = useState<boolean>(() => checkAdminAccess());
@@ -343,7 +346,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     : filtered11thTests;
 
   const handleLaunchDirectSundayTest = async (plannerTest: SundayPlannerTest) => {
-    if (!isSundayTestUnlocked) {
+    if (!isTestSpecificallyUnlocked(plannerTest.code)) {
       setPendingTestToStart(plannerTest);
       setShowAdminApprovalModal(true);
       return;
@@ -437,7 +440,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   };
 
   const handleDownloadSundayPdf = async (plannerTest: SundayPlannerTest, includeSolutions: boolean = false) => {
-    if (!isSundayTestUnlocked) {
+    if (!isTestSpecificallyUnlocked(plannerTest.code)) {
       setPendingTestToStart(plannerTest);
       setShowAdminApprovalModal(true);
       return;

@@ -1,4 +1,13 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+const handleApproveRequest = (reqId: string) => {
+    const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+    setActionSuccessBanner('Request Approved & Unlocked!');
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };
+
+  import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   ShieldCheck,
   KeyRound,
@@ -332,12 +341,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [editingQuestionIdx, setEditingQuestionIdx] = useState<number | null>(null);
   const [activeSwapIdx, setActiveSwapIdx] = useState<number | null>(null);
   const [pendingSwapId, setPendingSwapId] = useState<string | null>(null);
-    const [isQuestionBankModalOpen, setIsQuestionBankModalOpen] = useState(false);
-    const [storedQuestions, setStoredQuestions] = useState<any[]>(() => {
-        try {
-            return JSON.parse(localStorage.getItem('admin_question_bank') || '[]');
-        } catch { return []; }
-    });
+  const [isQuestionBankModalOpen, setIsQuestionBankModalOpen] = useState(false);
+  const [storedQuestions, setStoredQuestions] = useState<any[]>(() => {
+      try {
+          return JSON.parse(localStorage.getItem('admin_question_bank') || '[]');
+      } catch { return []; }
+  });
   const [exportTrackSelection, setExportTrackSelection] = useState<string>('dropper1');
 
   const handleExportSelectedTrackZIP = async () => {
@@ -507,8 +516,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           let defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
           defaultQuestions = JSON.parse(JSON.stringify(defaultQuestions));
 
-          const isBinary = rawContent.includes('%PDF') || rawContent.includes('PK') || rawContent.includes(' ');
-          let generatedQuestions = [];
+          const isBinary = rawContent.includes('%PDF') || rawContent.includes('PK\x03\x04') || rawContent.includes('\x00');
+          let generatedQuestions: any[] = [];
           if (!isBinary) {
              const lines = rawContent.split('\n').map(l => l.trim()).filter(l => l.length > 10);
              for (let i = 0; i < Math.min(lines.length, 45); i++) {
@@ -523,7 +532,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           }
 
           if (generatedQuestions.length === 0) {
-              generatedQuestions = defaultQuestions.slice(0, 10).map((q, i) => ({
+              generatedQuestions = defaultQuestions.slice(0, 10).map((q: any, i: number) => ({
                   ...q,
                   id: 'mock-ext-' + i + '-' + Math.random().toString(36).substring(7),
                   questionText: `[Simulated Extraction from ${fileName}] ` + q.questionText
