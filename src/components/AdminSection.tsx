@@ -726,11 +726,22 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   }, []);
 
   // Request Management Handlers
-  const handleApproveRequest = (reqId: string) => {
+  const handleApproveRequest = async (reqId: string) => {
+    const reqToApprove = unlockRequests.find(r => r.id === reqId);
     const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
     setUnlockRequests(updated);
     localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
     syncUnlockRequestsToCloud(updated);
+    
+    if (reqToApprove && reqToApprove.testCode === 'REGISTRATION') {
+        try {
+           const student = await fetchStudentByPhoneFromCloud(reqToApprove.studentPhone);
+           if (student) {
+              await syncStudentEnrollmentToCloud({ ...student, status: 'approved' });
+           }
+        } catch {}
+    }
+    
     window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
     setActionSuccessBanner('Request Approved & Unlocked!');
     setTimeout(() => setActionSuccessBanner(null), 2500);

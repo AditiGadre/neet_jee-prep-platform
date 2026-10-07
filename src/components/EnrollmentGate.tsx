@@ -40,6 +40,7 @@ import {
   getUniversalRollNumber,
   SyncedStudentProfile
 } from '../utils/cloudSyncManager';
+import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
 
 export interface EnrolledStudent {
   studentName: string;
@@ -61,7 +62,7 @@ export interface EnrolledStudent {
   gender: 'Female' | 'Male' | 'Third Gender';
   disabilityStatus: string;
   specialReservation: string;
-  selectedPackage?: EnrolledPackage;
+  
 }
 
 interface EnrollmentGateProps {
@@ -356,17 +357,11 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
     const dobPin = formatDobToPin(dob);
     const accountPassword = password.trim() || dobPin;
 
-    const selectedPkgItem = getPackageById("online-cbt");
-    const enrolledPackage: EnrolledPackage = {
-      id: selectedPkgItem.id,
-      name: selectedPkgItem.name,
-      price: selectedPkgItem.price,
-      originalPrice: selectedPkgItem.originalPrice,
-      tagline: selectedPkgItem.tagline,
-      enrolledAt: matchedCloudStudent?.selectedPackage?.enrolledAt || new Date().toISOString()
-    };
+    
+    
 
     const studentData: EnrolledStudent = {
+      status: 'pending',
       studentName: studentName.trim(),
       parentName: parentName.trim(),
       parentPhone: parentPhone.replace(/\D/g, ''),
@@ -385,8 +380,28 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       gender,
       disabilityStatus,
       specialReservation,
-      selectedPackage: enrolledPackage
+      
     };
+
+    // Create Registration Approval Request
+    fetchUnlockRequestsFromCloud().then(reqs => {
+       const list = reqs || [];
+       list.unshift({
+           id: 'req-' + Date.now() + '-' + Math.random().toString(36).slice(2,6),
+           studentName: studentData.studentName,
+           rollNumber: studentData.rollNumber,
+           studentPhone: studentData.studentPhone,
+           parentPhone: studentData.parentPhone,
+           parentEmail: studentData.email,
+           targetExam: 'NEET',
+           targetBatch: studentData.targetYear,
+           testCode: 'REGISTRATION',
+           testTitle: 'Full Platform Access & Registration',
+           requestedAt: new Date().toISOString(),
+           status: 'pending'
+       });
+       syncUnlockRequestsToCloud(list);
+    });
 
     // Save Admin Notification immediately
     saveAdminNotification({
@@ -482,7 +497,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
         gender: studentData.gender,
         disabilityStatus: studentData.disabilityStatus,
         specialReservation: studentData.specialReservation,
-        selectedPackage: enrolledPackage
+        
       })
     );
     localStorage.removeItem('neet_guest_mode');
@@ -508,17 +523,11 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
     const dobPin = formatDobToPin(dob);
     const accountPassword = password.trim() || dobPin;
 
-    const selectedPkgItem = getPackageById("online-cbt");
-    const enrolledPackage: EnrolledPackage = {
-      id: selectedPkgItem.id,
-      name: selectedPkgItem.name,
-      price: selectedPkgItem.price,
-      originalPrice: selectedPkgItem.originalPrice,
-      tagline: selectedPkgItem.tagline,
-      enrolledAt: new Date().toISOString()
-    };
+    
+    
 
     const studentData: EnrolledStudent = {
+      status: 'pending',
       studentName: studentName.trim(),
       parentName: parentName.trim(),
       parentPhone: parentPhone.replace(/\D/g, ''),
@@ -537,7 +546,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       gender,
       disabilityStatus,
       specialReservation,
-      selectedPackage: enrolledPackage
+      
     };
 
     saveAdminNotification({
@@ -608,6 +617,26 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
     window.dispatchEvent(new Event('neet_auth_change'));
     onEnrollSuccess(studentData);
   };
+
+  if (initialData?.status === 'pending') {
+    return (
+      <div className="fixed inset-0 z-50 bg-sky-900/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-5">
+        <div className="bg-sky-50 border border-sky-200 rounded-2xl shadow-2xl w-full max-w-md p-8 text-center animate-in fade-in zoom-in-95">
+          <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <Lock className="w-8 h-8 text-amber-600" />
+          </div>
+          <h2 className="text-2xl font-black text-sky-950 mb-2">Registration Under Review</h2>
+          <p className="text-sky-700 mb-6 text-sm">
+            Your profile has been submitted successfully and is currently awaiting manual verification by the platform administrators. 
+            Once approved, you will gain full access to the portal.
+          </p>
+          <button onClick={() => window.location.reload()} className="px-6 py-2.5 bg-sky-600 text-white font-bold rounded-xl shadow-md hover:bg-sky-700 transition">
+            Check Status Again
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="fixed inset-0 z-50 bg-sky-900/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 overflow-y-auto">

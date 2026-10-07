@@ -404,7 +404,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     onStartTest(testItem);
   };
 
-  const handleSendAccessRequest = () => {
+  const handleSendAccessRequest = async () => {
     setAccessRequestSent(true);
 
     const newRequest = {
@@ -423,8 +423,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     };
 
     try {
-      const raw = localStorage.getItem('neet_unlock_requests');
-      const list = raw ? JSON.parse(raw) : [];
+      const cloudReqs = await fetchUnlockRequestsFromCloud();
+      const list = cloudReqs && cloudReqs.length > 0 ? cloudReqs : [];
       list.unshift(newRequest);
       localStorage.setItem('neet_unlock_requests', JSON.stringify(list));
       syncUnlockRequestsToCloud(list);

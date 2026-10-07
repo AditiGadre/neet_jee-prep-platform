@@ -1,4 +1,4 @@
-import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
+import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud, syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud } from '../services/authoritativeCloudService';
 import React, { useState, useEffect, useMemo } from 'react';
 import {
   X,
