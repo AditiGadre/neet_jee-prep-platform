@@ -1038,7 +1038,7 @@ export async function fetchUnlockRequestsFromCloud(): Promise<any[] | null> {
       .eq('subject', '__SYSTEM_SYNC__')
       .eq('chapter', 'UNLOCK_REQUESTS')
       .eq('topic', 'GLOBAL')
-      .order('created_at', { ascending: false })
+      .order('updated_at', { ascending: false })
       .limit(1);
 
     if (error || !data || data.length === 0) return null;
