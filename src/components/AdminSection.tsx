@@ -477,7 +477,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
   };
 
-  const handleMockPdfUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleMockPdfUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
       const file = e.target.files[0];
       const fileName = file.name;
