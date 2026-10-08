@@ -102,7 +102,10 @@ export function getStoredUnlockRequests(): StudentUnlockRequest[] {
   } catch {}
 
   const enrolledRaw = localStorage.getItem('neet_enrolled_student');
-  const enrolled = enrolledRaw ? JSON.parse(enrolledRaw) : null;
+    let enrolled = null;
+    try {
+      enrolled = enrolledRaw ? JSON.parse(enrolledRaw) : null;
+    } catch(e) {}
   const initial: StudentUnlockRequest[] = [
     {
       id: 'req-001',

@@ -527,7 +527,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           }
 
           if (generatedQuestions.length === 0) {
-              generatedQuestions = defaultQuestions.slice(0, 10).map((q: any, i: number) => ({
+              generatedQuestions = defaultQuestions.map((q: any, i: number) => ({
                   ...q,
                   id: 'mock-ext-' + i + '-' + Math.random().toString(36).substring(7),
                   questionText: `[Simulated Extraction from ${fileName}] ` + q.questionText
@@ -782,9 +782,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         if (typeof cfg.platformWideSundayAccess === 'boolean') {
           setIsAdminTestAccessGranted(cfg.platformWideSundayAccess);
         }
-        if (Array.isArray(cfg.approvedStudentRequests)) {
-          setUnlockRequests(cfg.approvedStudentRequests as any);
-        }
+        
       }
     }).catch(() => {});
   };
