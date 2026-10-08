@@ -632,6 +632,27 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
          try {
              const reqs = await fetchUnlockRequestsFromCloud();
                             let activeReqs = reqs ? [...reqs] : [];
+             
+             // Emergency merge: if the user had local requests that never synced due to the typo bug, merge them
+             try {
+                const localReqsRaw = localStorage.getItem('neet_unlock_requests');
+                if (localReqsRaw) {
+                   const localReqs = JSON.parse(localReqsRaw);
+                   if (Array.isArray(localReqs)) {
+                      let mergedAny = false;
+                      for (const lr of localReqs) {
+                         if (!activeReqs.find(ar => ar.id === lr.id || (ar.studentPhone === lr.studentPhone && ar.testCode === lr.testCode))) {
+                            activeReqs.push(lr);
+                            mergedAny = true;
+                         }
+                      }
+                      if (mergedAny) {
+                         syncUnlockRequestsToCloud(activeReqs);
+                      }
+                   }
+                }
+             } catch(e) {}
+
                
                // Deduplicate activeReqs by phone number, keeping only the latest one
                const seenPhones = new Set();

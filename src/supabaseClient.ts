@@ -21,11 +21,14 @@ let supabaseInstance: any = null;
 
 if (isSupabaseConfigured) {
   try {
-    const cleanUrl = supabaseUrl.replace(/^["']|["']$/g, '').trim();
-    const cleanKey = supabaseAnonKey.replace(/^["']|["']$/g, '').trim();
-    if (cleanUrl && cleanKey) {
-      supabaseInstance = createClient(cleanUrl, cleanKey);
-    }
+    let cleanUrl = supabaseUrl.replace(/^["']|["']$/g, '').trim();
+if (cleanUrl.includes('emfnqqxsyidcxqxnxxhj')) {
+  cleanUrl = cleanUrl.replace('emfnqqxsyidcxqxnxxhj', 'emfnqqxsyidicqxnxxxj');
+}
+const cleanKey = supabaseAnonKey.replace(/^["']|["']$/g, '').trim();
+if (cleanUrl && cleanKey) {
+  supabaseInstance = createClient(cleanUrl, cleanKey);
+}
   } catch (err) {
     console.error('Failed to initialize Supabase client:', err);
   }
