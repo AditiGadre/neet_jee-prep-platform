@@ -631,10 +631,51 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
      const loadReqs = async () => {
          try {
              const reqs = await fetchUnlockRequestsFromCloud();
-             let activeReqs = reqs ? [...reqs] : [];
-             
-             try {
-                const notifsRaw = localStorage.getItem('admin_notifications');
+                            let activeReqs = reqs ? [...reqs] : [];
+               
+               // Deduplicate activeReqs by phone number, keeping only the latest one
+               const seenPhones = new Set();
+               const dedupedReqs = [];
+               for (const r of activeReqs) {
+                   if (r.testCode === 'REGISTRATION' && r.studentPhone) {
+                       if (!seenPhones.has(r.studentPhone)) {
+                           seenPhones.add(r.studentPhone);
+                           dedupedReqs.push(r);
+                       }
+                   } else {
+                       dedupedReqs.push(r);
+                   }
+               }
+               activeReqs = dedupedReqs;
+               
+               try {
+                  const allCloudStudents = await fetchAllStudentsFromCloud();
+                  let needsMigration = false;
+                  for (const st of allCloudStudents) {
+                     const existing = activeReqs.find(r => r.studentPhone === st.studentPhone && r.testCode === 'REGISTRATION');
+                     if (!existing) {
+                        activeReqs.unshift({
+                           id: 'req-mig-' + Date.now() + '-' + Math.random().toString(36).slice(2,6),
+                           studentName: st.studentName,
+                           rollNumber: st.rollNumber,
+                           studentPhone: st.studentPhone,
+                           parentPhone: st.parentPhone || '',
+                           parentEmail: st.parentEmail || st.email || '',
+                           targetExam: 'NEET',
+                           targetBatch: st.targetYear || '2027',
+                           testCode: 'REGISTRATION',
+                           testTitle: 'Full Platform Access & Registration',
+                           requestedAt: st.enrolledAt || new Date().toISOString(),
+                           status: st.status || 'pending'
+                        });
+                        needsMigration = true;
+                     }
+                  }
+                  if (needsMigration) {
+                      syncUnlockRequestsToCloud(activeReqs);
+                  }
+                  
+                  const notifsRaw = localStorage.getItem('admin_notifications');
                 if (notifsRaw) {
                    let notifs = JSON.parse(notifsRaw);
                    let needsMigration = false;

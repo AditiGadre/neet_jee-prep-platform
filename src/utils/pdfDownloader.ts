@@ -432,6 +432,7 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
               ${q.diagramSvg}
             </div>
           ` : ''}
+          ${q.image ? `<div style="margin: 12px 0; padding: 10px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; text-align: center;"><img src="${q.image}" style="max-height: 200px; border-radius: 8px;" /></div>` : ''}
 
           <div class="options-grid">
             ${q.options.map((opt, oIdx) => `
@@ -1463,6 +1464,7 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
           </div>
 
           ${q.diagramSvg ? `<div style="margin: 10px 0; text-align: center;">${q.diagramSvg}</div>` : ''}
+          ${q.image ? `<div style="margin: 12px 0; padding: 10px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; text-align: center;"><img src="${q.image}" style="max-height: 200px; border-radius: 8px;" /></div>` : ''}
           ${q.image ? `<div style="margin: 10px 0; text-align: center;"><img src="${q.image}" style="max-height: 200px; border-radius: 8px;" /></div>` : ''}
 
           <div class="options-grid">
