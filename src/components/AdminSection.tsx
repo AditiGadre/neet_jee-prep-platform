@@ -1,4 +1,8 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
+import * as pdfjsLib from 'pdfjs-dist';
+import pdfWorkerUrl from 'pdfjs-dist/build/pdf.worker.min.js?url';
+pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorkerUrl;
+
 import {
   ShieldCheck,
   KeyRound,
@@ -504,9 +508,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         else if (lowerName.includes('chem')) { subjectGuess = 'Chemistry'; chapterGuess = 'Mixed Chemistry'; }
         
         if (isPdf) {
-            import('pdfjs-dist').then(async (pdfjs) => {
-                pdfjs.GlobalWorkerOptions.workerSrc = String.fromCharCode(96) + '//cdnjs.cloudflare.com/ajax/libs/pdf.js/' + pdfjs.version + '/pdf.worker.min.js' + String.fromCharCode(96);
-                try {
+            try {
+                    const pdfjs = pdfjsLib;
                     const arrayBuffer = await file.arrayBuffer();
                     const pdf = await pdfjs.getDocument({ data: arrayBuffer }).promise;
                     let fullText = '';
@@ -587,7 +590,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     setIsSyncingAction(false);
                     alert('Error parsing PDF: ' + e);
                 }
-            });
         } else {
            setIsSyncingAction(false);
            alert("Please upload a PDF file.");
