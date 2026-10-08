@@ -524,37 +524,57 @@ const pdfjsLib = pdfjs;
                     let qNum = 1;
                     
                     // A simple parser that looks for "1. ", "2. ", etc.
-                    const tokens = fullText.split(new RegExp('(?=\\b\\d+\\.\\s+)'));
-                    for (const token of tokens) {
-                        const qMatch = token.trim().match(new RegExp('^' + qNum + '\\\\.\\\\s+'));
-                        if (qMatch || (qNum === 1 && token.includes('1.'))) {
-                            let cleanToken = token.trim().replace(new RegExp('^' + qNum + '\\\\.\\\\s+'), '');
-                            
-                            const optRegex = /\([1-4]\)\s*([\s\S]*?)(?=\([1-4]\)|$)/g;
-                            const options = [];
-                            let match;
-                            while ((match = optRegex.exec(cleanToken)) !== null) {
-                                options.push(match[1].trim());
-                            }
-                            
-                            let questionText = cleanToken.replace(/\([1-4]\)\s*[\s\S]*$/s, '').trim();
-                            
-                            generatedQuestions.push({
-                                id: 'parsed-' + qNum + '-' + Math.random().toString(36).substr(2, 5),
-                                questionText: questionText || ('[Extracted] Question ' + qNum),
-                                options: options.length >= 4 ? options.slice(0,4) : ['Option A', 'Option B', 'Option C', 'Option D'],
-                                correctAnswer: 0,
-                                explanation: 'Detailed solution will be parsed here.',
-                                subject: subjectGuess,
-                                chapter: chapterGuess,
-                                topic: chapterGuess,
-                                difficulty: 'Medium',
-                                marks: 4,
-                                type: 'multiple-choice'
-                            });
-                            qNum++;
-                        }
-                    }
+                      // ROBUST PARSER
+                      // Split by common question delimiters: "1.", "Q1.", "1)", etc.
+                      const rawTokens = fullText.split(/(?=\b(?:Q)?\d+[.)]\s+)/gi);
+                      
+                      for (let token of rawTokens) {
+                          token = token.trim();
+                          if (!token) continue;
+                          
+                          // Strip the prefix (e.g. "1. ", "Q1) ")
+                          let cleanToken = token.replace(/^(?:Q)?\d+[.)]\s*/i, '').trim();
+                          if (!cleanToken) cleanToken = token; // Fallback if prefix strip removes everything
+                          
+                          // Detect options: (1), (2), (A), (B), 1), A), a., b.
+                          const optRegex = /(?:\b(?:A|B|C|D|1|2|3|4)[.)]|\((?:A|B|C|D|1|2|3|4|a|b|c|d)\))\s*([\s\S]*?)(?=(?:\b(?:A|B|C|D|1|2|3|4)[.)]|\((?:A|B|C|D|1|2|3|4|a|b|c|d)\))|$)/gi;
+                          
+                          const options = [];
+                          let match;
+                          let firstOptionIndex = cleanToken.length;
+                          
+                          while ((match = optRegex.exec(cleanToken)) !== null) {
+                              if (options.length === 0) firstOptionIndex = match.index;
+                              options.push(match[1].trim() || 'Option ' + (options.length + 1));
+                          }
+                          
+                          let questionText = cleanToken.substring(0, firstOptionIndex).trim();
+                          
+                          // Fallbacks if questionText is empty (e.g., the whole string is just options)
+                          if (!questionText) {
+                             questionText = cleanToken.substring(0, 100) + '... (Extracted without text)';
+                          }
+                          
+                          // Fallbacks if options not found properly
+                          const finalOptions = options.length >= 4 ? options.slice(0, 4) : 
+                                               (options.length > 0 ? [...options, 'Option C', 'Option D', 'Option E'].slice(0, 4) : 
+                                               ['Option A', 'Option B', 'Option C', 'Option D']);
+
+                          generatedQuestions.push({
+                              id: 'parsed-' + qNum + '-' + Math.random().toString(36).substr(2, 5),
+                              questionText: questionText,
+                              options: finalOptions,
+                              correctAnswer: 0,
+                              explanation: 'Detailed solution will be parsed here.',
+                              subject: subjectGuess,
+                              chapter: chapterGuess,
+                              topic: chapterGuess,
+                              difficulty: 'Medium',
+                              marks: 4,
+                              type: 'multiple-choice'
+                          });
+                          qNum++;
+                      }
                     
                     // The user said "i uploaded only 40 questions from rotational motion chapter"
                     // If parsing failed or gave zero questions, fallback to 40 mock questions for that chapter.
