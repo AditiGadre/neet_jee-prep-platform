@@ -523,9 +523,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     // A simple parser that looks for "1. ", "2. ", etc.
                     const tokens = fullText.split(new RegExp('(?=\\b\\d+\\.\\s+)'));
                     for (const token of tokens) {
-                        const qMatch = token.trim().match(new RegExp(^\\.\\s+));
+                        const qMatch = token.trim().match(new RegExp('^' + qNum + '\\\\.\\\\s+'));
                         if (qMatch || (qNum === 1 && token.includes('1.'))) {
-                            let cleanToken = token.trim().replace(new RegExp(^\\.\\s+), '');
+                            let cleanToken = token.trim().replace(new RegExp('^' + qNum + '\\\\.\\\\s+'), '');
                             
                             const optRegex = /\([1-4]\)\s*([\s\S]*?)(?=\([1-4]\)|$)/g;
                             const options = [];
