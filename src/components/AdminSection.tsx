@@ -931,6 +931,16 @@ const pdfjsLib = pdfjs;
     setTimeout(() => setActionSuccessBanner(null), 2500);
   };
 
+  const handleDeleteStudentRequest = (reqId: string) => {
+    if (!confirm('Are you sure you want to permanently delete this student request?')) return;
+    const updated = unlockRequests.filter(r => r.id !== reqId);
+    setUnlockRequests(updated);
+    localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
+    syncUnlockRequestsToCloud(updated);
+    setActionSuccessBanner('Request Permanently Deleted.');
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };
+
   const safeRequests = Array.isArray(unlockRequests) ? unlockRequests : [];
   const pendingRequestsCount = safeRequests.filter(r => r.status === 'pending').length;
 
@@ -4832,9 +4842,12 @@ const pdfjsLib = pdfjs;
                     <p className="text-xs text-sky-200 font-medium">Browse, Edit, or Delete parsed questions</p>
                  </div>
               </div>
-              <button onClick={() => setIsQuestionBankModalOpen(false)} className="p-2 bg-sky-600 hover:bg-sky-500 rounded-xl transition text-white">
+              <div className="flex items-center gap-3">
+{storedQuestions.length > 0 && (<button onClick={() => { if(confirm('Are you sure you want to permanently clear the ENTIRE question bank vault?')) { setStoredQuestions([]); localStorage.removeItem('admin_question_bank'); } }} className="px-3 py-1.5 bg-red-500 hover:bg-red-400 rounded-lg text-white text-xs font-bold shadow-sm transition flex items-center gap-1"><Trash2 className="w-3.5 h-3.5" /> Clear All</button>)}
+<button onClick={() => setIsQuestionBankModalOpen(false)} className="p-2 bg-sky-600 hover:bg-sky-500 rounded-xl transition text-white">
                 <X className="w-5 h-5" />
               </button>
+            </div>
             </div>
             <div className="p-5 flex-1 overflow-y-auto bg-stone-50">
                {storedQuestions.length === 0 ? (
@@ -4853,7 +4866,7 @@ const pdfjsLib = pdfjs;
                             newBank.splice(i, 1);
                             setStoredQuestions(newBank);
                             localStorage.setItem('admin_question_bank', JSON.stringify(newBank));
-                        }} className="absolute top-3 right-3 p-1.5 text-stone-400 hover:text-red-500 hover:bg-red-50 rounded-lg opacity-0 group-hover:opacity-100 transition">
+                        }} className="absolute top-3 right-3 p-1.5 text-red-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition">
                            <Trash2 className="w-4 h-4" />
                         </button>
                         <div className="flex items-center justify-between mb-2">
