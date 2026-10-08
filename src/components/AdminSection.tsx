@@ -576,22 +576,10 @@ const pdfjsLib = pdfjs;
                           qNum++;
                       }
                     
-                    // The user said "i uploaded only 40 questions from rotational motion chapter"
-                    // If parsing failed or gave zero questions, fallback to 40 mock questions for that chapter.
                     if (generatedQuestions.length === 0) {
-                        generatedQuestions = Array.from({ length: 40 }).map((_, i) => ({
-                             id: 'fallback-' + i + '-' + Math.random().toString(36).substring(7),
-                             questionText: ('[Extracted from ' + fileName + '] Question ' + (i+1)),
-                             options: ['Option A', 'Option B', 'Option C', 'Option D'],
-                             correctAnswer: 0,
-                             explanation: 'Detailed solution will be parsed here.',
-                             subject: subjectGuess,
-                             chapter: chapterGuess,
-                             topic: chapterGuess,
-                             difficulty: 'Medium',
-                             marks: 4,
-                             type: 'multiple-choice'
-                        }));
+                        setIsSyncingAction(false);
+                        alert("No text could be extracted! If this is a scanned image or WhatsApp photo PDF, the parser cannot read it. Please upload a real text-based PDF or Word document.");
+                        return;
                     }
                     
                     // Cap at 40 if the user explicitly wants only 40
@@ -599,8 +587,8 @@ const pdfjsLib = pdfjs;
                         generatedQuestions = generatedQuestions.slice(0, 40);
                     }
                     
-                    const shouldReplace = confirm("Do you want to REPLACE the entire existing question bank with these " + generatedQuestions.length + " newly parsed questions? (Click OK to clear old questions, Cancel to append)");
-                    const newBank = shouldReplace ? generatedQuestions : [...storedQuestions, ...generatedQuestions];
+                    const shouldAppend = confirm("Success! Found " + generatedQuestions.length + " questions. \n\nDo you want to APPEND these to your existing Question Bank? \n\nClick OK to APPEND (Add them to existing questions).\nClick Cancel to REPLACE (Clear old questions and show ONLY these).");
+                    const newBank = shouldAppend ? [...storedQuestions, ...generatedQuestions] : generatedQuestions;
                     
                     setStoredQuestions(newBank);
                     localStorage.setItem('admin_question_bank', JSON.stringify(newBank));
