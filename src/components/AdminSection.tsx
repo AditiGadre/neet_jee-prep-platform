@@ -538,7 +538,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             
                             generatedQuestions.push({
                                 id: 'parsed-' + qNum + '-' + Math.random().toString(36).substr(2, 5),
-                                questionText: questionText || [Extracted] Question ,
+                                questionText: questionText || ('[Extracted] Question ' + qNum),
                                 options: options.length >= 4 ? options.slice(0,4) : ['Option A', 'Option B', 'Option C', 'Option D'],
                                 correctAnswer: 0,
                                 explanation: 'Detailed solution will be parsed here.',
@@ -558,7 +558,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     if (generatedQuestions.length === 0) {
                         generatedQuestions = Array.from({ length: 40 }).map((_, i) => ({
                              id: 'fallback-' + i + '-' + Math.random().toString(36).substring(7),
-                             questionText: [Extracted from ] Question ,
+                             questionText: ('[Extracted from ' + fileName + '] Question ' + (i+1)),
                              options: ['Option A', 'Option B', 'Option C', 'Option D'],
                              correctAnswer: 0,
                              explanation: 'Detailed solution will be parsed here.',
@@ -572,7 +572,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     }
                     
                     // Cap at 40 if the user explicitly wants only 40
-                    if (generatedQuestions.length > 40 && confirm(We found  questions. Do you want to truncate to exactly 40 questions as requested?)) {
+                    if (generatedQuestions.length > 40 && confirm('We found ' + generatedQuestions.length + ' questions. Do you want to truncate to exactly 40 questions as requested?')) {
                         generatedQuestions = generatedQuestions.slice(0, 40);
                     }
                     
@@ -582,7 +582,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     setStoredQuestions(newBank);
                     localStorage.setItem('admin_question_bank', JSON.stringify(newBank));
                     setIsSyncingAction(false);
-                    alert(Successfully extracted  questions mapped to !);
+                    alert('Successfully extracted ' + generatedQuestions.length + ' questions mapped to ' + chapterGuess + '!');
                 } catch (e) {
                     setIsSyncingAction(false);
                     alert('Error parsing PDF: ' + e);
