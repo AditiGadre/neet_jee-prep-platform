@@ -505,7 +505,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         
         if (isPdf) {
             import('pdfjs-dist').then(async (pdfjs) => {
-                pdfjs.GlobalWorkerOptions.workerSrc = //cdnjs.cloudflare.com/ajax/libs/pdf.js//pdf.worker.min.js;
+                pdfjs.GlobalWorkerOptions.workerSrc = String.fromCharCode(96) + '//cdnjs.cloudflare.com/ajax/libs/pdf.js/' + pdfjs.version + '/pdf.worker.min.js' + String.fromCharCode(96);
                 try {
                     const arrayBuffer = await file.arrayBuffer();
                     const pdf = await pdfjs.getDocument({ data: arrayBuffer }).promise;
