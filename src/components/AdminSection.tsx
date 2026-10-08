@@ -3298,7 +3298,24 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                     </button>
                                   )}
                                   <button 
-                                    onClick={() => { handleDeleteQuestion(originalIdx); setActiveSwapIdx(null); setPendingSwapId(null); }}
+                                    onClick={() => {
+                                        if (pendingSwapId) {
+                                          try {
+                                            const raw = localStorage.getItem('agy_banned_questions');
+                                            const banned = raw ? JSON.parse(raw) : [];
+                                            if (!banned.includes(pendingSwapId)) banned.push(pendingSwapId);
+                                            localStorage.setItem('agy_banned_questions', JSON.stringify(banned));
+                                            setSwapCandidates(prev => prev.filter(c => c.id !== pendingSwapId));
+                                            setPendingSwapId(null);
+                                            setActionSuccessBanner('Candidate question deleted forever!');
+                                            setTimeout(() => setActionSuccessBanner(null), 2500);
+                                          } catch(e) {}
+                                        } else {
+                                          handleDeleteQuestion(originalIdx);
+                                          setActiveSwapIdx(null);
+                                          setPendingSwapId(null);
+                                        }
+                                      }}
                                     className="w-full py-2 bg-red-500 hover:bg-red-600 text-white text-xs font-bold rounded-lg shadow-sm flex items-center justify-center gap-1 cursor-pointer"
                                   >
                                     <Trash2 className="w-3.5 h-3.5" /> Delete Forever
