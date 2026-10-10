@@ -533,7 +533,7 @@ const pdfjsLib = pdfjs;
                     let generatedQuestions = [];
                     let qNum = 1;
                     
-                    const questionRegex = /(?:^|\n)\s*(?:Q\.?\s*)?(\d+)[\.\)]\s+/gi;
+                    const questionRegex = /(?:^|\n)\s*(?:Q\.?\s*)?(\d+)\s*[\.\)]\s+/gi;
                     const parts = fullText.split(questionRegex);
                     
                     for (let i = 1; i < parts.length; i += 2) {
@@ -542,12 +542,12 @@ const pdfjsLib = pdfjs;
                         token = token.trim();
                         if (!token) continue;
                           
-                          // Strip the prefix (e.g. "1. ", "Q1) ")
-                          let cleanToken = token.replace(/^(?:Q)?\d+[.)]\s*/i, '').trim();
-                          if (!cleanToken) cleanToken = token; // Fallback if prefix strip removes everything
+                          // Strip the prefix just in case
+                          let cleanToken = token.replace(/^(?:Q)?\d+\s*[.)]\s*/i, '').trim();
+                          if (!cleanToken) cleanToken = token;
                           
-                          // Detect options: (1), (2), (A), (B), 1), A), a., b.
-                          const optRegex = /(?:\b(?:A|B|C|D|1|2|3|4)[.)]|\((?:A|B|C|D|1|2|3|4|a|b|c|d)\))\s*([\s\S]*?)(?=(?:\b(?:A|B|C|D|1|2|3|4)[.)]|\((?:A|B|C|D|1|2|3|4|a|b|c|d)\))|$)/gi;
+                          // Detect options: (A), (B), A., B., 1., 2., (1), (2), a), b), A), B), 1), 2)
+                          const optRegex = /(?:^|\s+)(?:[ABCDabcd][\.\)]|\([ABCDabcd1234]\)|[1234][\.\)])\s+([\s\S]*?)(?=(?:^|\s+)(?:[ABCDabcd][\.\)]|\([ABCDabcd1234]\)|[1234][\.\)])\s+|$)/gi;
                           
                           const options = [];
                           let match;
