@@ -516,21 +516,31 @@ const pdfjsLib = pdfjs;
                     for (let i = 1; i <= pdf.numPages; i++) {
                         const page = await pdf.getPage(i);
                         const textContent = await page.getTextContent();
-                        const pageText = textContent.items.map((item: any) => item.str).join(' ');
-                        fullText += pageText + ' ';
+                        let pageText = '';
+                        let lastY = -1;
+                        for (const item of textContent.items) {
+                            if (lastY !== -1 && Math.abs(item.transform[5] - lastY) > 4) {
+                                pageText += '\n';
+                            } else if (pageText.length > 0 && !pageText.endsWith(' ') && !pageText.endsWith('\n')) {
+                                pageText += ' ';
+                            }
+                            pageText += item.str;
+                            lastY = item.transform[5];
+                        }
+                        fullText += pageText + '\n\n';
                     }
                     
                     let generatedQuestions = [];
                     let qNum = 1;
                     
-                    // A simple parser that looks for "1. ", "2. ", etc.
-                      // ROBUST PARSER
-                      // Split by common question delimiters: "1.", "Q1.", "1)", etc.
-                      const rawTokens = fullText.split(/(?=\b(?:Q)?\d+[.)]\s+)/gi);
-                      
-                      for (let token of rawTokens) {
-                          token = token.trim();
-                          if (!token) continue;
+                    const questionRegex = /(?:^|\n)\s*(?:Q\.?\s*)?(\d+)[\.\)]\s+/gi;
+                    const parts = fullText.split(questionRegex);
+                    
+                    for (let i = 1; i < parts.length; i += 2) {
+                        const qNumberStr = parts[i];
+                        let token = parts[i+1] || '';
+                        token = token.trim();
+                        if (!token) continue;
                           
                           // Strip the prefix (e.g. "1. ", "Q1) ")
                           let cleanToken = token.replace(/^(?:Q)?\d+[.)]\s*/i, '').trim();
@@ -2072,89 +2082,7 @@ const pdfjsLib = pdfjs;
 
           {/* Header Controls: Sunday Test Master Toggle & Notification Bell */}
           <div className="flex items-center space-x-2 sm:space-x-3">
-            {/* Enrollment Notification Bell */}
-            <div className="relative">
-              <button
-                onClick={() => setShowNotificationDrawer(prev => !prev)}
-                className={`relative px-3 py-2.5 rounded-xl font-bold text-xs transition flex items-center space-x-2 cursor-pointer shadow-md ${
-                  adminNotifications.length > 0
-                    ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-400/40 hover:bg-cyan-500/30'
-                    : 'bg-sky-50/60/10 text-stone-300 border border-white/10 hover:bg-sky-50/60/20'
-                }`}
-                title="Candidate Package Enrollment Alerts"
-              >
-                <Bell className={`w-4 h-4 ${adminNotifications.length > 0 ? 'text-cyan-400 animate-bounce' : 'text-stone-400'}`} />
-                <span className="hidden sm:inline">Alerts</span>
-                {adminNotifications.length > 0 && (
-                  <span className="px-1.5 py-0.2 rounded-full bg-sky-500 text-white font-mono text-[10px] font-black">
-                    {adminNotifications.length}
-                  </span>
-                )}
-              </button>
 
-              {/* Notification Dropdown Drawer */}
-              {showNotificationDrawer && (
-                <>
-                  <div
-                    className="fixed inset-0 z-40"
-                    onClick={() => setShowNotificationDrawer(false)}
-                  />
-                  <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-sky-50/60 rounded-2xl shadow-2xl border border-sky-200 z-50 p-8 text-sky-950 animate-in fade-in zoom-in-95 duration-150">
-                    <div className="flex items-center justify-between pb-2.5 border-b border-stone-100">
-                      <div className="flex items-center space-x-2">
-                        <Bell className="w-4 h-4 text-sky-600" />
-                        <h4 className="text-xs font-bold text-sky-950">Enrolled Package Notifications</h4>
-                      </div>
-                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-sky-100 text-sky-800">
-                        {adminNotifications.length} New
-                      </span>
-                    </div>
-
-                    <div className="mt-2.5 space-y-4 max-h-72 overflow-y-auto pr-1">
-                      {adminNotifications.length > 0 ? (
-                        adminNotifications.map(notif => (
-                          <div
-                            key={notif.id}
-                            className="p-3.5 rounded-xl border border-stone-100 bg-sky-50/70 hover:bg-sky-50/50 transition space-y-1"
-                          >
-                            <div className="flex items-start justify-between gap-3">
-                              <span className="text-xs font-bold text-sky-950">{notif.studentName}</span>
-                              <span className="text-[10px] font-mono text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded font-bold shrink-0">
-                                {notif.packagePrice || 'Free'}
-                              </span>
-                            </div>
-                            <div className="flex items-center gap-1.5 text-[11px] text-sky-700 font-semibold">
-                              <Crown className="w-3 h-3 text-cyan-500 shrink-0" />
-                              <span className="truncate">{notif.packageName || 'General Registration'}</span>
-                            </div>
-                            <div className="flex items-center justify-between text-[10px] text-sky-600 pt-1 border-t border-sky-200/50">
-                              <span className="font-mono">Roll: {notif.rollNumber}</span>
-                              <span>{new Date(notif.enrolledAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
-                            </div>
-                          </div>
-                        ))
-                      ) : (
-                        <div className="text-center py-6 text-stone-400 text-xs">
-                          No recent enrollment notifications yet.
-                        </div>
-                      )}
-                    </div>
-
-                    <div className="mt-3 pt-2.5 border-t border-stone-100">
-                      <button
-                        onClick={() => {
-                          setAdminTab('students');
-                          setShowNotificationDrawer(false);
-                        }}
-                        className="w-full py-1.5 text-center text-xs font-bold text-sky-600 hover:text-sky-800 transition"
-                      >
-                        Open Full Candidate Directory →
-                      </button>
-                    </div>
-                  </div>
-                </>
-              )}
-            </div>
 
 
 
