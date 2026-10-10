@@ -582,11 +582,6 @@ const pdfjsLib = pdfjs;
                         return;
                     }
                     
-                    // Cap at 40 if the user explicitly wants only 40
-                    if (generatedQuestions.length > 40 && confirm('We found ' + generatedQuestions.length + ' questions. Do you want to truncate to exactly 40 questions as requested?')) {
-                        generatedQuestions = generatedQuestions.slice(0, 40);
-                    }
-                    
                     const shouldAppend = confirm("Success! Found " + generatedQuestions.length + " questions. \n\nDo you want to APPEND these to your existing Question Bank? \n\nClick OK to APPEND (Add them to existing questions).\nClick Cancel to REPLACE (Clear old questions and show ONLY these).");
                     const newBank = shouldAppend ? [...storedQuestions, ...generatedQuestions] : generatedQuestions;
                     
@@ -2198,46 +2193,7 @@ const pdfjsLib = pdfjs;
         </div>
       </div>
 
-      {/* Real-Time Enrollment Notification Alert Banner */}
-      {adminNotifications.length > 0 && (
-        <div className="p-8 rounded-2xl bg-gradient-to-r from-emerald-950 via-sky-950 to-stone-900 border-2 border-emerald-500/50 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-white animate-in fade-in slide-in-from-top-3 duration-200">
-          <div className="flex items-start sm:items-center space-x-3 min-w-0">
-            <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 flex items-center justify-center shrink-0 mt-0.5 sm:mt-0">
-              <Crown className="w-5 h-5 text-cyan-400" />
-            </div>
-            <div className="min-w-0">
-              <div className="flex items-center space-x-2 flex-wrap">
-                <span className="px-2 py-0.5 rounded-full bg-emerald-500 text-stone-950 font-mono font-black text-[10px] uppercase">
-                  Candidate Enrolled
-                </span>
-                <span className="text-xs font-mono text-emerald-300">
-                  {adminNotifications[0].studentName} (Roll: {adminNotifications[0].rollNumber})
-                </span>
-                <span className="text-[10px] text-stone-400">
-                  {new Date(adminNotifications[0].enrolledAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                </span>
-              </div>
-              <p className="text-xs text-stone-200 mt-1">
-                Enrolled Package:{' '}
-                <strong className="text-white font-bold bg-sky-50/60/10 px-2 py-0.5 rounded border border-white/20">
-                  {adminNotifications[0].packageName || 'General Registration'}
-                </strong>{' '}
-                {' '}
-                &bull; Contact: +91 {adminNotifications[0].studentPhone}
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-center space-x-2 shrink-0">
-            <button
-              onClick={() => setAdminTab('students')}
-              className="px-3.5 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-stone-950 font-extrabold text-xs shadow-md transition cursor-pointer"
-            >
-              View in Directory →
-            </button>
-          </div>
-        </div>
-      )}
+      
 
       {/* Global Action Banner */}
       {actionSuccessBanner && (
