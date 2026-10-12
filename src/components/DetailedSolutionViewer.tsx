@@ -23,6 +23,52 @@ interface FormattedBlock {
   lines: string[];
 }
 
+const TRUNCATED_WORDS_MAP: Record<string, string> = {
+  'quaring': 'Squaring',
+  'ractional': 'Fractional',
+  'iven': 'Given',
+  'herefore': 'Therefore',
+  'ormula': 'Formula',
+  'ercentage': 'Percentage',
+  'otice': 'Notice',
+  'ubstituting': 'Substituting',
+  'ividing': 'Dividing',
+  'ultiplying': 'Multiplying',
+  'alculating': 'Calculating',
+  'alculation': 'Calculation',
+  'onsider': 'Consider',
+  'ssuming': 'Assuming',
+  'rom': 'From',
+  'ence': 'Hence',
+  'hus': 'Thus',
+  'ince': 'Since',
+  'alue': 'Value',
+  'atio': 'Ratio'
+};
+
+function restoreTrimmedWords(text: string): string {
+  if (!text) return text;
+  let out = text;
+  for (const [truncated, restored] of Object.entries(TRUNCATED_WORDS_MAP)) {
+    out = out.replace(new RegExp(`(^|\\n)\\s*${truncated}\\b`, 'gi'), `$1${restored}`);
+    out = out.replace(new RegExp(`(:\\s*)${truncated}\\b`, 'gi'), `$1${restored}`);
+  }
+  return out;
+}
+
+function healLineStartWord(line: string): string {
+  let cleaned = line.trim();
+  for (const [truncated, restored] of Object.entries(TRUNCATED_WORDS_MAP)) {
+    if (cleaned.toLowerCase().startsWith(truncated.toLowerCase())) {
+      const rest = cleaned.slice(truncated.length);
+      if (rest.length === 0 || /^\s|[^a-zA-Z]/.test(rest)) {
+        return restored + rest;
+      }
+    }
+  }
+  return cleaned;
+}
+
 /**
  * Parses raw explanation into clean, authentic textbook solution blocks.
  * Preserves math formulas, side-by-side tables (e.g. SI | New system), and step numbers.
@@ -30,13 +76,13 @@ interface FormattedBlock {
 function parseSolutionBlocks(rawText: string): FormattedBlock[] {
   if (!rawText || !rawText.trim()) return [];
 
-  // 1. Clean OCR & math typography
-  const cleaned = formatMathAndFormulas(cleanOcrText(rawText));
+  // 1. Clean OCR, math typography & restore any trimmed words
+  const cleaned = restoreTrimmedWords(formatMathAndFormulas(cleanOcrText(rawText)));
 
   // 2. Normalize and split by section or newlines
   const rawLines = cleaned
     .split(/\r?\n+/)
-    .map(l => l.trim())
+    .map(l => healLineStartWord(l.trim()))
     .filter(l => l.length > 0);
 
   const blocks: FormattedBlock[] = [];
@@ -56,7 +102,7 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
       currentBlock = {
         type: 'concept',
         title: 'Concept & Principle',
-        lines: afterColon ? [afterColon] : []
+        lines: afterColon ? [healLineStartWord(afterColon)] : []
       };
       continue;
     }
@@ -67,7 +113,7 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
       currentBlock = {
         type: 'derivation',
         title: 'Step-by-Step Derivation & Calculations',
-        lines: afterColon ? [afterColon] : []
+        lines: afterColon ? [healLineStartWord(afterColon)] : []
       };
       continue;
     }
@@ -78,7 +124,7 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
       currentBlock = {
         type: 'note',
         title: 'Key Note & Strategy',
-        lines: afterColon ? [afterColon] : []
+        lines: afterColon ? [healLineStartWord(afterColon)] : []
       };
       continue;
     }
@@ -91,7 +137,7 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
 
     // Add line to current active block
     if (cleanLine) {
-      currentBlock.lines.push(cleanLine);
+      currentBlock.lines.push(healLineStartWord(cleanLine));
     }
   }
 
@@ -182,13 +228,13 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
             )}
 
             {/* Content Lines */}
-            <div className="space-y-1.5 font-sans">
+            <div className="space-y-2 font-sans">
               {block.lines.map((line, lIdx) => {
                 // Table / Column line with '|' (e.g. SI | New system)
                 if (isTableLine(line)) {
                   const [left, right] = line.split('|').map(s => s.trim());
                   return (
-                    <div key={lIdx} className="grid grid-cols-2 gap-4 py-1 px-3 bg-stone-50/70 dark:bg-stone-800/40 rounded border border-stone-100 dark:border-stone-800 text-xs sm:text-sm">
+                    <div key={lIdx} className="grid grid-cols-2 gap-4 py-1.5 px-3 bg-stone-50/70 dark:bg-stone-800/40 rounded border border-stone-100 dark:border-stone-800 text-xs sm:text-sm">
                       <div className="text-left font-mono font-medium">{left}</div>
                       <div className="border-l border-stone-200 dark:border-stone-700 pl-4 font-mono font-medium">{right}</div>
                     </div>
@@ -212,19 +258,9 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
                   );
                 }
 
-                // Math equation lines (centered/indented feel if contains '=' or equations)
-                const isMathEquation = /[=+\-×/÷^∫√Δ∝⟹]/.test(line) && line.length < 80 && line.includes('=');
-                if (isMathEquation) {
-                  return (
-                    <div key={lIdx} className="py-1 px-2 text-stone-900 dark:text-stone-100 font-medium pl-3 border-l-2 border-stone-200 dark:border-stone-700 my-1 bg-stone-50/50 dark:bg-stone-800/20 rounded-r">
-                      {line}
-                    </div>
-                  );
-                }
-
-                // Standard paragraph text line
+                // Clean derivation and calculation lines matching textbook style
                 return (
-                  <p key={lIdx} className="m-0 text-stone-800 dark:text-stone-200 font-normal">
+                  <p key={lIdx} className="m-0 text-stone-800 dark:text-stone-200 font-normal leading-relaxed">
                     {line}
                   </p>
                 );
