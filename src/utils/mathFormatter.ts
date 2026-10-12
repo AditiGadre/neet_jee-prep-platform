@@ -223,21 +223,21 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
   }
 
   // Add newline before A. B. C. D.
-  out = out.replace(/(?:,\s*|\s+)([A-D]\.\s+[A-Za-z])/g, '\n');
+  out = out.replace(/(?:,\s*|\s+)([A-D]\.\s+[A-Za-z])/g, '\n$1');
   
   if (!isMatchColumns) {
     // Add newline before (i) (ii) (iii) (iv)
-    out = out.replace(/(?:,\s*|\s+)(\((?:i|ii|iii|iv|v|vi)\)\s+[A-Za-z])/gi, '\n');
+    out = out.replace(/(?:,\s*|\s+)(\((?:i|ii|iii|iv|v|vi)\)\s+[A-Za-z])/gi, '\n$1');
     // Add newline before 1. 2. 3. 4.
-    out = out.replace(/(?:,\s*|\s+)([1-4]\.\s+[A-Za-z])/g, '\n');
+    out = out.replace(/(?:,\s*|\s+)([1-4]\.\s+[A-Za-z])/g, '\n$1');
   }
 
   // Add newline before Statement I, Statement II, etc.
-  out = out.replace(/(?:,\s*|\s+)(Statement\s*(?:I|II|III|IV|1|2|3|4):?)/gi, '\n');
+  out = out.replace(/(?:,\s*|\s+)(Statement\s*(?:I|II|III|IV|1|2|3|4):?)/gi, '\n$1');
   // Add newline before Assertion (A): / Reason (R):
-  out = out.replace(/(?:,\s*|\s+)(Assertion\s*\([A-Z]\):?|Reason\s*\([A-Z]\):?)/gi, '\n');
+  out = out.replace(/(?:,\s*|\s+)(Assertion\s*\([A-Z]\):?|Reason\s*\([A-Z]\):?)/gi, '\n$1');
   // Add newline before Assertion and Reason when they just use A and R
-  out = out.replace(/(?:,\s*|\s+)(Assertion\s*:?|Reason\s*:?)/gi, '\n');
+  out = out.replace(/(?:,\s*|\s+)(Assertion\s*:?|Reason\s*:?)/gi, '\n$1');
 
   out = out.replace(/\n{3,}/g, '\n\n');
   return out.trim();

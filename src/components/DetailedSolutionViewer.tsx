@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { cleanOcrText } from '../utils/ocrCleaner';
-import { BookOpen, Sparkles, CheckCircle2, Zap, ArrowRight } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
 
 export interface DetailedSolutionViewerProps {
   explanation: string | null | undefined;
@@ -17,248 +17,96 @@ export interface DetailedSolutionViewerProps {
   solutionImage?: string;
 }
 
-interface ParsedSection {
-  type: 'concept' | 'derivation' | 'protip' | 'general';
-  title: string;
-  icon: React.ReactNode;
+interface FormattedBlock {
+  type: 'concept' | 'derivation' | 'note' | 'general';
+  title?: string;
   lines: string[];
 }
 
 /**
- * Splits a derivation or calculation block into distinct, sequential, step-by-step lines.
- * Handles equations (e.g. W = ... dV W = ... W = ...) or multiple sentences squashed together,
- * ensuring each mathematical equation is on its own separate line with clear numbering.
+ * Parses raw explanation into clean, authentic textbook solution blocks.
+ * Preserves math formulas, side-by-side tables (e.g. SI | New system), and step numbers.
  */
-function splitDerivationSteps(text: string): string[] {
-    if (!text) return [];
-    const rawLines = text
-      .split(/\r?\n+/)
-      .map(l => l.trim())
-      .filter(l => l.length > 0);
-  
-    const steps: string[] = [];
-    for (const line of rawLines) {
-      const cleanLine = line.replace(/^[-\*]\s*/, '').trim();
-      steps.push(cleanLine);
-    }
-    return steps.filter(s => s.length > 0);
-  }
-
-/**
- * Normalizes explanations ensuring headings and bodies are cleanly separated by line breaks,
- * even if markdown headers were previously squashed onto a single line.
- */
-function normalizeExplanationText(text: string): string {
-  let out = text;
-
-  // Step 1: Ensure newline after headers
-  out = out.replace(
-    /(###\s*(?:📘|⚡|✓|💡)?\s*(?:NCERT\s*(?:Fundamental\s*)?Concept|Step-by-Step\s*(?:Derivation\s*&\s*)?Calculations|Step-by-Step\s*Derivation|Examiner(?:'s)?\s*(?:Pro-)?Tip(?:\s*&\s*(?:Core\s*Principle|Key\s*Takeaway))?|Core\s*Principle|Detailed\s*(?:Concept\s*)?(?:Derivation|Solution)|Concept\s*Reference)\s*:?)\s*/gi,
-    '$1\n\n'
-  );
-
-  // Step 2: Ensure newline before headers (if not start of string)
-  out = out.replace(
-    /(?<!^)\s*(###\s*(?:📘|⚡|✓|💡)?)/gi,
-    '\n\n$1'
-  );
-
-  return out.trim();
-}
-
-/**
- * Intelligently organizes unstructured or sparse explanation text into
- * NCERT Concept, Step-by-Step Derivation & Calculations, and Core Principle sections.
- */
-function organizeUnstructuredExplanation(text: string): ParsedSection[] {
-  const rawSentences = text
-    .split(/(?<=[.!?])\s+(?=[A-Z0-9(])/g)
-    .map(s => s.trim())
-    .filter(Boolean);
-
-  if (rawSentences.length <= 1) {
-    const hasMath = /[=+\-×/÷^∫√Δ]/.test(text) && /\d/.test(text);
-    if (hasMath) {
-      return [
-        {
-          type: 'derivation',
-          title: 'Step-by-Step Derivation & Calculations',
-          icon: <Zap className="w-4 h-4 text-sky-600 shrink-0" />,
-          lines: splitDerivationSteps(text)
-        }
-      ];
-    }
-    return [
-      {
-        type: 'concept',
-        title: 'NCERT Fundamental Concept',
-        icon: <BookOpen className="w-4 h-4 text-sky-600 shrink-0" />,
-        lines: [text]
-      }
-    ];
-  }
-
-  const conceptLines: string[] = [];
-  const derivationLines: string[] = [];
-  const takeawayLines: string[] = [];
-
-  for (let i = 0; i < rawSentences.length; i++) {
-    const s = rawSentences[i];
-    const isTakeaway =
-      /^(?:Hence|Therefore|Thus|So|Consequently|Correct\s*Option|In\s*conclusion)/i.test(s) ||
-      (i === rawSentences.length - 1 && rawSentences.length > 2);
-    const isMath = /[=+\-×/÷^∫√Δ]/.test(s) && (/\d/.test(s) || s.includes('='));
-
-    if (isTakeaway && (conceptLines.length > 0 || derivationLines.length > 0)) {
-      takeawayLines.push(s);
-    } else if (isMath) {
-      derivationLines.push(s);
-    } else {
-      conceptLines.push(s);
-    }
-  }
-
-  const sections: ParsedSection[] = [];
-  if (conceptLines.length > 0) {
-    sections.push({
-      type: 'concept',
-      title: 'NCERT Fundamental Concept',
-      icon: <BookOpen className="w-4 h-4 text-sky-600 shrink-0" />,
-      lines: conceptLines
-    });
-  }
-  if (derivationLines.length > 0) {
-    const allDerivationLines = takeawayLines.length > 0 ? [...derivationLines, ...takeawayLines] : derivationLines;
-    const allMath = allDerivationLines.join('\n');
-    sections.push({
-      type: 'derivation',
-      title: 'Step-by-Step Derivation & Calculations',
-      icon: <Zap className="w-4 h-4 text-sky-600 shrink-0" />,
-      lines: splitDerivationSteps(allMath)
-    });
-  } else if (takeawayLines.length > 0) {
-    conceptLines.push(...takeawayLines);
-  }
-
-  return sections.length > 0
-    ? sections
-    : [
-        {
-          type: 'general',
-          title: 'Detailed Solution',
-          icon: <BookOpen className="w-4 h-4 text-sky-500 shrink-0" />,
-          lines: [text]
-        }
-      ];
-}
-
-/**
- * Parses raw explanation into distinct semantic sections:
- * - 📘 NCERT Fundamental Concept
- * - ⚡ Step-by-Step Derivation & Calculations
- * - 💡 Examiner Pro-Tip / Core Principle
- */
-function parseExplanation(rawText: string): ParsedSection[] {
+function parseSolutionBlocks(rawText: string): FormattedBlock[] {
   if (!rawText || !rawText.trim()) return [];
 
-  // Format math and clean OCR while strictly preserving newlines
-  const formatted = formatMathAndFormulas(cleanOcrText(rawText));
+  // 1. Clean OCR & math typography
+  const cleaned = formatMathAndFormulas(cleanOcrText(rawText));
 
-  // Normalize header and body demarcation
-  const normalized = normalizeExplanationText(formatted);
+  // 2. Normalize and split by section or newlines
+  const rawLines = cleaned
+    .split(/\r?\n+/)
+    .map(l => l.trim())
+    .filter(l => l.length > 0);
 
-  // Check if markdown section dividers exist
-  const hasMarkdownSections = /###/i.test(normalized);
+  const blocks: FormattedBlock[] = [];
+  let currentBlock: FormattedBlock = { type: 'general', lines: [] };
 
-  if (!hasMarkdownSections) {
-    return organizeUnstructuredExplanation(normalized);
-  }
+  for (const line of rawLines) {
+    const stripped = line.replace(/[📘⚡💡✓✨]/g, '').trim();
 
-  // Split on markdown header boundaries
-  const tokens = normalized.split(/(?=\n\n###|^###)/g).map(t => t.trim()).filter(Boolean);
-  const sections: ParsedSection[] = [];
+    // Check for Section Header triggers
+    const isConceptHeader = /^(?:NCERT\s*(?:Fundamental\s*)?Concept|Core\s*Concept|Concept\s*Reference)\s*:?/i.test(stripped);
+    const isDerivationHeader = /^(?:Step-by-Step\s*(?:Derivation\s*&\s*)?Calculations|Step-by-Step\s*Derivation|Working\s*&\s*Calculation|Derivation|Calculations)\s*:?/i.test(stripped);
+    const isNoteHeader = /^(?:Examiner(?:'s)?\s*(?:Pro-)?Tip|Core\s*Principle|Key\s*(?:Takeaway|Formula|Note)|Exam\s*Tip)\s*:?/i.test(stripped);
 
-  for (const token of tokens) {
-    const lines = token.split(/\r?\n+/).map(l => l.trim()).filter(Boolean);
-    if (lines.length === 0) continue;
-
-    const header = lines[0];
-    const headerLower = header.toLowerCase();
-    const rawBodyLines = lines.slice(1);
-
-    let type: 'concept' | 'derivation' | 'protip' | 'general' = 'general';
-    let title = 'NCERT Fundamental Concept';
-    let icon: React.ReactNode = <BookOpen className="w-4 h-4 text-sky-600 shrink-0" />;
-
-    if (
-      headerLower.includes('concept') ||
-      headerLower.includes('ncert') ||
-      headerLower.includes('fundamental') ||
-      headerLower.includes('theory') ||
-      header.includes('📘')
-    ) {
-      type = 'concept';
-      title = 'NCERT Fundamental Concept';
-      icon = <BookOpen className="w-4 h-4 text-sky-600 shrink-0" />;
-    } else if (
-      headerLower.includes('derivation') ||
-      headerLower.includes('calculation') ||
-      headerLower.includes('step') ||
-      headerLower.includes('working') ||
-      header.includes('⚡')
-    ) {
-      type = 'derivation';
-      title = 'Step-by-Step Derivation & Calculations';
-      icon = <Zap className="w-4 h-4 text-sky-600 shrink-0" />;
-    } else if (
-      headerLower.includes('tip') ||
-      headerLower.includes('principle') ||
-      headerLower.includes('takeaway') ||
-      headerLower.includes('examiner') ||
-      header.includes('✓') ||
-      header.includes('💡')
-    ) {
-      // Omit examiner pro-tips from detailed solutions per user instruction
+    if (isConceptHeader) {
+      if (currentBlock.lines.length > 0) blocks.push(currentBlock);
+      const afterColon = stripped.replace(/^(?:NCERT\s*(?:Fundamental\s*)?Concept|Core\s*Concept|Concept\s*Reference)\s*:?\s*/i, '').trim();
+      currentBlock = {
+        type: 'concept',
+        title: 'Concept & Principle',
+        lines: afterColon ? [afterColon] : []
+      };
       continue;
     }
 
-    // Join body lines and strip any accidental markdown header remnants
-    let body = rawBodyLines.join('\n').replace(/^###\s*/g, '').replace(/###$/g, '').trim();
-
-    // If body was somehow on the same line as header, strip header prefix
-    if (!body && lines.length === 1) {
-      body = header
-        .replace(
-          /^###\s*(?:📘|⚡|✓|💡)?\s*(?:NCERT\s*(?:Fundamental\s*)?Concept|Step-by-Step\s*(?:Derivation\s*&\s*)?Calculations|Step-by-Step\s*Derivation|Examiner(?:'s)?\s*(?:Pro-)?Tip(?:\s*&\s*(?:Core\s*Principle|Key\s*Takeaway))?|Core\s*Principle|Detailed\s*(?:Concept\s*)?(?:Derivation|Solution)|Concept\s*Reference)?\s*:?/i,
-          ''
-        )
-        .trim();
+    if (isDerivationHeader) {
+      if (currentBlock.lines.length > 0) blocks.push(currentBlock);
+      const afterColon = stripped.replace(/^(?:Step-by-Step\s*(?:Derivation\s*&\s*)?Calculations|Step-by-Step\s*Derivation|Working\s*&\s*Calculation|Derivation|Calculations)\s*:?\s*/i, '').trim();
+      currentBlock = {
+        type: 'derivation',
+        title: 'Step-by-Step Derivation & Calculations',
+        lines: afterColon ? [afterColon] : []
+      };
+      continue;
     }
 
-    if (!body) continue;
+    if (isNoteHeader) {
+      if (currentBlock.lines.length > 0) blocks.push(currentBlock);
+      const afterColon = stripped.replace(/^(?:Examiner(?:'s)?\s*(?:Pro-)?Tip|Core\s*Principle|Key\s*(?:Takeaway|Formula|Note)|Exam\s*Tip)\s*:?\s*/i, '').trim();
+      currentBlock = {
+        type: 'note',
+        title: 'Key Note & Strategy',
+        lines: afterColon ? [afterColon] : []
+      };
+      continue;
+    }
 
-    if (type === 'derivation') {
-      const steps = splitDerivationSteps(body);
-      sections.push({ type, title, icon, lines: steps.length > 0 ? steps : [body] });
-    } else {
-      const cleanLines = body
-        .split(/\r?\n+/)
-        .map(l => l.trim().replace(/^[•\-\*]\s*/, ''))
-        .filter(Boolean);
+    // Clean inline headers if present
+    let cleanLine = stripped
+      .replace(/^###\s*/, '')
+      .replace(/^\*\*(.*?)\*\*:?/, '$1:')
+      .trim();
 
-      if (cleanLines.length === 1 && cleanLines[0].length > 110) {
-        const sentences = cleanLines[0]
-          .split(/(?<=[.!?])\s+(?=[A-Z0-9(])/g)
-          .map(s => s.trim())
-          .filter(Boolean);
-        sections.push({ type, title, icon, lines: sentences.length > 1 ? sentences : cleanLines });
-      } else {
-        sections.push({ type, title, icon, lines: cleanLines.length > 0 ? cleanLines : [body] });
-      }
+    // Add line to current active block
+    if (cleanLine) {
+      currentBlock.lines.push(cleanLine);
     }
   }
 
-  return sections.length > 0 ? sections : organizeUnstructuredExplanation(normalized);
+  if (currentBlock.lines.length > 0) {
+    blocks.push(currentBlock);
+  }
+
+  return blocks;
+}
+
+/**
+ * Checks whether a line contains a column divider (e.g. "SI | New system" or "M1 = 1 kg | M2 = a kg")
+ */
+function isTableLine(line: string): boolean {
+  return line.includes('|') && line.split('|').length === 2;
 }
 
 export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
@@ -274,130 +122,117 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
   questionText,
   solutionImage
 }) => {
-  const sections = useMemo(
-      () => {
-        let parsed = parseExplanation(explanation || '').filter(s => s.type !== 'protip');
-        // Cap step-by-step solution to exactly 5 lines max per user request
-        parsed = parsed.map(s => ({
-            ...s,
-            lines: s.lines.slice(0, 5)
-        }));
-        return parsed;
-      },
-      [explanation]
-    );
-
-  const conceptSection = sections.find(s => s.type === 'concept');
-  const conceptText = conceptSection && conceptSection.lines.length > 0 ? conceptSection.lines[0] : '';
+  const blocks = useMemo(() => parseSolutionBlocks(explanation || ''), [explanation]);
 
   if (!explanation || !explanation.trim()) {
     return (
-      <div className={`space-y-3 font-sans ${className}`}>
-        <div className="p-3.5 rounded-xl bg-sky-50 border border-sky-200 text-xs text-sky-600 italic">
-          Standard NCERT textbook derivation & reference solution.
-        </div>
+      <div className={`p-4 rounded-xl bg-stone-50 dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-xs text-stone-500 italic ${className}`}>
+        Standard textbook derivation & solution reference.
       </div>
     );
   }
 
+  const correctOptionLetter = typeof correctAnswer === 'number' ? String.fromCharCode(65 + correctAnswer) : null;
+  const correctOptionText = typeof correctAnswer === 'number' && options && options[correctAnswer] ? options[correctAnswer] : null;
+
   return (
-    <div className={`space-y-3 font-sans ${className}`}>
+    <div className={`rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/90 shadow-xs p-4 sm:p-6 text-stone-800 dark:text-stone-200 ${className}`}>
+      {/* Solution Image if provided */}
       {solutionImage && (
-        <div className="mb-4 p-3 bg-sky-50/60 border border-sky-200 rounded-2xl flex justify-center items-center shadow-xs">
-          <img src={solutionImage} alt="Detailed Solution" className="max-h-72 rounded-xl object-contain" />
+        <div className="mb-4 p-2 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-lg flex justify-center items-center">
+          <img src={solutionImage} alt="Solution Diagram" className="max-h-80 rounded object-contain" />
         </div>
       )}
-      {/* Optional Correct Answer Header Banner */}
-      {showCorrectOptionHeader && typeof correctAnswer === 'number' && options && options[correctAnswer] && (
-        <div className="flex items-center gap-4 px-3 py-2 rounded-xl bg-emerald-50 border border-emerald-200 text-xs text-emerald-900 font-medium">
-          <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-          <span>
-            Correct Option: <strong className="font-bold font-mono">({String.fromCharCode(65 + correctAnswer)})</strong> {options[correctAnswer]}
+
+      {/* Header: Answer / Solution Banner (matching image 3) */}
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-stone-100 dark:border-stone-800">
+        <div className="flex items-center gap-2">
+          <span className="font-serif font-bold text-base sm:text-lg text-stone-950 dark:text-stone-50">
+            Answer:
           </span>
-        </div>
-      )}
-
-      {/* Render Each Structured Section - strictly one after another on next lines/cards */}
-      {sections.map((sec, sIdx) => {
-        if (sec.type === 'concept') {
-          return (
-            <div
-              key={sIdx}
-              className="rounded-2xl border border-sky-200 bg-gradient-to-br from-sky-50/80 via-sky-50/30 to-white p-3.5 sm:p-6 space-y-2 shadow-xs"
-            >
-              <div className="flex items-center gap-4 text-xs font-bold text-sky-900 uppercase tracking-wider border-b border-sky-100 pb-1.5">
-                {sec.icon}
-                <span>{sec.title}</span>
-              </div>
-              <div className="space-y-1.5 text-xs sm:text-sm text-sky-900 leading-relaxed font-normal">
-                {sec.lines.map((line, lIdx) => (
-                  <p key={lIdx} className="m-0 font-medium text-sky-950 bg-sky-50/60/70 p-3.5 rounded-xl border border-sky-100/90 shadow-2xs">
-                    {line.endsWith('.') || line.endsWith(';') || line.endsWith(':') || line.endsWith(')') ? line : `${line}.`}
-                  </p>
-                ))}
-              </div>
-            </div>
-          );
-        }
-
-        if (sec.type === 'derivation') {
-          return (
-            <div
-              key={sIdx}
-              className="rounded-2xl border border-sky-200/90 bg-gradient-to-br from-sky-50/60 via-sky-50/20 to-white p-3.5 sm:p-6 space-y-3 shadow-xs"
-            >
-              <div className="flex items-center justify-between border-b border-sky-200/60 pb-1.5">
-                <div className="flex items-center gap-4 text-xs font-bold text-sky-950 uppercase tracking-wider">
-                  {sec.icon}
-                  <span>{sec.title}</span>
-                </div>
-                <span className="text-[10px] font-mono font-bold text-sky-800 bg-sky-100/90 px-2 py-0.5 rounded-full border border-sky-200">
-                  {sec.lines.length} Step{sec.lines.length === 1 ? '' : 's'}
+          {correctOptionLetter && (
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-emerald-50 dark:bg-emerald-950/70 border border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-200 text-xs sm:text-sm font-semibold">
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
+              <span>Option ({correctOptionLetter})</span>
+              {correctOptionText && (
+                <span className="font-normal text-emerald-900 dark:text-emerald-100 border-l border-emerald-300 dark:border-emerald-700 pl-1.5 ml-0.5 truncate max-w-xs sm:max-w-md">
+                  {correctOptionText}
                 </span>
+              )}
+            </span>
+          )}
+        </div>
+
+        {chapter && (
+          <span className="text-[11px] font-medium text-stone-500 dark:text-stone-400">
+            {chapter}
+          </span>
+        )}
+      </div>
+
+      {/* Main Solution Body */}
+      <div className="space-y-4 text-xs sm:text-sm leading-relaxed">
+        {blocks.map((block, bIdx) => (
+          <div key={bIdx} className="space-y-2">
+            {/* Clean Section Subheading if applicable */}
+            {block.title && (
+              <div className="text-xs font-bold tracking-wide uppercase text-stone-700 dark:text-stone-300 pt-1 pb-0.5 border-b border-stone-100 dark:border-stone-800/60">
+                {block.title}:
               </div>
+            )}
 
-              {/* Step-by-Step Distinct Lines with Visual Flow */}
-              <div className="space-y-2 relative">
-                {sec.lines.map((line, lIdx) => (
-                  <div key={lIdx} className="relative flex items-start gap-4.5 sm:gap-3 group">
-                    {/* Step Badge */}
-                    <div className="shrink-0 flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-sky-100/90 border border-sky-300 text-sky-900 font-mono text-[10px] sm:text-xs font-bold shadow-2xs mt-0.5">
-                      {lIdx + 1}
+            {/* Content Lines */}
+            <div className="space-y-1.5 font-sans">
+              {block.lines.map((line, lIdx) => {
+                // Table / Column line with '|' (e.g. SI | New system)
+                if (isTableLine(line)) {
+                  const [left, right] = line.split('|').map(s => s.trim());
+                  return (
+                    <div key={lIdx} className="grid grid-cols-2 gap-4 py-1 px-3 bg-stone-50/70 dark:bg-stone-800/40 rounded border border-stone-100 dark:border-stone-800 text-xs sm:text-sm">
+                      <div className="text-left font-mono font-medium">{left}</div>
+                      <div className="border-l border-stone-200 dark:border-stone-700 pl-4 font-mono font-medium">{right}</div>
                     </div>
+                  );
+                }
 
-                    {/* Step Equation / Calculation Box */}
-                    <div className="flex-1 min-w-0 p-3.5 sm:p-3 rounded-xl bg-sky-50/60 border border-sky-200/60 text-xs sm:text-sm text-sky-950 font-mono leading-relaxed overflow-x-auto shadow-2xs font-semibold">
+                // Step-by-Step numbered lines (e.g. "1. Formula: ...", "2. ...", "Step 1: ...")
+                const stepMatch = line.match(/^(\d+\.|Step\s*\d+:?)\s*(.*)/i);
+                if (stepMatch) {
+                  const stepNum = stepMatch[1];
+                  const stepBody = stepMatch[2];
+                  return (
+                    <div key={lIdx} className="flex items-start gap-2.5 py-0.5 pl-1">
+                      <span className="font-semibold text-stone-900 dark:text-stone-100 shrink-0 font-mono text-xs sm:text-sm">
+                        {stepNum}
+                      </span>
+                      <span className="flex-1 text-stone-800 dark:text-stone-200">
+                        {stepBody}
+                      </span>
+                    </div>
+                  );
+                }
+
+                // Math equation lines (centered/indented feel if contains '=' or equations)
+                const isMathEquation = /[=+\-×/÷^∫√Δ∝⟹]/.test(line) && line.length < 80 && line.includes('=');
+                if (isMathEquation) {
+                  return (
+                    <div key={lIdx} className="py-1 px-2 text-stone-900 dark:text-stone-100 font-medium pl-3 border-l-2 border-stone-200 dark:border-stone-700 my-1 bg-stone-50/50 dark:bg-stone-800/20 rounded-r">
                       {line}
                     </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          );
-        }
+                  );
+                }
 
-        // Fallback / General
-        return (
-          <div
-            key={sIdx}
-            className="rounded-2xl border border-sky-200 bg-sky-50/80 p-3.5 sm:p-6 space-y-2"
-          >
-            <div className="flex items-center gap-4 text-xs font-bold text-sky-900 uppercase tracking-wider border-b border-sky-200 pb-1.5">
-              {sec.icon}
-              <span>{sec.title}</span>
-            </div>
-            <div className="space-y-1.5 text-xs sm:text-sm text-sky-900 leading-relaxed">
-              {sec.lines.map((line, lIdx) => (
-                <p key={lIdx} className="m-0">
-                  {line.endsWith('.') || line.endsWith(';') || line.endsWith(':') ? line : `${line}.`}
-                </p>
-              ))}
+                // Standard paragraph text line
+                return (
+                  <p key={lIdx} className="m-0 text-stone-800 dark:text-stone-200 font-normal">
+                    {line}
+                  </p>
+                );
+              })}
             </div>
           </div>
-        );
-      })}
+        ))}
+      </div>
     </div>
   );
 };
-
-
