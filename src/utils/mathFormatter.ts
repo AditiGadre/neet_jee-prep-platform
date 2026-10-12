@@ -230,41 +230,169 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
   }
 
   // Auto-restore any previously trimmed academic/derivation words
-  const TRUNCATED_WORDS_MAP: Record<string, string> = {
-    'recision': 'Precision',
-    'ccuracy': 'Accuracy',
-    'quaring': 'Squaring',
-    'ractional': 'Fractional',
-    'iven': 'Given',
-    'herefore': 'Therefore',
-    'ormula': 'Formula',
-    'ercentage': 'Percentage',
-    'otice': 'Notice',
-    'ubstituting': 'Substituting',
-    'ividing': 'Dividing',
-    'ultiplying': 'Multiplying',
-    'alculating': 'Calculating',
-    'alculation': 'Calculation',
-    'onsider': 'Consider',
-    'ssuming': 'Assuming',
-    'rom': 'From',
-    'ence': 'Hence',
-    'hus': 'Thus',
-    'ince': 'Since',
-    'alue': 'Value',
-    'atio': 'Ratio',
-    'measurement with': 'A measurement with',
-    'easured': 'Measured',
-    'imensions': 'Dimensions',
-    'ensity': 'Density'
-  };
+  out = healTruncatedText(out);
 
+  out = out.replace(/\n{3,}/g, '\n\n');
+  return out.trim();
+}
+
+export const TRUNCATED_WORDS_MAP: Record<string, string> = {
+  'recision': 'Precision',
+  'ccuracy': 'Accuracy',
+  'quaring': 'Squaring',
+  'ractional': 'Fractional',
+  'iven': 'Given',
+  'herefore': 'Therefore',
+  'ormula': 'Formula',
+  'ercentage': 'Percentage',
+  'otice': 'Notice',
+  'ubstituting': 'Substituting',
+  'ividing': 'Dividing',
+  'ultiplying': 'Multiplying',
+  'alculating': 'Calculating',
+  'alculation': 'Calculation',
+  'onsider': 'Consider',
+  'ssuming': 'Assuming',
+  'rom': 'From',
+  'ence': 'Hence',
+  'hus': 'Thus',
+  'ince': 'Since',
+  'alue': 'Value',
+  'atio': 'Ratio',
+  'measurement with': 'A measurement with',
+  'easured': 'Measured',
+  'imensions': 'Dimensions',
+  'ensity': 'Density',
+  'ystematic': 'Systematic',
+  'ero error': 'Zero error',
+  'ero': 'Zero',
+  'very measurement': 'Every measurement',
+  'very': 'Every',
+  'elocity': 'Velocity',
+  'cceleration': 'Acceleration',
+  'ressure': 'Pressure',
+  'orce': 'Force',
+  'nergy': 'Energy',
+  'omentum': 'Momentum',
+  'requency': 'Frequency',
+  'ave': 'Wave',
+  'urrent': 'Current',
+  'oltage': 'Voltage',
+  'esistance': 'Resistance',
+  'apacitance': 'Capacitance',
+  'agnetic': 'Magnetic',
+  'lectric': 'Electric',
+  'harge': 'Charge',
+  'otential': 'Potential',
+  'ield': 'Field',
+  'emperature': 'Temperature',
+  'eat': 'Heat',
+  'olume': 'Volume',
+  'ass': 'Mass',
+  'ength': 'Length',
+  'ime': 'Time',
+  'adius': 'Radius',
+  'istance': 'Distance',
+  'isplacement': 'Displacement',
+  'peed': 'Speed',
+  'quation': 'Equation',
+  'olving': 'Solving',
+  'implifying': 'Simplifying',
+  'earranging': 'Rearranging',
+  'equating': 'Equating',
+  'aking': 'Taking',
+  'pplying': 'Applying',
+  'sing': 'Using',
+  'et': 'Let',
+  'ccording': 'According',
+  'utting': 'Putting',
+  'nserting': 'Inserting',
+  'bserve': 'Observe',
+  'ote': 'Note',
+  'he': 'The',
+  'his': 'This',
+  'hese': 'These',
+  'ere': 'Here',
+  'here': 'There',
+  'irst': 'First',
+  'econd': 'Second',
+  'hird': 'Third',
+  'ourth': 'Fourth',
+  'ifth': 'Fifth',
+  'otal': 'Total',
+  'nitial': 'Initial',
+  'inal': 'Final',
+  'aximum': 'Maximum',
+  'inimum': 'Minimum',
+  'elative': 'Relative',
+  'bsolute': 'Absolute',
+  'rror': 'Error',
+  'orizontal': 'Horizontal',
+  'ertical': 'Vertical',
+  'omponent': 'Component',
+  'irection': 'Direction',
+  'agnitude': 'Magnitude',
+  'ngle': 'Angle',
+  'onstant': 'Constant',
+  'roportional': 'Proportional',
+  'irectly': 'Directly',
+  'nversely': 'Inversely',
+  'qual': 'Equal',
+  'reater': 'Greater',
+  'ess': 'Less',
+  'igher': 'Higher',
+  'ower': 'Lower',
+  'ositive': 'Positive',
+  'egative': 'Negative',
+  'esult': 'Result',
+  'esultant': 'Resultant',
+  'orrect': 'Correct',
+  'ncorrect': 'Incorrect',
+  'tatement': 'Statement',
+  'uestion': 'Question',
+  'nswer': 'Answer',
+  'xplanation': 'Explanation',
+  'erivation': 'Derivation',
+  'tep': 'Step',
+  'onclusion': 'Conclusion',
+  'rinciple': 'Principle',
+  'heorem': 'Theorem',
+  'aw': 'Law',
+  'nit': 'Unit',
+  'easurement': 'Measurement',
+  'nstrument': 'Instrument',
+  'ernier': 'Vernier',
+  'crew': 'Screw',
+  'east': 'Least',
+  'itch': 'Pitch',
+  'ain': 'Main',
+  'ircular': 'Circular'
+};
+
+export function healTruncatedText(text: string | null | undefined): string {
+  if (!text) return '';
+  let out = String(text);
   for (const [truncated, restored] of Object.entries(TRUNCATED_WORDS_MAP)) {
     out = out.replace(new RegExp(`(^|\\n)\\s*${truncated}\\b`, 'gi'), `$1${restored}`);
     out = out.replace(new RegExp(`(:\\s*)${truncated}\\b`, 'gi'), `$1${restored}`);
   }
+  return out;
+}
 
-  out = out.replace(/\n{3,}/g, '\n\n');
-  return out.trim();
+export function healLineStartWord(line: string): string {
+  let cleaned = line.trim();
+  for (const [truncated, restored] of Object.entries(TRUNCATED_WORDS_MAP)) {
+    if (cleaned.toLowerCase().startsWith(truncated.toLowerCase())) {
+      const rest = cleaned.slice(truncated.length);
+      if (rest.length === 0 || /^\s|[^a-zA-Z]/.test(rest)) {
+        return restored + rest;
+      }
+    }
+  }
+  // Fallback: capitalize initial letter if a sentence begins with lowercase
+  if (/^[a-z]/.test(cleaned)) {
+    return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+  }
+  return cleaned;
 }
 

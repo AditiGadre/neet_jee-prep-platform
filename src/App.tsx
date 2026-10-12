@@ -50,7 +50,79 @@ import {
   getSavedCustomSundayPaper
 } from './data/sundayPlannerTests';
 import { fetchAuthoritativePaper } from './services/authoritativeCloudService';
+import { healTruncatedText } from './utils/mathFormatter';
 import { ExamType, TestItem, BookItem, UserTestResult } from './types';
+
+/**
+ * Automatically inspects and heals explanations in cached local storage papers/tests.
+ */
+function healLocalSavedTestExplanations(): void {
+  if (typeof window === 'undefined' || !window.localStorage) return;
+
+  const healQuestionArray = (questions: any[]): boolean => {
+    let modified = false;
+    if (!Array.isArray(questions)) return false;
+    for (const q of questions) {
+      if (q && q.explanation) {
+        const healed = healTruncatedText(q.explanation);
+        if (healed !== q.explanation) {
+          q.explanation = healed;
+          modified = true;
+        }
+      }
+    }
+    return modified;
+  };
+
+  // 1. neet_custom_sunday_papers
+  try {
+    const rawCustom = localStorage.getItem('neet_custom_sunday_papers');
+    if (rawCustom) {
+      const parsed = JSON.parse(rawCustom);
+      let changed = false;
+      if (parsed && typeof parsed === 'object') {
+        for (const key of Object.keys(parsed)) {
+          if (parsed[key]?.questions && healQuestionArray(parsed[key].questions)) {
+            changed = true;
+          }
+        }
+        if (changed) {
+          localStorage.setItem('neet_custom_sunday_papers', JSON.stringify(parsed));
+        }
+      }
+    }
+  } catch {}
+
+  // 2. neet_published_sunday_test
+  try {
+    const rawPub = localStorage.getItem('neet_published_sunday_test');
+    if (rawPub) {
+      const parsed = JSON.parse(rawPub);
+      if (parsed?.questions && healQuestionArray(parsed.questions)) {
+        localStorage.setItem('neet_published_sunday_test', JSON.stringify(parsed));
+      }
+    }
+  } catch {}
+
+  // 3. neet_completed_tests
+  try {
+    const rawCompleted = localStorage.getItem('neet_completed_tests');
+    if (rawCompleted) {
+      const parsed = JSON.parse(rawCompleted);
+      let changed = false;
+      if (Array.isArray(parsed)) {
+        for (const test of parsed) {
+          if (test?.testQuestions && healQuestionArray(test.testQuestions)) {
+            changed = true;
+          }
+        }
+        if (changed) {
+          localStorage.setItem('neet_completed_tests', JSON.stringify(parsed));
+        }
+      }
+    }
+  } catch {}
+}
 
 export default function App() {
   const [activeExam, setActiveExam] = useState<ExamType>('NEET');
@@ -84,8 +156,13 @@ export default function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  // Initialize Global Cloud Sync (Sunday Papers, Admin State, Student Profile Registry)
+  // Initialize Global Cloud Sync & Heal Stored LocalStorage Explanations
   useEffect(() => {
+    try {
+      healLocalSavedTestExplanations();
+    } catch (e) {
+      console.warn('Notice healing stored test explanations:', e);
+    }
     initCloudSync().catch(err => {
       console.warn('App cloud sync initialization notice:', err);
     });

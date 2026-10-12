@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { formatMathAndFormulas } from '../utils/mathFormatter';
+import { formatMathAndFormulas, healTruncatedText, healLineStartWord } from '../utils/mathFormatter';
 import { cleanOcrText } from '../utils/ocrCleaner';
 import { CheckCircle2 } from 'lucide-react';
 
@@ -23,56 +23,35 @@ interface FormattedBlock {
   lines: string[];
 }
 
-const TRUNCATED_WORDS_MAP: Record<string, string> = {
-  'recision': 'Precision',
-  'ccuracy': 'Accuracy',
-  'quaring': 'Squaring',
-  'ractional': 'Fractional',
-  'iven': 'Given',
-  'herefore': 'Therefore',
-  'ormula': 'Formula',
-  'ercentage': 'Percentage',
-  'otice': 'Notice',
-  'ubstituting': 'Substituting',
-  'ividing': 'Dividing',
-  'ultiplying': 'Multiplying',
-  'alculating': 'Calculating',
-  'alculation': 'Calculation',
-  'onsider': 'Consider',
-  'ssuming': 'Assuming',
-  'rom': 'From',
-  'ence': 'Hence',
-  'hus': 'Thus',
-  'ince': 'Since',
-  'alue': 'Value',
-  'atio': 'Ratio',
-  'measurement with': 'A measurement with',
-  'easured': 'Measured',
-  'imensions': 'Dimensions',
-  'ensity': 'Density'
-};
-
-function restoreTrimmedWords(text: string): string {
-  if (!text) return text;
-  let out = text;
-  for (const [truncated, restored] of Object.entries(TRUNCATED_WORDS_MAP)) {
-    out = out.replace(new RegExp(`(^|\\n)\\s*${truncated}\\b`, 'gi'), `$1${restored}`);
-    out = out.replace(new RegExp(`(:\\s*)${truncated}\\b`, 'gi'), `$1${restored}`);
-  }
-  return out;
+/**
+ * Checks whether a line contains a column divider (e.g. "SI | New system" or "M1 = 1 kg | M2 = a kg")
+ */
+function isTableLine(line: string): boolean {
+  return line.includes('|') && line.split('|').length === 2;
 }
 
-function healLineStartWord(line: string): string {
-  let cleaned = line.trim();
-  for (const [truncated, restored] of Object.entries(TRUNCATED_WORDS_MAP)) {
-    if (cleaned.toLowerCase().startsWith(truncated.toLowerCase())) {
-      const rest = cleaned.slice(truncated.length);
-      if (rest.length === 0 || /^\s|[^a-zA-Z]/.test(rest)) {
-        return restored + rest;
-      }
-    }
+/**
+ * Normalizes a derivation block: if multiple derivation lines exist and none of them
+ * have step numbers (e.g. because previous regex stripped "1. ", "2. "),
+ * synthesizes clean step numbers "1. ", "2. ", "3. " to match authentic textbook solutions.
+ */
+function normalizeDerivationLines(lines: string[]): string[] {
+  if (lines.length <= 1) return lines;
+
+  const hasAnyStepNumbers = lines.some(l => /^(\d+\.\s+(?!\d)|Step\s*\d+:?)/i.test(l));
+  if (hasAnyStepNumbers) {
+    return lines;
   }
-  return cleaned;
+
+  // Synthesize step numbers for sequential content lines
+  let stepCounter = 1;
+  return lines.map(line => {
+    // Keep tables and continuation lines unnumbered
+    if (isTableLine(line) || /^(=|⟹|Comparing with|Now,|Hence,|Therefore,)/i.test(line)) {
+      return line;
+    }
+    return `${stepCounter++}. ${line}`;
+  });
 }
 
 /**
@@ -83,7 +62,7 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
   if (!rawText || !rawText.trim()) return [];
 
   // 1. Clean OCR, math typography & restore any trimmed words
-  const cleaned = restoreTrimmedWords(formatMathAndFormulas(cleanOcrText(rawText)));
+  const cleaned = healTruncatedText(formatMathAndFormulas(cleanOcrText(rawText)));
 
   // 2. Normalize and split by section or newlines
   const rawLines = cleaned
@@ -94,6 +73,15 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
   const blocks: FormattedBlock[] = [];
   let currentBlock: FormattedBlock = { type: 'general', lines: [] };
 
+  const pushCurrentBlock = () => {
+    if (currentBlock.lines.length > 0) {
+      if (currentBlock.type === 'derivation') {
+        currentBlock.lines = normalizeDerivationLines(currentBlock.lines);
+      }
+      blocks.push(currentBlock);
+    }
+  };
+
   for (const line of rawLines) {
     const stripped = line.replace(/[📘⚡💡✓✨]/g, '').trim();
 
@@ -103,7 +91,7 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
     const isNoteHeader = /^(?:Examiner(?:'s)?\s*(?:Pro-)?Tip|Core\s*Principle|Key\s*(?:Takeaway|Formula|Note)|Exam\s*Tip)\s*:?/i.test(stripped);
 
     if (isConceptHeader) {
-      if (currentBlock.lines.length > 0) blocks.push(currentBlock);
+      pushCurrentBlock();
       const afterColon = stripped.replace(/^(?:NCERT\s*(?:Fundamental\s*)?Concept|Core\s*Concept|Concept\s*Reference)\s*:?\s*/i, '').trim();
       currentBlock = {
         type: 'concept',
@@ -114,7 +102,7 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
     }
 
     if (isDerivationHeader) {
-      if (currentBlock.lines.length > 0) blocks.push(currentBlock);
+      pushCurrentBlock();
       const afterColon = stripped.replace(/^(?:Step-by-Step\s*(?:Derivation\s*&\s*)?Calculations|Step-by-Step\s*Derivation|Working\s*&\s*Calculation|Derivation|Calculations)\s*:?\s*/i, '').trim();
       currentBlock = {
         type: 'derivation',
@@ -125,7 +113,7 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
     }
 
     if (isNoteHeader) {
-      if (currentBlock.lines.length > 0) blocks.push(currentBlock);
+      pushCurrentBlock();
       const afterColon = stripped.replace(/^(?:Examiner(?:'s)?\s*(?:Pro-)?Tip|Core\s*Principle|Key\s*(?:Takeaway|Formula|Note)|Exam\s*Tip)\s*:?\s*/i, '').trim();
       currentBlock = {
         type: 'note',
@@ -147,19 +135,11 @@ function parseSolutionBlocks(rawText: string): FormattedBlock[] {
     }
   }
 
-  if (currentBlock.lines.length > 0) {
-    blocks.push(currentBlock);
-  }
+  pushCurrentBlock();
 
   return blocks;
 }
 
-/**
- * Checks whether a line contains a column divider (e.g. "SI | New system" or "M1 = 1 kg | M2 = a kg")
- */
-function isTableLine(line: string): boolean {
-  return line.includes('|') && line.split('|').length === 2;
-}
 
 export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
   explanation,

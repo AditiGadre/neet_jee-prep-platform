@@ -34,7 +34,7 @@ import {
   getSavedCustomSundayPaper
 } from '../data/sundayPlannerTests';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
-import { formatMathAndFormulas } from '../utils/mathFormatter';
+import { formatMathAndFormulas, healTruncatedText } from '../utils/mathFormatter';
 
 export interface AuthoritativeQuestionRecord {
   id: string;
@@ -132,7 +132,7 @@ export function normalizeToAuthoritativeRecords(
       difficulty: q.difficulty || 'Hard',
       questionText: (q.questionText || '').toString(),
       options: Array.isArray(q.options) ? q.options.map(o => (o || '').toString()) : [],
-      explanation: (q.explanation || '').toString(),
+      explanation: healTruncatedText((q.explanation || '').toString()),
       updatedAt: (q as any)?.updatedAt || now,
       updatedBy: (q as any)?.updatedBy || updatedBy,
       version: ((q as any)?.version || 0) + 1
@@ -576,6 +576,15 @@ export async function fetchAuthoritativePaper(
               const rev = Number(row.correct_answer) || parsed.revision || 1;
               parsed.revision = rev;
               parsed.paperCode = canonicalCode;
+
+              // Ensure all question explanations are healed
+              if (Array.isArray(parsed.questions)) {
+                for (const q of parsed.questions) {
+                  if (q.explanation) {
+                    q.explanation = healTruncatedText(q.explanation);
+                  }
+                }
+              }
 
               runtimePaperCache.set(canonicalCode, { paper: parsed, fetchedAt: Date.now() });
               globalLastSyncedTimestamp = parsed.updatedAt || new Date().toISOString();
