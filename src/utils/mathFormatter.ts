@@ -122,11 +122,13 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
   out = out.replace(/_\{([^}]+)\}/g, (_, p1) => toSubscript(p1.replace(/_/g, '')));
   out = out.replace(/_([0-9a-zA-Z\+\-]+)(?=[^0-9a-zA-Z\+\-]|$)/g, (_, p1) => toSubscript(p1));
 
-  // 7. Superscripts with care: ^(-?[0-9a-zA-Z]+) or ^{...}
+  // 7. Superscripts with care: numeric exponents (+/- digits), or single letters like ^n, ^x
   out = out.replace(/\^\{([^}]+)\}/g, (_, p1) => toSuperscript(p1));
   out = out.replace(/\^\(([^)]+)\)/g, (_, p1) => toSuperscript(p1));
-  // 10^-3 or x^2 or m/s^2 or 10^8
-  out = out.replace(/\^([0-9a-zA-Z\+\-]+)(?=[^0-9a-zA-Z\+\-]|$)/g, (_, p1) => toSuperscript(p1));
+  // Numeric exponents: ^2, ^-2, ^+3, ^10 (strictly numeric to not swallow following dimensional letters like T in ML^2T^-2)
+  out = out.replace(/\^([+-]?\d+)/g, (_, p1) => toSuperscript(p1));
+  // Single variable letter exponents: ^n, ^x, ^y
+  out = out.replace(/\^([a-zA-Z])(?=[^a-zA-Z0-9]|$)/g, (_, p1) => toSuperscript(p1));
 
   // 4. Common chemical formula formatting
   const chemReplacements: [RegExp, string][] = [
@@ -202,7 +204,13 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
     [/\\degree|\\circ|\bdeg\b|\bdegrees\b/gi, '°'],
     [/\\times/g, '×'],
     [/\\div/g, '÷'],
-    [/\\infty|\binfinity\b/gi, '∞']
+    [/\\infty|\binfinity\b/gi, '∞'],
+    [/\\nu\b/g, 'ν'],
+    [/\\eta\b/g, 'η'],
+    [/\\tau\b/g, 'τ'],
+    [/\\psi\b/g, 'ψ'],
+    [/\\kappa\b/g, 'κ'],
+    [/\\zeta\b/g, 'ζ']
   ];
 
   symbolMap.forEach(([regex, repl]) => {
@@ -223,6 +231,8 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
 
   // Auto-restore any previously trimmed academic/derivation words
   const TRUNCATED_WORDS_MAP: Record<string, string> = {
+    'recision': 'Precision',
+    'ccuracy': 'Accuracy',
     'quaring': 'Squaring',
     'ractional': 'Fractional',
     'iven': 'Given',
@@ -242,7 +252,11 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
     'hus': 'Thus',
     'ince': 'Since',
     'alue': 'Value',
-    'atio': 'Ratio'
+    'atio': 'Ratio',
+    'measurement with': 'A measurement with',
+    'easured': 'Measured',
+    'imensions': 'Dimensions',
+    'ensity': 'Density'
   };
 
   for (const [truncated, restored] of Object.entries(TRUNCATED_WORDS_MAP)) {

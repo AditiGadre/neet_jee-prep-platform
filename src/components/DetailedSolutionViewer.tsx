@@ -24,6 +24,8 @@ interface FormattedBlock {
 }
 
 const TRUNCATED_WORDS_MAP: Record<string, string> = {
+  'recision': 'Precision',
+  'ccuracy': 'Accuracy',
   'quaring': 'Squaring',
   'ractional': 'Fractional',
   'iven': 'Given',
@@ -43,7 +45,11 @@ const TRUNCATED_WORDS_MAP: Record<string, string> = {
   'hus': 'Thus',
   'ince': 'Since',
   'alue': 'Value',
-  'atio': 'Ratio'
+  'atio': 'Ratio',
+  'measurement with': 'A measurement with',
+  'easured': 'Measured',
+  'imensions': 'Dimensions',
+  'ensity': 'Density'
 };
 
 function restoreTrimmedWords(text: string): string {
@@ -222,7 +228,7 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
           <div key={bIdx} className="space-y-2">
             {/* Clean Section Subheading if applicable */}
             {block.title && (
-              <div className="text-xs font-bold tracking-wide uppercase text-stone-700 dark:text-stone-300 pt-1 pb-0.5 border-b border-stone-100 dark:border-stone-800/60">
+              <div className="text-xs font-bold tracking-wide uppercase text-stone-700 dark:text-stone-300 pt-1 pb-0.5">
                 {block.title}:
               </div>
             )}
@@ -241,10 +247,10 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
                   );
                 }
 
-                // Step-by-Step numbered lines (e.g. "1. Formula: ...", "2. ...", "Step 1: ...")
-                const stepMatch = line.match(/^(\d+\.|Step\s*\d+:?)\s*(.*)/i);
+                // Step-by-Step numbered lines: strictly matches integer step like "1. Formula", but NEVER matches decimal numbers like "5.0 - 0.1"
+                const stepMatch = line.match(/^(\d+)\.\s+(?!\d)(.*)/i) || line.match(/^(Step\s*\d+:?)\s+(.*)/i);
                 if (stepMatch) {
-                  const stepNum = stepMatch[1];
+                  const stepNum = stepMatch[1].endsWith('.') ? stepMatch[1] : `${stepMatch[1]}.`;
                   const stepBody = stepMatch[2];
                   return (
                     <div key={lIdx} className="flex items-start gap-2.5 py-0.5 pl-1">
