@@ -136,7 +136,9 @@ import { formatQuestionText } from '../utils/textFormatter';
 import {
   extractTextFromPdfDocument,
   extractQuestionsFromPdfText,
-  repairQuestionBankList
+  repairQuestionBankList,
+  generateDetailedSolution,
+  classifyChapterAndSubject
 } from '../utils/pdfQuestionExtractor';
 
 interface AdminSectionProps {
@@ -4732,11 +4734,77 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         }} className="absolute top-3 right-3 p-1.5 text-red-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition" title="Delete question">
                            <Trash2 className="w-4 h-4" />
                         </button>
-                        <div className="flex items-center gap-2 mb-2">
-                           <span className="text-[10px] font-bold tracking-wider uppercase text-sky-600 bg-sky-50 px-2 py-0.5 rounded-md border border-sky-100">Q{i + 1} • {q.subject || 'Unknown'}</span>
-                           <span className="text-[10px] font-medium text-stone-500 bg-stone-100 px-2 py-0.5 rounded-md">{q.chapter || 'Default Topic'}</span>
+                        <div className="flex flex-wrap items-center gap-2 mb-2.5">
+                           <span className="text-[10px] font-bold tracking-wider uppercase text-sky-700 bg-sky-50 px-2 py-0.5 rounded-md border border-sky-200">Q{i + 1} • {q.subject || 'Physics'}</span>
+                           <div className="flex items-center gap-1.5 bg-amber-50 border border-amber-200/80 rounded-md px-2 py-0.5">
+                             <span className="text-[10px] font-bold text-amber-800 uppercase">Chapter:</span>
+                             <select
+                               value={q.chapter || 'Units and Measurements'}
+                               onChange={(e) => {
+                                 const updated = [...storedQuestions];
+                                 updated[i] = { ...updated[i], chapter: e.target.value, topic: e.target.value };
+                                 setStoredQuestions(updated);
+                                 localStorage.setItem('admin_question_bank', JSON.stringify(updated));
+                               }}
+                               className="text-xs font-semibold text-stone-800 bg-transparent outline-none cursor-pointer"
+                             >
+                               <option value="Units and Measurements">Units and Measurements</option>
+                               <option value="Kinematics">Kinematics</option>
+                               <option value="Laws of Motion">Laws of Motion</option>
+                               <option value="Work, Energy and Power">Work, Energy and Power</option>
+                               <option value="System of Particles and Rotational Motion">System of Particles and Rotational Motion</option>
+                               <option value="Gravitation">Gravitation</option>
+                               <option value="Mechanical Properties of Solids">Mechanical Properties of Solids</option>
+                               <option value="Mechanical Properties of Fluids">Mechanical Properties of Fluids</option>
+                               <option value="Thermal Properties of Matter">Thermal Properties of Matter</option>
+                               <option value="Thermodynamics">Thermodynamics</option>
+                               <option value="Kinetic Theory">Kinetic Theory</option>
+                               <option value="Oscillations">Oscillations</option>
+                               <option value="Waves">Waves</option>
+                               <option value="Electric Charges and Fields">Electric Charges and Fields</option>
+                               <option value="Electrostatic Potential and Capacitance">Electrostatic Potential and Capacitance</option>
+                               <option value="Current Electricity">Current Electricity</option>
+                               <option value="Moving Charges and Magnetism">Moving Charges and Magnetism</option>
+                               <option value="Magnetism and Matter">Magnetism and Matter</option>
+                               <option value="Electromagnetic Induction">Electromagnetic Induction</option>
+                               <option value="Alternating Current">Alternating Current</option>
+                               <option value="Electromagnetic Waves">Electromagnetic Waves</option>
+                               <option value="Ray Optics and Optical Instruments">Ray Optics and Optical Instruments</option>
+                               <option value="Wave Optics">Wave Optics</option>
+                               <option value="Dual Nature of Radiation and Matter">Dual Nature of Radiation and Matter</option>
+                               <option value="Atoms">Atoms</option>
+                               <option value="Nuclei">Nuclei</option>
+                               <option value="Semiconductor Electronics">Semiconductor Electronics</option>
+                               <option value="Some Basic Concepts of Chemistry">Some Basic Concepts of Chemistry</option>
+                               <option value="Structure of Atom">Structure of Atom</option>
+                               <option value="Chemical Bonding and Molecular Structure">Chemical Bonding and Molecular Structure</option>
+                               <option value="Chemical Thermodynamics">Chemical Thermodynamics</option>
+                               <option value="Solutions">Solutions</option>
+                               <option value="Electrochemistry">Electrochemistry</option>
+                               <option value="Chemical Kinetics">Chemical Kinetics</option>
+                               <option value="Organic Chemistry - Basic Principles">Organic Chemistry - Basic Principles</option>
+                               <option value="The Living World">The Living World</option>
+                               <option value="Cell: The Unit of Life">Cell: The Unit of Life</option>
+                               <option value="Human Physiology">Human Physiology</option>
+                               <option value="Genetics and Evolution">Genetics and Evolution</option>
+                             </select>
+                           </div>
+                           <button
+                             type="button"
+                             onClick={() => {
+                               const classified = classifyChapterAndSubject(q.questionText || '', q.options || []);
+                               const updated = [...storedQuestions];
+                               updated[i] = { ...updated[i], subject: classified.subject, chapter: classified.chapter, topic: classified.chapter };
+                               setStoredQuestions(updated);
+                               localStorage.setItem('admin_question_bank', JSON.stringify(updated));
+                             }}
+                             className="text-[10px] font-bold text-sky-600 hover:text-sky-800 bg-sky-50 hover:bg-sky-100 px-2 py-0.5 rounded border border-sky-200 transition"
+                             title="Auto-detect chapter from syllabus"
+                           >
+                             Detect Chapter
+                           </button>
                         </div>
-                        <p className="text-sm font-semibold text-stone-800 mb-3" dangerouslySetInnerHTML={{ __html: formatQuestionText(q.questionText || '') }}></p>
+                        <div className="w-full text-sm font-semibold text-stone-800 mb-3 leading-relaxed" dangerouslySetInnerHTML={{ __html: formatQuestionText(q.questionText || '') }}></div>
                         {q.options && Array.isArray(q.options) && (
                           <div className="space-y-1.5">
                             <div className="flex items-center justify-between text-[11px] text-stone-500 mb-1">
@@ -4784,16 +4852,45 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             </div>
                           </div>
                         )}
-                        {q.explanation && (
-                          <div className="mt-3 p-3 bg-sky-50/70 border border-sky-100 rounded-lg text-xs">
-                            <div className="font-bold text-sky-800 flex items-center gap-1 mb-1">
-                              <Sparkles className="w-3.5 h-3.5 text-sky-600" /> Solution / Explanation:
-                            </div>
-                            <div className="whitespace-pre-line text-stone-700 leading-relaxed font-mono text-[11px]">
-                              {q.explanation}
-                            </div>
+                        <div className="mt-3 p-3 bg-sky-50/70 border border-sky-100 rounded-lg text-xs">
+                          <div className="flex items-center justify-between font-bold text-sky-800 mb-1.5">
+                            <span className="flex items-center gap-1">
+                              <Sparkles className="w-3.5 h-3.5 text-sky-600" /> Solution / Step-by-Step Explanation:
+                            </span>
+                            <button
+                              type="button"
+                              onClick={() => {
+                                const newSol = generateDetailedSolution({
+                                  questionText: q.questionText,
+                                  options: q.options,
+                                  correctAnswer: q.correctAnswer ?? 0,
+                                  subject: q.subject,
+                                  chapter: q.chapter
+                                });
+                                const updated = [...storedQuestions];
+                                updated[i] = { ...updated[i], explanation: newSol };
+                                setStoredQuestions(updated);
+                                localStorage.setItem('admin_question_bank', JSON.stringify(updated));
+                              }}
+                              className="px-2 py-0.5 bg-sky-600 hover:bg-sky-500 text-white rounded font-bold text-[10px] transition shadow-xs flex items-center gap-1"
+                              title="Generate comprehensive step-by-step NCERT solution"
+                            >
+                              <Sparkles className="w-3 h-3" /> Auto-Solve / Detailed Solution
+                            </button>
                           </div>
-                        )}
+                          <textarea
+                            value={q.explanation || ''}
+                            onChange={(e) => {
+                              const updated = [...storedQuestions];
+                              updated[i] = { ...updated[i], explanation: e.target.value };
+                              setStoredQuestions(updated);
+                              localStorage.setItem('admin_question_bank', JSON.stringify(updated));
+                            }}
+                            rows={5}
+                            className="w-full text-stone-800 bg-white border border-stone-200 rounded p-2 text-xs font-mono leading-relaxed outline-none focus:ring-1 focus:ring-sky-500"
+                            placeholder="Write or edit detailed step-by-step solution..."
+                          />
+                        </div>
                      </div>
                    ))}
                  </div>
