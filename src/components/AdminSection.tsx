@@ -133,6 +133,11 @@ import {
 import { MasterDefaultSavesModal } from './MasterDefaultSavesModal';
 import { syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud } from '../utils/cloudSyncManager';
 import { formatQuestionText } from '../utils/textFormatter';
+import {
+  extractTextFromPdfDocument,
+  extractQuestionsFromPdfText,
+  repairQuestionBankList
+} from '../utils/pdfQuestionExtractor';
 
 interface AdminSectionProps {
   onClose?: () => void;
@@ -341,7 +346,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [isQuestionBankModalOpen, setIsQuestionBankModalOpen] = useState(false);
   const [storedQuestions, setStoredQuestions] = useState<any[]>(() => {
       try {
-          return JSON.parse(localStorage.getItem('admin_question_bank') || '[]');
+          const raw = JSON.parse(localStorage.getItem('admin_question_bank') || '[]');
+          return repairQuestionBankList(raw);
       } catch { return []; }
   });
   const [exportTrackSelection, setExportTrackSelection] = useState<string>('dropper1');
@@ -507,93 +513,25 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         
         if (isPdf) {
             import('pdfjs-dist/legacy/build/pdf.js').then(async (pdfjs) => {
-pdfjs.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/' + pdfjs.version + '/pdf.worker.min.js';
-try {
-const pdfjsLib = pdfjs;
+                pdfjs.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/' + pdfjs.version + '/pdf.worker.min.js';
+                try {
                     const arrayBuffer = await file.arrayBuffer();
                     const pdf = await pdfjs.getDocument({ data: arrayBuffer }).promise;
-                    let fullText = '';
-                    for (let i = 1; i <= pdf.numPages; i++) {
-                        const page = await pdf.getPage(i);
-                        const textContent = await page.getTextContent();
-                        let pageText = '';
-                        let lastY = -1;
-                        for (const item of textContent.items) {
-                            if (lastY !== -1 && Math.abs(item.transform[5] - lastY) > 4) {
-                                pageText += '\n';
-                            } else if (pageText.length > 0 && !pageText.endsWith(' ') && !pageText.endsWith('\n')) {
-                                pageText += ' ';
-                            }
-                            pageText += item.str;
-                            lastY = item.transform[5];
-                        }
-                        fullText += pageText + '\n\n';
-                    }
+                    const fullText = await extractTextFromPdfDocument(pdf);
                     
-                    let generatedQuestions = [];
-                    let qNum = 1;
-                    
-                    const questionRegex = /(?:^|\n)\s*(?:Q\.?\s*)?(\d+)\s*[\.\)]\s+/gi;
-                    const parts = fullText.split(questionRegex);
-                    
-                    for (let i = 1; i < parts.length; i += 2) {
-                        const qNumberStr = parts[i];
-                        let token = parts[i+1] || '';
-                        token = token.trim();
-                        if (!token) continue;
-                          
-                          // Strip the prefix just in case
-                          let cleanToken = token.replace(/^(?:Q)?\d+\s*[.)]\s*/i, '').trim();
-                          if (!cleanToken) cleanToken = token;
-                          
-                          // Detect options: (A), (B), A., B., 1., 2., (1), (2), a), b), A), B), 1), 2)
-                          const optRegex = /(?:^|\s+)(?:[ABCDabcd][\.\)]|\([ABCDabcd1234]\)|[1234][\.\)])\s+([\s\S]*?)(?=(?:^|\s+)(?:[ABCDabcd][\.\)]|\([ABCDabcd1234]\)|[1234][\.\)])\s+|$)/gi;
-                          
-                          const options = [];
-                          let match;
-                          let firstOptionIndex = cleanToken.length;
-                          
-                          while ((match = optRegex.exec(cleanToken)) !== null) {
-                              if (options.length === 0) firstOptionIndex = match.index;
-                              options.push(match[1].trim() || 'Option ' + (options.length + 1));
-                          }
-                          
-                          let questionText = cleanToken.substring(0, firstOptionIndex).trim();
-                          
-                          // Fallbacks if questionText is empty (e.g., the whole string is just options)
-                          if (!questionText) {
-                             questionText = cleanToken.substring(0, 100) + '... (Extracted without text)';
-                          }
-                          
-                          // Fallbacks if options not found properly
-                          const finalOptions = options.length >= 4 ? options.slice(0, 4) : 
-                                               (options.length > 0 ? [...options, 'Option C', 'Option D', 'Option E'].slice(0, 4) : 
-                                               ['Option A', 'Option B', 'Option C', 'Option D']);
-
-                          generatedQuestions.push({
-                              id: 'parsed-' + qNum + '-' + Math.random().toString(36).substr(2, 5),
-                              questionText: questionText,
-                              options: finalOptions,
-                              correctAnswer: 0,
-                              explanation: 'Detailed solution will be parsed here.',
-                              subject: subjectGuess,
-                              chapter: chapterGuess,
-                              topic: chapterGuess,
-                              difficulty: 'Medium',
-                              marks: 4,
-                              type: 'multiple-choice'
-                          });
-                          qNum++;
-                      }
+                    const generatedQuestions = extractQuestionsFromPdfText(fullText, {
+                        subject: subjectGuess,
+                        chapter: chapterGuess
+                    });
                     
                     if (generatedQuestions.length === 0) {
                         setIsSyncingAction(false);
-                        alert("No text could be extracted! If this is a scanned image or WhatsApp photo PDF, the parser cannot read it. Please upload a real text-based PDF or Word document.");
+                        alert("No questions could be extracted! If this is a scanned image or photo PDF, please ensure it contains selectable text, or upload a text-based PDF or Word document.");
                         return;
                     }
                     
-                    const shouldAppend = confirm("Success! Found " + generatedQuestions.length + " questions. \n\nDo you want to APPEND these to your existing Question Bank? \n\nClick OK to APPEND (Add them to existing questions).\nClick Cancel to REPLACE (Clear old questions and show ONLY these).");
-                    const newBank = shouldAppend ? [...storedQuestions, ...generatedQuestions] : generatedQuestions;
+                    const shouldAppend = confirm("Success! Extracted " + generatedQuestions.length + " questions with answer keys & solutions.\n\nDo you want to APPEND these to your existing Question Bank?\n\n• Click OK to APPEND (Add them to existing questions)\n• Click Cancel to REPLACE (Clear old questions and keep only these)");
+                    const newBank = shouldAppend ? repairQuestionBankList([...storedQuestions, ...generatedQuestions]) : repairQuestionBankList(generatedQuestions);
                     
                     setStoredQuestions(newBank);
                     localStorage.setItem('admin_question_bank', JSON.stringify(newBank));
@@ -605,8 +543,23 @@ const pdfjsLib = pdfjs;
                 }
             });
         } else {
-           setIsSyncingAction(false);
-           alert("Please upload a PDF file.");
+            try {
+                const generatedQuestions = extractQuestionsFromPdfText(rawContent, {
+                    subject: subjectGuess,
+                    chapter: chapterGuess
+                });
+                if (generatedQuestions.length > 0) {
+                    const shouldAppend = confirm("Success! Extracted " + generatedQuestions.length + " questions.\n\nClick OK to APPEND, Cancel to REPLACE.");
+                    const newBank = shouldAppend ? repairQuestionBankList([...storedQuestions, ...generatedQuestions]) : repairQuestionBankList(generatedQuestions);
+                    setStoredQuestions(newBank);
+                    localStorage.setItem('admin_question_bank', JSON.stringify(newBank));
+                    setIsSyncingAction(false);
+                    alert('Successfully extracted ' + generatedQuestions.length + ' questions mapped to ' + chapterGuess + '!');
+                    return;
+                }
+            } catch (e) {}
+            setIsSyncingAction(false);
+            alert("Please upload a valid PDF or question document.");
         }
       };
       
@@ -4726,12 +4679,38 @@ const pdfjsLib = pdfjs;
                     <p className="text-xs text-sky-200 font-medium">Browse, Edit, or Delete parsed questions</p>
                  </div>
               </div>
-              <div className="flex items-center gap-3">
-{storedQuestions.length > 0 && (<button onClick={() => { if(confirm('Are you sure you want to permanently clear the ENTIRE question bank vault?')) { setStoredQuestions([]); localStorage.removeItem('admin_question_bank'); } }} className="px-3 py-1.5 bg-red-500 hover:bg-red-400 rounded-lg text-white text-xs font-bold shadow-sm transition flex items-center gap-1"><Trash2 className="w-3.5 h-3.5" /> Clear All</button>)}
-<button onClick={() => setIsQuestionBankModalOpen(false)} className="p-2 bg-sky-600 hover:bg-sky-500 rounded-xl transition text-white">
-                <X className="w-5 h-5" />
-              </button>
-            </div>
+              <div className="flex items-center gap-2">
+                {storedQuestions.length > 0 && (
+                  <>
+                    <button
+                      onClick={() => {
+                        const repaired = repairQuestionBankList(storedQuestions);
+                        setStoredQuestions(repaired);
+                        localStorage.setItem('admin_question_bank', JSON.stringify(repaired));
+                        alert(`Auto-repair complete! Cleaned up orphan options and restored question bank (${repaired.length} questions).`);
+                      }}
+                      className="px-3 py-1.5 bg-sky-600 hover:bg-sky-500 rounded-lg text-white text-xs font-bold shadow-sm transition flex items-center gap-1.5 border border-sky-400/40"
+                      title="Fixes detached options, merges orphan questions, and cleans answer keys"
+                    >
+                      <RefreshCw className="w-3.5 h-3.5" /> Auto-Repair
+                    </button>
+                    <button
+                      onClick={() => {
+                        if(confirm('Are you sure you want to permanently clear the ENTIRE question bank vault?')) {
+                          setStoredQuestions([]);
+                          localStorage.removeItem('admin_question_bank');
+                        }
+                      }}
+                      className="px-3 py-1.5 bg-red-500 hover:bg-red-400 rounded-lg text-white text-xs font-bold shadow-sm transition flex items-center gap-1"
+                    >
+                      <Trash2 className="w-3.5 h-3.5" /> Clear All
+                    </button>
+                  </>
+                )}
+                <button onClick={() => setIsQuestionBankModalOpen(false)} className="p-2 bg-sky-600 hover:bg-sky-500 rounded-xl transition text-white">
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
             </div>
             <div className="p-5 flex-1 overflow-y-auto bg-stone-50">
                {storedQuestions.length === 0 ? (
@@ -4750,20 +4729,69 @@ const pdfjsLib = pdfjs;
                             newBank.splice(i, 1);
                             setStoredQuestions(newBank);
                             localStorage.setItem('admin_question_bank', JSON.stringify(newBank));
-                        }} className="absolute top-3 right-3 p-1.5 text-red-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition">
+                        }} className="absolute top-3 right-3 p-1.5 text-red-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition" title="Delete question">
                            <Trash2 className="w-4 h-4" />
                         </button>
-                        <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center gap-2 mb-2">
                            <span className="text-[10px] font-bold tracking-wider uppercase text-sky-600 bg-sky-50 px-2 py-0.5 rounded-md border border-sky-100">Q{i + 1} • {q.subject || 'Unknown'}</span>
+                           <span className="text-[10px] font-medium text-stone-500 bg-stone-100 px-2 py-0.5 rounded-md">{q.chapter || 'Default Topic'}</span>
                         </div>
                         <p className="text-sm font-semibold text-stone-800 mb-3" dangerouslySetInnerHTML={{ __html: formatQuestionText(q.questionText || '') }}></p>
                         {q.options && Array.isArray(q.options) && (
-                          <div className="grid grid-cols-2 gap-2 text-xs">
-                             {q.options.map((opt: any, oi: number) => (
-                                 <div key={oi} className={`p-2 rounded-lg border ${q.correctAnswer === oi ? "bg-emerald-50 border-emerald-200 font-bold text-emerald-800" : "bg-stone-50 border-stone-100 text-stone-600"}`}>
-                                  <span className="font-bold mr-1">{String.fromCharCode(65 + oi)}.</span> {opt}
-                               </div>
-                             ))}
+                          <div className="space-y-1.5">
+                            <div className="flex items-center justify-between text-[11px] text-stone-500 mb-1">
+                              <span>Options (Click an option to set the correct answer):</span>
+                              <span className="text-emerald-700 font-bold flex items-center gap-1">
+                                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                                Correct: Option {String.fromCharCode(65 + (q.correctAnswer ?? 0))}
+                              </span>
+                            </div>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                              {q.options.map((opt: any, oi: number) => {
+                                const isCorrect = q.correctAnswer === oi;
+                                return (
+                                  <button
+                                    key={oi}
+                                    type="button"
+                                    onClick={() => {
+                                      const updated = [...storedQuestions];
+                                      updated[i] = { ...updated[i], correctAnswer: oi };
+                                      setStoredQuestions(updated);
+                                      localStorage.setItem('admin_question_bank', JSON.stringify(updated));
+                                    }}
+                                    className={`p-2.5 rounded-lg border text-left transition flex items-center justify-between group/opt ${
+                                      isCorrect
+                                        ? "bg-emerald-50 border-emerald-300 font-bold text-emerald-900 shadow-sm"
+                                        : "bg-stone-50 border-stone-200 text-stone-700 hover:bg-sky-50 hover:border-sky-300"
+                                    }`}
+                                  >
+                                    <div className="flex items-start gap-2">
+                                      <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] shrink-0 font-bold ${
+                                        isCorrect ? "bg-emerald-600 text-white" : "bg-stone-200 text-stone-700 group-hover/opt:bg-sky-200"
+                                      }`}>
+                                        {String.fromCharCode(65 + oi)}
+                                      </span>
+                                      <span className="leading-snug">{opt}</span>
+                                    </div>
+                                    {isCorrect && (
+                                      <span className="text-[10px] uppercase tracking-wider bg-emerald-600 text-white px-1.5 py-0.5 rounded font-black shrink-0 ml-2">
+                                        KEY
+                                      </span>
+                                    )}
+                                  </button>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        )}
+                        {q.explanation && (
+                          <div className="mt-3 p-3 bg-sky-50/70 border border-sky-100 rounded-lg text-xs">
+                            <div className="font-bold text-sky-800 flex items-center gap-1 mb-1">
+                              <Sparkles className="w-3.5 h-3.5 text-sky-600" /> Solution / Explanation:
+                            </div>
+                            <div className="whitespace-pre-line text-stone-700 leading-relaxed font-mono text-[11px]">
+                              {q.explanation}
+                            </div>
                           </div>
                         )}
                      </div>
