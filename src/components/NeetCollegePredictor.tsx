@@ -146,20 +146,81 @@ export function estimateUpStateRank(air: number, round: string = 'Round 1'): { s
   return { smr: last.smr, marks: last.marks };
 }
 
+// Empirical AIR -> Bihar BCECEB UGMAC State Merit Rank anchors from official allotment lists (Round 1: 3,985 candidates, Round 2: 3,222 candidates)
+const BIHAR_UGMAC_R1_ANCHORS = [
+  { air: 646, ugmac: 3, marks: 666 },
+  { air: 1125, ugmac: 7, marks: 655 },
+  { air: 2431, ugmac: 18, marks: 639 },
+  { air: 5012, ugmac: 83, marks: 620 },
+  { air: 10001, ugmac: 431, marks: 600 },
+  { air: 15016, ugmac: 825, marks: 587 },
+  { air: 19995, ugmac: 1236, marks: 576 },
+  { air: 26217, ugmac: 1762, marks: 565 },
+  { air: 35416, ugmac: 2424, marks: 552 },
+  { air: 49966, ugmac: 3029, marks: 536 },
+  { air: 80047, ugmac: 3715, marks: 508 },
+  { air: 150004, ugmac: 4656, marks: 460 },
+  { air: 249992, ugmac: 5707, marks: 410 },
+  { air: 399847, ugmac: 6968, marks: 355 },
+  { air: 600017, ugmac: 8437, marks: 299 },
+  { air: 801060, ugmac: 9610, marks: 252 },
+  { air: 1001829, ugmac: 10451, marks: 212 },
+  { air: 1493443, ugmac: 10806, marks: 128 },
+];
+
+const BIHAR_UGMAC_R2_ANCHORS = [
+  { air: 1158, ugmac: 8, marks: 655 },
+  { air: 3606, ugmac: 36, marks: 629 },
+  { air: 5007, ugmac: 68, marks: 620 },
+  { air: 10001, ugmac: 320, marks: 600 },
+  { air: 15017, ugmac: 709, marks: 587 },
+  { air: 19995, ugmac: 1115, marks: 576 },
+  { air: 26185, ugmac: 1630, marks: 565 },
+  { air: 34901, ugmac: 2281, marks: 553 },
+  { air: 50125, ugmac: 2932, marks: 535 },
+  { air: 80047, ugmac: 3607, marks: 508 },
+  { air: 150396, ugmac: 4458, marks: 460 },
+  { air: 250026, ugmac: 5423, marks: 410 },
+  { air: 399719, ugmac: 6524, marks: 355 },
+  { air: 600017, ugmac: 7863, marks: 299 },
+  { air: 799970, ugmac: 8986, marks: 253 },
+  { air: 999436, ugmac: 9899, marks: 212 },
+  { air: 1385010, ugmac: 10273, marks: 145 },
+];
+
+export function estimateBiharStateRank(air: number, round: string = 'Round 1'): { ugmac: number; marks: number } {
+  const anchors = round === 'Round 2' ? BIHAR_UGMAC_R2_ANCHORS : BIHAR_UGMAC_R1_ANCHORS;
+  if (air <= anchors[0].air) return { ugmac: anchors[0].ugmac, marks: anchors[0].marks };
+  for (let i = 0; i < anchors.length - 1; i++) {
+    const a0 = anchors[i];
+    const a1 = anchors[i + 1];
+    if (air >= a0.air && air <= a1.air) {
+      const ratio = (air - a0.air) / (a1.air - a0.air);
+      const ugmac = Math.round(a0.ugmac + ratio * (a1.ugmac - a0.ugmac));
+      const marks = Math.round(a0.marks + ratio * (a1.marks - a0.marks));
+      return { ugmac, marks };
+    }
+  }
+  const last = anchors[anchors.length - 1];
+  return { ugmac: last.ugmac, marks: last.marks };
+}
+
 export const CATEGORY_OPTIONS = [
   { value: 'OPEN', label: 'General / Unreserved (OPEN / UR)', group: 'General' },
-  { value: 'OBC', label: 'Other Backward Classes (OBC)', group: 'Reserved' },
+  { value: 'OBC', label: 'Other Backward Classes (OBC / BC)', group: 'Reserved' },
+  { value: 'EBC', label: 'Extremely Backward Class (EBC - Bihar)', group: 'State Reserved' },
+  { value: 'RCG', label: 'Reserved Category Girls (RCG 3% - Bihar)', group: 'State Reserved' },
   { value: 'EWS', label: 'Economically Weaker Section (EWS)', group: 'Reserved' },
   { value: 'SC', label: 'Scheduled Castes (SC)', group: 'Reserved' },
   { value: 'ST', label: 'Scheduled Tribes (ST)', group: 'Reserved' },
-  { value: 'PWD', label: 'Persons with Disabilities (PwD / PH)', group: 'Horizontal' },
+  { value: 'PWD', label: 'Persons with Disabilities (PwD / DQ / PH)', group: 'Horizontal' },
   { value: 'SEBC', label: 'Socially & Educationally Backward (SEBC - State)', group: 'State Reserved' },
   { value: 'VJ', label: 'Vimukta Jati (VJ / NT-A - State)', group: 'State Reserved' },
   { value: 'NTB', label: 'Nomadic Tribes-B (NT-B - State)', group: 'State Reserved' },
   { value: 'NTC', label: 'Nomadic Tribes-C (NT-C - State)', group: 'State Reserved' },
   { value: 'NTD', label: 'Nomadic Tribes-D (NT-D - State)', group: 'State Reserved' },
   { value: 'DEF', label: 'Defense Personnel (DEF1 / DEF2 / DEF3)', group: 'State Special' },
-  { value: 'IQ', label: 'Deemed / Management / NRI Quota', group: 'Management' },
+  { value: 'IQ', label: 'Deemed / Management / Minority / NRI Quota', group: 'Management' },
   { value: 'MKB', label: 'Maharashtra-Karnataka Border (MKB)', group: 'State Special' },
   { value: 'ORPHAN', label: 'Orphan Quota', group: 'State Special' },
 ];
@@ -771,6 +832,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             <div>
               3. <strong>UP DGME 85% State Quota (R1 & R2):</strong> Calibrated across all 42 UP Government Medical Colleges and 30 Private & BDS Colleges from official 31,654 Round 1 and 33,044 Round 2 merit candidate records.
             </div>
+            <div>
+              4. <strong>Bihar BCECEB 85% State Quota (R1 & R2):</strong> Calibrated across 14 Government Medical Colleges, Patna Dental College, 17 Private Medical Colleges, and 3 Private Dental Colleges from the official 7,207 candidate allotment dataset (3,985 Round 1 + 3,222 Round 2 allotments).
+            </div>
           </div>
         </div>
       </div>
@@ -861,22 +925,36 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 >
                   UP Round 2 (33.0k)
                 </button>
-                {selectedState === 'Bihar' && (
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setCounselingScope('STATE');
-                      handleStateChange('Bihar');
-                    }}
-                    className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                      counselingScope === 'STATE' && selectedState === 'Bihar'
-                        ? 'bg-sky-600 text-white shadow-xs'
-                        : 'text-stone-400 hover:text-white'
-                    }`}
-                  >
-                    Bihar 85%
-                  </button>
-                )}
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCounselingScope('STATE');
+                    handleStateChange('Bihar');
+                    setSelectedRound('Round 1');
+                  }}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                    counselingScope === 'STATE' && selectedState === 'Bihar' && selectedRound === 'Round 1'
+                      ? 'bg-sky-600 text-white shadow-xs'
+                      : 'text-stone-400 hover:text-white'
+                  }`}
+                >
+                  Bihar Round 1 (4.0k)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCounselingScope('STATE');
+                    handleStateChange('Bihar');
+                    setSelectedRound('Round 2');
+                  }}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                    counselingScope === 'STATE' && selectedState === 'Bihar' && selectedRound === 'Round 2'
+                      ? 'bg-sky-600 text-white shadow-xs'
+                      : 'text-stone-400 hover:text-white'
+                  }`}
+                >
+                  Bihar Round 2 (3.2k)
+                </button>
                 {selectedState === 'Rajasthan' && (
                   <button
                     type="button"
@@ -965,6 +1043,20 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     </span>
                   </div>
                 )}
+                {selectedState === 'Bihar' && userAir > 0 && (
+                  <div className="mt-1.5 p-2 rounded-xl bg-sky-950/90 border border-sky-500/30 text-xs text-sky-200 flex items-center justify-between shadow-inner">
+                    <span className="flex items-center space-x-1.5 font-medium text-[11px]">
+                      <Sparkles className="w-3.5 h-3.5 text-sky-400 shrink-0" />
+                      <span>Est. Bihar UGMAC ({selectedRound === 'Round 2' ? 'R2' : 'R1'}):</span>
+                    </span>
+                    <span className="font-mono font-bold text-emerald-400 text-xs">
+                      ~#{estimateBiharStateRank(userAir, selectedRound).ugmac.toLocaleString()}
+                      <span className="text-stone-400 font-normal ml-1.5 text-[10px]">
+                        (Marks ~{estimateBiharStateRank(userAir, selectedRound).marks})
+                      </span>
+                    </span>
+                  </div>
+                )}
               </div>
 
               {/* Category Dropdown */}
@@ -1034,6 +1126,12 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       <option value="Round 1">Round 1 (UP State Merit - 31,653 Candidates)</option>
                       <option value="Round 2">Round 2 (UP State Merit - 33,043 Candidates)</option>
                       <option value="ALL">All UP Rounds (R1 & R2)</option>
+                    </>
+                  ) : selectedState === 'Bihar' ? (
+                    <>
+                      <option value="Round 1">Round 1 (Bihar BCECEB UGMAC - 3,985 Allotments)</option>
+                      <option value="Round 2">Round 2 (Bihar BCECEB UGMAC - 3,222 Allotments)</option>
+                      <option value="ALL">All Bihar Rounds (R1 & R2)</option>
                     </>
                   ) : (
                     <>
