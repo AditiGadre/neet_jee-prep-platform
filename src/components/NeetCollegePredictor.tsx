@@ -383,11 +383,22 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
   const [gender, setGender] = useState<'ALL' | 'FEMALE' | 'MALE'>(defaultGender);
   const [counselingScope, setCounselingScope] = useState<'ALL' | 'AIQ' | 'STATE'>('ALL');
   const [includeOpenMerit, setIncludeOpenMerit] = useState<boolean>(true);
-  const [selectedRound, setSelectedRound] = useState<'ALL' | 'Round 1' | 'Round 2'>('ALL');
+  const [selectedRound, setSelectedRound] = useState<'ALL' | 'Round 1' | 'Round 2' | 'Round 3'>('ALL');
   const [collegeTypeFilter, setCollegeTypeFilter] = useState<'ALL' | 'GOVT' | 'PRIVATE'>('ALL');
   const [searchQuery, setSearchQuery] = useState<string>('');
-  const [stateFilter, setStateFilter] = useState<string>('ALL');
+  const [stateFilter, setStateFilter] = useState<string>('Maharashtra');
+  const [selectedState, setSelectedState] = useState<'Maharashtra' | 'Uttar Pradesh' | 'Bihar' | 'Rajasthan' | 'ALL'>('Maharashtra');
+  const [upActiveRound, setUpActiveRound] = useState<'Round 1' | 'Round 2'>('Round 2');
   const [missedToleranceRanks, setMissedToleranceRanks] = useState<number>(20000);
+
+  const handleStateChange = (state: 'Maharashtra' | 'Uttar Pradesh' | 'Bihar' | 'Rajasthan' | 'ALL') => {
+    setSelectedState(state);
+    if (state === 'ALL') {
+      setStateFilter('ALL');
+    } else {
+      setStateFilter(state);
+    }
+  };
 
   // Tier search state
   const [tierSearch, setTierSearch] = useState<string>('');
@@ -474,8 +485,15 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
       if (gender === 'MALE' && entry.isWomen) return false;
 
       // 6. State Filter
-      if (stateFilter !== 'ALL' && entry.state && !entry.state.toLowerCase().includes(stateFilter.toLowerCase())) {
-        return false;
+      if (selectedState !== 'ALL') {
+        if (entry.state && !entry.state.toLowerCase().includes(selectedState.toLowerCase())) {
+          return false;
+        }
+      }
+
+      // If UP state is active and selectedRound is ALL, align with upActiveRound so rounds stay separate
+      if (selectedState === 'Uttar Pradesh' && entry.state === 'Uttar Pradesh' && selectedRound === 'ALL') {
+        if (entry.round !== upActiveRound) return false;
       }
 
       // 7. Category Filter
@@ -609,7 +627,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
           <div className="space-y-1.5">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-sky-500/20 text-sky-300 text-xs font-semibold border border-sky-500/30">
               <Sparkles className="w-3.5 h-3.5 text-sky-400" />
-              <span>Official NEET-UG 2026 Maharashtra State CAP (21,447 Round 1 & Round 2 Allotments) & AIQ Selection Dataset</span>
+              <span>Official NEET-UG 2026 Maharashtra State CAP (32,787 Round 1, Round 2 & Round 3 Allotments) & AIQ Selection Dataset</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
               {isInsideScorecard ? (
@@ -619,7 +637,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               )}
             </h2>
             <p className="text-sm text-stone-300 max-w-3xl leading-relaxed">
-              Admission viability calibrated dynamically for All India Rank <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong> across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 21,447 verified Maharashtra 2026 State CAP Round 1 & Round 2 allotments and Official MCC All-India Quota (Round 1 & 2), AIIMS, Central Universities & Deemed Medical Colleges).
+              Admission viability calibrated dynamically for All India Rank <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong> across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 32,787 verified Maharashtra 2026 State CAP Round 1, Round 2 & Round 3 allotments and Official MCC All-India Quota (Round 1 & 2), AIIMS, Central Universities & Deemed Medical Colleges).
             </p>
           </div>
 
@@ -721,7 +739,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  All Quotas (14.2k)
+                  All Quotas
                 </button>
                 <button
                   onClick={() => setCounselingScope('AIQ')}
@@ -731,20 +749,95 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  AIQ 15% / Central / Deemed (All)
+                  AIQ 15% (All-India)
                 </button>
                 <button
-                  onClick={() => setCounselingScope('STATE')}
+                  onClick={() => {
+                    setCounselingScope('STATE');
+                    if (selectedState === 'ALL') handleStateChange('Maharashtra');
+                  }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
                     counselingScope === 'STATE'
                       ? 'bg-sky-600 text-white shadow-xs'
                       : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  Maharashtra State 85% (10.5k)
+                  {selectedState === 'Maharashtra'
+                    ? 'Maharashtra State 85%'
+                    : selectedState === 'Uttar Pradesh'
+                    ? `UP State 85% (${upActiveRound})`
+                    : selectedState === 'Bihar'
+                    ? 'Bihar State 85%'
+                    : selectedState === 'Rajasthan'
+                    ? 'Rajasthan State 85%'
+                    : 'State Quota 85%'}
                 </button>
               </div>
 
+            </div>
+
+            {/* Multi-State Dropdown Under Maharashtra / Scope Bar */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-sky-950/80 p-3.5 rounded-xl border border-sky-800/40">
+              <div className="flex items-center space-x-2.5">
+                <div className="p-1.5 bg-sky-600/20 rounded-lg text-sky-400">
+                  <MapPin className="w-4 h-4" />
+                </div>
+                <div>
+                  <div className="text-xs font-bold text-white flex items-center gap-1.5">
+                    <span>State Counseling Predictor</span>
+                    <span className="px-1.5 py-0.5 rounded text-[10px] bg-sky-800 text-sky-300 font-medium">State Selection</span>
+                  </div>
+                  <div className="text-[11px] text-stone-400">
+                    Switch between Maharashtra, UP, Bihar, and Rajasthan
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2.5 flex-wrap">
+                <div className="flex items-center space-x-1.5">
+                  <label className="text-xs font-semibold text-stone-300">State:</label>
+                  <select
+                    value={selectedState}
+                    onChange={e => handleStateChange(e.target.value as any)}
+                    className="bg-sky-900 border border-sky-600/50 rounded-xl px-3 py-1.5 text-xs text-white font-bold focus:border-sky-400 focus:ring-1 focus:ring-sky-400 outline-none cursor-pointer shadow-xs"
+                  >
+                    <option value="Maharashtra">Maharashtra (MH - 85% State Quota)</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh (UP - DGME 85% & Merit)</option>
+                    <option value="Bihar">Bihar (BR - BCECEB 85% State Quota)</option>
+                    <option value="Rajasthan">Rajasthan (RJ - 85% State Quota)</option>
+                    <option value="ALL">All States (Combined View)</option>
+                  </select>
+                </div>
+
+                {/* When UP is selected, show separate Round 1 vs Round 2 toggle directly */}
+                {selectedState === 'Uttar Pradesh' && (
+                  <div className="flex items-center space-x-1 bg-sky-950 p-1 rounded-xl border border-sky-700/60">
+                    <span className="text-[10px] font-bold text-sky-300 uppercase px-1.5">UP Round:</span>
+                    <button
+                      type="button"
+                      onClick={() => setUpActiveRound('Round 1')}
+                      className={`px-2.5 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                        upActiveRound === 'Round 1'
+                          ? 'bg-sky-600 text-white shadow-xs'
+                          : 'text-stone-400 hover:text-white'
+                      }`}
+                    >
+                      Round 1 (31.6k)
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setUpActiveRound('Round 2')}
+                      className={`px-2.5 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                        upActiveRound === 'Round 2'
+                          ? 'bg-sky-600 text-white shadow-xs'
+                          : 'text-stone-400 hover:text-white'
+                      }`}
+                    >
+                      Round 2 (33.0k)
+                    </button>
+                  </div>
+                )}
+              </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -833,7 +926,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   <option value="ALL">Predict Across All Rounds (Recommended)</option>
                   <option value="Round 1">Round 1 (State CAP & MCC AIQ)</option>
                   <option value="Round 2">Round 2 (State CAP & MCC AIQ)</option>
-                  
+                  <option value="Round 3">Round 3 (State CAP)</option>
                 </select>
               </div>
 
@@ -992,7 +1085,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                               : 'bg-sky-500/20 text-sky-300 border border-sky-500/30'
                           }`}
                         >
-                          {entry.counselingType === 'AIQ' ? 'All-India (AIQ)' : 'State Quota'}
+                          {entry.counselingType === 'AIQ' ? 'All-India (AIQ)' : `${entry.state || 'State'} 85%`}
                         </span>
 
                         <span
@@ -1068,7 +1161,13 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                         </span>
                       </div>
                       <span className="text-[10px] font-mono text-sky-400/80 font-semibold">
-                        {entry.counselingType === 'AIQ' ? 'MCC AIQ (R1/R2)' : 'CET Cell Verified'}
+                        {entry.counselingType === 'AIQ'
+                          ? 'MCC AIQ (R1/R2)'
+                          : entry.state === 'Maharashtra'
+                          ? 'CET Cell Verified'
+                          : entry.state === 'Uttar Pradesh'
+                          ? 'UP DGME Verified'
+                          : `${entry.state || 'State'} Verified`}
                       </span>
                     </div>
                   </div>
@@ -1147,7 +1246,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     </div>
 
                     <div className="mt-3 pt-2 border-t border-stone-800/80 flex items-center justify-between text-[11px] text-stone-400">
-                      <span>{entry.counselingType === 'AIQ' ? 'MCC AIQ (R1/R2)' : 'State CAP'}</span>
+                      <span>{entry.counselingType === 'AIQ' ? 'MCC AIQ (R1/R2)' : `${entry.state || 'State'} CAP`}</span>
                       <span className="text-[10px] font-mono text-sky-600 font-semibold">{formatYearDisplay(entry.year)}</span>
                     </div>
                   </div>
