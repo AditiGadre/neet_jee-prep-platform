@@ -388,7 +388,6 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [stateFilter, setStateFilter] = useState<string>('Maharashtra');
   const [selectedState, setSelectedState] = useState<'Maharashtra' | 'Uttar Pradesh' | 'Bihar' | 'Rajasthan' | 'ALL'>('Maharashtra');
-  const [upActiveRound, setUpActiveRound] = useState<'Round 1' | 'Round 2'>('Round 2');
   const [missedToleranceRanks, setMissedToleranceRanks] = useState<number>(20000);
 
   const handleStateChange = (state: 'Maharashtra' | 'Uttar Pradesh' | 'Bihar' | 'Rajasthan' | 'ALL') => {
@@ -397,6 +396,14 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
       setStateFilter('ALL');
     } else {
       setStateFilter(state);
+    }
+    if (state === 'Uttar Pradesh') {
+      setCounselingScope('STATE');
+      if (selectedRound !== 'Round 1' && selectedRound !== 'Round 2') {
+        setSelectedRound('Round 1');
+      }
+    } else if (state === 'Maharashtra') {
+      setCounselingScope('STATE');
     }
   };
 
@@ -486,14 +493,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
 
       // 6. State Filter
       if (selectedState !== 'ALL') {
-        if (entry.state && !entry.state.toLowerCase().includes(selectedState.toLowerCase())) {
+        if (!entry.state || !entry.state.toLowerCase().includes(selectedState.toLowerCase())) {
           return false;
         }
-      }
-
-      // If UP state is active and selectedRound is ALL, align with upActiveRound so rounds stay separate
-      if (selectedState === 'Uttar Pradesh' && entry.state === 'Uttar Pradesh' && selectedRound === 'ALL') {
-        if (entry.round !== upActiveRound) return false;
       }
 
       // 7. Category Filter
@@ -729,12 +731,17 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <span>Candidate Credentials & Prediction Filters</span>
               </div>
 
-              {/* Counseling Scope Toggle */}
-              <div className="flex items-center space-x-1.5 bg-sky-950 p-1 rounded-xl border border-stone-700">
+              {/* Counseling Scope Tabs */}
+              <div className="flex items-center space-x-1.5 bg-sky-950 p-1 rounded-xl border border-stone-700 flex-wrap gap-y-1">
                 <button
-                  onClick={() => setCounselingScope('ALL')}
+                  type="button"
+                  onClick={() => {
+                    setCounselingScope('ALL');
+                    setSelectedState('ALL');
+                    setSelectedRound('ALL');
+                  }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                    counselingScope === 'ALL'
+                    counselingScope === 'ALL' && selectedState === 'ALL'
                       ? 'bg-sky-600 text-white shadow-xs'
                       : 'text-stone-400 hover:text-white'
                   }`}
@@ -742,7 +749,11 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   All Quotas
                 </button>
                 <button
-                  onClick={() => setCounselingScope('AIQ')}
+                  type="button"
+                  onClick={() => {
+                    setCounselingScope('AIQ');
+                    setSelectedRound('ALL');
+                  }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
                     counselingScope === 'AIQ'
                       ? 'bg-sky-600 text-white shadow-xs'
@@ -752,26 +763,81 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   AIQ 15% (All-India)
                 </button>
                 <button
+                  type="button"
                   onClick={() => {
                     setCounselingScope('STATE');
-                    if (selectedState === 'ALL') handleStateChange('Maharashtra');
+                    handleStateChange('Maharashtra');
                   }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                    counselingScope === 'STATE'
+                    counselingScope === 'STATE' && selectedState === 'Maharashtra'
                       ? 'bg-sky-600 text-white shadow-xs'
                       : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  {selectedState === 'Maharashtra'
-                    ? 'Maharashtra State 85%'
-                    : selectedState === 'Uttar Pradesh'
-                    ? `UP State 85% (${upActiveRound})`
-                    : selectedState === 'Bihar'
-                    ? 'Bihar State 85%'
-                    : selectedState === 'Rajasthan'
-                    ? 'Rajasthan State 85%'
-                    : 'State Quota 85%'}
+                  Maharashtra 85%
                 </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCounselingScope('STATE');
+                    handleStateChange('Uttar Pradesh');
+                    setSelectedRound('Round 1');
+                  }}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                    counselingScope === 'STATE' && selectedState === 'Uttar Pradesh' && selectedRound === 'Round 1'
+                      ? 'bg-sky-600 text-white shadow-xs'
+                      : 'text-stone-400 hover:text-white'
+                  }`}
+                >
+                  UP Round 1 (31.6k)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCounselingScope('STATE');
+                    handleStateChange('Uttar Pradesh');
+                    setSelectedRound('Round 2');
+                  }}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                    counselingScope === 'STATE' && selectedState === 'Uttar Pradesh' && selectedRound === 'Round 2'
+                      ? 'bg-sky-600 text-white shadow-xs'
+                      : 'text-stone-400 hover:text-white'
+                  }`}
+                >
+                  UP Round 2 (33.0k)
+                </button>
+                {selectedState === 'Bihar' && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setCounselingScope('STATE');
+                      handleStateChange('Bihar');
+                    }}
+                    className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                      counselingScope === 'STATE' && selectedState === 'Bihar'
+                        ? 'bg-sky-600 text-white shadow-xs'
+                        : 'text-stone-400 hover:text-white'
+                    }`}
+                  >
+                    Bihar 85%
+                  </button>
+                )}
+                {selectedState === 'Rajasthan' && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setCounselingScope('STATE');
+                      handleStateChange('Rajasthan');
+                    }}
+                    className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                      counselingScope === 'STATE' && selectedState === 'Rajasthan'
+                        ? 'bg-sky-600 text-white shadow-xs'
+                        : 'text-stone-400 hover:text-white'
+                    }`}
+                  >
+                    Rajasthan 85%
+                  </button>
+                )}
               </div>
 
             </div>
@@ -793,7 +859,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 </div>
               </div>
 
-              <div className="flex items-center gap-2.5 flex-wrap">
+              <div className="flex items-center gap-2.5">
                 <div className="flex items-center space-x-1.5">
                   <label className="text-xs font-semibold text-stone-300">State:</label>
                   <select
@@ -808,35 +874,6 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     <option value="ALL">All States (Combined View)</option>
                   </select>
                 </div>
-
-                {/* When UP is selected, show separate Round 1 vs Round 2 toggle directly */}
-                {selectedState === 'Uttar Pradesh' && (
-                  <div className="flex items-center space-x-1 bg-sky-950 p-1 rounded-xl border border-sky-700/60">
-                    <span className="text-[10px] font-bold text-sky-300 uppercase px-1.5">UP Round:</span>
-                    <button
-                      type="button"
-                      onClick={() => setUpActiveRound('Round 1')}
-                      className={`px-2.5 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                        upActiveRound === 'Round 1'
-                          ? 'bg-sky-600 text-white shadow-xs'
-                          : 'text-stone-400 hover:text-white'
-                      }`}
-                    >
-                      Round 1 (31.6k)
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setUpActiveRound('Round 2')}
-                      className={`px-2.5 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                        upActiveRound === 'Round 2'
-                          ? 'bg-sky-600 text-white shadow-xs'
-                          : 'text-stone-400 hover:text-white'
-                      }`}
-                    >
-                      Round 2 (33.0k)
-                    </button>
-                  </div>
-                )}
               </div>
             </div>
 
@@ -923,10 +960,20 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   onChange={e => setSelectedRound(e.target.value as any)}
                   className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white focus:border-sky-400 focus:outline-hidden"
                 >
-                  <option value="ALL">Predict Across All Rounds (Recommended)</option>
-                  <option value="Round 1">Round 1 (State CAP & MCC AIQ)</option>
-                  <option value="Round 2">Round 2 (State CAP & MCC AIQ)</option>
-                  <option value="Round 3">Round 3 (State CAP)</option>
+                  {selectedState === 'Uttar Pradesh' ? (
+                    <>
+                      <option value="Round 1">Round 1 (UP State Merit - 31,653 Candidates)</option>
+                      <option value="Round 2">Round 2 (UP State Merit - 33,043 Candidates)</option>
+                      <option value="ALL">All UP Rounds (R1 & R2)</option>
+                    </>
+                  ) : (
+                    <>
+                      <option value="ALL">Predict Across All Rounds (Recommended)</option>
+                      <option value="Round 1">Round 1 (State CAP & MCC AIQ)</option>
+                      <option value="Round 2">Round 2 (State CAP & MCC AIQ)</option>
+                      <option value="Round 3">Round 3 (State CAP)</option>
+                    </>
+                  )}
                 </select>
               </div>
 
