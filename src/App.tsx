@@ -17,14 +17,13 @@ const LiveDoubtModal = lazy(() => import('./components/LiveDoubtModal').then(m =
 const BookReaderModal = lazy(() => import('./components/BookReaderModal').then(m => ({ default: m.BookReaderModal })));
 const AuthModal = lazy(() => import('./components/AuthModal').then(m => ({ default: m.AuthModal })));
 const DownloadsModal = lazy(() => import('./components/DownloadsModal').then(m => ({ default: m.DownloadsModal })));
-const TermsAndConditionsModal = lazy(() => import('./components/TermsAndConditionsModal').then(m => ({ default: m.TermsAndConditionsModal })));
-import { AdminSection } from './components/AdminSection';
+import { TermsAndConditionsModal } from './components/TermsAndConditionsModal';
+const AdminSection = lazy(() => import('./components/AdminSection').then(m => ({ default: m.AdminSection })));
 import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
 
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
 import { initCloudSync, fetchStudentByPhoneFromCloud, syncStudentEnrollmentToCloud, cleanPhoneNumber } from './utils/cloudSyncManager';
-import { assertNoDuplicateQuestions } from './data/sundayPlannerTests';
 
 const SectionLoadingFallback = () => (
   <div className="flex flex-col items-center justify-center min-h-[350px] w-full p-8 text-center animate-in fade-in duration-200">
@@ -44,12 +43,6 @@ import {
   BOOKS_DATA,
   PYQS_DATA
 } from './data/mockData';
-import {
-  SUNDAY_DROPPER_PLANNER_TESTS,
-  generateSundayTestQuestions,
-  getSavedCustomSundayPaper
-} from './data/sundayPlannerTests';
-import { fetchAuthoritativePaper } from './services/authoritativeCloudService';
 import { healTruncatedText } from './utils/mathFormatter';
 import { ExamType, TestItem, BookItem, UserTestResult } from './types';
 

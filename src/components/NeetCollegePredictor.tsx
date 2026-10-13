@@ -507,10 +507,10 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
       // 8. Search Query
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase();
-        const matchName = entry.collegeName.toLowerCase().includes(q);
-        const matchCode = entry.collegeCode.toLowerCase().includes(q);
-        const matchQuota = entry.quota.toLowerCase().includes(q);
-        const matchRaw = entry.rawName ? entry.rawName.toLowerCase().includes(q) : false;
+        const matchName = (entry.collegeName || '').toLowerCase().includes(q);
+        const matchCode = (entry.collegeCode || '').toLowerCase().includes(q);
+        const matchQuota = (entry.quota || '').toLowerCase().includes(q);
+        const matchRaw = (entry.rawName || '').toLowerCase().includes(q);
         if (!matchName && !matchCode && !matchQuota && !matchRaw) return false;
       }
 

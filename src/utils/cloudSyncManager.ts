@@ -87,9 +87,11 @@ const memorySundayPaperCache = new Map<string, SyncedSundayPaper>();
 let memoryAdminConfig: SyncedAdminConfig | null = null;
 const memoryStudentPhoneCache = new Map<string, SyncedStudentProfile>();
 
-export function cleanPhoneNumber(raw: string): string {
-  if (!raw) return '';
-  const digits = raw.replace(/\D/g, '');
+export function cleanPhoneNumber(raw: any): string {
+  if (raw === null || raw === undefined) return '';
+  const str = String(raw).trim();
+  if (!str) return '';
+  const digits = str.replace(/\D/g, '');
   if (digits.length > 10 && digits.startsWith('91')) {
     return digits.slice(2);
   }
