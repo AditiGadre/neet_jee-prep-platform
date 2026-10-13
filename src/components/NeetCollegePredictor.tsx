@@ -94,6 +94,58 @@ function estimateScoreFromRank(rank: number): number {
   return 150;
 }
 
+// Empirical AIR -> UP State Merit Rank anchors from official UP NEET merit lists (Round 1: 31,654 candidates, Round 2: 33,044 candidates)
+const UP_MERIT_R1_ANCHORS = [
+  { air: 7, smr: 1, marks: 710 },
+  { air: 1078, smr: 9, marks: 656 },
+  { air: 4996, smr: 274, marks: 620 },
+  { air: 9998, smr: 829, marks: 600 },
+  { air: 15010, smr: 1482, marks: 587 },
+  { air: 20001, smr: 2173, marks: 576 },
+  { air: 26179, smr: 3054, marks: 565 },
+  { air: 30002, smr: 3604, marks: 560 },
+  { air: 49986, smr: 5460, marks: 536 },
+  { air: 99994, smr: 7354, marks: 493 },
+  { air: 200008, smr: 11609, marks: 433 },
+  { air: 499999, smr: 21427, marks: 325 },
+  { air: 1000000, smr: 29500, marks: 210 },
+  { air: 1400000, smr: 31653, marks: 137 }
+];
+
+const UP_MERIT_R2_ANCHORS = [
+  { air: 7, smr: 1, marks: 710 },
+  { air: 1078, smr: 9, marks: 656 },
+  { air: 4996, smr: 281, marks: 620 },
+  { air: 9998, smr: 841, marks: 600 },
+  { air: 15010, smr: 1500, marks: 587 },
+  { air: 20001, smr: 2194, marks: 576 },
+  { air: 26179, smr: 3081, marks: 565 },
+  { air: 30002, smr: 3633, marks: 560 },
+  { air: 49986, smr: 5547, marks: 536 },
+  { air: 99994, smr: 7522, marks: 493 },
+  { air: 200008, smr: 11922, marks: 433 },
+  { air: 499999, smr: 22142, marks: 325 },
+  { air: 1000000, smr: 30800, marks: 210 },
+  { air: 1450000, smr: 33043, marks: 129 }
+];
+
+export function estimateUpStateRank(air: number, round: string = 'Round 1'): { smr: number; marks: number } {
+  const anchors = round === 'Round 2' ? UP_MERIT_R2_ANCHORS : UP_MERIT_R1_ANCHORS;
+  if (air <= anchors[0].air) return { smr: anchors[0].smr, marks: anchors[0].marks };
+  for (let i = 0; i < anchors.length - 1; i++) {
+    const a0 = anchors[i];
+    const a1 = anchors[i + 1];
+    if (air >= a0.air && air <= a1.air) {
+      const ratio = (air - a0.air) / (a1.air - a0.air);
+      const smr = Math.round(a0.smr + ratio * (a1.smr - a0.smr));
+      const marks = Math.round(a0.marks + ratio * (a1.marks - a0.marks));
+      return { smr, marks };
+    }
+  }
+  const last = anchors[anchors.length - 1];
+  return { smr: last.smr, marks: last.marks };
+}
+
 export const CATEGORY_OPTIONS = [
   { value: 'OPEN', label: 'General / Unreserved (OPEN / UR)', group: 'General' },
   { value: 'OBC', label: 'Other Backward Classes (OBC)', group: 'Reserved' },
@@ -639,7 +691,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               )}
             </h2>
             <p className="text-sm text-stone-300 max-w-3xl leading-relaxed">
-              Admission viability calibrated dynamically for All India Rank <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong> across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 32,787 verified Maharashtra 2026 State CAP Round 1, Round 2 & Round 3 allotments and Official MCC All-India Quota (Round 1 & 2), AIIMS, Central Universities & Deemed Medical Colleges).
+              Admission viability calibrated dynamically for All India Rank <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong> across <strong className="text-white">{NEET_CUTOFFS_DATA.length.toLocaleString()} verified selection entries</strong> (including 32,787 verified Maharashtra 2026 State CAP Round 1, Round 2 & Round 3 allotments, 64,697 UP DGME Round 1 & Round 2 merit records across 72 GMC & Private institutions, and Official MCC All-India Quota Round 1 & 2 allotments).
             </p>
           </div>
 
@@ -715,6 +767,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             </div>
             <div>
               2. <strong>Round 3 Absolute Boundary:</strong> Open/OBC Govt MBBS closed at <strong>AIR 26,178</strong>, SC Govt MBBS closed at <strong>AIR 1,35,684</strong>, ST at <strong>AIR 1,63,285</strong>, and Govt BDS at <strong>AIR 49,462</strong>.
+            </div>
+            <div>
+              3. <strong>UP DGME 85% State Quota (R1 & R2):</strong> Calibrated across all 42 UP Government Medical Colleges and 30 Private & BDS Colleges from official 31,654 Round 1 and 33,044 Round 2 merit candidate records.
             </div>
           </div>
         </div>
@@ -896,6 +951,20 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   <span className="absolute right-3 top-2.5 text-xs text-sky-600 font-semibold">AIR</span>
                 </div>
                 <p className="text-[11px] text-stone-400 font-medium">Predict colleges eligible at your All India Rank</p>
+                {selectedState === 'Uttar Pradesh' && userAir > 0 && (
+                  <div className="mt-1.5 p-2 rounded-xl bg-sky-950/90 border border-sky-500/30 text-xs text-sky-200 flex items-center justify-between shadow-inner">
+                    <span className="flex items-center space-x-1.5 font-medium text-[11px]">
+                      <Sparkles className="w-3.5 h-3.5 text-sky-400 shrink-0" />
+                      <span>Est. UP Merit ({selectedRound === 'Round 2' ? 'R2' : 'R1'}):</span>
+                    </span>
+                    <span className="font-mono font-bold text-emerald-400 text-xs">
+                      ~#{estimateUpStateRank(userAir, selectedRound).smr.toLocaleString()}
+                      <span className="text-stone-400 font-normal ml-1.5 text-[10px]">
+                        (Marks ~{estimateUpStateRank(userAir, selectedRound).marks})
+                      </span>
+                    </span>
+                  </div>
+                )}
               </div>
 
               {/* Category Dropdown */}
@@ -1036,11 +1105,19 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
 
             <div className="bg-sky-900 border border-stone-800 rounded-xl p-6 flex items-center space-x-3">
               <div className="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center shrink-0">
-                <Globe className="w-5 h-5" />
+                {counselingScope === 'STATE' ? <MapPin className="w-5 h-5" /> : <Globe className="w-5 h-5" />}
               </div>
               <div>
-                <div className="text-2xl font-black text-sky-400">{stats.aiqCleared}</div>
-                <div className="text-xs text-stone-400 font-semibold">All India (AIQ) Seats</div>
+                <div className="text-2xl font-black text-sky-400">
+                  {counselingScope === 'STATE' ? stats.stateCleared : counselingScope === 'AIQ' ? stats.aiqCleared : stats.totalCleared}
+                </div>
+                <div className="text-xs text-stone-400 font-semibold">
+                  {counselingScope === 'STATE'
+                    ? `${selectedState === 'Uttar Pradesh' ? 'UP' : selectedState === 'Maharashtra' ? 'MH' : selectedState === 'Bihar' ? 'Bihar' : selectedState === 'Rajasthan' ? 'Rajasthan' : 'State'} 85% Seats`
+                    : counselingScope === 'AIQ'
+                    ? 'All India (AIQ) Seats'
+                    : 'AIQ & State Quota'}
+                </div>
               </div>
             </div>
 
@@ -1059,8 +1136,16 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <GraduationCap className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-2xl font-black text-sky-300">{stats.bdsCleared}</div>
-                <div className="text-xs text-stone-400 font-semibold">BDS Dental Seats</div>
+                <div className="text-2xl font-black text-sky-300">
+                  {collegeTypeFilter === 'PRIVATE' || (collegeTypeFilter === 'ALL' && stats.pvtMbbsCleared > 0 && stats.bdsCleared === 0)
+                    ? stats.pvtMbbsCleared
+                    : stats.bdsCleared}
+                </div>
+                <div className="text-xs text-stone-400 font-semibold">
+                  {collegeTypeFilter === 'PRIVATE' || (collegeTypeFilter === 'ALL' && stats.pvtMbbsCleared > 0 && stats.bdsCleared === 0)
+                    ? 'Private MBBS Seats'
+                    : 'BDS Dental Seats'}
+                </div>
               </div>
             </div>
 
