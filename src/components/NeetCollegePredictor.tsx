@@ -205,7 +205,7 @@ export function estimateBiharStateRank(air: number, round: string = 'Round 1'): 
   return { ugmac: last.ugmac, marks: last.marks };
 }
 
-// Empirical AIR -> Rajasthan State Merit Rank anchors from official allotment list (5,666 candidates)
+// Empirical AIR -> Rajasthan State Merit Rank anchors from official allotment list Round 1 (5,666 candidates)
 const RAJASTHAN_MERIT_R1_ANCHORS = [
   { air: 628, smr: 1, marks: 667 },
   { air: 999, smr: 8, marks: 657 },
@@ -229,8 +229,36 @@ const RAJASTHAN_MERIT_R1_ANCHORS = [
   { air: 1193859, smr: 14068, marks: 177 },
 ];
 
-export function estimateRajasthanStateRank(air: number): { smr: number; marks: number } {
-  const anchors = RAJASTHAN_MERIT_R1_ANCHORS;
+// Empirical AIR -> Rajasthan State Merit Rank anchors from official allotment list Round 2 (5,816 candidates)
+const RAJASTHAN_MERIT_R2_ANCHORS = [
+  { air: 635, smr: 2, marks: 666 },
+  { air: 999, smr: 8, marks: 657 },
+  { air: 1993, smr: 76, marks: 643 },
+  { air: 3016, smr: 176, marks: 634 },
+  { air: 5002, smr: 445, marks: 620 },
+  { air: 7501, smr: 933, marks: 609 },
+  { air: 9997, smr: 1381, marks: 600 },
+  { air: 15004, smr: 2237, marks: 587 },
+  { air: 20086, smr: 3019, marks: 576 },
+  { air: 25038, smr: 3686, marks: 567 },
+  { air: 30000, smr: 4345, marks: 560 },
+  { air: 39997, smr: 5152, marks: 547 },
+  { air: 50010, smr: 5725, marks: 535 },
+  { air: 64942, smr: 6443, marks: 521 },
+  { air: 79928, smr: 6937, marks: 508 },
+  { air: 100003, smr: 7463, marks: 493 },
+  { air: 149642, smr: 8694, marks: 460 },
+  { air: 200044, smr: 9519, marks: 433 },
+  { air: 299834, smr: 10658, marks: 390 },
+  { air: 450074, smr: 11861, marks: 340 },
+  { air: 599923, smr: 12786, marks: 299 },
+  { air: 799715, smr: 13922, marks: 253 },
+  { air: 999399, smr: 15033, marks: 212 },
+  { air: 1194651, smr: 15402, marks: 177 },
+];
+
+export function estimateRajasthanStateRank(air: number, round: string = 'Round 1'): { smr: number; marks: number } {
+  const anchors = round === 'Round 2' ? RAJASTHAN_MERIT_R2_ANCHORS : RAJASTHAN_MERIT_R1_ANCHORS;
   if (air <= anchors[0].air) return { smr: anchors[0].smr, marks: anchors[0].marks };
   for (let i = 0; i < anchors.length - 1; i++) {
     const a0 = anchors[i];
@@ -879,7 +907,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               4. <strong>Bihar BCECEB 85% State Quota (R1 & R2):</strong> Calibrated across 14 Government Medical Colleges, Patna Dental College, 17 Private Medical Colleges, and 3 Private Dental Colleges from the official 7,207 candidate allotment dataset (3,985 Round 1 + 3,222 Round 2 allotments).
             </div>
             <div>
-              5. <strong>Rajasthan NEET-UG 85% State Quota (R1):</strong> Calibrated across 33 Government Medical Colleges, 2 Government Dental Colleges, 18 Private Medical Colleges, and 14 Private Dental Colleges from the official 5,666 candidate allotment dataset.
+              5. <strong>Rajasthan NEET-UG 85% State Quota (R1 & R2):</strong> Calibrated across 33 Government Medical Colleges, 2 Government Dental Colleges, and 33 Private Medical & Dental institutions in Rajasthan (5,666 Round 1 + 5,816 Round 2 candidate allotments) from official Rajasthan NEET-UG State Counseling authority lists.
             </div>
           </div>
         </div>
@@ -1009,12 +1037,27 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     setSelectedRound('Round 1');
                   }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                    counselingScope === 'STATE' && selectedState === 'Rajasthan'
+                    counselingScope === 'STATE' && selectedState === 'Rajasthan' && selectedRound === 'Round 1'
                       ? 'bg-sky-600 text-white shadow-xs'
                       : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  Rajasthan 85% (5.7k)
+                  Rajasthan Round 1 (5.7k)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCounselingScope('STATE');
+                    handleStateChange('Rajasthan');
+                    setSelectedRound('Round 2');
+                  }}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                    counselingScope === 'STATE' && selectedState === 'Rajasthan' && selectedRound === 'Round 2'
+                      ? 'bg-sky-600 text-white shadow-xs'
+                      : 'text-stone-400 hover:text-white'
+                  }`}
+                >
+                  Rajasthan Round 2 (5.8k)
                 </button>
               </div>
 
@@ -1106,12 +1149,12 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   <div className="mt-1.5 p-2 rounded-xl bg-sky-950/90 border border-sky-500/30 text-xs text-sky-200 flex items-center justify-between shadow-inner">
                     <span className="flex items-center space-x-1.5 font-medium text-[11px]">
                       <Sparkles className="w-3.5 h-3.5 text-sky-400 shrink-0" />
-                      <span>Est. Rajasthan Merit (R1):</span>
+                      <span>Est. Rajasthan Merit ({selectedRound === 'Round 2' ? 'R2' : 'R1'}):</span>
                     </span>
                     <span className="font-mono font-bold text-emerald-400 text-xs">
-                      ~#{estimateRajasthanStateRank(userAir).smr.toLocaleString()}
+                      ~#{estimateRajasthanStateRank(userAir, selectedRound).smr.toLocaleString()}
                       <span className="text-stone-400 font-normal ml-1.5 text-[10px]">
-                        (Marks ~{estimateRajasthanStateRank(userAir).marks})
+                        (Marks ~{estimateRajasthanStateRank(userAir, selectedRound).marks})
                       </span>
                     </span>
                   </div>
@@ -1195,7 +1238,8 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   ) : selectedState === 'Rajasthan' ? (
                     <>
                       <option value="Round 1">Round 1 (Rajasthan State Quota - 5,666 Allotments)</option>
-                      <option value="ALL">All Rajasthan Rounds</option>
+                      <option value="Round 2">Round 2 (Rajasthan State Quota - 5,816 Allotments)</option>
+                      <option value="ALL">All Rajasthan Rounds (R1 & R2)</option>
                     </>
                   ) : (
                     <>
