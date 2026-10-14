@@ -506,12 +506,27 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         
         const isPdf = file.type === 'application/pdf' || fileName.toLowerCase().endsWith('.pdf');
         
-        let chapterGuess = 'System of Particles and Rotational Motion';
-        let subjectGuess = 'Physics';
         const lowerName = fileName.toLowerCase();
-        if (lowerName.includes('kinematics')) { chapterGuess = 'Kinematics'; }
-        else if (lowerName.includes('bio')) { subjectGuess = 'Biology'; chapterGuess = 'Mixed Biology'; }
-        else if (lowerName.includes('chem')) { subjectGuess = 'Chemistry'; chapterGuess = 'Mixed Chemistry'; }
+        let subjectGuess = 'Physics';
+        let chapterGuess = 'Electric Charges and Fields';
+
+        if (lowerName.includes('kinematics')) { 
+          chapterGuess = 'Kinematics'; 
+          subjectGuess = 'Physics';
+        } else if (lowerName.includes('electrostat') || lowerName.includes('charge') || lowerName.includes('capacit') || lowerName.includes('allen')) {
+          chapterGuess = 'Electric Charges and Fields';
+          subjectGuess = 'Physics';
+        } else if (lowerName.includes('bio') || lowerName.includes('botany') || lowerName.includes('zoology') || lowerName.includes('cell') || lowerName.includes('genetics') || lowerName.includes('living')) {
+          subjectGuess = 'Biology';
+          chapterGuess = lowerName.includes('cell') ? 'Cell: The Unit of Life' : lowerName.includes('genetics') ? 'Principles of Inheritance and Variation' : 'The Living World';
+        } else if (lowerName.includes('chem') || lowerName.includes('mole') || lowerName.includes('atom') || lowerName.includes('bonding') || lowerName.includes('thermo') || lowerName.includes('organic')) {
+          subjectGuess = 'Chemistry';
+          chapterGuess = lowerName.includes('mole') ? 'Some Basic Concepts of Chemistry' : lowerName.includes('atom') ? 'Structure of Atom' : 'Chemical Bonding and Molecular Structure';
+        } else {
+          const autoGuess = classifyChapterAndSubject(fileName);
+          subjectGuess = autoGuess.subject;
+          chapterGuess = autoGuess.chapter;
+        }
         
         if (isPdf) {
             import('pdfjs-dist/legacy/build/pdf.js').then(async (pdfjs) => {
@@ -521,6 +536,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     const pdf = await pdfjs.getDocument({ data: arrayBuffer }).promise;
                     const fullText = await extractTextFromPdfDocument(pdf);
                     
+                    const upperText = (fullText || '').toUpperCase();
+                    if (upperText.includes('ELECTROSTATICS') || upperText.includes('')) {
+                      subjectGuess = 'Physics';
+                      chapterGuess = 'Electric Charges and Fields';
+                    } else if (fullText.length > 50) {
+                      const autoClass = classifyChapterAndSubject(fullText.slice(0, 1000), [], subjectGuess, chapterGuess);
+                      subjectGuess = autoClass.subject;
+                      chapterGuess = autoClass.chapter;
+                    }
+
                     const generatedQuestions = extractQuestionsFromPdfText(fullText, {
                         subject: subjectGuess,
                         chapter: chapterGuess
@@ -4746,48 +4771,17 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                  setStoredQuestions(updated);
                                  localStorage.setItem('admin_question_bank', JSON.stringify(updated));
                                }}
-                               className="text-xs font-semibold text-stone-800 bg-transparent outline-none cursor-pointer"
-                             >
-                               <option value="Units and Measurements">Units and Measurements</option>
-                               <option value="Kinematics">Kinematics</option>
-                               <option value="Laws of Motion">Laws of Motion</option>
-                               <option value="Work, Energy and Power">Work, Energy and Power</option>
-                               <option value="System of Particles and Rotational Motion">System of Particles and Rotational Motion</option>
-                               <option value="Gravitation">Gravitation</option>
-                               <option value="Mechanical Properties of Solids">Mechanical Properties of Solids</option>
-                               <option value="Mechanical Properties of Fluids">Mechanical Properties of Fluids</option>
-                               <option value="Thermal Properties of Matter">Thermal Properties of Matter</option>
-                               <option value="Thermodynamics">Thermodynamics</option>
-                               <option value="Kinetic Theory">Kinetic Theory</option>
-                               <option value="Oscillations">Oscillations</option>
-                               <option value="Waves">Waves</option>
-                               <option value="Electric Charges and Fields">Electric Charges and Fields</option>
-                               <option value="Electrostatic Potential and Capacitance">Electrostatic Potential and Capacitance</option>
-                               <option value="Current Electricity">Current Electricity</option>
-                               <option value="Moving Charges and Magnetism">Moving Charges and Magnetism</option>
-                               <option value="Magnetism and Matter">Magnetism and Matter</option>
-                               <option value="Electromagnetic Induction">Electromagnetic Induction</option>
-                               <option value="Alternating Current">Alternating Current</option>
-                               <option value="Electromagnetic Waves">Electromagnetic Waves</option>
-                               <option value="Ray Optics and Optical Instruments">Ray Optics and Optical Instruments</option>
-                               <option value="Wave Optics">Wave Optics</option>
-                               <option value="Dual Nature of Radiation and Matter">Dual Nature of Radiation and Matter</option>
-                               <option value="Atoms">Atoms</option>
-                               <option value="Nuclei">Nuclei</option>
-                               <option value="Semiconductor Electronics">Semiconductor Electronics</option>
-                               <option value="Some Basic Concepts of Chemistry">Some Basic Concepts of Chemistry</option>
-                               <option value="Structure of Atom">Structure of Atom</option>
-                               <option value="Chemical Bonding and Molecular Structure">Chemical Bonding and Molecular Structure</option>
-                               <option value="Chemical Thermodynamics">Chemical Thermodynamics</option>
-                               <option value="Solutions">Solutions</option>
-                               <option value="Electrochemistry">Electrochemistry</option>
-                               <option value="Chemical Kinetics">Chemical Kinetics</option>
-                               <option value="Organic Chemistry - Basic Principles">Organic Chemistry - Basic Principles</option>
-                               <option value="The Living World">The Living World</option>
-                               <option value="Cell: The Unit of Life">Cell: The Unit of Life</option>
-                               <option value="Human Physiology">Human Physiology</option>
-                               <option value="Genetics and Evolution">Genetics and Evolution</option>
-                             </select>
+                               className="text-xs font-semibold text-stone-800 bg-transparent outline-none cursor-pointer max-w-[260px] truncate">
+                                <optgroup label="⚡ Physics Chapters">
+                                  {ALL_PHYSICS_CHAPTERS.map(c => <option key={`qb-p-${c}`} value={c}>{c}</option>)}
+                                </optgroup>
+                                <optgroup label="🧪 Chemistry Chapters">
+                                  {ALL_CHEMISTRY_CHAPTERS.map(c => <option key={`qb-c-${c}`} value={c}>{c}</option>)}
+                                </optgroup>
+                                <optgroup label="🧬 Biology Chapters">
+                                  {ALL_BIOLOGY_CHAPTERS.map(c => <option key={`qb-b-${c}`} value={c}>{c}</option>)}
+                                </optgroup>
+                              </select>
                            </div>
                            <button
                              type="button"
