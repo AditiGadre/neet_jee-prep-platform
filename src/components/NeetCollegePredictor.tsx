@@ -205,21 +205,64 @@ export function estimateBiharStateRank(air: number, round: string = 'Round 1'): 
   return { ugmac: last.ugmac, marks: last.marks };
 }
 
+// Empirical AIR -> Rajasthan State Merit Rank anchors from official allotment list (5,666 candidates)
+const RAJASTHAN_MERIT_R1_ANCHORS = [
+  { air: 628, smr: 1, marks: 667 },
+  { air: 999, smr: 8, marks: 657 },
+  { air: 2511, smr: 118, marks: 638 },
+  { air: 5002, smr: 420, marks: 620 },
+  { air: 7501, smr: 872, marks: 609 },
+  { air: 9997, smr: 1296, marks: 600 },
+  { air: 14002, smr: 1955, marks: 589 },
+  { air: 20086, smr: 2854, marks: 576 },
+  { air: 26172, smr: 3647, marks: 565 },
+  { air: 35010, smr: 4521, marks: 553 },
+  { air: 50010, smr: 5379, marks: 535 },
+  { air: 75068, smr: 6377, marks: 512 },
+  { air: 100003, smr: 7011, marks: 493 },
+  { air: 150283, smr: 8161, marks: 460 },
+  { air: 250430, smr: 9483, marks: 410 },
+  { air: 399835, smr: 10713, marks: 355 },
+  { air: 599923, smr: 11836, marks: 299 },
+  { air: 799715, smr: 12811, marks: 253 },
+  { air: 1000595, smr: 13751, marks: 212 },
+  { air: 1193859, smr: 14068, marks: 177 },
+];
+
+export function estimateRajasthanStateRank(air: number): { smr: number; marks: number } {
+  const anchors = RAJASTHAN_MERIT_R1_ANCHORS;
+  if (air <= anchors[0].air) return { smr: anchors[0].smr, marks: anchors[0].marks };
+  for (let i = 0; i < anchors.length - 1; i++) {
+    const a0 = anchors[i];
+    const a1 = anchors[i + 1];
+    if (air >= a0.air && air <= a1.air) {
+      const ratio = (air - a0.air) / (a1.air - a0.air);
+      const smr = Math.round(a0.smr + ratio * (a1.smr - a0.smr));
+      const marks = Math.round(a0.marks + ratio * (a1.marks - a0.marks));
+      return { smr, marks };
+    }
+  }
+  const last = anchors[anchors.length - 1];
+  return { smr: last.smr, marks: last.marks };
+}
+
 export const CATEGORY_OPTIONS = [
   { value: 'OPEN', label: 'General / Unreserved (OPEN / UR)', group: 'General' },
   { value: 'OBC', label: 'Other Backward Classes (OBC / BC)', group: 'Reserved' },
+  { value: 'MBC', label: 'Most Backward Classes (MBC - Rajasthan 5%)', group: 'State Reserved' },
+  { value: 'TSP', label: 'Tribal Area Sub-Plan (TSP / SA - Rajasthan)', group: 'State Reserved' },
   { value: 'EBC', label: 'Extremely Backward Class (EBC - Bihar)', group: 'State Reserved' },
   { value: 'RCG', label: 'Reserved Category Girls (RCG 3% - Bihar)', group: 'State Reserved' },
   { value: 'EWS', label: 'Economically Weaker Section (EWS)', group: 'Reserved' },
   { value: 'SC', label: 'Scheduled Castes (SC)', group: 'Reserved' },
   { value: 'ST', label: 'Scheduled Tribes (ST)', group: 'Reserved' },
   { value: 'PWD', label: 'Persons with Disabilities (PwD / DQ / PH)', group: 'Horizontal' },
+  { value: 'DEF', label: 'Defense Personnel (DEF1-3 / EXS / WPP)', group: 'State Special' },
   { value: 'SEBC', label: 'Socially & Educationally Backward (SEBC - State)', group: 'State Reserved' },
   { value: 'VJ', label: 'Vimukta Jati (VJ / NT-A - State)', group: 'State Reserved' },
   { value: 'NTB', label: 'Nomadic Tribes-B (NT-B - State)', group: 'State Reserved' },
   { value: 'NTC', label: 'Nomadic Tribes-C (NT-C - State)', group: 'State Reserved' },
   { value: 'NTD', label: 'Nomadic Tribes-D (NT-D - State)', group: 'State Reserved' },
-  { value: 'DEF', label: 'Defense Personnel (DEF1 / DEF2 / DEF3)', group: 'State Special' },
   { value: 'IQ', label: 'Deemed / Management / Minority / NRI Quota', group: 'Management' },
   { value: 'MKB', label: 'Maharashtra-Karnataka Border (MKB)', group: 'State Special' },
   { value: 'ORPHAN', label: 'Orphan Quota', group: 'State Special' },
@@ -835,6 +878,9 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
             <div>
               4. <strong>Bihar BCECEB 85% State Quota (R1 & R2):</strong> Calibrated across 14 Government Medical Colleges, Patna Dental College, 17 Private Medical Colleges, and 3 Private Dental Colleges from the official 7,207 candidate allotment dataset (3,985 Round 1 + 3,222 Round 2 allotments).
             </div>
+            <div>
+              5. <strong>Rajasthan NEET-UG 85% State Quota (R1):</strong> Calibrated across 33 Government Medical Colleges, 2 Government Dental Colleges, 18 Private Medical Colleges, and 14 Private Dental Colleges from the official 5,666 candidate allotment dataset.
+            </div>
           </div>
         </div>
       </div>
@@ -955,22 +1001,21 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 >
                   Bihar Round 2 (3.2k)
                 </button>
-                {selectedState === 'Rajasthan' && (
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setCounselingScope('STATE');
-                      handleStateChange('Rajasthan');
-                    }}
-                    className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                      counselingScope === 'STATE' && selectedState === 'Rajasthan'
-                        ? 'bg-sky-600 text-white shadow-xs'
-                        : 'text-stone-400 hover:text-white'
-                    }`}
-                  >
-                    Rajasthan 85%
-                  </button>
-                )}
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCounselingScope('STATE');
+                    handleStateChange('Rajasthan');
+                    setSelectedRound('Round 1');
+                  }}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                    counselingScope === 'STATE' && selectedState === 'Rajasthan'
+                      ? 'bg-sky-600 text-white shadow-xs'
+                      : 'text-stone-400 hover:text-white'
+                  }`}
+                >
+                  Rajasthan 85% (5.7k)
+                </button>
               </div>
 
             </div>
@@ -1057,6 +1102,20 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     </span>
                   </div>
                 )}
+                {selectedState === 'Rajasthan' && userAir > 0 && (
+                  <div className="mt-1.5 p-2 rounded-xl bg-sky-950/90 border border-sky-500/30 text-xs text-sky-200 flex items-center justify-between shadow-inner">
+                    <span className="flex items-center space-x-1.5 font-medium text-[11px]">
+                      <Sparkles className="w-3.5 h-3.5 text-sky-400 shrink-0" />
+                      <span>Est. Rajasthan Merit (R1):</span>
+                    </span>
+                    <span className="font-mono font-bold text-emerald-400 text-xs">
+                      ~#{estimateRajasthanStateRank(userAir).smr.toLocaleString()}
+                      <span className="text-stone-400 font-normal ml-1.5 text-[10px]">
+                        (Marks ~{estimateRajasthanStateRank(userAir).marks})
+                      </span>
+                    </span>
+                  </div>
+                )}
               </div>
 
               {/* Category Dropdown */}
@@ -1132,6 +1191,11 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       <option value="Round 1">Round 1 (Bihar BCECEB UGMAC - 3,985 Allotments)</option>
                       <option value="Round 2">Round 2 (Bihar BCECEB UGMAC - 3,222 Allotments)</option>
                       <option value="ALL">All Bihar Rounds (R1 & R2)</option>
+                    </>
+                  ) : selectedState === 'Rajasthan' ? (
+                    <>
+                      <option value="Round 1">Round 1 (Rajasthan State Quota - 5,666 Allotments)</option>
+                      <option value="ALL">All Rajasthan Rounds</option>
                     </>
                   ) : (
                     <>
