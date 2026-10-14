@@ -1315,8 +1315,25 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 <Building2 className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-2xl font-black text-sky-400">{stats.govtMbbsCleared}</div>
-                <div className="text-xs text-stone-400 font-semibold">Govt MBBS Seats</div>
+                <div className="text-2xl font-black text-sky-400">
+                  {collegeTypeFilter === 'GOVT'
+                    ? stats.govtMbbsCleared
+                    : collegeTypeFilter === 'PRIVATE'
+                    ? stats.pvtMbbsCleared
+                    : stats.govtMbbsCleared + stats.pvtMbbsCleared}
+                </div>
+                <div className="text-xs text-stone-400 font-semibold">
+                  {collegeTypeFilter === 'GOVT'
+                    ? 'Govt MBBS Seats'
+                    : collegeTypeFilter === 'PRIVATE'
+                    ? 'Private MBBS Seats'
+                    : 'MBBS Seats'}
+                </div>
+                {collegeTypeFilter === 'ALL' && (
+                  <div className="text-[10px] text-stone-400 font-normal">
+                    {stats.govtMbbsCleared} Govt · {stats.pvtMbbsCleared} Pvt
+                  </div>
+                )}
               </div>
             </div>
 
@@ -1326,14 +1343,10 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               </div>
               <div>
                 <div className="text-2xl font-black text-sky-300">
-                  {collegeTypeFilter === 'PRIVATE' || (collegeTypeFilter === 'ALL' && stats.pvtMbbsCleared > 0 && stats.bdsCleared === 0)
-                    ? stats.pvtMbbsCleared
-                    : stats.bdsCleared}
+                  {stats.bdsCleared}
                 </div>
                 <div className="text-xs text-stone-400 font-semibold">
-                  {collegeTypeFilter === 'PRIVATE' || (collegeTypeFilter === 'ALL' && stats.pvtMbbsCleared > 0 && stats.bdsCleared === 0)
-                    ? 'Private MBBS Seats'
-                    : 'BDS Dental Seats'}
+                  BDS Dental Seats
                 </div>
               </div>
             </div>
