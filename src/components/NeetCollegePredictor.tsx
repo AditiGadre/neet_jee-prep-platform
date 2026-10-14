@@ -578,16 +578,15 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
     setSelectedState(state);
     if (state === 'ALL') {
       setStateFilter('ALL');
+      setCounselingScope('ALL');
+      setSelectedRound('ALL');
     } else {
       setStateFilter(state);
-    }
-    if (state === 'Uttar Pradesh') {
       setCounselingScope('STATE');
-      if (selectedRound !== 'Round 1' && selectedRound !== 'Round 2') {
-        setSelectedRound('Round 1');
+      // If round is Round 3 (only valid for MH), reset to ALL for states with only R1 & R2
+      if (state !== 'Maharashtra' && selectedRound === 'Round 3') {
+        setSelectedRound('ALL');
       }
-    } else if (state === 'Maharashtra') {
-      setCounselingScope('STATE');
     }
   };
 
@@ -675,8 +674,8 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
       // 5. Gender / Women Quota Filter
       if (gender === 'MALE' && entry.isWomen) return false;
 
-      // 6. State Filter
-      if (selectedState !== 'ALL') {
+      // 6. State Filter (applies to State Quota or Combined view, bypasses AIQ-only mode)
+      if (counselingScope !== 'AIQ' && selectedState !== 'ALL') {
         if (!entry.state || !entry.state.toLowerCase().includes(selectedState.toLowerCase())) {
           return false;
         }
@@ -754,6 +753,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
     selectedRound,
     collegeTypeFilter,
     searchQuery,
+    selectedState,
     stateFilter,
     missedToleranceRanks,
     aggregatedCutoffsData
@@ -945,6 +945,8 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   type="button"
                   onClick={() => {
                     setCounselingScope('AIQ');
+                    setSelectedState('ALL');
+                    setStateFilter('ALL');
                     setSelectedRound('ALL');
                   }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
@@ -960,6 +962,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   onClick={() => {
                     setCounselingScope('STATE');
                     handleStateChange('Maharashtra');
+                    setSelectedRound('ALL');
                   }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
                     counselingScope === 'STATE' && selectedState === 'Maharashtra'
@@ -974,90 +977,45 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   onClick={() => {
                     setCounselingScope('STATE');
                     handleStateChange('Uttar Pradesh');
-                    setSelectedRound('Round 1');
+                    setSelectedRound('ALL');
                   }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                    counselingScope === 'STATE' && selectedState === 'Uttar Pradesh' && selectedRound === 'Round 1'
+                    counselingScope === 'STATE' && selectedState === 'Uttar Pradesh'
                       ? 'bg-sky-600 text-white shadow-xs'
                       : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  UP Round 1 (31.6k)
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setCounselingScope('STATE');
-                    handleStateChange('Uttar Pradesh');
-                    setSelectedRound('Round 2');
-                  }}
-                  className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                    counselingScope === 'STATE' && selectedState === 'Uttar Pradesh' && selectedRound === 'Round 2'
-                      ? 'bg-sky-600 text-white shadow-xs'
-                      : 'text-stone-400 hover:text-white'
-                  }`}
-                >
-                  UP Round 2 (33.0k)
+                  Uttar Pradesh 85%
                 </button>
                 <button
                   type="button"
                   onClick={() => {
                     setCounselingScope('STATE');
                     handleStateChange('Bihar');
-                    setSelectedRound('Round 1');
+                    setSelectedRound('ALL');
                   }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                    counselingScope === 'STATE' && selectedState === 'Bihar' && selectedRound === 'Round 1'
+                    counselingScope === 'STATE' && selectedState === 'Bihar'
                       ? 'bg-sky-600 text-white shadow-xs'
                       : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  Bihar Round 1 (4.0k)
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setCounselingScope('STATE');
-                    handleStateChange('Bihar');
-                    setSelectedRound('Round 2');
-                  }}
-                  className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                    counselingScope === 'STATE' && selectedState === 'Bihar' && selectedRound === 'Round 2'
-                      ? 'bg-sky-600 text-white shadow-xs'
-                      : 'text-stone-400 hover:text-white'
-                  }`}
-                >
-                  Bihar Round 2 (3.2k)
+                  Bihar 85%
                 </button>
                 <button
                   type="button"
                   onClick={() => {
                     setCounselingScope('STATE');
                     handleStateChange('Rajasthan');
-                    setSelectedRound('Round 1');
+                    setSelectedRound('ALL');
                   }}
                   className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                    counselingScope === 'STATE' && selectedState === 'Rajasthan' && selectedRound === 'Round 1'
+                    counselingScope === 'STATE' && selectedState === 'Rajasthan'
                       ? 'bg-sky-600 text-white shadow-xs'
                       : 'text-stone-400 hover:text-white'
                   }`}
                 >
-                  Rajasthan Round 1 (5.7k)
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setCounselingScope('STATE');
-                    handleStateChange('Rajasthan');
-                    setSelectedRound('Round 2');
-                  }}
-                  className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
-                    counselingScope === 'STATE' && selectedState === 'Rajasthan' && selectedRound === 'Round 2'
-                      ? 'bg-sky-600 text-white shadow-xs'
-                      : 'text-stone-400 hover:text-white'
-                  }`}
-                >
-                  Rajasthan Round 2 (5.8k)
+                  Rajasthan 85%
                 </button>
               </div>
 
@@ -1075,24 +1033,36 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     <span className="px-1.5 py-0.5 rounded text-[10px] bg-sky-800 text-sky-300 font-medium">State Selection</span>
                   </div>
                   <div className="text-[11px] text-stone-400">
-                    Switch between Maharashtra, UP, Bihar, and Rajasthan
+                    Switch between Maharashtra, Uttar Pradesh, Bihar, Rajasthan, or All India Quota
                   </div>
                 </div>
               </div>
 
               <div className="flex items-center gap-2.5">
                 <div className="flex items-center space-x-1.5">
-                  <label className="text-xs font-semibold text-stone-300">State:</label>
+                  <label className="text-xs font-semibold text-stone-300">Counselling:</label>
                   <select
-                    value={selectedState}
-                    onChange={e => handleStateChange(e.target.value as any)}
+                    value={counselingScope === 'AIQ' ? 'AIQ' : selectedState}
+                    onChange={e => {
+                      const val = e.target.value;
+                      if (val === 'AIQ') {
+                        setCounselingScope('AIQ');
+                        setSelectedState('ALL');
+                        setStateFilter('ALL');
+                        setSelectedRound('ALL');
+                      } else {
+                        handleStateChange(val as any);
+                        setSelectedRound('ALL');
+                      }
+                    }}
                     className="bg-sky-900 border border-sky-600/50 rounded-xl px-3 py-1.5 text-xs text-white font-bold focus:border-sky-400 focus:ring-1 focus:ring-sky-400 outline-none cursor-pointer shadow-xs"
                   >
+                    <option value="ALL">All States (Combined View)</option>
+                    <option value="AIQ">All India Quota (MCC 15% AIQ)</option>
                     <option value="Maharashtra">Maharashtra (MH - 85% State Quota)</option>
                     <option value="Uttar Pradesh">Uttar Pradesh (UP - DGME 85% & Merit)</option>
                     <option value="Bihar">Bihar (BR - BCECEB 85% State Quota)</option>
                     <option value="Rajasthan">Rajasthan (RJ - 85% State Quota)</option>
-                    <option value="ALL">All States (Combined View)</option>
                   </select>
                 </div>
               </div>
@@ -1117,7 +1087,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   <span className="absolute right-3 top-2.5 text-xs text-sky-600 font-semibold">AIR</span>
                 </div>
                 <p className="text-[11px] text-stone-400 font-medium">Predict colleges eligible at your All India Rank</p>
-                {selectedState === 'Uttar Pradesh' && userAir > 0 && (
+                {selectedState === 'Uttar Pradesh' && userAir > 0 && counselingScope !== 'AIQ' && (
                   <div className="mt-1.5 p-2 rounded-xl bg-sky-950/90 border border-sky-500/30 text-xs text-sky-200 flex items-center justify-between shadow-inner">
                     <span className="flex items-center space-x-1.5 font-medium text-[11px]">
                       <Sparkles className="w-3.5 h-3.5 text-sky-400 shrink-0" />
@@ -1131,7 +1101,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     </span>
                   </div>
                 )}
-                {selectedState === 'Bihar' && userAir > 0 && (
+                {selectedState === 'Bihar' && userAir > 0 && counselingScope !== 'AIQ' && (
                   <div className="mt-1.5 p-2 rounded-xl bg-sky-950/90 border border-sky-500/30 text-xs text-sky-200 flex items-center justify-between shadow-inner">
                     <span className="flex items-center space-x-1.5 font-medium text-[11px]">
                       <Sparkles className="w-3.5 h-3.5 text-sky-400 shrink-0" />
@@ -1145,7 +1115,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                     </span>
                   </div>
                 )}
-                {selectedState === 'Rajasthan' && userAir > 0 && (
+                {selectedState === 'Rajasthan' && userAir > 0 && counselingScope !== 'AIQ' && (
                   <div className="mt-1.5 p-2 rounded-xl bg-sky-950/90 border border-sky-500/30 text-xs text-sky-200 flex items-center justify-between shadow-inner">
                     <span className="flex items-center space-x-1.5 font-medium text-[11px]">
                       <Sparkles className="w-3.5 h-3.5 text-sky-400 shrink-0" />
@@ -1223,29 +1193,42 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   onChange={e => setSelectedRound(e.target.value as any)}
                   className="w-full bg-sky-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-white focus:border-sky-400 focus:outline-hidden"
                 >
-                  {selectedState === 'Uttar Pradesh' ? (
+                  {counselingScope === 'AIQ' ? (
                     <>
-                      <option value="Round 1">Round 1 (UP State Merit - 31,653 Candidates)</option>
-                      <option value="Round 2">Round 2 (UP State Merit - 33,043 Candidates)</option>
+                      <option value="ALL">All AIQ Rounds (R1 & R2)</option>
+                      <option value="Round 1">Round 1 (MCC AIQ - 602 Cutoffs)</option>
+                      <option value="Round 2">Round 2 (MCC AIQ - 3,068 Cutoffs)</option>
+                    </>
+                  ) : selectedState === 'Uttar Pradesh' ? (
+                    <>
                       <option value="ALL">All UP Rounds (R1 & R2)</option>
+                      <option value="Round 1">Round 1 (UP DGME State Quota - 31,653 Candidates)</option>
+                      <option value="Round 2">Round 2 (UP DGME State Quota - 33,043 Candidates)</option>
                     </>
                   ) : selectedState === 'Bihar' ? (
                     <>
+                      <option value="ALL">All Bihar Rounds (R1 & R2)</option>
                       <option value="Round 1">Round 1 (Bihar BCECEB UGMAC - 3,985 Allotments)</option>
                       <option value="Round 2">Round 2 (Bihar BCECEB UGMAC - 3,222 Allotments)</option>
-                      <option value="ALL">All Bihar Rounds (R1 & R2)</option>
                     </>
                   ) : selectedState === 'Rajasthan' ? (
                     <>
+                      <option value="ALL">All Rajasthan Rounds (R1 & R2)</option>
                       <option value="Round 1">Round 1 (Rajasthan State Quota - 5,666 Allotments)</option>
                       <option value="Round 2">Round 2 (Rajasthan State Quota - 5,816 Allotments)</option>
-                      <option value="ALL">All Rajasthan Rounds (R1 & R2)</option>
+                    </>
+                  ) : selectedState === 'Maharashtra' ? (
+                    <>
+                      <option value="ALL">All Maharashtra Rounds (R1, R2, R3)</option>
+                      <option value="Round 1">Round 1 (State CAP)</option>
+                      <option value="Round 2">Round 2 (State CAP)</option>
+                      <option value="Round 3">Round 3 (State CAP - Final Boundary)</option>
                     </>
                   ) : (
                     <>
                       <option value="ALL">Predict Across All Rounds (Recommended)</option>
-                      <option value="Round 1">Round 1 (State CAP & MCC AIQ)</option>
-                      <option value="Round 2">Round 2 (State CAP & MCC AIQ)</option>
+                      <option value="Round 1">Round 1 (All State & AIQ Lists)</option>
+                      <option value="Round 2">Round 2 (All State & AIQ Lists)</option>
                       <option value="Round 3">Round 3 (State CAP)</option>
                     </>
                   )}
