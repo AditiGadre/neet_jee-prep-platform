@@ -81,26 +81,23 @@ export const Sidebar: React.FC<SidebarProps> = ({
   ];
 
   return (
-    <aside className="w-full lg:w-64 bg-sky-50/60 border-r border-sky-200 flex flex-col shrink-0 text-sky-950 select-none">
+    <aside className="w-full lg:w-64 bg-[#fff6e5] border-r-2 border-[#1c1917] flex flex-col shrink-0 text-[#1c1917] select-none">
       {/* Platform Header in Sidebar */}
-      <div className="p-6 border-b border-stone-100 bg-gradient-to-b from-sky-50/50 to-white">
+      <div className="p-5 border-b-2 border-[#1c1917] bg-[#fff6e5]">
         <div className="flex items-center space-x-2">
-          <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-sky-600 to-sky-500 flex items-center justify-center font-black text-xs shadow-xs">
-            nc
-          </div>
           <div>
-            <div className="text-xs font-bold uppercase tracking-wider text-stone-400">
+            <div className="text-[10px] font-black uppercase tracking-wider text-[#56514c]">
               Platform Modules
             </div>
-            <div className="text-sm font-extrabold text-sky-950">
-              NeetCbt<span className="text-sky-600"> Exam Test</span>
+            <div className="text-base font-extrabold text-[#1c1917]">
+              NeetCbt Exam Test
             </div>
           </div>
         </div>
       </div>
 
       {/* Main Nav Items */}
-      <div className="p-3 space-y-1 flex-1 overflow-y-auto">
+      <div className="p-3 space-y-2 flex-1 overflow-y-auto">
         {menuItems.map(item => {
           const Icon = item.icon;
           const isActive = activeTab === item.id;
@@ -109,21 +106,21 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <div key={item.id} className="space-y-1">
               <button
                 onClick={() => onSelectTab(item.id)}
-                className={`w-full text-left p-3.5 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
+                className={`w-full text-left p-3 rounded-xl text-xs transition flex items-center justify-between cursor-pointer border-2 border-[#1c1917] ${
                   isActive
-                    ? 'bg-gradient-to-r from-sky-500 to-sky-500 text-white font-bold shadow-md shadow-sky-900/10'
-                    : 'text-sky-700 hover:bg-sky-50 hover:text-sky-700'
+                    ? 'bg-[#c2410c] text-white font-bold shadow-[3px_3px_0px_#1c1917]'
+                    : 'bg-white text-[#1c1917] hover:bg-stone-50'
                 }`}
               >
                 <div className="flex items-center space-x-2.5 min-w-0">
                   <Icon
                     className={`w-4 h-4 shrink-0 ${
-                      isActive ? 'text-white' : item.highlight ? 'text-sky-500' : 'text-stone-400'
+                      isActive ? 'text-white' : 'text-[#1c1917]'
                     }`}
                   />
                   <div className="min-w-0">
-                    <div className="truncate font-semibold">{item.label}</div>
-                    <div className="text-[10px] text-sky-600 truncate font-normal group-hover:text-sky-600/70">
+                    <div className="truncate font-bold">{item.label}</div>
+                    <div className={`text-[10px] truncate ${isActive ? 'text-stone-100' : 'text-[#56514c]'}`}>
                       {item.sublabel}
                     </div>
                   </div>
@@ -131,12 +128,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
                 {item.badge && (
                   <span
-                    className={`text-[9px] px-1.5 py-0.2 rounded font-mono font-bold uppercase shrink-0 ${
+                    className={`text-[9px] px-2 py-0.5 rounded font-mono font-bold uppercase shrink-0 border border-[#1c1917] ${
                       isActive
-                        ? 'bg-sky-50/60/20 text-white'
-                        : item.highlight
-                        ? 'bg-sky-100 text-sky-700 border border-sky-200'
-                        : 'bg-sky-50 text-sky-600 border border-sky-200'
+                        ? 'bg-white/20 text-white'
+                        : 'bg-[#fde68a] text-[#1c1917]'
                     }`}
                   >
                     {item.badge}

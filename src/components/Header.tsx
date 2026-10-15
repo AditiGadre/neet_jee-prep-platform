@@ -118,41 +118,31 @@ export const Header: React.FC<HeaderProps> = ({
   const neetPackages: any[] = [];
 
   return (
-    <header className="sticky top-0 z-30 bg-sky-50/60/95 backdrop-blur-md border-b border-sky-200/80 text-sky-900 shadow-xs">
-      <div className="w-full px-3 sm:px-6">
-        <div className="flex items-center justify-between h-14">
+    <header className="sticky top-0 z-30 bg-[#fff6e5] border-b-2 border-[#1c1917] text-[#1c1917]">
+      <div className="w-full px-4 sm:px-8">
+        <div className="flex items-center justify-between h-16">
           {/* Logo & Brand */}
           <div
             onClick={() => onNavigateHome && onNavigateHome()}
-            className={`flex items-center space-x-2.5 ${onNavigateHome ? 'cursor-pointer hover:opacity-90 transition' : ''}`}
+            className={`flex items-center ${onNavigateHome ? 'cursor-pointer hover:opacity-90 transition' : ''}`}
             title="NeetCbt Exam Platform"
           >
-            <div className="w-8 h-8 bg-gradient-to-tr from-sky-600 to-sky-600 rounded-lg flex items-center justify-center text-white font-black text-sm shadow-xs tracking-tight">
-              nc
-            </div>
-            <div>
-              <div className="flex items-center space-x-2">
-                <span className="font-extrabold text-base tracking-tight text-sky-950">
-                  NeetCbt<span className="text-sky-600"> Exam Test</span>
-                </span>
-                <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-cyan-50 text-cyan-900 border border-cyan-200">
-                  <Sparkles className="w-2.5 h-2.5 mr-1 text-cyan-600" /> Target {targetYear}
-                </span>
-              </div>
-            </div>
+            <span className="font-extrabold text-xl sm:text-2xl tracking-tight text-[#1c1917]">
+              NeetCbt Exam Test
+            </span>
           </div>
 
           {/* Target Year Selector Bar: 2027, 2028, 2029 + Packages Dropdown */}
           <div className="flex items-center space-x-2">
-            <div className="flex items-center bg-sky-50/90 p-1 rounded-xl border border-sky-200 transition-all duration-500 hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1.5 backdrop-blur-sm bg-opacity-95 ">
+            <div className="flex items-center space-x-2">
               {(['2027', '2028', '2029'] as const).map(yr => (
                 <button
                   key={yr}
                   onClick={() => onSelectTargetYear && onSelectTargetYear(yr)}
-                  className={`px-2.5 sm:px-3.5 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                  className={`px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-bold border-2 border-[#1c1917] transition cursor-pointer ${
                     targetYear === yr
-                      ? 'bg-sky-600 text-white shadow-xs'
-                      : 'text-sky-700 hover:text-sky-950 hover:bg-sky-100'
+                      ? 'bg-[#c2410c] text-white shadow-none'
+                      : 'bg-white text-[#1c1917] hover:bg-stone-50'
                   }`}
                   title={`Select NEET Target Year ${yr}`}
                 >

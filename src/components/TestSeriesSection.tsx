@@ -489,121 +489,109 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   return (
     <div className="space-y-4">
       {/* 3 Dedicated Batch Tabs with Dropdowns */}
-        <div className="flex flex-wrap items-center justify-between gap-3 bg-sky-50/60 p-3 sm:p-3.5 rounded-2xl border border-sky-200 shadow-xs relative z-30">
-          <div className="flex flex-wrap items-center gap-1.5">
+      <div className="flex flex-wrap items-center justify-between gap-3 relative z-30 pt-1 pb-1">
+        <div className="flex flex-wrap items-center gap-3">
+          
+          {/* Repeater Batch */}
+          <div className="relative group">
+            <button
+              onClick={() => {
+                setActiveBatch('repeater');
+                setActivePhaseFilter('all');
+              }}
+              className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
+                activeBatch === 'repeater'
+                  ? 'bg-[#c2410c] text-white shadow-none'
+                  : 'bg-white text-[#1c1917] hover:bg-stone-50'
+              }`}
+            >
+              <span>Repeater / Dropper Batch</span>
+            </button>
             
-            {/* Repeater Batch */}
-            <div className="relative group">
-              <button
-                onClick={() => {
-                  setActiveBatch('repeater');
-                  setActivePhaseFilter('all');
-                }}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
-                  activeBatch === 'repeater'
-                    ? 'bg-sky-600 text-white shadow-md'
-                    : 'bg-sky-50 text-sky-800 hover:bg-sky-50 border border-sky-200'
-                }`}
-              >
-                <Zap className={`w-4 h-4 ${activeBatch === 'repeater' ? 'text-cyan-300' : 'text-stone-400'}`} />
-                <span>Repeater / Dropper Batch</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-sky-50/60/20 text-current font-mono">
-                  Starts 01 Nov
-                </span>
+            <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
+              <div className="text-[10px] font-black text-[#56514c] uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
+              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track1'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track1' && activeBatch === 'repeater' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+                Track 1: Chapterwise, Partwise & Full (46 Tests)
               </button>
-              
-              <div className="absolute left-0 top-[calc(100%-8px)] pt-2 w-72 bg-sky-50/60 border border-sky-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
-                <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track1'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track1' && activeBatch === 'repeater' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
-                  Track 1: Chapterwise, Partwise & Full (46 Tests)
-                </button>
-                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
-                  Track 2: 17-Week Fast-Track (42 Tests)
-                </button>
-                <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
-                  Track 3: Physics & Chemistry Only (27 Tests)
-                </button>
-              </div>
-            </div>
-
-            {/* 12th Batch */}
-            <div className="relative group">
-              <button
-                onClick={() => {
-                  setActiveBatch('12th');
-                  setActivePhaseFilter('all');
-                  setShowRevisionBuffer(false);
-                }}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
-                  activeBatch === '12th'
-                    ? 'bg-cyan-500 text-white shadow-md'
-                    : 'bg-sky-50 text-sky-800 hover:bg-sky-50 border border-sky-200'
-                }`}
-              >
-                <GraduationCap className={`w-4 h-4 ${activeBatch === '12th' ? 'text-white' : 'text-stone-400'}`} />
-                <span>12th Batch</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-sky-50/60/20 text-current font-mono">
-                  23 Tests
-                </span>
+              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+                Track 2: 17-Week Fast-Track (42 Tests)
               </button>
-              
-              <div className="absolute left-0 top-[calc(100%-8px)] pt-2 w-72 bg-sky-50/60 border border-sky-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
-                <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-                <button onClick={() => { setActiveBatch('12th'); setClass12Track('complete'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class12Track === 'complete' && activeBatch === '12th' ? 'bg-cyan-50 text-cyan-700' : 'text-sky-700 hover:bg-sky-50 hover:text-cyan-600'}`}>
-                  Track 1: Complete Syllabus Master Series
-                </button>
-                <button onClick={() => { setActiveBatch('12th'); setClass12Track('pc'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class12Track === 'pc' && activeBatch === '12th' ? 'bg-cyan-50 text-cyan-700' : 'text-sky-700 hover:bg-sky-50 hover:text-cyan-600'}`}>
-                  Track 2: Physics & Chemistry Series
-                </button>
-              </div>
-            </div>
-
-            {/* 11th Batch */}
-            <div className="relative group">
-              <button
-                onClick={() => {
-                  setActiveBatch('11th');
-                  setActivePhaseFilter('all');
-                  setShowRevisionBuffer(false);
-                }}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
-                  activeBatch === '11th'
-                    ? 'bg-sky-500 text-white shadow-md'
-                    : 'bg-sky-50 text-sky-800 hover:bg-sky-50 border border-sky-200'
-                }`}
-              >
-                <Atom className={`w-4 h-4 ${activeBatch === '11th' ? 'text-white' : 'text-stone-400'}`} />
-                <span>11th Batch</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-sky-50/60/20 text-current font-mono">
-                  20 Tests
-                </span>
+              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+                Track 3: Physics & Chemistry Only (27 Tests)
               </button>
-              
-              <div className="absolute left-0 top-[calc(100%-8px)] pt-2 w-72 bg-sky-50/60 border border-sky-200 shadow-xl rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-2">
-                <div className="text-[10px] font-black text-stone-400 uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
-                  Track 1: Chapterwise, Partwise & Full
-                </button>
-                <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
-                  Track 2: CWT & Cumulative Master
-                </button>
-              </div>
             </div>
           </div>
+
+          {/* 12th Batch */}
+          <div className="relative group">
+            <button
+              onClick={() => {
+                setActiveBatch('12th');
+                setActivePhaseFilter('all');
+                setShowRevisionBuffer(false);
+              }}
+              className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
+                activeBatch === '12th'
+                  ? 'bg-[#c2410c] text-white shadow-none'
+                  : 'bg-white text-[#1c1917] hover:bg-stone-50'
+              }`}
+            >
+              <span>12th Batch • 23 Tests</span>
+            </button>
+            
+            <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
+              <div className="text-[10px] font-black text-[#56514c] uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
+              <button onClick={() => { setActiveBatch('12th'); setClass12Track('complete'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class12Track === 'complete' && activeBatch === '12th' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+                Track 1: Complete Syllabus Master Series (23 Tests)
+              </button>
+              <button onClick={() => { setActiveBatch('12th'); setClass12Track('pc'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class12Track === 'pc' && activeBatch === '12th' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+                Track 2: Physics & Chemistry Series (18 Tests)
+              </button>
+            </div>
+          </div>
+
+          {/* 11th Batch */}
+          <div className="relative group">
+            <button
+              onClick={() => {
+                setActiveBatch('11th');
+                setActivePhaseFilter('all');
+                setShowRevisionBuffer(false);
+              }}
+              className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
+                activeBatch === '11th'
+                  ? 'bg-[#c2410c] text-white shadow-none'
+                  : 'bg-white text-[#1c1917] hover:bg-stone-50'
+              }`}
+            >
+              <span>11th Batch • 20 Tests</span>
+            </button>
+            
+            <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
+              <div className="text-[10px] font-black text-[#56514c] uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
+              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+                Track 1: Chapterwise, Partwise & Full (20 Tests)
+              </button>
+              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+                Track 2: CWT & Cumulative Master (20 Tests)
+              </button>
+            </div>
+          </div>
+        </div>
 
         {/* Admin Authorization Status Badge */}
         <div className="flex items-center space-x-2">
           {isAdminAccessGranted ? (
-            <span className="px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-300 text-xs font-bold flex items-center space-x-1.5 font-mono shadow-2xs">
+            <span className="px-3.5 py-1.5 rounded-xl bg-white text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold flex items-center space-x-1.5 font-mono shadow-xs">
               <Unlock className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Admin Access Granted (Tests Unlocked)</span>
+              <span>Admin Access Granted</span>
             </span>
           ) : (
             <button
               onClick={() => setShowAdminApprovalModal(true)}
-              className="px-3.5 py-1.5 rounded-xl bg-cyan-50 hover:bg-cyan-100 text-cyan-900 border border-cyan-300 text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-2xs"
+              className="px-3.5 py-1.5 rounded-xl bg-white hover:bg-stone-50 text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-xs"
             >
-              <Lock className="w-3.5 h-3.5 text-cyan-700" />
+              <Lock className="w-3.5 h-3.5 text-[#56514c]" />
               <span>Awaiting Admin Portal Approval</span>
             </button>
           )}
@@ -611,89 +599,61 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       </div>
 
       {/* Header Banner for Current Batch */}
-      <div className="bg-gradient-to-br from-white via-stone-50 to-sky-50/50 border border-sky-200 rounded-2xl p-5 sm:p-6 shadow-xs">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-sky-200/80 pb-4">
-          <div>
-            <h1 className="text-xl sm:text-2xl font-extrabold text-sky-950 tracking-tight">
-              {activeBatch === 'repeater'
-                ? repeaterTrack === 'track1'
-                  ? 'NEET 2026–27 Dropper Batch: Track 1 (20-Week Chapterwise • 46 Tests)'
-                  : repeaterTrack === 'track2'
-                  ? 'NEET 2026–27 Dropper Batch: Track 2 (17-Week Fast-Track • 42 Tests)'
-                  : 'NEET 2026–27 Dropper Batch: Track 3 (Physics & Chemistry Series • 27 Tests)'
-                : activeBatch === '12th'
-                ? class12Track === 'complete'
-                  ? 'Class 12th Complete Syllabus Master Test Series (Starting 01 Nov 2026)'
-                  : 'Class 12th Physics & Chemistry Full-Syllabus Series (10 Mar – 30 Apr 2027)'
-                : class11Track === 'track1'
-                ? 'Class 11th 2026–27 Exam Planner: Track 1 (Chapterwise, Partwise & Full Syllabus • 20 Tests)'
-                : 'Class 11th Foundation Sunday Test Series: Track 2 (CWT & Cumulative • 20 Tests)'}
-            </h1>
-            <p className="mt-1 text-xs text-sky-700 max-w-3xl leading-relaxed">
-              {activeBatch === '11th' ? (
-                class11Track === 'track1' ? (
-                  <>
-                    Starting <strong>01 November 2026</strong>: Official NEET (UG) Class 11 Exam Planner: <strong>11 Chapter-Wise Tests (CW-01 to CW-11)</strong> scheduled on Sundays through 28 Feb 2027 &rarr; <strong>6 Partwise Tests (PT-01 to PT-06)</strong> every 4 days covering complete Class 11 scope (04 Mar – 24 Mar 2027) &rarr; <strong>3 Full Syllabus Tests (FS-01 to FS-03)</strong> through 30 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
-                  </>
-                ) : (
-                  <>
-                    Starting <strong>01 November 2026</strong>: <strong>12 Chapter-Wise Tests (CWT-01 to CWT-12)</strong> scheduled on Sundays &rarr; <strong>5 Cumulative Checkpoints (CUM-01 to CUM-05)</strong> placed after learning blocks &rarr; <strong>3 Full Syllabus Tests (FST-01 to FST-03)</strong> through 30 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
-                  </>
-                )
-              ) : activeBatch === '12th' ? (
-                class12Track === 'complete' ? (
-                  <>
-                    Starting <strong>01 November 2026</strong> &ndash; Concluding <strong>07 May 2027</strong>: 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1&ndash;8)</strong> every Sunday covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> scheduled on Sundays across Winter and Spring phases with a dedicated Board exam preparation buffer; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> in an intensive 2-day rehearsal sprint through 07 May 2027. <strong>180 Questions &bull; 180 Minutes &bull; 720 Marks CBT</strong>.
-                  </>
-                ) : (
-                  <>
-                    Dedicated Full-Syllabus Physics &amp; Chemistry Series from <strong>10 March to 30 April 2027</strong> (post-Board Examinations): <strong>18 Tests (PC-01 to PC-18)</strong> scheduled every 3 days covering 100% of Physics and Chemistry syllabus. <strong>100 Questions (50 Physics + 50 Chemistry) • 120 Minutes • 400 Marks</strong>.
-                  </>
-                )
-              ) : repeaterTrack === 'track1' ? (
-                <>
-                  Starting <strong>01 November 2026</strong>: <strong>20 Chapter-Wise Tests (CW-01 to CW-20)</strong> every Sunday &rarr; <strong>8 Part-Wise Cumulative Tests (PT-01 to PT-08)</strong> every 2 days &rarr; <strong>18 Full Syllabus Tests (FS-01 to FS-18)</strong> every 2 days through 07 May 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
-                </>
-              ) : repeaterTrack === 'track2' ? (
-                <>
-                  Starting <strong>01 November 2026</strong>: <strong>17 Chapter-Wise Tests (T01 to T17)</strong> every Sunday &rarr; <strong>4 Consolidated Part-Wise Tests (P01 to P04)</strong> every 4 days &rarr; <strong>21 Full Syllabus Tests (F01 to F21)</strong> through 06 May 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
-                </>
-              ) : (
-                <>
-                  Dedicated Full-Syllabus Physics &amp; Chemistry Series from <strong>10 February to 29 April 2027</strong>: <strong>27 Tests (PC-01 to PC-27)</strong> scheduled every 3 days covering 100% of Physics and Chemistry syllabus. <strong>100 Questions (50 Physics + 50 Chemistry) • 120 Minutes • 400 Marks</strong>.
-                </>
-              )}
-            </p>
-          </div>
+      <div className="pt-2 pb-1">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-[#1c1917] tracking-tight">
+          {activeBatch === 'repeater'
+            ? repeaterTrack === 'track1'
+              ? 'NEET 2026–27 Dropper Batch: Track 1 (20-Week Chapterwise • 46 Tests)'
+              : repeaterTrack === 'track2'
+              ? 'NEET 2026–27 Dropper Batch: Track 2 (17-Week Fast-Track • 42 Tests)'
+              : 'NEET 2026–27 Dropper Batch: Track 3 (Physics & Chemistry Series • 27 Tests)'
+            : activeBatch === '12th'
+            ? class12Track === 'complete'
+              ? 'Class 12th Complete Syllabus Master Test Series (Starting 01 Nov 2026)'
+              : 'Class 12th Physics & Chemistry Full-Syllabus Series (10 Mar – 30 Apr 2027)'
+            : class11Track === 'track1'
+            ? 'Class 11th 2026–27 Exam Planner: Track 1 (Chapterwise, Partwise & Full Syllabus • 20 Tests)'
+            : 'Class 11th Foundation Sunday Test Series: Track 2 (CWT & Cumulative • 20 Tests)'}
+        </h1>
+        <p className="mt-1.5 text-sm sm:text-base text-[#56514c] leading-relaxed">
+          {activeBatch === '12th' && class12Track === 'pc' ? (
+            '18 Tests (PC-01 to PC-18), every 3 days. 100 Questions (50 Physics + 50 Chemistry) · 120 Minutes · 400 Marks.'
+          ) : activeBatch === '12th' && class12Track === 'complete' ? (
+            'Starting 01 November 2026 – Concluding 07 May 2027: 3-Phase NEET (UG) Master Planner for Class 12: Phase 1: 8 Part-Wise Tests (PART 1–8) every Sunday covering Class 11 & 12 progressively; Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10) scheduled on Sundays across Winter and Spring phases with a dedicated Board exam preparation buffer; Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05) in an intensive 2-day rehearsal sprint through 07 May 2027. 180 Questions • 180 Minutes • 720 Marks CBT.'
+          ) : activeBatch === 'repeater' && repeaterTrack === 'pc' ? (
+            '27 Tests (PC-01 to PC-27), every 3 days. 100 Questions (50 Physics + 50 Chemistry) · 120 Minutes · 400 Marks.'
+          ) : activeBatch === 'repeater' && repeaterTrack === 'track2' ? (
+            '42 Tests: 17 Chapter-Wise Tests (T01 to T17) every Sunday → 4 Consolidated Part-Wise Tests (P01 to P04) every 4 days → 21 Full Syllabus Tests (F01 to F21) through 06 May 2027. 180 Questions • 180 Minutes • 720 Marks CBT.'
+          ) : activeBatch === 'repeater' ? (
+            '46 Tests: 20 Chapter-Wise Tests (CW-01 to CW-20) every Sunday → 8 Part-Wise Cumulative Tests (PT-01 to PT-08) every 2 days → 18 Full Syllabus Tests (FS-01 to FS-18) every 2 days through 07 May 2027. 180 Questions • 180 Minutes • 720 Marks CBT.'
+          ) : class11Track === 'track1' ? (
+            '20 Tests: 11 Chapter-Wise Tests (CW-01 to CW-11) on Sundays → 6 Partwise Tests (PT-01 to PT-06) every 4 days → 3 Full Syllabus Tests (FS-01 to FS-03) through 30 March 2027. 180 Questions • 180 Minutes • 720 Marks CBT.'
+          ) : (
+            '20 Tests: 12 Chapter-Wise Tests (CWT-01 to CWT-12) on Sundays → 5 Cumulative Checkpoints (CUM-01 to CUM-05) → 3 Full Syllabus Tests (FST-01 to FST-03) through 30 March 2027. 180 Questions • 180 Minutes • 720 Marks CBT.'
+          )}
+        </p>
+      </div>
 
-          <div className="flex items-center gap-4 self-start md:self-auto shrink-0">
-            <span className="px-3.5 py-2 rounded-xl bg-sky-50 border border-sky-200 text-sky-800 text-xs font-mono font-bold flex items-center space-x-1.5">
-              <ShieldCheck className="w-4 h-4 text-sky-600" />
-              <span>{isAdminAccessGranted ? '✓ Authorized by Admin' : '🔒 Admin Managed'}</span>
-            </span>
-          </div>
-        </div>
-
-        {/* 12th BATCH REVISION & ANALYSIS BUFFER PANEL */}
+      {/* 12th BATCH REVISION & ANALYSIS BUFFER PANEL */}
       {activeBatch === '12th' && showRevisionBuffer && (
-        <div className="p-5 rounded-2xl bg-gradient-to-br from-cyan-50/80 via-white to-sky-50/50 border border-cyan-200 shadow-xs space-y-4 animate-in fade-in duration-200">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-cyan-100 pb-3">
-            <div className="flex items-center gap-4.5">
-              <span className="p-3 rounded-xl bg-cyan-500 text-white shadow-2xs">
-                <Sparkles className="w-4 h-4 text-cyan-300" />
+        <div className="p-5 rounded-2xl bg-white border-2 border-[#1c1917] shadow-[6px_6px_0px_#1c1917] space-y-4 animate-in fade-in duration-200">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b-2 border-[#1c1917]/10 pb-3">
+            <div className="flex items-center gap-3">
+              <span className="p-2.5 rounded-xl bg-[#c2410c] text-white border-2 border-[#1c1917]">
+                <Sparkles className="w-4 h-4" />
               </span>
               <div>
-                <h3 className="text-sm font-bold text-sky-950">
+                <h3 className="text-sm font-extrabold text-[#1c1917]">
                   Board Examination &amp; Revision Buffer (18 January &ndash; 20 March 2027)
                 </h3>
-                <p className="text-xs text-sky-700">
+                <p className="text-xs text-[#56514c]">
                   Structured 7-cycle Board examination &amp; remediation program to eliminate errors and cement 720-mark mastery.
                 </p>
               </div>
             </div>
             <button
               onClick={() => setShowRevisionBuffer(false)}
-              className="px-3 py-1 text-xs font-semibold rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-800 self-start sm:self-auto cursor-pointer"
+              className="px-3.5 py-1 text-xs font-bold rounded-lg bg-white hover:bg-stone-50 text-[#1c1917] border-2 border-[#1c1917] self-start sm:self-auto cursor-pointer"
             >
               Hide Buffer
             </button>
@@ -703,21 +663,21 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {REVISION_ANALYSIS_BUFFER_12TH.map((stage, idx) => (
               <div
                 key={idx}
-                className="p-3.5 rounded-xl bg-sky-50/60 border border-cyan-100 shadow-2xs hover:border-sky-300 transition space-y-2"
+                className="p-3.5 rounded-xl bg-[#fff6e5] border-2 border-[#1c1917] space-y-2"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-sky-700 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded-md font-mono">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#1c1917] bg-[#fde68a] border border-[#1c1917] px-2 py-0.5 rounded font-mono">
                     Stage {idx + 1}
                   </span>
-                  <span className="text-[11px] font-semibold text-sky-600 font-mono">
+                  <span className="text-[11px] font-bold text-[#56514c] font-mono">
                     {stage.period}
                   </span>
                 </div>
-                <div className="text-xs font-bold text-sky-950">
+                <div className="text-xs font-bold text-[#1c1917]">
                   {stage.action}
                 </div>
-                <div className="text-[11px] text-sky-700 leading-relaxed bg-sky-50/40 p-3 rounded-lg border border-cyan-100/60">
-                  <span className="font-bold text-sky-900">Output:</span> {stage.output}
+                <div className="text-[11px] text-[#56514c] leading-relaxed bg-white p-2.5 rounded-lg border border-[#1c1917]/20">
+                  <span className="font-bold text-[#1c1917]">Output:</span> {stage.output}
                 </div>
               </div>
             ))}
@@ -726,228 +686,84 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       )}
 
       {/* SCHEDULED SUNDAYS CALENDAR LIST */}
-      <div className="space-y-3">
+      <div className="space-y-4">
         <div className="flex items-center justify-between px-1">
-          <h2 className="text-sm font-bold text-sky-900 flex items-center gap-1.5">
-            <Calendar className="w-4 h-4 text-sky-600" />
+          <h2 className="text-sm sm:text-base font-extrabold text-[#1c1917] flex items-center gap-2">
+            <Calendar className="w-4 h-4 text-[#1c1917]" />
             <span>Showing {currentDisplayTests.length} {activeBatch === '12th' ? 'Scheduled Tests' : 'Scheduled Sunday Tests'}</span>
           </h2>
-          <span className="text-xs font-mono font-semibold text-sky-600">
+          <span className="text-xs font-mono font-bold text-[#56514c]">
             {activeBatch === 'repeater' && repeaterTrack === 'pc' ? 'Physics & Chemistry Full Syllabus • 400 Marks' : 'Official NTA NEET Standard • 720 Marks'}
           </span>
         </div>
 
-        <div className="grid grid-cols-1 gap-3.5">
+        <div className="grid grid-cols-1 gap-6">
           {currentDisplayTests.map((mock: SundayPlannerTest) => {
-              const isLive = isSundayToday;
-              const paperLookupKey = mock.id;
+            const paperLookupKey = mock.id;
             const customPaper = localCustomPapers[paperLookupKey] || localCustomPapers[paperLookupKey.toLowerCase()];
             
             const displayTitle = customPaper?.testTitle ? `${mock.code}: ${customPaper.testTitle}` : mock.title;
             const displayDesc = customPaper?.description || mock.objective || mock.description;
             
-            const displayPhysics = customPaper?.customChapters?.physics?.length ? customPaper.customChapters.physics.join(', ') : mock.physicsUnit;
-            const displayChemistry = customPaper?.customChapters?.chemistry?.length ? customPaper.customChapters.chemistry.join(', ') : mock.chemistryUnit;
-            const displayBotany = customPaper?.customChapters?.biology?.length ? customPaper.customChapters.biology.join(', ') : mock.botanyBlock;
-            const displayZoology = customPaper?.customChapters?.biology?.length ? "Combined with Botany above" : mock.zoologyBlock;
-
-            // Compute dynamic questions if custom paper is loaded
-            let phyCount = 0, chemCount = 0, botCount = 0, zooCount = 0;
-            const isPCTest = mock.code.startsWith('PC-');
+            const isPCTest = mock.code.startsWith('PC-') || mock.totalQuestions === 100;
+            let phyCount = isPCTest ? 50 : 45;
+            let chemCount = isPCTest ? 50 : 45;
+            let botCount = isPCTest ? 0 : 45;
+            let zooCount = isPCTest ? 0 : 45;
             if (customPaper && Array.isArray(customPaper.questions)) {
-              customPaper.questions.forEach(q => {
-                if (q.subject === 'Physics') phyCount++;
-                if (q.subject === 'Chemistry') chemCount++;
-                if (q.subject === 'Botany') botCount++;
-                if (q.subject === 'Zoology') zooCount++;
-                if (q.subject === 'Biology') {
-                  if (q.chapter && q.chapter.toLowerCase().includes('zoology')) zooCount++;
-                  else botCount++;
-                }
-              });
-            } else {
-              phyCount = isPCTest ? 50 : 45;
-              chemCount = isPCTest ? 50 : 45;
-              botCount = isPCTest ? 0 : 45;
-              zooCount = isPCTest ? 0 : 45;
+              phyCount = customPaper.questions.filter(q => q.subject === 'Physics').length;
+              chemCount = customPaper.questions.filter(q => q.subject === 'Chemistry').length;
+              botCount = customPaper.questions.filter(q => q.subject === 'Botany').length;
+              zooCount = customPaper.questions.filter(q => q.subject === 'Zoology').length;
             }
             
             const totalDynamicQs = phyCount + chemCount + botCount + zooCount;
             const totalDynamicMarks = totalDynamicQs * 4;
             const dynamicDuration = mock.durationMinutes || (isPCTest ? 120 : 180);
-
             const hasEdits = !!customPaper;
 
             return (
               <div
                 key={mock.id}
-                className={`p-5 rounded-2xl border transition hover:shadow-md flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 ${
-                  isLive && isAdminAccessGranted
-                    ? 'bg-gradient-to-br from-sky-50/70 via-white to-sky-50/40 border-sky-400 shadow-sm'
-                    : 'bg-sky-50/60 border-sky-200'
-                }`}
+                className="bg-white rounded-2xl border-2 border-[#1c1917] shadow-[8px_8px_0px_#1c1917] p-6 sm:p-7 relative transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-6"
               >
-                <div className="space-y-2 flex-1 w-full">
-                  {/* Test Badges Row */}
-                  <div className="flex flex-wrap items-center gap-4">
-                    <span
-                      className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase font-mono tracking-wider flex items-center gap-1 ${
-                        isLive && isAdminAccessGranted
-                          ? 'bg-sky-600 text-white animate-pulse'
-                          : 'bg-sky-50 text-sky-800'
-                      }`}
-                    >
-                      {isLive && isAdminAccessGranted ? '🔴 LIVE TODAY (SUNDAY)' : `📅 ${mock.dateStr}`}
-                    </span>
-
-                    {(() => {
-                      const isMock = mock.code.startsWith('NEET MOCK');
-                      const isFull = mock.code.startsWith('FULL-') || mock.code.startsWith('FST-') || mock.code.startsWith('FS-') || mock.phaseGroup === 'full';
-                      const isCum = mock.phaseGroup === 'cumulative' || mock.code.startsWith('CUM-');
-                      const isPart = mock.code.startsWith('PART') || mock.code.startsWith('PT-') || mock.phaseGroup === 'part';
-                      
-                      let badgeColorClass = 'text-sky-700 bg-sky-50 border-sky-200';
-                      if (isMock) {
-                        badgeColorClass = 'text-cyan-800 bg-cyan-50 border-cyan-300';
-                      } else if (isFull && !isMock) {
-                        badgeColorClass = 'text-emerald-800 bg-emerald-50 border-emerald-300';
-                      } else if (isCum) {
-                        badgeColorClass = 'text-cyan-800 bg-cyan-50 border-cyan-300';
-                      } else if (isPart) {
-                        badgeColorClass = 'text-sky-800 bg-sky-50 border-sky-200';
-                      }
-
-                      return (
-                        <span className={`text-xs font-bold font-mono px-2.5 py-0.5 rounded-lg border ${badgeColorClass}`}>
-                          {mock.code} &bull; {mock.phase}
-                        </span>
-                      );
-                    })()}
-
-                    <span className="text-xs font-mono text-sky-700 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded-lg">
-                      {totalDynamicMarks} Marks &bull; {dynamicDuration} Mins &bull; {totalDynamicQs} Qs
-                      {hasEdits && <span className="ml-1.5 text-sky-600 font-bold">(Edited by Admin)</span>}
-                    </span>
-
-                    {isSundayTestUnlocked ? (
-                      <span className="text-[10px] font-bold bg-emerald-100 text-emerald-900 border border-emerald-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
-                        <CheckCircle2 className="w-3 h-3 text-emerald-600" /> ✓ Sunday Test Active
+                <div className="space-y-3 flex-1 w-full">
+                  {/* Badges */}
+                  <div className="flex flex-col gap-2">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
+                        {mock.dateStr}
                       </span>
-                    ) : (
-                      <span className="text-[10px] font-bold bg-cyan-100 text-cyan-900 border border-cyan-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
-                        <Lock className="w-3 h-3" /> Admin Approval Required
+                      <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
+                        {mock.code} · {mock.phase}
                       </span>
-                    )}
+                    </div>
+                    <div>
+                      <span className="inline-block bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
+                        {totalDynamicMarks} Marks · {dynamicDuration} Mins · {totalDynamicQs} Qs
+                        {hasEdits && <span className="ml-1 text-[#c2410c] font-black">(Edited)</span>}
+                      </span>
+                    </div>
                   </div>
 
-                  {/* Title & Objective */}
+                  {/* Title & Description */}
                   <div>
-                    <h3 className="text-base font-bold text-sky-950 leading-snug">
+                    <h3 className="text-xl sm:text-2xl font-extrabold text-[#1c1917] tracking-tight leading-snug">
                       {displayTitle}
                     </h3>
-                    <p className="text-xs text-sky-700 mt-0.5 leading-relaxed">
+                    <p className="text-sm text-[#56514c] mt-1 leading-relaxed">
                       {displayDesc}
                     </p>
                   </div>
-
-                  {/* Exact Syllabus Breakdown Grid (2 Cols for PC, 4 Cols for 4 Subjects) */}
-                  {mock.code.startsWith('PC-') ? (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1.5">
-                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
-                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-sky-600" /> Physics</span>
-                          <span className="font-mono text-sky-600">{phyCount} Qs &bull; {phyCount * 4}M</span>
-                        </div>
-                        <div className="text-[11px] font-semibold text-sky-950 mt-1 leading-snug">
-                          {displayPhysics}
-                        </div>
-                      </div>
-
-                      <div className="p-3.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
-                        <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Atom className="w-3 h-3 text-emerald-600" /> Chemistry</span>
-                          <span className="font-mono text-emerald-600">{chemCount} Qs &bull; {chemCount * 4}M</span>
-                        </div>
-                        <div className="text-[11px] font-semibold text-emerald-950 mt-1 leading-snug">
-                          {displayChemistry}
-                        </div>
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-1.5">
-                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
-                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-sky-600" /> Physics</span>
-                          <span className="font-mono text-sky-600">{phyCount} Qs &bull; {phyCount * 4}M</span>
-                        </div>
-                        <div className="text-[11px] font-semibold text-sky-950 mt-1 leading-snug">
-                          {displayPhysics}
-                        </div>
-                      </div>
-
-                      <div className="p-3.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
-                        <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Atom className="w-3 h-3 text-emerald-600" /> Chemistry</span>
-                          <span className="font-mono text-emerald-600">{chemCount} Qs &bull; {chemCount * 4}M</span>
-                        </div>
-                        <div className="text-[11px] font-semibold text-emerald-950 mt-1 leading-snug">
-                          {displayChemistry}
-                        </div>
-                      </div>
-
-                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
-                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><BookOpen className="w-3 h-3 text-sky-600" /> Botany</span>
-                          <span className="font-mono text-sky-600">{botCount} Qs &bull; {botCount * 4}M</span>
-                        </div>
-                        <div className="text-[11px] font-semibold text-sky-950 mt-1 leading-snug">
-                          {displayBotany}
-                        </div>
-                      </div>
-
-                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
-                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1"><Dna className="w-3 h-3 text-sky-600" /> Zoology</span>
-                          <span className="font-mono text-sky-600">{zooCount} Qs &bull; {zooCount * 4}M</span>
-                        </div>
-                        <div className="text-[11px] font-semibold text-sky-950 mt-1 leading-snug">
-                          {displayZoology}
-                        </div>
-                      </div>
-                    </div>
-                  )}
                 </div>
 
-                {/* Action CTAs */}
-                <div className="flex flex-wrap lg:flex-col items-stretch sm:items-center lg:items-end gap-4 shrink-0 self-stretch lg:self-center">
+                {/* Action CTA Button */}
+                <div className="shrink-0 self-stretch sm:self-auto md:self-center">
                   <button
                     onClick={() => handleLaunchDirectSundayTest(mock)}
-                    className={`px-5 py-3 rounded-xl text-white text-xs font-bold shadow-md transition flex items-center justify-center space-x-2 cursor-pointer w-full sm:w-auto ${
-                      isSundayTestUnlocked
-                        ? isLive
-                          ? 'bg-gradient-to-r from-sky-600 via-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 shadow-cyan-500/20'
-                          : 'bg-sky-600 hover:bg-sky-700'
-                        : isAdminAccessGranted && !isSundayToday
-                        ? 'bg-sky-700 hover:bg-sky-800 border border-stone-600'
-                        : 'bg-sky-800 hover:bg-sky-900 border border-stone-700'
-                    }`}
+                    className="w-full sm:w-auto bg-[#3730a3] hover:bg-[#312e81] text-white font-bold text-base px-8 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-none flex items-center justify-center space-x-2"
                   >
-                    {isSundayTestUnlocked ? (
-                      <>
-                        <Play className="w-4 h-4" />
-                        <span>Test in CBT</span>
-                      </>
-                    ) : isSundayToday && !isAdminAccessGranted ? (
-                      <>
-                        <Lock className="w-4 h-4 text-cyan-400" />
-                        <span>Sunday Live &bull; Request Admin Approval</span>
-                      </>
-                    ) : (
-                      <>
-                        <Lock className="w-4 h-4 text-cyan-400" />
-                        <span>Unlocks on Sunday with Admin Approval</span>
-                      </>
-                    )}
+                    <span>Test in CBT</span>
                   </button>
                 </div>
               </div>
@@ -1081,7 +897,6 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           </div>
         </div>
       )}
-    </div>
     </div>
   );
 };
