@@ -643,7 +643,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               ) : activeBatch === '12th' ? (
                 class12Track === 'complete' ? (
                   <>
-                    Starting <strong>01 November 2026</strong>: 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1–8)</strong> every 5 days covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> every 4 days focusing on baseline, error tagging, NCERT retention, reactions, and pacing; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> every 2 days with full analytics; followed by a <strong>7-Stage Revision &amp; Analysis Buffer</strong> through 09 Mar 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                    Starting <strong>01 November 2026</strong> &ndash; Concluding <strong>07 May 2027</strong>: 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1&ndash;8)</strong> every Sunday covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> scheduled on Sundays across Winter and Spring phases with a dedicated Board exam preparation buffer; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> in an intensive 2-day rehearsal sprint through 07 May 2027. <strong>180 Questions &bull; 180 Minutes &bull; 720 Marks CBT</strong>.
                   </>
                 ) : (
                   <>
@@ -684,10 +684,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               </span>
               <div>
                 <h3 className="text-sm font-bold text-sky-950">
-                  Revision &amp; Analysis Buffer (11 December 2026 – 03 February 2027)
+                  Board Examination &amp; Revision Buffer (18 January &ndash; 20 March 2027)
                 </h3>
                 <p className="text-xs text-sky-700">
-                  Structured 7-cycle post-mock remediation program to eliminate errors and cement 720-mark mastery.
+                  Structured 7-cycle Board examination &amp; remediation program to eliminate errors and cement 720-mark mastery.
                 </p>
               </div>
             </div>

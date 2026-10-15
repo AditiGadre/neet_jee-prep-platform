@@ -3462,44 +3462,44 @@ export interface RevisionAnalysisBufferStage {
 }
 
 /**
- * REVISION & ANALYSIS BUFFER — 11 DEC 2026 TO 03 FEB 2027
- * Post-mock error correction, structured weak-topic repair, and final readiness review.
+ * REVISION & ANALYSIS BUFFER – 18 JAN 2027 TO 20 MAR 2027
+ * Class 12 Board examination buffer, error remediation, and structured weak-topic repair.
  */
 export const REVISION_ANALYSIS_BUFFER_12TH: RevisionAnalysisBufferStage[] = [
   {
-    period: '30 Jan–02 Feb 2027',
-    action: 'Analyse all 5 mocks',
-    output: 'Subject/chapter error heatmap + rank trend'
+    period: '18–31 Jan 2027',
+    action: 'Analyse FULL 01–04 + Error Heatmap',
+    output: 'Subject/chapter error heatmap + board high-weightage focus list'
   },
   {
-    period: '03–07 Feb 2027',
-    action: 'Weak-topic repair cycle 1',
-    output: 'NCERT revision + targeted MCQs'
+    period: '01–10 Feb 2027',
+    action: 'Physics & Chemistry Board Theory + NCERT Deep Dive',
+    output: 'Derivations, definitions, and named organic reactions notebook'
   },
   {
-    period: '08–14 Feb 2027',
-    action: 'Weak-topic repair cycle 2',
-    output: 'Re-test weak chapters'
+    period: '11–20 Feb 2027',
+    action: 'Biology Diagrams & NCERT Line-by-Line',
+    output: 'Complete Class 12 NCERT diagram recall + exemplar practice'
   },
   {
-    period: '15–21 Feb 2027',
-    action: 'Physics + Chemistry intensive revision',
-    output: 'Formula/reaction/error notebook'
+    period: '21–28 Feb 2027',
+    action: 'Class 12 Board Theory Exams Focus',
+    output: 'High-score board presentation + formula error notebook'
   },
   {
-    period: '22–26 Feb 2027',
-    action: 'Botany + Zoology NCERT revision',
-    output: 'Line-by-line recall + MCQs'
+    period: '01–10 Mar 2027',
+    action: 'Board Exam Completion & NEET Transition',
+    output: 'Comprehensive formula & reaction speed drill'
   },
   {
-    period: '27 Feb–05 Mar 2027',
-    action: 'Full mixed revision',
-    output: 'Marked questions + repeated-error revision'
+    period: '11–16 Mar 2027',
+    action: 'Targeted Weak-Chapter MCQ Sprint',
+    output: 'NCERT line-by-line MCQs + high-frequency pyqs'
   },
   {
-    period: '06–09 Mar 2027',
-    action: 'Final readiness review prior to Track 2 PC series',
-    output: 'Student report + next-phase study plan'
+    period: '17–20 Mar 2027',
+    action: 'Final Readiness Review prior to FULL-05 & Track 2 PC series',
+    output: 'Student readiness audit + spring full syllabus test strategy'
   }
 ];
 
@@ -3511,13 +3511,13 @@ export const SUNDAY_11TH_PLANNER_TESTS: SundayPlannerTest[] = SUNDAY_11TH_TRACK1
 
 /**
  * COMPLETE SYLLABUS TEST PLANNER FOR CLASS 12TH BATCH (Class 11 + Class 12)
- * Window: 01 November 2026 – 29 January 2027
- * 23 Total Tests: 8 Part-Wise (every 5 days), 10 Complete Syllabus (every 4 days), 5 NEET Mocks (every 2 days)
- * + Structured Revision & Analysis Buffer through 03 Feb 2027.
+ * Window: 01 November 2026 – 07 May 2027
+ * 23 Total Tests: 8 Part-Wise (Sundays), 10 Complete Syllabus (Sundays: Pre & Post Board), 5 NEET Mocks (every 2 days)
+ * + Structured Pre-Board/Board Examination Revision & Analysis Buffer (18 Jan – 20 Mar 2027).
  */
 export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   // ==========================================
-  // PHASE 1: 8 PART-WISE TESTS (Every 5 Days)
+  // PHASE 1: 8 PART-WISE TESTS (Every Sunday: 01 Nov 2026 – 20 Dec 2026)
   // ==========================================
   {
     id: 'test-12th-part-01',
@@ -3543,7 +3543,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-02',
     code: 'PART 2',
-    dateStr: '2026-11-06',
+    dateStr: '2026-11-08',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 2: Work Energy & Rotation, Bonding & Thermodynamics, Plant Anatomy & Cell, Digestion & Breathing',
@@ -3564,7 +3564,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-03',
     code: 'PART 3',
-    dateStr: '2026-11-11',
+    dateStr: '2026-11-15',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 3: Gravitation & Bulk Matter, Equilibrium & Redox, Plant Physiology, Circulation & Excretion',
@@ -3585,7 +3585,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-04',
     code: 'PART 4',
-    dateStr: '2026-11-16',
+    dateStr: '2026-11-22',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 4: Thermal, KTG, Waves & SHM, Organic Basics & Hydrocarbons, Plant Growth, Locomotion & Control',
@@ -3606,7 +3606,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-05',
     code: 'PART 5',
-    dateStr: '2026-11-21',
+    dateStr: '2026-11-29',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 5: Electrostatics & Current, Physical Chem (Solutions, Electrochem, Kinetics), Genetics & Reproduction',
@@ -3627,7 +3627,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-06',
     code: 'PART 6',
-    dateStr: '2026-11-26',
+    dateStr: '2026-12-06',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 6: Magnetism & EMI, Inorganic (d/f Block, Coordination, p-Block), Molecular Genetics & Evolution, Health',
@@ -3648,7 +3648,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-07',
     code: 'PART 7',
-    dateStr: '2026-12-01',
+    dateStr: '2026-12-13',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 7: AC, EM Waves & Ray Optics, Organic (Halogens, Oxygen Derivatives), Microbes & Biotechnology',
@@ -3669,7 +3669,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-part-08',
     code: 'PART 8',
-    dateStr: '2026-12-06',
+    dateStr: '2026-12-20',
     phase: 'Phase 1: Part-Wise',
     phaseGroup: 'part',
     title: 'PART 8: Modern Physics & Electronics, Nitrogen Derivatives & Practical Chem, Ecology & Complete Biology Revision',
@@ -3694,7 +3694,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-01',
     code: 'FULL-01',
-    dateStr: '2026-12-10',
+    dateStr: '2026-12-27',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-01: Complete Class 11 + 12 NEET Paper 1 (Baseline + Error Tagging)',
@@ -3715,7 +3715,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-02',
     code: 'FULL-02',
-    dateStr: '2026-12-14',
+    dateStr: '2027-01-03',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-02: Complete Class 11 + 12 NEET Paper 2 (NCERT Retention + Physics Focus)',
@@ -3736,7 +3736,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-03',
     code: 'FULL-03',
-    dateStr: '2026-12-18',
+    dateStr: '2027-01-10',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-03: Complete Class 11 + 12 NEET Paper 3 (Chemistry Calculation & Reactions)',
@@ -3757,7 +3757,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-04',
     code: 'FULL-04',
-    dateStr: '2026-12-22',
+    dateStr: '2027-01-17',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-04: Complete Class 11 + 12 NEET Paper 4 (Biology Precision & NCERT Line-by-Line)',
@@ -3778,7 +3778,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-05',
     code: 'FULL-05',
-    dateStr: '2026-12-26',
+    dateStr: '2027-03-21',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-05: Complete Class 11 + 12 NEET Paper 5 (Time Management & Pacing)',
@@ -3799,7 +3799,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-06',
     code: 'FULL-06',
-    dateStr: '2026-12-30',
+    dateStr: '2027-03-28',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-06: Complete Class 11 + 12 NEET Paper 6 (Negative-Mark Reduction Strategy)',
@@ -3820,7 +3820,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-07',
     code: 'FULL-07',
-    dateStr: '2027-01-03',
+    dateStr: '2027-04-04',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-07: Complete Class 11 + 12 NEET Paper 7 (Weak-Chapter Reinforcement)',
@@ -3841,7 +3841,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-08',
     code: 'FULL-08',
-    dateStr: '2027-01-07',
+    dateStr: '2027-04-11',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-08: Complete Class 11 + 12 NEET Paper 8 (Mixed Difficulty Simulation)',
@@ -3862,7 +3862,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-09',
     code: 'FULL-09',
-    dateStr: '2027-01-11',
+    dateStr: '2027-04-18',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-09: Complete Class 11 + 12 NEET Paper 9 (Rank Improvement Milestone)',
@@ -3883,7 +3883,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-full-10',
     code: 'FULL-10',
-    dateStr: '2027-01-15',
+    dateStr: '2027-04-25',
     phase: 'Phase 2: Full Syllabus',
     phaseGroup: 'full',
     title: 'FULL-10: Complete Class 11 + 12 NEET Paper 10 (Final Readiness Assessment)',
@@ -3903,12 +3903,12 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   },
 
   // ==========================================
-  // PHASE 3: 5 NEET MOCK TESTS (Every 2 Days)
+  // PHASE 3: 5 NEET MOCK TESTS (Every 2 Days: Final Grand Rehearsal Sprint through 07 May 2027)
   // ==========================================
   {
     id: 'test-12th-mock-01',
     code: 'NEET MOCK-01',
-    dateStr: '2027-01-21',
+    dateStr: '2027-04-29',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-01: All-India Examination Simulation 1',
@@ -3929,7 +3929,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-02',
     code: 'NEET MOCK-02',
-    dateStr: '2027-01-23',
+    dateStr: '2027-05-01',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-02: All-India Examination Simulation 2',
@@ -3950,7 +3950,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-03',
     code: 'NEET MOCK-03',
-    dateStr: '2027-01-25',
+    dateStr: '2027-05-03',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-03: All-India Examination Simulation 3',
@@ -3971,7 +3971,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-04',
     code: 'NEET MOCK-04',
-    dateStr: '2027-01-27',
+    dateStr: '2027-05-05',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-04: All-India Examination Simulation 4',
@@ -3992,7 +3992,7 @@ export const PLANNER_12TH_COMPLETE_TESTS: SundayPlannerTest[] = [
   {
     id: 'test-12th-mock-05',
     code: 'NEET MOCK-05',
-    dateStr: '2027-01-29',
+    dateStr: '2027-05-07',
     phase: 'Phase 3: NEET Mock',
     phaseGroup: 'full',
     title: 'NEET MOCK-05: All-India Final Grand Rehearsal 5',
