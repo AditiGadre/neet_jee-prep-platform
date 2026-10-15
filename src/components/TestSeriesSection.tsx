@@ -508,7 +508,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 <Zap className={`w-4 h-4 ${activeBatch === 'repeater' ? 'text-cyan-300' : 'text-stone-400'}`} />
                 <span>Repeater / Dropper Batch</span>
                 <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-sky-50/60/20 text-current font-mono">
-                  Starts 11 Oct
+                  Starts 01 Nov
                 </span>
               </button>
               
@@ -518,7 +518,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   Track 1: Chapterwise, Partwise & Full (46 Tests)
                 </button>
                 <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
-                  Track 2: 17-Week Fast-Track (46 Tests)
+                  Track 2: 17-Week Fast-Track (42 Tests)
                 </button>
                 <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2.5 text-xs font-bold rounded-lg transition-colors ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-sky-50 text-sky-700' : 'text-sky-700 hover:bg-sky-50 hover:text-sky-600'}`}>
                   Track 3: Physics & Chemistry Only (27 Tests)
@@ -619,11 +619,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 ? repeaterTrack === 'track1'
                   ? 'NEET 2026–27 Dropper Batch: Track 1 (20-Week Chapterwise • 46 Tests)'
                   : repeaterTrack === 'track2'
-                  ? 'NEET 2026–27 Dropper Batch: Track 2 (17-Week Fast-Track • 46 Tests)'
+                  ? 'NEET 2026–27 Dropper Batch: Track 2 (17-Week Fast-Track • 42 Tests)'
                   : 'NEET 2026–27 Dropper Batch: Track 3 (Physics & Chemistry Series • 27 Tests)'
                 : activeBatch === '12th'
                 ? class12Track === 'complete'
-                  ? 'Class 12th Complete Syllabus Master Test Series (Starting 11 Oct 2026)'
+                  ? 'Class 12th Complete Syllabus Master Test Series (Starting 01 Nov 2026)'
                   : 'Class 12th Physics & Chemistry Full-Syllabus Series (10 Mar – 30 Apr 2027)'
                 : class11Track === 'track1'
                 ? 'Class 11th 2026–27 Exam Planner: Track 1 (Chapterwise, Partwise & Full Syllabus • 20 Tests)'
@@ -633,17 +633,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               {activeBatch === '11th' ? (
                 class11Track === 'track1' ? (
                   <>
-                    Starting <strong>11 October 2026</strong>: Official NEET (UG) Class 11 Exam Planner: <strong>11 Chapter-Wise Tests (CW-01 to CW-11)</strong> scheduled every 2nd Sunday through 21 Feb 2027 &rarr; <strong>6 Partwise Tests (PT-01 to PT-06)</strong> every 4 days covering complete Class 11 scope (01 Mar – 21 Mar 2027) &rarr; <strong>3 Full Syllabus Tests (FS-01 to FS-03)</strong> every 3 days through 30 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                    Starting <strong>01 November 2026</strong>: Official NEET (UG) Class 11 Exam Planner: <strong>11 Chapter-Wise Tests (CW-01 to CW-11)</strong> scheduled on Sundays through 28 Feb 2027 &rarr; <strong>6 Partwise Tests (PT-01 to PT-06)</strong> every 4 days covering complete Class 11 scope (04 Mar – 24 Mar 2027) &rarr; <strong>3 Full Syllabus Tests (FS-01 to FS-03)</strong> through 30 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                   </>
                 ) : (
                   <>
-                    Starting <strong>11 October 2026</strong>: <strong>12 Chapter-Wise Tests (CWT-01 to CWT-12)</strong> scheduled every second Sunday &rarr; <strong>5 Cumulative Checkpoints (CUM-01 to CUM-05)</strong> placed after learning blocks &rarr; <strong>3 Full Syllabus Tests (FST-01 to FST-03)</strong> through 28 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                    Starting <strong>01 November 2026</strong>: <strong>12 Chapter-Wise Tests (CWT-01 to CWT-12)</strong> scheduled on Sundays &rarr; <strong>5 Cumulative Checkpoints (CUM-01 to CUM-05)</strong> placed after learning blocks &rarr; <strong>3 Full Syllabus Tests (FST-01 to FST-03)</strong> through 30 March 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                   </>
                 )
               ) : activeBatch === '12th' ? (
                 class12Track === 'complete' ? (
                   <>
-                    Starting <strong>11 October 2026</strong>: 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1–8)</strong> every 5 days covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> every 4 days focusing on baseline, error tagging, NCERT retention, reactions, and pacing; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> every 2 days with full analytics; followed by a <strong>7-Stage Revision &amp; Analysis Buffer</strong> through 17 Feb 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                    Starting <strong>01 November 2026</strong>: 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1–8)</strong> every 5 days covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> every 4 days focusing on baseline, error tagging, NCERT retention, reactions, and pacing; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> every 2 days with full analytics; followed by a <strong>7-Stage Revision &amp; Analysis Buffer</strong> through 09 Mar 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                   </>
                 ) : (
                   <>
@@ -652,11 +652,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 )
               ) : repeaterTrack === 'track1' ? (
                 <>
-                  Starting <strong>11 October 2026</strong>: <strong>20 Chapter-Wise Tests (CW-01 to CW-20)</strong> every Sunday with zero chapter repeats &rarr; <strong>8 Part-Wise Cumulative Tests (PT-01 to PT-08)</strong> every 4 days &rarr; <strong>18 Full Syllabus Tests (FS-01 to FS-18)</strong> every 3 and 2 days through 30 April 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                  Starting <strong>01 November 2026</strong>: <strong>20 Chapter-Wise Tests (CW-01 to CW-20)</strong> every Sunday &rarr; <strong>8 Part-Wise Cumulative Tests (PT-01 to PT-08)</strong> every 2 days &rarr; <strong>18 Full Syllabus Tests (FS-01 to FS-18)</strong> every 2 days through 07 May 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                 </>
               ) : repeaterTrack === 'track2' ? (
                 <>
-                  Starting <strong>11 October 2026</strong>: <strong>17 Chapter-Wise Tests (T01 to T17)</strong> every Sunday with standalone high-yield focus &rarr; <strong>8 Part-Wise Tests (P01 to P08)</strong> every 4 days &rarr; <strong>21 Full Syllabus Tests (F01 to F21)</strong> every 3 days through 29 April 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                  Starting <strong>01 November 2026</strong>: <strong>17 Chapter-Wise Tests (T01 to T17)</strong> every Sunday &rarr; <strong>4 Consolidated Part-Wise Tests (P01 to P04)</strong> every 4 days &rarr; <strong>21 Full Syllabus Tests (F01 to F21)</strong> through 06 May 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
                 </>
               ) : (
                 <>

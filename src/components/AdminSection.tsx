@@ -2599,7 +2599,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         </option>
                       ))}
                     </optgroup>
-                    <optgroup label="Repeater Track 2: Part-Wise Tests (P01 to P08)">
+                    <optgroup label="Repeater Track 2: Part-Wise Tests (P01 to P04)">
                       {SUNDAY_DROPPER_TRACK2_TESTS.filter(t => t.phaseGroup === 'part').map(t => (
                         <option key={t.id} value={t.id}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
