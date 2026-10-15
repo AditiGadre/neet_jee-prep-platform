@@ -705,6 +705,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             const displayTitle = customPaper?.testTitle ? `${mock.code}: ${customPaper.testTitle}` : mock.title;
             const displayDesc = customPaper?.description || mock.objective || mock.description;
             
+            const displayPhysics = customPaper?.customChapters?.physics?.length ? customPaper.customChapters.physics.join(', ') : mock.physicsUnit;
+            const displayChemistry = customPaper?.customChapters?.chemistry?.length ? customPaper.customChapters.chemistry.join(', ') : mock.chemistryUnit;
+            const displayBotany = customPaper?.customChapters?.biology?.length ? customPaper.customChapters.biology.join(', ') : mock.botanyBlock;
+            const displayZoology = customPaper?.customChapters?.biology?.length ? "Combined with Botany above" : mock.zoologyBlock;
+
             const isPCTest = mock.code.startsWith('PC-') || mock.totalQuestions === 100;
             let phyCount = isPCTest ? 50 : 45;
             let chemCount = isPCTest ? 50 : 45;
@@ -725,9 +730,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             return (
               <div
                 key={mock.id}
-                className="bg-white rounded-2xl border-2 border-[#1c1917] shadow-[8px_8px_0px_#1c1917] p-6 sm:p-7 relative transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-6"
+                className="bg-white rounded-2xl border-2 border-[#1c1917] shadow-[8px_8px_0px_#1c1917] p-6 sm:p-7 relative transition-all flex flex-col xl:flex-row items-start xl:items-center justify-between gap-6"
               >
-                <div className="space-y-3 flex-1 w-full">
+                <div className="space-y-4 flex-1 w-full">
                   {/* Badges */}
                   <div className="flex flex-col gap-2">
                     <div className="flex flex-wrap items-center gap-2">
@@ -755,10 +760,77 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       {displayDesc}
                     </p>
                   </div>
+
+                  {/* Exact Syllabus Breakdown Grid (2 Cols for PC, 4 Cols for Standard) */}
+                  {isPCTest ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
+                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1.5"><Zap className="w-3.5 h-3.5 text-sky-600" /> PHYSICS</span>
+                          <span className="font-mono text-sky-600 font-bold whitespace-nowrap shrink-0">{phyCount} QS &bull; {phyCount * 4}M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-sky-950 mt-1.5 leading-snug">
+                          {displayPhysics}
+                        </div>
+                      </div>
+
+                      <div className="p-3.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
+                        <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1.5"><Atom className="w-3.5 h-3.5 text-emerald-600" /> CHEMISTRY</span>
+                          <span className="font-mono text-emerald-600 font-bold whitespace-nowrap shrink-0">{chemCount} QS &bull; {chemCount * 4}M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-emerald-950 mt-1.5 leading-snug">
+                          {displayChemistry}
+                        </div>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
+                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
+                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1.5"><Zap className="w-3.5 h-3.5 text-sky-600" /> PHYSICS</span>
+                          <span className="font-mono text-sky-600 font-bold whitespace-nowrap shrink-0">{phyCount} QS &bull; {phyCount * 4}M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-sky-950 mt-1.5 leading-snug">
+                          {displayPhysics}
+                        </div>
+                      </div>
+
+                      <div className="p-3.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
+                        <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1.5"><Atom className="w-3.5 h-3.5 text-emerald-600" /> CHEMISTRY</span>
+                          <span className="font-mono text-emerald-600 font-bold whitespace-nowrap shrink-0">{chemCount} QS &bull; {chemCount * 4}M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-emerald-950 mt-1.5 leading-snug">
+                          {displayChemistry}
+                        </div>
+                      </div>
+
+                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
+                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1.5"><BookOpen className="w-3.5 h-3.5 text-sky-600" /> BOTANY</span>
+                          <span className="font-mono text-sky-600 font-bold whitespace-nowrap shrink-0">{botCount} QS &bull; {botCount * 4}M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-sky-950 mt-1.5 leading-snug">
+                          {displayBotany}
+                        </div>
+                      </div>
+
+                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
+                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
+                          <span className="flex items-center gap-1.5"><Dna className="w-3.5 h-3.5 text-sky-600" /> ZOOLOGY</span>
+                          <span className="font-mono text-sky-600 font-bold whitespace-nowrap shrink-0">{zooCount} QS &bull; {zooCount * 4}M</span>
+                        </div>
+                        <div className="text-[11px] font-semibold text-sky-950 mt-1.5 leading-snug">
+                          {displayZoology}
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 {/* Action CTA Button */}
-                <div className="shrink-0 self-stretch sm:self-auto md:self-center">
+                <div className="shrink-0 self-stretch sm:self-auto xl:self-center">
                   <button
                     onClick={() => handleLaunchDirectSundayTest(mock)}
                     className="w-full sm:w-auto bg-[#3730a3] hover:bg-[#312e81] text-white font-bold text-base px-8 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-none flex items-center justify-center space-x-2"
