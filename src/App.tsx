@@ -23,6 +23,7 @@ import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
 
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
+const HomePage = lazy(() => import('./components/HomePage').then(m => ({ default: m.HomePage })));
 import { initCloudSync, fetchStudentByPhoneFromCloud, syncStudentEnrollmentToCloud, cleanPhoneNumber } from './utils/cloudSyncManager';
 
 const SectionLoadingFallback = () => (
@@ -187,12 +188,18 @@ export default function App() {
       const isAdmin =
         sessionStorage.getItem('neet_admin_authenticated') === 'true' ||
         localStorage.getItem('neet_admin_authenticated') === 'true';
-      if (saved === 'test-series' || (saved === 'what-extra' && isAdmin) || saved === 'about-exam') {
+      if (saved === 'home' || saved === 'test-series' || (saved === 'what-extra' && isAdmin) || saved === 'about-exam') {
         return saved as TabType;
       }
     } catch {}
-    return 'test-series';
+    return 'home';
   });
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('neet_active_tab', activeTab);
+    } catch {}
+  }, [activeTab]);
 
   // Guard: What Extra We Offer is reserved for Admin side only
   useEffect(() => {
@@ -203,6 +210,28 @@ export default function App() {
 
   const [extraSubTab, setExtraSubTab] = useState<string>('books');
   const [enrollmentPackageId, setEnrollmentPackageId] = useState<string | undefined>(undefined);
+
+  // Enrolled Packages tracking for Sunday test unlocking
+  const [enrolledPackageIds, setEnrolledPackageIds] = useState<string[]>(() => {
+    try {
+      const raw = localStorage.getItem('neet_enrolled_package_ids');
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) return parsed;
+      }
+      const student = localStorage.getItem('neet_enrolled_student');
+      if (student) {
+        const parsed = JSON.parse(student);
+        if (parsed.enrolledPackages && Array.isArray(parsed.enrolledPackages)) {
+          return parsed.enrolledPackages;
+        }
+        if (parsed.selectedPackage) {
+          return [parsed.selectedPackage];
+        }
+      }
+    } catch {}
+    return [];
+  });
 
   // Mandatory Enrollment Gate State - Persistent check for existing enrolled users & saved logins
   const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
@@ -636,16 +665,23 @@ export default function App() {
         </div>
       )}
 
-      {/* MANDATORY ENROLLMENT GATE: Required for all new / signed-out candidates (Bypassed if Master Admin session is active) */}
-      {(!enrolledStudent || isEnrollmentModalOpen) && !isAdminSession && (
+      {/* ENROLLMENT / PACKAGE SELECTION GATE */}
+      {isEnrollmentModalOpen && !isAdminSession && (
         <EnrollmentGate
           initialData={enrolledStudent || undefined}
           initialPackageId={enrollmentPackageId}
           onEnrollSuccess={student => {
             setEnrolledStudent(student);
+            if (student.enrolledPackages && student.enrolledPackages.length > 0) {
+              setEnrolledPackageIds(student.enrolledPackages);
+              localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(student.enrolledPackages));
+            } else if (student.selectedPackage) {
+              setEnrolledPackageIds([student.selectedPackage]);
+              localStorage.setItem('neet_enrolled_package_ids', JSON.stringify([student.selectedPackage]));
+            }
             setIsEnrollmentModalOpen(false);
           }}
-          onClose={enrolledStudent ? () => setIsEnrollmentModalOpen(false) : undefined}
+          onClose={() => setIsEnrollmentModalOpen(false)}
           onOpenAuth={() => setIsAuthModalOpen(true)}
           onOpenAdmin={() => setIsAdminLoginModalOpen(true)}
         />
@@ -673,7 +709,10 @@ export default function App() {
           setEnrollmentPackageId(pkg?.id);
           setIsEnrollmentModalOpen(true);
         }}
-        onNavigateHome={() => navigateTo('/')}
+        onNavigateHome={() => {
+          navigateTo('/');
+          setActiveTab('home');
+        }}
         onNavigateAbout={() => navigateTo('/about')}
       />
 
@@ -752,11 +791,33 @@ export default function App() {
           {/* Dynamic Content Area */}
           <main className="flex-1 p-6 sm:p-5 lg:p-6 overflow-y-auto bg-white min-w-0">
             <Suspense fallback={<SectionLoadingFallback />}>
+              {activeTab === 'home' && (
+                <HomePage
+                  onSelectPackage={(pkg) => {
+                    setEnrollmentPackageId(pkg.id);
+                    setIsEnrollmentModalOpen(true);
+                  }}
+                  onNavigateToTestSeries={(batch) => {
+                    if (batch) {
+                      try {
+                        localStorage.setItem('neet_last_active_batch', batch);
+                      } catch {}
+                    }
+                    setActiveTab('test-series');
+                  }}
+                />
+              )}
+
               {activeTab === 'test-series' && (
                 <TestSeriesSection
                   testItems={TEST_SERIES_DATA}
                   targetYear={targetYear}
                   onStartTest={handleStartTest}
+                  enrolledPackageIds={enrolledPackageIds}
+                  onOpenEnrollment={(pkgId) => {
+                    setEnrollmentPackageId(pkgId);
+                    setIsEnrollmentModalOpen(true);
+                  }}
                 />
               )}
 
@@ -779,6 +840,11 @@ export default function App() {
                     testItems={TEST_SERIES_DATA}
                     targetYear={targetYear}
                     onStartTest={handleStartTest}
+                    enrolledPackageIds={enrolledPackageIds}
+                    onOpenEnrollment={(pkgId) => {
+                      setEnrollmentPackageId(pkgId);
+                      setIsEnrollmentModalOpen(true);
+                    }}
                   />
                 )
               )}

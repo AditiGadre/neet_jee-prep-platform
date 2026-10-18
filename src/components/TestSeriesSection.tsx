@@ -56,6 +56,7 @@ import {
   getSavedCustomSundayPaper,
   assertNoDuplicateQuestions
 } from '../data/sundayPlannerTests';
+import { isTestTrackUnlocked, getPackageById, PrepPackageItem } from '../data/packagesData';
 
 export const getCleanTestTitle = (mockTest: SundayPlannerTest, customP?: any): string => {
   if (customP?.testTitle) {
@@ -76,15 +77,25 @@ interface TestSeriesSectionProps {
   targetYear?: '2027' | '2028' | '2029';
   onStartTest: (test: TestItem) => void;
   onOpenAdmin?: () => void;
+  enrolledPackageIds?: string[];
+  onOpenEnrollment?: (packageId?: string) => void;
 }
 
 export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   testItems,
   targetYear = '2027',
   onStartTest,
-  onOpenAdmin
+  onOpenAdmin,
+  enrolledPackageIds,
+  onOpenEnrollment
 }) => {
-  const [activeBatch, setActiveBatch] = useState<'repeater' | '12th' | '11th'>('repeater');
+  const [activeBatch, setActiveBatch] = useState<'repeater' | '12th' | '11th'>(() => {
+    try {
+      const last = localStorage.getItem('neet_last_active_batch');
+      if (last === 'repeater' || last === '12th' || last === '11th') return last;
+    } catch {}
+    return 'repeater';
+  });
   const [localCustomPapers, setLocalCustomPapers] = useState<Record<string, any>>(() => {
     try {
       const raw = localStorage.getItem('neet_custom_sunday_papers');
@@ -260,8 +271,49 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
   const isAdminInSession = typeof sessionStorage !== 'undefined' && sessionStorage.getItem('neet_admin_authenticated') === 'true';
 
+  const effectiveEnrolledIds = useMemo(() => {
+    if (enrolledPackageIds && enrolledPackageIds.length > 0) return enrolledPackageIds;
+    try {
+      const raw = localStorage.getItem('neet_enrolled_package_ids');
+      if (raw) return JSON.parse(raw);
+      const student = localStorage.getItem('neet_enrolled_student');
+      if (student) {
+        const parsed = JSON.parse(student);
+        if (parsed.enrolledPackages && Array.isArray(parsed.enrolledPackages)) {
+          return parsed.enrolledPackages;
+        }
+        if (parsed.selectedPackage) {
+          return [parsed.selectedPackage];
+        }
+      }
+    } catch {}
+    return [];
+  }, [enrolledPackageIds]);
+
+  const currentTrackKey = activeBatch === 'repeater' ? repeaterTrack : activeBatch === '12th' ? class12Track : class11Track;
+
+  const currentTrackPackage = useMemo<PrepPackageItem>(() => {
+    if (activeBatch === 'repeater') {
+      if (repeaterTrack === 'track1') return getPackageById('repeater-track1');
+      if (repeaterTrack === 'track2') return getPackageById('repeater-track2');
+      return getPackageById('repeater-track3');
+    } else if (activeBatch === '12th') {
+      if (class12Track === 'complete') return getPackageById('12th-track1');
+      return getPackageById('12th-track2');
+    } else {
+      if (class11Track === 'track1') return getPackageById('11th-track1');
+      return getPackageById('11th-track2');
+    }
+  }, [activeBatch, repeaterTrack, class12Track, class11Track]);
+
+  const isCurrentTrackUnlocked = useMemo(() => {
+    if (isAdminInSession || localStorage.getItem('neet_admin_test_access') === 'true') return true;
+    if (isAdminAccessGranted) return true;
+    return isTestTrackUnlocked(activeBatch, currentTrackKey, effectiveEnrolledIds);
+  }, [activeBatch, currentTrackKey, effectiveEnrolledIds, isAdminInSession, isAdminAccessGranted]);
+
   // Sunday tests unlock ON SUNDAYS and AFTER ADMIN APPROVAL (Faculty preview bypasses schedule)
-  const isSundayTestUnlocked = isAdminAccessGranted;
+  const isSundayTestUnlocked = isAdminAccessGranted || isCurrentTrackUnlocked;
 
   const activeRepeaterTests = useMemo(() => {
     if (repeaterTrack === 'track1') return SUNDAY_DROPPER_TRACK1_TESTS;
@@ -360,7 +412,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     : filtered11thTests;
 
   const handleLaunchDirectSundayTest = async (plannerTest: SundayPlannerTest) => {
-    if (!isTestSpecificallyUnlocked(plannerTest.code)) {
+    const isUnlocked = isCurrentTrackUnlocked || isTestSpecificallyUnlocked(plannerTest.code);
+    if (!isUnlocked) {
       setPendingTestToStart(plannerTest);
       setShowAdminApprovalModal(true);
       return;
@@ -454,7 +507,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   };
 
   const handleDownloadSundayPdf = async (plannerTest: SundayPlannerTest, includeSolutions: boolean = false) => {
-    if (!isTestSpecificallyUnlocked(plannerTest.code)) {
+    const isUnlocked = isCurrentTrackUnlocked || isTestSpecificallyUnlocked(plannerTest.code);
+    if (!isUnlocked) {
       setPendingTestToStart(plannerTest);
       setShowAdminApprovalModal(true);
       return;
@@ -593,21 +647,34 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           </div>
         </div>
 
-        {/* Admin Authorization Status Badge */}
+        {/* Track Access & Admin Status Badges */}
         <div className="flex items-center space-x-2">
-          {isAdminAccessGranted ? (
-            <span className="px-3.5 py-1.5 rounded-xl bg-white text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold flex items-center space-x-1.5 font-mono shadow-xs">
-              <Unlock className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Admin Access Granted</span>
+          {isCurrentTrackUnlocked ? (
+            <span className="px-3.5 py-1.5 rounded-xl bg-[#dcfce7] text-[#14532d] border-2 border-[#1c1917] text-xs font-black flex items-center space-x-1.5 shadow-[2px_2px_0px_#1c1917]">
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-700" />
+              <span>✓ Track Unlocked</span>
             </span>
           ) : (
             <button
-              onClick={() => setShowAdminApprovalModal(true)}
-              className="px-3.5 py-1.5 rounded-xl bg-white hover:bg-stone-50 text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-xs"
+              onClick={() => {
+                if (onOpenEnrollment) {
+                  onOpenEnrollment(currentTrackPackage.id);
+                } else {
+                  setShowAdminApprovalModal(true);
+                }
+              }}
+              className="px-3.5 py-1.5 rounded-xl bg-[#fef3c7] hover:bg-[#fde68a] text-[#78350f] border-2 border-[#1c1917] text-xs font-black transition flex items-center space-x-1.5 shadow-[2px_2px_0px_#1c1917] cursor-pointer"
             >
-              <Lock className="w-3.5 h-3.5 text-[#56514c]" />
-              <span>Awaiting Admin Portal Approval</span>
+              <Lock className="w-3.5 h-3.5 text-amber-800" />
+              <span>Unlock Track ({currentTrackPackage.price})</span>
             </button>
+          )}
+
+          {isAdminAccessGranted && (
+            <span className="px-3 py-1.5 rounded-xl bg-white text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold flex items-center space-x-1.5 font-mono shadow-[2px_2px_0px_#1c1917]">
+              <Unlock className="w-3.5 h-3.5 text-emerald-600" />
+              <span>Admin Approved</span>
+            </span>
           )}
         </div>
       </div>
@@ -758,6 +825,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             const totalDynamicQs = phyCount + chemCount + botCount + zooCount;
             const totalDynamicMarks = totalDynamicQs * 4;
             const dynamicDuration = mock.durationMinutes || (isPCTest ? 120 : 180);
+            const isTestCardUnlocked = isCurrentTrackUnlocked || isTestSpecificallyUnlocked(mock.code);
 
             return (
               <div
@@ -776,6 +844,15 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
                       {totalDynamicMarks} Marks · {dynamicDuration} Mins · {totalDynamicQs} Qs
                     </span>
+                    {isTestCardUnlocked ? (
+                      <span className="bg-[#dcfce7] text-[#14532d] font-black text-xs px-3 py-1 rounded-md border border-[#86efac] flex items-center gap-1">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" /> Track Unlocked
+                      </span>
+                    ) : (
+                      <span className="bg-[#fef3c7] text-[#78350f] font-black text-xs px-3 py-1 rounded-md border border-[#fde68a] flex items-center gap-1">
+                        <Lock className="w-3.5 h-3.5 text-amber-700" /> Package Required
+                      </span>
+                    )}
                   </div>
 
                   {/* Title & Description */}
@@ -886,7 +963,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     onClick={() => handleLaunchDirectSundayTest(mock)}
                     className="w-full sm:w-auto bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-base px-8 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
                   >
-                    <span>Test in CBT</span>
+                    {!isTestCardUnlocked && <Lock className="w-4 h-4 text-[#1e3a8a]" />}
+                    <span>{isTestCardUnlocked ? 'Test in CBT' : 'Unlock / Test in CBT'}</span>
                   </button>
                 </div>
               </div>
@@ -940,6 +1018,38 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
             {/* Content */}
             <div className="p-6 space-y-4">
+              {/* Package Unlock Promotion Card if track is locked */}
+              {!isCurrentTrackUnlocked && (
+                <div className="p-4 rounded-2xl bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] space-y-3">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <span className="text-[10px] font-black uppercase tracking-wider text-[#1e3a8a] bg-[#dbeafe] px-2 py-0.5 rounded border border-[#bfdbfe]">
+                        {currentTrackPackage.batch.toUpperCase()} • {currentTrackPackage.shortTitle}
+                      </span>
+                      <h4 className="text-sm font-black text-[#1c1917] mt-1.5">{currentTrackPackage.name}</h4>
+                      <p className="text-xs text-[#56514c] mt-0.5 leading-relaxed">{currentTrackPackage.scheduleSummary}</p>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <div className="text-base sm:text-lg font-black text-[#1e3a8a]">{currentTrackPackage.price}</div>
+                      <div className="text-xs text-[#78716c] line-through">{currentTrackPackage.originalPrice}</div>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => {
+                      setShowAdminApprovalModal(false);
+                      if (onOpenEnrollment) {
+                        onOpenEnrollment(currentTrackPackage.id);
+                      }
+                    }}
+                    className="w-full py-2.5 rounded-xl bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-xs sm:text-sm border-2 border-[#1c1917] transition cursor-pointer shadow-[2px_2px_0px_#1c1917] flex items-center justify-center space-x-2"
+                  >
+                    <Sparkles className="w-4 h-4 text-[#1e3a8a]" />
+                    <span>Enroll & Unlock Track Instantly ({currentTrackPackage.price})</span>
+                  </button>
+                </div>
+              )}
+
               <p className="text-xs text-sky-700 leading-relaxed">
                 {isAdminAccessGranted && !isSundayToday ? (
                   <>
@@ -947,17 +1057,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   </>
                 ) : isSundayToday ? (
                   <>
-                    Sunday tests are conducted on Sundays and unlock after administrator approval. Send your authorization request below to obtain faculty approval and unlock your 720-marks CBT access.
+                    Sunday tests are conducted on Sundays and unlock with course enrollment or administrator approval. If you are enrolled offline or at an affiliated institute, send your authorization request below.
                   </>
                 ) : (
                   <>
-                    Sunday All-India Mock Tests (180 Questions &bull; 720 Marks &bull; AIR Prediction) are conducted on Sundays and unlock after administrator approval. You can submit your authorization request now to have your profile approved ahead of Sunday.
+                    Sunday All-India Mock Tests (180 Questions &bull; 720 Marks &bull; AIR Prediction) unlock with package enrollment or faculty administrator approval. You can submit your authorization request now to have your profile verified ahead of Sunday.
                   </>
                 )}
               </p>
 
               {/* Student Identification Card */}
-              <div className="p-6 rounded-2xl bg-sky-50 border border-sky-200 space-y-2 text-xs">
+              <div className="p-4 rounded-2xl bg-sky-50 border border-sky-200 space-y-2 text-xs">
                 <div className="font-bold text-sky-900 flex items-center gap-1.5">
                   <KeyRound className="w-4 h-4 text-sky-600" /> Candidate Verification Details:
                 </div>
@@ -973,17 +1083,19 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   </div>
                   <div>
                     <span className="text-sky-600">Status:</span>{' '}
-                    {isAdminAccessGranted ? (
+                    {isCurrentTrackUnlocked ? (
+                      <span className="font-bold text-emerald-700">✓ Unlocked by Package</span>
+                    ) : isAdminAccessGranted ? (
                       <span className="font-bold text-emerald-700">✓ Approved by Admin</span>
                     ) : (
-                      <span className="font-bold text-cyan-700">Pending Admin Approval</span>
+                      <span className="font-bold text-cyan-700">Pending Authorization</span>
                     )}
                   </div>
                 </div>
               </div>
 
               {accessRequestSent ? (
-                <div className="p-6 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-900 flex items-start space-x-3 animate-in fade-in">
+                <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-900 flex items-start space-x-3 animate-in fade-in">
                   <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div className="space-y-0.5 text-xs">
                     <div className="font-bold text-emerald-950">✓ Access Request Sent to Admin Portal!</div>
@@ -999,10 +1111,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 {!isAdminAccessGranted && !accessRequestSent && (
                   <button
                     onClick={handleSendAccessRequest}
-                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
+                    className="w-full py-2.5 rounded-xl bg-gradient-to-r from-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer transform transition-all duration-300 hover:scale-[1.02] active:scale-95"
                   >
                     <Send className="w-4 h-4" />
-                    <span>Send Access Request to Administrator</span>
+                    <span>Send Manual Access Request to Administrator</span>
                   </button>
                 )}
 
@@ -1011,7 +1123,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     setShowAdminApprovalModal(false);
                     setAccessRequestSent(false);
                   }}
-                  className="w-full py-2.5 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-800 font-semibold text-xs transition cursor-pointer"
+                  className="w-full py-2 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-800 font-semibold text-xs transition cursor-pointer"
                 >
                   {isAdminAccessGranted && !isSundayToday ? 'OK, Got It' : 'Close'}
                 </button>

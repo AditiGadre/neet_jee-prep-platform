@@ -29,6 +29,7 @@ import { ExamType } from '../types';
 import { getCurrentUser, getUserDownloads } from '../utils/downloadTracker';
 import { getSuperUserMetrics } from '../utils/superUserNotifier';
 import { EnrolledStudent } from './EnrollmentGate';
+import { NEET_PREP_PACKAGES } from '../data/packagesData';
 
 interface HeaderProps {
   activeExam: ExamType;
@@ -115,7 +116,10 @@ export const Header: React.FC<HeaderProps> = ({
   const parentName = enrolledStudent?.parentName || currentUser?.parentName || 'Parent / Guardian';
   const userCaste = enrolledStudent?.caste || currentUser?.caste || 'General / Open';
 
-  const neetPackages: any[] = [];
+  const neetPackages = NEET_PREP_PACKAGES.map(pkg => ({
+    ...pkg,
+    icon: pkg.trackType === 'combo' ? Crown : (pkg.batch === 'repeater' ? Sparkles : Award)
+  }));
 
   return (
     <header className="sticky top-0 z-30 bg-white border-b-2 border-[#1c1917] text-[#1c1917]">
@@ -202,6 +206,7 @@ export const Header: React.FC<HeaderProps> = ({
                             onClick={() => {
                               setSelectedPackage(pkg);
                               setPackagesDropdownOpen(false);
+                              if (onOpenEnrollment) onOpenEnrollment(pkg);
                             }}
                             className="p-3.5 rounded-xl border border-sky-200/80 hover:border-sky-400 hover:bg-sky-50/50 hover:shadow-xs transition cursor-pointer group bg-sky-50/60"
                           >

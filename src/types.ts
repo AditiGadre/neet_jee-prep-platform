@@ -232,6 +232,8 @@ export interface EnrolledPackage {
   id: string;
   name: string;
   price: string;
+  batch?: 'repeater' | '12th' | '11th';
+  unlockedTracks?: string[];
   originalPrice?: string;
   tagline?: string;
   enrolledAt: string;

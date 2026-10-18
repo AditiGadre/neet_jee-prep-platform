@@ -62,7 +62,10 @@ export interface EnrolledStudent {
   gender: 'Female' | 'Male' | 'Third Gender';
   disabilityStatus: string;
   specialReservation: string;
-  
+  selectedPackage?: EnrolledPackage;
+  enrolledPackages?: EnrolledPackage[];
+  unlockedTracks?: string[];
+  status?: string;
 }
 
 interface EnrollmentGateProps {
@@ -119,11 +122,15 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
   
 
+  const [selectedPackageId, setSelectedPackageId] = useState<string>(initialPackageId || 'repeater-track1');
+
   React.useEffect(() => {
     if (initialPackageId) {
-      
+      setSelectedPackageId(initialPackageId);
     }
   }, [initialPackageId]);
+
+  const chosenPackage = getPackageById(selectedPackageId || initialPackageId || 'repeater-track1');
 
   const [studentName, setStudentName] = useState(initialData?.studentName || '');
   const [parentName, setParentName] = useState(initialData?.parentName || '');
@@ -380,8 +387,29 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       gender,
       disabilityStatus,
       specialReservation,
-      
     };
+
+    const enrolledPackage: EnrolledPackage = {
+      id: chosenPackage.id,
+      name: chosenPackage.name,
+      price: chosenPackage.price,
+      batch: chosenPackage.batch,
+      unlockedTracks: chosenPackage.unlockedTracks,
+      enrolledAt: new Date().toISOString()
+    };
+    studentData.selectedPackage = enrolledPackage;
+    studentData.enrolledPackages = [enrolledPackage];
+    studentData.unlockedTracks = chosenPackage.unlockedTracks;
+
+    try {
+      let existingPkgs: string[] = [];
+      const raw = localStorage.getItem('neet_enrolled_package_ids');
+      if (raw) existingPkgs = JSON.parse(raw);
+      if (!existingPkgs.includes(chosenPackage.id)) {
+        existingPkgs.push(chosenPackage.id);
+      }
+      localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(existingPkgs));
+    } catch {}
 
     // Create Registration Approval Request
     fetchUnlockRequestsFromCloud().then(reqs => {
@@ -546,8 +574,29 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       gender,
       disabilityStatus,
       specialReservation,
-      
     };
+
+    const enrolledPackage: EnrolledPackage = {
+      id: chosenPackage.id,
+      name: chosenPackage.name,
+      price: chosenPackage.price,
+      batch: chosenPackage.batch,
+      unlockedTracks: chosenPackage.unlockedTracks,
+      enrolledAt: new Date().toISOString()
+    };
+    studentData.selectedPackage = enrolledPackage;
+    studentData.enrolledPackages = [enrolledPackage];
+    studentData.unlockedTracks = chosenPackage.unlockedTracks;
+
+    try {
+      let existingPkgs: string[] = [];
+      const raw = localStorage.getItem('neet_enrolled_package_ids');
+      if (raw) existingPkgs = JSON.parse(raw);
+      if (!existingPkgs.includes(chosenPackage.id)) {
+        existingPkgs.push(chosenPackage.id);
+      }
+      localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(existingPkgs));
+    } catch {}
 
     saveAdminNotification({
       id: `notif-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
@@ -793,7 +842,35 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
           /* Enrollment Form Body */
           <form onSubmit={handleSubmit} className="p-5 sm:p-6 space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {/* Photo Upload Section */}
+              {/* Selected Package Banner */}
+            <div className="sm:col-span-2 p-4 rounded-2xl bg-[#dbeafe] border-2 border-[#1c1917] shadow-[3px_3px_0px_#1c1917] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <span className="p-2.5 rounded-xl bg-white border-2 border-[#1c1917] text-[#1e3a8a] shadow-[1px_1px_0px_#1c1917]">
+                  <Sparkles className="w-5 h-5" />
+                </span>
+                <div>
+                  <div className="text-[10px] font-black uppercase tracking-wider text-[#1e3a8a]">
+                    Selected Academic Course Package
+                  </div>
+                  <div className="text-sm sm:text-base font-black text-[#1c1917]">
+                    {chosenPackage.name}
+                  </div>
+                  <div className="text-xs text-[#56514c] font-semibold mt-0.5">
+                    {chosenPackage.scheduleSummary}
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 self-start sm:self-auto">
+                <span className="text-lg sm:text-xl font-black text-[#1e3a8a] bg-white px-3 py-1 rounded-xl border-2 border-[#1c1917] shadow-[2px_2px_0px_#1c1917]">
+                  {chosenPackage.price}
+                </span>
+                <span className="text-xs font-mono font-bold text-emerald-800 bg-emerald-100 px-2 py-1 rounded-lg border border-emerald-300">
+                  {chosenPackage.testsCount} Tests
+                </span>
+              </div>
+            </div>
+
+            {/* Photo Upload Section */}
               <div className="sm:col-span-2 p-3.5 sm:p-6 rounded-2xl bg-gradient-to-r from-sky-50 to-sky-50/50 border border-sky-100 flex flex-col sm:flex-row items-center gap-4">
                 <div className="relative group shrink-0">
                   <div className="w-20 h-20 rounded-2xl border-2 border-dashed border-sky-400 overflow-hidden bg-sky-50/60 shadow-xs flex items-center justify-center">

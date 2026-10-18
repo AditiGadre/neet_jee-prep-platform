@@ -14,14 +14,15 @@ import {
   HelpCircle,
   ShieldCheck,
   Zap,
-  ArrowDownToLine
+  ArrowDownToLine,
+  Home
 } from 'lucide-react';
 
 export type TabType =
+  | 'home'
   | 'test-series'
   | 'what-extra'
   | 'about-exam'
-
   | 'support';
 
 interface SidebarProps {
@@ -54,17 +55,24 @@ export const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   const menuItems: MenuItem[] = [
     {
+      id: 'home' as TabType,
+      label: '1. Home & Packages',
+      sublabel: 'Course Packages & Batch Tracks',
+      icon: Home,
+      badge: 'Pricing'
+    },
+    {
       id: 'test-series' as TabType,
-      label: '1. Test Series & Sunday Mocks',
-      sublabel: '180 Marks Combined PCB (33 Sunday Cycle)',
+      label: '2. Test Series & Sunday Mocks',
+      sublabel: '196 Tests • NTA CBT Simulator',
       icon: FileCheck2,
-      badge: '180 Qs PCB'
+      badge: '196 Tests'
     },
     ...(isAdmin
       ? [
           {
             id: 'what-extra' as TabType,
-            label: '2. What Extra We Offer',
+            label: '3. What Extra We Offer',
             sublabel: 'Custom DPP, Chapter Tests & Analytics',
             icon: Sparkles,
             badge: 'Admin'
@@ -73,7 +81,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       : []),
     {
       id: 'about-exam' as TabType,
-      label: isAdmin ? '3. About NEET CBT Exam' : '2. About NEET CBT Exam',
+      label: isAdmin ? '4. About NEET CBT Exam' : '3. About NEET CBT Exam',
       sublabel: 'CBT Pattern, Syllabus, Seats & Marks vs Rank',
       icon: BookOpen
     }
