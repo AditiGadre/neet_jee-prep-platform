@@ -397,9 +397,16 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       unlockedTracks: chosenPackage.unlockedTracks,
       enrolledAt: new Date().toISOString()
     };
+    const prevPkgs: any[] = Array.isArray(initialData?.enrolledPackages)
+      ? initialData.enrolledPackages
+      : (initialData?.selectedPackage ? [initialData.selectedPackage] : []);
+    const mergedPkgs = [...prevPkgs.filter((p: any) => (p?.id || p) !== chosenPackage.id), enrolledPackage];
     studentData.selectedPackage = enrolledPackage;
-    studentData.enrolledPackages = [enrolledPackage];
-    studentData.unlockedTracks = chosenPackage.unlockedTracks;
+    studentData.enrolledPackages = mergedPkgs;
+    studentData.unlockedTracks = Array.from(new Set([
+      ...(initialData?.unlockedTracks || []),
+      ...(chosenPackage.unlockedTracks || [])
+    ]));
 
     try {
       let existingPkgs: string[] = [];
@@ -584,9 +591,16 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
       unlockedTracks: chosenPackage.unlockedTracks,
       enrolledAt: new Date().toISOString()
     };
+    const prevPkgs: any[] = Array.isArray(initialData?.enrolledPackages)
+      ? initialData.enrolledPackages
+      : (initialData?.selectedPackage ? [initialData.selectedPackage] : []);
+    const mergedPkgs = [...prevPkgs.filter((p: any) => (p?.id || p) !== chosenPackage.id), enrolledPackage];
     studentData.selectedPackage = enrolledPackage;
-    studentData.enrolledPackages = [enrolledPackage];
-    studentData.unlockedTracks = chosenPackage.unlockedTracks;
+    studentData.enrolledPackages = mergedPkgs;
+    studentData.unlockedTracks = Array.from(new Set([
+      ...(initialData?.unlockedTracks || []),
+      ...(chosenPackage.unlockedTracks || [])
+    ]));
 
     try {
       let existingPkgs: string[] = [];

@@ -37,7 +37,7 @@ import {
 import { TestItem, TestCategory, Question } from '../types';
 import { downloadTestPaperPDF } from '../utils/pdfDownloader';
 import { recordSuperUserNotification } from '../utils/superUserNotifier';
-import { fetchSundayPaperFromCloud, fetchAllSundayPapersFromCloud } from '../utils/cloudSyncManager';
+import { fetchSundayPaperFromCloud, fetchAllSundayPapersFromCloud, fetchStudentByPhoneFromCloud, cleanPhoneNumber } from '../utils/cloudSyncManager';
 import { fetchAuthoritativePaper } from '../services/authoritativeCloudService';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
@@ -233,17 +233,55 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   });
 
   useEffect(() => {
+    let isMounted = true;
     const loadCloudAccess = async () => {
-      const reqs = await fetchUnlockRequestsFromCloud();
-      if (reqs && reqs.length > 0) {
-        localStorage.setItem('neet_unlock_requests', JSON.stringify(reqs));
-        setIsAdminAccessGranted((getUnlockedTests().length > 0));
-      }
+      try {
+        const reqs = await fetchUnlockRequestsFromCloud();
+        if (isMounted && reqs && reqs.length > 0) {
+          localStorage.setItem('neet_unlock_requests', JSON.stringify(reqs));
+          setIsAdminAccessGranted((getUnlockedTests().length > 0));
+        }
+
+        const phoneToQuery = cleanPhoneNumber(studentPhone);
+        if (phoneToQuery && phoneToQuery.length === 10 && !phoneToQuery.includes('9876543210')) {
+          const cloudStudent = await fetchStudentByPhoneFromCloud(phoneToQuery);
+          if (isMounted && cloudStudent && cloudStudent.studentName) {
+            const rawLocal = localStorage.getItem('neet_enrolled_student');
+            const localStudent = rawLocal ? JSON.parse(rawLocal) : null;
+            const prevPkgs = JSON.stringify(localStudent?.enrolledPackages || []);
+            const nextPkgs = JSON.stringify(cloudStudent.enrolledPackages || []);
+            const prevStatus = localStudent?.status || '';
+            const nextStatus = cloudStudent.status || '';
+
+            if (prevPkgs !== nextPkgs || prevStatus !== nextStatus) {
+              localStorage.setItem('neet_enrolled_student', JSON.stringify(cloudStudent));
+              const pkgIds: string[] = [];
+              if (cloudStudent.enrolledPackages && Array.isArray(cloudStudent.enrolledPackages)) {
+                cloudStudent.enrolledPackages.forEach((p: any) => {
+                  const id = typeof p === 'string' ? p : p?.id;
+                  if (id && !pkgIds.includes(id)) pkgIds.push(id);
+                });
+              } else if (cloudStudent.selectedPackage) {
+                const id = typeof cloudStudent.selectedPackage === 'string' ? cloudStudent.selectedPackage : cloudStudent.selectedPackage?.id;
+                if (id && !pkgIds.includes(id)) pkgIds.push(id);
+              }
+              if (pkgIds.length > 0) {
+                localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(pkgIds));
+              }
+              window.dispatchEvent(new Event('neet_auth_change'));
+              window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+            }
+          }
+        }
+      } catch {}
     };
     loadCloudAccess();
-    // Poll every 5 seconds for approval
+    // Poll every 5 seconds for universal real-time approval
     const interval = setInterval(loadCloudAccess, 5000);
-    return () => clearInterval(interval);
+    return () => {
+      isMounted = false;
+      clearInterval(interval);
+    };
   }, [rollNumber, studentPhone]);
 
   // Listen for Admin Portal real-time access updates
@@ -452,20 +490,70 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     ? filtered12thTests
     : filtered11thTests;
 
+    // Upgrade Request status for current track
+  const currentTrackUpgradeRequest = useMemo(() => {
+    try {
+      const raw = localStorage.getItem('neet_unlock_requests');
+      if (raw) {
+        const reqs = JSON.parse(raw);
+        if (Array.isArray(reqs)) {
+          const cleanPhone = cleanPhoneNumber(studentPhone);
+          return reqs.find((r: any) =>
+            ((cleanPhone && cleanPhoneNumber(r.studentPhone) === cleanPhone) || (rollNumber && r.rollNumber === rollNumber)) &&
+            (r.testCode === `UPGRADE:${currentTrackPackage.id}` || ((r as any).requestType === 'UPGRADE' && (r as any).targetPackageId === currentTrackPackage.id))
+          );
+        }
+      }
+    } catch {}
+    return null;
+  }, [studentPhone, rollNumber, currentTrackPackage.id]);
+
+  const isUpgradePending = currentTrackUpgradeRequest?.status === 'pending';
+  const isUpgradeApproved = currentTrackUpgradeRequest?.status === 'approved';
+
+  const handleSendUpgradeRequest = async (targetPkg: PrepPackageItem) => {
+    setAccessRequestSent(true);
+
+    const newRequest = {
+      id: `req-upgrade-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
+      studentName: studentName || 'Registered Student',
+      rollNumber: rollNumber || 'ENROLLED',
+      studentPhone: cleanPhoneNumber(studentPhone),
+      parentPhone: parentPhone || cleanPhoneNumber(studentPhone),
+      parentEmail: enrolledStudent?.parentEmail || enrolledStudent?.email || 'parent@example.com',
+      targetExam: 'NEET (UG)',
+      targetBatch: activeBatch === 'repeater' ? 'Dropper / Target 2027' : activeBatch === '12th' ? 'Class 12th Batch' : 'Class 11th Batch',
+      requestType: 'UPGRADE' as const,
+      targetPackageId: targetPkg.id,
+      targetPackageName: targetPkg.name,
+      testCode: `UPGRADE:${targetPkg.id}`,
+      testTitle: `Track Upgrade: ${targetPkg.name}`,
+      requestedAt: new Date().toISOString(),
+      status: 'pending' as const
+    };
+
+    try {
+      const cloudReqs = await fetchUnlockRequestsFromCloud();
+      const list = cloudReqs && cloudReqs.length > 0 ? cloudReqs : [];
+      list.unshift(newRequest);
+      localStorage.setItem('neet_unlock_requests', JSON.stringify(list));
+      syncUnlockRequestsToCloud(list);
+      window.dispatchEvent(new Event('neet_unlock_request_sent'));
+    } catch {}
+
+    recordSuperUserNotification({
+      contentTitle: `Track Upgrade Request: Candidate ${studentName} (Roll #${rollNumber}) requested upgrade to ${targetPkg.name}`,
+      category: 'Package Upgrade',
+      fileSize: `${targetPkg.testsCount} Tests`,
+      subject: 'Sunday Test Series'
+    });
+  };
+
   const handleLaunchDirectSundayTest = async (plannerTest: SundayPlannerTest) => {
     const isUnlocked = isAdminInSession || (isTrackPurchased && isAdminAccessGranted) || isTestSpecificallyUnlocked(plannerTest.code);
     if (!isUnlocked) {
-      if (!isTrackPurchased) {
-        if (onOpenEnrollment) {
-          onOpenEnrollment(currentTrackPackage.id);
-        } else {
-          setPendingTestToStart(plannerTest);
-          setShowAdminApprovalModal(true);
-        }
-      } else {
-        setPendingTestToStart(plannerTest);
-        setShowAdminApprovalModal(true);
-      }
+      setPendingTestToStart(plannerTest);
+      setShowAdminApprovalModal(true);
       return;
     }
 
@@ -1079,15 +1167,35 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       <Lock className="w-4 h-4 text-amber-700" />
                       <span>Awaiting Admin Approval</span>
                     </button>
+                  ) : effectiveEnrolledIds.length > 0 ? (
+                    isUpgradePending ? (
+                      <button
+                        onClick={() => {
+                          setPendingTestToStart(mock);
+                          setShowAdminApprovalModal(true);
+                        }}
+                        className="w-full sm:w-auto bg-[#fef3c7] hover:bg-[#fde68a] text-[#78350f] font-black text-xs sm:text-sm px-6 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] flex items-center justify-center space-x-2"
+                      >
+                        <Clock className="w-4 h-4 text-amber-700" />
+                        <span>Upgrade Pending Approval</span>
+                      </button>
+                    ) : (
+                      <button
+                        onClick={() => {
+                          setPendingTestToStart(mock);
+                          setShowAdminApprovalModal(true);
+                        }}
+                        className="w-full sm:w-auto bg-[#ede9fe] hover:bg-[#ddd6fe] active:bg-[#c4b5fd] text-[#5b21b6] font-black text-xs sm:text-sm px-6 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
+                      >
+                        <Sparkles className="w-4 h-4 text-[#7c3aed]" />
+                        <span>Upgrade to Track ({currentTrackPackage.price})</span>
+                      </button>
+                    )
                   ) : (
                     <button
                       onClick={() => {
-                        if (onOpenEnrollment) {
-                          onOpenEnrollment(currentTrackPackage.id);
-                        } else {
-                          setPendingTestToStart(mock);
-                          setShowAdminApprovalModal(true);
-                        }
+                        setPendingTestToStart(mock);
+                        setShowAdminApprovalModal(true);
                       }}
                       className="w-full sm:w-auto bg-white hover:bg-stone-50 active:bg-stone-100 text-[#1c1917] font-bold text-sm sm:text-base px-6 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
                     >
@@ -1163,18 +1271,59 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     </div>
                   </div>
 
-                  <button
-                    onClick={() => {
-                      setShowAdminApprovalModal(false);
-                      if (onOpenEnrollment) {
-                        onOpenEnrollment(currentTrackPackage.id);
-                      }
-                    }}
-                    className="w-full py-2.5 rounded-xl bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-xs sm:text-sm border-2 border-[#1c1917] transition cursor-pointer shadow-[2px_2px_0px_#1c1917] flex items-center justify-center space-x-2"
-                  >
-                    <Sparkles className="w-4 h-4 text-[#1e3a8a]" />
-                    <span>Enroll to Unlock {currentTrackPackage.testsCount} Tests ({currentTrackPackage.price})</span>
-                  </button>
+                  {effectiveEnrolledIds.length > 0 ? (
+                    <div className="space-y-2 pt-1 border-t border-stone-200">
+                      <div className="text-xs text-purple-900 bg-purple-50 p-2.5 rounded-xl border border-purple-200">
+                        <div className="font-bold flex items-center gap-1.5">
+                          <Sparkles className="w-3.5 h-3.5 text-purple-600" />
+                          <span>Track Upgrade with Admin Approval</span>
+                        </div>
+                        <p className="text-[11px] text-purple-700 mt-0.5">
+                          You are currently enrolled in {enrolledPackagesList.map(p => p.shortTitle).join(', ')}. You can request institutional Admin Approval to add this track.
+                        </p>
+                      </div>
+
+                      {isUpgradePending || accessRequestSent ? (
+                        <div className="p-3 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold flex items-center gap-2">
+                          <Clock className="w-4 h-4 text-amber-700 shrink-0" />
+                          <span>Upgrade Request Sent! Awaiting Admin Approval in Portal.</span>
+                        </div>
+                      ) : (
+                        <button
+                          onClick={() => handleSendUpgradeRequest(currentTrackPackage)}
+                          className="w-full py-2.5 rounded-xl bg-[#ede9fe] hover:bg-[#ddd6fe] active:bg-[#c4b5fd] text-[#5b21b6] font-black text-xs sm:text-sm border-2 border-[#1c1917] transition cursor-pointer shadow-[2px_2px_0px_#1c1917] flex items-center justify-center space-x-2"
+                        >
+                          <Send className="w-4 h-4 text-[#7c3aed]" />
+                          <span>Request Upgrade to {currentTrackPackage.shortTitle} (Admin Approval)</span>
+                        </button>
+                      )}
+
+                      <button
+                        onClick={() => {
+                          setShowAdminApprovalModal(false);
+                          if (onOpenEnrollment) {
+                            onOpenEnrollment(currentTrackPackage.id);
+                          }
+                        }}
+                        className="w-full py-2 rounded-xl bg-white hover:bg-stone-50 text-stone-700 font-bold text-xs border border-stone-300 transition cursor-pointer flex items-center justify-center space-x-1"
+                      >
+                        <span>Or Direct Self-Enrollment ({currentTrackPackage.price})</span>
+                      </button>
+                    </div>
+                  ) : (
+                    <button
+                      onClick={() => {
+                        setShowAdminApprovalModal(false);
+                        if (onOpenEnrollment) {
+                          onOpenEnrollment(currentTrackPackage.id);
+                        }
+                      }}
+                      className="w-full py-2.5 rounded-xl bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-xs sm:text-sm border-2 border-[#1c1917] transition cursor-pointer shadow-[2px_2px_0px_#1c1917] flex items-center justify-center space-x-2"
+                    >
+                      <Sparkles className="w-4 h-4 text-[#1e3a8a]" />
+                      <span>Enroll to Unlock {currentTrackPackage.testsCount} Tests ({currentTrackPackage.price})</span>
+                    </button>
+                  )}
                 </div>
               )}
 

@@ -65,13 +65,17 @@ export interface SyncedStudentProfile {
   gender?: string;
   disabilityStatus?: string;
   specialReservation?: string;
+  status?: 'pending' | 'approved' | 'rejected' | string;
+  enrolledPackages?: Array<any>;
+  unlockedTracks?: string[];
   selectedPackage?: {
     id: string;
     name: string;
-    price: number;
-    originalPrice: number;
-    tagline: string;
-    enrolledAt: string;
+    price: number | string;
+    originalPrice?: number | string;
+    tagline?: string;
+    enrolledAt?: string;
+    unlockedTracks?: string[];
   };
 }
 

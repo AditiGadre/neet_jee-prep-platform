@@ -236,6 +236,31 @@ export default function App() {
     return [];
   });
 
+  // Automatically synchronize enrolledPackageIds whenever enrolledStudent updates
+  useEffect(() => {
+    if (enrolledStudent) {
+      const pkgIds: string[] = [];
+      if (enrolledStudent.enrolledPackages && Array.isArray(enrolledStudent.enrolledPackages)) {
+        enrolledStudent.enrolledPackages.forEach((p: any) => {
+          const id = typeof p === 'string' ? p : p?.id;
+          if (id && !pkgIds.includes(id)) pkgIds.push(id);
+        });
+      } else if (enrolledStudent.selectedPackage) {
+        const id = typeof enrolledStudent.selectedPackage === 'string' ? enrolledStudent.selectedPackage : enrolledStudent.selectedPackage?.id;
+        if (id && !pkgIds.includes(id)) pkgIds.push(id);
+      }
+      if (pkgIds.length > 0) {
+        setEnrolledPackageIds(prev => {
+          const isSame = prev.length === pkgIds.length && prev.every(id => pkgIds.includes(id));
+          return isSame ? prev : pkgIds;
+        });
+        try {
+          localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(pkgIds));
+        } catch {}
+      }
+    }
+  }, [enrolledStudent]);
+
   // Mandatory Enrollment Gate State - Persistent check for existing enrolled users & saved logins
   const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
     try {
@@ -385,20 +410,20 @@ export default function App() {
     window.addEventListener('storage', syncAdmin);
     window.addEventListener('neet_admin_login_change', syncAdmin);
 
-    // Initial student verification against cloud registry
+    // Initial student verification against cloud registry (Cloud is authoritative single source of truth)
     const rawSaved = localStorage.getItem('neet_enrolled_student');
     if (rawSaved) {
       try {
         const parsed = JSON.parse(rawSaved);
         const clean = cleanPhoneNumber(parsed.studentPhone || parsed.phone || '');
         if (clean && clean.length === 10 && !clean.includes('9876543210')) {
-          // Immediately sync local student to cloud so other systems can access it
-          syncStudentEnrollmentToCloud(parsed).catch(() => {});
-
           fetchStudentByPhoneFromCloud(clean).then(cloudStudent => {
             if (cloudStudent && cloudStudent.studentName) {
               setEnrolledStudent(cloudStudent as any);
               localStorage.setItem('neet_enrolled_student', JSON.stringify(cloudStudent));
+            } else {
+              // Only push to cloud if cloud does not already have a record
+              syncStudentEnrollmentToCloud(parsed).catch(() => {});
             }
           }).catch(() => {});
         }
@@ -465,6 +490,42 @@ export default function App() {
       window.removeEventListener('neet_request_dob_verification', handleDobRequired);
       window.removeEventListener('storage', syncAdmin);
       window.removeEventListener('neet_admin_login_change', syncAdmin);
+    };
+  }, []);
+
+  // Universal Cross-Device Continuous Cloud Sync:
+  // Automatically pulls latest approved packages and student enrollment status from Supabase cloud
+  useEffect(() => {
+    let isMounted = true;
+    const syncFromCloud = async () => {
+      const raw = localStorage.getItem('neet_enrolled_student');
+      if (!raw) return;
+      try {
+        const parsed = JSON.parse(raw);
+        const clean = cleanPhoneNumber(parsed.studentPhone || parsed.phone || '');
+        if (clean && clean.length === 10 && !clean.includes('9876543210')) {
+          const cloudStudent = await fetchStudentByPhoneFromCloud(clean);
+          if (isMounted && cloudStudent && cloudStudent.studentName) {
+            setEnrolledStudent(prev => {
+              const prevPackages = JSON.stringify(prev?.enrolledPackages || []);
+              const nextPackages = JSON.stringify(cloudStudent.enrolledPackages || []);
+              const prevStatus = prev?.status || '';
+              const nextStatus = cloudStudent.status || '';
+              if (prevPackages !== nextPackages || prevStatus !== nextStatus) {
+                localStorage.setItem('neet_enrolled_student', JSON.stringify(cloudStudent));
+                return cloudStudent as any;
+              }
+              return prev;
+            });
+          }
+        }
+      } catch {}
+    };
+
+    const interval = setInterval(syncFromCloud, 6000);
+    return () => {
+      isMounted = false;
+      clearInterval(interval);
     };
   }, []);
 

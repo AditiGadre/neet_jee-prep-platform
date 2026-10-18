@@ -131,6 +131,7 @@ import {
   fetchUnlockRequestsFromCloud
 } from '../services/authoritativeCloudService';
 import { MasterDefaultSavesModal } from './MasterDefaultSavesModal';
+import { getPackageById } from '../data/packagesData';
 import { syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud } from '../utils/cloudSyncManager';
 import { formatQuestionText } from '../utils/textFormatter';
 import {
@@ -903,7 +904,45 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
     syncUnlockRequestsToCloud(updated);
     
-    if (reqToApprove && reqToApprove.testCode === 'REGISTRATION') {
+    if (reqToApprove && (reqToApprove.testCode.startsWith('UPGRADE:') || (reqToApprove as any).requestType === 'UPGRADE')) {
+        try {
+           const targetPkgId = (reqToApprove as any).targetPackageId || reqToApprove.testCode.replace('UPGRADE:', '').trim();
+           const pkgToAdd = getPackageById(targetPkgId);
+           const student = await fetchStudentByPhoneFromCloud(reqToApprove.studentPhone);
+           if (student) {
+              const existingPkgs: any[] = Array.isArray(student.enrolledPackages)
+                ? [...student.enrolledPackages]
+                : (student.selectedPackage ? [student.selectedPackage] : []);
+              const alreadyHas = existingPkgs.some((p: any) => (p?.id || p) === targetPkgId);
+              if (!alreadyHas) {
+                existingPkgs.push(pkgToAdd || { id: targetPkgId, name: (reqToApprove as any).targetPackageName || targetPkgId });
+              }
+              const updatedStudent = {
+                ...student,
+                enrolledPackages: existingPkgs,
+                selectedPackage: pkgToAdd || student.selectedPackage,
+                status: 'approved',
+                unlockedTracks: Array.from(new Set([...(student.unlockedTracks || []), ...(pkgToAdd?.unlockedTracks || [])]))
+              };
+              await syncStudentEnrollmentToCloud(updatedStudent);
+
+              try {
+                const localStudentRaw = localStorage.getItem('neet_enrolled_student');
+                if (localStudentRaw) {
+                  const localStudent = JSON.parse(localStudentRaw);
+                  if (cleanPhoneNumber(localStudent.studentPhone || '') === cleanPhoneNumber(reqToApprove.studentPhone)) {
+                    localStorage.setItem('neet_enrolled_student', JSON.stringify(updatedStudent));
+                    const pkgIds = existingPkgs.map((p: any) => typeof p === 'string' ? p : p?.id).filter(Boolean);
+                    localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(pkgIds));
+                    window.dispatchEvent(new Event('neet_auth_change'));
+                  }
+                }
+              } catch {}
+           }
+        } catch (err) {
+           console.warn('Error upgrading candidate in cloud:', err);
+        }
+    } else if (reqToApprove && reqToApprove.testCode === 'REGISTRATION') {
         try {
            const student = await fetchStudentByPhoneFromCloud(reqToApprove.studentPhone);
            if (student) {
@@ -917,11 +956,43 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     setTimeout(() => setActionSuccessBanner(null), 2500);
   };
 
-  const handleApproveAllRequests = () => {
+  const handleApproveAllRequests = async () => {
     const updated = unlockRequests.map(r => ({ ...r, status: 'approved' as const }));
     setUnlockRequests(updated);
     localStorage.setItem('neet_unlock_requests', JSON.stringify(updated));
-    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: false } }));
+    syncUnlockRequestsToCloud(updated);
+
+    for (const req of unlockRequests.filter(r => r.status === 'pending')) {
+      try {
+        if (req.testCode.startsWith('UPGRADE:') || (req as any).requestType === 'UPGRADE') {
+          const targetPkgId = (req as any).targetPackageId || req.testCode.replace('UPGRADE:', '').trim();
+          const pkgToAdd = getPackageById(targetPkgId);
+          const student = await fetchStudentByPhoneFromCloud(req.studentPhone);
+          if (student) {
+            const existingPkgs: any[] = Array.isArray(student.enrolledPackages)
+              ? [...student.enrolledPackages]
+              : (student.selectedPackage ? [student.selectedPackage] : []);
+            if (!existingPkgs.some((p: any) => (p?.id || p) === targetPkgId)) {
+              existingPkgs.push(pkgToAdd || { id: targetPkgId, name: (req as any).targetPackageName || targetPkgId });
+            }
+            await syncStudentEnrollmentToCloud({
+              ...student,
+              enrolledPackages: existingPkgs,
+              selectedPackage: pkgToAdd || student.selectedPackage,
+              status: 'approved',
+              unlockedTracks: Array.from(new Set([...(student.unlockedTracks || []), ...(pkgToAdd?.unlockedTracks || [])]))
+            });
+          }
+        } else if (req.testCode === 'REGISTRATION') {
+          const student = await fetchStudentByPhoneFromCloud(req.studentPhone);
+          if (student) {
+            await syncStudentEnrollmentToCloud({ ...student, status: 'approved' });
+          }
+        }
+      } catch {}
+    }
+
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
     setActionSuccessBanner('✓ All Pending Test Requests Approved & Unlocked Platform-Wide!');
     setTimeout(() => setActionSuccessBanner(null), 3500);
   };
@@ -2350,12 +2421,28 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           </td>
 
                           <td className="p-3.5">
-                            <span className="font-bold text-sky-950 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded text-[11px]">
-                              {req.testCode}
-                            </span>
-                            <div className="text-[10px] text-sky-600 mt-1 max-w-xs truncate">
-                              {req.testTitle}
-                            </div>
+                            {req.testCode?.startsWith('UPGRADE:') || (req as any).requestType === 'UPGRADE' ? (
+                              <div className="space-y-1">
+                                <span className="font-black text-purple-900 bg-purple-100 border border-purple-300 px-2.5 py-0.5 rounded text-[10px] uppercase inline-flex items-center gap-1">
+                                  <Sparkles className="w-3 h-3 text-purple-600" /> Track Upgrade Request
+                                </span>
+                                <div className="text-xs font-extrabold text-sky-950">
+                                  {(req as any).targetPackageName || req.testTitle}
+                                </div>
+                                <div className="text-[10px] text-purple-700 font-mono font-semibold">
+                                  {(req as any).targetPackageId || req.testCode.replace('UPGRADE:', '')}
+                                </div>
+                              </div>
+                            ) : (
+                              <>
+                                <span className="font-bold text-sky-950 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded text-[11px]">
+                                  {req.testCode}
+                                </span>
+                                <div className="text-[10px] text-sky-600 mt-1 max-w-xs truncate">
+                                  {req.testTitle}
+                                </div>
+                              </>
+                            )}
                           </td>
 
                           <td className="p-3.5">
@@ -2384,7 +2471,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                   className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-xs transition flex items-center space-x-1 cursor-pointer"
                                 >
                                   <Check className="w-3.5 h-3.5" />
-                                  <span>Approve & Unlock</span>
+                                  <span>{req.testCode?.startsWith('UPGRADE:') || (req as any).requestType === 'UPGRADE' ? 'Approve Upgrade' : 'Approve & Unlock'}</span>
                                 </button>
                                 <button
                                   onClick={() => handleRejectRequest(req.id)}

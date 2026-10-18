@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../supabaseClient';
+import { fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
 import {
   fetchStudentByPhoneFromCloud,
   syncStudentEnrollmentToCloud,
@@ -77,6 +78,39 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment,
     if (fullStudent) {
       localStorage.setItem('neet_enrolled_student', JSON.stringify(fullStudent));
       localStorage.setItem('neet_user_enrolled', 'true');
+
+      // Universal cross-device package extraction
+      const pkgIds: string[] = [];
+      if (fullStudent.enrolledPackages && Array.isArray(fullStudent.enrolledPackages)) {
+        fullStudent.enrolledPackages.forEach((p: any) => {
+          const id = typeof p === 'string' ? p : p?.id;
+          if (id && !pkgIds.includes(id)) pkgIds.push(id);
+        });
+      } else if (fullStudent.selectedPackage) {
+        const id = typeof fullStudent.selectedPackage === 'string' ? fullStudent.selectedPackage : fullStudent.selectedPackage?.id;
+        if (id && !pkgIds.includes(id)) pkgIds.push(id);
+      }
+      if (pkgIds.length > 0) {
+        localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(pkgIds));
+      }
+
+      // Fetch cloud unlock requests and sync approval status
+      fetchUnlockRequestsFromCloud().then(reqs => {
+        if (reqs && reqs.length > 0) {
+          localStorage.setItem('neet_unlock_requests', JSON.stringify(reqs));
+          const hasApproved = reqs.some((r: any) => 
+            r.status === 'approved' && (
+              r.studentPhone === phoneDigits ||
+              (fullStudent.rollNumber && r.rollNumber === fullStudent.rollNumber)
+            )
+          );
+          if (hasApproved || fullStudent.status === 'approved') {
+            localStorage.setItem('neet_admin_test_access', 'true');
+            window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+          }
+        }
+      }).catch(() => {});
+
       syncStudentEnrollmentToCloud(fullStudent).catch(() => {});
     }
 
