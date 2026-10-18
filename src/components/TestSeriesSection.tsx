@@ -56,7 +56,7 @@ import {
   getSavedCustomSundayPaper,
   assertNoDuplicateQuestions
 } from '../data/sundayPlannerTests';
-import { isTestTrackUnlocked, getPackageById, PrepPackageItem } from '../data/packagesData';
+import { isTestTrackUnlocked, getPackageById, PrepPackageItem, NEET_PREP_PACKAGES } from '../data/packagesData';
 
 export const getCleanTestTitle = (mockTest: SundayPlannerTest, customP?: any): string => {
   if (customP?.testTitle) {
@@ -191,10 +191,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     };
   }, []);
 
-  // Check whether Admin has approved Sunday test access
+  // Check whether Admin has approved specific Sunday tests or access requests
   const getUnlockedTests = () => {
     try {
-      if (localStorage.getItem('neet_admin_test_access') === 'true') return ['ALL'];
       const rawReqs = localStorage.getItem('neet_unlock_requests');
       if (rawReqs) {
         const reqs = JSON.parse(rawReqs);
@@ -212,15 +211,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     return [];
   };
   
+  // Specific individual test code approved by admin
   const isTestSpecificallyUnlocked = (testCode: string) => {
+     if (!testCode) return false;
      const unlocked = getUnlockedTests();
-     if (unlocked.includes('ALL') || unlocked.includes('ALL SUNDAY TESTS')) return true;
-     return unlocked.includes((testCode || '').toUpperCase());
+     return unlocked.includes(testCode.toUpperCase());
   };
 
-
   // Admin Portal Controlled Test Access State
-  const [isAdminAccessGranted, setIsAdminAccessGranted] = useState<boolean>(() => (getUnlockedTests().length > 0));
+  const [isAdminAccessGranted, setIsAdminAccessGranted] = useState<boolean>(() => {
+    if (typeof sessionStorage !== 'undefined' && sessionStorage.getItem('neet_admin_authenticated') === 'true') return true;
+    if (localStorage.getItem('neet_admin_test_access') === 'true') return true;
+    const rawStudent = localStorage.getItem('neet_enrolled_student');
+    if (rawStudent) {
+      try {
+        const student = JSON.parse(rawStudent);
+        if (student?.status === 'approved') return true;
+      } catch {}
+    }
+    return getUnlockedTests().length > 0;
+  });
 
   useEffect(() => {
     const loadCloudAccess = async () => {
@@ -272,22 +282,34 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const isAdminInSession = typeof sessionStorage !== 'undefined' && sessionStorage.getItem('neet_admin_authenticated') === 'true';
 
   const effectiveEnrolledIds = useMemo(() => {
-    if (enrolledPackageIds && enrolledPackageIds.length > 0) return enrolledPackageIds;
-    try {
-      const raw = localStorage.getItem('neet_enrolled_package_ids');
-      if (raw) return JSON.parse(raw);
-      const student = localStorage.getItem('neet_enrolled_student');
-      if (student) {
-        const parsed = JSON.parse(student);
-        if (parsed.enrolledPackages && Array.isArray(parsed.enrolledPackages)) {
-          return parsed.enrolledPackages;
+    let ids: string[] = [];
+    if (enrolledPackageIds && enrolledPackageIds.length > 0) {
+      ids = enrolledPackageIds.map((p: any) => typeof p === 'string' ? p : p?.id).filter(Boolean);
+    }
+    if (ids.length === 0) {
+      try {
+        const raw = localStorage.getItem('neet_enrolled_package_ids');
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (Array.isArray(parsed)) {
+            ids = parsed.map((p: any) => typeof p === 'string' ? p : p?.id).filter(Boolean);
+          }
         }
-        if (parsed.selectedPackage) {
-          return [parsed.selectedPackage];
+        if (ids.length === 0) {
+          const student = localStorage.getItem('neet_enrolled_student');
+          if (student) {
+            const parsed = JSON.parse(student);
+            if (parsed.enrolledPackages && Array.isArray(parsed.enrolledPackages)) {
+              ids = parsed.enrolledPackages.map((p: any) => typeof p === 'string' ? p : p?.id).filter(Boolean);
+            } else if (parsed.selectedPackage) {
+              const id = typeof parsed.selectedPackage === 'string' ? parsed.selectedPackage : parsed.selectedPackage?.id;
+              if (id) ids = [id];
+            }
+          }
         }
-      }
-    } catch {}
-    return [];
+      } catch {}
+    }
+    return ids;
   }, [enrolledPackageIds]);
 
   const currentTrackKey = activeBatch === 'repeater' ? repeaterTrack : activeBatch === '12th' ? class12Track : class11Track;
@@ -306,13 +328,33 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     }
   }, [activeBatch, repeaterTrack, class12Track, class11Track]);
 
-  const isCurrentTrackUnlocked = useMemo(() => {
-    if (isAdminInSession || localStorage.getItem('neet_admin_test_access') === 'true') return true;
-    return isAdminAccessGranted;
-  }, [isAdminInSession, isAdminAccessGranted]);
+  // Check if student purchased the active track
+  const isTrackPurchased = useMemo(() => {
+    return isTestTrackUnlocked(activeBatch, currentTrackKey, effectiveEnrolledIds);
+  }, [activeBatch, currentTrackKey, effectiveEnrolledIds]);
 
-  // Sunday tests strictly unlock ONLY AFTER ADMIN APPROVAL (or Faculty/Master Admin session)
-  const isSundayTestUnlocked = isAdminAccessGranted || isAdminInSession;
+  // List of all enrolled package objects
+  const enrolledPackagesList = useMemo(() => {
+    return effectiveEnrolledIds
+      .map(id => NEET_PREP_PACKAGES.find(p => p.id === id))
+      .filter((pkg, idx, arr): pkg is PrepPackageItem => Boolean(pkg) && arr.findIndex(p => p?.id === pkg?.id) === idx);
+  }, [effectiveEnrolledIds]);
+
+  // Total purchased tests count across all enrolled packages
+  const totalPurchasedTestsCount = useMemo(() => {
+    return enrolledPackagesList.reduce((acc, p) => acc + (p.testsCount || 0), 0);
+  }, [enrolledPackagesList]);
+
+  // Active track is unlocked ONLY IF:
+  // 1. Admin session is active (preview all tests), OR
+  // 2. The student has purchased this track AND has been approved by Admin
+  const isCurrentTrackUnlocked = useMemo(() => {
+    if (isAdminInSession) return true;
+    return isTrackPurchased && isAdminAccessGranted;
+  }, [isAdminInSession, isTrackPurchased, isAdminAccessGranted]);
+
+  // Sunday tests strictly unlock ONLY AFTER ADMIN APPROVAL AND PACKAGE PURCHASE
+  const isSundayTestUnlocked = isCurrentTrackUnlocked;
 
   const activeRepeaterTests = useMemo(() => {
     if (repeaterTrack === 'track1') return SUNDAY_DROPPER_TRACK1_TESTS;
@@ -411,10 +453,19 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     : filtered11thTests;
 
   const handleLaunchDirectSundayTest = async (plannerTest: SundayPlannerTest) => {
-    const isUnlocked = isAdminInSession || (localStorage.getItem('neet_admin_test_access') === 'true') || isTestSpecificallyUnlocked(plannerTest.code);
+    const isUnlocked = isAdminInSession || (isTrackPurchased && isAdminAccessGranted) || isTestSpecificallyUnlocked(plannerTest.code);
     if (!isUnlocked) {
-      setPendingTestToStart(plannerTest);
-      setShowAdminApprovalModal(true);
+      if (!isTrackPurchased) {
+        if (onOpenEnrollment) {
+          onOpenEnrollment(currentTrackPackage.id);
+        } else {
+          setPendingTestToStart(plannerTest);
+          setShowAdminApprovalModal(true);
+        }
+      } else {
+        setPendingTestToStart(plannerTest);
+        setShowAdminApprovalModal(true);
+      }
       return;
     }
 
@@ -648,22 +699,74 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* Admin Authorization Status Badge */}
         <div className="flex items-center space-x-2">
-          {isAdminAccessGranted || isAdminInSession ? (
+          {isAdminInSession ? (
+            <span className="px-3.5 py-1.5 rounded-xl bg-white text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold flex items-center space-x-1.5 font-mono shadow-xs">
+              <Unlock className="w-3.5 h-3.5 text-cyan-600" />
+              <span>Admin Master Session (Preview Mode)</span>
+            </span>
+          ) : isCurrentTrackUnlocked ? (
             <span className="px-3.5 py-1.5 rounded-xl bg-white text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold flex items-center space-x-1.5 font-mono shadow-xs">
               <Unlock className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Admin Access Granted</span>
+              <span>Approved by Admin • {currentTrackPackage.testsCount} Tests Unlocked</span>
             </span>
-          ) : (
+          ) : isTrackPurchased ? (
             <button
               onClick={() => setShowAdminApprovalModal(true)}
+              className="px-3.5 py-1.5 rounded-xl bg-[#fef3c7] hover:bg-[#fde68a] text-[#78350f] border-2 border-[#1c1917] text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-xs"
+            >
+              <Lock className="w-3.5 h-3.5 text-amber-700" />
+              <span>Purchased • Awaiting Admin Approval</span>
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                if (onOpenEnrollment) onOpenEnrollment(currentTrackPackage.id);
+                else setShowAdminApprovalModal(true);
+              }}
               className="px-3.5 py-1.5 rounded-xl bg-white hover:bg-stone-50 text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-xs"
             >
               <Lock className="w-3.5 h-3.5 text-[#56514c]" />
-              <span>Awaiting Admin Portal Approval</span>
+              <span>Unlock Track ({currentTrackPackage.price})</span>
             </button>
           )}
         </div>
       </div>
+
+      {/* Active Purchased Package Banner (shows purchased test quota) */}
+      {enrolledPackagesList.length > 0 && (
+        <div className="p-3.5 sm:p-4 rounded-2xl bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <span className="p-2 rounded-xl bg-[#dbeafe] text-[#1e3a8a] border-2 border-[#1c1917]">
+              <Sparkles className="w-4 h-4" />
+            </span>
+            <div>
+              <div className="text-[10px] font-black uppercase tracking-wider text-[#56514c]">
+                Purchased Package &amp; Test Quota
+              </div>
+              <div className="text-sm font-extrabold text-[#1c1917] flex items-center gap-2 flex-wrap">
+                <span>{enrolledPackagesList.map(p => p.shortTitle || p.name).join(', ')}</span>
+                <span className="text-xs font-mono font-bold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-md border border-emerald-300">
+                  {totalPurchasedTestsCount} Tests Purchased
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            {isAdminAccessGranted ? (
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#dcfce7] text-[#14532d] text-xs font-black border border-[#86efac]">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" /> Admin Approved • {totalPurchasedTestsCount} Tests Unlocked
+              </span>
+            ) : (
+              <button
+                onClick={() => setShowAdminApprovalModal(true)}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#fef3c7] text-[#78350f] text-xs font-black border border-[#fde68a] hover:bg-[#fde68a] transition cursor-pointer"
+              >
+                <Lock className="w-3.5 h-3.5 text-amber-700" /> Awaiting Admin Approval
+              </button>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Header Banner for Current Batch */}
       <div className="pt-2 pb-1">
@@ -754,14 +857,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
       {/* SCHEDULED SUNDAYS CALENDAR LIST */}
       <div className="space-y-4">
-        <div className="flex items-center justify-between px-1">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 px-1">
           <h2 className="text-sm sm:text-base font-extrabold text-[#1c1917] flex items-center gap-2">
             <Calendar className="w-4 h-4 text-[#1c1917]" />
             <span>Showing {currentDisplayTests.length} {activeBatch === '12th' ? 'Scheduled Tests' : 'Scheduled Sunday Tests'}</span>
           </h2>
-          <span className="text-xs font-mono font-bold text-[#56514c]">
-            {activeBatch === 'repeater' && repeaterTrack === 'pc' ? 'Physics & Chemistry Full Syllabus • 400 Marks' : 'Official NTA NEET Standard • 720 Marks'}
-          </span>
+          <div className="text-xs font-bold font-mono">
+            {isCurrentTrackUnlocked ? (
+              <span className="text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-300">
+                ✓ {currentDisplayTests.length} of {currentDisplayTests.length} Tests Unlocked (Package Approved)
+              </span>
+            ) : isTrackPurchased ? (
+              <span className="text-amber-800 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-300">
+                🔒 {currentDisplayTests.length} Tests in Purchased Package (Awaiting Admin Approval)
+              </span>
+            ) : (
+              <span className="text-stone-600 bg-stone-100 px-2.5 py-1 rounded-md border border-stone-300">
+                🔒 0 of {currentDisplayTests.length} Tests Unlocked (Package Required)
+              </span>
+            )}
+          </div>
         </div>
 
         <div className="grid grid-cols-1 gap-6">
@@ -811,7 +926,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             const totalDynamicQs = phyCount + chemCount + botCount + zooCount;
             const totalDynamicMarks = totalDynamicQs * 4;
             const dynamicDuration = mock.durationMinutes || (isPCTest ? 120 : 180);
-            const isTestCardUnlocked = isAdminInSession || (localStorage.getItem('neet_admin_test_access') === 'true') || isTestSpecificallyUnlocked(mock.code);
+            const isTestCardUnlocked = isAdminInSession || (isTrackPurchased && isAdminAccessGranted) || isTestSpecificallyUnlocked(mock.code);
 
             return (
               <div
@@ -834,9 +949,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       <span className="bg-[#dcfce7] text-[#14532d] font-black text-xs px-3 py-1 rounded-md border border-[#86efac] flex items-center gap-1">
                         <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" /> Approved by Admin
                       </span>
-                    ) : (
+                    ) : isTrackPurchased ? (
                       <span className="bg-[#fef3c7] text-[#78350f] font-black text-xs px-3 py-1 rounded-md border border-[#fde68a] flex items-center gap-1">
                         <Lock className="w-3.5 h-3.5 text-amber-700" /> Awaiting Admin Approval
+                      </span>
+                    ) : (
+                      <span className="bg-stone-100 text-stone-700 font-bold text-xs px-3 py-1 rounded-md border border-stone-300 flex items-center gap-1">
+                        <Lock className="w-3.5 h-3.5 text-stone-500" /> Package Required
                       </span>
                     )}
                   </div>
@@ -945,13 +1064,37 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
                 {/* Action CTA Button */}
                 <div className="shrink-0 self-stretch sm:self-auto xl:self-center">
-                  <button
-                    onClick={() => handleLaunchDirectSundayTest(mock)}
-                    className="w-full sm:w-auto bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-base px-8 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
-                  >
-                    {!isTestCardUnlocked && <Lock className="w-4 h-4 text-[#1e3a8a]" />}
-                    <span>Test in CBT</span>
-                  </button>
+                  {isTestCardUnlocked ? (
+                    <button
+                      onClick={() => handleLaunchDirectSundayTest(mock)}
+                      className="w-full sm:w-auto bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-base px-8 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
+                    >
+                      <span>Test in CBT</span>
+                    </button>
+                  ) : isTrackPurchased ? (
+                    <button
+                      onClick={() => handleLaunchDirectSundayTest(mock)}
+                      className="w-full sm:w-auto bg-[#fef3c7] hover:bg-[#fde68a] active:bg-[#fcd34d] text-[#78350f] font-bold text-sm sm:text-base px-6 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
+                    >
+                      <Lock className="w-4 h-4 text-amber-700" />
+                      <span>Awaiting Admin Approval</span>
+                    </button>
+                  ) : (
+                    <button
+                      onClick={() => {
+                        if (onOpenEnrollment) {
+                          onOpenEnrollment(currentTrackPackage.id);
+                        } else {
+                          setPendingTestToStart(mock);
+                          setShowAdminApprovalModal(true);
+                        }
+                      }}
+                      className="w-full sm:w-auto bg-white hover:bg-stone-50 active:bg-stone-100 text-[#1c1917] font-bold text-sm sm:text-base px-6 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
+                    >
+                      <Lock className="w-4 h-4 text-[#56514c]" />
+                      <span>Unlock Track ({currentTrackPackage.price})</span>
+                    </button>
+                  )}
                 </div>
               </div>
             );
@@ -1004,6 +1147,37 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
             {/* Content */}
             <div className="p-6 space-y-4">
+              {!isTrackPurchased && (
+                <div className="p-4 rounded-2xl bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] space-y-3">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <span className="text-[10px] font-black uppercase tracking-wider text-[#1e3a8a] bg-[#dbeafe] px-2 py-0.5 rounded border border-[#bfdbfe]">
+                        {currentTrackPackage.batch.toUpperCase()} • {currentTrackPackage.shortTitle}
+                      </span>
+                      <h4 className="text-sm font-black text-[#1c1917] mt-1.5">{currentTrackPackage.name}</h4>
+                      <p className="text-xs text-[#56514c] mt-0.5 leading-relaxed">{currentTrackPackage.scheduleSummary}</p>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <div className="text-base sm:text-lg font-black text-[#1e3a8a]">{currentTrackPackage.price}</div>
+                      <div className="text-xs text-[#78716c] line-through">{currentTrackPackage.originalPrice}</div>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => {
+                      setShowAdminApprovalModal(false);
+                      if (onOpenEnrollment) {
+                        onOpenEnrollment(currentTrackPackage.id);
+                      }
+                    }}
+                    className="w-full py-2.5 rounded-xl bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-xs sm:text-sm border-2 border-[#1c1917] transition cursor-pointer shadow-[2px_2px_0px_#1c1917] flex items-center justify-center space-x-2"
+                  >
+                    <Sparkles className="w-4 h-4 text-[#1e3a8a]" />
+                    <span>Enroll to Unlock {currentTrackPackage.testsCount} Tests ({currentTrackPackage.price})</span>
+                  </button>
+                </div>
+              )}
+
               <p className="text-xs text-sky-700 leading-relaxed">
                 {isAdminAccessGranted && !isSundayToday ? (
                   <>
@@ -1011,11 +1185,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   </>
                 ) : isSundayToday ? (
                   <>
-                    Sunday All-India Mock Tests (180 Questions • 720 Marks • AIR Prediction) strictly unlock ONLY after administrator approval. Send your authorization request below to obtain faculty approval and unlock your CBT access.
+                    Sunday All-India Mock Tests (180 Questions • 720 Marks • AIR Prediction) strictly unlock ONLY after administrator approval and package purchase. Send your authorization request below to obtain faculty approval and unlock your CBT access.
                   </>
                 ) : (
                   <>
-                    Sunday All-India Mock Tests (180 Questions • 720 Marks • AIR Prediction) strictly unlock ONLY after administrator approval. You can submit your authorization request now to have your profile approved ahead of Sunday.
+                    Sunday All-India Mock Tests (180 Questions • 720 Marks • AIR Prediction) strictly unlock ONLY after administrator approval and package purchase. You can submit your authorization request now to have your profile approved ahead of Sunday.
                   </>
                 )}
               </p>
@@ -1036,11 +1210,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     <span className="text-sky-600">Contact:</span> <span className="font-bold text-sky-900">{studentPhone ? `+91 ${studentPhone}` : 'Enrolled Profile'}</span>
                   </div>
                   <div>
+                    <span className="text-sky-600">Track:</span>{' '}
+                    <span className="font-bold text-sky-950">{currentTrackPackage.shortTitle}</span>
+                  </div>
+                  <div className="col-span-2">
                     <span className="text-sky-600">Status:</span>{' '}
-                    {isAdminAccessGranted ? (
-                      <span className="font-bold text-emerald-700">✓ Approved by Admin</span>
+                    {isCurrentTrackUnlocked ? (
+                      <span className="font-bold text-emerald-700">✓ Approved ({currentTrackPackage.testsCount} Tests Unlocked)</span>
+                    ) : isTrackPurchased ? (
+                      <span className="font-bold text-amber-700">Purchased ({currentTrackPackage.testsCount} Tests) • Pending Admin Approval</span>
                     ) : (
-                      <span className="font-bold text-cyan-700">Pending Admin Approval</span>
+                      <span className="font-bold text-cyan-700">Not in Current Package • Package Required</span>
                     )}
                   </div>
                 </div>

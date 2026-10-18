@@ -217,16 +217,19 @@ export default function App() {
       const raw = localStorage.getItem('neet_enrolled_package_ids');
       if (raw) {
         const parsed = JSON.parse(raw);
-        if (Array.isArray(parsed)) return parsed;
+        if (Array.isArray(parsed)) {
+          return parsed.map((p: any) => typeof p === 'string' ? p : p?.id).filter(Boolean);
+        }
       }
       const student = localStorage.getItem('neet_enrolled_student');
       if (student) {
         const parsed = JSON.parse(student);
         if (parsed.enrolledPackages && Array.isArray(parsed.enrolledPackages)) {
-          return parsed.enrolledPackages;
+          return parsed.enrolledPackages.map((p: any) => typeof p === 'string' ? p : p?.id).filter(Boolean);
         }
         if (parsed.selectedPackage) {
-          return [parsed.selectedPackage];
+          const id = typeof parsed.selectedPackage === 'string' ? parsed.selectedPackage : parsed.selectedPackage?.id;
+          return id ? [id] : [];
         }
       }
     } catch {}
@@ -672,13 +675,18 @@ export default function App() {
           initialPackageId={enrollmentPackageId}
           onEnrollSuccess={student => {
             setEnrolledStudent(student);
-            if (student.enrolledPackages && student.enrolledPackages.length > 0) {
-              setEnrolledPackageIds(student.enrolledPackages);
-              localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(student.enrolledPackages));
+            const pkgIds: string[] = [];
+            if (student.enrolledPackages && Array.isArray(student.enrolledPackages)) {
+              student.enrolledPackages.forEach((p: any) => {
+                const id = typeof p === 'string' ? p : p?.id;
+                if (id && !pkgIds.includes(id)) pkgIds.push(id);
+              });
             } else if (student.selectedPackage) {
-              setEnrolledPackageIds([student.selectedPackage]);
-              localStorage.setItem('neet_enrolled_package_ids', JSON.stringify([student.selectedPackage]));
+              const id = typeof student.selectedPackage === 'string' ? student.selectedPackage : student.selectedPackage?.id;
+              if (id) pkgIds.push(id);
             }
+            setEnrolledPackageIds(pkgIds);
+            localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(pkgIds));
             setIsEnrollmentModalOpen(false);
           }}
           onClose={() => setIsEnrollmentModalOpen(false)}

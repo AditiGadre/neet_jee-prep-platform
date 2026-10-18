@@ -311,9 +311,12 @@ export function getPackageById(id: string): PrepPackageItem {
 /**
  * Returns all unlocked track keys for a list of enrolled package IDs.
  */
-export function getUnlockedTracksForPackages(packageIds: string[]): string[] {
+export function getUnlockedTracksForPackages(packageIds: (string | any)[]): string[] {
   const tracks = new Set<string>();
-  for (const pid of packageIds) {
+  if (!packageIds || !Array.isArray(packageIds)) return [];
+  for (const item of packageIds) {
+    const pid = typeof item === 'string' ? item : (item as any)?.id;
+    if (!pid) continue;
     const pkg = NEET_PREP_PACKAGES.find(p => p.id === pid);
     if (pkg) {
       pkg.unlockedTracks.forEach(t => tracks.add(t));
@@ -328,11 +331,14 @@ export function getUnlockedTracksForPackages(packageIds: string[]): string[] {
 export function isTestTrackUnlocked(
   batch: 'repeater' | '12th' | '11th',
   track: string, // 'track1', 'track2', 'pc', 'complete'
-  enrolledPackageIds: string[]
+  enrolledPackageIds: (string | any)[]
 ): boolean {
-  if (enrolledPackageIds.includes('ALL') || enrolledPackageIds.includes('all')) return true;
+  if (!enrolledPackageIds || !Array.isArray(enrolledPackageIds) || enrolledPackageIds.length === 0) return false;
 
-  const unlocked = getUnlockedTracksForPackages(enrolledPackageIds);
+  const normalizedIds = enrolledPackageIds.map((p: any) => typeof p === 'string' ? p : p?.id).filter(Boolean);
+  if (normalizedIds.includes('ALL') || normalizedIds.includes('all')) return true;
+
+  const unlocked = getUnlockedTracksForPackages(normalizedIds);
 
   if (batch === 'repeater') {
     if (unlocked.includes('repeater_all')) return true;
