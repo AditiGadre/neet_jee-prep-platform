@@ -236,31 +236,6 @@ export default function App() {
     return [];
   });
 
-  // Automatically synchronize enrolledPackageIds whenever enrolledStudent updates
-  useEffect(() => {
-    if (enrolledStudent) {
-      const pkgIds: string[] = [];
-      if (enrolledStudent.enrolledPackages && Array.isArray(enrolledStudent.enrolledPackages)) {
-        enrolledStudent.enrolledPackages.forEach((p: any) => {
-          const id = typeof p === 'string' ? p : p?.id;
-          if (id && !pkgIds.includes(id)) pkgIds.push(id);
-        });
-      } else if (enrolledStudent.selectedPackage) {
-        const id = typeof enrolledStudent.selectedPackage === 'string' ? enrolledStudent.selectedPackage : enrolledStudent.selectedPackage?.id;
-        if (id && !pkgIds.includes(id)) pkgIds.push(id);
-      }
-      if (pkgIds.length > 0) {
-        setEnrolledPackageIds(prev => {
-          const isSame = prev.length === pkgIds.length && prev.every(id => pkgIds.includes(id));
-          return isSame ? prev : pkgIds;
-        });
-        try {
-          localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(pkgIds));
-        } catch {}
-      }
-    }
-  }, [enrolledStudent]);
-
   // Mandatory Enrollment Gate State - Persistent check for existing enrolled users & saved logins
   const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
     try {
@@ -310,6 +285,31 @@ export default function App() {
       return null;
     }
   });
+
+  // Automatically synchronize enrolledPackageIds whenever enrolledStudent updates
+  useEffect(() => {
+    if (enrolledStudent) {
+      const pkgIds: string[] = [];
+      if (enrolledStudent.enrolledPackages && Array.isArray(enrolledStudent.enrolledPackages)) {
+        enrolledStudent.enrolledPackages.forEach((p: any) => {
+          const id = typeof p === 'string' ? p : p?.id;
+          if (id && !pkgIds.includes(id)) pkgIds.push(id);
+        });
+      } else if (enrolledStudent.selectedPackage) {
+        const id = typeof enrolledStudent.selectedPackage === 'string' ? enrolledStudent.selectedPackage : enrolledStudent.selectedPackage?.id;
+        if (id && !pkgIds.includes(id)) pkgIds.push(id);
+      }
+      if (pkgIds.length > 0) {
+        setEnrolledPackageIds(prev => {
+          const isSame = prev.length === pkgIds.length && prev.every(id => pkgIds.includes(id));
+          return isSame ? prev : pkgIds;
+        });
+        try {
+          localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(pkgIds));
+        } catch {}
+      }
+    }
+  }, [enrolledStudent]);
 
   const [isEnrollmentModalOpen, setIsEnrollmentModalOpen] = useState(false);
 
