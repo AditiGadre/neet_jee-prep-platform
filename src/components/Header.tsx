@@ -75,8 +75,6 @@ export const Header: React.FC<HeaderProps> = ({
   isAdmin = false
 }) => {
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
-  const [packagesDropdownOpen, setPackagesDropdownOpen] = useState(false);
-  const [selectedPackage, setSelectedPackage] = useState<any | null>(null);
   const [downloadsCount, setDownloadsCount] = useState<number>(0);
   const [currentUser, setCurrentUser] = useState<any>(getCurrentUser());
 
@@ -116,10 +114,6 @@ export const Header: React.FC<HeaderProps> = ({
   const parentName = enrolledStudent?.parentName || currentUser?.parentName || 'Parent / Guardian';
   const userCaste = enrolledStudent?.caste || currentUser?.caste || 'General / Open';
 
-  const neetPackages = NEET_PREP_PACKAGES.map(pkg => ({
-    ...pkg,
-    icon: pkg.trackType === 'combo' ? Crown : (pkg.batch === 'repeater' ? Sparkles : Award)
-  }));
 
   return (
     <header className="sticky top-0 z-30 bg-white border-b-2 border-[#1c1917] text-[#1c1917]">
@@ -136,157 +130,26 @@ export const Header: React.FC<HeaderProps> = ({
             </span>
           </div>
 
-          {/* Target Year Selector Bar: 2027, 2028, 2029 + Packages Dropdown */}
+          {/* Target Year Selector Bar: 2027, 2028, 2029 */}
           <div className="flex items-center space-x-2">
-            <div className="flex items-center space-x-2">
-              {(['2027', '2028', '2029'] as const).map(yr => (
-                <button
-                  key={yr}
-                  onClick={() => onSelectTargetYear && onSelectTargetYear(yr)}
-                  className={`px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-extrabold border-2 border-[#1c1917] transition cursor-pointer ${
-                    targetYear === yr
-                      ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
-                      : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
-                  }`}
-                  title={`Select NEET Target Year ${yr}`}
-                >
-                  {yr}
-                </button>
-              ))}
-            </div>
-
-            {/* Packages Dropdown Button */}
-            <div className="relative">
+            {(['2027', '2028', '2029'] as const).map(yr => (
               <button
-                type="button"
-                onClick={() => setPackagesDropdownOpen(!packagesDropdownOpen)}
-                className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition border cursor-pointer ${
-                  packagesDropdownOpen
-                    ? 'bg-gradient-to-r from-sky-600 to-sky-600 text-white border-sky-600 shadow-xs'
-                    : 'bg-sky-50/60 hover:bg-sky-50 text-sky-800 border-sky-200 hover:border-sky-300 shadow-2xs'
+                key={yr}
+                onClick={() => onSelectTargetYear && onSelectTargetYear(yr)}
+                className={`px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-extrabold border-2 border-[#1c1917] transition cursor-pointer ${
+                  targetYear === yr
+                    ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
+                    : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
                 }`}
-                title="View NEET Preparation Packages"
+                title={`Select NEET Target Year ${yr}`}
               >
-                <Package className={`w-3.5 h-3.5 ${packagesDropdownOpen ? 'text-white' : 'text-sky-600'}`} />
-                <span className="hidden sm:inline">Packages</span>
-                <ChevronDown className={`w-3 h-3 transition-transform ${packagesDropdownOpen ? 'rotate-180' : ''}`} />
+                {yr}
               </button>
-
-              {/* Packages Dropdown Menu */}
-              {packagesDropdownOpen && (
-                <>
-                  <div
-                    className="fixed inset-0 z-40 bg-sky-950/10 backdrop-blur-[1px]"
-                    onClick={() => setPackagesDropdownOpen(false)}
-                  />
-                  <div className="absolute left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-auto sm:right-0 mt-2 w-88 sm:w-[410px] bg-sky-50/60 border border-sky-200/90 rounded-2xl shadow-2xl p-3.5 z-50 animate-in fade-in zoom-in-95 duration-150 text-sky-950">
-                    <div className="px-3 py-2 border-b border-stone-100 flex items-center justify-between">
-                      <div>
-                        <p className="text-xs font-extrabold text-sky-950 flex items-center gap-1.5">
-                          <Package className="w-3.5 h-3.5 text-sky-600" /> NEET Prep Packages
-                        </p>
-                        <p className="text-[10px] text-sky-600">CBT, Jumbo Question Banks & Hybrid Tests</p>
-                      </div>
-                      <button
-                        type="button"
-                        onClick={() => setPackagesDropdownOpen(false)}
-                        className="text-stone-400 hover:text-sky-700 text-xs p-1.5 rounded-lg hover:bg-sky-50 transition cursor-pointer"
-                        title="Close"
-                      >
-                        ✕
-                      </button>
-                    </div>
-
-                    <div className="p-1 space-y-2 max-h-[min(540px,78vh)] overflow-y-auto mt-1 pr-1 [scrollbar-width:thin] [scrollbar-color:#cbd5e1_transparent] [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:bg-stone-300 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-transparent">
-                      {neetPackages.map(pkg => {
-                        const IconComp = pkg.icon;
-                        return (
-                          <div
-                            key={pkg.id}
-                            onClick={() => {
-                              setSelectedPackage(pkg);
-                              setPackagesDropdownOpen(false);
-                              if (onOpenEnrollment) onOpenEnrollment(pkg);
-                            }}
-                            className="p-3.5 rounded-xl border border-sky-200/80 hover:border-sky-400 hover:bg-sky-50/50 hover:shadow-xs transition cursor-pointer group bg-sky-50/60"
-                          >
-                            <div className="flex items-start justify-between gap-4">
-                              <div className="flex items-start space-x-2.5">
-                                <div className="w-7 h-7 rounded-lg bg-sky-100 text-sky-700 flex items-center justify-center shrink-0 mt-0.5 group-hover:scale-105 transition-transform">
-                                  <IconComp className="w-4 h-4" />
-                                </div>
-                                <div>
-                                  <h4 className="text-xs font-bold text-sky-950 group-hover:text-sky-600 transition flex items-center gap-1.5">
-                                    {pkg.name}
-                                  </h4>
-                                  <p className="text-[10px] text-sky-600 line-clamp-1 mt-0.5">
-                                    {pkg.tagline}
-                                  </p>
-                                </div>
-                              </div>
-                              <span className={`px-2 py-0.5 rounded-full text-[9px] font-bold border shrink-0 ${pkg.badgeColor}`}>
-                                {pkg.badge}
-                              </span>
-                            </div>
-                            <div className="mt-2 pt-1.5 border-t border-stone-100 flex items-center justify-between text-[11px]">
-                              <div className="flex items-baseline space-x-1.5">
-                                <span className="font-extrabold text-sky-900 text-xs">{pkg.price}</span>
-                                <span className="text-[10px] text-stone-400 line-through">{pkg.originalPrice}</span>
-                              </div>
-                              <span className="text-[10px] font-bold text-sky-600 group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
-                                View Details →
-                              </span>
-                            </div>
-                          </div>
-                        );
-                      })}
-                    </div>
-
-                    <div className="p-3 border-t border-stone-100 bg-sky-50/90 rounded-xl mt-1 text-center transition-all duration-500 hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1.5 ">
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setPackagesDropdownOpen(false);
-                          if (onOpenEnrollment) onOpenEnrollment();
-                        }}
-                        className="w-full py-2 px-3 rounded-lg bg-gradient-to-r from-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white font-bold text-xs shadow-xs hover:shadow-md transition cursor-pointer"
-                      >
-                        Instant Enrollment & Access →
-                      </button>
-                    </div>
-                  </div>
-                </>
-              )}
-            </div>
+            ))}
           </div>
 
           {/* Quick Action Buttons */}
           <div className="flex items-center space-x-1.5 sm:space-x-2.5">
-            {/* About Link */}
-            {onNavigateAbout && (
-              <a
-                href="/about"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onNavigateAbout();
-                }}
-                className="hidden sm:flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-sky-50/60 hover:bg-sky-50 text-sky-800 text-xs font-semibold border border-sky-200 shadow-2xs transition cursor-pointer"
-                title="About NeetCbt Platform (Exclusively for NEET Exam Aspirants)"
-              >
-                <span>About</span>
-              </a>
-            )}
-
-            {/* Ask Doubt Button */}
-            <button
-              id="header-ask-doubt-btn"
-              onClick={onOpenDoubtModal}
-              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-sky-50/60 hover:bg-sky-50 text-sky-800 text-xs font-medium border border-sky-200 shadow-2xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95  transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
-              title="Instant 24/7 Subject Doubt Resolution"
-            >
-              <MessageCircleQuestion className="w-3.5 h-3.5 text-sky-600" />
-              <span>Ask Doubt</span>
-            </button>
 
             {/* Institutional Master Admin Portal Button */}
             <button
