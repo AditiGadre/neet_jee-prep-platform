@@ -31,6 +31,7 @@ interface SidebarProps {
   onSelectExtraSubTab?: (subTab: string) => void;
   onOpenAdmin?: () => void;
   onNavigateToAbout?: () => void;
+  isAdmin?: boolean;
 }
 
 interface MenuItem {
@@ -48,7 +49,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
   extraSubTab,
   onSelectExtraSubTab,
   onOpenAdmin,
-  onNavigateToAbout
+  onNavigateToAbout,
+  isAdmin = false
 }) => {
   const menuItems: MenuItem[] = [
     {
@@ -58,16 +60,20 @@ export const Sidebar: React.FC<SidebarProps> = ({
       icon: FileCheck2,
       badge: '180 Qs PCB'
     },
-    {
-      id: 'what-extra' as TabType,
-      label: '2. What Extra We Offer',
-      sublabel: 'Custom DPP, Chapter Tests & Analytics',
-      icon: Sparkles,
-      badge: '4 Tools'
-    },
+    ...(isAdmin
+      ? [
+          {
+            id: 'what-extra' as TabType,
+            label: '2. What Extra We Offer',
+            sublabel: 'Custom DPP, Chapter Tests & Analytics',
+            icon: Sparkles,
+            badge: 'Admin'
+          }
+        ]
+      : []),
     {
       id: 'about-exam' as TabType,
-      label: '3. About NEET CBT Exam',
+      label: isAdmin ? '3. About NEET CBT Exam' : '2. About NEET CBT Exam',
       sublabel: 'CBT Pattern, Syllabus, Seats & Marks vs Rank',
       icon: BookOpen
     }

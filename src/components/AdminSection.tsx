@@ -145,12 +145,14 @@ interface AdminSectionProps {
   onClose?: () => void;
   onStartCustomTest?: (customTest: TestItem) => void;
   onOpenUploadModal?: (subject?: string, chapter?: string) => void;
+  onOpenWhatExtra?: () => void;
 }
 
 export const AdminSection: React.FC<AdminSectionProps> = ({
   onClose,
   onStartCustomTest,
-  onOpenUploadModal
+  onOpenUploadModal,
+  onOpenWhatExtra
 }) => {
   const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'generator' | 'telemetry' | 'students'>('requests');
   const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
@@ -2087,6 +2089,17 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </>
               )}
             </button>
+
+            {onOpenWhatExtra && (
+              <button
+                onClick={onOpenWhatExtra}
+                className="px-3.5 py-2.5 rounded-xl text-xs font-bold font-mono transition flex items-center space-x-1.5 bg-sky-800 hover:bg-sky-700 text-sky-200 border border-stone-700 cursor-pointer shadow-md transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95"
+                title="Open What Extra We Offer Suite (Practice Test Generator, DPP, Analytics, Downloads)"
+              >
+                <Sparkles className="w-4 h-4 text-amber-400" />
+                <span className="hidden sm:inline">What Extra Suite</span>
+              </button>
+            )}
 
             {onClose && (
               <button

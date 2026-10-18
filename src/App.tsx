@@ -169,18 +169,6 @@ export default function App() {
     }
   }, [currentPath]);
 
-  const [activeTab, setActiveTab] = useState<TabType>(() => {
-    try {
-      const saved = localStorage.getItem('neet_active_tab');
-      if (saved === 'test-series' || saved === 'what-extra' || saved === 'about-exam') {
-        return saved;
-      }
-    } catch {}
-    return 'test-series';
-  });
-  const [extraSubTab, setExtraSubTab] = useState<string>('books');
-  const [enrollmentPackageId, setEnrollmentPackageId] = useState<string | undefined>(undefined);
-
   // Master Admin Session State across all systems
   const [isAdminSession, setIsAdminSession] = useState<boolean>(() => {
     try {
@@ -192,6 +180,29 @@ export default function App() {
       return false;
     }
   });
+
+  const [activeTab, setActiveTab] = useState<TabType>(() => {
+    try {
+      const saved = localStorage.getItem('neet_active_tab');
+      const isAdmin =
+        sessionStorage.getItem('neet_admin_authenticated') === 'true' ||
+        localStorage.getItem('neet_admin_authenticated') === 'true';
+      if (saved === 'test-series' || (saved === 'what-extra' && isAdmin) || saved === 'about-exam') {
+        return saved as TabType;
+      }
+    } catch {}
+    return 'test-series';
+  });
+
+  // Guard: What Extra We Offer is reserved for Admin side only
+  useEffect(() => {
+    if (!isAdminSession && activeTab === 'what-extra') {
+      setActiveTab('test-series');
+    }
+  }, [isAdminSession, activeTab]);
+
+  const [extraSubTab, setExtraSubTab] = useState<string>('books');
+  const [enrollmentPackageId, setEnrollmentPackageId] = useState<string | undefined>(undefined);
 
   // Mandatory Enrollment Gate State - Persistent check for existing enrolled users & saved logins
   const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
@@ -735,6 +746,7 @@ export default function App() {
             extraSubTab={extraSubTab}
             onSelectExtraSubTab={setExtraSubTab}
             onNavigateToAbout={() => navigateTo('/about')}
+            isAdmin={isAdminSession}
           />
 
           {/* Dynamic Content Area */}
@@ -749,18 +761,26 @@ export default function App() {
               )}
 
               {activeTab === 'what-extra' && (
-                <WhatExtraSection
-                  activeSubTab={extraSubTab}
-                  onSelectSubTab={setExtraSubTab}
-                  flashcards={FLASHCARDS_DATA}
-                  mindMaps={MIND_MAPS_DATA}
-                  books={BOOKS_DATA}
-                  pyqs={PYQS_DATA}
-                  onStartCustomTest={handleStartTest}
-                  onOpenBook={setActiveBookForReading}
-                  completedTests={completedTests}
-                  onOpenUploadModal={handleOpenUpload}
-                />
+                isAdminSession ? (
+                  <WhatExtraSection
+                    activeSubTab={extraSubTab}
+                    onSelectSubTab={setExtraSubTab}
+                    flashcards={FLASHCARDS_DATA}
+                    mindMaps={MIND_MAPS_DATA}
+                    books={BOOKS_DATA}
+                    pyqs={PYQS_DATA}
+                    onStartCustomTest={handleStartTest}
+                    onOpenBook={setActiveBookForReading}
+                    completedTests={completedTests}
+                    onOpenUploadModal={handleOpenUpload}
+                  />
+                ) : (
+                  <TestSeriesSection
+                    testItems={TEST_SERIES_DATA}
+                    targetYear={targetYear}
+                    onStartTest={handleStartTest}
+                  />
+                )
               )}
 
               {activeTab === 'about-exam' && <AboutExamSection />}
@@ -887,6 +907,10 @@ export default function App() {
                     onClose={() => setIsSuperUserModalOpen(false)}
                     onStartCustomTest={handleStartTest}
                     onOpenUploadModal={handleOpenUpload}
+                    onOpenWhatExtra={() => {
+                      setIsSuperUserModalOpen(false);
+                      setActiveTab('what-extra');
+                    }}
                   />
                 </ErrorBoundary>
               </div>
