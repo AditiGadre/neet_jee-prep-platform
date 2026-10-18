@@ -57,6 +57,20 @@ import {
   assertNoDuplicateQuestions
 } from '../data/sundayPlannerTests';
 
+export const getCleanTestTitle = (mockTest: SundayPlannerTest, customP?: any): string => {
+  if (customP?.testTitle) {
+    const raw = customP.testTitle.trim();
+    const isGenericDefault = /official\s+default/i.test(raw) ||
+                             /default\s+sunday\s+paper/i.test(raw) ||
+                             /default\s+paper/i.test(raw) ||
+                             /^test-[\w-]+$/i.test(raw);
+    if (!isGenericDefault && raw.length > 0) {
+      return raw.startsWith(mockTest.code) ? raw : `${mockTest.code}: ${raw}`;
+    }
+  }
+  return mockTest.title;
+};
+
 interface TestSeriesSectionProps {
   testItems: TestItem[];
   targetYear?: '2027' | '2028' | '2029';
@@ -377,7 +391,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
     const testItem: TestItem = {
       id: plannerTest.id,
-      title: customPaper?.testTitle ? `${plannerTest.code}: ${customPaper.testTitle}` : `${plannerTest.code}: ${plannerTest.title}`,
+      title: getCleanTestTitle(plannerTest, customPaper),
       category: 'neet_mock',
       exam: 'NEET',
       syllabus: syllabusStr,
@@ -702,8 +716,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             const paperLookupKey = mock.id;
             const customPaper = localCustomPapers[paperLookupKey] || localCustomPapers[paperLookupKey.toLowerCase()];
             
-            const displayTitle = customPaper?.testTitle ? `${mock.code}: ${customPaper.testTitle}` : mock.title;
-            const displayDesc = customPaper?.description || mock.objective || mock.description;
+            const displayTitle = getCleanTestTitle(mock, customPaper);
+            const rawDesc = customPaper?.description || mock.objective || mock.description;
+            const displayDesc = /official\s+default/i.test(rawDesc) ? (mock.objective || mock.description) : rawDesc;
             
             const displayPhysics = customPaper?.customChapters?.physics?.length ? customPaper.customChapters.physics.join(', ') : mock.physicsUnit;
             const displayChemistry = customPaper?.customChapters?.chemistry?.length ? customPaper.customChapters.chemistry.join(', ') : mock.chemistryUnit;
@@ -776,13 +791,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   {/* Exact Syllabus Breakdown Grid (2 Cols for PC, 4 Cols for Standard) */}
                   {isPCTest ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
-                      <div className="p-4 rounded-xl bg-sky-50/80 border border-sky-200">
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-sky-50/80 border border-sky-200 overflow-hidden">
                         <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
-                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
-                            <Zap className="w-4 h-4 text-sky-600" /> PHYSICS
+                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
+                            <Zap className="w-4 h-4 text-sky-600 shrink-0" /> PHYSICS
                           </span>
                           <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
-                            {phyCount} QS &bull; {phyCount * 4}M
+                            {phyCount} QS
                           </span>
                         </div>
                         <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
@@ -790,13 +805,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="p-4 rounded-xl bg-emerald-50/80 border border-emerald-300">
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-emerald-50/80 border border-emerald-300 overflow-hidden">
                         <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-emerald-200/60">
-                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-emerald-900 tracking-wide uppercase">
-                            <Atom className="w-4 h-4 text-emerald-600" /> CHEMISTRY
+                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-emerald-900 tracking-wide uppercase">
+                            <Atom className="w-4 h-4 text-emerald-600 shrink-0" /> CHEMISTRY
                           </span>
                           <span className="font-mono text-xs sm:text-[13px] text-emerald-700 font-bold whitespace-nowrap shrink-0">
-                            {chemCount} QS &bull; {chemCount * 4}M
+                            {chemCount} QS
                           </span>
                         </div>
                         <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
@@ -806,13 +821,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     </div>
                   ) : (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 pt-2">
-                      <div className="p-4 rounded-xl bg-sky-50/80 border border-sky-200">
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-sky-50/80 border border-sky-200 overflow-hidden">
                         <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
-                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
-                            <Zap className="w-4 h-4 text-sky-600" /> PHYSICS
+                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
+                            <Zap className="w-4 h-4 text-sky-600 shrink-0" /> PHYSICS
                           </span>
                           <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
-                            {phyCount} QS &bull; {phyCount * 4}M
+                            {phyCount} QS
                           </span>
                         </div>
                         <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
@@ -820,13 +835,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="p-4 rounded-xl bg-emerald-50/80 border border-emerald-300">
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-emerald-50/80 border border-emerald-300 overflow-hidden">
                         <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-emerald-200/60">
-                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-emerald-900 tracking-wide uppercase">
-                            <Atom className="w-4 h-4 text-emerald-600" /> CHEMISTRY
+                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-emerald-900 tracking-wide uppercase">
+                            <Atom className="w-4 h-4 text-emerald-600 shrink-0" /> CHEMISTRY
                           </span>
                           <span className="font-mono text-xs sm:text-[13px] text-emerald-700 font-bold whitespace-nowrap shrink-0">
-                            {chemCount} QS &bull; {chemCount * 4}M
+                            {chemCount} QS
                           </span>
                         </div>
                         <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
@@ -834,13 +849,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="p-4 rounded-xl bg-sky-50/80 border border-sky-200">
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-sky-50/80 border border-sky-200 overflow-hidden">
                         <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
-                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
-                            <BookOpen className="w-4 h-4 text-sky-600" /> BOTANY
+                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
+                            <BookOpen className="w-4 h-4 text-sky-600 shrink-0" /> BOTANY
                           </span>
                           <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
-                            {botCount} QS &bull; {botCount * 4}M
+                            {botCount} QS
                           </span>
                         </div>
                         <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
@@ -848,13 +863,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="p-4 rounded-xl bg-sky-50/80 border border-sky-200">
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-sky-50/80 border border-sky-200 overflow-hidden">
                         <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
-                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
-                            <Dna className="w-4 h-4 text-sky-600" /> ZOOLOGY
+                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
+                            <Dna className="w-4 h-4 text-sky-600 shrink-0" /> ZOOLOGY
                           </span>
                           <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
-                            {zooCount} QS &bull; {zooCount * 4}M
+                            {zooCount} QS
                           </span>
                         </div>
                         <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">

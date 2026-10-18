@@ -303,7 +303,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
         revision: currentRev,
         questions: questionsToSave,
         customChapters: customUnits,
-        testTitle: `Official Default Sunday Paper: ${canonical}`,
+        testTitle: bp?.title || `${canonical}: Chapterwise Test`,
         publishedBy: 'Institutional Master Admin',
         updatedAt: new Date().toISOString()
       };
@@ -556,7 +556,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
                               )}
                             </div>
                             <p className="text-xs text-stone-400 font-medium line-clamp-1">
-                              {paper.testTitle || `Official Default Sunday Paper: ${canonical}`}
+                              {paper.testTitle && !paper.testTitle.toLowerCase().includes('default') ? paper.testTitle : `${canonical}: Sunday Test`}
                             </p>
                           </div>
 

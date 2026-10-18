@@ -354,6 +354,23 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           return repairQuestionBankList(raw);
       } catch { return []; }
   });
+
+  const getPresetTopicTitle = (presetId: string): string => {
+    const allTests = [
+      ...SUNDAY_DROPPER_TRACK1_TESTS,
+      ...SUNDAY_DROPPER_TRACK2_TESTS,
+      ...SUNDAY_DROPPER_PC_TESTS,
+      ...PLANNER_12TH_COMPLETE_TESTS,
+      ...PLANNER_12TH_PC_TESTS,
+      ...SUNDAY_11TH_TRACK1_TESTS,
+      ...SUNDAY_11TH_TRACK2_TESTS,
+    ];
+    const found = allTests.find(
+      t => t.id.toLowerCase() === presetId.toLowerCase() || t.code.toLowerCase() === presetId.toLowerCase()
+    );
+    return found ? found.title : `${presetId.toUpperCase()}: Chapterwise Test`;
+  };
+
   const [exportTrackSelection, setExportTrackSelection] = useState<string>('dropper1');
 
   const handleExportSelectedTrackZIP = async () => {
@@ -1128,7 +1145,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: getPresetTopicTitle(selectedPlannerPreset),
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };
@@ -1172,7 +1189,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       paperCode: selectedPlannerPreset,
       revision: paperRevision,
       questions: defaultQs,
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: getPresetTopicTitle(selectedPlannerPreset),
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };
@@ -1212,7 +1229,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: getPresetTopicTitle(selectedPlannerPreset),
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };
@@ -1280,7 +1297,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: getPresetTopicTitle(selectedPlannerPreset),
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };
@@ -1422,7 +1439,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: getPresetTopicTitle(selectedPlannerPreset),
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };
@@ -1531,7 +1548,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       revision: paperRevision,
       questions: optimistic,
       customChapters: { physics: sundayPhyUnits, chemistry: sundayChemUnits, biology: sundayBioUnits },
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: getPresetTopicTitle(selectedPlannerPreset),
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };
@@ -1576,7 +1593,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         revision: paperRevision,
         questions: optimistic,
         customChapters: { physics: sundayPhyUnits, chemistry: sundayChemUnits, biology: sundayBioUnits },
-        testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+        testTitle: getPresetTopicTitle(selectedPlannerPreset),
         publishedBy: 'Institutional Master Admin',
         updatedAt: new Date().toISOString()
       };
@@ -1650,7 +1667,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: getPresetTopicTitle(selectedPlannerPreset),
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };
@@ -1726,7 +1743,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: getPresetTopicTitle(selectedPlannerPreset),
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };
@@ -1776,7 +1793,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         chemistry: sundayChemUnits,
         biology: sundayBioUnits
       },
-      testTitle: `Official Default Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      testTitle: getPresetTopicTitle(selectedPlannerPreset),
       publishedBy: 'Institutional Master Admin',
       updatedAt: new Date().toISOString()
     };

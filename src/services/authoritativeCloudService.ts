@@ -480,7 +480,7 @@ export function getOfficialBaseSundayPaper(paperCode: string): SyncedSundayPaper
       chemistry: [planner.chemistryUnit],
       biology: planner.code.startsWith('PC-') ? [] : [`[Botany] ${planner.botanyBlock}`, `[Zoology] ${planner.zoologyBlock}`]
     },
-    testTitle: `Official Default Sunday Paper: ${canonicalCode}`,
+    testTitle: planner.title || `${canonicalCode}: Chapterwise Test`,
     updatedAt: new Date(1788000000000).toISOString(),
     publishedBy: 'Institutional Master Admin'
   };
