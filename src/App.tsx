@@ -627,7 +627,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#fff6e5] text-[#1c1917] flex flex-col font-sans selection:bg-[#c2410c] selection:text-white">
+    <div className="min-h-screen bg-white text-[#1c1917] flex flex-col font-sans selection:bg-[#dbeafe] selection:text-[#1e3a8a]">
       {/* Sign Out Confirmation Toast */}
       {signOutNotification && (
         <div className="fixed bottom-5 right-5 z-50 bg-sky-900 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2.5 text-xs font-semibold animate-in fade-in slide-in-from-bottom-3 duration-200 border border-stone-700">
@@ -750,7 +750,7 @@ export default function App() {
           />
 
           {/* Dynamic Content Area */}
-          <main className="flex-1 p-6 sm:p-5 lg:p-6 overflow-y-auto bg-[#fff6e5] min-w-0">
+          <main className="flex-1 p-6 sm:p-5 lg:p-6 overflow-y-auto bg-white min-w-0">
             <Suspense fallback={<SectionLoadingFallback />}>
               {activeTab === 'test-series' && (
                 <TestSeriesSection

@@ -499,10 +499,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 setActiveBatch('repeater');
                 setActivePhaseFilter('all');
               }}
-              className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
+              className={`px-5 py-2.5 rounded-xl text-sm font-extrabold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
                 activeBatch === 'repeater'
-                  ? 'bg-[#c2410c] text-white shadow-none'
-                  : 'bg-white text-[#1c1917] hover:bg-stone-50'
+                  ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
+                  : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
               }`}
             >
               <span>Repeater / Dropper Batch</span>
@@ -510,13 +510,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             
             <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
               <div className="text-[10px] font-black text-[#56514c] uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track1'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track1' && activeBatch === 'repeater' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track1'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track1' && activeBatch === 'repeater' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
                 Track 1: Chapterwise, Partwise & Full (46 Tests)
               </button>
-              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
                 Track 2: 17-Week Fast-Track (42 Tests)
               </button>
-              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
                 Track 3: Physics & Chemistry Only (27 Tests)
               </button>
             </div>
@@ -530,10 +530,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 setActivePhaseFilter('all');
                 setShowRevisionBuffer(false);
               }}
-              className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
+              className={`px-5 py-2.5 rounded-xl text-sm font-extrabold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
                 activeBatch === '12th'
-                  ? 'bg-[#c2410c] text-white shadow-none'
-                  : 'bg-white text-[#1c1917] hover:bg-stone-50'
+                  ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
+                  : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
               }`}
             >
               <span>12th Batch • 23 Tests</span>
@@ -541,10 +541,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             
             <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
               <div className="text-[10px] font-black text-[#56514c] uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-              <button onClick={() => { setActiveBatch('12th'); setClass12Track('complete'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class12Track === 'complete' && activeBatch === '12th' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+              <button onClick={() => { setActiveBatch('12th'); setClass12Track('complete'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class12Track === 'complete' && activeBatch === '12th' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
                 Track 1: Complete Syllabus Master Series (23 Tests)
               </button>
-              <button onClick={() => { setActiveBatch('12th'); setClass12Track('pc'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class12Track === 'pc' && activeBatch === '12th' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+              <button onClick={() => { setActiveBatch('12th'); setClass12Track('pc'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class12Track === 'pc' && activeBatch === '12th' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
                 Track 2: Physics & Chemistry Series (18 Tests)
               </button>
             </div>
@@ -558,10 +558,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 setActivePhaseFilter('all');
                 setShowRevisionBuffer(false);
               }}
-              className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
+              className={`px-5 py-2.5 rounded-xl text-sm font-extrabold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
                 activeBatch === '11th'
-                  ? 'bg-[#c2410c] text-white shadow-none'
-                  : 'bg-white text-[#1c1917] hover:bg-stone-50'
+                  ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
+                  : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
               }`}
             >
               <span>11th Batch • 20 Tests</span>
@@ -569,10 +569,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             
             <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
               <div className="text-[10px] font-black text-[#56514c] uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
                 Track 1: Chapterwise, Partwise & Full (20 Tests)
               </button>
-              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-[#fff6e5] text-[#1c1917] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#fff6e5]'}`}>
+              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
                 Track 2: CWT & Cumulative Master (20 Tests)
               </button>
             </div>
@@ -663,7 +663,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {REVISION_ANALYSIS_BUFFER_12TH.map((stage, idx) => (
               <div
                 key={idx}
-                className="p-3.5 rounded-xl bg-[#fff6e5] border-2 border-[#1c1917] space-y-2"
+                className="p-3.5 rounded-xl bg-white border-2 border-[#1c1917] space-y-2"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#1c1917] bg-[#fde68a] border border-[#1c1917] px-2 py-0.5 rounded font-mono">
@@ -715,17 +715,34 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             let chemCount = isPCTest ? 50 : 45;
             let botCount = isPCTest ? 0 : 45;
             let zooCount = isPCTest ? 0 : 45;
-            if (customPaper && Array.isArray(customPaper.questions)) {
-              phyCount = customPaper.questions.filter(q => q.subject === 'Physics').length;
-              chemCount = customPaper.questions.filter(q => q.subject === 'Chemistry').length;
-              botCount = customPaper.questions.filter(q => q.subject === 'Botany').length;
-              zooCount = customPaper.questions.filter(q => q.subject === 'Zoology').length;
+            if (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length > 0) {
+              const pCount = customPaper.questions.filter(q => q.subject === 'Physics').length;
+              const cCount = customPaper.questions.filter(q => q.subject === 'Chemistry').length;
+              const bCount = customPaper.questions.filter(q => q.subject === 'Botany').length;
+              const zCount = customPaper.questions.filter(q => q.subject === 'Zoology').length;
+              const bioCount = customPaper.questions.filter(q => q.subject === 'Biology').length;
+
+              phyCount = pCount || (isPCTest ? 50 : 45);
+              chemCount = cCount || (isPCTest ? 50 : 45);
+
+              if (isPCTest) {
+                botCount = 0;
+                zooCount = 0;
+              } else if (bCount > 0 || zCount > 0) {
+                botCount = bCount;
+                zooCount = zCount;
+              } else if (bioCount > 0) {
+                botCount = Math.ceil(bioCount / 2);
+                zooCount = Math.floor(bioCount / 2);
+              } else {
+                botCount = 45;
+                zooCount = 45;
+              }
             }
             
             const totalDynamicQs = phyCount + chemCount + botCount + zooCount;
             const totalDynamicMarks = totalDynamicQs * 4;
             const dynamicDuration = mock.durationMinutes || (isPCTest ? 120 : 180);
-            const hasEdits = !!customPaper;
 
             return (
               <div
@@ -733,22 +750,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 className="bg-white rounded-2xl border-2 border-[#1c1917] shadow-[8px_8px_0px_#1c1917] p-6 sm:p-7 relative transition-all flex flex-col xl:flex-row items-start xl:items-center justify-between gap-6"
               >
                 <div className="space-y-4 flex-1 w-full">
-                  {/* Badges */}
-                  <div className="flex flex-col gap-2">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
-                        {mock.dateStr}
-                      </span>
-                      <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
-                        {mock.code} · {mock.phase}
-                      </span>
-                    </div>
-                    <div>
-                      <span className="inline-block bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
-                        {totalDynamicMarks} Marks · {dynamicDuration} Mins · {totalDynamicQs} Qs
-                        {hasEdits && <span className="ml-1 text-[#c2410c] font-black">(Edited)</span>}
-                      </span>
-                    </div>
+                  {/* Badges - Blended on a single line */}
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
+                      {mock.dateStr}
+                    </span>
+                    <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
+                      {mock.code} · {mock.phase}
+                    </span>
+                    <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
+                      {totalDynamicMarks} Marks · {dynamicDuration} Mins · {totalDynamicQs} Qs
+                    </span>
                   </div>
 
                   {/* Title & Description */}
@@ -763,65 +775,89 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
                   {/* Exact Syllabus Breakdown Grid (2 Cols for PC, 4 Cols for Standard) */}
                   {isPCTest ? (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
-                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1.5"><Zap className="w-3.5 h-3.5 text-sky-600" /> PHYSICS</span>
-                          <span className="font-mono text-sky-600 font-bold whitespace-nowrap shrink-0">{phyCount} QS &bull; {phyCount * 4}M</span>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
+                      <div className="p-4 rounded-xl bg-sky-50/80 border border-sky-200">
+                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
+                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
+                            <Zap className="w-4 h-4 text-sky-600" /> PHYSICS
+                          </span>
+                          <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
+                            {phyCount} QS &bull; {phyCount * 4}M
+                          </span>
                         </div>
-                        <div className="text-[11px] font-semibold text-sky-950 mt-1.5 leading-snug">
+                        <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
                           {displayPhysics}
                         </div>
                       </div>
 
-                      <div className="p-3.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
-                        <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1.5"><Atom className="w-3.5 h-3.5 text-emerald-600" /> CHEMISTRY</span>
-                          <span className="font-mono text-emerald-600 font-bold whitespace-nowrap shrink-0">{chemCount} QS &bull; {chemCount * 4}M</span>
+                      <div className="p-4 rounded-xl bg-emerald-50/80 border border-emerald-300">
+                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-emerald-200/60">
+                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-emerald-900 tracking-wide uppercase">
+                            <Atom className="w-4 h-4 text-emerald-600" /> CHEMISTRY
+                          </span>
+                          <span className="font-mono text-xs sm:text-[13px] text-emerald-700 font-bold whitespace-nowrap shrink-0">
+                            {chemCount} QS &bull; {chemCount * 4}M
+                          </span>
                         </div>
-                        <div className="text-[11px] font-semibold text-emerald-950 mt-1.5 leading-snug">
+                        <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
                           {displayChemistry}
                         </div>
                       </div>
                     </div>
                   ) : (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
-                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
-                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1.5"><Zap className="w-3.5 h-3.5 text-sky-600" /> PHYSICS</span>
-                          <span className="font-mono text-sky-600 font-bold whitespace-nowrap shrink-0">{phyCount} QS &bull; {phyCount * 4}M</span>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 pt-2">
+                      <div className="p-4 rounded-xl bg-sky-50/80 border border-sky-200">
+                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
+                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
+                            <Zap className="w-4 h-4 text-sky-600" /> PHYSICS
+                          </span>
+                          <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
+                            {phyCount} QS &bull; {phyCount * 4}M
+                          </span>
                         </div>
-                        <div className="text-[11px] font-semibold text-sky-950 mt-1.5 leading-snug">
+                        <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
                           {displayPhysics}
                         </div>
                       </div>
 
-                      <div className="p-3.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
-                        <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1.5"><Atom className="w-3.5 h-3.5 text-emerald-600" /> CHEMISTRY</span>
-                          <span className="font-mono text-emerald-600 font-bold whitespace-nowrap shrink-0">{chemCount} QS &bull; {chemCount * 4}M</span>
+                      <div className="p-4 rounded-xl bg-emerald-50/80 border border-emerald-300">
+                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-emerald-200/60">
+                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-emerald-900 tracking-wide uppercase">
+                            <Atom className="w-4 h-4 text-emerald-600" /> CHEMISTRY
+                          </span>
+                          <span className="font-mono text-xs sm:text-[13px] text-emerald-700 font-bold whitespace-nowrap shrink-0">
+                            {chemCount} QS &bull; {chemCount * 4}M
+                          </span>
                         </div>
-                        <div className="text-[11px] font-semibold text-emerald-950 mt-1.5 leading-snug">
+                        <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
                           {displayChemistry}
                         </div>
                       </div>
 
-                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
-                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1.5"><BookOpen className="w-3.5 h-3.5 text-sky-600" /> BOTANY</span>
-                          <span className="font-mono text-sky-600 font-bold whitespace-nowrap shrink-0">{botCount} QS &bull; {botCount * 4}M</span>
+                      <div className="p-4 rounded-xl bg-sky-50/80 border border-sky-200">
+                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
+                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
+                            <BookOpen className="w-4 h-4 text-sky-600" /> BOTANY
+                          </span>
+                          <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
+                            {botCount} QS &bull; {botCount * 4}M
+                          </span>
                         </div>
-                        <div className="text-[11px] font-semibold text-sky-950 mt-1.5 leading-snug">
+                        <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
                           {displayBotany}
                         </div>
                       </div>
 
-                      <div className="p-3.5 rounded-xl bg-sky-50/70 border border-sky-200 text-xs">
-                        <div className="text-[10px] font-bold text-sky-800 uppercase flex items-center justify-between">
-                          <span className="flex items-center gap-1.5"><Dna className="w-3.5 h-3.5 text-sky-600" /> ZOOLOGY</span>
-                          <span className="font-mono text-sky-600 font-bold whitespace-nowrap shrink-0">{zooCount} QS &bull; {zooCount * 4}M</span>
+                      <div className="p-4 rounded-xl bg-sky-50/80 border border-sky-200">
+                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
+                          <span className="flex items-center gap-2 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
+                            <Dna className="w-4 h-4 text-sky-600" /> ZOOLOGY
+                          </span>
+                          <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
+                            {zooCount} QS &bull; {zooCount * 4}M
+                          </span>
                         </div>
-                        <div className="text-[11px] font-semibold text-sky-950 mt-1.5 leading-snug">
+                        <div className="text-xs sm:text-[13px] font-bold text-[#1c1917] mt-2 leading-relaxed">
                           {displayZoology}
                         </div>
                       </div>
@@ -833,7 +869,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 <div className="shrink-0 self-stretch sm:self-auto xl:self-center">
                   <button
                     onClick={() => handleLaunchDirectSundayTest(mock)}
-                    className="w-full sm:w-auto bg-[#3730a3] hover:bg-[#312e81] text-white font-bold text-base px-8 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-none flex items-center justify-center space-x-2"
+                    className="w-full sm:w-auto bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-base px-8 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
                   >
                     <span>Test in CBT</span>
                   </button>

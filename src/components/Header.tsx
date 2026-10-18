@@ -118,7 +118,7 @@ export const Header: React.FC<HeaderProps> = ({
   const neetPackages: any[] = [];
 
   return (
-    <header className="sticky top-0 z-30 bg-[#fff6e5] border-b-2 border-[#1c1917] text-[#1c1917]">
+    <header className="sticky top-0 z-30 bg-white border-b-2 border-[#1c1917] text-[#1c1917]">
       <div className="w-full px-4 sm:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo & Brand */}
@@ -139,10 +139,10 @@ export const Header: React.FC<HeaderProps> = ({
                 <button
                   key={yr}
                   onClick={() => onSelectTargetYear && onSelectTargetYear(yr)}
-                  className={`px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-bold border-2 border-[#1c1917] transition cursor-pointer ${
+                  className={`px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-extrabold border-2 border-[#1c1917] transition cursor-pointer ${
                     targetYear === yr
-                      ? 'bg-[#c2410c] text-white shadow-none'
-                      : 'bg-white text-[#1c1917] hover:bg-stone-50'
+                      ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
+                      : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
                   }`}
                   title={`Select NEET Target Year ${yr}`}
                 >

@@ -87,9 +87,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
   ];
 
   return (
-    <aside className="w-full lg:w-64 bg-[#fff6e5] border-r-2 border-[#1c1917] flex flex-col shrink-0 text-[#1c1917] select-none">
+    <aside className="w-full lg:w-64 bg-white border-r-2 border-[#1c1917] flex flex-col shrink-0 text-[#1c1917] select-none">
       {/* Platform Header in Sidebar */}
-      <div className="p-5 border-b-2 border-[#1c1917] bg-[#fff6e5]">
+      <div className="p-5 border-b-2 border-[#1c1917] bg-white">
         <div className="flex items-center space-x-2">
           <div>
             <div className="text-[10px] font-black uppercase tracking-wider text-[#56514c]">
@@ -114,19 +114,19 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 onClick={() => onSelectTab(item.id)}
                 className={`w-full text-left p-3 rounded-xl text-xs transition flex items-center justify-between cursor-pointer border-2 border-[#1c1917] ${
                   isActive
-                    ? 'bg-[#c2410c] text-white font-bold shadow-[3px_3px_0px_#1c1917]'
-                    : 'bg-white text-[#1c1917] hover:bg-stone-50'
+                    ? 'bg-[#dbeafe] text-[#1e3a8a] font-extrabold shadow-[3px_3px_0px_#1c1917]'
+                    : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
                 }`}
               >
                 <div className="flex items-center space-x-2.5 min-w-0">
                   <Icon
                     className={`w-4 h-4 shrink-0 ${
-                      isActive ? 'text-white' : 'text-[#1c1917]'
+                      isActive ? 'text-[#1e3a8a]' : 'text-[#1c1917]'
                     }`}
                   />
                   <div className="min-w-0">
                     <div className="truncate font-bold">{item.label}</div>
-                    <div className={`text-[10px] truncate ${isActive ? 'text-stone-100' : 'text-[#56514c]'}`}>
+                    <div className={`text-[10px] truncate ${isActive ? 'text-[#1e40af]' : 'text-[#56514c]'}`}>
                       {item.sublabel}
                     </div>
                   </div>
@@ -136,7 +136,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   <span
                     className={`text-[9px] px-2 py-0.5 rounded font-mono font-bold uppercase shrink-0 border border-[#1c1917] ${
                       isActive
-                        ? 'bg-white/20 text-white'
+                        ? 'bg-[#bfdbfe] text-[#1e3a8a]'
                         : 'bg-[#fde68a] text-[#1c1917]'
                     }`}
                   >
