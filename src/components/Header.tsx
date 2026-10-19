@@ -31,6 +31,8 @@ import { getSuperUserMetrics } from '../utils/superUserNotifier';
 import { EnrolledStudent } from './EnrollmentGate';
 import { NEET_PREP_PACKAGES } from '../data/packagesData';
 
+import { TabType } from './Sidebar';
+
 interface HeaderProps {
   activeExam: ExamType;
   onSelectExam: (exam: ExamType) => void;
@@ -51,6 +53,8 @@ interface HeaderProps {
   onNavigateAbout?: () => void;
   onOpenAdminLogin?: () => void;
   isAdmin?: boolean;
+  activeTab?: TabType;
+  onSelectTab?: (tab: TabType) => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -72,7 +76,9 @@ export const Header: React.FC<HeaderProps> = ({
   onNavigateHome,
   onNavigateAbout,
   onOpenAdminLogin,
-  isAdmin = false
+  isAdmin = false,
+  activeTab = 'home',
+  onSelectTab
 }) => {
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
   const [downloadsCount, setDownloadsCount] = useState<number>(0);
@@ -114,29 +120,103 @@ export const Header: React.FC<HeaderProps> = ({
   const parentName = enrolledStudent?.parentName || currentUser?.parentName || 'Parent / Guardian';
   const userCaste = enrolledStudent?.caste || currentUser?.caste || 'General / Open';
 
-
   return (
     <header className="sticky top-0 z-30 bg-white border-b-2 border-[#1c1917] text-[#1c1917]">
       <div className="w-full px-4 sm:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-16 gap-3">
           {/* Logo & Brand */}
           <div
-            onClick={() => onNavigateHome && onNavigateHome()}
-            className={`flex items-center ${onNavigateHome ? 'cursor-pointer hover:opacity-90 transition' : ''}`}
+            onClick={() => {
+              if (onSelectTab) onSelectTab('home');
+              if (onNavigateHome) onNavigateHome();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="flex items-center cursor-pointer hover:opacity-90 transition gap-2 shrink-0"
             title="NeetCbt Exam Platform"
           >
-            <span className="font-extrabold text-xl sm:text-2xl tracking-tight text-[#1c1917]">
-              NeetCbt Exam Test
+            <span className="font-black text-xl sm:text-2xl tracking-tight text-[#1c1917]">
+              NeetCbt
             </span>
           </div>
 
+          {/* Top Page Navigation Links (Desktop) */}
+          <nav className="hidden lg:flex items-center space-x-1.5">
+            <button
+              onClick={() => {
+                if (onSelectTab) onSelectTab('home');
+                if (onNavigateHome) onNavigateHome();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className={`px-3.5 py-1.5 rounded-lg text-xs font-black transition cursor-pointer border-2 ${
+                activeTab === 'home'
+                  ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917] shadow-[2px_2px_0px_#1c1917]'
+                  : 'text-[#1c1917] border-transparent hover:bg-stone-100'
+              }`}
+            >
+              Home
+            </button>
+            <button
+              onClick={() => {
+                if (onSelectTab) onSelectTab('home');
+                if (onNavigateHome) onNavigateHome();
+                setTimeout(() => {
+                  document.getElementById('packages-section')?.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+              }}
+              className="px-3.5 py-1.5 rounded-lg text-xs font-black text-[#1c1917] hover:bg-stone-100 transition cursor-pointer border-2 border-transparent"
+            >
+              Courses &amp; Packages
+            </button>
+            <button
+              onClick={() => {
+                if (onSelectTab) onSelectTab('test-series');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className={`px-3.5 py-1.5 rounded-lg text-xs font-black transition cursor-pointer border-2 ${
+                activeTab === 'test-series'
+                  ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917] shadow-[2px_2px_0px_#1c1917]'
+                  : 'text-[#1c1917] border-transparent hover:bg-stone-100'
+              }`}
+            >
+              Test Series (196 Tests)
+            </button>
+            <button
+              onClick={() => {
+                if (onSelectTab) onSelectTab('about-exam');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className={`px-3.5 py-1.5 rounded-lg text-xs font-black transition cursor-pointer border-2 ${
+                activeTab === 'about-exam'
+                  ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917] shadow-[2px_2px_0px_#1c1917]'
+                  : 'text-[#1c1917] border-transparent hover:bg-stone-100'
+              }`}
+            >
+              About NEET Exam &amp; Cutoffs
+            </button>
+            {isAdmin && (
+              <button
+                onClick={() => {
+                  if (onSelectTab) onSelectTab('what-extra');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className={`px-3.5 py-1.5 rounded-lg text-xs font-black transition cursor-pointer border-2 ${
+                  activeTab === 'what-extra'
+                    ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917] shadow-[2px_2px_0px_#1c1917]'
+                    : 'text-[#1c1917] border-transparent hover:bg-stone-100'
+                }`}
+              >
+                What Extra (Admin)
+              </button>
+            )}
+          </nav>
+
           {/* Target Year Selector Bar: 2027, 2028, 2029 */}
-          <div className="flex items-center space-x-2">
+          <div className="hidden sm:flex items-center space-x-1.5">
             {(['2027', '2028', '2029'] as const).map(yr => (
               <button
                 key={yr}
                 onClick={() => onSelectTargetYear && onSelectTargetYear(yr)}
-                className={`px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-extrabold border-2 border-[#1c1917] transition cursor-pointer ${
+                className={`px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-extrabold border-2 border-[#1c1917] transition cursor-pointer ${
                   targetYear === yr
                     ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
                     : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
@@ -347,8 +427,78 @@ export const Header: React.FC<HeaderProps> = ({
             )}
           </div>
         </div>
-      </div>
 
+        {/* Mobile & Tablet Page Navigation Bar */}
+        <div className="flex lg:hidden items-center space-x-2 py-2 overflow-x-auto no-scrollbar border-t border-stone-200 text-xs">
+          <button
+            onClick={() => {
+              if (onSelectTab) onSelectTab('home');
+              if (onNavigateHome) onNavigateHome();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className={`px-3 py-1 rounded-full font-bold whitespace-nowrap transition cursor-pointer ${
+              activeTab === 'home'
+                ? 'bg-[#007bff] text-white shadow-xs'
+                : 'bg-stone-100 text-[#1c1917] hover:bg-stone-200'
+            }`}
+          >
+            Home
+          </button>
+          <button
+            onClick={() => {
+              if (onSelectTab) onSelectTab('home');
+              if (onNavigateHome) onNavigateHome();
+              setTimeout(() => {
+                document.getElementById('packages-section')?.scrollIntoView({ behavior: 'smooth' });
+              }, 100);
+            }}
+            className="px-3 py-1 rounded-full font-bold whitespace-nowrap bg-stone-100 text-[#1c1917] hover:bg-stone-200 transition cursor-pointer"
+          >
+            Courses &amp; Packages
+          </button>
+          <button
+            onClick={() => {
+              if (onSelectTab) onSelectTab('test-series');
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className={`px-3 py-1 rounded-full font-bold whitespace-nowrap transition cursor-pointer ${
+              activeTab === 'test-series'
+                ? 'bg-[#007bff] text-white shadow-xs'
+                : 'bg-stone-100 text-[#1c1917] hover:bg-stone-200'
+            }`}
+          >
+            Test Series (196 Tests)
+          </button>
+          <button
+            onClick={() => {
+              if (onSelectTab) onSelectTab('about-exam');
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className={`px-3 py-1 rounded-full font-bold whitespace-nowrap transition cursor-pointer ${
+              activeTab === 'about-exam'
+                ? 'bg-[#007bff] text-white shadow-xs'
+                : 'bg-stone-100 text-[#1c1917] hover:bg-stone-200'
+            }`}
+          >
+            About NEET Exam
+          </button>
+          {isAdmin && (
+            <button
+              onClick={() => {
+                if (onSelectTab) onSelectTab('what-extra');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className={`px-3 py-1 rounded-full font-bold whitespace-nowrap transition cursor-pointer ${
+                activeTab === 'what-extra'
+                  ? 'bg-[#007bff] text-white shadow-xs'
+                  : 'bg-stone-100 text-[#1c1917] hover:bg-stone-200'
+              }`}
+            >
+              What Extra
+            </button>
+          )}
+        </div>
+      </div>
     </header>
   );
 };

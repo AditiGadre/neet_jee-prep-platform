@@ -760,6 +760,8 @@ export default function App() {
 
       {/* Top Navigation Header */}
       <Header
+        activeTab={activeTab}
+        onSelectTab={setActiveTab}
         activeExam={activeExam}
         onSelectExam={setActiveExam}
         targetYear={targetYear}
@@ -846,8 +848,35 @@ export default function App() {
             </footer>
           </main>
         </div>
+      ) : activeTab === 'home' ? (
+        /* ROUTE 2A: Dedicated Full-Width Homepage (No Sidebar) */
+        <main className="flex-1 w-full bg-white min-w-0">
+          <Suspense fallback={<SectionLoadingFallback />}>
+            <HomePage
+              onSelectPackage={(pkg) => {
+                setEnrollmentPackageId(pkg.id);
+                setIsEnrollmentModalOpen(true);
+              }}
+              onNavigateToTestSeries={(batch) => {
+                if (batch) {
+                  try {
+                    localStorage.setItem('neet_last_active_batch', batch);
+                  } catch {}
+                }
+                setActiveTab('test-series');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              onNavigateToAboutExam={() => {
+                setActiveTab('about-exam');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              enrolledPackageIds={enrolledPackageIds}
+              isAdmin={isAdminSession}
+            />
+          </Suspense>
+        </main>
       ) : (
-        /* ROUTE 2: Main Application Dashboard */
+        /* ROUTE 2B: Application Sub-Pages (Test Series, What Extra, About Exam with Sidebar) */
         <div className="flex-1 flex flex-col lg:flex-row w-full mx-auto">
           {/* Sidebar */}
           <Sidebar
@@ -862,22 +891,6 @@ export default function App() {
           {/* Dynamic Content Area */}
           <main className="flex-1 p-6 sm:p-5 lg:p-6 overflow-y-auto bg-white min-w-0">
             <Suspense fallback={<SectionLoadingFallback />}>
-              {activeTab === 'home' && (
-                <HomePage
-                  onSelectPackage={(pkg) => {
-                    setEnrollmentPackageId(pkg.id);
-                    setIsEnrollmentModalOpen(true);
-                  }}
-                  onNavigateToTestSeries={(batch) => {
-                    if (batch) {
-                      try {
-                        localStorage.setItem('neet_last_active_batch', batch);
-                      } catch {}
-                    }
-                    setActiveTab('test-series');
-                  }}
-                />
-              )}
 
               {activeTab === 'test-series' && (
                 <TestSeriesSection
