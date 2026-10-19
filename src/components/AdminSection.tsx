@@ -1,3 +1,4 @@
+import { getQuestionCategory, getCategoryBadgeClasses, getCategoryFormattedName, QUESTION_CATEGORIES, QuestionCategory } from '../utils/questionCategories';
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 
 
@@ -375,6 +376,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [editingQuestionIdx, setEditingQuestionIdx] = useState<number | null>(null);
   const [activeSwapIdx, setActiveSwapIdx] = useState<number | null>(null);
   const [pendingSwapId, setPendingSwapId] = useState<string | null>(null);
+  const [swapCategoryFilter, setSwapCategoryFilter] = useState<string>('All');
+  const [swapSearchQuery, setSwapSearchQuery] = useState<string>('');
   const [isQuestionBankModalOpen, setIsQuestionBankModalOpen] = useState(false);
   const [storedQuestions, setStoredQuestions] = useState<any[]>(() => {
       try {
@@ -1586,6 +1589,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
   };
 
+  
+  const handleUpdateCandidateCategory = (candidateId: string, newCategory: QuestionCategory) => {
+    setSwapCandidates(prev => prev.map(c => {
+      if (c.id === candidateId) {
+        return { ...c, questionCategory: newCategory, category: newCategory };
+      }
+      return c;
+    }));
+  };
+
   const handleStartSwapMenu = (idx: number) => {
     if (activeSwapIdx === idx) {
       setActiveSwapIdx(null);
@@ -1623,6 +1636,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     });
     
     setSwapCandidates(candidates);
+    setSwapCategoryFilter('All');
+    setSwapSearchQuery('');
+    setPendingSwapId(null);
     setActiveSwapIdx(idx);
   };
 
@@ -3373,8 +3389,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           }`}>
                             {originalIdx < 45 ? 'Physics' : originalIdx < 90 ? 'Chemistry' : originalIdx < 135 ? 'Botany' : 'Zoology'}
                           </span>
+                          
                           <span className="text-xs font-semibold text-sky-800 bg-sky-50 px-2 py-0.5 rounded">
                             {q.chapter || 'Syllabus Chapter'}
+                          </span>
+                          {/* Category Badge next to Question Header */}
+                          <span className={`text-[10px] px-2.5 py-0.5 rounded-full font-bold border flex items-center gap-1.5 ${getCategoryBadgeClasses(getQuestionCategory(q)).badge}`}>
+                            <span className={`w-1.5 h-1.5 rounded-full ${getCategoryBadgeClasses(getQuestionCategory(q)).dot}`}></span>
+                            <span>{getCategoryFormattedName(getQuestionCategory(q))}</span>
                           </span>
                           {q.difficulty && (
                             <span className={`text-[10px] px-2 py-0.5 rounded font-mono font-bold ${
@@ -3410,6 +3432,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             </button>
                           </div>
 
+                          
                           <div className="relative">
                             <button
                               onClick={() => handleStartSwapMenu(originalIdx)}
@@ -3419,52 +3442,335 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                               <RefreshCw className="w-3.5 h-3.5" />
                               <span>Swap</span>
                             </button>
+
                             {activeSwapIdx === originalIdx && (
-                              <div className="absolute top-full mt-1 left-0 z-50 bg-sky-50/60 border border-sky-200 rounded-lg shadow-xl p-3 w-80 max-h-96 overflow-y-auto">
-                                <div className="text-[10px] font-bold text-sky-600 mb-2 uppercase">Select Replacement Question</div>
-                                {swapCandidates.map(c => (
-                                  <div 
-                                    key={c.id} 
-                                    onClick={(e) => { e.preventDefault(); setPendingSwapId(c.id); }}
-                                    className={`p-3 border-b border-stone-100 cursor-pointer text-xs transition-colors last:border-0 ${pendingSwapId === c.id ? 'bg-sky-100 text-sky-900 shadow-inner' : 'hover:bg-sky-50 text-sky-800'}`}
-                                  >
-                                    <div className="line-clamp-3 whitespace-pre-line">{c.questionText}</div>
-                                  </div>
-                                ))}
-                                <div className="p-3 sticky bottom-0 bg-sky-50/60 border-t border-sky-200 flex flex-col gap-2">
-                                  {pendingSwapId && (
-                                    <button 
-                                      onClick={() => handleExecuteSpecificSwap(originalIdx, pendingSwapId)}
-                                      className="w-full py-2 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold rounded-lg shadow-sm"
-                                    >
-                                      Confirm Swap
-                                    </button>
-                                  )}
-                                  <button 
-                                    onClick={() => {
-                                        if (pendingSwapId) {
-                                          try {
-                                            const raw = localStorage.getItem('agy_banned_questions');
-                                            const banned = raw ? JSON.parse(raw) : [];
-                                            if (!banned.includes(pendingSwapId)) banned.push(pendingSwapId);
-                                            localStorage.setItem('agy_banned_questions', JSON.stringify(banned));
-                                            setSwapCandidates(prev => prev.filter(c => c.id !== pendingSwapId));
-                                            setPendingSwapId(null);
-                                            setActionSuccessBanner('Candidate question deleted forever!');
-                                            setTimeout(() => setActionSuccessBanner(null), 2500);
-                                          } catch(e) {}
-                                        } else {
-                                          handleDeleteQuestion(originalIdx);
-                                          setActiveSwapIdx(null);
-                                          setPendingSwapId(null);
-                                        }
+                              <div className="fixed inset-0 z-[9999] bg-stone-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 animate-in fade-in duration-150 text-stone-900">
+                                <div 
+                                  className="bg-white rounded-3xl border-3 border-stone-800 shadow-[8px_8px_0px_#1c1917] max-w-5xl w-full max-h-[90vh] flex flex-col overflow-hidden text-stone-900"
+                                  onClick={e => e.stopPropagation()}
+                                >
+                                  {/* Modal Header */}
+                                  <div className="p-4 sm:p-5 bg-sky-50 border-b-2 border-stone-800 flex items-start justify-between gap-3">
+                                    <div>
+                                      <div className="flex flex-wrap items-center gap-2">
+                                        <span className="px-2.5 py-0.5 rounded-md bg-sky-900 text-white font-mono font-black text-xs">
+                                          Question #{originalIdx + 1}
+                                        </span>
+                                        <span className="px-2.5 py-0.5 rounded-md bg-sky-100 text-sky-800 font-bold text-xs">
+                                          {q.subject || (originalIdx < 45 ? 'Physics' : originalIdx < 90 ? 'Chemistry' : 'Biology')}
+                                        </span>
+                                        <span className="text-xs font-bold text-stone-700 bg-white px-2 py-0.5 rounded border border-stone-200">
+                                          {q.chapter || 'Syllabus Chapter'}
+                                        </span>
+                                        <span className={`text-[11px] px-2.5 py-0.5 rounded-full font-bold border flex items-center gap-1.5 ${getCategoryBadgeClasses(getQuestionCategory(q)).badge}`}>
+                                          <span className={`w-1.5 h-1.5 rounded-full ${getCategoryBadgeClasses(getQuestionCategory(q)).dot}`}></span>
+                                          <span>Current Category: {getCategoryFormattedName(getQuestionCategory(q))}</span>
+                                        </span>
+                                      </div>
+                                      <h3 className="text-base sm:text-lg font-black text-stone-900 mt-2">
+                                        Question Swapper — Select Replacement Question
+                                      </h3>
+                                      <p className="text-xs text-stone-500 mt-0.5 line-clamp-1">
+                                        Current: {q.questionText}
+                                      </p>
+                                    </div>
+
+                                    <button
+                                      onClick={() => {
+                                        setActiveSwapIdx(null);
+                                        setSwapCandidates([]);
+                                        setPendingSwapId(null);
                                       }}
-                                    className="w-full py-2 bg-red-500 hover:bg-red-600 text-white text-xs font-bold rounded-lg shadow-sm flex items-center justify-center gap-1 cursor-pointer"
-                                  >
-                                    <Trash2 className="w-3.5 h-3.5" /> Delete Forever
-                                  </button>
+                                      className="p-1.5 rounded-xl bg-white hover:bg-stone-100 border-2 border-stone-800 text-stone-700 font-bold text-xs cursor-pointer transition shadow-[2px_2px_0px_#1c1917]"
+                                      title="Close Swapper"
+                                    >
+                                      <X className="w-5 h-5" />
+                                    </button>
+                                  </div>
+
+                                  {/* Filter Tabs for the 6 Categories */}
+                                  <div className="p-3 bg-stone-50 border-b border-stone-200 flex flex-wrap items-center gap-1.5 overflow-x-auto">
+                                    <span className="text-[10px] font-black text-stone-500 uppercase tracking-wider mr-1">
+                                      Filter Category:
+                                    </span>
+                                    <button
+                                      type="button"
+                                      onClick={() => setSwapCategoryFilter('All')}
+                                      className={`px-3 py-1 rounded-xl text-xs font-bold transition cursor-pointer border ${
+                                        swapCategoryFilter === 'All'
+                                          ? 'bg-stone-900 text-white border-stone-900 shadow-xs'
+                                          : 'bg-white text-stone-700 hover:bg-stone-100 border-stone-300'
+                                      }`}
+                                    >
+                                      All Categories ({swapCandidates.length})
+                                    </button>
+                                    {QUESTION_CATEGORIES.map((cat, catIdx) => {
+                                      const count = swapCandidates.filter(c => getQuestionCategory(c) === cat).length;
+                                      const isSelected = swapCategoryFilter === cat;
+                                      const style = getCategoryBadgeClasses(cat);
+                                      return (
+                                        <button
+                                          key={cat}
+                                          type="button"
+                                          onClick={() => setSwapCategoryFilter(cat)}
+                                          className={`px-3 py-1 rounded-xl text-xs font-bold transition cursor-pointer flex items-center gap-1.5 border ${
+                                            isSelected
+                                              ? `${style.pill} border-transparent shadow-xs ring-2 ring-stone-900/10`
+                                              : `${style.badge} hover:opacity-90`
+                                          }`}
+                                        >
+                                          <span>{catIdx + 1}. {cat}</span>
+                                          <span className={`px-1.5 py-0.2 rounded-full text-[10px] font-mono font-bold ${
+                                            isSelected ? 'bg-white/30 text-white' : 'bg-white/80 text-stone-900'
+                                          }`}>
+                                            {count}
+                                          </span>
+                                        </button>
+                                      );
+                                    })}
+                                  </div>
+
+                                  {/* Search Input Bar */}
+                                  <div className="p-3 bg-white border-b border-stone-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                    <div className="relative flex-1">
+                                      <Search className="w-4 h-4 absolute left-3 top-2.5 text-stone-400" />
+                                      <input
+                                        type="text"
+                                        placeholder="Search replacement questions by keyword, topic, or formula..."
+                                        value={swapSearchQuery}
+                                        onChange={e => setSwapSearchQuery(e.target.value)}
+                                        className="w-full pl-9 pr-3 py-1.5 text-xs rounded-xl border-2 border-stone-300 focus:border-sky-600 focus:outline-none"
+                                      />
+                                    </div>
+                                    <div className="text-xs font-bold text-stone-500 whitespace-nowrap">
+                                      {swapCandidates.filter(c => {
+                                        const cat = getQuestionCategory(c);
+                                        if (swapCategoryFilter !== 'All' && cat !== swapCategoryFilter) return false;
+                                        if (swapSearchQuery.trim()) {
+                                          const qry = swapSearchQuery.toLowerCase().trim();
+                                          return (c.questionText || '').toLowerCase().includes(qry) || (c.chapter || '').toLowerCase().includes(qry) || cat.toLowerCase().includes(qry);
+                                        }
+                                        return true;
+                                      }).length} of {swapCandidates.length} Questions Available
+                                    </div>
+                                  </div>
+
+                                  {/* Questions Table with Category Column next to Question */}
+                                  <div className="flex-1 overflow-y-auto divide-y divide-stone-200">
+                                    {(() => {
+                                      const filtered = swapCandidates.filter(c => {
+                                        const cat = getQuestionCategory(c);
+                                        if (swapCategoryFilter !== 'All' && cat !== swapCategoryFilter) return false;
+                                        if (swapSearchQuery.trim()) {
+                                          const qry = swapSearchQuery.toLowerCase().trim();
+                                          return (c.questionText || '').toLowerCase().includes(qry) || (c.chapter || '').toLowerCase().includes(qry) || cat.toLowerCase().includes(qry);
+                                        }
+                                        return true;
+                                      });
+
+                                      if (filtered.length === 0) {
+                                        return (
+                                          <div className="p-12 text-center space-y-2">
+                                            <Search className="w-8 h-8 text-stone-300 mx-auto" />
+                                            <div className="font-bold text-stone-700 text-sm">No Questions Found in Selected Category</div>
+                                            <p className="text-xs text-stone-400 max-w-sm mx-auto">
+                                              Try switching the category filter or clearing the search query to see other replacement questions.
+                                            </p>
+                                          </div>
+                                        );
+                                      }
+
+                                      return (
+                                        <table className="w-full text-left border-collapse">
+                                          <thead className="bg-stone-100 text-[11px] font-black text-stone-600 uppercase tracking-wider sticky top-0 z-10 border-b border-stone-200">
+                                            <tr>
+                                              <th className="py-2.5 px-3 w-12 text-center">#</th>
+                                              <th className="py-2.5 px-4 w-7/12">Question Content</th>
+                                              {/* One column next to the question of category */}
+                                              <th className="py-2.5 px-4 w-3/12">Category</th>
+                                              <th className="py-2.5 px-3 w-2/12 text-center">Action</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody className="divide-y divide-stone-100 text-xs">
+                                            {filtered.map((c, cIdx) => {
+                                              const cCat = getQuestionCategory(c);
+                                              const cCatStyle = getCategoryBadgeClasses(cCat);
+                                              const isSelected = pendingSwapId === c.id;
+
+                                              return (
+                                                <tr
+                                                  key={c.id || cIdx}
+                                                  onClick={() => setPendingSwapId(c.id)}
+                                                  className={`transition-colors cursor-pointer ${
+                                                    isSelected
+                                                      ? 'bg-sky-50 ring-2 ring-sky-500/30'
+                                                      : 'hover:bg-stone-50'
+                                                  }`}
+                                                >
+                                                  {/* Index */}
+                                                  <td className="py-3 px-3 text-center align-top font-mono font-bold text-stone-400">
+                                                    {cIdx + 1}
+                                                  </td>
+
+                                                  {/* Column 1: Question Content */}
+                                                  <td className="py-3 px-4 align-top space-y-2">
+                                                    <div className="font-semibold text-stone-900 whitespace-pre-line text-xs leading-relaxed">
+                                                      {c.questionText}
+                                                    </div>
+
+                                                    {/* Diagram Preview Indicator */}
+                                                    {(c.diagramSvg || c.image) && (
+                                                      <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-cyan-50 border border-cyan-200 text-cyan-800 text-[10px] font-bold">
+                                                        <span>📊 Includes Diagram</span>
+                                                      </div>
+                                                    )}
+
+                                                    {/* Options Preview */}
+                                                    {Array.isArray(c.options) && c.options.length > 0 && (
+                                                      <div className="grid grid-cols-2 gap-1.5 pt-1 text-[11px]">
+                                                        {c.options.map((opt, oIdx) => {
+                                                          const isAns = oIdx === c.correctAnswer;
+                                                          return (
+                                                            <div
+                                                              key={oIdx}
+                                                              className={`px-2 py-1 rounded border ${
+                                                                isAns
+                                                                  ? 'bg-emerald-50 border-emerald-300 text-emerald-950 font-bold'
+                                                                  : 'bg-white border-stone-200 text-stone-600'
+                                                              }`}
+                                                            >
+                                                              <span className="font-bold mr-1 text-stone-400">{String.fromCharCode(65 + oIdx)}.</span>
+                                                              <span>{opt}</span>
+                                                            </div>
+                                                          );
+                                                        })}
+                                                      </div>
+                                                    )}
+                                                  </td>
+
+                                                  {/* Column 2: Category (next to the question!) */}
+                                                  <td className="py-3 px-4 align-top space-y-2">
+                                                    <div className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold border shadow-2xs ${cCatStyle.badge}`}>
+                                                      <span className={`w-2 h-2 rounded-full ${cCatStyle.dot}`}></span>
+                                                      <span>{getCategoryFormattedName(cCat)}</span>
+                                                    </div>
+
+                                                    {/* Category Switcher Dropdown */}
+                                                    <div>
+                                                      <label className="block text-[10px] font-bold text-stone-400 uppercase tracking-wider mb-0.5">
+                                                        Change Category:
+                                                      </label>
+                                                      <select
+                                                        value={cCat}
+                                                        onClick={e => e.stopPropagation()}
+                                                        onChange={e => {
+                                                          e.stopPropagation();
+                                                          handleUpdateCandidateCategory(c.id, e.target.value as QuestionCategory);
+                                                        }}
+                                                        className="w-full text-[11px] font-bold py-1 px-2 rounded-lg bg-white border border-stone-300 text-stone-800 focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer"
+                                                      >
+                                                        {QUESTION_CATEGORIES.map((catName, catNum) => (
+                                                          <option key={catName} value={catName}>
+                                                            {catNum + 1}. {catName}
+                                                          </option>
+                                                        ))}
+                                                      </select>
+                                                    </div>
+
+                                                    {c.chapter && (
+                                                      <div className="text-[10px] text-stone-400 font-semibold truncate" title={c.chapter}>
+                                                        Topic: {c.chapter}
+                                                      </div>
+                                                    )}
+                                                  </td>
+
+                                                  {/* Column 3: Action */}
+                                                  <td className="py-3 px-3 align-top text-center space-y-2">
+                                                    <button
+                                                      type="button"
+                                                      onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        handleExecuteSpecificSwap(originalIdx, c.id);
+                                                      }}
+                                                      className={`w-full py-1.5 px-2.5 rounded-xl font-black text-xs transition cursor-pointer flex items-center justify-center gap-1 border-2 border-stone-800 shadow-[2px_2px_0px_#1c1917] ${
+                                                        isSelected
+                                                          ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
+                                                          : 'bg-[#0284c7] hover:bg-[#0369a1] text-white'
+                                                      }`}
+                                                    >
+                                                      <CheckCircle2 className="w-3.5 h-3.5" />
+                                                      <span>Swap In</span>
+                                                    </button>
+
+                                                    <button
+                                                      type="button"
+                                                      onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        try {
+                                                          const raw = localStorage.getItem('agy_banned_questions');
+                                                          const banned = raw ? JSON.parse(raw) : [];
+                                                          if (!banned.includes(c.id)) banned.push(c.id);
+                                                          localStorage.setItem('agy_banned_questions', JSON.stringify(banned));
+                                                          setSwapCandidates(prev => prev.filter(cand => cand.id !== c.id));
+                                                          if (pendingSwapId === c.id) setPendingSwapId(null);
+                                                          setActionSuccessBanner('Candidate question deleted forever!');
+                                                          setTimeout(() => setActionSuccessBanner(null), 2500);
+                                                        } catch {}
+                                                      }}
+                                                      className="w-full py-1 px-2 rounded-lg bg-white hover:bg-rose-50 text-rose-600 hover:text-rose-800 border border-stone-200 text-[10px] font-bold transition cursor-pointer flex items-center justify-center gap-1"
+                                                      title="Delete this question from question bank"
+                                                    >
+                                                      <Trash2 className="w-3 h-3" />
+                                                      <span>Delete</span>
+                                                    </button>
+                                                  </td>
+                                                </tr>
+                                              );
+                                            })}
+                                          </tbody>
+                                        </table>
+                                      );
+                                    })()}
+                                  </div>
+
+                                  {/* Footer */}
+                                  <div className="p-4 bg-stone-50 border-t-2 border-stone-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                    <div className="text-xs text-stone-600">
+                                      {pendingSwapId ? (
+                                        <span className="font-bold text-sky-900">
+                                          ✓ Ready to swap with selected question. Click "Confirm Swap & Save" to apply.
+                                        </span>
+                                      ) : (
+                                        <span>Click any question row to select it, or click "Swap In" to swap directly.</span>
+                                      )}
+                                    </div>
+
+                                    <div className="flex items-center gap-2">
+                                      <button
+                                        type="button"
+                                        onClick={() => {
+                                          setActiveSwapIdx(null);
+                                          setSwapCandidates([]);
+                                          setPendingSwapId(null);
+                                        }}
+                                        className="px-4 py-2 rounded-xl bg-white hover:bg-stone-100 text-stone-700 font-bold text-xs border border-stone-300 transition cursor-pointer"
+                                      >
+                                        Cancel
+                                      </button>
+
+                                      {pendingSwapId && (
+                                        <button
+                                          type="button"
+                                          onClick={() => handleExecuteSpecificSwap(originalIdx, pendingSwapId)}
+                                          className="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs border-2 border-stone-800 shadow-[2px_2px_0px_#1c1917] transition cursor-pointer flex items-center gap-1.5 transform hover:scale-[1.02] active:scale-95"
+                                        >
+                                          <CheckCircle2 className="w-4 h-4" />
+                                          <span>Confirm Swap & Save to Cloud</span>
+                                        </button>
+                                      )}
+                                    </div>
+                                  </div>
                                 </div>
-                                {swapCandidates.length === 0 && <div className="text-xs text-sky-600 p-3">No alternative questions found in bank.</div>}
                               </div>
                             )}
                           </div>
