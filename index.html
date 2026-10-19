@@ -24,7 +24,7 @@
     <meta name="twitter:title" content="Neetcbt for neet aspirants | All-India CBT Test Series" />
     <meta name="twitter:description" content="Neetcbt for neet aspirants: Official Computer-Based Test (CBT) simulator and All-India test series for NEET aspirants." />
 
-    <!-- Schema.org Structured Data for Google Snippets -->
+    <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -51,16 +51,12 @@
     }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <style>
-      body {
-        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      }
-      code, pre, .font-mono {
-        font-family: 'JetBrains Mono', monospace;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Design System Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+
     <script>
       // Automatically refresh stale client sessions when a new build is deployed
       window.addEventListener('vite:preloadError', function(event) {
@@ -75,27 +71,883 @@
       });
     </script>
   </head>
-  <body class="bg-white text-[#1c1917] antialiased selection:bg-[#dbeafe] selection:text-[#1e3a8a]">
+  <body>
     <div id="root">
-      <!-- Crawlable pre-render content for search engine bots (Googlebot, Bingbot) -->
-      <header style="padding: 1.5rem; background: #ffffff; border-bottom: 1px solid #e5e7eb;">
-        <h1 style="font-size: 1.5rem; font-weight: 700; color: #1e3a8a; margin-bottom: 0.5rem;">Neetcbt for neet aspirants | All-India CBT Test Series & Exam Simulator</h1>
-        <p style="color: #4b5563; font-size: 1rem; line-height: 1.5;">Official Computer-Based Test (CBT) simulator and All-India test series engineered exclusively for NEET-UG Medical Aspirants. Practice authentic 180-question PCB mock tests with real NTA CBT interface, instant AIR rank prediction, chapter-wise mastery across 96 NCERT chapters, and 25,153+ verified Government Medical College (GMC) cutoffs.</p>
-      </header>
-      <main style="max-width: 1200px; margin: 1.5rem auto; padding: 0 1rem;">
-        <section style="background: #ffffff; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #e5e7eb; margin-bottom: 1rem;">
-          <h2 style="font-size: 1.25rem; font-weight: 600; color: #111827; margin-bottom: 0.75rem;">33 Sunday Nationwide Mock Cycles & Question Bank</h2>
-          <p style="color: #374151; line-height: 1.6;">Simulate Sunday 2:00 PM to 5:20 PM NTA exam conditions with 720 marks and authentic PCB weightage (45 Physics, 45 Chemistry, 90 Biology). Complete question bank coverage for 38 Biology, 30 Chemistry, and 28 Physics chapters.</p>
-          <ul style="color: #374151; margin-top: 0.5rem; line-height: 1.6;">
-            <li>180-Question PCB Blueprint matching the latest NTA NEET-UG standard.</li>
-            <li>Instant All-India Rank (AIR) calculation and AI error analysis.</li>
-            <li>25,153+ MCC AIQ & Maharashtra State CAP Government Medical College seat cutoff analytics.</li>
-            <li>Learn more on our dedicated <a href="/about" style="color: #2563eb; text-decoration: underline;">About Platform</a> page.</li>
+      <!-- 1. STICKY TOP NAVBAR -->
+      <header class="site-navbar">
+        <div class="site-container nav-wrapper">
+          <a href="#home" class="nav-brand">
+            <div class="nav-logo-badge">⚡</div>
+            <span>NeetCbt</span>
+          </a>
+
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#why-us">Why Choose Us</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </nav>
+
+          <div class="nav-right-actions">
+            <a href="#enroll" class="nav-login-link">Student Login</a>
+            <a href="#pricing" class="btn-primary">Enroll Now &rarr;</a>
+          </div>
+
+          <button class="nav-hamburger" aria-label="Toggle Navigation Menu">&#9776;</button>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div class="mobile-nav-drawer">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#enroll" style="color: var(--color-primary); font-weight: 700;">Enroll Now</a></li>
           </ul>
+        </div>
+      </header>
+
+      <main>
+        <!-- 2. HERO SECTION -->
+        <section id="home" class="hero-section">
+          <div class="site-container hero-grid">
+            <div class="hero-content">
+              <div class="hero-tag">
+                <span>⚡ AI-Powered NEET 2027 CBT Simulation</span>
+              </div>
+              <h1 class="hero-heading">
+                Crack NEET with <span class="highlight">AI Precision</span> &amp; Real CBT Simulation
+              </h1>
+              <p class="hero-desc">
+                Master high-yield NCERT concepts, practice authentic 720-mark NTA-pattern Sunday CBT mocks, eliminate negative marking, and predict your All-India Rank with pinpoint accuracy.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#pricing" class="btn-primary">Enroll Now &rarr;</a>
+                <a href="#pricing" class="btn-secondary">Take a Free Mock Test</a>
+              </div>
+
+              <div class="hero-social-proof">
+                <div class="avatar-stack">
+                  <div class="avatar-circle" style="background-color: #dbeafe; color: #1e40af;">AS</div>
+                  <div class="avatar-circle" style="background-color: #fef3c7; color: #92400e;">SP</div>
+                  <div class="avatar-circle" style="background-color: #d1fae5; color: #065f46;">RV</div>
+                  <div class="avatar-circle" style="background-color: #e0e7ff; color: #3730a3;">AD</div>
+                </div>
+                <div class="social-proof-text">
+                  <strong>Trusted by 1,00,000+</strong> NEET aspirants &bull; &#9733;&#9733;&#9733;&#9733;&#9733; (4.9/5)
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Dashboard Mockup -->
+            <div class="hero-mockup-wrapper">
+              <div class="dashboard-cluster">
+                <!-- Card 1: Projected AIR -->
+                <div class="mock-card mock-card-rank animate-float-1">
+                  <div style="font-size: 0.75rem; font-weight: 700; color: var(--color-text-light); text-transform: uppercase;">All-India Rank Prediction</div>
+                  <div style="font-size: 1.6rem; font-weight: 800; color: var(--color-primary); margin: 2px 0;">AIR 642 <span style="font-size: 0.85rem; color: var(--color-success); font-weight: 700;">&uarr; Top 0.3%</span></div>
+                  <div style="font-size: 0.78rem; color: var(--color-text-muted);">Current Score: <strong>685 / 720</strong></div>
+                  <div class="mini-sparkline">
+                    <div class="spark-bar" style="height: 40%;"></div>
+                    <div class="spark-bar" style="height: 55%;"></div>
+                    <div class="spark-bar" style="height: 70%;"></div>
+                    <div class="spark-bar" style="height: 65%;"></div>
+                    <div class="spark-bar" style="height: 85%;"></div>
+                    <div class="spark-bar active" style="height: 95%;"></div>
+                  </div>
+                </div>
+
+                <!-- Card 2: Syllabus Coverage -->
+                <div class="mock-card mock-card-syllabus animate-float-2">
+                  <div style="font-size: 0.75rem; font-weight: 700; color: var(--color-text-light); text-transform: uppercase;">Syllabus Mastery</div>
+                  <div style="margin-top: 8px;">
+                    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 700;">
+                      <span>Botany &amp; Zoology</span><span style="color: var(--color-success);">94%</span>
+                    </div>
+                    <div class="mini-progress-track"><div class="mini-progress-fill" style="width: 94%; background: var(--color-success);"></div></div>
+                  </div>
+                  <div style="margin-top: 6px;">
+                    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 700;">
+                      <span>Chemistry</span><span style="color: var(--color-primary);">88%</span>
+                    </div>
+                    <div class="mini-progress-track"><div class="mini-progress-fill" style="width: 88%; background: var(--color-primary);"></div></div>
+                  </div>
+                  <div style="margin-top: 6px;">
+                    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 700;">
+                      <span>Physics</span><span style="color: var(--color-warning);">82%</span>
+                    </div>
+                    <div class="mini-progress-track"><div class="mini-progress-fill" style="width: 82%; background: var(--color-warning);"></div></div>
+                  </div>
+                </div>
+
+                <!-- Card 3: Weak Chapters Warning -->
+                <div class="mock-card mock-card-weak animate-float-3">
+                  <div style="font-size: 0.75rem; font-weight: 800; color: var(--color-danger); text-transform: uppercase;">High-Yield Weak Zones</div>
+                  <div style="font-size: 0.82rem; font-weight: 700; margin-top: 4px;">Ray Optics &bull; Ionic Eq.</div>
+                  <div style="font-size: 0.75rem; color: var(--color-text-muted); margin-top: 2px;">+32 marks potential with 2 revision cycles</div>
+                </div>
+
+                <!-- Card 4: CBT Speed Score -->
+                <div class="mock-card mock-card-speed animate-float-1">
+                  <div style="font-size: 0.75rem; font-weight: 700; color: var(--color-text-light); text-transform: uppercase;">CBT Speed Index</div>
+                  <div style="font-size: 1.35rem; font-weight: 800; color: var(--color-text-main); margin-top: 2px;">92 / 100</div>
+                  <div style="font-size: 0.75rem; color: var(--color-success); font-weight: 700;">Avg 54s/Q (Topper 48s)</div>
+                </div>
+
+                <!-- Card 5: Mistake Pattern -->
+                <div class="mock-card mock-card-mistakes animate-float-2">
+                  <div style="font-size: 0.72rem; font-weight: 700; color: var(--color-text-light); text-transform: uppercase;">Error Diagnostics</div>
+                  <div style="font-size: 0.78rem; font-weight: 600; color: var(--color-text-main); margin-top: 4px;">
+                    Silly Errors: <strong style="color: var(--color-danger);">12%</strong><br />
+                    Concept Gaps: <strong style="color: var(--color-warning);">8%</strong><br />
+                    Time Strain: <strong style="color: var(--color-primary);">4%</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. SCROLLING ANNOUNCEMENT TICKER (MARQUEE) -->
+        <div class="marquee-strip">
+          <div class="marquee-track">
+            <div class="marquee-item"><span class="marquee-dot"></span> NEET 2027 Admissions Open</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> 33 Sunday All-India CBT Mocks</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> 1,00,000+ Active Aspirants</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> Average +135 Marks Improvement</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> 100% NCERT Calibrated Question Bank</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> Instant AIR &amp; GMC Cutoff Predictor</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> 2-Device Protected Cloud Access</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> Early Bird 10% Discount Live</div>
+            <!-- Duplicate for infinite seamless scroll -->
+            <div class="marquee-item"><span class="marquee-dot"></span> NEET 2027 Admissions Open</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> 33 Sunday All-India CBT Mocks</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> 1,00,000+ Active Aspirants</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> Average +135 Marks Improvement</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> 100% NCERT Calibrated Question Bank</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> Instant AIR &amp; GMC Cutoff Predictor</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> 2-Device Protected Cloud Access</div>
+            <div class="marquee-item"><span class="marquee-dot"></span> Early Bird 10% Discount Live</div>
+          </div>
+        </div>
+
+        <!-- 4. WHY TRUST US SECTION -->
+        <section id="why-us" class="landing-section alt-bg">
+          <div class="site-container">
+            <h2 class="section-heading">Why Serious NEET Aspirants Trust NeetCbt</h2>
+            <p class="section-subheading">
+              The only platform built specifically to replicate NTA exam-day conditions and turn your weaknesses into high-scoring strengths.
+            </p>
+
+            <div class="trust-grid">
+              <!-- Card 1 -->
+              <div class="trust-card">
+                <span class="tag-chip tag-ai">AI POWERED</span>
+                <h3>Adaptive Diagnostic Practice</h3>
+                <p>AI algorithms detect your knowledge gaps chapter-by-chapter, generating targeted drills to eliminate recurring errors.</p>
+                <ul class="check-list">
+                  <li><span class="check-icon">&#10003;</span> Tailored questions adapting to your weak zones</li>
+                  <li><span class="check-icon">&#10003;</span> 100% NCERT page-referenced explanations</li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="trust-card">
+                <span class="tag-chip tag-exam">EXAM READY</span>
+                <h3>Exact NTA CBT Simulation</h3>
+                <p>Identical 3-hour 20-minute computer-based interface with authentic Section A/B separation, color-coded question palette, and countdown clock.</p>
+                <ul class="check-list">
+                  <li><span class="check-icon">&#10003;</span> Full question palette &amp; color-coded response states</li>
+                  <li><span class="check-icon">&#10003;</span> Real-time countdown &amp; instant auto-save engine</li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="trust-card">
+                <span class="tag-chip tag-data">DATA DRIVEN</span>
+                <h3>All-India Rank Prediction</h3>
+                <p>Real-time percentile benchmarking against 1,00,000+ test attempts with Govt Medical College (GMC) seat cutoff probability.</p>
+                <ul class="check-list">
+                  <li><span class="check-icon">&#10003;</span> Projected AIR &amp; GMC seat allotment chances</li>
+                  <li><span class="check-icon">&#10003;</span> AI negative marking reduction matrix</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="trust-banner-strip">
+              <span>&#128202; Built on data of <strong>50,000+ students</strong> and <strong>millions of test attempts</strong> across India.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. SUCCESS STORIES / RESULTS -->
+        <section class="landing-section">
+          <div class="site-container">
+            <h2 class="section-heading">Real Students. Real Rank Improvements.</h2>
+            <p class="section-subheading">
+              See how aspirants transformed their scores from 480 to 670+ with our Sunday CBT test cycles.
+            </p>
+
+            <!-- 4 Stat Counters -->
+            <div class="stats-row">
+              <div class="stat-box">
+                <div class="stat-number" data-target="98.4" data-suffix="%">98.4%</div>
+                <div class="stat-label">Student Satisfaction</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="135" data-prefix="+">+135</div>
+                <div class="stat-label">Avg Score Improvement</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="1200" data-suffix="+">1,200+</div>
+                <div class="stat-label">GMC MBBS Selections</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="25" data-suffix="M+">25M+</div>
+                <div class="stat-label">MCQs Practiced</div>
+              </div>
+            </div>
+
+            <!-- 1 Large Featured Story Card -->
+            <div class="featured-story-card">
+              <div class="story-avatar-col">
+                <div class="student-img-large" style="display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: 800; color: var(--color-primary);">AS</div>
+                <div class="air-badge">&#127942; AIR 342</div>
+                <h4 style="font-size: 1.25rem; font-weight: 800; margin-top: 8px;">Aryan Sharma</h4>
+                <div style="font-size: 0.85rem; color: var(--color-primary); font-weight: 700;">Rank Booster Pack &bull; AIIMS New Delhi</div>
+              </div>
+
+              <div>
+                <div class="story-meta-grid">
+                  <div class="meta-item">
+                    <div class="meta-val">512</div>
+                    <div class="meta-lbl">Started At</div>
+                  </div>
+                  <div class="meta-item">
+                    <div class="meta-val" style="color: var(--color-success);">+168</div>
+                    <div class="meta-lbl">Improved By</div>
+                  </div>
+                  <div class="meta-item">
+                    <div class="meta-val" style="color: var(--color-primary);">680 / 720</div>
+                    <div class="meta-lbl">Final Score</div>
+                  </div>
+                  <div class="meta-item">
+                    <div class="meta-val" style="color: #b45309;">AIR 342</div>
+                    <div class="meta-lbl">Rank Achieved</div>
+                  </div>
+                </div>
+
+                <p class="student-quote">
+                  &ldquo;The Sunday CBT test simulation and mistake pattern analysis completely changed how I managed time in Physics Section B. I went from panicking on calculations to scoring 170/180 in Physics! The real NTA screen layout made the actual exam feel like just another Sunday mock.&rdquo;
+                </p>
+              </div>
+            </div>
+
+            <!-- 3-Column Grid of Smaller Student Cards -->
+            <div class="students-card-grid">
+              <div class="student-mini-card">
+                <div class="student-header">
+                  <div class="avatar-thumb" style="display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--color-primary);">SP</div>
+                  <div>
+                    <h5 style="font-size: 1rem; font-weight: 800;">Dr. Sneha Patel</h5>
+                    <span class="air-badge" style="font-size: 0.75rem; padding: 2px 8px;">AIR 518</span>
+                  </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                  <span style="font-size: 0.85rem; color: var(--color-text-muted);">530 &rarr; <strong>675 / 720</strong></span>
+                  <span class="improvement-chip">+145 Marks</span>
+                </div>
+                <p style="font-size: 0.82rem; color: var(--color-text-muted); margin-top: 8px;">&ldquo;Practice Pack gave me weekly Sunday discipline and pinpointed botany diagram errors.&rdquo;</p>
+              </div>
+
+              <div class="student-mini-card">
+                <div class="student-header">
+                  <div class="avatar-thumb" style="display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--color-primary);">RV</div>
+                  <div>
+                    <h5 style="font-size: 1rem; font-weight: 800;">Rohan Verma</h5>
+                    <span class="air-badge" style="font-size: 0.75rem; padding: 2px 8px;">AIR 890</span>
+                  </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                  <span style="font-size: 0.85rem; color: var(--color-text-muted);">490 &rarr; <strong>658 / 720</strong></span>
+                  <span class="improvement-chip">+168 Marks</span>
+                </div>
+                <p style="font-size: 0.82rem; color: var(--color-text-muted); margin-top: 8px;">&ldquo;Improvement Pack's negative marking analytics cut down my silly errors by 70%.&rdquo;</p>
+              </div>
+
+              <div class="student-mini-card">
+                <div class="student-header">
+                  <div class="avatar-thumb" style="display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--color-primary);">AD</div>
+                  <div>
+                    <h5 style="font-size: 1rem; font-weight: 800;">Ananya Deshmukh</h5>
+                    <span class="air-badge" style="font-size: 0.75rem; padding: 2px 8px;">AIR 1,240</span>
+                  </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                  <span style="font-size: 0.85rem; color: var(--color-text-muted);">460 &rarr; <strong>642 / 720</strong></span>
+                  <span class="improvement-chip">+182 Marks</span>
+                </div>
+                <p style="font-size: 0.82rem; color: var(--color-text-muted); margin-top: 8px;">&ldquo;The multi-track Sunday testing gave me complete confidence across all 96 NCERT chapters.&rdquo;</p>
+              </div>
+            </div>
+
+            <!-- CTA Banner -->
+            <div class="cta-banner-strip">
+              <div>
+                <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 4px;">Your success story could be next!</h3>
+                <p style="color: rgba(255, 255, 255, 0.9); font-size: 0.95rem;">Join 1,00,000+ serious aspirants targeting top Government Medical Colleges.</p>
+              </div>
+              <a href="#pricing" class="btn-secondary" style="border-color: #ffffff; color: var(--color-primary) !important; background: #ffffff;">Get Started Today &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. ABOUT / TEAM SECTION -->
+        <section id="about" class="landing-section alt-bg">
+          <div class="site-container">
+            <h2 class="section-heading">Designed by Experts. Driven by Data. Built for Results.</h2>
+            <p class="section-subheading">
+              Crafted by top medical educators, AIIMS doctors, and ex-NTA subject consultants dedicated to your MBBS dream.
+            </p>
+
+            <div class="team-grid">
+              <div class="team-card">
+                <div class="team-avatar">DR</div>
+                <div class="team-name">Dr. Rajesh Kumar</div>
+                <div class="team-role">Chief Academic Director</div>
+                <div class="team-qual">MBBS, AIIMS New Delhi</div>
+              </div>
+              <div class="team-card">
+                <div class="team-avatar">AV</div>
+                <div class="team-name">Prof. Arvind Verma</div>
+                <div class="team-role">Head of Physics</div>
+                <div class="team-qual">Ex-Senior Faculty Kota &bull; 22 yrs exp</div>
+              </div>
+              <div class="team-card">
+                <div class="team-avatar">SR</div>
+                <div class="team-name">Dr. Sunita Rao</div>
+                <div class="team-role">Head of Botany</div>
+                <div class="team-qual">Ph.D. Plant Biology &bull; 18 yrs exp</div>
+              </div>
+              <div class="team-card">
+                <div class="team-avatar">MN</div>
+                <div class="team-name">Dr. Meera Nambiar</div>
+                <div class="team-role">Head of Zoology</div>
+                <div class="team-qual">MBBS, MD Physiology</div>
+              </div>
+              <div class="team-card">
+                <div class="team-avatar">VS</div>
+                <div class="team-name">Er. Vikramaditya Singh</div>
+                <div class="team-role">Head of Physical Chemistry</div>
+                <div class="team-qual">B.Tech IIT Bombay &bull; 16 yrs exp</div>
+              </div>
+              <div class="team-card">
+                <div class="team-avatar">PS</div>
+                <div class="team-name">Dr. Pradeep Sharma</div>
+                <div class="team-role">Organic Chemistry Lead</div>
+                <div class="team-qual">Ph.D. Chem, Author &bull; 19 yrs exp</div>
+              </div>
+              <div class="team-card">
+                <div class="team-avatar">KR</div>
+                <div class="team-name">Dr. Kavita Reddy</div>
+                <div class="team-role">Student Mentorship Lead</div>
+                <div class="team-qual">MBBS, KMC Manipal</div>
+              </div>
+              <div class="team-card">
+                <div class="team-avatar">AS</div>
+                <div class="team-name">Amitav Sen</div>
+                <div class="team-role">Lead AI CBT Architect</div>
+                <div class="team-qual">M.Tech IIT Delhi &bull; EdTech Specialist</div>
+              </div>
+            </div>
+
+            <!-- Platform Stats Under Team -->
+            <div class="stats-row" style="margin-bottom: 0;">
+              <div class="stat-box">
+                <div class="stat-number" data-target="100000" data-suffix="+">1,00,000+</div>
+                <div class="stat-label">Aspirants Competing</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="75000" data-suffix="+">75,000+</div>
+                <div class="stat-label">Questions Available</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="450000" data-suffix="+">4,50,000+</div>
+                <div class="stat-label">Tests Attempted</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="3800" data-suffix="+">3,800+</div>
+                <div class="stat-label">NEET Selections</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. FEATURES SECTION -->
+        <section id="features" class="landing-section">
+          <div class="site-container">
+            <h2 class="section-heading">Get Closer to Your NEET Seat</h2>
+            <p class="section-subheading">
+              Every tool in NeetCbt is engineered to eliminate exam anxiety, increase question accuracy, and secure your Govt Medical College berth.
+            </p>
+
+            <div class="features-grid">
+              <!-- Feature 1 -->
+              <div class="feature-card">
+                <div class="feature-graphic-box">
+                  <span style="font-size: 2.5rem;">🎯</span>
+                </div>
+                <h3>Adaptive Practice</h3>
+                <p>Personalized question recommendation engine calibrates difficulty to strengthen your weak topics across Botany, Zoology, Physics &amp; Chemistry.</p>
+                <div class="feature-tags-wrapper">
+                  <span class="feat-tag">AI Diagnostic</span>
+                  <span class="feat-tag">NCERT Direct</span>
+                </div>
+              </div>
+
+              <!-- Feature 2 -->
+              <div class="feature-card">
+                <div class="feature-graphic-box">
+                  <span style="font-size: 2.5rem;">⏱️</span>
+                </div>
+                <h3>Custom Tests</h3>
+                <p>Create unlimited custom chapterwise, multi-chapter, and full-length timed tests with customizable question distributions and timers.</p>
+                <div class="feature-tags-wrapper">
+                  <span class="feat-tag">Chapter-wise</span>
+                  <span class="feat-tag">Speed Drills</span>
+                </div>
+              </div>
+
+              <!-- Feature 3 -->
+              <div class="feature-card">
+                <div class="feature-graphic-box">
+                  <span style="font-size: 2.5rem;">📊</span>
+                </div>
+                <h3>AI Performance Analytics</h3>
+                <p>Deep-dive diagnostic reports revealing your speed-accuracy quadrant, mistake categorizations (silly vs concept), and predicted AIR.</p>
+                <div class="feature-tags-wrapper">
+                  <span class="feat-tag">Mistake Engine</span>
+                  <span class="feat-tag">Time Matrix</span>
+                </div>
+              </div>
+
+              <!-- Feature 4 -->
+              <div class="feature-card">
+                <div class="feature-graphic-box">
+                  <span style="font-size: 2.5rem;">📖</span>
+                </div>
+                <h3>NCERT Question Bank</h3>
+                <p>Over 75,000+ line-by-line NCERT questions covering statement-wise, assertion-reason, diagram-based, and match-the-column formats.</p>
+                <div class="feature-tags-wrapper">
+                  <span class="feat-tag">100% Syllabus</span>
+                  <span class="feat-tag">Diagram MCQs</span>
+                </div>
+              </div>
+
+              <!-- Feature 5 -->
+              <div class="feature-card">
+                <div class="feature-graphic-box">
+                  <span style="font-size: 2.5rem;">🔄</span>
+                </div>
+                <h3>Smart Revision Planner</h3>
+                <p>Spaced-repetition review queues ensure you never forget high-frequency formulas, biological cycles, or organic reactions before exam day.</p>
+                <div class="feature-tags-wrapper">
+                  <span class="feat-tag">Spaced Repetition</span>
+                  <span class="feat-tag">Formula Sheets</span>
+                </div>
+              </div>
+
+              <!-- Feature 6 -->
+              <div class="feature-card">
+                <div class="feature-graphic-box">
+                  <span style="font-size: 2.5rem;">📅</span>
+                </div>
+                <h3>Structured Learning Path</h3>
+                <p>Curated 33 Sunday mock test cycles across Dropper, Class 12th, and Class 11th tracks with synchronized nationwide rankings.</p>
+                <div class="feature-tags-wrapper">
+                  <span class="feat-tag">Tracks 1–3</span>
+                  <span class="feat-tag">Sunday CBT</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 8. PRICING SECTION -->
+        <section id="pricing" class="landing-section alt-bg">
+          <div class="site-container">
+            <h2 class="section-heading">Choose Your Plan</h2>
+            <p class="section-subheading">
+              Transparent, student-friendly pricing with instant CBT test unlocks. Select your target batch and package.
+            </p>
+
+            <div class="early-bird-strip">
+              <span>&#127881; LIMITED TIME OFFER: Early Bird 10% &ndash; 25% Instant Discount Live on All CBT Packs!</span>
+            </div>
+
+            <div class="pricing-grid">
+              <!-- Plan 1: Free Mock -->
+              <div class="pricing-card">
+                <div class="plan-title">Free Mock</div>
+                <div class="price-strike">&#8377;999</div>
+                <div class="price-current">&#8377;0 <span>/year</span></div>
+                <div class="per-day-line" style="color: var(--color-primary);">&#8377;0 / day</div>
+                <div class="ideal-for-box"><strong>Ideal for:</strong> First-time aspirants testing the NTA CBT interface</div>
+                <ul class="plan-features-list">
+                  <li><span class="check-icon">&#10003;</span> 1 Full-Length 720-Mark Sunday Mock</li>
+                  <li><span class="check-icon">&#10003;</span> Real NTA CBT Testing Interface</li>
+                  <li><span class="check-icon">&#10003;</span> Instant Scorecard &amp; Solutions</li>
+                  <li><span class="check-icon">&#10003;</span> All-India Rank Preview</li>
+                </ul>
+                <a href="#enroll" class="btn-secondary" style="width: 100%;">Start Free Mock</a>
+                <div class="guarantee-note">&#10003; 100% Free Forever</div>
+              </div>
+
+              <!-- Plan 2: Practice Pack -->
+              <div class="pricing-card">
+                <div class="plan-title">Practice Pack</div>
+                <div class="price-strike">&#8377;4,999</div>
+                <div class="price-current">&#8377;2,999 <span>/year</span></div>
+                <div class="per-day-line">Just &#8377;8 / day</div>
+                <div class="ideal-for-box"><strong>Ideal for:</strong> Aspirants wanting consistent weekly chapterwise testing</div>
+                <ul class="plan-features-list">
+                  <li><span class="check-icon">&#10003;</span> 20 Sunday Chapterwise CBT Mocks</li>
+                  <li><span class="check-icon">&#10003;</span> NCERT Referenced Explanations</li>
+                  <li><span class="check-icon">&#10003;</span> Weak-Area Diagnostic Tags</li>
+                  <li><span class="check-icon">&#10003;</span> 2-Device Protected Cloud Access</li>
+                  <li><span class="check-icon">&#10003;</span> State Quota Rank Comparison</li>
+                </ul>
+                <a href="#enroll" class="btn-primary" style="width: 100%;">Choose Practice Pack</a>
+                <div class="guarantee-note">&#128274; 7-Day Money-back guarantee</div>
+              </div>
+
+              <!-- Plan 3: Improvement Pack (Most Popular) -->
+              <div class="pricing-card featured-card">
+                <div class="popular-ribbon">&#9733; Most Popular</div>
+                <div class="plan-title">Improvement Pack</div>
+                <div class="price-strike">&#8377;7,999</div>
+                <div class="price-current">&#8377;4,999 <span>/year</span></div>
+                <div class="per-day-line">Just &#8377;13 / day</div>
+                <div class="ideal-for-box"><strong>Ideal for:</strong> Droppers &amp; Class 12 students aiming for 650+ marks</div>
+                <ul class="plan-features-list">
+                  <li><span class="check-icon">&#10003;</span> 33 Sunday All-India CBT Mocks</li>
+                  <li><span class="check-icon">&#10003;</span> AI Rank &amp; GMC Probability Predictor</li>
+                  <li><span class="check-icon">&#10003;</span> Mistake Pattern &amp; Silly Error Tracker</li>
+                  <li><span class="check-icon">&#10003;</span> Complete 75,000+ NCERT Question Bank</li>
+                  <li><span class="check-icon">&#10003;</span> Priority Faculty Doubt Support</li>
+                  <li><span class="check-icon">&#10003;</span> 2-Device Protected Mobile + Laptop</li>
+                </ul>
+                <a href="#enroll" class="btn-primary" style="width: 100%; box-shadow: 0 6px 20px rgba(0, 123, 255, 0.45);">Enroll in Improvement Pack</a>
+                <div class="guarantee-note">&#128274; 100% Money-back guarantee</div>
+              </div>
+
+              <!-- Plan 4: Rank Booster Pack -->
+              <div class="pricing-card">
+                <div class="plan-title">Rank Booster Pack</div>
+                <div class="price-strike">&#8377;14,999</div>
+                <div class="price-current">&#8377;9,497 <span>/year</span></div>
+                <div class="per-day-line">Just &#8377;26 / day</div>
+                <div class="ideal-for-box"><strong>Ideal for:</strong> Top rank contenders aiming for AIIMS &amp; top Govt seats</div>
+                <ul class="plan-features-list">
+                  <li><span class="check-icon">&#10003;</span> Complete All-Track Combo (115 Tests)</li>
+                  <li><span class="check-icon">&#10003;</span> Unlimited Custom CBT Tests</li>
+                  <li><span class="check-icon">&#10003;</span> AIIMS &amp; GMC Cutoff Analytics (25,153+ Seats)</li>
+                  <li><span class="check-icon">&#10003;</span> High-Yield Diagrams &amp; Formula Sheets</li>
+                  <li><span class="check-icon">&#10003;</span> 1-on-1 Performance Consultation</li>
+                  <li><span class="check-icon">&#10003;</span> 2-Device Seamless Cloud Sync</li>
+                </ul>
+                <a href="#enroll" class="btn-primary" style="width: 100%;">Choose Rank Booster</a>
+                <div class="guarantee-note">&#128274; 100% Money-back guarantee</div>
+              </div>
+            </div>
+
+            <!-- Trust Badges Under Pricing -->
+            <div class="pricing-trust-badges">
+              <div class="trust-badge-item">
+                <span style="font-size: 1.25rem;">🔒</span>
+                <span>100% Secure Payment (Razorpay 256-bit SSL)</span>
+              </div>
+              <div class="trust-badge-item">
+                <span style="font-size: 1.25rem;">📚</span>
+                <span>75,000+ NCERT Questions</span>
+              </div>
+              <div class="trust-badge-item">
+                <span style="font-size: 1.25rem;">🎓</span>
+                <span>1,00,000+ Aspirants Enrolled</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 9. FAQ SECTION -->
+        <section id="faq" class="landing-section">
+          <div class="site-container faq-container">
+            <h2 class="section-heading">Frequently Asked Questions</h2>
+            <p class="section-subheading">
+              Everything you need to know about our Sunday CBT Test Series, package unlocks, and performance analytics.
+            </p>
+
+            <div class="faq-accordion">
+              <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                  <span>How does package-based Sunday test unlocking work?</span>
+                  <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  When you enroll in a package (such as Practice Pack, Improvement Pack, or Rank Booster Pack), all Sunday tests belonging to that track are instantly unlocked for your candidate roll number. You can take them in authentic CBT mode, receive instant All-India Ranks (AIR), and review detailed step-by-step NCERT-referenced explanations.
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                  <span>Is the test interface identical to the official NTA NEET exam?</span>
+                  <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  Yes, our platform features the exact NTA computer-based testing interface, including the timed countdown clock, question palette with answered/unanswered/marked-for-review statuses, Section A/B separation, and instant submission analysis.
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                  <span>Can I access the test series on both mobile and laptop?</span>
+                  <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  Yes, our platform supports dual-device protected access. Your enrollment is cryptographically bound to your registered phone number and roll number, allowing seamless transition between your laptop and mobile device without data loss.
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                  <span>Can I purchase single tracks or combos?</span>
+                  <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  Yes! You can purchase individual tracks (such as Track 1 Chapterwise, Track 2 Fast-Track, or Track 3 Physics &amp; Chemistry) or save with high-value combos like the Complete All-Track Combo which gives unrestricted access to all 115 tests.
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                  <span>Are full solutions and All-India Ranks predicted immediately?</span>
+                  <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  Immediately upon submitting your CBT test, you receive your detailed scorecard with raw marks, negative marking deductions, accuracy rate, subject percentiles, step-by-step explanations, and projected All-India Rank (AIR).
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                  <span>What payment methods are supported, and is it secure?</span>
+                  <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  We process payments securely through Razorpay with 256-bit bank-grade encryption. All major UPI apps (Google Pay, PhonePe, Paytm), Credit/Debit cards, Net Banking, and EMI options are fully supported.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 10. ENROLL / CONTACT SECTION -->
+        <section id="enroll" class="landing-section alt-bg">
+          <div class="site-container">
+            <div class="enroll-grid">
+              <!-- Left Panel -->
+              <div class="enroll-left-panel">
+                <div>
+                  <span class="discount-tag">&#127881; 10% OFF EARLY-BIRD</span>
+                  <h3>Start Your Journey to Government Medical College</h3>
+                  <p style="color: #cbd5e1; font-size: 0.95rem; line-height: 1.6;">
+                    Enroll today to lock in early-bird pricing starting from &#8377;2,999/year. Get instant CBT credentials, Sunday mock test cycles, and AI diagnostics.
+                  </p>
+
+                  <ul class="enroll-features-list">
+                    <li><span style="color: var(--color-success); font-weight: 800;">&#10003;</span> Instant Sunday CBT Test Unlocking</li>
+                    <li><span style="color: var(--color-success); font-weight: 800;">&#10003;</span> 720-Mark Scorecards &amp; Projected AIR</li>
+                    <li><span style="color: var(--color-success); font-weight: 800;">&#10003;</span> 25,153+ Verified GMC Cutoff Intelligence</li>
+                    <li><span style="color: var(--color-success); font-weight: 800;">&#10003;</span> 2-Device Protected Laptop + Mobile Sync</li>
+                  </ul>
+                </div>
+
+                <div class="enroll-contact-info">
+                  <div>&#128205; Serving aspirants in all 28 States &amp; 8 UTs across India</div>
+                  <div>&#9993; Academic Support: <strong style="color: #ffffff;">support@neetcbt.in</strong></div>
+                  <div>&#9742; Candidate Helpline: <strong style="color: #ffffff;">+91 (020) 4123-5678</strong></div>
+                </div>
+              </div>
+
+              <!-- Right Form Card -->
+              <div class="enroll-right-card">
+                <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Candidate Registration</h3>
+                <p style="color: var(--color-text-muted); font-size: 0.88rem; margin-bottom: 24px;">Fill in your details for instant CBT access &amp; roll number issuance.</p>
+
+                <div id="enrollSuccessAlert" class="form-alert success"></div>
+                <div id="enrollErrorAlert" class="form-alert error"></div>
+
+                <form id="enrollForm">
+                  <div class="form-group">
+                    <label class="form-label">Full Name *</label>
+                    <input type="text" name="fullName" class="form-input" placeholder="e.g. Aryan Sharma" required />
+                  </div>
+
+                  <div class="form-row-2">
+                    <div class="form-group">
+                      <label class="form-label">Email Address *</label>
+                      <input type="email" name="email" class="form-input" placeholder="student@example.com" required />
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">Mobile Number *</label>
+                      <input type="tel" name="phone" class="form-input" placeholder="10-digit mobile number" maxlength="10" required />
+                    </div>
+                  </div>
+
+                  <div class="form-row-2">
+                    <div class="form-group">
+                      <label class="form-label">Interested Plan *</label>
+                      <select name="plan" class="form-select" required>
+                        <option value="">Select Plan</option>
+                        <option value="free">Free Mock Test (&#8377;0)</option>
+                        <option value="practice">Practice Pack (&#8377;2,999)</option>
+                        <option value="improvement" selected>Improvement Pack (&#8377;4,999)</option>
+                        <option value="booster">Rank Booster Pack (&#8377;9,497)</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">Target Exam Year *</label>
+                      <select name="targetYear" class="form-select" required>
+                        <option value="2027" selected>NEET 2027</option>
+                        <option value="2028">NEET 2028</option>
+                        <option value="2029">NEET 2029</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-row-2">
+                    <div class="form-group">
+                      <label class="form-label">State / UT *</label>
+                      <select name="state" class="form-select" required>
+                        <option value="Maharashtra" selected>Maharashtra</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="West Bengal">West Bengal</option>
+                        <option value="Other">Other State / UT</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">Student Category *</label>
+                      <div class="category-radio-group">
+                        <label class="radio-pill">
+                          <input type="radio" name="studentCategory" value="fresher" checked />
+                          <span>Fresher (12th)</span>
+                        </label>
+                        <label class="radio-pill">
+                          <input type="radio" name="studentCategory" value="dropper" />
+                          <span>Dropper</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn-primary form-submit-btn" style="width: 100%; padding: 14px; font-size: 1rem; margin-top: 10px;">
+                    Proceed to Enrollment &amp; Instant Access &rarr;
+                  </button>
+
+                  <div class="privacy-note">
+                    🔒 We respect your privacy. No spam. Your phone number is encrypted.
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
+
+      <!-- 11. FOOTER -->
+      <footer class="site-footer">
+        <div class="site-container">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <h4>⚡ NeetCbt Exam Platform</h4>
+              <p style="color: #94a3b8; font-size: 0.88rem; line-height: 1.6; margin-bottom: 16px;">
+                India's standard Computer-Based Testing simulator and All-India mock test platform engineered exclusively for NEET-UG Medical Aspirants.
+              </p>
+              <div style="font-size: 0.82rem; color: #64748b;">
+                MCC AIQ &bull; State Quota &bull; 96 NCERT Chapters &bull; 2-Device Protected
+              </div>
+            </div>
+
+            <div class="footer-col">
+              <h5>Quick Navigation</h5>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#why-us">Why Choose Us</a></li>
+                <li><a href="#about">About Platform</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Course Packages</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h5>Academic Programs</h5>
+              <ul>
+                <li><a href="#pricing">NEET Dropper / Repeater</a></li>
+                <li><a href="#pricing">Class 12th Board + NEET</a></li>
+                <li><a href="#pricing">Class 11th Foundation</a></li>
+                <li><a href="#pricing">33 Sunday All-India Mocks</a></li>
+                <li><a href="#pricing">NCERT Question Bank</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h5>Legal &amp; Policies</h5>
+              <ul>
+                <li><a href="/terms">Terms &amp; Conditions</a></li>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/refund">Refund Policy</a></li>
+                <li><a href="/returns">Return &amp; Delivery Policy</a></li>
+                <li><a href="mailto:support@neetcbt.in">Student Support</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div>
+              &copy; 2026&ndash;2027 NeetCbt. All rights reserved. Built exclusively for NEET-UG Aspirants.
+            </div>
+            <div>
+              Powered by NeetCbt EdTech Engine &bull; neetcbtexam.com
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- 12. FLOATING WHATSAPP / ENROLL BUTTON -->
+      <a href="https://wa.me/919876543210?text=Hello%20NeetCbt%2C%20I%20am%20interested%20in%20the%20NEET%202027%20CBT%20Test%20Series" target="_blank" rel="noopener noreferrer" class="floating-cta-btn" aria-label="Chat on WhatsApp">
+        <span style="font-size: 1.25rem;">💬</span>
+        <span>Chat with Mentor</span>
+      </a>
     </div>
+
+    <!-- Application Module Scripts -->
+    <script src="/js/main.js" defer></script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
