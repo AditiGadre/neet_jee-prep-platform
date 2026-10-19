@@ -918,11 +918,15 @@ export function extractQuestionsFromPdfText(
   const isVectorSparse = fullText.length < 3500 && (upperText.includes('ELECTROSTATICS') || upperText.includes(''));
 
   if (isElectrostaticsDoc && isVectorSparse) {
-    return ALL_ALLEN_ELECTROSTATICS_QUESTIONS.map(q => ({
+    return ALL_ALLEN_ELECTROSTATICS_QUESTIONS.map((q, idx) => ({
       ...q,
+      qNum: idx + 1,
+      topic: (q as any).topic || config?.chapter || q.chapter,
+      marks: 4,
+      type: 'single_choice',
       chapter: config?.chapter || q.chapter,
       subject: config?.subject || q.subject
-    }));
+    })) as ExtractedQuestion[];
   }
 
   const answerKeyMap = parseAnswerKey(fullText);
@@ -1065,11 +1069,15 @@ export function extractQuestionsFromPdfText(
 
   // Fallback if extraction returned 0 questions or empty questions on an Electrostatics document
   if ((generatedQuestions.length === 0 || generatedQuestions.every(q => !q.options || q.options[0] === 'Option A')) && isElectrostaticsDoc) {
-    return ALL_ALLEN_ELECTROSTATICS_QUESTIONS.map(q => ({
+    return ALL_ALLEN_ELECTROSTATICS_QUESTIONS.map((q, idx) => ({
       ...q,
+      qNum: idx + 1,
+      topic: (q as any).topic || config?.chapter || q.chapter,
+      marks: 4,
+      type: 'single_choice',
       chapter: config?.chapter || q.chapter,
       subject: config?.subject || q.subject
-    }));
+    })) as ExtractedQuestion[];
   }
 
   return generatedQuestions;

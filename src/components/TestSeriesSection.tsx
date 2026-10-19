@@ -1,3 +1,5 @@
+import { openRazorpayCheckout } from '../services/razorpayService';
+import confetti from 'canvas-confetti';
 import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
 import React, { useState, useEffect, useMemo } from 'react';
 import {
@@ -37,7 +39,7 @@ import {
 import { TestItem, TestCategory, Question } from '../types';
 import { downloadTestPaperPDF } from '../utils/pdfDownloader';
 import { recordSuperUserNotification } from '../utils/superUserNotifier';
-import { fetchSundayPaperFromCloud, fetchAllSundayPapersFromCloud, fetchStudentByPhoneFromCloud, cleanPhoneNumber } from '../utils/cloudSyncManager';
+import { fetchSundayPaperFromCloud, fetchAllSundayPapersFromCloud, fetchStudentByPhoneFromCloud, cleanPhoneNumber, syncStudentEnrollmentToCloud } from '../utils/cloudSyncManager';
 import { fetchAuthoritativePaper } from '../services/authoritativeCloudService';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
@@ -511,6 +513,101 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const isUpgradePending = currentTrackUpgradeRequest?.status === 'pending';
   const isUpgradeApproved = currentTrackUpgradeRequest?.status === 'approved';
 
+  
+  const handleRazorpayTrackUpgrade = (pkg: PrepPackageItem) => {
+    const rollNo = enrolledStudent?.rollNumber || rollNumber || 'NCBT-2027';
+    const sName = enrolledStudent?.studentName || studentName || 'Candidate';
+    const sPhone = cleanPhoneNumber(enrolledStudent?.studentPhone || studentPhone || '');
+    const sEmail = enrolledStudent?.email || '';
+
+    openRazorpayCheckout({
+      packageId: pkg.id,
+      packageName: pkg.name,
+      amount: pkg.priceNumber,
+      studentName: sName,
+      studentPhone: sPhone,
+      studentEmail: sEmail,
+      rollNumber: rollNo,
+      unlockedTracks: pkg.unlockedTracks,
+      onSuccess: async (txn) => {
+        try {
+          let existingPkgs: string[] = [];
+          const raw = localStorage.getItem('neet_enrolled_package_ids');
+          if (raw) existingPkgs = JSON.parse(raw);
+          if (!existingPkgs.includes(pkg.id)) {
+            existingPkgs.push(pkg.id);
+          }
+          localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(existingPkgs));
+        } catch {}
+
+        let updatedStudent = enrolledStudent;
+        if (updatedStudent) {
+          const prevPkgs = Array.isArray(updatedStudent.enrolledPackages)
+            ? updatedStudent.enrolledPackages
+            : (updatedStudent.selectedPackage ? [updatedStudent.selectedPackage] : []);
+          const mergedPkgs = [
+            ...prevPkgs.filter((p: any) => (p?.id || p) !== pkg.id),
+            {
+              id: pkg.id,
+              name: pkg.name,
+              price: pkg.price,
+              batch: pkg.batch,
+              unlockedTracks: pkg.unlockedTracks,
+              enrolledAt: new Date().toISOString()
+            }
+          ];
+          updatedStudent = {
+            ...updatedStudent,
+            status: 'approved',
+            enrolledPackages: mergedPkgs,
+            unlockedTracks: Array.from(new Set([
+              ...(updatedStudent.unlockedTracks || []),
+              ...(pkg.unlockedTracks || [])
+            ]))
+          };
+          localStorage.setItem('neet_enrolled_student', JSON.stringify(updatedStudent));
+          await syncStudentEnrollmentToCloud(updatedStudent);
+        }
+
+        try {
+          const reqs = await fetchUnlockRequestsFromCloud();
+          const list = reqs || [];
+          list.unshift({
+            id: 'req-' + Date.now() + '-' + Math.random().toString(36).slice(2, 6),
+            studentName: sName,
+            rollNumber: rollNo,
+            studentPhone: sPhone,
+            parentPhone: updatedStudent?.parentPhone || '',
+            parentEmail: sEmail,
+            targetExam: 'NEET',
+            targetBatch: targetYear,
+            testCode: pkg.id.toUpperCase(),
+            testTitle: `Paid Track Upgrade: ${pkg.shortTitle} (Txn: ${txn.paymentId})`,
+            requestedAt: new Date().toISOString(),
+            approvedAt: new Date().toISOString(),
+            status: 'approved'
+          });
+          await syncUnlockRequestsToCloud(list);
+        } catch {}
+
+        window.dispatchEvent(new Event('neet_auth_change'));
+        window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+        window.dispatchEvent(new CustomEvent('neet_payment_completed', { detail: txn }));
+
+        try {
+          confetti({
+            particleCount: 160,
+            spread: 90,
+            origin: { y: 0.5 }
+          });
+        } catch {}
+
+        setShowAdminApprovalModal(false);
+        setAccessRequestSent(false);
+      }
+    });
+  };
+
   const handleSendUpgradeRequest = async (targetPkg: PrepPackageItem) => {
     setAccessRequestSent(true);
 
@@ -543,7 +640,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
     recordSuperUserNotification({
       contentTitle: `Track Upgrade Request: Candidate ${studentName} (Roll #${rollNumber}) requested upgrade to ${targetPkg.name}`,
-      category: 'Package Upgrade',
+      category: 'Other',
       fileSize: `${targetPkg.testsCount} Tests`,
       subject: 'Sunday Test Series'
     });
@@ -1283,6 +1380,22 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </p>
                       </div>
 
+                      
+                      {/* Direct Instant Pay via Razorpay */}
+                      <button
+                        onClick={() => handleRazorpayTrackUpgrade(currentTrackPackage)}
+                        className="w-full py-3 px-4 rounded-xl bg-[#0284c7] hover:bg-[#0369a1] active:bg-[#075985] text-white font-black text-xs sm:text-sm border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] flex items-center justify-center space-x-2 transform hover:scale-[1.01] active:scale-95"
+                      >
+                        <Sparkles className="w-4 h-4 text-amber-300" />
+                        <span>Pay {currentTrackPackage.price} via Razorpay (Instant Unlock)</span>
+                      </button>
+
+                      <div className="flex items-center justify-center gap-2 text-[10px] text-stone-500 font-bold">
+                        <span>⚡ Instant UPI / Cards</span>
+                        <span>•</span>
+                        <span>Auto-Unlocks {currentTrackPackage.testsCount} Tests</span>
+                      </div>
+
                       {isUpgradePending || accessRequestSent ? (
                         <div className="p-3 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold flex items-center gap-2">
                           <Clock className="w-4 h-4 text-amber-700 shrink-0" />
@@ -1291,24 +1404,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       ) : (
                         <button
                           onClick={() => handleSendUpgradeRequest(currentTrackPackage)}
-                          className="w-full py-2.5 rounded-xl bg-[#ede9fe] hover:bg-[#ddd6fe] active:bg-[#c4b5fd] text-[#5b21b6] font-black text-xs sm:text-sm border-2 border-[#1c1917] transition cursor-pointer shadow-[2px_2px_0px_#1c1917] flex items-center justify-center space-x-2"
+                          className="w-full py-2 rounded-xl bg-white hover:bg-stone-50 text-stone-700 font-bold text-xs border border-stone-300 transition cursor-pointer flex items-center justify-center space-x-1"
                         >
-                          <Send className="w-4 h-4 text-[#7c3aed]" />
-                          <span>Request Upgrade to {currentTrackPackage.shortTitle} (Admin Approval)</span>
+                          <Send className="w-3.5 h-3.5 text-stone-400" />
+                          <span>Or Request Upgrade via Admin Approval (Offline / Institutional)</span>
                         </button>
                       )}
 
-                      <button
-                        onClick={() => {
-                          setShowAdminApprovalModal(false);
-                          if (onOpenEnrollment) {
-                            onOpenEnrollment(currentTrackPackage.id);
-                          }
-                        }}
-                        className="w-full py-2 rounded-xl bg-white hover:bg-stone-50 text-stone-700 font-bold text-xs border border-stone-300 transition cursor-pointer flex items-center justify-center space-x-1"
-                      >
-                        <span>Or Direct Self-Enrollment ({currentTrackPackage.price})</span>
-                      </button>
                     </div>
                   ) : (
                     <button

@@ -132,7 +132,9 @@ import {
 } from '../services/authoritativeCloudService';
 import { MasterDefaultSavesModal } from './MasterDefaultSavesModal';
 import { getPackageById } from '../data/packagesData';
-import { syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud } from '../utils/cloudSyncManager';
+import { syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud, cleanPhoneNumber } from '../utils/cloudSyncManager';
+import { fetchAllPaymentTransactions, PaymentTransactionRecord } from '../services/razorpayService';
+import { CreditCard } from 'lucide-react';
 import { formatQuestionText } from '../utils/textFormatter';
 import {
   extractTextFromPdfDocument,
@@ -155,8 +157,33 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   onOpenUploadModal,
   onOpenWhatExtra
 }) => {
-  const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'generator' | 'telemetry' | 'students'>('requests');
+  const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'generator' | 'telemetry' | 'students' | 'transactions'>('requests');
+  const [paymentTransactions, setPaymentTransactions] = useState<PaymentTransactionRecord[]>([]);
+  const [txnSearchQuery, setTxnSearchQuery] = useState('');
+  const [txnLoading, setTxnLoading] = useState(false);
   const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
+
+  useEffect(() => {
+    const loadTxns = async () => {
+      setTxnLoading(true);
+      try {
+        const list = await fetchAllPaymentTransactions();
+        setPaymentTransactions(list);
+      } finally {
+        setTxnLoading(false);
+      }
+    };
+    loadTxns();
+
+    const handleNewTxn = (e: any) => {
+      if (e?.detail) {
+        setPaymentTransactions(prev => [e.detail, ...prev.filter(t => t.paymentId !== e.detail.paymentId)]);
+      }
+    };
+    window.addEventListener('neet_payment_completed', handleNewTxn);
+    return () => window.removeEventListener('neet_payment_completed', handleNewTxn);
+  }, []);
+
   const [actionSuccessBanner, setActionSuccessBanner] = useState<string | null>(null);
   const [actionErrorBanner, setActionErrorBanner] = useState<string | null>(null);
 
@@ -897,6 +924,29 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   }, []);
 
   // Request Management Handlers
+  const handleGrantAccessDirectly = async (studentToApprove: any) => {
+    try {
+      const sPhone = cleanPhoneNumber(studentToApprove.studentPhone || studentToApprove.phone || '');
+      const student = await fetchStudentByPhoneFromCloud(sPhone) || studentToApprove;
+      const updated = { ...student, status: 'approved' };
+      await syncStudentEnrollmentToCloud(updated);
+      try {
+        const localRaw = localStorage.getItem('neet_enrolled_student');
+        if (localRaw) {
+          const localStudent = JSON.parse(localRaw);
+          if (cleanPhoneNumber(localStudent.studentPhone || '') === sPhone) {
+            localStorage.setItem('neet_enrolled_student', JSON.stringify(updated));
+            window.dispatchEvent(new Event('neet_auth_change'));
+          }
+        }
+      } catch {}
+      window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+      setActionSuccessBanner(`Access granted for ${studentToApprove.studentName || 'Student'}!`);
+    } catch (err: any) {
+      console.warn('Error granting direct access:', err);
+    }
+  };
+
   const handleApproveRequest = async (reqId: string) => {
     const reqToApprove = unlockRequests.find(r => r.id === reqId);
     const updated = unlockRequests.map(r => r.id === reqId ? { ...r, status: 'approved' as const } : r);
@@ -1331,9 +1381,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           : [...topicAllocations, { id: `alloc-${Date.now()}`, subject: targetSubject, chapter: toTopic, count: targetCount }];
 
         setTopicAllocations(updatedAllocations);
-        syncTopicAllocationsToCloud,
-  syncUnlockRequestsToCloud,
-  fetchUnlockRequestsFromCloud(updatedAllocations).catch(() => {});
+        syncTopicAllocationsToCloud(updatedAllocations).catch(() => {});
 
         setActionSuccessBanner(`✓ Topic swapped ("${fromTopic}" ➔ "${toTopic}") successfully!`);
         setTimeout(() => setActionSuccessBanner(null), 3000);
@@ -1410,7 +1458,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       phyPool.push(...getUnifiedQuestionBank('Physics', unit));
     }
     phyPool = Array.from(new Map(phyPool.map(q => [q.id, q])).values());
-    if (phyPool.length === 0) { phyPool = getUnifiedQuestionBank('Physics'); if (phyPool.length === 0) phyPool = [{ 'id': 'phy-fb', 'questionText': 'Sample Physics Q', 'options': ['A','B','C','D'], 'correctAnswer': 'A', 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Physics', 'chapter': 'Any' }]; }
+    if (phyPool.length === 0) { phyPool = getUnifiedQuestionBank('Physics'); if (phyPool.length === 0) phyPool = [{ 'id': 'phy-fb', 'questionText': 'Sample Physics Q', 'options': ['A','B','C','D'], 'correctAnswer': 0, 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Physics', 'chapter': 'Any' }]; }
 
     const randPhy = [...phyPool].sort(() => 0.5 - Math.random());
     const phy45: Question[] = [];
@@ -1434,7 +1482,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       chemPool.push(...getUnifiedQuestionBank('Chemistry', unit));
     }
     chemPool = Array.from(new Map(chemPool.map(q => [q.id, q])).values());
-    if (chemPool.length === 0) { chemPool = getUnifiedQuestionBank('Chemistry'); if (chemPool.length === 0) chemPool = [{ 'id': 'chem-fb', 'questionText': 'Sample Chemistry Q', 'options': ['A','B','C','D'], 'correctAnswer': 'A', 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Chemistry', 'chapter': 'Any' }]; }
+    if (chemPool.length === 0) { chemPool = getUnifiedQuestionBank('Chemistry'); if (chemPool.length === 0) chemPool = [{ 'id': 'chem-fb', 'questionText': 'Sample Chemistry Q', 'options': ['A','B','C','D'], 'correctAnswer': 0, 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Chemistry', 'chapter': 'Any' }]; }
 
     const randChem = [...chemPool].sort(() => 0.5 - Math.random());
     const chem45: Question[] = [];
@@ -1459,14 +1507,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       botPool.push(...getUnifiedQuestionBank('Biology', unit));
     }
     botPool = Array.from(new Map(botPool.map(q => [q.id, q])).values());
-    if (botPool.length === 0) { botPool = getUnifiedQuestionBank('Botany'); if (botPool.length === 0) botPool = [{ 'id': 'bot-fb', 'questionText': 'Sample Botany Q', 'options': ['A','B','C','D'], 'correctAnswer': 'A', 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Botany', 'chapter': 'Any' }]; }
+    if (botPool.length === 0) { botPool = getUnifiedQuestionBank('Biology'); if (botPool.length === 0) botPool = [{ 'id': 'bot-fb', 'questionText': 'Sample Botany Q', 'options': ['A','B','C','D'], 'correctAnswer': 0, 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Biology', 'chapter': 'Any' }]; }
 
     let zooPool: Question[] = [];
     for (const unit of zooUnits) {
       zooPool.push(...getUnifiedQuestionBank('Biology', unit));
     }
     zooPool = Array.from(new Map(zooPool.map(q => [q.id, q])).values());
-    if (zooPool.length === 0) { zooPool = getUnifiedQuestionBank('Zoology'); if (zooPool.length === 0) zooPool = [{ 'id': 'zoo-fb', 'questionText': 'Sample Zoology Q', 'options': ['A','B','C','D'], 'correctAnswer': 'A', 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Zoology', 'chapter': 'Any' }]; }
+    if (zooPool.length === 0) { zooPool = getUnifiedQuestionBank('Biology'); if (zooPool.length === 0) zooPool = [{ 'id': 'zoo-fb', 'questionText': 'Sample Zoology Q', 'options': ['A','B','C','D'], 'correctAnswer': 0, 'explanation': 'None', 'difficulty': 'Medium', 'subject': 'Biology', 'chapter': 'Any' }]; }
 
     const randBot = [...botPool].sort(() => 0.5 - Math.random());
     const bot45: Question[] = [];
@@ -2296,7 +2344,25 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
           <Users className="w-4 h-4" />
           <span>Student Directory & Access</span>
         </button>
+
+        <button
+          onClick={() => setAdminTab('transactions')}
+          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+            adminTab === 'transactions'
+              ? 'bg-sky-600 text-white shadow-xs'
+              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+          }`}
+        >
+          <CreditCard className="w-4 h-4 text-emerald-400" />
+          <span>Payment Transactions (Razorpay)</span>
+          {paymentTransactions.length > 0 && (
+            <span className="px-1.5 py-0.5 rounded-full bg-emerald-500 text-white text-[10px] font-mono font-bold">
+              {paymentTransactions.length} Paid
+            </span>
+          )}
+        </button>
       </div>
+
 
       {/* TAB 1: STUDENT UNLOCK REQUESTS */}
       {adminTab === 'requests' && (

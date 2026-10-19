@@ -142,7 +142,7 @@ class RootErrorBoundary extends Component<RootErrorBoundaryProps, RootErrorBound
       );
     }
 
-    return this.props.children;
+    return (this as any).props.children;
   }
 }
 

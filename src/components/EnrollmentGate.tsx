@@ -41,6 +41,8 @@ import {
   SyncedStudentProfile
 } from '../utils/cloudSyncManager';
 import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
+import { openRazorpayCheckout, PaymentTransactionRecord } from '../services/razorpayService';
+import { CreditCard, Zap, Check } from 'lucide-react';
 
 export interface EnrolledStudent {
   studentName: string;
@@ -155,6 +157,8 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isProcessingPayment, setIsProcessingPayment] = useState(false);
+  const [paymentError, setPaymentError] = useState<string | null>(null);
   const [matchedCloudStudent, setMatchedCloudStudent] = useState<SyncedStudentProfile | null>(null);
   const [isLookingUpPhone, setIsLookingUpPhone] = useState(false);
 
@@ -341,6 +345,197 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
+  };
+
+  
+  const handleRazorpayPayment = async () => {
+    if (!validate()) return;
+
+    setIsProcessingPayment(true);
+    setPaymentError(null);
+
+    // 2-Device Concurrency Verification
+    const authCheck = checkDeviceAuthorization(email.trim().toLowerCase());
+    if (!authCheck.authorized) {
+      setIsProcessingPayment(false);
+      setDeviceLimitError({
+        show: true,
+        devices: authCheck.activeDevices
+      });
+      return;
+    }
+
+    const rollNo = matchedCloudStudent?.rollNumber || getUniversalRollNumber(studentPhone, targetYear);
+    const dobPin = formatDobToPin(dob);
+    const accountPassword = password.trim() || dobPin;
+
+    const studentData: EnrolledStudent = {
+      status: 'approved',
+      studentName: studentName.trim(),
+      parentName: parentName.trim(),
+      parentPhone: parentPhone.replace(/\D/g, ''),
+      parentEmail: parentEmail.trim().toLowerCase() || email.trim().toLowerCase(),
+      studentPhone: studentPhone.replace(/\D/g, ''),
+      domicileState,
+      caste,
+      email: email.trim().toLowerCase(),
+      dob,
+      dobPin,
+      targetYear,
+      enrolledAt: matchedCloudStudent?.enrolledAt || new Date().toISOString(),
+      rollNumber: rollNo,
+      devices: [authCheck.currentDeviceId],
+      studentPhoto,
+      gender,
+      disabilityStatus,
+      specialReservation,
+    };
+
+    const enrolledPackage: EnrolledPackage = {
+      id: chosenPackage.id,
+      name: chosenPackage.name,
+      price: chosenPackage.price,
+      batch: chosenPackage.batch,
+      unlockedTracks: chosenPackage.unlockedTracks,
+      enrolledAt: new Date().toISOString()
+    };
+    const prevPkgs: any[] = Array.isArray(initialData?.enrolledPackages)
+      ? initialData.enrolledPackages
+      : (initialData?.selectedPackage ? [initialData.selectedPackage] : []);
+    const mergedPkgs = [...prevPkgs.filter((p: any) => (p?.id || p) !== chosenPackage.id), enrolledPackage];
+    studentData.selectedPackage = enrolledPackage;
+    studentData.enrolledPackages = mergedPkgs;
+    studentData.unlockedTracks = Array.from(new Set([
+      ...(initialData?.unlockedTracks || []),
+      ...(chosenPackage.unlockedTracks || [])
+    ]));
+
+    openRazorpayCheckout({
+      packageId: chosenPackage.id,
+      packageName: chosenPackage.name,
+      amount: chosenPackage.priceNumber,
+      studentName: studentData.studentName,
+      studentPhone: studentData.studentPhone,
+      studentEmail: studentData.email,
+      rollNumber: studentData.rollNumber,
+      unlockedTracks: studentData.unlockedTracks || [],
+      onSuccess: async (txn) => {
+        try {
+          let existingPkgs: string[] = [];
+          const raw = localStorage.getItem('neet_enrolled_package_ids');
+          if (raw) existingPkgs = JSON.parse(raw);
+          if (!existingPkgs.includes(chosenPackage.id)) {
+            existingPkgs.push(chosenPackage.id);
+          }
+          localStorage.setItem('neet_enrolled_package_ids', JSON.stringify(existingPkgs));
+        } catch {}
+
+        try {
+          const reqs = await fetchUnlockRequestsFromCloud();
+          const list = reqs || [];
+          list.unshift({
+            id: 'req-' + Date.now() + '-' + Math.random().toString(36).slice(2,6),
+            studentName: studentData.studentName,
+            rollNumber: studentData.rollNumber,
+            studentPhone: studentData.studentPhone,
+            parentPhone: studentData.parentPhone,
+            parentEmail: studentData.email,
+            targetExam: 'NEET',
+            targetBatch: studentData.targetYear,
+            testCode: 'REGISTRATION',
+            testTitle: `Paid: ${chosenPackage.name} (Txn: ${txn.paymentId})`,
+            requestedAt: new Date().toISOString(),
+            approvedAt: new Date().toISOString(),
+            status: 'approved'
+          });
+          await syncUnlockRequestsToCloud(list);
+        } catch (e) {
+          console.warn('Sync unlock request error:', e);
+        }
+
+        saveAdminNotification({
+          id: `notif-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
+          type: 'PACKAGE_ENROLLMENT',
+          studentName: studentData.studentName,
+          rollNumber: studentData.rollNumber,
+          studentPhone: studentData.studentPhone,
+          parentName: studentData.parentName,
+          parentPhone: studentData.parentPhone,
+          email: studentData.email,
+          targetYear: studentData.targetYear,
+          packageId: enrolledPackage.id,
+          packageName: enrolledPackage.name,
+          packagePrice: enrolledPackage.price,
+          enrolledAt: enrolledPackage.enrolledAt,
+          read: false
+        });
+
+        try {
+          await syncStudentEnrollmentToCloud(studentData as any);
+        } catch (err) {
+          console.warn('Cloud student sync notice:', err);
+        }
+
+        try {
+          const existingRaw = localStorage.getItem('neet_registered_candidates');
+          const candidates: any[] = existingRaw ? JSON.parse(existingRaw) : [];
+          const filtered = candidates.filter((c: any) => c.email !== studentData.email);
+          filtered.push({
+            ...studentData,
+            password: accountPassword
+          });
+          localStorage.setItem('neet_registered_candidates', JSON.stringify(filtered));
+        } catch (e) {
+          console.error('Failed saving to registered candidates list:', e);
+        }
+
+        localStorage.setItem('neet_enrolled_student', JSON.stringify(studentData));
+        localStorage.setItem('neet_user_enrolled', 'true');
+        localStorage.setItem(
+          'neet_local_user',
+          JSON.stringify({
+            id: 'student-' + studentData.rollNumber,
+            name: studentData.studentName,
+            email: studentData.email,
+            phone: '+91 ' + studentData.studentPhone,
+            parentName: studentData.parentName,
+            parentPhone: '+91 ' + studentData.parentPhone,
+            parentEmail: studentData.parentEmail,
+            domicileState: studentData.domicileState,
+            caste: studentData.caste,
+            dob: studentData.dob,
+            dobPin: studentData.dobPin,
+            targetYear: studentData.targetYear,
+            rollNumber: studentData.rollNumber,
+            studentPhoto: studentData.studentPhoto,
+            gender: studentData.gender,
+            disabilityStatus: studentData.disabilityStatus,
+            specialReservation: studentData.specialReservation,
+          })
+        );
+        localStorage.removeItem('neet_guest_mode');
+
+        window.dispatchEvent(new Event('neet_auth_change'));
+        window.dispatchEvent(new Event('neet_admin_access_changed'));
+        window.dispatchEvent(new CustomEvent('neet_payment_completed', { detail: txn }));
+
+        confetti({
+          particleCount: 150,
+          spread: 90,
+          origin: { y: 0.5 }
+        });
+
+        setIsProcessingPayment(false);
+        onEnrollSuccess(studentData);
+      },
+      onError: (err) => {
+        setIsProcessingPayment(false);
+        setPaymentError(err?.description || 'Payment was unsuccessful or cancelled. You can retry.');
+      },
+      onDismiss: () => {
+        setIsProcessingPayment(false);
+      }
+    });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -1424,17 +1619,99 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({
               )}
             </div>
 
+            
+            {/* Razorpay Order & Payment Box */}
+            <div className="pt-3">
+              <div className="p-4 rounded-2xl bg-white border-2 border-stone-800 shadow-[3px_3px_0px_#1c1917] space-y-3">
+                <div className="flex items-center justify-between border-b border-stone-200 pb-2.5">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-lg bg-sky-100 border border-sky-300 flex items-center justify-center text-sky-700">
+                      <CreditCard className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <div className="text-xs font-black text-stone-900 uppercase tracking-wider">
+                        Razorpay Order Summary
+                      </div>
+                      <div className="text-[11px] text-stone-500 font-medium">
+                        Instant CBT Activation & Track Unlock
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-lg font-black text-sky-700">{chosenPackage.price}</div>
+                    {chosenPackage.originalPrice && (
+                      <div className="text-[10px] text-stone-400 line-through font-semibold">
+                        {chosenPackage.originalPrice}
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap items-center justify-between text-xs gap-2">
+                  <div className="font-bold text-stone-800">{chosenPackage.shortTitle}</div>
+                  <div className="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-black border border-emerald-300">
+                    {chosenPackage.testsCount} Scheduled Sunday Tests
+                  </div>
+                </div>
+
+                {/* Accepted Payment Badges */}
+                <div className="p-2 rounded-xl bg-stone-50 border border-stone-200 flex flex-wrap items-center justify-between gap-1.5 text-[11px] text-stone-600 font-bold">
+                  <span className="flex items-center gap-1 text-stone-800 font-black">
+                    <Zap className="w-3.5 h-3.5 text-amber-500" /> Accepted:
+                  </span>
+                  <span className="px-1.5 py-0.5 bg-white rounded border border-stone-200">UPI (GPay / PhonePe / Paytm)</span>
+                  <span className="px-1.5 py-0.5 bg-white rounded border border-stone-200">RuPay / Visa / MC</span>
+                  <span className="px-1.5 py-0.5 bg-white rounded border border-stone-200">Net Banking</span>
+                </div>
+
+                {paymentError && (
+                  <div className="p-2.5 rounded-xl bg-rose-50 border border-rose-300 text-rose-800 text-xs font-semibold flex items-center gap-2">
+                    <AlertCircle className="w-4 h-4 text-rose-600 shrink-0" />
+                    <span>{paymentError}</span>
+                  </div>
+                )}
+
+                {/* Primary Razorpay Pay Button */}
+                <button
+                  type="button"
+                  onClick={handleRazorpayPayment}
+                  disabled={isProcessingPayment || isSubmitting}
+                  className="w-full py-3.5 px-4 rounded-xl bg-[#0284c7] hover:bg-[#0369a1] active:bg-[#075985] text-white font-black text-sm border-2 border-stone-900 shadow-[3px_3px_0px_#1c1917] transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 transform hover:scale-[1.01] active:scale-95"
+                >
+                  <Sparkles className="w-4 h-4 text-amber-300" />
+                  <span>
+                    {isProcessingPayment ? 'Connecting to Razorpay Secure Gateway...' : `Pay ${chosenPackage.price} with Razorpay (Instant Unlock)`}
+                  </span>
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+
+                <div className="flex items-center justify-center gap-3 text-[10px] text-stone-500 font-semibold">
+                  <span>🔒 256-Bit SSL Encryption</span>
+                  <span>•</span>
+                  <span>Razorpay Verified</span>
+                  <span>•</span>
+                  <span>Zero Wait Time</span>
+                </div>
+              </div>
+            </div>
+
             {/* Submit Action */}
-            <div className="pt-3 space-y-2.5">
+            <div className="pt-2 space-y-2">
+              <div className="relative flex py-1 items-center">
+                <div className="flex-grow border-t border-stone-200"></div>
+                <span className="flex-shrink mx-2 text-[10px] font-bold text-stone-400 uppercase tracking-widest">Or Offline / Trial</span>
+                <div className="flex-grow border-t border-stone-200"></div>
+              </div>
+
               <button
                 type="submit"
-                disabled={isSubmitting}
-                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-sky-600 via-sky-600 to-sky-600 hover:from-sky-700 hover:to-sky-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50 transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
+                disabled={isSubmitting || isProcessingPayment}
+                className="w-full py-2.5 px-4 rounded-xl bg-white hover:bg-stone-50 active:bg-stone-100 text-stone-700 font-bold text-xs border border-stone-300 transition flex items-center justify-center space-x-2 cursor-pointer disabled:opacity-50"
               >
-                <Lock className="w-4 h-4" />
-                <span>{isSubmitting ? 'Verifying 2-Device Concurrency & DOB...' : 'Submit Enrollment & Enter NeetCbt Exam Test'}</span>
-                <ArrowRight className="w-4 h-4 ml-1" />
+                <Lock className="w-3.5 h-3.5 text-stone-400" />
+                <span>{isSubmitting ? 'Submitting Application...' : 'Register for Free Trial / Request Admin Approval'}</span>
               </button>
+
 
               {onClose && (
                 <div className="text-center pt-1">

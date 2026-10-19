@@ -1,5 +1,5 @@
 import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
-import { syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud } from '../utils/cloudSyncManager';
+import { syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud, cleanPhoneNumber } from '../utils/cloudSyncManager';
 import { getPackageById } from '../data/packagesData';
 import React, { useState, useEffect, useMemo } from 'react';
 import {

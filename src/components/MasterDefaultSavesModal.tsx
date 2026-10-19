@@ -278,7 +278,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
     try {
       const canonical = getCanonicalPaperCode(codeToConfirm);
       const isInspecting = canonical === canonicalInspectCode;
-      
+      const bp = getOfficialBaseSundayPaper(canonical);
       let questionsToSave: Question[] = [];
       let customUnits = undefined;
 
@@ -291,7 +291,6 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
           questionsToSave = saved.questions;
           customUnits = saved.customChapters;
         } else {
-          const bp = getOfficialBaseSundayPaper(canonical);
           questionsToSave = bp.questions;
           customUnits = bp.customChapters;
         }
@@ -303,7 +302,7 @@ export const MasterDefaultSavesModal: React.FC<MasterDefaultSavesModalProps> = (
         revision: currentRev,
         questions: questionsToSave,
         customChapters: customUnits,
-        testTitle: bp?.title || `${canonical}: Chapterwise Test`,
+        testTitle: bp?.testTitle || `${canonical}: Chapterwise Test`,
         publishedBy: 'Institutional Master Admin',
         updatedAt: new Date().toISOString()
       };
