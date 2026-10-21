@@ -790,9 +790,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   };
 
   return (
-    <div className="w-full space-y-8">
+    <div className="w-full flex flex-col gap-8">
       {/* 3 Dedicated Batch Tabs with Dropdowns */}
-      <div className="flex flex-wrap items-center justify-between gap-4 relative z-30 pb-2">
+      <div className="flex flex-wrap items-center justify-between gap-4 relative z-30 mb-4 pb-2">
         <div className="flex flex-wrap items-center gap-3">
           
           {/* Repeater Batch */}
@@ -909,7 +909,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       {enrolledPackagesList.length > 0 && (
         <div className="purchased-quota-bar">
           <div className="flex items-center gap-3">
-            <span className="p-2 rounded-xl bg-[#dbeafe] text-[#1e3a8a] border-2 border-[#1c1917]">
+            <span className="p-2 rounded-xl bg-[#dbeafe] text-[#1e3a8a] border border-stone-200">
               <Sparkles className="w-4 h-4" />
             </span>
             <div>
@@ -942,7 +942,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       )}
 
       {/* Header Banner for Current Batch */}
-      <div className="bg-white border border-[var(--border)] rounded-2xl p-6 sm:p-8 shadow-[var(--shadow-sm)] space-y-3">
+      <div className="bg-white border border-[var(--border)] rounded-2xl p-6 sm:p-8 shadow-[var(--shadow-sm)] space-y-4 mt-3">
         <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-[var(--primary-soft)] text-[var(--primary)] text-xs font-bold uppercase tracking-wider mb-1">
           <Sparkles className="w-3.5 h-3.5" />
           <span>Active Test Track &amp; Schedule</span>
@@ -983,10 +983,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
       {/* 12th BATCH REVISION & ANALYSIS BUFFER PANEL */}
       {activeBatch === '12th' && showRevisionBuffer && (
-        <div className="p-5 rounded-2xl bg-white border-2 border-[#1c1917] shadow-[6px_6px_0px_#1c1917] space-y-4 animate-in fade-in duration-200">
+        <div className="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm space-y-4 animate-in fade-in duration-200">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b-2 border-[#1c1917]/10 pb-3">
             <div className="flex items-center gap-3">
-              <span className="p-2.5 rounded-xl bg-[#c2410c] text-white border-2 border-[#1c1917]">
+              <span className="p-2.5 rounded-xl bg-[#c2410c] text-white border border-stone-200">
                 <Sparkles className="w-4 h-4" />
               </span>
               <div>
@@ -1000,7 +1000,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             </div>
             <button
               onClick={() => setShowRevisionBuffer(false)}
-              className="px-3.5 py-1 text-xs font-bold rounded-lg bg-white hover:bg-stone-50 text-[#1c1917] border-2 border-[#1c1917] self-start sm:self-auto cursor-pointer"
+              className="px-3.5 py-1 text-xs font-bold rounded-lg bg-white hover:bg-stone-50 text-[#1c1917] border border-stone-200 self-start sm:self-auto cursor-pointer"
             >
               Hide Buffer
             </button>
@@ -1010,7 +1010,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {REVISION_ANALYSIS_BUFFER_12TH.map((stage, idx) => (
               <div
                 key={idx}
-                className="p-3.5 rounded-xl bg-white border-2 border-[#1c1917] space-y-2"
+                className="p-3.5 rounded-xl bg-white border border-stone-200 space-y-2"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-[#1c1917] bg-[#fde68a] border border-[#1c1917] px-2 py-0.5 rounded font-mono">
@@ -1263,7 +1263,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                           setPendingTestToStart(mock);
                           setShowAdminApprovalModal(true);
                         }}
-                        className="w-full sm:w-auto bg-[#fef3c7] hover:bg-[#fde68a] text-[#78350f] font-black text-xs sm:text-sm px-6 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] flex items-center justify-center space-x-2"
+                        className="w-full sm:w-auto bg-[#fef3c7] hover:bg-[#fde68a] text-[#78350f] font-black text-xs sm:text-sm px-6 py-3.5 rounded-xl border border-stone-200 transition cursor-pointer shadow-[3px_3px_0px_#1c1917] flex items-center justify-center space-x-2"
                       >
                         <Clock className="w-4 h-4 text-amber-700" />
                         <span>Upgrade Pending Approval</span>
@@ -1345,7 +1345,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {/* Content */}
             <div className="p-6 space-y-4">
               {!isTrackPurchased && (
-                <div className="p-4 rounded-2xl bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] space-y-3">
+                <div className="p-4 rounded-2xl bg-white border border-stone-200 shadow-sm space-y-3">
                   <div className="flex items-start justify-between gap-3">
                     <div>
                       <span className="text-[10px] font-black uppercase tracking-wider text-[#1e3a8a] bg-[#dbeafe] px-2 py-0.5 rounded border border-[#bfdbfe]">
@@ -1376,7 +1376,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       {/* Direct Instant Pay via Razorpay */}
                       <button
                         onClick={() => handleRazorpayTrackUpgrade(currentTrackPackage)}
-                        className="w-full py-3 px-4 rounded-xl bg-[#0284c7] hover:bg-[#0369a1] active:bg-[#075985] text-white font-black text-xs sm:text-sm border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] flex items-center justify-center space-x-2 transform hover:scale-[1.01] active:scale-95"
+                        className="w-full py-3 px-4 rounded-xl bg-[#0284c7] hover:bg-[#0369a1] active:bg-[#075985] text-white font-black text-xs sm:text-sm border border-stone-200 transition cursor-pointer shadow-[3px_3px_0px_#1c1917] flex items-center justify-center space-x-2 transform hover:scale-[1.01] active:scale-95"
                       >
                         <Sparkles className="w-4 h-4 text-amber-300" />
                         <span>Pay {currentTrackPackage.price} via Razorpay (Instant Unlock)</span>
@@ -1412,7 +1412,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                           onOpenEnrollment(currentTrackPackage.id);
                         }
                       }}
-                      className="w-full py-2.5 rounded-xl bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-xs sm:text-sm border-2 border-[#1c1917] transition cursor-pointer shadow-[2px_2px_0px_#1c1917] flex items-center justify-center space-x-2"
+                      className="w-full py-2.5 rounded-xl bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-xs sm:text-sm border border-stone-200 transition cursor-pointer shadow-[2px_2px_0px_#1c1917] flex items-center justify-center space-x-2"
                     >
                       <Sparkles className="w-4 h-4 text-[#1e3a8a]" />
                       <span>Enroll to Unlock {currentTrackPackage.testsCount} Tests ({currentTrackPackage.price})</span>

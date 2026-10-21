@@ -148,15 +148,6 @@ export const HomePage: React.FC<HomePageProps> = ({
                   <Calendar className="w-4 h-4 text-[var(--primary)]" />
                   <span>Launch Sunday Test Series</span>
                 </button>
-                {onNavigateToAboutExam && (
-                  <button
-                    onClick={onNavigateToAboutExam}
-                    className="btn-pill-ghost text-xs"
-                  >
-                    <BookOpen className="w-4 h-4 text-[var(--muted)]" />
-                    <span>About NEET Exam &amp; Cutoffs</span>
-                  </button>
-                )}
               </div>
 
               {/* Stats Row */}
@@ -279,9 +270,9 @@ export const HomePage: React.FC<HomePageProps> = ({
               </div>
             </div>
 
-            {/* Gateway 3: About Exam & Cutoffs */}
+            {/* Gateway 3: Instant Score & AIR Analytics */}
             <div
-              onClick={() => onNavigateToAboutExam ? onNavigateToAboutExam() : onNavigateToTestSeries()}
+              onClick={() => onNavigateToTestSeries(activeBatch)}
               className="module-card group"
             >
               <div>
@@ -289,14 +280,14 @@ export const HomePage: React.FC<HomePageProps> = ({
                   <LineChart className="w-6 h-6 text-[var(--primary)]" />
                 </div>
                 <h3 className="module-card-title group-hover:text-[var(--primary)] transition">
-                  3. About NEET Exam &amp; Cutoffs
+                  3. Instant Score &amp; AIR Analytics
                 </h3>
                 <p className="module-card-desc">
-                  25,153+ Verified Government Medical College seat cutoff analytics, Marks vs Rank benchmarks, and state quota admission matrices.
+                  Detailed question-by-question breakdown, negative marking analysis, accuracy rates, and projected All-India Rank (AIR) delivered instantly.
                 </p>
               </div>
               <div className="pt-2 flex items-center gap-1.5 text-xs font-bold text-[var(--primary)]">
-                <span>View Exam Guide &amp; Cutoffs</span>
+                <span>View Performance Analytics</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition" />
               </div>
             </div>
@@ -647,11 +638,11 @@ export const HomePage: React.FC<HomePageProps> = ({
             </h2>
           </div>
 
-          <div className="space-y-3">
+          <div className="flex flex-col gap-4 mt-6">
             {faqs.map((faq, idx) => (
               <div
                 key={idx}
-                className="bg-[var(--surface)] rounded-2xl border border-[var(--border)] shadow-[var(--shadow-sm)] overflow-hidden"
+                className="bg-white rounded-2xl border border-stone-200 shadow-sm overflow-hidden transition-all hover:border-sky-300 hover:shadow-md"
               >
                 <button
                   onClick={() => setOpenFaqIndex(openFaqIndex === idx ? null : idx)}

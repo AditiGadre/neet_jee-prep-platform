@@ -2192,24 +2192,24 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
   return (
     <div className="space-y-5 animate-in fade-in duration-150">
-      {/* Page Header Banner */}
-      <div className="bg-sky-900 border border-stone-800 text-white rounded-2xl p-5 shadow-xl">
+      {/* Page Header Banner - Clean Edge-to-Edge Institutional Styling */}
+      <div className="bg-white border border-stone-200 text-stone-900 rounded-2xl p-6 shadow-xs">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-          <div className="flex items-center space-x-3.5">
-            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-500 via-sky-600 to-sky-600 flex items-center justify-center text-white shadow-lg shadow-cyan-500/20">
+          <div className="flex items-center space-x-4">
+            <div className="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 border border-sky-100 flex items-center justify-center shadow-xs">
               <ShieldCheck className="w-6 h-6" />
             </div>
             <div>
-              <div className="flex items-center space-x-2">
-                <h1 className="text-lg sm:text-xl font-black text-white">
-                  Admin & Faculty Control Center
+              <div className="flex items-center space-x-2.5">
+                <h1 className="text-xl sm:text-2xl font-black text-stone-900 tracking-tight">
+                  Admin &amp; Faculty Control Center
                 </h1>
-                <span className="px-2.5 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 text-[10px] font-mono font-bold">
+                <span className="px-2.5 py-0.5 rounded-full bg-sky-100 text-sky-800 border border-sky-200 text-[10px] font-mono font-bold">
                   MASTER FACULTY VAULT
                 </span>
               </div>
-              <p className="text-xs text-stone-300 mt-1">
-                Real-time student unlock approvals, custom test paper generator, question bank analytics & Sunday test access management.
+              <p className="text-xs sm:text-sm text-stone-500 mt-1">
+                Real-time student unlock approvals, custom test paper generator, question bank analytics &amp; Sunday test access management.
               </p>
             </div>
           </div>
@@ -2256,7 +2256,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {onClose && (
               <button
                 onClick={onClose}
-                className="p-3 rounded-xl text-stone-400 hover:text-white hover:bg-sky-800 transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
+                className="p-2.5 rounded-xl text-stone-400 hover:text-stone-800 hover:bg-stone-100 transition cursor-pointer"
                 title="Close Admin Portal"
               >
                 <X className="w-5 h-5" />
@@ -3446,11 +3446,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             {activeSwapIdx === originalIdx && (
                               <div className="fixed inset-0 z-[9999] bg-stone-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 animate-in fade-in duration-150 text-stone-900">
                                 <div 
-                                  className="bg-white rounded-3xl border-3 border-stone-800 shadow-[8px_8px_0px_#1c1917] max-w-5xl w-full max-h-[90vh] flex flex-col overflow-hidden text-stone-900"
+                                  className="bg-white rounded-3xl border border-stone-200 shadow-2xl max-w-5xl w-full max-h-[90vh] flex flex-col overflow-hidden text-stone-900"
                                   onClick={e => e.stopPropagation()}
                                 >
                                   {/* Modal Header */}
-                                  <div className="p-4 sm:p-5 bg-sky-50 border-b-2 border-stone-800 flex items-start justify-between gap-3">
+                                  <div className="p-4 sm:p-5 bg-sky-50 border-b border-stone-200 flex items-start justify-between gap-3">
                                     <div>
                                       <div className="flex flex-wrap items-center gap-2">
                                         <span className="px-2.5 py-0.5 rounded-md bg-sky-900 text-white font-mono font-black text-xs">
@@ -3481,7 +3481,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                         setSwapCandidates([]);
                                         setPendingSwapId(null);
                                       }}
-                                      className="p-1.5 rounded-xl bg-white hover:bg-stone-100 border-2 border-stone-800 text-stone-700 font-bold text-xs cursor-pointer transition shadow-[2px_2px_0px_#1c1917]"
+                                      className="p-2 rounded-xl bg-white hover:bg-stone-100 border border-stone-200 text-stone-700 font-bold text-xs cursor-pointer transition shadow-xs"
                                       title="Close Swapper"
                                     >
                                       <X className="w-5 h-5" />
@@ -3692,7 +3692,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                                         e.stopPropagation();
                                                         handleExecuteSpecificSwap(originalIdx, c.id);
                                                       }}
-                                                      className={`w-full py-1.5 px-2.5 rounded-xl font-black text-xs transition cursor-pointer flex items-center justify-center gap-1 border-2 border-stone-800 shadow-[2px_2px_0px_#1c1917] ${
+                                                      className={`w-full py-1.5 px-2.5 rounded-xl font-black text-xs transition cursor-pointer flex items-center justify-center gap-1 border border-stone-200 shadow-xs ${
                                                         isSelected
                                                           ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
                                                           : 'bg-[#0284c7] hover:bg-[#0369a1] text-white'
@@ -3734,7 +3734,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                   </div>
 
                                   {/* Footer */}
-                                  <div className="p-4 bg-stone-50 border-t-2 border-stone-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                  <div className="p-4 bg-stone-50 border-t border-stone-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                                     <div className="text-xs text-stone-600">
                                       {pendingSwapId ? (
                                         <span className="font-bold text-sky-900">
@@ -3762,7 +3762,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                         <button
                                           type="button"
                                           onClick={() => handleExecuteSpecificSwap(originalIdx, pendingSwapId)}
-                                          className="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs border-2 border-stone-800 shadow-[2px_2px_0px_#1c1917] transition cursor-pointer flex items-center gap-1.5 transform hover:scale-[1.02] active:scale-95"
+                                          className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-md transition cursor-pointer flex items-center gap-1.5"
                                         >
                                           <CheckCircle2 className="w-4 h-4" />
                                           <span>Confirm Swap & Save to Cloud</span>

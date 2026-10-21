@@ -1025,11 +1025,11 @@ export default function App() {
           />
         )}
 
-        {/* Super User & Admin Control Center (Custom Test Generator & Telemetry) */}
+        {/* Super User & Admin Control Center (Full-Screen Edge-to-Edge Portal) */}
         {isSuperUserModalOpen && (
-          <div className="fixed inset-0 z-50 bg-sky-950/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-150">
-            <div className="w-full max-w-6xl bg-sky-50 border border-stone-700 rounded-3xl shadow-2xl flex flex-col max-h-[96vh] text-sky-950 relative animate-in zoom-in-95 duration-150 overflow-hidden">
-              <div className="flex-1 overflow-y-auto p-3 sm:p-5">
+          <div className="fixed inset-0 z-50 w-screen h-screen bg-[#f8fafc] flex flex-col overflow-hidden animate-in fade-in duration-150">
+            <div className="flex-1 overflow-y-auto w-full h-full p-4 sm:p-8">
+              <div className="w-full max-w-[1600px] mx-auto">
                 <ErrorBoundary
                   fallbackTitle="Admin & Faculty Studio Session"
                   fallbackMessage="An unexpected display issue occurred in the Admin Studio window. Click below to reload cleanly."

@@ -25,6 +25,7 @@ import {
   CheckCheck,
   RotateCcw,
   Check,
+  CheckCircle2,
   Bookmark,
   Award,
   Download,
@@ -1044,6 +1045,17 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               </div>
             )}
 
+            {!isSubmitted && (
+              <button
+                onClick={handleSubmitTest}
+                className="px-4 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-xs shadow-md transition cursor-pointer flex items-center gap-1.5 border border-emerald-400"
+                title="Submit Complete CBT Exam"
+              >
+                <CheckCircle2 className="w-4 h-4" />
+                <span>Submit Test</span>
+              </button>
+            )}
+
             <button
               onClick={onClose}
               className="p-1.5 rounded-xl text-white/80 hover:text-white hover:bg-sky-50/60/15 transition cursor-pointer"
@@ -1176,15 +1188,15 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                 </div>
               )}
 
-              {/* Bottom Test Controls */}
-              <div className="pt-4 border-t border-stone-100 flex flex-wrap items-center justify-between gap-4 mt-6">
+              {/* Bottom Test Controls - Always Visible */}
+              <div className="pt-4 border-t border-sky-200 flex flex-wrap items-center justify-between gap-4 mt-6 bg-white shrink-0">
                 <div className="flex items-center space-x-2">
                   <button
                     onClick={handleToggleMarkReview}
                     className={`px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer ${
                       markedForReview[currentQuestionIdx]
                         ? 'bg-sky-600 text-white shadow-xs'
-                        : 'bg-sky-50 text-sky-700 hover:bg-sky-50 border border-sky-200'
+                        : 'bg-sky-50 text-sky-700 hover:bg-sky-100 border border-sky-200'
                     }`}
                   >
                     <FlagIcon className="w-3.5 h-3.5" />
@@ -1201,30 +1213,32 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   </button>
                 </div>
 
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center space-x-2.5">
                   <button
                     disabled={currentQuestionIdx === 0}
                     onClick={() => setCurrentQuestionIdx(prev => prev - 1)}
-                    className="px-3.5 py-2 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-800 text-xs font-semibold border border-sky-200 disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer"
+                    className="px-3.5 py-2 rounded-xl bg-white hover:bg-stone-100 text-stone-700 text-xs font-semibold border border-stone-300 disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer"
                   >
                     &larr; Prev
                   </button>
 
-                  {currentQuestionIdx < questions.length - 1 ? (
+                  {currentQuestionIdx < questions.length - 1 && (
                     <button
                       onClick={handleSaveAndNext}
-                      className="px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-semibold shadow-xs transition cursor-pointer"
+                      className="px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold shadow-xs transition cursor-pointer"
                     >
                       Save & Next &rarr;
                     </button>
-                  ) : (
-                    <button
-                      onClick={handleSubmitTest}
-                      className="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-md transition cursor-pointer"
-                    >
-                      Submit {activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Test` : isSundayTest ? 'Complete 720-Marks Paper' : 'Complete Test'} ({maxTotalMarks} Marks)
-                    </button>
                   )}
+
+                  <button
+                    onClick={handleSubmitTest}
+                    className="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black shadow-md transition cursor-pointer flex items-center gap-1.5 border border-emerald-500"
+                    title="Submit and view comprehensive scorecard"
+                  >
+                    <CheckCircle2 className="w-4 h-4 text-emerald-100" />
+                    <span>Submit Test</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -1275,13 +1289,16 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                 </div>
               </div>
 
-              {/* Submit Button in Sidebar */}
-              <button
-                onClick={handleSubmitTest}
-                className="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-sky-600 hover:from-emerald-700 hover:to-sky-700 text-white font-bold text-xs shadow-md transition cursor-pointer"
-              >
-                Submit {activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Test` : 'Complete CBT'} ({maxTotalMarks}M)
-              </button>
+              {/* Submit Button in Sidebar - Fixed Bottom */}
+              <div className="shrink-0 pt-3 border-t border-sky-200 mt-2">
+                <button
+                  onClick={handleSubmitTest}
+                  className="w-full py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs sm:text-sm shadow-md transition cursor-pointer flex items-center justify-center gap-2"
+                >
+                  <CheckCircle2 className="w-4 h-4 text-emerald-100" />
+                  <span>Submit Complete CBT ({maxTotalMarks}M)</span>
+                </button>
+              </div>
             </div>
           </div>
         ) : (

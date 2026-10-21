@@ -170,15 +170,6 @@ export const Header: React.FC<HeaderProps> = ({
             >
               Test Series (196 Tests)
             </button>
-            <button
-              onClick={() => {
-                if (onSelectTab) onSelectTab('about-exam');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }}
-              className={`clean-nav-link ${activeTab === 'about-exam' ? 'active' : ''}`}
-            >
-              About NEET Exam &amp; Cutoffs
-            </button>
             {isAdmin && (
               <button
                 onClick={() => {
@@ -433,15 +424,6 @@ export const Header: React.FC<HeaderProps> = ({
             className={`clean-nav-link ${activeTab === 'test-series' ? 'active' : ''}`}
           >
             Test Series (196 Tests)
-          </button>
-          <button
-            onClick={() => {
-              if (onSelectTab) onSelectTab('about-exam');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
-            className={`clean-nav-link ${activeTab === 'about-exam' ? 'active' : ''}`}
-          >
-            About NEET Exam
           </button>
           {isAdmin && (
             <button
