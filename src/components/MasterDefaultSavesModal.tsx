@@ -40,9 +40,9 @@ import {
 } from '../data/sundayPlannerTests';
 import {
   getCanonicalPaperCode,
-  getOfficialBaseSundayPaper,
   commitAuthoritativePaperToCloud
 } from '../services/authoritativeCloudService';
+import { getOfficialBaseSundayPaper } from '../services/baselinePaperService';
 import { SyncedSundayPaper } from '../utils/cloudSyncManager';
 import { supabase } from '../supabaseClient';
 import { formatMathAndFormulas } from '../utils/mathFormatter';

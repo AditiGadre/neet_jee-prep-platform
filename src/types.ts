@@ -257,3 +257,16 @@ export interface AdminEnrollmentNotification {
 }
 
 
+
+export interface SundayChapterSelection {
+  physics: string[];
+  chemistry: string[];
+  biology: string[];
+}
+
+export interface TopicAllocationItem {
+  id: string;
+  subject: 'Physics' | 'Chemistry' | 'Biology';
+  chapter: string;
+  count: number;
+}

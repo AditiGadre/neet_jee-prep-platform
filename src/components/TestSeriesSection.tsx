@@ -75,7 +75,7 @@ export const getCleanTestTitle = (mockTest: SundayPlannerTest, customP?: any): s
 };
 
 interface TestSeriesSectionProps {
-  testItems: TestItem[];
+  testItems?: TestItem[];
   targetYear?: '2027' | '2028' | '2029';
   onStartTest: (test: TestItem) => void;
   onOpenAdmin?: () => void;

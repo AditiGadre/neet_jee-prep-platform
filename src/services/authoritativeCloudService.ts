@@ -13,27 +13,7 @@
 import { supabase } from '../supabaseClient';
 import { Question } from '../types';
 import { SyncedSundayPaper } from '../utils/cloudSyncManager';
-import {
-  getUnifiedQuestionBank,
-  ALL_PHYSICS_CHAPTERS,
-  ALL_CHEMISTRY_CHAPTERS,
-  TopicAllocationItem
-} from '../utils/questionDatabase';
-import {
-  OFFICIAL_PHYSICS_UNITS,
-  OFFICIAL_CHEMISTRY_UNITS,
-  SUNDAY_DROPPER_PLANNER_TESTS,
-  SUNDAY_DROPPER_TRACK1_TESTS,
-  SUNDAY_DROPPER_TRACK2_TESTS,
-  SUNDAY_DROPPER_PC_TESTS,
-  SUNDAY_11TH_PLANNER_TESTS,
-  SUNDAY_11TH_TRACK1_TESTS,
-  SUNDAY_11TH_TRACK2_TESTS,
-  PLANNER_12TH_TESTS,
-  generateSundayTestQuestions,
-  getSavedCustomSundayPaper
-} from '../data/sundayPlannerTests';
-import { getHardPhysicsDiagram } from '../utils/diagramEngine';
+import { TopicAllocationItem } from '../types';
 import { formatMathAndFormulas, healTruncatedText } from '../utils/mathFormatter';
 
 export interface AuthoritativeQuestionRecord {
@@ -451,39 +431,9 @@ export async function commitAuthoritativePaperToCloud(
  * Guarantees 100% uniformity across all PCs and client sessions when no custom
  * cloud revision has been committed yet.
  */
-export function getOfficialBaseSundayPaper(paperCode: string): SyncedSundayPaper {
-  const canonicalCode = getCanonicalPaperCode(paperCode);
-  const is11th = canonicalCode.includes('11TH');
-  const is12th = canonicalCode.includes('12TH');
-  const pureCode = canonicalCode.replace(/^(11TH|12TH|REPEATER|DROPPER)-/i, '').trim().toUpperCase();
-
-  const planner = is11th
-    ? (SUNDAY_11TH_TRACK1_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
-       SUNDAY_11TH_TRACK2_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
-       SUNDAY_11TH_PLANNER_TESTS[0])
-    : is12th
-    ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) || PLANNER_12TH_TESTS[0])
-    : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
-       SUNDAY_DROPPER_TRACK2_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
-       SUNDAY_DROPPER_PC_TESTS.find(t => t.code.toUpperCase() === pureCode || t.id.toUpperCase() === pureCode) ||
-       SUNDAY_DROPPER_PLANNER_TESTS[0]);
-
-  const batch: 'repeater' | '12th' | '11th' = is11th ? '11th' : is12th ? '12th' : 'repeater';
-  const questions = generateSundayTestQuestions(planner, undefined, false, batch);
-
-  return {
-    paperCode: canonicalCode,
-    revision: 1,
-    questions: normalizeToAuthoritativeRecords(questions, 'Official Master Default'),
-    customChapters: {
-      physics: [planner.physicsUnit],
-      chemistry: [planner.chemistryUnit],
-      biology: planner.code.startsWith('PC-') ? [] : [`[Botany] ${planner.botanyBlock}`, `[Zoology] ${planner.zoologyBlock}`]
-    },
-    testTitle: planner.title || `${canonicalCode}: Chapterwise Test`,
-    updatedAt: new Date(1788000000000).toISOString(),
-    publishedBy: 'Institutional Master Admin'
-  };
+export async function getOfficialBaseSundayPaper(paperCode: string): Promise<SyncedSundayPaper> {
+  const { getOfficialBaseSundayPaper: getBase } = await import('./baselinePaperService');
+  return getBase(paperCode);
 }
 
 /**
@@ -613,20 +563,26 @@ export async function fetchAuthoritativePaper(
 
   // 2. CHECK LOCAL STORAGE: If local storage already has a saved paper with questions, NEVER overwrite with base template!
   try {
-    const savedLocal = getSavedCustomSundayPaper(canonicalCode);
-    if (savedLocal && Array.isArray(savedLocal.questions) ) {
-      const synPaper: SyncedSundayPaper = {
-        ...savedLocal,
-        paperCode: canonicalCode,
-        revision: (savedLocal as any).revision || 1
-      };
-      runtimePaperCache.set(canonicalCode, { paper: synPaper, fetchedAt: Date.now() });
-      return synPaper;
+    const raw = localStorage.getItem('neet_custom_sunday_papers');
+    if (raw) {
+      const all = JSON.parse(raw);
+      const key = canonicalCode.toLowerCase().trim();
+      const savedLocal = all[key] || all[canonicalCode.toUpperCase().trim()] || all[canonicalCode];
+      if (savedLocal && Array.isArray(savedLocal.questions) && savedLocal.questions.length > 0) {
+        const synPaper: SyncedSundayPaper = {
+          ...savedLocal,
+          paperCode: canonicalCode,
+          revision: (savedLocal as any).revision || 1
+        };
+        runtimePaperCache.set(canonicalCode, { paper: synPaper, fetchedAt: Date.now() });
+        return synPaper;
+      }
     }
   } catch {}
 
   // 3. Deterministic Canonical Base Template fallback ONLY if user has NEVER customized or saved a paper:
-  const basePaper = getOfficialBaseSundayPaper(canonicalCode);
+  const { getOfficialBaseSundayPaper: getBasePaper } = await import('./baselinePaperService');
+  const basePaper = getBasePaper(canonicalCode);
   runtimePaperCache.set(canonicalCode, { paper: basePaper, fetchedAt: Date.now() });
   globalLastSyncedTimestamp = basePaper.updatedAt;
   globalLastSyncedRevision = 1;
@@ -692,6 +648,7 @@ export async function swapSingleQuestionWithBank(
   let sub = currentQ.subject || (questionIdx < 45 ? 'Physics' : questionIdx < 90 ? 'Chemistry' : 'Biology');
   let ch = targetChapterOverride || currentQ.chapter || '';
 
+  const { ALL_PHYSICS_CHAPTERS, ALL_CHEMISTRY_CHAPTERS, getUnifiedQuestionBank } = await import('../utils/questionDatabase');
   if (targetChapterOverride) {
     const isPhy = ALL_PHYSICS_CHAPTERS.some(c => c.toLowerCase() === targetChapterOverride.toLowerCase());
     const isChem = ALL_CHEMISTRY_CHAPTERS.some(c => c.toLowerCase() === targetChapterOverride.toLowerCase());
@@ -713,9 +670,11 @@ export async function swapSingleQuestionWithBank(
       : (bank.length > 0 ? bank[Math.floor(Math.random() * bank.length)] : currentQ);
   }
 
-  const hardDiag = (replacement.difficulty === 'Hard') && sub === 'Physics'
-    ? getHardPhysicsDiagram(replacement)
-    : null;
+  let hardDiag = null;
+  if (replacement.difficulty === 'Hard' && sub === 'Physics') {
+    const { getHardPhysicsDiagram } = await import('../utils/diagramEngine');
+    hardDiag = getHardPhysicsDiagram(replacement);
+  }
 
   const newQ: Question = {
     ...replacement,
@@ -808,6 +767,9 @@ export async function swapTopics(
   currentPaper: SyncedSundayPaper,
   adminUser: string = 'Institutional Master Admin'
 ): Promise<SyncOperationResult> {
+  const { ALL_PHYSICS_CHAPTERS, ALL_CHEMISTRY_CHAPTERS, getUnifiedQuestionBank } = await import('../utils/questionDatabase');
+  const { OFFICIAL_PHYSICS_UNITS, OFFICIAL_CHEMISTRY_UNITS } = await import('../data/sundayPlannerTests');
+  const { getHardPhysicsDiagram } = await import('../utils/diagramEngine');
   const phyList = ALL_PHYSICS_CHAPTERS;
   const chemList = ALL_CHEMISTRY_CHAPTERS;
   const isPhy = phyList.some(c => c.toLowerCase() === toTopic.toLowerCase()) || OFFICIAL_PHYSICS_UNITS.some(u => u.toLowerCase().includes(toTopic.toLowerCase()));
@@ -1016,45 +978,6 @@ export function subscribeToPaperRealtime(
 
 
 // Add generic helper for student unlock requests
-export async function syncUnlockRequestsToCloud(requests: any[]): Promise<boolean> {
-  if (!supabase) return false;
-  try {
-    const payloadJson = JSON.stringify(requests);
-    const now = Date.now();
-    const { error } = await supabase.from('questions').insert([{
-      id: '__UNLOCK_REQUESTS__' + now + '_' + Math.random().toString(36).slice(2, 6),
-      subject: '__SYSTEM_SYNC__',
-      chapter: 'UNLOCK_REQUESTS',
-      topic: 'GLOBAL',
-      difficulty: 'System',
-      question_text: payloadJson,
-      options: ['UNLOCK_REQUESTS_V1'],
-      correct_answer: 0,
-      explanation: 'Authoritative Unlock Requests'
-    }]);
-    return !error;
-  } catch (e) {
-    return false;
-  }
-}
-
-export async function fetchUnlockRequestsFromCloud(): Promise<any[] | null> {
-  if (!supabase) return null;
-  try {
-    const { data, error } = await supabase
-      .from('questions')
-      .select('question_text')
-      .eq('subject', '__SYSTEM_SYNC__')
-      .eq('chapter', 'UNLOCK_REQUESTS')
-      .eq('topic', 'GLOBAL')
-      .order('updated_at', { ascending: false })
-      .limit(1);
-
-    if (error || !data || data.length === 0) return null;
-    return JSON.parse(data[0].question_text);
-  } catch {
-    return null;
-  }
-}
+export { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../utils/cloudSyncManager';
 
 

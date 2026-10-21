@@ -1,19 +1,6 @@
 import { Question, TestItem } from '../types';
-import {
-  getUnifiedQuestionBank,
-  STRICT_SYLLABUS_UNIT_MAPPINGS,
-  ALL_CHEMISTRY_COMBINED_QUESTIONS,
-  ALL_BIOLOGY_COMBINED_QUESTIONS
-} from '../utils/questionDatabase';
-import { ALL_PHYSICS_MASTER_QUESTIONS } from './physicsMasterQuestions';
-import { formatMathAndFormulas } from '../utils/mathFormatter';
-import { getSequentialLoopQuestions } from '../utils/questionLoopManager';
-import { getHardPhysicsDiagram } from '../utils/diagramEngine';
-import {
-  syncSundayPaperToCloud,
-  deleteSundayPaperFromCloud,
-  normalizeQuestionText
-} from '../utils/cloudSyncManager';
+import { getUnifiedQuestionBank } from '../utils/questionDatabase';
+import { normalizeQuestionText } from '../utils/cloudSyncManager';
 
 export interface SundayPlannerTest {
   id: string;

@@ -40,7 +40,7 @@ import {
   getUniversalRollNumber,
   SyncedStudentProfile
 } from '../utils/cloudSyncManager';
-import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../services/authoritativeCloudService';
+import { syncUnlockRequestsToCloud, fetchUnlockRequestsFromCloud } from '../utils/cloudSyncManager';
 import { openRazorpayCheckout, PaymentTransactionRecord } from '../services/razorpayService';
 import { CreditCard, Zap, Check } from 'lucide-react';
 

@@ -28,11 +28,8 @@ import {
   assertNoDuplicateQuestions
 } from '../data/sundayPlannerTests';
 
-export interface SundayChapterSelection {
-  physics: string[];
-  chemistry: string[];
-  biology: string[];
-}
+import { SundayChapterSelection } from '../types';
+export type { SundayChapterSelection };
 
 export const PHYSICS_CHAPTERS_LIST = OFFICIAL_PHYSICS_UNITS;
 export const CHEMISTRY_CHAPTERS_LIST = OFFICIAL_CHEMISTRY_UNITS;

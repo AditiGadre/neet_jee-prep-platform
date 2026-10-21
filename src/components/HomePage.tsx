@@ -26,12 +26,6 @@ import {
   PrepPackageItem,
   getPackagesByBatch
 } from '../data/packagesData';
-import {
-  SUNDAY_DROPPER_TRACK1_TESTS,
-  PLANNER_12TH_COMPLETE_TESTS,
-  SUNDAY_11TH_TRACK1_TESTS,
-  SundayPlannerTest
-} from '../data/sundayPlannerTests';
 
 interface HomePageProps {
   onSelectPackage: (pkg: PrepPackageItem) => void;

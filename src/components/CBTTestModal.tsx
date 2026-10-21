@@ -52,7 +52,7 @@ import { ErrorBoundary } from './ErrorBoundary';
 import { DetailedSolutionViewer } from './DetailedSolutionViewer';
 import { resolveQuestionSubtopic, normalizeChapterForDisplay } from '../utils/subtopicResolver';
 import { CollegePredictorSection } from './CollegePredictorSection';
-import { NeetCollegePredictor } from './NeetCollegePredictor';
+const NeetCollegePredictor = React.lazy(() => import('./NeetCollegePredictor').then(m => ({ default: m.NeetCollegePredictor })));
 
 interface CBTTestModalProps {
   test: TestItem;
@@ -1984,6 +1984,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                   {/* SECTION 7A: Official Maharashtra State CAP Medical College Forecaster (2026 Allotments) */}
                   <div className="space-y-4">
+                    <React.Suspense fallback={<div className="p-4 text-center text-xs text-stone-500">Loading College Forecaster...</div>}>
                     <NeetCollegePredictor
                       initialScore={testResult.score}
                       initialAir={testResult.predictedAIR}
@@ -1994,6 +1995,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       rollNumber={rollNumber}
                       isInsideScorecard={true}
                     />
+                    </React.Suspense>
                   </div>
 
                   {/* SECTION 7B: Official AIQ Medical College Predictor (2026 Allotments) */}

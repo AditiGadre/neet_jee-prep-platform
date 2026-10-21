@@ -50,7 +50,7 @@ import {
   Question,
   DownloadRecord
 } from '../types';
-import { SAMPLE_QUESTIONS, TEST_SERIES_DATA } from '../data/mockData';
+import { SAMPLE_QUESTIONS, TEST_SERIES_DATA, FLASHCARDS_DATA, MIND_MAPS_DATA, BOOKS_DATA, PYQS_DATA } from '../data/mockData';
 import { downloadBookPDF, downloadDppPDF, downloadTestPaperPDF } from '../utils/pdfDownloader';
 import { getUserDownloads, clearUserDownloads, getCurrentUser } from '../utils/downloadTracker';
 import {
@@ -75,10 +75,10 @@ import { DetailedSolutionViewer } from './DetailedSolutionViewer';
 interface WhatExtraSectionProps {
   activeSubTab: string;
   onSelectSubTab: (subTab: string) => void;
-  flashcards: Flashcard[];
-  mindMaps: MindMapNode[];
-  books: BookItem[];
-  pyqs: PYQItem[];
+  flashcards?: Flashcard[];
+  mindMaps?: MindMapNode[];
+  books?: BookItem[];
+  pyqs?: PYQItem[];
   onStartCustomTest?: (customTest: TestItem) => void;
   onOpenBook: (book: BookItem) => void;
   completedTests: UserTestResult[];
@@ -88,10 +88,10 @@ interface WhatExtraSectionProps {
 export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   activeSubTab,
   onSelectSubTab,
-  flashcards,
-  mindMaps,
-  books,
-  pyqs,
+  flashcards = FLASHCARDS_DATA,
+  mindMaps = MIND_MAPS_DATA,
+  books = BOOKS_DATA,
+  pyqs = PYQS_DATA,
   onStartCustomTest,
   onOpenBook,
   completedTests,

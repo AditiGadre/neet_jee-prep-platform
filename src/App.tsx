@@ -1,12 +1,11 @@
-import { SUNDAY_DROPPER_PLANNER_TESTS, generateSundayTestQuestions } from './data/sundayPlannerTests';
-import { fetchAuthoritativePaper } from './services/authoritativeCloudService';
+
 import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { Header } from './components/Header';
 import { TabType } from './components/Sidebar';
-import { TestSeriesSection } from './components/TestSeriesSection';
+const TestSeriesSection = lazy(() => import('./components/TestSeriesSection').then(m => ({ default: m.TestSeriesSection })));
 import { supabase } from './supabaseClient';
 import { EnrollmentGate, EnrolledStudent } from './components/EnrollmentGate';
-import { SundayChapterSelection } from './components/SundayTestChapterModal';
+import type { SundayChapterSelection } from './types';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
 // Lazy-load secondary tabs & heavy interactive modals for sub-second initial load
@@ -25,7 +24,7 @@ import { AdminLoginModal } from './components/AdminLoginModal';
 import { DobVerificationModal } from './components/DobVerificationModal';
 
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
-const HomePage = lazy(() => import('./components/HomePage').then(m => ({ default: m.HomePage })));
+import { HomePage } from './components/HomePage';
 import { initCloudSync, fetchStudentByPhoneFromCloud, syncStudentEnrollmentToCloud, cleanPhoneNumber } from './utils/cloudSyncManager';
 
 const SectionLoadingFallback = () => (
@@ -39,13 +38,7 @@ const SectionLoadingFallback = () => (
   </div>
 );
 
-import {
-  TEST_SERIES_DATA,
-  FLASHCARDS_DATA,
-  MIND_MAPS_DATA,
-  BOOKS_DATA,
-  PYQS_DATA
-} from './data/mockData';
+
 import { healTruncatedText } from './utils/mathFormatter';
 import { ExamType, TestItem, BookItem, UserTestResult } from './types';
 
@@ -671,6 +664,8 @@ export default function App() {
   };
 
   const handleQuickMockTest = async () => {
+    const { SUNDAY_DROPPER_PLANNER_TESTS, generateSundayTestQuestions } = await import('./data/sundayPlannerTests');
+    const { fetchAuthoritativePaper } = await import('./services/authoritativeCloudService');
     const plannerTest = SUNDAY_DROPPER_PLANNER_TESTS[0];
     const customPaper = await fetchAuthoritativePaper('CWT-01', true);
     const questions = (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180)
@@ -853,8 +848,7 @@ export default function App() {
       ) : activeTab === 'home' ? (
         /* ROUTE 2A: Dedicated Full-Width Homepage (No Sidebar) */
         <main className="flex-1 w-full bg-[var(--bg)] min-w-0">
-          <Suspense fallback={<SectionLoadingFallback />}>
-            <HomePage
+          <HomePage
               onSelectPackage={(pkg) => {
                 setEnrollmentPackageId(pkg.id);
                 setIsEnrollmentModalOpen(true);
@@ -875,7 +869,6 @@ export default function App() {
               enrolledPackageIds={enrolledPackageIds}
               isAdmin={isAdminSession}
             />
-          </Suspense>
         </main>
       ) : (
         /* ROUTE 2B: Application Sub-Pages (Test Series, What Extra, About Exam - Top Nav Only, No Sidebar) */
@@ -885,7 +878,7 @@ export default function App() {
 
               {activeTab === 'test-series' && (
                 <TestSeriesSection
-                  testItems={TEST_SERIES_DATA}
+                  
                   targetYear={targetYear}
                   onStartTest={handleStartTest}
                   enrolledPackageIds={enrolledPackageIds}
@@ -901,10 +894,7 @@ export default function App() {
                   <WhatExtraSection
                     activeSubTab={extraSubTab}
                     onSelectSubTab={setExtraSubTab}
-                    flashcards={FLASHCARDS_DATA}
-                    mindMaps={MIND_MAPS_DATA}
-                    books={BOOKS_DATA}
-                    pyqs={PYQS_DATA}
+                    
                     onStartCustomTest={handleStartTest}
                     onOpenBook={setActiveBookForReading}
                     completedTests={completedTests}
@@ -912,7 +902,7 @@ export default function App() {
                   />
                 ) : (
                   <TestSeriesSection
-                    testItems={TEST_SERIES_DATA}
+                    
                     targetYear={targetYear}
                     onStartTest={handleStartTest}
                     enrolledPackageIds={enrolledPackageIds}

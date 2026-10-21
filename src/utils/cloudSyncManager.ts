@@ -15,10 +15,6 @@ export interface SyncedSundayPaper {
   revision?: number;
 }
 
-import {
-  commitAuthoritativePaperToCloud,
-  fetchAuthoritativePaper
-} from '../services/authoritativeCloudService';
 
 export interface SyncedAdminConfig {
   platformWideSundayAccess: boolean;
@@ -136,12 +132,55 @@ async function insertSystemRow(row: {
 
 // 1. SUNDAY TEST PAPER PERSISTENCE (Authoritative Cloud Delegation)
 export async function syncSundayPaperToCloud(paper: SyncedSundayPaper): Promise<boolean> {
+  const { commitAuthoritativePaperToCloud } = await import('../services/authoritativeCloudService');
   const result = await commitAuthoritativePaperToCloud(paper);
   return result.success;
 }
 
 export async function fetchSundayPaperFromCloud(paperCode: string, forceCloud = true): Promise<SyncedSundayPaper | null> {
+  const { fetchAuthoritativePaper } = await import('../services/authoritativeCloudService');
   return await fetchAuthoritativePaper(paperCode, forceCloud);
+}
+
+export async function syncUnlockRequestsToCloud(requests: any[]): Promise<boolean> {
+  if (!supabase) return false;
+  try {
+    const payloadJson = JSON.stringify(requests);
+    const now = Date.now();
+    const { error } = await supabase.from('questions').insert([{
+      id: '__UNLOCK_REQUESTS__' + now + '_' + Math.random().toString(36).slice(2, 6),
+      subject: '__SYSTEM_SYNC__',
+      chapter: 'UNLOCK_REQUESTS',
+      topic: 'GLOBAL',
+      difficulty: 'System',
+      question_text: payloadJson,
+      options: ['UNLOCK_REQUESTS_V1'],
+      correct_answer: 0,
+      explanation: 'Authoritative Unlock Requests'
+    }]);
+    return !error;
+  } catch (e) {
+    return false;
+  }
+}
+
+export async function fetchUnlockRequestsFromCloud(): Promise<any[] | null> {
+  if (!supabase) return null;
+  try {
+    const { data, error } = await supabase
+      .from('questions')
+      .select('question_text')
+      .eq('subject', '__SYSTEM_SYNC__')
+      .eq('chapter', 'UNLOCK_REQUESTS')
+      .eq('topic', 'GLOBAL')
+      .order('updated_at', { ascending: false })
+      .limit(1);
+
+    if (error || !data || data.length === 0) return null;
+    return JSON.parse(data[0].question_text);
+  } catch {
+    return null;
+  }
 }
 
 export async function deleteSundayPaperFromCloud(paperCode: string): Promise<boolean> {

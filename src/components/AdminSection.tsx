@@ -126,11 +126,11 @@ import {
   commitAuthoritativePaperToCloud,
   getLastSyncedRevision,
   getCanonicalPaperCode,
-  getOfficialBaseSundayPaper,
   syncTopicAllocationsToCloud,
   syncUnlockRequestsToCloud,
   fetchUnlockRequestsFromCloud
 } from '../services/authoritativeCloudService';
+import { getOfficialBaseSundayPaper } from '../services/baselinePaperService';
 import { MasterDefaultSavesModal } from './MasterDefaultSavesModal';
 import { getPackageById } from '../data/packagesData';
 import { syncStudentEnrollmentToCloud, fetchStudentByPhoneFromCloud, cleanPhoneNumber } from '../utils/cloudSyncManager';
