@@ -1,6 +1,12 @@
 import { Question, TestItem } from '../types';
-import { getUnifiedQuestionBank } from '../utils/questionDatabase';
-import { normalizeQuestionText } from '../utils/cloudSyncManager';
+import {
+  getUnifiedQuestionBank,
+  STRICT_SYLLABUS_UNIT_MAPPINGS,
+  ALL_CHEMISTRY_COMBINED_QUESTIONS,
+  ALL_BIOLOGY_COMBINED_QUESTIONS
+} from '../utils/questionDatabase';
+import { ALL_PHYSICS_MASTER_QUESTIONS } from './physicsMasterQuestions';
+import { normalizeQuestionText, deleteSundayPaperFromCloud } from '../utils/cloudSyncManager';
 
 export interface SundayPlannerTest {
   id: string;

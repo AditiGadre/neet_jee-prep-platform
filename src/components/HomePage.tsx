@@ -26,6 +26,12 @@ import {
   PrepPackageItem,
   getPackagesByBatch
 } from '../data/packagesData';
+import {
+  HOME_REPEATER_PREVIEW_TESTS,
+  HOME_12TH_PREVIEW_TESTS,
+  HOME_11TH_PREVIEW_TESTS,
+  HomePreviewTest
+} from '../data/homePreviewTests';
 
 interface HomePageProps {
   onSelectPackage: (pkg: PrepPackageItem) => void;
@@ -50,12 +56,12 @@ export const HomePage: React.FC<HomePageProps> = ({
   const comboPackages = currentPackages.filter(p => p.trackType === 'combo');
 
   // Preview tests for the selected batch from authentic platform calendar
-  const previewTests: SundayPlannerTest[] = (
+  const previewTests: HomePreviewTest[] = (
     activeBatch === 'repeater'
-      ? SUNDAY_DROPPER_TRACK1_TESTS
+      ? HOME_REPEATER_PREVIEW_TESTS
       : activeBatch === '12th'
-      ? PLANNER_12TH_COMPLETE_TESTS
-      : SUNDAY_11TH_TRACK1_TESTS
+      ? HOME_12TH_PREVIEW_TESTS
+      : HOME_11TH_PREVIEW_TESTS
   ).slice(0, 3);
 
   const faqs = [

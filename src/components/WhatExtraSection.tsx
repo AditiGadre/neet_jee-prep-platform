@@ -1343,7 +1343,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       <span className="text-xs font-semibold text-sky-800">{pyq.subject} &bull; {pyq.chapter}</span>
                     </div>
                     <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-sky-50/60 text-sky-700 border border-sky-200 font-bold">
-                      {pyq.difficulty}
+                      {(pyq as any).difficulty || pyq.question?.difficulty || 'Medium'}
                     </span>
                   </div>
 
