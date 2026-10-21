@@ -2,7 +2,7 @@ import { SUNDAY_DROPPER_PLANNER_TESTS, generateSundayTestQuestions } from './dat
 import { fetchAuthoritativePaper } from './services/authoritativeCloudService';
 import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { Header } from './components/Header';
-import { Sidebar, TabType } from './components/Sidebar';
+import { TabType } from './components/Sidebar';
 import { TestSeriesSection } from './components/TestSeriesSection';
 import { supabase } from './supabaseClient';
 import { EnrollmentGate, EnrolledStudent } from './components/EnrollmentGate';
@@ -820,37 +820,39 @@ export default function App() {
             </Suspense>
 
             {/* Institutional Platform Footer on /about */}
-            <footer className="mt-8 pt-4 pb-3 border-t border-sky-200/80 text-center text-xs text-sky-600 flex flex-col sm:flex-row items-center justify-between gap-4.5">
-              <div className="text-[11px] text-sky-600">
-                © 2026 NeetCbt Exam Test. Built exclusively for NEET-UG Exam Aspirants.
-              </div>
-              <div className="flex items-center space-x-3 text-[11px]">
-                <button
-                  type="button"
-                  onClick={() => navigateTo('/')}
-                  className="text-sky-700 hover:text-sky-600 font-semibold underline transition cursor-pointer"
-                >
-                  ← Test Series Dashboard
-                </button>
-                <span>•</span>
-                <button
-                  type="button"
-                  onClick={() => setIsTermsModalOpen(true)}
-                  className="text-sky-700 hover:text-sky-600 font-semibold underline transition cursor-pointer"
-                >
-                  Terms & Conditions
-                </button>
-                <span>•</span>
-                <span className="text-stone-400">2-Device Protected</span>
-                <span>•</span>
-                <span className="text-stone-400">DOB PIN Encrypted</span>
+            <footer className="mt-12 py-8 border-t border-[var(--border)] text-center text-xs text-[var(--muted)]">
+              <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="text-[12px] text-[var(--muted)]">
+                  © 2026 NeetCbt Exam Test. Built exclusively for NEET-UG Exam Aspirants.
+                </div>
+                <div className="flex items-center space-x-3 text-[12px]">
+                  <button
+                    type="button"
+                    onClick={() => navigateTo('/')}
+                    className="text-[var(--primary)] hover:underline font-semibold transition cursor-pointer"
+                  >
+                    ← Test Series Dashboard
+                  </button>
+                  <span>•</span>
+                  <button
+                    type="button"
+                    onClick={() => setIsTermsModalOpen(true)}
+                    className="text-[var(--primary)] hover:underline font-semibold transition cursor-pointer"
+                  >
+                    Terms &amp; Conditions
+                  </button>
+                  <span>•</span>
+                  <span className="text-[var(--muted)]">2-Device Protected</span>
+                  <span>•</span>
+                  <span className="text-[var(--muted)]">DOB PIN Encrypted</span>
+                </div>
               </div>
             </footer>
           </main>
         </div>
       ) : activeTab === 'home' ? (
         /* ROUTE 2A: Dedicated Full-Width Homepage (No Sidebar) */
-        <main className="flex-1 w-full bg-white min-w-0">
+        <main className="flex-1 w-full bg-[var(--bg)] min-w-0">
           <Suspense fallback={<SectionLoadingFallback />}>
             <HomePage
               onSelectPackage={(pkg) => {
@@ -876,20 +878,9 @@ export default function App() {
           </Suspense>
         </main>
       ) : (
-        /* ROUTE 2B: Application Sub-Pages (Test Series, What Extra, About Exam with Sidebar) */
-        <div className="flex-1 flex flex-col lg:flex-row w-full mx-auto">
-          {/* Sidebar */}
-          <Sidebar
-            activeTab={activeTab}
-            onSelectTab={setActiveTab}
-            extraSubTab={extraSubTab}
-            onSelectExtraSubTab={setExtraSubTab}
-            onNavigateToAbout={() => navigateTo('/about')}
-            isAdmin={isAdminSession}
-          />
-
-          {/* Dynamic Content Area */}
-          <main className="flex-1 p-6 sm:p-5 lg:p-6 overflow-y-auto bg-white min-w-0">
+        /* ROUTE 2B: Application Sub-Pages (Test Series, What Extra, About Exam - Top Nav Only, No Sidebar) */
+        <main className="flex-1 w-full bg-[var(--bg)] min-w-0">
+          <div className="clean-container py-6 sm:py-8">
             <Suspense fallback={<SectionLoadingFallback />}>
 
               {activeTab === 'test-series' && (
@@ -935,22 +926,23 @@ export default function App() {
 
               {activeTab === 'about-exam' && <AboutExamSection />}
 
-
             </Suspense>
+          </div>
 
-            {/* Institutional Platform Footer */}
-            <footer className="mt-8 pt-4 pb-3 border-t border-sky-200/80 text-center text-xs text-sky-600 flex flex-col sm:flex-row items-center justify-between gap-4.5">
-              <div className="text-[11px] text-sky-600">
+          {/* Institutional Platform Footer */}
+          <footer className="mt-12 py-8 border-t border-[var(--border)] text-center text-xs text-[var(--muted)] bg-[var(--surface)]">
+            <div className="clean-container flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="text-[12px] text-[var(--muted)]">
                 © 2026 NeetCbt Exam Test. All rights reserved. Academic CBT Examination Simulator.
               </div>
-              <div className="flex items-center space-x-3 text-[11px]">
+              <div className="flex items-center space-x-3 text-[12px]">
                 <a
                   href="/about"
                   onClick={e => {
                     e.preventDefault();
                     navigateTo('/about');
                   }}
-                  className="text-sky-700 hover:text-sky-600 font-semibold underline transition cursor-pointer"
+                  className="text-[var(--primary)] hover:underline font-semibold transition cursor-pointer"
                 >
                   About Platform (NEET Aspirants)
                 </a>
@@ -958,18 +950,18 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => setIsTermsModalOpen(true)}
-                  className="text-sky-700 hover:text-sky-600 font-semibold underline transition cursor-pointer"
+                  className="text-[var(--primary)] hover:underline font-semibold transition cursor-pointer"
                 >
-                  Terms & Conditions
+                  Terms &amp; Conditions
                 </button>
                 <span>•</span>
-                <span className="text-stone-400">2-Device Protected</span>
+                <span className="text-[var(--muted)]">2-Device Protected</span>
                 <span>•</span>
-                <span className="text-stone-400">DOB PIN Encrypted</span>
+                <span className="text-[var(--muted)]">DOB PIN Encrypted</span>
               </div>
-            </footer>
-          </main>
-        </div>
+            </div>
+          </footer>
+        </main>
       )}
 
       {/* Suspended Modals */}

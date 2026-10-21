@@ -121,9 +121,9 @@ export const Header: React.FC<HeaderProps> = ({
   const userCaste = enrolledStudent?.caste || currentUser?.caste || 'General / Open';
 
   return (
-    <header className="sticky top-0 z-30 bg-white border-b-2 border-[#1c1917] text-[#1c1917]">
-      <div className="w-full px-4 sm:px-8">
-        <div className="flex items-center justify-between h-16 gap-3">
+    <header className="clean-navbar">
+      <div className="clean-container">
+        <div className="clean-navbar-inner">
           {/* Logo & Brand */}
           <div
             onClick={() => {
@@ -131,27 +131,21 @@ export const Header: React.FC<HeaderProps> = ({
               if (onNavigateHome) onNavigateHome();
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className="flex items-center cursor-pointer hover:opacity-90 transition gap-2 shrink-0"
+            className="clean-logo cursor-pointer hover:opacity-90 transition shrink-0"
             title="NeetCbt Exam Platform"
           >
-            <span className="font-black text-xl sm:text-2xl tracking-tight text-[#1c1917]">
-              NeetCbt
-            </span>
+            Neet<span className="cbt-text">Cbt</span>
           </div>
 
           {/* Top Page Navigation Links (Desktop) */}
-          <nav className="hidden lg:flex items-center space-x-1.5">
+          <nav className="hidden lg:flex clean-menu-links">
             <button
               onClick={() => {
                 if (onSelectTab) onSelectTab('home');
                 if (onNavigateHome) onNavigateHome();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-black transition cursor-pointer border-2 ${
-                activeTab === 'home'
-                  ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917] shadow-[2px_2px_0px_#1c1917]'
-                  : 'text-[#1c1917] border-transparent hover:bg-stone-100'
-              }`}
+              className={`clean-nav-link ${activeTab === 'home' ? 'active' : ''}`}
             >
               Home
             </button>
@@ -163,7 +157,7 @@ export const Header: React.FC<HeaderProps> = ({
                   document.getElementById('packages-section')?.scrollIntoView({ behavior: 'smooth' });
                 }, 100);
               }}
-              className="px-3.5 py-1.5 rounded-lg text-xs font-black text-[#1c1917] hover:bg-stone-100 transition cursor-pointer border-2 border-transparent"
+              className="clean-nav-link"
             >
               Courses &amp; Packages
             </button>
@@ -172,11 +166,7 @@ export const Header: React.FC<HeaderProps> = ({
                 if (onSelectTab) onSelectTab('test-series');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-black transition cursor-pointer border-2 ${
-                activeTab === 'test-series'
-                  ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917] shadow-[2px_2px_0px_#1c1917]'
-                  : 'text-[#1c1917] border-transparent hover:bg-stone-100'
-              }`}
+              className={`clean-nav-link ${activeTab === 'test-series' ? 'active' : ''}`}
             >
               Test Series (196 Tests)
             </button>
@@ -185,11 +175,7 @@ export const Header: React.FC<HeaderProps> = ({
                 if (onSelectTab) onSelectTab('about-exam');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-black transition cursor-pointer border-2 ${
-                activeTab === 'about-exam'
-                  ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917] shadow-[2px_2px_0px_#1c1917]'
-                  : 'text-[#1c1917] border-transparent hover:bg-stone-100'
-              }`}
+              className={`clean-nav-link ${activeTab === 'about-exam' ? 'active' : ''}`}
             >
               About NEET Exam &amp; Cutoffs
             </button>
@@ -199,11 +185,7 @@ export const Header: React.FC<HeaderProps> = ({
                   if (onSelectTab) onSelectTab('what-extra');
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className={`px-3.5 py-1.5 rounded-lg text-xs font-black transition cursor-pointer border-2 ${
-                  activeTab === 'what-extra'
-                    ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917] shadow-[2px_2px_0px_#1c1917]'
-                    : 'text-[#1c1917] border-transparent hover:bg-stone-100'
-                }`}
+                className={`clean-nav-link ${activeTab === 'what-extra' ? 'active' : ''}`}
               >
                 What Extra (Admin)
               </button>
@@ -211,16 +193,12 @@ export const Header: React.FC<HeaderProps> = ({
           </nav>
 
           {/* Target Year Selector Bar: 2027, 2028, 2029 */}
-          <div className="hidden sm:flex items-center space-x-1.5">
+          <div className="hidden sm:inline-flex year-segmented-control">
             {(['2027', '2028', '2029'] as const).map(yr => (
               <button
                 key={yr}
                 onClick={() => onSelectTargetYear && onSelectTargetYear(yr)}
-                className={`px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-extrabold border-2 border-[#1c1917] transition cursor-pointer ${
-                  targetYear === yr
-                    ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
-                    : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
-                }`}
+                className={`year-segmented-btn ${targetYear === yr ? 'selected' : ''}`}
                 title={`Select NEET Target Year ${yr}`}
               >
                 {yr}
@@ -229,22 +207,17 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Quick Action Buttons */}
-          <div className="flex items-center space-x-1.5 sm:space-x-2.5">
+          <div className="flex items-center space-x-2 sm:space-x-3">
 
             {/* Institutional Master Admin Portal Button */}
             <button
               id="header-admin-portal-btn"
               type="button"
               onClick={isAdmin && onOpenSuperUser ? onOpenSuperUser : onOpenAdminLogin || onOpenSuperUser}
-              className={`flex items-center space-x-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer shadow-2xs ${
-                isAdmin
-                  ? 'bg-gradient-to-r from-cyan-600 to-sky-600 hover:from-cyan-700 hover:to-sky-700 text-white shadow-cyan-500/20'
-                  : 'bg-sky-900 hover:bg-sky-800 text-cyan-400 border border-stone-700'
-              }`}
+              className="clean-nav-admin-link text-xs sm:text-sm"
               title={isAdmin ? 'Institutional Master Admin Session Active (Click to open Admin Vault)' : 'Institution Director & Master Admin Security Portal'}
             >
-              <Lock className="w-3.5 h-3.5 text-cyan-400" />
-              <span className="hidden md:inline">{isAdmin ? 'Admin Vault' : 'Admin Portal'}</span>
+              {isAdmin ? 'Admin Vault' : 'Admin Portal'}
             </button>
 
             {/* Auth / User Profile Button & Dropdown */}
@@ -275,8 +248,8 @@ export const Header: React.FC<HeaderProps> = ({
                 </button>
 
                 {profileDropdownOpen && (
-                  <div className="absolute right-0 mt-1.5 w-84 rounded-2xl bg-sky-50/60 border border-sky-200 shadow-2xl py-2 z-50 animate-in fade-in zoom-in-95 duration-100 text-sky-950">
-                    <div className="px-4 py-3 border-b border-stone-100 space-y-2 bg-sky-50/70">
+                  <div className="absolute right-0 mt-2 w-84 rounded-2xl bg-white border border-[var(--border)] shadow-[var(--shadow)] py-2 z-50 animate-in fade-in zoom-in-95 duration-100 text-[var(--text)]">
+                    <div className="px-4 py-3 border-b border-[var(--border)] space-y-2 bg-[var(--surface2)]/50">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-1.5">
                           <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
@@ -284,7 +257,7 @@ export const Header: React.FC<HeaderProps> = ({
                             Verified NeetCbt Student
                           </span>
                         </div>
-                        <span className="text-[9px] px-1.5 py-0.2 rounded font-bold bg-sky-100 text-sky-800">
+                        <span className="text-[9px] px-1.5 py-0.2 rounded font-bold bg-[var(--primary-soft)] text-[var(--primary)]">
                           {userCaste}
                         </span>
                       </div>
@@ -294,18 +267,18 @@ export const Header: React.FC<HeaderProps> = ({
                           <img
                             src={enrolledStudent.studentPhoto}
                             alt={userName}
-                            className="w-11 h-11 rounded-xl object-cover border-2 border-sky-400 shadow-xs shrink-0"
+                            className="w-11 h-11 rounded-xl object-cover border-2 border-[var(--primary)] shadow-xs shrink-0"
                           />
                         ) : (
-                          <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-sky-600 to-sky-600 text-white font-bold text-base flex items-center justify-center shrink-0 uppercase shadow-xs">
+                          <div className="w-11 h-11 rounded-xl bg-[var(--primary)] text-white font-bold text-base flex items-center justify-center shrink-0 uppercase shadow-xs">
                             {userName.charAt(0)}
                           </div>
                         )}
                         <div className="min-w-0 flex-1">
-                          <p className="text-xs font-bold text-sky-950 truncate">{userName}</p>
-                          <p className="text-[10px] text-sky-700">Parent: <strong>{parentName}</strong></p>
+                          <p className="text-xs font-bold text-[var(--text)] truncate">{userName}</p>
+                          <p className="text-[10px] text-[var(--muted)]">Parent: <strong>{parentName}</strong></p>
                           {enrolledStudent?.gender && (
-                            <p className="text-[10px] text-sky-600">Gender: <strong>{enrolledStudent.gender}</strong></p>
+                            <p className="text-[10px] text-[var(--muted)]">Gender: <strong>{enrolledStudent.gender}</strong></p>
                           )}
                         </div>
                       </div>
@@ -315,7 +288,7 @@ export const Header: React.FC<HeaderProps> = ({
                         enrolledStudent?.specialReservation && enrolledStudent.specialReservation !== 'None') && (
                         <div className="flex flex-wrap gap-1 pt-1">
                           {enrolledStudent.disabilityStatus !== 'No Disability' && (
-                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-md bg-sky-100 text-sky-800 border border-sky-200 truncate max-w-full">
+                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-md bg-[var(--primary-soft)] text-[var(--primary)] border border-blue-200 truncate max-w-full">
                               ♿ {enrolledStudent.disabilityStatus}
                             </span>
                           )}
@@ -327,7 +300,7 @@ export const Header: React.FC<HeaderProps> = ({
                         </div>
                       )}
 
-                      <div className="space-y-0.5 font-mono text-[10px] text-sky-600 pt-0.5">
+                      <div className="space-y-0.5 font-mono text-[10px] text-[var(--muted)] pt-0.5">
                         <div className="flex items-center space-x-1">
                           <Mail className="w-3 h-3 text-stone-400 shrink-0" />
                           <span className="truncate">{userEmail || enrolledStudent?.email}</span>
@@ -345,13 +318,13 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           if (onOpenDownloads) onOpenDownloads();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center justify-between text-sky-800 hover:bg-sky-50 hover:text-sky-700 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center justify-between text-[var(--text)] hover:bg-[var(--surface2)] transition cursor-pointer"
                       >
                         <div className="flex items-center space-x-2">
-                          <Download className="w-4 h-4 text-sky-600" />
+                          <Download className="w-4 h-4 text-[var(--primary)]" />
                           <span className="font-semibold">My Downloaded Files</span>
                         </div>
-                        <span className="px-1.5 py-0.2 rounded-full bg-sky-100 text-sky-800 font-bold text-[10px] font-mono">
+                        <span className="px-1.5 py-0.2 rounded-full bg-[var(--primary-soft)] text-[var(--primary)] font-bold text-[10px] font-mono">
                           {downloadsCount}
                         </span>
                       </button>
@@ -361,9 +334,9 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           if (onOpenEnrollment) onOpenEnrollment();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-sky-800 hover:bg-sky-50 hover:text-sky-900 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-[var(--text)] hover:bg-[var(--surface2)] transition cursor-pointer"
                       >
-                        <GraduationCap className="w-4 h-4 text-sky-600" />
+                        <GraduationCap className="w-4 h-4 text-[var(--primary)]" />
                         <span className="font-semibold">Candidate Enrollment Form</span>
                       </button>
 
@@ -372,10 +345,10 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           if (onOpenSuperUser) onOpenSuperUser();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-sky-800 hover:bg-cyan-50 hover:text-cyan-900 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-[var(--text)] hover:bg-cyan-50 hover:text-cyan-900 transition cursor-pointer"
                       >
                         <ShieldCheck className="w-4 h-4 text-cyan-600" />
-                        <span className="font-semibold">Super User & Admin Vault</span>
+                        <span className="font-semibold">Super User &amp; Admin Vault</span>
                       </button>
 
                       <button
@@ -383,7 +356,7 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           onOpenQuickTest();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-sky-800 hover:bg-sky-50 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-[var(--text)] hover:bg-[var(--surface2)] transition cursor-pointer"
                       >
                         <Play className="w-4 h-4 text-stone-400" />
                         <span>Launch Sunday Mock (180 Qs)</span>
@@ -394,20 +367,20 @@ export const Header: React.FC<HeaderProps> = ({
                           setProfileDropdownOpen(false);
                           onOpenDoubtModal();
                         }}
-                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-sky-800 hover:bg-sky-50 transition cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-[var(--text)] hover:bg-[var(--surface2)] transition cursor-pointer"
                       >
                         <MessageCircleQuestion className="w-4 h-4 text-stone-400" />
                         <span>Ask 24/7 Academic Doubt</span>
                       </button>
                     </div>
 
-                    <div className="pt-1.5 border-t border-stone-100 px-2">
+                    <div className="pt-1.5 border-t border-[var(--border)] px-2">
                       <button
                         onClick={() => {
                           setProfileDropdownOpen(false);
                           onSignOut();
                         }}
-                        className="w-full text-left px-3 py-1.5 rounded-xl text-xs font-semibold text-sky-600 hover:bg-sky-50 flex items-center space-x-2 transition cursor-pointer"
+                        className="w-full text-left px-3 py-1.5 rounded-xl text-xs font-semibold text-rose-600 hover:bg-rose-50 flex items-center space-x-2 transition cursor-pointer"
                       >
                         <LogOut className="w-3.5 h-3.5" />
                         <span>Sign Out / Switch Profile</span>
@@ -419,7 +392,7 @@ export const Header: React.FC<HeaderProps> = ({
             ) : (
               <button
                 onClick={onOpenAuth}
-                className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold shadow-xs transition cursor-pointer transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95  transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
+                className="btn-pill-primary btn-pill-small"
               >
                 <UserIcon className="w-3.5 h-3.5" />
                 <span>Sign In</span>
@@ -429,18 +402,14 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Mobile & Tablet Page Navigation Bar */}
-        <div className="flex lg:hidden items-center space-x-2 py-2 overflow-x-auto no-scrollbar border-t border-stone-200 text-xs">
+        <div className="flex lg:hidden items-center space-x-1.5 py-2.5 overflow-x-auto no-scrollbar border-t border-[var(--border)] text-xs">
           <button
             onClick={() => {
               if (onSelectTab) onSelectTab('home');
               if (onNavigateHome) onNavigateHome();
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className={`px-3 py-1 rounded-full font-bold whitespace-nowrap transition cursor-pointer ${
-              activeTab === 'home'
-                ? 'bg-[#007bff] text-white shadow-xs'
-                : 'bg-stone-100 text-[#1c1917] hover:bg-stone-200'
-            }`}
+            className={`clean-nav-link ${activeTab === 'home' ? 'active' : ''}`}
           >
             Home
           </button>
@@ -452,7 +421,7 @@ export const Header: React.FC<HeaderProps> = ({
                 document.getElementById('packages-section')?.scrollIntoView({ behavior: 'smooth' });
               }, 100);
             }}
-            className="px-3 py-1 rounded-full font-bold whitespace-nowrap bg-stone-100 text-[#1c1917] hover:bg-stone-200 transition cursor-pointer"
+            className="clean-nav-link"
           >
             Courses &amp; Packages
           </button>
@@ -461,11 +430,7 @@ export const Header: React.FC<HeaderProps> = ({
               if (onSelectTab) onSelectTab('test-series');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className={`px-3 py-1 rounded-full font-bold whitespace-nowrap transition cursor-pointer ${
-              activeTab === 'test-series'
-                ? 'bg-[#007bff] text-white shadow-xs'
-                : 'bg-stone-100 text-[#1c1917] hover:bg-stone-200'
-            }`}
+            className={`clean-nav-link ${activeTab === 'test-series' ? 'active' : ''}`}
           >
             Test Series (196 Tests)
           </button>
@@ -474,11 +439,7 @@ export const Header: React.FC<HeaderProps> = ({
               if (onSelectTab) onSelectTab('about-exam');
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className={`px-3 py-1 rounded-full font-bold whitespace-nowrap transition cursor-pointer ${
-              activeTab === 'about-exam'
-                ? 'bg-[#007bff] text-white shadow-xs'
-                : 'bg-stone-100 text-[#1c1917] hover:bg-stone-200'
-            }`}
+            className={`clean-nav-link ${activeTab === 'about-exam' ? 'active' : ''}`}
           >
             About NEET Exam
           </button>
@@ -488,11 +449,7 @@ export const Header: React.FC<HeaderProps> = ({
                 if (onSelectTab) onSelectTab('what-extra');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className={`px-3 py-1 rounded-full font-bold whitespace-nowrap transition cursor-pointer ${
-                activeTab === 'what-extra'
-                  ? 'bg-[#007bff] text-white shadow-xs'
-                  : 'bg-stone-100 text-[#1c1917] hover:bg-stone-200'
-              }`}
+              className={`clean-nav-link ${activeTab === 'what-extra' ? 'active' : ''}`}
             >
               What Extra
             </button>

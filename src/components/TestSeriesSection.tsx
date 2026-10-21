@@ -802,24 +802,20 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 setActiveBatch('repeater');
                 setActivePhaseFilter('all');
               }}
-              className={`px-5 py-2.5 rounded-xl text-sm font-extrabold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
-                activeBatch === 'repeater'
-                  ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
-                  : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
-              }`}
+              className={`batch-pill-btn ${activeBatch === 'repeater' ? 'selected' : ''}`}
             >
               <span>Repeater / Dropper Batch</span>
             </button>
             
-            <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
-              <div className="text-[10px] font-black text-[#56514c] uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track1'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track1' && activeBatch === 'repeater' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
+            <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border border-[var(--border)] shadow-[var(--shadow)] rounded-2xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
+              <div className="mono-label px-2 py-1 mb-1">Select Track</div>
+              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track1'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors rounded-xl ${repeaterTrack === 'track1' && activeBatch === 'repeater' ? 'bg-[var(--primary-soft)] text-[var(--primary)]' : 'text-[var(--text)] hover:bg-[var(--surface2)]'}`}>
                 Track 1: Chapterwise, Partwise & Full (46 Tests)
               </button>
-              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
+              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track2'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors rounded-xl ${repeaterTrack === 'track2' && activeBatch === 'repeater' ? 'bg-[var(--primary-soft)] text-[var(--primary)]' : 'text-[var(--text)] hover:bg-[var(--surface2)]'}`}>
                 Track 2: 17-Week Fast-Track (42 Tests)
               </button>
-              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
+              <button onClick={() => { setActiveBatch('repeater'); setRepeaterTrack('track3'); setActivePhaseFilter('all'); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors rounded-xl ${repeaterTrack === 'track3' && activeBatch === 'repeater' ? 'bg-[var(--primary-soft)] text-[var(--primary)]' : 'text-[var(--text)] hover:bg-[var(--surface2)]'}`}>
                 Track 3: Physics & Chemistry Only (27 Tests)
               </button>
             </div>
@@ -833,21 +829,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 setActivePhaseFilter('all');
                 setShowRevisionBuffer(false);
               }}
-              className={`px-5 py-2.5 rounded-xl text-sm font-extrabold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
-                activeBatch === '12th'
-                  ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
-                  : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
-              }`}
+              className={`batch-pill-btn ${activeBatch === '12th' ? 'selected' : ''}`}
             >
               <span>12th Batch • 23 Tests</span>
             </button>
             
-            <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
-              <div className="text-[10px] font-black text-[#56514c] uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-              <button onClick={() => { setActiveBatch('12th'); setClass12Track('complete'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class12Track === 'complete' && activeBatch === '12th' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
+            <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border border-[var(--border)] shadow-[var(--shadow)] rounded-2xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
+              <div className="mono-label px-2 py-1 mb-1">Select Track</div>
+              <button onClick={() => { setActiveBatch('12th'); setClass12Track('complete'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors rounded-xl ${class12Track === 'complete' && activeBatch === '12th' ? 'bg-[var(--primary-soft)] text-[var(--primary)]' : 'text-[var(--text)] hover:bg-[var(--surface2)]'}`}>
                 Track 1: Complete Syllabus Master Series (23 Tests)
               </button>
-              <button onClick={() => { setActiveBatch('12th'); setClass12Track('pc'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class12Track === 'pc' && activeBatch === '12th' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
+              <button onClick={() => { setActiveBatch('12th'); setClass12Track('pc'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors rounded-xl ${class12Track === 'pc' && activeBatch === '12th' ? 'bg-[var(--primary-soft)] text-[var(--primary)]' : 'text-[var(--text)] hover:bg-[var(--surface2)]'}`}>
                 Track 2: Physics & Chemistry Series (18 Tests)
               </button>
             </div>
@@ -861,21 +853,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 setActivePhaseFilter('all');
                 setShowRevisionBuffer(false);
               }}
-              className={`px-5 py-2.5 rounded-xl text-sm font-extrabold transition-all border-2 border-[#1c1917] cursor-pointer flex items-center space-x-2 ${
-                activeBatch === '11th'
-                  ? 'bg-[#dbeafe] text-[#1e3a8a] shadow-[2px_2px_0px_#1c1917]'
-                  : 'bg-white text-[#1c1917] hover:bg-[#f0f9ff]'
-              }`}
+              className={`batch-pill-btn ${activeBatch === '11th' ? 'selected' : ''}`}
             >
               <span>11th Batch • 20 Tests</span>
             </button>
             
-            <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] rounded-xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
-              <div className="text-[10px] font-black text-[#56514c] uppercase tracking-wider px-2 py-1 mb-1">Select Track</div>
-              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
+            <div className="absolute left-0 top-[calc(100%+6px)] w-80 bg-white border border-[var(--border)] shadow-[var(--shadow)] rounded-2xl p-2 hidden group-hover:block z-50 animate-in fade-in slide-in-from-top-1">
+              <div className="mono-label px-2 py-1 mb-1">Select Track</div>
+              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track1'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors rounded-xl ${class11Track === 'track1' && activeBatch === '11th' ? 'bg-[var(--primary-soft)] text-[var(--primary)]' : 'text-[var(--text)] hover:bg-[var(--surface2)]'}`}>
                 Track 1: Chapterwise, Partwise & Full (20 Tests)
               </button>
-              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors border-2 ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-[#dbeafe] text-[#1e3a8a] border-[#1c1917]' : 'border-transparent text-[#1c1917] hover:bg-[#f0f9ff]'}`}>
+              <button onClick={() => { setActiveBatch('11th'); setClass11Track('track2'); setActivePhaseFilter('all'); setShowRevisionBuffer(false); }} className={`w-full text-left px-3 py-2 text-xs font-bold rounded-lg transition-colors rounded-xl ${class11Track === 'track2' && activeBatch === '11th' ? 'bg-[var(--primary-soft)] text-[var(--primary)]' : 'text-[var(--text)] hover:bg-[var(--surface2)]'}`}>
                 Track 2: CWT & Cumulative Master (20 Tests)
               </button>
             </div>
@@ -885,19 +873,19 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         {/* Admin Authorization Status Badge */}
         <div className="flex items-center space-x-2">
           {isAdminInSession ? (
-            <span className="px-3.5 py-1.5 rounded-xl bg-white text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold flex items-center space-x-1.5 font-mono shadow-xs">
+            <span className="tag-pill tag-pill-surface2 flex items-center space-x-1.5 py-1.5 px-3">
               <Unlock className="w-3.5 h-3.5 text-cyan-600" />
               <span>Admin Master Session (Preview Mode)</span>
             </span>
           ) : isCurrentTrackUnlocked ? (
-            <span className="px-3.5 py-1.5 rounded-xl bg-white text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold flex items-center space-x-1.5 font-mono shadow-xs">
+            <span className="tag-pill tag-pill-surface2 flex items-center space-x-1.5 py-1.5 px-3">
               <Unlock className="w-3.5 h-3.5 text-emerald-600" />
               <span>Approved by Admin • {currentTrackPackage.testsCount} Tests Unlocked</span>
             </span>
           ) : isTrackPurchased ? (
             <button
               onClick={() => setShowAdminApprovalModal(true)}
-              className="px-3.5 py-1.5 rounded-xl bg-[#fef3c7] hover:bg-[#fde68a] text-[#78350f] border-2 border-[#1c1917] text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-xs"
+              className="tag-pill tag-pill-amber flex items-center space-x-1.5 py-1.5 px-3 hover:opacity-90 transition cursor-pointer"
             >
               <Lock className="w-3.5 h-3.5 text-amber-700" />
               <span>Purchased • Awaiting Admin Approval</span>
@@ -908,7 +896,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                 if (onOpenEnrollment) onOpenEnrollment(currentTrackPackage.id);
                 else setShowAdminApprovalModal(true);
               }}
-              className="px-3.5 py-1.5 rounded-xl bg-white hover:bg-stone-50 text-[#1c1917] border-2 border-[#1c1917] text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-xs"
+              className="btn-pill-primary btn-pill-small"
             >
               <Lock className="w-3.5 h-3.5 text-[#56514c]" />
               <span>Unlock Track ({currentTrackPackage.price})</span>
@@ -919,7 +907,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
       {/* Active Purchased Package Banner (shows purchased test quota) */}
       {enrolledPackagesList.length > 0 && (
-        <div className="p-3.5 sm:p-4 rounded-2xl bg-white border-2 border-[#1c1917] shadow-[4px_4px_0px_#1c1917] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+        <div className="purchased-quota-bar">
           <div className="flex items-center gap-3">
             <span className="p-2 rounded-xl bg-[#dbeafe] text-[#1e3a8a] border-2 border-[#1c1917]">
               <Sparkles className="w-4 h-4" />
@@ -1116,26 +1104,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             return (
               <div
                 key={mock.id}
-                className="bg-white rounded-2xl border-2 border-[#1c1917] shadow-[8px_8px_0px_#1c1917] p-6 sm:p-7 relative transition-all flex flex-col xl:flex-row items-start xl:items-center justify-between gap-6"
+                className="test-card-clean flex flex-col xl:flex-row items-start xl:items-center justify-between gap-6"
               >
                 <div className="space-y-4 flex-1 w-full">
                   {/* Badges - Blended on a single line */}
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
+                    <span className="tag-pill tag-pill-amber">
                       {mock.dateStr}
                     </span>
-                    <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
+                    <span className="tag-pill tag-pill-amber">
                       {mock.code} · {mock.phase}
                     </span>
-                    <span className="bg-[#fde68a] text-[#1c1917] font-bold text-xs px-3 py-1 rounded-md">
+                    <span className="tag-pill tag-pill-amber">
                       {totalDynamicMarks} Marks · {dynamicDuration} Mins · {totalDynamicQs} Qs
                     </span>
                     {isTestCardUnlocked ? (
-                      <span className="bg-[#dcfce7] text-[#14532d] font-black text-xs px-3 py-1 rounded-md border border-[#86efac] flex items-center gap-1">
+                      <span className="tag-pill tag-pill-green flex items-center gap-1">
                         <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" /> Approved by Admin
                       </span>
                     ) : isTrackPurchased ? (
-                      <span className="bg-[#fef3c7] text-[#78350f] font-black text-xs px-3 py-1 rounded-md border border-[#fde68a] flex items-center gap-1">
+                      <span className="tag-pill tag-pill-amber flex items-center gap-1">
                         <Lock className="w-3.5 h-3.5 text-amber-700" /> Awaiting Admin Approval
                       </span>
                     ) : (
@@ -1158,10 +1146,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   {/* Exact Syllabus Breakdown Grid (2 Cols for PC, 4 Cols for Standard) */}
                   {isPCTest ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
-                      <div className="p-3.5 sm:p-4 rounded-xl bg-sky-50/80 border border-sky-200 overflow-hidden">
-                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
-                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
-                            <Zap className="w-4 h-4 text-sky-600 shrink-0" /> PHYSICS
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-blue-50/50 border border-blue-200/80 border-l-4 border-l-blue-500 overflow-hidden">
+                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-blue-200/60">
+                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-blue-900 tracking-wide uppercase">
+                            <Zap className="w-4 h-4 text-blue-600 shrink-0" /> PHYSICS
                           </span>
                           <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
                             {phyCount} QS
@@ -1172,7 +1160,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="p-3.5 sm:p-4 rounded-xl bg-emerald-50/80 border border-emerald-300 overflow-hidden">
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-emerald-50/50 border border-emerald-200/80 border-l-4 border-l-emerald-500 overflow-hidden">
                         <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-emerald-200/60">
                           <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-emerald-900 tracking-wide uppercase">
                             <Atom className="w-4 h-4 text-emerald-600 shrink-0" /> CHEMISTRY
@@ -1216,10 +1204,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="p-3.5 sm:p-4 rounded-xl bg-sky-50/80 border border-sky-200 overflow-hidden">
-                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
-                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
-                            <BookOpen className="w-4 h-4 text-sky-600 shrink-0" /> BOTANY
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-amber-50/50 border border-amber-200/80 border-l-4 border-l-amber-500 overflow-hidden">
+                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-amber-200/60">
+                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-amber-900 tracking-wide uppercase">
+                            <BookOpen className="w-4 h-4 text-amber-600 shrink-0" /> BOTANY
                           </span>
                           <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
                             {botCount} QS
@@ -1230,10 +1218,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="p-3.5 sm:p-4 rounded-xl bg-sky-50/80 border border-sky-200 overflow-hidden">
-                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-sky-200/60">
-                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-sky-900 tracking-wide uppercase">
-                            <Dna className="w-4 h-4 text-sky-600 shrink-0" /> ZOOLOGY
+                      <div className="p-3.5 sm:p-4 rounded-xl bg-pink-50/50 border border-pink-200/80 border-l-4 border-l-pink-500 overflow-hidden">
+                        <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-pink-200/60">
+                          <span className="flex items-center gap-1.5 text-xs sm:text-sm font-black text-pink-900 tracking-wide uppercase">
+                            <Dna className="w-4 h-4 text-pink-600 shrink-0" /> ZOOLOGY
                           </span>
                           <span className="font-mono text-xs sm:text-[13px] text-sky-700 font-bold whitespace-nowrap shrink-0">
                             {zooCount} QS
@@ -1252,14 +1240,14 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   {isTestCardUnlocked ? (
                     <button
                       onClick={() => handleLaunchDirectSundayTest(mock)}
-                      className="w-full sm:w-auto bg-[#dbeafe] hover:bg-[#bfdbfe] active:bg-[#93c5fd] text-[#1e3a8a] font-black text-base px-8 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
+                      className="btn-pill-primary w-full sm:w-auto text-base"
                     >
                       <span>Test in CBT</span>
                     </button>
                   ) : isTrackPurchased ? (
                     <button
                       onClick={() => handleLaunchDirectSundayTest(mock)}
-                      className="w-full sm:w-auto bg-[#fef3c7] hover:bg-[#fde68a] active:bg-[#fcd34d] text-[#78350f] font-bold text-sm sm:text-base px-6 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
+                      className="btn-pill-ghost w-full sm:w-auto text-sm sm:text-base border-amber-400 text-amber-800"
                     >
                       <Lock className="w-4 h-4 text-amber-700" />
                       <span>Awaiting Admin Approval</span>
@@ -1282,7 +1270,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                           setPendingTestToStart(mock);
                           setShowAdminApprovalModal(true);
                         }}
-                        className="w-full sm:w-auto bg-[#ede9fe] hover:bg-[#ddd6fe] active:bg-[#c4b5fd] text-[#5b21b6] font-black text-xs sm:text-sm px-6 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
+                        className="btn-pill-primary w-full sm:w-auto text-xs sm:text-sm"
                       >
                         <Sparkles className="w-4 h-4 text-[#7c3aed]" />
                         <span>Upgrade to Track ({currentTrackPackage.price})</span>
@@ -1294,7 +1282,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                         setPendingTestToStart(mock);
                         setShowAdminApprovalModal(true);
                       }}
-                      className="w-full sm:w-auto bg-white hover:bg-stone-50 active:bg-stone-100 text-[#1c1917] font-bold text-sm sm:text-base px-6 py-3.5 rounded-xl border-2 border-[#1c1917] transition cursor-pointer shadow-[3px_3px_0px_#1c1917] hover:shadow-[1px_1px_0px_#1c1917] hover:translate-x-[2px] hover:translate-y-[2px] flex items-center justify-center space-x-2"
+                      className="btn-pill-ghost w-full sm:w-auto text-sm sm:text-base"
                     >
                       <Lock className="w-4 h-4 text-[#56514c]" />
                       <span>Unlock Track ({currentTrackPackage.price})</span>
