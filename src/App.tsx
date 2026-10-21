@@ -1027,7 +1027,7 @@ export default function App() {
 
         {/* Super User & Admin Control Center (Full-Screen Edge-to-Edge Portal) */}
         {isSuperUserModalOpen && (
-          <div className="fixed inset-0 z-50 w-screen h-screen bg-[#f8fafc] flex flex-col overflow-hidden animate-in fade-in duration-150">
+          <div className="fixed inset-0 z-50 w-screen h-screen bg-[#f6f9ff] flex flex-col overflow-hidden animate-in fade-in duration-150">
             <div className="flex-1 overflow-y-auto w-full h-full p-4 sm:p-8">
               <div className="w-full max-w-[1600px] mx-auto">
                 <ErrorBoundary

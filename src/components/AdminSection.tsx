@@ -2435,10 +2435,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             </div>
           </div>
 
-          <div className="bg-sky-50/60 rounded-2xl border border-sky-200 shadow-2xs overflow-hidden">
+          <div className="bg-white rounded-2xl border border-[#e2e8f4] shadow-sm overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs">
-                <thead className="bg-sky-900 text-white font-bold">
+                <thead className="bg-[#f8fafc] text-[#5b6b86] font-semibold border-b border-[#e2e8f4]">
                   <tr>
                     <th className="p-3.5">Requested At</th>
                     <th className="p-3.5">Candidate & Roll #</th>
@@ -2457,8 +2457,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       const isRejected = req.status === 'rejected';
 
                       return (
-                        <tr key={req.id} className="hover:bg-sky-50 transition">
-                          <td className="p-3.5 font-mono text-sky-600 whitespace-nowrap">
+                        <tr key={req.id} className="hover:bg-[#f8fafc] transition-colors">
+                          <td className="p-3.5 font-mono text-[#5b6b86] whitespace-nowrap">
                             <div className="flex items-center space-x-1">
                               <Clock className="w-3.5 h-3.5 text-stone-400" />
                               <span>{new Date(req.requestedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
@@ -2467,8 +2467,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           </td>
 
                           <td className="p-3.5">
-                            <div className="font-bold text-sky-950">{req.studentName}</div>
-                            <div className="text-[11px] font-mono text-sky-700 font-semibold">{req.rollNumber}</div>
+                            <div className="font-bold text-[#0f172a]">{req.studentName}</div>
+                            <div className="text-[11px] font-mono text-[#5b6b86] font-semibold">{req.rollNumber}</div>
                             {(() => {
                               const matched = registeredCandidates.find((c: any) => c.rollNumber === req.rollNumber || c.studentName === req.studentName || c.studentPhone === req.studentPhone);
                               const pkg = matched?.selectedPackage || enrolledStudent?.selectedPackage;
@@ -2484,7 +2484,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             })()}
                           </td>
 
-                          <td className="p-3.5 font-mono text-sky-800">
+                          <td className="p-3.5 font-mono text-[#0f172a]">
                             <div className="flex items-center space-x-1 font-semibold">
                               <Phone className="w-3 h-3 text-sky-600" />
                               <span>+91 {req.studentPhone}</span>
@@ -2492,11 +2492,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                           </td>
 
                           <td className="p-3.5 space-y-0.5">
-                            <div className="flex items-center space-x-1 text-sky-900 font-mono text-[11px]">
+                            <div className="flex items-center space-x-1 text-[#0f172a] font-mono text-[11px]">
                               <Mail className="w-3 h-3 text-emerald-600" />
                               <span className="font-semibold">{req.parentEmail}</span>
                             </div>
-                            <div className="flex items-center space-x-1 text-sky-700 font-mono text-[11px]">
+                            <div className="flex items-center space-x-1 text-[#5b6b86] font-mono text-[11px]">
                               <Phone className="w-3 h-3 text-cyan-600" />
                               <span>+91 {req.parentPhone}</span>
                             </div>
@@ -2601,11 +2601,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {adminTab === 'sunday_studio' && (
         <div className="space-y-6">
           {/* Top Banner with All-Sunday Paper Selector & Master Controls */}
-          <div className="bg-gradient-to-r from-stone-900 via-sky-950 to-sky-950 text-white p-8 rounded-3xl shadow-lg space-y-5 border border-sky-800/40">
+          <div className="bg-white text-[#0f172a] p-6 sm:p-8 rounded-2xl shadow-sm border border-[#e2e8f4] space-y-5">
             <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
               <div>
                 <div className="flex items-center gap-3 flex-wrap mb-1.5">
-                  <span className="px-3 py-1 rounded-full text-[11px] font-mono font-black bg-sky-500/20 text-sky-300 border border-sky-400/30 uppercase tracking-wider">
+                  <span className="px-3 py-1 rounded-full text-[11px] font-mono font-bold bg-[#eef4ff] text-[#1a6bff] border border-[#bfdbfe] uppercase tracking-wider">
                     Official NTA Format • 720 Marks • 180 Qs
                   </span>
                   {isCurrentPaperCustomized ? (
@@ -2619,11 +2619,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                     </span>
                   )}
                 </div>
-                <h3 className="text-xl font-black text-white flex items-center gap-3">
+                <h3 className="text-xl font-black text-[#0f172a] flex items-center gap-3">
                   <Sparkles className="w-6 h-6 text-cyan-400" />
-                  Sunday Test Paper Studio: <span className="text-cyan-300 font-mono underline decoration-cyan-400/50">{selectedPlannerPreset.toUpperCase()}</span>
+                  Sunday Test Paper Studio: <span className="text-[#1a6bff] font-mono">{selectedPlannerPreset.toUpperCase()}</span>
                 </h3>
-                <p className="text-xs text-sky-200/90 mt-1 max-w-2xl leading-relaxed">
+                <p className="text-xs text-[#5b6b86] mt-1 max-w-2xl leading-relaxed">
                   Select and edit <strong>all Sunday papers</strong> across Chapter-Wise (CWT-01 to 19), Cumulative (CUM-01 to 05), Part-Wise (PART-01 to 03), and Full-Syllabus (FST-01 to 06). When you swap a question, edit a question, or swap a topic, it automatically becomes the <strong>Master Default</strong> for all candidates platform-wide.
                 </p>
               </div>
@@ -4038,13 +4038,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {/* TAB 2: CUSTOM TEST GENERATOR */}
       {adminTab === 'generator' && (
         <div className="space-y-6">
-          <div className="bg-sky-50/60 p-8 rounded-2xl border border-sky-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="bg-white p-6 sm:p-8 rounded-2xl border border-[#e2e8f4] shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
-              <h3 className="text-base font-bold text-sky-950 flex items-center space-x-2">
+              <h3 className="text-base sm:text-lg font-bold text-[#0f172a] flex items-center space-x-2">
                 <Sliders className="w-5 h-5 text-sky-600" />
                 <span>Admin Custom Test Paper Generator</span>
               </h3>
-              <p className="text-xs text-sky-600 mt-0.5">
+              <p className="text-xs sm:text-sm text-[#5b6b86] mt-1">
                 Build high-yield custom mock tests across 97 NCERT units, set time limits, and export instant PDF papers or launch CBT tests.
               </p>
             </div>
@@ -4529,18 +4529,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {adminTab === 'telemetry' && (
         <div className="space-y-6">
           {/* Header Banner */}
-          <div className="p-8 bg-gradient-to-r from-stone-900 via-sky-950 to-sky-950 rounded-2xl text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="bg-white p-6 sm:p-8 rounded-2xl border border-[#e2e8f4] text-[#0f172a] shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
               <div className="flex items-center space-x-2">
                 <span className="px-2 py-0.5 rounded-full bg-sky-400 text-stone-950 text-[10px] font-mono font-black uppercase">
                   Verified Audit
                 </span>
-                <h3 className="text-base font-bold text-white flex items-center space-x-2">
+                <h3 className="text-base sm:text-lg font-bold text-[#0f172a] flex items-center space-x-2">
                   <BarChart3 className="w-5 h-5 text-sky-400" />
                   <span>Question Bank Inventory & Chapter Analytics</span>
                 </h3>
               </div>
-              <p className="text-xs text-stone-300 mt-1">
+              <p className="text-xs sm:text-sm text-[#5b6b86] mt-1">
                 Real-time question count distribution across Physics, Chemistry, and Biology syllabus chapters.
               </p>
             </div>
@@ -5004,16 +5004,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {/* TAB 4: ENROLLED CANDIDATES & DOMICILE DIRECTORY */}
       {adminTab === 'students' && (
         <div className="space-y-6">
-          <div className="bg-gradient-to-r from-sky-900 via-sky-900 to-stone-900 p-5 rounded-2xl text-white shadow-lg space-y-6">
+          <div className="bg-white p-6 sm:p-8 rounded-2xl border border-[#e2e8f4] text-[#0f172a] shadow-sm space-y-6">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4">
               <div className="space-y-1">
                 <div className="flex items-center space-x-2">
                   <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-cyan-400 text-sky-950 uppercase">
                     Admin Authority
                   </span>
-                  <span className="text-xs text-sky-200 font-mono">33 Sunday Tests Master Switch</span>
+                  <span className="text-xs text-[#5b6b86] font-mono">33 Sunday Tests Master Switch</span>
                 </div>
-                <h4 className="text-base font-bold text-white flex items-center gap-3">
+                <h4 className="text-base sm:text-lg font-bold text-[#0f172a] flex items-center gap-3">
                   <ShieldCheck className="w-5 h-5 text-sky-300" />
                   <span>Sunday Test Series Authorization Controls</span>
                 </h4>
@@ -5161,6 +5161,97 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               <p className="text-xs text-sky-600">Active students registering on this device will stream here.</p>
             </div>
           )}
+        </div>
+      )}
+
+      
+      {/* TAB 6: PAYMENT TRANSACTIONS (RAZORPAY) */}
+      {adminTab === 'transactions' && (
+        <div className="space-y-6">
+          <div className="bg-white p-6 sm:p-8 rounded-2xl border border-[#e2e8f4] shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-[#0f172a] flex items-center space-x-2">
+                <CreditCard className="w-5 h-5 text-[#16a34a]" />
+                <span>Razorpay Payment Transactions</span>
+              </h3>
+              <p className="text-xs sm:text-sm text-[#5b6b86] mt-1">
+                Verified payment ledger, transaction IDs, candidate receipts, and package access unlocks.
+              </p>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <span className="text-xs font-mono font-bold px-3 py-1.5 rounded-full bg-[#eef4ff] text-[#1a6bff] border border-[#bfdbfe]">
+                Total: ₹{paymentTransactions.reduce((acc, t) => acc + (t.amountPaid || 0), 0).toLocaleString()} ({paymentTransactions.length} Paid)
+              </span>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl border border-[#e2e8f4] shadow-sm overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-xs">
+                <thead className="bg-[#f8fafc] text-[#5b6b86] font-semibold border-b border-[#e2e8f4]">
+                  <tr>
+                    <th className="p-3.5">Date & Time</th>
+                    <th className="p-3.5">Payment ID / Order ID</th>
+                    <th className="p-3.5">Candidate Details</th>
+                    <th className="p-3.5">Contact & Email</th>
+                    <th className="p-3.5">Package Enrolled</th>
+                    <th className="p-3.5 text-right">Amount Paid</th>
+                    <th className="p-3.5 text-center">Status</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-[#e2e8f4]">
+                  {paymentTransactions.length > 0 ? (
+                    paymentTransactions.map((txn, idx) => (
+                      <tr key={txn.paymentId || idx} className="hover:bg-[#f8fafc] transition-colors">
+                        <td className="p-3.5 font-mono text-[#5b6b86] whitespace-nowrap">
+                          {txn.paidAt ? new Date(txn.paidAt).toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' }) : 'Recent'}
+                        </td>
+                        <td className="p-3.5 font-mono">
+                          <span className="text-[#1a6bff] font-bold block">{txn.paymentId}</span>
+                          {txn.orderId && <span className="text-[10px] text-[#5b6b86]">{txn.orderId}</span>}
+                        </td>
+                        <td className="p-3.5">
+                          <div className="font-bold text-[#0f172a]">{txn.studentName || 'Candidate'}</div>
+                          <div className="text-[11px] font-mono text-[#5b6b86]">Roll: {txn.rollNumber || 'N/A'}</div>
+                        </td>
+                        <td className="p-3.5 font-mono text-[11px] space-y-0.5">
+                          <div className="text-[#0f172a] font-medium">+91 {txn.studentPhone}</div>
+                          <div className="text-[#5b6b86] truncate max-w-[160px]">{txn.studentEmail}</div>
+                        </td>
+                        <td className="p-3.5">
+                          <span className="px-2.5 py-1 rounded-full text-xs font-bold bg-[#eef4ff] text-[#1a6bff] border border-[#bfdbfe] inline-block">
+                            {txn.packageName || txn.packageId}
+                          </span>
+                        </td>
+                        <td className="p-3.5 text-right font-mono font-bold text-sm text-[#16a34a]">
+                          ₹{(txn.amountPaid || 0).toLocaleString()}
+                        </td>
+                        <td className="p-3.5 text-center">
+                          <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase inline-flex items-center gap-1 ${
+                            txn.status === 'captured' || txn.status === 'authorized'
+                              ? 'bg-emerald-50 text-[#16a34a] border border-emerald-200'
+                              : 'bg-red-50 text-[#dc2626] border border-red-200'
+                          }`}>
+                            <CheckCircle2 className="w-3 h-3" />
+                            {txn.status || 'captured'}
+                          </span>
+                        </td>
+                      </tr>
+                    ))
+                  ) : (
+                    <tr>
+                      <td colSpan={7} className="text-center py-12 px-4 text-[#5b6b86]">
+                        <CreditCard className="w-10 h-10 text-stone-300 mx-auto mb-2" />
+                        <p className="text-sm font-semibold text-[#0f172a]">No Payment Transactions Recorded Yet</p>
+                        <p className="text-xs text-[#5b6b86] mt-0.5">Razorpay payments completed by candidates will stream live into this verified ledger.</p>
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       )}
 

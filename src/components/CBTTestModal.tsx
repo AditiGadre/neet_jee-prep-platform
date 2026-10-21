@@ -96,6 +96,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [testResult, setTestResult] = useState<UserTestResult | null>(null);
   const [activeSolutionTab, setActiveSolutionTab] = useState<'scorecard' | 'solutions'>('scorecard');
+  const [showExitConfirmModal, setShowExitConfirmModal] = useState(false);
 
   // Load previous test history for longitudinal progression tracking
   const [prevTestHistory] = useState<UserTestResult[]>(() => {
@@ -550,22 +551,25 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     const isMarked = !!markedForReview[idx];
     const isCur = idx === currentQuestionIdx;
 
+    let base = '';
     if (isAnswered && isMarked) {
-      return 'bg-sky-600 text-white font-bold ring-2 ring-sky-400';
+      base = 'bg-[#7c3aed] text-white font-bold hover:bg-purple-700';
+    } else if (isMarked) {
+      base = 'bg-[#7c3aed] text-white font-bold hover:bg-purple-700';
+    } else if (isAnswered) {
+      base = 'bg-[#16a34a] text-white font-bold hover:bg-green-700';
+    } else if (visited[idx]) {
+      base = 'bg-[#fee2e2] text-[#dc2626] border-[1.5px] border-[#fca5a5] font-semibold hover:bg-red-100';
+    } else {
+      base = 'bg-[#e2e8f4] text-[#0f172a] font-semibold hover:bg-[#cbd5e1]';
     }
-    if (isMarked) {
-      return 'bg-cyan-500 text-white font-bold';
+
+    if (isCur) {
+      base += ' ring-[2.5px] ring-[#1a6bff] ring-offset-2';
     }
-    if (isAnswered) {
-      return 'bg-emerald-600 text-white font-bold';
-    }
-    if (visited[idx]) {
-      return 'bg-sky-500 text-white font-bold';
-    }
-    return isCur
-      ? 'bg-sky-100 text-sky-800 border border-sky-400 font-bold'
-      : 'bg-sky-50 text-sky-800 hover:bg-sky-100 border border-sky-200';
+    return base;
   };
+
 
   // Memoized Diagram Map ensuring NO diagram is used for more than 2 questions across the entire test
   const questionDiagramMap = useMemo(() => {
@@ -1008,328 +1012,358 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
   }
 
   return (
-    <div className="fixed inset-0 z-50 bg-sky-950/90 backdrop-blur-md flex flex-col overflow-hidden text-sky-950">
-      <div className="w-full h-full bg-sky-50 flex flex-col overflow-hidden">
-        {/* Top Navbar */}
-        <div className="px-4 sm:px-6 py-2.5 bg-gradient-to-r from-sky-700 via-sky-700 to-sky-700 text-white flex items-center justify-between shadow-md shrink-0">
-          <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 rounded-xl bg-sky-50/60/20 backdrop-blur-md flex items-center justify-center font-black text-sm border border-white/30">
-              nc
-            </div>
-            <div>
-              <div className="flex items-center space-x-2">
-                <span className="font-extrabold text-sm sm:text-base tracking-tight text-white">
-                  NeetCbt<span className="text-sky-300"> {activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Test` : 'Exam Test'} ({maxTotalMarks} Marks)</span>
-                </span>
-                <span className="px-2 py-0.2 rounded-full text-[10px] font-bold bg-cyan-400 text-sky-950">
-                  {isSundayTest ? 'Sunday 180-Question Mock (720M)' : activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Custom Test (${maxTotalMarks}M)` : `CBT Practice (${maxTotalMarks}M)`}
-                </span>
+    <div className="fixed inset-0 z-50 bg-[#f6f9ff] flex flex-col h-screen overflow-hidden text-[#0f172a]">
+      {/* Exit Confirmation Dialog */}
+      {showExitConfirmModal && (
+        <div className="fixed inset-0 z-[100] bg-[#0f172a]/60 backdrop-blur-xs flex items-center justify-center p-4 animate-in fade-in duration-150">
+          <div className="bg-white rounded-2xl p-6 max-w-md w-full shadow-2xl border border-[#e2e8f4] space-y-4 animate-in zoom-in-95 duration-150">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-amber-50 text-amber-600 border border-amber-200 flex items-center justify-center shrink-0">
+                <AlertIcon className="w-5 h-5" />
               </div>
-              <p className="text-[11px] text-sky-100 font-mono truncate max-w-xs sm:max-w-md">
-                {test.title} &bull; +4 for Correct, -1 for Incorrect (Total {maxTotalMarks} Marks)
-              </p>
+              <div>
+                <h3 className="text-base font-bold text-[#0f172a]">Exit test?</h3>
+                <p className="text-xs text-[#5b6b86] mt-0.5 leading-relaxed">
+                  Your progress will be saved / your answers so far will be kept. You can return or submit your test at any time.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center justify-end gap-3 pt-2 border-t border-[#e2e8f4]">
+              <button
+                type="button"
+                onClick={() => setShowExitConfirmModal(false)}
+                className="px-4 py-2 rounded-xl bg-[#eef4ff] text-[#0f172a] hover:bg-[#e2e8f4] text-xs font-semibold transition cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setShowExitConfirmModal(false);
+                  onClose();
+                }}
+                className="px-4 py-2 rounded-xl bg-[#dc2626] hover:bg-red-700 text-white text-xs font-bold transition shadow-xs cursor-pointer"
+              >
+                Exit Test
+              </button>
             </div>
           </div>
+        </div>
+      )}
 
-          <div className="flex items-center space-x-3">
-            {!isSubmitted && (
-              <div
-                className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl border text-xs font-mono font-bold shadow-xs ${
-                  timeLeftSeconds < 600
-                    ? 'bg-sky-500 border-sky-400 text-white animate-pulse'
-                    : 'bg-sky-50/60/20 backdrop-blur-md border-white/30 text-white'
-                }`}
-              >
-                <ClockIcon className="w-4 h-4 text-sky-300" />
-                <span>Time Left: {formatTimer(timeLeftSeconds)}</span>
-              </div>
-            )}
+      {/* Top Bar (Sticky, Height 64px) */}
+      <header className="h-16 shrink-0 bg-white border-b border-[#e2e8f4] px-4 sm:px-6 flex items-center justify-between z-20">
+        <div className="flex items-center gap-3 sm:gap-6 overflow-x-auto custom-scrollbar py-1">
+          <div className="flex items-center gap-2 shrink-0">
+            <span className="font-semibold text-sm sm:text-base text-[#0f172a] tracking-tight truncate max-w-[140px] sm:max-w-[260px]" title={test.title}>
+              {test.title}
+            </span>
+            <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-[#eef4ff] text-[#1a6bff] border border-[#bfdbfe] shrink-0">
+              {maxTotalMarks}M
+            </span>
+          </div>
 
-            {!isSubmitted && (
-              <button
-                onClick={handleSubmitTest}
-                className="px-4 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-xs shadow-md transition cursor-pointer flex items-center gap-1.5 border border-emerald-400"
-                title="Submit Complete CBT Exam"
-              >
-                <CheckCircle2 className="w-4 h-4" />
-                <span>Submit Test</span>
-              </button>
-            )}
-
-            <button
-              onClick={onClose}
-              className="p-1.5 rounded-xl text-white/80 hover:text-white hover:bg-sky-50/60/15 transition cursor-pointer"
-              title="Close Test"
-            >
-              <XIcon className="w-5 h-5" />
-            </button>
+          {/* Section Tabs (Physics, Chemistry, Botany, Zoology) as pill tabs */}
+          <div className="flex items-center gap-1.5 shrink-0">
+            {activeTestSubjects.map((subItem) => {
+              const isCurrent = currentQ && (currentQ.subject === subItem.name || (currentQ.subject === 'Biology' && (subItem.name === 'Botany' || subItem.name === 'Zoology')));
+              return (
+                <button
+                  key={subItem.name}
+                  onClick={() => setCurrentQuestionIdx(subItem.firstIdx)}
+                  className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
+                    isCurrent
+                      ? 'bg-[#1a6bff] text-white shadow-xs'
+                      : 'bg-[#eef4ff] text-[#0f172a] hover:bg-[#e2e8f4]'
+                  }`}
+                >
+                  {subItem.name}
+                </button>
+              );
+            })}
           </div>
         </div>
 
-        {/* ACTIVE TEST INTERFACE */}
-        {!isSubmitted ? (
-          <div className="flex-1 grid grid-cols-1 lg:grid-cols-4 overflow-hidden">
-            {/* Question Workspace */}
-            <div className="lg:col-span-3 p-6 sm:p-6 flex flex-col justify-between overflow-y-auto border-b lg:border-b-0 lg:border-r border-sky-200 bg-sky-50/60">
-              {currentQ && (
-                <div className="space-y-4">
-                  {/* Subject Switcher Header Tabs */}
-                  <div className="flex flex-wrap items-center justify-between pb-3 border-b border-stone-100 gap-4">
-                    <div className="flex flex-wrap items-center gap-1.5">
-                      {activeTestSubjects.map((subItem) => {
-                        const IconComponent = subItem.icon;
-                        const isCurrent = currentQ.subject === subItem.name || (currentQ.subject === 'Biology' && (subItem.name === 'Botany' || subItem.name === 'Zoology'));
+        <div className="flex items-center gap-3 shrink-0">
+          {!isSubmitted && (
+            <div
+              className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-mono font-bold transition-all ${
+                timeLeftSeconds < 300
+                  ? 'bg-[#fee2e2] text-[#dc2626] border border-[#fca5a5] animate-pulse'
+                  : 'bg-[#e4eeff] text-[#1a6bff] border border-[#bfdbfe]'
+              }`}
+            >
+              <ClockIcon className="w-3.5 h-3.5" />
+              <span>{formatTimer(timeLeftSeconds)}</span>
+            </div>
+          )}
+
+          <button
+            onClick={() => (isSubmitted ? onClose() : setShowExitConfirmModal(true))}
+            className="w-9 h-9 rounded-full bg-[#e2e8f4] text-[#5b6b86] hover:bg-red-50 hover:text-[#dc2626] border border-[#cbd5e1] flex items-center justify-center transition-colors cursor-pointer shrink-0"
+            aria-label="Exit test"
+            title="Exit test"
+          >
+            <XIcon className="w-4 h-4" />
+          </button>
+        </div>
+      </header>
+
+      {/* ACTIVE TEST INTERFACE */}
+      {!isSubmitted ? (
+        <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
+          <main className="flex-1 p-4 sm:px-6 sm:py-4 overflow-hidden min-h-0 flex flex-col">
+            <div className="flex-1 grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-6 min-h-0 overflow-hidden">
+              {/* Left Column: Question Card */}
+              <div className="bg-white rounded-2xl border border-[#e2e8f4] shadow-sm p-6 flex flex-col justify-between overflow-y-auto min-h-0">
+                {currentQ && (
+                  <div className="space-y-4">
+                    {/* Top Meta Row */}
+                    <div className="flex flex-wrap items-center justify-between gap-3">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="bg-[#eef4ff] text-[#0f172a] text-[12.5px] font-semibold px-3 py-1 rounded-full">
+                          {currentQ.subject}
+                        </span>
+                        <span className="bg-[#eef4ff] text-[#0f172a] text-[12.5px] font-semibold px-3 py-1 rounded-full">
+                          {currentQ.chapter}
+                        </span>
+                        {resolveQuestionSubtopic(currentQ) && (
+                          <span className="bg-[#eef4ff] text-[#5b6b86] text-[12.5px] font-medium px-3 py-1 rounded-full">
+                            {resolveQuestionSubtopic(currentQ)}
+                          </span>
+                        )}
+                      </div>
+
+                      <span className="bg-[#dcfce7] text-[#16a34a] font-bold text-[12px] px-2.5 py-1 rounded-full border border-[#bbf7d0]">
+                        +4 Correct, −1 Incorrect
+                      </span>
+                    </div>
+
+                    {/* Stats Row */}
+                    <div className="flex flex-wrap items-center gap-3">
+                      <span className="bg-[#f0fdf4] text-[#16a34a] border border-[#bbf7d0] px-2.5 py-0.5 rounded-full text-[12px] font-mono font-medium flex items-center gap-1.5">
+                        <TargetIcon className="w-3.5 h-3.5 text-[#16a34a]" />
+                        <span>78% Aspirants Solved Correctly</span>
+                      </span>
+                      <span className="bg-[#eef4ff] text-[#1a6bff] border border-[#bfdbfe] px-2.5 py-0.5 rounded-full text-[12px] font-mono font-medium flex items-center gap-1.5">
+                        <ClockIcon className="w-3.5 h-3.5 text-[#1a6bff]" />
+                        <span>NTA Target Time: 45s</span>
+                      </span>
+                      <span className="bg-[#faf5ff] text-[#7c3aed] border border-[#e9d5ff] px-2.5 py-0.5 rounded-full text-[12px] font-mono font-medium flex items-center gap-1.5">
+                        <SparkleIcon className="w-3.5 h-3.5 text-[#7c3aed]" />
+                        <span>High Yield NCERT 2027/2028</span>
+                      </span>
+                    </div>
+
+                    {/* Question Text */}
+                    <div className="text-[1.25rem] font-semibold text-[#0f172a] leading-relaxed my-5">
+                      {renderFormattedQuestionText(currentQ.questionText || (currentQ as any).question || '')}
+                    </div>
+
+                    {/* Visual / Authentic Image or SVG Diagram in Question */}
+                    {currentQ.image ? (
+                      <div className="my-4 p-4 bg-white border border-[#e2e8f4] rounded-2xl flex justify-center items-center shadow-xs">
+                        <img src={currentQ.image} alt="Question Diagram" className="max-h-72 rounded-xl object-contain" />
+                      </div>
+                    ) : currentQ.diagramSvg ? (
+                      <div
+                        className="my-4 p-4 bg-white border border-[#e2e8f4] rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
+                        dangerouslySetInnerHTML={{ __html: currentQ.diagramSvg }}
+                      />
+                    ) : questionDiagramMap.get(currentQuestionIdx) ? (
+                      <div
+                        className="my-4 p-4 bg-white border border-[#e2e8f4] rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
+                        dangerouslySetInnerHTML={{ __html: questionDiagramMap.get(currentQuestionIdx) || '' }}
+                      />
+                    ) : null}
+
+                    {/* Options Stack */}
+                    <div className="flex flex-col gap-3 pt-2">
+                      {currentQ.options.map((option, optIdx) => {
+                        const isSelected = answers[currentQuestionIdx] === optIdx;
                         return (
-                          <button
-                            key={subItem.name}
-                            onClick={() => setCurrentQuestionIdx(subItem.firstIdx)}
-                            className={`px-3 py-1 rounded-lg text-xs font-bold transition flex items-center space-x-1 cursor-pointer ${
-                              isCurrent
-                                ? subItem.activeClass
-                                : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+                          <div
+                            key={optIdx}
+                            onClick={() => handleSelectOption(optIdx)}
+                            className={`min-h-[56px] px-[18px] py-[14px] rounded-[14px] flex items-center gap-[14px] cursor-pointer transition-all duration-150 ${
+                              isSelected
+                                ? 'border-2 border-[#1a6bff] bg-[#e4eeff] text-[#0f172a] font-semibold shadow-xs'
+                                : 'border-[1.5px] border-[#e2e8f4] bg-white text-[#0f172a] hover:border-[#1a6bff] hover:bg-[#e4eeff]/50'
                             }`}
                           >
-                            <IconComponent className="w-3.5 h-3.5" />
-                            <span>{subItem.name} ({subItem.count} Qs &bull; {subItem.marks}M)</span>
-                          </button>
+                            <div
+                              className={`w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm shrink-0 transition ${
+                                isSelected
+                                  ? 'bg-[#1a6bff] text-white shadow-xs'
+                                  : 'bg-[#eef4ff] text-[#0f172a]'
+                              }`}
+                            >
+                              {String.fromCharCode(65 + optIdx)}
+                            </div>
+                            <span className="text-[16px] leading-relaxed flex-1 select-none">
+                              {formatMathAndFormulas(cleanOcrText(option))}
+                            </span>
+                            {isSelected && (
+                              <Check className="w-5 h-5 text-[#1a6bff] shrink-0 stroke-[2.5]" />
+                            )}
+                          </div>
                         );
                       })}
                     </div>
+                  </div>
+                )}
+              </div>
 
-                    <div className="text-xs font-mono font-bold text-sky-700 bg-sky-50 border border-sky-200 px-2.5 py-1 rounded-lg">
-                      Question {currentQuestionIdx + 1} of {questions.length}
+              {/* Right Column: Question Palette Card */}
+              <div className="bg-white rounded-2xl border border-[#e2e8f4] shadow-sm p-5 flex flex-col justify-between overflow-hidden h-full">
+                <div className="flex flex-col overflow-hidden flex-1">
+                  <div className="flex items-center justify-between pb-3 border-b border-[#e2e8f4] shrink-0">
+                    <div>
+                      <h3 className="text-sm font-bold text-[#0f172a] tracking-tight">Question Palette</h3>
+                      <span className="text-xs text-[#5b6b86] font-medium">{currentQ?.subject || 'All'} Section</span>
                     </div>
-                  </div>
-
-                  {/* Question Info Bar */}
-                  <div className="flex items-center justify-between text-xs text-sky-700">
-                    <div className="flex items-center space-x-2">
-                      <span className="font-bold text-sky-950">{currentQ.subject}</span>
-                      <span>&bull;</span>
-                      <span className="font-medium text-sky-700">{currentQ.chapter}</span>
-                      <span>&bull;</span>
-                      <span className="text-stone-400 font-mono">{resolveQuestionSubtopic(currentQ)}</span>
-                    </div>
-
-                    <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 font-bold border border-emerald-200">
-                      +4 Correct, -1 Incorrect
+                    <span className="text-xs font-mono font-semibold px-2.5 py-0.5 rounded-full bg-[#eef4ff] text-[#1a6bff]">
+                      {Object.keys(answers).length}/{questions.length} Attempted
                     </span>
                   </div>
 
-                  {/* Aspirational Stats & Speed Badge */}
-                  <div className="flex flex-wrap items-center gap-4">
-                    <span className="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-bold flex items-center gap-1 font-mono">
-                      <TargetIcon className="w-3 h-3 text-emerald-600" />
-                      <span>78% Aspirants Solved Correctly</span>
-                    </span>
-                    <span className="px-2.5 py-0.5 rounded-full bg-sky-50 text-sky-800 border border-sky-200 text-[10px] font-bold flex items-center gap-1 font-mono">
-                      <ClockIcon className="w-3 h-3 text-sky-600" />
-                      <span>NTA Target Time: 45s</span>
-                    </span>
-                    <span className="px-2.5 py-0.5 rounded-full bg-cyan-50 text-cyan-800 border border-cyan-200 text-[10px] font-bold flex items-center gap-1 font-mono">
-                      <SparkleIcon className="w-3 h-3 text-cyan-600" />
-                      <span>High Yield NCERT 2027/2028</span>
-                    </span>
-                  </div>
-
-                  {/* Question Text */}
-                  <div className="text-sm sm:text-base font-semibold text-sky-950 leading-relaxed p-6 rounded-2xl bg-sky-50/70 border border-sky-200/80 shadow-2xs">
-                    {renderFormattedQuestionText(currentQ.questionText || (currentQ as any).question || '')}
-                  </div>
-
-                  {/* Visual / Authentic Image or SVG Diagram in Question */}
-                  {currentQ.image ? (
-                    <div className="my-3 p-3 bg-sky-50/60 border border-sky-200 rounded-2xl flex justify-center items-center shadow-xs">
-                      <img src={currentQ.image} alt="Question Diagram" className="max-h-72 rounded-xl object-contain" />
-                    </div>
-                  ) : currentQ.diagramSvg ? (
-                    <div
-                      className="my-3 p-6 bg-sky-50/60 border border-sky-200 rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
-                      dangerouslySetInnerHTML={{ __html: currentQ.diagramSvg }}
-                    />
-                  ) : questionDiagramMap.get(currentQuestionIdx) ? (
-                    <div
-                      className="my-3 p-6 bg-sky-50/60 border border-sky-200 rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
-                      dangerouslySetInnerHTML={{ __html: questionDiagramMap.get(currentQuestionIdx) || '' }}
-                    />
-                  ) : null}
-
-                  {/* Option Cards */}
-                  <div className="space-y-3 pt-2">
-                    {currentQ.options.map((option, optIdx) => {
-                      const isSelected = answers[currentQuestionIdx] === optIdx;
-                      return (
-                        <div
-                          key={optIdx}
-                          onClick={() => handleSelectOption(optIdx)}
-                          className={`p-6 rounded-2xl border-2 cursor-pointer flex items-center space-x-3.5 transition-all duration-150 ${
-                            isSelected
-                              ? 'bg-sky-50/80 border-sky-600 text-sky-950 font-semibold shadow-md ring-2 ring-sky-400/30'
-                              : 'bg-sky-50/60 border-sky-200/80 text-sky-800 hover:bg-sky-50 hover:border-sky-300'
-                          }`}
-                        >
-                          <div
-                            className={`w-7 h-7 rounded-xl flex items-center justify-center text-xs font-extrabold shrink-0 transition ${
-                              isSelected
-                                ? 'bg-gradient-to-tr from-sky-600 to-sky-600 text-white shadow-xs'
-                                : 'bg-sky-50 text-sky-700 border border-sky-300'
-                            }`}
-                          >
-                            {String.fromCharCode(65 + optIdx)}
-                          </div>
-                          <span className="text-xs sm:text-sm flex-1 leading-relaxed">{formatMathAndFormulas(cleanOcrText(option))}</span>
-                          {isSelected && (
-                            <CheckIcon className="w-5 h-5 text-sky-600 shrink-0 stroke-[3]" />
-                          )}
-                        </div>
-                      );
-                    })}
+                  {/* Number Buttons Grid */}
+                  <div className="grid grid-cols-5 gap-2.5 py-4 overflow-y-auto pr-1 flex-1 custom-scrollbar content-start">
+                    {questions.map((_, qIdx) => (
+                      <button
+                        key={qIdx}
+                        onClick={() => setCurrentQuestionIdx(qIdx)}
+                        className={`w-[44px] h-[44px] rounded-[10px] text-[14px] font-semibold flex items-center justify-center transition relative cursor-pointer select-none ${getPaletteColor(qIdx)}`}
+                      >
+                        {qIdx + 1}
+                        {answers[qIdx] !== undefined && markedForReview[qIdx] && (
+                          <span className="absolute bottom-1 right-1 w-2.5 h-2.5 rounded-full bg-[#22c55e] border-2 border-white shadow-xs" />
+                        )}
+                      </button>
+                    ))}
                   </div>
                 </div>
+
+                {/* Sticky Legend below Grid */}
+                <div className="pt-3 border-t border-[#e2e8f4] shrink-0">
+                  <div className="grid grid-cols-2 gap-2 text-[12.5px] text-[#5b6b86]">
+                    <div className="flex items-center gap-2">
+                      <span className="w-3.5 h-3.5 rounded-[4px] bg-[#16a34a] shrink-0" />
+                      <span>Answered</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="w-3.5 h-3.5 rounded-[4px] bg-[#fee2e2] border border-[#fca5a5] shrink-0" />
+                      <span>Not Answered</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="w-3.5 h-3.5 rounded-[4px] bg-[#7c3aed] shrink-0" />
+                      <span>Marked Review</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="w-3.5 h-3.5 rounded-[4px] bg-[#e2e8f4] shrink-0" />
+                      <span>Not Visited</span>
+                    </div>
+                    <div className="flex items-center gap-2 col-span-2">
+                      <span className="w-3.5 h-3.5 rounded-[4px] bg-[#7c3aed] relative shrink-0">
+                        <span className="absolute -bottom-0.5 -right-0.5 w-1.5 h-1.5 rounded-full bg-[#22c55e] border border-white" />
+                      </span>
+                      <span>Ans &amp; Marked for Review</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+
+          {/* Bottom Action Bar (Sticky, Height 72px) */}
+          <footer className="h-[72px] shrink-0 bg-white border-t border-[#e2e8f4] px-4 sm:px-6 flex items-center justify-between shadow-[0_-4px_12px_rgba(0,0,0,0.04)] z-20">
+            <div className="flex items-center gap-2 sm:gap-3">
+              <button
+                onClick={handleToggleMarkReview}
+                className={`h-11 px-4 sm:px-5 rounded-full text-xs sm:text-[14.5px] font-semibold transition cursor-pointer flex items-center gap-2 ${
+                  markedForReview[currentQuestionIdx]
+                    ? 'bg-[#7c3aed] text-white shadow-xs'
+                    : 'border-2 border-[#7c3aed] text-[#7c3aed] hover:bg-[#7c3aed]/10'
+                }`}
+              >
+                <FlagIcon className="w-4 h-4" />
+                <span className="hidden sm:inline">
+                  {markedForReview[currentQuestionIdx] ? 'Marked for Review' : 'Mark for Review & Next'}
+                </span>
+                <span className="sm:hidden">Review</span>
+              </button>
+
+              <button
+                onClick={handleClearResponse}
+                className="h-11 px-4 sm:px-5 rounded-full border border-[#cbd5e1] text-[#5b6b86] hover:bg-[#f1f5f9] text-xs sm:text-[14.5px] font-semibold transition cursor-pointer flex items-center gap-2"
+              >
+                <RotateCcw className="w-4 h-4" />
+                <span className="hidden sm:inline">Clear Response</span>
+                <span className="sm:hidden">Clear</span>
+              </button>
+            </div>
+
+            <div className="flex items-center gap-2 sm:gap-3">
+              <button
+                disabled={currentQuestionIdx === 0}
+                onClick={() => setCurrentQuestionIdx(prev => prev - 1)}
+                className="h-11 px-4 sm:px-5 rounded-full border border-[#e2e8f4] text-[#0f172a] hover:bg-[#f8fafc] disabled:opacity-40 disabled:cursor-not-allowed text-xs sm:text-[14.5px] font-semibold transition cursor-pointer flex items-center gap-1.5"
+              >
+                <LeftIcon className="w-4 h-4" />
+                <span>Prev</span>
+              </button>
+
+              {currentQuestionIdx < questions.length - 1 && (
+                <button
+                  onClick={handleSaveAndNext}
+                  className="h-11 px-4 sm:px-6 rounded-full bg-[#1a6bff] hover:bg-[#0a4fd1] text-white text-xs sm:text-[14.5px] font-semibold shadow-sm hover:shadow transition cursor-pointer flex items-center gap-1.5"
+                >
+                  <span>Save &amp; Next</span>
+                  <RightIcon className="w-4 h-4" />
+                </button>
               )}
 
-              {/* Bottom Test Controls - Always Visible */}
-              <div className="pt-4 border-t border-sky-200 flex flex-wrap items-center justify-between gap-4 mt-6 bg-white shrink-0">
-                <div className="flex items-center space-x-2">
-                  <button
-                    onClick={handleToggleMarkReview}
-                    className={`px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer ${
-                      markedForReview[currentQuestionIdx]
-                        ? 'bg-sky-600 text-white shadow-xs'
-                        : 'bg-sky-50 text-sky-700 hover:bg-sky-100 border border-sky-200'
-                    }`}
-                  >
-                    <FlagIcon className="w-3.5 h-3.5" />
-                    <span>
-                      {markedForReview[currentQuestionIdx] ? 'Marked for Review' : 'Mark for Review & Next'}
-                    </span>
-                  </button>
-
-                  <button
-                    onClick={handleClearResponse}
-                    className="px-3.5 py-2 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-800 text-xs font-medium border border-sky-200 transition cursor-pointer"
-                  >
-                    Clear Response
-                  </button>
-                </div>
-
-                <div className="flex items-center space-x-2.5">
-                  <button
-                    disabled={currentQuestionIdx === 0}
-                    onClick={() => setCurrentQuestionIdx(prev => prev - 1)}
-                    className="px-3.5 py-2 rounded-xl bg-white hover:bg-stone-100 text-stone-700 text-xs font-semibold border border-stone-300 disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer"
-                  >
-                    &larr; Prev
-                  </button>
-
-                  {currentQuestionIdx < questions.length - 1 && (
-                    <button
-                      onClick={handleSaveAndNext}
-                      className="px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold shadow-xs transition cursor-pointer"
-                    >
-                      Save & Next &rarr;
-                    </button>
-                  )}
-
-                  <button
-                    onClick={handleSubmitTest}
-                    className="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black shadow-md transition cursor-pointer flex items-center gap-1.5 border border-emerald-500"
-                    title="Submit and view comprehensive scorecard"
-                  >
-                    <CheckCircle2 className="w-4 h-4 text-emerald-100" />
-                    <span>Submit Test</span>
-                  </button>
-                </div>
-              </div>
+              <button
+                onClick={handleSubmitTest}
+                className="h-11 px-5 sm:px-6 rounded-full bg-[#16a34a] hover:bg-green-700 text-white text-xs sm:text-[14.5px] font-bold shadow-[0_8px_20px_-8px_rgba(22,163,74,0.6)] hover:shadow-lg transition cursor-pointer flex items-center gap-2"
+                title="Submit Complete CBT Exam"
+              >
+                <CheckCircle2 className="w-4 h-4 text-white" />
+                <span>Submit Complete CBT ({maxTotalMarks}M)</span>
+              </button>
             </div>
+          </footer>
+        </div>
+      ) : (
 
-            {/* Question Palette Sidebar */}
-            <div className="p-6 bg-sky-50 flex flex-col justify-between space-y-4 overflow-y-auto">
-              <div>
-                <div className="flex items-center justify-between pb-2 border-b border-sky-200">
-                  <h3 className="text-xs font-bold text-sky-900 uppercase tracking-wider">
-                    Question Palette ({questions.length} Qs)
-                  </h3>
-                  <span className="text-[10px] text-sky-600 font-mono">
-                    {Object.keys(answers).length}/{questions.length} Done
-                  </span>
-                </div>
-
-                {/* Legend */}
-                <div className="grid grid-cols-2 gap-1.5 text-[10px] text-sky-700 my-2.5 pb-2.5 border-b border-sky-200">
-                  <div className="flex items-center space-x-1.5">
-                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-600 inline-block" />
-                    <span>Answered (+4)</span>
-                  </div>
-                  <div className="flex items-center space-x-1.5">
-                    <span className="w-2.5 h-2.5 rounded-full bg-sky-500 inline-block" />
-                    <span>Not Answered</span>
-                  </div>
-                  <div className="flex items-center space-x-1.5">
-                    <span className="w-2.5 h-2.5 rounded-full bg-sky-600 inline-block" />
-                    <span>Marked Review</span>
-                  </div>
-                  <div className="flex items-center space-x-1.5">
-                    <span className="w-2.5 h-2.5 rounded-full bg-sky-100 border border-stone-400 inline-block" />
-                    <span>Not Visited</span>
-                  </div>
-                </div>
-
-                {/* Question Grid Numbers */}
-                <div className="grid grid-cols-5 gap-1.5 max-h-72 overflow-y-auto custom-scrollbar pr-1">
-                  {questions.map((_, qIdx) => (
-                    <button
-                      key={qIdx}
-                      onClick={() => setCurrentQuestionIdx(qIdx)}
-                      className={`h-7 rounded-lg text-xs font-bold transition ${getPaletteColor(qIdx)}`}
-                    >
-                      {qIdx + 1}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              {/* Submit Button in Sidebar - Fixed Bottom */}
-              <div className="shrink-0 pt-3 border-t border-sky-200 mt-2">
-                <button
-                  onClick={handleSubmitTest}
-                  className="w-full py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs sm:text-sm shadow-md transition cursor-pointer flex items-center justify-center gap-2"
-                >
-                  <CheckCircle2 className="w-4 h-4 text-emerald-100" />
-                  <span>Submit Complete CBT ({maxTotalMarks}M)</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        ) : (
           /* POST-TEST RESULTS & 6-PAGE REPORT */
           <ErrorBoundary
             fallbackTitle="Test Results & Scorecard"
             fallbackMessage="Your score has been safely calculated and saved. Click below to refresh the scorecard view or review your test solutions."
           >
             {testResult && (
-            <div className="p-6 sm:p-6 space-y-6 overflow-y-auto flex-1 bg-sky-50/90 text-sky-950">
+            <div className="p-4 sm:p-6 space-y-6 overflow-y-auto flex-1 bg-[#f6f9ff] text-[#0f172a]">
               {/* Header Navigation Tabs */}
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-sky-200 bg-sky-50/60 p-6 rounded-2xl shadow-xs">
-                <div className="flex flex-wrap items-center gap-4">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-[#e2e8f4] bg-white p-4 sm:p-5 rounded-2xl shadow-sm">
+                <div className="flex flex-wrap items-center gap-2.5">
                   <button
                     onClick={() => setActiveSolutionTab('scorecard')}
-                    className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
+                    className={`px-4 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                       activeSolutionTab === 'scorecard'
-                        ? 'bg-sky-600 text-white shadow-xs'
-                        : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+                        ? 'bg-[#1a6bff] text-white shadow-xs'
+                        : 'bg-[#eef4ff] text-[#0f172a] hover:bg-[#e2e8f4]'
                     }`}
                   >
                     <FileText className="w-4 h-4" />
-                    <span>{isSundayTest ? '1. Official Diagnostic Performance Report' : '1. Performance Summary'}</span>
+                    <span>{isSundayTest ? '1. Diagnostic Performance Report' : '1. Performance Summary'}</span>
                   </button>
 
                   <button
                     onClick={() => setActiveSolutionTab('solutions')}
-                    className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
+                    className={`px-4 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer ${
                       activeSolutionTab === 'solutions'
-                        ? 'bg-sky-600 text-white shadow-xs'
-                        : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+                        ? 'bg-[#1a6bff] text-white shadow-xs'
+                        : 'bg-[#eef4ff] text-[#0f172a] hover:bg-[#e2e8f4]'
                     }`}
                   >
                     <CheckCheck className="w-4 h-4 text-emerald-500" />
@@ -1337,10 +1371,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   </button>
                 </div>
 
-                <div className="flex items-center flex-wrap gap-4">
+                <div className="flex items-center flex-wrap gap-2.5">
                   <button
                     onClick={() => downloadTestScorecardPDF({ ...testResult, questions })}
-                    className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-sky-600 hover:from-emerald-700 hover:to-sky-700 text-xs font-bold text-white flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                    className="px-3.5 py-2 rounded-xl bg-[#16a34a] hover:bg-green-700 text-xs font-bold text-white flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
                   >
                     <FileIcon className="w-4 h-4" />
                     <span>Scorecard (PDF)</span>
@@ -1360,7 +1394,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       };
                       downloadTestPaperPDF(paperItem, false);
                     }}
-                    className="px-3 py-2 rounded-xl bg-sky-50 text-sky-700 hover:bg-sky-100 border border-sky-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
+                    className="px-3.5 py-2 rounded-xl bg-[#eef4ff] text-[#0f172a] hover:bg-[#e2e8f4] border border-[#e2e8f4] text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
                   >
                     <Download className="w-3.5 h-3.5" />
                     <span>Test Paper (PDF)</span>
@@ -1380,7 +1414,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       };
                       downloadTestPaperPDF(paperItem, true);
                     }}
-                    className="px-3 py-2 rounded-xl bg-sky-50 text-sky-700 hover:bg-sky-100 border border-sky-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
+                    className="px-3.5 py-2 rounded-xl bg-[#eef4ff] text-[#0f172a] hover:bg-[#e2e8f4] border border-[#e2e8f4] text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
                   >
                     <FileText className="w-3.5 h-3.5" />
                     <span>Solutions (PDF)</span>
@@ -1388,12 +1422,13 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                   <button
                     onClick={onClose}
-                    className="px-4 py-2 rounded-xl bg-sky-50/60 hover:bg-sky-50 text-xs font-bold text-sky-800 border border-sky-300 shadow-2xs transition cursor-pointer"
+                    className="px-4 py-2 rounded-xl bg-white hover:bg-[#f8fafc] text-xs font-bold text-[#0f172a] border border-[#cbd5e1] shadow-2xs transition cursor-pointer"
                   >
                     Back to Dashboard
                   </button>
                 </div>
               </div>
+
 
               {/* TAB 1: SCORECARD & PERFORMANCE REPORT */}
               {activeSolutionTab === 'scorecard' && (
@@ -2175,9 +2210,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
             )}
           </ErrorBoundary>
         )}
-      </div>
     </div>
   );
 };
+
+
 
 

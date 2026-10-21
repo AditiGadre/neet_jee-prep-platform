@@ -1,5 +1,25 @@
 @import "tailwindcss";
 
+:root {
+  --bg: #f6f9ff;
+  --surface: #ffffff;
+  --surface2: #eef4ff;
+  --text: #0f172a;
+  --muted: #5b6b86;
+  --primary: #1a6bff;
+  --primary-d: #0a4fd1;
+  --primary-soft: #e4eeff;
+  --green: #16a34a;
+  --red: #dc2626;
+  --purple: #7c3aed;
+  --grey: #e2e8f4;
+  --border: #e2e8f4;
+  --radius: 16px;
+  --radius-sm: 12px;
+  --shadow: 0 10px 30px -12px rgba(26,107,255,.25);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
 @layer utilities {
   .custom-scrollbar::-webkit-scrollbar {
     width: 5px;
@@ -16,4 +36,5 @@
     background: #a8a29e;
   }
 }
+
 
