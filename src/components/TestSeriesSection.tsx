@@ -790,9 +790,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   };
 
   return (
-    <div className="space-y-4">
+    <div className="w-full space-y-8">
       {/* 3 Dedicated Batch Tabs with Dropdowns */}
-      <div className="flex flex-wrap items-center justify-between gap-3 relative z-30 pt-1 pb-1">
+      <div className="flex flex-wrap items-center justify-between gap-4 relative z-30 pb-2">
         <div className="flex flex-wrap items-center gap-3">
           
           {/* Repeater Batch */}
@@ -942,7 +942,11 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       )}
 
       {/* Header Banner for Current Batch */}
-      <div className="pt-2 pb-1">
+      <div className="bg-white border border-[var(--border)] rounded-2xl p-6 sm:p-8 shadow-[var(--shadow-sm)] space-y-3">
+        <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-[var(--primary-soft)] text-[var(--primary)] text-xs font-bold uppercase tracking-wider mb-1">
+          <Sparkles className="w-3.5 h-3.5" />
+          <span>Active Test Track &amp; Schedule</span>
+        </div>
         <h1 className="text-2xl sm:text-3xl font-extrabold text-[#1c1917] tracking-tight">
           {activeBatch === 'repeater'
             ? repeaterTrack === 'track1'
@@ -1029,8 +1033,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       )}
 
       {/* SCHEDULED SUNDAYS CALENDAR LIST */}
-      <div className="space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 px-1">
+      <div className="space-y-6 pt-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 px-1">
           <h2 className="text-sm sm:text-base font-extrabold text-[#1c1917] flex items-center gap-2">
             <Calendar className="w-4 h-4 text-[#1c1917]" />
             <span>Showing {currentDisplayTests.length} {activeBatch === '12th' ? 'Scheduled Tests' : 'Scheduled Sunday Tests'}</span>

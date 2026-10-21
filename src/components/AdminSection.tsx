@@ -2292,19 +2292,19 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       )}
 
       {/* Navigation Sub-Tabs */}
-      <div className="flex flex-wrap items-center gap-3 bg-sky-50/60 p-3 rounded-2xl border border-sky-200 shadow-2xs">
+      <div className="flex flex-wrap items-center gap-2.5 bg-white p-4 rounded-2xl border border-[var(--border)] shadow-[var(--shadow-sm)] mb-8">
         <button
           onClick={() => setAdminTab('requests')}
-          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+          className={`flex items-center space-x-2 px-4 py-2.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
             adminTab === 'requests'
-              ? 'bg-sky-600 text-white shadow-xs'
-              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+              ? 'bg-[var(--primary)] text-white shadow-sm'
+              : 'bg-[var(--surface2)] text-[var(--muted)] hover:text-[var(--text)] hover:bg-stone-200/70 border border-[var(--border)]'
           }`}
         >
           <KeyRound className="w-4 h-4 text-cyan-400" />
           <span>Student Unlock Requests</span>
           {pendingRequestsCount > 0 && (
-            <span className="px-2 py-0.5 rounded-full bg-sky-600 text-white text-[10px] font-mono font-bold animate-pulse">
+            <span className="px-2 py-0.5 rounded-full bg-amber-500 text-white text-[10px] font-mono font-bold animate-pulse">
               {pendingRequestsCount} Pending
             </span>
           )}
@@ -2312,10 +2312,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
         <button
           onClick={() => setAdminTab('sunday_studio')}
-          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+          className={`flex items-center space-x-2 px-4 py-2.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
             adminTab === 'sunday_studio'
-              ? 'bg-sky-600 text-white shadow-xs'
-              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+              ? 'bg-[var(--primary)] text-white shadow-sm'
+              : 'bg-[var(--surface2)] text-[var(--muted)] hover:text-[var(--text)] hover:bg-stone-200/70 border border-[var(--border)]'
           }`}
         >
           <Sparkles className="w-4 h-4 text-cyan-400" />
@@ -2324,10 +2324,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
         <button
           onClick={() => setAdminTab('generator')}
-          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+          className={`flex items-center space-x-2 px-4 py-2.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
             adminTab === 'generator'
-              ? 'bg-sky-600 text-white shadow-xs'
-              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+              ? 'bg-[var(--primary)] text-white shadow-sm'
+              : 'bg-[var(--surface2)] text-[var(--muted)] hover:text-[var(--text)] hover:bg-stone-200/70 border border-[var(--border)]'
           }`}
         >
           <Sliders className="w-4 h-4" />
@@ -2336,25 +2336,25 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
         <button
           onClick={() => setAdminTab('telemetry')}
-          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+          className={`flex items-center space-x-2 px-4 py-2.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
             adminTab === 'telemetry'
-              ? 'bg-sky-600 text-white shadow-xs'
-              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+              ? 'bg-[var(--primary)] text-white shadow-sm'
+              : 'bg-[var(--surface2)] text-[var(--muted)] hover:text-[var(--text)] hover:bg-stone-200/70 border border-[var(--border)]'
           }`}
         >
           <BarChart3 className="w-4 h-4 text-sky-400" />
           <span>Question Bank & Chapter Analytics</span>
-          <span className="px-1.5 py-0.5 rounded-full bg-sky-400 text-sky-950 text-[10px] font-mono font-bold">
+          <span className="px-1.5 py-0.5 rounded-full bg-sky-100 text-sky-900 border border-sky-300 text-[10px] font-mono font-bold">
             {questionInventory.totalCount.toLocaleString()} Qs
           </span>
         </button>
 
         <button
           onClick={() => setAdminTab('students')}
-          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+          className={`flex items-center space-x-2 px-4 py-2.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
             adminTab === 'students'
-              ? 'bg-sky-600 text-white shadow-xs'
-              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+              ? 'bg-[var(--primary)] text-white shadow-sm'
+              : 'bg-[var(--surface2)] text-[var(--muted)] hover:text-[var(--text)] hover:bg-stone-200/70 border border-[var(--border)]'
           }`}
         >
           <Users className="w-4 h-4" />
@@ -2363,13 +2363,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
         <button
           onClick={() => setAdminTab('transactions')}
-          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+          className={`flex items-center space-x-2 px-4 py-2.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
             adminTab === 'transactions'
-              ? 'bg-sky-600 text-white shadow-xs'
-              : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+              ? 'bg-[var(--primary)] text-white shadow-sm'
+              : 'bg-[var(--surface2)] text-[var(--muted)] hover:text-[var(--text)] hover:bg-stone-200/70 border border-[var(--border)]'
           }`}
         >
-          <CreditCard className="w-4 h-4 text-emerald-400" />
+          <CreditCard className="w-4 h-4 text-emerald-500" />
           <span>Payment Transactions (Razorpay)</span>
           {paymentTransactions.length > 0 && (
             <span className="px-1.5 py-0.5 rounded-full bg-emerald-500 text-white text-[10px] font-mono font-bold">
@@ -2383,13 +2383,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {/* TAB 1: STUDENT UNLOCK REQUESTS */}
       {adminTab === 'requests' && (
         <div className="space-y-6">
-          <div className="bg-sky-50/60 p-8 rounded-2xl border border-sky-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="bg-white p-6 sm:p-8 rounded-2xl border border-[var(--border)] shadow-[var(--shadow-sm)] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
-              <h3 className="text-base font-bold text-sky-950 flex items-center space-x-2">
-                <KeyRound className="w-5 h-5 text-cyan-500" />
+              <h3 className="text-base sm:text-lg font-bold text-[var(--text)] flex items-center space-x-2">
+                <KeyRound className="w-5 h-5 text-[var(--primary)]" />
                 <span>Student Test Unlock Approval Queue</span>
               </h3>
-              <p className="text-xs text-sky-600 mt-0.5">
+              <p className="text-xs sm:text-sm text-[var(--muted)] mt-1">
                 Review candidate authorization requests for 720-Marks Sunday CBT Tests. Approving grants instant access and logs delivery receipts.
               </p>
             </div>
@@ -2397,7 +2397,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             {pendingRequestsCount > 0 && (
               <button
                 onClick={handleApproveAllRequests}
-                className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-sky-600 hover:from-emerald-700 hover:to-sky-700 text-white text-xs font-bold shadow-md transition flex items-center space-x-1.5 cursor-pointer self-start sm:self-auto transform transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/20 active:scale-95 "
+                className="btn-pill-primary px-5 py-2.5 rounded-full text-xs font-bold flex items-center space-x-2 shrink-0 cursor-pointer shadow-md"
               >
                 <CheckCheck className="w-4 h-4" />
                 <span>Approve All Pending Requests ({pendingRequestsCount})</span>
@@ -2405,16 +2405,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
             )}
           </div>
 
-          <div className="flex flex-wrap items-center justify-between gap-3.5 bg-sky-50/60 p-3.5 rounded-2xl border border-sky-200 shadow-2xs">
-            <div className="flex items-center space-x-1.5">
+          <div className="flex flex-wrap items-center justify-between gap-4 bg-white p-4 rounded-2xl border border-[var(--border)] shadow-[var(--shadow-sm)]">
+            <div className="flex flex-wrap items-center gap-2.5">
               {(['all', 'pending', 'approved', 'rejected'] as const).map(status => (
                 <button
                   key={status}
                   onClick={() => setRequestStatusFilter(status)}
-                  className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition cursor-pointer ${
+                  className={`px-4 py-2 rounded-full text-xs font-bold capitalize transition-all cursor-pointer whitespace-nowrap ${
                     requestStatusFilter === status
-                      ? 'bg-sky-600 text-white shadow-2xs'
-                      : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+                      ? 'bg-[var(--primary)] text-white shadow-sm'
+                      : 'bg-[var(--surface2)] text-[var(--muted)] hover:text-[var(--text)] hover:bg-stone-200/70 border border-[var(--border)]'
                   }`}
                 >
                   {status === 'all' ? 'All Requests' : status}
@@ -2423,14 +2423,14 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               ))}
             </div>
 
-            <div className="relative w-full sm:w-72">
-              <Search className="w-4 h-4 absolute left-3 top-3.5 text-stone-400" />
+            <div className="relative w-full sm:w-80">
+              <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-stone-400 pointer-events-none" />
               <input
                 type="text"
                 placeholder="Search candidate, roll #, contact, email..."
                 value={requestSearch}
                 onChange={e => setRequestSearch(e.target.value)}
-                className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-sky-50 border border-sky-200 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:outline-none focus:border-sky-500"
+                className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-[var(--surface2)] border border-[var(--border)] text-xs text-[var(--text)] placeholder-stone-400 focus:bg-white focus:outline-none focus:border-[var(--primary)]"
               />
             </div>
           </div>

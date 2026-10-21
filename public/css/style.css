@@ -288,22 +288,35 @@ h1, h2, h3, h4, h5, h6 {
 /* Year Switch Segmented Control */
 .year-segmented-control {
   display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   background-color: var(--surface2);
   padding: 4px;
   border: 1px solid var(--border);
   border-radius: 999px;
-  gap: 2px;
+  gap: 3px;
+  height: 36px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  box-sizing: border-box;
 }
 
 .year-segmented-btn {
-  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 14px;
   border-radius: 999px;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--muted);
   transition: all 200ms ease;
   cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  line-height: 1;
+  user-select: none;
 }
 
 .year-segmented-btn.selected {
@@ -553,6 +566,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   align-items: stretch;
+  margin-top: 24px;
 }
 
 .pricing-card-clean {

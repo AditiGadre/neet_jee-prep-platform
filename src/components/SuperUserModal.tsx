@@ -844,16 +844,16 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
             </div>
 
             {/* Filter & Search Toolbar */}
-            <div className="flex flex-wrap items-center justify-between gap-4.5 bg-sky-50/60 p-3.5 rounded-xl border border-sky-200 shadow-2xs">
-              <div className="flex items-center space-x-1.5">
+            <div className="flex flex-wrap items-center justify-between gap-4 bg-white p-4 rounded-2xl border border-[var(--border)] shadow-[var(--shadow-sm)]">
+              <div className="flex flex-wrap items-center gap-2.5">
                 {(['all', 'pending', 'approved', 'rejected'] as const).map(status => (
                   <button
                     key={status}
                     onClick={() => setRequestStatusFilter(status)}
-                    className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize transition cursor-pointer ${
+                    className={`px-4 py-2 rounded-full text-xs font-bold capitalize transition-all cursor-pointer whitespace-nowrap ${
                       requestStatusFilter === status
-                        ? 'bg-sky-600 text-white shadow-2xs'
-                        : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
+                        ? 'bg-[var(--primary)] text-white shadow-sm'
+                        : 'bg-[var(--surface2)] text-[var(--muted)] hover:text-[var(--text)] hover:bg-stone-200/70 border border-[var(--border)]'
                     }`}
                   >
                     {status === 'all' ? 'All Requests' : status}
@@ -862,14 +862,14 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                 ))}
               </div>
 
-              <div className="relative w-full sm:w-72">
-                <Search className="w-4 h-4 absolute left-3 top-2.5 text-stone-400" />
+              <div className="relative w-full sm:w-80">
+                <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-stone-400 pointer-events-none" />
                 <input
                   type="text"
                   placeholder="Search student, roll no, phone, parent email..."
                   value={requestSearch}
                   onChange={e => setRequestSearch(e.target.value)}
-                  className="w-full pl-9 pr-3 py-1.5 rounded-lg bg-sky-50 border border-sky-200 text-xs text-sky-950 placeholder-stone-400 focus:bg-sky-50/60 focus:outline-none focus:border-sky-500"
+                  className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-[var(--surface2)] border border-[var(--border)] text-xs text-[var(--text)] placeholder-stone-400 focus:bg-white focus:outline-none focus:border-[var(--primary)]"
                 />
               </div>
             </div>

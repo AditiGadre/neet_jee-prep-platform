@@ -346,15 +346,15 @@ export const HomePage: React.FC<HomePageProps> = ({
 
           {/* RECOMMENDED COMBOS */}
           {comboPackages.length > 0 && (
-            <div className="space-y-4">
-              <div className="flex items-center gap-2">
+            <div className="space-y-6 mt-10 pt-4">
+              <div className="flex items-center gap-2.5">
                 <Crown className="w-5 h-5 text-amber-500" />
                 <h3 className="text-lg sm:text-xl font-bold text-[var(--text)]">
                   Recommended Combo Packs (Multi-Track Value)
                 </h3>
               </div>
 
-              <div className="pricing-combo-grid">
+              <div className="pricing-combo-grid pt-3">
                 {comboPackages.map((pkg) => {
                   const isEnrolled = enrolledPackageIds.includes(pkg.id) || enrolledPackageIds.includes('ALL');
                   return (
@@ -429,15 +429,15 @@ export const HomePage: React.FC<HomePageProps> = ({
           )}
 
           {/* INDIVIDUAL TRACKS */}
-          <div className="space-y-4 pt-6">
-            <div className="flex items-center gap-2">
+          <div className="space-y-6 pt-12">
+            <div className="flex items-center gap-2.5">
               <Layers className="w-5 h-5 text-[var(--primary)]" />
               <h3 className="text-lg sm:text-xl font-bold text-[var(--text)]">
                 Individual Track Packages
               </h3>
             </div>
 
-            <div className="pricing-combo-grid">
+            <div className="pricing-combo-grid pt-3">
               {singleTrackPackages.map((pkg) => {
                 const isEnrolled = enrolledPackageIds.includes(pkg.id) || enrolledPackageIds.includes('ALL');
                 return (

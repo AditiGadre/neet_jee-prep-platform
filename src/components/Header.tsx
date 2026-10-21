@@ -193,12 +193,12 @@ export const Header: React.FC<HeaderProps> = ({
           </nav>
 
           {/* Target Year Selector Bar: 2027, 2028, 2029 */}
-          <div className="hidden sm:inline-flex year-segmented-control">
+          <div className="hidden sm:inline-flex shrink-0 items-center whitespace-nowrap year-segmented-control">
             {(['2027', '2028', '2029'] as const).map(yr => (
               <button
                 key={yr}
                 onClick={() => onSelectTargetYear && onSelectTargetYear(yr)}
-                className={`year-segmented-btn ${targetYear === yr ? 'selected' : ''}`}
+                className={`year-segmented-btn shrink-0 whitespace-nowrap ${targetYear === yr ? 'selected' : ''}`}
                 title={`Select NEET Target Year ${yr}`}
               >
                 {yr}
