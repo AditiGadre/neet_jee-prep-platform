@@ -78,6 +78,7 @@ import {
   markQuestionsAsConsumed
 } from '../utils/questionTracker';
 import { downloadTestPaperPDF } from '../utils/pdfDownloader';
+import { SectionPasswordGate, isSectionUnlocked, lockSection } from './SectionPasswordGate';
 import { TestItem, Question, AdminEnrollmentNotification } from '../types';
 import { SAMPLE_QUESTIONS } from '../data/mockData';
 import { StudentUnlockRequest, getStoredUnlockRequests } from './SuperUserModal';
@@ -160,6 +161,13 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 }) => {
   const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'generator' | 'telemetry' | 'students' | 'transactions'>('requests');
   const [paymentTransactions, setPaymentTransactions] = useState<PaymentTransactionRecord[]>([]);
+  // Students and Payments need a second password (SectionPasswordGate) on top of the admin login
+  const [sectionUnlocked, setSectionUnlocked] = useState<boolean>(() => isSectionUnlocked());
+  useEffect(() => {
+    if (!sectionUnlocked) return;
+    const t = setInterval(() => { if (!isSectionUnlocked()) setSectionUnlocked(false); }, 30_000);
+    return () => clearInterval(t);
+  }, [sectionUnlocked]);
   const [txnSearchQuery, setTxnSearchQuery] = useState('');
   const [txnLoading, setTxnLoading] = useState(false);
   const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
@@ -2371,7 +2379,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         >
           <CreditCard className="w-4 h-4 text-emerald-500" />
           <span>Payment Transactions (Razorpay)</span>
-          {paymentTransactions.length > 0 && (
+          {sectionUnlocked && paymentTransactions.length > 0 && (
             <span className="px-1.5 py-0.5 rounded-full bg-emerald-500 text-white text-[10px] font-mono font-bold">
               {paymentTransactions.length} Paid
             </span>
@@ -5002,7 +5010,23 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       )}
 
       {/* TAB 4: ENROLLED CANDIDATES & DOMICILE DIRECTORY */}
-      {adminTab === 'students' && (
+      {(adminTab === 'students' || adminTab === 'transactions') && !sectionUnlocked && (
+        <SectionPasswordGate
+          sectionName={adminTab === 'students' ? 'Student Directory & Access' : 'Payment Transactions'}
+          onUnlock={() => setSectionUnlocked(true)}
+        />
+      )}
+      {(adminTab === 'students' || adminTab === 'transactions') && sectionUnlocked && (
+        <div className="flex justify-end">
+          <button
+            onClick={() => { lockSection(); setSectionUnlocked(false); }}
+            className="px-3 py-1.5 rounded-full text-xs font-bold bg-[var(--surface2)] text-[var(--muted)] border border-[var(--border)] cursor-pointer"
+          >
+            🔒 Lock Students & Payments
+          </button>
+        </div>
+      )}
+      {adminTab === 'students' && sectionUnlocked && (
         <div className="space-y-6">
           <div className="bg-white p-6 sm:p-8 rounded-2xl border border-[#e2e8f4] text-[#0f172a] shadow-sm space-y-6">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4">
@@ -5166,7 +5190,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
       
       {/* TAB 6: PAYMENT TRANSACTIONS (RAZORPAY) */}
-      {adminTab === 'transactions' && (
+      {adminTab === 'transactions' && sectionUnlocked && (
         <div className="space-y-6">
           <div className="bg-white p-6 sm:p-8 rounded-2xl border border-[#e2e8f4] shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
